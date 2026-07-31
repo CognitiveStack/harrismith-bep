@@ -6,7 +6,7 @@
 > **Authority:** None. Training/reference implementation. Non-contractual.
 > **Architecture:** Architecture Baseline v1 (frozen at Gate B). Sections are not
 > to be renumbered, merged, split or resequenced.
-> **Drafted to date:** Sections 1–7. Sections 8–13 remain scaffold.
+> **Drafted to date:** Sections 1–10. Sections 11–13 remain scaffold.
 
 Statements in this document are individually classified as OBSERVED FACT,
 TRAINING ASSUMPTION, PROPOSED GOVERNANCE, APPROVED GOVERNANCE or UNRESOLVED
@@ -157,7 +157,7 @@ or authorised. Authority is never inferred upward from platform configuration.
 | Document title | Harrismith Fire Station — BIM Execution Plan |
 | Document identifier | TBD — pending the project naming standard |
 | Version | Pre-baseline controlled draft |
-| Status | Draft — Sections 1–7 drafted; Sections 8–13 scaffold |
+| Status | Draft — Sections 1–10 drafted; Sections 11–13 scaffold |
 | Maintainer role | TBD — to be defined in Section 5 |
 | Approval / authorising role | TBD — to be defined in Section 5 |
 | Issue date | Not issued |
@@ -1557,21 +1557,768 @@ duplicated between them.
 
 ## 8. Model and Information Coordination
 
-TBD — To be developed.
+### 8.1 Coordination Purpose and Principles
 
-Supported by `supporting/coordination-review-strategy.md`.
+Coordination is the controlled multidisciplinary process used to **identify,
+communicate, resolve and verify information-interface problems**.
+
+Its purpose is not to generate clash counts. A clash count measures how much
+software found; it says nothing about whether anything was understood, decided
+or fixed.
+
+| Principle | |
+|---|---|
+| **Controlled inputs** | Coordination uses controlled information inputs, not working state. |
+| **Responsibility stays put** | Originating task teams retain technical responsibility throughout. |
+| **Findings require triage** | Detection output is not conclusion. |
+| **Not every clash is an issue** | Formal issues are created deliberately, not automatically. |
+| **Issues are assigned and traceable** | A formal issue has an owner and a history. |
+| **Verification ≠ approval** | Verifying resolution is not technical or design approval. |
+| **Completion is by disposition** | Completion rests on required checks and dispositions, not on an absolute zero-clash state. |
+
+### 8.2 Coordination Scope and Participants
+
+Intended design coordination scope may include the discipline domains:
+
+| ARC | STR | MEC | ELE | PLM | FIR |
+|---|---|---|---|---|---|
+
+These are **discipline domains**, not necessarily six companies and not
+necessarily six platform teams (sections 4.3, 4.4, 4.5).
+
+Construction and trade coordination may be introduced later, when the relevant
+task teams enter the training delivery workflow (section 4.3).
+
+Participants may include:
+
+- BIM Coordinator;
+- Task-Team Leads;
+- relevant Authors and Checkers;
+- BIM Manager, for governance and escalation where required;
+- the Lead Delivery Party function, where project-level coordination requires it.
+
+No actual people are appointed. **Not every participant is responsible for every
+finding** — participation is scoped to the interfaces a team actually holds.
+
+### 8.3 Coordination Inputs and Readiness
+
+Coordination inputs normally come from **controlled Shared information** that has
+passed the readiness process in Sections 6 and 7. Uncontrolled WIP is not the
+normal project coordination input (section 6.6).
+
+Before coordination, confirm as appropriate:
+
+- identity of the input;
+- originator / task team;
+- intended coordination purpose;
+- current version or revision, where applicable;
+- coordinate and reference context;
+- completeness and readiness;
+- known exclusions or limitations;
+- known unresolved interfaces.
+
+**Coordination readiness is not design completeness.** Information can be ready
+to coordinate while remaining incomplete, unapproved and subject to change. The
+two questions are separate.
+
+### 8.4 Coordination Environments and Tools
+
+| Environment | Role |
+|---|---|
+| Autodesk Model Coordination | Intended project-facing cloud environment for multidisciplinary aggregation, review and clash/interface coordination, where configured and appropriate |
+| Navisworks | Specialist desktop coordination and analysis environment, where detailed desktop federation or review is useful |
+| Forma Issues / project issue workflow | Governed project record for coordination issues and actions, where used |
+
+Four constraints:
+
+- **Tools do not define responsibility.** Responsibility comes from Sections 4
+  and 5.
+- **A software clash result is not automatically a managed issue.** It becomes
+  one by triage and decision (section 8.7).
+- **Use of Navisworks does not create a second governance system.** Desktop
+  analysis feeds the agreed workflow; it does not run in parallel to it.
+- **Issue status remains traceable through the agreed workflow**, wherever the
+  analysis was performed.
+
+**As-found qualification.** During discovery the project contained a Navisworks
+coordination area with limited observed content, and no Design Collaboration
+Coordination Space was observed as configured (section 4.5). These are OBSERVED
+FACTS about the state at discovery. No maturity is claimed, and **no platform
+change is proposed here**.
+
+### 8.5 Model Federation
+
+Federation is the **temporary, controlled aggregation** of separate discipline or
+task-team information for coordination purposes.
+
+Federation does **not**:
+
+- merge authorship;
+- transfer technical ownership;
+- create a new design author;
+- turn discipline models into one jointly-owned authoring model.
+
+Originators remain responsible for their own information. The federation is a
+lens for multidisciplinary understanding and review — it is not a deliverable
+that anyone authored, and nobody becomes responsible for another team's content
+by appearing alongside it.
+
+### 8.6 Clash Detection and Coordination Review
+
+Clash detection is **one coordination technique**, not the whole of coordination.
+
+Purpose-based checks may include:
+
+- hard clashes;
+- clearance and interface conflicts;
+- spatial access conflicts;
+- discipline interface conflicts;
+- model alignment and reference problems.
+
+**Blind all-versus-all clash testing is not required.** Testing everything
+against everything produces volume, not insight, and buries the findings that
+matter.
+
+Detailed clash and interface combinations, tolerances and exclusions belong in
+the Coordination & Review Strategy.
+
+**A clash result is triaged before any formal issue is created.**
+
+### 8.7 Coordination Issues
+
+| Term | Meaning |
+|---|---|
+| **Clash / finding** | A detection or observation requiring triage |
+| **Issue** | A governed record created because an actionable coordination matter requires assignment, tracking, decision or verification |
+
+**Not every clash becomes an Issue.** Many findings are tolerable, duplicated,
+out of scope, already known, or artefacts of the test setup. Creating an issue is
+a decision.
+
+An Issue should normally carry enough information to identify:
+
+- what the problem is;
+- the affected information or interface;
+- the responsible task team or role;
+- the required action or outcome;
+- status;
+- relevant evidence and context.
+
+No project issue numbering or status codes are created in this increment.
+Detailed taxonomy belongs in the Coordination & Review Strategy.
+
+### 8.8 Coordination Cycle
+
+```
+controlled Shared information
+  → input / readiness check
+  → federation
+  → coordination checks
+  → triage findings
+  → create / assign Issues where required
+  → originating task team resolves in WIP
+  → task-team check
+  → controlled reshare
+  → recoordinate
+  → verify resolution
+  → close / disposition
+  → retain evidence
+```
+
+**The originating task team makes the technical change.** Resolution happens in
+that team's own WIP environment, through its own checking route.
+
+**The BIM Coordinator manages the process, not the solution.** Identifying a
+conflict does not make the coordinator the author of its remedy, and does not
+transfer the design decision to them.
+
+### 8.9 Meetings, Decisions and Communication
+
+Coordination meetings support decisions. **A meeting is not the authoritative
+information model**, and a discussion is not a record.
+
+Meetings may be used to:
+
+- review unresolved interfaces;
+- confirm ownership;
+- agree next actions;
+- escalate blockers;
+- record decisions affecting multiple teams.
+
+**Decisions of consequence are captured in the appropriate controlled record.**
+Reliance on undocumented verbal decisions is not acceptable — a decision nobody
+can produce afterwards did not happen, whatever was said in the room.
+
+Meeting frequency is not prescribed in this increment, and no separate
+meeting-governance system is created.
+
+### 8.10 Issue Resolution and Verification
+
+The assigned or originating task team resolves the technical issue through its
+own controlled WIP process:
+
+```
+resolve in WIP
+  → check
+  → share revised information
+  → recoordinate
+  → verify
+```
+
+The BIM Coordinator may verify that the coordination problem is no longer present
+or has been dispositioned appropriately.
+
+**That verification is not:**
+
+- discipline design approval;
+- professional certification;
+- acceptance of technical responsibility.
+
+Technical and design responsibility remains with the originating task team,
+before and after verification.
+
+### 8.11 Coordination Completion and Acceptance
+
+**Completion is not "zero clashes."** A zero-clash report can be produced by
+testing nothing, excluding everything, or resolving symptoms rather than
+interfaces.
+
+Completion of a defined coordination cycle means, as applicable:
+
+- required coordination checks were performed;
+- significant findings were triaged;
+- required Issues were assigned;
+- required resolutions or dispositions were recorded;
+- verification was completed where required;
+- known unresolved matters were explicitly carried forward or escalated.
+
+**Completion is purpose-specific.** A completed coordination cycle does not mean
+the project design is complete, approved or accepted.
+
+### 8.12 Exceptions and Escalation
+
+Escalate where coordination cannot be resolved through the normal task-team
+cycle. Examples:
+
+- an unresolved multidisciplinary interface;
+- conflicting design decisions;
+- a missing input preventing coordination;
+- a repeatedly unresolved issue;
+- a coordinate or reference problem affecting multiple teams;
+- a platform or configuration problem affecting the coordination process.
+
+An escalation should identify:
+
+| Field |
+|---|
+| The issue |
+| Affected teams |
+| Decision required |
+| Impact |
+| Required decision owner / function |
+
+**Escalation authorities are not invented.** Where the role that should decide
+remains TBD (Sections 5.3, 5.4, 9.7), the escalation records that the decision
+owner is unresolved rather than naming one. Detailed exception governance belongs
+to Section 12.
+
+### 8.13 Coordination & Review Strategy Reference
+
+Detailed coordination arrangements are recorded in
+`supporting/coordination-review-strategy.md`.
+
+That resource is **not populated in this increment.**
+
+Section 8 establishes the governing principles. The supporting strategy will hold
+the detail:
+
+- coordination scope;
+- participant mapping;
+- input register and readiness;
+- federation arrangements;
+- clash / interface matrix;
+- tolerances and exclusions;
+- issue taxonomy and statuses;
+- assignment workflow;
+- coordination cycle;
+- meetings;
+- verification;
+- escalation;
+- outputs and evidence.
 
 ## 9. Review, Approval and Authorisation
 
-TBD — To be developed.
+### 9.1 Purpose and Principles
 
-Supported by `supporting/coordination-review-strategy.md`.
+Section 9 is the **decision-control layer between production and use**. It
+governs the decisions that let information move, and the decisions that let
+information be relied on.
+
+| Principle | |
+|---|---|
+| **Check ≠ approval** | Checking verifies against a requirement; it approves nothing. |
+| **Coordination ≠ technical approval** | A coordination disposition is not a design decision. |
+| **Authorisation is purpose-specific** | Information is authorised *for* something, never in general. |
+| **Publication ≠ acceptance** | Issuing information does not mean anyone accepted it. |
+| **Acceptance ≠ transfer** | Acceptance does not move professional responsibility off the originator. |
+| **Decisions are traceable** | Who decided what, when and for what purpose is recoverable. |
+| **Authority comes from governance** | Not from platform access, permission or configuration. |
+
+The word "approve" is used sparingly and precisely in this BEP, because it is the
+term most often used to mean whichever decision the speaker wishes had been made.
+
+### 9.2 Review and Decision Terminology
+
+| Term | Meaning |
+|---|---|
+| **Check** | Verification against a defined requirement before progression |
+| **Review** | Consideration of information for a stated purpose |
+| **Authorise** | Permit information to progress, share, publish or exchange for a defined purpose |
+| **Accept** | Recipient acknowledges information as suitable or received for the stated purpose, subject to the project arrangement |
+| **Reject** | Information is not accepted for the stated progression or use, and action is required |
+| **Coordinate** | The multidisciplinary interface process — not design approval |
+
+**These terms are not collapsed into "approval."** Each names a different
+decision, made by a different function, against different criteria. Where a
+statement in this project means one of these, it uses that word.
+
+### 9.3 Task-Team Check
+
+Task-team checking occurs before information progresses from WIP. The task team
+verifies the required:
+
+- technical and content quality;
+- information quality;
+- readiness and interface conditions.
+
+Checking confirms **readiness for the next controlled decision**.
+
+**Checking does not automatically authorise sharing.** A checked container is a
+container that is ready to be considered for progression — the progression itself
+is a separate decision (section 9.4).
+
+### 9.4 Authorisation to Share
+
+The Task-Team Lead — or another role explicitly allocated that function by
+approved governance — authorises information to progress from WIP to Shared.
+
+Authorisation to share means the information is considered **suitable for the
+stated sharing purpose**.
+
+It does **not** mean the information is:
+
+- suitable for construction;
+- formally published;
+- accepted by recipients;
+- technically approved for every downstream purpose.
+
+**Authorisation to share is not authorisation to publish or exchange.** Those are
+separate decisions with wider consequences, governed by section 9.7.
+
+### 9.5 Multidisciplinary Coordination Review
+
+Coordination review evaluates shared multidisciplinary information for the
+defined coordination purpose.
+
+The BIM Coordinator manages the coordination process. Task-Team Leads retain
+responsibility for the technical content of their information and for its
+technical resolution.
+
+**A coordination-cycle disposition does not constitute discipline design
+approval.** That a clash was closed, waived or carried forward says how the
+coordination process treated it — not that any discipline approved the design
+condition behind it.
+
+### 9.6 Delivery Review
+
+Delivery review occurs **before an information exchange is authorised**. It may
+consider:
+
+- completeness of the required exchange;
+- correct containers;
+- required formats;
+- required checks complete;
+- coordination status appropriate to the delivery purpose;
+- metadata and identification;
+- known exclusions or limitations;
+- intended recipient and purpose.
+
+**Delivery review is broader than clash review.** Coordination asks whether the
+information works with other information. Delivery review asks whether the right
+information, in the right form, is being sent to the right recipient for a
+purpose it can serve.
+
+Detailed delivery checklists are not created here; they belong in supporting
+resources.
+
+### 9.7 Authorisation to Publish / Exchange
+
+Only information authorised for the identified purpose enters the
+Published/Authorised state or a formal exchange.
+
+**The role holding publication and exchange authority is UNRESOLVED.** It depends
+on the approved delivery arrangement, which does not yet exist (sections 2.3,
+2.6). It is **not** automatically held by:
+
+- the BIM Manager;
+- the BIM Coordinator;
+- the CDE Administrator;
+- the Architect.
+
+Until the delivery arrangement is approved, this authority remains **TBD**, and
+this document says so rather than defaulting it to whichever role is nearest.
+
+**Platform write permission is not publication authority** (sections 5.9, 6.9).
+Being able to place a file in a published location is a software capability, not
+a decision anyone made.
+
+### 9.8 Recipient Acceptance
+
+Receiving and accepting information is a **separate function occurring after
+delivery**. Acceptance is:
+
+- for a defined purpose;
+- based on the applicable requirement;
+- traceable where required.
+
+Acceptance does **not**:
+
+- transfer technical responsibility from the originator;
+- make the information suitable for unrelated purposes;
+- automatically approve the design.
+
+**No Appointing Party acceptance workflow is defined.** No appointing party has
+been established (sections 2.3, 5.3), and no acceptance authority is invented
+here. Where acceptance is exercised in the training workflow, it is exercised in
+a simulated capacity under TA-02.
+
+### 9.9 Rejection, Rework and Resubmission
+
+Where information is rejected or found unsuitable:
+
+```
+rejection / return
+  → reason recorded
+  → originating task team reworks in WIP
+  → check
+  → reauthorise
+  → reshare / republish / resubmit
+  → rereview as required
+```
+
+**Prior versions and exchanges are preserved for traceability.** History is not
+overwritten to remove failed submissions. What was submitted, why it was
+rejected, and what changed are part of the project record — and are usually the
+most instructive part of it.
+
+### 9.10 Progressive BEP Agreement and Sign-Off
+
+The same governance model applies to this BEP itself:
+
+```
+working draft
+  → controlled review
+  → decisions resolved
+  → baseline candidate
+  → authorised training baseline
+  → controlled publication
+```
+
+Progressive baselines — 0.1, 0.2, … 1.0 — are used **as a governance concept
+only**.
+
+**Baseline 0.1 is not approved.** This document remains a controlled draft
+(section 1.2). No baseline has been authorised, and no real contractual
+signatory is assigned; the authorising role remains TBD (section 1.6).
+
+Later baselines supersede earlier ones. Historical traceability is retained
+through version control (section 9.11).
+
+### 9.11 Evidence and Traceability
+
+Evidence may include, as appropriate:
+
+- version history;
+- checking records;
+- review records;
+- coordination issue history;
+- decision records;
+- meeting decisions;
+- publication records;
+- transmission records;
+- acceptance and rejection records;
+- Git history, for BEP authoring.
+
+**Not every platform feature is required for every evidence type.** The evidence
+must be sufficient and traceable; it need not be produced by any particular
+software function.
+
+**Git history proves authorship, not issue.** It records what changed in the
+authoring source and when. It does **not** by itself demonstrate that anything
+was issued to the CDE, published, delivered or accepted on the project (sections
+1.2, 6.10).
+
+### 9.12 Delegation, Independence and Role Combination
+
+The Section 5.11 principles apply to every decision in this section. Functions
+may be combined in this small training implementation, but:
+
+- delegation must be explicit;
+- role combination does not collapse the meanings of the decisions;
+- independence limitations remain visible;
+- platform permission does not constitute delegation;
+- a participant must know which function they are exercising at each decision.
+
+**Independent checking is not claimed where it did not occur.** Where one
+participant performed both the authoring and the checking, the record says so.
+An overstated independence claim is more damaging than an acknowledged
+limitation, because it removes the reader's ability to weigh the evidence.
+
+### 9.13 Supporting Resource References
+
+| Resource | Relevance to Section 9 |
+|---|---|
+| `supporting/information-management-responsibility-matrix.md` | Which role performs, checks, authorises, accepts |
+| `supporting/information-delivery-schedule.md` | Which exchanges require which decisions |
+| `supporting/coordination-review-strategy.md` | Coordination review and verification detail |
+| `supporting/governance-decision-register.md` | Decisions taken, and authorities still unresolved |
+
+**No new Review Matrix is created.** Section 9 defines the decision terminology
+and principles; detailed allocation and evidence belong in the existing supporting
+resources above. None of them is populated in this increment.
 
 ## 10. Information Delivery and Exchange
 
-TBD — To be developed.
+### 10.1 Delivery Principles
 
-Supported by `supporting/information-delivery-schedule.md`.
+An information delivery is tied to:
+
+| A need | A recipient | A purpose |
+|---|---|---|
+| **Timing / event** | **Required content** | **Format** |
+| **Readiness** | **Authorisation** | |
+
+**Presence in Published does not establish a delivery.** Information sitting in a
+published location has not been delivered to anyone; delivery is an act with a
+recipient and a purpose, not a location.
+
+Delivery remains traceable — what was sent, by whom, to whom, when and why
+(section 10.10).
+
+### 10.2 Information Requirements
+
+Delivery responds to defined information requirements.
+
+**Where formal client or project information requirements have not been
+established or made available to this training implementation, they are not
+invented** (section 7.3). Training requirements may be developed for the
+exercise, and are explicitly classified as PROPOSED GOVERNANCE or TRAINING
+ASSUMPTION.
+
+This records what is available to this implementation. It is **not** a claim that
+no such requirements exist elsewhere. The section 1.5 precedence hierarchy
+remains applicable: if real requirements later become available, they take
+precedence over anything developed in their absence.
+
+### 10.3 Delivery Events and Milestones
+
+A delivery event is a defined point at which identified information is exchanged
+for an identified purpose.
+
+Possible training examples — **examples only**:
+
+- design coordination exchange;
+- design review;
+- tender / pricing information;
+- construction information;
+- record / handover information.
+
+**These do not become project milestones by appearing in this BEP.** No
+contractual dates exist (section 2.3), and none are invented. Actual approved
+events belong in the Information Delivery Schedule, which is not populated.
+
+### 10.4 Deliverables and Information Containers
+
+**A delivery is not synonymous with a file.** One exchange may carry several
+information containers, for example:
+
+- models;
+- drawings;
+- schedules;
+- reports;
+- specifications;
+- supporting records.
+
+Each container retains identifiable **origin, purpose and responsibility**
+(section 7.2), regardless of what it was bundled with.
+
+The project's final deliverable list is not created in this increment.
+
+### 10.5 Task-Team Delivery Planning
+
+Each task team should understand:
+
+- what it must produce;
+- for which event;
+- for whom;
+- the purpose;
+- the format;
+- the required checks;
+- the required authorisation;
+- its dependencies.
+
+Task-team commitments feed the project-level delivery plan (section 10.6).
+Detailed entries belong in the Information Delivery Schedule.
+
+### 10.6 Project-Level Delivery Planning
+
+The **Lead Delivery Party** function coordinates the overall delivery plan across
+task teams. The **BIM Manager** supports the information-management governance of
+that plan.
+
+**These are two functions and are not automatically held by the same
+participant** (sections 4.6, 5.4, 5.11).
+
+Project-level planning reconciles:
+
+- task-team commitments;
+- dependencies;
+- exchange events;
+- coordination needs;
+- recipient requirements;
+- delivery readiness.
+
+**Lead Delivery Party holder: TBD.**
+
+### 10.7 Exchange Purpose and Suitability
+
+Every formal exchange has a known purpose. Examples — **not currently approved
+project uses**:
+
+- coordination;
+- review;
+- pricing;
+- construction;
+- record / reference.
+
+**Suitability is purpose-specific** (section 6.8):
+
+- information suitable for coordination may not be suitable for construction;
+- information suitable for review may not be accepted as record information.
+
+Suitability for one purpose is never evidence of suitability for another.
+
+### 10.8 Formats and Deliverable Composition
+
+Formats are selected according to:
+
+- purpose;
+- recipient;
+- interoperability need;
+- authoring requirement;
+- record requirement;
+- project standard.
+
+**No universal format is imposed on every task team.**
+
+Observed and current contexts may include formats such as RVT, IFC, PDF or NWC.
+Their **actual required use must be defined by the approved delivery plan** — an
+observed historical file format is evidence of what has been produced, not a
+mandatory future requirement (section 4.7).
+
+### 10.9 Delivery Preparation and Authorisation
+
+Before formal exchange, verify as applicable:
+
+- correct containers included;
+- correct versions and revisions;
+- checks complete;
+- coordination status appropriate;
+- identifiers and metadata;
+- formats;
+- known limitations;
+- intended purpose and recipient;
+- required publication or exchange authorisation (section 9.7).
+
+The detailed checklist belongs in the supporting resources.
+
+### 10.10 Controlled Issue and Transmission
+
+Formal exchange uses a controlled route appropriate to the purpose.
+
+A transmission record can evidence:
+
+| What was sent | When | By whom / which role | To whom | For what purpose |
+|---|---|---|---|---|
+
+Two distinctions:
+
+- **A transmission record is not the information.** It is evidence that an
+  exchange occurred, not a container of what was exchanged.
+- **A transmittal is not technical approval.** Sending information formally says
+  nothing about whether its content was approved by anyone.
+
+**Transmittals are not required for every internal share.** The workflow is
+matched to the delivery type — formal external issue and routine internal
+sharing are different acts with different evidence needs.
+
+### 10.11 Receipt and Acceptance
+
+Four distinct states and events, routinely conflated:
+
+| Term | Meaning |
+|---|---|
+| **Published** | Authorised for a defined purpose and placed in the authorised state |
+| **Delivered** | Sent to an identified recipient for an identified purpose |
+| **Received** | Arrived with, and was registered by, the recipient |
+| **Accepted** | Acknowledged by the recipient as suitable for the stated purpose |
+
+- **Delivery does not prove acceptance.**
+- **Receipt does not prove suitability.**
+- **Acceptance applies to the identified purpose and requirement**, and to
+  nothing beyond it.
+
+**No acceptance authorities are invented.** Where the accepting role remains
+unresolved (sections 5.3, 9.7, 9.8), it remains **TBD**.
+
+### 10.12 Failed, Superseded and Revised Deliveries
+
+Where a delivery fails review or acceptance, or requires revision:
+
+- the reason is recorded;
+- the originator or task team reworks through controlled WIP;
+- revised information is checked;
+- it is reauthorised;
+- it is reissued;
+- the previous delivery remains traceable.
+
+**Superseded deliveries do not silently disappear.** They are marked superseded,
+not removed (sections 7.10, 9.9).
+
+**Not every new platform version is a revised delivery.** A version is a file
+history instance; a revised delivery is an authorised exchange event. The first
+does not create the second (section 6.8).
+
+### 10.13 Information Delivery Schedule Reference
+
+Detailed delivery planning is recorded in
+`supporting/information-delivery-schedule.md`.
+
+That resource is **not populated in this increment**, and no real rows are
+created.
+
+The schedule will include fields equivalent to:
+
+| Field | Field |
+|---|---|
+| Delivery ID | Purpose |
+| Exchange / milestone | Format |
+| Information container | State / suitability |
+| Party | Checking requirement |
+| Task team | Authorisation requirement |
+| Discipline | Acceptance criteria |
+| Lead | Status |
+| Recipient | Dependencies |
 
 ## 11. Standards and Project Conventions
 
