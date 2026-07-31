@@ -1,7 +1,7 @@
 # Harrismith Fire Station — BIM Execution Plan
 
-> **Status:** Controlled draft.
-> **Target baseline:** BEP Training Baseline 0.1 — in development, **not approved**.
+> **Status:** **FOR REVIEW — Training Baseline 0.1 Candidate.** **Not approved.**
+> **Target baseline:** BEP Training Baseline 0.1 — candidate for review, **not approved**.
 > **Issued to CDE:** No.
 > **Authority:** None. Training/reference implementation. Non-contractual.
 > **Architecture:** Architecture Baseline v1 (frozen at Gate B). Sections are not
@@ -41,8 +41,9 @@ local habit.
 
 | Field | Value |
 |---|---|
-| Document status | Controlled draft |
-| Target baseline | BEP Training Baseline 0.1 — in development, **not approved** |
+| Document status | **FOR REVIEW — Training Baseline 0.1 Candidate** |
+| Approval | **Not approved.** Candidate review does not confer approval |
+| Target baseline | BEP Training Baseline 0.1 — candidate for review, **not approved** |
 | Authority | None — training/reference implementation, non-contractual |
 | Issued to CDE | No |
 | Architecture | Architecture Baseline v1 — frozen |
@@ -158,8 +159,8 @@ or authorised. Authority is never inferred upward from platform configuration.
 |---|---|
 | Document title | Harrismith Fire Station — BIM Execution Plan |
 | Document identifier | TBD — pending the project naming standard |
-| Version | Pre-baseline controlled draft |
-| Status | Draft — Sections 1–13 drafted; no section approved |
+| Version | Training Baseline 0.1 Candidate — pre-baseline, not approved |
+| Status | FOR REVIEW — Training Baseline 0.1 Candidate; no section approved |
 | Maintainer role | TBD — to be defined in Section 5 |
 | Approval / authorising role | TBD — to be defined in Section 5 |
 | Issue date | Not issued |
@@ -2042,9 +2043,9 @@ working draft
 Progressive baselines — 0.1, 0.2, … 1.0 — are used **as a governance concept
 only**.
 
-**Baseline 0.1 is not approved.** This document remains a controlled draft
-(section 1.2). No baseline has been authorised, and no real contractual
-signatory is assigned; the authorising role remains TBD (section 1.6).
+**Baseline 0.1 is not approved.** This document's current status is declared in
+section 1.2. No baseline has been authorised, and no real contractual signatory
+is assigned; the authorising role remains TBD (section 1.6).
 
 Later baselines supersede earlier ones. Historical traceability is retained
 through version control (section 9.11).

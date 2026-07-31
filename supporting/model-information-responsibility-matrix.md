@@ -19,9 +19,9 @@ Referenced by BEP sections 7.2 and 7.12.
 
 | Field | Value |
 |---|---|
-| Document status | **Controlled Draft** |
-| Authority | Supporting management resource to the Harrismith BEP controlled draft |
-| Approval | **Not approved** as part of BEP Training Baseline 0.1 |
+| Document status | **FOR REVIEW — Training Baseline 0.1 Candidate** |
+| Authority | Supporting management resource under the Harrismith BEP framework |
+| Approval | **Not approved.** Candidate review does not confer approval |
 | Supports | BEP section 7 — Information Production and Sharing |
 
 **Classification of the allocations below.** Every allocation in section 3 is

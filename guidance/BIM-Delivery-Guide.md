@@ -4,10 +4,10 @@
 
 | Field | Value |
 |---|---|
-| Document status | **Controlled Draft** |
+| Document status | **FOR REVIEW — Companion to Training Baseline 0.1 Candidate** |
 | Nature | **Educational / onboarding guidance** |
 | Authority | **None.** This Guide governs nothing |
-| Approval | **Not approved** as part of BEP Training Baseline 0.1 |
+| Approval | **Not approved.** Inclusion in candidate review confers no governing status |
 
 **If this Guide ever disagrees with a controlled governing resource, the
 controlled resource wins.** Tell someone — that is a contribution worth making
@@ -135,7 +135,8 @@ Git                     →  controlled authoring and history for BEP source
 ### Current status — read this before relying on anything
 
 - This is a **training and reference implementation**.
-- The BEP and all six supporting resources exist as **controlled drafts**.
+- The BEP and all six supporting resources are **FOR REVIEW** as the Training
+  Baseline 0.1 Candidate. Each declares its own status.
 - **BEP Training Baseline 0.1 is not approved.**
 - **Gate C has not passed.**
 - **Live-project validation has not been performed.**

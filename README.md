@@ -3,8 +3,9 @@
 Controlled authoring repository for the Harrismith Fire Station BIM Management
 and BIM Execution Plan (BEP) training implementation.
 
-**Status:** Every document in this repository is a **controlled draft**. Nothing
-is approved, baselined or issued. Current maturity is stated in section 5.
+**Status:** The management-document system is **FOR REVIEW** as the Training
+Baseline 0.1 Candidate. Nothing is approved, baselined or issued. Current
+maturity is stated in section 5.
 
 ---
 
@@ -153,34 +154,36 @@ repository.
 | Implementation Increment 5 | Complete — BIM Delivery Guide implemented as a Controlled Draft |
 | Implementation Increment 6A | Complete — cross-document consistency audit performed; result **PASS WITH FINDINGS** |
 | Implementation Increment 6B | Complete — audit corrections applied |
-| Implementation Increment 7A | Halted at read-only pre-flight — further stale statements found; candidate preparation not begun |
+| Implementation Increment 7A (first attempt) | Halted at read-only pre-flight — further stale statements found; no candidate created |
 | Implementation Increment 6C | Complete — pre-candidate stale-language corrections applied |
+| Implementation Increment 7A (re-attempt) | Complete — **Training Baseline 0.1 Candidate** prepared for review |
 
 All 13 main BEP sections now contain substantive draft content.
 
-This means the main BEP is **structurally complete as a draft**. It does not
-mean the BEP is approved, baselined, issued to the CDE, validated against the
-live project, or ready for contractual use. The BEP remains a controlled draft
-working toward **BEP Training Baseline 0.1**, which is **not approved**.
+This means the main BEP is **structurally complete**. It does not mean the BEP is
+approved, baselined, issued to the CDE, validated against the live project, or
+ready for contractual use.
 
-All six supporting management resources are populated as controlled drafts: the
+All six supporting management resources are substantively populated: the
 Governance & Decision Register, the Information Management Responsibility
 Matrix, the Model / Information Responsibility Matrix, the Information Delivery
 Schedule, the CDE Workflow & State Strategy and the Coordination & Review
 Strategy. The **Working Process** and the **BIM Delivery Guide** are implemented
-as controlled drafts. The project standards remain unpopulated.
+as companion documents. The project standards remain unpopulated.
 
-The main document system is therefore substantively implemented. That statement
-is about coverage only. Every one of these documents is a **controlled draft**:
+The **Training Baseline 0.1 Candidate** has been prepared. Its scope, authority
+boundary and exclusions are recorded in
+[`docs/Training-Baseline-0.1-Candidate.md`](docs/Training-Baseline-0.1-Candidate.md).
 
-- **cross-document validation and the pre-candidate corrective passes are
-  complete; Training Baseline 0.1 candidate preparation may be re-attempted,
-  subject to review of this corrective pass;**
-- **Baseline 0.1 remains unapproved;**
-- **no Baseline 0.1 candidate has been prepared;**
+The candidate status is **FOR REVIEW**. That is a review designation, not an
+approval:
+
+- **the Training Baseline 0.1 Candidate is NOT approved;**
+- **candidate review has not yet been carried out;**
 - **live-project validation has not been performed;**
 - **Gate C has not passed;**
-- **nothing has been published as an approved BEP baseline.**
+- **nothing has been published as an approved BEP baseline;**
+- **the project standards remain Not established and are outside the candidate.**
 
 Architecture Baseline v1 is **frozen**. The document architecture recorded in
 section 3 is not to be redesigned during implementation increments. Proposed

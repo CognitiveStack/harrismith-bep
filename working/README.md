@@ -11,9 +11,9 @@ controlled governance.
 
 | Field | Value |
 |---|---|
-| Document status | **Controlled Draft** |
-| Authority | Supports development and operation of the Harrismith BEP training system |
-| Approval | **Not approved** as part of BEP Training Baseline 0.1 |
+| Document status | **FOR REVIEW — Companion to Training Baseline 0.1 Candidate** |
+| Authority | **None.** Participatory mechanism supporting the Harrismith BEP training system. **Not a governance authority** |
+| Approval | **Not approved.** Inclusion in candidate review confers no governing status |
 | Supports | BEP section 1.4 |
 
 **This process is not:**

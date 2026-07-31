@@ -11,13 +11,13 @@ Referenced by BEP section 12.13.
 
 | Field | Value |
 |---|---|
-| Document status | **Controlled Draft** |
-| Authority | Supporting management resource to the Harrismith BEP controlled draft |
-| Approval | **Not approved** as part of BEP Training Baseline 0.1 |
+| Document status | **FOR REVIEW — Training Baseline 0.1 Candidate** |
+| Authority | Supporting management resource under the Harrismith BEP framework |
+| Approval | **Not approved.** Candidate review does not confer approval |
 | Supports | BEP section 12 — Governance, Change and Exceptions |
 
-This is the intended consolidated governance register. Its current content is
-part of the controlled draft system and carries no project authority.
+This is the intended consolidated governance register. Its current content
+carries no project authority; its status is declared in the table above.
 
 **One register only.** Competing governance registers are not created (BEP
 12.13).
@@ -372,7 +372,7 @@ in the CDE Workflow & State Strategy, or in any other document in this set.
 *No discrete proposed-governance entries recorded.*
 
 The proposed governance framework for this implementation is the BEP itself,
-which is a controlled draft (BEP 1.2). It is not duplicated here. This section
+whose status is declared in BEP 1.2. It is not duplicated here. This section
 records discrete governance proposals that need their own decision history —
 for example a proposed change to an already-approved rule.
 
