@@ -145,7 +145,8 @@ repository.
 | Implementation Increment 2C | Complete — BEP sections 6–7 drafted |
 | Implementation Increment 2D | Complete — BEP sections 8–10 drafted |
 | Implementation Increment 2E | Complete — BEP sections 11–13 drafted; main BEP draft complete |
-| Implementation Increment 3A | This increment — Governance & Decision Register and Information Management Responsibility Matrix populated as controlled drafts |
+| Implementation Increment 3A | Complete — Governance & Decision Register and Information Management Responsibility Matrix populated as controlled drafts |
+| Implementation Increment 3B | This increment — Model / Information Responsibility Matrix and Information Delivery Schedule populated as controlled drafts |
 
 All 13 main BEP sections now contain substantive draft content.
 
@@ -154,11 +155,14 @@ mean the BEP is approved, baselined, issued to the CDE, validated against the
 live project, or ready for contractual use. The BEP remains a controlled draft
 working toward **BEP Training Baseline 0.1**, which is **not approved**.
 
-Two supporting management resources — the Governance & Decision Register and the
-Information Management Responsibility Matrix — are populated as controlled
-drafts. The remaining four supporting resources, the Working Process, the BIM
-Delivery Guide and the project standards remain unpopulated. The
-supporting-resource phase is **not** complete, and no Baseline 0.1 candidate
+Four supporting management resources are populated as controlled drafts: the
+Governance & Decision Register, the Information Management Responsibility
+Matrix, the Model / Information Responsibility Matrix and the Information
+Delivery Schedule. The CDE Workflow & State Strategy and the Coordination &
+Review Strategy, together with the Working Process, the BIM Delivery Guide and
+the project standards, remain unpopulated.
+
+The supporting-resource phase is **not** complete, and no Baseline 0.1 candidate
 exists.
 
 Architecture Baseline v1 is **frozen**. The document architecture recorded in
