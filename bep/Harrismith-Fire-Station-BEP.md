@@ -317,6 +317,7 @@ never silent.
 |---|---|---|
 | TA-01 | The implementation proceeds *as if* a post-appointment context exists, so that a post-appointment BEP can be exercised. No appointment exists. | Allows the BEP structure to be developed and taught realistically. |
 | TA-02 | Participants exercise defined roles in a simulated capacity. No participant holds real professional authority or duty by virtue of a role in this implementation. | Allows roles, responsibility and authorisation to be exercised without implying real authority. |
+| TA-03 | The delivery organisation and task-team structure defined in Section 4 is a training organisation model. It does not constitute actual appointment of any organisation, company, consultant, contractor or professional role. | Allows organisation, task-team, discipline and information-management responsibility interfaces to be exercised realistically. |
 
 These are to be transcribed to the Governance & Decision Register in a later
 controlled increment.
@@ -471,8 +472,9 @@ It is not an appointment structure. Specifically:
 - **Appointing Party identity: TBD.**
 - **Lead Delivery Party holder: TBD.**
 
-This assumption is declared here and joins TA-01 and TA-02 for consolidation
-into the Governance & Decision Register in a later controlled increment.
+TA-03 is recorded with TA-01 and TA-02 in the assumptions table at section 2.6,
+and joins them for transcription to the Governance & Decision Register in a
+later controlled increment.
 
 ### 4.2 Project Parties
 
