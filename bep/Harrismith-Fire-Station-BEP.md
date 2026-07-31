@@ -1226,10 +1226,11 @@ Git repository  (authoritative BEP authoring source)
   → project-facing issued baseline in Forma
 ```
 
-The Git repository is **not** inside the Desktop Connector tree and is not
-synchronised with it. **No symlink, junction, bind mount or live-sync model is
-approved**, and none exists. Publication is manual and human-performed. No
-machine-specific Desktop Connector paths are recorded in this document.
+The `harrismith-bep` repository is not configured inside, linked to, or
+live-synchronised with the Desktop Connector CDE location. **No symlink,
+junction, bind-mount or live-sync publication model is approved for this
+workflow.** Publication is manual and human-performed. No machine-specific
+Desktop Connector paths are recorded in this document.
 
 ### 6.11 As-Found vs Intended Configuration
 
@@ -1347,11 +1348,19 @@ Detailed control will come from the **Model / Information Responsibility
 Matrix** (who produces what) and the **Information Delivery Schedule** (what is
 exchanged, when and why). Neither is populated in this increment.
 
-**No client information requirements exist.** No EIR, AIR or equivalent has been
-established (sections 2.3, 2.6), and none is invented here. Until formal
-requirements are approved, production requirements developed for this
-implementation remain **PROPOSED GOVERNANCE or TRAINING ASSUMPTION**, and are
-labelled as such rather than presented as client requirements.
+**No formal information requirements are available to this implementation.** No
+formal Employer's / Exchange Information Requirements, Asset Information
+Requirements, or equivalent project information requirements have been
+established or made available to this training implementation (sections 2.3,
+2.6). None are invented by this BEP.
+
+This records what is available here. It is not a claim that no such requirements
+exist elsewhere. Should formal requirements later be produced or made available,
+they take precedence over anything developed in their absence (section 1.5).
+
+Until formal requirements are approved, production requirements developed for
+this implementation remain **PROPOSED GOVERNANCE or TRAINING ASSUMPTION**, and
+are labelled as such rather than presented as client requirements.
 
 ### 7.4 Authoring Environment
 
