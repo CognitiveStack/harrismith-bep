@@ -143,10 +143,18 @@ repository.
 | Implementation Increment 2A | Complete — BEP sections 1–3 drafted, revised after review |
 | Implementation Increment 2B | Complete — BEP sections 4–5 drafted |
 | Implementation Increment 2C | Complete — BEP sections 6–7 drafted |
-| Implementation Increment 2D | This increment — BEP sections 8–10 drafted |
+| Implementation Increment 2D | Complete — BEP sections 8–10 drafted |
+| Implementation Increment 2E | This increment — BEP sections 11–13 drafted |
 
-The BEP is a controlled draft working toward **BEP Training Baseline 0.1**.
-Baseline 0.1 is **not approved**. Sections 11–13 remain scaffold.
+All 13 main BEP sections now contain substantive draft content.
+
+This means the main BEP is **structurally complete as a draft**. It does not
+mean the BEP is approved, baselined, issued to the CDE, validated against the
+live project, or ready for contractual use. The BEP remains a controlled draft
+working toward **BEP Training Baseline 0.1**, which is **not approved**.
+
+The supporting management resources, the Working Process, the BIM Delivery
+Guide and the project standards remain unpopulated.
 
 Architecture Baseline v1 is **frozen**. The document architecture recorded in
 section 3 is not to be redesigned during implementation increments. Proposed

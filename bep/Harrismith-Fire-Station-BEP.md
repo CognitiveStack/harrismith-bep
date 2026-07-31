@@ -6,7 +6,9 @@
 > **Authority:** None. Training/reference implementation. Non-contractual.
 > **Architecture:** Architecture Baseline v1 (frozen at Gate B). Sections are not
 > to be renumbered, merged, split or resequenced.
-> **Drafted to date:** Sections 1–10. Sections 11–13 remain scaffold.
+> **Drafted to date:** Sections 1–13. All approved sections now contain
+> substantive draft content. Structurally complete is **not** approved,
+> baselined, issued or validated against the live project.
 
 Statements in this document are individually classified as OBSERVED FACT,
 TRAINING ASSUMPTION, PROPOSED GOVERNANCE, APPROVED GOVERNANCE or UNRESOLVED
@@ -157,7 +159,7 @@ or authorised. Authority is never inferred upward from platform configuration.
 | Document title | Harrismith Fire Station — BIM Execution Plan |
 | Document identifier | TBD — pending the project naming standard |
 | Version | Pre-baseline controlled draft |
-| Status | Draft — Sections 1–10 drafted; Sections 11–13 scaffold |
+| Status | Draft — Sections 1–13 drafted; no section approved |
 | Maintainer role | TBD — to be defined in Section 5 |
 | Approval / authorising role | TBD — to be defined in Section 5 |
 | Issue date | Not issued |
@@ -2324,16 +2326,628 @@ The schedule will include fields equivalent to:
 
 ## 11. Standards and Project Conventions
 
-TBD — To be developed.
+### 11.1 Standards Principles
 
-Supported by the project standards in `standards/`.
+This BEP governs **how project standards are applied**. It does not reproduce
+the standards themselves.
+
+| Principle | |
+|---|---|
+| **Detail lives in the standard** | Detailed conventions belong in controlled project standards, not in this document. |
+| **Define once** | A convention is defined in one place, not duplicated across documents that then drift apart. |
+| **Deviations are deliberate** | Project-specific departures are decided and traceable, never incidental. |
+| **Defaults are not standards** | Software defaults do not become project standards by being present. |
+| **Standards mature progressively** | A standard may develop through controlled governance rather than arriving complete. |
+| **Two kinds of standard** | Technical standards and information-management governance remain distinct. |
+
+### 11.2 Standards Hierarchy and Applicability
+
+Consistent with section 1.5:
+
+```
+applicable law / regulation
+  → contractual / project requirements, where established
+  → adopted external standards
+  → approved BEP
+  → approved project standards
+  → operational / software configuration
+```
+
+**No external standards list is established for this project.** None is invented
+here.
+
+**ISO 19650.** Its principles inform the information-management approach of this
+training implementation — the state model, the originator/recipient distinction
+and the emphasis on purposeful exchange all derive from that thinking. This is a
+statement about influence. **No formal compliance with ISO 19650 is claimed**,
+and none has been established or assessed.
+
+**SANS and other national standards.** No SANS standard is claimed to apply to
+this project. Applicability has not been established, and asserting it would be
+inventing a requirement.
+
+Where the applicability of an external requirement is unknown, it remains an
+**information gap** (section 2.6), not an assumed obligation.
+
+### 11.3 Information Naming and Identification
+
+Controlled naming and container identification will be defined in the project
+**Naming Standard** (`standards/naming/`), which does not yet exist.
+
+Principles that will inform it:
+
+- information containers require unambiguous identity;
+- naming should carry origin, discipline or task-team context, information type
+  and other required metadata where approved;
+- naming must be consistent enough to support retrieval and traceability;
+- **platform folder placement alone is not identification** — a container must
+  remain identifiable when moved, copied or exchanged.
+
+**No final naming syntax is created here.** No field order, separator set or
+permitted-value list is defined, and **no ISO 19650 filename pattern is imposed**.
+Adopting a syntax is a governance decision to be taken when the Naming Standard
+is developed.
+
+### 11.4 Classification and Metadata
+
+Classification and metadata should support:
+
+- identity;
+- filtering and search;
+- responsibility;
+- state and status;
+- delivery purpose;
+- interoperability where required.
+
+**No classification system is adopted.** Uniclass, OmniClass, MasterFormat and
+any other system remain **unadopted** unless approved through governance at a
+later point. None is in use by default.
+
+**Software-native metadata is not the project standard.** Parameters and
+properties native to an authoring tool may carry project metadata, but the
+project's metadata requirements are defined by governance, not inherited from
+whatever fields a tool happens to provide.
+
+### 11.5 Spatial Reference and Coordinates
+
+**Candidate context — not approved governance.** Existing training and project
+context refers to **Hartebeesthoek94 / Lo29** for the Harrismith location.
+
+| | |
+|---|---|
+| Classification | Candidate / existing working context |
+| Status | Requires controlled confirmation |
+| Approved as project coordinate standard | **No** |
+
+This is recorded so the context is not lost. It is **not** APPROVED GOVERNANCE,
+and it must be confirmed through the governance process before becoming the
+project coordinate standard. No detailed control-point coordinates are
+reproduced in this document.
+
+The controlled **Coordinates Standard** (`standards/coordinates/`) will define,
+as applicable:
+
+- coordinate reference system;
+- project and site datum;
+- shared-coordinate method;
+- survey and control information;
+- model positioning;
+- true north and project north conventions;
+- validation and checking method.
+
+**Coordinate consistency is required before coordinated model use** — federation
+across inconsistently positioned models produces findings that describe the
+setup rather than the design (section 8.3). The method for achieving and
+verifying that consistency belongs in the Coordinates Standard.
+
+### 11.6 Model Authoring Conventions
+
+Detailed model-authoring rules belong in discipline and project standards and in
+approved templates, not in this BEP.
+
+Subjects that may be governed there include:
+
+- units;
+- levels and grids;
+- model segmentation;
+- worksets and worksharing, where appropriate;
+- model origin and reference rules;
+- view and model organisation;
+- object, family and content conventions;
+- discipline-specific model structure.
+
+**No detailed Revit standards are created here.** Revit remains an observed
+authoring environment (section 2.4) and is **not mandatory for every container**
+(section 7.4).
+
+### 11.7 Drawing, Sheet and Documentation Standards
+
+Controlled documentation standards may cover:
+
+- sheet identification;
+- drawing naming;
+- titleblock use;
+- revision presentation;
+- issue information;
+- graphical conventions.
+
+Detailed rules belong in the controlled project standards and resources
+(`standards/titleblocks/`). **No titleblock name and no drawing-number syntax is
+invented in this increment.**
+
+### 11.8 Templates and Approved Project Resources
+
+**As-found observation.** The Common Files areas for Templates and related
+project resources were **observed empty during discovery** (section 2.5).
+
+Consequently, **no approved project template set currently exists**, and nothing
+in this document should be read as implying otherwise.
+
+**A resource becomes project-approved only through the governance process.**
+Software defaults, office templates and local resources are **not** project
+resources by virtue of being available, familiar, or already in use. Approval is
+an act, not an accumulation of habit.
+
+Resources that may later be approved include:
+
+- authoring templates;
+- titleblocks;
+- shared parameter resources;
+- content libraries;
+- checking resources.
+
+None is populated here.
+
+### 11.9 File Formats and Interoperability
+
+Formats are selected according to:
+
+- exchange purpose;
+- recipient;
+- interoperability requirement;
+- authoring requirement;
+- record requirement;
+- the delivery plan.
+
+Observed project contexts may include **RVT, IFC, PDF and NWC**. These are
+**not universally mandatory**.
+
+**Observed files are not future requirements.** That a format exists in the
+project today is evidence of what has been produced; it is not evidence of what
+must be delivered. Required formats are defined by the Information Delivery
+Schedule and the relevant project standards (sections 10.8, 4.7).
+
+### 11.10 Quality and Compliance Requirements
+
+Information quality includes:
+
+- compliance with approved project conventions;
+- completeness for the intended purpose;
+- correct identity and metadata;
+- coordinate and reference consistency, where applicable;
+- required checking;
+- visibility of known limitations.
+
+**Technical and regulatory design compliance is not an information-management
+function.** It remains the responsibility of the appropriate technical or
+task-team function (sections 5.7, 8.1).
+
+**Automation assists; it does not replace review.** Software checking, rule
+validation and automated reporting may support compliance work. They do not
+substitute for professional or technical review where such review is required.
+**No automated SANS compliance, regulatory approval or certification is claimed
+or implied.**
+
+### 11.11 Standards Exceptions and Changes
+
+A departure from an approved project standard must be **explicit**. Record, as
+appropriate:
+
+| Field |
+|---|
+| Standard or convention affected |
+| Reason |
+| Affected information |
+| Impact |
+| Temporary or permanent nature |
+| Decision required |
+| Implementation and verification |
+
+**Local software habit does not override a project standard.** A convention that
+is inconvenient remains in force until it is changed through governance; working
+around it silently is a deviation, and an unrecorded deviation is a defect in the
+record rather than a change to the standard.
+
+Detailed change governance is defined in Section 12.
+
+### 11.12 Referenced Project Standards
+
+Intended controlled standards areas:
+
+| Area | Intended scope |
+|---|---|
+| `standards/naming/` | Container identification and naming syntax (section 11.3) |
+| `standards/coordinates/` | Coordinate reference, datum, positioning and validation (section 11.5) |
+| `standards/titleblocks/` | Titleblocks, sheet identification and documentation presentation (section 11.7) |
+| `standards/templates/` | Authoring templates and approved project resources (sections 11.6, 11.8) |
+
+**These directories do not contain approved standards.** They are control
+locations for later governed standards work. The existence of a directory
+establishes nothing about the existence, status or approval of a standard within
+it.
 
 ## 12. Governance, Change and Exceptions
 
-TBD — To be developed.
+### 12.1 Governance Principles
 
-Supported by `supporting/governance-decision-register.md`.
+```
+observe / identify
+  → classify
+  → assess
+  → decide
+  → authorise
+  → implement
+  → verify
+  → close / baseline
+```
+
+| Principle | |
+|---|---|
+| **Evidence ≠ decision** | Observing something is not deciding about it. |
+| **Proposed ≠ approved** | Proposed governance carries no authority. |
+| **Decision precedes configuration** | Platform change follows a governance decision, not the reverse. |
+| **Changes are traceable** | What changed, why, who decided and when remain recoverable. |
+| **Exceptions expire** | A temporary exception does not silently become a permanent rule. |
+| **History stays visible** | Superseded decisions are retained, not erased. |
+
+### 12.2 Governance Decision Types
+
+The five classification terms used throughout this BEP:
+
+| Term | Meaning |
+|---|---|
+| **OBSERVED FACT** | Evidence from the project or environment |
+| **TRAINING ASSUMPTION** | A deliberate construct adopted for the training workflow |
+| **PROPOSED GOVERNANCE** | A rule or change under consideration, not yet approved |
+| **APPROVED GOVERNANCE** | A governing decision taken through the approved decision route |
+| **UNRESOLVED DECISION** | A matter requiring a future decision |
+
+Four further classes used by the governance register:
+
+| Term | Meaning |
+|---|---|
+| **DEVIATION** | A deliberate, authorised departure from approved governance |
+| **NON-CONFORMANCE** | An unintended failure to comply with approved governance |
+| **APPROVED CHANGE** | An authorised alteration to the governed system |
+| **SUPERSEDED DECISION** | An earlier decision replaced by a later approved decision, with history retained |
+
+**Non-conformance requires something to conform to.** An as-found discrepancy is
+not a non-conformance where no approved intended governance yet exists. Labelling
+current observations as non-conformances against governance that has never been
+approved would manufacture a compliance failure out of an open question. See
+section 12.6.
+
+### 12.3 Observed State vs Intended State
+
+| State | Is |
+|---|---|
+| **As-found / observed** | Evidence of current reality |
+| **Intended governance** | The approved target state |
+| **Implemented state** | The operational state after an approved change |
+
+Three consequences, each of which is routinely assumed away:
+
+- **Observed state does not prove correctness.** Current practice is evidence of
+  practice, not of rightness.
+- **Intended state does not prove implementation.** An approved decision is not a
+  configured system.
+- **Implementation does not prove success.** A change applied is not a change
+  verified (section 12.9).
+
+### 12.4 Training Assumptions
+
+Three training assumptions are in force: **TA-01** (simulated post-appointment
+context), **TA-02** (simulated role participation) and **TA-03** (training
+delivery organisation model). They are recorded in full in section 2.6 and are
+not reproduced here.
+
+Assumptions:
+
+- must be explicit;
+- exist so the workflow can be exercised realistically;
+- are **not project facts**;
+- are revisited when evidence becomes available;
+- may be superseded or withdrawn through governance.
+
+An assumption is promoted to OBSERVED FACT only by verification, and the
+promotion is recorded (section 2.6).
+
+### 12.5 Proposed Changes
+
+A proposed change may originate from:
+
+- discovery;
+- participant contribution;
+- coordination;
+- a platform limitation;
+- standards development;
+- a delivery requirement;
+- a lesson learned.
+
+**A proposal is not authority to implement.** It must be assessed and decided
+through the governance process. The Working Process (`working/`) is where
+proposals and contributions live before a decision; governance lives in this BEP
+and the register (section 1.4).
+
+### 12.6 Deviations and Non-Conformance
+
+| | |
+|---|---|
+| **DEVIATION** | A knowingly permitted departure from approved governance |
+| **NON-CONFORMANCE** | An unintended departure from, or failure against, approved governance |
+
+The difference is intent and authorisation, not severity.
+
+**UD-001 is not a non-conformance.** Its current status is:
+
+| | |
+|---|---|
+| Observation | An MEP / Structural Design Collaboration team-space discrepancy was observed (section 4.5) |
+| Classification | **OBSERVED discrepancy + UNRESOLVED DECISION** |
+| Why not a non-conformance | No intended mapping has been approved, so there is nothing for the configuration to fail against |
+
+If an intended mapping is later approved and the live configuration still does
+not match it, **that condition may then become a non-conformance**. Until then it
+is an open question, and calling it a failure would assert governance that does
+not exist.
+
+### 12.7 Change Assessment and Approval
+
+Changes are assessed according to impact. Three conceptual levels, with no formal
+numeric categories:
+
+| Level | Scope |
+|---|---|
+| **Minor operational change** | Implementation detail within already-approved governance |
+| **Governance change** | Alters a process, responsibility, state transition, standard or platform mapping |
+| **Major delivery / governance change** | Materially affects delivery obligations, the organisational model, information requirements or an approved baseline |
+
+**The required authority corresponds to the nature of the decision.** A change
+that alters responsibility cannot be decided by whoever happens to hold platform
+access (sections 5.9, 6.9).
+
+**No named approvers are invented.** Where the authority for a class of decision
+remains TBD — including publication and exchange authority (section 9.7) and
+acceptance authority (sections 9.8, 10.11) — that is recorded as unresolved
+rather than assigned by convenience. The term "approve" is used only where a
+defined approval decision exists (section 9.1).
+
+### 12.8 Implementation of Approved Changes
+
+Once a change is approved:
+
+- identify affected documents, processes and platform elements;
+- update the controlled documentation;
+- implement the operational or platform change;
+- communicate affected responsibilities;
+- retain evidence of implementation.
+
+**Document, process and platform configuration must remain aligned.** A change
+applied to one and not the others produces a governance system that describes
+something the project is not doing — the most common way controlled documentation
+becomes ignored.
+
+**No live platform change is made in this increment.**
+
+### 12.9 Verification After Change
+
+**A change is not complete because a document was edited or a setting was
+clicked.** Verify that:
+
+- the intended change was implemented;
+- the affected workflow behaves as intended;
+- responsibilities remain clear;
+- no unintended consequence was introduced;
+- supporting records are updated.
+
+**The verifying role varies by change type.** No single universal verifier is
+defined, and defining one would either overload a role or make verification
+nominal.
+
+### 12.10 Superseded Decisions and Historical Traceability
+
+**History is not deleted because governance changed.** A superseded decision
+retains:
+
+| Field |
+|---|
+| Original decision |
+| Status |
+| Replacement decision |
+| Effective point |
+| Reason and context, where appropriate |
+
+**Two complementary histories, not interchangeable:**
+
+- **Git** provides technical change history for repository content — what text
+  changed, when, and in which commit.
+- **The Governance & Decision Register** provides decision history — what was
+  decided, by whom, on what basis, and what it replaced.
+
+Neither substitutes for the other. A commit shows that wording changed; it does
+not show that a decision was taken (section 9.11).
+
+### 12.11 BEP Revision and Progressive Baselining
+
+```
+controlled draft
+  → baseline candidate
+  → approved training baseline
+  → later revision
+  → superseded baseline retained
+```
+
+Baselines may run 0.1, 0.2 … 1.0. **No semantic-versioning rules beyond this are
+implied or approved.**
+
+**BEP Training Baseline 0.1 is not approved in this increment.** This document
+remains a controlled draft (sections 1.2, 9.10).
+
+**Changes affecting approved governance may require a new baseline rather than
+silent amendment.** Once a baseline is approved, editing it in place would
+destroy the distinction between what was agreed and what is currently proposed.
+
+### 12.12 Escalation and Unresolved Decisions
+
+An unresolved decision remains **visible**. Record, as appropriate:
+
+| Field |
+|---|
+| The decision or question |
+| Reason it is unresolved |
+| Affected area |
+| Impact and risk |
+| Responsible decision function or owner, **where established** |
+| Review trigger or required next step |
+
+**No owner is invented where none is established.** "Decision owner: not
+established" is a valid and useful entry; a plausible name in that field is not.
+
+Escalation is used when the normal governance route cannot resolve a matter
+(section 8.12).
+
+**UD-001 remains the current worked example, and remains unresolved.** It is not
+resolved in this section, and no intended replacement mapping is proposed.
+
+### 12.13 Governance & Decision Register Reference
+
+`supporting/governance-decision-register.md` is the **single consolidated
+authoritative record** for governance matters. It is **not populated in this
+increment**.
+
+It will record:
+
+- observed facts requiring governance attention;
+- training assumptions;
+- proposals;
+- decisions;
+- unresolved decisions;
+- deviations;
+- non-conformances;
+- approved changes;
+- superseded decisions;
+- implementation and verification status.
+
+**One register only.** Competing governance registers are not created — a
+decision recorded in two places is a decision that will eventually exist in two
+different versions.
 
 ## 13. Controlled References
 
-TBD — To be developed.
+### 13.1 Purpose
+
+Section 13 identifies the controlled resources this BEP relies upon.
+
+**The BEP references controlled detail rather than duplicating it.** Duplication
+creates divergence, and divergence in governance documentation is worse than
+absence, because both copies appear authoritative.
+
+**Reference does not imply approval.** Listing a resource here records that the
+BEP depends on it. The resource's own status determines whether it may be relied
+upon (section 13.6).
+
+### 13.2 Supporting Management Resources
+
+| Resource | Purpose |
+|---|---|
+| `supporting/information-management-responsibility-matrix.md` | Allocation of information-management functions to roles and process steps |
+| `supporting/model-information-responsibility-matrix.md` | Which task team authors and maintains each model and information container |
+| `supporting/information-delivery-schedule.md` | What is delivered, by whom, to whom, in what form and when |
+| `supporting/cde-workflow-state-strategy.md` | Container states, transitions and the controls on each |
+| `supporting/coordination-review-strategy.md` | Coordination cycles, clash and interface management, review and verification |
+| `supporting/governance-decision-register.md` | Decisions, assumptions, deviations and unresolved matters |
+
+**None of these is substantively populated.** Each currently holds a purpose and
+status statement only.
+
+### 13.3 Referenced Project Standards
+
+| Standard area | Location | Status |
+|---|---|---|
+| Naming | `standards/naming/` | Not established |
+| Coordinates | `standards/coordinates/` | Not established |
+| Titleblocks | `standards/titleblocks/` | Not established |
+| Templates / authoring resources | `standards/templates/` | Not established |
+
+**A directory is not a standard.** These areas are not approved merely because
+the repository contains them. Each standard's status is controlled individually
+(section 13.6), and no standards content is invented (section 11).
+
+### 13.4 External Standards and Requirements
+
+**No external standard is listed as applicable to this project**, because
+applicability has not been established for any.
+
+**ISO 19650** principles inform the information-management framework of this
+training implementation. This is a statement of influence on the approach taken.
+**No formal project compliance, assessment or certification is claimed.** No
+copyrighted standards content is reproduced in this repository.
+
+**No SANS applicability is asserted.**
+
+Where the applicability of an external requirement is unresolved, it is recorded
+as an information gap (section 2.6) rather than assumed in either direction.
+
+### 13.5 Source-of-Truth and Publication Rules
+
+The **Git repository is the authoritative authoring source** for this BEP and its
+controlled source documents.
+
+**A Git draft is not the issued project BEP.**
+
+```
+approved source / baseline
+  → generated / project-facing artefact
+  → controlled manual publication
+  → Forma / Data Management CDE
+```
+
+The approved project-facing artefact in the CDE is the **issued baseline for that
+issued version**.
+
+**Divergence is expected and legitimate.** Git may hold a newer controlled draft
+while the CDE still holds the last issued baseline. That is correct behaviour
+provided the status of each is clear — it is the reason status is stated in
+section 1.2 and carried on every controlled reference.
+
+Three standing constraints (section 6.10):
+
+- the repository is not placed inside the Desktop Connector location;
+- **no symlink, junction, bind-mount or live-sync publication model is approved
+  for this workflow**;
+- **manual controlled publication is the approved initial publication model.**
+
+**No publication automation is implemented in this increment.**
+
+### 13.6 Reference Status and Version Control
+
+Status concepts for controlled references:
+
+| Status | Meaning |
+|---|---|
+| **Working Draft** | Under development; not for reliance |
+| **For Review** | Issued for controlled review |
+| **Approved Training Baseline** | Approved through the governance route |
+| **Superseded** | Replaced by a later approved version, retained for traceability |
+| **Withdrawn** | No longer to be relied upon |
+
+**No current resource is marked approved.** The BEP is a controlled draft, the
+supporting resources are unpopulated, and no project standard is established.
+
+A controlled reference should expose enough status and version information for a
+reader to determine **whether it may be relied upon**. A later version supersedes
+an earlier issued version only through the controlled governance route.
+
+**Git commit history is technical source history.** It does not by itself
+establish approval, CDE issue, delivery or recipient acceptance — see section
+9.11.
