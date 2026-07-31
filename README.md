@@ -139,7 +139,11 @@ repository.
 |---|---|
 | Discovery Gate A | Complete |
 | Architecture Gate B | Complete — frozen as **Architecture Baseline v1** |
-| Implementation Increment 1 | This increment — repository scaffold |
+| Implementation Increment 1 | Complete — repository scaffold |
+| Implementation Increment 2A | This increment — BEP sections 1–3 drafted |
+
+The BEP is a controlled draft working toward **BEP Training Baseline 0.1**.
+Baseline 0.1 is **not approved**. Sections 4–13 remain scaffold.
 
 Architecture Baseline v1 is **frozen**. The document architecture recorded in
 section 3 is not to be redesigned during implementation increments. Proposed
@@ -179,10 +183,10 @@ Two standing rules:
 Substantive drafting begins in **later controlled increments**, each with an
 explicitly approved scope.
 
-In this increment the document files contain only titles, purpose/status
-statements, the approved heading scaffold, and `TBD` / *To be developed*
-placeholders. Empty placeholder content is intentional and is not an omission
-to be filled in opportunistically.
+Undrafted document files contain only titles, purpose/status statements, the
+approved heading scaffold, and `TBD` / *To be developed* placeholders. Empty
+placeholder content is intentional and is not an omission to be filled in
+opportunistically.
 
 No increment beyond the one currently approved is to be started without
 explicit approval.
