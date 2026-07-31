@@ -6,7 +6,7 @@
 > **Authority:** None. Training/reference implementation. Non-contractual.
 > **Architecture:** Architecture Baseline v1 (frozen at Gate B). Sections are not
 > to be renumbered, merged, split or resequenced.
-> **Drafted to date:** Sections 1–3. Sections 4–13 remain scaffold.
+> **Drafted to date:** Sections 1–5. Sections 6–13 remain scaffold.
 
 Statements in this document are individually classified as OBSERVED FACT,
 TRAINING ASSUMPTION, PROPOSED GOVERNANCE, APPROVED GOVERNANCE or UNRESOLVED
@@ -157,7 +157,7 @@ or authorised. Authority is never inferred upward from platform configuration.
 | Document title | Harrismith Fire Station — BIM Execution Plan |
 | Document identifier | TBD — pending the project naming standard |
 | Version | Pre-baseline controlled draft |
-| Status | Draft — Sections 1–3 drafted; Sections 4–13 scaffold |
+| Status | Draft — Sections 1–5 drafted; Sections 6–13 scaffold |
 | Maintainer role | TBD — to be defined in Section 5 |
 | Approval / authorising role | TBD — to be defined in Section 5 |
 | Issue date | Not issued |
@@ -431,13 +431,559 @@ until evidence exists to support the claim.
 
 ## 4. Project Organisation and Task Teams
 
-TBD — To be developed.
+### 4.1 Delivery Organisation
+
+The intended training delivery organisation is:
+
+```
+OWNER / APPOINTING PARTY
+    |
+    +-- Lead Delivery Party
+    |
+    +-- Consultants
+    |    +-- Architectural Consultant
+    |    +-- Structural Consultant
+    |    +-- MEP Consultant
+    |    |    +-- Mechanical task team
+    |    |    +-- Electrical task team
+    |    |    +-- Plumbing task team
+    |    |
+    |    +-- Fire Consultant
+    |         +-- Fire task team
+    |
+    +-- Construction
+         +-- General Contractor
+              +-- Mechanical Trade Contractor
+              +-- Electrical Trade Contractor
+              +-- Plumbing Trade Contractor
+              +-- Fire Trade Contractor, where required
+```
+
+**TA-03 — TRAINING ASSUMPTION.** This is a *training organisation model*. It is
+adopted so that the BIM management workflow — multiple parties, multiple task
+teams, real interfaces between them — can be exercised realistically rather than
+simulated with a single undifferentiated team.
+
+It is not an appointment structure. Specifically:
+
+- No organisation has been appointed to any position shown.
+- No company names are assigned, and none are to be invented.
+- **Appointing Party identity: TBD.**
+- **Lead Delivery Party holder: TBD.**
+
+This assumption is declared here and joins TA-01 and TA-02 for consolidation
+into the Governance & Decision Register in a later controlled increment.
+
+### 4.2 Project Parties
+
+A *party* is an organisation-level concept. The intended party categories are:
+
+| Party category | Position in the model |
+|---|---|
+| Owner / Appointing Party | Client side |
+| Lead Delivery Party | Delivery coordination |
+| Architectural Consultant | Consultant |
+| Structural Consultant | Consultant |
+| MEP Consultant | Consultant |
+| Fire Consultant | Consultant |
+| General Contractor | Construction |
+| Trade contractors | Construction, as required |
+
+No actual company is assigned to any category.
+
+**Five concepts, deliberately not interchangeable.** Confusing these is the most
+common way information-management responsibility becomes untraceable:
+
+| Concept | What it is |
+|---|---|
+| **Party** | An organisation |
+| **Task team** | The group producing a defined package of information |
+| **Discipline** | A technical classification of information |
+| **Autodesk collaboration team** | A platform construct |
+| **IM role** | A governance function |
+
+These may map to one another — often they do — but a mapping is not an identity.
+One party may host several task teams; one task team may produce information in
+more than one discipline; a platform team may or may not correspond to either.
+Each mapping is a decision to be recorded, not an assumption to be inherited.
+
+### 4.3 Task-Team Structure
+
+A task team produces a defined package of information. The intended training
+task-team model is:
+
+| Party | Task team(s) |
+|---|---|
+| Architectural Consultant | Architectural task team |
+| Structural Consultant | Structural task team |
+| MEP Consultant | Mechanical task team; Electrical task team; Plumbing task team |
+| Fire Consultant | Fire task team |
+| General Contractor | Contractor management / coordination function |
+| Trade contractors | Mechanical, Electrical, Plumbing and Fire trade-contractor task teams, each **when introduced** |
+
+Covered by TA-03. Three points matter and are easily got wrong:
+
+**Task teams are not companies.** Mechanical, Electrical and Plumbing are task
+teams and disciplines that may sit within a **single MEP Consultant
+organisation**. The intended model does not create six separate consultant
+companies from the six discipline codes, and the discipline codes in section 4.4
+must not be read that way.
+
+**Fire is separate from MEP.** In the intended training organisation the Fire
+Consultant is a distinct party, not an MEP sub-team.
+
+**Trade contractors sit in the construction structure.** They belong to the
+General Contractor's delivery structure. They are not to be treated as design
+consultants, and their task teams exist only once introduced into the simulated
+workflow.
+
+**Task-team structure evolves by stage.** The set of active task teams at design
+stage differs from the set at construction stage. Task teams are introduced,
+combined or stood down as the project moves; each such change follows section 4.8.
+
+### 4.4 Discipline Structure
+
+| Code | Discipline |
+|---|---|
+| ARC | Architecture |
+| STR | Structural |
+| MEC | Mechanical |
+| ELE | Electrical |
+| PLM | Plumbing |
+| FIR | Fire |
+
+A discipline code identifies the **information domain** of a container. That is
+all it does.
+
+A discipline code does **not**, by itself, identify:
+
+- the organisation responsible;
+- the task team that produced the information;
+- the author;
+- a Design Collaboration team;
+- contractual responsibility.
+
+Detailed naming syntax — field order, separators, permitted values — belongs to
+the Naming Standard (`standards/naming/`), not to this section. That standard
+does not yet exist; see section 2.5.
+
+### 4.5 Digital Collaboration Team Structure
+
+An Autodesk Design Collaboration team is a **platform construct**. It is not an
+organisation, not a discipline, not a task team, and not a professional
+appointment. Membership of one confers no authority of any kind.
+
+**AS-FOUND observations from discovery.** The following are OBSERVED FACTS
+recording the state found at Gate A. They are recorded, not endorsed.
+
+Observed Design Collaboration teams:
+
+- Architecture
+- MEP Consultant
+- Structural
+
+Observed team-space bindings:
+
+| Observed Design Collaboration team | Observed bound WIP space |
+|---|---|
+| Architecture | Architecture WIP space |
+| MEP Consultant | Structural-labelled WIP space |
+| Structural | MEP-labelled WIP space |
+
+The second and third bindings constitute the previously recorded discrepancy
+**UD-001**, which **remains unresolved**. They are recorded exactly as observed.
+They are **not** corrected here, and no intended replacement binding is proposed
+in this increment. See section 4.7.
+
+Further observations, at high level:
+
+| Observation | Classification |
+|---|---|
+| A Contractors WIP area exists in the CDE | OBSERVED FACT |
+| No corresponding Contractors Design Collaboration team was established in the discovery evidence | OBSERVED FACT |
+| The Design Collaboration Coordination Space was not configured in the observed discovery state | OBSERVED FACT |
+
+These are observations of a point in time. None of them is a permanent
+requirement, and none should be read as one. No additional Design Collaboration
+team is created by this document, and this document does **not** state that MEC,
+ELE, PLM and FIR require separate Design Collaboration teams. Whether platform
+teams should map one-to-one to task teams is an open question, not a settled one.
+
+No personal or member information is recorded here.
+
+### 4.6 Information Management Functions
+
+Four information-management functions are introduced at organisation level. They
+are defined in Section 5; only their existence and independence are established
+here.
+
+| Function | Concern |
+|---|---|
+| BIM Manager | Governance of the information-management framework |
+| BIM Coordinator | Operational multidisciplinary coordination |
+| CDE Administration | Implementation of approved governance in the platform |
+| Lead Delivery Party | Project-level delivery coordination |
+
+These are **functions, not job titles and not people**. In a project of this
+size, one participant may carry more than one of them; in a larger project each
+might be carried by a different organisation.
+
+**Combining functions does not merge them.** If one participant is both BIM
+Manager and CDE Administrator, the governance decision and its implementation
+are still two separate acts, and the participant must know which one they are
+performing. See section 5.11.
+
+### 4.7 Current-State vs Intended-State Configuration
+
+Three things are held apart throughout this BEP. Collapsing them is how
+undocumented configuration quietly becomes de facto governance:
+
+| Concept | What it is | Status |
+|---|---|---|
+| **As-found platform configuration** | What the platform was observed doing at Gate A | Evidence |
+| **Intended governance** | What this BEP decides should be the case | A controlled decision |
+| **Implemented configuration** | What the platform does after an approved decision is applied | The operational result of a decision |
+
+As-found configuration is evidence of current behaviour. It is not a decision,
+not a justification, and not a requirement. Intended governance becomes binding
+only through approval. Implemented configuration is legitimate only when it
+traces back to an approved decision.
+
+**Worked example — UD-001.**
+
+| | |
+|---|---|
+| Observed | The MEP Consultant and Structural Design Collaboration team-space bindings appear cross-bound (section 4.5) |
+| Current status | **UNRESOLVED DECISION** |
+| Intended replacement mapping | None approved |
+| Resolution | Not attempted in this section |
+
+This is deliberately left open. Section 4 records what was observed and
+establishes the distinction; it does not solve UD-001. Resolution follows the
+governance process in Section 12 and is recorded in the Governance & Decision
+Register.
+
+### 4.8 Organisation and Task-Team Changes
+
+Project parties, task teams and collaboration structures change during a project.
+That is normal. What matters is that changes affecting governance are **decided
+and recorded**, not absorbed.
+
+Changes that require the controlled change process include:
+
+- a new discipline is introduced;
+- a trade contractor is appointed in the simulated workflow;
+- a task team is split or combined;
+- responsibility is transferred between teams or roles;
+- a Design Collaboration team mapping is changed.
+
+**Organisational change must not be made silently in the CDE.** Reconfiguring a
+team, space, permission or mapping in the platform does not constitute a
+governance decision, and does not make itself legitimate by having been done.
+Where configuration and approved governance diverge, the divergence is recorded
+as a deviation rather than adopted.
+
+Detailed change governance is defined in Section 12 and recorded in
+`supporting/governance-decision-register.md`.
 
 ## 5. Information Management Roles and Responsibilities
 
-TBD — To be developed.
+### 5.1 Responsibility Principles
 
-Supported by `supporting/information-management-responsibility-matrix.md`.
+These principles govern how responsibility is read throughout this BEP:
+
+| Principle | |
+|---|---|
+| **Creation is not authority to share** | Producing information does not confer authority to share it. |
+| **Sharing is not authority to publish** | Authority to share does not confer authority to publish or exchange. |
+| **Coordination is not design approval** | Coordinating information is not approving a technical design solution. |
+| **Checking is not acceptance** | Checking confirms compliance with a defined checking requirement; it does not accept the information. |
+| **Authorisation is purpose-bound** | Information is authorised *for a defined purpose*, never in general. |
+| **Acceptance does not transfer responsibility** | A recipient accepting information does not relieve the originator of professional responsibility for it. |
+| **Responsibility must be traceable** | For any container it must be answerable who produced it, who checked it, who authorised it and for what purpose. |
+
+**Two kinds of responsibility.** Technical/design responsibility and
+information-management responsibility are related but distinct. A task team
+remains responsible for its technical solution regardless of who managed,
+coordinated, transmitted or accepted the information describing it. No
+information-management act transfers design responsibility.
+
+### 5.2 Project Information Management Role Model
+
+```
+Owner / Appointing Party
+        |
+        v
+Lead Delivery Party
+        |
+        +---- BIM Manager
+        |
+        +---- BIM Coordinator
+        |
+        +---- Task-Team Leads
+                  |
+                  +---- Authors
+                  +---- Checkers
+
+CDE Administration supports implementation of approved governance.
+```
+
+This is a **conceptual functional model**, not an appointment chart and not an
+organisation chart. It shows how information-management functions relate to one
+another, not who reports to whom contractually.
+
+No names are populated. Role holders are TBD throughout Section 5.
+
+### 5.3 Owner / Appointing Party
+
+At a high level, the Owner / Appointing Party:
+
+- establishes or approves project information needs;
+- defines intended information outcomes;
+- receives identified exchanges;
+- accepts information for identified purposes, where applicable.
+
+**Identity: TBD.** No appointing party has been established (section 2.3).
+
+Nothing in this section implies design liability, contractual duty, or any
+obligation beyond what the training information-management workflow requires.
+
+### 5.4 Lead Delivery Party
+
+The Lead Delivery Party coordinates project-level delivery across contributing
+task teams. Functions may include:
+
+- consolidating delivery planning;
+- coordinating task-team commitments;
+- supporting project-level information readiness;
+- coordinating delivery interfaces;
+- ensuring required project-level IM processes are applied.
+
+**Holder: TBD.**
+
+Two things must not be assumed:
+
+- **Architecture is not automatically the Lead Delivery Party.** That
+  Architecture was the only populated production stream observed at discovery
+  (section 2.5) is an observation about files, not an appointment.
+- **The Lead Delivery Party is not automatically the BIM Manager.** They are
+  different functions with different concerns, and may sit in different
+  organisations.
+
+### 5.5 BIM Manager
+
+The BIM Manager is the principal **governance** function for this training BEP.
+Responsibilities include:
+
+- maintaining the BEP governance framework;
+- maintaining the CDE strategy;
+- coordinating information standards;
+- maintaining the responsibility architecture;
+- coordinating delivery-planning governance;
+- managing governance decisions and controlled changes;
+- supporting onboarding and BIM capability development;
+- performing governance assurance;
+- checking that approved governance is reflected in platform and process
+  configuration.
+
+**Limits of the function.** The BIM Manager is **not** automatically:
+
+- a design approver;
+- a discipline technical lead;
+- a contractual decision-maker;
+- the Appointing Party;
+- the Lead Delivery Party.
+
+The BIM Manager governs *how information is managed*. Authority over technical
+design, appointment and contract lies elsewhere and is not acquired by holding
+this function. Where the BIM Manager identifies a problem outside the function's
+authority, the route is to raise and escalate it, not to decide it.
+
+**Holder: TBD.**
+
+### 5.6 BIM Coordinator
+
+The BIM Coordinator is the **operational** multidisciplinary coordination
+function. Responsibilities include:
+
+- organising coordination inputs;
+- managing federation and coordination review cycles;
+- running or coordinating clash and interface review;
+- triaging coordination findings;
+- coordinating assignment of issues;
+- monitoring resolution;
+- verifying that coordination findings have been addressed through the
+  coordination process;
+- escalating unresolved interface problems.
+
+**Limits of the function.** The BIM Coordinator does **not** take ownership of
+design solutions. Verifying that a clash has been closed confirms that the
+coordination process was followed to its conclusion — it is **not** design
+approval and carries no technical endorsement. The originating task team retains
+responsibility for its technical solution, before and after coordination.
+
+**BIM Manager and BIM Coordinator are distinct functions.** The BIM Manager
+governs the framework; the BIM Coordinator operates coordination within it. They
+may be carried by the same participant (section 5.11), which does not merge them.
+
+**Holder: TBD.**
+
+### 5.7 Task-Team Leads
+
+A Task-Team Lead is responsible for their own team's information production and
+readiness:
+
+- organising task-team production;
+- ensuring required information is produced;
+- ensuring required checking occurs;
+- resolving task-team quality issues;
+- managing interfaces with other task teams;
+- authorising information from WIP for controlled sharing, where governance
+  assigns that authority;
+- ensuring coordination issues assigned to the team are addressed.
+
+**Technical authority sits here, not with the BIM functions.** The Task-Team Lead
+holds responsibility for the team's technical content. Neither the BIM Manager
+nor the BIM Coordinator acquires that responsibility by governing or
+coordinating the information that describes it.
+
+**Holders: TBD** for every task team.
+
+### 5.8 Authors and Checkers
+
+| Function | Responsibilities |
+|---|---|
+| **Author** | Creates or modifies information; works within the task team's WIP environment; complies with project conventions; responds to assigned comments and issues. |
+| **Checker** | Verifies information against the defined checking requirement; records or provides evidence of checking; identifies deficiencies before controlled progression. |
+
+**Authors do not self-promote their own information.** Having authored a
+container is not a reason to advance it; progression requires the checking and
+authorisation defined by governance, not the author's confidence in their work.
+
+**On combining the two.** In a training project of this size, Author and Checker
+may sometimes be performed by the same participant where independence cannot
+reasonably be provided. Where that happens:
+
+- the functional distinction remains — self-checking is still a checking act
+  with a defined requirement, not an omission of one;
+- the combination is recorded, so the limitation is visible in the evidence.
+
+**Independence is never claimed where it does not exist.** A check performed by
+the author is recorded as such. Overstating independence is worse than lacking
+it, because it removes the reader's ability to judge the information's
+reliability.
+
+### 5.9 CDE Administration Function
+
+CDE Administration implements approved governance in the platform.
+Responsibilities may include:
+
+- project membership administration;
+- folder and space implementation;
+- permissions;
+- Design Collaboration team-space configuration;
+- coordination-space configuration;
+- platform workflow configuration;
+- implementation of approved structural and configuration changes;
+- checking platform configuration after an approved change.
+
+**Critical principle: CDE Administration implements governance; it does not
+create it.** Changing the software does not make a decision. A configuration that
+was never approved is a deviation, however competently it was applied.
+
+**Platform permission is not BEP authority.** Holding administrative rights over
+a folder, space or team confers the technical ability to change it and nothing
+more. It does not confer authority to decide who is responsible for what, to
+reassign responsibility, or to alter the organisational structure in section 4.
+Those are governance decisions, taken through Section 12.
+
+**Holder: TBD.**
+
+### 5.10 Responsibility Transitions
+
+An information container moves through this lifecycle:
+
+```
+Author
+  → Check
+  → Task-Team Lead authorises sharing
+  → Shared information
+  → coordination / review
+  → resolution where required
+  → delivery review
+  → authorised publication / exchange
+  → recipient acceptance
+```
+
+**Each arrow is a separate decision performed by a defined function.** The point
+of the sequence is that no single act carries information from authoring to
+exchange. Checking does not authorise sharing; sharing does not authorise
+publication; acceptance does not reach back and validate what preceded it.
+
+**Separate decisions do not require separate people.** In a small project several
+of these may be performed by the same participant. The requirement is that each
+decision is *made*, is made against its own criteria, and is traceable — not that
+each has a different name attached to it.
+
+Detailed process, states and platform mechanics belong to Sections 6–10 and the
+supporting resources. This section defines only who decides what, and in what
+order.
+
+### 5.11 Role Combination and Delegation
+
+This is a small training implementation, so functions may be combined. For
+example, one participant may act as:
+
+- BIM Manager and CDE Administrator;
+- BIM Coordinator and another project role;
+- Author and Checker, where independence cannot reasonably be provided.
+
+**Combining roles does not combine the functions.** The responsibilities remain
+distinct in meaning. A participant performing two functions must know **which
+function they are performing at each decision point** — approving a governance
+change as BIM Manager is a different act from applying it as CDE Administrator,
+even when performed by one person within a minute of each other.
+
+**Delegation must be explicit.** Delegated authority is stated, scoped and
+recorded. In particular:
+
+- **Platform access is not delegation.** Being able to perform an action in the
+  software does not mean authority to decide it was delegated.
+- Delegation covers a defined scope and does not silently expand.
+
+**Independence limitations must be visible.** Where combining functions reduces
+independence, that limitation is recorded rather than obscured, so that anyone
+relying on the information can weigh it.
+
+### 5.12 Responsibility Matrix Reference
+
+Detailed allocation of responsibility is recorded in
+`supporting/information-management-responsibility-matrix.md`.
+
+That matrix is **not populated in this increment.**
+
+**Division of labour between the two documents.** Section 5 defines what each
+function *means*. The matrix records *how those functions are allocated* to roles
+and process steps. Meaning is defined once, here; allocation is recorded once,
+there.
+
+**Approved responsibility grammar.** The matrix will use these terms and no
+others:
+
+| Term | Meaning |
+|---|---|
+| **Perform** | Carries out the activity |
+| **Check** | Verifies against a defined requirement |
+| **Authorise** | Permits progression, for a defined purpose |
+| **Coordinate** | Organises across parties or task teams |
+| **Accept** | Receives for an identified purpose |
+| **Consult** | Is asked before the act |
+| **Inform** | Is told after the act |
+
+**RACI is not adopted.** This grammar is used instead, because it distinguishes
+checking from authorising and coordinating from performing — distinctions that
+RACI collapses and that this BEP depends on. RACI is not to be introduced unless
+explicitly approved later.
 
 ## 6. Common Data Environment Strategy
 
