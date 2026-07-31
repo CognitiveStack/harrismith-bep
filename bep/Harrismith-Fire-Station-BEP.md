@@ -6,7 +6,7 @@
 > **Authority:** None. Training/reference implementation. Non-contractual.
 > **Architecture:** Architecture Baseline v1 (frozen at Gate B). Sections are not
 > to be renumbered, merged, split or resequenced.
-> **Drafted to date:** Sections 1–5. Sections 6–13 remain scaffold.
+> **Drafted to date:** Sections 1–7. Sections 8–13 remain scaffold.
 
 Statements in this document are individually classified as OBSERVED FACT,
 TRAINING ASSUMPTION, PROPOSED GOVERNANCE, APPROVED GOVERNANCE or UNRESOLVED
@@ -157,7 +157,7 @@ or authorised. Authority is never inferred upward from platform configuration.
 | Document title | Harrismith Fire Station — BIM Execution Plan |
 | Document identifier | TBD — pending the project naming standard |
 | Version | Pre-baseline controlled draft |
-| Status | Draft — Sections 1–5 drafted; Sections 6–13 scaffold |
+| Status | Draft — Sections 1–7 drafted; Sections 8–13 scaffold |
 | Maintainer role | TBD — to be defined in Section 5 |
 | Approval / authorising role | TBD — to be defined in Section 5 |
 | Issue date | Not issued |
@@ -989,15 +989,562 @@ explicitly approved later.
 
 ## 6. Common Data Environment Strategy
 
-TBD — To be developed.
+### 6.1 CDE Purpose and Principles
 
-Supported by `supporting/cde-workflow-state-strategy.md`.
+The Common Data Environment is an **information-management process supported by
+technology**. It is not a folder tree. A folder structure is one way of
+implementing part of the process; it is not the process, and reorganising
+folders does not change how information is governed.
+
+Principles:
+
+| Principle | |
+|---|---|
+| **State is identifiable** | Every information container has a knowable state. |
+| **Progression is controlled** | Movement between states happens by decision, not by drift. |
+| **Movement has an owner** | Responsibility for each transition is explicit. |
+| **Presence is not trust** | Information is not reliable merely because it exists in the platform. |
+| **Four distinct properties** | State, version, suitability and authority are separate things (section 6.8). |
+| **Originators retain responsibility** | Moving information through the CDE does not transfer responsibility for it. |
+| **Sharing is purposeful** | Shared information is made available for a stated purpose. |
+| **Publication is purposeful** | Published information is authorised for a defined purpose. |
+
+### 6.2 CDE Technology Environment
+
+Current training technology mapping, at high level:
+
+| Capability | Role in the process |
+|---|---|
+| Autodesk Forma / Data Management | Cloud document and CDE foundation |
+| Design Collaboration | Controlled design-team collaboration and exchange, where configured |
+| Model Coordination | Multidisciplinary aggregation, coordination review and clash/interface workflow, where used |
+| Issues | Governed project issue and action records, where applicable |
+| Reviews | Controlled review workflow, where applicable |
+| Transmittals | Formal transmission record, where applicable |
+| Desktop Connector | Local filesystem access method to cloud-managed information |
+
+**Two limits.** No claim is made that any of these is fully configured, adopted
+or operationally mature — see section 2.4. And **no capability creates governance
+by existing**. Design Collaboration, Model Coordination, Reviews, Transmittals
+and Issues implement an agreed process; they do not constitute one. A share
+performed in the platform is governed because the process says so, not because
+the software permitted it.
+
+### 6.3 Information States
+
+Four controlled state concepts:
+
+| State | Meaning |
+|---|---|
+| **WIP** | Information under originator / task-team control. Not authorised for general project reliance. |
+| **Shared** | Information made available beyond the originating task team for an identified purpose, after required checking and authorisation. |
+| **Published / Authorised** | Information authorised for a defined delivery or use purpose. |
+| **Record / retained** | Historical evidence retained for traceability, according to the project's retention approach. |
+
+**States are not folders.** The live CDE does not need a folder literally named
+after every conceptual state, and the presence or absence of such a folder proves
+nothing about how information is governed. In particular, **no "04 Archive"
+project root requirement is confirmed**, and none is created here. The project's
+retention approach is not yet defined.
+
+**Published does not mean final.** Published information is authorised for a
+defined purpose at a point in time. It can be superseded, revised, or found
+unsuitable for a purpose it was never authorised for. See sections 6.7 and 6.8.
+
+### 6.4 Team Spaces and WIP
+
+WIP belongs under the control of the originating task team, as defined in
+Sections 4 and 5. The originating task team is responsible for:
+
+- authoring;
+- internal checking;
+- readiness assessment;
+- authorisation for progression, where governance assigns that authority.
+
+Design Collaboration team spaces may support this workflow where configured.
+
+**A team space is a platform construct.** It is not an organisation, not a
+discipline, not a contractual appointment. Membership confers no authority
+(sections 4.5, 5.9).
+
+**No automatic mirroring.** The six discipline codes are **not** mirrored
+automatically into six platform teams. Whether platform teams should map
+one-to-one to task teams remains an open question (section 4.5).
+
+The observed team-space bindings recorded in section 4.5 remain as observed.
+**UD-001 is not resolved here.**
+
+### 6.5 Controlled Sharing and Consumption
+
+**Share and consume are different acts performed by different parties.**
+
+| Act | Who | What happens |
+|---|---|---|
+| **Share** | Originating task team | Makes information available through a controlled exchange |
+| **Consume** | Receiving task team | Deliberately adopts shared information into its working context |
+
+Two consequences follow, and both matter:
+
+- **Availability is not consumption.** Information being visible, accessible or
+  present in a shared location does not mean any team has adopted it. Nobody
+  consumes information by accident.
+- **Consumption does not transfer technical ownership.** A receiving team that
+  consumes a model does not acquire responsibility for its content. The
+  originator remains responsible for what it produced.
+
+Lifecycle:
+
+```
+WIP
+  → check
+  → authorise share
+  → Shared
+  → receiver reviews
+  → consume where appropriate
+  → use for stated purpose
+```
+
+Where Design Collaboration is configured, its package / share / consume workflow
+may support this process. **It is not claimed to be required for every container
+or every exchange** — see section 7.8.
+
+### 6.6 Coordination Information
+
+**Coordination inputs come from appropriate Shared information, not from
+uncontrolled WIP.** Coordinating against another team's working state produces
+findings against information nobody authorised, and wastes the effort of both
+teams when it moves.
+
+Coordination information may include:
+
+- discipline models;
+- agreed reference models;
+- coordination exports;
+- clash and interface findings;
+- issue records;
+- coordination decisions.
+
+**Federation does not merge authorship or responsibility.** Aggregating models
+into a federated view creates a coordination artefact, not a jointly-authored
+model. Each contributed container keeps its originator, its state and its
+technical responsibility.
+
+Detailed coordination process is defined in Section 8.
+
+### 6.7 Published / Authorised Information
+
+Published / authorised information has passed the required preparation, review
+and authorisation for an identified purpose.
+
+Purposes may include — **as examples only, not as current project milestones**:
+
+- formal design issue;
+- coordination-approved exchange;
+- tender / pricing information;
+- construction information;
+- record / handover information.
+
+None of these is a committed milestone of this project. Actual purposes become
+project requirements only when approved in the Information Delivery Schedule,
+which is not yet populated.
+
+**Published does not mean:**
+
+| Not | Because |
+|---|---|
+| Perfect | Authorisation confirms fitness for a stated purpose, not absence of error |
+| Forever final | Published information can be superseded or revised |
+| Universally suitable | Suitability is bounded by the purpose it was authorised for |
+| Accepted by everyone | Acceptance is a separate act by an identified recipient |
+
+**Authorisation is purpose-specific.** Information authorised for one purpose is
+not thereby authorised for another.
+
+### 6.8 Versions, Revisions, Status and Suitability
+
+Five terms, routinely conflated, deliberately kept apart:
+
+| Term | Meaning |
+|---|---|
+| **Version** | A platform or file history instance |
+| **Revision** | A controlled issue identifier, where project convention requires one |
+| **State** | WIP / Shared / Published / Record |
+| **Status** | A workflow or decision condition |
+| **Suitability** | What the information may be used for |
+
+**A new platform version creates none of the others.** Saving a new version does
+not by itself create a new revision, change the information state, constitute
+approval, or make the information suitable for a new purpose. Each of those is a
+separate act with its own decision and its own responsible role.
+
+Detailed naming and revision conventions belong to Section 11 and the project
+standards.
+
+### 6.9 Access and CDE Administration
+
+CDE Administration implements approved governance (section 5.9). Membership,
+permissions, folder access, team-space access and platform roles **support** the
+process; they do not create professional or governance authority.
+
+**Platform permission is not:**
+
+- authority to share;
+- authority to publish;
+- authority to accept.
+
+Access is configured to support approved responsibility — the responsibility
+comes first, and the permission follows it. Where access and approved
+responsibility diverge, the divergence is a deviation to be recorded, not a
+redefinition of who is responsible.
+
+No user names are specified in this document.
+
+### 6.10 Local Authoring and Desktop Connector
+
+Desktop Connector is an **access mechanism** to cloud-managed information.
+
+It is **not**:
+
+- a separate CDE;
+- an independent source of truth;
+- the BEP authoring repository;
+- a substitute for governed cloud state.
+
+Local authoring tools may work with files through approved methods, but **project
+state is governed by the CDE process**, not by what exists on a local filesystem.
+A file being present locally says nothing about its state, suitability or
+authorisation.
+
+**Repository and publication boundary.** The BEP authoring source and the issued
+project artefact are separate things, connected only by a deliberate human act:
+
+```
+Git repository  (authoritative BEP authoring source)
+  → review
+  → approved baseline
+  → controlled manual publication
+  → project-facing issued baseline in Forma
+```
+
+The Git repository is **not** inside the Desktop Connector tree and is not
+synchronised with it. **No symlink, junction, bind mount or live-sync model is
+approved**, and none exists. Publication is manual and human-performed. No
+machine-specific Desktop Connector paths are recorded in this document.
+
+### 6.11 As-Found vs Intended Configuration
+
+The Section 4.7 distinction applies to the CDE:
+
+| Concept | Status |
+|---|---|
+| **As-found** | Evidence of current behaviour |
+| **Intended governance** | A controlled decision |
+| **Implemented configuration** | The result of an authorised change |
+
+High-level as-found observations:
+
+| Observation | Classification |
+|---|---|
+| The current CDE root contains Common Files, WIP, Shared and Published areas | OBSERVED FACT |
+| Observed Design Collaboration configuration comprises the teams recorded in section 4.5 | OBSERVED FACT |
+| Some governance and standards areas were observed empty at discovery | OBSERVED FACT |
+| The MEP / Structural team-space binding discrepancy remains open | **UD-001 — UNRESOLVED** |
+
+**Current structure is not automatically the approved future state.** That an
+area exists, is named a certain way, or is used in a certain way is evidence of
+present practice — not an approved requirement, and not a decision.
+
+No correction to UD-001 is proposed here. Detailed CDE inventory is deliberately
+not reproduced.
+
+### 6.12 CDE Workflow & State Strategy Reference
+
+Detailed CDE workflow is recorded in `supporting/cde-workflow-state-strategy.md`.
+
+That resource is **not populated in this increment.**
+
+Section 6 defines the **governing principles**. The supporting strategy will
+contain the detail:
+
+- state definitions;
+- transition rules;
+- platform mapping;
+- team-space mapping;
+- share / consume process;
+- access implementation rules;
+- exception handling.
+
+That detail is not duplicated here. Principles are stated once, in this section;
+implementation is recorded once, there.
 
 ## 7. Information Production and Sharing
 
-TBD — To be developed.
+### 7.1 Information Production Principles
 
-Supported by `supporting/model-information-responsibility-matrix.md`.
+Information moves through this lifecycle:
+
+```
+requirement
+  → author
+  → WIP
+  → check
+  → Task-Team Lead authorises progression
+  → controlled share / exchange
+  → Shared
+  → receiving team reviews
+  → consume where appropriate
+  → use for stated purpose
+```
+
+**Every transition has a purpose and a responsible role.** Production begins from
+a requirement, not from availability of time or tools; and each step answers a
+different question — is it made, is it correct, may it progress, has it been
+adopted, what may it be used for.
+
+**Separate decisions do not require separate people.** In a project of this size
+several steps may be performed by the same participant. What is required is that
+each decision is made against its own criteria and is traceable (section 5.11).
+
+### 7.2 Information Ownership and Origination
+
+Origination follows this chain:
+
+```
+party → task team → discipline → information container
+```
+
+**Originator responsibility remains with the producing task team**, through
+sharing, consumption, coordination and publication. No downstream act relieves it.
+
+**Design consultant information and trade/construction information are
+distinct.** They are produced by different parties, for different purposes, at
+different levels of definition, under different responsibilities. Contractor
+models are **not** to be treated as consultant design information, and the
+distinction is not erased by both being present in the same CDE.
+
+**Authorship is not inferred from folder location.** Where a container sits tells
+you where it sits. The originator is recorded, not deduced.
+
+Detailed allocation of production responsibility belongs to the Model /
+Information Responsibility Matrix.
+
+### 7.3 Production Requirements
+
+Information production is driven by **defined requirements**, not by assumption
+about what might be wanted. A requirement may specify:
+
+- the container required;
+- the originator;
+- the intended recipient;
+- the purpose;
+- the required format;
+- the milestone or exchange it serves;
+- the checking requirement;
+- the authorisation requirement;
+- dependencies on other information.
+
+Detailed control will come from the **Model / Information Responsibility
+Matrix** (who produces what) and the **Information Delivery Schedule** (what is
+exchanged, when and why). Neither is populated in this increment.
+
+**No client information requirements exist.** No EIR, AIR or equivalent has been
+established (sections 2.3, 2.6), and none is invented here. Until formal
+requirements are approved, production requirements developed for this
+implementation remain **PROPOSED GOVERNANCE or TRAINING ASSUMPTION**, and are
+labelled as such rather than presented as client requirements.
+
+### 7.4 Authoring Environment
+
+Authoring tools are selected as **fit for purpose for the information being
+produced**.
+
+Revit is an observed authoring environment on this project (section 2.4). That
+observation does **not** make Revit mandatory for every discipline, every
+container or every deliverable. Other appropriate tools and formats may be used
+where the approved workflow permits.
+
+Two consequences:
+
+- **Software choice does not define governance.** The tool that produced a
+  container does not determine its state, suitability or authorisation.
+- **Authoring environment is not CDE state.** Work existing in an authoring tool
+  — saved, synchronised, or otherwise — is not thereby WIP, Shared or Published.
+  State is a property of the governed information container, not of the software.
+
+### 7.5 Task-Team WIP
+
+WIP is the task team's **working state**. It includes:
+
+- drafting and modelling;
+- internal iterations;
+- local coordination within the team;
+- correction;
+- checking preparation.
+
+WIP may contain many versions. **WIP versions are not project exchanges.** A new
+version in WIP is a working step, not a share, not an issue, and not an event
+that other teams are expected to act on.
+
+**Other parties do not rely on WIP** unless an explicitly governed exception
+exists (section 7.11).
+
+**Visibility is not permission.** Being able to see or open another team's WIP —
+through folder access, a platform permission, or any other means — does not
+constitute authority to use it. Permission to read is not authorisation to rely.
+
+### 7.6 Task-Team Checking
+
+Before controlled progression, the originating task team performs checks
+appropriate to the information. Three broad categories:
+
+| Category | Concern | Examples |
+|---|---|---|
+| **Technical / content** | Is the content right? | Appropriate discipline review |
+| **Information quality** | Is the container right? | Identity, naming, metadata, completeness, format |
+| **Interface / readiness** | Is it usable by others? | Coordinates, references, known interfaces, unresolved items identified |
+
+**This BEP does not define discipline technical QA criteria.** What constitutes
+an adequate structural or MEP technical review is a matter for the discipline and
+its own professional standards, not for an information-management document.
+
+Detailed checklists may later sit in the Working Process or the project
+standards.
+
+### 7.7 Readiness to Share
+
+Before sharing, the originating task team confirms, as applicable:
+
+- required information is present;
+- task-team checking is complete;
+- container identity is clear;
+- coordinates and reference context are appropriate;
+- known interfaces and issues are identified;
+- the purpose of sharing is known;
+- the receiving audience is understood;
+- required authorisation has occurred.
+
+**No numeric quality thresholds are set.** This BEP does not define a percentage,
+score or count that constitutes readiness; readiness is a judgement made against
+the purpose of the share, by the role authorised to make it.
+
+Detailed readiness checklists belong in the supporting working resources.
+
+### 7.8 Controlled Sharing
+
+Information moves from WIP to Shared **only through the approved progression
+route**.
+
+Where Design Collaboration is configured, its controlled package / share workflow
+is the **preferred project-facing mechanism for design-team exchange where
+appropriate**.
+
+**It is not the mechanism for every case.** Design Collaboration is not
+necessarily appropriate for every file, every discipline, every deliverable or
+every project stage. The route must fit the information type and the approved
+workflow, and choosing a route is a governance decision rather than a default.
+
+A share event should be traceable to:
+
+| Attribute |
+|---|
+| Originator |
+| Information / container |
+| Purpose |
+| Version / revision, as applicable |
+| Authorisation |
+| Date / event |
+
+No actual exchange identifiers are created in this increment.
+
+### 7.9 Receiving and Consuming Shared Information
+
+Receiving teams distinguish **information is available** from **information has
+been reviewed and adopted**. These are different states of the receiver's
+knowledge, and only the second justifies relying on it.
+
+Receiver actions may include:
+
+- review;
+- accept for a stated working purpose;
+- consume / reference;
+- reject or request clarification;
+- raise a coordination issue.
+
+**Consumption does not transfer originator technical responsibility** (section
+6.5). The originator remains responsible for the content it produced.
+
+**The receiving team remains responsible for how it uses the information within
+its own work** — for whether the information was appropriate to the use, whether
+it was current, and whether the use was within the stated purpose. Both
+responsibilities exist at once; neither cancels the other.
+
+### 7.10 Rework and Resharing
+
+When shared information requires change, the originator corrects or revises it
+**in its own WIP environment**:
+
+```
+WIP correction
+  → check
+  → authorise
+  → reshare
+```
+
+**The shared instance is not edited as an uncontrolled workaround.** Modifying
+information in place, outside the origination and checking route, breaks the link
+between what was authorised and what recipients hold.
+
+**Previous exchanges remain traceable.** Superseded information is marked as
+superseded, not deleted. The record of what was shared, when and for what purpose
+is part of the project's traceability, and remains needed after the information
+itself has been replaced.
+
+### 7.11 Production Exceptions and Deviations
+
+Exceptions happen. They must be **explicit**. Examples:
+
+- an urgent temporary exchange outside the normal route;
+- an unavailable platform service;
+- an incompatible file format;
+- a temporary team configuration issue;
+- missing required information.
+
+**An exception does not quietly become the new normal process.** A route used
+once under recorded justification carries no precedent; repetition without
+decision is how undocumented practice replaces governance.
+
+Each exception records:
+
+| Field |
+|---|
+| Reason |
+| Affected information |
+| Temporary route used |
+| Responsible role |
+| Risk / impact |
+| Required follow-up |
+
+**Unrecorded workarounds are not acceptable.** Email attachments, local drives,
+messaging apps and personal storage are not controlled exchange routes. Where
+circumstances force such a route, it is an exception to be recorded as above —
+not an informal alternative to the CDE.
+
+Detailed governance of exceptions and deviations belongs to Section 12 and
+`supporting/governance-decision-register.md`.
+
+### 7.12 Supporting Resource References
+
+| Resource | Answers |
+|---|---|
+| `supporting/model-information-responsibility-matrix.md` | Who produces what |
+| `supporting/information-delivery-schedule.md` | What is exchanged, when, why, to whom and in what form |
+| `supporting/cde-workflow-state-strategy.md` | How information moves between controlled states |
+
+**None of these is populated in this increment.**
+
+Section 7 defines the principles of production and sharing. The resources above
+record the specific allocations, schedules and transition rules. Detail is not
+duplicated between them.
 
 ## 8. Model and Information Coordination
 
