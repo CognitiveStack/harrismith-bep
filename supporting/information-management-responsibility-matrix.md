@@ -271,5 +271,9 @@ resolved only by explicit recorded decision. None is resolved here.
 | `model-information-responsibility-matrix.md` | Who produces which information containers |
 | `information-delivery-schedule.md` | What is delivered, when, to whom, why and in what form |
 
-The latter two are **not populated**. Their content is not duplicated or
-anticipated here.
+The Model / Information Responsibility Matrix and the Information Delivery
+Schedule are **separately controlled supporting resources**. Each declares its
+own current status, version and authority. Reference from this matrix does not
+by itself constitute approval of either resource or of its content.
+
+Their content is not duplicated or anticipated here.

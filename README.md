@@ -3,8 +3,8 @@
 Controlled authoring repository for the Harrismith Fire Station BIM Management
 and BIM Execution Plan (BEP) training implementation.
 
-**Status:** Implementation Increment 1 — repository scaffold only.
-No substantive BEP policy has been drafted.
+**Status:** Every document in this repository is a **controlled draft**. Nothing
+is approved, baselined or issued. Current maturity is stated in section 5.
 
 ---
 
@@ -150,7 +150,9 @@ repository.
 | Implementation Increment 3C | Complete — CDE Workflow & State Strategy populated as a controlled draft |
 | Implementation Increment 3D | Complete — Coordination & Review Strategy populated as a controlled draft |
 | Implementation Increment 4 | Complete — Working Process implemented as a controlled draft |
-| Implementation Increment 5 | This increment — BIM Delivery Guide implemented as a controlled draft |
+| Implementation Increment 5 | Complete — BIM Delivery Guide implemented as a Controlled Draft |
+| Implementation Increment 6A | Complete — cross-document consistency audit performed; result **PASS WITH FINDINGS** |
+| Implementation Increment 6B | Complete — audit corrections applied |
 
 All 13 main BEP sections now contain substantive draft content.
 
@@ -169,8 +171,10 @@ as controlled drafts. The project standards remain unpopulated.
 The main document system is therefore substantively implemented. That statement
 is about coverage only. Every one of these documents is a **controlled draft**:
 
-- **cross-document validation remains pending;**
+- **the cross-document corrective pass is complete; readiness for Baseline 0.1
+  candidate preparation is pending final review of that corrective pass;**
 - **Baseline 0.1 remains unapproved;**
+- **no Baseline 0.1 candidate has been prepared;**
 - **live-project validation has not been performed;**
 - **Gate C has not passed;**
 - **nothing has been published as an approved BEP baseline.**
@@ -210,13 +214,24 @@ Two standing rules:
 
 ## 7. Development approach
 
-Substantive drafting begins in **later controlled increments**, each with an
-explicitly approved scope.
+This repository is developed through **scoped controlled increments**. The method
+below is an enduring working rule, not a description of any particular phase.
 
-Undrafted document files contain only titles, purpose/status statements, the
-approved heading scaffold, and `TBD` / *To be developed* placeholders. Empty
-placeholder content is intentional and is not an omission to be filled in
-opportunistically.
+- **Each increment has an explicitly defined and approved scope.** Work stays
+  inside it.
+- **Repository state is verified before modification.** Branch, worktree and
+  commit are checked at pre-flight, and unexpected state stops the increment.
+- **A contradiction causes STOP and REPORT, not silent repair.** Where a document
+  appears to conflict with another controlled resource, the conflict is raised
+  rather than quietly patched in whichever file is open.
+- **Changes are made as atomic commits** and are reviewed before the next
+  increment begins.
+- **Controlled resources declare their own status, version and authority.**
+  Reference from one document does not constitute approval of another.
+- **Later phases may revise any resource through governed change**, including
+  supersession or withdrawal.
+- **Current maturity is stated by section 5 and the gate table above** — not by
+  wording embedded in the body of controlled documents.
 
-No increment beyond the one currently approved is to be started without
-explicit approval.
+No increment beyond the one currently approved is to be started without explicit
+approval.

@@ -334,8 +334,9 @@ See `README.md` sections 2.1 and 4.
 
 **Guide ≠ Working Process ≠ BEP.**
 
-A TRAINING NEED may result in future Guide content. **The Guide is not populated
-in this increment.**
+The BIM Delivery Guide is **separately controlled** and declares its own current
+status and authority. A TRAINING NEED raised here may inform future Guide
+content, but the Working Process **does not govern or approve the Guide**.
 
 ## Relationship to Issues and the Governance Register
 

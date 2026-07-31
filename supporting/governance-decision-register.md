@@ -184,8 +184,10 @@ Shared and Published areas (BEP 6.11).
 **Governance consequence.** This is the as-found baseline against which an
 intended CDE structure will be decided and, after any approved change, verified.
 
-**Intended state.** Not defined. To be developed in the CDE Workflow & State
-Strategy.
+**Intended state.** Not defined. Any intended-state change is to be decided
+through the governance route. The CDE Workflow & State Strategy records the
+observed context and the governing workflow; it does not itself create that
+decision.
 
 **Decision required.** Whether the as-found structure is adopted, amended or
 replaced as intended governance.
@@ -291,8 +293,10 @@ with limited content (BEP 4.5, 8.4).
 8 is not established. A decision on the intended coordination environment is
 needed before the coordination cycle can be operated as governed.
 
-**Intended state.** Not defined. To be developed in the Coordination & Review
-Strategy.
+**Intended state.** Not decided or approved. The intended coordination
+configuration is to be determined through the governance route. The Coordination
+& Review Strategy records the matter as open; it does not itself authorise a
+configuration.
 
 **Decision required.** The intended coordination environment and its
 configuration.
