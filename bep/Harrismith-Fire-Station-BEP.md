@@ -298,7 +298,8 @@ worked around, or on who owns that decision.
 **On empty Common Files areas.** The standards areas were observed empty at
 discovery. This constrains the project: there is currently no published naming
 standard, coordinate standard, titleblock set or template set to reference.
-Section 11 and the `standards/` directory address this in a later increment.
+Section 11 defines how project standards are applied; the standards themselves
+are held in `standards/` and remain not established.
 
 **Current configuration is not intended governance.** Throughout this document,
 what the platform currently does and what governance intends are held apart. The
@@ -321,8 +322,9 @@ never silent.
 | TA-02 | Participants exercise defined roles in a simulated capacity. No participant holds real professional authority or duty by virtue of a role in this implementation. | Allows roles, responsibility and authorisation to be exercised without implying real authority. |
 | TA-03 | The delivery organisation and task-team structure defined in Section 4 is a training organisation model. It does not constitute actual appointment of any organisation, company, consultant, contractor or professional role. | Allows organisation, task-team, discipline and information-management responsibility interfaces to be exercised realistically. |
 
-These are to be transcribed to the Governance & Decision Register in a later
-controlled increment.
+These assumptions are also recorded in the Governance & Decision Register, which
+is separately controlled and declares its own status. Recording an assumption
+does not make it a project fact.
 
 **Current information gaps.** These are categories of missing information, not
 questions answered here:
@@ -475,8 +477,7 @@ It is not an appointment structure. Specifically:
 - **Lead Delivery Party holder: TBD.**
 
 TA-03 is recorded with TA-01 and TA-02 in the assumptions table at section 2.6,
-and joins them for transcription to the Governance & Decision Register in a
-later controlled increment.
+and with them in the Governance & Decision Register.
 
 ### 4.2 Project Parties
 
@@ -1150,7 +1151,8 @@ Purposes may include — **as examples only, not as current project milestones**
 
 None of these is a committed milestone of this project. Actual purposes become
 project requirements only when approved in the Information Delivery Schedule,
-which is not yet populated.
+subject to that resource's own approval status. Entries existing in that
+schedule are not thereby approved project requirements.
 
 **Published does not mean:**
 

@@ -49,9 +49,9 @@ observation is not observation of absence.
 **In scope.** Design discipline information containers for the six discipline
 domains in BEP 4.4, plus one multidisciplinary coordination information class.
 
-**Out of scope for this increment.** Construction and trade-contractor
-information containers — see section 5. Level of information need — see section
-4. Delivery events, formats and timing — see the Information Delivery Schedule.
+**Out of scope.** Construction and trade-contractor information containers —
+see section 5. Level of information need — see section 4. Delivery events,
+formats and timing — see the Information Delivery Schedule.
 
 ## 2. Parties and task teams
 

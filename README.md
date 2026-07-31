@@ -153,6 +153,8 @@ repository.
 | Implementation Increment 5 | Complete — BIM Delivery Guide implemented as a Controlled Draft |
 | Implementation Increment 6A | Complete — cross-document consistency audit performed; result **PASS WITH FINDINGS** |
 | Implementation Increment 6B | Complete — audit corrections applied |
+| Implementation Increment 7A | Halted at read-only pre-flight — further stale statements found; candidate preparation not begun |
+| Implementation Increment 6C | Complete — pre-candidate stale-language corrections applied |
 
 All 13 main BEP sections now contain substantive draft content.
 
@@ -171,8 +173,9 @@ as controlled drafts. The project standards remain unpopulated.
 The main document system is therefore substantively implemented. That statement
 is about coverage only. Every one of these documents is a **controlled draft**:
 
-- **the cross-document corrective pass is complete; readiness for Baseline 0.1
-  candidate preparation is pending final review of that corrective pass;**
+- **cross-document validation and the pre-candidate corrective passes are
+  complete; Training Baseline 0.1 candidate preparation may be re-attempted,
+  subject to review of this corrective pass;**
 - **Baseline 0.1 remains unapproved;**
 - **no Baseline 0.1 candidate has been prepared;**
 - **live-project validation has not been performed;**
