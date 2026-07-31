@@ -88,11 +88,13 @@ schedule.
 | Event | Concept | Timing | Status |
 |---|---|---|---|
 | **TRN-E01** | Design coordination share | Event-triggered / TBD | PROPOSED |
-| **TRN-E02** | Coordination reshare / resolution update | After required resolution; event-triggered / TBD. Repeatable | PROPOSED |
+| **TRN-E02** | Coordination reshare / resolution update | After required resolution; event-triggered / TBD. Repeatable | PROPOSED — **conditional**, activated per affected container only |
 | **TRN-E03** | Controlled design review / project-facing exchange | TBD | **PROPOSED — BLOCKED pending governance decisions** |
 
 **No calendar dates, frequencies or contractual milestones exist for any event.**
-TRN-E02 is repeatable and is deliberately given **no calendar frequency**.
+TRN-E02 is repeatable and conditional, and is deliberately given **no calendar
+frequency**. Its rows activate only for containers actually requiring reshare —
+see section 4.2.
 
 ---
 
@@ -156,7 +158,14 @@ the originating task team (BEP 6.5, 7.9, 9.5).
 | State | **Shared** |
 | Suitability | **Coordination use only** |
 | Timing | After required resolution; event-triggered / TBD |
-| Status | **PROPOSED**. Repeatable — **no calendar frequency** |
+| Status | **PROPOSED**. **Repeatable and conditional** — **no calendar frequency** |
+
+**TRN-E02 is a repeatable conditional event.** A discipline participates **only
+when its own information requires revision and controlled reshare** as a
+consequence of a coordination finding or issue, or an equivalent governed need.
+
+**The existence of this event does not mean all six disciplines reshare during
+every coordination cycle.** A cycle may activate one container, several, or none.
 
 ### 4.1 Lifecycle
 
@@ -173,21 +182,29 @@ The **originating task team** performs the correction in its own WIP environment
 and its own checking route. The shared instance is not edited in place as an
 uncontrolled workaround (BEP 7.10, 8.10).
 
-### 4.2 Scheduled rows
+### 4.2 Conditional template rows
 
-Applied to whichever discipline containers are affected by the coordination
-findings. Rows exist only for affected containers.
+The rows below are **template rows, not active deliveries**. Each is activated
+only when its own container requires controlled rework and reshare. An
+unactivated row is not a pending exchange and carries no expectation that the
+task team will produce anything.
 
-| Delivery ID | Container | Originating party | Task team | Discipline |
-|---|---|---|---|---|
-| TRN-E02-ARC | ARC-01 | Architectural Consultant | Architectural task team | ARC |
-| TRN-E02-STR | STR-01 | Structural Consultant | Structural task team | STR |
-| TRN-E02-MEC | MEC-01 | MEP Consultant | Mechanical task team | MEC |
-| TRN-E02-ELE | ELE-01 | MEP Consultant | Electrical task team | ELE |
-| TRN-E02-PLM | PLM-01 | MEP Consultant | Plumbing task team | PLM |
-| TRN-E02-FIR | FIR-01 | Fire Consultant | Fire task team | FIR |
+| Delivery ID | Container | Originating party | Task team | Discipline | Activation |
+|---|---|---|---|---|---|
+| TRN-E02-ARC | ARC-01 | Architectural Consultant | Architectural task team | ARC | **Conditional** — activated only when ARC-01 requires controlled rework and reshare |
+| TRN-E02-STR | STR-01 | Structural Consultant | Structural task team | STR | **Conditional** — activated only when STR-01 requires controlled rework and reshare |
+| TRN-E02-MEC | MEC-01 | MEP Consultant | Mechanical task team | MEC | **Conditional** — activated only when MEC-01 requires controlled rework and reshare |
+| TRN-E02-ELE | ELE-01 | MEP Consultant | Electrical task team | ELE | **Conditional** — activated only when ELE-01 requires controlled rework and reshare |
+| TRN-E02-PLM | PLM-01 | MEP Consultant | Plumbing task team | PLM | **Conditional** — activated only when PLM-01 requires controlled rework and reshare |
+| TRN-E02-FIR | FIR-01 | Fire Consultant | Fire task team | FIR | **Conditional** — activated only when FIR-01 requires controlled rework and reshare |
 
-### 4.3 Conditions — all TRN-E02 rows
+**Only affected containers become active exchanges.** A row becomes an active
+TRN-E02 exchange when, and only when, its trigger occurs — a coordination
+finding or issue assigned to that task team, or an equivalent governed need. The
+six rows are the full set of containers that *could* be reshared; they are not a
+set that *will* be reshared.
+
+### 4.3 Conditions — applying to any activated TRN-E02 row
 
 | Field | Value |
 |---|---|
