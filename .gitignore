@@ -1,0 +1,66 @@
+# Harrismith Fire Station BEP — authoring repository
+#
+# This repository is a document authoring source. It holds text under version
+# control. It does not hold BIM models, CDE-issued artefacts, or build output.
+
+# ---------------------------------------------------------------------------
+# Safety boundary: Autodesk CDE / Desktop Connector
+# Nothing from the Desktop Connector / ACCDocs tree may ever enter this
+# repository. These patterns are a backstop, not a substitute for the
+# prohibition stated in README.md section 2.1.
+# ---------------------------------------------------------------------------
+ACCDocs/
+DC/
+*.lnk
+
+# ---------------------------------------------------------------------------
+# BIM authoring and coordination files
+# These belong in the CDE, not in the authoring source.
+# ---------------------------------------------------------------------------
+*.rvt
+*.rte
+*.rfa
+*.rft
+*.rvt.*
+*.nwc
+*.nwd
+*.nwf
+*.ifc
+*.dwg
+*.dwf
+*.dxf
+*.dgn
+*.skp
+*.pln
+
+# Revit / Navisworks working artefacts
+*.0001.rvt
+*.slog
+*.dat
+Revit_temp/
+*_backup/
+
+# ---------------------------------------------------------------------------
+# Operating system and editor artefacts
+# ---------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+.vscode/
+.idea/
+
+# ---------------------------------------------------------------------------
+# Office / document temporary files
+# ---------------------------------------------------------------------------
+~$*
+*.tmp
+*.bak
+
+# ---------------------------------------------------------------------------
+# Local and credential material
+# ---------------------------------------------------------------------------
+.env
+.env.*
+*.local
