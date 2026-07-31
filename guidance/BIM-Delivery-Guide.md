@@ -433,9 +433,9 @@ Use the precise word for the decision you actually mean:
 | **Accept** | *"Does the recipient accept this for the stated purpose?"* |
 | **Reject** | *"It is not suitable for this progression or use, and action is needed."* |
 
-**"Approval" is not a catch-all.** It is the vaguest word in BIM, and it is
-usually used to mean whichever of the six above the speaker wishes had happened.
-Say which one you mean.
+**The word "approval" is often used loosely.** In this workflow, use the specific
+term that describes the actual decision: **check, review, authorise, coordinate,
+accept or reject**. "Approval" is not a substitute for any of them.
 
 ### Findings, clashes and Issues
 
