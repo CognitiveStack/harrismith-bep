@@ -140,7 +140,7 @@ repository.
 | Discovery Gate A | Complete |
 | Architecture Gate B | Complete — frozen as **Architecture Baseline v1** |
 | Implementation Increment 1 | Complete — repository scaffold |
-| Implementation Increment 2A | This increment — BEP sections 1–3 drafted |
+| Implementation Increment 2A | This increment — BEP sections 1–3 drafted, revised after review |
 
 The BEP is a controlled draft working toward **BEP Training Baseline 0.1**.
 Baseline 0.1 is **not approved**. Sections 4–13 remain scaffold.

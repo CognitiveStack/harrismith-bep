@@ -1,15 +1,17 @@
 # Harrismith Fire Station — BIM Execution Plan
 
-> **Status:** Controlled draft — not an approved baseline.
-> **Working toward:** BEP Training Baseline 0.1.
+> **Status:** Controlled draft.
+> **Target baseline:** BEP Training Baseline 0.1 — in development, **not approved**.
+> **Issued to CDE:** No.
 > **Authority:** None. Training/reference implementation. Non-contractual.
 > **Architecture:** Architecture Baseline v1 (frozen at Gate B). Sections are not
 > to be renumbered, merged, split or resequenced.
 > **Drafted to date:** Sections 1–3. Sections 4–13 remain scaffold.
 
-All statements in this document are classified as OBSERVED FACT, TRAINING
-ASSUMPTION, PROPOSED GOVERNANCE, APPROVED GOVERNANCE or UNRESOLVED DECISION.
-See `README.md` section 6.
+Statements in this document are individually classified as OBSERVED FACT,
+TRAINING ASSUMPTION, PROPOSED GOVERNANCE, APPROVED GOVERNANCE or UNRESOLVED
+DECISION. The document deliberately contains several of these at once, so no
+single classification applies to it as a whole. See `README.md` section 6.
 
 ---
 
@@ -17,27 +19,37 @@ See `README.md` section 6.
 
 ### 1.1 Purpose
 
-This BIM Execution Plan (BEP) defines the agreed BIM and information-management
-approach for the Harrismith Fire Station project.
+This BIM Execution Plan (BEP) is being developed to define the BIM and
+information-management approach for the Harrismith Fire Station
+training/reference implementation.
 
-It governs how project information is produced, checked, shared, coordinated,
-reviewed, authorised, delivered and governed through change.
+Once approved as a training baseline, it will govern how project information is
+produced, checked, shared, coordinated, reviewed, authorised, delivered and
+governed through change. It does not do so at present: its status is controlled
+draft and its authority is none (section 1.2).
 
-Its purpose is to make multidisciplinary delivery **controlled, traceable and
-repeatable**: every information container has a known originator, a known state,
-a known route to the next state, and a known person accountable for moving it
-there. Where this document does not yet define something, that gap is recorded
-rather than left to local habit.
+Its aim is to make multidisciplinary delivery **controlled, traceable and
+repeatable**. The intended outcome of the workflow it defines is that each
+information container has a known originator, a known state, a known route to
+the next state, and a known role accountable for moving it there. Where this
+document does not yet define something, that gap is recorded rather than left to
+local habit.
 
 ### 1.2 Document Status
 
 | Field | Value |
 |---|---|
+| Document status | Controlled draft |
+| Target baseline | BEP Training Baseline 0.1 — in development, **not approved** |
+| Authority | None — training/reference implementation, non-contractual |
+| Issued to CDE | No |
+| Architecture | Architecture Baseline v1 — frozen |
 | Type | Training / reference BIM Execution Plan |
-| Contractual status | **Non-contractual.** Creates no appointment, duty or liability. |
-| Current state | Controlled draft |
-| Target | BEP Training Baseline 0.1 — **not yet approved** |
-| Classification | PROPOSED GOVERNANCE |
+| Contractual status | Creates no appointment, duty or liability |
+
+No single statement classification is assigned to this document. It contains
+OBSERVED FACT, TRAINING ASSUMPTION, PROPOSED GOVERNANCE and UNRESOLVED DECISION
+statements by design, and each is classified where it appears.
 
 This is a post-appointment-style BEP written as a training and reference
 implementation. It is structured as a real project BEP would be, but no real
@@ -183,10 +195,12 @@ Observed as unavailable or N/A in platform metadata:
 | Source / template information | Not available |
 
 **Client / appointing party: not established.** No real client or
-appointing-party organisation has been established for this training BEP. A
-placeholder client string exists in authoring-model metadata; it is a default
-value, it is not authoritative, and it is not used as client information
-anywhere in this document. See section 2.3.
+appointing-party organisation has been established for this training BEP.
+
+An authoring-model client metadata value was observed. Its provenance, its
+authority and its relationship to any actual Appointing Party have **not** been
+established. It is therefore not used as authoritative client information
+anywhere in this document, and its value is not reproduced here. See section 2.3.
 
 **Platform identifiers are not project identifiers.** A platform project number
 is an environment configuration value. The project's controlled identifier will
@@ -207,9 +221,8 @@ exercises. Participants work the same project through the whole lifecycle of an
 information container, so that governance is experienced as an operating system
 of work rather than described in the abstract.
 
-The building type is deliberately modest in scale and genuinely
-multidisciplinary, which makes the coordination and information-management
-problems real without making them unmanageable.
+Harrismith Fire Station is the single coherent anchor for that multidisciplinary
+workflow.
 
 ### 2.3 Project Delivery Context
 
@@ -257,9 +270,10 @@ platform is currently doing — nothing more. See section 2.5.
 
 ### 2.5 Known Project Constraints
 
-| Constraint | Classification |
+| Statement | Classification |
 |---|---|
-| BIM governance is immature and is being developed progressively | OBSERVED FACT |
+| Governance artefacts and configuration observed during discovery remain incomplete | OBSERVED FACT |
+| Governance will be developed progressively through controlled baselining | PROPOSED GOVERNANCE — training strategy |
 | Architecture was the only populated direct production stream at the inspected CDE level | OBSERVED FACT |
 | Design Collaboration contains an MEP / Structural team-space mapping discrepancy | OBSERVED FACT — unresolved |
 | Common Files areas for Naming Standards, Coordinates, Titleblocks, Templates and Reference Information were observed empty at discovery | OBSERVED FACT |
