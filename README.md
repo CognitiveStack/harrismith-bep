@@ -149,7 +149,8 @@ repository.
 | Implementation Increment 3B | Complete — Model / Information Responsibility Matrix and Information Delivery Schedule populated as controlled drafts |
 | Implementation Increment 3C | Complete — CDE Workflow & State Strategy populated as a controlled draft |
 | Implementation Increment 3D | Complete — Coordination & Review Strategy populated as a controlled draft |
-| Implementation Increment 4 | This increment — Working Process implemented as a controlled draft |
+| Implementation Increment 4 | Complete — Working Process implemented as a controlled draft |
+| Implementation Increment 5 | This increment — BIM Delivery Guide implemented as a controlled draft |
 
 All 13 main BEP sections now contain substantive draft content.
 
@@ -162,13 +163,17 @@ All six supporting management resources are populated as controlled drafts: the
 Governance & Decision Register, the Information Management Responsibility
 Matrix, the Model / Information Responsibility Matrix, the Information Delivery
 Schedule, the CDE Workflow & State Strategy and the Coordination & Review
-Strategy. The **Working Process** is implemented as a controlled draft. The
-**BIM Delivery Guide remains pending**, and the project standards remain
-unpopulated.
+Strategy. The **Working Process** and the **BIM Delivery Guide** are implemented
+as controlled drafts. The project standards remain unpopulated.
 
-Every one of these documents is a **controlled draft**. Baseline 0.1 is **not
-approved**, Gate C has **not** been passed, and no live-project validation has
-been performed.
+The main document system is therefore substantively implemented. That statement
+is about coverage only. Every one of these documents is a **controlled draft**:
+
+- **cross-document validation remains pending;**
+- **Baseline 0.1 remains unapproved;**
+- **live-project validation has not been performed;**
+- **Gate C has not passed;**
+- **nothing has been published as an approved BEP baseline.**
 
 Architecture Baseline v1 is **frozen**. The document architecture recorded in
 section 3 is not to be redesigned during implementation increments. Proposed
