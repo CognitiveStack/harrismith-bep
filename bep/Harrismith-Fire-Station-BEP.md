@@ -1864,8 +1864,10 @@ information be relied on.
 | **Decisions are traceable** | Who decided what, when and for what purpose is recoverable. |
 | **Authority comes from governance** | Not from platform access, permission or configuration. |
 
-The word "approve" is used sparingly and precisely in this BEP, because it is the
-term most often used to mean whichever decision the speaker wishes had been made.
+The term "approve" is used only where a defined approval decision is intended.
+More specific terms — check, review, authorise, coordinate, accept and reject —
+are used where they describe the actual decision more accurately. "Approval" is
+not used as a catch-all for different decision functions. See section 9.2.
 
 ### 9.2 Review and Decision Terminology
 
