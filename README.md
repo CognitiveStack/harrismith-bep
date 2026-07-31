@@ -147,7 +147,8 @@ repository.
 | Implementation Increment 2E | Complete — BEP sections 11–13 drafted; main BEP draft complete |
 | Implementation Increment 3A | Complete — Governance & Decision Register and Information Management Responsibility Matrix populated as controlled drafts |
 | Implementation Increment 3B | Complete — Model / Information Responsibility Matrix and Information Delivery Schedule populated as controlled drafts |
-| Implementation Increment 3C | This increment — CDE Workflow & State Strategy populated as a controlled draft |
+| Implementation Increment 3C | Complete — CDE Workflow & State Strategy populated as a controlled draft |
+| Implementation Increment 3D | This increment — Coordination & Review Strategy populated as a controlled draft |
 
 All 13 main BEP sections now contain substantive draft content.
 
@@ -156,15 +157,16 @@ mean the BEP is approved, baselined, issued to the CDE, validated against the
 live project, or ready for contractual use. The BEP remains a controlled draft
 working toward **BEP Training Baseline 0.1**, which is **not approved**.
 
-Five supporting management resources are populated as controlled drafts: the
+All six supporting management resources are populated as controlled drafts: the
 Governance & Decision Register, the Information Management Responsibility
 Matrix, the Model / Information Responsibility Matrix, the Information Delivery
-Schedule and the CDE Workflow & State Strategy. The Coordination & Review
-Strategy, together with the Working Process, the BIM Delivery Guide and the
-project standards, remains unpopulated.
+Schedule, the CDE Workflow & State Strategy and the Coordination & Review
+Strategy. The Working Process, the BIM Delivery Guide and the project standards
+remain unpopulated.
 
-The supporting-resource phase is **not** complete, and no Baseline 0.1 candidate
-exists.
+Every one of these documents is a **controlled draft**. Baseline 0.1 is **not
+approved**, Gate C has **not** been passed, and nothing here has been validated
+against the live project.
 
 Architecture Baseline v1 is **frozen**. The document architecture recorded in
 section 3 is not to be redesigned during implementation increments. Proposed
