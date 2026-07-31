@@ -597,7 +597,7 @@ Observed team-space bindings:
 The second and third bindings constitute the previously recorded discrepancy
 **UD-001**, which **remains unresolved**. They are recorded exactly as observed.
 They are **not** corrected here, and no intended replacement binding is proposed
-in this increment. See section 4.7.
+by this BEP. See section 4.7.
 
 Further observations, at high level:
 
@@ -964,7 +964,9 @@ relying on the information can weigh it.
 Detailed allocation of responsibility is recorded in
 `supporting/information-management-responsibility-matrix.md`.
 
-That matrix is **not populated in this increment.**
+That matrix is separately controlled and declares its own status, version and
+authority. Reference from this BEP does not constitute approval of it (section
+13.6).
 
 **Division of labour between the two documents.** Section 5 defines what each
 function *means*. The matrix records *how those functions are allocated* to roles
@@ -1264,7 +1266,9 @@ not reproduced.
 
 Detailed CDE workflow is recorded in `supporting/cde-workflow-state-strategy.md`.
 
-That resource is **not populated in this increment.**
+That resource is separately controlled and declares its own status, version and
+authority. Reference from this BEP does not constitute approval of it (section
+13.6).
 
 Section 6 defines the **governing principles**. The supporting strategy will
 contain the detail:
@@ -1348,7 +1352,8 @@ about what might be wanted. A requirement may specify:
 
 Detailed control will come from the **Model / Information Responsibility
 Matrix** (who produces what) and the **Information Delivery Schedule** (what is
-exchanged, when and why). Neither is populated in this increment.
+exchanged, when and why). Each is separately controlled and declares its own
+status (section 13.6).
 
 **No formal information requirements are available to this implementation.** No
 formal Employer's / Exchange Information Requirements, Asset Information
@@ -1465,7 +1470,7 @@ A share event should be traceable to:
 | Authorisation |
 | Date / event |
 
-No actual exchange identifiers are created in this increment.
+This BEP does not create actual exchange identifiers.
 
 ### 7.9 Receiving and Consuming Shared Information
 
@@ -1551,7 +1556,9 @@ Detailed governance of exceptions and deviations belongs to Section 12 and
 | `supporting/information-delivery-schedule.md` | What is exchanged, when, why, to whom and in what form |
 | `supporting/cde-workflow-state-strategy.md` | How information moves between controlled states |
 
-**None of these is populated in this increment.**
+**Each of these is separately controlled** and declares its own status, version
+and authority. Reference from this BEP does not constitute approval of any of
+them (section 13.6).
 
 Section 7 defines the principles of production and sharing. The resources above
 record the specific allocations, schedules and transition rules. Detail is not
@@ -1706,8 +1713,8 @@ An Issue should normally carry enough information to identify:
 - status;
 - relevant evidence and context.
 
-No project issue numbering or status codes are created in this increment.
-Detailed taxonomy belongs in the Coordination & Review Strategy.
+This BEP does not define project issue numbering or status codes. Detailed
+taxonomy belongs in the Coordination & Review Strategy.
 
 ### 8.8 Coordination Cycle
 
@@ -1751,7 +1758,7 @@ Meetings may be used to:
 Reliance on undocumented verbal decisions is not acceptable — a decision nobody
 can produce afterwards did not happen, whatever was said in the room.
 
-Meeting frequency is not prescribed in this increment, and no separate
+Meeting frequency is not prescribed by this BEP, and no separate
 meeting-governance system is created.
 
 ### 8.10 Issue Resolution and Verification
@@ -1829,7 +1836,9 @@ to Section 12.
 Detailed coordination arrangements are recorded in
 `supporting/coordination-review-strategy.md`.
 
-That resource is **not populated in this increment.**
+That resource is separately controlled and declares its own status, version and
+authority. Reference from this BEP does not constitute approval of it (section
+13.6).
 
 Section 8 establishes the governing principles. The supporting strategy will hold
 the detail:
@@ -2089,7 +2098,8 @@ limitation, because it removes the reader's ability to weigh the evidence.
 
 **No new Review Matrix is created.** Section 9 defines the decision terminology
 and principles; detailed allocation and evidence belong in the existing supporting
-resources above. None of them is populated in this increment.
+resources above. Each is separately controlled and declares its own status;
+reference from this BEP does not constitute approval of it (section 13.6).
 
 ## 10. Information Delivery and Exchange
 
@@ -2139,7 +2149,8 @@ Possible training examples — **examples only**:
 
 **These do not become project milestones by appearing in this BEP.** No
 contractual dates exist (section 2.3), and none are invented. Actual approved
-events belong in the Information Delivery Schedule, which is not populated.
+events belong in the Information Delivery Schedule, subject to that resource's
+own approval status.
 
 ### 10.4 Deliverables and Information Containers
 
@@ -2156,7 +2167,7 @@ information containers, for example:
 Each container retains identifiable **origin, purpose and responsibility**
 (section 7.2), regardless of what it was bundled with.
 
-The project's final deliverable list is not created in this increment.
+This BEP does not define the project's final deliverable list.
 
 ### 10.5 Task-Team Delivery Planning
 
@@ -2308,8 +2319,9 @@ does not create the second (section 6.8).
 Detailed delivery planning is recorded in
 `supporting/information-delivery-schedule.md`.
 
-That resource is **not populated in this increment**, and no real rows are
-created.
+That resource is separately controlled and declares its own status, version and
+authority. Reference from this BEP does not constitute approval of it (section
+13.6). This BEP does not create schedule rows.
 
 The schedule will include fields equivalent to:
 
@@ -2472,8 +2484,8 @@ Controlled documentation standards may cover:
 - graphical conventions.
 
 Detailed rules belong in the controlled project standards and resources
-(`standards/titleblocks/`). **No titleblock name and no drawing-number syntax is
-invented in this increment.**
+(`standards/titleblocks/`). **This BEP defines no titleblock name and no
+drawing-number syntax.**
 
 ### 11.8 Templates and Approved Project Resources
 
@@ -2737,7 +2749,8 @@ applied to one and not the others produces a governance system that describes
 something the project is not doing — the most common way controlled documentation
 becomes ignored.
 
-**No live platform change is made in this increment.**
+**This BEP does not itself authorise any live platform change.** Platform change
+follows an approved governance decision (section 12.1).
 
 ### 12.9 Verification After Change
 
@@ -2790,8 +2803,8 @@ controlled draft
 Baselines may run 0.1, 0.2 … 1.0. **No semantic-versioning rules beyond this are
 implied or approved.**
 
-**BEP Training Baseline 0.1 is not approved in this increment.** This document
-remains a controlled draft (sections 1.2, 9.10).
+**BEP Training Baseline 0.1 is not approved.** This document's current status is
+declared in section 1.2; see also section 9.10.
 
 **Changes affecting approved governance may require a new baseline rather than
 silent amendment.** Once a baseline is approved, editing it in place would
@@ -2822,8 +2835,9 @@ resolved in this section, and no intended replacement mapping is proposed.
 ### 12.13 Governance & Decision Register Reference
 
 `supporting/governance-decision-register.md` is the **single consolidated
-authoritative record** for governance matters. It is **not populated in this
-increment**.
+authoritative record** for governance matters. It is separately controlled and
+declares its own status, version and authority. Reference from this BEP does not
+constitute approval of it (section 13.6).
 
 It will record:
 
@@ -2867,8 +2881,10 @@ upon (section 13.6).
 | `supporting/coordination-review-strategy.md` | Coordination cycles, clash and interface management, review and verification |
 | `supporting/governance-decision-register.md` | Decisions, assumptions, deviations and unresolved matters |
 
-**None of these is substantively populated.** Each currently holds a purpose and
-status statement only.
+**Each resource is separately controlled.** Each declares its own status, version
+and authority within the resource itself, using the vocabulary in section 13.6.
+Listing a resource here records that this BEP depends on it; it does not
+constitute approval of that resource or of its content.
 
 ### 13.3 Referenced Project Standards
 
@@ -2927,7 +2943,7 @@ Three standing constraints (section 6.10):
   for this workflow**;
 - **manual controlled publication is the approved initial publication model.**
 
-**No publication automation is implemented in this increment.**
+**No publication automation is approved or implemented.**
 
 ### 13.6 Reference Status and Version Control
 
@@ -2941,8 +2957,13 @@ Status concepts for controlled references:
 | **Superseded** | Replaced by a later approved version, retained for traceability |
 | **Withdrawn** | No longer to be relied upon |
 
-**No current resource is marked approved.** The BEP is a controlled draft, the
-supporting resources are unpopulated, and no project standard is established.
+**Status is declared by the resource, not inferred from this BEP.** Each
+controlled reference states its own status using the vocabulary above, and a
+reader determines reliability from that declaration rather than from the fact
+that this BEP refers to it. Nothing is approved by virtue of being referenced.
+
+This BEP's own status is declared in section 1.2. No project standard is
+established (section 11.12).
 
 A controlled reference should expose enough status and version information for a
 reader to determine **whether it may be relied upon**. A later version supersedes
