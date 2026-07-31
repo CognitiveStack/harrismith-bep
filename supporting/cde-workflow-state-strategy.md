@@ -150,23 +150,56 @@ does not constitute acceptance (BEP 9.1, 9.2).
 
 ## 3. Transition control table
 
-Eight controlled transitions. Presented as two aligned tables keyed by
-transition reference.
+Eight controlled steps in the workflow. Presented as three aligned tables keyed
+by reference.
 
-### 3.1 Transition, trigger and decision
+**Four separate dimensions.** Information state, workflow event, recipient action
+and decision status are **separate dimensions**. An event or a decision does
+**not** create a new information state unless the governed state-transition rule
+explicitly says it does (BEP 6.8).
 
-| Ref | From state | Trigger | Required check | Decision / authorisation | Performing function | To state |
-|---|---|---|---|---|---|---|
-| **T1** | WIP | Information ready for controlled sharing | Task-team technical / content check **and** information-quality / readiness check | **Authorise share** | Authoring team performs; **Task-Team Lead** (or other explicitly allocated function) authorises | Shared |
-| **T2** | Shared | Receiver chooses to use shared information for a stated purpose | Receiver review of suitability for that purpose | Receiver **consume** decision | Receiving task team | Consumed / referenced in receiver's working context |
-| **T3** | Shared | Container included in a defined coordination cycle | Input readiness appropriate to the coordination purpose | Coordination **input inclusion** decision | **BIM Coordinator** (process function) | Coordination input |
-| **T4** | Shared | A defined delivery or exchange requirement | **Delivery readiness review** | **Authorise publication / exchange** | **UNRESOLVED — TBD** (BEP 9.7) | Published / Authorised |
-| **T5** | Published / Authorised | Approved exchange route executed | Transmission prepared per the delivery requirement | Execute controlled transmission | Originating task team; CDE Administration may execute platform functions | Delivered |
-| **T6** | Delivered | Recipient receives the exchange | Registration of receipt | Receipt | Receiving / recipient function | Received |
-| **T7** | Received | Recipient decision for the stated purpose | Assessment against the applicable requirement | **Accept** (or reject) | **UNRESOLVED — TBD / recipient-function dependent** (BEP 9.8, 10.11) | Accepted |
-| **T8** | Shared or Published | Coordination finding, rejection, or issue requiring correction | Task-team check of the revised information | **Reauthorise share** (or republish, as applicable) | **Originating** task team; Task-Team Lead authorises | Back to WIP, then Shared / Published |
+Only **WIP**, **Shared**, **Published / Authorised** and **Record / Retained**
+are controlled information states (section 1). *Consumed*, *coordination input*,
+*delivered*, *received* and *accepted* are **not** information states:
 
-### 3.2 Evidence and failure route
+| Concept | What it actually is |
+|---|---|
+| **Consume** | A receiving-team action — adoption into that team's working context |
+| **Coordination input** | An approved **use and context** of Shared information |
+| **Deliver** | An exchange **event** |
+| **Receive** | A recipient **event** |
+| **Accept** | A recipient **decision and status** for a stated purpose |
+
+Of the eight steps below, only **T1** and **T4** are information-state
+transitions. T8 returns information to the originator's WIP for rework.
+
+### 3.1 Kind, state and result
+
+| Ref | Kind | Information state before | Action / decision / event | Information state after | Result / context |
+|---|---|---|---|---|---|
+| **T1** | **State transition** | WIP | Check, then authorise share, then controlled share | **Shared** | Information is available beyond the originating task team for the stated purpose |
+| **T2** | Receiving-team **action** — not a state transition | Shared | Receiver review; **consume** decision | **Shared — unchanged** | Receiver has adopted or referenced the Shared information for the stated working purpose. Technical ownership remains with the originator |
+| **T3** | **Use / context** — not a state transition | Shared | Include in a defined coordination cycle | **Shared — unchanged** | The container is coordination input for that cycle |
+| **T4** | **State transition** | Shared | Delivery review, then publication / exchange authorisation | **Published / Authorised** | Authorised for the identified purpose. **Blocked while the authority is unresolved** — information remains Shared |
+| **T5** | **Event** | Published / Authorised | Controlled delivery / exchange executed | **Published / Authorised — unchanged** | A *Delivered* event is recorded |
+| **T6** | **Event** | Published / Authorised | Recipient receives the exchange | **Published / Authorised — unchanged** | A *Receipt* event is recorded |
+| **T7** | **Decision / status** | Published / Authorised | Recipient **accepts** or rejects for the stated purpose | **Published / Authorised — unchanged** | An acceptance or rejection **status** is recorded against that purpose. Not technical approval; no transfer of responsibility |
+| **T8** | **Rework** — returns information to the originator's WIP | Shared or Published / Authorised | Correction in the originator's WIP, then check, then reauthorise | **WIP**, then Shared or Published / Authorised on reprogression | Revised information progresses through check and controlled reshare or republish. Previous exchanges retained as superseded |
+
+### 3.2 Trigger, check, authorisation and function
+
+| Ref | Trigger | Required check | Decision / authorisation | Performing function |
+|---|---|---|---|---|
+| **T1** | Information ready for controlled sharing | Task-team technical / content check **and** information-quality / readiness check | **Authorise share** | Authoring team performs; **Task-Team Lead** (or other explicitly allocated function) authorises |
+| **T2** | Receiver chooses to use shared information for a stated purpose | Receiver review of suitability for that purpose | Receiver **consume** decision | Receiving task team |
+| **T3** | Container included in a defined coordination cycle | Input readiness appropriate to the coordination purpose | Coordination **input inclusion** decision | **BIM Coordinator** (process function) |
+| **T4** | A defined delivery or exchange requirement | **Delivery readiness review** | **Authorise publication / exchange** | **UNRESOLVED — TBD** (BEP 9.7) |
+| **T5** | Approved exchange route executed | Transmission prepared per the delivery requirement | Execute controlled transmission | Originating task team; CDE Administration may execute platform functions |
+| **T6** | Recipient receives the exchange | Registration of receipt | Receipt | Receiving / recipient function |
+| **T7** | Recipient decision for the stated purpose | Assessment against the applicable requirement | **Accept** (or reject) | **UNRESOLVED — TBD / recipient-function dependent** (BEP 9.8, 10.11) |
+| **T8** | Coordination finding, rejection, or issue requiring correction | Task-team check of the revised information | **Reauthorise share** (or republish, as applicable) | **Originating** task team; Task-Team Lead authorises |
+
+### 3.3 Evidence and failure route
 
 | Ref | Evidence | Failure / return route |
 |---|---|---|
@@ -188,7 +221,13 @@ transition reference.
 - **T3 — coordination input is not design approval.** Including a container in a
   coordination cycle carries no technical endorsement (BEP 8.1, 9.5).
 - **T4 — the authority is not assigned here.** See sections 11 and 19.
-- **T7 — acceptance does not transfer technical responsibility** from the
+- **T5 / T6 — delivery and receipt are events, not states.** Information that has
+  been delivered remains Published / Authorised; it does not enter a "Delivered"
+  state, and a *Delivered* record does not replace or supersede its information
+  state. Receipt likewise records that an exchange arrived, nothing more.
+- **T7 — acceptance is a status, not a state.** Acceptance records a recipient
+  decision against a stated purpose. It creates no new information state, is not
+  technical approval, and does **not** transfer technical responsibility from the
   originating task team (BEP 9.8).
 - **T8 — superseded exchanges remain traceable.** Previous exchanges are marked
   superseded, not deleted (BEP 7.10, 9.9).
@@ -570,6 +609,14 @@ Standing constraints:
 
 Each is a separate act with its own decision and responsible function (BEP 6.8,
 10.11).
+
+**Information state, workflow event, recipient action and decision status are
+separate dimensions.** An event or a decision does not create a new information
+state unless the governed state-transition rule explicitly says it does. Only the
+four states in section 1 are controlled information states; delivery, receipt,
+acceptance, consumption and coordination-input use are events, actions,
+statuses and contexts recorded **against** information whose state is unchanged.
+See section 3.
 
 ---
 
