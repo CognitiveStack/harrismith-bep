@@ -82,10 +82,11 @@ where the approved baseline applies — but **none is asserted or recorded**
 | AG-002 | **APPROVED GOVERNANCE** | Training CDE Governance Approver Function | **FUNCTION ESTABLISHED — OF-001 DECISION NOT YET TAKEN** — 2026-08-01 | Training CDE Governance Approver |
 | CGD-001 | **APPROVED GOVERNANCE** | CDE Structure Governance Decision — intended root topology | **APPROVE WITH CONDITIONS** — 2026-08-01; **OF-001 RESOLVED; VERIFICATION PENDING** | Training CDE Governance Approver |
 | AG-003 | **APPROVED GOVERNANCE** | Training Publication Arrangement Approver Function | **FUNCTION ESTABLISHED — PAC-001 APPROVAL DECISION NOT YET TAKEN** — 2026-08-01 | Training Publication Arrangement Approver |
+| PAD-001 | **APPROVED GOVERNANCE** | Publication Arrangement Approval Decision — PAC-001 | **APPROVE WITH CONDITIONS** — 2026-08-01; **PE-2 REACHED; PE-3 NOT AUTHORISED** | Training Publication Arrangement Approver |
 | GD-001 | **CONTROLLED GATE DECISION** | Training Baseline 0.1 — Gate C Decision | **PASS** — 2026-08-01 | Training Baseline Approver |
 | AD-001 | **APPROVED GOVERNANCE** | Training Baseline 0.1 — Approval Decision | **APPROVED WITH CONDITIONS** — 2026-08-01 | Training Baseline Approver |
 | ROA-001 | **CONTROLLED READ-ONLY OBSERVATION AUTHORISATION** | Publication Planning read-only observation | **AUTHORISE WITH CONSTRAINTS** — 2026-08-01; **EXERCISED ONCE — EXPIRED** | Training Implementation Owner |
-| PAC-001 | **PROPOSED GOVERNANCE — NOT APPROVED** | Publication Arrangement Candidate 0.1 — PM-1 to PM-7 | **CANDIDATE ARRANGEMENT PREPARED — NOT APPROVED** — 2026-08-01 | Training Publication Arrangement Approver under AG-003 |
+| PAC-001 | **PROPOSED GOVERNANCE** — historical proposal record | Publication Arrangement Candidate 0.1 — PM-1 to PM-7 | **APPROVED WITH CONDITIONS BY PAD-001** — 2026-08-01 | Training Publication Arrangement Approver under AG-003 |
 | TA-01 | TRAINING ASSUMPTION | Post-appointment context | Adopted | Not established — TBD |
 | TA-02 | TRAINING ASSUMPTION | Simulated role participation | Adopted | Not established — TBD |
 | TA-03 | TRAINING ASSUMPTION | Training delivery organisation | Adopted | Not established — TBD |
@@ -99,7 +100,7 @@ where the approved baseline applies — but **none is asserted or recorded**
 | OF-008 | OBSERVED FACT | Model Coordination provisioning | Recorded | Not established — TBD |
 | UD-001 | OBSERVED FACT + UNRESOLVED DECISION | Design Collaboration MEP / Structural team-space mapping | **Unresolved** | Not established — TBD |
 
-Seven governance entries exist beyond observations and assumptions:
+Eight governance entries exist beyond observations and assumptions:
 
 - **AG-001** — APPROVED GOVERNANCE, establishing the Training Baseline Approval
   Function;
@@ -121,6 +122,10 @@ Seven governance entries exist beyond observations and assumptions:
 - **AG-003** — APPROVED GOVERNANCE, establishing the **Training Publication
   Arrangement Approver** function. **It establishes who may later decide PAC-001
   at PE-2; it approves nothing** (section 6).
+- **PAD-001** — APPROVED GOVERNANCE, recording the **Publication Arrangement
+  Approval Decision**: PAC-001 is **approved with conditions** at **PE-2**.
+  **It closes GCR-005 at the governance-definition level; it authorises no
+  publication and does not reach PE-3** (section 6).
 
 **AG-001 establishes who may decide. GD-001 authorised progression to an
 approval decision and approved no baseline. AD-001 is that approval decision.**
@@ -654,6 +659,16 @@ CONDITIONS, and PRA-001 cannot serve as the current basis. **No PM position
 changed**, and **no publication or implementation authority was assigned**.
 Function decision — `docs/Training-Publication-Arrangement-Approver-Function-Decision.md`.
 
+**Approved — 2026-08-01, Increment 8H.** **PAD-001 approved this arrangement
+with conditions**, subject substantive body hash
+**`4d67dcfcc7556665b3f93f2363b3dfd4`**. **All PM-1 to PM-7 positions are
+APPROVED WITH CONDITIONS**; **the seven UTF-8 Markdown source companions are
+included** as subordinate files; **GCR-005 is closed at the
+governance-definition level**; **PE-2 is reached and PE-3 is not**; and **no
+publication is authorised**. **PAC-001 is retained as the historical proposal
+record** — its classification and substantive content are unchanged. Decision —
+`docs/Publication-Arrangement-Approval-Decision.md`.
+
 **Candidate record.** `docs/Publication-Arrangement-Candidate-0.1.md`.
 **This entry is a reference, not a duplicate** — the candidate is not restated
 here (BEP 12.13, 13.1).
@@ -936,6 +951,77 @@ approved and unamended**, and **the publication hold remains in force**. **This
 entry is a reference, not a duplicate** — the full decision is not restated here
 (BEP 12.13, 13.1).
 
+### PAD-001 — Publication Arrangement Approval Decision
+
+| Field | Value |
+|---|---|
+| Classification | **APPROVED GOVERNANCE** |
+| Decision outcome | **APPROVE WITH CONDITIONS** |
+| Subject | **PAC-001 — Publication Arrangement Candidate 0.1** |
+| Assessed candidate snapshot | `532c4ec74f2013461f7fef637c0e6734a11b2dfb` |
+| Decision-input repository state | `48a50d31ebe6f4533499074c111b9a000c11208b` |
+| **PAC-001 substantive-body hash** | **`4d67dcfcc7556665b3f93f2363b3dfd4`** — byte-identical at both commits |
+| Deciding function | **Training Publication Arrangement Approver under AG-003** |
+| Functional holder | **Training Implementation Owner** |
+| Training basis | **TA-02** — simulated role participation |
+| Readiness basis | **PRA-002 — READY FOR APPROVAL WITH CONDITIONS** |
+| Scope | **Training Baseline 0.1 publication arrangement only** |
+| Source | Orchestrator decision, Increment 8H |
+| Status | **PE-2 REACHED — PUBLICATION ARRANGEMENT APPROVED WITH CONDITIONS; PE-3 NOT AUTHORISED** |
+
+**PM dispositions.** **PM-1** location — approved with conditions; container
+**not created**, name undecided. **PM-2** owner — approved with conditions;
+**function required but NOT established, no holder appointed**; residual status
+**OWNER FUNCTION ESTABLISHMENT PENDING**. **PM-3** format and package boundary —
+approved with conditions. **PM-4** metadata — approved with conditions.
+**PM-5** upload procedure — approved with conditions; **no mechanism selected**.
+**PM-6** verification — approved with conditions; **none performed**. **PM-7**
+supersession — approved with conditions; **no technical route, no PE-S
+authority**.
+
+**Source-companion choice.** **All seven UTF-8 Markdown authoring sources are
+expressly INCLUDED as subordinate source companions.** Approved package
+boundary: **8 authoritative files** (7 × PDF/A-2b + 1 × UTF-8 JSON manifest) plus
+**7 subordinate companions** — **15 package files in total**.
+
+**Condition dispositions.** **C1 SATISFIED AT PE-2 AS TO THE ARRANGEMENT
+POSITION; RESIDUAL CONDITION OPEN**; **C2 CARRIED FORWARD**; **C3 SATISFIED AT
+PE-2**; **C4 CARRIED FORWARD — ENDURING**; **C5 CARRIED FORWARD**; **C6 CARRIED
+FORWARD**.
+
+**Implementation prerequisites.** **P1 to P8 are preserved in full, unweakened
+and unreclassified.** **PAD-001 approves governance only and does not satisfy a
+prerequisite merely by naming it.**
+
+**GCR-005.** **CLOSED BY PAD-001 — SEVEN PUBLICATION-ARRANGEMENT PARAMETERS
+DEFINED; IMPLEMENTATION CONDITIONS AND PREREQUISITES REMAIN.** The seven matters
+map one-to-one to PM-1 … PM-7. **The GD-001 / AD-001 historical wording variance
+is preserved and not rewritten.** **Defining the parameters does not authorise
+publication.**
+
+**Event status.** **PE-1 reached previously; PE-2 REACHED by PAD-001; PE-3 to
+PE-S not reached.** **ARRANGEMENT APPROVAL IS NOT PUBLICATION AUTHORISATION.**
+
+**Authority exclusions.** PAD-001 confers **no** publication / exchange
+authority, PE-3 authority, upload or execution authority, CDE administration or
+implementation authority, recipient acceptance authority, PE-S authority, or
+design or professional approval authority. **The function was exercised only
+within AG-003's PE-2 scope**, and **holding several training functions does not
+merge them**.
+
+**Implementation and verification.** **None. Not authorised.** No container
+created, no package generated, no digest calculated, **no publication-package
+commit pinned**, and **CGD-001 live verification remains pending**.
+
+**Identifier-family note.** **PAD-001 establishes the `PAD-` family for
+controlled publication-arrangement decisions in this training implementation.**
+**Later use of the family still requires a controlled scope and collision
+review** — no future decision belongs to it automatically.
+
+**Decision record.** `docs/Publication-Arrangement-Approval-Decision.md`.
+**This entry is a reference, not a duplicate** — the full decision is not
+restated here (BEP 12.13, 13.1).
+
 ## 6A. Gate decisions
 
 ### GD-001 — Training Baseline 0.1 — Gate C Decision
@@ -975,6 +1061,14 @@ Baseline approval decision.
 | **GCR-005** — publication parameters undefined | **PRE-PUBLICATION** |
 | **GCR-006** — one governed coordination cycle to be exercised after approval | **IMPLEMENTATION** |
 | Publication hold | **Remains active** |
+
+**GCR-005 subsequent status — 2026-08-01, Increment 8H.** The condition row
+above is retained as the **historical record at this decision**. **GCR-005 is
+now `CLOSED BY PAD-001 — SEVEN PUBLICATION-ARRANGEMENT PARAMETERS DEFINED;
+IMPLEMENTATION CONDITIONS AND PREREQUISITES REMAIN`.** The seven matters map to
+the approved positions PM-1 to PM-7. **The historical wording here is not
+rewritten**, **GCR-006 remains OPEN**, **UD-001 remains unresolved**, and
+**publication remains NOT AUTHORISED with the hold ACTIVE**.
 
 **Classification note.** GD-001 is a **gate decision**, not approved governance,
 not an approved change, not professional approval, not project publication
@@ -1024,6 +1118,14 @@ stated in AD-001. It is **not unconditionally approved**.
 | Project publication / exchange authority | **Unresolved** |
 | Recipient acceptance authority | **Unresolved** |
 | Naming, Coordinates, Titleblocks, Templates / Authoring Resources | **Not established** |
+
+**GCR-005 subsequent status — 2026-08-01, Increment 8H.** The condition row
+above is retained as the **historical record at this decision**. **GCR-005 is
+now `CLOSED BY PAD-001 — SEVEN PUBLICATION-ARRANGEMENT PARAMETERS DEFINED;
+IMPLEMENTATION CONDITIONS AND PREREQUISITES REMAIN`.** The seven matters map to
+the approved positions PM-1 to PM-7. **The historical wording here is not
+rewritten**, **GCR-006 remains OPEN**, **UD-001 remains unresolved**, and
+**publication remains NOT AUTHORISED with the hold ACTIVE**.
 
 **Explicit non-effects.** AD-001 does **not**:
 
@@ -1131,6 +1233,7 @@ status, the replacement decision, the effective point, and the reason or context
 | 2026-08-01 | AD-001 recorded — Training Baseline 0.1 APPROVED WITH CONDITIONS for the governance basis assessed at cc146a5f. Register status advanced to APPROVED WITH CONDITIONS. GCR-005, GCR-006 and UD-001 remain open; publication/exchange and recipient acceptance authority remain unresolved; project standards remain Not established; publication remains NOT AUTHORISED with the hold active. | 7J |
 | 2026-08-01 | ROA-001 recorded by reference — one bounded read-only Publication Planning observation AUTHORISED WITH CONSTRAINTS, covering PPQ-001 to PPQ-007 in a single session, expiring on that session's completion report. Not yet exercised. No authority assigned; GCR-005, GCR-006 and UD-001 remain open; publication remains NOT AUTHORISED with the hold active. | 8C-A |
 | 2026-08-01 | PAC-001 recorded by reference — Publication Arrangement Candidate 0.1 prepared for PM-1 to PM-7 as PROPOSED GOVERNANCE — NOT APPROVED. Not a decision; no governance-decision identifier allocated; no authority assigned; no publication authorised. PM matters remain unresolved; GCR-005 and GCR-006 remain open; publication remains NOT AUTHORISED with the hold active. | 8F |
+| 2026-08-01 | PAD-001 recorded — Publication Arrangement Approval Decision, APPROVE WITH CONDITIONS, taken by the Training Publication Arrangement Approver under AG-003 on the readiness basis PRA-002. Subject PAC-001, substantive body hash 4d67dcfcc7556665b3f93f2363b3dfd4, identical at 532c4ec and 48a50d3. All PM-1 to PM-7 positions approved with conditions; PM-2 residual OWNER FUNCTION ESTABLISHMENT PENDING; seven UTF-8 Markdown source companions expressly included, giving 15 package files. Conditions C1 and C3 satisfied at PE-2, C2, C4, C5 and C6 carried forward; P1 to P8 preserved unweakened. GCR-005 CLOSED at the governance-definition level with the GD-001 and AD-001 historical wording preserved. PE-2 reached; PE-3 to PE-S not reached; no publication, container, package, digest or pinned commit; CGD-001 verification pending; GCR-006 remains open; UD-001 remains unresolved; publication remains NOT AUTHORISED with the hold active. | 8H |
 | 2026-08-01 | PRA-002 recorded by reference — fresh Publication Arrangement Readiness Reassessment of PAC-001 at repository state 532c4ec, outcome READY FOR APPROVAL WITH CONDITIONS. PRA-B01's original blocking dependency was resolved by CGD-001 and now assesses as PASS; no current BLOCKER remains. Six later conditions (C1 to C6) and eight implementation prerequisites (P1 to P8) carried forward, including pending CGD-001 live verification, unconfirmed upload and retrieval routes, unproven PDF/A-2b producibility, and absent implementation authority. Not a decision; no governance-decision identifier allocated; PAC-001 remains PROPOSED GOVERNANCE — NOT APPROVED and unamended; AG-003 not exercised; PE-2 not reached; PM-2 remains GOVERNANCE DECISION REQUIRED; GCR-005 and GCR-006 remain open; publication remains NOT AUTHORISED with the hold active. | 8G-D |
 | 2026-08-01 | AG-003 recorded — Training Publication Arrangement Approver function established as APPROVED GOVERNANCE, arising from PAC-001, PRA-001, CGD-001, the Increment 8G-B-R exact review and PAC-001's unresolved decision-owner field. Establishes who may later take the PE-2 arrangement-approval decision; approves nothing. PAC-001's decision owner advanced from "Not established — TBD" to Training Publication Arrangement Approver under AG-003, while PAC-001 remains PROPOSED GOVERNANCE — NOT APPROVED and unamended. A fresh readiness assessment concluding READY FOR APPROVAL or READY FOR APPROVAL WITH CONDITIONS is a mandatory precondition; PRA-001 is not the current basis. PM-2 remains GOVERNANCE DECISION REQUIRED; no publication/exchange, acceptance or implementation authority conferred; PE-2 through PE-S not reached; GCR-005 and GCR-006 remain open; publication remains NOT AUTHORISED with the hold active. | 8G-C |
 | 2026-08-01 | CGD-001 recorded — CDE Structure Governance Decision, APPROVE WITH CONDITIONS, taken by the Training CDE Governance Approver under AG-002. The as-found four-area root topology (0. Common Files, 01. WIP, 02. Shared, 03. Published) is adopted as the intended training CDE governance, with the intended state mapping and conditions CGD-C01 to CGD-C08. OF-001 resolved at governance level; its historical "intended state not defined" record preserved. No retrospective effect; no child folder, discipline structure or team-space mapping approved; UD-001 remains unresolved; naming remains provisional; no Autodesk configuration change authorised and none directed at root level; verification pending. PAC-001 remains not approved and unamended, PRA-001's original outcome remains historically valid, PE-2 not reached, publication remains NOT AUTHORISED with the hold active. | 8G-B |

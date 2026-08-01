@@ -77,6 +77,20 @@
 > rewritten by this note.** Reassessment:
 > [`docs/Publication-Arrangement-Readiness-Reassessment.md`](Publication-Arrangement-Readiness-Reassessment.md).
 
+> **Subsequent status — 2026-08-01, Increment 8H.** **PAD-001 approved this
+> arrangement with conditions.** The approved substantive body is the content
+> identified by hash **`4d67dcfcc7556665b3f93f2363b3dfd4`**, assessed at
+> `532c4ec74f2013461f7fef637c0e6734a11b2dfb` and byte-identical at
+> `48a50d31ebe6f4533499074c111b9a000c11208b`. **All PM-1 through PM-7 positions
+> were APPROVED WITH CONDITIONS**; **the seven UTF-8 Markdown source companions
+> were expressly included** as subordinate files (15 package files in total);
+> and **GCR-005 was closed at the governance-definition level**. **PAC-001
+> itself remains the historical proposal document** — its classification,
+> header and substantive sections are unchanged and are not rewritten by this
+> note. **PE-2 was reached; PE-3 was not.** **No publication or implementation
+> was authorised.** Decision:
+> [`docs/Publication-Arrangement-Approval-Decision.md`](Publication-Arrangement-Approval-Decision.md).
+
 ---
 
 ## 0. How to read this candidate

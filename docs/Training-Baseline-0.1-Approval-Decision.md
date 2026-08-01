@@ -12,6 +12,18 @@
 
 > **PUBLICATION REMAINS NOT AUTHORISED — PUBLICATION HOLD ACTIVE.**
 
+> **Subsequent status — 2026-08-01, Increment 8H.** **PAD-001 defined the same
+> seven publication-arrangement matters**, and **GCR-005 is now CLOSED at the
+> governance-definition level** — `CLOSED BY PAD-001 — SEVEN
+> PUBLICATION-ARRANGEMENT PARAMETERS DEFINED; IMPLEMENTATION CONDITIONS AND
+> PREREQUISITES REMAIN`. **The historical GCR-005 wording in this record is
+> preserved and is not rewritten**, and the wording variance between GD-001 and
+> AD-001 is likewise preserved. **Implementation conditions and prerequisites
+> remain** — PAD-001 conditions C1 to C6 and prerequisites P1 to P8. **GCR-006
+> remains OPEN.** **PUBLICATION REMAINS NOT AUTHORISED and the PUBLICATION HOLD
+> REMAINS ACTIVE.** Decision:
+> [`docs/Publication-Arrangement-Approval-Decision.md`](Publication-Arrangement-Approval-Decision.md).
+
 ---
 
 ## 1. Decision identification

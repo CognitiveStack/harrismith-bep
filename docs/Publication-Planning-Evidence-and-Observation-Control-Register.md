@@ -230,13 +230,13 @@ Presented as four aligned tables keyed by matter reference.
 
 | Ref | Matter | What must eventually be decided | Decision status |
 |---|---|---|---|
-| **PM-1** | Publication location | Which governed destination holds published information, and on what basis it is *the* governed destination rather than merely an available one | **CANDIDATE ARRANGEMENT PREPARED — NOT APPROVED** — **PAC-001** (`docs/Publication-Arrangement-Candidate-0.1.md`) |
-| **PM-2** | Publication owner | Which **function** owns the publication act, and under what authority that function exists | **CANDIDATE ARRANGEMENT PREPARED — NOT APPROVED** — **PAC-001** (`docs/Publication-Arrangement-Candidate-0.1.md`) |
-| **PM-3** | Publication format | What artefact form is published from the authoring source, and how it is generated from it | **CANDIDATE ARRANGEMENT PREPARED — NOT APPROVED** — **PAC-001** (`docs/Publication-Arrangement-Candidate-0.1.md`) |
-| **PM-4** | Publication metadata | What identity, version and status metadata a published artefact must carry, and how each field is populated and checked | **CANDIDATE ARRANGEMENT PREPARED — NOT APPROVED** — **PAC-001** (`docs/Publication-Arrangement-Candidate-0.1.md`) |
-| **PM-5** | Upload procedure | The controlled sequence by which an authorised publication is executed, including its pre-conditions and its stop conditions | **CANDIDATE ARRANGEMENT PREPARED — NOT APPROVED** — **PAC-001** (`docs/Publication-Arrangement-Candidate-0.1.md`) |
-| **PM-6** | Post-upload verification | How it is confirmed that the published result is the authorised content, correctly identified — and what happens when it is not | **CANDIDATE ARRANGEMENT PREPARED — NOT APPROVED** — **PAC-001** (`docs/Publication-Arrangement-Candidate-0.1.md`) |
-| **PM-7** | Supersession / withdrawal route | How previously published information is superseded or withdrawn, by whom, with what record, and with what retention of history | **CANDIDATE ARRANGEMENT PREPARED — NOT APPROVED** — **PAC-001** (`docs/Publication-Arrangement-Candidate-0.1.md`) |
+| **PM-1** | Publication location | Which governed destination holds published information, and on what basis it is *the* governed destination rather than merely an available one | **APPROVED WITH CONDITIONS BY PAD-001** (`docs/Publication-Arrangement-Approval-Decision.md`); candidate **PAC-001** |
+| **PM-2** | Publication owner | Which **function** owns the publication act, and under what authority that function exists | **APPROVED WITH CONDITIONS BY PAD-001** (`docs/Publication-Arrangement-Approval-Decision.md`); **OWNER FUNCTION ESTABLISHMENT PENDING**; candidate **PAC-001** |
+| **PM-3** | Publication format | What artefact form is published from the authoring source, and how it is generated from it | **APPROVED WITH CONDITIONS BY PAD-001** (`docs/Publication-Arrangement-Approval-Decision.md`); candidate **PAC-001** |
+| **PM-4** | Publication metadata | What identity, version and status metadata a published artefact must carry, and how each field is populated and checked | **APPROVED WITH CONDITIONS BY PAD-001** (`docs/Publication-Arrangement-Approval-Decision.md`); candidate **PAC-001** |
+| **PM-5** | Upload procedure | The controlled sequence by which an authorised publication is executed, including its pre-conditions and its stop conditions | **APPROVED WITH CONDITIONS BY PAD-001** (`docs/Publication-Arrangement-Approval-Decision.md`); candidate **PAC-001** |
+| **PM-6** | Post-upload verification | How it is confirmed that the published result is the authorised content, correctly identified — and what happens when it is not | **APPROVED WITH CONDITIONS BY PAD-001** (`docs/Publication-Arrangement-Approval-Decision.md`); candidate **PAC-001** |
+| **PM-7** | Supersession / withdrawal route | How previously published information is superseded or withdrawn, by whom, with what record, and with what retention of history | **APPROVED WITH CONDITIONS BY PAD-001** (`docs/Publication-Arrangement-Approval-Decision.md`); candidate **PAC-001** |
 
 ### 5.2 Evidence required
 
@@ -831,14 +831,14 @@ well drafted.
 
 ## 11. Current register state
 
-As at completion of Increment 8F:
+As at completion of Increment 8H:
 
 | Statement | Position |
 |---|---|
 | PM-1 … PM-7 exist as controlled planning matters | **Yes — all seven** |
-| **PM decision statuses** | **No PM matter is finally resolved.** All seven now read **CANDIDATE ARRANGEMENT PREPARED — NOT APPROVED** (§5.1). **PM-2 remains GOVERNANCE DECISION REQUIRED** as its authority requirement (§5.3) |
+| **PM decision statuses** | All seven now read **APPROVED WITH CONDITIONS BY PAD-001** (§5.1). **PM-2 additionally records OWNER FUNCTION ESTABLISHMENT PENDING.** **PM-2's authority requirement at §5.3 remains GOVERNANCE DECISION REQUIRED** — PAD-001 approved that the owner function should exist; it did **not** establish it |
 | PM evidence positions | **Updated** — PM-1, PM-3 … PM-7 now **ASSESSED — INSUFFICIENT**; PM-2 unchanged at **GOVERNANCE DECISION REQUIRED** (§5.3) |
-| A publication arrangement has been **selected or approved** | **No** |
+| A publication arrangement has been **selected or approved** | **Yes — approved with conditions by PAD-001 at PE-2.** **PE-3 is not authorised and publication remains NOT AUTHORISED** |
 | A candidate arrangement has been prepared | **Yes — `PAC-001`, Increment 8F. PROPOSED GOVERNANCE — NOT APPROVED** |
 | PM-2 is excluded from observational resolution | **Yes — §6, §10.3.** No observation was made against it |
 | Exact live questions drafted | **Seven — `PPQ-001` … `PPQ-007`** (§10.2) |
@@ -896,12 +896,16 @@ superseded and retained (BEP 12.10).
 > questions, and nothing else.**
 >
 > It records no decision, selects no publication arrangement, assigns no
-> authority, authorises no observation, and closes no condition.
+> authority, authorises no observation, and closes no condition. **Decisions are
+> recorded in `supporting/governance-decision-register.md` and referenced here,
+> never duplicated** (§2.2).
 >
 > The questions at §10.2 were asked once under **ROA-001**, which has since
-> **expired**. Their answers are recorded as **EC-3 evidence** at §9.4. A
-> candidate arrangement — **PAC-001** — has been **prepared and not approved**.
-> **No PM matter is resolved, no arrangement is selected or approved, and no
-> further observation is authorised.**
+> **expired**. Their answers are recorded as **EC-3 evidence** at §9.4. The
+> candidate arrangement — **PAC-001** — was **approved with conditions by
+> PAD-001** at **PE-2**; the §5.1 statuses reference that decision. **PAD-001 is
+> a governance decision, not observational evidence, and is not recorded as
+> evidence here.** **PE-3 is not authorised, no further observation is
+> authorised, and publication remains unauthorised.**
 >
 > ## **PUBLICATION REMAINS NOT AUTHORISED — PUBLICATION HOLD ACTIVE.**

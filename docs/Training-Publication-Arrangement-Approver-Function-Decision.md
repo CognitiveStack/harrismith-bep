@@ -17,6 +17,17 @@
 
 > **PUBLICATION REMAINS NOT AUTHORISED — PUBLICATION HOLD ACTIVE.**
 
+> **Subsequent status — 2026-08-01, Increment 8H.** **This function was
+> exercised through PAD-001.** Subject: **PAC-001 — Publication Arrangement
+> Candidate 0.1**, substantive body hash
+> **`4d67dcfcc7556665b3f93f2363b3dfd4`**. Outcome: **APPROVE WITH CONDITIONS**.
+> **The exercise remained within AG-003's scope** — a PE-2 arrangement-approval
+> decision and nothing more. **No PE-3 or implementation authority followed**,
+> and the §6 limits are unchanged. **AG-003 remains an established function**
+> available for any later decision within its scope, subject to its §4 readiness
+> precondition. Decision:
+> [`docs/Publication-Arrangement-Approval-Decision.md`](Publication-Arrangement-Approval-Decision.md).
+
 ---
 
 ## 1. Decision identification

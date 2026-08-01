@@ -22,6 +22,17 @@
 > **Readiness is not approval.** An eligible candidate is one that *may be
 > decided upon* — not one that has been.
 
+> **Subsequent status — 2026-08-01, Increment 8H.** **AG-003 was subsequently
+> exercised through PAD-001**, outcome **APPROVE WITH CONDITIONS**. Condition
+> **C1** is **SATISFIED AT PE-2 AS TO THE ARRANGEMENT POSITION, with the
+> residual owner-function condition OPEN**; **C3 is SATISFIED AT PE-2** — all
+> seven Markdown source companions were expressly included. **C2, C4, C5 and C6
+> are CARRIED FORWARD**, and **P1 through P8 remain in force, unweakened and
+> unreclassified**. **PE-2 is reached; PE-3 is not.** **Publication remains
+> unauthorised.** **This reassessment remains the historical readiness basis
+> and no finding below is rewritten.** Decision:
+> [`docs/Publication-Arrangement-Approval-Decision.md`](Publication-Arrangement-Approval-Decision.md).
+
 ---
 
 ## 1. What this reassessment is
