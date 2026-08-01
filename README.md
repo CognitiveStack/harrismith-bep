@@ -178,6 +178,7 @@ repository.
 | Implementation Increment 8C-A | Complete — PPQ questions refined where necessary and **authorised under ROA-001 for one bounded read-only observation**; observation brief prepared but **not sent**; **no observation performed, no evidence recorded, no authority assigned** |
 | Implementation Increment 8D | Complete — the single bounded read-only observation completed under **ROA-001**; **no mutation occurred** and **ROA-001 expired** on its completion report; **no repeat observation authorised** |
 | Implementation Increment 8E | Complete — observation recorded and evidence assessed (**PPER-004**–**PPER-009**, EC-3, all insufficient); final PPQ statuses recorded; **all PM matters remain UNRESOLVED, no publication arrangement selected, no authority assigned** |
+| Implementation Increment 8F | Complete — **Publication Arrangement Candidate 0.1 (PAC-001)** prepared for PM-1 to PM-7; **PROPOSED GOVERNANCE — NOT APPROVED**; **no arrangement approved, no authority assigned, no publication authorised**. Next stage: **Increment 8G** candidate review |
 
 All 13 main BEP sections now contain substantive draft content.
 
@@ -233,8 +234,11 @@ authority. One bounded read-only observation was carried out under **ROA-001**
 and is recorded in
 [`docs/Increment-8D-Publication-Planning-Read-Only-Observation-Record.md`](docs/Increment-8D-Publication-Planning-Read-Only-Observation-Record.md);
 **ROA-001 has since expired, no publication arrangement was selected and no
-authority was assigned. Publication remains NOT AUTHORISED and the publication
-hold remains active.**
+authority was assigned.** A candidate arrangement —
+[`docs/Publication-Arrangement-Candidate-0.1.md`](docs/Publication-Arrangement-Candidate-0.1.md)
+(**PAC-001**) — is **prepared and NOT APPROVED**; it approves nothing, assigns no
+authority and authorises no publication, and awaits review at **Increment 8G**.
+**Publication remains NOT AUTHORISED and the publication hold remains active.**
 
 Architecture Baseline v1 is **frozen**. The document architecture recorded in
 section 3 is not to be redesigned during implementation increments. Proposed

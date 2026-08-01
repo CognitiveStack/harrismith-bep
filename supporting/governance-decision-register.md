@@ -82,6 +82,7 @@ where the approved baseline applies — but **none is asserted or recorded**
 | GD-001 | **CONTROLLED GATE DECISION** | Training Baseline 0.1 — Gate C Decision | **PASS** — 2026-08-01 | Training Baseline Approver |
 | AD-001 | **APPROVED GOVERNANCE** | Training Baseline 0.1 — Approval Decision | **APPROVED WITH CONDITIONS** — 2026-08-01 | Training Baseline Approver |
 | ROA-001 | **CONTROLLED READ-ONLY OBSERVATION AUTHORISATION** | Publication Planning read-only observation | **AUTHORISE WITH CONSTRAINTS** — 2026-08-01; **EXERCISED ONCE — EXPIRED** | Training Implementation Owner |
+| PAC-001 | **PROPOSED GOVERNANCE — NOT APPROVED** | Publication Arrangement Candidate 0.1 — PM-1 to PM-7 | **CANDIDATE ARRANGEMENT PREPARED — NOT APPROVED** — 2026-08-01 | Not established — TBD |
 | TA-01 | TRAINING ASSUMPTION | Post-appointment context | Adopted | Not established — TBD |
 | TA-02 | TRAINING ASSUMPTION | Simulated role participation | Adopted | Not established — TBD |
 | TA-03 | TRAINING ASSUMPTION | Training delivery organisation | Adopted | Not established — TBD |
@@ -115,8 +116,12 @@ approval decision and approved no baseline. AD-001 is that approval decision.**
 approved.** The AD-001 conditions remain active, and **publication remains NOT
 AUTHORISED with the publication hold in force**.
 
-No PROPOSED GOVERNANCE, APPROVED CHANGE, DEVIATION, NON-CONFORMANCE or
-SUPERSEDED DECISION entries exist.
+One **PROPOSED GOVERNANCE** entry exists — **PAC-001**, a candidate publication
+arrangement that is **prepared and not approved**, assigns no authority and
+authorises no publication (section 5).
+
+No APPROVED CHANGE, DEVIATION, NON-CONFORMANCE or SUPERSEDED DECISION entries
+exist.
 
 ---
 
@@ -540,12 +545,33 @@ in the CDE Workflow & State Strategy, or in any other document in this set.
 
 ## 5. Proposed governance
 
-*No discrete proposed-governance entries recorded.*
-
 The proposed governance framework for this implementation is the BEP itself,
 whose status is declared in BEP 1.2. It is not duplicated here. This section
 records discrete governance proposals that need their own decision history —
 for example a proposed change to an already-approved rule.
+
+### PAC-001 — Publication Arrangement Candidate 0.1
+
+| Field | Value |
+|---|---|
+| Classification | **PROPOSED GOVERNANCE — NOT APPROVED** |
+| Topic | Candidate publication arrangement for Training Baseline 0.1 — PM-1 to PM-7 |
+| Status | **CANDIDATE ARRANGEMENT PREPARED — NOT APPROVED** |
+| Prepared | **2026-08-01**, Increment 8F |
+| Decision owner | Not established — TBD |
+
+**This is not a decision.** No governance-decision identifier is allocated, no
+authority is assigned, and **no publication is authorised**. The candidate
+proposes a publication-owner **function** without appointing or nominating any
+holder; **publication / exchange authority and recipient acceptance authority
+remain UNRESOLVED**.
+
+**It resolves no PM matter and closes no condition.** GCR-005 remains **OPEN**,
+and the **publication hold remains ACTIVE**.
+
+**Candidate record.** `docs/Publication-Arrangement-Candidate-0.1.md`.
+**This entry is a reference, not a duplicate** — the candidate is not restated
+here (BEP 12.13, 13.1).
 
 ## 6. Approved governance and approved changes
 
@@ -789,6 +815,7 @@ status, the replacement decision, the effective point, and the reason or context
 | 2026-08-01 | GD-001 recorded — Gate C PASS for candidate snapshot cc146a5f. AG-001 verification completed through Increment 7H. Baseline 0.1 remains unapproved; publication hold active. | 7I |
 | 2026-08-01 | AD-001 recorded — Training Baseline 0.1 APPROVED WITH CONDITIONS for the governance basis assessed at cc146a5f. Register status advanced to APPROVED WITH CONDITIONS. GCR-005, GCR-006 and UD-001 remain open; publication/exchange and recipient acceptance authority remain unresolved; project standards remain Not established; publication remains NOT AUTHORISED with the hold active. | 7J |
 | 2026-08-01 | ROA-001 recorded by reference — one bounded read-only Publication Planning observation AUTHORISED WITH CONSTRAINTS, covering PPQ-001 to PPQ-007 in a single session, expiring on that session's completion report. Not yet exercised. No authority assigned; GCR-005, GCR-006 and UD-001 remain open; publication remains NOT AUTHORISED with the hold active. | 8C-A |
+| 2026-08-01 | PAC-001 recorded by reference — Publication Arrangement Candidate 0.1 prepared for PM-1 to PM-7 as PROPOSED GOVERNANCE — NOT APPROVED. Not a decision; no governance-decision identifier allocated; no authority assigned; no publication authorised. PM matters remain unresolved; GCR-005 and GCR-006 remain open; publication remains NOT AUTHORISED with the hold active. | 8F |
 | 2026-08-01 | ROA-001 status advanced to EXERCISED ONCE — EXPIRED. The authorised observation was performed as Increment 8D and recorded as EC-3 evidence (PPER-004 to PPER-009, all assessed and insufficient); no mutation reported. PM-1 to PM-7 remain UNRESOLVED and no candidate arrangement is prepared. No authority assigned; GCR-005, GCR-006 and UD-001 remain open; publication remains NOT AUTHORISED with the hold active. | 8E |
 
 **Note on histories.** This change log records *decision and register* history.
