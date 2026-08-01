@@ -66,6 +66,17 @@
 > not reached**. Function decision:
 > [`docs/Training-Publication-Arrangement-Approver-Function-Decision.md`](Training-Publication-Arrangement-Approver-Function-Decision.md).
 
+> **Subsequent status — 2026-08-01, Increment 8G-D.** A fresh readiness
+> reassessment, **PRA-002**, was completed against this candidate at repository
+> state `532c4ec…`. **Outcome: READY FOR APPROVAL WITH CONDITIONS** — six later
+> conditions and eight implementation prerequisites carried forward, **no
+> current BLOCKER**. **PAC-001 remains prepared and NOT APPROVED: readiness is
+> not approval.** **No PM position changed**, **PE-2 remains not reached**, and
+> **AG-003 has not been exercised**. The next possible stage is a **separate
+> AG-003 arrangement-approval decision**. **No substantive section below is
+> rewritten by this note.** Reassessment:
+> [`docs/Publication-Arrangement-Readiness-Reassessment.md`](Publication-Arrangement-Readiness-Reassessment.md).
+
 ---
 
 ## 0. How to read this candidate

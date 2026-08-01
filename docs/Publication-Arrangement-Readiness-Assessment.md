@@ -54,6 +54,16 @@
 > reached**, and **Increment 8G-D remains required**. Function decision:
 > [`docs/Training-Publication-Arrangement-Approver-Function-Decision.md`](Training-Publication-Arrangement-Approver-Function-Decision.md).
 
+> **Subsequent status — 2026-08-01, Increment 8G-D.** **PRA-002 is now the
+> current readiness basis.** **This assessment remains historically valid** as
+> the assessment made against the facts then obtaining, and **PRA-B01 below
+> remains intact as the finding at that earlier state** — it is **not rewritten,
+> withdrawn, reclassified or declared erroneous**. **CGD-001 subsequently
+> resolved its factual dependency**, and **PRA-002 concluded READY FOR APPROVAL
+> WITH CONDITIONS** at repository state `532c4ec…`. **PAC-001 remains not
+> approved** and **PE-2 remains not reached**. Reassessment:
+> [`docs/Publication-Arrangement-Readiness-Reassessment.md`](Publication-Arrangement-Readiness-Reassessment.md).
+
 ---
 
 ## 1. What this assessment is
