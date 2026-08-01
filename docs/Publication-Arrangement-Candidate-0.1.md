@@ -18,6 +18,21 @@
 > authority**, **performs no implementation**, and **cannot be executed** unless
 > it is later approved *and* a publication event is separately authorised.
 
+> **Controlled refinement — 2026-08-01, Increment 8F-A.** The Increment 8F-R
+> read-only review returned **30 consistency checks PASS and 1 FAIL**: the
+> authoritative human-readable file format was not explicitly named.
+> **Increment 8F-A completes that previously unspecified PM-3 format position**
+> — naming **PDF/A-2b**, **UTF-8 JSON**, **UTF-8 Markdown** and **SHA-256**
+> (§4). **The candidate's classification and status are unchanged**: it remains
+> **PROPOSED GOVERNANCE — NOT APPROVED**, **CANDIDATE ARRANGEMENT PREPARED —
+> NOT APPROVED**, **Authority: None**. **No approval and no authority follows
+> from this refinement.** All other PM candidate positions are **unchanged**,
+> apart from consequential cross-references in §1, §5, §7, §9 and §15.
+>
+> **The format selection is a governance candidate selection.** It is **not**
+> derived from EC-3 observational evidence, and no observation supports or
+> supplies it.
+
 ---
 
 ## 0. How to read this candidate
@@ -55,26 +70,36 @@ running mirror of `main`.
 
 ### 1.2 Authoritative publication files — candidate
 
-The seven core governance documents approved by **AD-001 §4**:
+> **The authoritative package files are eight in total: seven `PDF/A-2b`
+> renditions and one `UTF-8 JSON` manifest** (§4).
 
-| # | Source document |
-|---|---|
-| 1 | `bep/Harrismith-Fire-Station-BEP.md` |
-| 2 | `supporting/information-management-responsibility-matrix.md` |
-| 3 | `supporting/model-information-responsibility-matrix.md` |
-| 4 | `supporting/information-delivery-schedule.md` |
-| 5 | `supporting/cde-workflow-state-strategy.md` |
-| 6 | `supporting/coordination-review-strategy.md` |
-| 7 | `supporting/governance-decision-register.md` |
+| # | Authoritative package file | Generated from — authoritative **source** document |
+|---|---|---|
+| 1 | PDF/A-2b rendition | `bep/Harrismith-Fire-Station-BEP.md` |
+| 2 | PDF/A-2b rendition | `supporting/information-management-responsibility-matrix.md` |
+| 3 | PDF/A-2b rendition | `supporting/model-information-responsibility-matrix.md` |
+| 4 | PDF/A-2b rendition | `supporting/information-delivery-schedule.md` |
+| 5 | PDF/A-2b rendition | `supporting/cde-workflow-state-strategy.md` |
+| 6 | PDF/A-2b rendition | `supporting/coordination-review-strategy.md` |
+| 7 | PDF/A-2b rendition | `supporting/governance-decision-register.md` |
+| 8 | **UTF-8 JSON manifest** | — (describes the package; see §4.4) |
 
-Plus **one package manifest** (§4.4), which is authoritative for package
-identity and integrity.
+**The right-hand column identifies the seven core governance documents approved
+by AD-001 §4** — the **authoritative source documents from which the seven
+renditions would later be generated**.
+
+> **Those Markdown source files are not themselves the authoritative
+> publication renditions.** Where they are carried in the package at all, they
+> are **optional source companions** (§1.3, §4.1), subordinate to the
+> corresponding PDF/A-2b rendition.
+
+The manifest is **authoritative for package identity and integrity** (§4.4).
 
 ### 1.3 Classification of everything else
 
 | Class | Contents | Candidate treatment |
 |---|---|---|
-| **Supporting / source** | The Markdown sources of the seven documents | **Optional companion material** (§4.3). Carried for traceability, clearly marked as source, never as the authoritative rendition |
+| **Supporting / source** | The seven **UTF-8 Markdown (`.md`)** sources | **Optional source companions.** Carried for traceability, **subordinate** to the corresponding PDF/A-2b rendition, identified as source companions in the manifest, and **never the authoritative rendition**. Included **only if the later arrangement approval expressly includes them** (§4.1) |
 | **Companion — Authority: None** | `working/README.md`; `guidance/BIM-Delivery-Guide.md` | **Excluded.** AD-001 §4.1 records these as companions with **Authority: None**; they were not approved as governance and **must not become governing by being packaged with material that was** |
 | **Repository-only records** | AG-001, GD-001, AD-001, ROA-001, this candidate, the Phase 8 framework and register, `working/`, `standards/` | **Excluded from the package.** These are the repository's own governance and control history |
 | **Evidence — repository-only** | `docs/Increment-7C-Live-Validation-Record.md`; `docs/Increment-8D-…-Observation-Record.md` | **Excluded.** These are **evidence**, not publishable baseline content, and publishing them would risk their being read as project-facing statements about the live system |
@@ -222,15 +247,54 @@ no EC-9 record exists.**
 
 ### 4.1 Candidate position
 
-> **Candidate: a controlled package of per-document human-readable renditions,
-> plus optional source companions, plus one authoritative manifest.**
+> **Candidate: seven `PDF/A-2b` renditions, one authoritative `UTF-8 JSON`
+> manifest, optional `UTF-8 Markdown (.md)` source companions, and `SHA-256`
+> integrity digests.**
 
-| Layer | Candidate content | Rationale |
-|---|---|---|
-| **Authoritative human-readable output** | **One rendition per controlled document** — seven in total, not one merged file | Each controlled resource **declares its own status, version and authority** (README §7). Merging them would produce a single artefact with seven conflicting status blocks |
-| **Optional source companion** | The seven Markdown sources as published | Traceability to the authoring source. **Clearly marked as source, never as the authoritative rendition** |
-| **Package manifest** | One manifest — see §4.4 | Package identity, contents, provenance and integrity in one addressable place |
-| **Integrity record** | Per-file digests **recorded in the manifest** | The destination did not expose checksum or size (PPER-008), so integrity must be carried **by the package**, not relied on from the platform |
+**`PDF/A-2b` is selected as the candidate fixed human-readable record format.**
+
+| Layer | Candidate format | Candidate content | Rationale |
+|---|---|---|---|
+| **Authoritative human-readable output** | **`PDF/A-2b`** | **One rendition per controlled document — seven in total**, not one merged file | A **fixed, self-contained, archival** record. Each controlled resource **declares its own status, version and authority** (README §7); merging them would produce a single artefact with seven conflicting status blocks |
+| **Package manifest** | **`UTF-8 JSON`** | One manifest — see §4.4 | Package identity, contents, provenance, format declaration and integrity in one addressable, machine-checkable place |
+| **Optional source companion** | **`UTF-8 Markdown (.md)`** | The seven authoring sources | Traceability to the authoring source. **Optional and subordinate** — see §4.1.2 |
+| **Integrity record** | **`SHA-256`** | One digest per package file, recorded in the manifest | The destination did not expose checksum or size (PPER-008), so integrity must be carried **by the package**, not relied on from the platform |
+
+#### 4.1.1 Required package treatment — renditions
+
+- **one separate PDF/A-2b rendition for each of the seven approved core
+  governance documents**;
+- **seven authoritative rendition files in total**;
+- **no merged authoritative PDF**;
+- **every rendition individually addressable**;
+- **every rendition associated with exactly one source document**;
+- **every rendition recorded separately in the package manifest**.
+
+#### 4.1.2 Optional source companions
+
+The Markdown source companions are:
+
+- **optional**;
+- **subordinate** to the corresponding authoritative PDF/A-2b rendition;
+- **included only if the later arrangement approval expressly includes them**;
+- **clearly identified in the manifest as source companions**;
+- **not governing merely because they are the authoring source**.
+
+#### 4.1.3 Integrity rules
+
+- **one SHA-256 digest for every authoritative rendition**;
+- **one SHA-256 digest for every included optional source companion**;
+- **the digest algorithm and value recorded in the manifest**;
+- **digests computed from the final package files before publication**;
+- **recomputed during source-package verification** (§7.1).
+
+> **No digest has been calculated**, and none is calculated by this increment.
+
+#### 4.1.4 Package structure
+
+The candidate package is a **set of individually addressable files**. It is
+**not** a single merged PDF, **not** a ZIP archive, **not** one opaque package
+item, and **not** a live mirror of the repository.
 
 ### 4.2 Why per-document renditions rather than one archive
 
@@ -246,23 +310,65 @@ the supersession route (§8) depends on.
 > not apply to text documents, and **their existence is not approval of any
 > deliverable form**.
 
-### 4.4 Manifest — candidate contents
+### 4.4 Manifest — candidate format and contents
 
-Package identifier and version; source repository and **exact commit**; the
-approval decision relied upon (**AD-001**); the arrangement approval reference;
-the publication-event authorisation reference; per-file entry (source path,
-published filename, rendition format, digest); generation method and date; and
-an explicit statement of what the package **is not** — not approval, not
-delivery, not receipt, not acceptance.
+**Candidate format: `UTF-8 JSON`.**
 
-### 4.5 Unresolved
+The manifest is **authoritative** for:
+
+- **package identity**;
+- **package contents**;
+- **source-to-rendition mapping**;
+- **provenance**;
+- **file-format declaration**;
+- **integrity records**.
+
+**Required per-file entries — at minimum:**
+
+| # | Field |
+|---|---|
+| 1 | **Source repository path** |
+| 2 | **Published filename** |
+| 3 | **Package role** — authoritative rendition, manifest, or source companion |
+| 4 | **Media or rendition format** |
+| 5 | **Source repository commit** |
+| 6 | **Digest algorithm** — `SHA-256` |
+| 7 | **Digest value** |
+
+**Package-level contents:** package identifier and version; source repository
+and **exact commit**; the approval decision relied upon (**AD-001**); the
+arrangement approval reference; the publication-event authorisation reference;
+generation method and date; and an explicit statement of what the package **is
+not** — not approval, not delivery, not receipt, not acceptance.
+
+> **No manifest has been generated**, and none is generated by this increment.
+
+### 4.5 Format versus toolchain
+
+> **PM-3 now selects the candidate output formats. It does not select how the
+> files will be produced.**
+
+- **The rendition-generation toolchain remains unselected.**
+- **Selecting PDF/A-2b does not establish how the files will be generated.**
+- **The later technical route must be capable of producing valid PDF/A-2b.**
+- **Conformance must be verified before any publication event** (§7.1).
+- **No generation, and no conformance validation, occurs in Increment 8F-A.**
+
+**No PDF/A rendition has been generated, no toolchain has been selected, no
+conformance has been tested, and the format has not been approved.**
+
+### 4.6 Unresolved
 
 - **The rendition toolchain is not selected**, and generation is **not
   performed** here.
-- **Titleblock and template standards are not established** (§13), so no
-  rendition layout, title block or document-control block can be specified.
+- **Titleblock and template standards are not established** (§13). Their absence
+  affects **layout, styling, front matter and document-control presentation** —
+  **it does not leave the candidate file format undefined**, which §4.1 now
+  names.
 - Whether source companions are included at all remains an **open question for
   review** (§15).
+- Whether **PDF/A-2b**, **UTF-8 JSON** and **SHA-256** are the right selections
+  is itself a matter **for review, not settled here** (§15).
 
 ---
 
@@ -295,9 +401,12 @@ delivery, not receipt, not acceptance.
 | 11 | Source repository commit | ● | | ● | ○ |
 | 12 | Supersedes / replaces reference | ● | | ● | ○ |
 | 13 | Recipient / exchange reference, where applicable | | | ● | ○ |
-| 14 | Digest / manifest reference | | | ● | ○ |
+| 14 | Digest / manifest reference — **`SHA-256`** | | | ● | ○ |
 
 ● = candidate requirement  ○ = **only if the platform supports it** — see §5.3
+
+**The manifest carrying these fields is `UTF-8 JSON`** (§4.4), and field 14's
+digest algorithm is **`SHA-256`** (§4.1.3).
 
 ### 5.2 Why the document carries most of it
 
@@ -317,8 +426,8 @@ approval-readiness question (§15).
 
 ### 5.4 Unresolved
 
-- **No naming standard exists** (§13), so filename composition (fields 1–4) is
-  **provisional**.
+- **No naming standard exists** (§13), so filename composition (fields 1–4)
+  **remains provisional** — naming the file *formats* does not name the files.
 - Field 12 depends on the supersession route (§8).
 - Fields 7, 8 and 13 cannot be populated until the corresponding decisions and
   events exist — **and they do not**.
@@ -396,13 +505,32 @@ without its own authorisation**.
 
 | # | Check | Candidate method | Known limitation |
 |---|---|---|---|
-| 1 | **Source-package verification, before upload** | Digest of each file recomputed and matched against the manifest | None — fully within repository control |
+| 1 | **Source-package verification, before upload** | **Five checks (§7.1.1)** — presence of all seven authoritative files; PDF/A-2b validation of each; manifest JSON parse; complete source-to-rendition mappings; SHA-256 recomputation and match | Fully within repository control, **but the validation toolchain is unselected** (§4.5) |
 | 2 | **Destination identity** | Confirm the destination is the **authorised** container, by identifier not by name | Depends on PM-1 and on a recorded authorisation |
 | 3 | **Destination version** | Confirm the expected version number exists for each item | Version number **was** returned — this check is feasible |
 | 4 | **Visible metadata** | Confirm §5 fields visible in the destination match the manifest | **Only for fields the platform proves able to carry** (§5.3) |
 | 5 | **Derivative / viewability**, where relevant | Confirm the item opens or renders | A derivative's existence is **not** approval of it (PPER-005) |
 | 6 | **Approval / reference checks** | Confirm the package cites AD-001, the arrangement approval and the event authorisation | Not a check that approval occurred elsewhere |
 | 7 | **Evidence capture** | Record what was checked, by which function, when, and the result | Evidence is **not** decision, implementation or verification unless the event and authority are separately recorded |
+
+#### 7.1.1 Source-package verification — candidate checks
+
+Performed **before upload**, entirely within repository control:
+
+| # | Check |
+|---|---|
+| 1 | **All seven authoritative files are present** |
+| 2 | **Each file validates as `PDF/A-2b`** |
+| 3 | **The `UTF-8 JSON` manifest parses correctly** |
+| 4 | **The source-to-rendition mappings are complete** — each rendition maps to exactly one source document, and every source document has a rendition |
+| 5 | **`SHA-256` digests recompute and match the manifest** — for every authoritative rendition and every included source companion |
+
+> **These are candidate checks. None has been performed**, and **the exact
+> validation toolchain remains unselected** (§4.5).
+
+**The destination-side limitations in §7.1 and §7.2 are unchanged.** These five
+checks verify the **source package**, and establish nothing about the
+destination.
 
 ### 7.2 Integrity where the platform does not expose it
 
@@ -483,10 +611,10 @@ unconfirmed; and PM-7 **depends on PM-1, PM-2 and PM-4**.
 |---|---|---|---|---|---|---|
 | **PM-1** | Dedicated new child container under `03. Published`, provisionally identified, cross-referenced from the Common Files BEP area | Information state before topic; separation from design deliverables; no reliance on existing content | PPER-004 | **OF-001** intended CDE structure undefined; naming standard absent | Arrangement approval; **implementation authority** to create it | **CANDIDATE ARRANGEMENT PREPARED — NOT APPROVED** |
 | **PM-2** | Propose a *Training Baseline Publication Owner* **function**; no holder | Authority comes from decision, never from observation or access | **None possible** | Publication / exchange authority **UNRESOLVED** | **A separate authority decision** | **CANDIDATE ARRANGEMENT PREPARED — NOT APPROVED** |
-| **PM-3** | Per-document human-readable renditions + optional source companions + authoritative manifest | Each controlled resource declares its own status; individually addressable items enable supersession | PPER-005 | Titleblock / template standards absent | Arrangement approval | **CANDIDATE ARRANGEMENT PREPARED — NOT APPROVED** |
+| **PM-3** | **Seven `PDF/A-2b` renditions + optional `UTF-8 Markdown` source companions + one authoritative `UTF-8 JSON` manifest + `SHA-256` digests** | A fixed archival record; each controlled resource declares its own status; individually addressable items enable supersession | PPER-005 | **Generation toolchain unselected**; titleblock / template standards absent | Arrangement approval | **CANDIDATE ARRANGEMENT PREPARED — NOT APPROVED** |
 | **PM-4** | 14-field minimum set, carried primarily **in the document and manifest** | Platform-only metadata is lost when the file leaves the platform | PPER-006 | **Populatability unconfirmed**; naming standard absent | Arrangement approval | **CANDIDATE ARRANGEMENT PREPARED — NOT APPROVED** |
 | **PM-5** | Nine-stage separated manual procedure; **no mechanism nominated** | Manual controlled publication is the only model contemplated; **no upload route was exposed** | PPER-007 | Implementation route unconfirmed; PM-1 … PM-4 | Arrangement approval; **PE-3 authorisation**; implementation authority | **CANDIDATE ARRANGEMENT PREPARED — NOT APPROVED** |
-| **PM-6** | Seven-check verification with **source-side digests** as the integrity control | Destination exposed no checksum, size or timestamp | PPER-008 | Retrieval route unconfirmed; PM-1, PM-3, PM-4, PM-5 | Arrangement approval | **CANDIDATE ARRANGEMENT PREPARED — NOT APPROVED** |
+| **PM-6** | Seven-check verification, with source-side **PDF/A-2b validation, JSON manifest parse and `SHA-256` recomputation** as the integrity control | Destination exposed no checksum, size or timestamp | PPER-008 | **Validation toolchain unselected**; retrieval route unconfirmed; PM-1, PM-3, PM-4, PM-5 | Arrangement approval | **CANDIDATE ARRANGEMENT PREPARED — NOT APPROVED** |
 | **PM-7** | Governance route with retention and a fresh event authorisation; **no technical route** | Supersession is a publication act; history is retained, never deleted | PPER-009 | **PPQ-006 not observable**; technical feasibility unconfirmed; PM-1, PM-2, PM-4 | Publication / exchange authority; fresh **PE-3** | **CANDIDATE ARRANGEMENT PREPARED — NOT APPROVED** |
 
 ---
@@ -612,6 +740,10 @@ one, and naming a role is not filling it.
 > did not expose it.** Non-exposure is a limitation of the inspected surface, not
 > a governed prohibition.
 
+**Nor is any format prohibited.** The merged-PDF row above rejects **merging**,
+not PDF; **ordinary PDF, and other formats, remain available options for review**
+(§15). PDF/A-2b is a **candidate selection**, not an exclusion of alternatives.
+
 ---
 
 ## 15. Approval-readiness questions for Increment 8G
@@ -632,6 +764,9 @@ list is not a request for approval.**
 | 9 | **Standards dependencies** — can an arrangement be approved while naming, titleblock and template standards remain unestablished, or must some be established first? |
 | 10 | **Supersession and withdrawal** — is a governance-only route approvable while no technical route is confirmed? |
 | 11 | **Progression** — can this candidate proceed to an **arrangement-approval decision (PE-2)**, or must it be revised, deferred, or split? |
+| 12 | **Rendition format** — is **`PDF/A-2b`** the appropriate authoritative rendition format for this package, or would ordinary PDF, another PDF/A conformance level, or a different format serve better? |
+| 13 | **Generation and validation feasibility** — is a **conforming PDF/A-2b generation and validation route technically feasible** from the Markdown sources, and what would confirming it require? |
+| 14 | **Manifest and integrity sufficiency** — are **`UTF-8 JSON`** and **`SHA-256`** sufficient for the manifest and integrity controls, and are the seven required per-file entries (§4.4) the right minimum? |
 
 ---
 

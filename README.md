@@ -179,6 +179,7 @@ repository.
 | Implementation Increment 8D | Complete — the single bounded read-only observation completed under **ROA-001**; **no mutation occurred** and **ROA-001 expired** on its completion report; **no repeat observation authorised** |
 | Implementation Increment 8E | Complete — observation recorded and evidence assessed (**PPER-004**–**PPER-009**, EC-3, all insufficient); final PPQ statuses recorded; **all PM matters remain UNRESOLVED, no publication arrangement selected, no authority assigned** |
 | Implementation Increment 8F | Complete — **Publication Arrangement Candidate 0.1 (PAC-001)** prepared for PM-1 to PM-7; **PROPOSED GOVERNANCE — NOT APPROVED**; **no arrangement approved, no authority assigned, no publication authorised**. Next stage: **Increment 8G** candidate review |
+| Implementation Increment 8F-A | Complete — PAC-001's **PM-3 format position completed**: seven **PDF/A-2b** renditions, one **UTF-8 JSON** manifest and **SHA-256** integrity records proposed; **candidate remains NOT APPROVED, no authority assigned, no publication authorised**. **Increment 8G** remains the next stage |
 
 All 13 main BEP sections now contain substantive draft content.
 
