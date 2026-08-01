@@ -81,6 +81,7 @@ where the approved baseline applies — but **none is asserted or recorded**
 | AG-001 | **APPROVED GOVERNANCE** | Training Baseline Approval Function | Approved — implemented and **verified** | Training Baseline Approver |
 | GD-001 | **CONTROLLED GATE DECISION** | Training Baseline 0.1 — Gate C Decision | **PASS** — 2026-08-01 | Training Baseline Approver |
 | AD-001 | **APPROVED GOVERNANCE** | Training Baseline 0.1 — Approval Decision | **APPROVED WITH CONDITIONS** — 2026-08-01 | Training Baseline Approver |
+| ROA-001 | **CONTROLLED READ-ONLY OBSERVATION AUTHORISATION** | Publication Planning read-only observation | **AUTHORISE WITH CONSTRAINTS** — 2026-08-01 | Training Implementation Owner |
 | TA-01 | TRAINING ASSUMPTION | Post-appointment context | Adopted | Not established — TBD |
 | TA-02 | TRAINING ASSUMPTION | Simulated role participation | Adopted | Not established — TBD |
 | TA-03 | TRAINING ASSUMPTION | Training delivery organisation | Adopted | Not established — TBD |
@@ -94,14 +95,18 @@ where the approved baseline applies — but **none is asserted or recorded**
 | OF-008 | OBSERVED FACT | Model Coordination provisioning | Recorded | Not established — TBD |
 | UD-001 | OBSERVED FACT + UNRESOLVED DECISION | Design Collaboration MEP / Structural team-space mapping | **Unresolved** | Not established — TBD |
 
-Three governance entries exist beyond observations and assumptions:
+Four governance entries exist beyond observations and assumptions:
 
 - **AG-001** — APPROVED GOVERNANCE, establishing the Training Baseline Approval
   Function;
 - **GD-001** — a CONTROLLED GATE DECISION recording **Gate C — PASS**, taken
   using that function;
 - **AD-001** — APPROVED GOVERNANCE, recording **Training Baseline 0.1 —
-  APPROVED WITH CONDITIONS**, taken using the same function.
+  APPROVED WITH CONDITIONS**, taken using the same function;
+- **ROA-001** — a CONTROLLED READ-ONLY OBSERVATION AUTHORISATION permitting one
+  bounded, read-only Publication Planning observation. **It authorises an
+  evidence-gathering act only, assigns no authority, and is recorded here by
+  reference** (section 6C).
 
 **AG-001 establishes who may decide. GD-001 authorised progression to an
 approval decision and approved no baseline. AD-001 is that approval decision.**
@@ -710,6 +715,37 @@ has **not** been performed. No implementation assignment is created.
 
 **Decision record.** `docs/Training-Baseline-0.1-Approval-Decision.md`.
 
+## 6C. Observation authorisations
+
+### ROA-001 — Publication Planning Read-Only Observation Authorisation
+
+| Field | Value |
+|---|---|
+| Classification | **CONTROLLED READ-ONLY OBSERVATION AUTHORISATION** |
+| Topic | Publication Planning — one bounded read-only observation |
+| Decision | **AUTHORISE WITH CONSTRAINTS** |
+| Authorising function | **Training Implementation Owner** |
+| Scope | `PPQ-001` to `PPQ-007`; **one** Claude Desktop session; read-only; Harrismith Fire Station only; session account visibility only |
+| Expiry | On that session producing its completion report, or on withdrawal through a later controlled increment |
+| Decision date | **2026-08-01** |
+| Status | Recorded — **not yet exercised**; no observation has been performed |
+
+**Explicit non-effects.** ROA-001 does **not** authorise publication, upload,
+issue, delivery, receipt, acceptance or any external information exchange; does
+**not** lift or vary the publication hold; does **not** establish project
+publication / exchange authority or recipient acceptance authority; and does
+**not** resolve PM-1 to PM-7, GCR-005, GCR-006 or UD-001.
+
+**Classification note.** ROA-001 authorises an **evidence-gathering act**, not a
+governance outcome. **Observation is not a decision**, and any evidence it
+produces is observational evidence only (BEP 12.3).
+
+**Decision record.** `docs/Publication-Planning-Read-Only-Observation-Authorisation.md`.
+**This entry is a reference, not a duplicate** — the full decision is not
+restated here (BEP 12.13, 13.1).
+
+---
+
 ## 7. Deviations
 
 *No deviations recorded.*
@@ -747,6 +783,7 @@ status, the replacement decision, the effective point, and the reason or context
 | 2026-08-01 | AG-001 recorded — Training Baseline Approval Function established as APPROVED GOVERNANCE. First approved-governance entry. Baseline 0.1 remains unapproved. | 7G |
 | 2026-08-01 | GD-001 recorded — Gate C PASS for candidate snapshot cc146a5f. AG-001 verification completed through Increment 7H. Baseline 0.1 remains unapproved; publication hold active. | 7I |
 | 2026-08-01 | AD-001 recorded — Training Baseline 0.1 APPROVED WITH CONDITIONS for the governance basis assessed at cc146a5f. Register status advanced to APPROVED WITH CONDITIONS. GCR-005, GCR-006 and UD-001 remain open; publication/exchange and recipient acceptance authority remain unresolved; project standards remain Not established; publication remains NOT AUTHORISED with the hold active. | 7J |
+| 2026-08-01 | ROA-001 recorded by reference — one bounded read-only Publication Planning observation AUTHORISED WITH CONSTRAINTS, covering PPQ-001 to PPQ-007 in a single session, expiring on that session's completion report. Not yet exercised. No authority assigned; GCR-005, GCR-006 and UD-001 remain open; publication remains NOT AUTHORISED with the hold active. | 8C-A |
 
 **Note on histories.** This change log records *decision and register* history.
 Git commit history records *source* history. They are complementary and not
