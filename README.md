@@ -173,6 +173,7 @@ repository.
 | Implementation Increment 8A | Complete — Publication Planning control framework established; **no publication arrangement selected, no authority assigned** |
 | Implementation Increment 8A-A | Complete — Increment 7J-A restored to this table; roadmap traceability only, **no historical decision changed, no governance changed, no Publication Planning work performed** |
 | Implementation Increment 8B | Complete — Publication Planning evidence and observation control register established; **no evidence assessed, no question drafted, no observation authorised** |
+| Implementation Increment 8C | Complete — seven exact read-only observation questions drafted (`PPQ-001`–`PPQ-007`), all **READY FOR GOVERNANCE REVIEW**; **none authorised, asked or answered; no observation performed; PM-2 excluded** |
 
 All 13 main BEP sections now contain substantive draft content.
 

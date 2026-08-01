@@ -31,7 +31,8 @@ This register provides controlled traceability across nine linked things:
 3. repository evidence already available;
 4. potential future read-only live-system evidence;
 5. governance or authority inputs that **no observation can replace**;
-6. exact observation questions, to be developed in a later increment;
+6. exact observation questions — drafted by Increment 8C (§10.2), **awaiting
+   governance review and not authorised**;
 7. observations eventually received;
 8. assessment of that evidence;
 9. later decision outputs, held as **references** to decisions recorded
@@ -335,10 +336,10 @@ questions.**
 
 | Ref | Category | Permitted observational scope | Matters it may inform | What it cannot prove | Likely source / tool boundary | Exact question drafted? |
 |---|---|---|---|---|---|---|
-| **OC-A** | Candidate destination structures visibly present | Read-only enumeration of what structures exist and how they are labelled | PM-1 | That any structure is the **governed** publication location; that any arrangement is intended | Read-only folder/project listing; limited to what the account can see | **NOT DRAFTED** |
-| **OC-B** | Metadata fields technically visible and populatable | Read-only inspection of which identity, version and status fields exist | PM-4 | What metadata **must** be carried; that a visible field is governed or enforced | Read-only item/version property inspection | **NOT DRAFTED** |
-| **OC-C** | Version, integrity and upload-verification information observable after an upload performed by others | Read-only inspection of version and related information already present | PM-6 | That any upload was authorised; that a verification process exists or was followed | Read-only version history; **no upload is performed to create the observation** | **NOT DRAFTED** |
-| **OC-D** | Technical capabilities and limitations the platform and connector expose, including what they prevent | Read-only determination of supported and prevented operations | PM-3, PM-5, PM-7 | That a supported operation is permitted governance; that a prevented one is governed prohibition | Read-only capability inspection and documented tool behaviour | **NOT DRAFTED** |
+| **OC-A** | Candidate destination structures visibly present | Read-only enumeration of what structures exist and how they are labelled | PM-1 | That any structure is the **governed** publication location; that any arrangement is intended | Read-only folder/project listing; limited to what the account can see | **PPQ-001** — drafted, not authorised |
+| **OC-B** | Metadata fields technically visible and populatable | Read-only inspection of which identity, version and status fields exist | PM-4 | What metadata **must** be carried; that a visible field is governed or enforced | Read-only item/version property inspection | **PPQ-003** — drafted, not authorised |
+| **OC-C** | Version, integrity and upload-verification information observable after an upload performed by others | Read-only inspection of version and related information already present | PM-6 | That any upload was authorised; that a verification process exists or was followed | Read-only version history; **no upload is performed to create the observation** | **PPQ-005** — drafted, not authorised |
+| **OC-D** | Technical capabilities and limitations the platform and connector expose, including what they prevent | Read-only determination of supported and prevented operations | PM-3, PM-5, PM-7 | That a supported operation is permitted governance; that a prevented one is governed prohibition | Read-only capability inspection and documented tool behaviour | **PPQ-002, PPQ-004, PPQ-006, PPQ-007** — drafted, not authorised |
 
 **PM-2 appears in no row.** That is deliberate (§6).
 
@@ -530,37 +531,197 @@ Every `PPQ-` entry must carry all of the following.
 | 11 | **Answer / evidence reference** | The `PPER-` entry holding the answer. Empty until answered |
 | 12 | **Limitations** | Known limits on what any answer can establish |
 
-### 10.2 Question placeholders
+### 10.2 Drafted question set
 
-> **No question text is written by Increment 8B, and no `PPQ-` identifier is
-> allocated.**
-
-| Category | Exact question text | Status | Authorisation | Answer |
-|---|---|---|---|---|
-| **OC-A** | *— not drafted —* | **NOT DRAFTED** | None | None |
-| **OC-B** | *— not drafted —* | **NOT DRAFTED** | None | None |
-| **OC-C** | *— not drafted —* | **NOT DRAFTED** | None | None |
-| **OC-D** | *— not drafted —* | **NOT DRAFTED** | None | None |
-| **PM-2** | **Not applicable — observationally excluded (§6)** | **N/A** | **N/A** | **N/A** |
+> **Drafted 2026-08-01 by Increment 8C.** Seven questions, `PPQ-001` to
+> `PPQ-007`. **Every one is READY FOR GOVERNANCE REVIEW. None is authorised,
+> asked or answered**, and no authorisation, answer or evidence reference is
+> populated.
 
 **No Claude Desktop instruction, prompt or session brief is written here.** A
-question becoming `DRAFT` does not make it askable; drafting, review,
-authorisation and asking are four separate steps (§4.2).
+question being drafted does not make it askable; drafting, review, authorisation
+and asking are four separate steps (§4.2, §10.4).
+
+#### 10.2.1 Index
+
+| PPQ | Related PM | Category | Subject | Status |
+|---|---|---|---|---|
+| **PPQ-001** | PM-1 | **OC-A** | Visible area and folder structure | **READY FOR GOVERNANCE REVIEW** |
+| **PPQ-002** | PM-3 | **OC-D** | File types and derivative output formats of items already present | **READY FOR GOVERNANCE REVIEW** |
+| **PPQ-003** | PM-4 | **OC-B** | Metadata field names and current values returned | **READY FOR GOVERNANCE REVIEW** |
+| **PPQ-004** | PM-5 | **OC-D** | Connector operation surface and documented constraints | **READY FOR GOVERNANCE REVIEW** |
+| **PPQ-005** | PM-6 | **OC-C** | Version and integrity attributes of versions already present | **READY FOR GOVERNANCE REVIEW** |
+| **PPQ-006** | PM-7 | **OC-D** | Inter-version relationships and exposed lifecycle capabilities | **READY FOR GOVERNANCE REVIEW** |
+| **PPQ-007** | PM-3, PM-5, PM-7 | **OC-D** | Connector limitations encountered | **READY FOR GOVERNANCE REVIEW** |
+| **PM-2** | — | **None** | **No question drafted — observationally excluded (§6)** | **N/A** |
+
+**Category boundaries were not widened to fit a question.** OC-D informs PM-3,
+PM-5 and PM-7 only (§7.1), so `PPQ-007` is scoped to those matters. A limitation
+encountered while answering `PPQ-001`, `PPQ-003` or `PPQ-005` is recorded in
+**that question's own answer and status**, not reassigned to OC-D.
+
+#### 10.2.2 PPQ-001
+
+| Field | Value |
+|---|---|
+| Related PM / category | **PM-1** / **OC-A** |
+| **Exact read-only question** | *"Using read-only listing operations only, enumerate the visible top-level areas of the Harrismith Fire Station project and their child folders to a depth of three levels. For each, report the exact visible name as displayed and the exact observed path. Report only what is listed; report nothing about intended use, suitability or governance."* |
+| Purpose | Informs **PM-1**. Repository evidence cannot establish what structures exist in the live environment; only observation can enumerate them |
+| Factual output requested | Exact visible names; exact observed paths; depth reached at each branch; count of children per level; any area visible but not enumerable |
+| **Prohibited inference** | **A visible area or folder is not the governed publication location.** An area named after an information state is evidence of naming only — not that a state model is implemented, governed or approved (Increment 7C §4). **No enumerated structure is selected, preferred or recommended by being listed** |
+| Tool / connector boundary | `autodesk-aps-forma` read-only listing (hub, project, top-folder and folder-contents enumeration). **No create, rename, move, delete, upload or permission change.** No Desktop Connector / ACCDocs interaction |
+| Expected evidence class | **EC-3** |
+| Status | **READY FOR GOVERNANCE REVIEW** |
+| Authorisation reference | **None — not authorised** |
+| Answer / evidence reference | **None** |
+| Limitations | Visibility is bounded by what the observing account can see; point-in-time; depth-limited by the question. Increment 7C observed only "at the inspected level", and the same bound applies. **A `NOT OBSERVABLE WITH AVAILABLE TOOLING` result would mean the listing route did not return the structure — not that the structure is absent** |
+
+#### 10.2.3 PPQ-002
+
+| Field | Value |
+|---|---|
+| Related PM / category | **PM-3** / **OC-D** |
+| **Exact read-only question** | *"For the item versions already present in the visible areas, report the exact file extension and, where the tooling exposes it, the source file type and any derivative or translated output formats listed for that version. Do not request, trigger or download any translation, export or file content."* |
+| Purpose | Informs **PM-3**. The generation route is a repository matter (BEP §13.5), but destination-side format constraints are observable only in the live environment |
+| Factual output requested | File extensions; source file types as reported; derivative or translated output formats listed; whether a derivative manifest is exposed; items for which no format information is returned |
+| **Prohibited inference** | **An observed file format is not an approved publication format**, and the presence of a derivative output is not evidence that the derivative is an approved deliverable form. **The format in which information currently exists in the live environment does not determine the format in which anything may later be published** |
+| Tool / connector boundary | `autodesk-aps-forma` read-only item / version detail and derivative-manifest inspection. **No file download or content retrieval, no translation job creation, no export.** A manifest may be inspected without retrieving what it references |
+| Expected evidence class | **EC-3** |
+| Status | **READY FOR GOVERNANCE REVIEW** |
+| Authorisation reference | **None — not authorised** |
+| Answer / evidence reference | **None** |
+| Limitations | Derivative availability varies per item and per translation state. **Content retrieval is out of scope**, so format is observable only as declared, not as verified from the file. **`NOT OBSERVABLE` would mean the format field or manifest was not returned — not that the item has no format** |
+
+#### 10.2.4 PPQ-003
+
+| Field | Value |
+|---|---|
+| Related PM / category | **PM-4** / **OC-B** |
+| **Exact read-only question** | *"For a stated sample of item versions already present in the visible areas, report the exact name of every metadata field returned by read-only inspection and, for each field, the exact current value as returned or an explicit indication that it is empty. Report field names exactly as returned, without normalising, translating or grouping them."* |
+| Purpose | Informs **PM-4**. Which fields are technically available is a live-system fact that repository evidence cannot supply |
+| Factual output requested | Exact field names; exact current values, or an explicit empty indication; which of the identity, version and status field categories appear; fields returned but unpopulated |
+| **Prohibited inference** | **A metadata field visible in the live environment is not automatically required publication metadata**, and a populated field is not evidence that its value is governed, checked or correct. **What must be carried is a governance requirement; what is available is a platform fact. The two are not the same** (§5.4) |
+| Tool / connector boundary | `autodesk-aps-forma` read-only item / version property inspection. **No property creation, edit, schema change or custom-attribute definition.** |
+| Expected evidence class | **EC-3** |
+| Status | **READY FOR GOVERNANCE REVIEW** |
+| Authorisation reference | **None — not authorised** |
+| Answer / evidence reference | **None** |
+| Limitations | Sample-based, not exhaustive. Custom attribute schemas may not be exposed. **OC-B's "populatable" aspect is only partially observable**: whether a field *accepts* a value cannot be determined read-only, because attempting to write is prohibited. **`NOT OBSERVABLE` would mean the property route returned nothing — not that the item carries no metadata** |
+
+#### 10.2.5 PPQ-004
+
+| Field | Value |
+|---|---|
+| Related PM / category | **PM-5** / **OC-D** |
+| **Exact read-only question** | *"Report which operations the available Autodesk connector exposes, classified as read-only or state-changing, listing each by its exposed operation name. Do not invoke any state-changing operation, including for testing. Where the connector or its documentation states a pre-condition, constraint, or operation that is unavailable or prevented, report that statement exactly as given."* |
+| Purpose | Informs **PM-5**. A procedure drafted without confirmed platform behaviour would be speculation presented as method (§5.4) |
+| Factual output requested | Exposed operation names; read-only versus state-changing classification; documented pre-conditions and constraints; operations documented as unavailable or prevented |
+| **Prohibited inference** | **An available upload or version-creation action is not an approved upload procedure.** The existence of a state-changing operation is neither permission to use it nor evidence that its use would be authorised. **A prevented operation is a technical limitation, not a governed prohibition.** Manual controlled publication remains the only model contemplated (BEP §13.5, 6.10), and no observation can alter that |
+| Tool / connector boundary | Enumeration of the connector's exposed operation surface and its documented behaviour. **No state-changing operation is invoked under any circumstances**, and classification is taken from the exposed definition, never from trial |
+| Expected evidence class | **EC-3** |
+| Status | **READY FOR GOVERNANCE REVIEW** |
+| Authorisation reference | **None — not authorised** |
+| Answer / evidence reference | **None** |
+| Limitations | The exposed surface may be narrower than the platform's full capability, and narrower still than what a given account may exercise. **`NOT OBSERVABLE` would mean the operation surface could not be enumerated — not that the platform lacks the capability** |
+
+#### 10.2.6 PPQ-005
+
+| Field | Value |
+|---|---|
+| Related PM / category | **PM-6** / **OC-C** |
+| **Exact read-only question** | *"For item versions already present in the visible areas — none of them created by this observation — report the version-identifying and integrity-related attributes returned by read-only inspection, including version number, creation timestamp, file size, any checksum or hash field, and any approval-status field. For each, give the exact field name and value, or an explicit indication that the field is not returned."* |
+| Purpose | Informs **PM-6**. What is observable about an existing version bounds what any future verification method could check |
+| Factual output requested | Version numbers; creation timestamps; file sizes; checksum or hash fields where present; approval-status fields where present; an explicit list of which of these are not returned |
+| **Prohibited inference** | **A visible verification-related field is not an approved verification requirement**, and the presence of an approval-status field is not evidence that any approval, authorisation or verification occurred. **No upload is performed to create this observation** (OC-C), and nothing observed evidences that any existing version was authorised — Increment 7C recorded published drawing information without any governed publication authority evidence (PPER-001, PPER-002) |
+| Tool / connector boundary | `autodesk-aps-forma` read-only version-history, version-detail and approval-status inspection where exposed. **No upload, no version creation, no status change, no approval action.** |
+| Expected evidence class | **EC-3** |
+| Status | **READY FOR GOVERNANCE REVIEW** |
+| Authorisation reference | **None — not authorised** |
+| Answer / evidence reference | **None** |
+| Limitations | Attributes vary by item type and storage route. **Absence of a checksum field is not evidence that integrity data does not exist elsewhere.** **`NOT OBSERVABLE` would mean the attribute was not returned by the inspection route used** |
+
+#### 10.2.7 PPQ-006
+
+| Field | Value |
+|---|---|
+| Related PM / category | **PM-7** / **OC-D** |
+| **Exact read-only question** | *"Report the read-only relationships the tooling exposes between successive versions of an item already present, and any exposed capability for replacing, superseding, archiving, withdrawing or removing a version or item — by exposed operation or field name only, without invoking any of them. Report whether previous versions remain listed and retrievable in version history."* |
+| Purpose | Informs **PM-7**. A supersession or withdrawal route cannot be decided without knowing what the platform supports and what it prevents |
+| Factual output requested | Version-to-version relationships exposed; names of any replace, supersede, archive, withdraw or delete capability; whether previous versions remain listed; retention behaviour as exposed |
+| **Prohibited inference** | **A technical supersession, archive or delete capability is not an approved supersession or withdrawal route**, and its absence is not a governed prohibition on supersession. **That previous versions remain listed is not evidence that a retention rule exists or is governed.** Supersession retains history (BEP 7.10, 9.9, 12.10); the governed route, and the authority to exercise it, remain undecided (§5.4) |
+| Tool / connector boundary | `autodesk-aps-forma` read-only version-history and relationship inspection, plus operation-surface enumeration. **No delete, archive, restore, supersede, withdraw or version-removal operation is invoked.** |
+| Expected evidence class | **EC-3** |
+| Status | **READY FOR GOVERNANCE REVIEW** |
+| Authorisation reference | **None — not authorised** |
+| Answer / evidence reference | **None** |
+| Limitations | Exposure may be partial, and a capability present in the platform UI may not be exposed to the connector. **`NOT OBSERVABLE` would mean the relationship or capability was not exposed to inspection — not that the platform cannot do it** |
+
+#### 10.2.8 PPQ-007
+
+| Field | Value |
+|---|---|
+| Related PM / category | **PM-3, PM-5, PM-7** / **OC-D** |
+| **Exact read-only question** | *"Where PPQ-002, PPQ-004 or PPQ-006 could not be answered, report for each the exact request attempted, the exact error, empty result or refusal returned, and whether the connector reported the operation as unavailable, unauthorised or unsupported. Report the limitation exactly as encountered, without substituting an explanation for why it occurred."* |
+| Purpose | Informs **PM-3, PM-5, PM-7** by bounding what the tooling can establish. Turns a tooling failure into recorded evidence rather than silence |
+| Factual output requested | The exact request attempted; the exact error, empty result or refusal text; the connector's own classification of the failure where it gives one |
+| **Prohibited inference** | **Inability of the connector to observe a fact is not observation that the fact is absent, unavailable or prohibited.** A refusal or empty result is evidence about the tooling, not about the project. **Absence of observation is not observation of absence.** An "unauthorised" response is a platform-access fact and **establishes nothing about governance authority** (§6) |
+| Tool / connector boundary | Recording of results already returned while answering PPQ-002, PPQ-004 and PPQ-006. **No retry with elevated access, no alternative credential, no workaround route.** |
+| Expected evidence class | **EC-3** |
+| Status | **READY FOR GOVERNANCE REVIEW** |
+| Authorisation reference | **None — not authorised** |
+| Answer / evidence reference | **None** |
+| Limitations | Scoped to OC-D's matters (§7.1). **Limitations encountered on PPQ-001, PPQ-003 or PPQ-005 belong to those questions' own answers and statuses**, and are not reassigned here. A question whose limitation is recorded here takes status **NOT OBSERVABLE WITH AVAILABLE TOOLING** |
+
+### 10.3 PM-2 — no question drafted
+
+> **No question in this set seeks to identify a publication owner, publication
+> or exchange authority, recipient acceptance authority, an authorised uploader,
+> or an authorised approver.**
+
+Project membership, folder ownership, permissions, administrative access and
+previous activity were **not** used as indirect routes to PM-2. Where any such
+fact is returned incidentally by `PPQ-001` to `PPQ-007`, it remains **EC-3**
+evidence about permission or configuration and **carries the prohibited
+inference that it does not establish authority** (§6, §8.2).
+
+**No question may be added later to answer PM-2 by observation.** PM-2 is
+**GOVERNANCE DECISION REQUIRED**, and no read-only observation can supply it.
+
+### 10.4 Status progression
+
+Moving a question from **READY FOR GOVERNANCE REVIEW** to **AUTHORISED FOR
+READ-ONLY OBSERVATION** requires a **later explicit governance review and an
+identifiable authorisation reference** recorded in the question's authorisation
+field. It does not occur by default, by elapsed time, or by a question being
+well drafted.
+
+| | |
+|---|---|
+| **Drafting a question is not authorising it** | This increment drafted; it authorised nothing |
+| **Authorising a question is not asking it** | Authorisation permits the act; it is not the act |
+| **Asking a question is not receiving an answer** | A question may return nothing, or return `NOT OBSERVABLE` |
+| **Receiving an answer is not assessing the evidence** | An answer becomes a `PPER-` entry at **OBTAINED**; assessment is a separate performed act (§4.1) |
 
 ---
 
 ## 11. Current register state
 
-As at completion of Increment 8B:
+As at completion of Increment 8C:
 
 | Statement | Position |
 |---|---|
 | PM-1 … PM-7 exist as controlled planning matters | **Yes — all seven** |
+| PM decision statuses | **UNRESOLVED for all seven — unchanged by Increment 8C** |
 | A publication arrangement has been selected | **No** |
-| PM-2 is excluded from observational resolution | **Yes — §6** |
-| Exact live questions drafted | **None — all NOT DRAFTED** |
-| Any question authorised | **No** |
+| PM-2 is excluded from observational resolution | **Yes — §6, §10.3** |
+| Exact live questions drafted | **Seven — `PPQ-001` … `PPQ-007`** (§10.2) |
+| PPQ identifiers allocated | **`PPQ-001` to `PPQ-007`; `PPQ-008` onward unallocated** |
+| Status of every drafted question | **READY FOR GOVERNANCE REVIEW** |
+| Any question authorised | **No — no authorisation reference is populated** |
+| Any question asked | **No** |
+| Any question answered | **No — no answer or evidence reference is populated** |
 | Live observation performed | **None** |
+| Claude Desktop prompt or session brief created | **None** |
 | Publication authority assigned | **No** |
 | Recipient acceptance authority assigned | **No** |
 | Evidence entries recorded | **Three — PPER-001 … PPER-003, all repository-sourced, all OBTAINED and unassessed** |
@@ -605,7 +766,9 @@ superseded and retained (BEP 12.10).
 > questions, and nothing else.**
 >
 > It records no decision, selects no publication arrangement, assigns no
-> authority, drafts no question, authorises no observation, and closes no
-> condition.
+> authority, authorises no observation, and closes no condition.
+>
+> The questions drafted at §10.2 are **READY FOR GOVERNANCE REVIEW**. **None is
+> authorised, asked or answered.**
 >
 > ## **PUBLICATION REMAINS NOT AUTHORISED — PUBLICATION HOLD ACTIVE.**
