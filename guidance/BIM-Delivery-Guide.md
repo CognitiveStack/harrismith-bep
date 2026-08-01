@@ -141,7 +141,11 @@ Git                     →  controlled authoring and history for BEP source
 - **Gate C passed through GD-001 on 2026-08-01.** Training Baseline 0.1 remains
   **FOR REVIEW — NOT APPROVED**: the approval decision has not yet occurred, and
   publication remains on hold.
-- **Live-project validation has not been performed.**
+- **Live-project validation was completed through Increment 7C** — read-only
+  connector observation and supplied manual UI evidence — and the validated
+  observations were incorporated through Increment 7D and reviewed through
+  Increment 7E. **A complete governed coordination cycle has not been
+  demonstrated.**
 
 Several important things are **deliberately unresolved** and are recorded as
 such, not quietly filled in. You will meet them in this Guide — publication
