@@ -17,6 +17,17 @@
 > receipt and no acceptance, and it assigns no authority to any person or
 > function.
 
+> **Subsequent status — 2026-08-01.** **ROA-001 has been EXERCISED ONCE and has
+> EXPIRED.** The authorised observation was carried out as **Increment 8D**, the
+> **one** session this authorisation permits, and the authorised completion
+> report was received. **The authorisation expired automatically on that report
+> being produced** (§5), **is not renewable**, and **no repeat observation is
+> authorised** — any further observation requires a new authorisation record
+> with its own identifier. **No mutation was reported.** **Publication remains
+> NOT AUTHORISED and the publication hold remains ACTIVE.** The decision text
+> below is the original and is **unchanged**. Observation record:
+> [`docs/Increment-8D-Publication-Planning-Read-Only-Observation-Record.md`](Increment-8D-Publication-Planning-Read-Only-Observation-Record.md).
+
 ---
 
 ## 1. What is authorised

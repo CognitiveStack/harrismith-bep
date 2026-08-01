@@ -14,6 +14,19 @@
 > a controlled artefact held in the repository, ready to be given to a fresh
 > Claude Desktop session when the orchestrator directs.
 
+> **Subsequent status — 2026-08-01.** The `PREPARED — NOT SENT` status above is
+> retained as **the state when this brief was created**, and the instruction
+> text below is the original and is **unchanged**. This brief was
+> **subsequently sent once and executed once** under **ROA-001**, as
+> **Increment 8D**, and that session **completed** and returned its completion
+> report. **The brief is not reusable**: it **expired with ROA-001**, which is
+> now **EXERCISED ONCE — EXPIRED** and not renewable. **As an executable
+> instruction it is superseded by the observation record** —
+> [`docs/Increment-8D-Publication-Planning-Read-Only-Observation-Record.md`](Increment-8D-Publication-Planning-Read-Only-Observation-Record.md)
+> — and is retained here as the historical record of what was asked. **It must
+> not be re-sent.** **Publication remains NOT AUTHORISED and the publication
+> hold remains ACTIVE.**
+
 ---
 
 ## 1. Repository and governance context

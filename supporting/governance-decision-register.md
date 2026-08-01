@@ -81,7 +81,7 @@ where the approved baseline applies — but **none is asserted or recorded**
 | AG-001 | **APPROVED GOVERNANCE** | Training Baseline Approval Function | Approved — implemented and **verified** | Training Baseline Approver |
 | GD-001 | **CONTROLLED GATE DECISION** | Training Baseline 0.1 — Gate C Decision | **PASS** — 2026-08-01 | Training Baseline Approver |
 | AD-001 | **APPROVED GOVERNANCE** | Training Baseline 0.1 — Approval Decision | **APPROVED WITH CONDITIONS** — 2026-08-01 | Training Baseline Approver |
-| ROA-001 | **CONTROLLED READ-ONLY OBSERVATION AUTHORISATION** | Publication Planning read-only observation | **AUTHORISE WITH CONSTRAINTS** — 2026-08-01 | Training Implementation Owner |
+| ROA-001 | **CONTROLLED READ-ONLY OBSERVATION AUTHORISATION** | Publication Planning read-only observation | **AUTHORISE WITH CONSTRAINTS** — 2026-08-01; **EXERCISED ONCE — EXPIRED** | Training Implementation Owner |
 | TA-01 | TRAINING ASSUMPTION | Post-appointment context | Adopted | Not established — TBD |
 | TA-02 | TRAINING ASSUMPTION | Simulated role participation | Adopted | Not established — TBD |
 | TA-03 | TRAINING ASSUMPTION | Training delivery organisation | Adopted | Not established — TBD |
@@ -728,7 +728,7 @@ has **not** been performed. No implementation assignment is created.
 | Scope | `PPQ-001` to `PPQ-007`; **one** Claude Desktop session; read-only; Harrismith Fire Station only; session account visibility only |
 | Expiry | On that session producing its completion report, or on withdrawal through a later controlled increment |
 | Decision date | **2026-08-01** |
-| Status | Recorded — **not yet exercised**; no observation has been performed |
+| Status | **EXERCISED ONCE — EXPIRED** (2026-08-01). The one authorised observation was performed as Increment 8D; the authorisation expired on its completion report. **Not renewable; no repeat observation authorised.** No mutation reported |
 
 **Explicit non-effects.** ROA-001 does **not** authorise publication, upload,
 issue, delivery, receipt, acceptance or any external information exchange; does
@@ -743,6 +743,11 @@ produces is observational evidence only (BEP 12.3).
 **Decision record.** `docs/Publication-Planning-Read-Only-Observation-Authorisation.md`.
 **This entry is a reference, not a duplicate** — the full decision is not
 restated here (BEP 12.13, 13.1).
+
+**Observation record.** `docs/Increment-8D-Publication-Planning-Read-Only-Observation-Record.md`
+— **EC-3 observational evidence only.** The observation **resolved no PM matter,
+assigned no authority and selected no publication arrangement**, and the
+non-effects above are unchanged by it.
 
 ---
 
@@ -784,6 +789,7 @@ status, the replacement decision, the effective point, and the reason or context
 | 2026-08-01 | GD-001 recorded — Gate C PASS for candidate snapshot cc146a5f. AG-001 verification completed through Increment 7H. Baseline 0.1 remains unapproved; publication hold active. | 7I |
 | 2026-08-01 | AD-001 recorded — Training Baseline 0.1 APPROVED WITH CONDITIONS for the governance basis assessed at cc146a5f. Register status advanced to APPROVED WITH CONDITIONS. GCR-005, GCR-006 and UD-001 remain open; publication/exchange and recipient acceptance authority remain unresolved; project standards remain Not established; publication remains NOT AUTHORISED with the hold active. | 7J |
 | 2026-08-01 | ROA-001 recorded by reference — one bounded read-only Publication Planning observation AUTHORISED WITH CONSTRAINTS, covering PPQ-001 to PPQ-007 in a single session, expiring on that session's completion report. Not yet exercised. No authority assigned; GCR-005, GCR-006 and UD-001 remain open; publication remains NOT AUTHORISED with the hold active. | 8C-A |
+| 2026-08-01 | ROA-001 status advanced to EXERCISED ONCE — EXPIRED. The authorised observation was performed as Increment 8D and recorded as EC-3 evidence (PPER-004 to PPER-009, all assessed and insufficient); no mutation reported. PM-1 to PM-7 remain UNRESOLVED and no candidate arrangement is prepared. No authority assigned; GCR-005, GCR-006 and UD-001 remain open; publication remains NOT AUTHORISED with the hold active. | 8E |
 
 **Note on histories.** This change log records *decision and register* history.
 Git commit history records *source* history. They are complementary and not
