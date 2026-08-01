@@ -171,6 +171,7 @@ repository.
 | Implementation Increment 7J | Complete — **Training Baseline 0.1 APPROVED WITH CONDITIONS** (**AD-001**) |
 | Implementation Increment 7J-A | Complete — dated subsequent-status references added to **GD-001** recording the later **AD-001** approval; historical Gate C record preserved; no governance changed |
 | Implementation Increment 8A | Complete — Publication Planning control framework established; **no publication arrangement selected, no authority assigned** |
+| Implementation Increment 8A-A | Complete — Increment 7J-A restored to this table; roadmap traceability only, **no historical decision changed, no governance changed, no Publication Planning work performed** |
 | Implementation Increment 8B | Complete — Publication Planning evidence and observation control register established; **no evidence assessed, no question drafted, no observation authorised** |
 
 All 13 main BEP sections now contain substantive draft content.

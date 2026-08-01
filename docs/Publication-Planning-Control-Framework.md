@@ -270,6 +270,83 @@ a screenshot, a log entry or an observed system state is an input to a decision
 **This applies in both directions.** Absence of evidence in any class is not
 evidence that the underlying thing does not exist.
 
+### 5.2 EC-9 — Authority or appointment evidence
+
+> **Controlled extension — added 2026-08-01 by Increment 8B-A.** **EC-9 was not
+> part of the original Increment 8A text.** The class table in §5 above recorded
+> **EC-1 to EC-8** and is retained unchanged: no class is rewritten, renumbered
+> or withdrawn. EC-9 is **added to** that set, having been introduced by the
+> Increment 8B register and aligned back into this framework here.
+
+**Why it was separated.** §5 folded authority into **EC-2**. **PM-2 —
+publication owner — turns entirely on authority**, and §4.1 lists eight
+observable things that are **not** authority. Tracking authority evidence as its
+own class keeps that distinction visible rather than implicit.
+
+| Ref | Evidence class | What it can establish | What it cannot establish |
+|---|---|---|---|
+| **EC-9** | **Authority or appointment evidence** — see definition below | **That a function exists, what its limits are, and who may exercise it** | That the holder exercised it correctly; that any **other** authority follows from it |
+
+**Definition.** EC-9 is evidence contained in, or supported by, a **separately
+controlled** record of one of the following kinds:
+
+- an appointment record;
+- an authority decision;
+- a delegation;
+- an approved governance instrument;
+- or an equivalent formal record establishing a **functional authority and its
+  limits**.
+
+#### 5.2.1 What EC-9 is not
+
+**EC-9 is not live-system observational evidence.** It is not **EC-3**, and
+**EC-3 can never be reclassified as EC-9**.
+
+**EC-9 cannot be inferred from** any of the following, individually or in
+combination:
+
+| Not EC-9 | |
+|---|---|
+| Technical permissions | Administrative access |
+| Project membership | Team membership |
+| Folder ownership | Upload activity |
+| Previous publication activity | Previous Transmittal activity |
+
+**Permission is not authority.** Being able to perform an action in the software
+says nothing about who was authorised to decide it (§4.1).
+
+#### 5.2.2 Defining a class assigns nothing
+
+> **EC-9 cannot itself assign authority merely by being defined as an evidence
+> class.**
+
+**Evidence of authority is not the creation or approval of authority.** A class
+that can hold such evidence is not a source of it, and naming the class creates
+no record to put in it.
+
+Accordingly, and unchanged by this extension:
+
+| Matter | Status |
+|---|---|
+| Project publication / exchange authority | **UNRESOLVED** |
+| Recipient acceptance authority | **UNRESOLVED** |
+| Functional holder appointed by this increment | **None** |
+| EC-9 evidence currently recorded | **None** |
+
+**No functional holder is appointed, nominated or identified by Increment 8B-A.**
+
+#### 5.2.3 Where EC-9 evidence is recorded
+
+EC-9 evidence entries are recorded in the controlled register established by
+Increment 8B —
+[`docs/Publication-Planning-Evidence-and-Observation-Control-Register.md`](Publication-Planning-Evidence-and-Observation-Control-Register.md)
+§8 and §9 — under the `PPER-` schema, and nowhere else.
+
+**A decision establishing an authority is recorded in
+`supporting/governance-decision-register.md`** through the approved decision
+route. The register then holds a reference to it, never a copy (Increment 8B
+§2.2).
+
 ---
 
 ## 6. Future Claude Desktop observation boundary

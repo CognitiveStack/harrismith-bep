@@ -386,8 +386,15 @@ an additive extension** made by this register; it alters no existing class.
 entirely on authority, and Increment 8A §4.1 lists eight observable things that
 are **not** authority. Tracking authority evidence as its own class keeps that
 distinction visible in the register rather than implicit. **This is an extension
-of the 8A set, not a revision of it**; reading it back into the framework would
-require a later controlled increment.
+of the 8A set, not a revision of it.**
+
+**Framework alignment — completed 2026-08-01 by Increment 8B-A.** EC-9 has been
+aligned back into the controlling framework as a clearly dated post-8A
+controlled extension —
+[`docs/Publication-Planning-Control-Framework.md`](Publication-Planning-Control-Framework.md)
+§5.2. **EC-1 to EC-8 were retained unchanged there**, and the framework records
+that EC-9 was not part of the original Increment 8A text. **This is no longer
+outstanding work.**
 
 ### 8.2 Non-substitution rules
 
