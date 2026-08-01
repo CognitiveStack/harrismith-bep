@@ -138,7 +138,9 @@ Git                     →  controlled authoring and history for BEP source
 - The BEP and all six supporting resources are **FOR REVIEW** as the Training
   Baseline 0.1 Candidate. Each declares its own status.
 - **BEP Training Baseline 0.1 is not approved.**
-- **Gate C has not passed.**
+- **Gate C passed through GD-001 on 2026-08-01.** Training Baseline 0.1 remains
+  **FOR REVIEW — NOT APPROVED**: the approval decision has not yet occurred, and
+  publication remains on hold.
 - **Live-project validation has not been performed.**
 
 Several important things are **deliberately unresolved** and are recorded as
