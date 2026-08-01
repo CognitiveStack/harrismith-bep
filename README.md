@@ -180,6 +180,7 @@ repository.
 | Implementation Increment 8E | Complete — observation recorded and evidence assessed (**PPER-004**–**PPER-009**, EC-3, all insufficient); final PPQ statuses recorded; **all PM matters remain UNRESOLVED, no publication arrangement selected, no authority assigned** |
 | Implementation Increment 8F | Complete — **Publication Arrangement Candidate 0.1 (PAC-001)** prepared for PM-1 to PM-7; **PROPOSED GOVERNANCE — NOT APPROVED**; **no arrangement approved, no authority assigned, no publication authorised**. Next stage: **Increment 8G** candidate review |
 | Implementation Increment 8F-A | Complete — PAC-001's **PM-3 format position completed**: seven **PDF/A-2b** renditions, one **UTF-8 JSON** manifest and **SHA-256** integrity records proposed; **candidate remains NOT APPROVED, no authority assigned, no publication authorised**. **Increment 8G** remains the next stage |
+| Implementation Increment 8G | Complete — **Publication Arrangement Readiness Assessment (PRA-001)**; outcome **NOT READY FOR APPROVAL**, sole blocker **PRA-B01** — PM-1 depends on the unresolved **OF-001** CDE-structure decision. **PAC-001 remains prepared and NOT APPROVED, and is not rejected; no authority assigned, no publication authorised, PE-2 not reached.** Next controlled stage: **resolve the OF-001 dependency** |
 
 All 13 main BEP sections now contain substantive draft content.
 
@@ -238,8 +239,13 @@ and is recorded in
 authority was assigned.** A candidate arrangement —
 [`docs/Publication-Arrangement-Candidate-0.1.md`](docs/Publication-Arrangement-Candidate-0.1.md)
 (**PAC-001**) — is **prepared and NOT APPROVED**; it approves nothing, assigns no
-authority and authorises no publication, and awaits review at **Increment 8G**.
-**Publication remains NOT AUTHORISED and the publication hold remains active.**
+authority and authorises no publication. It was assessed at Increment 8G through
+[`docs/Publication-Arrangement-Readiness-Assessment.md`](docs/Publication-Arrangement-Readiness-Assessment.md)
+(**PRA-001**), outcome **NOT READY FOR APPROVAL**: the candidate is **not
+rejected**, but **PRA-B01** — PM-1's dependency on the unresolved **OF-001**
+CDE-structure decision — must be addressed before an arrangement-approval
+decision can be taken. **Publication remains NOT AUTHORISED and the publication
+hold remains active.**
 
 Architecture Baseline v1 is **frozen**. The document architecture recorded in
 section 3 is not to be redesigned during implementation increments. Proposed

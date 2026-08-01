@@ -33,6 +33,17 @@
 > derived from EC-3 observational evidence, and no observation supports or
 > supplies it.
 
+> **Subsequent status — 2026-08-01, Increment 8G.** A readiness assessment,
+> **PRA-001**, was completed against this candidate. **Outcome: NOT READY FOR
+> APPROVAL.** The reason is **PRA-B01** — PM-1's publication-location position
+> depends on **OF-001**, which records the intended CDE structure as undefined.
+> **PAC-001 remains prepared and NOT APPROVED. It is not rejected**, **no
+> candidate position is amended by the assessment**, and **no approval or
+> authority follows from it**. **PE-2 remains not reached.** The candidate text
+> below — including the Increment 8F-A refinement — is **unchanged**.
+> Assessment:
+> [`docs/Publication-Arrangement-Readiness-Assessment.md`](Publication-Arrangement-Readiness-Assessment.md).
+
 ---
 
 ## 0. How to read this candidate
