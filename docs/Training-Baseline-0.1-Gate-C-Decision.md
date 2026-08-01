@@ -13,6 +13,15 @@
 The candidate remains **FOR REVIEW — NOT APPROVED**, and the **publication hold
 remains active**.
 
+> **Subsequent status — 2026-08-01.** The statement above records the candidate
+> status **at the time of GD-001**. Training Baseline 0.1 was **subsequently**
+> approved **with conditions** through **AD-001**, dated 2026-08-01, and its
+> current status is **APPROVED WITH CONDITIONS**. **Publication remains NOT
+> AUTHORISED and the publication hold remains active.** AD-001 did **not** alter
+> this Gate C decision, its reasoning, its outcome or the Gate-assessed
+> candidate snapshot. See
+> [`docs/Training-Baseline-0.1-Approval-Decision.md`](Training-Baseline-0.1-Approval-Decision.md).
+
 ---
 
 ## 1. Decision identification
@@ -185,6 +194,25 @@ explicit decision (BEP §13.5; AG-001 §8).
 
 **Gate C PASS does not itself change that status.** The candidate becomes an
 Approved Training Baseline only through a separate approval decision.
+
+> **Subsequent status — 2026-08-01.** The status recorded above is the status
+> **as at GD-001**, and it is retained as the historical record of this gate
+> decision. The separate approval decision anticipated here was **subsequently**
+> taken as **AD-001**, dated 2026-08-01, which approved Training Baseline 0.1
+> **with conditions**. The current status is **APPROVED WITH CONDITIONS**, and
+> **publication remains NOT AUTHORISED with the publication hold active**.
+>
+> AD-001 approved the governance basis assessed here — snapshot
+> `cc146a5f84b1ce20d2dfc73d878a77c58959c559`, which AD-001 did **not** change —
+> and left GD-001, its criteria and its reasoning untouched. **Gate C did not
+> approve the baseline**; it authorised progression to the decision that did.
+>
+> AD-001 resolved none of the matters carried forward in sections 6 and 7 above:
+> **GCR-005** and **GCR-006** remain open, **UD-001** remains unresolved,
+> project publication / exchange authority and recipient acceptance authority
+> remain unresolved, the four project standards remain **Not established**, and
+> **no complete governed coordination cycle has been demonstrated**. See
+> [`docs/Training-Baseline-0.1-Approval-Decision.md`](Training-Baseline-0.1-Approval-Decision.md).
 
 ## 9. Next decision
 
