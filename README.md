@@ -157,6 +157,9 @@ repository.
 | Implementation Increment 7A (first attempt) | Halted at read-only pre-flight — further stale statements found; no candidate created |
 | Implementation Increment 6C | Complete — pre-candidate stale-language corrections applied |
 | Implementation Increment 7A (re-attempt) | Complete — **Training Baseline 0.1 Candidate** prepared for review |
+| Implementation Increment 7B | Complete — candidate review; result **PASS WITH FINDINGS**; ready for live-project validation |
+| Implementation Increment 7C | Complete — live-project validation through read-only connector and manual UI evidence; **no candidate contradiction found**; observed-fact update required |
+| Implementation Increment 7D | Complete — validated observed facts incorporated into the candidate record |
 
 All 13 main BEP sections now contain substantive draft content.
 
@@ -179,8 +182,10 @@ The candidate status is **FOR REVIEW**. That is a review designation, not an
 approval:
 
 - **the Training Baseline 0.1 Candidate is NOT approved;**
-- **candidate review has not yet been carried out;**
-- **live-project validation has not been performed;**
+- **candidate review and live-project validation are complete; live validation
+  found no candidate contradiction, and its observed facts are incorporated —
+  see [`docs/Increment-7C-Live-Validation-Record.md`](docs/Increment-7C-Live-Validation-Record.md);**
+- **post-update candidate review is the next stage;**
 - **Gate C has not passed;**
 - **nothing has been published as an approved BEP baseline;**
 - **the project standards remain Not established and are outside the candidate.**

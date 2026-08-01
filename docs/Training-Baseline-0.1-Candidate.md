@@ -19,16 +19,21 @@ passes no gate, and changes no authority.
 | | |
 |---|---|
 | Validated pre-candidate source commit | `9265a12d540a269df6e31bfb8ea035a607560622` |
-| Candidate snapshot commit | The Git commit created by Increment 7A, which introduces this manifest and the candidate status transitions |
+| Initial candidate snapshot commit | `98fa190df98f46880fad816445c2c3326090a83f` |
+| Current candidate snapshot | The Git commit created by Increment 7D, which introduces the observed-fact updates |
 
 The validated source commit is the state that passed cross-document validation
 (Increment 6A), the audit corrective pass (6B) and the pre-candidate corrective
 pass (6C), and that passed the read-only freeze pre-flight at the start of this
 increment.
 
-The candidate snapshot is the commit that carries this manifest. Its hash is
-created by Git and is therefore not recorded in advance here; it is identifiable
-as the commit titled *"docs: prepare Training Baseline 0.1 candidate"*.
+The initial candidate snapshot is the Increment 7A commit that first carried this
+manifest, and it remains in Git history.
+
+The **current** candidate snapshot is the Increment 7D commit that incorporates
+the live-validation observed facts. Its hash is created by Git and is therefore
+not recorded in advance here; it is identifiable as the commit titled
+*"docs: incorporate Increment 7C validation evidence"*.
 
 ## 3. Candidate scope
 
@@ -99,6 +104,28 @@ companion documents acquire no governing status.
 
 Full audit detail is not reproduced here.
 
+### 5.1 Live validation
+
+**Increment 7C** completed live-project validation through read-only connector
+observation and manual UI evidence.
+
+| | |
+|---|---|
+| Validation result | **CANDIDATE OBSERVED-FACT UPDATE REQUIRED BEFORE GATE C** |
+| Candidate governance | **Not contradicted** by any live evidence |
+| Observed-fact refresh | Required, and incorporated through **Increment 7D** |
+| Gate C | **Not assessed** |
+| Candidate status | **Unchanged — FOR REVIEW, NOT APPROVED** |
+
+Evidence record: [`docs/Increment-7C-Live-Validation-Record.md`](Increment-7C-Live-Validation-Record.md).
+
+Observed facts refreshed or added in the Governance & Decision Register:
+OF-001 to OF-005 reconfirmed; UD-001 evidence updated and **left unresolved**;
+OF-006, OF-007 and OF-008 recorded as OBSERVED FACT.
+
+**No governance was resolved, no authority assigned and no platform
+configuration changed** by the validation or by its incorporation.
+
 ## 6. Known unresolved matters
 
 Unresolved governance is recorded in
@@ -136,16 +163,21 @@ Review should determine whether:
 ## 8. Next stage
 
 ```
-Candidate
-  → candidate review
-  → live-project validation
+Candidate                                    ✓ prepared      (7A)
+  → candidate review                         ✓ completed     (7B)
+  → live-project validation                  ✓ completed     (7C)
+  → observed-fact incorporation              ✓ completed     (7D)
+  → post-update candidate review             ← next
+  → Gate C readiness assessment
   → findings / governance decisions
   → corrections if required
-  → Gate C assessment
   → possible Training Baseline 0.1 approval
 ```
 
-Each step is a separate decision. Reaching one does not imply the next.
+**Next stage: post-update candidate review, then Gate C readiness assessment.**
+
+Each step is a separate decision. Reaching one does not imply the next. **Gate C
+has not passed and the candidate is not approved.**
 
 ## 9. Publication boundary
 

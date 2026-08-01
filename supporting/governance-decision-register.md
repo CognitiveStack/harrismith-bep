@@ -81,6 +81,9 @@ implementation, so nothing can currently be in breach of it (BEP 12.2, 12.6).
 | OF-003 | OBSERVED FACT | Common Files standards areas observed empty | Recorded — action required | Not established — TBD |
 | OF-004 | OBSERVED FACT | Design Collaboration teams observed | Recorded | Not established — TBD |
 | OF-005 | OBSERVED FACT | Coordination Space not observed configured | Recorded — action required | Not established — TBD |
+| OF-006 | OBSERVED FACT | Published architectural drawing information and Transmittal | Recorded | Not established — TBD |
+| OF-007 | OBSERVED FACT | Review and Issue activity | Recorded | Not established — TBD |
+| OF-008 | OBSERVED FACT | Model Coordination provisioning | Recorded | Not established — TBD |
 | UD-001 | OBSERVED FACT + UNRESOLVED DECISION | Design Collaboration MEP / Structural team-space mapping | **Unresolved** | Not established — TBD |
 
 No PROPOSED GOVERNANCE, APPROVED GOVERNANCE, APPROVED CHANGE, DEVIATION,
@@ -166,9 +169,10 @@ Recorded because each materially supports a future decision, implementation or
 verification action. Observations that require no governance action are held in
 the BEP rather than duplicated here.
 
-All entries below describe the state observed at Discovery Gate A, at the level
-inspected, at that time. **Observed state does not prove correctness** (BEP
-12.3).
+Entries OF-001 to OF-005 describe the state observed at Discovery Gate A and
+reconfirmed during Increment 7C. Entries OF-006 to OF-008 record facts first
+observed during Increment 7C. All describe the state at the level inspected, at
+that time. **Observed state does not prove correctness** (BEP 12.3).
 
 ### OF-001 — CDE root areas at discovery
 
@@ -183,6 +187,9 @@ Shared and Published areas (BEP 6.11).
 
 **Governance consequence.** This is the as-found baseline against which an
 intended CDE structure will be decided and, after any approved change, verified.
+
+**7C validation (Increment 7C).** Root CDE topology reconfirmed — Common Files,
+WIP, Shared and Published. No `04 Archive` root observed. Evidence: `docs/Increment-7C-Live-Validation-Record.md`.
 
 **Intended state.** Not defined. Any intended-state change is to be decided
 through the governance route. The CDE Workflow & State Strategy records the
@@ -213,6 +220,11 @@ of observation is not observation of absence.** Other disciplines must **not** b
 described as absent from the project, uncommitted or inactive on the basis of
 this observation.
 
+**7C validation (Increment 7C).** Reconfirmed: Architecture remains the only
+populated direct production stream **at the inspected level**. The
+absence-of-observation rule above applies unchanged to this reconfirmation.
+Evidence: `docs/Increment-7C-Live-Validation-Record.md`.
+
 **Intended state.** Not applicable — this entry records an observation and a
 standing caution, not a target.
 
@@ -237,6 +249,9 @@ discovery (BEP 2.5, 11.8).
 standard, coordinate standard, titleblock set or template set to reference. This
 constrains BEP Section 11 and blocks parts of the delivery and coordination
 workflow that depend on agreed conventions.
+
+**7C validation (Increment 7C).** The six non-BEP Common Files governance and
+standards areas were re-observed **empty**. Evidence: `docs/Increment-7C-Live-Validation-Record.md`.
 
 **Intended state.** Controlled project standards developed and approved through
 governance, held in `standards/`.
@@ -266,6 +281,11 @@ Architecture, MEP Consultant and Structural (BEP 4.5).
 the context for UD-001. It is also the baseline against which any future intended
 team mapping would be decided and verified.
 
+**7C validation (Increment 7C).** Three Design Collaboration teams reconfirmed —
+Architecture, MEP Consultant and Structural — each with one visible member.
+Included folders: All. **No Contractors team visible.** Member identities are
+not recorded. Evidence: `docs/Increment-7C-Live-Validation-Record.md`.
+
 **Intended state.** Not defined. See UD-001.
 
 **Decision required.** See UD-001. Whether platform teams should map one-to-one
@@ -293,6 +313,15 @@ with limited content (BEP 4.5, 8.4).
 8 is not established. A decision on the intended coordination environment is
 needed before the coordination cycle can be operated as governed.
 
+**7C validation (Increment 7C).** The **Design Collaboration Coordination
+Space** was reconfirmed as **not configured**.
+
+Separately, and as a different Autodesk service, a **Model Coordination model
+set** was observed to exist with **zero coordinated versions** — see OF-008. The
+two services are not collapsed: provisioning one does not configure the other,
+and neither demonstrates that a coordination process has been executed.
+Evidence: `docs/Increment-7C-Live-Validation-Record.md`.
+
 **Intended state.** Not decided or approved. The intended coordination
 configuration is to be determined through the governance route. The Coordination
 & Review Strategy records the matter as open; it does not itself authorise a
@@ -305,6 +334,112 @@ configuration.
 
 **Note.** Presence of a capability is not maturity, and existing configuration is
 not correctness (BEP 2.4).
+
+### OF-006 — Published architectural drawing information and Transmittal
+
+| Field | Value |
+|---|---|
+| Classification | OBSERVED FACT |
+| Status | Recorded |
+| Decision owner | Not established — TBD |
+
+**Evidence.** Observed during Increment 7C:
+
+- one architectural A101/A102 drawing-set PDF, version 1, in
+  `03. Published / Drawings - PDF`;
+- one Transmittal containing that file;
+- the Transmittal / item **in review**;
+- **no view or download activity** recorded — 0 of 1 recipients viewed, 0 of 1
+  downloaded;
+- **no receipt or acceptance evidence.**
+
+Participants are recorded functionally: an **internal sender** and an **external
+recipient**. No identities are recorded.
+
+**Interpretation.** Platform publication and delivery **activity** was observed.
+Governed publication authority and governed acceptance authority **remain
+unresolved** (BEP 9.7, 9.8).
+
+**Published ≠ Delivered ≠ Received ≠ Accepted.** A Transmittal evidences that a
+delivery event occurred. It does not establish that anyone was authorised to
+publish, that the recipient received it in a governed sense, or that it was
+accepted. The ability to create a Transmittal is a platform permission, not
+authority.
+
+**Intended state.** Not defined. A governed publication and acceptance
+arrangement is to be decided through the governance route.
+
+**Decision required.** Publication / exchange authority and recipient acceptance
+authority — both already recorded as unresolved.
+
+**Implementation / verification.** None.
+
+**Related.** BEP 6.7, 9.7, 9.8, 10.10, 10.11. Evidence: `docs/Increment-7C-Live-Validation-Record.md`.
+
+### OF-007 — Review and Issue activity
+
+| Field | Value |
+|---|---|
+| Classification | OBSERVED FACT |
+| Status | Recorded |
+| Decision owner | Not established — TBD |
+
+**Evidence.** Observed during Increment 7C:
+
+- **two** open Client Review instances;
+- **one** open Coordination-type Issue;
+- all relating to the architectural drawing context.
+
+**No completed review, authorisation, verification or closure was
+established.**
+
+**Interpretation.** Review and issue **activity** exists in the platform. This is
+not evidence that a governed review, authorisation or verification decision has
+been taken. An open item is an open item.
+
+**Intended state.** Not defined.
+
+**Decision required.** None arising solely from this observation. Review and
+authorisation routes remain as proposed in BEP Section 9.
+
+**Implementation / verification.** None.
+
+**Related.** BEP 8.7, 9.2, 9.6. Evidence: `docs/Increment-7C-Live-Validation-Record.md`.
+
+### OF-008 — Model Coordination provisioning
+
+| Field | Value |
+|---|---|
+| Classification | OBSERVED FACT |
+| Status | Recorded |
+| Decision owner | Not established — TBD |
+
+**Evidence.** Observed during Increment 7C:
+
+- **one** Model Coordination model set exists;
+- **seven** included folders;
+- rooted at the Model Coordination folder;
+- **zero** coordinated versions;
+- **no completed federation or coordination run demonstrated.**
+
+**Interpretation.** **Environment configured ≠ coordination process executed.**
+Provisioning a model set demonstrates that a capability is available, not that
+coordination has been performed or governed.
+
+**Distinct from OF-005.** The **Model Coordination** service (this entry) and the
+**Design Collaboration Coordination Space** (OF-005, still not configured) are
+different Autodesk services. They are not collapsed, and provisioning one does
+not configure the other.
+
+**Intended state.** Not defined. The intended coordination environment remains
+open — see OF-005.
+
+**Decision required.** See OF-005.
+
+**Implementation / verification.** None.
+
+**Related.** BEP 8.4, 8.5; Coordination & Review Strategy sections 6 and 7.
+Evidence: `docs/Increment-7C-Live-Validation-Record.md`.
 
 ---
 
@@ -331,6 +466,13 @@ observed:
 
 The second and third bindings constitute an observed cross-binding / mapping
 discrepancy.
+
+**7C validation (Increment 7C).** The cross-binding was **confirmed as current**
+through manual UI evidence: the Architecture team maps to Architecture-labelled
+WIP / Shared / Consumed paths, the MEP Consultant team to Structural-labelled
+paths, and the Structural team to MEP-labelled paths. Classification, decision
+status, decision owner, intended state and implementation status are all
+**unchanged**. Evidence: `docs/Increment-7C-Live-Validation-Record.md`.
 
 **Current state.** Observed cross-binding. Recorded exactly as found.
 
@@ -411,6 +553,7 @@ status, the replacement decision, the effective point, and the reason or context
 | Date | Change | Increment |
 |---|---|---|
 | 2026-07-31 | Register populated as a controlled draft. TA-01, TA-02, TA-03 transcribed from BEP 2.6. OF-001 to OF-005 recorded. UD-001 detail recorded from the observed condition. | 3A |
+| 2026-08-01 | Increment 7C validation evidence incorporated. OF-001 to OF-005 reconfirmed; UD-001 evidence updated and left unresolved; OF-006, OF-007 and OF-008 recorded as OBSERVED FACT. | 7D |
 
 **Note on histories.** This change log records *decision and register* history.
 Git commit history records *source* history. They are complementary and not
