@@ -169,6 +169,7 @@ repository.
 | Implementation Increment 7I | Complete — **Gate C PASSED** for candidate snapshot `cc146a5f…` (**GD-001**) |
 | Implementation Increment 7I-A / 7I-B | Complete — companion-document factual status corrections; no governance changed |
 | Implementation Increment 7J | Complete — **Training Baseline 0.1 APPROVED WITH CONDITIONS** (**AD-001**) |
+| Implementation Increment 8A | Complete — Publication Planning control framework established; **no publication arrangement selected, no authority assigned** |
 
 All 13 main BEP sections now contain substantive draft content.
 
@@ -212,6 +213,14 @@ approval and not an authorisation to publish:
   nothing has been published, issued, delivered or accepted;**
 - **UD-001 remains unresolved;**
 - **the project standards remain Not established and are outside the candidate.**
+
+**Phase 8 — Publication Planning is the current phase.** It defines the
+governance needed to address GCR-005 and to establish a controlled basis for a
+later publication-authorisation decision. The control framework for that work is
+[`docs/Publication-Planning-Control-Framework.md`](docs/Publication-Planning-Control-Framework.md).
+It carries **no authority**, selects no publication arrangement and assigns no
+authority. **Publication remains NOT AUTHORISED and the publication hold remains
+active.**
 
 Architecture Baseline v1 is **frozen**. The document architecture recorded in
 section 3 is not to be redesigned during implementation increments. Proposed
