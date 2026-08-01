@@ -163,6 +163,8 @@ repository.
 | Implementation Increment 7E | Complete — post-update candidate review; result **PASS** |
 | Implementation Increment 7F | Complete — Gate C readiness assessment; **conditional Gate C pass recommended**; approval function identified as the pre-approval condition |
 | Implementation Increment 7G | Complete — **Training Baseline Approver** function established as approved training governance (**AG-001**) |
+| Implementation Increment 7H | Complete — approval function verified; result **READY FOR GATE C DECISION** |
+| Implementation Increment 7I | Complete — **Gate C PASSED** for candidate snapshot `cc146a5f…` (**GD-001**) |
 
 All 13 main BEP sections now contain substantive draft content.
 
@@ -189,12 +191,16 @@ approval:
   found no candidate contradiction, and its observed facts are incorporated —
   see [`docs/Increment-7C-Live-Validation-Record.md`](docs/Increment-7C-Live-Validation-Record.md);**
 - **the Training Baseline Approver function is established as approved training
-  governance (AG-001) — this establishes who may decide, and approves nothing;**
-- **post-decision candidate review is the next stage;**
-- **Gate C has not passed;**
-- **the baseline approval decision has not occurred;**
+  governance (AG-001), implemented and verified;**
+- **Gate C is PASSED for the identified candidate snapshot (GD-001,
+  2026-08-01) — see
+  [`docs/Training-Baseline-0.1-Gate-C-Decision.md`](docs/Training-Baseline-0.1-Gate-C-Decision.md).
+  Gate C PASS authorises progression to an approval decision and nothing more;**
+- **the Training Baseline 0.1 approval decision is the next stage and has not
+  occurred;**
 - **publication remains on hold — nothing has been published as an approved BEP
   baseline;**
+- **UD-001 remains unresolved;**
 - **the project standards remain Not established and are outside the candidate.**
 
 Architecture Baseline v1 is **frozen**. The document architecture recorded in

@@ -73,7 +73,8 @@ implementation, so nothing can currently be in breach of it (BEP 12.2, 12.6).
 
 | ID | Type | Topic | Status | Decision owner |
 |---|---|---|---|---|
-| AG-001 | **APPROVED GOVERNANCE** | Training Baseline Approval Function | Approved — implemented, pending verification | Training Baseline Approver |
+| AG-001 | **APPROVED GOVERNANCE** | Training Baseline Approval Function | Approved — implemented and **verified** | Training Baseline Approver |
+| GD-001 | **CONTROLLED GATE DECISION** | Training Baseline 0.1 — Gate C Decision | **PASS** — 2026-08-01 | Training Baseline Approver |
 | TA-01 | TRAINING ASSUMPTION | Post-appointment context | Adopted | Not established — TBD |
 | TA-02 | TRAINING ASSUMPTION | Simulated role participation | Adopted | Not established — TBD |
 | TA-03 | TRAINING ASSUMPTION | Training delivery organisation | Adopted | Not established — TBD |
@@ -87,9 +88,15 @@ implementation, so nothing can currently be in breach of it (BEP 12.2, 12.6).
 | OF-008 | OBSERVED FACT | Model Coordination provisioning | Recorded | Not established — TBD |
 | UD-001 | OBSERVED FACT + UNRESOLVED DECISION | Design Collaboration MEP / Structural team-space mapping | **Unresolved** | Not established — TBD |
 
-One APPROVED GOVERNANCE entry exists — **AG-001**, which establishes the
-Training Baseline Approval Function. **It does not approve Training Baseline
-0.1**, which remains a candidate.
+Two governance entries exist beyond observations and assumptions:
+
+- **AG-001** — APPROVED GOVERNANCE, establishing the Training Baseline Approval
+  Function;
+- **GD-001** — a CONTROLLED GATE DECISION recording **Gate C — PASS**, taken
+  using that function.
+
+**Neither approves Training Baseline 0.1**, which remains a candidate. Gate C
+PASS authorises progression to a separate approval decision, and nothing more.
 
 No PROPOSED GOVERNANCE, APPROVED CHANGE, DEVIATION, NON-CONFORMANCE or
 SUPERSEDED DECISION entries exist.
@@ -535,7 +542,7 @@ for example a proposed change to an already-approved rule.
 | Topic | Training Baseline Approval Function |
 | Source | Orchestrator decision, Increment 7G |
 | Training basis | **TA-02** — simulated role participation |
-| Status | **Approved governance — implemented, pending verification** |
+| Status | **Approved governance — implemented and verified** |
 | Decision owner | Training Baseline Approver |
 
 **Decision.** Establish the **Training Baseline Approver** function, exercised by
@@ -561,11 +568,64 @@ acceptance authority both **unresolved**.
 **Implementation.** Function documented in `docs/Training-Baseline-Approval-Function-Decision.md` and cross-referenced
 from the BEP and the candidate manifest.
 
-**Verification.** Increment 7H post-decision review.
+**Verification.** Completed through Increment 7H post-decision review:
+**GCR-001 SATISFIED**, **GCR-011 READY FOR IMPLEMENTATION**, result
+**READY FOR GATE C DECISION**, no authority bleed identified. Verifying the
+function does **not** approve the candidate.
 
 **Note.** This entry approves a *governance function*. **BEP Training Baseline
-0.1 remains not approved** (BEP 1.2, 9.10, 12.11), Gate C has not passed, and
-the publication hold remains in force.
+0.1 remains not approved** (BEP 1.2, 9.10, 12.11), and the publication hold
+remains in force. Gate C was subsequently passed through **GD-001**, which
+likewise approves no baseline.
+
+## 6A. Gate decisions
+
+### GD-001 — Training Baseline 0.1 — Gate C Decision
+
+| Field | Value |
+|---|---|
+| Classification | **CONTROLLED GATE DECISION** |
+| Topic | Training Baseline 0.1 — Gate C Decision |
+| Decision | **PASS** |
+| Decision function | **Training Baseline Approver** |
+| Functional holder | **Training Implementation Owner** |
+| Authority basis | **AG-001** |
+| Candidate snapshot | `cc146a5f84b1ce20d2dfc73d878a77c58959c559` |
+| Decision date | **2026-08-01** |
+| Status | Recorded |
+
+**Decision effect.** The candidate may proceed to a **separate** Training
+Baseline approval decision.
+
+**Explicit non-effects.** GD-001 does **not**:
+
+- approve Training Baseline 0.1 — the candidate remains **FOR REVIEW — NOT
+  APPROVED**;
+- authorise publication — the **publication hold remains active**;
+- resolve project publication / exchange authority — **unresolved**;
+- resolve recipient acceptance authority — **unresolved**;
+- resolve **UD-001** — it remains an OBSERVED discrepancy and UNRESOLVED
+  DECISION;
+- establish any project standard — Naming, Coordinates, Titleblocks and
+  Templates / Authoring Resources all remain **Not established**.
+
+**Conditions carried forward.**
+
+| Condition | Class |
+|---|---|
+| **GCR-005** — publication parameters undefined | **PRE-PUBLICATION** |
+| **GCR-006** — one governed coordination cycle to be exercised after approval | **IMPLEMENTATION** |
+| Publication hold | **Remains active** |
+
+**Classification note.** GD-001 is a **gate decision**, not approved governance,
+not an approved change, not professional approval, not project publication
+approval and not recipient acceptance.
+
+**Relationship.** **AG-001** establishes *who may decide*. **GD-001** is a
+decision taken *using* that function. The **Training Baseline approval decision
+has not been made.**
+
+**Decision record.** `docs/Training-Baseline-0.1-Gate-C-Decision.md`.
 
 ## 7. Deviations
 
@@ -597,6 +657,7 @@ status, the replacement decision, the effective point, and the reason or context
 | 2026-07-31 | Register populated as a controlled draft. TA-01, TA-02, TA-03 transcribed from BEP 2.6. OF-001 to OF-005 recorded. UD-001 detail recorded from the observed condition. | 3A |
 | 2026-08-01 | Increment 7C validation evidence incorporated. OF-001 to OF-005 reconfirmed; UD-001 evidence updated and left unresolved; OF-006, OF-007 and OF-008 recorded as OBSERVED FACT. | 7D |
 | 2026-08-01 | AG-001 recorded — Training Baseline Approval Function established as APPROVED GOVERNANCE. First approved-governance entry. Baseline 0.1 remains unapproved. | 7G |
+| 2026-08-01 | GD-001 recorded — Gate C PASS for candidate snapshot cc146a5f. AG-001 verification completed through Increment 7H. Baseline 0.1 remains unapproved; publication hold active. | 7I |
 
 **Note on histories.** This change log records *decision and register* history.
 Git commit history records *source* history. They are complementary and not

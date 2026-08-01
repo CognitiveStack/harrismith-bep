@@ -8,8 +8,9 @@
 | Authority of this record | Records the approved training-governance function |
 
 **This record does not approve Training Baseline 0.1.** It establishes *who may
-make that decision*. The candidate remains **FOR REVIEW — NOT APPROVED**, Gate C
-has **not** passed, and publication remains on hold.
+make that decision*. The candidate remains **FOR REVIEW — NOT APPROVED** and
+publication remains on hold. Gate C was subsequently passed through **GD-001**
+using this function — see section 11.
 
 ---
 
@@ -161,6 +162,30 @@ approval-function decision   ✓ this record (7G)
 **Gate C is not passed by this record.** The next step is a post-decision
 candidate review, after which a Gate C decision may be recorded by the Training
 Baseline Approver.
+
+## 11. Verification
+
+**Verification completed through Increment 7H post-decision candidate review.**
+
+| Field | Result |
+|---|---|
+| Review | Increment 7H — post-decision candidate review |
+| Result | **READY FOR GATE C DECISION** |
+| **GCR-001** | **SATISFIED** |
+| **GCR-011** | **READY FOR IMPLEMENTATION** |
+| Authority bleed | **None identified** — the function was found nowhere presented as publication, acceptance, design or configuration authority |
+
+The status of this decision in the Governance & Decision Register is
+correspondingly **AG-001 — approved governance, implemented and verified**.
+
+**Verifying the function does not approve the candidate.** Training Baseline 0.1
+remains **not approved**, and this record's approved-governance status is
+unchanged by the verification.
+
+**Gate C decision.** The mechanism defined in section 10 was used to record
+**GD-001 — Gate C PASS** (2026-08-01) for candidate snapshot
+`cc146a5f84b1ce20d2dfc73d878a77c58959c559`. See
+[`docs/Training-Baseline-0.1-Gate-C-Decision.md`](Training-Baseline-0.1-Gate-C-Decision.md).
 
 ### Gate C decision record — required content
 

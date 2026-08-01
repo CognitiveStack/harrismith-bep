@@ -21,7 +21,8 @@ passes no gate, and changes no authority.
 | Validated pre-candidate source commit | `9265a12d540a269df6e31bfb8ea035a607560622` |
 | Initial candidate snapshot commit | `98fa190df98f46880fad816445c2c3326090a83f` |
 | Observed-fact update snapshot | The Git commit created by Increment 7D, titled *"docs: incorporate Increment 7C validation evidence"* |
-| Current candidate snapshot | The Git commit created by Increment 7G, titled *"docs: establish Training Baseline approval function"* |
+| Snapshot assessed at Gate C | `cc146a5f84b1ce20d2dfc73d878a77c58959c559` — the Increment 7G commit |
+| Current candidate snapshot | The Git commit created by Increment 7I, titled *"docs: record Training Baseline Gate C decision"* |
 
 The validated source commit is the state that passed cross-document validation
 (Increment 6A), the audit corrective pass (6B) and the pre-candidate corrective
@@ -140,13 +141,41 @@ governance — **AG-001**, Increment 7G.
 | Governance reference | **AG-001** |
 | Decision record | [`docs/Training-Baseline-Approval-Function-Decision.md`](Training-Baseline-Approval-Function-Decision.md) |
 
-**The approval decision has NOT occurred. Gate C has NOT passed. Publication
-remains on hold.**
+**The approval decision has NOT occurred. Publication remains on hold.** Gate C
+is passed — see section 5.3 — which authorises progression to that decision and
+nothing more.
 
 The function may approve, reject, defer or approve-with-conditions a defined
 candidate snapshot. It confers **no** project publication / exchange authority,
 **no** recipient acceptance authority and **no** professional design authority —
 all of which remain unresolved or outside scope.
+
+**AG-001 verification status:** implemented and **verified** through Increment
+7H.
+
+### 5.3 Gate C
+
+| | |
+|---|---|
+| Gate C | **PASSED** |
+| Decision date | **2026-08-01** |
+| Governance reference | **GD-001** |
+| Decision function | **Training Baseline Approver**, under AG-001 |
+| Snapshot assessed | `cc146a5f84b1ce20d2dfc73d878a77c58959c559` |
+| Decision record | [`docs/Training-Baseline-0.1-Gate-C-Decision.md`](Training-Baseline-0.1-Gate-C-Decision.md) |
+
+**Gate C PASS authorises progression to an approval decision only. Training
+Baseline 0.1 remains unapproved**, and this candidate's status is unchanged at
+**FOR REVIEW — NOT APPROVED**.
+
+**The publication hold remains active.** Gate C PASS does not lift it, does not
+establish a publication owner, does not define a publication location, and does
+not permit upload to Forma / ACC.
+
+Conditions carried forward: **GCR-005** (pre-publication — publication
+parameters undefined) and **GCR-006** (implementation — one governed
+coordination cycle to be exercised after approval). Acceptable baseline
+limitations, including **UD-001**, are carried forward unresolved.
 
 ## 6. Known unresolved matters
 
@@ -192,15 +221,16 @@ Candidate                                    ✓ prepared      (7A)
   → post-update candidate review             ✓ completed     (7E)
   → Gate C readiness assessment              ✓ completed     (7F)
   → approval-function decision               ✓ completed     (7G, AG-001)
-  → post-decision candidate review           ← next
-  → Gate C decision
-  → possible Training Baseline 0.1 approval decision
+  → post-decision candidate review           ✓ completed     (7H)
+  → Gate C decision                          ✓ PASS          (7I, GD-001)
+  → Training Baseline 0.1 approval decision  ← next
 ```
 
-**Next stage: post-decision candidate review, then the Gate C decision.**
+**Next stage: the Training Baseline 0.1 approval decision**, with outcomes
+APPROVE / APPROVE WITH CONDITIONS / DEFER / REJECT under AG-001.
 
 Each step is a separate decision. Reaching one does not imply the next. **Gate C
-has not passed and the candidate is not approved.**
+is passed; the candidate is not approved.**
 
 ## 9. Publication boundary
 
