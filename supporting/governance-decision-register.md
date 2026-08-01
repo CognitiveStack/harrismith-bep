@@ -81,10 +81,11 @@ where the approved baseline applies — but **none is asserted or recorded**
 | AG-001 | **APPROVED GOVERNANCE** | Training Baseline Approval Function | Approved — implemented and **verified** | Training Baseline Approver |
 | AG-002 | **APPROVED GOVERNANCE** | Training CDE Governance Approver Function | **FUNCTION ESTABLISHED — OF-001 DECISION NOT YET TAKEN** — 2026-08-01 | Training CDE Governance Approver |
 | CGD-001 | **APPROVED GOVERNANCE** | CDE Structure Governance Decision — intended root topology | **APPROVE WITH CONDITIONS** — 2026-08-01; **OF-001 RESOLVED; VERIFICATION PENDING** | Training CDE Governance Approver |
+| AG-003 | **APPROVED GOVERNANCE** | Training Publication Arrangement Approver Function | **FUNCTION ESTABLISHED — PAC-001 APPROVAL DECISION NOT YET TAKEN** — 2026-08-01 | Training Publication Arrangement Approver |
 | GD-001 | **CONTROLLED GATE DECISION** | Training Baseline 0.1 — Gate C Decision | **PASS** — 2026-08-01 | Training Baseline Approver |
 | AD-001 | **APPROVED GOVERNANCE** | Training Baseline 0.1 — Approval Decision | **APPROVED WITH CONDITIONS** — 2026-08-01 | Training Baseline Approver |
 | ROA-001 | **CONTROLLED READ-ONLY OBSERVATION AUTHORISATION** | Publication Planning read-only observation | **AUTHORISE WITH CONSTRAINTS** — 2026-08-01; **EXERCISED ONCE — EXPIRED** | Training Implementation Owner |
-| PAC-001 | **PROPOSED GOVERNANCE — NOT APPROVED** | Publication Arrangement Candidate 0.1 — PM-1 to PM-7 | **CANDIDATE ARRANGEMENT PREPARED — NOT APPROVED** — 2026-08-01 | Not established — TBD |
+| PAC-001 | **PROPOSED GOVERNANCE — NOT APPROVED** | Publication Arrangement Candidate 0.1 — PM-1 to PM-7 | **CANDIDATE ARRANGEMENT PREPARED — NOT APPROVED** — 2026-08-01 | Training Publication Arrangement Approver under AG-003 |
 | TA-01 | TRAINING ASSUMPTION | Post-appointment context | Adopted | Not established — TBD |
 | TA-02 | TRAINING ASSUMPTION | Simulated role participation | Adopted | Not established — TBD |
 | TA-03 | TRAINING ASSUMPTION | Training delivery organisation | Adopted | Not established — TBD |
@@ -98,7 +99,7 @@ where the approved baseline applies — but **none is asserted or recorded**
 | OF-008 | OBSERVED FACT | Model Coordination provisioning | Recorded | Not established — TBD |
 | UD-001 | OBSERVED FACT + UNRESOLVED DECISION | Design Collaboration MEP / Structural team-space mapping | **Unresolved** | Not established — TBD |
 
-Six governance entries exist beyond observations and assumptions:
+Seven governance entries exist beyond observations and assumptions:
 
 - **AG-001** — APPROVED GOVERNANCE, establishing the Training Baseline Approval
   Function;
@@ -117,6 +118,9 @@ Six governance entries exist beyond observations and assumptions:
   Decision**: the as-found four-area root topology is **adopted with conditions**
   as the intended training CDE governance. **It resolves OF-001 at the governance
   level; it implements nothing and approves no child structure** (section 6).
+- **AG-003** — APPROVED GOVERNANCE, establishing the **Training Publication
+  Arrangement Approver** function. **It establishes who may later decide PAC-001
+  at PE-2; it approves nothing** (section 6).
 
 **AG-001 establishes who may decide. GD-001 authorised progression to an
 approval decision and approved no baseline. AD-001 is that approval decision.**
@@ -602,7 +606,7 @@ for example a proposed change to an already-approved rule.
 | Topic | Candidate publication arrangement for Training Baseline 0.1 — PM-1 to PM-7 |
 | Status | **CANDIDATE ARRANGEMENT PREPARED — NOT APPROVED** |
 | Prepared | **2026-08-01**, Increment 8F |
-| Decision owner | Not established — TBD |
+| Decision owner | **Training Publication Arrangement Approver under AG-003** |
 
 **This is not a decision.** No governance-decision identifier is allocated, no
 authority is assigned, and **no publication is authorised**. The candidate
@@ -629,6 +633,15 @@ authorised**, and **PE-2 remains not reached**. PAC-001's classification and
 candidate status are **unchanged**. **PRA-001 is a readiness assessment, not a
 decision**, and carries **Authority: None**. Assessment record —
 `docs/Publication-Arrangement-Readiness-Assessment.md`.
+
+**Decision owner established — 2026-08-01, Increment 8G-C.** **AG-003**
+established the **Training Publication Arrangement Approver**, the function that
+may later take the **PE-2** arrangement-approval decision. **PAC-001 was not
+approved.** **Readiness must first be reassessed** — AG-003 §4 requires a fresh
+controlled assessment concluding READY FOR APPROVAL or READY FOR APPROVAL WITH
+CONDITIONS, and PRA-001 cannot serve as the current basis. **No PM position
+changed**, and **no publication or implementation authority was assigned**.
+Function decision — `docs/Training-Publication-Arrangement-Approver-Function-Decision.md`.
 
 **Candidate record.** `docs/Publication-Arrangement-Candidate-0.1.md`.
 **This entry is a reference, not a duplicate** — the candidate is not restated
@@ -820,6 +833,96 @@ future CDE decision belongs to it automatically.
 
 **Decision record.** `docs/CDE-Structure-Governance-Decision.md`. **This entry
 is a reference, not a duplicate** — the full decision is not restated here
+(BEP 12.13, 13.1).
+
+### AG-003 — Training Publication Arrangement Approver Function
+
+| Field | Value |
+|---|---|
+| Classification | **APPROVED GOVERNANCE** |
+| Topic | Training Publication Arrangement Approver Function |
+| Source | Orchestrator decision, Increment 8G-C |
+| Training basis | **TA-02** — simulated role participation |
+| Scope | **Training Baseline 0.1 publication-arrangement governance only** |
+| Status | **FUNCTION ESTABLISHED — PAC-001 APPROVAL DECISION NOT YET TAKEN** |
+| Decision owner | Training Publication Arrangement Approver |
+
+**Decision.** Establish the **Training Publication Arrangement Approver**
+function, exercised by the **Training Implementation Owner**, for the limited
+publication-arrangement governance scope. No personal holder is recorded.
+
+**Arising from.** **PAC-001**, whose register entry recorded *"Decision owner:
+Not established — TBD"*; **PRA-001**; **CGD-001**, which removed PRA-B01's
+stated basis; and the **Increment 8G-B-R exact review** — 32 checks PASS, zero
+failures. **No existing function covered PE-2**: AG-001 is limited to Training
+Baseline candidate approval, AG-002 to CDE-structure governance, CGD-001 confers
+no arrangement-approval authority, publication / exchange authority remains
+unresolved and concerns PE-3, and PAC-001 and PRA-001 carry Authority: None.
+
+**Authority source.** **The authority arises from AG-003 itself.** No
+independent authority of the Training Implementation Owner is assumed.
+
+**Authority conferred.** Receive a defined publication-arrangement candidate for
+Training Baseline 0.1; receive and review its controlled readiness assessment;
+confirm the exact candidate version or repository snapshot; **approve, reject,
+defer or approve with explicitly recorded conditions**; record which PM-1 to
+PM-7 positions are approved; record every condition to be satisfied before later
+PE events; and **authorise the PE-2 governance-status transition** from candidate
+arrangement to approved publication arrangement — **only through a later
+controlled approval-decision record**.
+
+**Readiness precondition.** **PAC-001 may not be approved unless a fresh
+controlled readiness assessment concludes `READY FOR APPROVAL` or `READY FOR
+APPROVAL WITH CONDITIONS`.** A historical assessment whose blocker has since
+changed is **not sufficient by itself**; **PRA-001 remains historically valid but
+cannot be the current approval basis**, and **Increment 8G-D must occur first**.
+
+**Authority NOT conferred.** Project publication / exchange authority;
+publication-event authorisation; recipient acceptance authority; upload or
+execution authority; CDE administration or implementation authority;
+CDE-structure governance under AG-002; Training Baseline approval under AG-001;
+professional or design approval; acceptance of project deliverables; folder
+creation, renaming, moving or deletion; membership or permission change;
+generation or assembly of the publication package; establishment of the naming,
+coordinate, titleblock or template standards; resolution of technical
+implementation prerequisites by assertion; closure of GCR-005 merely by
+establishing the function; approval of PAC-001 before the fresh readiness
+assessment; or reaching PE-3 or any later PE event. **Holding this function
+confers none of the other authorities.**
+
+**Relationship to PAC-001.** Establishes its **decision owner**. **PAC-001 is
+not approved**, remains **PROPOSED GOVERNANCE — NOT APPROVED** with **Authority:
+None**, and **no PM position changed**.
+
+**Relationship to PM-2.** **AG-003 establishes the arrangement approver, not the
+publication owner proposed by PM-2.** They are different functions: the approver
+decides the arrangement at PE-2; the proposed Candidate Publication Owner would
+own package identity and readiness. **PM-2 remains `GOVERNANCE DECISION
+REQUIRED`**, no holder is appointed, and AG-003 does not pre-empt whether the
+proposed owner function should exist.
+
+**Relationship to PE-2 and PE-3.** AG-003 establishes **who may take PE-2**;
+**PE-2 is not reached**. **PE-3 requires publication / exchange authority, which
+remains UNRESOLVED and is not established here.** **Approving an arrangement
+never authorises a publication event.**
+
+**Implementation.** Function documented in
+`docs/Training-Publication-Arrangement-Approver-Function-Decision.md`. **No
+technical act is authorised or performed.**
+
+**Verification.** **Not yet performed.** The function is established and not yet
+exercised.
+
+**Identifier-family note.** **AG-003 extends the `AG-` family as this training
+implementation's authority-establishment precedent**, following AG-001 and
+AG-002. **Use of the AG family for any later authority decision still requires a
+controlled scope and collision review** — no future decision belongs to it
+automatically.
+
+**Note.** This entry approves a *governance function*, not an arrangement. **No
+arrangement is approved**, **PE-2 is not reached**, **PAC-001 remains not
+approved and unamended**, and **the publication hold remains in force**. **This
+entry is a reference, not a duplicate** — the full decision is not restated here
 (BEP 12.13, 13.1).
 
 ## 6A. Gate decisions
@@ -1017,6 +1120,7 @@ status, the replacement decision, the effective point, and the reason or context
 | 2026-08-01 | AD-001 recorded — Training Baseline 0.1 APPROVED WITH CONDITIONS for the governance basis assessed at cc146a5f. Register status advanced to APPROVED WITH CONDITIONS. GCR-005, GCR-006 and UD-001 remain open; publication/exchange and recipient acceptance authority remain unresolved; project standards remain Not established; publication remains NOT AUTHORISED with the hold active. | 7J |
 | 2026-08-01 | ROA-001 recorded by reference — one bounded read-only Publication Planning observation AUTHORISED WITH CONSTRAINTS, covering PPQ-001 to PPQ-007 in a single session, expiring on that session's completion report. Not yet exercised. No authority assigned; GCR-005, GCR-006 and UD-001 remain open; publication remains NOT AUTHORISED with the hold active. | 8C-A |
 | 2026-08-01 | PAC-001 recorded by reference — Publication Arrangement Candidate 0.1 prepared for PM-1 to PM-7 as PROPOSED GOVERNANCE — NOT APPROVED. Not a decision; no governance-decision identifier allocated; no authority assigned; no publication authorised. PM matters remain unresolved; GCR-005 and GCR-006 remain open; publication remains NOT AUTHORISED with the hold active. | 8F |
+| 2026-08-01 | AG-003 recorded — Training Publication Arrangement Approver function established as APPROVED GOVERNANCE, arising from PAC-001, PRA-001, CGD-001, the Increment 8G-B-R exact review and PAC-001's unresolved decision-owner field. Establishes who may later take the PE-2 arrangement-approval decision; approves nothing. PAC-001's decision owner advanced from "Not established — TBD" to Training Publication Arrangement Approver under AG-003, while PAC-001 remains PROPOSED GOVERNANCE — NOT APPROVED and unamended. A fresh readiness assessment concluding READY FOR APPROVAL or READY FOR APPROVAL WITH CONDITIONS is a mandatory precondition; PRA-001 is not the current basis. PM-2 remains GOVERNANCE DECISION REQUIRED; no publication/exchange, acceptance or implementation authority conferred; PE-2 through PE-S not reached; GCR-005 and GCR-006 remain open; publication remains NOT AUTHORISED with the hold active. | 8G-C |
 | 2026-08-01 | CGD-001 recorded — CDE Structure Governance Decision, APPROVE WITH CONDITIONS, taken by the Training CDE Governance Approver under AG-002. The as-found four-area root topology (0. Common Files, 01. WIP, 02. Shared, 03. Published) is adopted as the intended training CDE governance, with the intended state mapping and conditions CGD-C01 to CGD-C08. OF-001 resolved at governance level; its historical "intended state not defined" record preserved. No retrospective effect; no child folder, discipline structure or team-space mapping approved; UD-001 remains unresolved; naming remains provisional; no Autodesk configuration change authorised and none directed at root level; verification pending. PAC-001 remains not approved and unamended, PRA-001's original outcome remains historically valid, PE-2 not reached, publication remains NOT AUTHORISED with the hold active. | 8G-B |
 | 2026-08-01 | AG-002 recorded — Training CDE Governance Approver function established as APPROVED GOVERNANCE, arising from OF-001, PRA-B01, PRA-001 and the Increment 8G-R authority-boundary review. Establishes who may decide OF-001; decides nothing. OF-001's decision owner advanced from "Not established — TBD" to Training CDE Governance Approver under AG-002, while its intended state remains "Not defined" and the matter remains unresolved. No structural outcome selected; no implementation, publication/exchange, acceptance or CDE administration authority conferred. PRA-B01 remains open, PAC-001 remains not approved and unamended, publication remains NOT AUTHORISED with the hold active. | 8G-A |
 | 2026-08-01 | PRA-001 recorded by reference — Publication Arrangement Readiness Assessment of PAC-001, outcome NOT READY FOR APPROVAL. Sole principal blocker PRA-B01: PM-1 depends on OF-001, whose intended CDE structure remains undefined. Five findings are approval conditions and six are implementation prerequisites; none independently prohibits later arrangement approval. Not a decision; no governance-decision identifier allocated; PAC-001 neither approved nor rejected and not amended; no authority assigned; no publication authorised; PE-2 not reached. OF-001, GCR-005 and GCR-006 remain open; publication remains NOT AUTHORISED with the hold active. | 8G |

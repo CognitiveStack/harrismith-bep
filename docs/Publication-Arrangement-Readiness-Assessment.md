@@ -42,6 +42,18 @@
 > CGD-001 remains pending** (CGD-C07). Decision:
 > [`docs/CDE-Structure-Governance-Decision.md`](CDE-Structure-Governance-Decision.md).
 
+> **Subsequent status — 2026-08-01, Increment 8G-C.** **AG-003 established the
+> Training Publication Arrangement Approver** — the function that may later take
+> the **PE-2** decision. **This assessment's original outcome remains
+> historically valid**, and every finding below is **unchanged**. **PRA-001 is
+> not the current readiness basis**, because **CGD-001 subsequently changed
+> PRA-B01's factual basis**; AG-003 §4 accordingly requires a **fresh controlled
+> assessment** concluding `READY FOR APPROVAL` or `READY FOR APPROVAL WITH
+> CONDITIONS` before any approval. **No new readiness outcome was determined by
+> Increment 8G-C.** **PAC-001 remains not approved**, **PE-2 remains not
+> reached**, and **Increment 8G-D remains required**. Function decision:
+> [`docs/Training-Publication-Arrangement-Approver-Function-Decision.md`](Training-Publication-Arrangement-Approver-Function-Decision.md).
+
 ---
 
 ## 1. What this assessment is

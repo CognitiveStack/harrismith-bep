@@ -56,6 +56,16 @@
 > rewritten by this note.** Decision:
 > [`docs/CDE-Structure-Governance-Decision.md`](CDE-Structure-Governance-Decision.md).
 
+> **Subsequent status — 2026-08-01, Increment 8G-C.** **AG-003 established the
+> Training Publication Arrangement Approver** — the function that **may take a
+> later PE-2 arrangement-approval decision** on this candidate. **PAC-001
+> remains prepared and NOT APPROVED**; **no candidate position changed**; **no
+> PM matter was approved**; and **PAC-001 itself assigns no authority** — its
+> Authority remains **None**. **The fresh readiness assessment remains
+> required** before AG-003's approval power may be exercised, and **PE-2 remains
+> not reached**. Function decision:
+> [`docs/Training-Publication-Arrangement-Approver-Function-Decision.md`](Training-Publication-Arrangement-Approver-Function-Decision.md).
+
 ---
 
 ## 0. How to read this candidate
