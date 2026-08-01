@@ -21,6 +21,16 @@
 > **PAC-001 is not rejected.** It is assessed as **complete enough to assess**
 > and **not yet ready to proceed to an arrangement-approval decision**.
 
+> **Subsequent status — 2026-08-01, Increment 8G-A.** **AG-002 established the
+> Training CDE Governance Approver** — the decision function for **OF-001**.
+> **PRA-B01 remains OPEN**, and its classification is **unchanged**: the blocker
+> is the **unresolved OF-001 decision itself**, not the former absence of a
+> decision owner. **PRA-001 remains NOT READY FOR APPROVAL**, **PE-2 remains not
+> authorised**, and **no PAC-001 position was amended**. **The next controlled
+> action is the full OF-001 CDE-structure decision.** The assessment and all its
+> findings below are **unchanged**. Function decision:
+> [`docs/Training-CDE-Governance-Approver-Function-Decision.md`](Training-CDE-Governance-Approver-Function-Decision.md).
+
 ---
 
 ## 1. What this assessment is

@@ -181,6 +181,7 @@ repository.
 | Implementation Increment 8F | Complete — **Publication Arrangement Candidate 0.1 (PAC-001)** prepared for PM-1 to PM-7; **PROPOSED GOVERNANCE — NOT APPROVED**; **no arrangement approved, no authority assigned, no publication authorised**. Next stage: **Increment 8G** candidate review |
 | Implementation Increment 8F-A | Complete — PAC-001's **PM-3 format position completed**: seven **PDF/A-2b** renditions, one **UTF-8 JSON** manifest and **SHA-256** integrity records proposed; **candidate remains NOT APPROVED, no authority assigned, no publication authorised**. **Increment 8G** remains the next stage |
 | Implementation Increment 8G | Complete — **Publication Arrangement Readiness Assessment (PRA-001)**; outcome **NOT READY FOR APPROVAL**, sole blocker **PRA-B01** — PM-1 depends on the unresolved **OF-001** CDE-structure decision. **PAC-001 remains prepared and NOT APPROVED, and is not rejected; no authority assigned, no publication authorised, PE-2 not reached.** Next controlled stage: **resolve the OF-001 dependency** |
+| Implementation Increment 8G-A | Complete — **AG-002** established the **Training CDE Governance Approver**, a training-only function under **TA-02** authorised to decide **OF-001** later. **OF-001 was not decided** — its intended state remains undefined; **PAC-001 remains not approved and unamended; PRA-B01 remains open; no publication or implementation authority was conferred.** Next stage: the **full OF-001 CDE-structure decision** |
 
 All 13 main BEP sections now contain substantive draft content.
 
