@@ -11,7 +11,7 @@ controlled governance.
 
 | Field | Value |
 |---|---|
-| Document status | **FOR REVIEW — Companion to Training Baseline 0.1 Candidate** |
+| Document status | **FOR REVIEW — Companion to Training Baseline 0.1** |
 | Authority | **None.** Participatory mechanism supporting the Harrismith BEP training system. **Not a governance authority** |
 | Approval | **Not approved.** Inclusion in candidate review confers no governing status |
 | Supports | BEP section 1.4 |
@@ -309,7 +309,8 @@ current baseline / controlled draft
 contribution may eventually cause a BEP change. **It is not itself that change.**
 
 Progressive baselines run 0.1, 0.2 … 1.0 as already defined in BEP 12.11.
-**Baseline 0.1 is not approved.**
+**Baseline 0.1 is approved with conditions through AD-001. Publication remains
+NOT AUTHORISED**, and this Working Process is not part of that approval.
 
 Publication remains manual and human-performed:
 

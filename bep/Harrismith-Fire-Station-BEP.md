@@ -1,7 +1,7 @@
 # Harrismith Fire Station — BIM Execution Plan
 
-> **Status:** **FOR REVIEW — Training Baseline 0.1 Candidate.** **Not approved.**
-> **Target baseline:** BEP Training Baseline 0.1 — candidate for review, **not approved**.
+> **Status:** **APPROVED WITH CONDITIONS — BEP Training Baseline 0.1** (AD-001, 2026-08-01). Conditions remain active.
+> **Baseline:** BEP Training Baseline 0.1 — **approved with conditions**; **publication NOT AUTHORISED**.
 > **Issued to CDE:** No.
 > **Authority:** None. Training/reference implementation. Non-contractual.
 > **Architecture:** Architecture Baseline v1 (frozen at Gate B). Sections are not
@@ -41,9 +41,9 @@ local habit.
 
 | Field | Value |
 |---|---|
-| Document status | **FOR REVIEW — Training Baseline 0.1 Candidate** |
-| Approval | **Not approved.** Candidate review does not confer approval |
-| Target baseline | BEP Training Baseline 0.1 — candidate for review, **not approved** |
+| Document status | **APPROVED WITH CONDITIONS — Training Baseline 0.1** |
+| Approval | **Approved with conditions** through **AD-001**, 2026-08-01. Conditions remain active; **publication remains NOT AUTHORISED** |
+| Baseline | BEP Training Baseline 0.1 — **approved with conditions** |
 | Authority | None — training/reference implementation, non-contractual |
 | Issued to CDE | No |
 | Architecture | Architecture Baseline v1 — frozen |
@@ -159,8 +159,8 @@ or authorised. Authority is never inferred upward from platform configuration.
 |---|---|
 | Document title | Harrismith Fire Station — BIM Execution Plan |
 | Document identifier | TBD — pending the project naming standard |
-| Version | Training Baseline 0.1 Candidate — pre-baseline, not approved |
-| Status | FOR REVIEW — Training Baseline 0.1 Candidate; no section approved |
+| Version | Training Baseline 0.1 — approved with conditions (AD-001) |
+| Status | APPROVED WITH CONDITIONS — Training Baseline 0.1; conditions remain active |
 | Maintainer role | TBD — to be defined in Section 5 |
 | Approval / authorising role | **Training Baseline Approver** — training-only function established through AG-001. Carries no project publication, recipient acceptance or professional design authority |
 | Issue date | Not issued |
@@ -2043,9 +2043,11 @@ working draft
 Progressive baselines — 0.1, 0.2, … 1.0 — are used **as a governance concept
 only**.
 
-**Baseline 0.1 is not approved.** This document's current status is declared in
-section 1.2. No baseline has been authorised, and no real contractual signatory
-is assigned.
+**Baseline 0.1 is approved with conditions** through **AD-001** (2026-08-01),
+and this document's current status is declared in section 1.2. That is a
+training / reference baseline approval only: **no publication is authorised, no
+real contractual signatory is assigned**, and the AD-001 conditions remain
+active.
 
 **The Training Baseline Approver** is the function authorised to approve, reject
 or defer a specific Training Baseline candidate snapshot (AG-001, section 1.6).
@@ -2813,8 +2815,9 @@ controlled draft
 Baselines may run 0.1, 0.2 … 1.0. **No semantic-versioning rules beyond this are
 implied or approved.**
 
-**BEP Training Baseline 0.1 is not approved.** This document's current status is
-declared in section 1.2; see also section 9.10.
+**BEP Training Baseline 0.1 is approved with conditions** through **AD-001**.
+This document's current status is declared in section 1.2; see also section
+9.10. **Approval of the baseline is not authorisation to publish it.**
 
 **Changes affecting approved governance may require a new baseline rather than
 silent amendment.** Once a baseline is approved, editing it in place would

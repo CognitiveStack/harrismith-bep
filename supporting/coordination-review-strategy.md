@@ -11,9 +11,9 @@ Expands BEP Section 8.
 
 | Field | Value |
 |---|---|
-| Document status | **FOR REVIEW — Training Baseline 0.1 Candidate** |
+| Document status | **APPROVED WITH CONDITIONS — Training Baseline 0.1** |
 | Authority | Supporting management resource under the Harrismith BEP framework |
-| Approval | **Not approved.** Candidate review does not confer approval |
+| Approval | **Approved with conditions** through **AD-001**, 2026-08-01. Conditions remain active; **publication remains NOT AUTHORISED** |
 | Supports | BEP sections 8 and 9 |
 
 **Classification.** The coordination arrangements defined here are **PROPOSED

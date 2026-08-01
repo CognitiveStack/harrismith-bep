@@ -5,14 +5,17 @@
 | Field | Value |
 |---|---|
 | Name | **Harrismith Fire Station — Training Baseline 0.1 Candidate** |
-| Status | **FOR REVIEW — NOT APPROVED** |
+| Status | **APPROVED WITH CONDITIONS** — approved through **AD-001**, 2026-08-01. Conditions remain active; **publication remains NOT AUTHORISED** |
 | Type | Controlled review snapshot of the management-document system |
 
 **Purpose.** To freeze the validated management-document system for candidate
 review and subsequent live-project validation, **before** any baseline approval.
 
-**A candidate is not a baseline.** Preparing this candidate approves nothing,
-passes no gate, and changes no authority.
+**A candidate is not a baseline.** Preparing this candidate approved nothing,
+passed no gate, and changed no authority. Approval came later and separately,
+through **AD-001** — see section 5.4. This manifest continues to record how the
+candidate was assembled and assessed; the approved status is stated in section 1
+and in `docs/Training-Baseline-0.1-Approval-Decision.md`.
 
 ## 2. Validated source state
 
@@ -141,9 +144,9 @@ governance — **AG-001**, Increment 7G.
 | Governance reference | **AG-001** |
 | Decision record | [`docs/Training-Baseline-Approval-Function-Decision.md`](Training-Baseline-Approval-Function-Decision.md) |
 
-**The approval decision has NOT occurred. Publication remains on hold.** Gate C
-is passed — see section 5.3 — which authorises progression to that decision and
-nothing more.
+**The approval decision has since occurred — see section 5.4. Publication
+remains on hold.** Gate C is passed — see section 5.3 — which authorised
+progression to that decision and nothing more.
 
 The function may approve, reject, defer or approve-with-conditions a defined
 candidate snapshot. It confers **no** project publication / exchange authority,
@@ -164,9 +167,9 @@ all of which remain unresolved or outside scope.
 | Snapshot assessed | `cc146a5f84b1ce20d2dfc73d878a77c58959c559` |
 | Decision record | [`docs/Training-Baseline-0.1-Gate-C-Decision.md`](Training-Baseline-0.1-Gate-C-Decision.md) |
 
-**Gate C PASS authorises progression to an approval decision only. Training
-Baseline 0.1 remains unapproved**, and this candidate's status is unchanged at
-**FOR REVIEW — NOT APPROVED**.
+**Gate C PASS authorised progression to an approval decision only.** It did not
+itself approve the baseline, and at that point the candidate's status was
+unchanged at **FOR REVIEW — NOT APPROVED**.
 
 **The publication hold remains active.** Gate C PASS does not lift it, does not
 establish a publication owner, does not define a publication location, and does
@@ -176,6 +179,28 @@ Conditions carried forward: **GCR-005** (pre-publication — publication
 parameters undefined) and **GCR-006** (implementation — one governed
 coordination cycle to be exercised after approval). Acceptable baseline
 limitations, including **UD-001**, are carried forward unresolved.
+
+### 5.4 Approval decision
+
+| | |
+|---|---|
+| Training Baseline 0.1 | **APPROVED WITH CONDITIONS** |
+| Decision reference | **AD-001** |
+| Decision date | **2026-08-01** |
+| Decision function | **Training Baseline Approver**, under AG-001 |
+| Governance basis approved | `cc146a5f84b1ce20d2dfc73d878a77c58959c559` — the snapshot assessed at Gate C, carried forward unchanged through the Increment 7I-A and 7I-B companion status corrections |
+| Decision record | [`docs/Training-Baseline-0.1-Approval-Decision.md`](Training-Baseline-0.1-Approval-Decision.md) |
+
+**The baseline is not unconditionally approved.** Conditions 1 to 6 of AD-001
+§6 remain active: the publication hold, **GCR-005**, **GCR-006**, **UD-001**,
+the two unresolved authority gaps, and the four **Not established** project
+standards.
+
+**Publication remains NOT AUTHORISED and the publication hold remains active.**
+AD-001 approves the governance baseline for its training and
+reference-implementation purpose. It does not authorise CDE publication,
+information exchange, delivery or recipient acceptance, and it does not prove
+that a complete governed coordination cycle has been demonstrated.
 
 ## 6. Known unresolved matters
 
@@ -223,18 +248,21 @@ Candidate                                    ✓ prepared      (7A)
   → approval-function decision               ✓ completed     (7G, AG-001)
   → post-decision candidate review           ✓ completed     (7H)
   → Gate C decision                          ✓ PASS          (7I, GD-001)
-  → Training Baseline 0.1 approval decision  ← next
+  → companion status corrections             ✓ completed     (7I-A, 7I-B)
+  → Training Baseline 0.1 approval decision  ✓ APPROVED WITH CONDITIONS
+                                                             (7J, AD-001)
 ```
 
-**Next stage: the Training Baseline 0.1 approval decision**, with outcomes
-APPROVE / APPROVE WITH CONDITIONS / DEFER / REJECT under AG-001.
-
-Each step is a separate decision. Reaching one does not imply the next. **Gate C
-is passed; the candidate is not approved.**
+Each step is a separate decision. Reaching one does not imply the next.
+**Training Baseline 0.1 is APPROVED WITH CONDITIONS through AD-001. Publication
+is a separate, later decision and remains NOT AUTHORISED.**
 
 ## 9. Publication boundary
 
-**This candidate is not an issued or approved project BEP.**
+**This is not an issued project BEP.** It is an approved *training* baseline,
+approved with conditions through AD-001 for a training and
+reference-implementation purpose. It is not issued, published, delivered,
+received or accepted.
 
 No publication to Autodesk Forma or ACC occurs in Increment 7A. No live platform
 configuration is changed, and no external system is accessed.

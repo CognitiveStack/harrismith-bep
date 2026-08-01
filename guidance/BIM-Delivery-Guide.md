@@ -4,7 +4,7 @@
 
 | Field | Value |
 |---|---|
-| Document status | **FOR REVIEW — Companion to Training Baseline 0.1 Candidate** |
+| Document status | **FOR REVIEW — Companion to Training Baseline 0.1** |
 | Nature | **Educational / onboarding guidance** |
 | Authority | **None.** This Guide governs nothing |
 | Approval | **Not approved.** Inclusion in candidate review confers no governing status |
@@ -135,12 +135,16 @@ Git                     →  controlled authoring and history for BEP source
 ### Current status — read this before relying on anything
 
 - This is a **training and reference implementation**.
-- The BEP and all six supporting resources are **FOR REVIEW** as the Training
-  Baseline 0.1 Candidate. Each declares its own status.
-- **BEP Training Baseline 0.1 is not approved.**
-- **Gate C passed through GD-001 on 2026-08-01.** Training Baseline 0.1 remains
-  **FOR REVIEW — NOT APPROVED**: the approval decision has not yet occurred, and
-  publication remains on hold.
+- The BEP and all six supporting resources are **APPROVED WITH CONDITIONS** as
+  **Training Baseline 0.1**. Each declares its own status.
+- **Training Baseline 0.1 is APPROVED WITH CONDITIONS through AD-001 on
+  2026-08-01**, following Gate C PASS through GD-001 on the same date. It is
+  **not** unconditionally approved: the AD-001 conditions remain active.
+- **Publication remains NOT AUTHORISED and the publication hold remains
+  active.** Approval of the baseline is not authorisation to publish, exchange,
+  issue or deliver anything, and nothing has been received or accepted.
+- **This Guide is not part of that approval.** It remains an educational
+  companion with **Authority: None**.
 - **Live-project validation was completed through Increment 7C** — read-only
   connector observation and supplied manual UI evidence — and the validated
   observations were incorporated through Increment 7D and reviewed through

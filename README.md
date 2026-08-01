@@ -3,8 +3,10 @@
 Controlled authoring repository for the Harrismith Fire Station BIM Management
 and BIM Execution Plan (BEP) training implementation.
 
-**Status:** The management-document system is **FOR REVIEW** as the Training
-Baseline 0.1 Candidate. Nothing is approved, baselined or issued. Current
+**Status:** The management-document system is **APPROVED WITH CONDITIONS** as
+**Training Baseline 0.1** (AD-001, 2026-08-01). That is a training / reference
+baseline approval with active conditions — **nothing is published, issued,
+delivered or accepted**, and **publication remains NOT AUTHORISED**. Current
 maturity is stated in section 5.
 
 ---
@@ -165,6 +167,8 @@ repository.
 | Implementation Increment 7G | Complete — **Training Baseline Approver** function established as approved training governance (**AG-001**) |
 | Implementation Increment 7H | Complete — approval function verified; result **READY FOR GATE C DECISION** |
 | Implementation Increment 7I | Complete — **Gate C PASSED** for candidate snapshot `cc146a5f…` (**GD-001**) |
+| Implementation Increment 7I-A / 7I-B | Complete — companion-document factual status corrections; no governance changed |
+| Implementation Increment 7J | Complete — **Training Baseline 0.1 APPROVED WITH CONDITIONS** (**AD-001**) |
 
 All 13 main BEP sections now contain substantive draft content.
 
@@ -179,14 +183,20 @@ Schedule, the CDE Workflow & State Strategy and the Coordination & Review
 Strategy. The **Working Process** and the **BIM Delivery Guide** are implemented
 as companion documents. The project standards remain unpopulated.
 
-The **Training Baseline 0.1 Candidate** has been prepared. Its scope, authority
-boundary and exclusions are recorded in
+The **Training Baseline 0.1 Candidate** was prepared and assessed. Its scope,
+authority boundary and exclusions are recorded in
 [`docs/Training-Baseline-0.1-Candidate.md`](docs/Training-Baseline-0.1-Candidate.md).
 
-The candidate status is **FOR REVIEW**. That is a review designation, not an
-approval:
+The baseline status is **APPROVED WITH CONDITIONS**. That is a training /
+reference-implementation approval with active conditions, not an unconditional
+approval and not an authorisation to publish:
 
-- **the Training Baseline 0.1 Candidate is NOT approved;**
+- **Training Baseline 0.1 is APPROVED WITH CONDITIONS through AD-001
+  (2026-08-01) — see
+  [`docs/Training-Baseline-0.1-Approval-Decision.md`](docs/Training-Baseline-0.1-Approval-Decision.md);**
+- **the AD-001 conditions remain active — the publication hold, GCR-005,
+  GCR-006, UD-001, the two unresolved authority gaps and the four Not
+  established project standards;**
 - **candidate review and live-project validation are complete; live validation
   found no candidate contradiction, and its observed facts are incorporated —
   see [`docs/Increment-7C-Live-Validation-Record.md`](docs/Increment-7C-Live-Validation-Record.md);**
@@ -195,11 +205,11 @@ approval:
 - **Gate C is PASSED for the identified candidate snapshot (GD-001,
   2026-08-01) — see
   [`docs/Training-Baseline-0.1-Gate-C-Decision.md`](docs/Training-Baseline-0.1-Gate-C-Decision.md).
-  Gate C PASS authorises progression to an approval decision and nothing more;**
-- **the Training Baseline 0.1 approval decision is the next stage and has not
-  occurred;**
-- **publication remains on hold — nothing has been published as an approved BEP
-  baseline;**
+  Gate C PASS authorised progression to an approval decision and nothing more;**
+- **a complete governed coordination cycle has not been demonstrated — GCR-006
+  remains outstanding;**
+- **publication remains NOT AUTHORISED and the publication hold remains active —
+  nothing has been published, issued, delivered or accepted;**
 - **UD-001 remains unresolved;**
 - **the project standards remain Not established and are outside the candidate.**
 

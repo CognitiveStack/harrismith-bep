@@ -11,13 +11,16 @@ Referenced by BEP section 12.13.
 
 | Field | Value |
 |---|---|
-| Document status | **FOR REVIEW — Training Baseline 0.1 Candidate** |
+| Document status | **APPROVED WITH CONDITIONS — Training Baseline 0.1** |
 | Authority | Supporting management resource under the Harrismith BEP framework |
-| Approval | **Not approved.** Candidate review does not confer approval |
+| Approval | **Approved with conditions** through **AD-001**, 2026-08-01. Conditions remain active; **publication remains NOT AUTHORISED** |
 | Supports | BEP section 12 — Governance, Change and Exceptions |
 
-This is the intended consolidated governance register. Its current content
-carries no project authority; its status is declared in the table above.
+This is the consolidated governance register. It is approved with conditions as
+part of Training Baseline 0.1 for the training and reference-implementation
+purpose stated in AD-001; its status is declared in the table above. **Approval
+of the baseline confers no project publication, exchange or acceptance
+authority.**
 
 **One register only.** Competing governance registers are not created (BEP
 12.13).
@@ -63,9 +66,11 @@ never assumed from implementation (BEP 12.3, 12.9).
 | **APPROVED CHANGE** | An authorised alteration to the governed system |
 | **SUPERSEDED DECISION** | An earlier decision replaced by a later approved decision, history retained |
 
-**No NON-CONFORMANCE entry can exist yet.** A non-conformance requires approved
-governance to fail against. No governance has been approved on this
-implementation, so nothing can currently be in breach of it (BEP 12.2, 12.6).
+**No NON-CONFORMANCE entry is recorded.** A non-conformance requires approved
+governance to fail against. Training Baseline 0.1 is approved with conditions
+through **AD-001**, so the classification is no longer structurally impossible
+where the approved baseline applies — but **none is asserted or recorded**
+(BEP 12.2, 12.6).
 
 ---
 
@@ -75,6 +80,7 @@ implementation, so nothing can currently be in breach of it (BEP 12.2, 12.6).
 |---|---|---|---|---|
 | AG-001 | **APPROVED GOVERNANCE** | Training Baseline Approval Function | Approved — implemented and **verified** | Training Baseline Approver |
 | GD-001 | **CONTROLLED GATE DECISION** | Training Baseline 0.1 — Gate C Decision | **PASS** — 2026-08-01 | Training Baseline Approver |
+| AD-001 | **APPROVED GOVERNANCE** | Training Baseline 0.1 — Approval Decision | **APPROVED WITH CONDITIONS** — 2026-08-01 | Training Baseline Approver |
 | TA-01 | TRAINING ASSUMPTION | Post-appointment context | Adopted | Not established — TBD |
 | TA-02 | TRAINING ASSUMPTION | Simulated role participation | Adopted | Not established — TBD |
 | TA-03 | TRAINING ASSUMPTION | Training delivery organisation | Adopted | Not established — TBD |
@@ -88,15 +94,21 @@ implementation, so nothing can currently be in breach of it (BEP 12.2, 12.6).
 | OF-008 | OBSERVED FACT | Model Coordination provisioning | Recorded | Not established — TBD |
 | UD-001 | OBSERVED FACT + UNRESOLVED DECISION | Design Collaboration MEP / Structural team-space mapping | **Unresolved** | Not established — TBD |
 
-Two governance entries exist beyond observations and assumptions:
+Three governance entries exist beyond observations and assumptions:
 
 - **AG-001** — APPROVED GOVERNANCE, establishing the Training Baseline Approval
   Function;
 - **GD-001** — a CONTROLLED GATE DECISION recording **Gate C — PASS**, taken
-  using that function.
+  using that function;
+- **AD-001** — APPROVED GOVERNANCE, recording **Training Baseline 0.1 —
+  APPROVED WITH CONDITIONS**, taken using the same function.
 
-**Neither approves Training Baseline 0.1**, which remains a candidate. Gate C
-PASS authorises progression to a separate approval decision, and nothing more.
+**AG-001 establishes who may decide. GD-001 authorised progression to an
+approval decision and approved no baseline. AD-001 is that approval decision.**
+
+**Training Baseline 0.1 is APPROVED WITH CONDITIONS, not unconditionally
+approved.** The AD-001 conditions remain active, and **publication remains NOT
+AUTHORISED with the publication hold in force**.
 
 No PROPOSED GOVERNANCE, APPROVED CHANGE, DEVIATION, NON-CONFORMANCE or
 SUPERSEDED DECISION entries exist.
@@ -573,10 +585,10 @@ from the BEP and the candidate manifest.
 **READY FOR GATE C DECISION**, no authority bleed identified. Verifying the
 function does **not** approve the candidate.
 
-**Note.** This entry approves a *governance function*. **BEP Training Baseline
-0.1 remains not approved** (BEP 1.2, 9.10, 12.11), and the publication hold
-remains in force. Gate C was subsequently passed through **GD-001**, which
-likewise approves no baseline.
+**Note.** This entry approves a *governance function*, not a baseline. Gate C
+was subsequently passed through **GD-001**, which likewise approves no baseline,
+and Training Baseline 0.1 was subsequently approved with conditions through
+**AD-001** (BEP 1.2, 9.10, 12.11). **The publication hold remains in force.**
 
 ## 6A. Gate decisions
 
@@ -599,8 +611,9 @@ Baseline approval decision.
 
 **Explicit non-effects.** GD-001 does **not**:
 
-- approve Training Baseline 0.1 — the candidate remains **FOR REVIEW — NOT
-  APPROVED**;
+- approve Training Baseline 0.1 — at this decision the candidate remained
+  **FOR REVIEW — NOT APPROVED**; approval was taken separately and later,
+  through **AD-001**;
 - authorise publication — the **publication hold remains active**;
 - resolve project publication / exchange authority — **unresolved**;
 - resolve recipient acceptance authority — **unresolved**;
@@ -622,25 +635,100 @@ not an approved change, not professional approval, not project publication
 approval and not recipient acceptance.
 
 **Relationship.** **AG-001** establishes *who may decide*. **GD-001** is a
-decision taken *using* that function. The **Training Baseline approval decision
-has not been made.**
+decision taken *using* that function. The Training Baseline approval decision
+was taken separately, as **AD-001** — see section 6B.
 
 **Decision record.** `docs/Training-Baseline-0.1-Gate-C-Decision.md`.
+
+## 6B. Baseline approval decisions
+
+### AD-001 — Training Baseline 0.1 — Approval Decision
+
+| Field | Value |
+|---|---|
+| Classification | **APPROVED GOVERNANCE** |
+| Topic | Training Baseline 0.1 — Approval Decision |
+| Decision | **APPROVED WITH CONDITIONS** |
+| Decision function | **Training Baseline Approver** |
+| Functional holder | **Training Implementation Owner** |
+| Authority basis | **AG-001** |
+| Gate decision relied upon | **GD-001** — Gate C PASS |
+| Governance basis approved | `cc146a5f84b1ce20d2dfc73d878a77c58959c559` |
+| Pre-decision repository state | `707b966f5eb0d0e3975a80e9a939d381bc6f3297` |
+| Decision date | **2026-08-01** |
+| Status | Recorded |
+
+**Snapshot identity.** The approved governance basis is the snapshot assessed at
+Gate C. Increments **7I-A** (`86241b0…`) and **7I-B** (`707b966…`) were narrowly
+scoped factual status corrections to the non-authoritative BIM Delivery Guide;
+they **changed no governance content** and no part of the basis Gate C assessed.
+
+**Decision effect.** Training Baseline 0.1 is approved as the governed training
+and reference-implementation baseline, **with conditions**, for the purpose
+stated in AD-001. It is **not unconditionally approved**.
+
+**Conditions carried — all active.**
+
+| Condition | Class |
+|---|---|
+| Publication hold | **Remains active — publication NOT AUTHORISED** |
+| **GCR-005** — publication parameters undefined | **PRE-PUBLICATION — open** |
+| **GCR-006** — one complete governed coordination cycle to be exercised and evidenced | **IMPLEMENTATION — open** |
+| **UD-001** — MEP / Structural team-space mapping | **OBSERVED discrepancy + UNRESOLVED DECISION** |
+| Project publication / exchange authority | **Unresolved** |
+| Recipient acceptance authority | **Unresolved** |
+| Naming, Coordinates, Titleblocks, Templates / Authoring Resources | **Not established** |
+
+**Explicit non-effects.** AD-001 does **not**:
+
+- authorise publication, exchange, issue, delivery or external distribution —
+  the **publication hold remains active**;
+- resolve **GCR-005** or define any publication parameter;
+- complete, simulate or evidence **GCR-006** — no complete governed coordination
+  cycle has been demonstrated;
+- resolve **UD-001**;
+- establish project publication / exchange authority;
+- establish recipient acceptance authority;
+- establish any project standard;
+- confer governing status on the companion documents, which retain
+  **Authority: None**;
+- create a contractual authority, professional appointment, tag or release.
+
+**Classification note.** AD-001 is **APPROVED GOVERNANCE** — an approval of the
+baseline itself. It is not an APPROVED CHANGE, not professional approval, not
+project publication approval and not recipient acceptance. **Approved is not
+Published, Delivered, Received or Accepted.**
+
+**Relationship.** Gate C passage **enabled** this decision but did not itself
+approve the baseline. **AD-001 is the approval decision**, and it approves the
+governance baseline only.
+
+**Implementation and verification.** Approval is not implementation, and
+implementation is not verification (BEP 12.3, 12.9). **GCR-005** and
+**GCR-006** remain outstanding, and verification of the approved baseline in use
+has **not** been performed. No implementation assignment is created.
+
+**Decision record.** `docs/Training-Baseline-0.1-Approval-Decision.md`.
 
 ## 7. Deviations
 
 *No deviations recorded.*
 
-A deviation is a knowingly permitted departure from **approved** governance. None
-can exist until governance is approved (BEP 12.6).
+A deviation is a knowingly permitted departure from **approved** governance.
+Training Baseline 0.1 is approved with conditions through **AD-001**, so the
+classification is available in principle — but **none is authorised or
+recorded**, and AD-001 authorises no departure from the baseline it approves
+(BEP 12.6).
 
 ## 8. Non-conformances
 
-*No non-conformances recorded, and none can currently exist.*
+*No non-conformances recorded.*
 
-A non-conformance is an unintended failure against **approved** governance. No
-governance has been approved on this implementation. See UD-001 for why the
-observed team-space discrepancy is **not** classified as a non-conformance.
+A non-conformance is an unintended failure against **approved** governance.
+Training Baseline 0.1 is approved with conditions through **AD-001**, so the
+classification is available in principle where the approved baseline applies —
+but **nothing is recorded here, and nothing is asserted**. See UD-001 for why
+the observed team-space discrepancy is **not** classified as a non-conformance.
 
 ## 9. Superseded decisions
 
@@ -658,6 +746,7 @@ status, the replacement decision, the effective point, and the reason or context
 | 2026-08-01 | Increment 7C validation evidence incorporated. OF-001 to OF-005 reconfirmed; UD-001 evidence updated and left unresolved; OF-006, OF-007 and OF-008 recorded as OBSERVED FACT. | 7D |
 | 2026-08-01 | AG-001 recorded — Training Baseline Approval Function established as APPROVED GOVERNANCE. First approved-governance entry. Baseline 0.1 remains unapproved. | 7G |
 | 2026-08-01 | GD-001 recorded — Gate C PASS for candidate snapshot cc146a5f. AG-001 verification completed through Increment 7H. Baseline 0.1 remains unapproved; publication hold active. | 7I |
+| 2026-08-01 | AD-001 recorded — Training Baseline 0.1 APPROVED WITH CONDITIONS for the governance basis assessed at cc146a5f. Register status advanced to APPROVED WITH CONDITIONS. GCR-005, GCR-006 and UD-001 remain open; publication/exchange and recipient acceptance authority remain unresolved; project standards remain Not established; publication remains NOT AUTHORISED with the hold active. | 7J |
 
 **Note on histories.** This change log records *decision and register* history.
 Git commit history records *source* history. They are complementary and not
