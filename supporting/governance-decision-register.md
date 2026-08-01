@@ -73,6 +73,7 @@ implementation, so nothing can currently be in breach of it (BEP 12.2, 12.6).
 
 | ID | Type | Topic | Status | Decision owner |
 |---|---|---|---|---|
+| AG-001 | **APPROVED GOVERNANCE** | Training Baseline Approval Function | Approved — implemented, pending verification | Training Baseline Approver |
 | TA-01 | TRAINING ASSUMPTION | Post-appointment context | Adopted | Not established — TBD |
 | TA-02 | TRAINING ASSUMPTION | Simulated role participation | Adopted | Not established — TBD |
 | TA-03 | TRAINING ASSUMPTION | Training delivery organisation | Adopted | Not established — TBD |
@@ -86,8 +87,12 @@ implementation, so nothing can currently be in breach of it (BEP 12.2, 12.6).
 | OF-008 | OBSERVED FACT | Model Coordination provisioning | Recorded | Not established — TBD |
 | UD-001 | OBSERVED FACT + UNRESOLVED DECISION | Design Collaboration MEP / Structural team-space mapping | **Unresolved** | Not established — TBD |
 
-No PROPOSED GOVERNANCE, APPROVED GOVERNANCE, APPROVED CHANGE, DEVIATION,
-NON-CONFORMANCE or SUPERSEDED DECISION entries exist.
+One APPROVED GOVERNANCE entry exists — **AG-001**, which establishes the
+Training Baseline Approval Function. **It does not approve Training Baseline
+0.1**, which remains a candidate.
+
+No PROPOSED GOVERNANCE, APPROVED CHANGE, DEVIATION, NON-CONFORMANCE or
+SUPERSEDED DECISION entries exist.
 
 ---
 
@@ -520,10 +525,47 @@ for example a proposed change to an already-approved rule.
 
 ## 6. Approved governance and approved changes
 
-*No approved governance recorded. No approved changes recorded.*
+*No approved changes recorded.*
 
-Nothing on this implementation has been approved. BEP Training Baseline 0.1 is
-**not approved** (BEP 1.2, 9.10, 12.11).
+### AG-001 — Training Baseline Approval Function
+
+| Field | Value |
+|---|---|
+| Classification | **APPROVED GOVERNANCE** |
+| Topic | Training Baseline Approval Function |
+| Source | Orchestrator decision, Increment 7G |
+| Training basis | **TA-02** — simulated role participation |
+| Status | **Approved governance — implemented, pending verification** |
+| Decision owner | Training Baseline Approver |
+
+**Decision.** Establish the **Training Baseline Approver** function, exercised by
+the **Training Implementation Owner**, for the limited training / reference
+baseline scope. No personal holder is recorded.
+
+**Arising from.** Increment 7F readiness assessment, pre-approval condition
+**GCR-001** — Training Baseline approval authority undefined.
+
+**Authority conferred.** Review a defined candidate snapshot; approve, reject,
+defer, or approve with recorded conditions; confirm the approved Git snapshot;
+authorise the controlled baseline status transition.
+
+**Authority NOT conferred.** Contractual authority; professional appointment;
+design approval; **project publication / exchange authority**; **recipient
+acceptance authority**; Autodesk configuration authority; authority to accept
+project deliverables. Those remain as recorded elsewhere — publication and
+acceptance authority both **unresolved**.
+
+**Affected resources.** BEP document control (§1.6) and progressive baselining
+(§9.10); the candidate manifest; the approval-decision process.
+
+**Implementation.** Function documented in `docs/Training-Baseline-Approval-Function-Decision.md` and cross-referenced
+from the BEP and the candidate manifest.
+
+**Verification.** Increment 7H post-decision review.
+
+**Note.** This entry approves a *governance function*. **BEP Training Baseline
+0.1 remains not approved** (BEP 1.2, 9.10, 12.11), Gate C has not passed, and
+the publication hold remains in force.
 
 ## 7. Deviations
 
@@ -554,6 +596,7 @@ status, the replacement decision, the effective point, and the reason or context
 |---|---|---|
 | 2026-07-31 | Register populated as a controlled draft. TA-01, TA-02, TA-03 transcribed from BEP 2.6. OF-001 to OF-005 recorded. UD-001 detail recorded from the observed condition. | 3A |
 | 2026-08-01 | Increment 7C validation evidence incorporated. OF-001 to OF-005 reconfirmed; UD-001 evidence updated and left unresolved; OF-006, OF-007 and OF-008 recorded as OBSERVED FACT. | 7D |
+| 2026-08-01 | AG-001 recorded — Training Baseline Approval Function established as APPROVED GOVERNANCE. First approved-governance entry. Baseline 0.1 remains unapproved. | 7G |
 
 **Note on histories.** This change log records *decision and register* history.
 Git commit history records *source* history. They are complementary and not

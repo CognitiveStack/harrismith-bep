@@ -20,7 +20,8 @@ passes no gate, and changes no authority.
 |---|---|
 | Validated pre-candidate source commit | `9265a12d540a269df6e31bfb8ea035a607560622` |
 | Initial candidate snapshot commit | `98fa190df98f46880fad816445c2c3326090a83f` |
-| Current candidate snapshot | The Git commit created by Increment 7D, which introduces the observed-fact updates |
+| Observed-fact update snapshot | The Git commit created by Increment 7D, titled *"docs: incorporate Increment 7C validation evidence"* |
+| Current candidate snapshot | The Git commit created by Increment 7G, titled *"docs: establish Training Baseline approval function"* |
 
 The validated source commit is the state that passed cross-document validation
 (Increment 6A), the audit corrective pass (6B) and the pre-candidate corrective
@@ -126,6 +127,27 @@ OF-006, OF-007 and OF-008 recorded as OBSERVED FACT.
 **No governance was resolved, no authority assigned and no platform
 configuration changed** by the validation or by its incorporation.
 
+### 5.2 Approval function
+
+The **Training Baseline Approver** function is established as approved training
+governance — **AG-001**, Increment 7G.
+
+| | |
+|---|---|
+| Function | **Training Baseline Approver** |
+| Functional holder | **Training Implementation Owner** |
+| Training basis | **TA-02** — simulated role participation; not a real appointment |
+| Governance reference | **AG-001** |
+| Decision record | [`docs/Training-Baseline-Approval-Function-Decision.md`](Training-Baseline-Approval-Function-Decision.md) |
+
+**The approval decision has NOT occurred. Gate C has NOT passed. Publication
+remains on hold.**
+
+The function may approve, reject, defer or approve-with-conditions a defined
+candidate snapshot. It confers **no** project publication / exchange authority,
+**no** recipient acceptance authority and **no** professional design authority —
+all of which remain unresolved or outside scope.
+
 ## 6. Known unresolved matters
 
 Unresolved governance is recorded in
@@ -167,14 +189,15 @@ Candidate                                    ✓ prepared      (7A)
   → candidate review                         ✓ completed     (7B)
   → live-project validation                  ✓ completed     (7C)
   → observed-fact incorporation              ✓ completed     (7D)
-  → post-update candidate review             ← next
-  → Gate C readiness assessment
-  → findings / governance decisions
-  → corrections if required
-  → possible Training Baseline 0.1 approval
+  → post-update candidate review             ✓ completed     (7E)
+  → Gate C readiness assessment              ✓ completed     (7F)
+  → approval-function decision               ✓ completed     (7G, AG-001)
+  → post-decision candidate review           ← next
+  → Gate C decision
+  → possible Training Baseline 0.1 approval decision
 ```
 
-**Next stage: post-update candidate review, then Gate C readiness assessment.**
+**Next stage: post-decision candidate review, then the Gate C decision.**
 
 Each step is a separate decision. Reaching one does not imply the next. **Gate C
 has not passed and the candidate is not approved.**

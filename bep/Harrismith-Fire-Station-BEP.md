@@ -162,7 +162,7 @@ or authorised. Authority is never inferred upward from platform configuration.
 | Version | Training Baseline 0.1 Candidate — pre-baseline, not approved |
 | Status | FOR REVIEW — Training Baseline 0.1 Candidate; no section approved |
 | Maintainer role | TBD — to be defined in Section 5 |
-| Approval / authorising role | TBD — to be defined in Section 5 |
+| Approval / authorising role | **Training Baseline Approver** — training-only function established through AG-001. Carries no project publication, recipient acceptance or professional design authority |
 | Issue date | Not issued |
 | Change history | Git commit history of this repository; governance decisions in the Governance & Decision Register |
 
@@ -2045,7 +2045,14 @@ only**.
 
 **Baseline 0.1 is not approved.** This document's current status is declared in
 section 1.2. No baseline has been authorised, and no real contractual signatory
-is assigned; the authorising role remains TBD (section 1.6).
+is assigned.
+
+**The Training Baseline Approver** is the function authorised to approve, reject
+or defer a specific Training Baseline candidate snapshot (AG-001, section 1.6).
+The function is limited to the training / reference baseline. It does **not**
+carry project publication / exchange authority, recipient acceptance authority,
+or professional design authority — all of which remain as recorded in sections
+9.7 and 9.8.
 
 Later baselines supersede earlier ones. Historical traceability is retained
 through version control (section 9.11).

@@ -160,6 +160,9 @@ repository.
 | Implementation Increment 7B | Complete — candidate review; result **PASS WITH FINDINGS**; ready for live-project validation |
 | Implementation Increment 7C | Complete — live-project validation through read-only connector and manual UI evidence; **no candidate contradiction found**; observed-fact update required |
 | Implementation Increment 7D | Complete — validated observed facts incorporated into the candidate record |
+| Implementation Increment 7E | Complete — post-update candidate review; result **PASS** |
+| Implementation Increment 7F | Complete — Gate C readiness assessment; **conditional Gate C pass recommended**; approval function identified as the pre-approval condition |
+| Implementation Increment 7G | Complete — **Training Baseline Approver** function established as approved training governance (**AG-001**) |
 
 All 13 main BEP sections now contain substantive draft content.
 
@@ -185,9 +188,13 @@ approval:
 - **candidate review and live-project validation are complete; live validation
   found no candidate contradiction, and its observed facts are incorporated —
   see [`docs/Increment-7C-Live-Validation-Record.md`](docs/Increment-7C-Live-Validation-Record.md);**
-- **post-update candidate review is the next stage;**
+- **the Training Baseline Approver function is established as approved training
+  governance (AG-001) — this establishes who may decide, and approves nothing;**
+- **post-decision candidate review is the next stage;**
 - **Gate C has not passed;**
-- **nothing has been published as an approved BEP baseline;**
+- **the baseline approval decision has not occurred;**
+- **publication remains on hold — nothing has been published as an approved BEP
+  baseline;**
 - **the project standards remain Not established and are outside the candidate.**
 
 Architecture Baseline v1 is **frozen**. The document architecture recorded in
