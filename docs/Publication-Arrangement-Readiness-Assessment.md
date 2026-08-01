@@ -31,6 +31,17 @@
 > findings below are **unchanged**. Function decision:
 > [`docs/Training-CDE-Governance-Approver-Function-Decision.md`](Training-CDE-Governance-Approver-Function-Decision.md).
 
+> **Subsequent status — 2026-08-01, Increment 8G-B.** **CGD-001 resolved OF-001
+> at the governance level**, adopting the as-found four-area root topology with
+> conditions. **PRA-B01's stated blocking dependency has subsequently been
+> resolved.** **The original PRA-001 outcome remains historically valid** as the
+> assessment made on its date — **the BLOCKER finding below is retained,
+> unrewritten and unreclassified**. **PAC-001 has not automatically become
+> approved or ready**, **PE-2 remains not reached**, **a fresh controlled
+> readiness reassessment is required**, and **implementation verification of
+> CGD-001 remains pending** (CGD-C07). Decision:
+> [`docs/CDE-Structure-Governance-Decision.md`](CDE-Structure-Governance-Decision.md).
+
 ---
 
 ## 1. What this assessment is

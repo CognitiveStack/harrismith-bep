@@ -80,6 +80,7 @@ where the approved baseline applies — but **none is asserted or recorded**
 |---|---|---|---|---|
 | AG-001 | **APPROVED GOVERNANCE** | Training Baseline Approval Function | Approved — implemented and **verified** | Training Baseline Approver |
 | AG-002 | **APPROVED GOVERNANCE** | Training CDE Governance Approver Function | **FUNCTION ESTABLISHED — OF-001 DECISION NOT YET TAKEN** — 2026-08-01 | Training CDE Governance Approver |
+| CGD-001 | **APPROVED GOVERNANCE** | CDE Structure Governance Decision — intended root topology | **APPROVE WITH CONDITIONS** — 2026-08-01; **OF-001 RESOLVED; VERIFICATION PENDING** | Training CDE Governance Approver |
 | GD-001 | **CONTROLLED GATE DECISION** | Training Baseline 0.1 — Gate C Decision | **PASS** — 2026-08-01 | Training Baseline Approver |
 | AD-001 | **APPROVED GOVERNANCE** | Training Baseline 0.1 — Approval Decision | **APPROVED WITH CONDITIONS** — 2026-08-01 | Training Baseline Approver |
 | ROA-001 | **CONTROLLED READ-ONLY OBSERVATION AUTHORISATION** | Publication Planning read-only observation | **AUTHORISE WITH CONSTRAINTS** — 2026-08-01; **EXERCISED ONCE — EXPIRED** | Training Implementation Owner |
@@ -87,7 +88,7 @@ where the approved baseline applies — but **none is asserted or recorded**
 | TA-01 | TRAINING ASSUMPTION | Post-appointment context | Adopted | Not established — TBD |
 | TA-02 | TRAINING ASSUMPTION | Simulated role participation | Adopted | Not established — TBD |
 | TA-03 | TRAINING ASSUMPTION | Training delivery organisation | Adopted | Not established — TBD |
-| OF-001 | OBSERVED FACT | CDE root areas at discovery | Recorded — **decision owner established (AG-002)**; intended state **not defined** | Training CDE Governance Approver under AG-002 |
+| OF-001 | OBSERVED FACT | CDE root areas at discovery | **RESOLVED BY CGD-001 — ROOT TOPOLOGY ADOPTED WITH CONDITIONS; VERIFICATION PENDING** | Training CDE Governance Approver under AG-002 |
 | OF-002 | OBSERVED FACT | Populated production streams observed | Recorded | Not established — TBD |
 | OF-003 | OBSERVED FACT | Common Files standards areas observed empty | Recorded — action required | Not established — TBD |
 | OF-004 | OBSERVED FACT | Design Collaboration teams observed | Recorded | Not established — TBD |
@@ -97,7 +98,7 @@ where the approved baseline applies — but **none is asserted or recorded**
 | OF-008 | OBSERVED FACT | Model Coordination provisioning | Recorded | Not established — TBD |
 | UD-001 | OBSERVED FACT + UNRESOLVED DECISION | Design Collaboration MEP / Structural team-space mapping | **Unresolved** | Not established — TBD |
 
-Five governance entries exist beyond observations and assumptions:
+Six governance entries exist beyond observations and assumptions:
 
 - **AG-001** — APPROVED GOVERNANCE, establishing the Training Baseline Approval
   Function;
@@ -112,6 +113,10 @@ Five governance entries exist beyond observations and assumptions:
 - **AG-002** — APPROVED GOVERNANCE, establishing the **Training CDE Governance
   Approver** function. **It establishes who may decide OF-001; it decides
   nothing** (section 6).
+- **CGD-001** — APPROVED GOVERNANCE, recording the **CDE Structure Governance
+  Decision**: the as-found four-area root topology is **adopted with conditions**
+  as the intended training CDE governance. **It resolves OF-001 at the governance
+  level; it implements nothing and approves no child structure** (section 6).
 
 **AG-001 establishes who may decide. GD-001 authorised progression to an
 approval decision and approved no baseline. AD-001 is that approval decision.**
@@ -253,6 +258,29 @@ together with the relationship between information states and platform
 structure. **No implementation authority was assigned**: AG-002 confers no CDE
 administration, configuration, folder-creation or permission authority.
 Decision record — `docs/Training-CDE-Governance-Approver-Function-Decision.md`.
+
+**Subsequent governance status — 2026-08-01, Increment 8G-B.** The statements
+above record the position **before** the decision, and the *"Intended state. Not
+defined"* text is retained as the **historical record of the state at that
+time**. The intended state was **subsequently defined** by **CGD-001**.
+
+| Field | Subsequent position |
+|---|---|
+| Decision | **CGD-001** — `docs/CDE-Structure-Governance-Decision.md` |
+| Outcome | **APPROVE WITH CONDITIONS** |
+| Structural determination | **As-found four-area root topology adopted as intended governance** — `0. Common Files`, `01. WIP (Work in Progress)`, `02. Shared`, `03. Published` |
+| Intended state | **Now defined by CGD-001** |
+| Decision owner | **Training CDE Governance Approver under AG-002** |
+| Governance matter | **Resolved** |
+| Implementation | **Not required at root level** — the observed topology corresponds to the approved one — **but not authorised** (CGD-C07) |
+| Verification | **Pending** |
+| Child structures | **Not approved** (CGD-C04). **UD-001 remains unresolved** |
+| Retrospective effect | **None** (CGD-C02) |
+| Authority assigned | **None** — no publication, exchange, acceptance, CDE administration or implementation authority (CGD-C08) |
+
+**States are not folders.** Adoption of the four-area topology does **not**
+establish that the state model is implemented — the note above continues to
+apply (BEP 6.3; CGD-C01).
 
 ### OF-002 — Populated production streams observed
 
@@ -730,6 +758,70 @@ PAC-001 remains **not approved and unamended**, and **the publication hold
 remains in force**. **This entry is a reference, not a duplicate** — the full
 decision is not restated here (BEP 12.13, 13.1).
 
+### CGD-001 — CDE Structure Governance Decision
+
+| Field | Value |
+|---|---|
+| Classification | **APPROVED GOVERNANCE** |
+| Topic | Intended CDE root topology and information-state mapping |
+| Decision outcome | **APPROVE WITH CONDITIONS** |
+| Structural determination | **As-found four-area root topology adopted as intended training CDE governance** |
+| Deciding function | **Training CDE Governance Approver under AG-002** |
+| Functional holder | **Training Implementation Owner** |
+| Training basis | **TA-02** — simulated role participation |
+| Scope | **Harrismith BIM-management training / reference implementation only** |
+| Source | Orchestrator decision, Increment 8G-B |
+| Status | **OF-001 RESOLVED — IMPLEMENTATION AND VERIFICATION NOT YET PERFORMED** |
+
+**Approved topology.** `0. Common Files`; `01. WIP (Work in Progress)`;
+`02. Shared`; `03. Published`. Intended mapping: **Common Files** is a
+controlled reference / governance-support area and **is not an information
+state**; **WIP**, **Shared** and **Published / Authorised** correspond to those
+information states; **Record / Retained** remains a **conceptual requirement**
+and **no mandatory `04 Archive` root is approved or required**.
+
+**Conditions — all active.** **CGD-C01** states are not folders; **CGD-C02** no
+retrospective effect; **CGD-C03** controlled transitions; **CGD-C04** child
+structures excluded and **UD-001 remains unresolved**; **CGD-C05** naming
+remains provisional; **CGD-C06** retention without a mandatory Archive root;
+**CGD-C07** decision is not implementation, no root-level change directed,
+**verification pending**; **CGD-C08** authority separation.
+
+**Explicit non-effects.** CGD-001 does **not** authorise publication or lift the
+hold; approve **PAC-001** or its PM-1 position; reach **PE-2**; establish
+publication / exchange or recipient acceptance authority; confer CDE
+administration or implementation authority; authorise any Autodesk
+configuration change; approve any child folder, discipline structure or
+team-space mapping; resolve **UD-001**; close **GCR-005** or **GCR-006**;
+establish any project standard; or retrospectively authorise, approve or
+classify existing information.
+
+**Relationship to OF-001.** **Resolves OF-001 at the governance level.** The
+intended state is now defined. OF-001's historical record that the intended
+state was previously **"Not defined"** is **preserved, not rewritten**.
+
+**Relationship to PAC-001 and PRA-B01.** **PRA-B01's blocking dependency is
+resolved**; PRA-001's original outcome remains **historically valid** and its
+BLOCKER finding is not rewritten. The adopted topology **supports retaining**
+PAC-001's PM-1 candidate position, but **does not approve it**. **PAC-001
+remains prepared and not approved**, **no substantive revision is required
+solely because of CGD-001**, and **a fresh readiness reassessment is required**.
+
+**Implementation.** **None. Not authorised.** No root-level change is directed,
+the observed topology already corresponding to the approved one (CGD-C07).
+
+**Verification.** **Pending.** A later controlled verification must confirm the
+live topology before the mapping is relied on operationally.
+
+**Identifier-family note.** **CGD-001 establishes the `CGD-` family for
+controlled CDE-governance decisions in this training implementation.** **Later
+use of the family still requires a controlled scope and collision review** — no
+future CDE decision belongs to it automatically.
+
+**Decision record.** `docs/CDE-Structure-Governance-Decision.md`. **This entry
+is a reference, not a duplicate** — the full decision is not restated here
+(BEP 12.13, 13.1).
+
 ## 6A. Gate decisions
 
 ### GD-001 — Training Baseline 0.1 — Gate C Decision
@@ -925,6 +1017,7 @@ status, the replacement decision, the effective point, and the reason or context
 | 2026-08-01 | AD-001 recorded — Training Baseline 0.1 APPROVED WITH CONDITIONS for the governance basis assessed at cc146a5f. Register status advanced to APPROVED WITH CONDITIONS. GCR-005, GCR-006 and UD-001 remain open; publication/exchange and recipient acceptance authority remain unresolved; project standards remain Not established; publication remains NOT AUTHORISED with the hold active. | 7J |
 | 2026-08-01 | ROA-001 recorded by reference — one bounded read-only Publication Planning observation AUTHORISED WITH CONSTRAINTS, covering PPQ-001 to PPQ-007 in a single session, expiring on that session's completion report. Not yet exercised. No authority assigned; GCR-005, GCR-006 and UD-001 remain open; publication remains NOT AUTHORISED with the hold active. | 8C-A |
 | 2026-08-01 | PAC-001 recorded by reference — Publication Arrangement Candidate 0.1 prepared for PM-1 to PM-7 as PROPOSED GOVERNANCE — NOT APPROVED. Not a decision; no governance-decision identifier allocated; no authority assigned; no publication authorised. PM matters remain unresolved; GCR-005 and GCR-006 remain open; publication remains NOT AUTHORISED with the hold active. | 8F |
+| 2026-08-01 | CGD-001 recorded — CDE Structure Governance Decision, APPROVE WITH CONDITIONS, taken by the Training CDE Governance Approver under AG-002. The as-found four-area root topology (0. Common Files, 01. WIP, 02. Shared, 03. Published) is adopted as the intended training CDE governance, with the intended state mapping and conditions CGD-C01 to CGD-C08. OF-001 resolved at governance level; its historical "intended state not defined" record preserved. No retrospective effect; no child folder, discipline structure or team-space mapping approved; UD-001 remains unresolved; naming remains provisional; no Autodesk configuration change authorised and none directed at root level; verification pending. PAC-001 remains not approved and unamended, PRA-001's original outcome remains historically valid, PE-2 not reached, publication remains NOT AUTHORISED with the hold active. | 8G-B |
 | 2026-08-01 | AG-002 recorded — Training CDE Governance Approver function established as APPROVED GOVERNANCE, arising from OF-001, PRA-B01, PRA-001 and the Increment 8G-R authority-boundary review. Establishes who may decide OF-001; decides nothing. OF-001's decision owner advanced from "Not established — TBD" to Training CDE Governance Approver under AG-002, while its intended state remains "Not defined" and the matter remains unresolved. No structural outcome selected; no implementation, publication/exchange, acceptance or CDE administration authority conferred. PRA-B01 remains open, PAC-001 remains not approved and unamended, publication remains NOT AUTHORISED with the hold active. | 8G-A |
 | 2026-08-01 | PRA-001 recorded by reference — Publication Arrangement Readiness Assessment of PAC-001, outcome NOT READY FOR APPROVAL. Sole principal blocker PRA-B01: PM-1 depends on OF-001, whose intended CDE structure remains undefined. Five findings are approval conditions and six are implementation prerequisites; none independently prohibits later arrangement approval. Not a decision; no governance-decision identifier allocated; PAC-001 neither approved nor rejected and not amended; no authority assigned; no publication authorised; PE-2 not reached. OF-001, GCR-005 and GCR-006 remain open; publication remains NOT AUTHORISED with the hold active. | 8G |
 | 2026-08-01 | PAC-001 refined — PM-3's candidate format position completed (PDF/A-2b renditions, UTF-8 JSON manifest, optional UTF-8 Markdown source companions, SHA-256 digests) following the Increment 8F-R review, which returned 30 checks PASS and 1 FAIL. Classification and status unchanged: PAC-001 remains PROPOSED GOVERNANCE — NOT APPROVED. No authority assigned; no publication authorised; no new identifier allocated. GCR-005 and GCR-006 remain open; publication remains NOT AUTHORISED with the hold active. | 8F-A |

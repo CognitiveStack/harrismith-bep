@@ -44,6 +44,18 @@
 > Assessment:
 > [`docs/Publication-Arrangement-Readiness-Assessment.md`](Publication-Arrangement-Readiness-Assessment.md).
 
+> **Subsequent status — 2026-08-01, Increment 8G-B.** **CGD-001 adopted the
+> as-found four-area root topology with conditions** as the intended training
+> CDE governance. **PAC-001's proposed `03. Published` child-container position
+> is retained**, and **no substantive PM-1 revision is currently required**.
+> **PAC-001 remains prepared and NOT APPROVED** — the adopted topology supports
+> the position but **does not approve it**. **No child container was created**,
+> **naming remains provisional** (CGD-C05), and **arrangement approval and
+> implementation authority remain separate and unheld**. **Readiness must be
+> reassessed before PE-2.** **No PM section or decision-table row below is
+> rewritten by this note.** Decision:
+> [`docs/CDE-Structure-Governance-Decision.md`](CDE-Structure-Governance-Decision.md).
+
 ---
 
 ## 0. How to read this candidate
