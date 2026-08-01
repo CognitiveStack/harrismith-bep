@@ -169,6 +169,7 @@ repository.
 | Implementation Increment 7I | Complete — **Gate C PASSED** for candidate snapshot `cc146a5f…` (**GD-001**) |
 | Implementation Increment 7I-A / 7I-B | Complete — companion-document factual status corrections; no governance changed |
 | Implementation Increment 7J | Complete — **Training Baseline 0.1 APPROVED WITH CONDITIONS** (**AD-001**) |
+| Implementation Increment 7J-A | Complete — dated subsequent-status references added to **GD-001** recording the later **AD-001** approval; historical Gate C record preserved; no governance changed |
 | Implementation Increment 8A | Complete — Publication Planning control framework established; **no publication arrangement selected, no authority assigned** |
 
 All 13 main BEP sections now contain substantive draft content.
