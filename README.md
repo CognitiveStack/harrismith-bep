@@ -171,6 +171,7 @@ repository.
 | Implementation Increment 7J | Complete — **Training Baseline 0.1 APPROVED WITH CONDITIONS** (**AD-001**) |
 | Implementation Increment 7J-A | Complete — dated subsequent-status references added to **GD-001** recording the later **AD-001** approval; historical Gate C record preserved; no governance changed |
 | Implementation Increment 8A | Complete — Publication Planning control framework established; **no publication arrangement selected, no authority assigned** |
+| Implementation Increment 8B | Complete — Publication Planning evidence and observation control register established; **no evidence assessed, no question drafted, no observation authorised** |
 
 All 13 main BEP sections now contain substantive draft content.
 
@@ -218,8 +219,10 @@ approval and not an authorisation to publish:
 **Phase 8 — Publication Planning is the current phase.** It defines the
 governance needed to address GCR-005 and to establish a controlled basis for a
 later publication-authorisation decision. The control framework for that work is
-[`docs/Publication-Planning-Control-Framework.md`](docs/Publication-Planning-Control-Framework.md).
-It carries **no authority**, selects no publication arrangement and assigns no
+[`docs/Publication-Planning-Control-Framework.md`](docs/Publication-Planning-Control-Framework.md),
+and its evidence and observation questions are controlled through
+[`docs/Publication-Planning-Evidence-and-Observation-Control-Register.md`](docs/Publication-Planning-Evidence-and-Observation-Control-Register.md).
+Both carry **no authority**, select no publication arrangement and assign no
 authority. **Publication remains NOT AUTHORISED and the publication hold remains
 active.**
 
