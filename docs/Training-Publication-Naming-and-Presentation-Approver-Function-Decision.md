@@ -19,6 +19,20 @@
 
 > **PUBLICATION REMAINS NOT AUTHORISED — PUBLICATION HOLD ACTIVE.**
 
+> **Subsequent status — 2026-08-02, Increment 8H-C.** **`NPC-001` — the Training
+> Baseline Naming and Presentation Control Candidate — now exists**, coordinated
+> under **AG-004**. **NPC-001 carries `Authority: None`** and is classified
+> **`PROPOSED GOVERNANCE — NOT APPROVED`**; its status is **`CANDIDATE PREPARED
+> — NOT ASSESSED — NOT APPROVED`**. **The §6 candidate precondition is now met
+> as to candidate existence only** — whether NPC-001 covers the eleven required
+> matters is **not determined here**. **The orchestrator-directed separate
+> `Authority: None` readiness assessment remains required before AG-005 may be
+> exercised.** **AG-005 has not been exercised**, **no C5 decision occurred**,
+> **C5 remains `CARRIED FORWARD`**, **P6 step 3 remains pending** and **no
+> package commit was proposed or pinned**. **No substantive section below is
+> altered.** Candidate:
+> [`docs/Training-Baseline-Naming-and-Presentation-Control-Candidate.md`](Training-Baseline-Naming-and-Presentation-Control-Candidate.md).
+
 ---
 
 ## 1. Decision identification

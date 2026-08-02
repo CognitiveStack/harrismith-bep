@@ -840,7 +840,7 @@ well drafted.
 
 ## 11. Current register state
 
-As at completion of Increment 8H-B:
+As at completion of Increment 8H-C:
 
 | Statement | Position |
 |---|---|
@@ -849,8 +849,9 @@ As at completion of Increment 8H-B:
 | **Publication owner function** | **ESTABLISHED — `Training Baseline Publication Owner`, AG-004, 2026-08-02.** Functional holder **Training Implementation Owner** under **TA-02**; **no personal holder recorded**. **The function owns package identity, preparation governance and readiness coordination only** |
 | **PAD-001 condition C1** | **SATISFIED BY AG-004** |
 | **Naming and presentation control function** | **ESTABLISHED — `Training Publication Naming and Presentation Approver`, AG-005, 2026-08-02** (`docs/Training-Publication-Naming-and-Presentation-Approver-Function-Decision.md`). Functional holder **Training Implementation Owner** under **TA-02**; **no personal holder recorded**. **It may later decide the C5 controls; it has not** |
-| **PAD-001 condition C5** | **CARRIED FORWARD.** **DECISION ROUTE ESTABLISHED UNDER AG-005; CONTROL DECISION PENDING.** **No control candidate exists and no C5 decision has occurred**; **package assembly remains blocked** |
-| **PAD-001 prerequisite P6** | **Step 2 satisfied by AG-004**; **step 3 PENDING** — its **authority route is established by AG-005** but **the controls are not**; **P6 overall remains ACTIVE** |
+| **PAD-001 condition C5** | **CARRIED FORWARD.** **DECISION ROUTE ESTABLISHED UNDER AG-005; CANDIDATE PREPARED; NOT ASSESSED; NOT APPROVED.** **AG-005 has not been exercised and no C5 decision has occurred**; **package assembly remains blocked** |
+| **C5 control candidate** | **`NPC-001` — Training Baseline Naming and Presentation Control Candidate**, 2026-08-02 (`docs/Training-Baseline-Naming-and-Presentation-Control-Candidate.md`). **PROPOSED GOVERNANCE — NOT APPROVED**; **Authority: None**; status **CANDIDATE PREPARED — NOT ASSESSED — NOT APPROVED**. **Coordinated under AG-004**; **the decision belongs to AG-005 and has not been taken**. **A separate controlled `Authority: None` readiness assessment is required before AG-005 may be exercised — it has not been performed.** **NPC-001 is a proposal, not observational evidence, and is not recorded as evidence here** |
+| **PAD-001 prerequisite P6** | **Step 2 satisfied by AG-004**; **step 3 CANDIDATE PREPARED — NOT ASSESSED — NOT SATISFIED**; **P6 overall remains ACTIVE** |
 | **Publication-package commit** | **NOT PINNED** — and none proposed |
 | PM evidence positions | **PM-1, PM-3 … PM-7 ASSESSED — INSUFFICIENT**; PM-2 now **GOVERNANCE DECISION SATISFIED** through AG-004, **not through observation** (§5.3) |
 | A publication arrangement has been **selected or approved** | **Yes — approved with conditions by PAD-001 at PE-2.** **PE-3 is not authorised and publication remains NOT AUTHORISED** |
@@ -925,6 +926,19 @@ superseded and retained (BEP 12.10).
 > **§11 was updated to record the function, the C5 decision route and P6
 > step 3.** **No evidence finding changed, no observation occurred, no naming or
 > presentation control was approved, no C5 candidate was created and no
+> publication was authorised.** **C5 remains CARRIED FORWARD, P6 step 3 remains
+> pending, P6 remains ACTIVE, the publication-package commit remains unpinned
+> and publication remains NOT AUTHORISED.**
+
+> **Subsequent status — 2026-08-02, Increment 8H-C.** **`NPC-001` — the Training
+> Baseline Naming and Presentation Control Candidate — was prepared**,
+> coordinated under **AG-004**, classified **PROPOSED GOVERNANCE — NOT
+> APPROVED** with **Authority: None** and status **CANDIDATE PREPARED — NOT
+> ASSESSED — NOT APPROVED**. **§11 was updated to record its existence and the
+> C5 and P6 step 3 positions.** **NPC-001 is a proposal, not observational
+> evidence**, and **no PPER entry records it**. **No evidence finding changed,
+> no observation occurred, no naming or presentation control was approved, no
+> readiness assessment was performed, AG-005 was not exercised and no
 > publication was authorised.** **C5 remains CARRIED FORWARD, P6 step 3 remains
 > pending, P6 remains ACTIVE, the publication-package commit remains unpinned
 > and publication remains NOT AUTHORISED.**

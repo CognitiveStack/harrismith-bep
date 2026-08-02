@@ -89,6 +89,7 @@ where the approved baseline applies — but **none is asserted or recorded**
 | AD-001 | **APPROVED GOVERNANCE** | Training Baseline 0.1 — Approval Decision | **APPROVED WITH CONDITIONS** — 2026-08-01 | Training Baseline Approver |
 | ROA-001 | **CONTROLLED READ-ONLY OBSERVATION AUTHORISATION** | Publication Planning read-only observation | **AUTHORISE WITH CONSTRAINTS** — 2026-08-01; **EXERCISED ONCE — EXPIRED** | Training Implementation Owner |
 | PAC-001 | **PROPOSED GOVERNANCE** — historical proposal record | Publication Arrangement Candidate 0.1 — PM-1 to PM-7 | **APPROVED WITH CONDITIONS BY PAD-001** — 2026-08-01 | Training Publication Arrangement Approver under AG-003 |
+| NPC-001 | **PROPOSED GOVERNANCE — NOT APPROVED** | Training Baseline Naming and Presentation Control Candidate — PAD-001 condition C5 | **CANDIDATE PREPARED — NOT ASSESSED — NOT APPROVED** — 2026-08-02 | Coordinated under AG-004; decision belongs to Training Publication Naming and Presentation Approver under AG-005 |
 | TA-01 | TRAINING ASSUMPTION | Post-appointment context | Adopted | Not established — TBD |
 | TA-02 | TRAINING ASSUMPTION | Simulated role participation | Adopted | Not established — TBD |
 | TA-03 | TRAINING ASSUMPTION | Training delivery organisation | Adopted | Not established — TBD |
@@ -147,9 +148,17 @@ approval decision and approved no baseline. AD-001 is that approval decision.**
 approved.** The AD-001 conditions remain active, and **publication remains NOT
 AUTHORISED with the publication hold in force**.
 
-One **PROPOSED GOVERNANCE** entry exists — **PAC-001**, a candidate publication
-arrangement that is **prepared and not approved**, assigns no authority and
-authorises no publication (section 5).
+Two **PROPOSED GOVERNANCE** entries exist, and **neither counts toward the
+approved-governance total above**:
+
+- **PAC-001** — a candidate publication arrangement that is **prepared and not
+  approved**, assigns no authority and authorises no publication (section 5);
+- **NPC-001** — the **Training Baseline Naming and Presentation Control
+  Candidate** for **PAD-001 condition C5**, **prepared, not assessed and not
+  approved**, carrying **Authority: None**. **It proposes package-specific
+  filenames, a child-container name and presentation markings; it establishes
+  none of them, establishes no project-wide standard and authorises no
+  publication** (section 5).
 
 No APPROVED CHANGE, DEVIATION, NON-CONFORMANCE or SUPERSEDED DECISION entries
 exist.
@@ -683,6 +692,134 @@ record** — its classification and substantive content are unchanged. Decision 
 `docs/Publication-Arrangement-Approval-Decision.md`.
 
 **Candidate record.** `docs/Publication-Arrangement-Candidate-0.1.md`.
+**This entry is a reference, not a duplicate** — the candidate is not restated
+here (BEP 12.13, 13.1).
+
+### NPC-001 — Training Baseline Naming and Presentation Control Candidate
+
+| Field | Value |
+|---|---|
+| Identifier | **NPC-001** |
+| Classification | **PROPOSED GOVERNANCE — NOT APPROVED** |
+| Status | **CANDIDATE PREPARED — NOT ASSESSED — NOT APPROVED** |
+| **Authority** | **None** |
+| Candidate date | **2026-08-02** |
+| Source | Orchestrator-directed proposal coordinated under AG-004, Increment 8H-C |
+| Scope | **Training Baseline 0.1 package-specific naming and presentation controls only** |
+| Candidate-coordination function | **Training Baseline Publication Owner under AG-004** |
+| Future decision function | **Training Publication Naming and Presentation Approver under AG-005** |
+| Source repository state reviewed | `09c04ff9d84e79d95317206b393e217e3fb209a5` |
+| Training basis | **TA-02** — simulated role participation |
+| Candidate document | `docs/Training-Baseline-Naming-and-Presentation-Control-Candidate.md` |
+
+**What it is.** A controlled proposal of the minimum package-specific naming and
+presentation controls required by **PAD-001 condition C5**. **It is not a
+decision, not an assessment and not an approval**, and **it carries no
+authority**.
+
+**Filename grammar proposed.** Authoritative rendition
+`HFS-TB0P1-<DOCUMENT>-AWC.pdf`; authoritative manifest
+`HFS-TB0P1-MANIFEST-AWC.json`; subordinate source companion
+`HFS-TB0P1-<DOCUMENT>-AWC-SOURCE.md`. Token dictionary: `HFS` Harrismith Fire
+Station; `TB0P1` Training Baseline 0.1, with `P` representing the decimal point;
+`AWC` **Approved With Conditions**; `SOURCE` subordinate Markdown companion;
+`MANIFEST` authoritative package manifest. Fourteen character and format rules
+are proposed — uppercase ASCII, digits and hyphen only; hyphen as sole
+separator; no spaces, underscores, leading, trailing or consecutive hyphens; a
+single period before a lowercase class-fixed extension; fixed token order;
+case-insensitive uniqueness; a 120-character limit; `SOURCE` as the only
+relationship token; and application to this package only.
+
+**Controlled document-token map.** Seven source documents map to seven tokens —
+`BEP`; `IM-RESP-MATRIX`; `MODEL-INFO-RESP-MATRIX`; `INFO-DELIVERY-SCHEDULE`;
+`CDE-WORKFLOW-STATE-STRATEGY`; `COORDINATION-REVIEW-STRATEGY`;
+`GOVERNANCE-DECISION-REGISTER`. **The map is exhaustive for this package and
+creates no reusable project document codes.**
+
+**Package file-count summary.** **Fifteen proposed filenames** — **seven**
+authoritative `PDF/A-2b` renditions, **one** authoritative `UTF-8 JSON`
+manifest, **seven** subordinate `UTF-8 Markdown` source companions. **This
+matches PAD-001's approved boundary exactly**; **no file class is added, removed
+or merged**, and **no companion becomes authoritative**. Each rendition has
+exactly one companion sharing its complete stem plus `-SOURCE`; **the manifest
+has no companion**.
+
+**Proposed child-container name.** `Training Baseline 0.1` — exact title case,
+single spaces, no leading or trailing space, numeric form `0.1`, a direct child
+of `03. Published`, with **no additional child or subfolder authorised**. **The
+container does not exist because NPC-001 names it**; **CDE administration or
+implementation authority remains required (P7)** and **CGD-001 live
+correspondence remains unverified (C6)**.
+
+**Presentation-marking summary.** A package-specific first-page control block
+(project, baseline, document title, `APPROVED WITH CONDITIONS`, `AD-001`,
+`PAD-001`, `HFS-TB0P1`, the later-pinned source commit, the later generation
+date) and an every-page footer `HFS-TB0P1 | <DOCUMENT> | AWC | Page <x> of <y>`.
+**This is not a project titleblock or sheet standard**; **no source document is
+modified**; **the marking is applied only during later authorised generation**;
+and **the commit and date fields are deliberately unpopulatable today**. The
+seven packaged Markdown companions remain **byte-faithful** — no inserted
+heading, front matter, footer or content mutation.
+
+**Manifest identity rule.** Filename exactly `HFS-TB0P1-MANIFEST-AWC.json`;
+authoritative for package identity and integrity; records the exact fifteen-file
+inventory, each file's authoritative or subordinate role and each
+companion-to-rendition relationship; carries `HFS-TB0P1`, the full status
+`APPROVED WITH CONDITIONS` and the later pinned source commit; **uses PAD-001's
+approved PM-4 metadata set without change or enlargement**. **No manifest is
+generated.**
+
+**Scope boundary.** NPC-001 applies **only** to the fifteen-file Training
+Baseline 0.1 package and its proposed PM-1 child container. **It is not the
+Harrismith project naming standard, a general CDE naming standard, a titleblock
+standard, a template standard, a coordinate standard or a reusable naming
+convention for other packages.** **The project-wide naming, coordinate,
+titleblock and template standards remain NOT ESTABLISHED.**
+
+**Collision and ambiguity position.** The candidate records thirteen factual
+confirmations — fifteen unique names, unique case-insensitively; one companion
+per rendition; no companion for the manifest; `IM-RESP-MATRIX` distinct from
+`MODEL-INFO-RESP-MATRIX`; `TB0P1` not confusable with an extension; `SOURCE`
+only on companions; one controlled meaning for `AWC`; one period per filename;
+class-identifying extensions; container name distinct from the four CDE root
+areas; boundary unchanged; no project-wide standard. Longest proposed filename
+**52 characters**. **Platform compatibility has not been tested and no such
+claim is made.**
+
+**Readiness-assessment requirement.** **A separate controlled `Authority: None`
+readiness assessment is required before AG-005 may be exercised against
+NPC-001.** It is the orchestrator-directed workflow: it **adds no authority to
+NPC-001, does not alter AG-005, does not imply the candidate is ready, and
+prevents the candidate-preparation record from becoming its own approval
+justification**. **It has not been performed.** Eighteen readiness questions are
+recorded in the candidate and **all remain unanswered**.
+
+**C5 status.** **`C5 — CANDIDATE PREPARED; NOT ASSESSED; NOT APPROVED`**, with
+C5's overall status **`CARRIED FORWARD`**. The decision route exists under
+AG-005; **AG-005 has not been exercised**; **package assembly remains blocked**.
+
+**P6 status.** Step 1 **satisfied**; step 2 **satisfied by AG-004**; step 3
+**CANDIDATE PREPARED — NOT ASSESSED — NOT SATISFIED**; step 4 **not performed**;
+step 5 **sequence unchanged**. **P6 remains ACTIVE — PUBLICATION-PACKAGE COMMIT
+NOT PINNED**, and **no repository commit is the publication-package commit**.
+
+**Publication status.** **NOT AUTHORISED**; publication hold **ACTIVE**;
+publication / exchange authority **UNRESOLVED**; technical executor
+**unassigned**; CDE implementation authority **not established**; recipient
+acceptance authority **UNRESOLVED**; **PE-2 reached, PE-3 through PE-S not
+reached**; **no package artefact exists**.
+
+**Identifier-family note.** **NPC-001 opens the `NPC-` family** — *Naming and
+Presentation Control Candidate*. **`NPC-001` was unused before this record**,
+and the prefix collides with none of the established families (`AD-`, `AG-`,
+`CGD-`, `EC-`, `GCR-`, `GD-`, `OC-`, `OF-`, `PAC-`, `PAD-`, `PE-`, `PM-`,
+`PPER-`, `PPQ-`, `PRA-`, `ROA-`, `TA-`, `UD-`). **The family is expressly
+limited to package-specific naming and presentation control candidates and is a
+candidate family, not a decision or authority family** — **no `NPC-` record
+carries authority, approves anything or reaches any PE event**. **Later use
+still requires a controlled scope and collision review.**
+
+**Candidate record.** `docs/Training-Baseline-Naming-and-Presentation-Control-Candidate.md`.
 **This entry is a reference, not a duplicate** — the candidate is not restated
 here (BEP 12.13, 13.1).
 
@@ -1535,6 +1672,7 @@ status, the replacement decision, the effective point, and the reason or context
 
 | Date | Change | Increment |
 |---|---|---|
+| 2026-08-02 | NPC-001 recorded by reference — Training Baseline Naming and Presentation Control Candidate prepared for PAD-001 condition C5 as PROPOSED GOVERNANCE — NOT APPROVED, Authority None, status CANDIDATE PREPARED — NOT ASSESSED — NOT APPROVED, at repository state 09c04ff. Coordinated under AG-004 as a candidate-coordination and submission act only; AG-004 did not approve it. Opens the NPC- candidate family, expressly limited to package-specific naming and presentation control candidates and carrying no authority; no collision with the eighteen established prefixes. Proposes a token dictionary (HFS, TB0P1, AWC, SOURCE, MANIFEST plus seven document tokens), a three-form filename grammar, fourteen character and format rules, an exhaustive seven-document token map, an exact fifteen-file inventory matching PAD-001's approved boundary, a companion-to-rendition stem rule with a seven-row reconciliation, the child-container name Training Baseline 0.1 under 03. Published, package-specific first-page and footer presentation markings, a manifest identity rule using PAD-001's PM-4 metadata set unchanged, a byte-faithful source-companion rule and a thirteen-point collision and ambiguity assessment. Not a decision; no naming rule, filename, container name or presentation rule established; no project-wide naming, coordinate, titleblock or template standard established; no file, folder, container, rendition, manifest or digest created; no package assembled; no commit proposed or pinned; no platform compatibility tested. AG-005 not exercised and no C5 decision taken; a separate controlled Authority None readiness assessment remains required and was not performed; eighteen readiness questions remain unanswered. PAD-001, PAC-001, PRA-001, PRA-002, AG-001, AG-002, AG-003, CGD-001, AD-001, GD-001 and the seven approved source documents unchanged; PM-1 to PM-7, C1, C2, C3, C4 and C6 unchanged; P1 to P8 remain active; P6 step 3 CANDIDATE PREPARED — NOT ASSESSED — NOT SATISFIED and P6 remains ACTIVE; PPER-001 to PPER-009 and the PPQ records unchanged; no observation performed; C5 remains CARRIED FORWARD; GCR-005 remains closed at the governance-definition level; GCR-006 remains open; UD-001 remains unresolved; CGD-001 verification remains pending; PE-2 remains reached and PE-3 to PE-S not reached; publication remains NOT AUTHORISED with the hold active. | 8H-C |
 | 2026-08-02 | AG-005 recorded — Training Publication Naming and Presentation Approver function established as APPROVED GOVERNANCE, arising from PAD-001 condition C5, PAD-001 prerequisite P6 step 3, AG-004 authority-scope item 7, the approved fifteen-file package boundary, the proposed PM-1 child-container position and the absence of established project-wide naming and presentation standards. Functional holder Training Implementation Owner under TA-02; no personal holder recorded; the authority arises from AG-005 itself and from no label, ownership, membership, access, permission, AG-001, AG-002, AG-003, AG-004, CGD-001 or PAD-001. Scope limited to package-specific naming and presentation control governance; eighteen authority-scope items exercisable only through a later controlled decision, and only against a controlled C5 candidate covering eleven minimum matters. Establishes who may later decide C5; decides nothing. No control candidate created, no naming pattern, filename, container name or presentation rule approved, no project-wide standard established. C5 remains CARRIED FORWARD with its decision route established and its control decision pending; P6 step 1 and step 2 remain satisfied, step 3 remains pending with its authority route now established, P6 remains ACTIVE and no publication-package commit was proposed or pinned. PAD-001 unmodified; AG-004 unchanged in substance and remains the coordinating function; PM-1 to PM-7, C1, C2, C3, C4 and C6 unchanged; P1 to P8 remain active; PPER-001 to PPER-009 and the PPQ records unchanged; no observation performed; no package artefact; no publication/exchange, PE-3, execution, CDE implementation or recipient acceptance authority conferred; GCR-005 remains closed at the governance-definition level; GCR-006 remains open; UD-001 remains unresolved; CGD-001 verification remains pending; PE-2 remains reached and PE-3 to PE-S not reached; publication remains NOT AUTHORISED with the hold active. | 8H-B |
 | 2026-08-02 | AG-004 recorded — Training Baseline Publication Owner function established as APPROVED GOVERNANCE, arising from PAD-001 PM-2, PAD-001 condition C1, PRA-002 condition C1, PAD-001 prerequisite P6 step 2 and GCR-005's approved publication-owner parameter. Functional holder Training Implementation Owner under TA-02; no personal holder recorded; the authority arises from AG-004 itself and from no label, ownership, membership, access, permission, AG-001, AG-002, AG-003 or PAD-001. Scope limited to package identity, preparation governance and readiness coordination for the 15-file approved boundary. PM-2's owner-function establishment residual satisfied, status now APPROVED WITH CONDITIONS BY PAD-001 — OWNER FUNCTION ESTABLISHED UNDER AG-004; C1 SATISFIED BY AG-004; P6 step 2 satisfied while P6 overall remains ACTIVE and the publication-package commit remains unpinned. No publication/exchange, PE-3, execution, CDE implementation or recipient acceptance authority conferred; PAD-001 unchanged in substance; PM-1 and PM-3 to PM-7 unchanged; C2, C4, C5 and C6 carried forward; C3 remains satisfied; P1 to P8 otherwise unchanged; PPER-001 to PPER-009 unchanged; no observation performed; no package artefact; GCR-005 remains closed at the governance-definition level; GCR-006 remains open; UD-001 remains unresolved; CGD-001 verification remains pending; PE-2 remains reached and PE-3 to PE-S not reached; publication remains NOT AUTHORISED with the hold active. | 8H-A |
 | 2026-07-31 | Register populated as a controlled draft. TA-01, TA-02, TA-03 transcribed from BEP 2.6. OF-001 to OF-005 recorded. UD-001 detail recorded from the observed condition. | 3A |

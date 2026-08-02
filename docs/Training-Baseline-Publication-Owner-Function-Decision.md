@@ -32,6 +32,19 @@
 > section below is altered.** Decision:
 > [`docs/Training-Publication-Naming-and-Presentation-Approver-Function-Decision.md`](Training-Publication-Naming-and-Presentation-Approver-Function-Decision.md).
 
+> **Subsequent status — 2026-08-02, Increment 8H-C.** **`NPC-001` — the
+> Training Baseline Naming and Presentation Control Candidate — was prepared
+> through an orchestrator-directed proposal coordinated under AG-004.**
+> **AG-004's role was candidate coordination and submission only**, within
+> authority-scope item 7; **AG-004 did not approve the candidate**, and no
+> approval act occurred. **No readiness assessment occurred** — a separate
+> controlled `Authority: None` assessment remains required. **AG-005 was not
+> exercised**, **C5 remains `CARRIED FORWARD`**, **P6 step 3 remains pending**,
+> **no publication-package commit was proposed or pinned** and **publication
+> remains NOT AUTHORISED with the hold ACTIVE**. **No substantive section below
+> is altered.** Candidate:
+> [`docs/Training-Baseline-Naming-and-Presentation-Control-Candidate.md`](Training-Baseline-Naming-and-Presentation-Control-Candidate.md).
+
 ---
 
 ## 1. Decision identification
