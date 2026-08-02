@@ -187,6 +187,7 @@ repository.
 | Implementation Increment 8G-D | Complete — **PRA-002** fresh readiness reassessment; outcome **READY FOR APPROVAL WITH CONDITIONS**. **PRA-B01's dependency resolved by CGD-001** and **no current PE-2 blocker remains**; six conditions and eight implementation prerequisites carried forward. **PAC-001 remains NOT APPROVED, PE-2 not reached, AG-003 not exercised, publication remains NOT AUTHORISED.** Next possible stage: **Increment 8H** |
 | Implementation Increment 8H | Complete — **PAD-001** recorded; outcome **APPROVE WITH CONDITIONS**, **AG-003 exercised**. **All PM-1 to PM-7 positions approved with conditions**; the **seven Markdown source companions included as subordinate files** (15 package files); **GCR-005 CLOSED at the governance-definition level**. **PE-2 reached; PE-3 NOT reached; publication remains NOT AUTHORISED and the hold remains ACTIVE**; **P1–P8 and residual conditions remain**. Next controlled stage: **exact PAD-001 review** |
 | Implementation Increment 8H-R-A | Complete — corrected stale post-PAD-001 current-state summaries in this README and in §11 of the Publication Planning Evidence and Observation Control Register. **No governance decision amended, no authority exercised, no function established, no PE event reached**; **publication remains NOT AUTHORISED and the publication hold remains ACTIVE**. Next controlled stage: **Increment 8H-A** |
+| Implementation Increment 8H-A | Complete — **AG-004** established the **Training Baseline Publication Owner**, functional holder the **Training Implementation Owner** under **TA-02**, no personal holder recorded. **PM-2's owner-function establishment residual is satisfied**; **condition C1 is SATISFIED BY AG-004**; **P6 step 2 is satisfied** while **P6 overall remains ACTIVE and the publication-package commit remains unpinned**. **Publication/exchange authority remains UNRESOLVED; PE-3 remains NOT reached; publication remains NOT AUTHORISED and the publication hold remains ACTIVE.** Next controlled stage: **exact AG-004 review** |
 
 All 13 main BEP sections now contain substantive draft content.
 
@@ -259,14 +260,18 @@ subsequently resolved PRA-B01's CDE-structure dependency, and
 basis
 [`docs/Publication-Arrangement-Approval-Decision.md`](docs/Publication-Arrangement-Approval-Decision.md)
 (**PAD-001**) **exercised AG-003** and **reached PE-2**, approving **PM-1 to
-PM-7 with conditions**. **PM-2 still carries OWNER FUNCTION ESTABLISHMENT
-PENDING**, **GCR-005 is closed only at the governance-definition level**, and
-**conditions C1 to C6 and implementation prerequisites P1 to P8 continue
-according to PAD-001**. **PE-3 through PE-S remain not reached; publication
+PM-7 with conditions**. **GCR-005 is closed only at the governance-definition
+level**, and **conditions C1 to C6 and implementation prerequisites P1 to P8
+continue according to PAD-001**. The **Training Baseline Publication Owner**
+function required by PM-2 has since been established by **AG-004** —
+[`docs/Training-Baseline-Publication-Owner-Function-Decision.md`](docs/Training-Baseline-Publication-Owner-Function-Decision.md)
+— so **PM-2's owner-function establishment residual and condition C1 are
+satisfied** and **P6 step 2 is satisfied**; **AG-004 owns package identity,
+preparation governance and readiness coordination only** and **authorises no
+publication event**. **P6 otherwise remains ACTIVE, publication/exchange
+authority remains UNRESOLVED, PE-3 through PE-S remain not reached, publication
 remains NOT AUTHORISED and the publication hold remains ACTIVE; no package
-exists and no publication-package commit has been pinned.** The next controlled
-substantive stage is establishment of the **Training Baseline Publication
-Owner** function required by PM-2.
+exists and no publication-package commit has been pinned.**
 
 Architecture Baseline v1 is **frozen**. The document architecture recorded in
 section 3 is not to be redesigned during implementation increments. Proposed

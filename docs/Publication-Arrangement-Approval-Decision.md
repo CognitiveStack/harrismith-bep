@@ -27,6 +27,20 @@
 > acceptance authority**; **creates no real project appointment or professional
 > authority**; and **creates no Git tag or GitHub release**.
 
+> **Subsequent status — 2026-08-02, Increment 8H-A.** **AG-004 established the
+> `Training Baseline Publication Owner`** function required by **PM-2** (§4.2),
+> with the **Training Implementation Owner** as functional holder under
+> **TA-02** and **no personal holder recorded**. **PM-2's owner-function
+> establishment residual is satisfied**; its status becomes **`APPROVED WITH
+> CONDITIONS BY PAD-001 — OWNER FUNCTION ESTABLISHED UNDER AG-004`**.
+> **Condition C1 (§5.1) is SATISFIED BY AG-004**, and **P6 step 2 (§8) is
+> satisfied**. **P6 otherwise remains ACTIVE and the publication-package commit
+> remains NOT PINNED.** **Publication / exchange authority remains UNRESOLVED**,
+> **PE-3 remains not reached**, **publication remains NOT AUTHORISED** and **the
+> publication hold remains ACTIVE**. **No decision section below is altered.**
+> Decision:
+> [`docs/Training-Baseline-Publication-Owner-Function-Decision.md`](Training-Baseline-Publication-Owner-Function-Decision.md).
+
 ---
 
 ## 1. Decision identification

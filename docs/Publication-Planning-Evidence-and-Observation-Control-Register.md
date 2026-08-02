@@ -231,7 +231,7 @@ Presented as four aligned tables keyed by matter reference.
 | Ref | Matter | What must eventually be decided | Decision status |
 |---|---|---|---|
 | **PM-1** | Publication location | Which governed destination holds published information, and on what basis it is *the* governed destination rather than merely an available one | **APPROVED WITH CONDITIONS BY PAD-001** (`docs/Publication-Arrangement-Approval-Decision.md`); candidate **PAC-001** |
-| **PM-2** | Publication owner | Which **function** owns the publication act, and under what authority that function exists | **APPROVED WITH CONDITIONS BY PAD-001** (`docs/Publication-Arrangement-Approval-Decision.md`); **OWNER FUNCTION ESTABLISHMENT PENDING**; candidate **PAC-001** |
+| **PM-2** | Publication owner | Which **function** owns the publication act, and under what authority that function exists | **APPROVED WITH CONDITIONS BY PAD-001** (`docs/Publication-Arrangement-Approval-Decision.md`); **OWNER FUNCTION ESTABLISHED UNDER AG-004** (`docs/Training-Baseline-Publication-Owner-Function-Decision.md`); candidate **PAC-001** |
 | **PM-3** | Publication format | What artefact form is published from the authoring source, and how it is generated from it | **APPROVED WITH CONDITIONS BY PAD-001** (`docs/Publication-Arrangement-Approval-Decision.md`); candidate **PAC-001** |
 | **PM-4** | Publication metadata | What identity, version and status metadata a published artefact must carry, and how each field is populated and checked | **APPROVED WITH CONDITIONS BY PAD-001** (`docs/Publication-Arrangement-Approval-Decision.md`); candidate **PAC-001** |
 | **PM-5** | Upload procedure | The controlled sequence by which an authorised publication is executed, including its pre-conditions and its stop conditions | **APPROVED WITH CONDITIONS BY PAD-001** (`docs/Publication-Arrangement-Approval-Decision.md`); candidate **PAC-001** |
@@ -259,7 +259,7 @@ Presented as four aligned tables keyed by matter reference.
 | Ref | Governance / authority input required | Dependencies | Current evidence-requirement status |
 |---|---|---|---|
 | **PM-1** | Arrangement decision identifying the governed destination and its basis | — | **ASSESSED — INSUFFICIENT** (PPER-004). Observational evidence obtained and assessed; **insufficient to select a location** |
-| **PM-2** | **An authority decision establishing a publication / exchange function** | — | **GOVERNANCE DECISION REQUIRED — unchanged.** Excluded from observation; **no observation was made against it** (§6, §10.3) |
+| **PM-2** | **An authority decision establishing a publication / exchange function** | — | **GOVERNANCE DECISION SATISFIED** — **AG-004** established the **Training Baseline Publication Owner**; **publication / exchange, execution and acceptance authorities remain separate and unresolved or unassigned**. **PM-2 has no observational route**: it was excluded from observation, **no observation was made against it**, and **no observation established the function** (§6, §10.3) |
 | **PM-3** | Arrangement decision recording format and generation route | PM-1 | **ASSESSED — INSUFFICIENT** (PPER-005). Observational evidence obtained and assessed; **publication format remains undecided** |
 | **PM-4** | Metadata requirement, recorded as part of the arrangement decision | PM-1, PM-3 | **ASSESSED — INSUFFICIENT** (PPER-006). Observational evidence obtained and assessed; **required metadata remains undefined** |
 | **PM-5** | Approved controlled procedure, separate from the arrangement decision | PM-1, PM-2, PM-3, PM-4 | **ASSESSED — INSUFFICIENT** (PPER-007). Observational evidence obtained and assessed; **upload procedure remains undefined** |
@@ -314,6 +314,15 @@ PM-2 remains:
 > identified the publication owner.** If a future observation returns ownership,
 > permission or membership facts, those are **EC-3** platform facts about
 > permission, and they are recorded as such — never as authority (§8.2).
+
+> **Subsequent status — 2026-08-02, Increment 8H-A.** **The later authority
+> decision anticipated by the second bullet above has been taken**: **AG-004**
+> established the **Training Baseline Publication Owner**. **The observational
+> position is unchanged** — PM-2 remains **NOT OBSERVABLE as a governance
+> answer** and remains excluded from **OC-A to OC-D**, and **no observation
+> established the function**. **Authority came from a decision, as this section
+> requires.** Decision:
+> [`docs/Training-Baseline-Publication-Owner-Function-Decision.md`](Training-Baseline-Publication-Owner-Function-Decision.md).
 
 ### 6.3 Related unresolved authority
 
@@ -831,13 +840,17 @@ well drafted.
 
 ## 11. Current register state
 
-As at completion of Increment 8H:
+As at completion of Increment 8H-A:
 
 | Statement | Position |
 |---|---|
 | PM-1 … PM-7 exist as controlled planning matters | **Yes — all seven** |
-| **PM decision statuses** | All seven now read **APPROVED WITH CONDITIONS BY PAD-001** (§5.1). **PM-2 additionally records OWNER FUNCTION ESTABLISHMENT PENDING.** **PM-2's authority requirement at §5.3 remains GOVERNANCE DECISION REQUIRED** — PAD-001 approved that the owner function should exist; it did **not** establish it |
-| PM evidence positions | **Updated** — PM-1, PM-3 … PM-7 now **ASSESSED — INSUFFICIENT**; PM-2 unchanged at **GOVERNANCE DECISION REQUIRED** (§5.3) |
+| **PM decision statuses** | All seven read **APPROVED WITH CONDITIONS BY PAD-001** (§5.1). **PM-2 additionally records OWNER FUNCTION ESTABLISHED UNDER AG-004.** **PM-2's authority requirement at §5.3 is now GOVERNANCE DECISION SATISFIED** — PAD-001 approved that the owner function should exist; **AG-004 established it** |
+| **Publication owner function** | **ESTABLISHED — `Training Baseline Publication Owner`, AG-004, 2026-08-02.** Functional holder **Training Implementation Owner** under **TA-02**; **no personal holder recorded**. **The function owns package identity, preparation governance and readiness coordination only** |
+| **PAD-001 condition C1** | **SATISFIED BY AG-004** |
+| **PAD-001 prerequisite P6** | **Step 2 satisfied by AG-004**; **P6 overall remains ACTIVE** |
+| **Publication-package commit** | **NOT PINNED** |
+| PM evidence positions | **PM-1, PM-3 … PM-7 ASSESSED — INSUFFICIENT**; PM-2 now **GOVERNANCE DECISION SATISFIED** through AG-004, **not through observation** (§5.3) |
 | A publication arrangement has been **selected or approved** | **Yes — approved with conditions by PAD-001 at PE-2.** **PE-3 is not authorised and publication remains NOT AUTHORISED** |
 | A candidate arrangement has been prepared | **Yes — `PAC-001`, Increment 8F**, classified **at preparation** as **PROPOSED GOVERNANCE — NOT APPROVED**. **PAD-001 subsequently approved the PAC-001 substantive arrangement with conditions at PE-2**; PAC-001 is retained as the **historical proposal record**, and its original document classification is **historical provenance, not the current status of the approved arrangement**. **PE-3 remains not authorised and publication remains NOT AUTHORISED** |
 | PM-2 is excluded from observational resolution | **Yes — §6, §10.3.** No observation was made against it |
@@ -894,6 +907,15 @@ superseded and retained (BEP 12.10).
 > corrected, no PPER assessment was changed, no new decision was made, no
 > authority was assigned, no observation was performed and no publication was
 > authorised.**
+
+> **Subsequent status — 2026-08-02, Increment 8H-A.** **AG-004 established the
+> `Training Baseline Publication Owner` function**, satisfying PM-2's
+> owner-function establishment residual, **PAD-001 condition C1** and **P6
+> step 2**. **§5.1 PM-2, §5.3 PM-2, §6.2 and §11 were updated to record it.**
+> **No evidence finding or PPER assessment changed, no observation occurred,
+> PAD-001 remained unchanged in substance, and no publication was authorised.**
+> **P6 remains ACTIVE, the publication-package commit remains unpinned, PE-3
+> remains not reached and publication remains NOT AUTHORISED.**
 
 ---
 

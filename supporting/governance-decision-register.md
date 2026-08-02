@@ -83,6 +83,7 @@ where the approved baseline applies — but **none is asserted or recorded**
 | CGD-001 | **APPROVED GOVERNANCE** | CDE Structure Governance Decision — intended root topology | **APPROVE WITH CONDITIONS** — 2026-08-01; **OF-001 RESOLVED; VERIFICATION PENDING** | Training CDE Governance Approver |
 | AG-003 | **APPROVED GOVERNANCE** | Training Publication Arrangement Approver Function | **FUNCTION ESTABLISHED — PAC-001 APPROVAL DECISION NOT YET TAKEN** — 2026-08-01 | Training Publication Arrangement Approver |
 | PAD-001 | **APPROVED GOVERNANCE** | Publication Arrangement Approval Decision — PAC-001 | **APPROVE WITH CONDITIONS** — 2026-08-01; **PE-2 REACHED; PE-3 NOT AUTHORISED** | Training Publication Arrangement Approver |
+| AG-004 | **APPROVED GOVERNANCE** | Training Baseline Publication Owner Function | **FUNCTION ESTABLISHED — NO PUBLICATION EVENT AUTHORISED** — 2026-08-02 | Training Baseline Publication Owner |
 | GD-001 | **CONTROLLED GATE DECISION** | Training Baseline 0.1 — Gate C Decision | **PASS** — 2026-08-01 | Training Baseline Approver |
 | AD-001 | **APPROVED GOVERNANCE** | Training Baseline 0.1 — Approval Decision | **APPROVED WITH CONDITIONS** — 2026-08-01 | Training Baseline Approver |
 | ROA-001 | **CONTROLLED READ-ONLY OBSERVATION AUTHORISATION** | Publication Planning read-only observation | **AUTHORISE WITH CONSTRAINTS** — 2026-08-01; **EXERCISED ONCE — EXPIRED** | Training Implementation Owner |
@@ -100,7 +101,7 @@ where the approved baseline applies — but **none is asserted or recorded**
 | OF-008 | OBSERVED FACT | Model Coordination provisioning | Recorded | Not established — TBD |
 | UD-001 | OBSERVED FACT + UNRESOLVED DECISION | Design Collaboration MEP / Structural team-space mapping | **Unresolved** | Not established — TBD |
 
-Eight governance entries exist beyond observations and assumptions:
+Nine governance entries exist beyond observations and assumptions:
 
 - **AG-001** — APPROVED GOVERNANCE, establishing the Training Baseline Approval
   Function;
@@ -126,6 +127,11 @@ Eight governance entries exist beyond observations and assumptions:
   Approval Decision**: PAC-001 is **approved with conditions** at **PE-2**.
   **It closes GCR-005 at the governance-definition level; it authorises no
   publication and does not reach PE-3** (section 6).
+- **AG-004** — APPROVED GOVERNANCE, establishing the **Training Baseline
+  Publication Owner** function required by **PM-2**. **It owns package identity,
+  preparation governance and readiness coordination; it authorises no
+  publication event, pins no commit and confers no publication / exchange,
+  execution, CDE implementation or acceptance authority** (section 6).
 
 **AG-001 establishes who may decide. GD-001 authorised progression to an
 approval decision and approved no baseline. AD-001 is that approval decision.**
@@ -1022,6 +1028,151 @@ review** — no future decision belongs to it automatically.
 **This entry is a reference, not a duplicate** — the full decision is not
 restated here (BEP 12.13, 13.1).
 
+**Subsequent status — 2026-08-02, Increment 8H-A.** **AG-004 established the
+`Training Baseline Publication Owner`** function required by PM-2. **PM-2's
+owner-function establishment residual is satisfied**, and its status becomes
+**APPROVED WITH CONDITIONS BY PAD-001 — OWNER FUNCTION ESTABLISHED UNDER
+AG-004**. **Condition C1 is SATISFIED BY AG-004**; **P6 step 2 is satisfied**
+while **P6 overall remains ACTIVE and the publication-package commit remains
+NOT PINNED**. **PE-3 remains not reached, publication remains NOT AUTHORISED
+and the publication hold remains ACTIVE.** **No PAD-001 decision section is
+altered.**
+
+### AG-004 — Training Baseline Publication Owner Function
+
+| Field | Value |
+|---|---|
+| Classification | **APPROVED GOVERNANCE** |
+| Topic | Training Baseline Publication Owner Function |
+| Source | Orchestrator decision, Increment 8H-A |
+| Decision date | **2026-08-02** |
+| Training basis | **TA-02** — simulated role participation |
+| Scope | **Training Baseline 0.1 publication-package identity, preparation governance and readiness coordination only** |
+| Status | **FUNCTION ESTABLISHED — NO PUBLICATION EVENT AUTHORISED** |
+| Decision owner | Training Baseline Publication Owner |
+
+**Decision.** Establish the **Training Baseline Publication Owner** function.
+**Functional holder — Training Implementation Owner**, under **TA-02**.
+**Personal holder — not recorded**; no personal name appears in this repository.
+
+**Arising from.** **PAD-001 PM-2**, whose approved position is that a distinct
+Training Baseline Publication Owner function **is required** and which expressly
+**did not establish it or appoint a holder**; **PAD-001 condition C1**, disposed
+of as *SATISFIED AT PE-2 AS TO THE ARRANGEMENT POSITION; RESIDUAL CONDITION
+OPEN*; **PRA-002 condition C1**, which required separate establishment or
+refusal through an authorised decision; **PAD-001 prerequisite P6 step 2**; and
+**GCR-005's approved publication-owner parameter**. **No existing function
+sufficed**: AG-001 is limited to Training Baseline candidate approval, AG-002 to
+CDE-structure governance, AG-003 to PE-2 arrangement approval, CGD-001 confers
+no publication-owner authority, and publication / exchange authority remains
+unresolved and concerns PE-3.
+
+**Authority source.** **The authority arises from AG-004 itself.** **No
+pre-existing independent authority of the Training Implementation Owner is
+assumed**, and none is inferred from the Training Implementation Owner label,
+repository ownership, project membership, system access, administrative
+permissions, AG-001, AG-002, AG-003 or PAD-001.
+
+**Function established.** **Training Baseline Publication Owner** — owner of the
+controlled **identity, preparation governance and readiness coordination** of a
+future Training Baseline 0.1 publication package. **A simulated training
+function**; **no real project appointment, professional authority, contractual
+duty or liability is created**.
+
+**Authority conferred.** Maintain the authoritative interpretation of PAD-001's
+approved package boundary; identify the exact controlled source content;
+maintain the package file inventory — **seven authoritative PDF/A-2b renditions,
+one authoritative UTF-8 JSON manifest and seven subordinate UTF-8 Markdown
+source companions**; maintain each companion-to-rendition relationship;
+coordinate satisfaction of PAD-001 conditions and prerequisites relevant to
+package preparation; receive and review evidence that required controls are
+satisfied; coordinate minimum naming and presentation controls established
+through a separately authorised decision; coordinate selection and testing of
+generation and validation routes established through separately authorised
+technical controls; identify when the repository state is eligible for later
+commit pinning; **propose** the exact publication-package commit for a later
+controlled pinning action; maintain package identity and version record after a
+commit is later pinned; coordinate manifest data preparation using PAD-001's
+approved metadata requirements; prepare or coordinate a package-readiness record
+for the future publication / exchange authoriser; identify unresolved
+conditions, prerequisites or stop conditions; **stop** package preparation where
+approved controls are not satisfied; and **request** a later PE-3 decision from
+the appropriately established publication / exchange authority.
+
+**Authority NOT conferred.** Project publication / exchange authority; PE-3
+authority; authority to authorise a publication event; PE-4 exercise; technical
+upload or execution authority; CDE administration or implementation authority;
+folder or container creation, renaming, moving or deletion; permission or
+membership change; appointment of the technical executor; acceptance of
+deliverables; recipient acceptance authority; PE-S authority; professional or
+design approval; change to PAD-001; alteration of the approved package boundary;
+conversion of Markdown companions into authoritative documents; establishment of
+project-wide naming, coordinate, titleblock or template standards; declaring a
+technical prerequisite satisfied without evidence; treating repository access or
+CDE permissions as publication authority; pinning the publication-package commit
+during Increment 8H-A; or generating, assembling, uploading or publishing a
+package during Increment 8H-A. **Holding this function confers none of the other
+authorities.**
+
+**Relationship to PAD-001.** **PAD-001 is unchanged in substance** — a dated
+subsequent-status note only. PAD-001 approved that the function should exist;
+**AG-004 establishes it**. **Arrangement approval, package ownership, event
+authorisation, execution and acceptance remain five separate things.**
+
+**Relationship to PM-2.** **PM-2's owner-function establishment residual is
+satisfied.** New status: **APPROVED WITH CONDITIONS BY PAD-001 — OWNER FUNCTION
+ESTABLISHED UNDER AG-004**. Function established; functional holder assigned
+under TA-02; **personal holder not recorded**; **publication / exchange
+authority remains unresolved**; **technical execution authority remains
+unassigned**; **recipient acceptance authority remains unresolved**. **PM-2
+remains an approved-with-conditions arrangement position**, and AG-004 removes
+no unrelated PAD-001 condition or prerequisite. **No observation established the
+function**, and none could.
+
+**Relationship to C1.** **C1 — SATISFIED BY AG-004.** The arrangement position
+was approved by PAD-001; AG-004 now establishes the required function and
+records a functional holder. **No publication / exchange authority and no PE-3
+authority follows.** **The historical PRA-002 and PAD-001 condition wording is
+not rewritten.**
+
+**Relationship to P6.** **Step 2 — *the Training Baseline Publication Owner
+function has been separately established* — is SATISFIED by AG-004.** **P6
+overall remains ACTIVE — PUBLICATION-PACKAGE COMMIT NOT PINNED.** Step 1
+(PAD-001 and its register entry) was already satisfied; **step 3, the required
+naming and presentation controls, remains pending (C5)**; **pinning is not
+performed**, and **pinning still precedes generation and PE-3**.
+
+**PE-event boundaries.** **PE-1 reached previously; PE-2 reached by PAD-001;
+PE-3 through PE-S not reached.** **PE-3 requires publication / exchange
+authority, which remains UNRESOLVED and is not established here.** **Owning the
+package is not authorising its publication.**
+
+**Implementation.** Function documented in
+`docs/Training-Baseline-Publication-Owner-Function-Decision.md`. **No technical
+act is authorised or performed** — no container, no permission change, no
+toolchain or route selected or tested, no naming or presentation control
+established, no CGD-001 verification, no rendition, manifest or digest, no
+package, **no pinned commit**.
+
+**Verification.** **Not yet performed.** The function is established and not yet
+exercised.
+
+**Current status.** **FUNCTION ESTABLISHED — NO PUBLICATION EVENT AUTHORISED.**
+**GCR-005 remains closed at the governance-definition level; GCR-006 remains
+OPEN; UD-001 remains unresolved; CGD-001 verification remains pending;
+publication remains NOT AUTHORISED with the hold active.**
+
+**Identifier-family note.** **AG-004 extends the `AG-` family as this training
+implementation's authority-establishment decision precedent**, following AG-001,
+AG-002 and AG-003. **`AG-004` was unused before this record.** **Later use of
+the family still requires a controlled scope and collision review** — no future
+authority decision belongs to it automatically.
+
+**Note.** This entry establishes a *governance function*. **No publication event
+is authorised**, **no package exists**, **no commit is pinned**, and **the
+publication hold remains in force**. **This entry is a reference, not a
+duplicate** — the full decision is not restated here (BEP 12.13, 13.1).
+
 ## 6A. Gate decisions
 
 ### GD-001 — Training Baseline 0.1 — Gate C Decision
@@ -1226,6 +1377,7 @@ status, the replacement decision, the effective point, and the reason or context
 
 | Date | Change | Increment |
 |---|---|---|
+| 2026-08-02 | AG-004 recorded — Training Baseline Publication Owner function established as APPROVED GOVERNANCE, arising from PAD-001 PM-2, PAD-001 condition C1, PRA-002 condition C1, PAD-001 prerequisite P6 step 2 and GCR-005's approved publication-owner parameter. Functional holder Training Implementation Owner under TA-02; no personal holder recorded; the authority arises from AG-004 itself and from no label, ownership, membership, access, permission, AG-001, AG-002, AG-003 or PAD-001. Scope limited to package identity, preparation governance and readiness coordination for the 15-file approved boundary. PM-2's owner-function establishment residual satisfied, status now APPROVED WITH CONDITIONS BY PAD-001 — OWNER FUNCTION ESTABLISHED UNDER AG-004; C1 SATISFIED BY AG-004; P6 step 2 satisfied while P6 overall remains ACTIVE and the publication-package commit remains unpinned. No publication/exchange, PE-3, execution, CDE implementation or recipient acceptance authority conferred; PAD-001 unchanged in substance; PM-1 and PM-3 to PM-7 unchanged; C2, C4, C5 and C6 carried forward; C3 remains satisfied; P1 to P8 otherwise unchanged; PPER-001 to PPER-009 unchanged; no observation performed; no package artefact; GCR-005 remains closed at the governance-definition level; GCR-006 remains open; UD-001 remains unresolved; CGD-001 verification remains pending; PE-2 remains reached and PE-3 to PE-S not reached; publication remains NOT AUTHORISED with the hold active. | 8H-A |
 | 2026-07-31 | Register populated as a controlled draft. TA-01, TA-02, TA-03 transcribed from BEP 2.6. OF-001 to OF-005 recorded. UD-001 detail recorded from the observed condition. | 3A |
 | 2026-08-01 | Increment 7C validation evidence incorporated. OF-001 to OF-005 reconfirmed; UD-001 evidence updated and left unresolved; OF-006, OF-007 and OF-008 recorded as OBSERVED FACT. | 7D |
 | 2026-08-01 | AG-001 recorded — Training Baseline Approval Function established as APPROVED GOVERNANCE. First approved-governance entry. Baseline 0.1 remains unapproved. | 7G |
