@@ -840,7 +840,7 @@ well drafted.
 
 ## 11. Current register state
 
-As at completion of Increment 8H-A:
+As at completion of Increment 8H-B:
 
 | Statement | Position |
 |---|---|
@@ -848,8 +848,10 @@ As at completion of Increment 8H-A:
 | **PM decision statuses** | All seven read **APPROVED WITH CONDITIONS BY PAD-001** (§5.1). **PM-2 additionally records OWNER FUNCTION ESTABLISHED UNDER AG-004.** **PM-2's authority requirement at §5.3 is now GOVERNANCE DECISION SATISFIED** — PAD-001 approved that the owner function should exist; **AG-004 established it** |
 | **Publication owner function** | **ESTABLISHED — `Training Baseline Publication Owner`, AG-004, 2026-08-02.** Functional holder **Training Implementation Owner** under **TA-02**; **no personal holder recorded**. **The function owns package identity, preparation governance and readiness coordination only** |
 | **PAD-001 condition C1** | **SATISFIED BY AG-004** |
-| **PAD-001 prerequisite P6** | **Step 2 satisfied by AG-004**; **P6 overall remains ACTIVE** |
-| **Publication-package commit** | **NOT PINNED** |
+| **Naming and presentation control function** | **ESTABLISHED — `Training Publication Naming and Presentation Approver`, AG-005, 2026-08-02** (`docs/Training-Publication-Naming-and-Presentation-Approver-Function-Decision.md`). Functional holder **Training Implementation Owner** under **TA-02**; **no personal holder recorded**. **It may later decide the C5 controls; it has not** |
+| **PAD-001 condition C5** | **CARRIED FORWARD.** **DECISION ROUTE ESTABLISHED UNDER AG-005; CONTROL DECISION PENDING.** **No control candidate exists and no C5 decision has occurred**; **package assembly remains blocked** |
+| **PAD-001 prerequisite P6** | **Step 2 satisfied by AG-004**; **step 3 PENDING** — its **authority route is established by AG-005** but **the controls are not**; **P6 overall remains ACTIVE** |
+| **Publication-package commit** | **NOT PINNED** — and none proposed |
 | PM evidence positions | **PM-1, PM-3 … PM-7 ASSESSED — INSUFFICIENT**; PM-2 now **GOVERNANCE DECISION SATISFIED** through AG-004, **not through observation** (§5.3) |
 | A publication arrangement has been **selected or approved** | **Yes — approved with conditions by PAD-001 at PE-2.** **PE-3 is not authorised and publication remains NOT AUTHORISED** |
 | A candidate arrangement has been prepared | **Yes — `PAC-001`, Increment 8F**, classified **at preparation** as **PROPOSED GOVERNANCE — NOT APPROVED**. **PAD-001 subsequently approved the PAC-001 substantive arrangement with conditions at PE-2**; PAC-001 is retained as the **historical proposal record**, and its original document classification is **historical provenance, not the current status of the approved arrangement**. **PE-3 remains not authorised and publication remains NOT AUTHORISED** |
@@ -916,6 +918,16 @@ superseded and retained (BEP 12.10).
 > PAD-001 remained unchanged in substance, and no publication was authorised.**
 > **P6 remains ACTIVE, the publication-package commit remains unpinned, PE-3
 > remains not reached and publication remains NOT AUTHORISED.**
+
+> **Subsequent status — 2026-08-02, Increment 8H-B.** **AG-005 established a
+> decision function** — the **`Training Publication Naming and Presentation
+> Approver`**, which **may later decide the PAD-001 condition C5 controls**.
+> **§11 was updated to record the function, the C5 decision route and P6
+> step 3.** **No evidence finding changed, no observation occurred, no naming or
+> presentation control was approved, no C5 candidate was created and no
+> publication was authorised.** **C5 remains CARRIED FORWARD, P6 step 3 remains
+> pending, P6 remains ACTIVE, the publication-package commit remains unpinned
+> and publication remains NOT AUTHORISED.**
 
 ---
 

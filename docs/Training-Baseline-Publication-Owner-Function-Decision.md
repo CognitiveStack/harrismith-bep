@@ -18,6 +18,20 @@
 
 > **PUBLICATION REMAINS NOT AUTHORISED — PUBLICATION HOLD ACTIVE.**
 
+> **Subsequent status — 2026-08-02, Increment 8H-B.** **AG-005 established the
+> `Training Publication Naming and Presentation Approver`** — the function that
+> **may later decide** the **PAD-001 condition C5** controls. **AG-004 may
+> coordinate with that function under authority-scope item 7**, which refers to
+> controls *"established through a separately authorised decision"*; **that
+> decision route now exists**. **AG-004 remains the coordinating function and
+> does not approve the controls.** **No C5 candidate was created and no C5
+> decision was taken**; **C5 remains `CARRIED FORWARD`**, **P6 step 3 remains
+> pending**, **P6 remains ACTIVE**, **no publication-package commit was proposed
+> or pinned**, **PE-3 remains not reached**, **publication remains NOT
+> AUTHORISED** and **the publication hold remains ACTIVE**. **No substantive
+> section below is altered.** Decision:
+> [`docs/Training-Publication-Naming-and-Presentation-Approver-Function-Decision.md`](Training-Publication-Naming-and-Presentation-Approver-Function-Decision.md).
+
 ---
 
 ## 1. Decision identification

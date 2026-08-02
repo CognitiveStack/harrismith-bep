@@ -84,6 +84,7 @@ where the approved baseline applies — but **none is asserted or recorded**
 | AG-003 | **APPROVED GOVERNANCE** | Training Publication Arrangement Approver Function | **FUNCTION ESTABLISHED — PAC-001 APPROVAL DECISION NOT YET TAKEN** — 2026-08-01 | Training Publication Arrangement Approver |
 | PAD-001 | **APPROVED GOVERNANCE** | Publication Arrangement Approval Decision — PAC-001 | **APPROVE WITH CONDITIONS** — 2026-08-01; **PE-2 REACHED; PE-3 NOT AUTHORISED** | Training Publication Arrangement Approver |
 | AG-004 | **APPROVED GOVERNANCE** | Training Baseline Publication Owner Function | **FUNCTION ESTABLISHED — NO PUBLICATION EVENT AUTHORISED** — 2026-08-02 | Training Baseline Publication Owner |
+| AG-005 | **APPROVED GOVERNANCE** | Training Publication Naming and Presentation Approver Function | **FUNCTION ESTABLISHED — C5 CONTROL DECISION NOT YET TAKEN** — 2026-08-02 | Training Publication Naming and Presentation Approver |
 | GD-001 | **CONTROLLED GATE DECISION** | Training Baseline 0.1 — Gate C Decision | **PASS** — 2026-08-01 | Training Baseline Approver |
 | AD-001 | **APPROVED GOVERNANCE** | Training Baseline 0.1 — Approval Decision | **APPROVED WITH CONDITIONS** — 2026-08-01 | Training Baseline Approver |
 | ROA-001 | **CONTROLLED READ-ONLY OBSERVATION AUTHORISATION** | Publication Planning read-only observation | **AUTHORISE WITH CONSTRAINTS** — 2026-08-01; **EXERCISED ONCE — EXPIRED** | Training Implementation Owner |
@@ -101,7 +102,7 @@ where the approved baseline applies — but **none is asserted or recorded**
 | OF-008 | OBSERVED FACT | Model Coordination provisioning | Recorded | Not established — TBD |
 | UD-001 | OBSERVED FACT + UNRESOLVED DECISION | Design Collaboration MEP / Structural team-space mapping | **Unresolved** | Not established — TBD |
 
-Nine governance entries exist beyond observations and assumptions:
+Ten governance entries exist beyond observations and assumptions:
 
 - **AG-001** — APPROVED GOVERNANCE, establishing the Training Baseline Approval
   Function;
@@ -132,6 +133,12 @@ Nine governance entries exist beyond observations and assumptions:
   preparation governance and readiness coordination; it authorises no
   publication event, pins no commit and confers no publication / exchange,
   execution, CDE implementation or acceptance authority** (section 6).
+- **AG-005** — APPROVED GOVERNANCE, establishing the **Training Publication
+  Naming and Presentation Approver** function. **It establishes who may later
+  decide the PAD-001 condition C5 package-specific naming and presentation
+  controls; it decides none of them.** **C5 remains CARRIED FORWARD, P6 step 3
+  remains pending, and no project-wide standard, implementation or publication
+  authority is conferred** (section 6).
 
 **AG-001 establishes who may decide. GD-001 authorised progression to an
 approval decision and approved no baseline. AD-001 is that approval decision.**
@@ -1173,6 +1180,157 @@ is authorised**, **no package exists**, **no commit is pinned**, and **the
 publication hold remains in force**. **This entry is a reference, not a
 duplicate** — the full decision is not restated here (BEP 12.13, 13.1).
 
+**Subsequent status — 2026-08-02, Increment 8H-B.** **AG-005 established the
+`Training Publication Naming and Presentation Approver`** — **the function that
+may later decide the PAD-001 condition C5 controls**. **AG-004 remains the
+coordinating function**: its authority-scope item 7 coordinates controls
+established through a separately authorised decision, and **that decision route
+now exists**. **AG-004 does not approve the controls.** **C5 remains CARRIED
+FORWARD**, **P6 step 3 remains pending**, **no publication-package commit was
+proposed or pinned**, **PE-3 remains not reached** and **publication remains NOT
+AUTHORISED with the hold active**. **No part of this entry is rewritten.**
+
+### AG-005 — Training Publication Naming and Presentation Approver Function
+
+| Field | Value |
+|---|---|
+| Classification | **APPROVED GOVERNANCE** |
+| Topic | Training Publication Naming and Presentation Approver Function |
+| Source | Orchestrator decision, Increment 8H-B |
+| Decision date | **2026-08-02** |
+| Training basis | **TA-02** — simulated role participation |
+| Scope | **Training Baseline 0.1 package-specific naming and presentation control governance only** |
+| Status | **FUNCTION ESTABLISHED — C5 CONTROL DECISION NOT YET TAKEN** |
+| Decision owner | Training Publication Naming and Presentation Approver |
+
+**Decision.** Establish the **Training Publication Naming and Presentation
+Approver** function. **Functional holder — Training Implementation Owner**,
+under **TA-02**. **Personal holder — not recorded**; no personal name appears in
+this repository.
+
+**Arising from.** **PAD-001 condition C5** (`CARRIED FORWARD` — minimum controls
+must be established before package assembly, for the seven renditions, the
+manifest, the source companions and the proposed child container); **PAD-001
+prerequisite P6 step 3**; **AG-004 authority-scope item 7**, which coordinates
+controls *established through a separately authorised decision* that did not
+exist; the **approved PAD-001 package boundary** of fifteen files; the
+**proposed PM-1 child-container position**, whose final name remains undecided;
+and the **absence of established project-wide naming and presentation
+standards**, with **CGD-C05** recording CDE naming as provisional.
+
+**Authority source.** **The authority arises from AG-005 itself.** **No
+pre-existing independent authority of the Training Implementation Owner is
+assumed**, and none is inferred from the Training Implementation Owner label,
+repository ownership, project membership, system access, administrative
+permissions, AG-001, AG-002, AG-003, AG-004, CGD-001 or PAD-001.
+
+**Function established.** **Training Publication Naming and Presentation
+Approver** — the function that **may later decide** the minimum package-specific
+naming and presentation controls required by C5. **A simulated training
+function**; **no real project appointment, professional authority, contractual
+duty or liability is created**.
+
+**Authority conferred — through a later controlled decision only.** Receive a
+defined package-specific naming and presentation control candidate; review its
+traceability to PAD-001, C5 and the approved package boundary; **approve, reject,
+defer or approve with explicitly recorded conditions**; define minimum naming
+controls for the seven PDF/A-2b renditions, for the authoritative UTF-8 JSON
+manifest and for the seven subordinate UTF-8 Markdown source companions; define
+the required companion-to-rendition filename relationship; define the minimum
+controlled name or naming rule for the proposed PM-1 child container; define
+permitted separators, character rules, case rules, extension treatment and token
+ordering; define minimum package-specific identity, version, status and
+relationship tokens; define minimum presentation requirements identifying each
+rendition and its governance status; confirm the controls are internally
+coherent and **do not alter PAD-001's approved package boundary**; **determine
+through a later controlled decision whether C5 is satisfied**; determine whether
+**P6 step 3** is satisfied as a consequence of the approved controls; and record
+any residual condition remaining before package assembly or commit pinning.
+
+**Exercise rule.** **AG-005 may be exercised only through a later controlled
+decision record.** **No C5 control decision is taken in Increment 8H-B**, and
+**no naming pattern, filename, container name or presentation rule is approved**.
+**Every later exercise must identify AG-005 as its authority basis and the exact
+control candidate and repository state considered.**
+
+**Candidate precondition.** **A controlled C5 candidate must exist before the
+approval authority may be exercised.** It must cover, at minimum: the seven
+PDF/A-2b renditions; the authoritative UTF-8 JSON manifest; the seven
+subordinate Markdown companions; companion-to-rendition relationships; the PM-1
+proposed child container; package identity; baseline / version / status
+representation; filename characters, separators, case, extensions and ordering;
+minimum presentation markings; collision and ambiguity risks; and the
+distinction between package-specific controls and project-wide standards. **No
+such candidate is created in Increment 8H-B.**
+
+**Authority NOT conferred.** Publication / exchange authority; PE-3 authority;
+publication-event authorisation; upload or execution authority; PE-4 authority;
+CDE administration or implementation authority; creation, renaming, moving or
+deletion of files, folders or containers; permission or membership change;
+establishment of project-wide naming standards; establishment of project-wide
+coordinate, titleblock or template standards; change to PAD-001; alteration of
+the approved package boundary; removal or addition of package-file classes;
+making Markdown companions authoritative; generation or assembly of the package;
+pinning the publication-package commit; selection or testing of the PDF/A
+generation or validation toolchain; selection or testing of the upload
+mechanism; verification of CGD-001 live correspondence; recipient acceptance
+authority; PE-S authority; professional or design approval; declaring C5
+satisfied without a later controlled decision; or declaring P6 step 3 satisfied
+without approved C5 controls. **Holding this function confers none of the other
+authorities.**
+
+**Relationship to AG-004.** **AG-004 coordinates the controls and may submit or
+coordinate a C5 candidate; AG-005 may later decide them.** **AG-004 does not
+approve the controls and AG-005 does not own the package.** **AG-004 is
+unchanged in substance** — a dated subsequent-status note only. **Coordination
+and approval remain separate acts even where one functional holder performs
+both.**
+
+**Relationship to C5.** **C5 — DECISION ROUTE ESTABLISHED UNDER AG-005; CONTROL
+DECISION PENDING.** **C5's overall status remains CARRIED FORWARD.** AG-005
+establishes who may later decide C5; **it does not establish the controls and
+does not satisfy C5**. **A later controlled candidate and decision are
+required**, and **package assembly remains blocked by C5**. **The historical
+PAD-001 and PRA-002 C5 wording is not rewritten.**
+
+**Relationship to P6.** **Step 1 remains satisfied; step 2 remains satisfied by
+AG-004; the authority route for step 3 is now established by AG-005 while step 3
+itself remains PENDING.** **P6 remains ACTIVE — PUBLICATION-PACKAGE COMMIT NOT
+PINNED.** **No commit is proposed or pinned**, and **pinning remains prohibited
+before approved C5 controls exist.**
+
+**PE-event boundaries.** **PE-1 reached previously; PE-2 reached by PAD-001;
+PE-3 through PE-S not reached.** **PE-3 requires publication / exchange
+authority, which remains UNRESOLVED and is not established here.** **Deciding a
+name is not authorising a publication.**
+
+**Implementation and verification.** **None, and none is authorised.** No
+control approved, no candidate created, no file, folder or container created or
+renamed, no permission change, no toolchain or route selected or tested, no
+CGD-001 verification, no rendition, manifest or digest, no package, **no
+proposed or pinned commit**. **Verification not yet performed** — the function
+is established and not yet exercised.
+
+**Current status.** **FUNCTION ESTABLISHED — C5 CONTROL DECISION NOT YET
+TAKEN.** **GCR-005 remains closed at the governance-definition level; GCR-006
+remains OPEN; UD-001 remains unresolved; CGD-001 verification remains pending;
+project standards remain Not established; publication remains NOT AUTHORISED
+with the hold active.**
+
+**Identifier-family note.** **AG-005 extends the `AG-` family as this training
+implementation's authority-establishment decision precedent**, following AG-001,
+AG-002, AG-003 and AG-004. **`AG-005` was unused before this record**, and its
+scope overlaps none of them. **Later use of the family still requires a
+controlled scope and collision review** — no future authority decision belongs
+to it automatically.
+
+**Note.** This entry establishes a *governance function*. **No naming or
+presentation control is approved**, **no C5 candidate exists**, **no package
+exists**, **no commit is pinned**, and **the publication hold remains in force**.
+**This entry is a reference, not a duplicate** — the full decision is not
+restated here (BEP 12.13, 13.1). Decision record:
+`docs/Training-Publication-Naming-and-Presentation-Approver-Function-Decision.md`.
+
 ## 6A. Gate decisions
 
 ### GD-001 — Training Baseline 0.1 — Gate C Decision
@@ -1377,6 +1535,7 @@ status, the replacement decision, the effective point, and the reason or context
 
 | Date | Change | Increment |
 |---|---|---|
+| 2026-08-02 | AG-005 recorded — Training Publication Naming and Presentation Approver function established as APPROVED GOVERNANCE, arising from PAD-001 condition C5, PAD-001 prerequisite P6 step 3, AG-004 authority-scope item 7, the approved fifteen-file package boundary, the proposed PM-1 child-container position and the absence of established project-wide naming and presentation standards. Functional holder Training Implementation Owner under TA-02; no personal holder recorded; the authority arises from AG-005 itself and from no label, ownership, membership, access, permission, AG-001, AG-002, AG-003, AG-004, CGD-001 or PAD-001. Scope limited to package-specific naming and presentation control governance; eighteen authority-scope items exercisable only through a later controlled decision, and only against a controlled C5 candidate covering eleven minimum matters. Establishes who may later decide C5; decides nothing. No control candidate created, no naming pattern, filename, container name or presentation rule approved, no project-wide standard established. C5 remains CARRIED FORWARD with its decision route established and its control decision pending; P6 step 1 and step 2 remain satisfied, step 3 remains pending with its authority route now established, P6 remains ACTIVE and no publication-package commit was proposed or pinned. PAD-001 unmodified; AG-004 unchanged in substance and remains the coordinating function; PM-1 to PM-7, C1, C2, C3, C4 and C6 unchanged; P1 to P8 remain active; PPER-001 to PPER-009 and the PPQ records unchanged; no observation performed; no package artefact; no publication/exchange, PE-3, execution, CDE implementation or recipient acceptance authority conferred; GCR-005 remains closed at the governance-definition level; GCR-006 remains open; UD-001 remains unresolved; CGD-001 verification remains pending; PE-2 remains reached and PE-3 to PE-S not reached; publication remains NOT AUTHORISED with the hold active. | 8H-B |
 | 2026-08-02 | AG-004 recorded — Training Baseline Publication Owner function established as APPROVED GOVERNANCE, arising from PAD-001 PM-2, PAD-001 condition C1, PRA-002 condition C1, PAD-001 prerequisite P6 step 2 and GCR-005's approved publication-owner parameter. Functional holder Training Implementation Owner under TA-02; no personal holder recorded; the authority arises from AG-004 itself and from no label, ownership, membership, access, permission, AG-001, AG-002, AG-003 or PAD-001. Scope limited to package identity, preparation governance and readiness coordination for the 15-file approved boundary. PM-2's owner-function establishment residual satisfied, status now APPROVED WITH CONDITIONS BY PAD-001 — OWNER FUNCTION ESTABLISHED UNDER AG-004; C1 SATISFIED BY AG-004; P6 step 2 satisfied while P6 overall remains ACTIVE and the publication-package commit remains unpinned. No publication/exchange, PE-3, execution, CDE implementation or recipient acceptance authority conferred; PAD-001 unchanged in substance; PM-1 and PM-3 to PM-7 unchanged; C2, C4, C5 and C6 carried forward; C3 remains satisfied; P1 to P8 otherwise unchanged; PPER-001 to PPER-009 unchanged; no observation performed; no package artefact; GCR-005 remains closed at the governance-definition level; GCR-006 remains open; UD-001 remains unresolved; CGD-001 verification remains pending; PE-2 remains reached and PE-3 to PE-S not reached; publication remains NOT AUTHORISED with the hold active. | 8H-A |
 | 2026-07-31 | Register populated as a controlled draft. TA-01, TA-02, TA-03 transcribed from BEP 2.6. OF-001 to OF-005 recorded. UD-001 detail recorded from the observed condition. | 3A |
 | 2026-08-01 | Increment 7C validation evidence incorporated. OF-001 to OF-005 reconfirmed; UD-001 evidence updated and left unresolved; OF-006, OF-007 and OF-008 recorded as OBSERVED FACT. | 7D |
