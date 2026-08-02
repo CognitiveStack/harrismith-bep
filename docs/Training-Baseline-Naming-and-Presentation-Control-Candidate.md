@@ -11,7 +11,7 @@
 | Candidate scope | **Training Baseline 0.1 package-specific naming and presentation controls only** |
 | Authority | **None** |
 | Candidate-coordination function | **Training Baseline Publication Owner under AG-004** |
-| Future decision function | **Training Publication Arrangement Naming and Presentation Approver under AG-005** |
+| Future decision function | **Training Publication Naming and Presentation Approver under AG-005** |
 | Source repository state reviewed | `09c04ff9d84e79d95317206b393e217e3fb209a5` |
 | Training basis | **TA-02** — simulated role participation |
 
@@ -24,6 +24,26 @@
 > **No publication is authorised.**
 
 > **PUBLICATION REMAINS NOT AUTHORISED — PUBLICATION HOLD ACTIVE.**
+
+> **Subsequent status — 2026-08-02, Increment 8H-C-R-A.** The exact review at
+> **Increment 8H-C-R** found **one incorrect function-name field** and **two
+> broken internal cross-references** in this record. **All three clerical
+> defects have been corrected**: the `Future decision function` header field now
+> reads **`Training Publication Naming and Presentation Approver under AG-005`**,
+> matching AG-005's title and function-name field; the §8.1 manifest sentence now
+> cites **§§7.2–7.3**, replacing a citation to a subsection that does not exist;
+> and the §11.1 routing citation now reads **§15, question 15**, replacing an
+> incorrect section number. **No token, filename, grammar rule, document-token
+> map entry, inventory item, companion relationship, container-name proposal,
+> presentation marking, manifest rule, source-companion rule, collision
+> statement or readiness question was changed.** **NPC-001 remains `PROPOSED
+> GOVERNANCE — NOT APPROVED`**,
+> **Authority remains `None`**, and its status remains **`CANDIDATE PREPARED —
+> NOT ASSESSED — NOT APPROVED`**. **No readiness question was answered and no
+> readiness assessment was performed.** **AG-005 remains unexercised**, **C5
+> remains `CARRIED FORWARD`**, **P6 step 3 remains pending**, **no package
+> commit is proposed or pinned** and **publication remains NOT AUTHORISED with
+> the hold ACTIVE**.
 
 ---
 
@@ -260,8 +280,9 @@ HFS-TB0P1-<DOCUMENT>-AWC-SOURCE.md
 | 6 | `HFS-TB0P1-COORDINATION-REVIEW-STRATEGY-AWC.pdf` | `HFS-TB0P1-COORDINATION-REVIEW-STRATEGY-AWC-SOURCE.md` | `HFS-TB0P1-COORDINATION-REVIEW-STRATEGY-AWC` |
 | 7 | `HFS-TB0P1-GOVERNANCE-DECISION-REGISTER-AWC.pdf` | `HFS-TB0P1-GOVERNANCE-DECISION-REGISTER-AWC-SOURCE.md` | `HFS-TB0P1-GOVERNANCE-DECISION-REGISTER-AWC` |
 
-**The manifest — `HFS-TB0P1-MANIFEST-AWC.json` — has no source companion**
-(§11.4).
+**The manifest — `HFS-TB0P1-MANIFEST-AWC.json` — has no source companion.**
+**§7.2 lists the one manifest and §7.3 lists the seven companions** (§§7.2–7.3);
+**no companion corresponds to the manifest.**
 
 ---
 
@@ -369,7 +390,7 @@ field 5 (status) as carried **in the document and manifest**, not in the
 filename. **The `AWC` token proposed at §4 places the status token in the
 filename as well.** NPC-001 records this as **additive**, not substitutive — the
 document and manifest carriers are unchanged — but **whether it is within C5's
-scope is a readiness question** (§14, question 15) and **is not determined
+scope is a readiness question** (§15, question 15) and **is not determined
 here**.
 
 ---
