@@ -186,6 +186,7 @@ repository.
 | Implementation Increment 8G-C | Complete — **AG-003** established the **Training Publication Arrangement Approver**, a simulated function under **TA-02** that **may take a later PE-2 arrangement-approval decision**. **PAC-001 was not approved**; the **fresh readiness reassessment is still required**; **publication/exchange authority remains UNRESOLVED**; **no publication or implementation was authorised**. Next stage: **Increment 8G-D** |
 | Implementation Increment 8G-D | Complete — **PRA-002** fresh readiness reassessment; outcome **READY FOR APPROVAL WITH CONDITIONS**. **PRA-B01's dependency resolved by CGD-001** and **no current PE-2 blocker remains**; six conditions and eight implementation prerequisites carried forward. **PAC-001 remains NOT APPROVED, PE-2 not reached, AG-003 not exercised, publication remains NOT AUTHORISED.** Next possible stage: **Increment 8H** |
 | Implementation Increment 8H | Complete — **PAD-001** recorded; outcome **APPROVE WITH CONDITIONS**, **AG-003 exercised**. **All PM-1 to PM-7 positions approved with conditions**; the **seven Markdown source companions included as subordinate files** (15 package files); **GCR-005 CLOSED at the governance-definition level**. **PE-2 reached; PE-3 NOT reached; publication remains NOT AUTHORISED and the hold remains ACTIVE**; **P1–P8 and residual conditions remain**. Next controlled stage: **exact PAD-001 review** |
+| Implementation Increment 8H-R-A | Complete — corrected stale post-PAD-001 current-state summaries in this README and in §11 of the Publication Planning Evidence and Observation Control Register. **No governance decision amended, no authority exercised, no function established, no PE event reached**; **publication remains NOT AUTHORISED and the publication hold remains ACTIVE**. Next controlled stage: **Increment 8H-A** |
 
 All 13 main BEP sections now contain substantive draft content.
 
@@ -243,14 +244,29 @@ and is recorded in
 **ROA-001 has since expired, no publication arrangement was selected and no
 authority was assigned.** A candidate arrangement —
 [`docs/Publication-Arrangement-Candidate-0.1.md`](docs/Publication-Arrangement-Candidate-0.1.md)
-(**PAC-001**) — is **prepared and NOT APPROVED**; it approves nothing, assigns no
-authority and authorises no publication. It was assessed at Increment 8G through
+(**PAC-001**) — was **prepared as a proposed arrangement** and has since been
+**approved with conditions**; it is retained as the **historical proposal
+record**. It was first assessed at Increment 8G through
 [`docs/Publication-Arrangement-Readiness-Assessment.md`](docs/Publication-Arrangement-Readiness-Assessment.md)
-(**PRA-001**), outcome **NOT READY FOR APPROVAL**: the candidate is **not
-rejected**, but **PRA-B01** — PM-1's dependency on the unresolved **OF-001**
-CDE-structure decision — must be addressed before an arrangement-approval
-decision can be taken. **Publication remains NOT AUTHORISED and the publication
-hold remains active.**
+(**PRA-001**), outcome **NOT READY FOR APPROVAL**, whose sole blocker
+**PRA-B01** was PM-1's dependency on the then unresolved **OF-001**
+CDE-structure decision. **PRA-001 remains the historically valid initial
+assessment and PRA-B01 remains intact as the blocker identified at that earlier
+state**, but neither is the current readiness position: **CGD-001**
+subsequently resolved PRA-B01's CDE-structure dependency, and
+[`docs/Publication-Arrangement-Readiness-Reassessment.md`](docs/Publication-Arrangement-Readiness-Reassessment.md)
+(**PRA-002**) then concluded **READY FOR APPROVAL WITH CONDITIONS**. On that
+basis
+[`docs/Publication-Arrangement-Approval-Decision.md`](docs/Publication-Arrangement-Approval-Decision.md)
+(**PAD-001**) **exercised AG-003** and **reached PE-2**, approving **PM-1 to
+PM-7 with conditions**. **PM-2 still carries OWNER FUNCTION ESTABLISHMENT
+PENDING**, **GCR-005 is closed only at the governance-definition level**, and
+**conditions C1 to C6 and implementation prerequisites P1 to P8 continue
+according to PAD-001**. **PE-3 through PE-S remain not reached; publication
+remains NOT AUTHORISED and the publication hold remains ACTIVE; no package
+exists and no publication-package commit has been pinned.** The next controlled
+substantive stage is establishment of the **Training Baseline Publication
+Owner** function required by PM-2.
 
 Architecture Baseline v1 is **frozen**. The document architecture recorded in
 section 3 is not to be redesigned during implementation increments. Proposed

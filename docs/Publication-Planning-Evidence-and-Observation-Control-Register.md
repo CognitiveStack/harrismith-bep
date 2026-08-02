@@ -839,7 +839,7 @@ As at completion of Increment 8H:
 | **PM decision statuses** | All seven now read **APPROVED WITH CONDITIONS BY PAD-001** (§5.1). **PM-2 additionally records OWNER FUNCTION ESTABLISHMENT PENDING.** **PM-2's authority requirement at §5.3 remains GOVERNANCE DECISION REQUIRED** — PAD-001 approved that the owner function should exist; it did **not** establish it |
 | PM evidence positions | **Updated** — PM-1, PM-3 … PM-7 now **ASSESSED — INSUFFICIENT**; PM-2 unchanged at **GOVERNANCE DECISION REQUIRED** (§5.3) |
 | A publication arrangement has been **selected or approved** | **Yes — approved with conditions by PAD-001 at PE-2.** **PE-3 is not authorised and publication remains NOT AUTHORISED** |
-| A candidate arrangement has been prepared | **Yes — `PAC-001`, Increment 8F. PROPOSED GOVERNANCE — NOT APPROVED** |
+| A candidate arrangement has been prepared | **Yes — `PAC-001`, Increment 8F**, classified **at preparation** as **PROPOSED GOVERNANCE — NOT APPROVED**. **PAD-001 subsequently approved the PAC-001 substantive arrangement with conditions at PE-2**; PAC-001 is retained as the **historical proposal record**, and its original document classification is **historical provenance, not the current status of the approved arrangement**. **PE-3 remains not authorised and publication remains NOT AUTHORISED** |
 | PM-2 is excluded from observational resolution | **Yes — §6, §10.3.** No observation was made against it |
 | Exact live questions drafted | **Seven — `PPQ-001` … `PPQ-007`** (§10.2) |
 | PPQ identifiers allocated | **`PPQ-001` to `PPQ-007`; `PPQ-008` onward unallocated** |
@@ -887,6 +887,13 @@ increments with identifiable repository history** — never by silent edit:
 
 **Entries are never deleted or renumbered.** Superseded material is marked
 superseded and retained (BEP 12.10).
+
+> **Subsequent status — 2026-08-02, Increment 8H-R-A.** The **§11 adjacency was
+> corrected** so that **PAC-001's historical candidate classification is
+> distinguished from PAD-001's subsequent approval**. **No evidence finding was
+> corrected, no PPER assessment was changed, no new decision was made, no
+> authority was assigned, no observation was performed and no publication was
+> authorised.**
 
 ---
 
