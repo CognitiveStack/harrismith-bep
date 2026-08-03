@@ -840,7 +840,7 @@ well drafted.
 
 ## 11. Current register state
 
-As at completion of Increment 8H-D:
+As at completion of Increment 8H-D-R-A-B:
 
 | Statement | Position |
 |---|---|
@@ -967,6 +967,19 @@ superseded and retained (BEP 12.10).
 > approved and no publication was authorised.** **C5 remains CARRIED FORWARD,
 > P6 step 3 remains pending, the publication-package commit remains unpinned and
 > publication remains NOT AUTHORISED.**
+
+> **Subsequent status — 2026-08-03, Increment 8H-D-R-A-B.** The **§11 preamble
+> was advanced to `As at completion of Increment 8H-D-R-A-B`**, and the four
+> residual current-state statements in the Governance & Decision Register that
+> still described **NPC-001 as unassessed** were corrected there. **No row of
+> §11 changed in this increment**, **no evidence finding or PPER assessment
+> changed**, **no observation occurred**, **NPC-001 was not amended**,
+> **NPRA-001 was not amended**, **AG-005 was not amended or exercised**,
+> **`A1`–`A4` and `R1`–`R7` are unchanged**, **no naming or presentation
+> control was approved and no publication was authorised.** **NPC-001 remains
+> NOT APPROVED**, **C5 remains CARRIED FORWARD and unsatisfied**, **P6 step 3
+> remains pending and unsatisfied**, **the publication-package commit remains
+> unpinned** and **publication remains NOT AUTHORISED**.
 
 ---
 
