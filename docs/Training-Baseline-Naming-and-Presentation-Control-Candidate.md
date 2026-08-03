@@ -65,6 +65,25 @@
 > altered.** Assessment:
 > [`docs/Training-Baseline-Naming-and-Presentation-Control-Readiness-Assessment.md`](Training-Baseline-Naming-and-Presentation-Control-Readiness-Assessment.md).
 
+> **Subsequent status — 2026-08-03, Increment 8H-E.** **AG-005 has now been
+> exercised** and **NPC-001 is APPROVED WITH CONDITIONS `A1`–`A4`**. **The
+> approval is package-specific to the fifteen-file `TB0P1` Training Baseline 0.1
+> package and its proposed PM-1 child container; no project-wide naming,
+> coordinate, titleblock or template standard is established.** **`C5` is
+> SATISFIED BY AG-005** and **`P6` step 3 is SATISFIED BY AG-005**, in each case
+> at the governance-decision level only. **`A1`–`A4` are mandatory conditions of
+> the approved control and are not yet implemented.** **`R1`–`R7` remain
+> separate technical and implementation prerequisites; none is closed.** **No
+> publication-package commit is proposed or pinned**, **no package was
+> generated**, **PE-3 is not authorised**, and **publication remains NOT
+> AUTHORISED with the hold ACTIVE**. **This record's classification `PROPOSED
+> GOVERNANCE — NOT APPROVED`, its candidate-status fields and every substantive
+> section below are the position at preparation on 2026-08-02 and are preserved
+> unchanged as historical provenance** — **the approval is recorded in AG-005,
+> not here.** Decision:
+> [`docs/Training-Publication-Naming-and-Presentation-Approver-Function-Decision.md`](Training-Publication-Naming-and-Presentation-Approver-Function-Decision.md)
+> §18.
+
 ---
 
 ## 1. What this candidate is

@@ -5,17 +5,20 @@
 | Document status | **Controlled Governance Decision** |
 | Decision classification | **APPROVED GOVERNANCE** |
 | Governance reference | **AG-005** |
-| Decision status | **FUNCTION ESTABLISHED — C5 CONTROL DECISION NOT YET TAKEN** |
-| Decision date | **2026-08-02** |
+| Decision status | **FUNCTION ESTABLISHED 2026-08-02 — EXERCISED ONCE 2026-08-03; C5 CONTROL DECISION TAKEN** |
+| Decision date | **2026-08-02** — function establishment |
+| C5 control decision | **TAKEN — 2026-08-03, Increment 8H-E — `NPC-001 APPROVED WITH CONDITIONS A1–A4`** (§18) |
 | Source | **Orchestrator decision — Increment 8H-B** |
 | Decision scope | **Training Baseline 0.1 package-specific naming and presentation control governance only** |
 | Training basis | **TA-02** — simulated role participation |
 | Authority of this record | Records the approved training-governance function |
 
-> **This record establishes a function. It decides no naming or presentation
-> control.** **No C5 candidate exists, no C5 decision is taken, C5 remains
-> `CARRIED FORWARD`, P6 step 3 remains pending and no publication-package
-> commit is pinned.**
+> **As established on 2026-08-02, this record established a function and decided
+> no naming or presentation control.** **At that date no C5 candidate existed,
+> no C5 decision was taken, C5 was `CARRIED FORWARD`, P6 step 3 was pending and
+> no publication-package commit was pinned.** **That is the establishment
+> position and is preserved as historical provenance; the current position is
+> recorded at §18.**
 
 > **PUBLICATION REMAINS NOT AUTHORISED — PUBLICATION HOLD ACTIVE.**
 
@@ -47,6 +50,20 @@
 > for that review, not for this note. **No substantive section below is altered.**
 > Assessment:
 > [`docs/Training-Baseline-Naming-and-Presentation-Control-Readiness-Assessment.md`](Training-Baseline-Naming-and-Presentation-Control-Readiness-Assessment.md).
+
+> **AG-005 EXERCISED — 2026-08-03, Increment 8H-E.** **AG-005 has now been
+> exercised once**, against **`NPC-001`** and on the controlled readiness basis
+> **`NPRA-001`**. **Decision — `NPC-001 APPROVED WITH CONDITIONS A1–A4`.** **The
+> approval is package-specific to the fifteen-file `TB0P1` Training Baseline 0.1
+> package and its proposed PM-1 child container; it establishes no project-wide
+> naming, coordinate, titleblock or template standard.** **`C5` is SATISFIED BY
+> AG-005** and **`P6` step 3 is SATISFIED BY AG-005**, in each case at the
+> governance-decision level only. **`R1`–`R7` remain separate technical and
+> implementation prerequisites and none is closed.** **No package was generated,
+> no publication-package commit was proposed or pinned, PE-3 was not authorised,
+> publication remains NOT AUTHORISED and the publication hold remains ACTIVE.**
+> **The establishment position recorded above and in §§5, 10, 11, 13, 15 and 17
+> is preserved as historical provenance.** Full decision — **§18**.
 
 ---
 
@@ -215,7 +232,9 @@ naming them does not promote them (§5).
 - **every later decision must identify the exact control candidate and
   repository state considered**.
 
-**The mechanism established here is available; it has not been used.**
+**The mechanism established here was available and, at Increment 8H-B, unused.**
+**It has since been used exactly once — the C5 control decision at §18,
+2026-08-03, Increment 8H-E.** **No further exercise is recorded.**
 
 ---
 
@@ -381,19 +400,21 @@ must separately authorise a specific event at PE-3.
 
 ## 10. Relationship to condition C5
 
-> **`C5 — DECISION ROUTE ESTABLISHED UNDER AG-005; CONTROL DECISION PENDING`**
+**At establishment — 2026-08-02, Increment 8H-B — this section read
+`C5 — DECISION ROUTE ESTABLISHED UNDER AG-005; CONTROL DECISION PENDING`, with
+C5's overall status `CARRIED FORWARD`. That is the establishment position and is
+preserved as historical provenance.** **The current position is:**
 
-**C5's overall status is preserved:**
-
-> **`CARRIED FORWARD`**
+> **`C5 — SATISFIED BY AG-005`**
 
 | Statement | |
 |---|---|
-| **AG-005 establishes who may later decide C5** | §2, §4 |
-| **AG-005 does not establish the controls** | §5, §7 |
-| **AG-005 does not satisfy C5** | Satisfaction requires a later controlled decision (§4 item 16) |
-| **A later controlled C5 candidate and decision are required** | §6, §5 |
-| **Package assembly remains blocked by C5** | PAD-001 §5.5 — controls must be established **before package assembly** |
+| **AG-005 established who may decide C5** | §2, §4 |
+| **AG-005 did not establish the controls at Increment 8H-B** | §5, §7 |
+| **AG-005 has since decided C5 through a controlled decision** | §18 — 2026-08-03, Increment 8H-E |
+| **The controlled C5 candidate and decision required at establishment now exist** | NPC-001; §18 |
+| **C5 is satisfied at the governance-decision level** | §18.6 — the approved controls are established; **implementation of `A1`–`A4` is a separate act** |
+| **Package assembly is no longer blocked by C5** | **It remains blocked by `R1`–`R7`, P6 step 4 and the absent execution and publication authorities** (§18.5, §18.8) |
 
 **The historical PAD-001 and PRA-002 C5 wording is not rewritten.** PAD-001 is
 unmodified by this increment, and its `CARRIED FORWARD` disposition stands as
@@ -407,7 +428,7 @@ made.
 |---|---|---|
 | **1** | PAD-001 and its register entry exist | **Satisfied** — Increment 8H |
 | **2** | Training Baseline Publication Owner function established | **Satisfied by AG-004** — Increment 8H-A |
-| **3** | Required naming and presentation controls established | **PENDING.** **The authority route is now established by AG-005; the controls are not** |
+| **3** | Required naming and presentation controls established | **SATISFIED BY AG-005** — §18, 2026-08-03, Increment 8H-E. **At establishment this read PENDING; that is the establishment position, preserved as historical provenance** |
 | **4** | Later controlled commit pinning | **Not performed** |
 | **5** | Pinning before generation and before PE-3 | **Sequence unchanged** |
 
@@ -415,18 +436,22 @@ made.
 
 > **`ACTIVE — PUBLICATION-PACKAGE COMMIT NOT PINNED`**
 
-The distinction that governs this increment:
+The distinction that governs the exercise at §18:
 
 ```text
 Authority to decide P6 step 3:
 ESTABLISHED UNDER AG-005
 
 P6 step 3:
-NOT YET SATISFIED
+SATISFIED BY AG-005 — approval step only
+
+P6 step 4:
+NOT PERFORMED — no commit proposed or pinned
 ```
 
-**No commit is proposed or pinned by AG-005.** **Pinning remains prohibited
-before approved C5 controls exist.**
+**No commit is proposed or pinned by AG-005, including by the §18 decision.**
+**Satisfying step 3 does not pin a commit, does not implement `A1`–`A4`, does
+not close `R1`–`R7` and does not authorise generation, PE-3 or publication.**
 
 ---
 
@@ -465,8 +490,8 @@ throughout**.
 | **C1** | **SATISFIED BY AG-004 — unchanged** |
 | **C2, C4, C6** | **CARRIED FORWARD — unchanged** |
 | **C3** | **SATISFIED AT PE-2 — unchanged** |
-| **C5** | **CARRIED FORWARD** — **decision route established; control decision pending** (§10) |
-| **P1 … P8** | **Active — unchanged.** **P6 step 3 remains pending** (§11) |
+| **C5** | **SATISFIED BY AG-005** — **decided at §18, 2026-08-03, Increment 8H-E**; at establishment it was **CARRIED FORWARD** with the control decision pending (§10) |
+| **P1 … P8** | **Active — unchanged.** **P6 step 3 SATISFIED BY AG-005**; **P6 overall remains ACTIVE and step 4 is not performed** (§11) |
 | **GCR-005** | **CLOSED at the governance-definition level — unchanged** |
 | **GCR-006** | **OPEN — unchanged** |
 | **UD-001** | **Unresolved — unchanged** |
@@ -511,8 +536,16 @@ upload route selected or tested; no CGD-001 live correspondence verified; no
 rendition, manifest or digest generated; no package assembled; **no
 publication-package commit proposed or pinned**.
 
-**Verification — not yet performed.** AG-005 is established and **not yet
-exercised**. Verification would follow the AG-001 pattern — a later review
+**Implementation and verification after the §18 decision.** **The §18 decision
+approves controls; it implements none of them.** **No filename was applied, no
+container was created or renamed, no rendition, manifest or digest was
+generated, no package was assembled, no toolchain or upload route was selected
+or tested, no CGD-001 live correspondence was verified and no
+publication-package commit was proposed or pinned.**
+
+**Verification — not yet performed.** AG-005 was established at Increment 8H-B
+and **was not yet exercised at that date**; it has since been **exercised once**
+at §18. Verification would follow the AG-001 pattern — a later review
 confirming that the function was correctly scoped, correctly exercised, and
 **nowhere presented as project-wide standards authority, implementation,
 publication, authorisation, execution or acceptance authority**.
@@ -533,7 +566,11 @@ to the family automatically.**
 
 ---
 
-## 17. Decision statement
+## 17. Decision statement — function establishment
+
+**This is the establishment decision statement as made on 2026-08-02, Increment
+8H-B. It is preserved unchanged as historical provenance. The current position,
+including the exercise of AG-005 and the C5 control decision, is at §18.**
 
 > ## **AG-005 — TRAINING PUBLICATION NAMING AND PRESENTATION APPROVER FUNCTION ESTABLISHED**
 >
@@ -565,3 +602,208 @@ AG-001 — [`docs/Training-Baseline-Approval-Function-Decision.md`](Training-Bas
 AG-002 — [`docs/Training-CDE-Governance-Approver-Function-Decision.md`](Training-CDE-Governance-Approver-Function-Decision.md).
 AG-003 — [`docs/Training-Publication-Arrangement-Approver-Function-Decision.md`](Training-Publication-Arrangement-Approver-Function-Decision.md).
 CGD-001 — [`docs/CDE-Structure-Governance-Decision.md`](CDE-Structure-Governance-Decision.md).
+
+---
+
+## 18. C5 control decision — 2026-08-03, Increment 8H-E
+
+### 18.1 Decision identification
+
+| Field | Value |
+|---|---|
+| Decision | **C5 package-specific naming and presentation control decision** |
+| Decision date | **2026-08-03** |
+| Increment | **8H-E** |
+| Decision authority | **Training Publication Naming and Presentation Approver under AG-005** |
+| Functional holder | **Training Implementation Owner** under **TA-02**; **no personal holder recorded** |
+| Authority basis | **AG-005 itself** (§2.1, §4). **No other record confers it** |
+| Exercise count | **Once.** **This is the sole exercise of AG-005** |
+| Subject | **`NPC-001` — Training Baseline Naming and Presentation Control Candidate** |
+| Readiness basis | **`NPRA-001`** — outcome **`READY FOR AG-005 DECISION WITH CONDITIONS`** |
+| Decision outcome | **`NPC-001 APPROVED WITH CONDITIONS A1–A4`** |
+
+### 18.2 Controlled inputs reviewed
+
+1. **`NPC-001`** — the controlled candidate, `PROPOSED GOVERNANCE — NOT
+   APPROVED` with **Authority: None** at preparation, covering the eleven §6
+   candidate-precondition matters.
+2. **`NPRA-001`** — the controlled readiness assessment, **ASSESSMENT RECORD —
+   NOT A GOVERNANCE DECISION** with **Authority: None**, outcome **`READY FOR
+   AG-005 DECISION WITH CONDITIONS`**, recording **four assessment conditions
+   `A1`–`A4`**, **seven residual prerequisites `R1`–`R7`**, **no blocker** and
+   **no requirement to amend NPC-001**.
+3. **`PAD-001`** — condition **C5**, prerequisite **P6**, and the approved
+   fifteen-file package boundary.
+4. **AG-005 §4, §5, §6 and §7** — authority scope, exercise rule, candidate
+   precondition and explicit limits.
+
+**NPC-001 and NPRA-001 each carry `Authority: None`.** **Neither approves
+anything.** **Authority is exercised only through AG-005, and only by this
+record.**
+
+### 18.3 Decision
+
+> ## **`NPC-001 APPROVED WITH CONDITIONS A1–A4`**
+
+**AG-005 considered NPC-001**, **considered NPRA-001 as the controlled readiness
+assessment**, and notes that **NPRA-001 recommended readiness for decision with
+conditions**. **AG-005 approves NPC-001 subject to `A1`–`A4`.**
+
+**The approval establishes the naming and presentation control required by
+PAD-001 condition C5 for the `TB0P1` package** — the proposed filename grammar,
+token dictionary, document-token map, fifteen-file inventory,
+companion-to-rendition relationship rule, the PM-1 child-container name
+`Training Baseline 0.1`, the presentation-marking requirements and the manifest
+identity rule, **as proposed in NPC-001 and unamended by this decision**.
+
+**NPC-001's substantive proposal is adopted as approved control; NPC-001's own
+record is not rewritten.** Its `PROPOSED GOVERNANCE — NOT APPROVED`
+classification and its candidate-status fields **remain as historical provenance
+at preparation**.
+
+### 18.4 Scope — package-specific, not project-wide
+
+**This approval is bounded to the fifteen-file Training Baseline 0.1 `TB0P1`
+package and its proposed PM-1 child container.**
+
+**It is not, and may not be cited as:** the Harrismith project naming standard;
+a general CDE naming standard; a titleblock, template or coordinate standard; a
+sheet or drawing-numbering standard; or a reusable naming convention for any
+other package, baseline or project.
+
+> **The project-wide naming, coordinate, titleblock and template standards
+> remain NOT ESTABLISHED.**
+
+### 18.5 Conditions `A1`–`A4` — mandatory
+
+**All four assessment conditions recorded by NPRA-001 are adopted as mandatory
+conditions of the approved control, unchanged in substance:**
+
+| Ref | Condition | Status |
+|---|---|---|
+| **`A1`** | **`TB0P1` discharges PM-4 field 2 and field 4 together** — the controls provide no filename token distinct from `TB0P1` for revision or version | **MANDATORY — adopted** |
+| **`A2`** | **The `AWC` filename status token is additive** to PM-4 field 5's approved document and manifest status carriers; PAC-001 §5.1 did not make status filename-carried | **MANDATORY — adopted** |
+| **`A3`** | **Container-label rules and package-filename rules are deliberately distinct** and apply to different object classes | **MANDATORY — adopted** |
+| **`A4`** | **The approved controls are package-specific and may not be cited as a project-wide standard** | **MANDATORY — adopted** |
+
+**`A1`–`A4` are neither weakened, broadened, renamed, merged nor
+reinterpreted.** **They were local NPRA-001 assessment labels; by this decision
+they become mandatory conditions of the approved C5 control, retaining those
+labels.** **They are not repository-wide governance identifiers and allocate
+nothing.**
+
+> **`A4` expressly bars this decision from being represented, relied on or
+> reused as a project-wide naming or presentation standard.**
+
+**Adoption is not implementation.** **None of `A1`–`A4` has been technically
+implemented**, and **implementation is a separate later act that this decision
+does not authorise.**
+
+### 18.6 Residuals `R1`–`R7` — separate and unchanged
+
+| Ref | Residual | Underlying |
+|---|---|---|
+| **`R1`** | Platform / toolchain compatibility untested | **P2**, **C2** |
+| **`R2`** | CGD-001 live correspondence unverified | **C6** |
+| **`R3`** | CDE implementation authority not established | **P7** |
+| **`R4`** | Technical executor unassigned | **P7** |
+| **`R5`** | Upload route unconfirmed | **P1** |
+| **`R6`** | Destination verification not performed | **P8** |
+| **`R7`** | Publication-package commit not pinned and package content not frozen | **P6 step 4** |
+
+**Recorded expressly:**
+
+- **`R1`–`R7` are not conditions of this AG-005 decision**;
+- **they remain technical or implementation prerequisites**;
+- **their continued existence does not invalidate this approval**;
+- **they may still block later package assembly, validation or publication
+  evidence**;
+- **none is closed, satisfied or advanced by C5 or P6 step 3 being satisfied**;
+- **no residual has been converted into a governance condition**.
+
+**All seven remain open.** **`R1`–`R7` are unchanged in substance from
+NPRA-001.**
+
+### 18.7 Effect on condition C5
+
+> ## **`C5 — SATISFIED BY AG-005`**
+
+**C5 is satisfied at the governance-decision level**, because the bounded
+package-specific naming and presentation control it required **has now been
+approved through the controlled decision route AG-005 §4 item 16 requires**.
+
+**C5 is no longer `CARRIED FORWARD`.** **Satisfaction is of the governance
+condition only** — it does not mean the controls have been applied, that any
+file or container has been named, or that any package exists.
+
+### 18.8 Effect on prerequisite P6 step 3
+
+> ## **`P6 step 3 — SATISFIED BY AG-005`**
+
+**Satisfaction is limited to the approval step.** **It does not mean:**
+
+- **`A1`–`A4` have been technically implemented**;
+- **`R1`–`R7` have been completed**;
+- **a publication-package commit has been selected, proposed or pinned**;
+- **the package has been generated or assembled**;
+- **publication has been authorised**.
+
+**P6 overall remains `ACTIVE — PUBLICATION-PACKAGE COMMIT NOT PINNED`.** **Step
+4 is not performed and step 5's sequence is unchanged.**
+
+### 18.9 Publication limitations
+
+| Matter | Position after this decision |
+|---|---|
+| Publication-package commit | **NOT PROPOSED AND NOT PINNED** — and **none is proposed or pinned by this decision** |
+| Package artefact | **None.** **No rendition, manifest, digest or container was generated, assembled or created** |
+| **Publication** | **NOT AUTHORISED — unchanged** |
+| **Publication hold** | **ACTIVE — unchanged** |
+| **PE-2** | **Reached — unchanged** |
+| **PE-3 … PE-S** | **Not reached — unchanged.** **PE-3 is not authorised or claimed** |
+| Publication / exchange authority | **UNRESOLVED — unchanged** |
+| Technical executor | **Unassigned — unchanged** |
+| CDE implementation authority | **Not established — unchanged** |
+| Recipient acceptance authority | **UNRESOLVED — unchanged** |
+| GCR-006, UD-001, CGD-001 verification | **Open / unresolved / pending — unchanged** |
+| Evidence and observation records | **Unchanged.** **No observation was made and no evidence finding advanced** |
+
+> ## **APPROVING A NAME IS NOT GENERATING A PACKAGE, AND IS NOT AUTHORISING A PUBLICATION.**
+
+**This decision removes the C5 and P6 step 3 governance-decision blocker and
+nothing else.**
+
+### 18.10 Decision statement
+
+> ## **AG-005 — C5 CONTROL DECISION — `NPC-001 APPROVED WITH CONDITIONS A1–A4`**
+>
+> **Taken 2026-08-03, Increment 8H-E, by the Training Publication Naming and
+> Presentation Approver under AG-005, on the readiness basis NPRA-001.**
+>
+> **The approved control is package-specific to the fifteen-file `TB0P1`
+> Training Baseline 0.1 package and its proposed PM-1 child container.** **No
+> project-wide standard is established.**
+>
+> **`A1`–`A4` are mandatory conditions of the approved control and are not yet
+> implemented. `R1`–`R7` remain separate technical and implementation
+> prerequisites and none is closed.**
+>
+> **`C5 — SATISFIED BY AG-005`. `P6 step 3 — SATISFIED BY AG-005`. P6 remains
+> ACTIVE and the publication-package commit is NOT PINNED.**
+>
+> **No package was generated. No commit was proposed or pinned. PE-3 was not
+> authorised.**
+>
+> ## **PUBLICATION REMAINS NOT AUTHORISED — PUBLICATION HOLD ACTIVE.**
+
+### 18.11 Next controlled gate
+
+**An exact read-only review of this AG-005 decision — Increment `8H-E-R` — is
+the next controlled stage.** **It has not been started.** **No identifier is
+allocated by this decision; `8H-E` is an implementation increment label only,
+and no second `AG-` record is created.**
+
+**Subject records.** Candidate —
+[`docs/Training-Baseline-Naming-and-Presentation-Control-Candidate.md`](Training-Baseline-Naming-and-Presentation-Control-Candidate.md).
+Readiness assessment —
+[`docs/Training-Baseline-Naming-and-Presentation-Control-Readiness-Assessment.md`](Training-Baseline-Naming-and-Presentation-Control-Readiness-Assessment.md).
