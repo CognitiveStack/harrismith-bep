@@ -74,11 +74,16 @@ remains:
 
 | Outstanding | Note |
 |---|---|
-| **Visual source** | None exists. Every visual in [`visual-demonstration-plan.md`](visual-demonstration-plan.md) is a candidate |
 | **Presentation assembly package** | Not started |
 | **PowerPoint production** | No binary presentation exists |
 | **Review** | Follows production |
 | **Rehearsal and measured timing** | The 20-minute total has never been measured |
+| **Rendered visual assets** | **None.** Visual *source* exists for all fourteen slides in [`../assets/module-02/`](../assets/module-02/); no renderer was available |
+
+**Visual-source baseline complete (T2-D).** Fourteen reviewable source files,
+`M02-S01`–`M02-S14`, with a register, a slide map and recorded design
+principles. **All fourteen slides are deliverable from repository source
+alone** — Module 2 needs no external evidence at all.
 
 ## 4. Scope
 
@@ -179,6 +184,8 @@ framework is unfinished rather than deliberately staged.
 | Statement classification | Slides 1–3 (§4), 4–9 (§7), 10–14 (§9) — **201 statements, 140 direct** |
 | Frame reconciliation | Five-function vs four-function documented — `source-map.md` §8 |
 | Module-wide reconciliation | Roles, authorities, gaps and synthesis — `source-map.md` §10 |
-| Outstanding | **Visual source, presentation assembly, PowerPoint production, review, rehearsal** |
+| Visual source | **Complete (T2-D)** — `M02-S01`–`M02-S14` in [`../assets/module-02/`](../assets/module-02/) |
+| Rendered visual assets | **None** — no renderer available; source committed instead |
+| Outstanding | **Presentation assembly, PowerPoint production, review, rehearsal** |
 | Module 1 | Review and rehearsal remain **deferred** |
 | Publication automation | **PAUSED** |

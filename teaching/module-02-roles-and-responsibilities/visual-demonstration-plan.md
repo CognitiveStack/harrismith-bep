@@ -1,9 +1,26 @@
 # Module 2 — Visual Demonstration Plan
 
-**Status:** Candidate visuals for the whole Module 2 presentation. **Nothing is
-prepared and no asset exists.** Every entry is a proposal.
+**Status:** Candidate visuals for the whole Module 2 presentation. **No rendered
+image asset exists.**
 
-**No live Autodesk observation is required in T2-A**, and none is requested.
+**Visual source now exists for all fourteen slides** — see
+[`../assets/module-02/`](../assets/module-02/), created in increment T2-D.
+This plan remains the **controlling document**: its identifiers `R1`–`R11`, its
+evidence classifications and its overclaim warnings are authoritative, and the
+source set implements them rather than superseding them.
+
+| Where to look | For |
+|---|---|
+| [`../assets/module-02/visual-register.md`](../assets/module-02/visual-register.md) | Every visual, its status, evidence and warnings |
+| [`../assets/module-02/slide-visual-map.md`](../assets/module-02/slide-visual-map.md) | Slides 1–14 mapped to their visuals |
+| [`../assets/module-02/source/`](../assets/module-02/source/) | The visual source files, `M02-S01`–`M02-S14` |
+| [`../assets/module-02/rendered/README.md`](../assets/module-02/rendered/README.md) | Why nothing has been rendered |
+
+**No external evidence is required.** All fourteen slides are deliverable from
+repository source alone — and two would be actively harmed by platform imagery.
+
+**No live Autodesk observation has been required in any Module 2 increment**, and
+none is requested.
 Where an entry notes a possible future observation, that is an observation of a
 possible need — **not an authorisation**. The safety boundary in root
 [`README.md`](../../README.md) §2.1 applies unmodified.
@@ -566,6 +583,24 @@ mistake the module spends Slide 10 correcting.
 **All eleven are producible from committed repository material.** None requires
 an image, a screenshot or a model view — the module is about functions and
 authorities, and the sources already state them in text.
+
+### Visual-source status — T2-D
+
+Source files now exist for all fourteen slides.
+
+| Slides | Source files | Status |
+|---|---|---|
+| 1–3 | `M02-S01`–`M02-S03` | `SOURCE COMPLETE` |
+| 4–9 | `M02-S04`–`M02-S09` | `SOURCE COMPLETE` |
+| 10–14 | `M02-S10`–`M02-S14` | `SOURCE COMPLETE`, except `M02-S12` |
+| `M02-S12` | Authority map | **`SOURCE PARTIAL`** — deliberately split into a slide subset and a full appendix register. Unresolved rows are retained in both |
+
+**No rendered assets were produced.** No Mermaid renderer, Graphviz, PlantUML or
+SVG converter is available, and installing one was outside the increment's
+boundary. Mermaid source renders natively on GitHub.
+
+Full status, evidence classification and per-visual warnings:
+[`../assets/module-02/visual-register.md`](../assets/module-02/visual-register.md).
 
 **No visual in this module needs live Autodesk observation.** Two (R6, R8) would
 be actively harmed by it.

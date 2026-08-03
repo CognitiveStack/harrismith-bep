@@ -62,8 +62,13 @@ notes, thirty-two exercises, a visual-demonstration plan, statement-level source
 classification across 201 statements, and a module-wide reconciliation of roles,
 authorities and gaps.
 
-**Outstanding:** visual source, presentation assembly, PowerPoint production,
-review and rehearsal.
+**Visual-source baseline complete (T2-D):** fourteen reviewable source files
+`M02-S01`–`M02-S14`, with a register, a slide map and recorded design principles
+— see [`assets/module-02/`](assets/module-02/). **No external evidence is
+required for any slide.**
+
+**Outstanding:** presentation assembly package, PowerPoint production, review
+and rehearsal.
 
 ### Modules 3–8 — future scope
 
@@ -141,8 +146,10 @@ of governance under condition. Describing it neither advances nor reopens it.
 | **Active module** | **Module 2 — BIM Management Roles and Responsibilities** — **CURRENT — ACTIVE** |
 | Module 2 deliverable | 20-minute presentation on roles, functions and authority — **content baseline complete, not final** |
 | Module 2 slides developed | **Slides 1–14** — the full working content baseline |
-| Module 2 established | Structure · role inventory · authority inventory · 20-minute architecture · Slides 1–14 · module-wide reconciliation |
-| Module 2 outstanding | **Visual source, presentation assembly, PowerPoint production, review, rehearsal** |
+| Module 2 established | Structure · role inventory · authority inventory · 20-minute architecture · Slides 1–14 · module-wide reconciliation · **visual source** |
+| Module 2 visual source | **Complete (T2-D)** — `M02-S01`–`M02-S14` in [`assets/module-02/`](assets/module-02/); no external evidence required |
+| Module 2 rendered assets | **None** — no renderer available; source committed instead |
+| Module 2 outstanding | **Presentation assembly, PowerPoint production, review, rehearsal** |
 | Module 1 | Content baseline, visual source and assembly package **produced**; PowerPoint assembled **outside this repository** |
 | Module 1 outstanding | **Presentation review and rehearsal — DEFERRED**, not complete, until the presenter chooses to perform them |
 | Modules 3–8 | **Future scope** — not started |

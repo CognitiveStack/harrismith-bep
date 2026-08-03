@@ -16,12 +16,14 @@ prepared slide graphics.
 ```text
 teaching/assets/
 ├── README.md      this file — asset rules for all modules
-└── module-01/     visual source set for Module 1 (14 slide visuals)
+├── module-01/     visual source set for Module 1 (14 slide visuals)
+└── module-02/     visual source set for Module 2 (14 slide visuals)
 ```
 
-| Module | Visual source | Rendered assets |
-|---|---|---|
-| [`module-01/`](module-01/) | **Complete — Slides 1–14** | **None** |
+| Module | Visual source | Rendered assets | External evidence needed |
+|---|---|---|---|
+| [`module-01/`](module-01/) | **Complete — Slides 1–14** | **None** | 3 optional — `V1`, `V9`, `V10` |
+| [`module-02/`](module-02/) | **Complete — Slides 1–14** | **None** | **None** |
 
 **Source and rendered output are different things**, and this directory
 currently holds only the first. See
@@ -111,6 +113,7 @@ Each module holds its own visual register rather than a shared list here.
 | Module | Register | Source | Rendered |
 |---|---|---|---|
 | Module 1 | [`module-01/visual-register.md`](module-01/visual-register.md) | 14 slide visuals, `SOURCE COMPLETE` | **None** |
+| Module 2 | [`module-02/visual-register.md`](module-02/visual-register.md) | 14 slide visuals — 13 `SOURCE COMPLETE`, 1 `SOURCE PARTIAL` by design | **None** |
 
 ## 6. Rendering
 
@@ -122,8 +125,15 @@ Mermaid diagram source is held in fenced ```mermaid blocks inside the source
 files, which **render natively on GitHub** — so the diagrams are viewable
 without local tooling.
 
-If rendering is undertaken later, the rules are in
-[`module-01/rendered/README.md`](module-01/rendered/README.md) §3. The short
-version: render from committed source unchanged, name the output after its
-source identifier, prefer SVG, update the register — and remember that **a
-render never becomes the authority.**
+If rendering is undertaken later, the rules are in each module's `rendered/`
+README — [Module 1](module-01/rendered/README.md) §3,
+[Module 2](module-02/rendered/README.md) §4. The short version: render from
+committed source unchanged, name the output after its source identifier, prefer
+SVG, update the register — and remember that **a render never becomes the
+authority.**
+
+**Module 2 adds one further rule:** a render must **preserve the semantic line
+weights**. Solid, dashed and plain lines carry governance meaning there, and
+three slides depend on it — an unreached `Published`, two unheld authority links,
+and a future-facing final stage. A render that solidifies any of them would
+assert an authority the sources decline to assign.
