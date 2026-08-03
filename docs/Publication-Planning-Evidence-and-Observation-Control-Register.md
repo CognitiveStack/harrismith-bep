@@ -850,7 +850,7 @@ As at completion of Increment 8H-D:
 | **PAD-001 condition C1** | **SATISFIED BY AG-004** |
 | **Naming and presentation control function** | **ESTABLISHED — `Training Publication Naming and Presentation Approver`, AG-005, 2026-08-02** (`docs/Training-Publication-Naming-and-Presentation-Approver-Function-Decision.md`). Functional holder **Training Implementation Owner** under **TA-02**; **no personal holder recorded**. **It may later decide the C5 controls; it has not** |
 | **PAD-001 condition C5** | **CARRIED FORWARD.** **DECISION ROUTE ESTABLISHED UNDER AG-005; CANDIDATE PREPARED; CANDIDATE ASSESSED BY NPRA-001; NOT APPROVED.** **AG-005 has not been exercised and no C5 decision has occurred**; **package assembly remains blocked** |
-| **C5 control candidate** | **`NPC-001` — Training Baseline Naming and Presentation Control Candidate**, 2026-08-02 (`docs/Training-Baseline-Naming-and-Presentation-Control-Candidate.md`). **PROPOSED GOVERNANCE — NOT APPROVED**; **Authority: None**; status **CANDIDATE PREPARED — NOT ASSESSED — NOT APPROVED**. **Coordinated under AG-004**; **the decision belongs to AG-005 and has not been taken**. **The separate controlled `Authority: None` readiness assessment required before AG-005 may be exercised has been performed and is recorded as `NPRA-001`** (next row). **NPC-001 remains unamended and unapproved.** **NPC-001 is a proposal, not observational evidence, and is not recorded as evidence here** |
+| **C5 control candidate** | **`NPC-001` — Training Baseline Naming and Presentation Control Candidate**, 2026-08-02 (`docs/Training-Baseline-Naming-and-Presentation-Control-Candidate.md`). **PROPOSED GOVERNANCE — NOT APPROVED**; **Authority: None**. Its candidate-status field, recorded **at preparation** as **CANDIDATE PREPARED — NOT ASSESSED — NOT APPROVED**, is retained as **historical provenance, not the current status**; **current status — ASSESSED BY NPRA-001; NOT APPROVED**. **Coordinated under AG-004**; **the decision belongs to AG-005 and has not been taken**. **The separate controlled `Authority: None` readiness assessment required before AG-005 may be exercised has been performed and is recorded as `NPRA-001`** (next row). **NPC-001 remains unamended and unapproved.** **NPC-001 is a proposal, not observational evidence, and is not recorded as evidence here** |
 | **C5 candidate readiness assessment** | **`NPRA-001` — Training Baseline Naming and Presentation Control Readiness Assessment**, 2026-08-02 (`docs/Training-Baseline-Naming-and-Presentation-Control-Readiness-Assessment.md`). **ASSESSMENT RECORD — NOT A GOVERNANCE DECISION**; **Authority: None**. Scope: **readiness of NPC-001 for consideration by AG-005 only**; assessed at input commit `5075677224587e6291ac880d5af6a464471b48fc`. Outcome **`READY FOR AG-005 DECISION WITH CONDITIONS`**, with **four assessment conditions `A1`–`A4`** and **seven residual prerequisites `R1`–`R7`**; **no blocker; no amendment of NPC-001 required**. **`A1`–`A4` are local assessment labels, not governance identifiers.** **NPRA-001 is an assessment record — it is not observational evidence, it is not a governance decision, it carries no authority and it is not recorded as evidence here.** **An exact read-only review of NPRA-001 is required before any AG-005 exercise** |
 | **PAD-001 prerequisite P6** | **Step 2 satisfied by AG-004**; **step 3 CANDIDATE ASSESSED — NOT SATISFIED**; **P6 overall remains ACTIVE** |
 | **Publication-package commit** | **NOT PINNED** — and none proposed |
@@ -957,6 +957,16 @@ superseded and retained (BEP 12.10).
 > not exercised and no publication was authorised.** **C5 remains CARRIED
 > FORWARD, P6 step 3 remains pending, P6 remains ACTIVE, the publication-package
 > commit remains unpinned and publication remains NOT AUTHORISED.**
+
+> **Subsequent status — 2026-08-03, Increment 8H-D-R-A.** The **§11 C5 control
+> candidate row was corrected** so that **NPC-001's preserved original
+> candidate-status field is distinguished from its current position — assessed
+> by NPRA-001 and not approved**. **No evidence finding or PPER assessment
+> changed, no observation occurred, NPC-001 was not amended, NPRA-001 was not
+> amended, AG-005 was not exercised, no naming or presentation control was
+> approved and no publication was authorised.** **C5 remains CARRIED FORWARD,
+> P6 step 3 remains pending, the publication-package commit remains unpinned and
+> publication remains NOT AUTHORISED.**
 
 ---
 
