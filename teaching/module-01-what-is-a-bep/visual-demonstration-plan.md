@@ -1,7 +1,24 @@
 # Module 1 — Visual Demonstration Plan
 
-**Status:** Candidate visuals for the complete Module 1 presentation. **Nothing
-here is prepared, and no asset exists.** Every entry is a proposal.
+**Status:** Candidate visuals for the complete Module 1 presentation. **No
+rendered image asset exists.**
+
+**Visual source now exists for all fourteen slides** — see
+[`../assets/module-01/`](../assets/module-01/), created in increment T1-D. This
+plan remains the **controlling document**: its identifiers `V1`–`V10`, its
+evidence classifications and its overclaim warnings are authoritative, and the
+source set implements them rather than superseding them.
+
+| Where to look | For |
+|---|---|
+| [`../assets/module-01/visual-register.md`](../assets/module-01/visual-register.md) | Every visual, its status, evidence and warnings |
+| [`../assets/module-01/slide-visual-map.md`](../assets/module-01/slide-visual-map.md) | Slides 1–14 mapped to their visuals |
+| [`../assets/module-01/source/`](../assets/module-01/source/) | The visual source files, `M01-S01`–`M01-S14` |
+| [`../assets/module-01/rendered/README.md`](../assets/module-01/rendered/README.md) | Why nothing has been rendered |
+
+**Three of the ten evidence sources still require external material** — `V1`,
+`V9` and `V10`. None is a prerequisite: **all fourteen slides are deliverable
+from repository-derived material alone.**
 
 **No live Autodesk work is performed in this increment.** Where an entry notes
 that a live observation "may be useful", that is an observation of a possible
@@ -423,6 +440,25 @@ Slides 10 and 12 it would be worse than unnecessary: a permissions view or an
 ACC Issues board would assert precisely the implementation the sources record as
 not evidenced.
 
+### Visual-source status — T1-D
+
+Source files now exist for all fourteen slides.
+
+| Slides | Source files | Status |
+|---|---|---|
+| 1–3 | `M01-S01`, `M01-S02`, `M01-S03` | **SOURCE COMPLETE** |
+| 4–8 | `M01-S04` … `M01-S08` | **SOURCE COMPLETE** |
+| 9–14 | `M01-S09` … `M01-S14` | **SOURCE COMPLETE** |
+| `V1`, `V9`, `V10` | — | **EXTERNAL EVIDENCE REQUIRED** — optional enrichments only |
+
+**No rendered assets were produced.** No Mermaid renderer, Graphviz, PlantUML or
+SVG converter is available in the working environment, and installing one was
+outside the increment's boundary. Mermaid source is held in fenced blocks that
+render natively on GitHub.
+
+Full status, evidence classification and per-visual warnings:
+[`../assets/module-01/visual-register.md`](../assets/module-01/visual-register.md).
+
 ## 4. Standing cautions
 
 1. **No live Autodesk work is authorised by this plan.** Every "live observation
@@ -439,4 +475,6 @@ not evidenced.
 5. **Every extract inherits its source's status.** Sources are approved with
    conditions and **not published**. A slide must not imply otherwise.
 6. **No asset is committed to `assets/` without reading
-   [`../assets/README.md`](../assets/README.md) first.**
+   [`../assets/README.md`](../assets/README.md) first**, and — for Module 1 —
+   [`../assets/module-01/README.md`](../assets/module-01/README.md), which holds
+   the visual design principles and standing prohibitions for this set.

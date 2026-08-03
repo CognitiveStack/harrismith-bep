@@ -1,19 +1,36 @@
 # Teaching Assets
 
-**Status:** No assets are committed. This directory holds the rules that apply
-when the first one is.
+**Status:** Visual **source** is committed for Module 1. **No rendered image
+asset exists anywhere in this directory.**
 
 ---
 
 ## 1. Purpose
 
 `teaching/assets/` is the location for presentation assets supporting the
-teaching modules — diagrams, cropped extracts, exported images and prepared
-slide graphics.
+teaching modules — diagram source, cropped extracts, exported images and
+prepared slide graphics.
 
-**It is currently empty by design.** Every visual in
+### Current contents
+
+```text
+teaching/assets/
+├── README.md      this file — asset rules for all modules
+└── module-01/     visual source set for Module 1 (14 slide visuals)
+```
+
+| Module | Visual source | Rendered assets |
+|---|---|---|
+| [`module-01/`](module-01/) | **Complete — Slides 1–14** | **None** |
+
+**Source and rendered output are different things**, and this directory
+currently holds only the first. See
+[`module-01/rendered/README.md`](module-01/rendered/README.md) for why nothing
+was rendered and what happens if rendering is undertaken later.
+
+The candidate visuals in
 [`../module-01-what-is-a-bep/visual-demonstration-plan.md`](../module-01-what-is-a-bep/visual-demonstration-plan.md)
-is a candidate, not a prepared asset.
+remain the controlling plan; `module-01/` implements it.
 
 ## 2. What belongs here
 
@@ -54,8 +71,10 @@ is not that.
    **approved with conditions and not published**. An asset derived from one
    must not imply it is issued, delivered or accepted.
 
-6. **Record provenance.** Every asset gets a row in the register below — what it
-   is, where it came from, and any constraint on its use.
+6. **Record provenance.** Every asset is recorded in its module's visual
+   register — what it is, where it came from, and any constraint on its use.
+   For Module 1 that is
+   [`module-01/visual-register.md`](module-01/visual-register.md).
 
 7. **Prefer redrawing to screenshotting.** Several source sequences are already
    diagram-shaped in text — the CDE transition routes and the coordination cycle
@@ -71,17 +90,40 @@ Until a project naming standard exists — and **none is established**
 (BEP §11.12) — assets use a simple descriptive local convention:
 
 ```text
-<module>-<ref>-<short-description>.<ext>
+<MODULE>-<REF>-<short-description>.<ext>
 ```
 
-Examples: `m01-v1-fire-station-view.png`, `m01-v6-cde-states.svg`.
+As implemented for Module 1: `M01-S09-cde-states.md` for visual source, and
+`M01-S09.svg` for a render of it, should one ever be produced.
 
 This is a **local teaching convention only**. It establishes nothing, proposes
 no project standard, and has no relationship to the package-specific naming
 control approved for the publication arrangement.
 
-## 5. Asset register
+**Identifiers are stable.** `V1`–`V10` in the Module 1 visual plan and
+`M01-S01`–`M01-S14` in the visual source set are not renamed or renumbered to
+suit a later render, tool or deck.
 
-| Asset | Module / ref | Source | Constraints on use |
+## 5. Module registers
+
+Each module holds its own visual register rather than a shared list here.
+
+| Module | Register | Source | Rendered |
 |---|---|---|---|
-| *(none)* | | | |
+| Module 1 | [`module-01/visual-register.md`](module-01/visual-register.md) | 14 slide visuals, `SOURCE COMPLETE` | **None** |
+
+## 6. Rendering
+
+**No rendering has been performed in this repository.** No Mermaid CLI,
+Graphviz, PlantUML or SVG converter is available in the working environment, and
+none is installed to obtain one.
+
+Mermaid diagram source is held in fenced ```mermaid blocks inside the source
+files, which **render natively on GitHub** — so the diagrams are viewable
+without local tooling.
+
+If rendering is undertaken later, the rules are in
+[`module-01/rendered/README.md`](module-01/rendered/README.md) §3. The short
+version: render from committed source unchanged, name the output after its
+source identifier, prefer SVG, update the register — and remember that **a
+render never becomes the authority.**

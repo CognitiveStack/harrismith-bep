@@ -42,10 +42,16 @@ end from this source.
 
 | Outstanding | Note |
 |---|---|
-| **Visual assets** | None exist. Every visual in [`visual-demonstration-plan.md`](visual-demonstration-plan.md) is a candidate, not a prepared slide |
+| **Rendered visual assets** | **None.** Visual *source* exists for all fourteen slides in [`../assets/module-01/`](../assets/module-01/); no renderer was available, so no image files were produced |
 | **Rehearsal** | The 20-minute total has never been measured against a clock |
 | **Refinement** | Slide wording will change once it has been spoken aloud |
-| **Final presentation production** | No PowerPoint or equivalent artefact exists, and none is produced from this repository |
+| **Final presentation assembly** | No PowerPoint or equivalent artefact exists, and none is produced from this repository |
+
+**Visual-source baseline complete (T1-D).** Fourteen reviewable visual-source
+files, `M01-S01`–`M01-S14`, with a register, a slide map and recorded design
+principles. **All fourteen slides are deliverable from repository-derived
+material alone** — the three external evidence sources (`V1`, `V9`, `V10`) are
+optional enrichments, not prerequisites.
 
 Module 1 remains the **current active module** on the programme roadmap.
 
@@ -115,7 +121,8 @@ understand why they exist. It does not teach them.
 |---|---|
 | [`presentation-outline.md`](presentation-outline.md) | The 20-minute timing structure and all fourteen slides |
 | [`speaker-notes.md`](speaker-notes.md) | Natural-language delivery notes for Slides 1–14 |
-| [`visual-demonstration-plan.md`](visual-demonstration-plan.md) | Candidate visual evidence, its sources and its risks |
+| [`visual-demonstration-plan.md`](visual-demonstration-plan.md) | Candidate visual evidence, its sources and its risks — **controlling** for `V1`–`V10` |
+| [`../assets/module-01/`](../assets/module-01/) | The visual **source set** — register, slide map and fourteen source files |
 | [`exercises.md`](exercises.md) | Practice and self-assessment |
 | [`source-map.md`](source-map.md) | Traceability from each subject to controlled sources |
 
