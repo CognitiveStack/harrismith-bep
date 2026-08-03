@@ -57,18 +57,28 @@ A **20-minute presentation**, using Harrismith as the worked example.
 | Expected slide count | Approximately 13–14 slides |
 | Worked example | Harrismith Fire Station |
 | Transfer context | A future Triviron multidisciplinary project |
-| Current state | **Slides 1–9 developed.** Slides 10–14 not developed |
+| Current state | **Content baseline complete — Slides 1–14.** Module not complete |
 
-**This presentation does not exist yet.** Nine of fourteen slides are drafted —
-approximately the first thirteen minutes. The timing structure in
-[`presentation-outline.md`](presentation-outline.md) is a working allocation that
-has not been rehearsed.
+**The full Slides 1–14 working content baseline exists.** All ten sections of the
+timing structure are covered, and the module can be delivered end to end from
+this source.
 
 | Slides | Sections covered | Time | State |
 |---|---|---:|---|
 | 1–3 | Why roles must be explicit; function, organisation and person | 4 min | Drafted |
 | 4–9 | Project authority structure; BIM Manager; BIM Coordinator; task-team separation of duties | 10 min | Drafted |
-| 10–14 | CDE Administration; the authority chain; unresolved holders; Triviron transfer | 6 min | Not started |
+| 10–14 | CDE Administration; the authority chain; the authority map; unresolved holders; Triviron transfer | 6 min | Drafted |
+
+**This presentation does not exist yet, and Module 2 is not complete.** What
+remains:
+
+| Outstanding | Note |
+|---|---|
+| **Visual source** | None exists. Every visual in [`visual-demonstration-plan.md`](visual-demonstration-plan.md) is a candidate |
+| **Presentation assembly package** | Not started |
+| **PowerPoint production** | No binary presentation exists |
+| **Review** | Follows production |
+| **Rehearsal and measured timing** | The 20-minute total has never been measured |
 
 ## 4. Scope
 
@@ -163,11 +173,12 @@ framework is unfinished rather than deliberately staged.
 |---|---|
 | Module 2 | **CURRENT — ACTIVE**, not complete |
 | Structure | **Established (T2-A)** |
-| Slides developed | **1–9** of 14 — Slides 4–9 added in T2-B |
-| Role inventory | **Complete** — see `source-map.md` §2 |
-| Authority inventory | **Complete** — see `source-map.md` §3 |
-| Statement classification | Slides 1–3 (§4) and Slides 4–9 (§7) |
+| Slides developed | **1–14** — the full content baseline (T2-A, T2-B, T2-C) |
+| Role inventory | **Complete** — `source-map.md` §2 |
+| Authority inventory | **Complete** — `source-map.md` §3 |
+| Statement classification | Slides 1–3 (§4), 4–9 (§7), 10–14 (§9) — **201 statements, 140 direct** |
 | Frame reconciliation | Five-function vs four-function documented — `source-map.md` §8 |
-| Outstanding | **Slides 10–14**, visual source, presentation assembly, PowerPoint production, review, rehearsal |
+| Module-wide reconciliation | Roles, authorities, gaps and synthesis — `source-map.md` §10 |
+| Outstanding | **Visual source, presentation assembly, PowerPoint production, review, rehearsal** |
 | Module 1 | Review and rehearsal remain **deferred** |
 | Publication automation | **PAUSED** |

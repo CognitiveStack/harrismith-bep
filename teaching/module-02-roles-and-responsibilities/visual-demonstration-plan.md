@@ -389,6 +389,164 @@ key.**
 
 ---
 
+## 2B. Slide-specific visual plan — Slides 10–14
+
+**All five are derivable from committed Markdown.** No live Autodesk observation
+is required, and Slide 10's would be actively harmful.
+
+### Slide 10 — CDE Administration implements governance
+
+| Field | Value |
+|---|---|
+| **Teaching purpose** | Separate governance from platform administration, and show the direction of travel between them |
+| **Proposed form** | **Two-part visual**: `Agreed responsibility → configured permission`, with governance and platform administration kept in visibly separate zones |
+| **Repository evidence** | BEP §5.9, §6.9, §4.6, §5.11, §9.7; CDE Strategy §14, §17; IM matrix §3.2, §3.7 |
+| **Classification** | **DIRECT** |
+| **Simplify** | Two zones, one arrow. Five or six responsibilities in the platform zone, not eight |
+| **Omit** | **Any ACC permission screenshot or settings dialog.** Any user name. Any folder tree. Any bidirectional arrow |
+| **Overclaim risk** | **Low if the arrow runs one way; high if it is reversed or bidirectional** |
+| **Derivable from Markdown?** | **Yes** |
+| **Live observation** | **No — and actively counterproductive.** A permissions screen invites the inference that the access list is the authority list |
+
+**Requirement.** The arrow runs **responsibility → permission**, once, with no
+return path. A return arrow would assert that configuration feeds back into
+governance, which BEP §6.9 and CDE Strategy §17 both refuse.
+
+**Second requirement.** The two zones do not overlap or share a border colour.
+`CDE Administration implements governance; it does not create it` works as the
+caption between them.
+
+### Slide 11 — Check, authorise, publish, receive and accept
+
+| Field | Value |
+|---|---|
+| **Teaching purpose** | Show the decision chain with two links visibly unheld |
+| **Proposed form** | Linear decision chain with status annotations |
+| **Repository evidence** | BEP §9.2–9.8, §10.10, §10.11; CDE Strategy §3, §13; IM matrix §3.3, §3.6 |
+| **Classification** | **DIRECT** for the acts and statuses; **INTERPRETATION** for the required message |
+| **Simplify** | Six visible nodes. Annotate only where the status is not obvious |
+| **Omit** | The full T1–T8 table; the sixteen delivery-schedule fields; any solid arrow into Publication or Accept |
+| **Overclaim risk** | **High if the chain is drawn complete** |
+| **Derivable from Markdown?** | **Yes** |
+| **Live observation** | **No** |
+
+**Chain**
+
+```text
+Author
+  → Check
+  → Authorise for Shared          [Task-Team Lead — ESTABLISHED]
+  → Publication                   [UNRESOLVED / BLOCKED]
+  → Receive
+  → Accept                        [UNRESOLVED]
+```
+
+**Two requirements.**
+
+**Unresolved links must be visible, not omitted.** A dashed step, an open holder
+box or an explicit `[UNRESOLVED]` label all work. What does not work is leaving
+them out — an authority absent from the diagram reads as an authority that does
+not exist, rather than one nobody holds.
+
+**Distinguish states from non-states.** Only *Authorise for Shared* and
+*Publication* change the information state. Consume, receive and accept are an
+action, an event and a status. Use a different shape, weight or lane for the two
+kinds — otherwise the chain implies six state changes where there are two.
+
+### Slide 12 — One process, several distinct authorities
+
+| Field | Value |
+|---|---|
+| **Teaching purpose** | Answer "who may decide each kind of information action?" — including where the answer is nobody |
+| **Proposed form** | **Authority-status map or compact register** with visible status labels |
+| **Repository evidence** | IM matrix §3.1–3.7, §6; BEP §9.4, §9.7, §9.8, §12.7, §12.9; CDE Strategy §3.2; Coordination §19 |
+| **Classification** | **DIRECT** for each allocation; **INTERPRETATION** for the status vocabulary and the distribution |
+| **Simplify** | **Eight to ten rows on the slide**, not sixteen. Keep all three unresolved and the one outside |
+| **Omit** | The full nine-column matrix; **any RACI letter**; any single "approved" status covering everything |
+| **Overclaim risk** | **High if unresolved rows are cut for space** |
+| **Derivable from Markdown?** | **Yes** |
+| **Live observation** | **No** |
+
+**Three prohibitions**
+
+| Prohibition | Why |
+|---|---|
+| **No vertical hierarchy** | BEP §5.2 — not an appointment or organisation chart |
+| **The BIM Manager is not at the top, or in a distinguished position** | It holds none of the sixteen as a decision right |
+| **No single status colour for everything** | Six distinct labels; collapsing them into one green "approved" undoes the slide |
+
+**If space forces a cut**, drop allocated rows — never unresolved ones. Ten
+allocated authorities are unsurprising; three unresolved ones are the teaching.
+
+### Slide 13 — Harrismith names functions but not role holders
+
+| Field | Value |
+|---|---|
+| **Teaching purpose** | Separate a governance framework from an implemented appointment structure |
+| **Proposed form** | **Three-layer mapping**: `Function → Organisation → Named holder` |
+| **Repository evidence** | BEP §4.2, §4.6, §5.2, §5.11, §6.9, §9.10, §10.11, §12.9; IM matrix §2, §4, §6; Model matrix preamble |
+| **Classification** | **DIRECT** for both establishment lists; **SYNTHESIS** for the balance argument |
+| **Simplify** | Three bands. Band 1 populated; band 2 showing party *categories* only; band 3 empty |
+| **Omit** | Any placeholder name in band 3; any company in band 2; any tick or completion indicator; any progress bar |
+| **Overclaim risk** | **Inverted** — the risk is showing the framework as broken, or as complete. Both are wrong |
+| **Derivable from Markdown?** | **Yes** |
+| **Live observation** | **No** |
+
+**Layer states**
+
+| Layer | State | Treatment |
+|---|---|---|
+| **Function** | **Established** | Solid, populated |
+| **Organisation / party** | **Categories defined; none appointed** | Solid outline, unpopulated cells |
+| **Named holder** | **TBD throughout** | Dashed or outlined, visibly empty |
+
+**Requirement: no false completion.** Band 3 is drawn visibly empty. **Do not use
+name-shaped placeholders** — a cell containing a bracketed name token, an initial
+and surname, or any person-like string reads as a name, and inventing one is
+exactly what the module prohibits. An empty cell, a dash or `TBD` is correct.
+
+**Second requirement.** The band-1 population must not imply operation. A caption
+such as *defined, not yet operating* prevents the layer diagram doing the
+overclaiming the words are careful to avoid.
+
+### Slide 14 — What must Triviron assign before delivery begins?
+
+| Field | Value |
+|---|---|
+| **Teaching purpose** | Convert the model into a startup checklist, as questions |
+| **Proposed form** | **Assignment sequence**, six or seven stages, future-facing |
+| **Repository evidence** | The unresolved records across all seven sources; BEP §6.9 for the ordering rule. **No Triviron source exists** |
+| **Classification** | **SYNTHESIS** for the sequence and close; **DIRECT** for each question's derivation |
+| **Simplify** | Six visible stages. Five or six questions beneath, not sixteen |
+| **Omit** | **Every Triviron organisation, person, date, requirement, platform choice and scope.** Any tick, percentage or completion state on the final stage |
+| **Overclaim risk** | **High, and specific** — any Triviron detail will be quoted back as a decision |
+| **Derivable from Markdown?** | **Yes** |
+| **Live observation** | **Not applicable** — no Triviron material exists |
+
+**Sequence**
+
+```text
+Functional model
+  → project organisations
+  → named holders
+  → allocated authorities
+  → configured permissions
+  → verified implementation
+```
+
+**Two requirements.**
+
+**The final state remains future-facing.** `verified implementation` is drawn
+dashed, outlined or otherwise visibly not-yet-real. Nothing about it may read as
+achieved, in progress or scheduled.
+
+**`configured permissions` sits fifth, after `allocated authorities`.** That
+order is BEP §6.9's rule, not a layout preference — *responsibility comes first,
+and the permission follows it*. Drawing permissions earlier would teach the exact
+mistake the module spends Slide 10 correcting.
+
+---
+
 ## 3. Summary
 
 | Ref | Visual | Slides | Classification | From repo? | Overclaim risk |

@@ -1,4 +1,4 @@
-# Module 2 — Speaker Notes, Slides 1–9
+# Module 2 — Speaker Notes, Slides 1–14
 
 **Status:** Working notes. **Not a script, and not final.**
 
@@ -916,6 +916,549 @@ exist"; the delivery-schedule conditions; the RACI position.
 
 ---
 
+## Slide 10 — CDE Administration implements governance · 2.0 min
+
+### Purpose
+
+Explain the function, and separate platform capability from project authority.
+
+### Essential message
+
+1. **CDE Administration** is the function; **CDE Administrator** is whoever
+   carries it — and nobody is established.
+2. It **implements** approved governance and does not create it.
+3. **Permission follows responsibility, not the reverse.**
+4. A configuration change with no authorised decision behind it is a
+   **deviation**, however competently applied.
+
+### Suggested wording
+
+> "Fourth function, and the one that decides nothing — which is why it's
+> interesting.
+>
+> CDE Administration does the platform work. Membership, folders and spaces,
+> permissions, team-space configuration, workflow settings, and implementing
+> approved configuration changes. Then checking that the change actually took
+> effect.
+>
+> All essential. None of it a decision.
+>
+> The BEP puts it in six words: CDE Administration implements governance; it does
+> not create it. Changing the software doesn't make a decision.
+>
+> And there's a direction that matters. Access is configured to *support*
+> approved responsibility — responsibility comes first, and the permission
+> follows it. Not the other way round. If someone has access to a folder, that's
+> because a decision was made about who's responsible; the access is downstream.
+>
+> Which gives you the failure mode. If the access and the approved responsibility
+> disagree, that's a deviation to be recorded — not a redefinition of who's
+> responsible. The software doesn't get a vote on the org model.
+>
+> One more line I'd keep, because it's about this exact section of the BEP: no
+> user names are specified in this document. In the section about access, of all
+> places."
+
+### Shorter fallback
+
+> "CDE Administration configures the platform — membership, folders,
+> permissions, workflow, and implementing approved changes. It implements
+> governance; it doesn't create it. Access is configured to follow approved
+> responsibility: responsibility first, permission after. And a configuration
+> nobody approved is a deviation, however competently it was applied."
+
+### Harrismith evidence
+
+BEP §5.11's example, doing different work here than it did on Slide 2: one
+participant may carry **both** the BIM Manager and the CDE Administrator
+functions. The same person, with full platform access, holds the governance
+authority in one capacity and not the other — so **access was never the thing
+that decided it**.
+
+And BEP §9.7 names the CDE Administrator explicitly among the roles that do
+**not** automatically hold publication authority.
+
+### Likely question
+
+"Does an ACC administrator have publication authority?"
+
+### Safe answer
+
+No — and the BEP names that role specifically among those it isn't automatically
+held by. But be precise about the second half: it isn't held by anyone on this
+project. Publication authority is unresolved and the transition is blocked. So
+the honest answer isn't "not you, someone else" — it's "not yet decided."
+
+### Transition to Slide 11
+
+"So that's the last of the four functions. Let me put the whole chain together —
+because there's more than one decision in it, and they're not the same decision."
+
+### Delivery warning
+
+**The likely misunderstanding: the CDE administrator in the room hears this as a
+demotion, or worse, as a warning about them.**
+
+Two guards. Frame it as being about the *capability* and the *decision*, never
+about a person's trustworthiness. And give the protective reading: a
+configuration applied under an approved decision is not theirs to defend — the
+boundary shields them from being asked to make governance calls in a permissions
+dialog.
+
+**Second risk: do not show a permissions screen.** It invites exactly the
+inference that the access list is the authority list, and it would undo the slide
+faster than any wording could recover it.
+
+### Evidence classification
+
+**DIRECT** — the function/participant terminology split; the eight
+responsibilities; C2, C3, C4, A3 allocations; "implements governance; it does not
+create it"; the four things platform access does not confer; permission follows
+responsibility; the deviation rule; "no user names are specified in this
+document".
+**INTERP** — the required message.
+**SYNTH** — none.
+**EXCLUDED** — any ACC permission screenshot; any suggestion the administrator
+holds publication authority.
+
+---
+
+## Slide 11 — Check, authorise, publish, receive and accept · 1.0 min
+
+### Purpose
+
+Show that "approval" covers several distinct decisions and events, and that two
+of them have no holder.
+
+### Essential message
+
+1. Eight acts. **Only two change the information state.**
+2. Five distinctions: check ≠ authorise ≠ publish ≠ receive ≠ accept ≠ technical
+   approval.
+3. **Controlled sharing is established. Publication is unresolved and blocked.
+   Acceptance is unresolved.**
+4. "Approved" on its own says nothing.
+
+### Suggested wording
+
+> "Here's the whole chain, and the reason it matters is that people say
+> 'approved' for all of it.
+>
+> Author. Technical check. Information-quality check. Then somebody authorises it
+> into Shared. Then it gets used — coordinated, consumed, relied on for a stated
+> purpose. Then, if there's a delivery, somebody authorises publication. It gets
+> sent, it gets received, and someone accepts it.
+>
+> Eight things. Only two of them change the information's state — the move into
+> Shared, and the move into Published. Everything else is an event, an action or
+> a status recorded against information that hasn't changed state at all.
+> Delivery isn't a state. Receipt isn't a state. Acceptance isn't a state.
+>
+> Now — look at who holds each one. Authorising into Shared: the task-team lead.
+> Established, written down, unambiguous.
+>
+> Publication? Unresolved. And because it's unresolved, that transition is
+> recorded as blocked. Information stays Shared.
+>
+> Acceptance? Also unresolved — it depends on a delivery arrangement that doesn't
+> exist yet.
+>
+> Which is why 'approved' is such a weak word. Approved by whom, for what
+> purpose, under what authority? If you can't answer those three, you haven't
+> said anything."
+
+### Shorter fallback
+
+> "Author, check, quality check, authorise into Shared, use it, authorise
+> publication, receive, accept. Only two change the information's state — into
+> Shared and into Published. Controlled sharing is established with the task-team
+> lead. Publication is unresolved and blocked. Acceptance is unresolved. So
+> 'approved' means nothing unless you say what was decided, for what purpose, and
+> by which authority."
+
+### Harrismith evidence
+
+BEP §10.11's four-term table — **Published · Delivered · Received · Accepted** —
+with the three rules beneath it: *"Delivery does not prove acceptance. Receipt
+does not prove suitability. Acceptance applies to the identified purpose and
+requirement, and to nothing beyond it."*
+
+And the position that closes the question: **"No acceptance authorities are
+invented. Where the accepting role remains unresolved, it remains TBD."**
+
+### Likely question
+
+"Isn't checking the same as approving?"
+
+### Safe answer
+
+No. Checking verifies against a defined requirement and confirms readiness for
+the next controlled decision. The decision itself is separate, and on this
+project it's held by a different function — the task-team lead. A checked
+container is one that's *ready to be considered*, not one that's been permitted
+to move.
+
+### Transition to Slide 12
+
+"Which is a lot of separate authorities. Let me put them all in one place."
+
+### Delivery warning
+
+**The likely misunderstanding: the audience reads the chain as a pipeline that
+runs end to end.** A left-to-right sequence implies completion, and two of its
+links have no holder.
+
+Say "blocked" out loud at step 6, not just on the slide. And resist the urge to
+smooth the ending — a chain that stops is the accurate picture, and the
+discomfort it produces is the teaching.
+
+**Second risk:** do not let publication authority become a discussion about *who
+should* hold it. That is a governance decision nobody has taken, and speculating
+in a teaching session is how plausible answers get quoted back as positions.
+
+### Evidence classification
+
+**DIRECT** — the eight acts; the only-two-state-transitions position; all five
+distinctions; the four-term Published/Delivered/Received/Accepted table; the
+authority statuses; "no acceptance authorities are invented".
+**INTERP** — the required message generalising BEP §9.1's position that "approve"
+is not a catch-all.
+**SYNTH** — none.
+**UNRESOLVED** — publication/exchange; recipient acceptance; governance change by
+class.
+
+---
+
+## Slide 12 — One process, several distinct authorities · 1.0 min
+
+### Purpose
+
+Consolidate the model into one answerable question: who may decide each kind of
+information action?
+
+### Essential message
+
+1. Sixteen authorities, six status labels.
+2. **Ten allocated · two conditional · three unresolved · one outside the model.**
+3. **There is no universal approver, and looking for one is the mistake.**
+4. Design approval sits **outside** the information-management allocation
+   entirely.
+
+### Suggested wording
+
+> "One slide, and then I'll stop listing things.
+>
+> Sixteen kinds of decision in this process. Ten of them are allocated to a named
+> function. Two are conditional — they depend on the case or the change type.
+> Three are unresolved: publication, acceptance, and governance change by class.
+> And one sits outside this model altogether.
+>
+> That last one's worth a sentence. Technical or design approval isn't allocated
+> to any information-management function. Not the BIM manager, not the
+> coordinator, not the task-team lead in their information-management capacity.
+> The originating task team carries technical responsibility, and it does so
+> under professional standards, not under this document.
+>
+> Now — the instinct when you see three unresolved rows is to ask who should fill
+> them. I'd resist that. The point of a model like this isn't to find one person
+> who can approve everything. It's to define the *right* authority for each
+> decision. Some of those are decided. Some aren't yet. Writing a name into the
+> gap wouldn't resolve it; it would just hide it."
+
+### Shorter fallback
+
+> "Sixteen authorities. Ten allocated, two conditional, three unresolved —
+> publication, acceptance and governance change — and one, design approval,
+> outside this model entirely. The aim isn't one universal approver; it's the
+> right authority for each decision. Three of them haven't been decided, and the
+> document says so rather than guessing."
+
+### Harrismith evidence
+
+IM matrix §3.7's A2 note, which is the single best line for this slide:
+**"No single universal approver exists"**, and **"unlimited authority is not
+assigned to the BIM Manager."** The required authority *corresponds to the nature
+of the decision*.
+
+And the matrix's own §6 — a seven-row register of unresolved allocations,
+published as part of the approved document rather than omitted from it.
+
+### Likely question
+
+"Who is the final approver?"
+
+### Safe answer
+
+There isn't one, and that's deliberate rather than missing. Different decisions
+need different authorities — the task-team lead authorises sharing; publication
+authority is unresolved; design approval sits outside this model with the
+originating team. The matrix says explicitly that no single universal approver
+exists. A project looking for one usually ends up with someone signing things
+they have no basis to judge.
+
+### Transition to Slide 13
+
+"You'll have noticed something running through all of that. Plenty of functions.
+No names."
+
+### Delivery warning
+
+**The likely misunderstanding: sixteen rows read as bureaucracy, and the audience
+disengages at exactly the moment the model comes together.**
+
+Do not read the table. Give the **distribution** — ten, two, three, one — and
+then one row that matters: design approval, outside the model. The table is
+reference material for the handout, not a script.
+
+**Second risk:** do not let the three unresolved rows be treated as a to-do list
+you can help with. They are governance decisions for the project to take.
+
+### Evidence classification
+
+**DIRECT** — all sixteen authorities and their allocations; "no single universal
+approver exists"; the unresolved register; the technical-responsibility position.
+**INTERP** — the six-label status vocabulary; the ten/two/three/one distribution.
+**SYNTH** — the required message's "mature governance model" framing.
+**UNRESOLVED** — publication/exchange; acceptance; governance change by class.
+**EXCLUDED** — any vertical hierarchy; the BIM Manager placed at the top; any
+hidden unresolved authority.
+
+---
+
+## Slide 13 — Harrismith names functions but not role holders · 1.0 min
+
+### Purpose
+
+Separate a governance framework from an implemented appointment structure, and
+give both halves of the argument.
+
+### Essential message
+
+1. Harrismith establishes definitions, grammar, boundaries, allocations — and a
+   record of what remains open.
+2. It establishes **no named holder, no appointed organisation, no contractual
+   signatory**.
+3. **Functions before names is a legitimate sequence** — and it has a limit.
+4. Documented is not implemented.
+
+### Suggested wording
+
+> "So here's the honest position on my worked example.
+>
+> Harrismith has role definitions, a responsibility grammar, functional
+> boundaries, twenty-five process allocations, and a set of authority
+> allocations. It also has a register of what it hasn't resolved — which is the
+> part I'd point at.
+>
+> What it doesn't have: a single named role holder. No appointed organisations.
+> No contractual signatory. Publication authority undecided. Acceptance authority
+> undecided.
+>
+> Is that a problem? Both answers are true, and I'd give both.
+>
+> Functions before names is a legitimate sequence. You can define what has to be
+> done, agree it, and review it while the team is still forming — which is
+> exactly when a BEP gets written. And appointments can then be mapped onto
+> stable functions rather than renegotiated. One person can carry several
+> functions without merging them.
+>
+> But — and this is the limit — a function can't be *implemented* by an
+> abstraction. Accountability needs an assigned participant. Permissions have to
+> map to an authorised holder. Escalation needs a known contact. And the evidence
+> that any of this happened has to identify who acted.
+>
+> So: defined, yes. Operating, not yet. And the document says so rather than
+> implying otherwise."
+
+### Shorter fallback
+
+> "Harrismith establishes the definitions, the grammar, the boundaries and the
+> allocations — and records what it hasn't resolved. It establishes no named
+> holder, no appointed organisation and no signatory. Functions before names is a
+> legitimate planning sequence. But a function can't be implemented indefinitely
+> without a holder — accountability, permissions, escalation and evidence all
+> need a name eventually."
+
+### Harrismith evidence
+
+BEP §5.2, four words: **"No names are populated."** And §6.9, in the section
+where names would most naturally have appeared: **"No user names are specified in
+this document."**
+
+Against that, BEP §5.1's requirement that implementation must satisfy: for any
+container it must be answerable **who produced it, who checked it, who authorised
+it and for what purpose**. Four questions that need people, not functions.
+
+### Likely question
+
+"Why define roles before assigning people?"
+
+### Safe answer
+
+Because if you assign people first, the argument becomes about individuals rather
+than about what the project needs. Defining the function lets you agree the work
+and the boundary while the team's still forming — and then map appointments onto
+something stable. What you can't do is stay there. The framework is defined; it
+isn't operating.
+
+### Transition to Slide 14
+
+"Which brings me to the question you've been waiting for, which is what any of
+this means for us."
+
+### Delivery warning
+
+**The likely misunderstanding: the audience hears "no names, nothing decided" and
+concludes the whole example was theoretical.**
+
+This is the highest-risk moment in Slides 10–14. Deliver **both halves in the
+same breath** — the legitimacy of the sequence *and* its limit. An audience given
+only the gaps discounts the preceding nineteen minutes.
+
+**Second risk, and the opposite one:** do not let the "what Harrismith
+establishes" list read as a working system. Documenting a function is not
+operating it — say so explicitly, or the list does the overclaiming for you.
+
+### Evidence classification
+
+**DIRECT** — everything in both establishment lists; "no names are populated";
+"no user names are specified"; "no real contractual signatory is assigned"; "no
+acceptance authorities are invented"; "no single universal verifier is defined";
+the traceability requirement.
+**INTERP** — the useful/necessary balance.
+**SYNTH** — the required message.
+**EXCLUDED** — TBD holders as evidence of invalidity; documentation as evidence
+of implementation.
+
+---
+
+## Slide 14 — What must Triviron assign before delivery begins? · 1.0 min
+
+### Purpose
+
+Convert the model into a project-startup checklist — as questions.
+
+### Essential message
+
+1. Seven stages, in order.
+2. **Permissions are configured at stage 5, after the authorities are
+   allocated** — never before.
+3. Every question is derived from a recorded Harrismith gap.
+4. **No Triviron fact is asserted.**
+
+### Suggested wording
+
+> "So what does Triviron actually have to do with this?
+>
+> Seven stages, and the order matters.
+>
+> First, establish the contractual authority — who's the appointing party, who
+> leads delivery. Second, assign the information-management functions — BIM
+> manager, coordinator, CDE administration. Third, the discipline functions —
+> task-team leads, authors, checkers.
+>
+> Fourth, and this is the one people skip: allocate each decision authority
+> separately. Who authorises sharing. Who authorises publication. Who receives.
+> Who accepts. Who holds design approval — which, remember, sits outside this
+> model.
+>
+> Fifth, configure the CDE permissions to follow those allocations. Fifth. Not
+> first. If you set up the folders and permissions before you've decided the
+> authorities, you've made your authority decisions by accident — and you'll be
+> living with them.
+>
+> Sixth, record the named holders, and the deputies. And note who's carrying more
+> than one function, and how you'll keep those functions distinguishable when
+> they do.
+>
+> Seventh: who verifies that any of it is actually happening?
+>
+> Every one of those questions comes from something Harrismith left open. That's
+> the honest form of the handover — its open questions are our required
+> decisions."
+
+### Shorter fallback
+
+> "Seven stages. Contractual authority. Information-management functions.
+> Discipline functions. Then allocate each decision authority separately. Then —
+> and only then — configure the permissions to follow. Then record the named
+> holders and deputies. Then decide who verifies it's being done. Every question
+> comes from something Harrismith left open."
+
+### 30-second closing
+
+> "So — three things to take away.
+>
+> Roles describe functions, not prestige and not job titles. A title doesn't tell
+> you what someone's allowed to decide on your project.
+>
+> Authority has to match the specific decision. There's no universal approver,
+> and a project looking for one usually finds someone signing things they've got
+> no basis to judge.
+>
+> And permissions follow the responsibility model — not the reverse. Decide who's
+> responsible, then configure the software to match.
+>
+> Harrismith gives us a functional model. Triviron has to assign the
+> organisations, the people and the authorities to it before we rely on it in
+> delivery. That's the work."
+
+### 10-second fallback closing
+
+> "Roles are functions, not titles. Authority matches the decision — there's no
+> universal approver. And permissions follow responsibility, never the reverse.
+> Harrismith gives us the model; Triviron has to assign people and authority to
+> it."
+
+### Harrismith evidence
+
+The stage-5 ordering is not a preference — it is BEP §6.9's rule: *"Access is
+configured to support approved responsibility — the responsibility comes first,
+and the permission follows it."*
+
+And the derivations: appointing party **not established**; every IM and
+task-team holder **TBD**; publication and acceptance authority **UNRESOLVED**;
+**"No single universal verifier is defined"**; and BEP §5.11's position that
+combination is allowed but merging is not.
+
+### Likely questions
+
+| Question | Safe answer |
+|---|---|
+| "Who accepts the delivery?" | On Harrismith, nobody — acceptance authority is unresolved and depends on a delivery arrangement that doesn't exist. On a real project it follows the appointment, which is question one on this list. |
+| "Can one person perform several functions?" | Yes, and the BEP expects it on a project this size. The conditions are that the functions don't merge, that the person knows which one they're exercising at each decision, that delegation is explicit, and that any independence limitation is recorded rather than obscured. |
+| "Can we copy these assignments directly to Triviron?" | There are no assignments to copy — every holder is TBD. What transfers is the *model*: the functions, the grammar, the boundaries and the discipline of recording what's open. The answers are Triviron's to make. |
+
+### Transition
+
+None — final slide. Move to the three takeaways, then questions.
+
+### Delivery warning
+
+**The likely misunderstanding: the audience wants a recommendation and you have a
+checklist.** The pressure to say "and I'd suggest X takes the BIM manager role"
+is real, and it is the single most damaging thing available at this point — a
+plausible suggestion made in a teaching session gets repeated afterwards as a
+decision.
+
+There are no Triviron facts in the repository. The questions **are** the
+deliverable, and the audience leaving with work is the correct outcome.
+
+**Second risk:** do not let stage 5 slip earlier in the telling. The ordering is
+the practical payload of the slide, and it is the mistake most projects actually
+make.
+
+### Evidence classification
+
+**DIRECT** — each question's derivation from a recorded gap; the stage-5 ordering
+rule; the multi-function conditions.
+**INTERP** — the seven-stage sequence itself.
+**SYNTH** — the closing message and the three takeaways.
+**EXCLUDED** — every Triviron organisation, person, date, programme, requirement
+and authority decision.
+
+---
+
 ## Notes on using these notes
 
 - **Slide 1 is the one to rehearse.** If the audience does not accept that
@@ -942,4 +1485,17 @@ exist"; the delivery-schedule conditions; the RACI position.
   allocated to no information-management function*, and *the chain stops at
   Shared because publication authority is unresolved.* Both arrive as questions
   in more than one place.
-- Speaker notes for Slides 10–14 do not exist yet.
+- **Slides 10–14 run six minutes** — 2 · 1 · 1 · 1 · 1. Slides 11–14 are one
+  minute each, and between them they carry the consolidation, the honest
+  position and the transfer. **They are the easiest four minutes to lose and the
+  hardest to replace.** If time is short, recover it from Slide 4 or Slide 10.
+- **Slide 13's delivery warning is not optional.** Both halves of the
+  functions-before-names argument must land in the same breath, or the audience
+  discounts the preceding nineteen minutes.
+- **Three recurring answers for Slides 10–14**: *permission follows
+  responsibility, never the reverse*; *no universal approver exists*; and
+  *publication and acceptance authority are unresolved — not held by someone
+  else*. The last distinction matters: "not yours" and "not decided" are
+  different answers, and only the second is accurate.
+- **The full deck runs 4 + 10 + 6.** Slides 1–3 open it, 4–9 carry the
+  substance, 10–14 close it.

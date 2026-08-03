@@ -55,11 +55,15 @@ authority. See
 [`module-02-roles-and-responsibilities/README.md`](module-02-roles-and-responsibilities/README.md).
 
 **Established (T2-A):** module structure, the role inventory, the authority
-inventory, the 20-minute presentation architecture, and Slides 1–3 as the initial
-teaching baseline.
+inventory, and the 20-minute presentation architecture.
 
-**Outstanding:** Slides 4–14, visual source, presentation assembly, PowerPoint
-production, review and rehearsal.
+**Content baseline complete (T2-A, T2-B, T2-C):** **Slides 1–14**, with speaker
+notes, thirty-two exercises, a visual-demonstration plan, statement-level source
+classification across 201 statements, and a module-wide reconciliation of roles,
+authorities and gaps.
+
+**Outstanding:** visual source, presentation assembly, PowerPoint production,
+review and rehearsal.
 
 ### Modules 3–8 — future scope
 
@@ -135,9 +139,10 @@ of governance under condition. Describing it neither advances nor reopens it.
 | Field | Value |
 |---|---|
 | **Active module** | **Module 2 — BIM Management Roles and Responsibilities** — **CURRENT — ACTIVE** |
-| Module 2 deliverable | 20-minute presentation on roles, functions and authority — **structure and Slides 1–3 only** |
-| Module 2 established (T2-A) | Structure · role inventory · authority inventory · 20-minute architecture · Slides 1–3 |
-| Module 2 outstanding | Slides 4–14, visual source, presentation assembly, PowerPoint production, review, rehearsal |
+| Module 2 deliverable | 20-minute presentation on roles, functions and authority — **content baseline complete, not final** |
+| Module 2 slides developed | **Slides 1–14** — the full working content baseline |
+| Module 2 established | Structure · role inventory · authority inventory · 20-minute architecture · Slides 1–14 · module-wide reconciliation |
+| Module 2 outstanding | **Visual source, presentation assembly, PowerPoint production, review, rehearsal** |
 | Module 1 | Content baseline, visual source and assembly package **produced**; PowerPoint assembled **outside this repository** |
 | Module 1 outstanding | **Presentation review and rehearsal — DEFERRED**, not complete, until the presenter chooses to perform them |
 | Modules 3–8 | **Future scope** — not started |

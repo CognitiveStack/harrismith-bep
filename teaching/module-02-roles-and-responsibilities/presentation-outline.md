@@ -1,7 +1,8 @@
 # Module 2 — Presentation Outline
 
-**Status:** Working outline. **Not a final presentation.** Nine of an expected
-fourteen slides are developed. The timing below has not been rehearsed.
+**Status:** Working outline. **Content baseline complete — Slides 1–14.** This is
+**not a final presentation**: no visual source exists, no deck has been
+assembled, and the timing below is an allocation that has never been measured.
 
 ---
 
@@ -56,12 +57,12 @@ merge into one if rehearsal shows the pair is redundant — that would give 13.
 | 7 — What does the BIM Coordinator do? | 1.0 | ✅ |
 | 8 — Coordination responsibility is not design responsibility | 1.0 | ✅ |
 | 9 — Task-Team Leads, Authors and Checkers | 3.0 | ✅ |
-| 10 — CDE Administration implements governance | 2.0 | — |
-| 11 — Check, authorise, publish, receive and accept | 1.0 | — |
-| 12 — One process, several distinct authorities | 1.0 | — |
-| 13 — Harrismith names functions but not role holders | 1.0 | — |
-| 14 — What must Triviron assign before delivery begins? | 1.0 | — |
-| **Total** | **20.0** | **9 of 14** |
+| 10 — CDE Administration implements governance | 2.0 | ✅ |
+| 11 — Check, authorise, publish, receive and accept | 1.0 | ✅ |
+| 12 — One process, several distinct authorities | 1.0 | ✅ |
+| 13 — Harrismith names functions but not role holders | 1.0 | ✅ |
+| 14 — What must Triviron assign before delivery begins? | 1.0 | ✅ |
+| **Total** | **20.0** | **14 of 14** |
 
 **Note on the Slides 4–9 block total.** Under the section structure established
 in T2-A, Slides 4–9 occupy the four middle sections — the project authority
@@ -627,22 +628,357 @@ confidence in their work" — but not in this sentence.)*
 collapses checking from authorising and coordinating from performing — the exact
 distinctions this slide exists to make. Seven terms are used instead of four.
 
+### Slide 10 — CDE Administration implements governance · 2.0 min
+
+**Purpose of the slide**
+
+Explain the function, and separate **platform capability** from **project
+authority** — the third of the module's three principal misconceptions.
+
+**Terminology, used precisely**
+
+| Term | What it is | Source usage |
+|---|---|---|
+| **CDE Administration** | The **function** — one of the four established at organisation level | 25 occurrences |
+| **CDE Administrator** | A **participant** carrying that function | 5 occurrences, all where role combination or a list of people is discussed |
+
+The function is what the BEP allocates. The Administrator is whoever happens to
+be performing it — **and no such person is established**.
+
+**What the function does** (BEP §5.9, §6.9)
+
+| CDE Administration |
+|---|
+| Project membership administration |
+| Folder and space implementation |
+| Permissions |
+| Design Collaboration team-space configuration |
+| Coordination-space configuration |
+| Platform workflow configuration |
+| Implementation of approved structural and configuration changes |
+| **Checking platform configuration after an approved change** |
+
+Where the matrix puts it (IM matrix §3.2, §3.7): `P` on **C2** implement
+approved CDE configuration, **C3** administer access and permissions, and **A3**
+implement approved change; **`P Ck`** on **C4** verify platform configuration
+after approved change.
+
+**The boundary — direct source wording**
+
+> CDE Administration implements governance; it does not create it.
+
+Four consequences, each sourced:
+
+| # | |
+|---|---|
+| 1 | **Write access does not create authorisation authority.** Platform permission is not authority to share, to publish, or to accept |
+| 2 | **Administrative capability does not make the administrator the publication authority.** BEP §9.7 names the CDE Administrator among those who do *not* automatically hold it |
+| 3 | **Permission follows responsibility, not the reverse.** *"Access is configured to support approved responsibility — the responsibility comes first, and the permission follows it"* |
+| 4 | **A configuration change without an authorised decision behind it is not valid implementation.** *"A configuration that was never approved is a deviation, however competently it was applied"* |
+
+And the divergence rule: where access and approved responsibility diverge, *"the
+divergence is a deviation to be recorded, not a redefinition of who is
+responsible."*
+
+**The practical example — sourced, and no person named**
+
+BEP §5.11's own illustration, reused from Slide 2 and now doing different work:
+one participant may carry **both** the BIM Manager and the CDE Administrator
+functions. When they do:
+
+> Approving a governance change as BIM Manager is a different act from applying
+> it as CDE Administrator, even when performed by one person within a minute of
+> each other.
+
+The same person, with full platform access, holds the authority in one capacity
+and not the other. **Access was never the thing that decided it.**
+
+Worth adding, and it is the source's own sentence: **"No user names are
+specified in this document."**
+
+**Required message**
+
+> Access determines what a user can technically do; governance determines what
+> they are authorised to decide.
+
+*(Supported interpretation. Both halves are directly sourced — BEP §6.9 and CDE
+Strategy §14 — but not in this sentence.)*
+
+**Visual prohibition for this increment.** **No ACC permission screenshot.** A
+permissions screen invites exactly the inference this slide refutes: that the
+access list *is* the authority list. See
+[`visual-demonstration-plan.md`](visual-demonstration-plan.md) §2B.
+
+### Slide 11 — Check, authorise, publish, receive and accept · 1.0 min
+
+**Purpose of the slide**
+
+Show that information passes through several **distinct decisions and events**
+which must not be collapsed into one generic "approval".
+
+**The sequence, in source terminology**
+
+| # | Act | Kind | Held by |
+|---|---|---|---|
+| 1 | **Author** information in WIP | Act | Author |
+| 2 | **Task-team technical / content check** | Check | Checker |
+| 3 | **Information-quality / readiness check** | Check | Checker |
+| 4 | **Authorise for controlled sharing** | **State transition** — WIP → Shared | **Task-Team Lead** |
+| 5 | **Consume / coordinate** for the defined purpose | *Action and context — not a state change* | Receiving task team; BIM Coordinator |
+| 6 | **Authorise publication / exchange** | **State transition** — Shared → Published | **UNRESOLVED — BLOCKED** |
+| 7 | **Receive** the exchange | *Event — not a state change* | Receiving / recipient function |
+| 8 | **Accept** for the stated purpose | *Status — not a state change* | **UNRESOLVED / recipient-dependent** |
+
+**Not every action is an information-state transition.** The CDE Strategy is
+explicit: only the transitions at steps 4 and 6 change the information state.
+Consumption, coordination input, delivery, receipt and acceptance are
+**actions, contexts, events and statuses recorded against information whose
+state is unchanged**.
+
+**The five distinctions**
+
+| | |
+|---|---|
+| **Check ≠ authorise** | *"Checking confirms readiness for the next controlled decision"* — the progression is a separate decision |
+| **Authorise for Shared ≠ publish** | *"Authorisation to share is not authorisation to publish or exchange"* — separate decisions with wider consequences |
+| **Publish ≠ receive** | *"Delivery does not prove acceptance"*; a transmission record is evidence an exchange occurred, not the information |
+| **Receive ≠ accept** | *"Receipt does not prove suitability"* |
+| **Accept ≠ technical approval** | Acceptance applies to the identified purpose and requirement, *"and to nothing beyond it"*; a transmittal *"is not technical approval"* |
+
+**Authority status across the chain**
+
+| Authority | Status |
+|---|---|
+| Controlled sharing | **ESTABLISHED — Task-Team Lead** (BEP §9.4) |
+| Publication / exchange | **UNRESOLVED — and BLOCKED**; information remains Shared |
+| Recipient acceptance | **UNRESOLVED / recipient-dependent** |
+| Technical or design approval | **OUTSIDE the information-management allocation** |
+| Governance change | **UNRESOLVED**, dependent on change class |
+
+**The visual must not tidy this away.** Steps 6 and 8 appear as dashed, open or
+blocked — never omitted, and never solid. An authority absent from the diagram
+reads as an authority that does not exist; a solid one reads as an authority
+somebody holds. Both are wrong.
+
+**Required message**
+
+> "Approved" is too vague unless the project identifies what was decided, for
+> which purpose and by which authority.
+
+*(Supported interpretation. BEP §9.1 states that "approve" is used only where a
+defined approval decision is intended and is not a catch-all; this sentence
+generalises that position.)*
+
+### Slide 12 — One process, several distinct authorities · 1.0 min
+
+**Purpose of the slide**
+
+Consolidate the model and answer one question: **who may decide each kind of
+information action?**
+
+The answer is not always a role. Sometimes it is "nobody yet", and the slide
+says so.
+
+**Status vocabulary — six labels, defined on the slide**
+
+| Label | Meaning |
+|---|---|
+| **`ALLOCATED`** | The matrix assigns it to a named function |
+| **`CONDITIONAL`** | Held only where governance expressly allocates it, or varies by case |
+| **`UNRESOLVED`** | Recorded as TBD; no function holds it |
+| **`BLOCKED`** | Cannot currently be exercised at all |
+| **`RECIPIENT-DEPENDENT`** | Depends on a delivery arrangement that does not yet exist |
+| **`OUTSIDE IM AUTHORITY`** | Not allocated to any information-management function |
+
+**The authority map**
+
+| # | Authority | Held by | Status |
+|---|---|---|---|
+| 1 | Authoring | Author | `ALLOCATED` |
+| 2 | Task-team technical / content checking | Checker | `ALLOCATED` |
+| 3 | Information-quality / readiness checking | Checker | `ALLOCATED` |
+| 4 | Coordination (process) | BIM Coordinator | `ALLOCATED` |
+| 5 | **Authorisation for controlled sharing** | **Task-Team Lead** | **`ALLOCATED` — the one established authority** |
+| 6 | Authorisation to consume Shared information | Task-Team Lead | `ALLOCATED` |
+| 7 | **Publication / exchange** | — | **`UNRESOLVED` + `BLOCKED`** |
+| 8 | Technical / design approval | Originating task team retains technical responsibility | **`OUTSIDE IM AUTHORITY`** |
+| 9 | Governance change | — | **`UNRESOLVED`**, by change class |
+| 10 | Receipt of exchange | Receiving / recipient function | `ALLOCATED` |
+| 11 | **Acceptance for a stated purpose** | — | **`UNRESOLVED` / `RECIPIENT-DEPENDENT`** |
+| 12 | Issue-response verification | BIM Coordinator | `ALLOCATED` — and expressly **not** design approval |
+| 13 | Issue closure | Per governed criteria, after re-coordination | `CONDITIONAL` |
+| 14 | Implementation verification | Varies by change type | `CONDITIONAL` — **no single universal verifier** |
+| 15 | Escalation of unresolved interfaces | BIM Coordinator | `ALLOCATED` |
+| 16 | Platform configuration implementation | CDE Administration | `ALLOCATED` — implements only |
+
+**Ten allocated. Two conditional. Three unresolved. One outside the model
+entirely.** That distribution is the slide.
+
+**Three things the visual must not do**
+
+| Prohibition | Why |
+|---|---|
+| **No vertical hierarchy** | BEP §5.2 — the model is not an appointment or organisation chart |
+| **The BIM Manager is not at the top** | It holds none of the sixteen authorities above as a decision right; it governs the framework within which they sit |
+| **No unresolved authority is hidden** | Rows 7, 9 and 11 appear with their status visible |
+
+**Required message**
+
+> A mature BIM governance model does not search for one universal approver; it
+> defines the correct authority for each decision.
+
+*(Teaching synthesis. The sources state that no single universal approver exists
+and that authority must correspond to the nature of the decision; the maturity
+framing is the presenter's.)*
+
+### Slide 13 — Harrismith names functions but not role holders · 1.0 min
+
+**Purpose of the slide**
+
+Separate a **governance framework** from an **implemented appointment
+structure** — and give both halves of the argument.
+
+**What Harrismith establishes**
+
+| Established |
+|---|
+| Role definitions — nine functional roles, four IM functions |
+| The responsibility grammar — Perform · Check · Authorise · Coordinate · Accept · Consult · Inform |
+| Functional boundaries — the *Holds / Does not hold* position for each role |
+| Process allocations — 25 information-management functions across the matrix |
+| Some authority allocations — controlled sharing is established; ten are allocated |
+| **Records of what remains unresolved** |
+
+**What Harrismith does not establish**
+
+| Not established | Recorded at |
+|---|---|
+| Named project role holders | *"No names are populated. Role holders are TBD throughout Section 5"* |
+| Confirmed organisations for each role | Party categories defined; **no organisation appointed** |
+| Contractual signatories | *"No real contractual signatory is assigned"* |
+| Publication / exchange authority | **UNRESOLVED** |
+| Recipient acceptance authority | **UNRESOLVED** — *"No acceptance authorities are invented"* |
+| Every implementation-verification function | *"No single universal verifier is defined"* |
+
+Also sourced, and worth one line: **"No user names are specified in this
+document."** That is a deliberate position, stated in the CDE access section
+where names would most naturally have appeared.
+
+**Why functions before names is useful**
+
+| | |
+|---|---|
+| The project can define **what must be done** before knowing who will do it |
+| Appointments can later be **mapped to stable functions** rather than renegotiated |
+| **One person can carry several functions** without merging them |
+| Governance can be **reviewed and agreed** while the team is still forming |
+
+**Why named holders are eventually necessary**
+
+| | |
+|---|---|
+| Work cannot be implemented by abstract functions alone |
+| Accountability requires an **assigned participant** |
+| **Permissions must be mapped to an authorised holder** — access follows responsibility, and responsibility needs an owner |
+| Delivery and escalation need a **known contact** |
+| **Implementation evidence must identify who acted** — *"who produced it, who checked it, who authorised it and for what purpose"* |
+
+**Required message**
+
+> A function can be defined before a person is appointed, but it cannot be
+> implemented indefinitely without a named holder.
+
+*(Teaching synthesis. The sources record the state; the argument about its
+limits is the presenter's.)*
+
+**Two warnings, both required**
+
+| Do not | Because |
+|---|---|
+| **Present TBD holders as evidence the framework is invalid** | BEP §5.2 and IM matrix §2 present unpopulated holders as the normal current state of a functional model |
+| **Present the framework as implemented because the functions are documented** | *"Approval is not implementation, and implementation is not verification."* Documenting a function is not operating it |
+
+The second warning is the one presenters miss. A slide listing everything
+Harrismith establishes reads as a working system unless the limit is said aloud.
+
+### Slide 14 — What must Triviron assign before delivery begins? · 1.0 min
+
+> **Evidence boundary.** No Triviron project appointments, organisational
+> structure, programme, information requirements or authority decisions exist in
+> this repository. **This slide contains assignment questions, not answers.**
+
+**Purpose of the slide**
+
+Convert the Harrismith role-and-authority model into a practical project-startup
+checklist.
+
+**The assignment sequence — seven stages**
+
+| # | Stage | The questions |
+|---|---|---|
+| **1** | **Establish project and contractual authority** | Which organisation is the Owner / Appointing Party? Which organisation acts as Lead Delivery Party? |
+| **2** | **Assign information-management functions** | Who performs the BIM Manager function? The BIM Coordinator function? Who administers the CDE? |
+| **3** | **Assign discipline and task-team functions** | Who are the Task-Team Leads for each discipline? Who may author information? Who performs the required technical and information-quality checks? |
+| **4** | **Allocate each decision authority** | Who authorises information for Shared? Who holds publication / exchange authority? Who receives each delivery? Who may accept it? Who holds technical or design approval authority? |
+| **5** | **Configure CDE permissions to follow the allocations** | Which permissions follow each responsibility? |
+| **6** | **Record named holders and deputies** | Which participants may hold more than one function — and how will those functions remain distinguishable? |
+| **7** | **Verify implementation** | Who verifies that the agreed BIM process is actually being followed? |
+
+**Stage 5 is in that position deliberately.** Permissions are configured *after*
+the authorities are allocated, because *"responsibility comes first and the
+permission follows it."* A project that configures the CDE first has already
+made its authority decisions by accident.
+
+**Each question is derived from a recorded Harrismith gap**
+
+| Question | Derived from |
+|---|---|
+| Appointing Party organisation | Identity **not established** |
+| Lead Delivery Party organisation | Holder **TBD** |
+| BIM Manager, BIM Coordinator, CDE Administration | Holders **TBD** |
+| Task-Team Leads | **TBD for every task team** |
+| Authors and Checkers | **TBD** |
+| Publication / exchange authority | **UNRESOLVED** |
+| Recipient and acceptance authority | **UNRESOLVED**; *"No acceptance authorities are invented"* |
+| Technical / design approval | **Outside** the IM allocation on Harrismith |
+| Permissions following responsibility | BEP §6.9's ordering rule |
+| Multi-function participants | BEP §5.11 — combination is allowed, merging is not |
+| Implementation verification | **No single universal verifier is defined** |
+
+**This is not a claim about Triviron's organisation.** It is a checklist derived
+from what Harrismith left open. Every item is a question.
+
+**Closing message**
+
+> Harrismith gives us a functional model. Triviron must assign organisations,
+> people and authority to that model before relying on it in delivery.
+
+*(Teaching synthesis.)*
+
+**Closing takeaway — three points**
+
+1. **Roles describe functions**, not prestige or job titles.
+2. **Authority must match the specific decision** — there is no universal
+   approver.
+3. **Permissions and implementation follow the agreed responsibility model**,
+   never the reverse.
+
 ---
 
-## 4. Slides not yet developed
+## 4. Content baseline status
 
-Five slides remain. Recorded as intent, not content:
+**Slides 1–14 are developed.** All ten sections of the timing structure are
+covered, and the module can be delivered end to end from this source.
 
-| Slide | The one message it must land |
+**Module 2 is not complete.** What remains:
+
+| Outstanding | Note |
 |---|---|
-| 10 — CDE Administration implements | Implements approved governance; does not create it. **Permission is not authority** |
-| 11 — Check, authorise, publish, receive, accept | Five different decisions, five different criteria, not collapsed into "approval" |
-| 12 — One process, several authorities | The whole chain on one slide, with the unresolved ones visibly unresolved |
-| 13 — Functions but not holders | Every holder TBD; four authorities unresolved — and why that is discipline rather than deficiency |
-| 14 — What must Triviron assign? | Questions only. No Triviron fact exists to state |
-
-Each needs speaker notes and a visual-plan entry before the module can be
-considered complete.
+| Visual source | None exists. Every visual in [`visual-demonstration-plan.md`](visual-demonstration-plan.md) is a candidate |
+| Presentation assembly package | Not started |
+| PowerPoint production | No binary presentation exists |
+| Review | Follows production |
+| Rehearsal and measured timing | The 20-minute total has never been measured |
 
 ---
 
@@ -650,10 +986,10 @@ considered complete.
 
 | Gap | Effect |
 |---|---|
-| Slides 10–14 do not exist | The talk cannot be delivered end to end |
 | Timing is unrehearsed | The 20-minute total is an allocation, not a measurement |
-| No visual source exists | Every visual in [`visual-demonstration-plan.md`](visual-demonstration-plan.md) is a candidate |
+| No visual source exists | Every visual in the plan is a candidate, not a prepared slide |
 | Slides 2 and 3 may merge | If rehearsal shows the pair is redundant, the deck becomes 13 slides |
 | Triviron context is unavailable | Slide 14 can only pose the assignment questions |
-| Four authorities are unresolved | Slides 11–13 must show them so, not complete them |
+| Four authorities are unresolved | Slides 11–13 show them so, and must not complete them |
 | Slides 5–6 and 7–8 are paired | Each pair is *positive account, then boundary*. If the first of a pair overruns, the second is lost — and the second carries the teaching |
+| Slides 11–14 total four minutes | The consolidation, the honest position and the transfer all sit in the last four minutes. They are the easiest to lose and the hardest to replace |

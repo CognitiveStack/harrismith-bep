@@ -477,11 +477,262 @@ regardless of how fluent it sounded.
 
 ---
 
+---
+
+# Exercises for Slides 10–14
+
+The closing six minutes: platform administration, the authority chain, the
+consolidated map, the honest position on holders, and the Triviron transfer.
+
+Exercises 31 and 32 are the full-run rehearsals.
+
+---
+
+## Exercise 21 — CDE Administration, without leading on software
+
+**Task.** Explain the CDE Administration function **without mentioning a software
+feature in your first three sentences**. No folders, permissions, settings or
+product names until sentence four.
+
+**Success criteria**
+
+- [ ] Opened with what the function *is for* — implementing approved governance
+- [ ] Said it implements and does not create governance
+- [ ] Only then described what it configures
+- [ ] Distinguished `CDE Administration` (function) from `CDE Administrator`
+      (participant)
+- [ ] Under 60 seconds
+
+**Why the constraint.** Leading with folders and permissions makes it sound like
+an IT role, and the audience files it accordingly. Leading with the governance
+relationship makes the boundary comprehensible when you reach it.
+
+---
+
+## Exercise 22 — "I have write permission, so why can't I publish?"
+
+**Task.** Answer it. Forty-five seconds, to someone who is genuinely puzzled
+rather than annoyed.
+
+**Success criteria**
+
+- [ ] Separated the technical capability from the governed decision
+- [ ] Said permission follows responsibility, not the reverse
+- [ ] Said publication authority on Harrismith is **unresolved** — not "held by
+      someone else"
+- [ ] Did not suggest who might hold it
+- [ ] Did not make it sound like a restriction aimed at them
+
+**Common failure:** "because you're not authorised." Circular, and it teaches
+nothing. The useful answer explains where authority comes from and why the
+software isn't it.
+
+---
+
+## Exercise 23 — Five different actions
+
+**Task.** Explain check, authorise, publish, receive and accept as **five
+different actions**. One sentence each.
+
+**Success criteria**
+
+- [ ] Five distinct sentences, no overlap
+- [ ] Said which two change the information's state
+- [ ] Said what each one does *not* prove — delivery doesn't prove acceptance,
+      receipt doesn't prove suitability
+- [ ] Did not use "approve" as a catch-all for any of them
+- [ ] Under 75 seconds
+
+---
+
+## Exercise 24 — Which authority is established?
+
+**Task.** Name the authority Harrismith establishes unambiguously, and cite where.
+
+**Success criteria**
+
+- [ ] Named **authorisation for controlled sharing**
+- [ ] Attributed it to the **Task-Team Lead**
+- [ ] Could name at least one source location — BEP §9.4 or matrix row P4
+- [ ] Noted the qualifier: *or another role explicitly allocated that function by
+      approved governance*
+- [ ] Did not claim any other authority is established
+
+**Why this exercise.** It is the module's anchor. A presenter who cannot name the
+one established authority cannot credibly say the others are unresolved.
+
+---
+
+## Exercise 25 — Which authorities remain unresolved?
+
+**Task.** Name the three unresolved authorities and say what each one prevents.
+
+**Success criteria**
+
+- [ ] Publication / exchange — and that the transition is **blocked**
+- [ ] Recipient acceptance — and that no acceptance workflow is defined
+- [ ] Governance change by class — and that no single universal approver exists
+- [ ] Distinguished these from the two **conditional** authorities (issue
+      closure, implementation verification)
+- [ ] Did not offer a plausible holder for any of them
+
+---
+
+## Exercise 26 — Why technical approval sits outside the model
+
+**Task.** Explain why design approval is not allocated to any
+information-management function.
+
+**Success criteria**
+
+- [ ] Said no matrix row allocates it
+- [ ] Said the originating task team retains technical responsibility, before and
+      after coordination
+- [ ] Said technical responsibility runs under professional standards, not under
+      this document
+- [ ] Flagged that this is an **absence correctly read**, not a stated exclusion
+- [ ] Did not imply the BIM Manager or Coordinator secretly holds it
+
+**Common failure:** "the discipline lead approves the design." Possibly true on a
+real project — but the Harrismith matrix doesn't say it, and this exercise is
+about reading the absence accurately rather than filling it.
+
+---
+
+## Exercise 27 — A one-minute authority map, without "final approver"
+
+**Task.** Summarise the authority model in one minute **without saying "final
+approver", "sign-off", "the buck stops", or "ultimately responsible"**.
+
+**Success criteria**
+
+- [ ] Gave the distribution — ten allocated, two conditional, three unresolved,
+      one outside
+- [ ] Named at least one authority in each category
+- [ ] Said explicitly that no universal approver exists
+- [ ] No banned phrase used
+- [ ] One minute or less
+
+**Common failure:** reading the sixteen-row table. The distribution is the
+message; the table is the handout.
+
+---
+
+## Exercise 28 — Defined function versus named holder
+
+**Task.** Explain the difference, and give both halves of the argument — why
+functions-first works, and where it stops.
+
+**Success criteria**
+
+- [ ] Both halves delivered, not just the first
+- [ ] Named at least two reasons functions-before-names is useful
+- [ ] Named at least two reasons named holders eventually become necessary
+- [ ] Did not present TBD holders as invalidating the framework
+- [ ] Did not present documented functions as an operating system
+
+**This is the exercise most worth repeating.** Slide 13 fails in one of two
+opposite directions — sounding like the framework is broken, or sounding like it
+is running — and only delivering both halves avoids both.
+
+---
+
+## Exercise 29 — One person, two functions
+
+**Task.** Explain how one participant can carry two functions without merging
+them. Thirty seconds.
+
+**Success criteria**
+
+- [ ] Used the sourced example — approving as BIM Manager versus applying as CDE
+      Administrator
+- [ ] Said the person must know **which function they are exercising at each
+      decision**
+- [ ] Mentioned that delegation must be explicit and that platform access is not
+      delegation
+- [ ] Said that where combination reduces independence, the limitation is
+      **recorded**
+- [ ] Did not name anyone
+
+---
+
+## Exercise 30 — Minimum assignments before relying on the BEP
+
+**Task.** Identify the minimum a project must assign before it can rely on this
+model in delivery.
+
+**Success criteria**
+
+- [ ] Named the contractual authority stage first
+- [ ] Included the three unresolved authorities as decisions that must be taken
+- [ ] Placed **permissions after allocations**, not before
+- [ ] Included implementation verification
+- [ ] Framed everything as a question, with no Triviron fact asserted
+
+**Common failure:** listing role appointments only. Assigning people to functions
+without allocating the unresolved authorities leaves the same gaps with names
+attached.
+
+---
+
+## Exercise 31 — The closing in 30 seconds
+
+**Task.** Deliver the Module 2 closing in **30 seconds**.
+
+**Success criteria**
+
+- [ ] All three takeaways delivered — functions not titles; authority matches the
+      decision; permissions follow responsibility
+- [ ] Closed on a position rather than trailing off
+- [ ] No Triviron fact asserted
+- [ ] 30 seconds ± 5
+
+---
+
+## Exercise 32 — The final section within its allocation
+
+**Task.** Deliver Slides 10–14 straight through. Target **six minutes**.
+
+**Timing targets:** Slide 10, 2 min. Slides 11, 12, 13, 14, one minute each.
+
+**Success criteria**
+
+- [ ] Six minutes ± 40 seconds
+- [ ] Slide 10 did not eat into Slides 11–14
+- [ ] Slide 13 delivered both halves of the functions-versus-holders argument
+- [ ] The three unresolved authorities stated as unresolved, not as held
+      elsewhere
+- [ ] No holder, organisation, date or Triviron fact invented under time pressure
+- [ ] Closed cleanly rather than running out
+
+**Common failure:** overrunning on Slide 10 — it has the longest allocation and
+the most concrete content, so it expands. Slides 13 and 14 then arrive with
+seconds left, and they are the two that make the module land.
+
+---
+
+## Self-assessment across Slides 10–14
+
+| Criterion | Failed if |
+|---|---|
+| **Authority accuracy** | I said an unresolved authority was held by someone, or offered a plausible holder |
+| **Permission framing** | I described access as conferring or evidencing authority |
+| **Terminology** | I conflated `CDE Administration` with `CDE Administrator`, said RACI, or used an ISO term the sources don't use |
+| **Balance** | Slide 13 came out as "the framework is unfinished" or as "the framework is running" |
+| **Triviron** | Any organisation, person, date, requirement or authority decision was stated as fact |
+| **Evidence** | I could not say, for any claim challenged, whether it was source wording or my framing |
+
+The last row is the module's real test. Ten statements across fourteen slides are
+teaching synthesis, and a presenter who cannot identify them will eventually
+attribute one to the BEP in front of someone who has read it.
+
+---
+
 ## Recording progress
 
 | Date | Exercise | Outcome | What to change |
 |---|---|---|---|
 | | | | |
 
-Exercises for Slides 10–14 do not exist yet, and will be added as those slides
-are developed.
+Thirty-two exercises now cover Slides 1–14. Further exercises may be added as
+delivery experience accumulates.
