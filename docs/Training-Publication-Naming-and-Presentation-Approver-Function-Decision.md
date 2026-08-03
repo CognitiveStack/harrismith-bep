@@ -33,6 +33,21 @@
 > altered.** Candidate:
 > [`docs/Training-Baseline-Naming-and-Presentation-Control-Candidate.md`](Training-Baseline-Naming-and-Presentation-Control-Candidate.md).
 
+> **Subsequent status — 2026-08-02, Increment 8H-D.** **`NPRA-001` — the Training
+> Baseline Naming and Presentation Control Readiness Assessment — now exists.**
+> **Its Authority is `None`**; it is an **ASSESSMENT RECORD — NOT A GOVERNANCE
+> DECISION**. Its readiness outcome is **`READY FOR AG-005 DECISION WITH
+> CONDITIONS`**, recording four assessment conditions (`A1`–`A4`) and seven
+> residual technical prerequisites (`R1`–`R7`), and recording **no blocker** and
+> **no requirement to amend NPC-001**. **AG-005 has not been exercised**, **no
+> candidate decision occurred**, and **no C5 control was approved.** **C5 remains
+> `CARRIED FORWARD`** and **P6 step 3 remains pending**. **An exact read-only
+> review of NPRA-001 is required before any exercise of AG-005**; the §6
+> candidate precondition and the orchestrator-directed assessment gate are matters
+> for that review, not for this note. **No substantive section below is altered.**
+> Assessment:
+> [`docs/Training-Baseline-Naming-and-Presentation-Control-Readiness-Assessment.md`](Training-Baseline-Naming-and-Presentation-Control-Readiness-Assessment.md).
+
 ---
 
 ## 1. Decision identification

@@ -45,6 +45,26 @@
 > commit is proposed or pinned** and **publication remains NOT AUTHORISED with
 > the hold ACTIVE**.
 
+> **Subsequent status — 2026-08-02, Increment 8H-D.** **The separate controlled
+> `Authority: None` readiness assessment required by §16 has been performed** and
+> is recorded as **`NPRA-001`**. **NPRA-001 carries `Authority: None`**, is
+> classified **ASSESSMENT RECORD — NOT A GOVERNANCE DECISION**, and **approves
+> nothing**. Its outcome is **`READY FOR AG-005 DECISION WITH CONDITIONS`**, with
+> **four assessment conditions** — **`A1`** `TB0P1` as a dual PM-4 field 2 / field
+> 4 carrier; **`A2`** `AWC` as an additive PM-4 field 5 filename carrier; **`A3`**
+> the container-label / package-filename form distinction; **`A4`** the
+> project-wide scope bar restated in the deciding record — and **seven residual
+> technical prerequisites `R1`–`R7`** outside C5. **`A1`–`A4` are local assessment
+> labels, not governance identifiers.** **NPRA-001 records that NPC-001 requires
+> no amendment before AG-005 may consider it, and records no blocker.**
+> **NPC-001 remains a proposal and remains NOT APPROVED**; **AG-005 remains
+> unexercised**; **C5 remains `CARRIED FORWARD`**; **P6 step 3 remains pending**;
+> **no package commit was proposed or pinned**; and **publication remains NOT
+> AUTHORISED with the hold ACTIVE**. **An exact read-only review of NPRA-001 is
+> required next, before any AG-005 exercise.** **No substantive section below is
+> altered.** Assessment:
+> [`docs/Training-Baseline-Naming-and-Presentation-Control-Readiness-Assessment.md`](Training-Baseline-Naming-and-Presentation-Control-Readiness-Assessment.md).
+
 ---
 
 ## 1. What this candidate is

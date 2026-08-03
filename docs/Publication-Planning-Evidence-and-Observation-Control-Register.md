@@ -840,7 +840,7 @@ well drafted.
 
 ## 11. Current register state
 
-As at completion of Increment 8H-C:
+As at completion of Increment 8H-D:
 
 | Statement | Position |
 |---|---|
@@ -849,9 +849,10 @@ As at completion of Increment 8H-C:
 | **Publication owner function** | **ESTABLISHED — `Training Baseline Publication Owner`, AG-004, 2026-08-02.** Functional holder **Training Implementation Owner** under **TA-02**; **no personal holder recorded**. **The function owns package identity, preparation governance and readiness coordination only** |
 | **PAD-001 condition C1** | **SATISFIED BY AG-004** |
 | **Naming and presentation control function** | **ESTABLISHED — `Training Publication Naming and Presentation Approver`, AG-005, 2026-08-02** (`docs/Training-Publication-Naming-and-Presentation-Approver-Function-Decision.md`). Functional holder **Training Implementation Owner** under **TA-02**; **no personal holder recorded**. **It may later decide the C5 controls; it has not** |
-| **PAD-001 condition C5** | **CARRIED FORWARD.** **DECISION ROUTE ESTABLISHED UNDER AG-005; CANDIDATE PREPARED; NOT ASSESSED; NOT APPROVED.** **AG-005 has not been exercised and no C5 decision has occurred**; **package assembly remains blocked** |
-| **C5 control candidate** | **`NPC-001` — Training Baseline Naming and Presentation Control Candidate**, 2026-08-02 (`docs/Training-Baseline-Naming-and-Presentation-Control-Candidate.md`). **PROPOSED GOVERNANCE — NOT APPROVED**; **Authority: None**; status **CANDIDATE PREPARED — NOT ASSESSED — NOT APPROVED**. **Coordinated under AG-004**; **the decision belongs to AG-005 and has not been taken**. **A separate controlled `Authority: None` readiness assessment is required before AG-005 may be exercised — it has not been performed.** **NPC-001 is a proposal, not observational evidence, and is not recorded as evidence here** |
-| **PAD-001 prerequisite P6** | **Step 2 satisfied by AG-004**; **step 3 CANDIDATE PREPARED — NOT ASSESSED — NOT SATISFIED**; **P6 overall remains ACTIVE** |
+| **PAD-001 condition C5** | **CARRIED FORWARD.** **DECISION ROUTE ESTABLISHED UNDER AG-005; CANDIDATE PREPARED; CANDIDATE ASSESSED BY NPRA-001; NOT APPROVED.** **AG-005 has not been exercised and no C5 decision has occurred**; **package assembly remains blocked** |
+| **C5 control candidate** | **`NPC-001` — Training Baseline Naming and Presentation Control Candidate**, 2026-08-02 (`docs/Training-Baseline-Naming-and-Presentation-Control-Candidate.md`). **PROPOSED GOVERNANCE — NOT APPROVED**; **Authority: None**; status **CANDIDATE PREPARED — NOT ASSESSED — NOT APPROVED**. **Coordinated under AG-004**; **the decision belongs to AG-005 and has not been taken**. **The separate controlled `Authority: None` readiness assessment required before AG-005 may be exercised has been performed and is recorded as `NPRA-001`** (next row). **NPC-001 remains unamended and unapproved.** **NPC-001 is a proposal, not observational evidence, and is not recorded as evidence here** |
+| **C5 candidate readiness assessment** | **`NPRA-001` — Training Baseline Naming and Presentation Control Readiness Assessment**, 2026-08-02 (`docs/Training-Baseline-Naming-and-Presentation-Control-Readiness-Assessment.md`). **ASSESSMENT RECORD — NOT A GOVERNANCE DECISION**; **Authority: None**. Scope: **readiness of NPC-001 for consideration by AG-005 only**; assessed at input commit `5075677224587e6291ac880d5af6a464471b48fc`. Outcome **`READY FOR AG-005 DECISION WITH CONDITIONS`**, with **four assessment conditions `A1`–`A4`** and **seven residual prerequisites `R1`–`R7`**; **no blocker; no amendment of NPC-001 required**. **`A1`–`A4` are local assessment labels, not governance identifiers.** **NPRA-001 is an assessment record — it is not observational evidence, it is not a governance decision, it carries no authority and it is not recorded as evidence here.** **An exact read-only review of NPRA-001 is required before any AG-005 exercise** |
+| **PAD-001 prerequisite P6** | **Step 2 satisfied by AG-004**; **step 3 CANDIDATE ASSESSED — NOT SATISFIED**; **P6 overall remains ACTIVE** |
 | **Publication-package commit** | **NOT PINNED** — and none proposed |
 | PM evidence positions | **PM-1, PM-3 … PM-7 ASSESSED — INSUFFICIENT**; PM-2 now **GOVERNANCE DECISION SATISFIED** through AG-004, **not through observation** (§5.3) |
 | A publication arrangement has been **selected or approved** | **Yes — approved with conditions by PAD-001 at PE-2.** **PE-3 is not authorised and publication remains NOT AUTHORISED** |
@@ -942,6 +943,20 @@ superseded and retained (BEP 12.10).
 > publication was authorised.** **C5 remains CARRIED FORWARD, P6 step 3 remains
 > pending, P6 remains ACTIVE, the publication-package commit remains unpinned
 > and publication remains NOT AUTHORISED.**
+
+> **Subsequent status — 2026-08-02, Increment 8H-D.** **`NPRA-001` — the Training
+> Baseline Naming and Presentation Control Readiness Assessment — was performed**
+> as the separate controlled **`Authority: None`** assessment required before
+> AG-005 may be exercised. Outcome **`READY FOR AG-005 DECISION WITH
+> CONDITIONS`** (`A1`–`A4`), with seven residual prerequisites (`R1`–`R7`) and
+> **no blocker**. **§11 was updated to record the assessment, the C5 position and
+> P6 step 3.** **NPRA-001 is an assessment record: it is not observational
+> evidence, it is not a governance decision and it carries no authority; no PPER
+> entry records it.** **No evidence finding changed, no observation occurred, no
+> naming or presentation control was approved, NPC-001 was not amended, AG-005 was
+> not exercised and no publication was authorised.** **C5 remains CARRIED
+> FORWARD, P6 step 3 remains pending, P6 remains ACTIVE, the publication-package
+> commit remains unpinned and publication remains NOT AUTHORISED.**
 
 ---
 

@@ -89,7 +89,8 @@ where the approved baseline applies — but **none is asserted or recorded**
 | AD-001 | **APPROVED GOVERNANCE** | Training Baseline 0.1 — Approval Decision | **APPROVED WITH CONDITIONS** — 2026-08-01 | Training Baseline Approver |
 | ROA-001 | **CONTROLLED READ-ONLY OBSERVATION AUTHORISATION** | Publication Planning read-only observation | **AUTHORISE WITH CONSTRAINTS** — 2026-08-01; **EXERCISED ONCE — EXPIRED** | Training Implementation Owner |
 | PAC-001 | **PROPOSED GOVERNANCE** — historical proposal record | Publication Arrangement Candidate 0.1 — PM-1 to PM-7 | **APPROVED WITH CONDITIONS BY PAD-001** — 2026-08-01 | Training Publication Arrangement Approver under AG-003 |
-| NPC-001 | **PROPOSED GOVERNANCE — NOT APPROVED** | Training Baseline Naming and Presentation Control Candidate — PAD-001 condition C5 | **CANDIDATE PREPARED — NOT ASSESSED — NOT APPROVED** — 2026-08-02 | Coordinated under AG-004; decision belongs to Training Publication Naming and Presentation Approver under AG-005 |
+| NPC-001 | **PROPOSED GOVERNANCE — NOT APPROVED** | Training Baseline Naming and Presentation Control Candidate — PAD-001 condition C5 | **CANDIDATE PREPARED — ASSESSED BY NPRA-001 — NOT APPROVED** — 2026-08-02 | Coordinated under AG-004; decision belongs to Training Publication Naming and Presentation Approver under AG-005 |
+| NPRA-001 | **ASSESSMENT RECORD — NOT A GOVERNANCE DECISION** | Training Baseline Naming and Presentation Control Readiness Assessment — subject NPC-001 | **READY FOR AG-005 DECISION WITH CONDITIONS** — 2026-08-02; **Authority: None; AG-005 NOT EXERCISED** | Non-decisional assessment; no decision owner |
 | TA-01 | TRAINING ASSUMPTION | Post-appointment context | Adopted | Not established — TBD |
 | TA-02 | TRAINING ASSUMPTION | Simulated role participation | Adopted | Not established — TBD |
 | TA-03 | TRAINING ASSUMPTION | Training delivery organisation | Adopted | Not established — TBD |
@@ -163,6 +164,12 @@ approved-governance total above**:
   filenames, a child-container name and presentation markings; it establishes
   none of them, establishes no project-wide standard and authorises no
   publication** (section 5).
+
+One **non-decisional assessment record** exists and **does not count toward the
+approved-governance total above** — **NPRA-001**, the readiness assessment of
+NPC-001, carrying **Authority: None**. **It approves nothing, decides nothing,
+satisfies no condition or prerequisite and reaches no PE event**; its outcome is
+**READY FOR AG-005 DECISION WITH CONDITIONS** (section 6D).
 
 No APPROVED CHANGE, DEVIATION, NON-CONFORMANCE or SUPERSEDED DECISION entries
 exist.
@@ -1644,6 +1651,113 @@ non-effects above are unchanged by it.
 
 ---
 
+## 6D. Readiness assessments
+
+*Non-decisional records. **None carries authority, approves anything, decides
+anything or reaches any PE event.** Each is recorded by reference only.*
+
+### NPRA-001 — Training Baseline Naming and Presentation Control Readiness Assessment
+
+| Field | Value |
+|---|---|
+| Identifier | **NPRA-001** |
+| Document status | **CONTROLLED ASSESSMENT** |
+| Classification | **ASSESSMENT RECORD — NOT A GOVERNANCE DECISION** |
+| **Authority** | **None** |
+| Subject | **NPC-001 — Training Baseline Naming and Presentation Control Candidate** |
+| Scope | **Readiness of NPC-001 for consideration by AG-005 only** |
+| Assessed repository state | `5075677224587e6291ac880d5af6a464471b48fc` |
+| Candidate source state | `09c04ff9d84e79d95317206b393e217e3fb209a5` |
+| Candidate preparation commit | `08aa680026aebf9bcd7ab67fdc7a46bee48310a3` |
+| Assessment date | **2026-08-02** |
+| Source | Orchestrator-directed `Authority: None` assessment, Increment 8H-D |
+| Training basis | **TA-02** — simulated role participation |
+| **Assessment outcome** | **READY FOR AG-005 DECISION WITH CONDITIONS** |
+| Status | **ASSESSMENT COMPLETE — ELIGIBLE FOR A SEPARATE AG-005 DECISION AFTER EXACT REVIEW; AG-005 NOT EXERCISED** |
+| Assessment document | `docs/Training-Baseline-Naming-and-Presentation-Control-Readiness-Assessment.md` |
+
+**What it is.** The second record of the orchestrator-directed three-record
+workflow — candidate, assessment, decision. **It answers all eighteen NPC-001
+readiness questions and determines eligibility for an AG-005 decision. It is not
+a decision, and it carries no authority.**
+
+**Outcome and basis.** **READY FOR AG-005 DECISION WITH CONDITIONS.** All eleven
+AG-005 §6 candidate-precondition matters are covered with substantive content;
+twenty-two independent mechanical verifications of the fifteen proposed filenames
+returned the expected result; every proposed matter falls within AG-005's §4
+authority; no internal rule conflict was found; and PAD-001's package boundary is
+preserved exactly. **No candidate amendment is required and no blocker is
+recorded.**
+
+**Assessment conditions — matters the later AG-005 decision must address
+expressly.** **`A1`** — whether `TB0P1` discharges **PM-4 fields 2 and 4
+together**, the candidate providing no filename token distinct from `TB0P1` for
+revision/version. **`A2`** — that the `AWC` filename status token is **additive**
+to PM-4 field 5's approved document and manifest carriers, PAC-001 §5.1 not
+having marked status as filename-carried. **`A3`** — that the container-label
+rules and the package-filename rules are **deliberately distinct and apply to
+different object classes**. **`A4`** — that the approved controls are
+**package-specific and may not be cited as a project-wide standard**. **`A1` to
+`A4` are local assessment labels only; they are not repository-wide governance
+identifiers and allocate nothing.**
+
+**Residual prerequisites — outside C5, unchanged by the assessment.** `R1`
+platform/toolchain compatibility untested (**P2**, **C2**); `R2` CGD-001 live
+correspondence unverified (**C6**); `R3` CDE implementation authority not
+established (**P7**); `R4` technical executor unassigned (**P7**); `R5` upload
+route unconfirmed (**P1**); `R6` destination verification not performed (**P8**);
+`R7` publication-package commit not pinned and package content not frozen
+(**P6 step 4**). **Decision conditions and technical residuals are kept
+separate.**
+
+**Relationship to NPC-001.** **NPC-001 is unchanged in substance** — a dated
+subsequent-status note only. It **remains PROPOSED GOVERNANCE — NOT APPROVED**
+with **Authority: None**, and **remains unapproved**. **The assessment requires no
+amendment to it.**
+
+**Relationship to AG-004.** **AG-004 is unchanged and was not exercised.** It
+coordinated the candidate at Increment 8H-C; **it neither performed nor is bound
+by this assessment**.
+
+**Relationship to AG-005.** **AG-005 is unchanged in substance** — a dated
+subsequent-status note only — and **remains NOT EXERCISED**. The assessment
+records that AG-005's §4 authority reaches every matter NPC-001 proposes,
+including filename composition, version and status tokens, container naming,
+presentation markings, C5 satisfaction and the P6 step 3 consequence. **An exact
+read-only review of NPRA-001 is required before any exercise of AG-005.**
+
+**C5 status.** **CARRIED FORWARD.** The assessment's prospective finding is that
+**an AG-005 approval could satisfy C5 provided the decision records `A1`–`A4`**.
+**NPRA-001 does not satisfy C5.**
+
+**P6 status.** **Step 3 remains pending**; the assessment's prospective finding
+is that **approval could satisfy P6 step 3 subject to the same conditions**.
+**P6 overall remains ACTIVE — PUBLICATION-PACKAGE COMMIT NOT PINNED**, step 4
+being a separate act.
+
+**Publication status.** **NOT AUTHORISED**; hold **ACTIVE**; publication /
+exchange authority **UNRESOLVED**; technical executor **unassigned**; CDE
+implementation authority **not established**; recipient acceptance authority
+**UNRESOLVED**; **PE-2 reached, PE-3 to PE-S not reached**; **no package artefact
+exists** and **no publication-package commit is proposed or pinned**.
+
+**Identifier-family note.** **NPRA-001 opens the `NPRA-` family** — *Naming and
+Presentation Readiness Assessment*. **`NPRA-001` was unused before this record**,
+and the prefix collides with none of the nineteen established families; it is
+**distinct from `PRA-`**, which denotes publication-arrangement readiness
+assessments, and from **`NPC-`**, which denotes control candidates. **`NPRA-` is
+an assessment family only: it carries no authority, approves nothing, decides
+nothing and reaches no PE event.** **Later use still requires a controlled scope
+and collision review.**
+
+**Note.** This entry records a *non-decisional assessment*. **It is not counted
+among the approved-governance entries**, **no naming or presentation control is
+approved**, **no package exists**, **no commit is pinned**, and **the publication
+hold remains in force**. **This entry is a reference, not a duplicate** — the full
+assessment is not restated here (BEP 12.13, 13.1).
+
+---
+
 ## 7. Deviations
 
 *No deviations recorded.*
@@ -1676,6 +1790,7 @@ status, the replacement decision, the effective point, and the reason or context
 
 | Date | Change | Increment |
 |---|---|---|
+| 2026-08-02 | NPRA-001 recorded by reference — Training Baseline Naming and Presentation Control Readiness Assessment of NPC-001, performed as the separate controlled Authority None assessment required before AG-005 may be exercised. ASSESSMENT RECORD — NOT A GOVERNANCE DECISION; Authority None; assessed at repository state 5075677; candidate source state 09c04ff; candidate preparation commit 08aa680; none of the three is the publication-package commit. Opens the NPRA- assessment family, expressly limited to non-decisional readiness assessments of package-specific naming and presentation control candidates, carrying no authority and distinct from PRA- and NPC-. Outcome READY FOR AG-005 DECISION WITH CONDITIONS. All eighteen NPC-001 readiness questions answered; all eleven AG-005 candidate-precondition matters found covered with substantive content; twenty-two independent mechanical verifications of the fifteen proposed filenames returned the expected result; every proposed matter found within AG-005's authority scope; no internal rule conflict; PAD-001's package boundary preserved exactly. No candidate amendment required and no blocker recorded. Four assessment conditions for the later decision: A1 whether TB0P1 discharges PM-4 fields 2 and 4 together; A2 that the AWC filename status token is additive to PM-4 field 5's approved document and manifest carriers; A3 that container-label and package-filename rules are deliberately distinct object classes; A4 that the approved controls are package-specific and may not be cited as a project-wide standard. A1 to A4 are local assessment labels, not governance identifiers. Seven residual prerequisites outside C5 recorded as R1 to R7 under existing conditions C2 and C6 and prerequisites P1, P2, P6, P7 and P8. Prospective findings only: an AG-005 approval could satisfy C5 provided the decision records the listed conditions, and could satisfy P6 step 3 subject to the same conditions. Not a decision; NPC-001 unchanged in substance and remains PROPOSED GOVERNANCE — NOT APPROVED with Authority None; AG-004 and AG-005 unchanged in substance and neither exercised; no naming or presentation control approved; no project-wide standard established; no file, container, rendition, manifest or digest created; no package assembled; no commit proposed or pinned; no platform compatibility tested; no external system accessed. PAD-001, PAC-001, PRA-001, PRA-002, AG-001, AG-002, AG-003, CGD-001, AD-001 and GD-001 unchanged; PM-1 to PM-7, C1, C2, C3, C4 and C6 unchanged; P1 to P8 remain active; C5 remains CARRIED FORWARD; P6 step 3 remains pending and P6 remains ACTIVE; PPER-001 to PPER-009 and the PPQ records unchanged; no observation performed. An exact read-only review of NPRA-001 is the next controlled gate and is required before any AG-005 exercise. GCR-005 remains closed at the governance-definition level; GCR-006 remains open; UD-001 remains unresolved; CGD-001 verification remains pending; PE-2 remains reached and PE-3 to PE-S not reached; publication remains NOT AUTHORISED with the hold active. | 8H-D |
 | 2026-08-02 | Documentary corrections arising from the read-only Increment 8H-C-R exact review of NPC-001. NPC-001's Future decision function header field corrected: it had named the function with an interpolated word belonging to AG-003's function name, and now reads AG-005's established function name "Training Publication Naming and Presentation Approver under AG-005", matching AG-005's title and function-name field. Two NPC-001 internal cross-references corrected: the §8.1 manifest sentence had cited a subsection that does not exist and now cites §§7.2–7.3, and the §11.1 PM-4 routing citation had carried an incorrect section number and now reads §15, question 15. PAC-001's current proposed-governance summary bullet now distinguishes its historical document classification from PAD-001's subsequent approval of its substantive arrangement, while preserving that PAC-001 itself assigned no authority and authorised no publication and that PAD-001 reached PE-2 only. The Increment 8H-C change-log statement corrected to record six unchanged approved baseline source documents and the intentional update of source document 7, that no source document was renamed, that the seven controlled paths remained valid, that the document-token map is path-based and unaffected, and that no commit was identified as the publication-package commit. No proposal content or naming control changed; no token, filename, grammar rule, token-map entry, inventory item, companion relationship, container-name proposal, presentation marking, manifest rule, source-companion rule or collision statement altered. No readiness question was answered, all eighteen remain Unanswered, and no assessment occurred. AG-005 was not exercised and no governance approval occurred; no identifier was allocated. NPC-001 remains PROPOSED GOVERNANCE — NOT APPROVED with Authority None and status CANDIDATE PREPARED — NOT ASSESSED — NOT APPROVED. C5 remains CARRIED FORWARD and P6 step 3 remains pending with P6 ACTIVE; no package or commit was created, proposed or pinned; project-wide standards remain Not established; PE-2 remains reached and PE-3 to PE-S not reached; publication remains NOT AUTHORISED with the hold active. | 8H-C-R-A |
 | 2026-08-02 | NPC-001 recorded by reference — Training Baseline Naming and Presentation Control Candidate prepared for PAD-001 condition C5 as PROPOSED GOVERNANCE — NOT APPROVED, Authority None, status CANDIDATE PREPARED — NOT ASSESSED — NOT APPROVED, at repository state 09c04ff. Coordinated under AG-004 as a candidate-coordination and submission act only; AG-004 did not approve it. Opens the NPC- candidate family, expressly limited to package-specific naming and presentation control candidates and carrying no authority; no collision with the eighteen established prefixes. Proposes a token dictionary (HFS, TB0P1, AWC, SOURCE, MANIFEST plus seven document tokens), a three-form filename grammar, fourteen character and format rules, an exhaustive seven-document token map, an exact fifteen-file inventory matching PAD-001's approved boundary, a companion-to-rendition stem rule with a seven-row reconciliation, the child-container name Training Baseline 0.1 under 03. Published, package-specific first-page and footer presentation markings, a manifest identity rule using PAD-001's PM-4 metadata set unchanged, a byte-faithful source-companion rule and a thirteen-point collision and ambiguity assessment. Not a decision; no naming rule, filename, container name or presentation rule established; no project-wide naming, coordinate, titleblock or template standard established; no file, folder, container, rendition, manifest or digest created; no package assembled; no commit proposed or pinned; no platform compatibility tested. AG-005 not exercised and no C5 decision taken; a separate controlled Authority None readiness assessment remains required and was not performed; eighteen readiness questions remain unanswered. PAD-001, PAC-001, PRA-001, PRA-002, AG-001, AG-002, AG-003, CGD-001, AD-001 and GD-001 unchanged. Six of the seven approved baseline source documents were unchanged; supporting/governance-decision-register.md, baseline source document 7, was intentionally updated during Increment 8H-C to record NPC-001. No baseline source document was renamed, the seven controlled repository paths remained valid, and the document-token mapping was unaffected because it maps repository paths and not file-content hashes. No repository commit was identified as the publication-package commit; PM-1 to PM-7, C1, C2, C3, C4 and C6 unchanged; P1 to P8 remain active; P6 step 3 CANDIDATE PREPARED — NOT ASSESSED — NOT SATISFIED and P6 remains ACTIVE; PPER-001 to PPER-009 and the PPQ records unchanged; no observation performed; C5 remains CARRIED FORWARD; GCR-005 remains closed at the governance-definition level; GCR-006 remains open; UD-001 remains unresolved; CGD-001 verification remains pending; PE-2 remains reached and PE-3 to PE-S not reached; publication remains NOT AUTHORISED with the hold active. | 8H-C |
 | 2026-08-02 | AG-005 recorded — Training Publication Naming and Presentation Approver function established as APPROVED GOVERNANCE, arising from PAD-001 condition C5, PAD-001 prerequisite P6 step 3, AG-004 authority-scope item 7, the approved fifteen-file package boundary, the proposed PM-1 child-container position and the absence of established project-wide naming and presentation standards. Functional holder Training Implementation Owner under TA-02; no personal holder recorded; the authority arises from AG-005 itself and from no label, ownership, membership, access, permission, AG-001, AG-002, AG-003, AG-004, CGD-001 or PAD-001. Scope limited to package-specific naming and presentation control governance; eighteen authority-scope items exercisable only through a later controlled decision, and only against a controlled C5 candidate covering eleven minimum matters. Establishes who may later decide C5; decides nothing. No control candidate created, no naming pattern, filename, container name or presentation rule approved, no project-wide standard established. C5 remains CARRIED FORWARD with its decision route established and its control decision pending; P6 step 1 and step 2 remain satisfied, step 3 remains pending with its authority route now established, P6 remains ACTIVE and no publication-package commit was proposed or pinned. PAD-001 unmodified; AG-004 unchanged in substance and remains the coordinating function; PM-1 to PM-7, C1, C2, C3, C4 and C6 unchanged; P1 to P8 remain active; PPER-001 to PPER-009 and the PPQ records unchanged; no observation performed; no package artefact; no publication/exchange, PE-3, execution, CDE implementation or recipient acceptance authority conferred; GCR-005 remains closed at the governance-definition level; GCR-006 remains open; UD-001 remains unresolved; CGD-001 verification remains pending; PE-2 remains reached and PE-3 to PE-S not reached; publication remains NOT AUTHORISED with the hold active. | 8H-B |
