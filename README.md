@@ -25,6 +25,11 @@ It exists to:
 - support a training implementation in which the reasoning behind each
   governance decision is explicit and traceable.
 
+**Teaching material.** The BIM Management teaching and presentation programme
+built on this material is in [`teaching/`](teaching/). Like the BIM Delivery
+Guide, it **explains only** — it carries no governance authority and is not part
+of the controlled document architecture in section 3.
+
 ---
 
 ## 2. Authoring source vs issued CDE artefacts
