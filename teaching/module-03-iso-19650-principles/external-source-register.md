@@ -184,6 +184,26 @@ supplies the functions-versus-job-titles point that connects Module 3 to Module 
 — and it is the one an audience will most readily mistake for the standard
 itself. Every use of X6 is attributed aloud.
 
+**Clarification recorded in T3-B — no source added.** `X6`'s
+*appointment-by-appointment* statement is now in use on **Slide 5**, one slide
+earlier than the *"Slides 7 and 8"* note above anticipated. The permitted use is
+unchanged; only its first appearance has moved, and Slide 5 is where the module's
+UK-labelling convention is therefore established. See
+[`source-map.md`](source-map.md) `M3-S5-01`.
+
+**A limit worth stating explicitly, because Slides 5 and 6 press on it.** Neither
+`X5` nor `X6` provides **definition-level** material. In particular, **no
+registered source defines**:
+
+- any client-, exchange-, asset- or project-level **information-requirement
+  document**;
+- **level of information need**, in any form.
+
+Those terms may be referred to as concepts where a Harrismith source uses them,
+and **may not be defined, abbreviated into teaching vocabulary, or broken into
+categories, levels or tiers** — see [`source-map.md`](source-map.md) §7.2,
+prohibitions 16 and 17.
+
 ### H1 — Harrismith Fire Station BEP
 
 | Field | Value |
@@ -310,5 +330,3 @@ carry HIGH supersession risk, and both are the standards themselves.
 - It does **not** substitute for reading the standard where the exact requirement
   matters.
 - It carries **no governance authority**. It controls teaching material only.
-</content>
-</invoke>

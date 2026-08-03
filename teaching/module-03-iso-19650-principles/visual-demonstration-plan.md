@@ -4,6 +4,9 @@
 source file and no rendered image asset exists.** Nothing here is a final asset,
 and creating assets is a later increment.
 
+**`V2`, `V4` and `V5` — the Section B visuals — are now specified in full**
+(T3-B). The remaining entries are candidates at the level established in T3-A.
+
 Source identifiers `X1`–`X6`, `H1`–`H3` are defined in
 [`external-source-register.md`](external-source-register.md). Classification
 follows [`source-map.md`](source-map.md) §1.
@@ -76,23 +79,54 @@ should have to re-decide it deliberately rather than inherit a blanket.
 or a transformation arrow. If a connector is needed at all, it points one way —
 decision to configuration — and is labelled *implements*, per `H1` §12.1.
 
-### V2 — Asset-life-cycle ribbon
+### V2 — Asset-life-cycle ribbon · **specified (T3-B)**
 
 | Field | Value |
 |---|---|
 | **Slide** | 4 |
-| **Teaching purpose** | Show that information management does not stop at handover — Part 1's stated reach is the whole asset life cycle |
-| **Source basis** | `X1` — life-cycle reach |
-| **Classification** | **`PUBLIC-SOURCE`** for the reach; **`INTERP`** for any stage labels chosen |
-| **Jurisdiction** | International |
-| **Simplify** | A plain ribbon with **generic, unnumbered** phases. Four or five at most. Emphasis on the operational span, which is the part audiences discount |
-| **Omit** | **Any RIBA, ISO, PAS or national stage numbering.** Any named work-stage system. Any implication that the standard prescribes these stages |
-| **Overclaim risk** | **HIGH.** A ribbon with numbered stages will be read as *the ISO stages*. **There are no stage names available**, and inventing a numbered set is a fabrication |
-| **Copyright risk** | **MEDIUM** — stage-model diagrams are frequently protected by their publishers. Use generic descriptive words only |
+| **Teaching purpose** | Show that information management does not stop at handover — Part 1's stated reach is the whole asset life cycle — **and that what continues is managed information, not one unchanged model** |
+| **Source basis** | `X1` — life-cycle reach (`M3-S4-01`); `H1` §3.3 for the Harrismith scope marker |
+| **Classification** | **`PUBLIC-SOURCE`** for the reach only; **`INTERP`** for every phase label; **`SYNTH`** for the continuity annotation |
+| **Jurisdiction** | International (the reach) · This project (the scope marker) |
+| **Simplify** | A plain horizontal ribbon, **six unnumbered phases**, each carrying one short decision question rather than a description |
+| **Omit** | **Any RIBA, ISO, PAS or national stage numbering.** Any named work-stage system. Any single object drawn travelling the ribbon. Any date, duration or scale |
+| **Overclaim risk** | **HIGH.** A ribbon with numbered stages reads as *the ISO stages*. **No stage vocabulary is available to this programme**, and inventing a numbered set is fabrication |
+| **Copyright risk** | **MEDIUM** — stage-model diagrams are frequently protected by their publishers, and the widely circulated versions are mostly derivatives. **No ISO life-cycle diagram is reproduced, redrawn or adapted** |
 | **External imagery** | **No** |
 
-**Requirement.** Label the ribbon *"generic asset life cycle — illustrative, not a
-standard stage model"* on the slide. Not in the notes. On the slide.
+**Phase labels — neutral teaching labels, fixed here so they are not
+re-invented per slide:**
+
+| # | Label | Decision question carried |
+|---|---|---|
+| 1 | Strategic need or initiation | *Is this asset needed, and at what scale?* |
+| 2 | Design and delivery | *Does this work, and do the disciplines agree?* |
+| 3 | Construction or production | *Can this be built as described?* |
+| 4 | Commissioning and handover | *Does what was built match what was intended?* |
+| 5 | Operation and maintenance | *What is this, where is it, how is it serviced?* |
+| 6 | Alteration, renewal or end of life | *What may change, and what must be preserved?* |
+
+**Five mandatory design requirements.**
+
+1. **The ribbon carries an on-slide label** — *"generic asset life cycle;
+   illustrative teaching labels, not a standard stage model"*. **On the slide, not
+   in the notes.**
+2. **No numbering of any kind.** Not 1–6, not letters, not Roman numerals. A
+   numbered band is read as a cited stage system.
+3. **Information continuity is drawn as a repeating band beneath the ribbon —
+   never as one object moving along it.** Multiple containers appearing,
+   superseding and retiring; what persists is the **band**, not any element in it.
+4. **An explicit struck-through annotation against the single-eternal-model
+   reading.** The misconception is common enough to be worth naming on the visual
+   rather than only in speech — `M3-S4-10`, prohibition 19.
+5. **Harrismith's scope boundary is marked, not hidden.** A bracket over phases
+   1–3 labelled *"Harrismith's current scope — asset management and handover are
+   expressly outside it (BEP §3.3)"*. **Not shaded red, not marked incomplete.**
+   It is a **deliberately drawn boundary**, and the visual must read that way.
+
+**Design note.** The operational band should be visibly the longest. Audiences
+discount it precisely because every diagram they have seen draws it the same
+width as design.
 
 ### V3 — Part 1 versus Part 2
 
@@ -113,39 +147,107 @@ standard stage model"* on the slide. Not in the notes. On the slide.
 column.** A third column gives the drafts equal visual weight, which is exactly
 the status error the slide exists to prevent.
 
-### V4 — Information requirements flowing into production
+### V4 — Information requirements flowing into production · **specified (T3-B)**
 
 | Field | Value |
 |---|---|
 | **Slide** | 5 |
-| **Teaching purpose** | Show that stating what is needed **precedes** producing it — and that reversing the order is what produces unusable information |
-| **Source basis** | `X1` (scope: specifying and organising information), `X5` (requirements established appointment by appointment) |
-| **Classification** | **`PUBLIC-SOURCE`** for the framework framing; **`GUIDANCE` — UK** for the appointment-by-appointment point |
-| **Jurisdiction** | International **and United Kingdom** — the two must be visibly distinguished |
-| **Simplify** | A single left-to-right flow: **need → requirement → production → exchange → use**. Five nodes, no branches |
-| **Omit** | **Any named requirements document or acronym.** No OIR, AIR, EIR, PIR or BEP abbreviation appears — none is available to this programme at definition level, and the acronyms invite exactly the clause-level questions that cannot be answered |
-| **Overclaim risk** | **HIGH.** A named-document flow chart will be read as the standard's information-requirements structure. **The nodes are generic by requirement** |
-| **Copyright risk** | **MEDIUM** — the requirements hierarchy is the most-reproduced ISO figure in circulation. **Do not reconstruct it, and do not reproduce a third party's version of it** |
-| **External imagery** | **No.** Widely circulated versions of this figure exist; most are derivatives of protected content |
+| **Teaching purpose** | Show that stating what is needed **precedes** producing it — and that reversing the order is what produces information nobody can rely on |
+| **Source basis** | `X1` (scope: exchanging, recording, versioning and organising information); **`X5`/`X6`** (requirements established appointment by appointment); `H1` §7.1, §7.3, §10.1 |
+| **Classification** | **`PUBLIC-SOURCE`** for the framing; **`GUIDANCE` — UK** for the appointment-by-appointment annotation; **`HARRISMITH`** for the requirement fields; **`INTERP`** for the six-step sequence itself (`M3-S5-08`) |
+| **Jurisdiction** | International · **United Kingdom** · This project — **all three visibly distinguished** |
+| **Simplify** | One left-to-right flow, **six nodes, no branches, no loops** |
+| **Omit** | **Any named requirements document or acronym** — no client-, exchange-, asset- or project-level requirement abbreviation appears. **Any production node placed before the need or requirement node.** Any platform screenshot. Any named software |
+| **Overclaim risk** | **HIGH.** A named-document flow chart is read as the standard's information-requirements structure. **The nodes are generic by requirement**, and the sequence is labelled teaching structure |
+| **Copyright risk** | **MEDIUM** — the requirements hierarchy is among the most reproduced ISO figures in circulation. **Do not reconstruct it, and do not reuse a third party's version** — a derivative of protected content does not become safe by carrying someone else's name |
+| **External imagery** | **No** |
 
-**The mandatory marker.** The UK-guidance node — appointment by appointment — is
-**visually distinguished and labelled UK** on the slide. It is the module's first
-`GUIDANCE` visual, and the labelling convention is established here.
+**The sequence — fixed, and drawn in this order:**
 
-### V5 — The right information, not more information
+```text
+Decision or purpose
+  → information need
+  → defined requirement
+  → planned production
+  → checked delivery
+  → use
+```
+
+**Five mandatory design requirements.**
+
+1. **Production never appears before need or requirement.** Not spatially, not in
+   build order, not by emphasis. If the eye reaches *planned production* first,
+   the visual teaches the opposite of the slide.
+2. **The sequence is labelled *teaching structure*** on the slide — it is built
+   from BEP §7.1 and §10.1, and **is not Part 2's process**, which has not been
+   read (`M3-S5-14`).
+3. **The UK-guidance annotation is visually distinct and labelled
+   `OFFICIAL IMPLEMENTATION GUIDANCE — UK CONTEXT`.** This is the module's first
+   `GUIDANCE` visual and it sets the convention: a different weight or tint, a
+   jurisdiction label, and no merging into the sourced nodes.
+4. **The requirement node may carry the seven questions in short form** — what
+   decision, who, what, when, how reliable, how checked, what form. **Attributed
+   to the BEP, not to the standard**, and **not** presented as a template
+   (`M3-S5-06`).
+5. **The Harrismith gap is shown on the requirement node**, not omitted: a note
+   reading *"on this project: no formal requirements available — not invented
+   (BEP §7.3, §10.2)"*. **A flow drawn as fully populated implies requirements
+   this project does not have.**
+
+**Design note.** Resist an upstream requirements hierarchy above the flow. It is
+the shape everyone expects, it is the protected figure, and **the definitions
+needed to label it honestly are not available to this programme.**
+
+### V5 — The right information, not more information · **specified (T3-B)**
 
 | Field | Value |
 |---|---|
 | **Slide** | 6 |
-| **Teaching purpose** | Show that quantity is not quality — and that information produced without a stated purpose has no purpose |
-| **Source basis** | `X1` (scope), `X5` (improving specification, production, review and transfer), `H1` §6.1 (*sharing is purposeful*; *publication is purposeful*) |
-| **Classification** | **`PUBLIC-SOURCE`** framing; **`GUIDANCE` — UK**; **`HARRISMITH`** for the purposeful-exchange principles |
-| **Jurisdiction** | International · United Kingdom · This project — all three, all labelled |
-| **Simplify** | Two stacks: a tall undifferentiated one, a short labelled one. **Label the short stack by purpose**, not by count |
-| **Omit** | Any file-count figure; any storage-volume figure; **any implied metric.** No project-specific quantity data exists, and inventing one is fabrication |
-| **Overclaim risk** | **MEDIUM.** The comparison is intuitive and easily overstated into "less is better". The point is **fitness for a stated purpose**, not minimalism |
-| **Copyright risk** | **LOW** — original construction |
+| **Teaching purpose** | Show that quantity is not quality, that the useful amount is **purpose-dependent**, and that **too little fails as surely as too much** |
+| **Source basis** | `X1` (scope); **`X5`** (improving specification, production, review and transfer); `H1` §6.1 (*sharing is purposeful*, *publication is purposeful*), §1.1, §7.3; **`H2` matrix §4** (level of information need — not defined) |
+| **Classification** | **`PUBLIC-SOURCE`** framing; **`GUIDANCE` — UK** if `X5` is used; **`HARRISMITH` — `GAP OR UNVERIFIED`** for the level-of-information-need marker; **`INTERP`** for the proportionality factors; **`SYNTH`** for the comparison itself (`M3-S6-04`) |
+| **Jurisdiction** | International · **United Kingdom** (optional) · This project — each labelled where used |
+| **Simplify** | **Choose one form, not both.** Either the two-column comparison **or** the continuum. The continuum is preferred — see below |
+| **Omit** | **Any compliance tick, green, red, score, percentage or progress indicator.** Any file-count or storage-volume figure. Any level, grade, scale or numbered tier. **Any model-detail example for the fire station** |
+| **Overclaim risk** | **MEDIUM-HIGH.** Two failure directions: read as *less is better*, or read as a conformity checklist. The point is **fitness for a stated purpose** |
+| **Copyright risk** | **LOW** — original construction, provided no level-of-information-need breakdown is drawn |
 | **External imagery** | **No** |
+
+**Preferred form: the continuum.**
+
+```text
+too little  ————————[ proportionate ]————————  too much
+ decision risk        purpose-dependent         cost, ambiguity,
+                                                unmaintainable detail
+```
+
+**Why the continuum over the two-column comparison.** Two columns make the
+right-hand one correct and the left-hand one wrong, which teaches minimalism. The
+continuum has **two failure ends**, which is the actual argument (`M3-S6-08`).
+The two-column comparison may still be used as a **supporting build** on the
+proportionate zone — but not as the primary form.
+
+**Five mandatory design requirements.**
+
+1. **The proportionate zone is drawn as a movable band, not a fixed point**, and
+   labelled **purpose-dependent**. A fixed midpoint asserts a universal quantity,
+   and no such quantity exists.
+2. **Both ends are failures, and drawn with equal weight.** *Too little →
+   decision risk* is the half an over-corrected audience forgets.
+3. **No tick, no green, no traffic light, no score.** A compliance grammar here
+   turns a proportionality argument into a conformity claim — prohibition 18.
+4. **No level-of-information-need breakdown of any kind.** No geometric /
+   alphanumeric / documentation split, no tiers, no grades. **No definition-level
+   source is registered** (prohibition 17). The plain concept may be *stated*; it
+   may not be *structured*.
+5. **The Harrismith marker appears as a labelled gap on the proportionate zone** —
+   *"level of information need: not defined on this project; not inferred from
+   observed model content (matrix §4)"*. **No fire-station detail requirement is
+   drawn, implied or exemplified** (prohibition and `M3-S6-15`).
+
+**Design note.** If the two-column build is used, keep the columns the same
+height. A fat *more* column beside a lean *right* column is a picture of
+minimalism, whatever the words say.
 
 ### V6 — Appointment and delivery-team functional map
 
@@ -302,10 +404,10 @@ answer, it is rewritten or removed. The one question that must appear:
 | ID | Slide | Classification | Overclaim risk | Copyright risk |
 |---|---|---|---|---|
 | `V1` | 1, 2 | `PUBLIC-SOURCE` + `HARRISMITH` | **HIGH** | LOW |
-| `V2` | 4 | `PUBLIC-SOURCE` + `INTERP` | **HIGH** | MEDIUM |
+| `V2` | 4 | `PUBLIC-SOURCE` + `INTERP` + `SYNTH` | **HIGH** | MEDIUM |
 | `V3` | 3 | `PUBLIC-SOURCE` | **HIGH** | **MEDIUM-HIGH** |
-| `V4` | 5 | `PUBLIC-SOURCE` + **`GUIDANCE` — UK** | **HIGH** | MEDIUM |
-| `V5` | 6 | `PUBLIC-SOURCE` + `GUIDANCE` + `HARRISMITH` | MEDIUM | LOW |
+| `V4` | 5 | `PUBLIC-SOURCE` + **`GUIDANCE` — UK** + `HARRISMITH` | **HIGH** | MEDIUM |
+| `V5` | 6 | `PUBLIC-SOURCE` + `GUIDANCE` + `HARRISMITH` | MEDIUM-HIGH | LOW |
 | `V6` | 7, 8 | **`GUIDANCE` — UK** + `HARRISMITH` | **HIGHEST** | MEDIUM |
 | `V7` | 9 | `HARRISMITH` | MEDIUM-HIGH | LOW |
 | `V8` | 10 | `HARRISMITH` | **HIGH** | MEDIUM |
@@ -313,6 +415,11 @@ answer, it is rewritten or removed. The one question that must appear:
 | `V10` | 12 | `HARRISMITH` | MEDIUM | LOW |
 | `V11` | 13 | `HARRISMITH` + `INTERP` | **HIGHEST** | LOW |
 | `V12` | 14 | `SYNTH` | MEDIUM / **HIGH (Triviron)** | LOW |
+
+**Three specified in full (T3-B): `V2`, `V4`, `V5`** — the Section B visuals.
+Each now carries fixed labels, a fixed form and five mandatory design
+requirements, so that the constraints survive into asset production rather than
+being re-decided by whoever draws them.
 
 **Twelve candidate visuals. Nine carry HIGH or HIGHEST overclaim risk.**
 
@@ -333,5 +440,3 @@ protected content does not become safe by having someone else's name on it.
   [`README.md`](../../README.md) §2.1 applies unmodified.
 - It authorises **no external image acquisition**.
 - It carries **no governance authority**.
-</content>
-</invoke>

@@ -1,11 +1,14 @@
 # Module 3 — Exercises
 
-**Status:** Initial exercise set for the Slides 1–3 baseline. Teaching material;
+**Status:** Exercise set for the **Slides 1–6** baseline. Teaching material;
 **not governance.**
 
 Rehearsal exercises for the presenter, not assessments for an audience. Do them
 aloud, alone, before delivering to anyone. **Exercise 10 is done after each of
 the others**, and it is the one that matters most in this module.
+
+**Exercises 1–10 cover Slides 1–3 and the questions that arrive regardless.
+Exercises 11–22 cover Section B — Slides 4–6.**
 
 **Four exercises rehearse questions rather than slides.** Exercises 5–9 cover
 material whose slides are not yet developed — but the questions arrive the moment
@@ -326,10 +329,371 @@ drop it.
 
 ---
 
+# Section B — Slides 4–6
+
+**Twelve further exercises.** Exercise 22 is the timed run, and is done last.
+Exercise 10 above still applies after each one.
+
+---
+
+## Exercise 11 — The asset life cycle, without drawing a diagram
+
+**Task.** Explain that information management runs across the asset life cycle —
+**with no diagram, no whiteboard, no gestures at a ribbon**. Sixty seconds,
+words only.
+
+**Why this exercise.** The diagram is a crutch, and in this module it is a
+dangerous one: the nearest thing to hand is a protected figure nobody here has
+seen. If you can only teach this with a picture, you will eventually draw the
+wrong picture.
+
+**What good looks like.** You walk through decisions rather than phases: someone
+decides the asset is needed; it gets designed, built, commissioned, handed over;
+then someone operates and maintains it for decades; eventually someone alters or
+replaces it. Each is a decision, each needs information. You flag the phase names
+as your own words.
+
+**Success criteria**
+
+- [ ] No diagram, drawn or described as one.
+- [ ] I described **decisions**, not stages.
+- [ ] I said the labels were **my words, not official phase names**.
+- [ ] I gave the operational span the weight it deserves.
+- [ ] I used no numbering — no "stage 3", no "phase 2".
+
+**Common failure.** Reciting a work-stage system from a previous job. It is
+someone else's protected framework, it is jurisdiction-specific, and it is not
+what the published scope says.
+
+---
+
+## Exercise 12 — Why information must outlive its authors
+
+**Task.** Explain why information has to remain understandable after the team that
+made it has gone. Forty-five seconds. Use one concrete example.
+
+**Why this exercise.** It is Slide 4's take-away, and it is the point that
+converts *life cycle* from an abstraction into something the audience feels.
+
+**What good looks like.** The asset stands for decades; the delivery team disbands
+in months. Whoever operates it will never meet the author. So a container that
+only makes sense to the person who made it — a private naming habit, an
+undocumented assumption, a model whose structure encodes someone's workflow —
+fails the moment it matters. That is a management property, not a modelling skill.
+
+**Success criteria**
+
+- [ ] I made the **time asymmetry** explicit — team months, asset decades.
+- [ ] I gave one concrete example of information that fails without its author.
+- [ ] I framed it as a **management** property.
+- [ ] I did not claim the standard requires any specific measure.
+- [ ] I did not invent an operational requirement for Harrismith.
+
+**Common failure.** Sliding into "so we need good naming standards". True, and
+Module 4's territory. The point here is *why*, not *what to configure*.
+
+---
+
+## Exercise 13 — Build the requirements-before-production sequence
+
+**Task.** Say the six-step sequence from memory and explain **why each step
+precedes the next**. Sixty seconds.
+
+**Why this exercise.** Anyone can recite six nouns. The teaching is in the
+*because*, and it is where a presenter is caught out.
+
+**What good looks like.** Decision or purpose → information need → defined
+requirement → planned production → checked delivery → use. And the reasoning: you
+cannot know what is needed until you know what is being decided; you cannot write
+a requirement for a need nobody has stated; you cannot plan production against an
+undefined requirement; and delivering unchecked information means the recipient
+does your checking, badly, later.
+
+**Reference.** BEP §7.1, quotable: *"Production begins from a requirement, not
+from availability of time or tools."*
+
+**Success criteria**
+
+- [ ] All six steps, in order.
+- [ ] At least three **because** clauses, not just the nouns.
+- [ ] I attributed the quotable line to **our BEP**.
+- [ ] I said the sequence is **teaching structure**, not the standard's process.
+- [ ] **No requirement acronym** passed my lips.
+
+**Common failure.** Presenting the sequence as though it came from Part 2. It came
+from our own BEP's production and delivery principles, arranged by the presenter.
+
+---
+
+## Exercise 14 — Find the decision behind a request
+
+**Task.** Someone asks you for "the structural model, updated". Work backwards to
+the **decision** the request actually serves — out loud, in questions. Forty-five
+seconds.
+
+**Why this exercise.** It is Slide 5 made operational, and it is the single most
+useful habit in the module. Most information requests arrive as nouns; the useful
+version is a decision.
+
+**What good looks like.** You ask what they are deciding, by when, who else needs
+to see it, how much they need to rely on it, and what form is usable to them. And
+you notice that the answer changes the request: *"updated"* might mean coordinated
+geometry, or a confirmed grid, or one dimension somebody could have got from a
+drawing.
+
+**Success criteria**
+
+- [ ] I asked what **decision** it supports before agreeing to anything.
+- [ ] I asked at least four of the seven requirement questions.
+- [ ] I showed how the answer **changed** the request.
+- [ ] I did not treat "updated" as a specification.
+- [ ] I stayed conversational — this is a colleague, not an audit.
+
+**Common failure.** Turning it into an interrogation. Four questions asked
+helpfully get answers; seven asked defensively get a complaint.
+
+---
+
+## Exercise 15 — "Why can't the modeller decide what's needed?"
+
+**Task.** Answer it in thirty seconds, without insulting the modeller.
+
+**Why this exercise.** It is asked defensively, usually by the most skilled person
+in the room, and a clumsy answer costs their attention for the rest of the module.
+
+**What good looks like.** They *do* decide a great deal — how to produce it well,
+how to structure it, what is technically sound. What they cannot decide alone is
+what someone else needs and why, because that lives outside their view of the
+project. If nobody establishes it, the decision still gets made — by whoever
+happens to be producing — which is exactly the accidental route Module 2
+described.
+
+**Success criteria**
+
+- [ ] I acknowledged what the modeller **does** decide, first.
+- [ ] I located the missing knowledge outside their view, not in their ability.
+- [ ] I connected it to the decision getting made by default.
+- [ ] I did not say "that's above their pay grade" or anything like it.
+- [ ] Thirty seconds.
+
+**Common failure.** Answering as though the question were hostile. It usually
+is not — it is someone who has been left to guess for years and would rather not.
+
+---
+
+## Exercise 16 — More information versus right information
+
+**Task.** Explain the difference. Forty-five seconds. **Then say the sentence that
+stops it becoming an argument for less.**
+
+**Why this exercise.** Slide 6's content, plus the guard that most presenters
+forget.
+
+**What good looks like.** Right information supports an identified decision, has a
+known originator, a defined recipient and purpose, arrives when needed, and can be
+checked and maintained. More information is produced because the software can,
+duplicated, delivered without purpose, too detailed to check. And then the guard:
+**too little information creates decision risk, and that is the costlier failure.
+This is not an argument for less — it is an argument for proportionate.**
+
+**Success criteria**
+
+- [ ] I gave at least three characteristics per side.
+- [ ] I said the guard sentence, or my own version of it.
+- [ ] I used the word **proportionate**, not *minimal* or *lean*.
+- [ ] I tied "right" to a **stated purpose**, not to a quantity.
+- [ ] I did not present the comparison as ISO's.
+
+**Common failure.** Delivering it as a virtue list. The right-hand column is not
+morally superior; it is fit for something specific.
+
+---
+
+## Exercise 17 — Excessive information creating risk
+
+**Task.** Give **one** concrete example of too much information creating real
+risk. Thirty seconds.
+
+**Why this exercise.** The abstraction persuades nobody. One example does.
+
+**What good looks like.** Any of: detail modelled beyond what anyone will maintain,
+so it silently goes stale and someone relies on it; the same dimension described
+in three containers that later disagree; a model so heavy the coordination review
+gets skipped; specification-level detail in a concept model that reads as a
+commitment. The risk is always the same shape — **unwarranted confidence**.
+
+**Success criteria**
+
+- [ ] One example, concrete enough to picture.
+- [ ] I named the **risk**, not just the waste.
+- [ ] I avoided naming a real project or person.
+- [ ] I did not use a Harrismith example — none is recorded.
+- [ ] Thirty seconds.
+
+**Common failure.** Arguing cost rather than risk. Cost is an argument with the
+budget holder; risk is an argument with everyone.
+
+---
+
+## Exercise 18 — Insufficient information creating risk
+
+**Task.** Give **one** concrete example of too little information creating real
+risk. Thirty seconds.
+
+**Why this exercise.** It is the half that gets dropped when time runs short, and
+dropping it converts Slide 6 into a minimalism argument.
+
+**What good looks like.** A decision taken on information that never said how
+reliable it was; a clash review run against a model missing a discipline, which
+returns a clean result that means nothing; a handover that omits what an operator
+needs, so it gets re-surveyed at cost. The risk shape here is **a decision made in
+the dark that looks like a decision made in the light**.
+
+**Success criteria**
+
+- [ ] One example, concrete.
+- [ ] I showed the decision being **wrongly trusted**, not merely delayed.
+- [ ] I made it comparable in weight to Exercise 17's example.
+- [ ] I did not attribute it to Harrismith.
+- [ ] Thirty seconds.
+
+**Common failure.** Choosing a trivially recoverable example. If the audience
+hears *"and then we asked for it"*, the risk did not land.
+
+---
+
+## Exercise 19 — Harrismith's unestablished requirements, without a non-conformity claim
+
+**Task.** Explain that Harrismith has no formal information requirements — and
+that this is **not** evidence of non-conformity. Sixty seconds.
+
+**Why this exercise.** The gap is real, the audience will notice it, and the
+instinct is to apologise for it. Apologising concedes an assessment that never
+happened.
+
+**What good looks like.** The BEP records that no formal information requirements
+were made available to this implementation, and — more importantly — that they are
+**not invented**. What was developed for the training workflow is labelled
+proposed governance or training assumption. If real requirements later arrive,
+they take precedence over anything developed in their absence. And then the
+separation: that is a **project state**, not an audit finding. Nobody has assessed
+this project against the standard, so neither conformity nor non-conformity can be
+claimed.
+
+**Success criteria**
+
+- [ ] I stated the gap plainly, without apology.
+- [ ] I said the requirements were **not invented** — the discipline, not the
+      deficiency.
+- [ ] I separated **project state** from **audit finding**.
+- [ ] I said no assessment exists **in either direction**.
+- [ ] I did not offer "we'd probably be fine" or "we're technically
+      non-compliant".
+
+**Common failure.** "We're not compliant yet." Three errors in three words: it
+concedes an assessment, implies a trajectory, and invents a destination nobody
+has agreed.
+
+---
+
+## Exercise 20 — "What is level of information need?" — without inventing a definition
+
+**Task.** Answer it in thirty seconds. **Give no formal definition.**
+
+**Why this exercise.** It is the module's most reliable trap. The question is
+asked innocently and answered badly by almost everyone, usually with a
+half-remembered breakdown delivered with complete confidence.
+
+**What good looks like.** In plain terms: how much detail and how much reliability
+the information needs in order to serve its purpose — decided per purpose, not set
+once for the project. Then the stop: there is a defined treatment in the standard,
+you do not have it, and you are not going to reconstruct it from memory. Then the
+project position: on Harrismith it is **not defined**, not established for any
+container, **not inferred from what happens to be in the models**, and recorded as
+an open gap.
+
+**Success criteria**
+
+- [ ] Plain-language concept only.
+- [ ] **No** geometric / alphanumeric / documentation breakdown.
+- [ ] **No** level, grade, scale or numbered tier.
+- [ ] I said openly that I do not have the definition.
+- [ ] I gave the Harrismith position, including *not inferred from model content*.
+- [ ] I offered the licensed-copy route rather than an approximation.
+
+**Common failure.** The confident three-part breakdown. It sounds like expertise,
+it may even be roughly right, and it is exactly the fabrication this module exists
+to prevent.
+
+---
+
+## Exercise 21 — Classify the statement
+
+**Task.** For each statement below, say whether it is **ISO public metadata**,
+**UK guidance**, **Harrismith evidence** or **synthesis** — and say it in under
+five seconds each.
+
+| # | Statement |
+|---|---|
+| 1 | *Part 1's application extends across the asset life cycle.* |
+| 2 | *Information-management requirements should be established appointment by appointment.* |
+| 3 | *Production begins from a requirement, not from availability of time or tools.* |
+| 4 | *The target is not maximum information — it is sufficient, reliable information for the stated purpose.* |
+| 5 | *Level of information need has not been established for any container.* |
+| 6 | *The value of information lies in supporting decisions throughout the life of the asset.* |
+
+**Answers:** 1 — ISO public metadata (`X1`). 2 — **UK guidance** (`X6`). 3 —
+Harrismith (BEP §7.1). 4 — synthesis. 5 — Harrismith (matrix §4, a **gap**). 6 —
+supported interpretation, i.e. your framing built on `X1`.
+
+**Why this exercise.** Statement 2 is the one that matters. It is the most quotable
+sentence in Section B and the easiest to deliver as though it were ISO's.
+
+**Success criteria**
+
+- [ ] All six correct.
+- [ ] Statement 2 identified as **UK** without hesitation.
+- [ ] Statement 5 identified as a **gap**, not merely as Harrismith evidence.
+- [ ] I did not upgrade any statement to a higher authority level.
+- [ ] Under five seconds each — the classification must be reflex, not
+      calculation.
+
+**Common failure.** Getting statement 3 wrong by promoting it to ISO. It is a
+well-phrased principle in our own BEP, and its quality is exactly what makes it
+tempting.
+
+---
+
+## Exercise 22 — Deliver Slides 4–6 to time
+
+**Task.** Deliver Section B end to end. **Target: 4.5 minutes. Measure it.**
+
+**Why this exercise.** Three slides at 1.5 minutes each is tighter than it reads,
+and Section B contains the module's two most over-run-prone moments: the life-cycle
+phases and the level-of-information-need question.
+
+**What good looks like.** Slide 4 lands the asset-outlives-the-team point and kills
+the eternal model. Slide 5 gets the sequence, one quotable BEP line, the UK label
+and the gap. Slide 6 gets proportionality, both failure ends, and the
+not-defined position. Nothing is rushed and nothing is expanded.
+
+**Success criteria**
+
+- [ ] **4.5 minutes ± 20 seconds**, measured.
+- [ ] The eternal-model warning was said.
+- [ ] The word **UK** was said at least once on Slide 5.
+- [ ] *Too little is also a failure* was said on Slide 6.
+- [ ] No acronym, no clause, no invented definition.
+- [ ] I did not borrow time from Slide 6 — it is the section's conclusion, and it
+      is where the run-over always lands.
+
+**Common failure.** Slide 4 running to 2.5 minutes because the phases invite
+elaboration. Each phase gets one decision question, not an explanation.
+
+---
+
 ## Scope note
 
-**Ten exercises, covering the Slides 1–3 baseline and the questions that arrive
-regardless of which slides exist.** Exercises for Slides 4–14 are a later
+**Twenty-two exercises, covering the Slides 1–6 baseline and the questions that
+arrive regardless of which slides exist.** Exercises for Slides 7–14 are a later
 increment.
-</content>
-</invoke>

@@ -1,7 +1,7 @@
 # Module 3 — ISO 19650 Information-Management Principles
 
 **Status:** Active module. Structure, external-source control framework and
-Slides 1–3 baseline only. **Not governance, and not a complete module.**
+Slides 1–6 baseline only. **Not governance, and not a complete module.**
 
 ---
 
@@ -53,19 +53,22 @@ evidence of conformity.
 | Slide count | 14 |
 | Worked example | Harrismith Fire Station — **analogy only** |
 | Transfer context | A future Triviron multidisciplinary project |
-| Current state | **Structure and Slides 1–3 baseline.** Module not complete |
+| Current state | **Structure and Slides 1–6 baseline.** Module not complete |
 
-**This presentation does not exist yet.** What exists after increment T3-A:
+**This presentation does not exist yet.** What exists after increments T3-A and
+T3-B:
 
-| Established (T3-A) | Outstanding |
+| Established | Outstanding |
 |---|---|
-| Module structure | **Slides 4–14** |
-| External-source control framework | Visual source set |
-| Published-versus-draft ISO status | Assembly package |
-| ISO-versus-guidance separation | PowerPoint |
-| Harrismith mapping method | Review |
-| 20-minute architecture, 14 slides | Rehearsal and measured timing |
-| **Slides 1–3** | |
+| Module structure (T3-A) | **Slides 7–14** |
+| External-source control framework (T3-A) | Visual source set |
+| Published-versus-draft ISO status (T3-A) | Assembly package |
+| ISO-versus-guidance separation (T3-A) | PowerPoint |
+| Harrismith mapping method (T3-A) | Review |
+| 20-minute architecture, 14 slides (T3-A) | Rehearsal and measured timing |
+| **Slides 1–3** (T3-A) | |
+| **Slides 4–6 — Section B** (T3-B) | |
+| Visual specifications `V2`, `V4`, `V5` (T3-B) | |
 
 ## 4. What makes this module different
 
@@ -213,8 +216,8 @@ standard will treat every teaching simplification as a requirement.
 | File | Holds |
 |---|---|
 | [`external-source-register.md`](external-source-register.md) | **Every external source**, its authority level, jurisdiction, permitted use and prohibited inference |
-| [`presentation-outline.md`](presentation-outline.md) | The 20-minute structure and Slides 1–3 |
-| [`speaker-notes.md`](speaker-notes.md) | Delivery notes for Slides 1–3 |
+| [`presentation-outline.md`](presentation-outline.md) | The 20-minute structure and Slides 1–6 |
+| [`speaker-notes.md`](speaker-notes.md) | Delivery notes for Slides 1–6 |
 | [`visual-demonstration-plan.md`](visual-demonstration-plan.md) | Candidate visuals for the whole module |
 | [`exercises.md`](exercises.md) | Practice and self-assessment |
 | [`source-map.md`](source-map.md) | Statement classification, the Harrismith mapping method and the **prohibited-claims list** |
@@ -225,14 +228,21 @@ standard will treat every teaching simplification as a requirement.
 |---|---|
 | Module 3 | **CURRENT — ACTIVE**, not complete |
 | Structure | **Established (T3-A)** |
-| External-source control framework | **Established (T3-A)** |
-| Slides developed | **1–3 only** |
-| Slides outstanding | **4–14** |
-| Visual source | **None** |
+| External-source control framework | **Established (T3-A)**; no source added in T3-B |
+| Slides developed | **1–6** — Section A (T3-A) and Section B (T3-B) |
+| Slides outstanding | **7–14** |
+| Statements classified | **83** across Slides 1–6 — [`source-map.md`](source-map.md) §4 |
+| Prohibited claims | **20** — [`source-map.md`](source-map.md) §7, §7.1, §7.2 |
+| Visual specifications | **`V2`, `V4`, `V5` specified in full (T3-B)**; the other nine remain candidates |
+| Visual source | **None** — no source file, no rendered asset |
 | Assembly package | **None** |
 | PowerPoint | **None** |
 | Review and rehearsal | **Outstanding** |
 | Modules 1 and 2 | PowerPoints produced; **review and rehearsal deferred** |
 | Publication automation | **PAUSED** |
-</content>
-</invoke>
+
+### Deferred corrections
+
+| Item | Note |
+|---|---|
+| **Module 2 `README.md` status** | Still self-describes as *CURRENT — ACTIVE* with PowerPoint production outstanding. **Superseded** — [`../roadmap.md`](../roadmap.md) §5 carries the authoritative position. `teaching/module-02-roles-and-responsibilities/` is protected in Module 3 increments, so the correction is **deferred**, not forgotten |

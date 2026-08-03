@@ -2,9 +2,12 @@
 
 **Status:** Traceability record for teaching material. **Not governance.**
 
-Statement-level classification for the developed slides, the method by which
-Harrismith may be mapped to ISO-associated concepts, and the list of claims that
-**may not be made** in this module under any circumstances.
+Statement-level classification for the developed slides — **Slides 1–6** — the
+method by which Harrismith may be mapped to ISO-associated concepts, and the list
+of claims that **may not be made** in this module under any circumstances.
+
+**Harrismith statements in Slides 4–6 carry a mapping sub-category**: *analogue*,
+*gap or unverified*, or *excluded conformity inference*. See §5.
 
 Source identifiers `X1`–`X6`, `H1`–`H3` are defined in
 [`external-source-register.md`](external-source-register.md).
@@ -61,7 +64,32 @@ the conflict is stated — it is not resolved by preferring the convenient one.
 
 ---
 
-## 4. Statement classification — Slides 1–3
+## 4. Statement classification — Slides 1–6
+
+**83 statements across six slides. 14 `PUBLIC-SOURCE`, 3 `GUIDANCE` (all UK),
+20 `HARRISMITH`, 18 `INTERP`, 9 `SYNTH`, 5 `UNRESOLVED`, 14 `EXCLUDED`.**
+
+| Slide | Statements | `PUB` | `GUID` | `HARR` | `INT` | `SYN` | `UNR` | `EXC` |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| 1 | 12 | 4 | 0 | 3 | 1 | 2 | 1 | 1 |
+| 2 | 10 | 0 | 0 | 5 | 2 | 2 | 0 | 1 |
+| 3 | 11 | 6 | 0 | 0 | 2 | 0 | 1 | 2 |
+| **4** | **17** | **2** | **0** | **3** | **6** | **2** | **1** | **3** |
+| **5** | **16** | **1** | **2** | **7** | **1** | **1** | **1** | **3** |
+| **6** | **17** | **1** | **1** | **2** | **6** | **2** | **1** | **4** |
+| **Total** | **83** | **14** | **3** | **20** | **18** | **9** | **5** | **14** |
+
+**Two observations from the Section B statements.**
+
+**Slide 5 is the module's most Harrismith-dependent slide** — seven of sixteen
+statements, four analogue and three gaps. Its external basis is one guidance idea
+and one scope framing. Nothing on it should be delivered as ISO wording.
+
+**`GUIDANCE` enters the module at Slide 5 and stays rare** — three statements out
+of eighty-three. Every one is UK-labelled in the tables below, on the slide, and
+aloud.
+
+### 4.0 Slides 1–3 — summary
 
 **33 statements. 10 `PUBLIC-SOURCE`, 0 `GUIDANCE`, 8 `HARRISMITH`, 5 `INTERP`,
 4 `SYNTH`, 2 `UNRESOLVED`, 4 `EXCLUDED`.**
@@ -160,6 +188,122 @@ exactly the moment the audience is forming its idea of what the standard is.
 | `M3-S3-10` | — | **Excluded.** A numbered process invented for a slide would be the worst failure in this module: plausible, memorable, and wrong |
 | `M3-S3-11` | — | **Excluded.** Other parts exist and are not registered. Name only what `external-source-register.md` holds |
 
+### Slide 4 — Information management runs across the asset life cycle
+
+| ID | Statement | Source | Level | Jurisdiction | Publication status | Class |
+|---|---|---|---|---|---|---|
+| `M3-S4-01` | Part 1's application **extends across the asset life cycle** | `X1` | A1 | International | **Published** | **`PUBLIC-SOURCE`** |
+| `M3-S4-02` | Part 2 concerns the **delivery phase** — a narrower span than Part 1's | `X2` | A1 | International | **Published** | **`PUBLIC-SOURCE`** |
+| `M3-S4-03` | The six phases — initiation, design and delivery, construction, commissioning and handover, operation and maintenance, alteration or end of life | `X1` | A4 | International | Published | **`INTERP`** |
+| `M3-S4-04` | **These are neutral teaching labels, not ISO-defined phase names** | none | A4 | — | — | **`INTERP`** *(limitation)* |
+| `M3-S4-05` | Each phase contains decisions that information serves | `X1` | A4 | International | Published | **`INTERP`** |
+| `M3-S4-06` | *"The value of information is not confined to producing the model; it lies in supporting decisions throughout the life of the asset"* | `X1` | A4 | International | Published | **`INTERP`** |
+| `M3-S4-07` | The asset outlives the delivery team; information must remain understandable beyond its authoring context | `X1` | A4 | International | Published | **`INTERP`** |
+| `M3-S4-08` | Delivery-phase information contributes to later operational decisions | `X1`, `X2` | A4 | International | Published | **`INTERP`** |
+| `M3-S4-09` | Information created without an identified future purpose has little lasting value | none | A5 | — | — | **`SYNTH`** |
+| `M3-S4-10` | Life-cycle continuity is continuity of **managed information**, not the survival of one unchanged model | none | A5 | — | — | **`SYNTH`** |
+| `M3-S4-11` | Harrismith places **asset management, handover and standards verification outside current scope** — *"not current requirements and not part of the current baseline scope"* | `H1` §3.3 | A3 | This project | Approved with conditions | **`HARRISMITH` — `GAP OR UNVERIFIED`** |
+| `M3-S4-12` | *Record / handover information* appears only as an **example purpose**, *"not current project milestones"* | `H1` §6.7, §10.3 | A3 | This project | Approved with conditions | **`HARRISMITH` — `GAP OR UNVERIFIED`** |
+| `M3-S4-13` | Harrismith's own *lifecycle* wording describes the **information container**, not the asset | `H1` §2.2, §7.1 | A3 | This project | Approved with conditions | **`HARRISMITH` — analogue** |
+| `M3-S4-14` | Any ISO-defined phase name, numbered stage or stage model | — | — | — | — | **`EXCLUDED`** |
+| `M3-S4-15` | Any reproduced or reconstructed ISO life-cycle diagram | — | — | — | — | **`EXCLUDED`** |
+| `M3-S4-16` | Any operational, facilities-management or asset-information requirement for Harrismith | — | — | — | — | **`EXCLUDED`** |
+| `M3-S4-17` | What, if anything, the published parts require of the operational phase | — | — | — | — | **`UNRESOLVED`** |
+
+**Teaching use and warnings**
+
+| ID | Teaching use | Warning |
+|---|---|---|
+| `M3-S4-01` | The slide's single external anchor | **Reach, not requirement.** It says where the framework applies, not what it demands there |
+| `M3-S4-02` | The contrast that keeps Slide 3 straight | Do not re-teach Slide 3 |
+| `M3-S4-03`–`05` | The ribbon's content | **Say "my words, not official phase names" while the visual is up.** Never number them |
+| `M3-S4-06` | The required message | Supported interpretation. Not a quotation |
+| `M3-S4-07` | The slide's take-away | The strongest point available; deliver it as reasoning, not as a requirement |
+| `M3-S4-08` | Links Section B forward | — |
+| `M3-S4-09` | Closes the argument | Teaching synthesis |
+| `M3-S4-10` | **Kills the eternal-model misreading** | Must be said. An audience that keeps this belief will later accept a maintenance obligation nobody can meet |
+| `M3-S4-11`–`12` | The Harrismith gap, delivered as a **deliberately drawn boundary** | **Not a failure and not non-conformity.** The BEP records the boundary rather than leaving it to be discovered |
+| `M3-S4-13` | Precision, if the seconds exist | Conflating the two spans would put an asset-life-cycle claim into a document that makes none |
+| `M3-S4-14`–`16` | — | **Excluded.** `M3-S4-16` matters most: a hypothetical operational requirement gets remembered as a plan |
+| `M3-S4-17` | Answer: *"I don't know — that needs the standard"* | — |
+
+### Slide 5 — Information requirements come before information production
+
+| ID | Statement | Source | Level | Jurisdiction | Publication status | Class |
+|---|---|---|---|---|---|---|
+| `M3-S5-01` | Information-management requirements should be established **appointment by appointment** | **`X6`** | **A2** | **UNITED KINGDOM** | Living guidance | **`GUIDANCE` — UK CONTEXT** |
+| `M3-S5-02` | Information management is intended to improve the **specification**, production, review and transfer of information | **`X5`** | **A2** | **UNITED KINGDOM** | Living guidance | **`GUIDANCE` — UK CONTEXT** |
+| `M3-S5-03` | Part 1's framework covers exchanging, recording, versioning and organising information | `X1` | A1 | International | **Published** | **`PUBLIC-SOURCE`** |
+| `M3-S5-04` | *"Production begins from a requirement, not from availability of time or tools"* | `H1` §7.1 | A3 | This project | Approved with conditions | **`HARRISMITH` — analogue** |
+| `M3-S5-05` | *"Information production is driven by **defined requirements**, not by assumption about what might be wanted"* | `H1` §7.3 | A3 | This project | Approved with conditions | **`HARRISMITH` — analogue** |
+| `M3-S5-06` | A requirement may specify the container, originator, intended recipient, purpose, format, the exchange it serves, the checking requirement, the authorisation requirement and dependencies | `H1` §7.3 | A3 | This project | Approved with conditions | **`HARRISMITH` — analogue** |
+| `M3-S5-07` | A delivery is tied to a need, a recipient, a purpose, timing, required content, format, readiness and authorisation | `H1` §10.1 | A3 | This project | Approved with conditions | **`HARRISMITH` — analogue** |
+| `M3-S5-08` | The six-step sequence: **decision or purpose → information need → defined requirement → planned production → checked delivery → use** | `H1` §7.1, §10.1 | A4 | This project | — | **`INTERP`** |
+| `M3-S5-09` | *"No formal information requirements are available to this implementation"* | `H1` §7.3, §10.2 | A3 | This project | Approved with conditions | **`HARRISMITH` — `GAP OR UNVERIFIED`** |
+| `M3-S5-10` | Unavailable requirements **are not invented**; training-developed requirements are labelled **PROPOSED GOVERNANCE or TRAINING ASSUMPTION** | `H1` §7.3, §10.2 | A3 | This project | Approved with conditions | **`HARRISMITH` — `GAP OR UNVERIFIED`** |
+| `M3-S5-11` | *"Information production should be a response to an identified need — not an activity that searches for a purpose afterwards"* | none | A5 | — | — | **`SYNTH`** |
+| `M3-S5-12` | Procurement route, contract type, contractual milestones and final delivery programme are **not established — TBD** | `H1` §2.3 | A3 | This project | Approved with conditions | **`HARRISMITH` — `GAP OR UNVERIFIED`** |
+| `M3-S5-13` | Any information-requirement acronym, used as teaching vocabulary or defined | — | — | — | — | **`EXCLUDED`** |
+| `M3-S5-14` | The six-step sequence presented as Part 2's process | — | — | — | — | **`EXCLUDED`** |
+| `M3-S5-15` | Harrismith's absent requirements presented as ISO non-conformity | — | — | — | — | **`EXCLUDED`** |
+| `M3-S5-16` | Whether the published standard itself requires requirements to be established appointment by appointment | — | — | — | — | **`UNRESOLVED`** |
+
+**Teaching use and warnings**
+
+| ID | Teaching use | Warning |
+|---|---|---|
+| `M3-S5-01` | The slide's one guidance idea | **`OFFICIAL IMPLEMENTATION GUIDANCE — UK CONTEXT`.** Labelled on the slide and aloud. **Never** *"ISO requires this appointment workflow"* |
+| `M3-S5-02` | Optional supporting framing | Same labelling obligation. Drop it under time pressure rather than deliver it unlabelled |
+| `M3-S5-03` | The published framing for *specifying* | Scope, not requirement |
+| `M3-S5-04`–`05` | The two quotable lines the slide is built on | **Harrismith wording.** Attribute — *"our BEP says"* |
+| `M3-S5-06`–`07` | The seven requirement questions | Our BEP's fields, not a standard's. **This is not a template**, and building one is Module 5's territory at most |
+| `M3-S5-08` | The sequence, and the visual `V4` | **Teaching structure.** Not Part 2's process |
+| `M3-S5-09`–`10` | The gap, delivered as **discipline rather than deficiency** | Saying *we don't know* is harder than guessing, and BEP §1.5 means real requirements would take precedence over anything developed in their absence |
+| `M3-S5-11` | The required message | Teaching synthesis |
+| `M3-S5-12` | Why the delivery schedule uses event triggers and TBDs rather than dates | Do not invent a date to make an example work |
+| `M3-S5-13` | — | **Excluded.** BEP §7.3 names some requirement documents **only to record that none was made available**. That is Harrismith noting an absence, **not this module defining vocabulary**. Do not explain what any of them contains |
+| `M3-S5-14`–`15` | — | **Excluded.** `M3-S5-15` is the likeliest live error: *"we have no requirements"* invites *"so we're not compliant?"* |
+| `M3-S5-16` | Answer: guidance says so; the standard has not been read | — |
+
+### Slide 6 — The right information, not simply more information
+
+| ID | Statement | Source | Level | Jurisdiction | Publication status | Class |
+|---|---|---|---|---|---|---|
+| `M3-S6-01` | Information management is intended to improve the specification, production, **review and transfer** of information | **`X5`** | **A2** | **UNITED KINGDOM** | Living guidance | **`GUIDANCE` — UK CONTEXT** |
+| `M3-S6-02` | Part 1's framework covers organising information across the life cycle | `X1` | A1 | International | **Published** | **`PUBLIC-SOURCE`** |
+| `M3-S6-03` | Information is proportionate to the **decision, recipient, delivery event, asset or element, required reliability and context of use** | `H1` §6.1, §7.3, §10.1 | A4 | This project | — | **`INTERP`** |
+| `M3-S6-04` | The **more information / right information** two-column comparison | `H1` §1.1, §6.1, §7.3 | A5 | — | — | **`SYNTH`** |
+| `M3-S6-05` | **Completeness is purpose-dependent** — *complete for what* is the answerable question | `H1` §6.1 | A4 | This project | — | **`INTERP`** |
+| `M3-S6-06` | More detail increases the coordination, checking, revision and maintenance burden | none | A4 | — | — | **`INTERP`** |
+| `M3-S6-07` | Unnecessary information creates cost and ambiguity | none | A4 | — | — | **`INTERP`** |
+| `M3-S6-08` | **Insufficient information creates decision risk** | none | A4 | — | — | **`INTERP`** |
+| `M3-S6-09` | **Level of information need — *"Not defined"*.** It *"has not been established for any container"* and is *"recorded as an information gap"* | `H2` — model / information responsibility matrix §4 | A3 | This project | Approved with conditions | **`HARRISMITH` — `GAP OR UNVERIFIED`** |
+| `M3-S6-10` | Level of information need is *"**not** assumed from discipline convention or inferred from observed model content"* | `H2` — same §4 | A3 | This project | Approved with conditions | **`HARRISMITH` — `GAP OR UNVERIFIED`** |
+| `M3-S6-11` | *"The target is not maximum information. It is sufficient, reliable information for the stated purpose"* | none | A5 | — | — | **`SYNTH`** |
+| `M3-S6-12` | The **general concept** that required detail and reliability depend on purpose, in plain words | `H2` §4 | A4 | — | — | **`INTERP`** |
+| `M3-S6-13` | Any **formal definition** of level of information need | — | — | — | — | **`EXCLUDED`** |
+| `M3-S6-14` | Any geometric / alphanumeric / documentation breakdown, or any level, grade, scale or numbered tier | — | — | — | — | **`EXCLUDED`** |
+| `M3-S6-15` | Any model-detail or production requirement invented for the fire station | — | — | — | — | **`EXCLUDED`** |
+| `M3-S6-16` | That more detail means greater conformity | — | — | — | — | **`EXCLUDED`** |
+| `M3-S6-17` | What the published standard's treatment of level of information need actually is | — | — | — | — | **`UNRESOLVED`** |
+
+**Teaching use and warnings**
+
+| ID | Teaching use | Warning |
+|---|---|---|
+| `M3-S6-01` | Optional framing | **UK-labelled** if used. The slide works without it |
+| `M3-S6-02` | The published framing | Scope, not requirement |
+| `M3-S6-03` | The six proportionality factors | **No source lists these six.** Presenter's construction from our BEP's fields |
+| `M3-S6-04` | The comparison, and visual `V5` | **Teaching examples, not ISO quotations, and not a conformity checklist** |
+| `M3-S6-05`–`08` | The five things to say about proportion | **`M3-S6-08` must be said.** Without it the slide teaches minimalism, which is the opposite of proportion |
+| `M3-S6-09`–`10` | The Harrismith position, quotable almost verbatim | `M3-S6-10` is the sharper half: **what is in the models is not what was required.** Same move as *folder names do not prove governance* |
+| `M3-S6-11` | The required message | Teaching synthesis |
+| `M3-S6-12` | **The only permitted treatment of the term** — plain concept, then stop | Anything beyond plain language is invented. *"I'd be making it up"* is the better answer |
+| `M3-S6-13`–`14` | — | **Excluded.** The commonest live failure in this module: a half-remembered breakdown delivered with confidence |
+| `M3-S6-15` | — | **Excluded.** An off-the-cuff detail example becomes a production expectation two meetings later |
+| `M3-S6-16` | — | **Excluded.** Detail is not conformity, and no conformity assessment exists |
+| `M3-S6-17` | Answer: *"there is a defined treatment; I don't have it, and that's a licensed-copy conversation"* | — |
+
 ## 5. Harrismith mapping method
 
 The method for Slide 13 and for every later Harrismith reference. **Four
@@ -200,6 +344,12 @@ presentation that implies more.
 | Responsibility matrices (`H2`) | information-management responsibility allocation | **`LOCAL ANALOGUE OR INTERPRETATION`** | Illustrates the principle; proves nothing about conformity. Every role holder is **TBD** |
 | Information delivery schedule (`H2`) | planned information exchange | **`LOCAL ANALOGUE OR INTERPRETATION`** | Illustrates planning. `TRN-E03` is **blocked** — publication authority unresolved — so it illustrates a *plan*, not a working exchange |
 | Information container (`H1` §1.1, §6.8) | information container | **`LOCAL ANALOGUE OR INTERPRETATION`** | The term is used in both vocabularies. **Shared vocabulary is not established equivalence** — the ISO definition has not been read |
+| Production driven by defined requirements (`H1` §7.1, §7.3) | requirements precede production | **`LOCAL ANALOGUE OR INTERPRETATION`** | Illustrates the principle in this project's own wording. **Not the standard's phrasing**, which has not been read |
+| **Asset management, handover and standards verification — outside current scope** (`H1` §3.3) | life-cycle reach of Part 1 | **`GAP OR UNVERIFIED`** | A **deliberately drawn boundary**, recorded rather than left to be discovered. Harrismith is a delivery-governance implementation. **Not a failure and not non-conformity** |
+| **No formal information requirements available** (`H1` §7.3, §10.2) | information requirements | **`GAP OR UNVERIFIED`** | The project records the absence and **refuses to invent them**. Training-developed requirements are labelled PROPOSED GOVERNANCE or TRAINING ASSUMPTION |
+| **Level of information need — not defined** (`H2` matrix §4) | level of information need | **`GAP OR UNVERIFIED`** | Not established for any container; **not inferred from observed model content**; recorded as an information gap. An **open project decision**, and no detail requirement is to be invented |
+| Harrismith's *lifecycle* wording (`H1` §2.2, §7.1) | asset life cycle | **`GAP OR UNVERIFIED`** | Harrismith's word describes the **information container's** span. **Two different spans sharing one word** — do not read an asset-life-cycle claim into it |
+| Harrismith's recorded gaps | ISO non-conformity | **`EXCLUDED — CONFORMITY CLAIM NOT SUPPORTED`** | A gap is a **project state**, not an audit finding. **No assessment exists in either direction** — neither conformity nor non-conformity may be claimed |
 | Clause-by-clause conformity | — | **`EXCLUDED — CONFORMITY CLAIM NOT SUPPORTED`** | **No such assessment exists**, and none can be produced from available material |
 | Autodesk platform configuration | ISO conformity | **`EXCLUDED — CONFORMITY CLAIM NOT SUPPORTED`** | No software configuration evidences conformity with anything |
 
@@ -246,7 +396,7 @@ any question.** Not softened, not hedged, not implied.
 | 7 | **ISO terminology may be substituted into Harrismith without a mapping decision** | §6. No mapping decision has been taken |
 | 8 | **Any clause-level requirement not supported by an authorised source** | No clause has been read. **No clause reference appears in this module** |
 
-### 7.1 Additional exclusions recorded in this increment
+### 7.1 Additional exclusions recorded in T3-A
 
 | # | Excluded | Why |
 |---|---|---|
@@ -256,6 +406,23 @@ any question.** Not softened, not hedged, not implied.
 | 12 | Any claim that a Harrismith delivery exchange has occurred | `TRN-E03` is blocked; `T4` cannot proceed while publication authority is unresolved (`H2`) |
 | 13 | Any South African implementation requirement | **None registered.** `H1` §13.4: no SANS applicability is asserted |
 | 14 | Any Triviron project fact | **No Triviron project information exists in this repository.** Slide 14 asks questions only |
+
+### 7.2 Additional prohibitions recorded in T3-B
+
+Six more, arising from Slides 4–6. They carry the same weight as §7.
+
+| # | Prohibited | Why |
+|---|---|---|
+| 15 | **Any copied or reconstructed ISO life-cycle diagram** | Copyright, and the original has not been seen. Slide 4's ribbon is an **original teaching visual with neutral labels** — `visual-demonstration-plan.md` `V2` |
+| 16 | **Any information-requirement acronym** — the client-, exchange-, asset- or project-level requirement abbreviations | **No definition-level source is registered.** `H1` §7.3 names some **only to record that none was made available**; that is Harrismith noting an absence, not this module defining vocabulary |
+| 17 | **Any formal definition of level of information need** | **No authorised source.** The plain-language concept is permitted (`M3-S6-12`); a definition, a geometric / alphanumeric / documentation breakdown, or any level, grade, scale or tier is not |
+| 18 | **That more detail means greater conformity** | Detail is not conformity. No assessment exists, and proportionality runs both ways — `M3-S6-08` |
+| 19 | **A single eternal BIM model travelling the whole life cycle** | Life-cycle continuity is continuity of **managed information**. Containers are superseded, replaced and re-authored — `M3-S4-10` |
+| 20 | **Harrismith's gaps presented as proof of non-conformity** | A gap is a project state. **No clause-by-clause assessment exists in either direction**, so neither conformity nor non-conformity may be claimed |
+
+**Prohibition 20 is the mirror of prohibition 1**, and both must hold at once.
+Module 3 may not claim Harrismith conforms, and may not claim it fails. The
+honest position is that **nobody has assessed it**.
 
 ## 8. Unresolved matters carried forward
 
@@ -267,6 +434,19 @@ any question.** Not softened, not hedged, not implied.
 | 4 | Whether any South African implementation guidance exists | External research — **outside this specialist's boundary** |
 | 5 | Whether Harrismith's state model corresponds to the standard's | A licensed copy; a conformity assessment |
 | 6 | What Triviron's jurisdiction, appointments and requirements will be | The Triviron project, when it exists |
+| 7 | What, if anything, the published parts require of the **operational phase** | A licensed copy |
+| 8 | Whether the standard itself requires requirements to be established **appointment by appointment** — `X6` says so as **UK guidance** | A licensed copy |
+| 9 | The standard's treatment of **level of information need** | A licensed copy |
+| 10 | Harrismith's own level of information need | **An open project decision** — `H2` matrix §4 records it as an information gap to be developed as PROPOSED GOVERNANCE |
+| 11 | Harrismith's formal information requirements | Requirements being established or made available; `H1` §1.5 means they would then take precedence over anything developed in their absence |
+
+**Items 7–9 are the Section B version of item 1.** Each is a question an audience
+will ask on Slides 4–6, and each has the same answer: **the concept is teachable,
+the requirement is not available.**
+
+**Items 10 and 11 are different in kind.** They are not gaps in this programme's
+evidence — they are **open decisions on a live project**, recorded as such by the
+project itself. They resolve by decision, not by research.
 
 **Item 1 is the honest headline of this module.** Everything Module 3 teaches
 about ISO 19650 is scope, guidance or analogy. **If the audience needs the
@@ -276,16 +456,16 @@ requirement, they need the standard.**
 
 | Field | Value |
 |---|---|
-| Statements classified | **Slides 1–3 — 33 statements** |
-| `PUBLIC-SOURCE` | 10 — of which **6 describe scope**, 4 record edition or draft status |
-| `GUIDANCE` | **0** — reserved for Slides 5–8 |
-| `HARRISMITH` | 8 |
-| `INTERP` | 5 |
-| `SYNTH` | 4 |
-| `UNRESOLVED` | 2 statement-level, plus 6 module-level (§8) |
-| `EXCLUDED` | 4 statement-level, plus 14 prohibited claims (§7) |
-| Slides 4–14 | **Not classified.** Not developed |
-| Mapping method | **Established (§5)** — applied fully at Slide 13 |
+| Statements classified | **Slides 1–6 — 83 statements** |
+| `PUBLIC-SOURCE` | 14 |
+| `GUIDANCE` — **all UK** | **3** — entering at Slide 5 |
+| `HARRISMITH` | 20 — the **12 in Slides 4–6 are sub-categorised: 5 analogue, 7 gap or unverified**. The 8 in Slides 1–3 predate the sub-categorisation and are not retrofitted |
+| `INTERP` | 18 |
+| `SYNTH` | 9 |
+| `UNRESOLVED` | 5 statement-level, plus 11 module-level (§8) |
+| `EXCLUDED` | 14 statement-level, plus **20 prohibited claims** (§7, §7.1, §7.2) |
+| Slides 7–14 | **Not classified.** Not developed |
+| Mapping method | **Established (§5)**, extended in T3-B; applied fully at Slide 13 |
 | Clause references used | **Zero** |
-</content>
-</invoke>
+| Requirement acronyms used | **Zero** |
+| Level-of-information-need definitions given | **Zero** — plain concept only |
