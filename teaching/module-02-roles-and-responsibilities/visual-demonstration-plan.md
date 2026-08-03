@@ -223,6 +223,172 @@ placeholder answer or an example answer.
 
 ---
 
+## 2A. Slide-specific visual plan — Slides 4–9
+
+Section 2 lists candidate visuals for the module. This section plans the actual
+visual for each developed slide.
+
+**All six are derivable from committed Markdown.** None requires an image, a
+screenshot or a model view. **No live Autodesk observation is required**, and two
+would be actively harmed by it.
+
+### Slide 4 — Who governs the project information process?
+
+| Field | Value |
+|---|---|
+| **Teaching purpose** | Show the principal functions as a **functional map around the information process** — not a hierarchy |
+| **Proposed form** | Radial or ring layout: the information process at the centre, functions arranged around it |
+| **Repository evidence** | BEP §4.6, §5.2, §5.4, §5.7; IM matrix §2 |
+| **Classification** | **DIRECT** for the functions and roles; **INTERPRETATION** for the arrangement |
+| **Simplify** | Four IM functions named prominently; the nine matrix roles as a small secondary list. One-line concern per function |
+| **Omit** | **Any vertical stacking, any tier, any connecting line that reads as reporting.** Any holder name. The full nine-column grid |
+| **Overclaim risk** | **Medium** — a tidy ring implies a complete, operating structure. Every holder is TBD |
+| **Derivable from Markdown?** | **Yes** |
+| **Live observation** | **No** |
+
+**Requirement, not preference: no vertical arrangement.** BEP §5.2 states the
+model is *not an appointment chart and not an organisation chart*. A ring, a
+grid or a horizontal band all work; a tree does not. If the layout has a top, it
+is wrong.
+
+**Second requirement.** The `TBD` status must be visible somewhere on the slide —
+otherwise the functional map reads as a staffed structure.
+
+### Slide 5 — What does the BIM Manager actually do?
+
+| Field | Value |
+|---|---|
+| **Teaching purpose** | A positive functional account, anchored on one matrix row |
+| **Proposed form** | "BIM Manager does" functional diagram, with the **G1 row** reproduced beneath as a five-cell strip |
+| **Repository evidence** | BEP §5.5; IM matrix §3.1 (G1–G5), §3.2 (C1, C4), §3.7 (A1, A4, A5) |
+| **Classification** | **DIRECT** |
+| **Simplify** | Five or six responsibilities, not nine. The G1 strip is the anchor — enlarge it |
+| **Omit** | Any exclusion (Slide 6 owns those); the full seven-sub-table matrix; the AG-series governance functions |
+| **Overclaim risk** | **Low** |
+| **Derivable from Markdown?** | **Yes** |
+| **Live observation** | **No** |
+
+**Design note.** The G1 strip — `AP: Cs` · `LDP: Cs` · **`BM: P`** · `BC: Cs` ·
+`TTL: Cs` — is five cells and carries the whole slide. If space is tight, drop
+the responsibility list and keep the strip.
+
+### Slide 6 — What the BIM Manager does not automatically do
+
+| Field | Value |
+|---|---|
+| **Teaching purpose** | Correct the assumption of general authority, without making the function look marginal |
+| **Proposed form** | Two-column comparison — *the function* / *not automatically held* |
+| **Repository evidence** | BEP §5.5, §5.4, §9.7, §9.8, §12.7, §4.6, §5.11; IM matrix §4, §3.7 A2 note; Coordination §3 |
+| **Classification** | **DIRECT** for nine exclusions; **INTERPRETATION** for "responsible for every model"; **SYNTHESIS** for the required message |
+| **Simplify** | Five rows per column |
+| **Omit** | Any exclusion not verified in the source; the publication-planning history; the AG-series |
+| **Overclaim risk** | **Low in content; moderate in tone** — the risk is the slide reading as a demotion |
+| **Derivable from Markdown?** | **Yes** |
+| **Live observation** | **No** |
+
+**Requirement: equal visual weight.** A smaller or greyed right-hand column reads
+as a caveat. It is half the teaching, and it should occupy half the slide.
+
+**Second requirement.** Publication and acceptance appear in the right column
+marked **unresolved for everyone** — not merely "not the BIM Manager's". Marking
+them as this function's exclusion alone would imply somebody else holds them.
+
+### Slide 7 — What does the BIM Coordinator do?
+
+| Field | Value |
+|---|---|
+| **Teaching purpose** | The coordinator at the **process centre**, with task teams retaining model ownership |
+| **Proposed form** | Coordination-process diagram: coordinator central; discipline containers around the edge, each labelled with its **originating task team** |
+| **Repository evidence** | BEP §5.6; Coordination §3, §8; IM matrix §3.5 (X1–X5); Model matrix §3.1, §3.4 |
+| **Classification** | **DIRECT** |
+| **Simplify** | Five coordinator activities; three or four containers, not six |
+| **Omit** | The sixteen-step cycle; **any product name or screenshot**; any clash count; any tolerance value (**TBD** in source) |
+| **Overclaim risk** | **High** — a coordination diagram reads as a running process |
+| **Derivable from Markdown?** | **Yes** |
+| **Live observation** | **Possibly later — but see the risk.** Platform imagery would compound rather than illustrate |
+
+**Requirement.** Each container keeps a visible **originating task team** label.
+A central coordinator surrounded by unlabelled containers implies the coordinator
+owns them — the exact inference Slide 7 exists to prevent.
+
+**Caption requirement.** *Not evidenced as configured or running.* No Design
+Collaboration Coordination Space was observed configured; the issue status model
+is not claimed to be configured.
+
+### Slide 8 — Coordination responsibility is not design responsibility
+
+| Field | Value |
+|---|---|
+| **Teaching purpose** | Show responsibility crossing to the task team and returning |
+| **Proposed form** | **Swimlane / handoff diagram**, four lanes |
+| **Repository evidence** | Coordination §16, §17, §18, §19, §27; IM matrix §3.5 |
+| **Classification** | **DIRECT** for the steps and boundaries; **INTERPRETATION** for the eight-step compression |
+| **Simplify** | Four lanes, eight steps. One boundary call-out, not five |
+| **Omit** | Any geometry, clash coordinate, Issue identifier, tolerance or named person; any suggestion the example is a recorded event |
+| **Overclaim risk** | **High** — a swimlane looks like a configured workflow |
+| **Derivable from Markdown?** | **Yes** |
+| **Live observation** | **No** |
+
+**Lane structure**
+
+```text
+BIM Coordinator   │ 1 finding · 2 triage · 3 assign │              │ 7 re-coordinate · 8 verify
+Task Team         │                                 │ 4 respond in own WIP │
+Checker           │                                 │ 5 check      │
+Task-Team Lead    │                                 │ 6 authorise reshare │
+```
+
+**Requirement.** The diagram must show responsibility **returning** to the
+coordination process after controlled reshare — the loop back to lane 1 at step
+7. A left-to-right chain that ends in the task team's lane implies the technical
+response terminates the matter, which it does not.
+
+**Label requirement.** If the STR-01 / MEC-01 example appears, it carries the
+source's own label: **educational workflow example only; does not describe an
+actual condition on the project**.
+
+### Slide 9 — Task-Team Leads, Authors and Checkers
+
+| Field | Value |
+|---|---|
+| **Teaching purpose** | The clearest separation of duties in the framework — and the sequence stops at Shared |
+| **Proposed form** | Simple linear separation-of-duties flow, with the P1–P4 extract beneath |
+| **Repository evidence** | IM matrix §3.3 rows P1–P4 and both notes; BEP §5.7, §5.8, §7.6, §9.3, §9.4; Delivery Schedule §3.2 |
+| **Classification** | **DIRECT** |
+| **Simplify** | Four nodes. The matrix extract cropped to four rows and four columns |
+| **Omit** | **Any node or arrow beyond Shared**; the full P-group table; the S-group rows; **any RACI letter** |
+| **Overclaim risk** | **Low if the chain stops at Shared; high if it does not** |
+| **Derivable from Markdown?** | **Yes** |
+| **Live observation** | **No** |
+
+**Flow**
+
+```text
+Author performs → Checker checks → Task-Team Lead authorises → Shared
+                                                                  ┊
+                                                            Published
+                                                    (authority unresolved —
+                                                     not reached)
+```
+
+**Requirement.** `Published` may appear **only** as a visibly unreached state —
+dashed, greyed, outlined, and labelled *authority unresolved*. Omitting it
+entirely is also acceptable. **What is not acceptable is a solid arrow to it.**
+
+**The anchor extract** — the `Aut` column read downward is the teaching:
+
+| # | Function | `Aut` | `Chk` | `TTL` |
+|---|---|---|---|---|
+| P1 | Author information in WIP | **P** | — | Co |
+| P2 | Task-team technical / content check | Cs | **Ck** | Co Ck |
+| P3 | Information-quality / readiness check | Cs | **Ck** | Co |
+| P4 | Authorise for controlled sharing | **—** | Cs | **Au** |
+
+**Do not annotate this extract with RACI letters, in the diagram, a legend or a
+key.**
+
+---
+
 ## 3. Summary
 
 | Ref | Visual | Slides | Classification | From repo? | Overclaim risk |

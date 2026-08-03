@@ -1,4 +1,4 @@
-# Module 2 — Speaker Notes, Slides 1–3
+# Module 2 — Speaker Notes, Slides 1–9
 
 **Status:** Working notes. **Not a script, and not final.**
 
@@ -321,6 +321,601 @@ planning.
 
 ---
 
+## Slide 4 — Who governs the project information process? · 2.0 min
+
+### Purpose
+
+Introduce the principal functions without drawing a hierarchy, and show that
+governance is distributed while each function still has a boundary.
+
+### Essential message
+
+1. **Four** information-management functions at organisation level; **nine**
+   functional roles in the matrix.
+2. Seven different kinds of concern, deliberately separated.
+3. **This is not a reporting chart.** It shows how functions relate, not who
+   reports to whom.
+4. The BIM functions are **not above the discipline leads technically**.
+
+### Suggested wording
+
+> "So — who governs this? And I want to be careful with the answer, because the
+> instinct is to draw an org chart, and that would be the wrong shape entirely.
+>
+> The BEP defines four information-management functions at organisation level.
+> BIM Manager — governance of the framework. BIM Coordinator — operational
+> coordination. CDE Administration — implementing approved governance in the
+> platform. And Lead Delivery Party — project-level delivery coordination.
+>
+> Underneath that, the responsibility matrix works with nine roles: appointing
+> party, lead delivery party, BIM manager, coordinator, task-team leads, authors,
+> checkers, CDE administration, and a receiving function.
+>
+> Now — the important bit. These are seven genuinely different kinds of concern.
+> Project authority. Information-management governance. Technical production.
+> Technical checking. Coordination. Platform administration. Recipient
+> acceptance. They are not layers of seniority. They're different questions.
+>
+> And the BEP is explicit that this is a conceptual functional model — not an
+> appointment chart and not an organisation chart. It shows how the functions
+> relate, not who reports to whom. Which matters, because on a real project these
+> functions sit in different organisations."
+
+### Shorter fallback
+
+> "Four information-management functions — BIM Manager, BIM Coordinator, CDE
+> Administration, Lead Delivery Party — and nine roles in the responsibility
+> matrix. Seven different kinds of concern: project authority, IM governance,
+> production, checking, coordination, platform administration, acceptance.
+> They're not layers of seniority; they're different questions. And the BEP is
+> clear this is a functional model, not an organisation chart."
+
+### Harrismith evidence
+
+BEP §5.7, the line that stops the hierarchy reading before it starts:
+**"Technical authority sits here, not with the BIM functions."** Neither the BIM
+Manager nor the BIM Coordinator acquires technical responsibility by governing or
+coordinating the information that describes it.
+
+And BEP §5.4: the Lead Delivery Party is **not automatically** the BIM Manager —
+*"different functions with different concerns, and may sit in different
+organisations."*
+
+### Likely question
+
+"Who is actually in charge?"
+
+### Safe answer
+
+Of the project? Nobody in this diagram — the appointing party's identity isn't
+established. Of *this process*? Nobody either, and deliberately. The BIM Manager
+governs the framework. The Task-Team Lead authorises sharing. Nobody currently
+holds publication authority. It's distributed by function, and each function is
+named. That's the opposite of vague — it's just not a pyramid.
+
+### Transition to Slide 5
+
+"Let me start with the one everybody's heard of, and be precise about what it
+actually does."
+
+### Delivery warning
+
+**The likely misunderstanding: the audience mentally reorders the functions into
+a hierarchy** — BIM Manager at the top, authors at the bottom — because that is
+the shape every project diagram they have seen takes.
+
+Guard it in the visual and the words. Never say "under", "reports to", "above" or
+"escalates to" when describing the relationship between functions. Say what each
+one *decides*. If someone asks who is senior, answer that seniority is an
+organisational question and this is a decision-rights question — and that they
+routinely disagree.
+
+### Evidence classification
+
+**DIRECT** — the four IM functions; the nine matrix roles and their TBD status;
+the conceptual-functional-model statement; "technical authority sits here";
+LDP ≠ BIM Manager.
+**INTERP** — the seven-concern grouping; the required message.
+**SYNTH** — none.
+**UNRESOLVED** — appointing party identity; recipient acceptance authority.
+
+---
+
+## Slide 5 — What does the BIM Manager actually do? · 1.5 min
+
+### Purpose
+
+A clear positive account of the function, before Slide 6 supplies its limits.
+
+### Essential message
+
+1. The **principal governance function** — framework, CDE strategy, standards
+   coordination, responsibility architecture, change, onboarding, assurance.
+2. Row **G1**: one Perform, four Consult.
+3. **Drafting is concentrated; agreement is distributed.**
+4. Even on standards, the BIM Manager only **coordinates** — the Task-Team Lead
+   performs.
+
+### Suggested wording
+
+> "The BIM Manager is the principal governance function. Not the principal
+> *project* function — the principal governance one.
+>
+> What that means in practice: maintaining the BEP framework, maintaining the CDE
+> strategy, coordinating information standards, maintaining the responsibility
+> architecture, managing governance decisions and changes, onboarding, assurance,
+> and checking that approved governance is actually reflected in how the platform
+> and the process are set up.
+>
+> Now look at one row of the responsibility matrix, because it tells you more
+> than the list does. Row G1 — maintain the BEP governance framework. The BIM
+> Manager is marked 'Perform'. The appointing party, the lead delivery party, the
+> coordinator and every task-team lead are marked 'Consult'.
+>
+> One Perform. Four Consult. That's the whole shape of the function. Drafting is
+> concentrated — and it should be, or you get a document by committee. Agreement
+> is distributed. Those four can't write it, and they can't be bypassed.
+>
+> There's a detail I'd flag. Row G4 — project information standards. The BIM
+> Manager only *coordinates* there. The task-team lead performs it. Even on
+> standards, the function is narrower than the title suggests."
+
+### Shorter fallback
+
+> "The principal governance function: the BEP framework, the CDE strategy,
+> standards coordination, the responsibility architecture, governance change,
+> onboarding, assurance. Row G1 of the matrix says it best — BIM Manager
+> Performs, and the appointing party, lead delivery party, coordinator and every
+> task-team lead Consult. Drafting is concentrated; agreement is distributed."
+
+### Harrismith evidence
+
+Row **G1** — *Maintain the BEP governance framework*: `BM = P`; `AP`, `LDP`,
+`BC`, `TTL` all `= Cs`.
+
+Row **G4** — *Maintain and coordinate project information standards*: `BM = Co`,
+`TTL = P Cs`. The BIM Manager coordinates; the task team performs.
+
+### Likely question
+
+"Does the BIM Manager approve the models?"
+
+### Safe answer
+
+No. Design approval isn't allocated to any information-management function in
+this framework — the originating task team retains technical responsibility
+throughout. The BIM Manager governs how information is *managed*. That's Slide 6.
+
+### Transition to Slide 6
+
+"So that's what it does. Now the more useful half — what it doesn't."
+
+### Delivery warning
+
+**The likely misunderstanding: the audience hears a list and stops listening.**
+Nine responsibilities read as an inventory, and inventories do not persuade.
+
+Lead with G1. One row, five cells, and the shape of the function is visible. Use
+the list only if someone asks for the detail — and if you are running short, cut
+the list, never the row.
+
+**Second risk:** do not start on the exclusions here. Slide 6 needs them intact,
+and pre-empting turns the pair into one defensive slide.
+
+### Evidence classification
+
+**DIRECT** — the nine-item responsibility list; every matrix cell cited; the G4
+coordinate-not-perform position.
+**INTERP** — "drafting is concentrated, agreement is distributed"; the required
+message.
+**SYNTH** — none.
+
+---
+
+## Slide 6 — What the BIM Manager does not automatically do · 1.5 min
+
+### Purpose
+
+Correct the assumption of general project authority — without making the function
+sound marginal.
+
+### Essential message
+
+1. Ten things it is **not automatically**, each verified in the source.
+2. Two of them — **publication** and **acceptance** — are unresolved for
+   *everyone*, not just for this function.
+3. **"No single universal approver exists."**
+4. Authority here is **defined, not diminished**.
+
+### Suggested wording
+
+> "Here's where the title does damage. 'BIM Manager' sounds like general
+> authority over anything with BIM in the name. The BEP is unusually direct about
+> this.
+>
+> The BIM Manager is not automatically the appointing party. Not automatically
+> the lead delivery party. Not a design approver. Not a discipline technical
+> lead. Not a contractual decision-maker. And — this one surprises people — not
+> automatically the platform administrator either; that's a separate function.
+>
+> Two more, and these are different in kind. Publication authority: the BEP says
+> explicitly it's not automatically the BIM Manager's — and then says it isn't
+> anybody's yet. It's unresolved. Same with recipient acceptance.
+>
+> And the general version, from the responsibility matrix: no single universal
+> approver exists, and unlimited authority is not assigned to the BIM Manager.
+>
+> Now — I want to be careful about how that lands. This isn't a diminished role.
+> It's a *defined* one. And definition protects the holder as much as it
+> constrains them. A BIM Manager who isn't the design approver cannot be blamed
+> for a design decision. That's worth having in writing."
+
+### Shorter fallback
+
+> "Not automatically the appointing party, the lead delivery party, a design
+> approver, a discipline lead, a contractual decision-maker or the platform
+> administrator. Publication authority and recipient acceptance aren't the BIM
+> Manager's — and aren't anyone's yet; both are unresolved. And the matrix says
+> no single universal approver exists. The function isn't weak; it's defined."
+
+### Harrismith evidence
+
+IM matrix §3.7, the A2 note: **"No single universal approver exists"**, and
+**"unlimited authority is not assigned to the BIM Manager."**
+
+BEP §5.5's own closing position on the limit: where the BIM Manager identifies a
+problem outside the function's authority, **"the route is to raise and escalate
+it, not to decide it."**
+
+### Likely question
+
+"Then what's the point of the role?"
+
+### Safe answer
+
+Somebody has to maintain the framework, keep the responsibility architecture
+coherent, run governance change, and check that what was approved is what's
+actually configured. That's substantial, and nobody else is doing it. What the
+function doesn't do is absorb design, contractual and publication authority just
+because those things touch information.
+
+### Transition to Slide 7
+
+"Same treatment for the other function people assume they understand — the
+coordinator."
+
+### Delivery warning
+
+**The likely misunderstanding: the room's BIM Manager hears their job being
+downgraded in public.** That is the failure mode of this slide, and it is easy to
+trigger with tone alone.
+
+Two guards. Deliver the "defined, not diminished" framing **in the same breath**
+as the exclusions, not as a recovery afterwards. And give the protective reading —
+a defined boundary is a defence, not a demotion.
+
+**Second risk:** do not let publication authority become a discussion. It is
+unresolved, it is Slide 11's subject, and it opens onto a paused programme.
+
+### Evidence classification
+
+**DIRECT** — nine of the ten exclusions, each cited individually; the
+no-universal-approver statement; the raise-and-escalate route.
+**INTERP** — "responsible for every model": the sources allocate containers to
+originating task teams rather than excluding the BIM Manager by name.
+**SYNTH** — the required message generalising the exclusions.
+**UNRESOLVED** — publication / exchange authority; recipient acceptance.
+
+---
+
+## Slide 7 — What does the BIM Coordinator do? · 1.0 min
+
+### Purpose
+
+Define coordination as **process authority over interfaces**, and separate it
+from design before Slide 8 argues the point.
+
+### Essential message
+
+1. Ten coordination activities — inputs, federation, checks, triage, Issues,
+   assignment, monitoring, re-review, verification, evidence.
+2. Row **X3**: the coordinator only **coordinates** technical resolution; the
+   task team performs it.
+3. **Not every finding becomes an Issue.**
+4. **Federation does not merge ownership.**
+
+### Suggested wording
+
+> "The coordinator runs the coordination process. Organising the inputs, managing
+> the federation, running the checks, triaging what comes out, creating and
+> assigning Issues where they're needed, monitoring the responses, arranging
+> re-coordination, verifying the disposition, and keeping the evidence.
+>
+> Two things that get assumed and shouldn't be.
+>
+> First — not every finding becomes an Issue. Creating one is a decision taken at
+> triage. Plenty of findings are duplicates, out of scope, already known, or
+> artefacts of how the test was set up. If every clash automatically became a
+> tracked issue you'd have a database nobody reads.
+>
+> Second — federation doesn't merge ownership. Combining six discipline models
+> into a coordination set doesn't create a jointly-owned model. Every container
+> keeps its originator and its technical responsibility.
+>
+> And the row that settles the question: X3, resolve technical coordination
+> issue. The coordinator is marked 'Coordinate'. The task-team lead and the author
+> are marked 'Perform'. The coordinator organises the resolution. They don't do
+> it."
+
+### Shorter fallback
+
+> "The coordinator runs the process — inputs, federation, checks, triage,
+> assignment, monitoring, re-coordination, verification, evidence. Not every
+> finding becomes an Issue; that's a triage decision. Federation doesn't merge
+> ownership. And on resolving a technical issue, the coordinator coordinates —
+> the task team performs."
+
+### Harrismith evidence
+
+Coordination Strategy §3, verbatim on the boundary: the BIM Coordinator does
+**not** *"own discipline design solutions; become technical approver; or acquire
+publication authority through coordination."*
+
+IM matrix row **X3** — *Resolve technical coordination issue*: `BC = Co`;
+`TTL = P`; `Aut = P`; `Chk = Ck`.
+
+### Likely question
+
+"Can the BIM Coordinator tell the engineer how to fix the design?"
+
+### Safe answer
+
+They can facilitate agreement between teams — the strategy says so explicitly.
+What they can't do is author the solution. The wording is that the coordinator
+*"may facilitate agreement between teams but does not author a discipline
+solution merely because they chair coordination."* Chairing isn't designing.
+
+### Transition to Slide 8
+
+"Which is worth pinning down properly, because it's where the responsibility
+question actually bites."
+
+### Delivery warning
+
+**The likely misunderstanding: the audience hears "clash detection" and files the
+role under software.** The moment coordination sounds like a Navisworks job, the
+management content stops landing.
+
+Keep the *decisions* in the foreground — readiness, triage, assignment,
+verification. Those are the parts no tool performs. Do not name a product on this
+slide.
+
+**Second risk:** do not imply any of this is running. No Design Collaboration
+Coordination Space was observed configured, and the issue status model is not
+claimed to be configured in the platform.
+
+### Evidence classification
+
+**DIRECT** — the activity list; all five X-rows; the three cautions; the boundary
+statement.
+**INTERP** — the six-way separation table.
+**SYNTH** — none.
+
+---
+
+## Slide 8 — Coordination responsibility is not design responsibility · 1.0 min
+
+### Purpose
+
+Walk one matter end to end and show where responsibility sits at every step.
+
+### Essential message
+
+1. Eight steps; responsibility crosses to the task team and comes back.
+2. **The technical content never leaves the originating team.**
+3. Five boundaries: doesn't design the fix · assignment doesn't transfer
+   responsibility · "fixed in WIP" doesn't close it · closure isn't design
+   approval · verification isn't certification.
+
+### Suggested wording
+
+> "Let me walk one through.
+>
+> A finding comes out of a coordination check. The coordinator triages it — does
+> this need ownership and tracking? If yes, it becomes a managed Issue and gets
+> assigned.
+>
+> Then it leaves the coordinator's hands. The technical response happens in the
+> originating team's own working environment. Their checker checks it. Their
+> task-team lead authorises the reshare. Only then does it come back — the
+> coordinator re-coordinates, and verifies the disposition.
+>
+> Responsibility crossed the lane and came back, and the technical content never
+> left the team that owns it.
+>
+> Five things follow, and I'd keep all five. The coordinator doesn't design the
+> fix. Assigning an Issue doesn't transfer technical responsibility. 'Fixed in
+> WIP' doesn't close it — closure follows re-coordination against reshared
+> information, because a change nobody can see in Shared information hasn't been
+> demonstrated. Closing an Issue isn't design approval. And verification isn't
+> professional certification.
+>
+> One caveat on the example I'm about to show: it's the strategy's own
+> illustration, and the document says plainly it doesn't describe an actual
+> condition on this project. No geometry, no coordinates, no issue number, no
+> names."
+
+### Shorter fallback
+
+> "Finding → triage → assign → the team fixes it in their own WIP → their checker
+> checks → their lead authorises the reshare → re-coordinate → verify. The
+> technical content never leaves the originating team. The coordinator doesn't
+> design the fix, assignment doesn't transfer responsibility, 'fixed in WIP'
+> doesn't close it, and closure isn't design approval."
+
+### Harrismith evidence
+
+The Coordination Strategy §27 example, labelled by the source as an
+**"educational workflow example only"** that *"does not describe an actual
+condition on the project"* — a mechanical service route conflicting with
+structural information, **STR-01** versus **MEC-01**.
+
+Twelve steps in the source; the detail worth keeping is that *if only MEC-01
+changes, TRN-E02-MEC activates and TRN-E02-STR does not.* Only affected
+containers reshare.
+
+### Likely question
+
+"Who owns the technical fix?"
+
+### Safe answer
+
+The originating task team, throughout. If two teams have to change, each remains
+responsible for its own information — a jointly-agreed resolution is still a set
+of separate changes under separate responsibility. The coordinator owns the
+process that got them there.
+
+### Transition to Slide 9
+
+"Notice how much of that happened inside one task team. That's worth opening up,
+because it's the clearest separation in the whole framework."
+
+### Delivery warning
+
+**The likely misunderstanding: the STR-01 / MEC-01 example is heard as something
+that happened on Harrismith.** It did not, and the source says so about its own
+example.
+
+Say the label before the example, not after. "This is the strategy's own
+illustration, and it says it doesn't describe an actual condition on the
+project." Then use it. If asked whether it really happened, the honest answer is
+that the repository records one mapping discrepancy and no clashes at all.
+
+### Evidence classification
+
+**DIRECT** — the eight-step lifecycle from §17; all five boundaries, each
+quotable; the §27 example and its stated limits.
+**INTERP** — the responsibility-crosses-and-returns framing; the required
+message.
+**SYNTH** — none.
+**EXCLUDED** — any presentation of the example as a recorded live clash.
+
+---
+
+## Slide 9 — Task-Team Leads, Authors and Checkers · 3.0 min
+
+### Purpose
+
+The module's load-bearing example: three functions, one container, three
+different acts — and the sequence stops where the source stops.
+
+### Essential message
+
+1. **Author performs → Checker checks → Task-Team Lead authorises → Shared.**
+2. Read the `Aut` column down rows P1–P4: perform, consult, consult,
+   **nothing**.
+3. The sequence **does not continue to Published.** That authority is unresolved.
+4. Perform ≠ Check ≠ Authorise ≠ Publish ≠ Accept.
+5. **This is not RACI**, deliberately.
+
+### Suggested wording
+
+> "This is the part I'd keep if you remember nothing else.
+>
+> One container. Three functions. The author creates it, in their own team's
+> working environment. A checker verifies it against a defined requirement. And
+> then a third function — the task-team lead — authorises it to move into Shared.
+>
+> Three different acts. And here's the bit that does the work: the author does
+> not authorise their own information. The BEP puts it plainly — authors do not
+> self-promote their own information. Having written something is not a reason to
+> advance it.
+>
+> Look at the matrix if you want it confirmed. Four rows, P1 to P4. Read the
+> author's column downwards: Perform, Consult, Consult, and then nothing at all.
+> The author isn't in the authorisation row.
+>
+> Checking isn't authorising either, and that catches people. Checking confirms
+> readiness for the next decision. The decision itself is separate.
+>
+> And notice where the sequence stops. Shared. Not Published. Authorisation to
+> share is explicitly not authorisation to publish — that's a different decision
+> with wider consequences, and on this project nobody holds it. So the chain ends
+> at Shared, and I'm not going to draw an arrow I can't support.
+>
+> One more thing, because someone always asks about small teams. Author and
+> checker can be the same person where independence can't reasonably be provided.
+> Three conditions: the distinction still applies — a self-check is still a
+> checking act; the combination gets recorded; and independence is never claimed
+> where it doesn't exist. That last one matters. Overstating independence is
+> worse than lacking it, because it stops the reader judging how much to trust
+> the information."
+
+### Shorter fallback
+
+> "Author performs, checker checks, task-team lead authorises, information enters
+> Shared. Three functions, three different acts — and the author does not
+> authorise their own work. Read the author's column across the four matrix rows:
+> perform, consult, consult, nothing. Checking isn't authorising. And the chain
+> stops at Shared, because publication authority is unresolved."
+
+### Harrismith evidence
+
+IM matrix rows **P1–P4** — `Aut` reads `P`, `Cs`, `Cs`, `—`; `Chk` reads `—`,
+`Ck`, `Ck`, `Cs`; `TTL` reads `Co`, `Co Ck`, `Co`, **`Au`**.
+
+And the same rule applied in the Information Delivery Schedule §3.2 — every
+TRN-E01 row carries **Checking Requirement:** task-team technical/content check
+*and* information-quality/readiness check; **Authorisation Requirement:**
+Task-Team Lead authorisation to share; **State / Suitability:** Shared —
+coordination use only.
+
+Three documents, one rule, stated once each.
+
+### Likely questions and safe answers
+
+| Question | Safe answer |
+|---|---|
+| "Can the Author check their own model?" | Where independence can't reasonably be provided, yes — with conditions. The functional distinction remains, a self-check is still a checking act against a defined requirement, the combination is recorded, and independence is never claimed where it doesn't exist. |
+| "Does Task-Team Lead approval mean the model is Published?" | No. It means Shared, for the stated sharing purpose. Authorisation to share is expressly not authorisation to publish — and publication authority is unresolved on this project. |
+| "Is this just RACI with different words?" | No, and the sources say so twice. Seven terms instead of four, because RACI collapses checking with authorising and coordinating with performing — the exact distinctions this slide is making. It's not to be introduced unless explicitly approved later. |
+| "What if there's no separate checker?" | Same answer as the author question — allowed, recorded, and the independence limitation stays visible in the evidence. |
+| "Who signs it off?" | For sharing, the Task-Team Lead. For publication, nobody yet — that's unresolved. For accepting a delivery, also unresolved. |
+
+### Transition to Slide 10
+
+"Everything so far has been about people deciding things. There's one function
+left that decides nothing — and that's the interesting one."
+
+### Delivery warning
+
+**The likely misunderstanding: someone translates the three roles into RACI out
+loud** — "so the lead is the A" — and the distinction you have just spent three
+minutes building evaporates.
+
+Correct it once, cheaply, and move: RACI's A covers both approving and being
+accountable, and this grammar splits Check from Authorise precisely because those
+are different decisions made by different functions against different criteria.
+Do not labour it.
+
+**Second risk, and the more consequential one: do not extend the sequence to
+Published.** Drawing a fourth arrow would invent an authority three sources record
+as unresolved — and it is the exact failure this module argues against.
+
+### Evidence classification
+
+**DIRECT** — all three role definitions; the P1–P4 rows; "Authors do not
+self-promote their own information"; "checking does not automatically authorise
+sharing"; "authorisation to share is not authorisation to publish or exchange";
+the combination conditions and "independence is never claimed where it does not
+exist"; the delivery-schedule conditions; the RACI position.
+**INTERP** — the four-distinction framing; the required message.
+**SYNTH** — none.
+**UNRESOLVED** — publication / exchange authority; recipient acceptance.
+**EXCLUDED** — any arrow from Shared to Published; any RACI mapping.
+
+---
+
 ## Notes on using these notes
 
 - **Slide 1 is the one to rehearse.** If the audience does not accept that
@@ -336,4 +931,15 @@ planning.
   and **Lead Delivery Party**.
 - **Never introduce RACI.** Expressly not adopted, in two sources, for the same
   stated reason.
-- Speaker notes for Slides 4–14 do not exist yet.
+- **Slides 4–9 run about ten minutes** — 2 · 1.5 · 1.5 · 1 · 1 · 3. Two of them
+  are pairs: 5–6 and 7–8 are each *positive account, then boundary*. **If the
+  first of a pair overruns, the second is lost — and the second carries the
+  teaching.**
+- **Slide 9 has the longest allocation in the module and earns it.** It is the
+  one place the separation becomes concrete. If time is short elsewhere, recover
+  it from Slide 4, not from here.
+- **Two answers to have ready throughout Slides 4–9**: *design approval is
+  allocated to no information-management function*, and *the chain stops at
+  Shared because publication authority is unresolved.* Both arrive as questions
+  in more than one place.
+- Speaker notes for Slides 10–14 do not exist yet.

@@ -345,7 +345,8 @@ rather than carried over unchecked.
 **One correction and two refinements**, recorded rather than silently applied:
 
 1. **Correction.** The five-function framing is teaching structure. The source's
-   organisation-level list has **four** functions. Module 2 says so.
+   organisation-level list has **four** functions. Module 2 says so. **Fully
+   reconciled in §8 below.**
 2. **Refinement.** The `CDE Administration` / `CDE Administrator` distinction was
    not recorded in Module 1. It is recorded here (§2.8).
 3. **Refinement.** The AG-series training-only governance functions were treated
@@ -369,3 +370,203 @@ rather than carried over unchecked.
 | **No unsupported ISO definition** | No ISO wording is verifiable in this repository; `lead appointed party` and `appointed party` are excluded |
 | **No unsupported Triviron fact** | *Triviron* appears nowhere in the sources; Slide 14 will be questions only |
 | **Publication automation remains paused** | §2.10 — the AG-series is referenced minimally and the programme is not reopened |
+
+---
+
+## 7. Statement classification — Slides 4–9
+
+Same scheme as §4.
+
+### Slide 4 — Who governs the project information process?
+
+| Statement | Class | Source |
+|---|---|---|
+| Four information-management functions at organisation level: BIM Manager, BIM Coordinator, CDE Administration, Lead Delivery Party | **DIRECT** | S1 §4.6 |
+| Nine functional roles in the matrix: `AP`, `LDP`, `BM`, `BC`, `TTL`, `Aut`, `Chk`, `CDE`, `Rcp` | **DIRECT** | S2 §2 |
+| Every holder is TBD or not established | **DIRECT** | S1 §2.3, §5.3–5.9; S2 §2, §6 |
+| **"A conceptual functional model, not an appointment chart and not an organisation chart"** — it shows how functions relate, not who reports to whom contractually | **DIRECT** | S1 §5.2 |
+| **"Technical authority sits here, not with the BIM functions"** | **DIRECT** | S1 §5.7 |
+| The Lead Delivery Party is not automatically the BIM Manager — different functions, different concerns, may sit in different organisations | **DIRECT** | S1 §5.4 |
+| `Rcp` is a generic function, not an organisation, representing whoever receives an exchange under a delivery arrangement that does not yet exist | **DIRECT** | S2 §2 |
+| Five concepts deliberately not interchangeable — party, task team, discipline, platform team, IM role | **DIRECT** | S1 §4.2 |
+| The seven-concern grouping — project authority / IM governance / technical production / technical checking / coordination / platform administration / recipient acceptance | **INTERP** | Assembled from S1 §4.6, §5.2–5.9 and S2 §2. No source groups them this way |
+| "BIM governance is distributed by function, but each function must still have a defined boundary" | **INTERP** | Both halves sourced — S1 §4.6, §5.2 for distribution; S2 §4 for boundaries — but not as one sentence |
+| Owner / Appointing Party identity | **UNRESOLVED** | S1 §2.3, §5.3 |
+| Recipient acceptance authority | **UNRESOLVED** | S1 §9.8; S2 §3.6 D7 |
+| Any corporate reporting hierarchy among the functions | **EXCLUDED** | S1 §5.2 expressly disclaims it |
+| Any implication that BIM functions outrank discipline leads technically | **EXCLUDED** | S1 §5.7 states the opposite |
+
+### Slide 5 — What does the BIM Manager actually do?
+
+| Statement | Class | Source |
+|---|---|---|
+| The BIM Manager is **the principal governance function** for this BEP | **DIRECT** | S1 §5.5 |
+| The nine-item responsibility list — framework, CDE strategy, standards coordination, responsibility architecture, delivery-planning governance, governance decisions and change, onboarding, assurance, configuration checking | **DIRECT** | S1 §5.5 |
+| G1 — Maintain the BEP governance framework: `BM = P`; `AP`, `LDP`, `BC`, `TTL` all `Cs` | **DIRECT** | S2 §3.1 |
+| G2 `P Co` · G3 `P` · G5 `P` · C1 `P` · A1 `P Co` · A5 `P` | **DIRECT** | S2 §3.1, §3.2, §3.7 |
+| G4 — the BIM Manager only **coordinates** project information standards; the Task-Team Lead is marked `P Cs` | **DIRECT** | S2 §3.1 |
+| C4 and A4 — the BIM Manager **checks** configuration and implementation after change | **DIRECT** | S2 §3.2, §3.7 |
+| "Drafting is concentrated; agreement is distributed" | **INTERP** | Follows from G1's one-Perform-four-Consult pattern; not source wording |
+| "The BIM Manager maintains the information-management framework; the project's other functions supply, review, authorise and implement the decisions within it" | **INTERP** | Assembled from G1, §5.5 and the separate allocation of authorisation and implementation |
+| Any expansion of the function beyond the source list | **EXCLUDED** | The §5.5 list is used as written |
+
+### Slide 6 — What the BIM Manager does not automatically do
+
+| Statement | Class | Source |
+|---|---|---|
+| Not automatically the **Appointing Party** | **DIRECT** | S1 §5.5; S2 §4 |
+| Not automatically the **Lead Delivery Party** | **DIRECT** | S1 §5.5, §5.4; S2 §4 |
+| Not automatically a **design approver** | **DIRECT** | S1 §5.5; S2 §4; S6 §3 — *"Does not automatically approve technical design"* |
+| Not automatically a **discipline technical lead** | **DIRECT** | S1 §5.5 |
+| Not automatically a **contractual decision-maker** | **DIRECT** | S1 §5.5; S2 §4 |
+| Not automatically the **publication authority** | **DIRECT** | S1 §9.7 — names the BIM Manager first among those it is not automatically held by |
+| Not automatically the **recipient acceptance authority** | **DIRECT** | S1 §9.8; S2 §3.6 D7 |
+| **"No single universal approver exists"**; **"unlimited authority is not assigned to the BIM Manager"** | **DIRECT** | S2 §3.7 A2 note; S1 §12.7 |
+| Not automatically the **platform administrator** — CDE Administration is a separate function | **DIRECT** | S1 §4.6 lists them separately; §5.11 gives BIM Manager + CDE Administrator as two functions one participant *may* carry |
+| Not **responsible for every model** | **INTERP** | S3 §3.1 allocates each container to an originating task team and S1 §5.7 places technical authority there — but no source excludes the BIM Manager from model responsibility by name |
+| Where the function identifies a problem outside its authority, **"the route is to raise and escalate it, not to decide it"** | **DIRECT** | S1 §5.5 |
+| "Expertise in BIM does not create contractual, technical or publication authority" | **SYNTH** | Teaching wording generalising the sourced exclusions |
+| Authority here is **defined rather than diminished** | **SYNTH** | Teaching framing. The sources state the boundaries; the reassurance is the presenter's |
+| Publication / exchange authority; recipient acceptance authority | **UNRESOLVED** | S1 §9.7, §9.8; S2 §3.6 D4, D7 |
+| Any exclusion inferred because it seems logical | **EXCLUDED** | Each exclusion above was located in the source before use; the one that could not be was reclassified as INTERP |
+
+### Slide 7 — What does the BIM Coordinator do?
+
+| Statement | Class | Source |
+|---|---|---|
+| The BIM Coordinator is **the operational multidisciplinary coordination function** | **DIRECT** | S1 §5.6 |
+| The activity list — organise inputs, identify required inputs, manage federation, manage and coordinate checks, triage findings, create and coordinate Issues where required, monitor assigned actions, coordinate re-review, verify disposition, escalate blockers, retain and report evidence | **DIRECT** | S1 §5.6; S6 §3 |
+| X1 `P Co` · X2 `P Co` · X4 `Ck` · X5 `P` | **DIRECT** | S2 §3.5 |
+| **X3 — the coordinator only `Co`; `TTL` and `Aut` are `P`** | **DIRECT** | S2 §3.5 |
+| Does **not** own discipline design solutions, become technical approver, or acquire publication authority through coordination | **DIRECT** | S6 §3 |
+| **Not every finding becomes an Issue** — creating one is a decision taken at triage | **DIRECT** | S6 §12; S1 §8.7 |
+| **Federation does not merge ownership** — `COORD-01` does not merge authorship, transfer technical ownership, create a new design author, or replace the discipline containers | **DIRECT** | S6 §8; S3 §3.4 |
+| *"May facilitate agreement between teams but does not author a discipline solution merely because they chair coordination"* | **DIRECT** | S6 §18 |
+| "The BIM Coordinator manages the coordination process; the originating task teams remain responsible for their technical solutions" | **DIRECT** | S1 §5.6 — *"The originating task team retains responsibility for its technical solution, before and after coordination"* |
+| The six-way separation table — coordination management / technical design / model authoring / task-team checking / authorisation for reshare / design approval | **INTERP** | Each element sourced; the grouping is teaching structure |
+| Design approval is allocated to **no** information-management function | **INTERP** | No row of S2 allocates it; S1 §5.5–5.7 place technical responsibility with the task team. An absence, correctly read |
+| Any claim that the coordination process is configured or running | **EXCLUDED** | S6 §7 — no Coordination Space observed configured; S6 §15 — status model not claimed to be configured |
+
+### Slide 8 — Coordination responsibility is not design responsibility
+
+| Statement | Class | Source |
+|---|---|---|
+| The coordination cycle: controlled Shared inputs → readiness check → federation → checks → findings → triage → create/assign Issues where required → originating task-team WIP correction → task-team check → authorise controlled reshare → Shared → re-coordinate → verify → close/disposition → retain evidence | **DIRECT** | S6 §17 |
+| **"An Issue assigned to a task team does not make the BIM Coordinator responsible for designing the fix"** | **DIRECT** | S6 §16 |
+| Where multiple task teams must change, **"each remains responsible for its own information"** — a jointly-agreed resolution is still a set of separate changes under separate responsibility | **DIRECT** | S6 §18 |
+| **"Technical resolution occurs in the originating task team's WIP"** | **DIRECT** | S6 §18 |
+| **"A material Issue is not closed solely because someone says it was fixed in WIP"** — closure follows re-coordination against reshared, controlled information; *"a change nobody can see in Shared information has not been demonstrated"* | **DIRECT** | S6 §19 |
+| **"Verification does not equal design approval, professional certification, publication authority, or recipient acceptance"** | **DIRECT** | S6 §19; S1 §8.10, §9.5 |
+| Verification occurs **after** the corrected information has been checked, authorised for reshare, returned to Shared and included in re-coordination | **DIRECT** | S6 §19 |
+| The STR-01 / MEC-01 scenario | **DIRECT — and labelled illustrative by the source** | S6 §27: *"an educational workflow example only"* that *"does not describe an actual condition on the project"*, with no geometry, coordinates, Issue identifier, tolerance value or named person |
+| If only MEC-01 changes, TRN-E02-MEC activates and TRN-E02-STR does not | **DIRECT** | S6 §27; S4 §4.2 |
+| The eight-step teaching lifecycle | **INTERP** | A compression of S6 §17's sixteen steps |
+| "The coordinator owns the process; the task team owns the technical response" | **INTERP** | Both halves sourced; the paired formulation is teaching wording |
+| Any presentation of the STR-01 / MEC-01 example as a recorded live Harrismith clash | **EXCLUDED** | The source disclaims it about its own example |
+
+### Slide 9 — Task-Team Leads, Authors and Checkers
+
+| Statement | Class | Source |
+|---|---|---|
+| Author — creates or modifies information; works in the task team's WIP; complies with project conventions; responds to assigned comments and issues | **DIRECT** | S1 §5.8; S6 §3 |
+| **"Authors do not self-promote their own information"** — having authored a container is not a reason to advance it | **DIRECT** | S1 §5.8 |
+| **"An Author does not self-authorise merely because they authored the information"** | **DIRECT** | S2 §3.3 P1/P4 note |
+| Checker — verifies against the defined checking requirement; records or provides evidence; identifies deficiencies before controlled progression | **DIRECT** | S1 §5.8 |
+| **"Check is not Authorise"** — checking confirms readiness for the next controlled decision; it does not permit progression | **DIRECT** | S2 §3.3 P2/P3 note; S1 §9.3 |
+| Task-Team Lead authorises information to progress from **WIP to Shared** — or another role explicitly allocated that function by approved governance | **DIRECT** | S1 §9.4; S2 §3.3 P4 |
+| Rows P1–P4: `Aut` = `P`, `Cs`, `Cs`, `—`; `Chk` = `—`, `Ck`, `Ck`, `Cs`; `TTL` = `Co`, `Co Ck`, `Co`, **`Au`** | **DIRECT** | S2 §3.3 |
+| Every TRN-E01 row: checking requirement = task-team technical/content check **and** information-quality/readiness check; authorisation requirement = **Task-Team Lead authorisation to share**; state = **Shared — coordination use only** | **DIRECT** | S4 §3.2 |
+| Task-team checking covers technical/content, information quality, and interface/readiness | **DIRECT** | S1 §7.6, §9.3 |
+| **"Authorisation to share is not authorisation to publish or exchange"** — separate decisions with wider consequences | **DIRECT** | S1 §9.4 |
+| Authorisation to share does **not** mean suitable for construction, formally published, accepted by recipients, or technically approved for every downstream purpose | **DIRECT** | S1 §9.4 |
+| Author and Checker may be combined — the functional distinction remains, a self-check is still a checking act, the combination is **recorded**, and **"independence is never claimed where it does not exist"** | **DIRECT** | S1 §5.8, §9.12; S2 §5 |
+| **"Technical authority sits here, not with the BIM functions"** | **DIRECT** | S1 §5.7 |
+| **RACI is not adopted** — it collapses checking from authorising and coordinating from performing; not to be introduced unless explicitly approved later | **DIRECT** | S1 §5.12; S2 §1 |
+| The four-distinction framing — Perform ≠ Check ≠ Authorise ≠ Publish ≠ Accept | **INTERP** | Each distinction sourced; the four-way presentation is teaching structure |
+| "Separation of duties prevents information from becoming reliable merely because its author says it is ready" | **INTERP** | S1 §5.8 states the principle — progression requires governance-defined checking and authorisation, *"not the author's confidence in their work"* — but not in this sentence |
+| Publication / exchange authority | **UNRESOLVED** | S1 §9.7; S2 §3.6 D4; S5 §3.1–3.3 (T4 blocked) |
+| Recipient acceptance authority | **UNRESOLVED** | S1 §9.8; S2 §3.6 D7 |
+| Any arrow from Shared to Published in the sequence | **EXCLUDED** | Publication authority is unresolved and the transition is recorded as blocked |
+| Any description of the three roles as RACI | **EXCLUDED** | Expressly prohibited by S1 §5.12 and S2 §1 |
+
+### Summary — Slides 4–9
+
+| Slide | DIRECT | INTERP | SYNTH | UNRESOLVED | EXCLUDED | Rows |
+|---|---:|---:|---:|---:|---:|---:|
+| 4 | 8 | 2 | 0 | 2 | 2 | 14 |
+| 5 | 6 | 2 | 0 | 0 | 1 | 9 |
+| 6 | 9 | 1 | 2 | 2 | 1 | 15 |
+| 7 | 9 | 2 | 0 | 0 | 1 | 12 |
+| 8 | 9 | 2 | 0 | 0 | 1 | 12 |
+| 9 | 14 | 2 | 0 | 2 | 2 | 20 |
+| **Total** | **55** | **11** | **2** | **6** | **8** | **82** |
+
+**Slides 4–9 are the most heavily source-supported block in either module** —
+two-thirds direct, and only two synthesis statements, both on Slide 6 and both
+framing rather than substance. The reason is structural: BEP §5 and IM matrix §4
+are themselves boundary statements, so the teaching material can quote rather
+than construct.
+
+### Module 2 running totals
+
+| | DIRECT | INTERP | SYNTH | UNRESOLVED | EXCLUDED | Rows |
+|---|---:|---:|---:|---:|---:|---:|
+| Slides 1–3 (§4) | 18 | 3 | 3 | 0 | 3 | 27 |
+| Slides 4–9 (§7) | 55 | 11 | 2 | 6 | 8 | 82 |
+| **Total** | **73** | **14** | **5** | **6** | **11** | **109** |
+
+---
+
+## 8. Five-function versus four-function frames — reconciliation
+
+**These two frames are not the same thing, and are not treated as identical
+anywhere in this module.**
+
+### 8.1 The two frames
+
+| | Frame A — five functions | Frame B — four functions |
+|---|---|---|
+| **Content** | prepare and maintain · contribute · review · approve or authorise · implement | BIM Manager · BIM Coordinator · CDE Administration · Lead Delivery Party |
+| **Origin** | Module 1, Slide 4 | `bep/Harrismith-Fire-Station-BEP.md` §4.6 |
+| **Status** | **Presentation synthesis** | **Source terminology** |
+| **What it enumerates** | **Acts** — five things that happen to a BEP | **Functions** — four organisation-level information-management roles |
+| **Attributable to the sources?** | **No.** No source enumerates five | **Yes.** §4.6 lists exactly these four |
+
+### 8.2 Why both exist
+
+They answer different questions and are not competing versions of one list.
+
+**Frame A asks: what happens to the BEP?** It was built for Module 1's Slide 4,
+where the audience needed to see that drafting, agreeing, approving and operating
+a BEP are separate acts. Its five items are **verbs**, and they span functions —
+"contribute" is done by task teams, "implement" by everyone who touches project
+information.
+
+**Frame B asks: which information-management functions does the project
+establish?** It is BEP §4.6's own list, introduced at organisation level and
+defined in §5. Its four items are **functions**, each with a named concern.
+
+They cannot be mapped one-to-one. `Approve or authorise` in Frame A corresponds
+to no single Frame B function — on Harrismith it is held by the **Task-Team
+Lead** for sharing, and is **unresolved** for publication. `Contribute` maps to no
+Frame B function at all.
+
+### 8.3 How each is used in Module 2
+
+| Frame | Used | Not used |
+|---|---|---|
+| **A (five)** | Only as carried-forward Module 1 context, in [`README.md`](README.md) §6, explicitly labelled as Module 1's framing | **Never** presented as the Harrismith function list; never attributed to §4.6 |
+| **B (four)** | On Slides 3 and 4, as the source's own list, with the count stated | — |
+
+**Slide 3 and Slide 4 both say "four".** The speaker notes for Slide 3 carry an
+explicit instruction not to say "five functions", precisely because Module 1's
+framing is the more recent thing in the presenter's memory.
+
+### 8.4 The standing rule
+
+**Frame A is teaching synthesis and may be used as such. Frame B is source
+terminology and is what the sources say.** Where a statement needs to be
+defensible against the repository — a source-map entry, a slide footer, an answer
+to "where does it say that?" — **use Frame B.**
+
+Neither frame is wrong. Conflating them would be.

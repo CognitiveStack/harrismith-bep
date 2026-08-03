@@ -233,11 +233,255 @@ platform role.
 
 ---
 
+---
+
+# Exercises for Slides 4–9
+
+The module's substantive core: the authority structure, the BIM Manager pair, the
+BIM Coordinator pair, and the task-team triad.
+
+Same method — aloud, timed, without writing an answer first. Exercise 20 is done
+after each of the others.
+
+---
+
+## Exercise 9 — The authority structure, without a chain of command
+
+**Task.** Explain the project authority structure **without drawing or describing
+a chain of command** — no "above", "under", "reports to", "escalates up",
+"top-level" or "hierarchy".
+
+**Success criteria**
+
+- [ ] Four IM functions named correctly
+- [ ] At least four of the seven concerns distinguished
+- [ ] No vertical language used
+- [ ] Said that this is a functional model, not an appointment or organisation
+      chart
+- [ ] Under 90 seconds
+
+**Common failure:** describing the functions in a fixed order that implies rank.
+If you always say "BIM Manager" first, the audience hears a pyramid regardless of
+your words.
+
+---
+
+## Exercise 10 — The BIM Manager in one minute, positives only
+
+**Task.** Describe the BIM Manager function for **one minute using only positive
+responsibilities**. No "doesn't", "isn't", "not".
+
+**Success criteria**
+
+- [ ] Five or more sourced responsibilities named
+- [ ] Row G1 used — one Perform, four Consult
+- [ ] No exclusion mentioned at all
+- [ ] The function sounds substantial
+- [ ] One minute or less
+
+**Why the constraint.** The exclusions are more interesting than the duties, so
+they leak forward and Slide 6 arrives with nothing left. This exercise builds the
+discipline to hold them.
+
+**Common failure:** reaching for "but they don't approve design" within thirty
+seconds. Notice it, stop, restart.
+
+---
+
+## Exercise 11 — Three things the BIM Manager does not automatically control
+
+**Task.** Name three, and say for each **where the authority sits instead** — or
+that it sits nowhere yet.
+
+**Success criteria**
+
+- [ ] Three exclusions, each traceable to a source statement
+- [ ] For each, said where it does sit — or that it is unresolved
+- [ ] Distinguished exclusions held elsewhere (design approval → task team) from
+      exclusions held by nobody (publication, acceptance)
+- [ ] Did not make the role sound marginal
+
+**Common failure:** listing three exclusions and stopping. "Not the design
+approver" is only half an answer; the audience immediately wants to know who is.
+
+---
+
+## Exercise 12 — The BIM Coordinator, without "clash detector"
+
+**Task.** Explain the coordination function **without saying "clash detector",
+"clash detection", "clash test"** — or naming any software.
+
+**Success criteria**
+
+- [ ] Five or more coordination activities named
+- [ ] Triage described as a **decision**
+- [ ] Said that federation does not merge ownership
+- [ ] No product name used
+- [ ] Under 60 seconds
+
+**Common failure:** substituting "interference checking" and carrying on. The
+banned phrase is a symptom; the problem is describing a tool operation instead of
+a management function.
+
+---
+
+## Exercise 13 — "Who owns the technical fix?"
+
+**Task.** Answer it. Thirty seconds.
+
+**Success criteria**
+
+- [ ] Answered "the originating task team", plainly, before qualifying
+- [ ] Said the resolution happens in that team's **own WIP**
+- [ ] Covered the multi-team case — each remains responsible for its own
+      information
+- [ ] Did not imply the coordinator designs anything
+
+**Common failure:** "well, the coordinator manages it, so in a sense…" No. The
+coordinator manages the *process*. The technical response is the team's, and
+hedging teaches the wrong instinct.
+
+---
+
+## Exercise 14 — Why assignment does not transfer design responsibility
+
+**Task.** Explain why assigning an Issue to a task team does not move
+responsibility onto the coordinator — or off the team.
+
+**Success criteria**
+
+- [ ] Distinguished **coordinating an assignment** from **owning a solution**
+- [ ] Quoted or paraphrased the source position accurately
+- [ ] Said that the originating team retains responsibility before *and after*
+      coordination
+- [ ] Did not suggest the assignment is merely administrative
+
+**Reference.** *"An Issue assigned to a task team does not make the BIM
+Coordinator responsible for designing the fix."*
+
+---
+
+## Exercise 15 — Author → Checker → Task-Team Lead in 45 seconds
+
+**Task.** Deliver the separation-of-duties sequence in **45 seconds**.
+
+**Success criteria**
+
+- [ ] All three functions named, in order
+- [ ] Said that the Author does **not** self-authorise
+- [ ] Ended at **Shared** — not Published
+- [ ] Under 45 seconds
+- [ ] Did not use RACI vocabulary
+
+**Why 45 seconds.** Slide 9 has three minutes, but the sequence itself must be
+sayable in under a minute or it will not survive being interrupted by a question.
+
+**Common failure:** running to Published because the sequence feels unfinished.
+It is finished. Publication authority is unresolved.
+
+---
+
+## Exercise 16 — Why checking is not authorising
+
+**Task.** Explain the difference. Thirty seconds.
+
+**Success criteria**
+
+- [ ] Checking described as verification **against a defined requirement**
+- [ ] Authorising described as **permitting progression**, for a purpose
+- [ ] Said that checking confirms *readiness for the next controlled decision*
+- [ ] Made clear these are held by different functions
+
+**Common failure:** "checking is technical, authorising is managerial." Neither
+is accurate, and it reintroduces the seniority framing Exercise 9 removed.
+
+---
+
+## Exercise 17 — Why authorisation for Shared is not publication
+
+**Task.** Explain the difference, and say what Shared information may and may not
+be used for.
+
+**Success criteria**
+
+- [ ] Said authorisation to share is expressly **not** authorisation to publish
+- [ ] Named at least two things Shared does **not** mean — not construction-ready,
+      not formally published, not accepted, not technically approved for every
+      downstream purpose
+- [ ] Said publication authority is **unresolved** on this project
+- [ ] Did not invent who might hold it
+
+---
+
+## Exercise 18 — Identify one unresolved authority
+
+**Task.** Name one, and say what it prevents.
+
+**Success criteria**
+
+- [ ] Used the exact authority name
+- [ ] Said what is blocked or unavailable as a result
+- [ ] Did not suggest a plausible holder
+- [ ] Distinguished an unresolved **authority** from a TBD **holder**
+
+Four are available: publication / exchange, recipient acceptance,
+governance-change approval by class, implementation verification.
+
+---
+
+## Exercise 19 — Why this is not RACI
+
+**Task.** Answer "isn't this just RACI with different words?" in thirty seconds.
+
+**Success criteria**
+
+- [ ] Said seven terms, not four
+- [ ] Named the two collapses RACI makes — checking with authorising,
+      coordinating with performing
+- [ ] Said the sources state it is **not to be introduced unless explicitly
+      approved later**
+- [ ] Did not become defensive about it
+
+**Common failure:** "it's similar but more detailed." It is not more detailed
+RACI; it is a different grammar chosen because RACI loses the distinctions the
+framework depends on.
+
+---
+
+## Exercise 20 — Self-assessment: evidence or assumption?
+
+**Task.** After each exercise, review every authority statement you made. Was it
+assigned by **evidence** or by **assumption**?
+
+| If you said | It came from | Check |
+|---|---|---|
+| "The BIM Manager approves…" | **Assumption** — unless you can cite the row | Which matrix row? |
+| "The Task-Team Lead authorises sharing" | **Evidence** — BEP §9.4, IM matrix P4 | ✅ |
+| "Presumably the client accepts it" | **Assumption** — no appointing party is established | Say unresolved instead |
+| "Someone senior signs it off" | **Assumption**, and the wrong frame | Authority is not seniority |
+| "Nobody holds that yet" | **Evidence**, where the source records it unresolved | ✅ |
+
+**Success criteria**
+
+- [ ] Every authority I asserted can be traced to a row, a section or an
+      explicit "unresolved"
+- [ ] I did not fill a gap with a plausible holder
+- [ ] I did not use seniority, experience or software skill as a reason for
+      authority
+- [ ] Where I did not know, I said so
+
+**This is the module's real test.** The whole of Module 2 argues that authority
+comes from approved governance rather than from a label, an access level or a
+reputation. An exercise answer that quietly assigns an authority has failed
+regardless of how fluent it sounded.
+
+---
+
 ## Recording progress
 
 | Date | Exercise | Outcome | What to change |
 |---|---|---|---|
 | | | | |
 
-Exercises for Slides 4–14 do not exist yet, and will be added as those slides are
-developed.
+Exercises for Slides 10–14 do not exist yet, and will be added as those slides
+are developed.

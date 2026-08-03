@@ -57,12 +57,18 @@ A **20-minute presentation**, using Harrismith as the worked example.
 | Expected slide count | Approximately 13–14 slides |
 | Worked example | Harrismith Fire Station |
 | Transfer context | A future Triviron multidisciplinary project |
-| Current state | **Structure and Slides 1–3 only.** Slides 4–14 not developed |
+| Current state | **Slides 1–9 developed.** Slides 10–14 not developed |
 
-**This presentation does not exist yet.** Three of fourteen slides are drafted as
-an initial teaching baseline. The timing structure in
+**This presentation does not exist yet.** Nine of fourteen slides are drafted —
+approximately the first thirteen minutes. The timing structure in
 [`presentation-outline.md`](presentation-outline.md) is a working allocation that
 has not been rehearsed.
+
+| Slides | Sections covered | Time | State |
+|---|---|---:|---|
+| 1–3 | Why roles must be explicit; function, organisation and person | 4 min | Drafted |
+| 4–9 | Project authority structure; BIM Manager; BIM Coordinator; task-team separation of duties | 10 min | Drafted |
+| 10–14 | CDE Administration; the authority chain; unresolved holders; Triviron transfer | 6 min | Not started |
 
 ## 4. Scope
 
@@ -157,8 +163,11 @@ framework is unfinished rather than deliberately staged.
 |---|---|
 | Module 2 | **CURRENT — ACTIVE**, not complete |
 | Structure | **Established (T2-A)** |
-| Slides developed | **1–3** of approximately 14 |
+| Slides developed | **1–9** of 14 — Slides 4–9 added in T2-B |
 | Role inventory | **Complete** — see `source-map.md` §2 |
 | Authority inventory | **Complete** — see `source-map.md` §3 |
-| Outstanding | Slides 4–14, visual source, presentation assembly, PowerPoint production, review, rehearsal |
+| Statement classification | Slides 1–3 (§4) and Slides 4–9 (§7) |
+| Frame reconciliation | Five-function vs four-function documented — `source-map.md` §8 |
+| Outstanding | **Slides 10–14**, visual source, presentation assembly, PowerPoint production, review, rehearsal |
+| Module 1 | Review and rehearsal remain **deferred** |
 | Publication automation | **PAUSED** |
