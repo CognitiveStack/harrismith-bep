@@ -153,5 +153,10 @@ authority the sources decline to assign.
 | External evidence required | **None** — all fourteen slides are repository-derivable |
 | Live observation required | **None**, and counterproductive for `M02-S07` and `M02-S10` |
 | Module 2 | **CURRENT — ACTIVE**, not complete |
-| Outstanding | Presentation assembly package, PowerPoint production, review, rehearsal |
+| Assembly package | **Complete (T2-E)** — [`../../module-02-roles-and-responsibilities/presentation/`](../../module-02-roles-and-responsibilities/presentation/) |
+| Outstanding | PowerPoint production, review, rehearsal |
 | Publication automation | **PAUSED** |
+
+**Producing the deck?** The per-slide asset mapping — source path, treatment,
+rendering need, warnings and proposed filename — is in
+[`../../module-02-roles-and-responsibilities/presentation/asset-manifest.md`](../../module-02-roles-and-responsibilities/presentation/asset-manifest.md).

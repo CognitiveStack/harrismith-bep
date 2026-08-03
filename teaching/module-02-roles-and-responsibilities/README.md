@@ -74,11 +74,17 @@ remains:
 
 | Outstanding | Note |
 |---|---|
-| **Presentation assembly package** | Not started |
-| **PowerPoint production** | No binary presentation exists |
-| **Review** | Follows production |
+| **PowerPoint production** | **Next.** No binary presentation exists; the assembly package in [`presentation/`](presentation/) specifies it |
+| **Review** | Follows production — see [`presentation/review-checklist.md`](presentation/review-checklist.md) |
 | **Rehearsal and measured timing** | The 20-minute total has never been measured |
 | **Rendered visual assets** | **None.** Visual *source* exists for all fourteen slides in [`../assets/module-02/`](../assets/module-02/); no renderer was available |
+
+**Presentation assembly package complete (T2-E).** A concise production handoff
+in [`presentation/`](presentation/) — deck specification, on-slide copy,
+presenter cues, asset manifest, and production and review checklists. It
+condenses roughly 7,000 lines of teaching and visual source into what a producer
+needs. **It carries no project governance authority and is not the final
+presentation.**
 
 **Visual-source baseline complete (T2-D).** Fourteen reviewable source files,
 `M02-S01`–`M02-S14`, with a register, a slide map and recorded design
@@ -114,6 +120,8 @@ alone** — Module 2 needs no external evidence at all.
 | [`visual-demonstration-plan.md`](visual-demonstration-plan.md) | Candidate visuals for the whole module |
 | [`exercises.md`](exercises.md) | Practice and self-assessment |
 | [`source-map.md`](source-map.md) | **Role inventory, authority inventory** and statement classification |
+| [`../assets/module-02/`](../assets/module-02/) | The visual **source set** — register, slide map and fourteen source files |
+| [`presentation/`](presentation/) | The **assembly package** — production handoff for building the deck |
 
 [`source-map.md`](source-map.md) is the load-bearing file in this increment. It
 records every role term the sources actually use, with its exact wording, its
@@ -185,7 +193,8 @@ framework is unfinished rather than deliberately staged.
 | Frame reconciliation | Five-function vs four-function documented — `source-map.md` §8 |
 | Module-wide reconciliation | Roles, authorities, gaps and synthesis — `source-map.md` §10 |
 | Visual source | **Complete (T2-D)** — `M02-S01`–`M02-S14` in [`../assets/module-02/`](../assets/module-02/) |
+| Assembly package | **Complete (T2-E)** — [`presentation/`](presentation/) |
 | Rendered visual assets | **None** — no renderer available; source committed instead |
-| Outstanding | **Presentation assembly, PowerPoint production, review, rehearsal** |
+| Outstanding | **PowerPoint production, review, rehearsal** |
 | Module 1 | Review and rehearsal remain **deferred** |
 | Publication automation | **PAUSED** |

@@ -67,8 +67,12 @@ authorities and gaps.
 — see [`assets/module-02/`](assets/module-02/). **No external evidence is
 required for any slide.**
 
-**Outstanding:** presentation assembly package, PowerPoint production, review
-and rehearsal.
+**Assembly package complete (T2-E):** deck specification, on-slide copy,
+presenter cues, asset manifest, and production and review checklists — see
+[`module-02-roles-and-responsibilities/presentation/`](module-02-roles-and-responsibilities/presentation/).
+
+**Outstanding:** **PowerPoint production** — next, performed by ChatGPT after the
+assembly package is reviewed and accepted — then review, then rehearsal.
 
 ### Modules 3–8 — future scope
 
@@ -148,8 +152,9 @@ of governance under condition. Describing it neither advances nor reopens it.
 | Module 2 slides developed | **Slides 1–14** — the full working content baseline |
 | Module 2 established | Structure · role inventory · authority inventory · 20-minute architecture · Slides 1–14 · module-wide reconciliation · **visual source** |
 | Module 2 visual source | **Complete (T2-D)** — `M02-S01`–`M02-S14` in [`assets/module-02/`](assets/module-02/); no external evidence required |
+| Module 2 assembly package | **Complete (T2-E)** — [`module-02-roles-and-responsibilities/presentation/`](module-02-roles-and-responsibilities/presentation/) |
 | Module 2 rendered assets | **None** — no renderer available; source committed instead |
-| Module 2 outstanding | **Presentation assembly, PowerPoint production, review, rehearsal** |
+| Module 2 outstanding | **PowerPoint production (next), review, rehearsal** |
 | Module 1 | Content baseline, visual source and assembly package **produced**; PowerPoint assembled **outside this repository** |
 | Module 1 outstanding | **Presentation review and rehearsal — DEFERRED**, not complete, until the presenter chooses to perform them |
 | Modules 3–8 | **Future scope** — not started |
