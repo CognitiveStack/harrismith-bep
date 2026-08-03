@@ -2,12 +2,14 @@
 
 **Status:** Traceability record for teaching material. **Not governance.**
 
-Statement-level classification for the developed slides — **Slides 1–6** — the
+Statement-level classification for the developed slides — **Slides 1–9** — the
 method by which Harrismith may be mapped to ISO-associated concepts, and the list
 of claims that **may not be made** in this module under any circumstances.
 
-**Harrismith statements in Slides 4–6 carry a mapping sub-category**: *analogue*,
-*gap or unverified*, or *excluded conformity inference*. See §5.
+**Harrismith statements from Slide 4 onward carry a mapping sub-category**:
+*analogue*, *gap or unverified*, or *excluded conformity inference*. See §5.
+**Slide 8 additionally carries a vocabulary relationship register** — established,
+possible, unverified or excluded — for every term compared.
 
 Source identifiers `X1`–`X6`, `H1`–`H3` are defined in
 [`external-source-register.md`](external-source-register.md).
@@ -64,10 +66,10 @@ the conflict is stated — it is not resolved by preferring the convenient one.
 
 ---
 
-## 4. Statement classification — Slides 1–6
+## 4. Statement classification — Slides 1–9
 
-**83 statements across six slides. 14 `PUBLIC-SOURCE`, 3 `GUIDANCE` (all UK),
-20 `HARRISMITH`, 18 `INTERP`, 9 `SYNTH`, 5 `UNRESOLVED`, 14 `EXCLUDED`.**
+**139 statements across nine slides. 15 `PUBLIC-SOURCE`, 8 `GUIDANCE` (all UK),
+41 `HARRISMITH`, 25 `INTERP`, 13 `SYNTH`, 10 `UNRESOLVED`, 27 `EXCLUDED`.**
 
 | Slide | Statements | `PUB` | `GUID` | `HARR` | `INT` | `SYN` | `UNR` | `EXC` |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
@@ -77,17 +79,29 @@ the conflict is stated — it is not resolved by preferring the convenient one.
 | **4** | **17** | **2** | **0** | **3** | **6** | **2** | **1** | **3** |
 | **5** | **16** | **1** | **2** | **7** | **1** | **1** | **1** | **3** |
 | **6** | **17** | **1** | **1** | **2** | **6** | **2** | **1** | **4** |
-| **Total** | **83** | **14** | **3** | **20** | **18** | **9** | **5** | **14** |
+| **7** | **16** | **0** | **3** | **5** | **3** | **1** | **1** | **3** |
+| **8** | **18** | **0** | **2** | **7** | **0** | **2** | **3** | **4** |
+| **9** | **22** | **1** | **0** | **9** | **4** | **1** | **1** | **6** |
+| **Total** | **139** | **15** | **8** | **41** | **25** | **13** | **10** | **27** |
 
-**Two observations from the Section B statements.**
+**Four observations from the totals.**
 
-**Slide 5 is the module's most Harrismith-dependent slide** — seven of sixteen
-statements, four analogue and three gaps. Its external basis is one guidance idea
-and one scope framing. Nothing on it should be delivered as ISO wording.
+**Harrismith carries the module.** 41 of 139 statements, against 15 public-source
+and 8 guidance. That ratio is the honest shape of a module whose subject is a
+document the programme does not hold: the principles are external, and **every
+concrete illustration is this project's own**.
 
-**`GUIDANCE` enters the module at Slide 5 and stays rare** — three statements out
-of eighty-three. Every one is UK-labelled in the tables below, on the slide, and
-aloud.
+**Three slides have no `PUBLIC-SOURCE` statement at all** — Slides 2, 7 and 8.
+Each is built entirely from Harrismith evidence or UK guidance, and each carries
+the same delivery obligation: **attribute, or the audience hears ISO.**
+
+**Slide 8 has the highest `UNRESOLVED` and `EXCLUDED` counts in the module** —
+three and four. That is the slide working as designed. Its subject is a gap, and
+recording what cannot be said is most of its content.
+
+**`GUIDANCE` enters at Slide 5 and peaks in Section C** — 5 of its 8 statements
+sit on Slides 7 and 8. Every one is UK-labelled in the tables below, on the slide,
+and aloud.
 
 ### 4.0 Slides 1–3 — summary
 
@@ -99,9 +113,9 @@ drafts** (`M3-S3-05`, `M3-S3-06`) or edition currency. Only six describe what th
 published parts cover — and all six are scope, not requirement.
 
 **No `GUIDANCE` statement appears in Slides 1–3.** UK BIM Framework material
-(`X5`, `X6`) is reserved for Slides 5–8, where the functions-versus-job-titles
-point belongs. Introducing it earlier would blur the ISO/guidance boundary at
-exactly the moment the audience is forming its idea of what the standard is.
+(`X5`, `X6`) is held back until Slide 5, and does its heaviest work on Slides 7
+and 8. Introducing it earlier would blur the ISO/guidance boundary at exactly the
+moment the audience is forming its idea of what the standard is.
 
 ### Slide 1 — ISO 19650 is an information-management framework
 
@@ -304,6 +318,143 @@ exactly the moment the audience is forming its idea of what the standard is.
 | `M3-S6-16` | — | **Excluded.** Detail is not conformity, and no conformity assessment exists |
 | `M3-S6-17` | Answer: *"there is a defined treatment; I don't have it, and that's a licensed-copy conversation"* | — |
 
+### Slide 7 — Information-management functions are not automatically job titles
+
+| ID | Statement | Source | Level | Jurisdiction | Publication status | Class |
+|---|---|---|---|---|---|---|
+| `M3-S7-01` | The standard is explained in terms of **information-management functions rather than requiring new job titles** | **`X6`** | **A2** | **UNITED KINGDOM** | Living guidance | **`GUIDANCE` — UK CONTEXT** |
+| `M3-S7-02` | The **appointing party** must ensure the information-management function is fulfilled | **`X6`** | **A2** | **UNITED KINGDOM** | Living guidance | **`GUIDANCE` — UK CONTEXT** |
+| `M3-S7-03` | The **lead appointed party** must also ensure the relevant information-management function is fulfilled | **`X6`** | **A2** | **UNITED KINGDOM** | Living guidance | **`GUIDANCE` — UK CONTEXT** |
+| `M3-S7-04` | Five layers held apart: required activity · project function · appointment · job title · individual participant | `X6`, `H1` §4.6 | A4 | — | — | **`INTERP`** |
+| `M3-S7-05` | A function describes **what must be performed**, not who performs it or what they are called | `X6`, `H1` §4.6 | A4 | — | — | **`INTERP`** |
+| `M3-S7-06` | One participant may carry more than one function | `H1` §4.6, §5.11 | A3 | This project | Approved with conditions | **`HARRISMITH` — analogue** |
+| `M3-S7-07` | *"Combining roles does not combine the functions"*; the participant must know **which function they are performing at each decision point** | `H1` §5.11 | A3 | This project | Approved with conditions | **`HARRISMITH` — analogue** |
+| `M3-S7-08` | Author and Checker may combine where independence is unavailable — the functional distinction remains, and **"independence is never claimed where it does not exist"** | `H1` §5.8 | A3 | This project | Approved with conditions | **`HARRISMITH` — analogue** |
+| `M3-S7-09` | **"Platform access is not delegation"** | `H1` §5.11 | A3 | This project | Approved with conditions | **`HARRISMITH` — analogue** |
+| `M3-S7-10` | Harrismith defines BIM Manager, BIM Coordinator, CDE Administration, Lead Delivery Party, Task-Team Lead, Author and Checker — and **populates no named holder for any of them** | `H1` §4.6, §5.7–§5.9 | A3 | This project | Approved with conditions | **`HARRISMITH` — `GAP OR UNVERIFIED`** |
+| `M3-S7-11` | A title alone does not prove the function has been formally assigned | `H1` §5.11 | A4 | — | — | **`INTERP`** |
+| `M3-S7-12` | *"The important question is not whether a title exists; it is whether the information-management function is assigned, understood and performed"* | none | A5 | — | — | **`SYNTH`** |
+| `M3-S7-13` | *"ISO 19650 says no BIM Manager is required"* | — | — | — | — | **`EXCLUDED`** |
+| `M3-S7-14` | Title equals function; person equals function | — | — | — | — | **`EXCLUDED`** |
+| `M3-S7-15` | Any named holder, appointment or organisation invented for Harrismith | — | — | — | — | **`EXCLUDED`** |
+| `M3-S7-16` | Whether the published standard itself requires any particular function or title | — | — | — | — | **`UNRESOLVED`** |
+
+**No `PUBLIC-SOURCE` statement appears on this slide.** Its entire external basis
+is UK guidance; everything concrete is Harrismith. Slide 2 has the same shape, and
+the same delivery obligation: **attribute, or the audience hears ISO.**
+
+**Teaching use and warnings**
+
+| ID | Teaching use | Warning |
+|---|---|---|
+| `M3-S7-01`–`03` | The slide's whole external basis | **`OFFICIAL IMPLEMENTATION GUIDANCE — UK CONTEXT`**, labelled on the slide and aloud. The obligation described is to **ensure a function is fulfilled**, not to create a post |
+| `M3-S7-04`–`05` | The five-layer separation | Presenter's structure. Layers 1–3 must exist for a project to work; layer 4 is optional and layer 5 changes |
+| `M3-S7-06`–`09` | The Harrismith illustration | **Our BEP's wording.** §5.11's one-person-one-minute example is the fastest route to the point |
+| `M3-S7-10` | Functions defined, holders empty | **A deliberate planning state**, not an unfinished document — carried from Module 2 §8 |
+| `M3-S7-11` | Closes the title question | — |
+| `M3-S7-12` | The required message | Teaching synthesis |
+| `M3-S7-13` | — | **Excluded — prohibition 21.** The likeliest over-extension in Section C. The guidance describes functions; it does not tell us what the standard requires about titles |
+| `M3-S7-14` | — | **Excluded — prohibitions 22, 23** |
+| `M3-S7-15` | — | **Excluded.** An invented example creates an appointment out of a teaching aid |
+| `M3-S7-16` | Answer: *"I can't tell you — that's a licensed-copy question"* | — |
+
+### Slide 8 — The parties, the teams and the vocabulary gap
+
+| ID | Statement | Source | Level | Jurisdiction | Publication status | Class |
+|---|---|---|---|---|---|---|
+| `M3-S8-01` | **appointing party** — an ISO-associated party term | **`X6`** | **A2** | **UNITED KINGDOM** | Living guidance | **`GUIDANCE` — UK CONTEXT** |
+| `M3-S8-02` | **lead appointed party** — an ISO-associated party term | **`X6`** | **A2** | **UNITED KINGDOM** | Living guidance | **`GUIDANCE` — UK CONTEXT** |
+| `M3-S8-03` | **appointed party** — named as an ISO-associated term; **no registered source defines it** | — | — | — | — | **`UNRESOLVED`** |
+| `M3-S8-04` | **delivery team** and **task team** as ISO-associated team vocabulary — named; **no registered source defines either** | — | — | — | — | **`UNRESOLVED`** |
+| `M3-S8-05` | Harrismith uses `Owner / Appointing Party` and `Appointing Party` — **19 occurrences** | `H1` §4.2; verified across `bep/`, `supporting/`, `docs/` | A3 | This project | Approved with conditions | **`HARRISMITH` — analogue** |
+| `M3-S8-06` | Harrismith uses `Lead Delivery Party` — **20 occurrences** | `H1` §4.2, §5.4 | A3 | This project | Approved with conditions | **`HARRISMITH` — analogue** |
+| `M3-S8-07` | **`lead appointed party` and `appointed party` occur ZERO times** across `bep/`, `supporting/` and `docs/` | Verified count | A3 | This project | Approved with conditions | **`HARRISMITH` — `GAP OR UNVERIFIED`** |
+| `M3-S8-08` | `task team` occurs **164 times** and is a defined structure — including that Mechanical, Electrical and Plumbing are **three task teams within one MEP Consultant party** | `H1` §4.3 | A3 | This project | Approved with conditions | **`HARRISMITH` — analogue** |
+| `M3-S8-09` | `delivery team` appears **once**, incidentally in prose (`H1` IM-08), and is **not a defined Harrismith term** | Verified count | A3 | This project | Approved with conditions | **`HARRISMITH` — `GAP OR UNVERIFIED`** |
+| `M3-S8-10` | Harrismith function terms: `BIM Manager`, `BIM Coordinator`, `Task-Team Lead`, `Author`, `Checker`, `CDE Administration` | `H1` §4.6, §5.5–§5.9 | A3 | This project | Approved with conditions | **`HARRISMITH` — analogue** |
+| `M3-S8-11` | `Lead Delivery Party` is **not established** as *lead appointed party* | `H1`; absence of any mapping decision | A3 | This project | Approved with conditions | **`HARRISMITH` — `GAP OR UNVERIFIED`** |
+| `M3-S8-12` | *"Similar words do not establish equivalent appointments; project terminology must be mapped deliberately"* | none | A5 | — | — | **`SYNTH`** |
+| `M3-S8-13` | *Possible conceptual relationship ≠ verified terminological identity* | none | A5 | — | — | **`SYNTH`** |
+| `M3-S8-14` | `Lead Delivery Party` = *lead appointed party* | — | — | — | — | **`EXCLUDED`** |
+| `M3-S8-15` | consultant = *appointed party*; contractor = *appointed party* | — | — | — | — | **`EXCLUDED`** |
+| `M3-S8-16` | `Task-Team Lead` = *lead appointed party* | — | — | — | — | **`EXCLUDED`** |
+| `M3-S8-17` | Shared task-team terminology as proof of ISO conformity | — | — | — | — | **`EXCLUDED`** |
+| `M3-S8-18` | Whether **any** Harrismith term is equivalent to **any** ISO-associated term | — | — | — | — | **`UNRESOLVED`** |
+
+**Vocabulary relationship register — the required record for every comparison**
+
+| ISO-associated term | Harrismith term | Relationship |
+|---|---|---|
+| appointing party | `Owner / Appointing Party` · `Appointing Party` | **POSSIBLE** — wording close, **not identical; equivalence not established** |
+| lead appointed party | `Lead Delivery Party` | **UNVERIFIED** — conceptually adjacent; **identity excluded** (`M3-S8-14`) |
+| appointed party | *(none)* | **NO COUNTERPART** — zero occurrences; **absence shown, not filled** |
+| delivery team | *(none defined)* | **NO COUNTERPART** — one incidental prose use is not a defined term |
+| task team | `task team` | **SHARED WORD, UNVERIFIED** — same word, different defined content; **shared vocabulary is not established equivalence** |
+| *(none registered)* | `BIM Manager` · `BIM Coordinator` · `Task-Team Lead` · `Author` · `Checker` · `CDE Administration` | **NOT COMPARED** — no ISO-associated counterpart is registered |
+
+**No relationship in this register is `ESTABLISHED`.** That is the finding, and
+Slide 8 exists to make it visible rather than to resolve it.
+
+**Teaching use and warnings**
+
+| ID | Teaching use | Warning |
+|---|---|---|
+| `M3-S8-01`–`02` | The two registered ISO-associated terms | **UK guidance, labelled.** `X1`/`X2` public metadata supplies **no** party definitions and must not be presented as doing so |
+| `M3-S8-03`–`04` | Named, not defined | Say the distinction aloud — it is unusual, honest, and it explains why the slide will not map anything |
+| `M3-S8-05`–`06`, `08`, `10` | The Harrismith column | **Exact source terms only.** No substitution, no modernisation, no "equivalent to" |
+| `M3-S8-07` | **The slide's central fact** | Independently verified. It is the reason no mapping can be asserted |
+| `M3-S8-09` | The `delivery team` finding | One incidental use in prose is **not** adoption of a term |
+| `M3-S8-11` | The answer to the question that will be asked | *Not established* — not *no*, and not *probably yes* |
+| `M3-S8-12`–`13` | The slide's message and governing rule | Teaching synthesis |
+| `M3-S8-14`–`17` | — | **Excluded — prohibitions 24, 25, 26.** `M3-S8-14` is the module's single likeliest live error, and **layout alone can commit it** |
+| `M3-S8-18` | Answer: a mapping decision nobody has taken | — |
+
+### Slide 9 — Information containers make responsibility manageable
+
+| ID | Statement | Source | Level | Jurisdiction | Publication status | Class |
+|---|---|---|---|---|---|---|
+| `M3-S9-01` | Part 1's framework covers exchanging, recording, versioning and **organising** information | `X1` | A1 | International | **Published** | **`PUBLIC-SOURCE`** |
+| `M3-S9-02` | Working description — a **managed unit of information for which responsibility, status, revision and permitted use can be controlled** | `H1` §1.1, §6.8, §7.2 | A4 | This project | — | **`INTERP`** |
+| `M3-S9-03` | Examples — model, drawing, schedule, specification, report, data file — **illustrative, not exhaustive and not normative** | `H1` §10.4 | A4 | This project | — | **`INTERP`** |
+| `M3-S9-04` | Origination chain: `party → task team → discipline → information container` | `H1` §7.2 | A3 | This project | Approved with conditions | **`HARRISMITH` — analogue** |
+| `M3-S9-05` | **Originator responsibility remains with the producing task team** through sharing, consumption, coordination and publication — *"no downstream act relieves it"* | `H1` §7.2 | A3 | This project | Approved with conditions | **`HARRISMITH` — analogue** |
+| `M3-S9-06` | **"Authorship is not inferred from folder location. Where a container sits tells you where it sits. The originator is recorded, not deduced."** | `H1` §7.2 | A3 | This project | Approved with conditions | **`HARRISMITH` — analogue** |
+| `M3-S9-07` | **"Federation does not merge authorship or responsibility"** — each contributed container *"keeps its originator, its state and its technical responsibility"* | `H1` §6.6 | A3 | This project | Approved with conditions | **`HARRISMITH` — analogue** |
+| `M3-S9-08` | Federation does not merge authorship, transfer technical ownership, create a new design author, or turn discipline models into one jointly-owned model; it is *"a lens"* | `H1` §8.5 | A3 | This project | Approved with conditions | **`HARRISMITH` — analogue** |
+| `M3-S9-09` | **"Consumption does not transfer originator technical responsibility"**; the receiver remains responsible for how it uses the information; *"both responsibilities exist at once"* | `H1` §7.9, §6.5 | A3 | This project | Approved with conditions | **`HARRISMITH` — analogue** |
+| `M3-S9-10` | Container classes `ARC-01`, `STR-01`, `MEC-01`, `ELE-01`, `PLM-01`, `FIR-01`, each with a recorded originating party and task team | `H2` — model / information responsibility matrix §3.1 | A3 | This project | Approved with conditions | **`HARRISMITH` — analogue** |
+| `M3-S9-11` | Every allocation is **PROPOSED GOVERNANCE**; no organisation appointed, no holder established; the matrix is *"intended governance, not live inventory"* | `H2` §3, purpose statement | A3 | This project | Approved with conditions | **`HARRISMITH` — `GAP OR UNVERIFIED`** |
+| `M3-S9-12` | A model is **one possible container**, not the whole information environment | `H1` §10.4 | A4 | This project | — | **`INTERP`** |
+| `M3-S9-13` | An information container is **not necessarily a single file** in every implementation | none | A4 | — | — | **`INTERP`** |
+| `M3-S9-14` | *"By managing information in identifiable containers, the project can assign responsibility, control use and retain traceability without treating all project information as one undifferentiated model"* | none | A5 | — | — | **`SYNTH`** |
+| `M3-S9-15` | Controlled states **exist** — brief callback only | `H2` CDE strategy | A3 | This project | Approved with conditions | **`HARRISMITH` — analogue** |
+| `M3-S9-16` | Any formal ISO definition of *information container* | — | — | — | — | **`EXCLUDED`** |
+| `M3-S9-17` | *Information container* = a Revit file in every case | — | — | — | — | **`EXCLUDED`** |
+| `M3-S9-18` | A federated model merging ownership | — | — | — | — | **`EXCLUDED`** |
+| `M3-S9-19` | Folder location proving status | — | — | — | — | **`EXCLUDED`** |
+| `M3-S9-20` | Controlled sharing transferring technical responsibility | — | — | — | — | **`EXCLUDED`** |
+| `M3-S9-21` | CDE state mechanics, transition authority, metadata schemas, naming syntax, revision coding, suitability coding, container breakdown structures | — | — | — | — | **`EXCLUDED` — Modules 4 and 5** |
+| `M3-S9-22` | Whether Harrismith's containers correspond to the standard's | — | — | — | — | **`UNRESOLVED`** |
+
+**Teaching use and warnings**
+
+| ID | Teaching use | Warning |
+|---|---|---|
+| `M3-S9-01` | The one external statement, framing only | Scope, not requirement |
+| `M3-S9-02` | The working description | **Not a definition, and not quoted.** The term appears in both vocabularies; **shared vocabulary is not established equivalence** |
+| `M3-S9-03` | The examples | **Say *illustrative* aloud.** Six items on a slide read as a closed set otherwise |
+| `M3-S9-04`–`06` | The origination chain and the folder line | **Our BEP's wording.** §7.2's *"the originator is recorded, not deduced"* is the sharpest line on the slide |
+| `M3-S9-07`–`08` | The federation point | The most surprising item for most audiences, and the one that prevents a federated view being treated as a deliverable |
+| `M3-S9-09` | Consumption | Both responsibilities exist at once. Audiences get this wrong in **both** directions |
+| `M3-S9-10` | The container classes | Note `MEC`/`ELE`/`PLM` sit in **one** MEP Consultant party — three task teams, not three companies |
+| `M3-S9-11` | The honesty marker | **Intended governance, not live inventory.** The matrix says what is intended to be produced, not what exists in the CDE |
+| `M3-S9-12`–`13` | The two containment cautions | — |
+| `M3-S9-14` | The required message | Teaching synthesis |
+| `M3-S9-15` | One sentence, then stop | **The module boundary.** *States exist* is permitted; how a container moves is Module 4 |
+| `M3-S9-16`–`20` | — | **Excluded — prohibitions 27–30** |
+| `M3-S9-21` | — | **Excluded.** Slide 9 sits one sentence from Module 4 throughout. If a sentence begins *"and then it goes to…"*, stop |
+| `M3-S9-22` | Answer: unverified, and unverifiable from available material | — |
+
 ## 5. Harrismith mapping method
 
 The method for Slide 13 and for every later Harrismith reference. **Four
@@ -350,6 +501,12 @@ presentation that implies more.
 | **Level of information need — not defined** (`H2` matrix §4) | level of information need | **`GAP OR UNVERIFIED`** | Not established for any container; **not inferred from observed model content**; recorded as an information gap. An **open project decision**, and no detail requirement is to be invented |
 | Harrismith's *lifecycle* wording (`H1` §2.2, §7.1) | asset life cycle | **`GAP OR UNVERIFIED`** | Harrismith's word describes the **information container's** span. **Two different spans sharing one word** — do not read an asset-life-cycle claim into it |
 | Harrismith's recorded gaps | ISO non-conformity | **`EXCLUDED — CONFORMITY CLAIM NOT SUPPORTED`** | A gap is a **project state**, not an audit finding. **No assessment exists in either direction** — neither conformity nor non-conformity may be claimed |
+| Functions defined without job titles (`H1` §4.6, §5.11) | information-management functions rather than new job titles | **`LOCAL ANALOGUE OR INTERPRETATION`** | Harrismith organises itself around functions and names no holder. That **illustrates** the guidance's framing; it is **not** evidence that the model is an ISO implementation |
+| `task team` (`H1` §4.3) | task team | **`LOCAL ANALOGUE OR INTERPRETATION`** | **The one word appearing in both vocabularies** — and even that is not an established identity. Harrismith's is defined here and carries this project's structure |
+| **`delivery team`** | delivery team | **`GAP OR UNVERIFIED`** | **One incidental use in prose** (`H1` IM-08). Not a defined Harrismith term, and one prose use is not adoption |
+| Container classes `ARC-01`–`FIR-01` (`H2` §3.1) | information container | **`LOCAL ANALOGUE OR INTERPRETATION`** | Containers with recorded originators and task teams. **All allocations are PROPOSED GOVERNANCE**, and the matrix is *"intended governance, not live inventory"* |
+| Federation not merging responsibility (`H1` §6.6, §8.5) | originator responsibility | **`LOCAL ANALOGUE OR INTERPRETATION`** | This project's position, clearly stated. **Not verified against the standard**, which has not been read |
+| Harrismith's container arrangement | a verified ISO information-container system | **`EXCLUDED — CONFORMITY CLAIM NOT SUPPORTED`** | No verification exists. The shared term proves nothing |
 | Clause-by-clause conformity | — | **`EXCLUDED — CONFORMITY CLAIM NOT SUPPORTED`** | **No such assessment exists**, and none can be produced from available material |
 | Autodesk platform configuration | ISO conformity | **`EXCLUDED — CONFORMITY CLAIM NOT SUPPORTED`** | No software configuration evidences conformity with anything |
 
@@ -424,6 +581,28 @@ Six more, arising from Slides 4–6. They carry the same weight as §7.
 Module 3 may not claim Harrismith conforms, and may not claim it fails. The
 honest position is that **nobody has assessed it**.
 
+### 7.3 Additional prohibitions recorded in T3-C
+
+Ten more, arising from Slides 7–9. Same weight as §7.
+
+| # | Prohibited | Why |
+|---|---|---|
+| 21 | **"ISO 19650 requires a BIM Manager"** — or that it requires no BIM Manager | **No authorised source establishes either.** `X6` describes information management in terms of **functions**, as **UK guidance**; it does not tell us what the standard requires about titles, and the standard has not been read |
+| 22 | **Title equals function** | A job title is an organisational label. A function is a defined project responsibility. `H1` §5.11: **"platform access is not delegation"** — and neither is a business card |
+| 23 | **Person equals function** | One participant may carry several functions; **combining them does not merge their authorities** (`H1` §5.11, §5.8) |
+| 24 | **`Lead Delivery Party` = *lead appointed party*** | **Not established.** *lead appointed party* occurs **zero** times across `bep/`, `supporting/` and `docs/`. Mapping would require the appointment structure, the contractual context and the standard's definition — **none of the three is available** |
+| 25 | **consultant = *appointed party*; contractor = *appointed party*** | **Not established**, and *appointed party* has **no Harrismith counterpart at all**. A commercial position is not an information-management party term |
+| 26 | **Shared task-team terminology as proof of ISO conformity** | `task team` appears in both vocabularies. **Shared vocabulary is not established equivalence** — Harrismith's is defined in `H1` §4.3 and carries this project's own structure |
+| 27 | **Information container = a Revit file in every case** | A container is not necessarily a single file, and a model is **one** container among drawings, schedules, specifications, reports and data files (`H1` §10.4) |
+| 28 | **A federated model merging ownership** | `H1` §6.6 and §8.5: federation *"does not merge authorship or responsibility"*; each contributed container **keeps its originator, its state and its technical responsibility**; *"nobody becomes responsible for another team's content by appearing alongside it"* |
+| 29 | **Folder location proving status** | `H1` §7.2: *"Authorship is not inferred from folder location. Where a container sits tells you where it sits. The originator is recorded, not deduced."* State, version, revision, status and suitability remain five separate properties (§6.8) |
+| 30 | **Controlled sharing transferring technical responsibility** | `H1` §7.9: *"Consumption does not transfer originator technical responsibility."* The receiver acquires responsibility for **its own use**; *"both responsibilities exist at once; neither cancels the other"* |
+
+**Prohibition 24 is the one a layout can commit without a word being spoken.**
+An aligned two-column table on Slide 8 asserts the mapping the slide exists to
+refuse — which is why `V6`'s offset rows, labelled gutter and empty space are
+recorded as **content**, not styling.
+
 ## 8. Unresolved matters carried forward
 
 | # | Unresolved | Resolved by |
@@ -444,9 +623,21 @@ honest position is that **nobody has assessed it**.
 will ask on Slides 4–6, and each has the same answer: **the concept is teachable,
 the requirement is not available.**
 
+| 12 | Whether the published standard requires any particular **function or title** | A licensed copy |
+| 13 | The definitions of ***appointed party***, ***delivery team*** and ***task team*** as ISO-associated terms | A licensed copy. **`X6` registers only *appointing party* and *lead appointed party*** |
+| 14 | Whether **any** Harrismith term is equivalent to **any** ISO-associated term | A licensed copy, **plus the appointment and contractual context, plus a recorded mapping decision** — none of the three exists |
+| 15 | The standard's definition of ***information container***, and whether Harrismith's containers correspond to it | A licensed copy |
+
 **Items 10 and 11 are different in kind.** They are not gaps in this programme's
 evidence — they are **open decisions on a live project**, recorded as such by the
 project itself. They resolve by decision, not by research.
+
+**Item 14 is the Section C headline, and it needs three things, not one.** A
+licensed copy would give the standard's definitions. It would **not** give the
+appointment structure or the contractual context that makes a party what it is,
+and it would not constitute the mapping decision itself. **Terminology mapping is
+a project decision that someone takes and records** — it is not a research
+finding, and Module 3 does not take it.
 
 **Item 1 is the honest headline of this module.** Everything Module 3 teaches
 about ISO 19650 is scope, guidance or analogy. **If the audience needs the
@@ -456,16 +647,20 @@ requirement, they need the standard.**
 
 | Field | Value |
 |---|---|
-| Statements classified | **Slides 1–6 — 83 statements** |
-| `PUBLIC-SOURCE` | 14 |
-| `GUIDANCE` — **all UK** | **3** — entering at Slide 5 |
-| `HARRISMITH` | 20 — the **12 in Slides 4–6 are sub-categorised: 5 analogue, 7 gap or unverified**. The 8 in Slides 1–3 predate the sub-categorisation and are not retrofitted |
-| `INTERP` | 18 |
-| `SYNTH` | 9 |
-| `UNRESOLVED` | 5 statement-level, plus 11 module-level (§8) |
-| `EXCLUDED` | 14 statement-level, plus **20 prohibited claims** (§7, §7.1, §7.2) |
-| Slides 7–14 | **Not classified.** Not developed |
-| Mapping method | **Established (§5)**, extended in T3-B; applied fully at Slide 13 |
+| Statements classified | **Slides 1–9 — 139 statements** |
+| `PUBLIC-SOURCE` | 15 |
+| `GUIDANCE` — **all UK** | **8** — entering at Slide 5, peaking on Slides 7–8 |
+| `HARRISMITH` | 41 — the **33 in Slides 4–9 are sub-categorised: 21 analogue, 12 gap or unverified**. The 8 in Slides 1–3 predate the sub-categorisation and are not retrofitted |
+| `INTERP` | 25 |
+| `SYNTH` | 13 |
+| `UNRESOLVED` | 10 statement-level, plus 15 module-level (§8) |
+| `EXCLUDED` | 27 statement-level, plus **30 prohibited claims** (§7, §7.1, §7.2, §7.3) |
+| Slides with **no** `PUBLIC-SOURCE` statement | **2, 7 and 8** |
+| Vocabulary relationships recorded | **6** — Slide 8. **None is `ESTABLISHED`** |
+| Slides 10–14 | **Not classified.** Not developed |
+| Mapping method | **Established (§5)**, extended in T3-B and T3-C; applied fully at Slide 13 |
 | Clause references used | **Zero** |
 | Requirement acronyms used | **Zero** |
 | Level-of-information-need definitions given | **Zero** — plain concept only |
+| ISO definitions of *information container* quoted | **Zero** — working description only |
+| Named holders, appointments or organisations | **Zero** |

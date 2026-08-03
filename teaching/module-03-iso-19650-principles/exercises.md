@@ -1,6 +1,6 @@
 # Module 3 — Exercises
 
-**Status:** Exercise set for the **Slides 1–6** baseline. Teaching material;
+**Status:** Exercise set for the **Slides 1–9** baseline. Teaching material;
 **not governance.**
 
 Rehearsal exercises for the presenter, not assessments for an audience. Do them
@@ -8,7 +8,8 @@ aloud, alone, before delivering to anyone. **Exercise 10 is done after each of
 the others**, and it is the one that matters most in this module.
 
 **Exercises 1–10 cover Slides 1–3 and the questions that arrive regardless.
-Exercises 11–22 cover Section B — Slides 4–6.**
+Exercises 11–22 cover Section B — Slides 4–6. Exercises 23–34 cover Section C —
+Slides 7–9.**
 
 **Four exercises rehearse questions rather than slides.** Exercises 5–9 cover
 material whose slides are not yet developed — but the questions arrive the moment
@@ -692,8 +693,355 @@ elaboration. Each phase gets one decision question, not an explanation.
 
 ---
 
+# Section C — Slides 7–9
+
+**Twelve further exercises.** Exercise 34 is the timed run, and is done last.
+Exercise 10 still applies after each one — and applies hardest here, because
+Section C is where the vocabularies sit closest together.
+
+---
+
+## Exercise 23 — An information-management function, without a job title
+
+**Task.** Explain what an information-management function is, in forty-five
+seconds, **without naming any job title** — no BIM Manager, no Coordinator, no
+Task-Team Lead, no "the BIM person".
+
+**Why this exercise.** The moment a title appears, the audience stops hearing
+*responsibility* and starts hearing *headcount*. If you cannot describe the
+function without the label, you have not separated them.
+
+**What good looks like.** A function is something that must be performed for
+information to be relied on — establishing what is needed, checking it,
+authorising its release, deciding what it may be used for. Someone must hold it.
+That someone may already exist, may hold several, and may be called anything at
+all.
+
+**Success criteria**
+
+- [ ] No job title, in any form.
+- [ ] I described **what must be performed**, not who performs it.
+- [ ] I said the function must be **assigned to someone**.
+- [ ] I did not imply a new post is required — **or that none is**.
+- [ ] Forty-five seconds.
+
+**Common failure.** Reaching for "the information manager" as a neutral term. It
+is a title wearing a lab coat, and the audience hears a vacancy.
+
+---
+
+## Exercise 24 — Why a title does not prove authority
+
+**Task.** Explain why being called a BIM Manager does not tell you what someone is
+permitted to decide. Thirty seconds.
+
+**Why this exercise.** It is Slide 7's sharpest point and it carries directly from
+Module 2. It is also the point most likely to be resisted by whoever holds the
+title.
+
+**What good looks like.** A title is what an organisation calls someone. Authority
+comes from what the project agreed and recorded. The same title carries different
+authority on different projects — and our own BEP is explicit that holding the BIM
+Manager function does not make someone the appointing party, the lead delivery
+party, or a design approver.
+
+**Reference.** BEP §5.11: **"Platform access is not delegation."** The same logic
+applies to a business card.
+
+**Success criteria**
+
+- [ ] I located authority in **what the project agreed**, not in the label.
+- [ ] I gave one example of a title *not* carrying an assumed authority.
+- [ ] I did not disparage titles — they carry contractual weight.
+- [ ] I did not name a person.
+- [ ] Thirty seconds.
+
+**Common failure.** "Titles don't matter." They do — they just are not evidence of
+assignment, which is a narrower and more defensible claim.
+
+---
+
+## Exercise 25 — One participant, two functions, not merged
+
+**Task.** Give **one** example of a single participant carrying two functions
+without merging them. Forty-five seconds.
+
+**Why this exercise.** The abstraction is easy to nod at and hard to apply. One
+worked example makes it stick.
+
+**What good looks like.** Use the BEP's own: approving a governance change as BIM
+Manager is a different act from applying it as CDE Administrator, *"even when
+performed by one person within a minute of each other."* Same human, two
+functions, two authorities — and they must know which one they are exercising at
+each decision point. Or use Author and Checker: where independence is not
+available, self-checking is still a checking act against a defined requirement,
+and the limitation is **recorded** rather than obscured.
+
+**Success criteria**
+
+- [ ] One example, carried all the way through.
+- [ ] I showed **two distinct decisions**, not two tasks.
+- [ ] I said combining does not merge the authorities.
+- [ ] If I used Author/Checker, I said the limitation gets **recorded**.
+- [ ] I did not name anyone.
+
+**Common failure.** Describing someone busy rather than someone deciding. Two jobs
+is a workload point. Two functions is an authority point.
+
+---
+
+## Exercise 26 — "Does ISO require a BIM Manager?"
+
+**Task.** Answer it in thirty seconds. **Do not answer yes, and do not answer no.**
+
+**Why this exercise.** Both confident answers exceed the sources. This is the
+module's most tempting over-extension, and the question arrives with budget
+attached.
+
+**What good looks like.** You cannot say what the standard requires about titles —
+you have not read it. What you can give is how the **UK guidance** frames it,
+flagged as guidance: information management described in terms of **functions**,
+with the appointing party and lead appointed party each obliged to **ensure the
+relevant function is fulfilled**. That is different from requiring a post. And the
+practical question is whether the work is assigned and being done.
+
+**Success criteria**
+
+- [ ] I did not say *"ISO says no BIM Manager is required"*.
+- [ ] I did not say it requires one either.
+- [ ] I said **UK** while citing the guidance.
+- [ ] I used *ensure the function is fulfilled*, not *create a role*.
+- [ ] I offered the licensed copy for a definitive answer.
+- [ ] Thirty seconds.
+
+**Common failure.** Delivering the liberating version — *"so you don't need to
+hire anyone"* — because it is what the room wants to hear. It is one step beyond
+the source, and it is a step someone will make a staffing decision on.
+
+---
+
+## Exercise 27 — Two vocabularies, no equivalence
+
+**Task.** Present both vocabularies — ISO-associated and Harrismith — in sixty
+seconds, **without asserting a single mapping**.
+
+**Why this exercise.** Slide 8 in miniature. The difficulty is not knowing the
+terms; it is resisting the sentence that pairs them.
+
+**What good looks like.** Guidance side, UK-labelled: appointing party, lead
+appointed party — the two you can source. Appointed party, delivery team, task
+team — named, but you hold no source that defines them. Our side: Owner /
+Appointing Party, Lead Delivery Party, task teams, BIM Manager, BIM Coordinator,
+Task-Team Lead, Author, Checker, CDE Administration. Then the rule: possible
+conceptual relationship is not verified terminological identity.
+
+**Success criteria**
+
+- [ ] Both vocabularies given, in their **exact** terms.
+- [ ] I distinguished **registered** from **named-but-not-defined**.
+- [ ] I said **UK** on the guidance terms.
+- [ ] **Zero** pairings asserted — no "which is our", no "equivalent to".
+- [ ] I finished with the mapping-not-established position.
+
+**Common failure.** The connective tissue. *"On the guidance side you've got lead
+appointed party — that's our Lead Delivery Party"* is the whole error, delivered
+in an aside, in half a second.
+
+---
+
+## Exercise 28 — The Lead Delivery Party question
+
+**Task.** Answer: *"Is Harrismith's Lead Delivery Party simply the ISO lead
+appointed party?"* Forty-five seconds.
+
+**Why this exercise.** It will be asked, by someone who has read a little and
+wants their reading confirmed. It is the module's single likeliest live error.
+
+**What good looks like.** The present evidence does not establish that identity.
+They may be related — both sit between the client side and the delivering teams —
+but *related* is not *equivalent*. A formal mapping would need the appointment
+structure, the contractual context, and the standard's own definition, and you
+have none of the three. Our documents use *Lead Delivery Party* consistently;
+*lead appointed party* appears nowhere at all.
+
+**Success criteria**
+
+- [ ] I said **not established** — not *no*, and not *probably*.
+- [ ] I named **all three** things a mapping would need.
+- [ ] I mentioned the zero occurrence count.
+- [ ] I acknowledged the possible relationship without conceding identity.
+- [ ] I said mapping is a **decision someone records**, not a research finding.
+
+**Common failure.** "Not officially, but yes really." That is the identity claim
+with a disclaimer attached, and the disclaimer is the part that gets forgotten.
+
+---
+
+## Exercise 29 — The term with no counterpart
+
+**Task.** Name one ISO-associated term with **no verified Harrismith equivalent**,
+and explain what the absence means. Thirty seconds.
+
+**Why this exercise.** Presenters instinctively fill gaps. This one must stay
+visibly empty.
+
+**What good looks like.** *Appointed party* — zero occurrences across `bep/`,
+`supporting/` and `docs/`. Harrismith describes its parties directly: the
+consultants, the contractor, the client side. It did not adopt vocabulary whose
+definitions it does not hold. That is a defensible choice, and the empty space is
+the honest record — not a gap to be closed with the nearest-looking term.
+
+**Success criteria**
+
+- [ ] I named a specific term with a verified zero count.
+- [ ] I did **not** offer a "closest equivalent".
+- [ ] I explained the absence as a **choice**, not an oversight.
+- [ ] I did not treat it as a deficiency to be corrected.
+- [ ] Thirty seconds.
+
+**Common failure.** "We don't use that term, but our consultants would be the
+appointed parties." Two sentences, and the gap is closed with exactly the
+substitution prohibition 25 refuses.
+
+---
+
+## Exercise 30 — An information container, without quoting ISO
+
+**Task.** Explain what an information container is. Forty-five seconds. **Quote
+nothing, and give no formal definition.**
+
+**Why this exercise.** The term appears in both vocabularies, which makes it feel
+safe to define. It is not — no ISO definition is available to this programme.
+
+**What good looks like.** A working description, flagged as yours: a managed unit
+of information where you can control who is responsible, what state it is in,
+which revision it is, and what it may be used for. Then the caution: it is not
+necessarily one file, and a model is one container among many.
+
+**Success criteria**
+
+- [ ] I flagged the description as **mine**, not a definition.
+- [ ] I gave all four controllable properties.
+- [ ] I said it is not necessarily a single file.
+- [ ] I said a model is **one** container, not the environment.
+- [ ] I did not claim the standard defines it this way.
+
+**Common failure.** Producing something that sounds like a standard's definition
+because it is crisp. Crispness is what makes it dangerous — say *"that's my
+working description"* and the risk disappears.
+
+---
+
+## Exercise 31 — Four containers that are not models
+
+**Task.** Give **four** examples of information containers, of which **at least
+three are not models**. Twenty seconds.
+
+**Why this exercise.** *Container = model* is the default assumption in the room,
+and the fastest correction is a list that does not start and end with models.
+
+**What good looks like.** A drawing. A schedule. A specification. A report. A data
+file. And — said aloud — **these are illustrative, not a closed list**.
+
+**Success criteria**
+
+- [ ] Four examples, at least three non-model.
+- [ ] I said **illustrative** or an equivalent.
+- [ ] I did not present the list as exhaustive or normative.
+- [ ] I resisted adding file formats or extensions.
+- [ ] Twenty seconds.
+
+**Common failure.** Listing four model types. Architectural, structural, MEP and
+federated are four models, not four containers, and the point lands nowhere.
+
+---
+
+## Exercise 32 — Why federation does not merge ownership
+
+**Task.** Explain why aggregating discipline models into a federated view does not
+transfer or merge responsibility. Forty-five seconds.
+
+**Why this exercise.** It is the most surprising item in Section C, and it
+prevents a federated view being treated as a deliverable somebody authored.
+
+**What good looks like.** Federation is a temporary, controlled aggregation for
+coordination. Our BEP is direct: it does not merge authorship or responsibility.
+Each contributed container keeps its originator, its state and its technical
+responsibility. Federation is a **lens** — nobody becomes responsible for another
+team's content by appearing alongside it, and the federated view is not a
+deliverable anyone authored.
+
+**Success criteria**
+
+- [ ] I used **lens**, **coordination artefact** or an equivalent framing.
+- [ ] I said each container keeps its **own** originator and responsibility.
+- [ ] I said nobody acquires responsibility by proximity.
+- [ ] I did not describe how federation is performed — that is Module 6.
+- [ ] I attributed the wording to **our BEP**.
+
+**Common failure.** Explaining the coordination process instead of the ownership
+point. The question is *who is responsible*, not *how clash detection runs*.
+
+---
+
+## Exercise 33 — Why a folder does not prove status
+
+**Task.** Explain why where a file sits does not establish what it is. Thirty
+seconds. **Do not teach the state model.**
+
+**Why this exercise.** Slide 9's boundary test. The point is one sentence from
+Module 4, and the exercise is as much about stopping as about explaining.
+
+**What good looks like.** Our BEP's line does most of the work: *where a container
+sits tells you where it sits. The originator is recorded, not deduced.* And the
+same applies to status — state, version, revision, status and suitability are
+separate properties, and moving a file changes none of them. How states actually
+work is Module 4.
+
+**Success criteria**
+
+- [ ] I used the folder line, or my own version of it.
+- [ ] I said the originator is **recorded, not deduced**.
+- [ ] I mentioned that moving a file changes no property.
+- [ ] I did **not** name transitions, authorities or evidence requirements.
+- [ ] I said the mechanics belong to a later module.
+
+**Common failure.** Drifting into WIP-Shared-Published to make the point concrete.
+It is concrete enough, and the drift costs Module 3 its boundary.
+
+---
+
+## Exercise 34 — Deliver Slides 7–9 to time
+
+**Task.** Deliver Section C end to end. **Target: 4.5 minutes. Measure it.**
+
+**Why this exercise.** Section C contains the module's two highest-risk moments —
+the BIM Manager question on Slide 7 and the vocabulary gap on Slide 8 — and both
+expand under pressure.
+
+**What good looks like.** Slide 7 separates function from title and stops short of
+the over-extension. Slide 8 presents both vocabularies, asserts nothing, and
+leaves the gap visible. Slide 9 gives the working description, the federation
+point and the folder line, and hands off cleanly to Module 4 without teaching it.
+
+**Success criteria**
+
+- [ ] **4.5 minutes ± 20 seconds**, measured.
+- [ ] The word **UK** was said on Slides 7 and 8.
+- [ ] **Zero** vocabulary pairings asserted.
+- [ ] *Illustrative* was said on Slide 9's examples.
+- [ ] No state transition, naming convention or revision code was mentioned.
+- [ ] No person, organisation or appointment was named anywhere.
+- [ ] I did not borrow time from Slide 9 — it carries the handoff to Section D.
+
+**Common failure.** Slide 8 running long because the vocabulary invites
+explanation. It is a slide about what **cannot** be said; the shorter it is, the
+better it works.
+
+---
+
 ## Scope note
 
-**Twenty-two exercises, covering the Slides 1–6 baseline and the questions that
-arrive regardless of which slides exist.** Exercises for Slides 7–14 are a later
+**Thirty-four exercises, covering the Slides 1–9 baseline and the questions that
+arrive regardless of which slides exist.** Exercises for Slides 10–14 are a later
 increment.

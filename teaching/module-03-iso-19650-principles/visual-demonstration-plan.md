@@ -249,48 +249,160 @@ proportionate zone — but not as the primary form.
 height. A fat *more* column beside a lean *right* column is a picture of
 minimalism, whatever the words say.
 
-### V6 — Appointment and delivery-team functional map
+### V13 — Function-to-assignment chain · **specified (T3-C)**
 
 | Field | Value |
 |---|---|
-| **Slide** | 7 and 8 |
-| **Teaching purpose** | Show information-management **functions** attaching to parties and teams — and show the **vocabulary gap** between ISO-associated terms and Harrismith's |
-| **Source basis** | **`X6`** (functions rather than new job titles; appointing party and lead appointed party must each ensure the relevant function is fulfilled), `H1` §4.2, §4.6 |
-| **Classification** | **`GUIDANCE` — UK** for every ISO-associated term; **`HARRISMITH`** for every Harrismith term |
-| **Jurisdiction** | **United Kingdom** (left) · **This project** (right) — the distinction is the visual's subject |
-| **Simplify** | **Two columns, never merged.** Left: the guidance vocabulary. Right: Harrismith's actual terms. Between them, **a visible gutter**, not connectors |
-| **Omit** | **Every connecting line, arrow or equals sign between the columns.** Any person's name. Any organisation. Any job title |
-| **Overclaim risk** | **THE HIGHEST IN THE MODULE.** A two-column layout invites the eye to pair rows — and pairing *`Lead Delivery Party`* with *lead appointed party* is precisely the substitution [`source-map.md`](source-map.md) §6 prohibits |
-| **Copyright risk** | **LOW** for the layout; **MEDIUM** for the terms — use them as terminology, never with definitions attached |
+| **Slide** | 7 |
+| **Teaching purpose** | Show that an information-management need becomes a **defined function**, which is **assigned to a party**, which a **participant performs** — and that a job title sits outside that chain |
+| **Source basis** | **`X6`** (functions rather than new job titles; appointing party and lead appointed party must each ensure the relevant function is fulfilled); `H1` §4.6, §5.11 |
+| **Classification** | **`GUIDANCE` — UK** for the functions framing and both ensure-fulfilment statements; **`HARRISMITH`** for the combination and delegation points; **`INTERP`** for the chain itself |
+| **Jurisdiction** | **UNITED KINGDOM** (the guidance basis) · This project (the illustration) — both labelled |
+| **Simplify** | **Four nodes in one line, and one detached label.** Nothing else |
+| **Omit** | **Any organisational hierarchy, reporting line or org-chart shape.** Any person's name, any organisation, any appointment. Any assertion that a particular title is required — **or that none is** |
+| **Overclaim risk** | **HIGH.** The chain will be read as the standard's assignment process. It is **UK guidance plus presenter structure**, and the standard has not been read |
+| **Copyright risk** | **LOW** — original construction |
 | **External imagery** | **No** |
 
-**Mandatory design requirements — three, and none is optional.**
+**The chain — fixed:**
+
+```text
+Information-management need
+  → defined function
+  → assigned party
+  → participant performs it
+```
+
+**Five mandatory design requirements.**
+
+1. **`job title` appears as a detached, optional label**, offset from the chain
+   and connected by a dashed line at most — never as a step in it. A title is an
+   organisational label, not a link in the assignment.
+2. **No hierarchy of any kind.** No boxes stacked vertically, no reporting lines,
+   no seniority ordering. The BEP's role model is *"not an appointment chart and
+   not an organisation chart"*, and the visual must not become one.
+3. **No name, organisation or appointment appears** — every Harrismith holder is
+   **TBD**, and a placeholder reads as a name.
+4. **The guidance node is jurisdiction-labelled.** *"UK implementation guidance:
+   the relevant party must **ensure the function is fulfilled**"* — with
+   `OFFICIAL IMPLEMENTATION GUIDANCE — UK CONTEXT` visible.
+5. **Function combination is shown without merging.** If the visual illustrates
+   one participant carrying two functions, the two function badges stay **visibly
+   separate** on the one participant — never fused into a single combined label.
+   Prohibition 23.
+
+**Design note.** Resist adding an arrow back from *participant* to *job title*.
+It invites the inference that performing a function confers, or requires, a
+title — which is the slide's whole target.
+
+### V6 — The vocabulary gap · **specified (T3-C)**
+
+**Scope refined in T3-C.** In T3-A this entry covered Slides 7 and 8 together.
+Slide 7's chain is now `V13`; **`V6` is Slide 8 only.** Its T3-A mandatory
+requirements were always a description of the vocabulary gap, and they are
+retained below unchanged, with three added.
+
+| Field | Value |
+|---|---|
+| **Slide** | 8 |
+| **Teaching purpose** | Show two vocabularies side by side **without asserting any mapping between them** |
+| **Source basis** | **`X6`** (*appointing party*, *lead appointed party* — the only two registered); `H1` §4.2, §4.3, §4.6; verified occurrence counts |
+| **Classification** | **`GUIDANCE` — UK** for the two registered terms; **`UNRESOLVED`** for *appointed party*, *delivery team* and *task team* as ISO-associated terms — **named, not defined**; **`HARRISMITH`** for every right-hand term |
+| **Jurisdiction** | **UNITED KINGDOM** (left) · **This project** (right) — the distinction is the visual's subject |
+| **Simplify** | **Two columns, never merged**, separated by a **visible labelled gutter** |
+| **Omit** | **Every connecting line, arrow or equals sign between the columns.** Any colour-coded pairing. Any tick, green, or equivalence symbol. Any person, organisation or job title |
+| **Overclaim risk** | **THE HIGHEST IN THE MODULE.** A two-column layout invites the eye to pair rows — and pairing `Lead Delivery Party` with *lead appointed party* is exactly the substitution prohibition 24 refuses. **The layout can commit the error with no word spoken** |
+| **Copyright risk** | **LOW** for the layout; **MEDIUM** for the terms — use them as terminology, **never with definitions attached** |
+| **External imagery** | **No** |
+
+**Mandatory design requirements — six, and none is optional.**
 
 1. **Rows do not align across the gutter.** Deliberately offset them. Aligned rows
-   read as a mapping table, and no mapping decision has been taken.
-2. **The gutter is labelled** — *"no established equivalence"*.
+   read as a mapping table, and no mapping decision has been taken. **In
+   particular, `lead appointed party` is never drawn directly opposite
+   `Lead Delivery Party`.**
+2. **The gutter is labelled** — *"Mapping not established"*.
 3. **The absence is shown.** `appointed party` appears in the left column with
-   **nothing** opposite it. Harrismith has no such term, and the empty space is
-   the teaching.
+   **nothing** opposite it. Harrismith has no such term, and **the empty space is
+   the teaching**.
+4. **No arrows between unverified terms.** None. An arrow is an assertion.
+5. **Neutral spacing, not colour-coded matching.** No colour pairs terms; no
+   green, no ticks, no equivalence symbols; nothing that reads as a compliance
+   visual.
+6. **A visible terminology warning on the slide** — `Terminology mapping not
+   established`. Not in the notes. On the slide.
 
-### V7 — Information container as the unit of responsibility
+**Two further requirements from the T3-C findings.**
+
+7. **The left column distinguishes *registered* from *named*.** `appointing
+   party` and `lead appointed party` carry the UK-guidance label; *appointed
+   party*, *delivery team* and *task team* carry **named, not defined** — because
+   no registered source defines them.
+8. **Occurrence counts may appear; they are the evidence.** `0` against
+   *lead appointed party* and *appointed party* does more work than any
+   annotation, and the **`1`** against *delivery team* is worth showing precisely
+   because it is not zero — one incidental prose use is not adoption of a term.
+
+**Design note.** Any conceptual similarity belongs in the speaker notes, **not in
+the visual**. The presenter may say *"these may well be related"*; the slide may
+not draw it.
+
+### V7 — Separately owned information containers · **specified (T3-C)**
 
 | Field | Value |
 |---|---|
 | **Slide** | 9 |
-| **Teaching purpose** | Show that responsibility attaches to a **container**, and that this is what makes it traceable rather than notional |
-| **Source basis** | `H1` §1.1 (known originator, known state, known route, known accountable role), §6.8 (five separate properties) |
-| **Classification** | **`HARRISMITH`** — entirely |
-| **Jurisdiction** | This project |
-| **Simplify** | **One container, four labels**: originator · state · route to next state · accountable role. Four, not five, not nine |
-| **Omit** | Any file icon suggesting a model file; any file extension; **the full five-property list** — that belongs to Module 4 |
-| **Overclaim risk** | **MEDIUM-HIGH.** *Information container* appears in both vocabularies, so a clean diagram will be read as ISO's definition. **It is our BEP's aim statement**, and the slide says so |
+| **Teaching purpose** | Show **several separate containers**, each visibly owned, sitting within one information-management frame — and show that gathering them together does not merge ownership |
+| **Source basis** | `H1` §7.2 (origination chain; originator responsibility; authorship not inferred from folder), §6.6 and §8.5 (federation), §7.9 (consumption), §10.4 (a delivery is not a file); `H2` matrix §3.1 (container classes) |
+| **Classification** | **`HARRISMITH` — analogue** for every sourced statement; **`INTERP`** for the working description and the examples; **`PUBLIC-SOURCE`** only for the *organising information* framing (`X1`) |
+| **Jurisdiction** | This project (the illustration) · International (the framing only) |
+| **Simplify** | **Six containers maximum**, arranged inside one plain frame. Each carries **four short labels**: originator · responsibility · revision · permitted use |
+| **Omit** | **Any federated-model image that visually merges ownership.** Any platform screenshot, folder tree or product name. Any file extension. **Any state-transition arrow.** The full five-property list — Module 4 |
+| **Overclaim risk** | **MEDIUM-HIGH.** *Information container* appears in **both** vocabularies, so a clean diagram reads as ISO's definition. **It is a working description drawn from our BEP**, and the slide must say so |
 | **Copyright risk** | **LOW** — original, Harrismith-sourced |
 | **External imagery** | **No** |
 
-**Boundary.** Do not draw the container moving. Movement is Module 4. This visual
-is a **stationary container with four labels**, and adding an arrow costs the
-module its boundary.
+**Suggested container set — deliberately mixed, so *container* does not read as
+*model*:**
+
+```text
+ARC container    STR container    MEP containers (MEC · ELE · PLM)
+Schedule         Report           Specification
+```
+
+**Six mandatory design requirements.**
+
+1. **Every container carries a visible originator.** A container without an owner
+   label is the picture the slide exists to refute.
+2. **Containers stay visually separate.** They sit **within** a shared frame; they
+   do not overlap, nest, fuse or share a boundary. **The frame is a lens, not a
+   container** — `H1` §8.5.
+3. **No federated-model image.** No merged 3D view, no single composite object.
+   If federation is shown at all, it is a **translucent outline over separate,
+   still-labelled containers**, annotated *"coordination artefact — authorship and
+   responsibility unchanged"*.
+4. **No state-transition arrows.** Plain association lines only. A brief note that
+   controlled states **exist** is permitted; **how a container moves is Module
+   4**, and an arrow starts teaching it.
+5. **Non-model containers are present and equally weighted.** At least three of
+   the six are not models. A grid of six model boxes teaches *container = model*,
+   which is prohibition 27.
+6. **Examples are labelled illustrative** on the slide, and the description is
+   labelled as a working description — **not a definition**. Prohibition 27 and
+   `M3-S9-16`.
+
+**Two required annotations.**
+
+- **On the frame:** *"a folder location does not establish authorship or status —
+  the originator is recorded, not deduced (BEP §7.2)"*.
+- **On the set:** *"allocations are PROPOSED GOVERNANCE; intended governance, not
+  live inventory"* — otherwise six neat owned containers read as a running
+  system.
+
+**Design note.** The `MEC`/`ELE`/`PLM` grouping is worth drawing accurately:
+**three task teams inside one MEP Consultant party**. It is a real feature of this
+project, it takes one bracket, and it quietly makes the party / task-team
+distinction that Slide 8 argued.
 
 ### V8 — CDE use and state, at concept level
 
@@ -407,31 +519,41 @@ answer, it is rewritten or removed. The one question that must appear:
 | `V2` | 4 | `PUBLIC-SOURCE` + `INTERP` + `SYNTH` | **HIGH** | MEDIUM |
 | `V3` | 3 | `PUBLIC-SOURCE` | **HIGH** | **MEDIUM-HIGH** |
 | `V4` | 5 | `PUBLIC-SOURCE` + **`GUIDANCE` — UK** + `HARRISMITH` | **HIGH** | MEDIUM |
-| `V5` | 6 | `PUBLIC-SOURCE` + `GUIDANCE` + `HARRISMITH` | MEDIUM-HIGH | LOW |
-| `V6` | 7, 8 | **`GUIDANCE` — UK** + `HARRISMITH` | **HIGHEST** | MEDIUM |
-| `V7` | 9 | `HARRISMITH` | MEDIUM-HIGH | LOW |
+| `V5` | 6 | `PUBLIC-SOURCE` + **`GUIDANCE` — UK** + `HARRISMITH` | MEDIUM-HIGH | LOW |
+| `V13` | 7 | **`GUIDANCE` — UK** + `HARRISMITH` + `INTERP` | **HIGH** | LOW |
+| `V6` | 8 | **`GUIDANCE` — UK** + `UNRESOLVED` + `HARRISMITH` | **HIGHEST** | MEDIUM |
+| `V7` | 9 | `HARRISMITH` + `INTERP` | MEDIUM-HIGH | LOW |
 | `V8` | 10 | `HARRISMITH` | **HIGH** | MEDIUM |
 | `V9` | 11 | `PUBLIC-SOURCE` + `HARRISMITH` | **HIGH** | LOW |
 | `V10` | 12 | `HARRISMITH` | MEDIUM | LOW |
 | `V11` | 13 | `HARRISMITH` + `INTERP` | **HIGHEST** | LOW |
 | `V12` | 14 | `SYNTH` | MEDIUM / **HIGH (Triviron)** | LOW |
 
-**Three specified in full (T3-B): `V2`, `V4`, `V5`** — the Section B visuals.
-Each now carries fixed labels, a fixed form and five mandatory design
-requirements, so that the constraints survive into asset production rather than
-being re-decided by whoever draws them.
+**Six specified in full: `V2`, `V4`, `V5` (T3-B) and `V13`, `V6`, `V7` (T3-C)** —
+the Section B and Section C visuals. Each carries fixed labels, a fixed form and
+five or six mandatory design requirements, so the constraints survive into asset
+production rather than being re-decided by whoever draws them.
 
-**Twelve candidate visuals. Nine carry HIGH or HIGHEST overclaim risk.**
+**Scope refinement recorded in T3-C.** `V6` covered Slides 7 and 8 in T3-A. Slide
+7 now has its own entry, **`V13`**, and `V6` is Slide 8 only. The two slides need
+different shapes — a chain and a deliberately unmapped pair of columns — and
+bundling them risked the chain acquiring the columns' pairing problem. **Existing
+identifiers are unchanged**; `V13` is added rather than renumbering.
+
+**Thirteen candidate visuals. Ten carry HIGH or HIGHEST overclaim risk.**
 
 That ratio is the module, not a defect in the plan. Module 3's subject is a
 document the programme does not hold, and **a diagram is the fastest way to
 appear to hold it**. Every entry above is therefore constrained by what it must
 *omit* at least as much as by what it shows.
 
-**Three carry MEDIUM or higher copyright risk** — `V2`, `V3` and `V4` — and all
-three are near the most reproduced ISO figures in circulation. **None is
-reconstructed**, and third-party versions are not reused either: a derivative of
-protected content does not become safe by having someone else's name on it.
+**Five carry MEDIUM or higher copyright risk** — `V2`, `V3`, `V4`, `V6` and `V8`.
+`V2`, `V3` and `V4` sit near the most reproduced ISO figures in circulation;
+`V6` and `V8` carry the risk through **terminology and state labels** rather than
+through form. **None is reconstructed**, and third-party versions are not reused
+either: a derivative of protected content does not become safe by having someone
+else's name on it. On `V6` specifically, the terms appear **as terminology, never
+with definitions attached**.
 
 ## 5. What this plan does not do
 

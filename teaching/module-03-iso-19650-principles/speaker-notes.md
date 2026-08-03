@@ -1,4 +1,4 @@
-# Module 3 — Speaker Notes, Slides 1–6
+# Module 3 — Speaker Notes, Slides 1–9
 
 **Status:** Working notes. **Not a script, and not final.**
 
@@ -910,6 +910,543 @@ illustrate.** An off-the-cuff example — *"probably enough to coordinate servic
 
 ---
 
-## Slides 7–14
+## Slide 7 — Information-management functions are not automatically job titles · 1.5 min
+
+### Purpose
+
+Show that information-management activities must be **fulfilled**, and that
+fulfilling them is not the same as inventing a job title for each one. Separate
+five things the audience collapses into one.
+
+### Essential message
+
+1. **UK guidance** explains information management in terms of **functions**
+   rather than requiring every function to become a new job title.
+2. The **appointing party** must ensure the information-management function is
+   fulfilled; the **lead appointed party** must ensure the relevant function is
+   fulfilled. *(Guidance, UK.)*
+3. **One person may perform several functions** — and **combining them does not
+   merge their authorities**.
+4. **A title does not prove the function was assigned.**
+5. Activity, function, appointment, job title and participant are **five
+   different things**.
+
+### Suggested wording
+
+> "Section C is about who actually does this. And I want to start by defusing an
+> argument that happens on every project: whether you need to hire a BIM Manager.
+>
+> Hold five things apart. There's the **activity** — something that has to happen
+> for information to be trustworthy. There's the **function** — the defined
+> responsibility for making it happen. There's the **appointment** — who's
+> engaged and on what terms. There's the **job title** — what someone's employer
+> calls them. And there's the **person** doing it on the day.
+>
+> Now, the UK BIM Framework — and I'm flagging that as UK implementation guidance,
+> not the standard's text — talks about information management in terms of
+> functions rather than requiring every function to become a new job title. It
+> says the appointing party has to ensure the information-management function is
+> fulfilled, and the lead appointed party has to ensure the relevant function is
+> fulfilled. **Ensure it's fulfilled.** Not *create a post*.
+>
+> I want to be careful about how far that goes. I am **not** telling you the
+> standard says no BIM Manager is required. I haven't read it, and that's a much
+> bigger claim than my sources support. What I can say is that the guidance frames
+> this as functions.
+>
+> Our own project does the same thing. It defines BIM Manager, BIM Coordinator,
+> Task-Team Lead, Author, Checker, CDE Administration — and it names nobody at
+> all. Every holder is TBD. And it's blunt about combination: combining roles does
+> not combine the functions. There's a lovely example — approving a governance
+> change as BIM Manager is a different act from applying it as CDE Administrator,
+> even when it's one person doing both within a minute of each other.
+>
+> So the question worth asking isn't *do we have a BIM Manager*. It's: is the
+> function assigned, does the person know they hold it, and is it actually being
+> performed?"
+
+### Shorter fallback
+
+> "Five different things: the activity, the function, the appointment, the job
+> title, the person. UK guidance — flagged as UK — frames information management
+> as functions that must be **ensured fulfilled**, rather than requiring a new job
+> title for each. One person can hold several, and combining them doesn't merge
+> their authorities. Our project defines the functions and names nobody. The
+> question isn't whether a title exists — it's whether the function is assigned,
+> understood and performed."
+
+### Authoritative guidance basis
+
+| Statement | Source | Level |
+|---|---|---|
+| Information management framed as **functions rather than new job titles** | **`X6`** | **A2 — implementation guidance** |
+| The **appointing party** must ensure the information-management function is fulfilled | **`X6`** | **A2** |
+| The **lead appointed party** must also ensure the relevant function is fulfilled | **`X6`** | **A2** |
+
+**There is no A1 statement on this slide at all.** Everything external is UK
+guidance; everything concrete is Harrismith.
+
+### Jurisdiction note
+
+**`OFFICIAL IMPLEMENTATION GUIDANCE — UK CONTEXT`.** All three statements above.
+Labelled on the slide and said aloud.
+
+**The forbidden extension:** *"ISO 19650 says no BIM Manager is required."* The
+guidance describes functions. It does not tell us what the standard requires
+about titles, and the standard has not been read. Prohibition 21.
+
+### Harrismith analogy
+
+Functions defined, **holders empty** — BEP §4.6, §5.7, §5.8, §5.9. Three sourced
+lines:
+
+- **"Combining roles does not combine the functions."** A participant performing
+  two must know *"which function they are performing at each decision point"*
+  (§5.11).
+- Author and Checker may combine where independence is not available — but
+  *"self-checking is still a checking act with a defined requirement, not an
+  omission of one"*, and **"independence is never claimed where it does not
+  exist"** (§5.8).
+- **"Platform access is not delegation"** (§5.11).
+
+Category: **`LOCAL ANALOGUE OR INTERPRETATION`.** It illustrates the principle. It
+is **not** evidence that the Harrismith model is an ISO implementation.
+
+### Likely question
+
+**"Does ISO require a BIM Manager?"**
+
+### Safe answer
+
+> "I can't tell you what the standard requires about titles — I haven't read it,
+> and I'm not going to guess. What I can tell you is how the UK guidance frames
+> it, and I'll flag that it's UK guidance rather than the standard: it describes
+> information management in terms of functions, and puts the obligation on the
+> appointing party and the lead appointed party to **ensure the function is
+> fulfilled**. That's a different thing from requiring a post. So the practical
+> question is whether the work is assigned and being done — by someone, under some
+> title, on some contract. If you want the definitive answer on titles, that's a
+> licensed-copy conversation."
+
+**Second likely question — "Can one person perform several information-management
+functions?"**
+
+> "Yes, and on a project this size they usually do. The thing that matters is that
+> combining the roles doesn't combine the authorities. Our BEP's example is the
+> clearest one I know: approving a governance change as BIM Manager and applying
+> it as CDE Administrator are two different acts, even when it's one person within
+> a minute. They have to know which one they're exercising. And where combining
+> reduces independence — an author checking their own work, say — the limitation
+> gets recorded rather than glossed over. Independence is never claimed where it
+> doesn't exist."
+
+### Transition to Slide 8
+
+> "So — functions get assigned to somebody. Which raises the question of what we
+> call those somebodies. And here we hit a genuine problem, because there are two
+> vocabularies in this room and they are not the same vocabulary."
+
+### Evidence classification
+
+**`GUIDANCE` — UK** — functions rather than job titles; both ensure-fulfilment
+statements (`M3-S7-01`–`03`).
+**`HARRISMITH` — analogue** — one participant may hold several; combining does
+not merge; Author/Checker combination and recorded independence; platform access
+is not delegation (`M3-S7-06`–`09`).
+**`HARRISMITH` — `GAP OR UNVERIFIED`** — functions defined, **no named holders**
+(`M3-S7-10`).
+**`INTERP`** — the five layers; a function describes what must be performed; a
+title does not prove assignment (`M3-S7-04`, `M3-S7-05`, `M3-S7-11`).
+**`SYNTH`** — the required message (`M3-S7-12`).
+**`EXCLUDED`** — *"ISO says no BIM Manager is required"*; title equals function;
+person equals function; any invented holder (`M3-S7-13`–`15`).
+
+### Delivery warning
+
+**The over-extension.** This slide's guidance is genuinely liberating — it lets a
+small team stop arguing about org charts — and that makes it tempting to push it
+one step further into *"so ISO doesn't require a BIM Manager"*. **That step is not
+supported.** Stop at what the guidance says, and say *UK* while you say it.
+
+**The opposite failure.** Do not let it become an argument that titles are
+worthless. Titles carry contractual and organisational weight. The point is that
+a title is **not evidence** the function was assigned.
+
+**Name nobody.** No holder, no organisation, no appointment exists in the sources.
+An invented example — *"say our BIM Manager is the architect"* — creates an
+appointment out of a teaching aid, and it will be repeated.
+
+---
+
+## Slide 8 — The parties, the teams and the vocabulary gap · 1.5 min
+
+### Purpose
+
+Introduce ISO-associated party and team vocabulary **while preventing false
+one-to-one substitution into Harrismith**. The module's highest-risk slide.
+
+### Essential message
+
+1. **Two vocabularies exist**, and they are not the same vocabulary.
+2. Only two ISO-associated terms are registered here — **appointing party** and
+   **lead appointed party** — and both come from **UK guidance**.
+3. **`appointed party` has no Harrismith counterpart at all** — zero occurrences.
+4. **`Lead Delivery Party` is not established as *lead appointed party*.**
+5. **Possible conceptual relationship ≠ verified terminological identity.**
+
+### Suggested wording
+
+> "If you've read anything about ISO 19650, you'll have met a particular
+> vocabulary — appointing party, lead appointed party, appointed party, delivery
+> teams, task teams. And you'll have noticed our documents don't talk like that.
+>
+> Let me show you both, side by side, and then tell you what I can't do.
+>
+> On the guidance side — and this is UK implementation guidance, not the standard's
+> text — there's an **appointing party**, who must ensure the
+> information-management function is fulfilled, and a **lead appointed party**, who
+> must ensure the relevant function is fulfilled. Those two I can source. The
+> others — appointed party, delivery team, task team — are terms in general
+> circulation, but I don't hold a source that **defines** them. So I can name them.
+> I can't define them.
+>
+> On our side: **Owner / Appointing Party**. **Lead Delivery Party**. Task teams —
+> we use that heavily, a hundred and sixty-odd times, and it's a defined structure
+> in our BEP. And then BIM Manager, BIM Coordinator, Task-Team Lead, Author,
+> Checker, CDE Administration.
+>
+> Now, the thing I want you to take from this slide. **Lead appointed party appears
+> zero times in our documents. Appointed party appears zero times.** I checked. And
+> the temptation — the very strong temptation — is to look at *Lead Delivery Party*
+> and *lead appointed party* and say, well, obviously those are the same thing.
+>
+> They might be related. They are **not established as the same thing**. Mapping
+> them would need the appointment structure, the contractual context and the
+> standard's actual definitions — and we have none of the three. Similar words do
+> not establish equivalent appointments.
+>
+> So the honest position on this slide is a label: **terminology mapping not
+> established**. And I'd rather leave the gap visible than close it with a guess
+> that gets quoted back to me."
+
+### Shorter fallback
+
+> "Two vocabularies. Guidance side, UK-labelled: appointing party, lead appointed
+> party — those I can source; appointed party, delivery team, task team I can name
+> but not define. Our side: Owner / Appointing Party, Lead Delivery Party, task
+> teams, BIM Manager, Coordinator, Task-Team Lead, Author, Checker, CDE
+> Administration. *Lead appointed party* and *appointed party* appear zero times in
+> our documents. So no, *Lead Delivery Party* is not established as *lead appointed
+> party* — it might be related, it isn't verified, and mapping it would need the
+> appointments and the standard's definitions. Terminology mapping not
+> established."
+
+### Authoritative guidance basis
+
+| Term | Source | Status |
+|---|---|---|
+| **appointing party** | **`X6`** | **A2 — registered, UK guidance** |
+| **lead appointed party** | **`X6`** | **A2 — registered, UK guidance** |
+| *appointed party* | — | **Named; no registered source defines it** |
+| *delivery team* | — | **Named; no registered source defines it** |
+| *task team* | — | **Named; no registered source defines it** |
+
+**Public ISO metadata supplies none of these definitions**, and must not be
+presented as though it does.
+
+### Jurisdiction note
+
+**`OFFICIAL IMPLEMENTATION GUIDANCE — UK CONTEXT`** on the two registered terms.
+The remaining three carry a different marker — **named, not defined** — and the
+distinction is worth making aloud, because it is unusual and it is honest.
+
+### Harrismith analogy
+
+Independently verified occurrence counts across `bep/`, `supporting/` and
+`docs/`:
+
+| Term | Occurrences |
+|---|---|
+| `appointing party` (incl. `Owner / Appointing Party`) | **19** |
+| `Lead Delivery Party` | **20** |
+| `task team` | **164** — a defined structure, BEP §4.3 |
+| `Task-Team Lead` | **32** |
+| `CDE Administration` | **50** |
+| **`lead appointed party`** | **0** |
+| **`appointed party`** | **0** |
+| `delivery team` | **1** — incidental prose, **not a defined term** |
+
+Categories: `Owner / Appointing Party` → **`LOCAL ANALOGUE OR INTERPRETATION`**.
+`Lead Delivery Party`, `appointed party`, `delivery team` → **`GAP OR
+UNVERIFIED`**.
+
+**One nuance worth thirty seconds if you have them.** `task team` is the single
+word appearing in both columns — and even that is not an established identity.
+Ours is defined in BEP §4.3 and carries this project's structure, including that
+Mechanical, Electrical and Plumbing are **three task teams inside one MEP
+Consultant party**, not three companies. Shared vocabulary, different content.
+
+### Likely question
+
+**"Is Harrismith's Lead Delivery Party simply the ISO lead appointed party?"**
+
+### Safe answer
+
+> "The present evidence doesn't establish that identity, so I'm not going to say
+> yes. They may well be related concepts — both sit between the client side and
+> the delivering teams. But *related* isn't *equivalent*. A formal mapping would
+> need three things we don't have: the actual appointment structure on a real
+> project, the contractual context that gives a party its role, and the standard's
+> own definition, which I haven't read. Our documents use *Lead Delivery Party* and
+> use it consistently — twenty times — and the other term appears nowhere at all.
+> If someone needs those mapped for a real appointment, that's a decision to take
+> deliberately and record, not something I should do from a slide."
+
+**Second likely question — "Is the lead appointed party the same as the lead
+contractor?"**
+
+> "Not necessarily, and I'd be careful. They're different kinds of category — one
+> is an information-management role in a framework, the other is a commercial
+> position on a project. They might land on the same organisation. On a design-led
+> appointment they might not. I don't have the definition to give you a firm
+> answer, and guessing would be worse than the gap."
+
+**Third likely question — "What is an appointed party?"**
+
+> "I can tell you it's a term in the ISO-associated vocabulary. I can't give you a
+> definition, because I don't hold a source that defines it — and I'd rather say
+> that than approximate. What I can tell you is that it appears nowhere in our
+> project documents. We describe parties directly — the consultants, the
+> contractor, the client side — and we didn't adopt vocabulary whose definitions we
+> don't have. That's a defensible choice, and it's the honest state of things."
+
+### Transition to Slide 9
+
+> "So — parties and teams, and a gap we're leaving visible. Let's move to something
+> both vocabularies actually agree on the shape of, even if not the wording: the
+> thing responsibility attaches to."
+
+### Evidence classification
+
+**`GUIDANCE` — UK** — appointing party; lead appointed party (`M3-S8-01`,
+`M3-S8-02`).
+**`UNRESOLVED`** — *appointed party*, *delivery team*, *task team* as
+ISO-associated terms — named, not defined; and whether any Harrismith term is
+equivalent to any of them (`M3-S8-03`, `M3-S8-04`, `M3-S8-18`).
+**`HARRISMITH`** — the occurrence counts and the terms in use; **analogue** for
+`Owner / Appointing Party`; **`GAP OR UNVERIFIED`** for the zero counts, the
+incidental `delivery team` use, and the `Lead Delivery Party` question
+(`M3-S8-05`–`11`).
+**`SYNTH`** — the required message; *possible relationship ≠ verified identity*
+(`M3-S8-12`, `M3-S8-13`).
+**`EXCLUDED`** — every one-to-one identity claim; task-team terminology as proof
+of conformity (`M3-S8-14`–`17`).
+
+### Delivery warning
+
+**The layout will make the claim for you.** If the two columns align row by row,
+the audience maps them regardless of what you say — and `Lead Delivery Party`
+sitting opposite *lead appointed party* is exactly the substitution this slide
+exists to refuse. The offset rows, the labelled gutter and the empty space facing
+`appointed party` are **content, not styling** — `V6`.
+
+**The helpful colleague.** Someone will try to close the gap for you: *"they're
+basically the same, though."* The safe answer is that it is not established, and
+that closing it is a decision somebody has to take and record. Accept it warmly;
+do not accept it substantively.
+
+**Do not disparage either vocabulary.** The ISO-associated terms are not jargon,
+and Harrismith's are not parochial. The point is that they are **two systems**,
+and no one has mapped them here.
+
+---
+
+## Slide 9 — Information containers make responsibility manageable · 1.5 min
+
+### Purpose
+
+Introduce the information container as the **unit responsibility attaches to** —
+at principle level only. Close Section C.
+
+### Essential message
+
+1. A container is a **managed unit of information** for which responsibility,
+   status, revision and permitted use can be controlled. *(Working description,
+   not a definition.)*
+2. Models, drawings, schedules, specifications, reports, data files — **examples,
+   not a closed list**.
+3. **Originator responsibility stays with the producing task team.** *"No
+   downstream act relieves it."*
+4. **Federation does not merge authorship or responsibility.**
+5. **Folder location does not establish authorship or status.**
+6. **Sharing makes information available for a purpose; it transfers nothing.**
+
+### Suggested wording
+
+> "Everything so far assumes you can point at a piece of information and say who's
+> responsible for it. That's what an information container is for.
+>
+> Working description — and this is mine, not a definition I'm quoting: a container
+> is a managed unit of information where you can control who's responsible, what
+> state it's in, which revision it is, and what it may be used for. A model. A
+> drawing. A schedule. A specification. A report. A data file. Those are examples,
+> not a closed list.
+>
+> And note the first one is *a* model — one possible container, not the whole
+> information environment. That's worth pausing on, because the mental default in
+> this industry is that BIM is the model and everything else is paperwork.
+>
+> Three things our BEP says about containers, and they're the useful part.
+>
+> First: origination runs party, to task team, to discipline, to container. And
+> **originator responsibility stays with the producing task team** — through
+> sharing, through consumption, through coordination, through publication. In its
+> words: no downstream act relieves it.
+>
+> Second — and this is the one that surprises people — **federation does not merge
+> authorship or responsibility.** When you aggregate models into a federated view,
+> you've created a coordination artefact, not a jointly-authored model. Each
+> contributed container keeps its originator, its state and its technical
+> responsibility. Federation is a lens. Nobody becomes responsible for another
+> team's content by appearing alongside it.
+>
+> Third: **authorship isn't inferred from folder location.** I love this sentence —
+> *where a container sits tells you where it sits.* The originator is recorded, not
+> deduced.
+>
+> And when a receiving team consumes shared information, that doesn't transfer the
+> originator's technical responsibility either. Both responsibilities exist at
+> once. The originator is answerable for the content; the receiver is answerable
+> for whether the use was appropriate, current and within the stated purpose.
+> Neither cancels the other."
+
+### Shorter fallback
+
+> "A container is a managed unit of information where you can control
+> responsibility, status, revision and permitted use — a model, a drawing, a
+> schedule, a report, and so on; examples, not a closed list. Responsibility stays
+> with the originating task team through sharing, coordination and publication.
+> Federation doesn't merge authorship — it's a lens, and each container keeps its
+> originator. Folder location doesn't establish authorship or status; the
+> originator is recorded, not deduced. And consuming shared information doesn't
+> transfer the originator's responsibility — both responsibilities exist at once."
+
+### Authoritative public-source basis
+
+| Statement | Source | Level |
+|---|---|---|
+| Part 1's framework covers exchanging, recording, versioning and **organising** information | `X1` | **A1 — published** |
+
+**One statement, and it is framing only.** Everything substantive on this slide is
+Harrismith. **No ISO definition of *information container* is quoted, because none
+is available to this programme.**
+
+### Jurisdiction note
+
+**Not applicable.** No guidance source is used on this slide.
+
+### Harrismith analogy
+
+Four sourced statements, all **`LOCAL ANALOGUE OR INTERPRETATION`**:
+
+| Point | Wording | Where |
+|---|---|---|
+| Origination chain | `party → task team → discipline → information container`; responsibility remains with the producing task team — *"no downstream act relieves it"* | BEP §7.2 |
+| Folder ≠ authorship | *"Authorship is not inferred from folder location. Where a container sits tells you where it sits. The originator is recorded, not deduced."* | BEP §7.2 |
+| Federation | *"Federation does not merge authorship or responsibility"*; each contributed container *"keeps its originator, its state and its technical responsibility"*; federation is *"a lens"* | BEP §6.6, §8.5 |
+| Consumption | *"Consumption does not transfer originator technical responsibility"*; both responsibilities exist at once | BEP §7.9 |
+
+Container classes with recorded originators — `ARC-01`, `STR-01`, `MEC-01`,
+`ELE-01`, `PLM-01`, `FIR-01` — sit in the Model / Information Responsibility
+Matrix §3.1. **Note that `MEC`, `ELE` and `PLM` are three task teams inside one
+MEP Consultant party.**
+
+**The honesty marker.** Every allocation is **PROPOSED GOVERNANCE**; no
+organisation is appointed, no holder established, and the matrix is *"intended
+governance, not live inventory"* — it says what is intended to be produced, **not
+what exists in the CDE**. Category for that: **`GAP OR UNVERIFIED`**.
+
+### Likely question
+
+**"Is a Revit model an information container?"**
+
+### Safe answer
+
+> "It can be — it's the most familiar example. But two cautions. A container isn't
+> necessarily one file; different implementations draw the boundary differently,
+> and I can't tell you where the standard draws it. And a model is *one* container
+> among many — the drawing, the schedule, the report and the data file are
+> containers too, and on a lot of projects they carry the decisions that actually
+> get made. Treating the model as the container is how everything else ends up
+> ungoverned."
+
+**Second likely question — "Is the federated model one information container?"**
+
+> "I'd resist that framing. Our BEP is direct about it: federation doesn't merge
+> authorship or responsibility. Aggregating models creates a coordination
+> artefact, not a jointly-authored model — each contributed container keeps its
+> own originator, state and technical responsibility. Federation is a lens for
+> looking at several containers at once. Nobody becomes responsible for another
+> team's content by appearing alongside it."
+
+**Third likely question — "Does sharing a model transfer responsibility?"**
+
+> "No. Consumption doesn't transfer the originator's technical responsibility —
+> they remain answerable for what they produced. But the receiving team picks up a
+> responsibility of its own: whether the information was appropriate to the use,
+> whether it was current, and whether the use was within the stated purpose. Both
+> exist at the same time, and neither cancels the other. That's the bit people get
+> wrong in both directions — either 'I shared it, it's your problem now', or 'I
+> just used what you gave me'."
+
+**Fourth likely question — "Does a file's folder determine its status?"**
+
+> "No. Our BEP has the line I'd use: where a container sits tells you where it
+> sits. The originator is recorded, not deduced — and the same goes for status.
+> State, version, revision, status and suitability are separate properties, and
+> moving a file doesn't change any of them. How states actually work is Module 4;
+> today the point is just that location isn't evidence."
+
+### Transition to Slide 10
+
+> "Which brings us to the obvious follow-up. If a container has a state and a
+> permitted use — what controls them? That's Section D."
+
+### Evidence classification
+
+**`PUBLIC-SOURCE`** — organising information within Part 1's framework
+(`M3-S9-01`).
+**`INTERP`** — the working description; the illustrative examples; a model is one
+container; a container is not necessarily one file (`M3-S9-02`, `M3-S9-03`,
+`M3-S9-12`, `M3-S9-13`).
+**`HARRISMITH` — analogue** — origination chain; responsibility retained;
+authorship not inferred from folder; federation; consumption; the container
+classes; controlled states exist (`M3-S9-04`–`10`, `M3-S9-15`).
+**`HARRISMITH` — `GAP OR UNVERIFIED`** — PROPOSED GOVERNANCE, no holder, intended
+governance not live inventory (`M3-S9-11`).
+**`SYNTH`** — the required message (`M3-S9-14`).
+**`EXCLUDED`** — any formal ISO definition; container = Revit file in every case;
+federation merging ownership; folder proving status; sharing transferring
+responsibility; **all Module 4 and 5 mechanics** (`M3-S9-16`–`21`).
+
+### Delivery warning
+
+**The definition trap, again.** *Information container* is a term the audience has
+met, and they will expect a definition. **You do not have one.** Give the working
+description, say it is yours, and move. The term appearing in both vocabularies is
+not evidence they mean the same thing.
+
+**The boundary.** This slide sits one sentence away from Module 4 at all times.
+*Controlled states exist* is permitted. **How a container moves between them is
+not** — no transitions, no authority to move, no evidence requirements, no
+naming, no revision coding, no suitability coding. If you start a sentence with
+*"and then it goes to…"*, stop.
+
+**The closed list.** Six examples on a slide read as a definitive set unless you
+say *illustrative* out loud. Say it.
+
+---
+
+## Slides 10–14
 
 **Not developed.** No notes exist. Developing them is a later increment.

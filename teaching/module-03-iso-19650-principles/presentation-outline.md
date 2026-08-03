@@ -1,6 +1,6 @@
 # Module 3 — Presentation Outline
 
-**Status:** Working outline. **Slides 1–6 developed; Slides 7–14 are titles,
+**Status:** Working outline. **Slides 1–9 developed; Slides 10–14 are titles,
 purposes and time allocations only.** This is **not a final presentation**: no
 visual source exists, no deck has been assembled, and the timing below is an
 allocation that has never been measured.
@@ -32,15 +32,15 @@ in [`source-map.md`](source-map.md).
 | 4 | Information management runs across the asset life cycle | 1.5 | ✅ |
 | 5 | Information requirements come before information production | 1.5 | ✅ |
 | 6 | The right information — not simply more information | 1.5 | ✅ |
-| 7 | Functions, appointments and delivery teams | 1.5 | ⬜ |
-| 8 | The parties, the teams and the vocabulary gap | 1.5 | ⬜ |
-| 9 | Information containers make responsibility manageable | 1.5 | ⬜ |
+| 7 | Information-management functions are not automatically job titles | 1.5 | ✅ |
+| 8 | The parties, the teams and the vocabulary gap | 1.5 | ✅ |
+| 9 | Information containers make responsibility manageable | 1.5 | ✅ |
 | 10 | The CDE controls permitted use and exchange | 1.5 | ⬜ |
 | 11 | Information delivery must be planned | 1.5 | ⬜ |
 | 12 | A principle is not a platform configuration | 1.0 | ⬜ |
 | 13 | **How Harrismith may be mapped — and where the evidence stops** | 2.0 | ⬜ |
 | 14 | What Triviron must verify before claiming alignment | 1.0 | ⬜ |
-| | **Total** | **20.0** | **6 of 14** |
+| | **Total** | **20.0** | **9 of 14** |
 
 ### Refinements to the proposed sequence
 
@@ -539,18 +539,308 @@ names do not prove governance*, applied to model detail.
 **Transition out of Section B.** Slides 4–6 have established *why* information
 management comes first. Section C asks **who** does it.
 
+### Slide 7 — Information-management functions are not automatically job titles · 1.5 min
+
+**Purpose of the slide**
+
+Show that information-management activities must be **fulfilled**, and that
+fulfilling them is not the same as creating a job title for each one. Open
+Section C by separating five things an audience routinely collapses into one.
+
+**Five things held apart**
+
+| # | Layer | What it is |
+|---|---|---|
+| 1 | **Required information-management activity** | Something that has to happen for information to be relied on |
+| 2 | **Project function** | The defined responsibility for making it happen |
+| 3 | **Appointment or contractual responsibility** | Who is engaged, and on what terms |
+| 4 | **Organisational job title** | What someone's employer calls them |
+| 5 | **Individual participant** | The human performing it on the day |
+
+**Layers 1–3 must be established for a project to work. Layer 4 is optional, and
+layer 5 changes.** Most confusion in this area is layer 4 being mistaken for
+layer 2.
+
+**Official implementation guidance — UK context**
+
+> **`OFFICIAL IMPLEMENTATION GUIDANCE — UK CONTEXT` (`X6`).** UK implementation
+> guidance explains information management in terms of **functions**, rather than
+> requiring every function to become a new job title. It records that the
+> **appointing party** must ensure the information-management function is
+> fulfilled, and that the **lead appointed party** must also ensure the relevant
+> information-management function is fulfilled.
+
+**This is the whole external basis for the slide, and it is guidance, not ISO
+text.** Say the jurisdiction aloud and show it.
+
+**The sentence that must not be said**
+
+> ~~"ISO 19650 says no BIM Manager is required."~~
+
+That conclusion is **broader than any authorised source here supports**. The
+guidance describes functions; it does not tell us what the standard requires
+about titles, and the standard has not been read — see
+[`source-map.md`](source-map.md) §7.3, prohibition 21.
+
+**What follows — five points**
+
+| # | | |
+|---|---|---|
+| 1 | **A function describes what must be performed** | Not who performs it, and not what they are called |
+| 2 | **The relevant party must ensure the function is fulfilled** | Guidance, UK — the obligation is to *ensure fulfilment*, not to *create a post* |
+| 3 | **One person may perform more than one function** | Common on small projects, and unremarkable |
+| 4 | **Combining functions does not merge their authorities** | The responsibilities stay distinct in meaning |
+| 5 | **A title does not prove the function was assigned** | Nor does having the software licence, the folder access or the loudest opinion |
+
+**Callback to Module 2 — four lines, then move on**
+
+```text
+Function
+  ≠ job title
+  ≠ organisation
+  ≠ person
+```
+
+**Do not re-teach Module 2.** If the audience did not attend it, the four lines
+still work as orientation.
+
+**Harrismith connection — a project analogue**
+
+Harrismith defines functions and **populates no holders at all**:
+
+| Defined function | Named holder |
+|---|---|
+| BIM Manager · BIM Coordinator · CDE Administration · Lead Delivery Party (BEP §4.6) | **TBD** |
+| Task-Team Lead (§5.7) · Author · Checker (§5.8) | **TBD** |
+
+Two sourced statements do the work:
+
+> **"Combining roles does not combine the functions."** A participant performing
+> two functions must know **which function they are performing at each decision
+> point** — approving a governance change as BIM Manager is a different act from
+> applying it as CDE Administrator, *"even when performed by one person within a
+> minute of each other."* *(BEP §5.11)*
+
+> Author and Checker may be combined where independence cannot reasonably be
+> provided — but *"self-checking is still a checking act with a defined
+> requirement, not an omission of one"*, and **"independence is never claimed
+> where it does not exist."** *(BEP §5.8)*
+
+And one more, which closes the title question: **"Platform access is not
+delegation."** *(BEP §5.11)*
+
+**Category: `LOCAL ANALOGUE OR INTERPRETATION`.** Harrismith organises itself
+around functions rather than titles. That **illustrates** the principle; it is
+**not** evidence that the Harrismith model is an ISO implementation.
+
+**Required message**
+
+> The important question is not whether a title exists; it is whether the
+> information-management function is assigned, understood and performed.
+
+*(**Teaching synthesis** — `M3-S7-12`.)*
+
+**No holder, appointment or organisation is named on this slide.** None exists in
+the sources, and inventing one to make an example concrete would create an
+appointment out of a teaching aid.
+
+### Slide 8 — The parties, the teams and the vocabulary gap · 1.5 min
+
+**Purpose of the slide**
+
+Introduce ISO-associated party and team vocabulary **while preventing false
+one-to-one substitution into Harrismith**. This is the module's highest-risk
+slide, and the risk is not what the presenter says — it is what the layout
+implies.
+
+**The governing rule, stated on the slide**
+
+```text
+Possible conceptual relationship
+  ≠ verified terminological identity
+```
+
+**The two vocabularies**
+
+| **ISO-associated / UK-guidance vocabulary** | **Harrismith project vocabulary** |
+|---|---|
+| **appointing party** — `GUIDANCE`, UK (`X6`) | `Owner / Appointing Party`; `Appointing Party` — **19 occurrences** |
+| **lead appointed party** — `GUIDANCE`, UK (`X6`) | `Lead Delivery Party` — **20 occurrences** |
+| **appointed party** — named term; **no registered source defines it** | **nothing** — **0 occurrences** |
+| **delivery team** — named term; **no registered source defines it** | **1 incidental use in prose**; not a defined term |
+| **task team** — named term; **no registered source defines it** | `task team` — **164 occurrences**, a defined structure (BEP §4.3) |
+| — | `BIM Manager` · `BIM Coordinator` · `Task-Team Lead` · `Author` · `Checker` · `CDE Administration` |
+
+**Three findings, and each matters more than the table.**
+
+**One — only two ISO-associated terms are actually registered.** `appointing
+party` and `lead appointed party` come from `X6` as **UK implementation
+guidance**. `appointed party`, `delivery team` and `task team` are in general
+circulation, but **no registered source defines any of them** for this
+programme. They are named, not defined — `M3-S8-03`, `M3-S8-04`.
+
+**Two — `appointed party` has no Harrismith counterpart at all.** Zero
+occurrences across `bep/`, `supporting/` and `docs/`, independently verified.
+**The absence is shown, not filled.**
+
+**Three — `task team` is the one word that appears in both columns, and even
+that is not an established identity.** Shared vocabulary is not equivalence. The
+ISO-associated definition has not been read; Harrismith's is defined in BEP §4.3
+and carries this project's own structure — including that Mechanical, Electrical
+and Plumbing are **three task teams within one MEP Consultant party**, not three
+companies.
+
+**Required warning — visible on the slide**
+
+> ### `Terminology mapping not established`
+
+**What must not be asserted**
+
+| Prohibited assertion | Status |
+|---|---|
+| `Lead Delivery Party` = *lead appointed party* | **Not established** |
+| consultant = *appointed party* | **Not established** |
+| contractor = *appointed party* | **Not established** |
+| `Task-Team Lead` = *lead appointed party* | **Not established** |
+| any other one-to-one identity | **Not established** |
+
+**Required message**
+
+> Similar words do not establish equivalent appointments; project terminology
+> must be mapped deliberately.
+
+*(**Teaching synthesis** — `M3-S8-12`.)*
+
+**Why the vocabulary gap is a finding rather than an embarrassment.** Harrismith
+chose terms that describe its own arrangement and declined to adopt terminology
+whose definitions it does not hold. That is the same discipline as declining to
+invent information requirements. A project that adopts the vocabulary without the
+appointments has changed its words and nothing else.
+
+**Layout is content on this slide.** The mandatory design requirements in
+[`visual-demonstration-plan.md`](visual-demonstration-plan.md) `V6` — offset
+rows, a labelled gutter, no arrows, no colour matching, `appointed party` facing
+empty space — are **not styling preferences**. An aligned two-column table
+asserts the mapping the slide exists to refuse.
+
+### Slide 9 — Information containers make responsibility manageable · 1.5 min
+
+**Purpose of the slide**
+
+Introduce the information container as the **unit responsibility attaches to** —
+at principle level. Close Section C by showing why managing information in
+identifiable pieces is what makes responsibility answerable at all.
+
+**A working description — explicitly not a definition**
+
+> An **information container** is a managed unit of information for which
+> responsibility, status, revision and permitted use can be controlled.
+
+*(**Supported interpretation.** **No formal ISO definition is quoted, and none is
+available to this programme.** The term appears in both vocabularies; shared
+vocabulary is not established equivalence — `M3-S9-02`.)*
+
+**Examples — illustrative, not exhaustive and not normative**
+
+| | | |
+|---|---|---|
+| a model | a drawing | a schedule |
+| a specification | a report | a data file |
+
+***Teaching examples.*** Say the word *illustrative* aloud. A six-item list on a
+slide reads as a closed set unless it is labelled otherwise.
+
+**Six distinctions**
+
+| # | | Support |
+|---|---|---|
+| 1 | **A container is not necessarily a single file** in every implementation | Interpretation — implementations differ, and none has been verified |
+| 2 | **A model is one possible container, not the whole information environment** | Interpretation, consistent with BEP §10.4 — *"a delivery is not synonymous with a file"* |
+| 3 | **Federation does not erase originating responsibility** | BEP §6.6, §8.5 |
+| 4 | **A folder location alone does not prove status** | BEP §7.2, §6.8 |
+| 5 | **The originating task team retains responsibility** | BEP §7.2 |
+| 6 | **Controlled sharing makes information available for a purpose without transferring authorship or technical ownership** | BEP §7.9, §6.5 |
+
+**The three sourced statements that carry the slide**
+
+> **Origination follows this chain:** `party → task team → discipline →
+> information container`. **Originator responsibility remains with the producing
+> task team**, through sharing, consumption, coordination and publication. *"No
+> downstream act relieves it."* *(BEP §7.2)*
+
+> **"Authorship is not inferred from folder location. Where a container sits
+> tells you where it sits. The originator is recorded, not deduced."**
+> *(BEP §7.2)*
+
+> **"Federation does not merge authorship or responsibility."** Aggregating
+> models into a federated view *"creates a coordination artefact, not a
+> jointly-authored model. Each contributed container keeps its originator, its
+> state and its technical responsibility."* *(BEP §6.6)* — and §8.5 adds that
+> federation is *"a lens for multidisciplinary understanding and review"*, and
+> that *"nobody becomes responsible for another team's content by appearing
+> alongside it."*
+
+**On consumption**, BEP §7.9: *"Consumption does not transfer originator
+technical responsibility."* The receiving team remains responsible for **how it
+uses** the information — whether it was appropriate, current and within the
+stated purpose. *"Both responsibilities exist at once; neither cancels the
+other."*
+
+**Harrismith connection — a project analogue**
+
+The Model / Information Responsibility Matrix allocates container classes to
+originating parties and task teams:
+
+| Container class | Originating party | Task team |
+|---|---|---|
+| `ARC-01` | Architectural Consultant | Architectural |
+| `STR-01` | Structural Consultant | Structural |
+| `MEC-01` · `ELE-01` · `PLM-01` | **MEP Consultant** — one party, three task teams | Mechanical · Electrical · Plumbing |
+| `FIR-01` | Fire Consultant | Fire |
+
+**Category: `LOCAL ANALOGUE OR INTERPRETATION`.** It illustrates containers with
+recorded originators. It is **not** a verified ISO information-container system,
+and no such verification exists.
+
+**And the honesty marker.** Every allocation is classified **PROPOSED
+GOVERNANCE**; no organisation is appointed and no holder is established. The
+matrix also records that it is *"intended governance, not live inventory"* — it
+describes what is intended to be produced, **not what exists in the CDE**.
+
+**Module-boundary control — read before developing any visual**
+
+| Permitted here | Deferred |
+|---|---|
+| That controlled states **exist** — one sentence | **Module 4** — the state set, transitions, transition authority, evidence |
+| That containers have originators and purposes | **Module 5** — container breakdown, allocation row by row |
+| — | **Modules 4–5** — metadata schemas, naming syntax, revision coding, suitability coding |
+
+**A brief callback to the existence of controlled states is permitted. No
+transition mechanics.** If a sentence begins to explain *how* a container moves,
+it belongs to Module 4.
+
+**Required message**
+
+> By managing information in identifiable containers, the project can assign
+> responsibility, control use and retain traceability without treating all
+> project information as one undifferentiated model.
+
+*(**Teaching synthesis**, consistent with BEP §7.2, §6.6 and §8.5 —
+`M3-S9-14`.)*
+
+**Transition out of Section C.** Slides 7–9 have established **who** manages
+information and **what** it attaches to. Section D asks how use and delivery are
+controlled.
+
 ---
 
-## 5. Slides 7–14 — scope reserved, not developed
+## 5. Slides 10–14 — scope reserved, not developed
 
 **Titles, purposes and time allocations only.** No content, no message, no source
 classification. Developing them is a later increment.
 
 | Slide | Purpose held for it | Principal expected sources |
 |---|---|---|
-| 7 | Functions are not job titles; appointments still matter | **`X6`**, `H1` §4.6 |
-| 8 | ISO-associated party vocabulary against Harrismith's — **and the gap between them** | `X6`, `H1` §4.2, Module 2 `source-map.md` §2 |
-| 9 | The container as the unit responsibility attaches to | `H1` §1.1, §6.8 |
 | 10 | Why controlled states and exchanges exist — **concept only** | `H2` CDE strategy |
 | 11 | Why delivery is planned rather than assumed — **concept only** | `H2` delivery schedule |
 | 12 | Configuration follows decision, not the reverse | `H1` §12.1, §4.8 |

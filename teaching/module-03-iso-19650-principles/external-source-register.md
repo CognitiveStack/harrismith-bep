@@ -204,6 +204,28 @@ and **may not be defined, abbreviated into teaching vocabulary, or broken into
 categories, levels or tiers** — see [`source-map.md`](source-map.md) §7.2,
 prohibitions 16 and 17.
 
+**Second clarification, recorded in T3-C — no source added.** `X6`'s party
+terminology is now in use on **Slides 7 and 8**. Its registered content supports
+**two party terms only**:
+
+| Term | Status in this programme |
+|---|---|
+| **appointing party** | **Registered** — `X6`, A2, UK guidance |
+| **lead appointed party** | **Registered** — `X6`, A2, UK guidance |
+| *appointed party* | **Named, not defined.** No registered source defines it |
+| *delivery team* | **Named, not defined.** No registered source defines it |
+| *task team* | **Named, not defined.** No registered source defines it |
+
+**The distinction is taught, not hidden.** Slide 8 shows which terms are sourced
+and which are merely in circulation, because that difference is the reason the
+slide declines to map anything. See [`source-map.md`](source-map.md) `M3-S8-03`,
+`M3-S8-04` and the vocabulary relationship register.
+
+**And a third limit, for Slide 9.** **No registered source defines *information
+container*.** The term appears in both vocabularies; Slide 9 uses a **working
+description drawn from `H1`**, explicitly labelled as such. Shared vocabulary is
+not established equivalence — prohibition 27.
+
 ### H1 — Harrismith Fire Station BEP
 
 | Field | Value |
