@@ -40,9 +40,23 @@ only.**
 
 ## 3. Relationship to the controlled source
 
-Everything taught here is traceable to a controlled source document. The mapping
-for Module 1 is recorded in
+Everything taught here is traceable to a recorded source, and each module holds
+its own `source-map.md` — for example
 [`module-01-what-is-a-bep/source-map.md`](module-01-what-is-a-bep/source-map.md).
+
+**Modules 1 and 2 are traceable entirely to controlled Harrismith documents.**
+No external source was required for any slide in either.
+
+**Module 3 is not, and cannot be.** Its subject — ISO 19650 — is a copyrighted
+international standard that is **not held in this repository and has not been
+read for this programme**. It therefore adds a second control alongside its
+source map:
+[`module-03-iso-19650-principles/external-source-register.md`](module-03-iso-19650-principles/external-source-register.md),
+which records every external source with its authority level, jurisdiction,
+permitted teaching use and prohibited inference. Published standards, draft
+revisions, jurisdiction-bound implementation guidance and Harrismith evidence are
+kept explicitly apart, and **no ISO text is reproduced anywhere in this
+directory**.
 
 The seven principal package-source documents are:
 
@@ -88,19 +102,29 @@ teaching/
 │   ├── exercises.md                 practice and self-assessment
 │   ├── source-map.md                each subject mapped to controlled sources
 │   └── presentation/                assembly package — production handoff
-├── module-02-roles-and-responsibilities/   Module 2 — CURRENT, ACTIVE
+├── module-02-roles-and-responsibilities/   Module 2 — produced; review and rehearsal deferred
 │   ├── README.md                    module objective, deliverable and scope
+│   ├── presentation-outline.md      20-minute structure, Slides 1–14
+│   ├── speaker-notes.md             natural-language notes, Slides 1–14
+│   ├── visual-demonstration-plan.md candidate visuals for the whole module
+│   ├── exercises.md                 practice and self-assessment
+│   ├── source-map.md                role inventory, authority inventory, classification
+│   └── presentation/                assembly package — production handoff
+├── module-03-iso-19650-principles/  Module 3 — CURRENT, ACTIVE
+│   ├── README.md                    module objective, deliverable and scope
+│   ├── external-source-register.md  every external source, its authority and limits
 │   ├── presentation-outline.md      20-minute structure, Slides 1–3 developed
 │   ├── speaker-notes.md             natural-language notes, Slides 1–3
 │   ├── visual-demonstration-plan.md candidate visuals for the whole module
 │   ├── exercises.md                 practice and self-assessment
-│   └── source-map.md                role inventory, authority inventory, classification
+│   └── source-map.md                statement classification, mapping method, prohibited claims
 ├── shared/
 │   ├── glossary.md                  teaching glossary across all modules
 │   └── presentation-principles.md   how these presentations are built
 └── assets/
     ├── README.md                    asset handling rules
-    └── module-01/                   Module 1 visual source set
+    ├── module-01/                   Module 1 visual source set
+    └── module-02/                   Module 2 visual source set
 ```
 
 ## 6. Safety boundary
@@ -125,3 +149,10 @@ not authorised by appearing in a teaching file.
   (`working/README.md`) rather than adjusting either file to agree.
 - **Unsupported claims are marked, not smoothed over.** Where a teaching point
   has no explicit source wording, `source-map.md` says so.
+- **External sources are registered before they are taught.** Where a module
+  draws on material outside this repository, it records the source, its
+  authority level, its jurisdiction and what may **not** be inferred from it —
+  see
+  [`module-03-iso-19650-principles/external-source-register.md`](module-03-iso-19650-principles/external-source-register.md).
+  **No copyrighted standards text is reproduced here**, and an unregistered
+  external claim is not taught.

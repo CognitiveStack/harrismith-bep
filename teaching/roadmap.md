@@ -26,9 +26,9 @@ moves — not as the subject.
 
 | # | Module | Status |
 |---|---|---|
-| 1 | What is a BIM Execution Plan? | **Content and presentation assembly produced.** Review and rehearsal **deferred** |
-| 2 | **BIM Management roles and responsibilities** | **CURRENT — ACTIVE** |
-| 3 | ISO 19650 information-management principles | Planned |
+| 1 | What is a BIM Execution Plan? | **Content, visual source, assembly package and PowerPoint produced.** Review and rehearsal **deferred** |
+| 2 | BIM Management roles and responsibilities | **Content, visual source, assembly package and PowerPoint produced.** Review and rehearsal **deferred** |
+| 3 | **ISO 19650 information-management principles** | **CURRENT — ACTIVE** |
 | 4 | CDE workflows and information states | Planned |
 | 5 | Responsibility matrices and information-delivery planning | Planned |
 | 6 | Coordination, review, approval and assurance | Planned |
@@ -46,46 +46,77 @@ repository**.
 
 **Deferred, not complete:** presentation review and rehearsal with measured
 timing. Both remain outstanding **until the presenter chooses to perform them** —
-they are not blocked, and Module 2 does not wait on them.
+they are not blocked, and no later module waits on them.
 
-### Module 2 — BIM Management roles and responsibilities — **CURRENT**
+### Module 2 — BIM Management roles and responsibilities — **produced; review and rehearsal deferred**
 
-The active module. Deliverable: a 20-minute presentation on roles, functions and
-authority. See
+Deliverable: a 20-minute presentation on roles, functions and authority. See
 [`module-02-roles-and-responsibilities/README.md`](module-02-roles-and-responsibilities/README.md).
 
-**Established (T2-A):** module structure, the role inventory, the authority
-inventory, and the 20-minute presentation architecture.
+**Produced:** the Slides 1–14 content baseline (T2-A to T2-C), the visual-source
+baseline `M02-S01`–`M02-S14` in [`assets/module-02/`](assets/module-02/) (T2-D),
+the presentation assembly package in
+[`module-02-roles-and-responsibilities/presentation/`](module-02-roles-and-responsibilities/presentation/)
+(T2-E), and a PowerPoint assembled **outside this repository**.
 
-**Content baseline complete (T2-A, T2-B, T2-C):** **Slides 1–14**, with speaker
-notes, thirty-two exercises, a visual-demonstration plan, statement-level source
-classification across 201 statements, and a module-wide reconciliation of roles,
-authorities and gaps.
+**Deferred, not complete:** presentation review and rehearsal with measured
+timing — on the same footing as Module 1's.
 
-**Visual-source baseline complete (T2-D):** fourteen reviewable source files
-`M02-S01`–`M02-S14`, with a register, a slide map and recorded design principles
-— see [`assets/module-02/`](assets/module-02/). **No external evidence is
-required for any slide.**
+**The `.pptx` files for Modules 1 and 2 are derivative outputs and are not
+committed to this repository.**
 
-**Assembly package complete (T2-E):** deck specification, on-slide copy,
-presenter cues, asset manifest, and production and review checklists — see
-[`module-02-roles-and-responsibilities/presentation/`](module-02-roles-and-responsibilities/presentation/).
+### Module 3 — ISO 19650 information-management principles — **CURRENT**
 
-**Outstanding:** **PowerPoint production** — next, performed by ChatGPT after the
-assembly package is reviewed and accepted — then review, then rehearsal.
+The active module. Deliverable: a 20-minute, fourteen-slide presentation on what
+ISO 19650 is intended to govern — and on where the available evidence stops. See
+[`module-03-iso-19650-principles/README.md`](module-03-iso-19650-principles/README.md).
 
-### Modules 3–8 — future scope
+**Established (T3-A):** module structure; an explicit **external-source control
+framework**; the separation of published ISO material, draft revisions,
+jurisdiction-bound implementation guidance, Harrismith evidence and teaching
+synthesis; the 20-minute fourteen-slide architecture; the Harrismith mapping
+method; and **Slides 1–3**.
 
-Modules 3–8 are recorded below as the intended sequence. **None of their material
-exists**, and their scope may change as Modules 1 and 2 are delivered and
+**This module differs from Modules 1 and 2 in kind.** Those were built entirely
+from controlled Harrismith documents and needed no external source. **Module 3's
+subject is a copyrighted international standard that is not held in this
+repository and has not been read for this programme.** What is available is
+official public scope metadata, jurisdiction-bound implementation guidance and
+Harrismith evidence — each separately registered and labelled in
+[`module-03-iso-19650-principles/external-source-register.md`](module-03-iso-19650-principles/external-source-register.md).
+
+Three positions are fixed for the module and are not open to convenience:
+
+- **`ISO 19650-1:2018` and `ISO 19650-2:2018` are the current published
+  editions.** Both have revision projects under development; **drafts are
+  recorded and never taught as requirements.**
+- **The UK BIM Framework is official implementation guidance, UK jurisdiction.**
+  It is not the ISO text, not a universal national annex, and not automatically
+  applicable in South Africa.
+- **No Harrismith conformity with ISO 19650 is claimed** — consistent with the
+  BEP's own §11.2 and §13.4, which claim influence and expressly decline
+  compliance. **No clause-by-clause assessment exists**, and no clause reference
+  appears anywhere in the module.
+
+**Outstanding:** **Slides 4–14**, then visual source, then the assembly package,
+then PowerPoint production, then review, then rehearsal.
+
+### Modules 4–8 — future scope
+
+Modules 4–8 are recorded below as the intended sequence. **None of their material
+exists**, and their scope may change as the earlier modules are delivered and
 reviewed.
 
-### Modules 2–8 — intended scope
+**Module 3 does not consume their scope.** CDE workflows and states in detail
+belong to Module 4; responsibility matrices and delivery planning to Module 5;
+coordination, review, approval and assurance to Module 6. Module 3 explains **why
+those controls exist** and how they relate — not how they operate.
+
+### Modules 3–8 — intended scope
 
 | # | Module | Intended subject | Principal expected sources |
 |---|---|---|---|
-| 2 | BIM Management roles and responsibilities — **now active; see above** | Functional roles, the difference between technical and information-management responsibility, delegation and role combination, why authority never comes from platform permission | BEP §4.6, §5; `information-management-responsibility-matrix.md`; `coordination-review-strategy.md` §3 |
-| 3 | ISO 19650 information-management principles | The principles that inform the approach — purposeful exchange, originator/recipient separation, the state model — and the limits of what this implementation claims | BEP §13.4, §11.2; `guidance/BIM-Delivery-Guide.md` G12 |
+| 3 | ISO 19650 information-management principles — **now active; see above** | What ISO 19650 is intended to govern; information management rather than software; requirements before production; the life-cycle framing; Part 1 against Part 2; functions rather than job titles; and **the limits of what this implementation claims** | **Registered external sources** — `ISO 19650-1:2018` and `ISO 19650-2:2018` public metadata; UK BIM Framework guidance (**UK jurisdiction**) — plus BEP §11.2, §13.4, §4.6, §6.1 |
 | 4 | CDE workflows and information states | WIP, Shared, Published/Authorised, Record/Retained; controlled transitions; state versus folder; version, revision, status and suitability as four separate properties | BEP §6; `cde-workflow-state-strategy.md` |
 | 5 | Responsibility matrices and information-delivery planning | The Perform/Check/Authorise/Coordinate/Accept/Consult/Inform grammar; container allocation; delivery events, purpose and suitability | Both matrices; `information-delivery-schedule.md` |
 | 6 | Coordination, review, approval and assurance | Federation, findings, triage, Issues, the coordination cycle, verification; check ≠ authorise ≠ accept | BEP §8, §9; `coordination-review-strategy.md` |
@@ -102,7 +133,10 @@ principles until Triviron project context is available.
 
 One module at a time, in bounded increments.
 
-- A module is developed, delivered, and reviewed before the next is opened.
+- A module is developed to a complete content baseline before the next is
+  opened. **Delivery, review and rehearsal may lag** — Modules 1 and 2 are
+  produced with their review and rehearsal **deferred**, and Module 3 does not
+  wait on them. Deferred is not complete, and the roadmap says so in both places.
 - A module's scope may be revised after delivery; the roadmap is a plan, not a
   commitment.
 - Delivery experience feeds back into
@@ -147,16 +181,20 @@ of governance under condition. Describing it neither advances nor reopens it.
 
 | Field | Value |
 |---|---|
-| **Active module** | **Module 2 — BIM Management Roles and Responsibilities** — **CURRENT — ACTIVE** |
-| Module 2 deliverable | 20-minute presentation on roles, functions and authority — **content baseline complete, not final** |
-| Module 2 slides developed | **Slides 1–14** — the full working content baseline |
-| Module 2 established | Structure · role inventory · authority inventory · 20-minute architecture · Slides 1–14 · module-wide reconciliation · **visual source** |
-| Module 2 visual source | **Complete (T2-D)** — `M02-S01`–`M02-S14` in [`assets/module-02/`](assets/module-02/); no external evidence required |
-| Module 2 assembly package | **Complete (T2-E)** — [`module-02-roles-and-responsibilities/presentation/`](module-02-roles-and-responsibilities/presentation/) |
-| Module 2 rendered assets | **None** — no renderer available; source committed instead |
-| Module 2 outstanding | **PowerPoint production (next), review, rehearsal** |
+| **Active module** | **Module 3 — ISO 19650 Information-Management Principles** — **CURRENT — ACTIVE** |
+| Module 3 deliverable | 20-minute, **fourteen-slide** presentation — **structure and Slides 1–3 only; not final** |
+| Module 3 slides developed | **Slides 1–3.** Slides 4–14 **outstanding** |
+| Module 3 established (T3-A) | Structure · **external-source control framework** · published-versus-draft ISO status · ISO-versus-guidance separation · 20-minute fourteen-slide architecture · **Harrismith mapping method** · Slides 1–3 |
+| Module 3 external sources | **Registered (T3-A)** — [`external-source-register.md`](module-03-iso-19650-principles/external-source-register.md). **The ISO standards are not held in this repository and have not been read**; no ISO text is reproduced |
+| Module 3 conformity position | **No Harrismith conformity with ISO 19650 is claimed.** No clause-by-clause assessment exists; **no clause reference appears in the module** |
+| Module 3 visual source | **None** |
+| Module 3 assembly package | **None** |
+| Module 3 outstanding | **Slides 4–14**, visual source, assembly package, PowerPoint, review, rehearsal |
+| Module 2 | Content baseline, visual source and assembly package **produced**; PowerPoint assembled **outside this repository** |
+| Module 2 outstanding | **Presentation review and rehearsal — DEFERRED**, not complete, until the presenter chooses to perform them |
 | Module 1 | Content baseline, visual source and assembly package **produced**; PowerPoint assembled **outside this repository** |
 | Module 1 outstanding | **Presentation review and rehearsal — DEFERRED**, not complete, until the presenter chooses to perform them |
-| Modules 3–8 | **Future scope** — not started |
+| Module 1 and 2 `.pptx` files | **Derivative outputs — not committed to this repository** |
+| Modules 4–8 | **Future scope** — not started |
 | Publication automation | **PAUSED** |
 | Source material status | Training Baseline 0.1 — approved with conditions; publication NOT AUTHORISED |
