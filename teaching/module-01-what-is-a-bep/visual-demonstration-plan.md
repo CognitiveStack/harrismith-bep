@@ -250,6 +250,124 @@ looks like a programme will be read as one.
 
 ---
 
+## 2B. Slide-specific visual plan — Slides 9–14
+
+Same discipline as §2A. **No image assets are created in this increment.**
+
+An additional field appears here — **overclaim risk** — because Slides 9–13 all
+describe governed processes that are **not evidenced as running**. A visual that
+looks like a live system implies implementation the sources expressly deny.
+
+### Slide 9 — Information moves through controlled CDE states
+
+| Field | Value |
+|---|---|
+| **Teaching purpose** | Show four controlled states, each defining permitted use rather than location |
+| **Proposed form** | Simplified state-flow diagram using Harrismith terminology |
+| **Repository source** | CDE Workflow & State Strategy §1 (four-state table), §13 (version/revision/state/status/suitability); BEP §6.3, §6.7 |
+| **Simplify** | Four states, four short definitions. One line under each on what it does *not* mean |
+| **Omit** | **`Archived` — it is not an adopted Harrismith state.** The fourth is **Record / Retained**. Also omit any folder icon, any folder path, and the full §13 five-term table (state it in speech) |
+| **Evidence classification** | **Direct** — the states and their definitions are source wording |
+| **Producible from Markdown?** | **Yes** |
+| **Later bounded observation?** | Would add little. A platform view would show *folders*, which is the misreading this slide exists to prevent |
+| **Overclaim risk** | **Medium.** A clean four-box flow implies the flow is operating. Caption it as the governed model, not as current project behaviour |
+
+**Design note.** Draw *Record / Retained* deliberately detached — no folder, no
+box in the same row as the others if that reads as a location. The source is
+explicit that it is a conceptual state and a retention requirement, not
+necessarily a folder, and that the retention approach is TBD.
+
+### Slide 10 — A folder location is not the same as an information status
+
+| Field | Value |
+|---|---|
+| **Teaching purpose** | Separate technical file movement from governed status transition; separate permission from authority |
+| **Proposed form** | Two-column comparison — *technical action* against *governed decision* — with permission and authority shown as separate, non-touching concepts |
+| **Repository source** | CDE Strategy §3 (transition control table T1–T8), §14 (access and permission model), §17 (platform implementation rules); BEP §5.9, §9.7 |
+| **Simplify** | Show **four transitions, not eight** — T1, T4, T7, T8. Four columns only: from, to, trigger/check, required function. Enlarge the two **UNRESOLVED — TBD** values |
+| **Omit** | All three sub-tables of §3 in full; T2, T3, T5, T6; any arrow suggesting automation; any Autodesk permission-settings screenshot |
+| **Evidence classification** | **Direct** for the transitions, triggers, functions and the unresolved authorities; **synthesis** for the required message |
+| **Producible from Markdown?** | **Yes** |
+| **Later bounded observation?** | **No — and it would be actively counterproductive.** A permissions view invites exactly the permission-equals-authority inference the slide refutes |
+| **Overclaim risk** | **Low, if T4 is shown blocked.** High if the sequence is drawn as complete — which would invent an authority the sources leave unresolved |
+
+**Requirement, not preference.** T4 must appear with its authority marked
+unresolved and its status blocked. A tidy end-to-end diagram here would
+manufacture governance, and the module spends Slide 13 arguing against exactly
+that.
+
+### Slide 11 — Coordination is a managed review cycle
+
+| Field | Value |
+|---|---|
+| **Teaching purpose** | Show coordination as a repeatable cycle, not a clash test |
+| **Proposed form** | Circular or staged cycle — six labelled stages |
+| **Repository source** | Coordination & Review Strategy §17 (the sixteen-step cycle), §1 (principles), §8 (federation), §12 (finding vs Issue), §21 (completion) |
+| **Simplify** | Six stages: prepare → federate → check → triage → resolve → verify and close. The sixteen source steps belong in speaker notes |
+| **Omit** | The full sixteen-step list; any Navisworks or Model Coordination screenshot; any clash count; any tolerance value (**TBD** in source); any meeting frequency (**not established**) |
+| **Evidence classification** | **Direct** for the cycle and the four distinctions; **interpretation** for the six-stage grouping |
+| **Producible from Markdown?** | **Yes** |
+| **Later bounded observation?** | **Possibly, later** — a Model Coordination view could illustrate federation. But see the overclaim risk, which is the highest in the module |
+| **Overclaim risk** | **High.** The sources record that **no Design Collaboration Coordination Space was observed configured** (OF-005), that the issue status model is **not claimed to be configured**, and that the taxonomy-to-platform mapping is **not yet made**. Any platform imagery here would imply a running coordination process that is not evidenced |
+
+**Caption requirement.** If a federated-model image is ever used, it is captioned
+as *the governed coordination model* — never as *Harrismith's coordination
+process in operation*.
+
+### Slide 12 — From coordination issue to recorded resolution
+
+| Field | Value |
+|---|---|
+| **Teaching purpose** | Show that detection and recording are not resolution and closure |
+| **Proposed form** | Concise issue-lifecycle diagram — the six governed statuses in sequence, with Deferred and Escalated branching off |
+| **Repository source** | Coordination Strategy §15 (status model), §13 (triage outcomes), §16 (assignment), §18 (technical resolution), §19 (verification), §27 (worked example) |
+| **Simplify** | Six statuses plus two branches. Add one call-out on the verification step — *closure follows re-coordination against reshared information* |
+| **Omit** | The seven-type issue taxonomy; the seven triage outcomes; any ACC Issues screenshot; any issue identifier, clash coordinate, tolerance or named person |
+| **Evidence classification** | **Direct** for the status model and the closure rule; **interpretation** for the eight-step teaching sequence and the five-function table |
+| **Producible from Markdown?** | **Yes** |
+| **Later bounded observation?** | **No.** An ACC Issues view would directly contradict the source's own statement that the status model is not claimed to be configured |
+| **Overclaim risk** | **High — the highest of any single visual in the module.** A lifecycle diagram styled to resemble an ACC Issues board would assert a verified live workflow that does not exist |
+
+**Do not make this look like a platform.** Plain boxes, governance labels, no
+product chrome. If the diagram could be mistaken for a screenshot, redraw it.
+
+### Slide 13 — Approval does not prove implementation
+
+| Field | Value |
+|---|---|
+| **Teaching purpose** | Separate approval, authorisation, implementation, evidence and verification |
+| **Proposed form** | Two-column comparison — *evidence of approval* against *evidence of implementation* |
+| **Repository source** | Training Baseline 0.1 Approval Decision §3, §8, §11; BEP §12.3, §12.8, §12.9, §9.11; CDE Strategy §6 (intended vs implemented) and §16 (evidence); Coordination Strategy §22 |
+| **Simplify** | Five rows per column at most. Consider the UD-001 lifecycle strip beneath, with the **STOPS HERE** marker enlarged — it teaches faster than the table |
+| **Omit** | **The publication-planning history** — conditions C1–C6, prerequisites P1–P8, PAD-001, the publication hold, the naming control. None of it belongs on this slide. Also omit any completion percentage or maturity score |
+| **Evidence classification** | **Direct** for "approval is not implementation, and implementation is not verification" and for the outstanding-implementation statements; **interpretation** for the five-state framing; **synthesis** for the required message and for *correctly named information* as an evidence example |
+| **Producible from Markdown?** | **Yes** |
+| **Later bounded observation?** | **No** — and note the irony worth avoiding: observing the platform to prove implementation would be a separate authorised activity, and the point of the slide is that no such verification has been performed |
+| **Overclaim risk** | **Inverted here.** The risk is *underclaiming* — presenting Harrismith as broken rather than as honestly incomplete. Frame the unresolved list as discipline |
+
+**Scope guard.** This slide has one job. If the visual grows a publication
+timeline, it has left the increment's boundary and reopened a paused programme.
+
+### Slide 14 — What must Triviron decide for itself?
+
+| Field | Value |
+|---|---|
+| **Teaching purpose** | Move from worked example to the audience's own project, as questions |
+| **Proposed form** | Transfer diagram: `worked example → questions → project-specific decisions → implemented Triviron BEP` |
+| **Repository source** | The unresolved-matters sections across all seven sources, plus [`source-map.md`](source-map.md) subject 10. **No Triviron source exists** |
+| **Simplify** | Four boxes in the transfer chain. Beneath it, **five or six questions**, not thirteen — the full list belongs in the notes and the handout |
+| **Omit** | **Every Triviron fact, name, date, organisation, platform choice and requirement.** Also omit any tick, progress indicator or completion state on the final box — the Triviron BEP does not exist |
+| **Evidence classification** | **Synthesis** for the closing message and the three takeaways; **direct** for each question's derivation from a recorded Harrismith gap |
+| **Producible from Markdown?** | **Yes** |
+| **Later bounded observation?** | **Not applicable.** No Triviron material exists to observe, and Harrismith observation would add nothing here |
+| **Overclaim risk** | **High, of a specific kind.** The final box — *implemented Triviron BEP* — must read as a destination, not a plan. Anything resembling a schedule, phase count or scope estimate would assert Triviron decisions that do not exist |
+
+**Design note.** Draw the final box in outline only — unfilled, dashed, or
+otherwise visibly not-yet-real. The first three boxes describe what exists; the
+fourth describes work nobody has started.
+
+---
+
 ## 3. Summary
 
 | Ref | Visual | From repo? | Live obs. may help | Over-detail risk |
@@ -281,8 +399,29 @@ is the one whose absence would be most felt, because the talk opens with it.
 
 This is worth stating plainly: **the nine-minute middle of the presentation
 needs no screenshots, no model views and no Autodesk access.** It is redrawn and
-extracted text. The visuals that need external material are all at the opening
-and in the later CDE and coordination sections.
+extracted text.
+
+### Slides 9–14 — all six producible without any external material
+
+| Slide | Form | From Markdown alone? | Live observation | Overclaim risk |
+|---|---|---|---|---|
+| 9 | State-flow diagram | Yes | Adds little | Medium |
+| 10 | Two-column: technical action vs governed decision | Yes | **Counterproductive** | Low if T4 shown blocked |
+| 11 | Staged coordination cycle | Yes | Possibly later | **High** |
+| 12 | Issue-lifecycle diagram | Yes | **No** | **High** |
+| 13 | Two-column: approval vs implementation | Yes | No | Inverted — risk is underclaiming |
+| 14 | Transfer diagram | Yes | Not applicable | High, Triviron-specific |
+
+**The whole presentation is producible from committed Markdown.** Of the ten
+candidate evidence sources in §2, only V1 (project/model image), V9 (ACC folder
+view) and V10 (Revit/federated view) require material that does not exist — and
+none of them is required for any of the fourteen slides to be delivered. They
+would enrich Slides 1, 9 and 11; they are not prerequisites.
+
+**Live Autodesk observation is unnecessary for every slide in the deck.** For
+Slides 10 and 12 it would be worse than unnecessary: a permissions view or an
+ACC Issues board would assert precisely the implementation the sources record as
+not evidenced.
 
 ## 4. Standing cautions
 

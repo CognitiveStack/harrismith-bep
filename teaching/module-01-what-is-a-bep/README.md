@@ -26,18 +26,28 @@ A clear **20-minute presentation**, using Harrismith as the worked example.
 | Expected slide count | Approximately 12–14 slides |
 | Worked example | Harrismith Fire Station |
 | Transfer context | A future Triviron multidisciplinary project |
-| Current state | **In development.** Slides 1–8 drafted as a working teaching baseline |
+| Current state | **Content baseline complete — Slides 1–14.** Module not complete |
 
-**This presentation is not final.** Eight of an expected twelve to fourteen
-slides exist, covering approximately the first thirteen minutes. The timing
-structure in [`presentation-outline.md`](presentation-outline.md) is a working
-structure and has not been rehearsed against a clock.
+**The full Slides 1–14 working content baseline exists.** All ten sections of
+the timing structure are covered, and the presentation can be delivered end to
+end from this source.
 
 | Slides | Sections covered | Time | State |
 |---|---|---:|---|
 | 1–3 | Opening; what a BEP is and is not | 4 min | Drafted |
 | 4–8 | Who prepares/reviews/approves; template vs project-specific; Harrismith structure; responsibilities and delivery planning | 9 min | Drafted |
-| 9–14 | CDE workflow; coordination and review; approval vs implementation; transfer to Triviron | 7 min | Not started |
+| 9–14 | CDE workflow; coordination and review; approval vs implementation; transfer to Triviron | 7 min | Drafted |
+
+**This presentation is not final, and Module 1 is not complete.** What remains:
+
+| Outstanding | Note |
+|---|---|
+| **Visual assets** | None exist. Every visual in [`visual-demonstration-plan.md`](visual-demonstration-plan.md) is a candidate, not a prepared slide |
+| **Rehearsal** | The 20-minute total has never been measured against a clock |
+| **Refinement** | Slide wording will change once it has been spoken aloud |
+| **Final presentation production** | No PowerPoint or equivalent artefact exists, and none is produced from this repository |
+
+Module 1 remains the **current active module** on the programme roadmap.
 
 ## 3. What the presentation must explain
 
@@ -103,8 +113,8 @@ understand why they exist. It does not teach them.
 
 | File | Holds |
 |---|---|
-| [`presentation-outline.md`](presentation-outline.md) | The 20-minute timing structure and the developed slides |
-| [`speaker-notes.md`](speaker-notes.md) | Natural-language delivery notes for Slides 1–3 |
+| [`presentation-outline.md`](presentation-outline.md) | The 20-minute timing structure and all fourteen slides |
+| [`speaker-notes.md`](speaker-notes.md) | Natural-language delivery notes for Slides 1–14 |
 | [`visual-demonstration-plan.md`](visual-demonstration-plan.md) | Candidate visual evidence, its sources and its risks |
 | [`exercises.md`](exercises.md) | Practice and self-assessment |
 | [`source-map.md`](source-map.md) | Traceability from each subject to controlled sources |

@@ -1,4 +1,4 @@
-# Module 1 — Speaker Notes, Slides 1–8
+# Module 1 — Speaker Notes, Slides 1–14
 
 **Status:** Working notes. **Not a script, and not final.**
 
@@ -673,7 +673,7 @@ information. It is authorised for one purpose and says so.
 | "Does delivering it mean they've accepted it?" | No — four separate states. Published is authorised for a purpose; Delivered is sent; Received is arrived; Accepted is acknowledged as suitable. And acceptance doesn't transfer technical responsibility back from whoever produced it. |
 | "Do all six disciplines reshare every cycle?" | No. The reshare rows are conditional templates — a cycle may activate one, several or none. An unactivated row isn't a pending exchange and carries no expectation that anyone produces anything. |
 
-### Transition to next section
+### Transition to Slide 9
 
 From *what is planned* to *where it physically lives and how it moves*: "Every
 one of those rows says a state — Shared, Published. So let me show you what those
@@ -698,6 +698,704 @@ not document numbers.
 
 ---
 
+## Slide 9 — Information moves through controlled CDE states
+
+### Purpose
+
+Establish that a CDE is a controlled process, not a shared folder tree —
+information changes state by decision, according to purpose, suitability,
+checking and authority.
+
+### Essential message
+
+1. **Four controlled states**: WIP, Shared, Published / Authorised, Record /
+   Retained.
+2. Each state says **what the information may be used for** — not where it sits.
+3. **Movement is never automatic.** Every transition has a trigger, a required
+   check, an authorisation decision and a responsible function.
+4. Version, revision, state, status and suitability are **five different
+   things**, never used interchangeably.
+
+### Suggested wording
+
+> "Every delivery row we just looked at named a state. So what is a state?
+>
+> There are four. WIP — the team's own working information, not for anyone else
+> to rely on. Shared — deliberately made available beyond the team that produced
+> it, for a stated purpose, after it's been checked and someone has authorised
+> it. Published or Authorised — authorised for a defined delivery or use. And
+> Record or Retained — kept as evidence, for traceability.
+>
+> Here's what I want you to take from this. A state isn't a location. It's a
+> statement about **what you're allowed to do with the information.** Shared
+> doesn't mean approved. Published doesn't mean final, and it doesn't mean anyone
+> accepted it.
+>
+> And nothing moves between those states on its own. Every step has a trigger,
+> something that has to be checked, someone who has to authorise it, and a named
+> function that does it. Saving a newer version doesn't change the state. It
+> doesn't create a revision, it isn't approval, and it doesn't make the
+> information suitable for something it wasn't suitable for yesterday."
+
+### Shorter fallback
+
+> "Four states: WIP, Shared, Published or Authorised, and Record or Retained.
+> A state tells you what the information may be used for, not where it's stored.
+> And nothing moves between them automatically — each step needs a check, an
+> authorisation and a named function."
+
+### Harrismith worked example / evidence reference
+
+**The fourth state is the instructive one.** Harrismith calls it **Record /
+Retained**, not "Archived" — and the CDE Strategy is explicit that it is a
+conceptual state and a retention requirement, **not necessarily a folder**. It
+records that **no mandatory CDE root named `04 Archive` is required or
+approved**, that none is created, and that the project's retention approach is
+**TBD**.
+
+That is a whole teaching point in one row: the project has a state it has not
+built a folder for, and it says so rather than inventing one.
+
+### Likely questions and safe answers
+
+| Question | Safe answer |
+|---|---|
+| "Isn't Shared just a folder?" | A folder may implement it. But reorganising folders doesn't change how information is governed — the source says the CDE is a process, not a folder tree. |
+| "Where's the Archive?" | Harrismith's fourth state is *Record / Retained*, and it's deliberately not tied to a folder. No `04 Archive` root is required or approved, and the retention approach is still TBD. |
+| "What about the drawings I published last week?" | On Harrismith, nothing has been published — publication is not authorised. On a real project, Published means authorised for a defined purpose at a point in time; it can still be superseded. |
+| "Does a new version create a new revision?" | No. Version, revision, state, status and suitability are five separate things, each with its own decision and responsible function. |
+| "Who decides when something becomes Shared?" | The Task-Team Lead authorises it, after the required checks. The author performs the work but doesn't self-authorise. |
+
+### Transition to Slide 10
+
+Set up the correction the next slide delivers: "Now — that all sounds tidy, and
+there's one place where it goes wrong in practice. People start treating the
+folder as the state."
+
+### Delivery warning
+
+**The likely misunderstanding: the audience maps the four states onto four
+folders and stops thinking.** It is the most natural reading, and it is the one
+the sources spend the most effort refuting.
+
+Say "state" and "folder" in the same sentence at least once, deliberately
+separating them. If you catch yourself pointing at a folder structure while
+saying "state", you have already lost the distinction — and Slide 10 will not
+recover it for you.
+
+### Source status
+
+**Direct:** the four states and their definitions; "Published does not mean
+perfect / forever final / universally suitable / accepted"; the version /
+revision / state / status / suitability distinction; the *Record / Retained*
+naming and the absence of an approved `04 Archive` root.
+**Interpretation:** the required message — "a CDE state describes how information
+may be used, not merely where the file is stored" — combines two sourced claims
+into one sentence.
+**Synthesis:** none.
+
+---
+
+## Slide 10 — A folder location is not the same as an information status
+
+### Purpose
+
+Stop the specific belief that dropping a file into a folder named *Shared* or
+*Published* makes the information coordinated, approved or suitable.
+
+### Essential message
+
+1. Folder location, workflow state, suitability, review completion,
+   authorisation, publication authority, recipient acceptance and retention
+   status are **eight different things**.
+2. **Permission is not authority.** Platform access confers no authority to
+   share, publish, approve or accept.
+3. **CDE Administration implements governance; it does not create governance.**
+4. On Harrismith, **two transitions have no assigned authority**, and one of
+   them is **blocked**.
+
+### Suggested wording
+
+> "Here's the failure mode. Someone needs a model to be Shared, so they put it in
+> the Shared folder. Job done.
+>
+> Except nothing has happened. The check hasn't been performed. Nobody
+> authorised it. The team that produced it may not know it's there. What's
+> changed is the file path.
+>
+> There's a version of this that's worse, and it's about permissions. If I can
+> write to the Published folder, it feels like I'm allowed to publish. I'm not.
+> Being able to do something in the software is a capability. Being permitted to
+> decide it is authority. Those come from completely different places —
+> permission gets configured to follow responsibility, not the other way round.
+>
+> And I'll show you how seriously Harrismith takes that. There's a transition
+> from Shared to Published. Nobody has established who's allowed to authorise it.
+> So the transition is marked **blocked** — information stays Shared. Somebody
+> could have written 'the BIM manager authorises publication' and the workflow
+> diagram would look complete. They didn't."
+
+### Shorter fallback
+
+> "Moving a file into the Shared folder doesn't make it Shared. The state changes
+> when someone checks it and someone authorises it. And permission isn't
+> authority — being able to write to a folder is a software capability, not a
+> decision anyone made. On Harrismith, the transition to Published is marked
+> blocked because nobody has been given that authority."
+
+### Harrismith worked example / evidence reference
+
+**Transition T4 — Shared to Published / Authorised.** Trigger: a defined delivery
+or exchange requirement. Required check: delivery readiness review. Decision:
+authorise publication / exchange. Performing function: **UNRESOLVED — TBD.**
+
+The evidence column records it plainly: *currently blocked — no authorisation can
+be given while the authority is unresolved. Information remains Shared.*
+
+T7 — recipient acceptance — is unresolved in the same way. Six of the eight
+transitions have a named function; two do not, and the document says which.
+
+### Likely questions and safe answers
+
+| Question | Safe answer |
+|---|---|
+| "Why can't I just move the file into Published?" | Because moving it changes where it is, not what it's authorised for. The state changes when the delivery review happens and someone with the authority authorises it. On Harrismith that authority isn't established, so the transition is blocked. |
+| "But I have write access." | Access lets you perform the action. It doesn't make you the person permitted to decide it. Permission is configured to follow approved responsibility — responsibility first, permission after. |
+| "So the CDE admin can't approve anything?" | Not in that capacity. They implement approved governance. Changing the software doesn't make a decision. |
+| "What if access and responsibility don't match?" | It's recorded as a deviation — not treated as a redefinition of who's responsible. The software doesn't get to rewrite the allocation. |
+| "Isn't 'blocked' just broken?" | It's a workflow that's honest about a missing decision. The alternative is a diagram that looks complete and an authority nobody agreed to. |
+| "Does the folder structure matter at all?" | It helps. It implements part of the process. It just isn't the process, and reorganising it doesn't change how anything is governed. |
+
+### Transition to Slide 11
+
+Move from the controlled route to the reason the route exists: "So information
+moves under control. The main reason it moves at all, at this stage of a project,
+is coordination — so let me show you what that actually involves."
+
+### Delivery warning
+
+**The likely misunderstanding: someone in the room has permission to write to
+Published and hears this as a personal accusation.** The permission point lands
+close to home for CDE administrators and senior technical staff.
+
+Depersonalise it. Talk about the *capability* and the *decision* as two different
+things rather than about who has rights. The sourced framing helps: permission is
+configured to follow responsibility, so having the permission usually means
+someone intended you to act — it just doesn't mean you get to decide.
+
+### Source status
+
+**Direct:** the eight-step transition control table with triggers, checks,
+authorisations and functions; T4 blocked; T4 and T7 authorities unresolved;
+"Permission ≠ authority" and the four things platform access does not confer;
+"CDE Administration implements governance; it does not define it"; divergence
+recorded as a deviation.
+**Interpretation:** the eight-concept list is assembled from several sections
+rather than quoted from one.
+**Synthesis:** the required message — "moving a file is a technical action;
+changing its information status is a governed decision."
+
+---
+
+## Slide 11 — Coordination is a managed review cycle
+
+### Purpose
+
+Show that coordination is neither a single clash-detection event nor the act of
+combining models — it is a repeatable management cycle.
+
+### Essential message
+
+1. Coordination is a **cycle**: prepare, federate, check, triage, resolve, verify
+   and close.
+2. **Clash detection is one technique**, not the whole process — coordination
+   manages **interfaces**.
+3. **Federation does not merge ownership.**
+4. **A finding is not an Issue** — that's a triage decision.
+5. **Completion is not "zero clashes."**
+
+### Suggested wording
+
+> "Coordination is not a clash test. A clash test is one thing that happens
+> inside it.
+>
+> The cycle goes like this. You start with controlled Shared information — not
+> whatever's in someone's WIP, information that's been checked and authorised.
+> You confirm it's ready. You federate it into a coordination set. You run the
+> checks. That produces findings.
+>
+> Then — and this is the step people skip — you **triage**. Not every finding
+> becomes a tracked issue. Plenty of them are duplicates, or out of scope, or
+> already known, or artefacts of how the test was set up. Deciding something
+> becomes a managed Issue is a decision, not an automatic consequence of the
+> software noticing something.
+>
+> The ones that do get assigned. The originating team fixes it in their own
+> model, checks it, and reshares it under control. Then you re-coordinate, verify,
+> close it, and keep the evidence.
+>
+> One thing about federation, because it gets misunderstood. Combining six
+> discipline models into one coordination view doesn't create a jointly-owned
+> model. Every container keeps its originator and its technical responsibility.
+> The coordinator runs the process; they don't own anyone's design.
+>
+> And a warning about the obvious metric. Completion isn't zero clashes. You can
+> get zero clashes by testing nothing, excluding everything, or fixing symptoms
+> instead of interfaces."
+
+### Shorter fallback
+
+> "Coordination is a cycle: controlled Shared inputs, readiness check, federate,
+> check, triage the findings, assign the ones that matter, the originating team
+> corrects and reshares, then re-coordinate, verify and close with evidence.
+> Clash detection is one step. Federation doesn't merge ownership. And completion
+> isn't zero clashes — you can get zero clashes by testing nothing."
+
+### Harrismith worked example / evidence reference
+
+**COORD-01**, the federated coordination set. The Model / Information
+Responsibility Matrix records what it is not, in five bullets: it does not merge
+authorship, transfer technical ownership, create a new design author, replace the
+discipline containers, or automatically become a formal deliverable.
+
+Its potential inputs are ARC-01, STR-01, MEC-01, ELE-01, PLM-01 and FIR-01, as
+applicable — and it is **not a project deliverable** unless and until it is
+scheduled as one through an explicit decision.
+
+### Likely questions and safe answers
+
+| Question | Safe answer |
+|---|---|
+| "So this is Navisworks?" | Navisworks or Model Coordination may be where a check runs. But the source is explicit that Navisworks is not a separate governance system — a result found there enters the same governed finding and Issue workflow as any other. The tool doesn't determine how the matter is managed. |
+| "Is this running on Harrismith now?" | No, and be precise: no Design Collaboration Coordination Space was observed configured, the issue status model isn't claimed to be configured, and the platform mapping hasn't been made. This is how it would work. |
+| "Who owns the federated model?" | Nobody, in an authorship sense. It's a temporary controlled aggregation. Each contributed container keeps its originator and its technical responsibility. |
+| "Do all clashes have to be fixed?" | No — triage decides. A finding can be a false positive, an accepted condition for the defined check, or deferred with a recorded reason. What matters is that the disposition is recorded. |
+| "How often does the cycle run?" | Not established. The source prescribes no meeting frequency and records coordination-cycle frequency as not established. On a real project that's a decision to take. |
+| "What are the clash tolerances?" | TBD — recorded as unresolved. No numeric tolerance exists on Harrismith. |
+
+### Transition to Slide 12
+
+Narrow from the cycle to its most misunderstood step: "That triage step, and what
+happens to the issues that come out of it — that's where coordination either
+works or quietly doesn't."
+
+### Delivery warning
+
+**The likely misunderstanding: the audience hears a software demo.** The moment
+you say "federate" and "clash", people picture Navisworks and stop hearing the
+management content.
+
+Counter it by keeping the *decisions* in the foreground — readiness, triage,
+assignment, verification. Those are the parts no tool performs. If you find
+yourself describing an interface, you have drifted into Module 4 and 6 territory
+and out of this slide.
+
+### Source status
+
+**Direct:** the sixteen-step coordination cycle; "interfaces, not geometry
+alone"; "clash detection is one technique"; federation does not merge ownership;
+finding ≠ Issue and triage as a decision; "completion is not zero clashes";
+Navisworks is not a separate governance system; OF-005 and the unconfigured
+Coordination Space; the status model not claimed to be configured; the taxonomy
+as governance concepts, not Autodesk-native labels.
+**Interpretation:** the six-stage grouping of the sixteen steps; the required
+message — "clash detection can identify a problem; coordination management
+determines what happens next."
+**Synthesis:** none.
+
+---
+
+## Slide 12 — From coordination issue to recorded resolution
+
+### Purpose
+
+Show that detecting or recording an issue is not the same as resolving and
+closing it — and that closing a software issue approves nothing.
+
+### Essential message
+
+1. The governed status model: **New → Triaged → Assigned → In Progress → Ready
+   for Verification → Closed**, with **Deferred** and **Escalated** as controlled
+   alternates.
+2. **The coordinator coordinates; the task team resolves.** Assigning an issue
+   does not make the coordinator responsible for designing the fix.
+3. **Closure follows re-coordination against reshared, controlled information** —
+   not someone's word that it was fixed.
+4. **Closing an issue is not design approval.**
+5. No single universal approver exists.
+
+### Suggested wording
+
+> "An issue has a life, and the two ends of it get confused constantly.
+>
+> Something is detected. It's triaged, and if it needs ownership and tracking it
+> becomes a managed Issue. It's assigned. The team works on it. Then — and this
+> is the step that gets skipped — it goes to *ready for verification*, and only
+> then to closed.
+>
+> Two things about who does what. The coordinator coordinates the assignment; the
+> task team owns the technical response. Assigning an issue to someone doesn't
+> make the coordinator responsible for designing the fix. And the correction
+> happens in that team's own working environment, gets checked, and gets
+> **reshared under control** — you don't edit the shared copy in place.
+>
+> Here's the line I'd underline. A material issue is not closed because somebody
+> says it was fixed in WIP. Closure follows re-coordination against the reshared
+> information. A change nobody can see in Shared information has not been
+> demonstrated.
+>
+> And the one that matters most for this audience: closing the issue is not
+> approving the design. Verification confirms the coordination process reached a
+> disposition. That's it. It's not design approval, not certification, not
+> permission to publish, and not anyone accepting anything."
+
+### Shorter fallback
+
+> "New, triaged, assigned, in progress, ready for verification, closed — plus
+> deferred and escalated. The coordinator coordinates; the task team owns the fix,
+> in its own WIP, then checks and reshares it. Closure follows re-coordination
+> against the reshared information, not someone's word. And closing an issue
+> isn't approving the design — verification confirms the process reached a
+> disposition, nothing more."
+
+### Harrismith worked example / evidence reference
+
+Use the source's own **educational workflow example** — it is explicitly labelled
+in the Coordination Strategy as illustrative and states that it "does not
+describe an actual condition on the project."
+
+> A mechanical service route conflicts with structural information — **STR-01**
+> versus **MEC-01**.
+
+Twelve steps: both shared as coordination inputs → readiness confirmed, COORD-01
+federated → check executed, a finding identified → triage decides action is
+required, so it becomes an Issue → assigned by the BIM Coordinator → each team's
+response happens in **its own WIP** → task-team check → the affected TRN-E02 rows
+activate, **only for containers that actually changed** → Task-Team Lead
+authorises reshare → re-coordinate → coordinator verifies → close if the criteria
+are met.
+
+**Say the label out loud**: this is an illustration, not a recorded Harrismith
+event. There is no actual geometry, no clash coordinates, no Issue identifier, no
+tolerance value and no named person — and inventing any of them would be the
+exact failure the module teaches against.
+
+### Likely questions and safe answers
+
+| Question | Safe answer |
+|---|---|
+| "Does closing the ACC issue approve the design?" | No. Verification confirms the coordination process reached a disposition. It is expressly not design approval, professional certification, publication authority or recipient acceptance. The originating team keeps technical responsibility throughout. |
+| "Who closes it?" | Verification sits with the coordinator, against the governed criteria. But no single universal approver exists on Harrismith, and acceptance authority is unresolved — so don't let 'closes it' become 'approves everything'. |
+| "What if two teams have to change?" | Each remains responsible for its own information. A jointly-agreed resolution is still a set of separate changes under separate responsibility. |
+| "What does 'accepted condition' mean at triage?" | Only that the finding needs no further action for that defined check and purpose. It is a coordination disposition — not recipient acceptance and not design approval. |
+| "Can we just fix it and move on?" | You can fix it. The issue isn't closed until the corrected information has been checked, reauthorised, reshared and re-coordinated — and the evidence retained. |
+| "Is this how ACC issues are set up on Harrismith?" | No. The status model is a governance model, and the source says plainly it is not claimed to be configured in the platform. The mapping would follow a decision that hasn't been taken. |
+| "What if it can't be resolved?" | Deferred with a recorded reason, or escalated. Both are controlled dispositions — what isn't allowed is quietly closing it. |
+
+### Transition to Slide 13
+
+Step back from process to status: "Everything I've described is what the team
+*agreed* to do. Which brings me to the most useful thing I can tell you about
+this whole example."
+
+### Delivery warning
+
+**The likely misunderstanding: the audience concludes that a closed issue log
+means a coordinated project.** It is the metric managers reach for, and it is
+precisely what the sources warn against — completion is not zero clashes, and a
+finding closed without record is a finding that will be rediscovered.
+
+Guard it by pairing every mention of closure with its condition: closed **after
+verification against reshared information**, with evidence retained. Never say
+"closed" on its own.
+
+**Second risk:** do not present the STR-01 / MEC-01 example as something that
+happened. It is an illustration from the source, and the source says so.
+
+### Source status
+
+**Direct:** the six-stage status model plus Deferred and Escalated; the triage
+dispositions; "an Issue assigned to a task team does not make the BIM Coordinator
+responsible for designing the fix"; "a material Issue is not closed solely
+because someone says it was fixed in WIP"; verification ≠ design approval /
+certification / publication authority / acceptance; "accepted condition" is a
+coordination disposition only; the twelve-step worked example and its
+no-invention statement; the status model not claimed to be configured.
+**Interpretation:** the eight-step teaching sequence and its five-function
+table are assembled across §§12–19; the required message — "an issue is complete
+only when the agreed response has been verified and the required evidence has
+been retained."
+**Synthesis:** none.
+
+---
+
+## Slide 13 — Approval does not prove implementation
+
+### Purpose
+
+Separate five things the audience hears as one: approving a document, authorising
+an action, implementing the process, evidencing that it was followed, and
+verifying that it works.
+
+### Essential message
+
+1. **Approval is not implementation, and implementation is not verification.**
+2. An approved BEP is **not self-executing**.
+3. Harrismith is the worked example: approved with conditions, unresolved matters
+   carried past approval, one governed coordination cycle still outstanding,
+   verification in use **not performed**.
+4. Evidence of approval and evidence of implementation are **different
+   artefacts**.
+
+### Suggested wording
+
+> "Everything I've shown you is what a project team agreed to do. Now the most
+> useful thing I can tell you.
+>
+> A signed BEP doesn't execute itself. There are five different states here and
+> they're not the same. Something can be approved. A specific act can be
+> authorised. The process can be implemented. There can be evidence it was
+> followed. And someone can have verified that the implementation actually works.
+>
+> The Harrismith approval decision says it in one line: approval is not
+> implementation, and implementation is not verification.
+>
+> So let me be straight about my own example. Harrismith's documentation was
+> approved with conditions, for training and reference use. The decision record
+> itself lists what that doesn't mean — not implemented as a complete live
+> workflow, not verified through a complete governed coordination cycle, not
+> published, delivered, received or accepted. There's a nice line in it:
+> Published, Delivered, Received and Accepted are not synonyms for approved.
+>
+> And it carried a list of unresolved matters straight past approval — the
+> team-space mapping, publication authority, acceptance authority, every role
+> holder, all four project standards.
+>
+> Which is the point. An approved baseline that records what it hasn't resolved
+> is more honest than one that quietly fills the gaps. If somebody hands you a
+> BEP with no open questions in it, that's not a finished BEP. That's an
+> unfinished conversation."
+
+### Shorter fallback
+
+> "Approval is not implementation, and implementation is not verification. A
+> signed BEP doesn't execute itself. Harrismith's documentation is approved with
+> conditions — and the approval record itself says it isn't implemented as a live
+> workflow, isn't verified through a coordination cycle, and carries a list of
+> unresolved matters past approval. Evidence of approval is a decision record.
+> Evidence of implementation is checks, authorisations, coordination records and
+> receipts."
+
+### Harrismith worked example / evidence reference
+
+**UD-001 on the implementation lifecycle** — the clearest single illustration
+available:
+
+```
+observe                            ✓ done
+  → record                         ✓ done
+  → decide intended state          ← STOPS HERE. Decision unresolved.
+  → authorise change               — not reached
+  → CDE Administration implements  — not reached
+  → verify                         — not reached
+```
+
+An observed discrepancy in the Design Collaboration team-space mapping,
+confirmed as current through manual UI evidence, **recorded and deliberately not
+corrected**. Every downstream step is unavailable because the decision hasn't been
+taken — and the source states why implementing now would be "configuration
+without a decision behind it — the exact failure this model exists to prevent."
+
+Alongside it: **observed state does not prove correctness; intended state does
+not prove implementation; implementation does not prove success until verified.**
+
+### Likely questions and safe answers
+
+| Question | Safe answer |
+|---|---|
+| "So the BEP doesn't work?" | It's an agreed position that hasn't been fully exercised. That's a normal state for a baseline — and it's recorded rather than hidden, which is what makes it usable for teaching. |
+| "How would you prove implementation?" | Different artefacts entirely: checking records, authorisation records, state-transition evidence, coordination inputs and issue history, transmission and receipt records, retained audit evidence. |
+| "Why not just fix the mapping discrepancy?" | Because nobody has decided what the intended state should be. Changing the platform first would be configuration without a decision behind it — and it would erase the evidence of what was actually there. |
+| "Isn't 'approved with conditions' a fudge?" | The opposite. It names exactly what remains open and keeps each item visible with a route. A clean approval over the same gaps would hide them. |
+| "When will it be implemented?" | Not established, and I won't invent a date. One governed coordination cycle is recorded as outstanding, and verification in use as not performed. |
+| "What about publishing it?" | Publication is not authorised and the publication programme is deliberately paused. That's a decision about the programme, not a gap in the BEP — and it's outside what this presentation covers. |
+
+### Transition to Slide 14
+
+From the example to the audience's own project: "So that's Harrismith. Which
+leaves the question you've all been waiting for, which is what any of this means
+for us."
+
+### Delivery warning
+
+**The likely misunderstanding: the audience hears the whole talk being
+undermined.** You have spent seventeen minutes on an example and are now saying
+it isn't running. Some of them will read that as "so this was theoretical."
+
+Land it as strength, not apology. The distinction *is* the lesson — and a
+documentation set that records what it hasn't implemented is demonstrating the
+discipline being taught. Say it in that order: the principle first, Harrismith as
+its illustration second.
+
+**Second risk, and it is a real one: do not let this become a publication-history
+slide.** The approval record contains conditions, prerequisites and a publication
+hold with its own long history. None of it belongs here. Use the minimum evidence
+that teaches the distinction, and move on. Publication automation remains paused,
+and this slide does not reopen it.
+
+### Source status
+
+**Direct:** "Approval is not implementation, and implementation is not
+verification"; the list of what APPROVED WITH CONDITIONS does not mean;
+"Published, Delivered, Received and Accepted are not synonyms for approved"; the
+unresolved matters carried past approval; one governed coordination cycle
+outstanding and verification in use not performed; "an approved baseline that
+records what it has not resolved is more honest than one that quietly fills the
+gaps"; the UD-001 lifecycle position; "observed state does not prove
+correctness…"; BEP §12.9's "a change is not complete because a document was
+edited or a setting was clicked."
+**Interpretation:** the five-state framing (approved / authorised / implemented /
+evidenced / verified); the two-column evidence contrast, assembled from the
+sources' evidence lists.
+**Synthesis:** the required message — "approval confirms an agreed position;
+implementation produces evidence that the team is working according to it." Also
+*correctly named information* as an implementation-evidence example, marked
+generic because no naming standard is established.
+
+---
+
+## Slide 14 — What must Triviron decide for itself?
+
+### Purpose
+
+Close by moving from the worked example to the real project, and leave the
+audience with the work rather than with a document.
+
+### Essential message
+
+1. Harrismith gives Triviron **a structure and a set of questions**, not a
+   completed BEP.
+2. Thirteen decisions Triviron must take for itself — each derived from something
+   Harrismith either decided or had to leave open.
+3. **Structure and method transfer. Project-specific decisions do not.**
+4. Three closing ideas: agreed method → operating system → complete and implement
+   it for your own project.
+
+**Absolute constraint:** everything on this slide is a **question**. No Triviron
+information exists in the repository, and none may be asserted.
+
+### Suggested wording
+
+> "So what does this mean for Triviron?
+>
+> Not that we copy Harrismith. What Harrismith gives us is a tested structure and
+> a list of questions we'll have to answer ourselves — and the questions come
+> straight out of what Harrismith either decided or had to leave open.
+>
+> What does the client actually require? Who's the appointing authority? Who
+> leads delivery, and who manages information? Which disciplines and task teams?
+> What has to be produced, and who owns each piece of it? What are the real
+> milestones — the actual ones, with dates? What CDE, what folders, what states,
+> what controls? Who reviews, authorises, publishes, receives and accepts? How do
+> coordination issues get assigned, resolved, verified and closed?
+>
+> And then two that decide how much work it is. Which of these can genuinely come
+> from a template — and which have to be agreed specifically for this project,
+> with these people?
+>
+> One more, which is the one people forget. What evidence will show that we're
+> actually doing it?
+>
+> What transfers is the architecture, the division of labour, the responsibility
+> grammar, the state model, and the discipline of writing down what we haven't
+> decided yet. What doesn't transfer is every answer — because those are
+> Harrismith's answers to Harrismith's conditions."
+
+### Shorter fallback
+
+> "Harrismith gives us a structure and a set of questions, not a finished BEP.
+> Who requires what information; who leads and who authorises; which task teams;
+> what's produced and by whom; what the real milestones are; what CDE and what
+> controls; how issues get resolved and verified. Which of those can come from a
+> template, and which have to be agreed for this project. And what evidence will
+> show we're actually doing it."
+
+### Closing statement — 30 seconds
+
+> "So — a BIM Execution Plan is a project team's agreed method for producing,
+> coordinating, checking, sharing and approving information. The matrices, the
+> schedule and the strategies are what turn that agreement into something the
+> project can actually run on. And every project has to complete that system for
+> itself — its own appointments, its own requirements, its own delivery
+> conditions.
+>
+> Harrismith doesn't hand us a Triviron BEP. It hands us a worked example, a set
+> of questions, and a fairly clear demonstration of how to record what we haven't
+> decided yet. That last part is the one I'd keep."
+
+### Closing statement — 10-second fallback
+
+> "A BEP is the team's agreed method for managing project information. Harrismith
+> shows us the structure and the questions. Triviron has to answer them for
+> itself — and write down what it hasn't answered yet."
+
+### Harrismith worked example / evidence reference
+
+**The transfer questions are not invented — each maps to a recorded Harrismith
+position.** Appointing party: TBD. Information requirements: none available, none
+invented. Milestones: none established, all timing event-triggered or TBD. CDE
+structure: adopted with conditions, verification pending, no child structures
+approved. Publication and acceptance authority: unresolved. Task-team to
+platform-team mapping: UD-001, unresolved. Standards: not established.
+
+That is the honest form of the transfer: **Harrismith's open questions are
+Triviron's required decisions.**
+
+### Likely questions and safe answers
+
+| Question | Safe answer |
+|---|---|
+| "How long will a Triviron BEP take?" | I can't answer that from this — it depends on appointments and requirements that don't exist yet. What I can say is which decisions have to be taken, and that's the list. |
+| "Can we reuse Harrismith directly?" | The structure and method, yes. The answers, no — they're Harrismith's answers to Harrismith's conditions, and several are explicitly unresolved. |
+| "Who'd be the BIM manager on Triviron?" | Not established, and I'm not going to guess. That's question two and three on the list. |
+| "What are the Triviron delivery dates?" | None exist that I can point to. Inventing one here would be exactly the failure the last twenty minutes has been about. |
+| "Which platform would we use?" | An open decision. Harrismith runs on Autodesk Forma and Data Management, but that's an observation about Harrismith, not a recommendation for Triviron. |
+| "Where do we start?" | Question one — what information the client actually requires. Almost everything else follows from that, and Harrismith's biggest gap is precisely that it never had one. |
+
+### Transition
+
+None — this is the final slide. Move to questions, or to the three takeaways as a
+closing beat.
+
+### Delivery warning
+
+**The likely misunderstanding: the audience wants answers and you have
+questions.** The pressure at the end of a talk to sound conclusive is strong, and
+this is the slide where an invented Triviron fact would be most tempting and most
+damaging.
+
+Hold the line: no Triviron detail exists in the repository, and a plausible
+answer given here will be quoted back as a decision. Frame the questions as the
+deliverable — the audience leaves with the work, which is the honest and more
+useful outcome.
+
+**Second risk:** don't let the close drift into "and we'll just adapt Harrismith."
+That is the template error from Slide 5, arriving fourteen slides later.
+
+### Source status
+
+**Direct:** each question's derivation — the TBD holders, absent information
+requirements, absent milestones, conditionally-adopted CDE topology with
+verification pending, unresolved publication and acceptance authority, UD-001,
+unestablished standards.
+**Interpretation:** the transfers / does-not-transfer split.
+**Synthesis:** the closing message — "Harrismith does not give Triviron a
+completed BEP…" — and the three audience takeaways.
+**Excluded:** every Triviron fact. *Triviron* appears nowhere in the repository;
+no requirement, appointment, date, programme or team structure may be asserted.
+
+---
+
 ## Notes on using these notes
 
 - **Slide 2 is the one to rehearse.** It is where the audience either recognises
@@ -719,4 +1417,19 @@ not document numbers.
 - **Two recurring answers are worth having ready**, because they come up on
   several slides: *every role holder is TBD*, and *no dates or milestones exist*.
   Say both as ordinary facts about a training implementation, not as apologies.
-- Speaker notes for Slides 9–14 do not exist yet.
+- **Slides 9–14 run about seven minutes** — 2 minutes for 9–10, 2 for 11–12,
+  1.5 each for 13 and 14. The 9–10 and 11–12 pairs are roughly a minute per
+  slide, the tightest in the talk. Both pairs are *claim then correction*: Slide
+  10 exists to stop the folder misreading Slide 9 invites, and Slide 12 exists to
+  stop the closed-issue-log misreading Slide 11 invites. If time forces a cut,
+  **cut from the first of each pair, never the second.**
+- **Slides 13 and 14 are the two that make the talk worth giving.** Protect their
+  three minutes. If the session is running long, take it from Slide 6 or Slide 11,
+  not from these.
+- **Each of Slides 9–14 carries a source-status note** separating direct evidence,
+  interpretation and synthesis. Read them before rehearsing — three of the six
+  required messages are teaching wording, and knowing which is which is what lets
+  you answer "where does it say that?" honestly.
+- **The single highest-risk moment in the whole talk is Slide 14** under
+  questioning. Any Triviron detail offered there will be quoted back as a
+  decision. There is none in the repository, and none may be supplied.

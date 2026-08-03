@@ -41,6 +41,10 @@ The active module. Deliverable: a 20-minute presentation using Harrismith as the
 worked example. See
 [`module-01-what-is-a-bep/README.md`](module-01-what-is-a-bep/README.md).
 
+**The Slides 1–14 content baseline is complete.** The module itself is **not**
+complete and remains active: visual assets, rehearsal, refinement and final
+presentation production are outstanding.
+
 Only Module 1 has been developed. Modules 2–8 are recorded here as the intended
 sequence; none of their material exists yet, and their scope may change as
 Module 1 is delivered and reviewed.
@@ -112,10 +116,10 @@ of governance under condition. Describing it neither advances nor reopens it.
 
 | Field | Value |
 |---|---|
-| Active module | **Module 1 — What is a BIM Execution Plan?** |
-| Module 1 deliverable | 20-minute presentation, in development — **not final** |
-| Slides developed | Slides 1–3 as an initial teaching baseline |
-| Expected final length | Approximately 12–14 slides |
+| Active module | **Module 1 — What is a BIM Execution Plan?** — remains **CURRENT — ACTIVE** |
+| Module 1 deliverable | 20-minute presentation — **content baseline complete, not final** |
+| Slides developed | **Slides 1–14** — the full working content baseline |
+| Module 1 outstanding | Visual assets, rehearsal, refinement, final presentation production |
 | Modules 2–8 | Not started |
 | Publication automation | **PAUSED** |
 | Source material status | Training Baseline 0.1 — approved with conditions; publication NOT AUTHORISED |

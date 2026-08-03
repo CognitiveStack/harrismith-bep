@@ -394,6 +394,311 @@ and **Record / Retained**.
 
 ---
 
+# Exercises for Slides 9–14
+
+The final seven minutes: CDE states, folder-versus-status, the coordination
+cycle, issue closure, approval versus implementation, and the Triviron transfer.
+
+Exercises 22 and 23 are the full-run rehearsals and should be attempted only
+after the rest.
+
+---
+
+## Exercise 14 — The CDE states, without saying "folder"
+
+**Task.** Explain Harrismith's four CDE states **without describing them as
+folders** — no "folder", "directory", "location", "where it sits" or "move it
+to".
+
+**Why this exercise.** The folder metaphor is the default, and it destroys the
+concept. Removing it forces you to describe permitted use, which is what a state
+actually is.
+
+**What good looks like:** each state described by what the information may be
+used for and who controls it. WIP — the team's own, not for general reliance.
+Shared — available beyond the originating team, for a stated purpose, after check
+and authorisation. Published / Authorised — authorised for a defined delivery or
+use. **Record / Retained** — kept as evidence for traceability.
+
+**Self-check**
+
+- [ ] Did I get through all four without a location word?
+- [ ] Did I say **Record / Retained**, not "Archived"?
+- [ ] Did I say what each state *permits*, not where it lives?
+- [ ] Did I mention that movement between them requires a decision?
+
+**Common failure:** describing the states in order as a pipeline files travel
+along. It is a sequence of permissions, not a conveyor belt.
+
+---
+
+## Exercise 15 — "Why can't I just move the file into Published?"
+
+**Task.** Answer the question, in under a minute, to someone who has write access
+to that folder and is mildly irritated.
+
+**Why this exercise.** It is the most likely real challenge to Slides 9 and 10,
+and it arrives with social pressure attached.
+
+**What good looks like:** you separate the technical action from the governed
+decision without implying the person is doing something wrong. Moving it changes
+where it is; the state changes when the delivery review happens and someone with
+the authority authorises it. On Harrismith that authority is **unresolved**, so
+the transition is recorded as **blocked** — information stays Shared.
+
+**Self-check**
+
+- [ ] Did I distinguish the action from the decision?
+- [ ] Did I avoid sounding like I was accusing them of anything?
+- [ ] Did I mention that on Harrismith the authority is unresolved, not just unassigned to them?
+- [ ] Did I resist inventing who *would* hold it?
+
+**Common failure:** answering "because you're not allowed to." True in effect,
+useless as teaching, and it makes governance sound like a permissions problem.
+
+---
+
+## Exercise 16 — Why permissions do not create authority
+
+**Task.** Explain why CDE permissions do not create governance authority.
+
+**Why this exercise.** This is the conceptual core of Slide 10 and one of the
+most-repeated principles across the Harrismith sources.
+
+**What good looks like:** platform access confers the technical ability to
+perform an action, and nothing more — not authority to share, publish, approve or
+accept. Access is configured to *follow* approved responsibility: responsibility
+comes first, permission after. Where the two diverge, that is recorded as a
+deviation rather than treated as a redefinition of who is responsible. And **CDE
+Administration implements governance; it does not create it.**
+
+**Self-check**
+
+- [ ] Did I state the direction — responsibility first, permission follows?
+- [ ] Did I name at least two authorities that access does *not* confer?
+- [ ] Did I say what happens when access and responsibility diverge?
+- [ ] Did I avoid making it sound like an IT policy?
+
+**Common failure:** arguing it as a security matter. It is not about restricting
+access; it is about where authority comes from.
+
+---
+
+## Exercise 17 — The coordination cycle in under 60 seconds
+
+**Task.** Describe the coordination-review cycle in **less than 60 seconds**.
+
+**Why this exercise.** Slide 11 has roughly a minute. If the cycle takes you two,
+the slide fails.
+
+**What good looks like:** controlled Shared inputs → readiness check → federate →
+check → findings → triage → assign the ones that need it → the originating team
+corrects in its own WIP, checks, reshares under control → re-coordinate → verify
+→ close with evidence.
+
+**Self-check**
+
+- [ ] Under 60 seconds?
+- [ ] Did I include triage as a decision, not an automatic step?
+- [ ] Did I say the correction happens in the originating team's own WIP?
+- [ ] Did I include verification *and* evidence retention?
+- [ ] Did I avoid naming a software product?
+
+**Common failure:** starting at "run the clash test". The cycle starts with
+controlled inputs and a readiness check, and skipping those is how coordination
+runs on information nobody authorised.
+
+---
+
+## Exercise 18 — Recording, response, verification, closure
+
+**Task.** Distinguish the four, in one sentence each.
+
+**Why this exercise.** They collapse into "we logged it and fixed it", which
+hides the two steps that actually make coordination reliable.
+
+**What good looks like:** *Recording* creates a governed action record — a
+decision taken at triage, not an automatic consequence of detection. *Response*
+is the technical work, performed by the originating task team in its own WIP.
+*Verification* confirms, after controlled reshare and re-coordination, that the
+matter no longer exists or has an approved recorded disposition. *Closure*
+follows verification against reshared information, with evidence retained.
+
+**Self-check**
+
+- [ ] Four distinct sentences, no overlap?
+- [ ] Did I say who holds each?
+- [ ] Did I make clear that closure follows re-coordination, not someone's word?
+- [ ] Did I avoid implying the coordinator designs the fix?
+
+**Common failure:** treating verification and closure as one step. Verification
+is a check; closure is a disposition, and a material issue can fail verification
+and stay open.
+
+---
+
+## Exercise 19 — "Does closing the ACC issue approve the design?"
+
+**Task.** Answer it. Thirty seconds.
+
+**Why this exercise.** It is the highest-consequence misconception in the module.
+Someone acting on a closed issue as if it were design approval is a real project
+risk, not a teaching nicety.
+
+**What good looks like:** a clear no. Verification confirms that the coordination
+process reached a disposition. It is expressly **not** design approval,
+professional certification, publication authority or recipient acceptance. The
+originating task team retains technical responsibility throughout — before and
+after coordination.
+
+**Self-check**
+
+- [ ] Did I answer no, plainly, before qualifying?
+- [ ] Did I name at least three things it is *not*?
+- [ ] Did I say who retains technical responsibility?
+- [ ] Did I avoid implying the platform decides anything?
+
+**Common failure:** "well, sort of, it depends." It does not depend. The sources
+are unambiguous, and hedging here teaches the wrong instinct.
+
+---
+
+## Exercise 20 — Approval versus implementation, with one example
+
+**Task.** Explain the difference using **one** Harrismith example. Ninety
+seconds.
+
+**Why this exercise.** Slide 13 is the module's most valuable minute and a half.
+One example, well told, beats the full unresolved list.
+
+**What good looks like:** UD-001 is the strongest choice — observed, recorded,
+confirmed current, and stopped at *decide intended state* with every downstream
+step unreachable. Or the approval decision itself: approved with conditions,
+explicitly not implemented as a live workflow, not verified through a governed
+coordination cycle, with unresolved matters carried past approval.
+
+**Self-check**
+
+- [ ] Did I use exactly one example rather than listing everything?
+- [ ] Did I distinguish approved / implemented / verified as three states?
+- [ ] Did I present the incompleteness as discipline rather than failure?
+- [ ] Did I stay out of publication-planning history?
+- [ ] Did I avoid inventing when implementation might happen?
+
+**Common failure:** drifting into the publication conditions. They are recorded,
+they are interesting, and they are not this slide.
+
+---
+
+## Exercise 21 — Three forms of implementation evidence
+
+**Task.** Name three things that would demonstrate a BEP is being implemented —
+as distinct from approved.
+
+**Why this exercise.** If you cannot name the evidence, the distinction is
+rhetorical.
+
+**What good looks like:** any three of — checking records; authorisation records;
+state-transition evidence; coordination input, finding and Issue records;
+verification records; transmission, receipt and acceptance records; retained
+audit evidence.
+
+**Self-check**
+
+- [ ] Are all three *evidence of acts*, not documents describing intentions?
+- [ ] Did I avoid offering "the BEP exists" as evidence?
+- [ ] Could I say which function produces each?
+- [ ] If I named correctly-named information, did I flag that no naming standard is established on Harrismith?
+
+**Common failure:** naming approval artefacts — a signed decision, a status
+designation. Those are evidence of approval, which is the other column.
+
+---
+
+## Exercise 22 — Close with three Triviron transfer questions
+
+**Task.** Close the presentation using **three** transfer questions. Forty-five
+seconds.
+
+**Why this exercise.** Thirteen questions is a reference list; three is a
+closing. Choosing which three is the exercise.
+
+**What good looks like:** three questions that between them cover requirements,
+authority and evidence — for instance: *what information does the client actually
+require?*, *who authorises publication and who accepts delivery?*, and *what
+evidence will show we are implementing it?* Then the closing position: Harrismith
+gives a tested structure and a set of questions, not a completed BEP.
+
+**Self-check**
+
+- [ ] Exactly three?
+- [ ] Did I assert any Triviron fact? (There are none in the repository.)
+- [ ] Did I close on a position rather than trailing off?
+- [ ] Did I avoid "we'll adapt Harrismith"?
+
+**Common failure:** answering one of your own questions to sound conclusive. A
+plausible answer given here will be quoted back as a decision.
+
+---
+
+## Exercise 23 — The final seven minutes, end to end
+
+**Task.** Deliver Slides 9–14 straight through. Target **seven minutes**.
+
+**Timing targets:** Slides 9–10 together 2 min; Slides 11–12 together 2 min;
+Slide 13 1.5 min; Slide 14 1.5 min.
+
+**Self-check**
+
+- [ ] Seven minutes ± 45 seconds?
+- [ ] Did Slides 10 and 12 survive, or did 9 and 11 eat their time?
+- [ ] Did Slides 13 and 14 get their full three minutes?
+- [ ] Did I say **Record / Retained**, and never "Archived"?
+- [ ] Did I show or state that the publication transition is blocked?
+- [ ] Did I invent any date, holder, or Triviron fact under time pressure?
+
+**Common failure:** overrunning on the coordination cycle and arriving at Slide
+13 with a minute left. Slides 13 and 14 are the payoff; protect them by cutting
+Slide 11, not by rushing them.
+
+---
+
+## Exercise 24 — The full 20 minutes
+
+**Task.** Deliver Module 1 end to end against the **20-minute** target.
+
+**Block targets:** Slides 1–3, 4 min. Slides 4–8, 9 min. Slides 9–14, 7 min.
+
+**Self-check**
+
+- [ ] Twenty minutes ± 90 seconds?
+- [ ] Were the three block targets roughly met, or did an early block borrow from a later one?
+- [ ] Did I state the three honesty positions — training implementation; approved with conditions and not published; agreement is not implementation?
+- [ ] Did I speak from the notes' essential messages rather than reciting wording?
+- [ ] Could I identify, afterwards, which claims were source-derived and which were mine?
+
+**Common failure:** the opening running long. Slides 1–3 are the most rehearsed
+and the most comfortable, and every minute spent there comes out of Slide 13 or
+14.
+
+---
+
+## Self-assessment across Slides 9–14
+
+| Criterion | Failed if |
+|---|---|
+| **Accuracy** | I said "Archived", equated a folder with a state, equated permission with authority, or presented a complete automated transition sequence |
+| **Clarity** | The coordination cycle came out as a software workflow, or the issue lifecycle as a status list with no decisions in it |
+| **Timing** | Slides 9–14 ran over seven minutes, or Slides 13–14 got less than three |
+| **Use of Harrismith evidence** | I asserted a process is running when the sources record it as not configured, not implemented or not verified |
+| **Source vs synthesis** | I attributed a required message to the sources without checking which are teaching wording — three of the six for Slides 9–14 are |
+| **Triviron claims** | Any Triviron requirement, appointment, date, platform, team or scope was stated as fact |
+
+The last row is the one to check hardest. It is the final slide, the audience
+wants answers, and there is nothing in the repository to draw on.
+
+---
+
 ## Recording progress
 
 Keep it brief — date, exercise, what went wrong, what to change. The value is in
