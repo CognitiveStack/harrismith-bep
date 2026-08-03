@@ -153,5 +153,10 @@ Applying to every file in this directory:
 | Slides deliverable without external material | **14 of 14** |
 | External dependencies | `V1`, `V9`, `V10` — all optional enrichments |
 | Module 1 | **CURRENT — ACTIVE**, not complete |
-| Outstanding | Rehearsal, measured timing, refinement, final presentation assembly |
+| Assembly package | Complete — [`../../module-01-what-is-a-bep/presentation/`](../../module-01-what-is-a-bep/presentation/) |
+| Outstanding | PowerPoint production, presentation review, rehearsal, measured timing, refinement |
 | Publication automation | **PAUSED** |
+
+**Producing the deck?** The asset mapping for each slide — source file, type,
+rendering need, warnings and proposed rendered filename — is in
+[`../../module-01-what-is-a-bep/presentation/asset-manifest.md`](../../module-01-what-is-a-bep/presentation/asset-manifest.md).

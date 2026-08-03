@@ -42,16 +42,24 @@ end from this source.
 
 | Outstanding | Note |
 |---|---|
-| **Rendered visual assets** | **None.** Visual *source* exists for all fourteen slides in [`../assets/module-01/`](../assets/module-01/); no renderer was available, so no image files were produced |
-| **Rehearsal** | The 20-minute total has never been measured against a clock |
+| **PowerPoint production** | No binary presentation exists. The assembly package in [`presentation/`](presentation/) specifies it |
+| **Presentation review** | Follows production — see [`presentation/review-checklist.md`](presentation/review-checklist.md) |
+| **Rehearsal and measured timing** | **Deferred until an assembled deck exists.** The 20-minute total has never been measured |
 | **Refinement** | Slide wording will change once it has been spoken aloud |
-| **Final presentation assembly** | No PowerPoint or equivalent artefact exists, and none is produced from this repository |
+| **Rendered visual assets** | **None.** Visual *source* exists for all fourteen slides in [`../assets/module-01/`](../assets/module-01/); no renderer was available |
 
 **Visual-source baseline complete (T1-D).** Fourteen reviewable visual-source
 files, `M01-S01`–`M01-S14`, with a register, a slide map and recorded design
 principles. **All fourteen slides are deliverable from repository-derived
 material alone** — the three external evidence sources (`V1`, `V9`, `V10`) are
 optional enrichments, not prerequisites.
+
+**Presentation assembly package complete (T1-E).** A concise production handoff
+in [`presentation/`](presentation/) — deck specification, on-slide copy,
+presenter cues, asset manifest, and production and review checklists. It
+condenses roughly 6,500 lines of teaching source into what a producer needs to
+build the deck without reinterpreting it. **It carries no governance authority
+and is not the final presentation.**
 
 Module 1 remains the **current active module** on the programme roadmap.
 
@@ -123,6 +131,7 @@ understand why they exist. It does not teach them.
 | [`speaker-notes.md`](speaker-notes.md) | Natural-language delivery notes for Slides 1–14 |
 | [`visual-demonstration-plan.md`](visual-demonstration-plan.md) | Candidate visual evidence, its sources and its risks — **controlling** for `V1`–`V10` |
 | [`../assets/module-01/`](../assets/module-01/) | The visual **source set** — register, slide map and fourteen source files |
+| [`presentation/`](presentation/) | The **assembly package** — production handoff for building the deck |
 | [`exercises.md`](exercises.md) | Practice and self-assessment |
 | [`source-map.md`](source-map.md) | Traceability from each subject to controlled sources |
 

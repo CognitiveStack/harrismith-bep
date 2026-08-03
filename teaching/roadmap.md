@@ -41,10 +41,15 @@ The active module. Deliverable: a 20-minute presentation using Harrismith as the
 worked example. See
 [`module-01-what-is-a-bep/README.md`](module-01-what-is-a-bep/README.md).
 
-**The Slides 1–14 content baseline is complete, and the visual-source baseline
-is complete** — see [`assets/module-01/`](assets/module-01/). The module itself
-is **not** complete and remains active: **rendered visual assets, rehearsal,
-measured timing, refinement and final presentation assembly** are outstanding.
+**The Slides 1–14 content baseline, the visual-source baseline and the
+presentation assembly package are complete** — see
+[`assets/module-01/`](assets/module-01/) and
+[`module-01-what-is-a-bep/presentation/`](module-01-what-is-a-bep/presentation/).
+The module itself is **not** complete and remains active: **PowerPoint
+production, presentation review, rehearsal and measured timing**, refinement and
+rendered assets are outstanding.
+
+**Rehearsal is deliberately deferred until an assembled deck exists.**
 
 Only Module 1 has been developed. Modules 2–8 are recorded here as the intended
 sequence; none of their material exists yet, and their scope may change as
@@ -118,11 +123,12 @@ of governance under condition. Describing it neither advances nor reopens it.
 | Field | Value |
 |---|---|
 | Active module | **Module 1 — What is a BIM Execution Plan?** — remains **CURRENT — ACTIVE** |
-| Module 1 deliverable | 20-minute presentation — **content and visual-source baselines complete, not final** |
+| Module 1 deliverable | 20-minute presentation — **content, visual-source and assembly baselines complete, not final** |
 | Slides developed | **Slides 1–14** — the full working content baseline |
 | Visual source | **Complete** — `M01-S01`–`M01-S14` in [`assets/module-01/`](assets/module-01/) |
 | Rendered visual assets | **None** — no renderer available; source committed instead |
-| Module 1 outstanding | Rendered assets, rehearsal, measured timing, refinement, final presentation assembly |
+| Assembly package | **Complete (T1-E)** — [`module-01-what-is-a-bep/presentation/`](module-01-what-is-a-bep/presentation/) |
+| Module 1 outstanding | **PowerPoint production, presentation review, rehearsal and measured timing**, refinement, rendered assets |
 | Modules 2–8 | Not started |
 | Publication automation | **PAUSED** |
 | Source material status | Training Baseline 0.1 — approved with conditions; publication NOT AUTHORISED |
