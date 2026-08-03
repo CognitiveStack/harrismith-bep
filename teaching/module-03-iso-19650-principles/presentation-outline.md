@@ -1,6 +1,6 @@
 # Module 3 — Presentation Outline
 
-**Status:** Working outline. **Slides 1–9 developed; Slides 10–14 are titles,
+**Status:** Working outline. **Slides 1–12 developed; Slides 13–14 are titles,
 purposes and time allocations only.** This is **not a final presentation**: no
 visual source exists, no deck has been assembled, and the timing below is an
 allocation that has never been measured.
@@ -35,12 +35,12 @@ in [`source-map.md`](source-map.md).
 | 7 | Information-management functions are not automatically job titles | 1.5 | ✅ |
 | 8 | The parties, the teams and the vocabulary gap | 1.5 | ✅ |
 | 9 | Information containers make responsibility manageable | 1.5 | ✅ |
-| 10 | The CDE controls permitted use and exchange | 1.5 | ⬜ |
-| 11 | Information delivery must be planned | 1.5 | ⬜ |
-| 12 | A principle is not a platform configuration | 1.0 | ⬜ |
+| 10 | The CDE controls permitted use and exchange | 1.5 | ✅ |
+| 11 | Information delivery must be planned | 1.5 | ✅ |
+| 12 | A principle is not a platform configuration | 1.0 | ✅ |
 | 13 | **How Harrismith may be mapped — and where the evidence stops** | 2.0 | ⬜ |
 | 14 | What Triviron must verify before claiming alignment | 1.0 | ⬜ |
-| | **Total** | **20.0** | **9 of 14** |
+| | **Total** | **20.0** | **12 of 14** |
 
 ### Refinements to the proposed sequence
 
@@ -832,18 +832,315 @@ it belongs to Module 4.
 information and **what** it attaches to. Section D asks how use and delivery are
 controlled.
 
+### Slide 10 — The CDE controls permitted use and exchange · 1.5 min
+
+**Purpose of the slide**
+
+Explain **why** managed information needs an agreed environment in which status,
+permitted use and exchange conditions are controlled. Principle level only — the
+CDE workflow lesson is Module 4.
+
+**What a CDE supports**
+
+| # | | |
+|---|---|---|
+| 1 | **Controlled availability** | Who can see what, and from when |
+| 2 | **Traceability** | What happened to a container, and who did it |
+| 3 | **Version awareness** | Which one you are looking at |
+| 4 | **Defined purposes of use** | What it may be relied on *for* |
+| 5 | **Managed exchange** | Sending as a deliberate act |
+| 6 | **Separation of development from reliance** | Information being worked on is kept apart from information others may depend on |
+
+*(**Supported interpretation**, built from `H1` §6.1's CDE principles. **Not an
+ISO definition** — none is available to this programme — `M3-S10-02`.)*
+
+**Six distinctions**
+
+| # | | Support |
+|---|---|---|
+| 1 | **Platform ≠ CDE governance** | `H1` §6.1 — *"an information-management process supported by technology… it is not a folder tree"* |
+| 2 | **Folder location ≠ information status** | `H1` §7.2, §6.8 |
+| 3 | **Access permission ≠ authority** | `H1` §6.9 — permissions *"do not create professional or governance authority"* |
+| 4 | **Technical movement ≠ authorised state transition** | `H1` §12.1 — decision precedes configuration |
+| 5 | **Information can exist in a platform without being authorised for the next purpose** | `H1` §6.1 — *presence is not trust*; §7.5 — visibility of WIP is not permission to rely on it |
+| 6 | **Status and permitted use require agreed governance** | `H1` §6.1, §6.8 |
+
+**Callback to Modules 1 and 2 — three lines, then move**
+
+```text
+Module 1 — the BEP records the agreed method
+Module 2 — assigned functions hold the relevant authority
+Module 3 — the CDE implements those arrangements
+```
+
+**Harrismith connection — the four states, as a project analogue**
+
+| State | What it is for |
+|---|---|
+| **WIP** | Authoring, iteration, internal checking. *"WIP versions are not project exchanges"* |
+| **Shared** | Available beyond the originating task team, for an identified purpose |
+| **Published / Authorised** | Authorised for an identified formal or project-facing purpose |
+| **Record / Retained** | A **conceptual state and a retention requirement — not necessarily a folder** |
+
+**Category: `LOCAL ANALOGUE OR INTERPRETATION`.** These resemble ISO-associated
+practice. **Conformity has not been demonstrated**, and no ISO state model has
+been seen.
+
+**Two Harrismith cautions that must survive onto the slide**
+
+**One — Record / Retained is not a folder.** `H2` is explicit: **no mandatory CDE
+root named `04 Archive` is required or approved**, none is created, and the
+project's retention approach is **TBD**. Drawing it as a folder invents a
+requirement.
+
+**Two — `Shared → Published` does not currently work.** See below.
+
+**The blocked transition — mandatory, and it is governance evidence**
+
+| | |
+|---|---|
+| `WIP → Shared` (**T1**) | Authorising function **established** — the **Task-Team Lead** (BEP §9.4) |
+| `Shared → Published / Authorised` (**T4**) | **BLOCKED.** Publication / exchange authority is **UNRESOLVED — TBD** (BEP §9.7; IM matrix D4) |
+| `TRN-E03` | **PROPOSED — BLOCKED PENDING GOVERNANCE DECISIONS** |
+
+`H2` states the consequence directly:
+
+> Transition **T4** therefore has **no available authorising function**, and
+> information remains **Shared**.
+
+And says why the block stays visible:
+
+> *"The block is represented deliberately and is a feature of the model, not a gap
+> in it: **governance can intentionally stop a workflow**. A route that cannot
+> legitimately proceed should visibly halt, rather than complete itself by
+> borrowing an authority nobody granted."*
+
+**That quotation is the best thing on this slide.** It converts an apparent
+deficiency into the clearest demonstration of the principle the slide is
+teaching. **Do not remove the block to make the diagram tidy** — a complete route
+through Published would misrepresent the project and teach the opposite lesson.
+
+**Module-boundary control**
+
+| Permitted here | Deferred to **Module 4** |
+|---|---|
+| That the states exist, and what each is *for* | Transition mechanics — how a move is performed |
+| That progression happens by decision | Transition authority, evidence requirements, conditions |
+| That one route is blocked, and why | Naming and suitability codes, metadata, folder workflows, the complete state diagram |
+
+**Delivery test: if the slide explains exactly how a state transition is
+performed, stop.**
+
+**Required message**
+
+> A CDE does not merely store information; it controls the conditions under which
+> information may be used and exchanged.
+
+*(**Teaching synthesis**, consistent with `H1` §6.1 — `M3-S10-17`.)*
+
+### Slide 11 — Information delivery must be planned · 1.5 min
+
+**Purpose of the slide**
+
+Explain that delivery should be planned against a known purpose, recipient and
+event — rather than information being produced and sent whenever it happens to be
+ready. Conceptual only; the schedule and matrices are Module 5.
+
+**The planned-delivery chain**
+
+```text
+Purpose
+  → required information
+  → responsible originator
+  → planned event
+  → checked and authorised delivery
+  → intended recipient and use
+```
+
+*(**Teaching structure**, consistent with `H1` §10.1's delivery grid and §7.3's
+requirement fields. **No source presents these six steps in this form** —
+`M3-S11-02`.)*
+
+**What planned delivery answers**
+
+What information · why · who originates it · who checks or authorises it · who
+receives it · when or at what event · what use it supports · what dependencies or
+gates must be satisfied.
+
+*(Drawn from `H1` §10.1 — *"a need · a recipient · a purpose · timing / event ·
+required content · format · readiness · authorisation"* — and §7.3. **This is a
+set of questions, not a schedule schema.**)*
+
+**The sourced line that carries the slide**
+
+> **Presence in Published does not establish a delivery.** Information sitting in
+> a published location has not been delivered to anyone; **delivery is an act with
+> a recipient and a purpose, not a location.** *(BEP §10.1)*
+
+**Nine distinctions — the slide's actual content**
+
+| | ≠ | |
+|---|---|---|
+| Planned delivery | ≠ | completed delivery |
+| A schedule entry | ≠ | evidence that the information exists |
+| A target date | ≠ | acceptance |
+| An event identifier | ≠ | an automated trigger |
+| A planned recipient | ≠ | an established acceptance authority |
+| Controlled sharing | ≠ | publication |
+| Publication | ≠ | delivery |
+| Delivery | ≠ | receipt |
+| Receipt | ≠ | acceptance |
+
+**The last four are sourced.** `H2` and BEP §10.11 keep **Published, Delivered,
+Received and Accepted** as four distinct states:
+
+> *"Delivery does not prove acceptance. Receipt does not prove suitability.
+> Acceptance applies only to the identified purpose, and does not transfer
+> technical responsibility from the originator."*
+
+**Do not re-run Module 2's authority chain.** Name the four states, show they are
+distinct, move on.
+
+**Harrismith connection — a planning instrument, not a delivery record**
+
+| | |
+|---|---|
+| What it is | A governance **planning** instrument. Its entries express **planned expectations** |
+| Timing | *"Real delivery milestones and dates — **None established.** All timing event-triggered or TBD"* |
+| `TRN-E03` | **BLOCKED** — publication-dependent delivery cannot proceed while publication authority is unresolved |
+| Recipient | **Not established.** Acceptance authority **UNRESOLVED — TBD** |
+| Category | **`GAP OR UNVERIFIED`** |
+
+And the discipline behind it, which is the teaching point:
+
+> *"An entry that cannot proceed is recorded as blocked. **Assigning a plausible
+> authority to make the row look finished would manufacture governance that does
+> not exist.**"*
+
+**No actual delivery may be inferred from the schedule, and no programme date may
+be invented.** None exists.
+
+**Module-boundary control**
+
+| Permitted here | Deferred to **Module 5** |
+|---|---|
+| That delivery is planned against purpose, recipient and event | The schedule's field structure and row construction |
+| That planned is not actual | Purpose and suitability mechanics |
+| That some entries are blocked or TBD | The responsibility matrices, read row by row |
+
+**Delivery test: if the slide explains how to populate a delivery-schedule row,
+stop.**
+
+**Required message**
+
+> Planning defines what should be delivered and why; evidence is still required
+> to prove that delivery occurred.
+
+*(**Teaching synthesis**, consistent with `H1` §10.1 and `H2` — `M3-S11-14`.)*
+
+### Slide 12 — A principle is not a platform configuration · 1.0 min
+
+**Purpose of the slide**
+
+Show **the translation path** from principle to evidence. Slide 2 established that
+software is not the standard; Slide 12 does not re-argue that — it shows what has
+to happen in between.
+
+**The translation chain**
+
+```text
+Information-management principle
+  → project-specific requirement
+  → agreed governance arrangement
+  → assigned function and authority
+  → process rule
+  → platform configuration
+  → implementation evidence
+```
+
+*(**Teaching synthesis.** **Not an ISO-prescribed sequence** — no source presents
+one, and none has been read — `M3-S12-01`.)*
+
+**What each step means**
+
+| Step | | Support |
+|---|---|---|
+| **Principle** | What effective information management is trying to achieve | `X1` scope |
+| **Requirement** | The project states what it needs, and why | Slide 5 |
+| **Governance** | The BEP and supporting controls record the agreed method | `H1` §1.1 |
+| **Authority** | Functions are assigned and authorities allocated | `H1` §4.6, §5 |
+| **Process** | The rule people actually follow | `H1` §7, §10 |
+| **Configuration** | Software is set up to implement those decisions | `H1` §12.1 — **decision precedes configuration** |
+| **Evidence** | Someone demonstrates that implementation actually occurred | `H1` §12.9 |
+
+**The line that carries the last step**
+
+> **"A change is not complete because a document was edited or a setting was
+> clicked."** *(BEP §12.9)*
+
+`H1` §4.7 makes the same separation structurally — three things held apart:
+**as-found configuration** (evidence), **intended governance** (a controlled
+decision), and **implemented configuration** (the operational result of a
+decision) — with the rule that *"implemented configuration is legitimate only when
+it traces back to an approved decision."*
+
+**Six things kept separate — the reason this is not a conformity model**
+
+```text
+standard or principle
+implementation guidance          ← jurisdiction-bound
+project governance
+platform configuration
+evidence of operation
+conformity assessment            ← a separate act, by someone else
+```
+
+**Completing the chain does not prove conformity.** Conformity assessment is the
+sixth item and a different activity. **Nothing in this module assesses anything.**
+
+**Harrismith connection — an incomplete example, and honest about it**
+
+| Step | Harrismith's position |
+|---|---|
+| Principle | **Stated as informing the approach** — BEP §11.2, §13.4 |
+| Requirement | **No formal information requirements available** (Slide 5) |
+| Governance | Governance documents and planned controls **exist** |
+| Authority | **Several remain unresolved** — publication, acceptance, governance-change approval by class. IM matrix **A2 is TBD across every function** |
+| Process | Defined in the BEP and supporting resources |
+| Configuration | Observed, not verified — *"presence is not maturity"*, *"configuration is not correctness"* (BEP §2.4) |
+| **Evidence** | **Incomplete or absent** |
+| **Conformity assessment** | **None performed** |
+
+**This is not a scorecard.** No score, no percentage, no maturity level, no
+traffic light. It is a list of where a real project actually stands, and its
+value is that the last two rows are empty.
+
+**Visible warning, on the slide**
+
+> ### `Translation model — not a conformity assessment`
+
+**Delivery test: if the slide begins scoring compliance, stop.**
+
+**Required message**
+
+> The standard supplies principles; the project must turn them into authorised
+> arrangements, configuration and evidence.
+
+*(**Teaching synthesis** — `M3-S12-15`.)*
+
+**One brief callback to Slide 2, and no more.** *"Slide 2 said the platform isn't
+the standard. This is what sits between them."* Then run the chain. The slide has
+one minute and the chain is seven steps.
+
 ---
 
-## 5. Slides 10–14 — scope reserved, not developed
+## 5. Slides 13–14 — scope reserved, not developed
 
 **Titles, purposes and time allocations only.** No content, no message, no source
 classification. Developing them is a later increment.
 
 | Slide | Purpose held for it | Principal expected sources |
 |---|---|---|
-| 10 | Why controlled states and exchanges exist — **concept only** | `H2` CDE strategy |
-| 11 | Why delivery is planned rather than assumed — **concept only** | `H2` delivery schedule |
-| 12 | Configuration follows decision, not the reverse | `H1` §12.1, §4.8 |
 | 13 | **The Harrismith mapping, in four categories, with the gaps visible** | `H1` §11.2, §13.4; `source-map.md` §5 |
 | 14 | What Triviron must verify before any alignment claim | **No Triviron source exists** — questions only |
 

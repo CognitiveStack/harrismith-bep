@@ -1,4 +1,4 @@
-# Module 3 — Speaker Notes, Slides 1–9
+# Module 3 — Speaker Notes, Slides 1–12
 
 **Status:** Working notes. **Not a script, and not final.**
 
@@ -1447,6 +1447,492 @@ say *illustrative* out loud. Say it.
 
 ---
 
-## Slides 10–14
+## Slide 10 — The CDE controls permitted use and exchange · 1.5 min
+
+### Purpose
+
+Explain **why** managed information needs an agreed environment controlling
+status, permitted use and exchange. Principle level only — Module 4 teaches the
+workflow.
+
+### Essential message
+
+1. A CDE controls **availability, traceability, version awareness, purpose of
+   use, exchange**, and the **separation of work-in-progress from information
+   others may rely on**.
+2. **The platform is not the governance.** Folder location is not status.
+   Permission is not authority. Moving a file is not an authorised transition.
+3. Information can sit in a platform without being **authorised for the next
+   purpose**.
+4. On our project, **`WIP → Shared` works** — the Task-Team Lead authorises it.
+5. **`Shared → Published` does not.** Publication authority is unresolved, and
+   the block is **deliberate**.
+
+### Suggested wording
+
+> "So we've got containers with owners. Where do they live, and who says what you
+> may do with them?
+>
+> That's what a common data environment is for. Not storage — **control**. Who can
+> see it, and from when. What happened to it and who did it. Which version you're
+> looking at. What it may be relied on *for*. And — this is the one people miss —
+> keeping information that's being worked on apart from information other people
+> are entitled to depend on.
+>
+> Four cautions, and they're all our BEP's rather than the standard's. **The
+> platform isn't the governance** — a CDE is a process supported by technology,
+> not a folder tree. **Where a file sits doesn't tell you its status.**
+> **Permission isn't authority** — being able to move something is not being
+> allowed to decide it. And **moving a file is not an authorised transition.**
+> Information can sit in a perfectly good platform and be authorised for nothing
+> at all.
+>
+> Our four states: WIP, Shared, Published or Authorised, and Record slash
+> Retained. And two things about them worth your attention.
+>
+> **Record / Retained is not a folder.** It's a conceptual state and a retention
+> requirement. There's no `04 Archive` root required or approved on this project,
+> and our retention approach is still TBD. If you see it drawn as a folder
+> somewhere, that folder was invented.
+>
+> And the important one. **WIP to Shared works** — the Task-Team Lead authorises
+> it, that's established. **Shared to Published does not work.** Publication
+> authority is unresolved on this project, so transition T4 has no available
+> authorising function, and information stays Shared. Our own strategy puts it
+> better than I can: the block is deliberate and is a feature of the model, not a
+> gap in it. **Governance can intentionally stop a workflow.** A route that can't
+> legitimately proceed should visibly halt, rather than complete itself by
+> borrowing an authority nobody granted.
+>
+> I'd rather show you a diagram with a hole in it than a tidy one that lies."
+
+### Shorter fallback
+
+> "A CDE controls availability, traceability, version, permitted use and
+> exchange — and separates work in progress from information others may rely on.
+> The platform isn't the governance, the folder isn't the status, and permission
+> isn't authority. Our states are WIP, Shared, Published/Authorised, Record /
+> Retained — and Record / Retained is a concept, not a folder. WIP to Shared
+> works. Shared to Published is blocked: publication authority is unresolved, so
+> the transition has no authorising function. That block is deliberate — a route
+> that can't legitimately proceed should visibly halt."
+
+### Authoritative public-source basis
+
+| Statement | Source | Level |
+|---|---|---|
+| Part 2 concerns the information-management process during the delivery phase, **including the information exchanges within it** | `X2` | **A1 — published** |
+
+**One statement, framing only.** Everything else is Harrismith. **No ISO CDE
+definition and no ISO state model is available to this programme**, and none is
+implied.
+
+### Jurisdiction note
+
+**Not applicable.** No guidance source is used on this slide — `X5`/`X6` register
+nothing about common data environments or state models.
+
+### Harrismith analogy
+
+The four states, and the blocked route. Category: **`LOCAL ANALOGUE OR
+INTERPRETATION`** for the states; **`GAP OR UNVERIFIED`** for the block.
+
+| Point | Wording | Where |
+|---|---|---|
+| Process, not folder tree | *"an information-management process supported by technology… it is not a folder tree"* | BEP §6.1 |
+| Presence is not trust | Visibility of WIP is **not permission to rely on it** | BEP §6.1, §7.5 |
+| `WIP → Shared` | Authorised by the **Task-Team Lead** — established | BEP §9.4 |
+| **`Shared → Published`** | **T4 has no available authorising function; information remains Shared** | `H2` CDE strategy §11 |
+| Why the block stays | *"governance can intentionally stop a workflow… a route that cannot legitimately proceed should visibly halt, rather than complete itself by borrowing an authority nobody granted"* | `H2` §11 |
+| Record / Retained | *"a conceptual state and a retention requirement — **not necessarily a folder**"*; no `04 Archive` root required or approved; retention **TBD** | `H2` §1 |
+
+### Likely question
+
+**"Is ACC itself a CDE?"**
+
+> "It's a platform that can support one. A CDE is a process — our BEP is blunt
+> about it: an information-management process supported by technology, not a
+> folder tree. So ACC can host the process, record it, enforce parts of it. It
+> can also host no process at all, which is the more common outcome. Buying it
+> gets you capability, not governance."
+
+**Second likely question — "Does putting a model in Shared make it approved?"**
+
+> "No. Shared means it's been made available beyond the originating task team for
+> an identified purpose, after the required check and authorisation to share. It
+> doesn't mean published, doesn't mean accepted, and doesn't mean suitable for
+> every purpose. Our own strategy says exactly that. Shared is a state with a
+> stated purpose attached — not a quality rating."
+
+**Third likely question — "Why is Published blocked?"**
+
+> "Because nobody holds the authority to publish. Publication and exchange
+> authorisation is recorded as unresolved on this project — it's not assigned to
+> the BIM Manager, not automatic to the Lead Delivery Party, not anyone. So the
+> transition has no authorising function and information stays Shared. And I'd
+> push back gently on the word *blocked* sounding like a fault. Our strategy calls
+> it a feature of the model: governance can intentionally stop a workflow. The
+> alternative — letting the route complete itself by borrowing an authority nobody
+> granted — is much worse."
+
+### Transition to Slide 11
+
+> "So information sits in states, and moves between them by decision. Which raises
+> the next question: when does it move, and to whom? That shouldn't be improvised
+> either."
+
+### Evidence classification
+
+**`PUBLIC-SOURCE`** — Part 2's delivery-phase exchanges (`M3-S10-01`).
+**`INTERP`** — the six CDE capabilities; platform ≠ governance; the Modules 1/2/3
+connection (`M3-S10-02`, `M3-S10-04`, `M3-S10-16`).
+**`HARRISMITH` — analogue** — process not folder tree; folder ≠ status; permission
+≠ authority; movement ≠ transition; presence ≠ authorisation; the four states;
+`WIP → Shared`; the deliberate-block principle (`M3-S10-03`, `05`–`10`, `14`).
+**`HARRISMITH` — `GAP OR UNVERIFIED`** — T4 blocked; no authorising function;
+`TRN-E03` blocked; Record / Retained not a folder and retention TBD
+(`M3-S10-11`–`13`, `15`).
+**`SYNTH`** — the required message (`M3-S10-17`).
+**`EXCLUDED`** — a complete operating `Shared → Published` route; any platform as
+a conforming CDE; Shared meaning approved; Record / Retained as an `04 Archive`
+folder; **all Module 4 mechanics** (`M3-S10-18`–`22`).
+
+### Delivery warning
+
+**Do not tidy the diagram.** The instinct — yours and any designer's — is to
+complete the arrow through Published because a broken chain looks unfinished.
+**The break is the teaching.** A solid route through Published claims a workflow
+this project cannot operate, and it is the single most misleading thing this
+module could show.
+
+**Record / Retained is not a folder.** If anyone draws an archive folder, it is an
+invented requirement. No `04 Archive` root is approved and retention is TBD.
+
+**The boundary.** *States exist, here is what each is for, one route is blocked* —
+permitted. **How a transition is executed, what evidence it needs, who signs
+it** — Module 4. If you begin describing the mechanics of a move, stop.
+
+---
+
+## Slide 11 — Information delivery must be planned · 1.5 min
+
+### Purpose
+
+Show that delivery is planned against a purpose, a recipient and an event —
+rather than information being sent whenever it happens to be ready. Conceptual
+only; the schedule itself is Module 5.
+
+### Essential message
+
+1. The chain: **purpose → required information → responsible originator →
+   planned event → checked and authorised delivery → intended recipient and
+   use**.
+2. **"Delivery is an act with a recipient and a purpose, not a location."**
+3. **Published, Delivered, Received and Accepted are four distinct states.**
+4. **A plan is not evidence.** A schedule entry does not prove the information
+   exists, was sent, or was accepted.
+5. On our project, **no real dates exist**, and publication-dependent delivery is
+   **blocked**.
+
+### Suggested wording
+
+> "If information moves between states by decision, somebody has to plan those
+> moves. Otherwise delivery happens when someone happens to be finished, which is
+> not the same thing as when someone needs it.
+>
+> Planned delivery answers a short list. What information. Why — what decision it
+> serves. Who originates it. Who checks or authorises it. Who receives it. When,
+> or at what event. What use it supports. And what has to be true first — the
+> dependencies.
+>
+> Our BEP has a sentence I'd put on the slide if I could only keep one: **presence
+> in Published does not establish a delivery.** Information sitting in a published
+> location has not been delivered to anyone. **Delivery is an act with a recipient
+> and a purpose, not a location.**
+>
+> And that opens up four things people routinely collapse into one. **Published**
+> — authorised for a defined purpose. **Delivered** — sent to an identified
+> recipient. **Received** — arrived and registered. **Accepted** — acknowledged as
+> suitable for the stated purpose. Four different states. Delivery doesn't prove
+> acceptance. Receipt doesn't prove suitability. And acceptance applies only to
+> the purpose stated — it doesn't transfer technical responsibility back from
+> whoever produced it.
+>
+> Now, our own schedule. It's a **planning** instrument. Its entries are planned
+> expectations, and I want to be precise: **no real delivery milestones or dates
+> exist on this project.** Everything is event-triggered or TBD. The
+> project-facing exchange is blocked, because publication authority is unresolved.
+> The recipient isn't established. The acceptance authority isn't established.
+>
+> And here's the discipline I'd point at. Our schedule says: an entry that cannot
+> proceed is recorded as blocked — because **assigning a plausible authority to
+> make the row look finished would manufacture governance that does not exist.**
+> That is a much harder thing to do than filling in a name."
+
+### Shorter fallback
+
+> "Delivery gets planned against a purpose, a recipient and an event — what,
+> why, who originates, who authorises, who receives, when, and what has to be
+> true first. Our BEP's line: delivery is an act with a recipient and a purpose,
+> not a location — presence in Published establishes nothing. And Published,
+> Delivered, Received and Accepted are four distinct states; delivery doesn't
+> prove acceptance and receipt doesn't prove suitability. Our schedule is a plan,
+> not a record: no real dates exist, the project-facing exchange is blocked, and
+> an entry that can't proceed is recorded as blocked rather than filled in."
+
+### Authoritative public-source basis
+
+| Statement | Source | Level |
+|---|---|---|
+| Part 2 concerns the delivery phase and **includes the exchanges of information within it** | `X2` | **A1 — published** |
+
+**One statement, framing only.** Everything concrete is Harrismith. **No ISO
+delivery-planning instrument is described, because none is available.**
+
+### Jurisdiction note
+
+**Not applicable.** No guidance source is used on this slide.
+
+### Harrismith analogy
+
+| Point | Wording | Where |
+|---|---|---|
+| Delivery is an act | *"Presence in Published does not establish a delivery… delivery is an act with a recipient and a purpose, not a location"* | BEP §10.1 |
+| Four distinct states | Published · Delivered · Received · Accepted — *"delivery does not prove acceptance; receipt does not prove suitability"* | `H2`; BEP §10.11 |
+| **No dates** | *"Real delivery milestones and dates — **None established.** All timing event-triggered or TBD"* | `H2` delivery schedule §7 |
+| **`TRN-E03` blocked** | **PROPOSED — BLOCKED PENDING GOVERNANCE DECISIONS**; recipient not established; acceptance authority **UNRESOLVED — TBD** | `H2` §5 |
+| The discipline | *"An entry that cannot proceed is recorded as blocked. **Assigning a plausible authority to make the row look finished would manufacture governance that does not exist.**"* | `H2` §5.1 |
+
+Categories: **analogue** for the delivery concepts; **`GAP OR UNVERIFIED`** for
+the missing dates, the blocked event and the unestablished recipient.
+
+### Likely question
+
+**"Does the schedule prove a delivery occurred?"**
+
+> "No — and that distinction is most of this slide. A schedule is a statement of
+> intent. It says what should be delivered, why, by whom and at what event. It
+> doesn't prove the information exists, that it was sent, that it arrived, or that
+> anyone found it suitable. Each of those needs its own evidence. On our project
+> the gap is wide: the schedule exists and **nothing has been delivered at all**."
+
+**Second likely question — "Can a delivery be received but not accepted?"**
+
+> "Yes, routinely — and keeping them apart matters. Received means it arrived and
+> was registered. Accepted means someone acknowledged it as suitable for the
+> stated purpose. A recipient can register an exchange and reject it, or accept it
+> for one purpose and not another. And acceptance doesn't move technical
+> responsibility off the originator — they remain answerable for what they
+> produced."
+
+**Third likely question — "Who sets the delivery dates?"**
+
+> "On a real project, that falls out of the programme and the appointments —
+> which is why I can't answer it for ours. **No real delivery milestones or dates
+> are established here.** Everything is event-triggered or TBD, and that's
+> recorded rather than filled in with something plausible. If I gave you a date
+> today, I'd be inventing a project commitment from a teaching slide."
+
+### Transition to Slide 12
+
+> "So: principles, requirements, functions, containers, states, planned delivery.
+> That's a lot of layers. Let me show you how they connect — and where it stops
+> short of the claim everyone wants to make."
+
+### Evidence classification
+
+**`PUBLIC-SOURCE`** — Part 2's delivery-phase exchanges (`M3-S11-01`).
+**`INTERP`** — the six-step chain; schedule ≠ existence; planned ≠ completed;
+date ≠ acceptance; event id ≠ trigger (`M3-S11-02`, `08`, `09`).
+**`HARRISMITH` — analogue** — the planning questions; delivery as an act; the
+four distinct states; sharing ≠ publication; the recorded-as-blocked discipline
+(`M3-S11-03`–`07`, `13`).
+**`HARRISMITH` — `GAP OR UNVERIFIED`** — no established dates; `TRN-E03` blocked;
+recipient and acceptance authority unestablished (`M3-S11-10`–`12`).
+**`SYNTH`** — the required message (`M3-S11-14`).
+**`EXCLUDED`** — a schedule entry proving delivery; a date proving acceptance;
+any invented date, milestone or recipient; **all Module 5 schedule mechanics**
+(`M3-S11-15`–`18`).
+
+### Delivery warning
+
+**No ticks, no completed items, no progress bar.** A timeline that reads as
+progress is a claim of executed delivery, and **nothing has been delivered on this
+project.** Label the visual **`Planned — not evidence of delivery`**.
+
+**Do not invent a date to make an example concrete.** *"Say the coordination
+exchange is in March"* becomes a project commitment the moment someone repeats it.
+Event-triggered and TBD are the honest answers.
+
+**The boundary.** *Delivery is planned against purpose, recipient and event* —
+permitted. **How a schedule row is populated, what fields it carries, how
+suitability is coded** — Module 5. If you start explaining a row, stop.
+
+---
+
+## Slide 12 — A principle is not a platform configuration · 1.0 min
+
+### Purpose
+
+Show the **translation path** from principle to evidence. Slide 2 established that
+software is not the standard; this slide shows what sits between them.
+
+### Essential message
+
+1. The chain: **principle → requirement → governance → assigned authority →
+   process → configuration → evidence**.
+2. **Decision precedes configuration** — platform change follows a governance
+   decision, not the reverse.
+3. **"A change is not complete because a document was edited or a setting was
+   clicked."**
+4. Six things stay separate — principle, guidance, governance, configuration,
+   evidence, and **conformity assessment**.
+5. **Harrismith has not completed the chain**, and **no conformity assessment
+   exists**.
+
+### Suggested wording
+
+> "One minute, one idea. Slide 2 said the platform isn't the standard. Here's what
+> sits between them.
+>
+> A **principle** says what good information management is trying to achieve. The
+> project turns that into a **requirement** — what *we* need, and why. The
+> requirement becomes an **agreed governance arrangement** — that's what a BEP is
+> for. Someone is **assigned the function and the authority**. That becomes a
+> **process rule** people actually follow. Then, and only then, the **platform
+> gets configured** to implement it. And finally somebody produces **evidence**
+> that it was implemented and is working.
+>
+> Two things about that chain. It runs one way — our BEP's rule is that decision
+> precedes configuration; platform change follows a governance decision, not the
+> reverse. And the last step is the one everyone skips. Our BEP: **a change is not
+> complete because a document was edited or a setting was clicked.**
+>
+> Now — where are we on that chain? Principles: stated as informing our approach.
+> Requirements: none formal available. Governance: documents exist. Authority:
+> several unresolved — publication, acceptance, and governance-change approval by
+> class is TBD across every function. Process: defined. Configuration: observed,
+> not verified. Evidence: **incomplete or absent**. Conformity assessment: **none
+> performed.**
+>
+> And that last row is the point. **Completing this chain would not prove
+> conformity anyway** — conformity assessment is a separate act, done by someone
+> else, against text I haven't read. This is a translation model. It is not an
+> assessment, and it does not score anything."
+
+### Shorter fallback
+
+> "Principle, requirement, governance, assigned authority, process,
+> configuration, evidence. It runs one way — decision precedes configuration, not
+> the reverse. And the last step gets skipped: a change isn't complete because a
+> setting was clicked. On our project the chain runs out near the end — several
+> authorities unresolved, implementation evidence incomplete, no conformity
+> assessment performed. And completing it wouldn't prove conformity anyway;
+> assessment is a separate act."
+
+### Authoritative public-source basis
+
+**None.** **This slide has no A1 or A2 statement at all.**
+
+The chain is **teaching synthesis**; every concrete step is Harrismith evidence.
+**No source presents an ISO-prescribed translation sequence**, and none has been
+read. It is the fourth slide in the module with no public-source statement —
+Slides 2, 7, 8 and 12 — and it carries the same obligation: **attribute, or the
+audience hears ISO.**
+
+### Jurisdiction note
+
+**Not applicable.** No guidance source is used. If you mention implementation
+guidance as one of the six separated things, say **UK** — but the slide works
+without naming it.
+
+### Harrismith analogy
+
+**An incomplete example, and the incompleteness is the content.**
+
+| Point | Wording | Where |
+|---|---|---|
+| Direction of travel | **Decision precedes configuration** — platform change follows a governance decision, not the reverse | BEP §12.1 |
+| Three things held apart | As-found configuration = **evidence**; intended governance = **a controlled decision**; implemented configuration = **the operational result of a decision**. *"Implemented configuration is legitimate only when it traces back to an approved decision"* | BEP §4.7 |
+| The evidence step | **"A change is not complete because a document was edited or a setting was clicked."** Verify the change was implemented, the workflow behaves as intended, responsibilities remain clear | BEP §12.9 |
+| The assurance chain | Assess change → **authorise (A2 — TBD across every function)** → implement → **verify** → retain evidence | `H2` IM matrix §3.7 |
+| Configuration caution | *"Presence is not maturity"*; *"configuration is not correctness"* | BEP §2.4 |
+
+Category: **`GAP OR UNVERIFIED`** for the unresolved authorities and the missing
+evidence; **analogue** for the chain's steps.
+
+### Likely question
+
+**"Does configuring the platform make the process ISO-compliant?"**
+
+> "No. Configuration is the sixth step of seven, and it's downstream of every
+> decision that matters. Our BEP's rule is that decision precedes configuration —
+> the platform implements what was decided, it doesn't decide it. And even a
+> perfectly configured platform with full evidence behind it wouldn't establish
+> conformity, because conformity assessment is a separate act, against the actual
+> text, by someone qualified to do it. Nobody has done that here, in either
+> direction."
+
+**Second likely question — "How would we prove implementation?"**
+
+> "By evidence that the thing decided is the thing running. Our BEP sets the bar:
+> a change isn't complete because a document was edited or a setting was clicked.
+> You'd verify that the intended change was implemented, that the affected
+> workflow behaves as intended, that responsibilities are still clear, that
+> nothing unintended broke, and that the records were updated. And someone has to
+> be assigned to do that verifying — which on our project varies by change type
+> and is deliberately not one universal person."
+
+**Third likely question — "Is Harrismith aligned with ISO 19650?"**
+
+> "Our BEP says ISO 19650 principles **inform** the approach. That's a statement
+> about influence, and it's the project's own wording. It is not a claim of
+> alignment, conformity or assessment — and the BEP says that too, explicitly.
+> What you've seen today is a project that took the principles seriously,
+> documented its arrangements, and recorded what it hasn't resolved. Whether that
+> constitutes alignment is a question that needs the standard and an assessment,
+> and we have neither. Slide 13 is where I set out exactly what can and can't be
+> said about that."
+
+### Transition to Slide 13
+
+> "Which is the honest place to end the theory. Let me show you, properly, where
+> Harrismith maps onto this — and where the evidence stops."
+
+### Evidence classification
+
+**`SYNTH`** — the translation chain; the required message (`M3-S12-01`,
+`M3-S12-15`).
+**`INTERP`** — what principles do; the project must translate them; the six
+separated things (`M3-S12-02`, `03`, `12`).
+**`HARRISMITH` — analogue** — the BEP records the method; functions must be
+assigned; decision precedes configuration; the three configuration concepts;
+legitimacy traces to an approved decision; the edited-document line; the A1–A5
+assurance chain; presence ≠ maturity (`M3-S12-04`–`10`, `14`).
+**`HARRISMITH` — `GAP OR UNVERIFIED`** — A2 TBD across every function;
+implementation evidence incomplete and **no conformity assessment performed**
+(`M3-S12-11`, `M3-S12-13`).
+**`EXCLUDED`** — the chain proving conformity; Harrismith having completed it;
+configuration proving conformity; any maturity ladder, score or certification
+badge (`M3-S12-16`–`19`).
+
+### Delivery warning
+
+**This slide becomes a maturity model if you let it.** Seven steps in a row, with
+a project's position marked against each, is one design decision away from a
+scorecard — and a scorecard is a conformity claim. **No score, no percentage, no
+level, no traffic light, no tick.** Say `Translation model — not a conformity
+assessment` and show it.
+
+**One minute, seven steps.** Do not re-argue Slide 2. One callback sentence, then
+run the chain. If you find yourself explaining again why a platform isn't a
+standard, you have spent Slide 13's opening.
+
+**The last two rows are the point.** *Evidence: incomplete. Conformity
+assessment: none.* If the slide runs short, cut a middle step — never the end.
+
+---
+
+## Slides 13–14
 
 **Not developed.** No notes exist. Developing them is a later increment.

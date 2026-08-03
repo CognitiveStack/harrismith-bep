@@ -226,6 +226,26 @@ container*.** The term appears in both vocabularies; Slide 9 uses a **working
 description drawn from `H1`**, explicitly labelled as such. Shared vocabulary is
 not established equivalence — prohibition 27.
 
+**Fourth clarification, recorded in T3-D — no source added.** `X5` and `X6`
+register **nothing** about:
+
+- common data environments, information states or state models;
+- delivery planning instruments or delivery events;
+- implementation evidence, verification or assurance;
+- any translation sequence from principle to configuration.
+
+**Slides 10, 11 and 12 therefore attribute nothing to them**, and carry **no
+`GUIDANCE` statement at all**. Guidance appears on Slides 5–8 only. The absence is
+recorded rather than filled: where a slide needed a concept these sources do not
+supply, it was built from `H1`/`H2` as a **labelled project analogue** or from
+presenter framing as **labelled synthesis** — never by extending guidance beyond
+what it says.
+
+**Slide 12's seven-step translation chain is teaching synthesis.** **No registered
+source presents any translation sequence**, and none has been read. Completing
+such a chain would not establish conformity in any case — conformity assessment
+is a separate act — see [`source-map.md`](source-map.md) §7.4, prohibitions 38–40.
+
 ### H1 — Harrismith Fire Station BEP
 
 | Field | Value |

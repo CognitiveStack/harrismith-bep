@@ -1,6 +1,6 @@
 # Module 3 — Exercises
 
-**Status:** Exercise set for the **Slides 1–9** baseline. Teaching material;
+**Status:** Exercise set for the **Slides 1–12** baseline. Teaching material;
 **not governance.**
 
 Rehearsal exercises for the presenter, not assessments for an audience. Do them
@@ -9,7 +9,8 @@ the others**, and it is the one that matters most in this module.
 
 **Exercises 1–10 cover Slides 1–3 and the questions that arrive regardless.
 Exercises 11–22 cover Section B — Slides 4–6. Exercises 23–34 cover Section C —
-Slides 7–9.**
+Slides 7–9. Exercises 35–46 cover Section D and the Section E opener —
+Slides 10–12.**
 
 **Four exercises rehearse questions rather than slides.** Exercises 5–9 cover
 material whose slides are not yet developed — but the questions arrive the moment
@@ -1040,8 +1041,361 @@ better it works.
 
 ---
 
+# Section D and the Section E opener — Slides 10–12
+
+**Twelve further exercises.** Exercise 46 is the timed run, and is done last.
+Exercise 10 still applies after each one.
+
+**These three slides are where a diagram can lie for you.** Several of the
+exercises below are about refusing to tidy something.
+
+---
+
+## Exercise 35 — A CDE, without naming a product
+
+**Task.** Explain what a common data environment is, in forty-five seconds,
+**without naming any software** — no ACC, no BIM 360, no SharePoint, no "the
+platform".
+
+**Why this exercise.** The audience's mental image is a product they were sold.
+If the product word comes from you, everything after it is heard as a feature
+list.
+
+**What good looks like.** A CDE is a process for controlling information: who can
+see it and from when, what happened to it and who did it, which version this is,
+what it may be relied on for, and how it gets exchanged. And it keeps information
+being worked on apart from information other people are entitled to depend on.
+Our BEP's line does the rest: it is a process supported by technology, **not a
+folder tree**.
+
+**Success criteria**
+
+- [ ] No product or platform name, in any form.
+- [ ] I described **control**, not storage.
+- [ ] I mentioned **permitted use**, not just access.
+- [ ] I made the development-versus-reliance separation.
+- [ ] I attributed the *not a folder tree* line to **our BEP**, not to ISO.
+
+**Common failure.** Describing a folder structure with better rules. That is
+still a folder structure, and it teaches the opposite of the slide.
+
+---
+
+## Exercise 36 — Why a folder does not prove status
+
+**Task.** Explain why a container's location tells you nothing about its status.
+Thirty seconds. **You may not mention the state model.**
+
+**Why this exercise.** It is Exercise 33's harder sibling. There the constraint
+was Module 9's boundary; here it is that the state model is the obvious crutch
+and the slide has to work without leaning on it.
+
+**What good looks like.** Location is a fact about storage. Status is a decision
+someone took. Our BEP: *where a container sits tells you where it sits — the
+originator is recorded, not deduced.* Moving a file changes where it is and
+nothing else: not its version, not its revision, not its status, not what it may
+be used for.
+
+**Success criteria**
+
+- [ ] I separated a **storage fact** from a **decision**.
+- [ ] I said moving a file changes none of the other properties.
+- [ ] I did not name a state to make the point.
+- [ ] I attributed the wording to **our BEP**.
+- [ ] Thirty seconds.
+
+**Common failure.** "Well, if it's in the Shared folder then…" — which concedes
+exactly the inference the exercise removes.
+
+---
+
+## Exercise 37 — Why permission is not transition authority
+
+**Task.** Someone with full CDE admin rights asks why they cannot move a
+container to Published. Answer in thirty seconds, without being patronising.
+
+**Why this exercise.** It is the sharpest live version of *permission is not
+authority*, and it will be asked by the person most able to perform the action.
+
+**What good looks like.** They can perform the action; that is a platform
+capability. Whether the information may **become** Published is a governance
+decision, and the authority for it sits with a function, not with a login. On our
+project that authority is unresolved — so nobody holds it, admin rights included.
+Our BEP: permissions support the process; they do not create professional or
+governance authority. And CDE Administration implements governance, it does not
+create it.
+
+**Success criteria**
+
+- [ ] I acknowledged the **capability** before addressing the authority.
+- [ ] I located authority in a **function**, not a permission level.
+- [ ] I said that on this project **nobody** currently holds it.
+- [ ] I did not imply the person was overstepping — they asked a fair question.
+- [ ] Thirty seconds.
+
+**Common failure.** "You're not allowed to." True, unhelpful, and it makes a
+governance point sound like a permissions dispute.
+
+---
+
+## Exercise 38 — Why Shared → Published is blocked
+
+**Task.** Explain why the transition to Published cannot currently proceed on this
+project. Forty-five seconds.
+
+**Why this exercise.** It is the module's best worked example of governance
+actually working, and it is routinely mistaken for a defect.
+
+**What good looks like.** Publication and exchange authorisation authority is
+**unresolved** — not assigned to the BIM Manager, not automatic to the Lead
+Delivery Party, not held by CDE Administration. So transition T4 has **no
+available authorising function**, and information remains Shared. The related
+delivery event, TRN-E03, is blocked for the same reason plus several others: the
+recipient is not established, formats are not established, the deliverable set is
+not defined.
+
+**Success criteria**
+
+- [ ] I said the **authority** is unresolved, not that the process is broken.
+- [ ] I said information **remains Shared** — it does not vanish or fail.
+- [ ] I named at least two blocking matters beyond the authority itself.
+- [ ] I did not suggest a workaround.
+- [ ] I did not present it as non-conformity.
+
+**Common failure.** "We just haven't finished setting it up." That reframes a
+recorded governance position as an admin backlog, and it invites someone helpful
+to "finish" it.
+
+---
+
+## Exercise 39 — Why the block must stay visible
+
+**Task.** A designer offers to "clean up" the state diagram by completing the
+arrow through Published. Explain why not. Thirty seconds.
+
+**Why this exercise.** This will happen — in a review, in a deck template, in a
+well-meaning edit — and the presenter has to be able to refuse it quickly and
+without sounding precious.
+
+**What good looks like.** A complete arrow claims a workflow this project cannot
+operate. Our strategy says it deliberately: the block is a feature of the model,
+not a gap in it — **governance can intentionally stop a workflow**, and a route
+that cannot legitimately proceed should visibly halt rather than complete itself
+by borrowing an authority nobody granted. A tidy diagram would be a false one.
+
+**Success criteria**
+
+- [ ] I said a complete route would be a **claim**, not a cosmetic choice.
+- [ ] I used the *borrowing an authority nobody granted* idea, or my own version.
+- [ ] I framed the block as **deliberate**, not as unfinished work.
+- [ ] I was brief and not defensive.
+- [ ] I would recognise the "fix" if it reappeared in a later draft.
+
+**Common failure.** Agreeing to a compromise — a faded arrow, a lighter shade, a
+dotted line that still reaches. Anything that arrives at Published makes the
+claim.
+
+---
+
+## Exercise 40 — Build a planned-delivery chain
+
+**Task.** Take one plausible exchange and run it through the chain: purpose →
+required information → responsible originator → planned event → checked and
+authorised delivery → intended recipient and use. Sixty seconds.
+
+**Why this exercise.** Slide 11's structure, made concrete — and a test of whether
+you can stay conceptual while doing it.
+
+**What good looks like.** Start from a decision someone has to make. Derive what
+information that needs. Name the originating **function**, not a person. Say what
+event triggers it. Note that it must be checked and authorised before it goes. And
+end at the recipient and the use — flagging that on this project the recipient is
+**not established**.
+
+**Success criteria**
+
+- [ ] All six steps, in order, starting from a **decision**.
+- [ ] I named functions, not people or organisations.
+- [ ] I said *event-triggered*, not a date.
+- [ ] I flagged the unestablished recipient rather than inventing one.
+- [ ] I did not describe a schedule row, its fields or its coding.
+
+**Common failure.** Inventing a recipient to complete the chain — "say it goes to
+the client". That is the exact move our schedule refuses.
+
+---
+
+## Exercise 41 — Why a schedule is not evidence
+
+**Task.** Explain why a delivery schedule does not prove anything was delivered.
+Thirty seconds.
+
+**Why this exercise.** A populated schedule is persuasive. It looks like a record
+and reads like one, and on this project **nothing has been delivered at all**.
+
+**What good looks like.** A schedule states intent: what should be delivered, why,
+by whom, at what event. It does not prove the information exists, that it was
+sent, that it arrived, or that anyone found it suitable. Each needs its own
+evidence. And our BEP's related line: presence in Published does not establish a
+delivery — **delivery is an act with a recipient and a purpose, not a location**.
+
+**Success criteria**
+
+- [ ] I named at least three things a schedule does **not** prove.
+- [ ] I said each needs its own evidence.
+- [ ] I used the *delivery is an act, not a location* idea.
+- [ ] I said plainly that nothing has been delivered on this project.
+- [ ] Thirty seconds.
+
+**Common failure.** "It shows what's planned, so it's a start." True and
+uninformative — the exercise is about the gap, not the intent.
+
+---
+
+## Exercise 42 — Delivery, receipt and acceptance
+
+**Task.** Explain Published, Delivered, Received and Accepted as four distinct
+states. Forty-five seconds. Give one consequence of collapsing them.
+
+**Why this exercise.** They are collapsed constantly, and the collapse is where
+responsibility quietly moves without anyone deciding it should.
+
+**What good looks like.** Published — authorised for a defined purpose. Delivered
+— sent to an identified recipient. Received — arrived and registered. Accepted —
+acknowledged as suitable for the stated purpose. Delivery does not prove
+acceptance; receipt does not prove suitability. And the consequence: acceptance
+applies only to the stated purpose and **does not transfer technical
+responsibility from the originator** — so a team that treats *received* as
+*accepted* has assumed a reliance nobody granted.
+
+**Success criteria**
+
+- [ ] All four states, each in its own words.
+- [ ] I said delivery ≠ acceptance and receipt ≠ suitability.
+- [ ] I gave a real consequence of collapsing them.
+- [ ] I said acceptance does not transfer technical responsibility.
+- [ ] I did not re-run Module 2's authority chain.
+
+**Common failure.** Treating them as a sequence with four names rather than four
+decisions. The point is that each is decided separately and can fail separately.
+
+---
+
+## Exercise 43 — Principle versus configuration
+
+**Task.** Explain the difference between an information-management principle and a
+platform configuration. Thirty seconds. **Do not repeat Slide 2's argument.**
+
+**Why this exercise.** Slide 12 has one minute, and re-arguing Slide 2 spends it.
+
+**What good looks like.** A principle says what you are trying to achieve. A
+configuration is what the software does. Between them sit a requirement, an
+agreed arrangement, an assigned authority and a process rule — and the direction
+matters: **decision precedes configuration**. Platform change follows a governance
+decision, not the reverse.
+
+**Success criteria**
+
+- [ ] I named at least two intermediate steps.
+- [ ] I said the direction of travel explicitly.
+- [ ] I did not re-argue that software is not the standard.
+- [ ] I did not name a product.
+- [ ] Thirty seconds.
+
+**Common failure.** Restating Slide 2 with different examples. The audience
+already agreed; this exercise is about what fills the gap.
+
+---
+
+## Exercise 44 — The translation chain, end to end
+
+**Task.** Say the seven-step chain from memory and mark where **Harrismith
+stops**. Sixty seconds.
+
+**Why this exercise.** Reciting the chain is easy. Saying where a real project
+runs out is the part that makes it honest — and it is the part that gets dropped.
+
+**What good looks like.** Principle → requirement → governance → assigned
+authority → process → configuration → evidence. Then Harrismith: principles
+stated as informing the approach; **no formal requirements available**; governance
+documents exist; **several authorities unresolved**, including governance-change
+approval, which is TBD against every function; process defined; configuration
+observed but not verified; **evidence incomplete or absent**; **no conformity
+assessment performed**.
+
+**Success criteria**
+
+- [ ] All seven steps, in order.
+- [ ] I marked the chain as **teaching synthesis**, not an ISO sequence.
+- [ ] I said where Harrismith stops, in the last two steps.
+- [ ] I gave **no** score, level or percentage.
+- [ ] I said no conformity assessment exists **in either direction**.
+
+**Common failure.** Turning the walk-through into a progress report — "we're
+about five steps in". That is a maturity score in conversational form.
+
+---
+
+## Exercise 45 — "Does configuration prove conformity?"
+
+**Task.** Answer it in thirty seconds.
+
+**Why this exercise.** It is the module's closing misconception, and it usually
+arrives from whoever paid for the platform.
+
+**What good looks like.** No. Configuration is the sixth step of seven and sits
+downstream of every decision that matters — decision precedes configuration, not
+the reverse. And even full configuration with evidence behind it would not
+establish conformity, because **conformity assessment is a separate act**, against
+the actual text, by someone qualified to perform it. Nobody has done that here, in
+either direction. Our BEP's own cautions: *presence is not maturity*,
+*configuration is not correctness*.
+
+**Success criteria**
+
+- [ ] **No**, in the first sentence.
+- [ ] I placed configuration **downstream** of the decisions.
+- [ ] I said assessment is a **separate act by someone else**.
+- [ ] I said no assessment exists in **either** direction.
+- [ ] I did not offer "but it helps" as a softener.
+
+**Common failure.** "Not on its own." Technically true, and it implies that
+configuration plus a bit more would do it. It would not.
+
+---
+
+## Exercise 46 — Deliver Slides 10–12 to time
+
+**Task.** Deliver Section D and the Section E opener end to end. **Target: 4.0
+minutes. Measure it.**
+
+**Why this exercise.** Slides 10 and 11 are capped at 1.5 minutes each precisely
+because they sit against Modules 4 and 5, and both expand the moment you start
+explaining mechanics. Slide 12 has one minute for seven steps.
+
+**What good looks like.** Slide 10 gets the six controls, the four distinctions,
+the four states and the block — with the block explained as deliberate. Slide 11
+gets the chain, the delivery-is-an-act line, the four states and the missing
+dates. Slide 12 runs the chain once and lands on the two empty rows.
+
+**Success criteria**
+
+- [ ] **4.0 minutes ± 15 seconds**, measured.
+- [ ] The block was explained as **deliberate**, not as unfinished.
+- [ ] *Record / Retained is not a folder* was said.
+- [ ] *Nothing has been delivered* was said on Slide 11.
+- [ ] No transition mechanics, no schedule row, no compliance score.
+- [ ] No date, recipient, holder or organisation was invented.
+- [ ] I did not borrow time from Slide 12 — it sets up Slide 13.
+
+**Common failure.** Slide 10 running to 2.5 minutes because the state model
+invites explanation. Four states, what each is for, one route blocked. That is the
+whole slide.
+
+---
+
 ## Scope note
 
-**Thirty-four exercises, covering the Slides 1–9 baseline and the questions that
-arrive regardless of which slides exist.** Exercises for Slides 10–14 are a later
+**Forty-six exercises, covering the Slides 1–12 baseline and the questions that
+arrive regardless of which slides exist.** Exercises for Slides 13–14 are a later
 increment.

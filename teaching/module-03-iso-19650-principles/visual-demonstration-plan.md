@@ -4,8 +4,9 @@
 source file and no rendered image asset exists.** Nothing here is a final asset,
 and creating assets is a later increment.
 
-**`V2`, `V4` and `V5` — the Section B visuals — are now specified in full**
-(T3-B). The remaining entries are candidates at the level established in T3-A.
+**Nine of thirteen entries are now specified in full** — `V2`, `V4`, `V5` (T3-B),
+`V13`, `V6`, `V7` (T3-C) and `V8`, `V9`, `V10` (T3-D). The remaining four —
+`V1`, `V3`, `V11`, `V12` — are candidates at the level established in T3-A.
 
 Source identifiers `X1`–`X6`, `H1`–`H3` are defined in
 [`external-source-register.md`](external-source-register.md). Classification
@@ -404,63 +405,168 @@ Schedule         Report           Specification
 project, it takes one bracket, and it quietly makes the party / task-team
 distinction that Slide 8 argued.
 
-### V8 — CDE use and state, at concept level
+### V8 — CDE state and purpose, with the block visible · **specified (T3-D)**
 
 | Field | Value |
 |---|---|
 | **Slide** | 10 |
-| **Teaching purpose** | Show that a CDE controls **what information may be used for**, and that use is permitted by decision rather than by access |
-| **Source basis** | `H1` §6.1 (CDE principles), `H2` (state set) |
-| **Classification** | **`HARRISMITH`** |
+| **Teaching purpose** | Show that a CDE controls **what information may be used for**, that progression happens **by decision**, and that **one route on this project cannot proceed at all** |
+| **Source basis** | `H1` §6.1, §6.3, §6.9, §7.2, §7.5, §12.1; **`H2` CDE strategy §1 and §11**; `H2` delivery schedule §5 |
+| **Classification** | **`HARRISMITH` — analogue** for the states and principles; **`HARRISMITH` — `GAP OR UNVERIFIED`** for the block and for Record / Retained; **`INTERP`** for the capability list |
 | **Jurisdiction** | This project |
-| **Simplify** | **Three or four states, named exactly as Harrismith names them** — including **Record / Retained**, not *Archived*. **One** transition shown, to make the point that progression is by decision |
-| **Omit** | The full transition set `T1`–`T8`; evidence requirements; conditions; any folder representation; **any suggestion that this is the ISO state model** |
-| **Overclaim risk** | **HIGH**, on two fronts. It will be read as the ISO state model — it is not, and no ISO state model has been seen. And a complete-looking diagram implies a working system: **`TRN-E03` is blocked and `T4` cannot proceed while publication authority is unresolved** |
-| **Copyright risk** | **MEDIUM** — state-model diagrams are among the most reproduced. **Original construction from Harrismith terms only** |
+| **Simplify** | **Four states, named exactly as Harrismith names them.** Two routes shown — one working, one blocked. Nothing else |
+| **Omit** | The full transition set `T1`–`T8`; transition evidence requirements and conditions; **any folder representation**; any naming, suitability or metadata coding; any platform screenshot or product name; **any suggestion that this is the ISO state model** |
+| **Overclaim risk** | **HIGH, on two fronts.** It will be read as the ISO state model — **it is not, and no ISO state model has been seen**. And a complete-looking diagram implies a working system that does not exist |
+| **Copyright risk** | **MEDIUM** — state-model diagrams are among the most reproduced. **Original construction from Harrismith terms only**, no ISO figure involved |
 | **External imagery** | **No** |
 
-**Requirement.** The blocked transition is shown as **blocked**, or the slide
-misrepresents the project. A state model drawn as fully operable is a claim about
-a system that is not operating.
+**The diagram — fixed:**
 
-**Boundary.** One transition, not eight. If the visual starts explaining how a
-transition is executed, it is Module 4's and must be removed.
+```text
+WIP
+  →  Shared                    solid — Task-Team Lead authorises (BEP §9.4)
+  ⇢  Published / Authorised    DASHED / HALTED — publication authority UNRESOLVED
+  →  Record / Retained         a conceptual state and a retention requirement
+```
 
-### V9 — Planned information delivery
+**Seven mandatory design requirements.**
+
+1. **`WIP → Shared` is solid**, and only because the authorising function is
+   **established** — the Task-Team Lead. If every route is drawn as broken, the
+   model reads as non-functional rather than deliberately halted.
+2. **`Shared → Published` is dashed or visibly halted.** Never solid, never
+   dotted-but-continuous, never a faded arrow that reads as *in progress*.
+3. **`Published / Authorised` carries the label `Publication authority
+   unresolved`.** On the diagram, not in a footnote.
+4. **`TRN-E03` is marked blocked** wherever the delivery event appears.
+   **`T4` is never drawn as an operating transition.**
+5. **`Record / Retained` is not drawn as a folder, and never as `04 Archive`.**
+   **No such root is required or approved**, and the retention approach is
+   **TBD** — drawing one invents a requirement (prohibition 21 case,
+   `M3-S10-15`).
+6. **No automatic-transition implication.** No gears, pipelines, conveyor
+   metaphors or system arrows suggesting the platform moves information by
+   itself. Progression is **by decision**.
+7. **The diagram is labelled a Harrismith project analogue**, not an ISO
+   diagram — on the slide.
+
+**The required annotation.** Against the block, in the project's own words:
+
+> *"Governance can intentionally stop a workflow. A route that cannot legitimately
+> proceed should visibly halt, rather than complete itself by borrowing an
+> authority nobody granted."* — `H2` §11
+
+**Design note — the single most important instruction in this plan.** Every
+instinct in visual design will push toward completing that arrow: a broken chain
+looks like an unfinished drawing. **It is not unfinished. It is accurate.** A
+solid route through Published claims a workflow this project cannot operate, and
+it is the most misleading thing this module could put on a screen. If a producer
+"fixes" it, the fix must be reverted.
+
+**Boundary.** Two routes, not eight transitions. **If the visual begins showing
+how a transition is executed — evidence, conditions, sign-off — it is Module 4's
+and must be removed.**
+
+### V9 — Planned information delivery · **specified (T3-D)**
 
 | Field | Value |
 |---|---|
 | **Slide** | 11 |
-| **Teaching purpose** | Show that exchanges are **planned events with stated purposes**, not incidental transfers |
-| **Source basis** | `X2` (delivery-phase exchanges, at scope level), `H2` (delivery schedule) |
-| **Classification** | **`PUBLIC-SOURCE`** for the framing; **`HARRISMITH`** for every concrete element |
+| **Teaching purpose** | Show that exchanges are **planned events with stated purposes and recipients** — and that a plan is **not evidence that anything was delivered** |
+| **Source basis** | `X2` (delivery-phase exchanges, scope level); `H1` §10.1, §10.11; **`H2` delivery schedule §5, §5.1, §5.3, §7** |
+| **Classification** | **`PUBLIC-SOURCE`** for the framing only; **`HARRISMITH` — analogue** for the delivery concepts; **`HARRISMITH` — `GAP OR UNVERIFIED`** for the missing dates, the blocked event and the unestablished recipient; **`INTERP`** for the chain |
 | **Jurisdiction** | International (framing) · This project (content) |
-| **Simplify** | **Two or three planned events on a plain timeline**, each with a stated purpose. No columns, no fields, no conditions |
-| **Omit** | The schedule's field structure; the condition lists; row-level content; **any date that implies a real programme** |
-| **Overclaim risk** | **HIGH.** A timeline reads as *this happened*. **Nothing has been delivered.** The events are planned, and one is blocked |
-| **Copyright risk** | **LOW** |
+| **Simplify** | **Two or three planned events**, each carrying: purpose · planned information · responsible function · planned event · recipient or intended use · **evidence status** |
+| **Omit** | **Every tick, completed marker and progress bar.** Any actual date. The schedule's field structure, row construction and condition lists. Any populated recipient or acceptance authority. Any suitability or purpose coding |
+| **Overclaim risk** | **HIGH.** A timeline reads as *this happened*. **Nothing has been delivered on this project**, no real dates exist, and one event is blocked |
+| **Copyright risk** | **LOW** — original construction |
 | **External imagery** | **No** |
 
-**Requirement.** The visual is labelled **planned**, and the blocked event is
-marked as blocked. An unmarked timeline is a claim of executed delivery.
+**Six mandatory design requirements.**
 
-**Boundary.** Purpose and suitability mechanics are Module 5. This visual shows
-**that** exchanges are planned, not **how** they are specified.
+1. **The visual carries the label `Planned — not evidence of delivery`.** On the
+   slide, prominently, not as a footnote.
+2. **No checkmarks, no completed states, no progress bar, no percentage.** A
+   progress grammar asserts executed delivery — prohibition 36.
+3. **No actual dates.** Timing is shown as **event-triggered** or **TBD**,
+   because *"real delivery milestones and dates — **none established**"*.
+   Inventing one creates a project commitment from a teaching slide.
+4. **The `evidence status` column exists and is empty** for every event. Its
+   emptiness is the slide's argument; a visual without it is a plan pretending to
+   be a record.
+5. **The blocked dependency is shown honestly.** `TRN-E03` appears **blocked**,
+   with the publication dependency visible — consistent with `V8`. **A timeline
+   drawn as operable would contradict Slide 10.**
+6. **Recipient and acceptance authority are shown unpopulated** — *not
+   established*, *UNRESOLVED — TBD*. **No plausible recipient is invented**;
+   *"assigning a plausible authority to make the row look finished would
+   manufacture governance that does not exist."*
 
-### V10 — Principle versus platform configuration
+**Design note.** Resist a left-to-right time axis with even spacing — it implies a
+programme. A dependency chain, or events pinned to conditions rather than to
+dates, carries the same teaching without asserting a schedule that does not
+exist.
+
+**Boundary.** Purpose and suitability mechanics, field structures and row
+construction are **Module 5**. This visual shows **that** exchanges are planned
+and **that** one is blocked — never **how** a row is populated.
+
+### V10 — The translation chain · **specified (T3-D)**
 
 | Field | Value |
 |---|---|
 | **Slide** | 12 |
-| **Teaching purpose** | Show the direction of travel: a decision is taken, then configuration follows — never the reverse |
-| **Source basis** | `H1` §12.1 (decision precedes configuration), §4.8 (reconfiguration *"does not constitute a governance decision, and does not make itself legitimate by having been done"*), `H3` |
-| **Classification** | **`HARRISMITH`** |
-| **Jurisdiction** | This project |
-| **Simplify** | **One arrow, one direction**: decision → configuration. Beneath it, the reverse arrow **struck through** |
-| **Omit** | Platform screenshots; folder trees; permission tables; any product name |
-| **Overclaim risk** | **MEDIUM.** Low content risk, but it reprises Slide 2 — if it grows, it steals from Slide 13. **One minute, one arrow** |
-| **Copyright risk** | **LOW** |
-| **External imagery** | **No.** A screenshot here would prove the opposite point by making configuration the concrete thing and the decision the abstraction |
+| **Teaching purpose** | Show **the path from principle to evidence** — and show that Harrismith's own path runs out before the end |
+| **Source basis** | `H1` §1.1, §2.4, §4.7, §12.1, §12.9, §11.2, §13.4; **`H2` IM matrix §3.7 (`A1`–`A5`)** |
+| **Classification** | **`SYNTH`** for the chain itself; **`HARRISMITH` — analogue** for each step's supporting statement; **`HARRISMITH` — `GAP OR UNVERIFIED`** for the unresolved authorities and the missing evidence; **`INTERP`** for the six separated concepts |
+| **Jurisdiction** | This project. **No guidance source is used** |
+| **Simplify** | **One horizontal chain, seven steps**, with four visually distinguished bands: **principle · project decision · technical implementation · evidence** |
+| **Omit** | **Any green compliance tick. Any ISO certification badge. Any Autodesk or vendor logo. Any completed maturity ladder. Any platform screenshot.** Any score, percentage, level or traffic light. Any repetition of Slide 2's argument beyond one callback |
+| **Overclaim risk** | **HIGH.** Seven steps in a row with a project's position marked against each is **one design decision away from a scorecard** — and a scorecard is a conformity claim whatever the caption says |
+| **Copyright risk** | **LOW** — original construction, provided no certification mark appears |
+| **External imagery** | **No.** A vendor logo at the configuration step would read as evidence, which is precisely the inversion the slide refutes |
+
+**The chain — fixed:**
+
+```text
+Principle → requirement → governance → assigned authority
+          → process → configuration → evidence
+```
+
+**Six mandatory design requirements.**
+
+1. **The visible warning `Translation model — not a conformity assessment`
+   appears on the slide.** Not in the notes.
+2. **The four bands are visually distinct** — principle, project decision,
+   technical implementation, evidence — so the audience can see *where a step
+   lives*, not merely its order.
+3. **The evidence stage is drawn open or incomplete for Harrismith.** Not
+   crossed out, not red, not marked failed — **open**. Implementation evidence is
+   incomplete or absent, and **no conformity assessment has been performed**.
+4. **No scoring grammar of any kind.** No tick, no percentage, no level, no
+   traffic light, no filled-progress styling. Prohibition 40.
+5. **The chain runs one way, and the reverse is refused.** If a return arrow
+   appears at all it is **struck through** — `H1` §12.1: **decision precedes
+   configuration**, never the reverse.
+6. **Conformity assessment is shown outside the chain**, as a separate act by a
+   separate party — not as an eighth step. Making it the terminus implies the
+   chain leads there, which is prohibition 38 in diagram form.
+
+**The required annotation.** Against the evidence band, in the project's own
+words:
+
+> *"A change is not complete because a document was edited or a setting was
+> clicked."* — BEP §12.9
+
+**Design note.** The temptation is to mark Harrismith's position against all seven
+steps, which produces a maturity ladder by accident. If positions are shown at
+all, show **only the last two** — evidence and assessment — because those are the
+two that matter and the two that are empty. Marking the first five invites the
+eye to read completion.
+
+**Boundary.** Assurance procedure — how verification is performed, by whom,
+against what — is **Module 6**. This visual shows **that** evidence is required
+and **that** it is missing here. Never how to produce it.
 
 ### V11 — Harrismith alignment and gap map
 
@@ -523,16 +629,23 @@ answer, it is rewritten or removed. The one question that must appear:
 | `V13` | 7 | **`GUIDANCE` — UK** + `HARRISMITH` + `INTERP` | **HIGH** | LOW |
 | `V6` | 8 | **`GUIDANCE` — UK** + `UNRESOLVED` + `HARRISMITH` | **HIGHEST** | MEDIUM |
 | `V7` | 9 | `HARRISMITH` + `INTERP` | MEDIUM-HIGH | LOW |
-| `V8` | 10 | `HARRISMITH` | **HIGH** | MEDIUM |
-| `V9` | 11 | `PUBLIC-SOURCE` + `HARRISMITH` | **HIGH** | LOW |
-| `V10` | 12 | `HARRISMITH` | MEDIUM | LOW |
+| `V8` | 10 | `HARRISMITH` + `INTERP` | **HIGH** | MEDIUM |
+| `V9` | 11 | `PUBLIC-SOURCE` + `HARRISMITH` + `INTERP` | **HIGH** | LOW |
+| `V10` | 12 | `SYNTH` + `HARRISMITH` + `INTERP` | **HIGH** | LOW |
 | `V11` | 13 | `HARRISMITH` + `INTERP` | **HIGHEST** | LOW |
 | `V12` | 14 | `SYNTH` | MEDIUM / **HIGH (Triviron)** | LOW |
 
-**Six specified in full: `V2`, `V4`, `V5` (T3-B) and `V13`, `V6`, `V7` (T3-C)** —
-the Section B and Section C visuals. Each carries fixed labels, a fixed form and
-five or six mandatory design requirements, so the constraints survive into asset
-production rather than being re-decided by whoever draws them.
+**Nine specified in full: `V2`, `V4`, `V5` (T3-B), `V13`, `V6`, `V7` (T3-C) and
+`V8`, `V9`, `V10` (T3-D)** — the Section B, C and D visuals plus the Section E
+opener. Each carries fixed labels, a fixed form and five to seven mandatory
+design requirements, so the constraints survive into asset production rather than
+being re-decided by whoever draws them.
+
+**Two of them can overclaim without a word being spoken.** `V8` drawn with a
+complete route through Published, or `V9` drawn as progress, each assert a
+working system this project does not have. Their design requirements are
+**content, not styling** — and a producer who "fixes" the broken arrow in `V8`
+has introduced the module's most misleading claim.
 
 **Scope refinement recorded in T3-C.** `V6` covered Slides 7 and 8 in T3-A. Slide
 7 now has its own entry, **`V13`**, and `V6` is Slide 8 only. The two slides need
@@ -540,7 +653,7 @@ different shapes — a chain and a deliberately unmapped pair of columns — and
 bundling them risked the chain acquiring the columns' pairing problem. **Existing
 identifiers are unchanged**; `V13` is added rather than renumbering.
 
-**Thirteen candidate visuals. Ten carry HIGH or HIGHEST overclaim risk.**
+**Thirteen candidate visuals. Twelve carry HIGH or HIGHEST overclaim risk.**
 
 That ratio is the module, not a defect in the plan. Module 3's subject is a
 document the programme does not hold, and **a diagram is the fastest way to

@@ -2,7 +2,7 @@
 
 **Status:** Traceability record for teaching material. **Not governance.**
 
-Statement-level classification for the developed slides — **Slides 1–9** — the
+Statement-level classification for the developed slides — **Slides 1–12** — the
 method by which Harrismith may be mapped to ISO-associated concepts, and the list
 of claims that **may not be made** in this module under any circumstances.
 
@@ -66,10 +66,10 @@ the conflict is stated — it is not resolved by preferring the convenient one.
 
 ---
 
-## 4. Statement classification — Slides 1–9
+## 4. Statement classification — Slides 1–12
 
-**139 statements across nine slides. 15 `PUBLIC-SOURCE`, 8 `GUIDANCE` (all UK),
-41 `HARRISMITH`, 25 `INTERP`, 13 `SYNTH`, 10 `UNRESOLVED`, 27 `EXCLUDED`.**
+**201 statements across twelve slides. 17 `PUBLIC-SOURCE`, 8 `GUIDANCE` (all UK),
+72 `HARRISMITH`, 34 `INTERP`, 17 `SYNTH`, 13 `UNRESOLVED`, 40 `EXCLUDED`.**
 
 | Slide | Statements | `PUB` | `GUID` | `HARR` | `INT` | `SYN` | `UNR` | `EXC` |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
@@ -82,26 +82,36 @@ the conflict is stated — it is not resolved by preferring the convenient one.
 | **7** | **16** | **0** | **3** | **5** | **3** | **1** | **1** | **3** |
 | **8** | **18** | **0** | **2** | **7** | **0** | **2** | **3** | **4** |
 | **9** | **22** | **1** | **0** | **9** | **4** | **1** | **1** | **6** |
-| **Total** | **139** | **15** | **8** | **41** | **25** | **13** | **10** | **27** |
+| **10** | **23** | **1** | **0** | **12** | **3** | **1** | **1** | **5** |
+| **11** | **19** | **1** | **0** | **9** | **3** | **1** | **1** | **4** |
+| **12** | **20** | **0** | **0** | **10** | **3** | **2** | **1** | **4** |
+| **Total** | **201** | **17** | **8** | **72** | **34** | **17** | **13** | **40** |
 
-**Four observations from the totals.**
+**Five observations from the totals.**
 
-**Harrismith carries the module.** 41 of 139 statements, against 15 public-source
-and 8 guidance. That ratio is the honest shape of a module whose subject is a
-document the programme does not hold: the principles are external, and **every
-concrete illustration is this project's own**.
+**Harrismith carries the module, and increasingly so.** 72 of 201 statements,
+against 17 public-source and 8 guidance. Sections D and E draw **31 of their 62
+statements** from this project. That ratio is the honest shape of a module whose
+subject is a document the programme does not hold: the principles are external,
+and **every concrete illustration is this project's own**.
 
-**Three slides have no `PUBLIC-SOURCE` statement at all** — Slides 2, 7 and 8.
-Each is built entirely from Harrismith evidence or UK guidance, and each carries
-the same delivery obligation: **attribute, or the audience hears ISO.**
+**Four slides have no `PUBLIC-SOURCE` statement at all** — Slides 2, 7, 8 and 12.
+Each is built entirely from Harrismith evidence, UK guidance or presenter
+framing, and each carries the same delivery obligation: **attribute, or the
+audience hears ISO.**
 
-**Slide 8 has the highest `UNRESOLVED` and `EXCLUDED` counts in the module** —
-three and four. That is the slide working as designed. Its subject is a gap, and
-recording what cannot be said is most of its content.
+**`GUIDANCE` appears on four slides only — 5, 6, 7 and 8 — and nowhere after.**
+`X5` and `X6` register nothing about common data environments, delivery planning
+or implementation evidence, so **Slides 10, 11 and 12 attribute nothing to them.**
+An absence of guidance is recorded rather than filled.
 
-**`GUIDANCE` enters at Slide 5 and peaks in Section C** — 5 of its 8 statements
-sit on Slides 7 and 8. Every one is UK-labelled in the tables below, on the slide,
-and aloud.
+**Slide 10 is the most Harrismith-dependent slide in the module** — 12 of 23
+statements, and four of them gaps. It is also the slide where a **diagram can
+overclaim without a word being spoken**; see prohibitions 34 and 36.
+
+**`EXCLUDED` has grown faster than any other class** — 40 statements, plus 40
+prohibited claims. In Sections D and E that is deliberate: the closer the module
+gets to *how it is done*, the more of its content is a boundary.
 
 ### 4.0 Slides 1–3 — summary
 
@@ -455,6 +465,143 @@ Slide 8 exists to make it visible rather than to resolve it.
 | `M3-S9-21` | — | **Excluded.** Slide 9 sits one sentence from Module 4 throughout. If a sentence begins *"and then it goes to…"*, stop |
 | `M3-S9-22` | Answer: unverified, and unverifiable from available material | — |
 
+### Slide 10 — The CDE controls permitted use and exchange
+
+| ID | Statement | Source | Level | Jurisdiction | Publication status | Class |
+|---|---|---|---|---|---|---|
+| `M3-S10-01` | Part 2 concerns the information-management process during the delivery phase, **including the information exchanges within it** | `X2` | A1 | International | **Published** | **`PUBLIC-SOURCE`** |
+| `M3-S10-02` | A CDE supports controlled availability, traceability, version awareness, defined purposes of use, managed exchange, and **separation of information under development from information permitted for broader reliance** | `H1` §6.1 | A4 | This project | — | **`INTERP`** |
+| `M3-S10-03` | A CDE is *"an information-management process supported by technology… it is not a folder tree"* | `H1` §6.1 | A3 | This project | Approved with conditions | **`HARRISMITH` — analogue** |
+| `M3-S10-04` | **Platform ≠ CDE governance** | `H1` §6.1 | A4 | This project | — | **`INTERP`** |
+| `M3-S10-05` | **Folder location ≠ information status** | `H1` §7.2, §6.8 | A3 | This project | Approved with conditions | **`HARRISMITH` — analogue** |
+| `M3-S10-06` | **Access permission ≠ authority** — permissions *"do not create professional or governance authority"* | `H1` §6.9 | A3 | This project | Approved with conditions | **`HARRISMITH` — analogue** |
+| `M3-S10-07` | **Technical movement ≠ authorised state transition** — decision precedes configuration | `H1` §12.1, §6.8 | A3 | This project | Approved with conditions | **`HARRISMITH` — analogue** |
+| `M3-S10-08` | Information can exist in a platform **without being authorised for the next purpose** — *presence is not trust*; visibility of WIP is not permission to rely on it | `H1` §6.1, §7.5 | A3 | This project | Approved with conditions | **`HARRISMITH` — analogue** |
+| `M3-S10-09` | The four states — **WIP · Shared · Published / Authorised · Record / Retained** — and what each is for | `H2` CDE strategy §1 | A3 | This project | Approved with conditions | **`HARRISMITH` — analogue** |
+| `M3-S10-10` | **`WIP → Shared` (T1)** has an established authorising function — the **Task-Team Lead** | `H2`; `H1` §9.4 | A3 | This project | Approved with conditions | **`HARRISMITH` — analogue** |
+| `M3-S10-11` | **`Shared → Published / Authorised` (T4) is BLOCKED.** Publication / exchange authority is **UNRESOLVED — TBD** | `H2` §11; `H1` §9.7; IM matrix D4 | A3 | This project | Approved with conditions | **`HARRISMITH` — `GAP OR UNVERIFIED`** |
+| `M3-S10-12` | *"Transition **T4** therefore has **no available authorising function**, and information remains **Shared**"* | `H2` §11 | A3 | This project | Approved with conditions | **`HARRISMITH` — `GAP OR UNVERIFIED`** |
+| `M3-S10-13` | **`TRN-E03` is PROPOSED — BLOCKED PENDING GOVERNANCE DECISIONS** | `H2` delivery schedule §5 | A3 | This project | Approved with conditions | **`HARRISMITH` — `GAP OR UNVERIFIED`** |
+| `M3-S10-14` | *"The block is represented deliberately and is a feature of the model, not a gap in it: **governance can intentionally stop a workflow**. A route that cannot legitimately proceed should visibly halt, rather than complete itself by borrowing an authority nobody granted."* | `H2` §11 | A3 | This project | Approved with conditions | **`HARRISMITH` — analogue** |
+| `M3-S10-15` | **Record / Retained is a conceptual state and a retention requirement — *"not necessarily a folder"*.** **No mandatory CDE root named `04 Archive` is required or approved**; the retention approach is **TBD** | `H2` §1; `H1` §6.3 | A3 | This project | Approved with conditions | **`HARRISMITH` — `GAP OR UNVERIFIED`** |
+| `M3-S10-16` | The Modules 1 / 2 / 3 connection — the BEP records the method; assigned functions hold authority; the CDE implements those arrangements | Modules 1–2; `H1` §5.9 | A4 | This project | — | **`INTERP`** |
+| `M3-S10-17` | *"A CDE does not merely store information; it controls the conditions under which information may be used and exchanged"* | none | A5 | — | — | **`SYNTH`** |
+| `M3-S10-18` | Any **complete operating `Shared → Published` route** | — | — | — | — | **`EXCLUDED`** |
+| `M3-S10-19` | ACC or any platform automatically being a conforming CDE | — | — | — | — | **`EXCLUDED`** |
+| `M3-S10-20` | Shared automatically meaning **approved** | — | — | — | — | **`EXCLUDED`** |
+| `M3-S10-21` | Record / Retained shown as an `04 Archive` folder | — | — | — | — | **`EXCLUDED`** |
+| `M3-S10-22` | Transition mechanics, transition authority, evidence requirements, naming or suitability codes, metadata, folder-by-folder workflows, the complete state diagram | — | — | — | — | **`EXCLUDED` — Module 4** |
+| `M3-S10-23` | Whether the published standard requires any particular state model or CDE structure | — | — | — | — | **`UNRESOLVED`** |
+
+**No `GUIDANCE` statement appears on this slide.** `X5` and `X6` register nothing
+about common data environments or state models, and nothing is attributed to them.
+
+**Teaching use and warnings**
+
+| ID | Teaching use | Warning |
+|---|---|---|
+| `M3-S10-01` | The framing | Scope, not requirement. **No ISO CDE definition exists in this programme's material** |
+| `M3-S10-02` | The six capabilities | **Not an ISO definition.** Built from our BEP's CDE principles |
+| `M3-S10-03`–`08` | The six distinctions | **Harrismith wording.** Attribute — *"our BEP says"* |
+| `M3-S10-09` | The four states | **`LOCAL ANALOGUE OR INTERPRETATION`.** They resemble ISO-associated practice; **conformity has not been demonstrated**, and no ISO state model has been seen |
+| `M3-S10-10` | The one route that works | Established authority — say so, or the whole model reads as blocked |
+| `M3-S10-11`–`13` | **The mandatory blocked-transition treatment** | **Must appear.** A solid route through Published claims a workflow this project cannot operate |
+| `M3-S10-14` | **The best line on the slide** | Converts an apparent deficiency into the clearest demonstration of the principle. **Do not remove the block to tidy the diagram** |
+| `M3-S10-15` | The Record / Retained caution | **Not a folder.** Drawing an archive folder invents an unapproved requirement |
+| `M3-S10-16` | Three lines of orientation | Do not re-teach Modules 1 or 2 |
+| `M3-S10-17` | The required message | Teaching synthesis |
+| `M3-S10-18`–`21` | — | **Excluded — prohibitions 31, 33, 34, and the `04 Archive` case** |
+| `M3-S10-22` | — | **Excluded.** Delivery test: **if the slide explains exactly how a state transition is performed, stop** |
+| `M3-S10-23` | Answer: *"I don't know — that needs the standard"* | — |
+
+### Slide 11 — Information delivery must be planned
+
+| ID | Statement | Source | Level | Jurisdiction | Publication status | Class |
+|---|---|---|---|---|---|---|
+| `M3-S11-01` | Part 2 concerns the delivery phase and **includes the exchanges of information within it** | `X2` | A1 | International | **Published** | **`PUBLIC-SOURCE`** |
+| `M3-S11-02` | The chain: **purpose → required information → responsible originator → planned event → checked and authorised delivery → intended recipient and use** | `H1` §10.1, §7.3 | A4 | This project | — | **`INTERP`** |
+| `M3-S11-03` | Planned delivery addresses what information, why, who originates, who checks or authorises, who receives, when or at what event, what use it supports, and what dependencies must be satisfied | `H1` §10.1, §7.3 | A3 | This project | Approved with conditions | **`HARRISMITH` — analogue** |
+| `M3-S11-04` | **"Presence in Published does not establish a delivery."** Information in a published location has not been delivered to anyone; **delivery is an act with a recipient and a purpose, not a location** | `H1` §10.1 | A3 | This project | Approved with conditions | **`HARRISMITH` — analogue** |
+| `M3-S11-05` | **Published, Delivered, Received and Accepted are four distinct states** | `H2` §5.3; `H1` §10.10, §10.11 | A3 | This project | Approved with conditions | **`HARRISMITH` — analogue** |
+| `M3-S11-06` | *"Delivery does not prove acceptance. Receipt does not prove suitability. Acceptance applies only to the identified purpose, and does not transfer technical responsibility from the originator."* | `H2` §5.3 | A3 | This project | Approved with conditions | **`HARRISMITH` — analogue** |
+| `M3-S11-07` | **Controlled sharing ≠ publication** | `H2`; `H1` §6.5, §6.7 | A3 | This project | Approved with conditions | **`HARRISMITH` — analogue** |
+| `M3-S11-08` | **A schedule entry is not evidence that the information exists** | none | A4 | — | — | **`INTERP`** |
+| `M3-S11-09` | Planned delivery ≠ completed delivery; a target date ≠ acceptance; an event identifier ≠ an automated trigger; a planned recipient ≠ an established acceptance authority | `H2` | A4 | This project | — | **`INTERP`** |
+| `M3-S11-10` | *"Real delivery milestones and dates — **None established.** All timing event-triggered or TBD"* | `H2` delivery schedule §7 | A3 | This project | Approved with conditions | **`HARRISMITH` — `GAP OR UNVERIFIED`** |
+| `M3-S11-11` | `TRN-E03` remains **BLOCKED**; publication-dependent delivery cannot proceed while publication authority is unresolved | `H2` §5, §5.1 | A3 | This project | Approved with conditions | **`HARRISMITH` — `GAP OR UNVERIFIED`** |
+| `M3-S11-12` | Recipient identity **not established**; recipient acceptance authority **UNRESOLVED — TBD** | `H2` §5.1, §6; `H1` §9.8, §10.11 | A3 | This project | Approved with conditions | **`HARRISMITH` — `GAP OR UNVERIFIED`** |
+| `M3-S11-13` | *"An entry that cannot proceed is recorded as blocked. **Assigning a plausible authority to make the row look finished would manufacture governance that does not exist.**"* | `H2` §5.1 | A3 | This project | Approved with conditions | **`HARRISMITH` — analogue** |
+| `M3-S11-14` | *"Planning defines what should be delivered and why; evidence is still required to prove that delivery occurred"* | none | A5 | — | — | **`SYNTH`** |
+| `M3-S11-15` | A planned schedule entry proving actual delivery | — | — | — | — | **`EXCLUDED`** |
+| `M3-S11-16` | A date proving acceptance | — | — | — | — | **`EXCLUDED`** |
+| `M3-S11-17` | Any invented programme date, milestone, recipient or acceptance authority | — | — | — | — | **`EXCLUDED`** |
+| `M3-S11-18` | The schedule's field structure, row construction, purpose and suitability mechanics, and the responsibility matrices read row by row | — | — | — | — | **`EXCLUDED` — Module 5** |
+| `M3-S11-19` | Whether the published standard requires any particular delivery-planning instrument | — | — | — | — | **`UNRESOLVED`** |
+
+**Teaching use and warnings**
+
+| ID | Teaching use | Warning |
+|---|---|---|
+| `M3-S11-01` | The framing | Scope, not requirement |
+| `M3-S11-02` | The chain, and visual `V9` | **Teaching structure**, not Part 2's process |
+| `M3-S11-03` | The planning questions | **A set of questions, not a schedule schema** |
+| `M3-S11-04` | The line the slide is built on | Our BEP's wording |
+| `M3-S11-05`–`07` | The four states and the sharing/publication split | **Do not re-run Module 2's authority chain.** Name them, show they differ, move |
+| `M3-S11-08`–`09` | The planned-versus-actual distinctions | The slide's actual content |
+| `M3-S11-10` | **No dates exist** | Say it plainly. Everything is event-triggered or TBD |
+| `M3-S11-11`–`12` | The blocked event and the unestablished recipient | Consistent with `M3-S10-11`–`13`. **A timeline drawn as operable contradicts Slide 10** |
+| `M3-S11-13` | The discipline behind the gap | Harder than filling in a name, and the reason the schedule is credible |
+| `M3-S11-14` | The required message | Teaching synthesis |
+| `M3-S11-15`–`17` | — | **Excluded — prohibitions 36, 37.** No tick, no completed item, no progress bar, no invented date |
+| `M3-S11-18` | — | **Excluded.** Delivery test: **if the slide explains how to populate a schedule row, stop** |
+| `M3-S11-19` | Answer: not established from available material | — |
+
+### Slide 12 — A principle is not a platform configuration
+
+| ID | Statement | Source | Level | Jurisdiction | Publication status | Class |
+|---|---|---|---|---|---|---|
+| `M3-S12-01` | The translation chain: **principle → project-specific requirement → agreed governance arrangement → assigned function and authority → process rule → platform configuration → implementation evidence** | none | A5 | — | — | **`SYNTH`** |
+| `M3-S12-02` | Principles describe **what effective information management is trying to achieve** | `X1` | A4 | International | Published | **`INTERP`** |
+| `M3-S12-03` | The project must translate principles into **requirements and decisions** | `X1`, `H1` | A4 | — | — | **`INTERP`** |
+| `M3-S12-04` | The BEP and supporting controls **record the agreed project method** | `H1` §1.1 | A3 | This project | Approved with conditions | **`HARRISMITH` — analogue** |
+| `M3-S12-05` | Functions and authorities must be **assigned** | `H1` §4.6, §5 | A3 | This project | Approved with conditions | **`HARRISMITH` — analogue** |
+| `M3-S12-06` | **Decision precedes configuration** — platform change follows a governance decision, not the reverse | `H1` §12.1 | A3 | This project | Approved with conditions | **`HARRISMITH` — analogue** |
+| `M3-S12-07` | Three things held apart: **as-found configuration** (evidence) · **intended governance** (a controlled decision) · **implemented configuration** (the operational result of a decision) | `H1` §4.7 | A3 | This project | Approved with conditions | **`HARRISMITH` — analogue** |
+| `M3-S12-08` | *"Implemented configuration is legitimate **only when it traces back to an approved decision**"* | `H1` §4.7 | A3 | This project | Approved with conditions | **`HARRISMITH` — analogue** |
+| `M3-S12-09` | **"A change is not complete because a document was edited or a setting was clicked."** Verification covers implementation, workflow behaviour, clear responsibilities, unintended consequences and updated records | `H1` §12.9 | A3 | This project | Approved with conditions | **`HARRISMITH` — analogue** |
+| `M3-S12-10` | The assurance chain — assess change → authorise → implement → **verify implementation** → retain decision and change evidence | `H2` IM matrix §3.7 (A1–A5) | A3 | This project | Approved with conditions | **`HARRISMITH` — analogue** |
+| `M3-S12-11` | **Authorise governance change (A2) is `TBD` against every function.** *"No single universal approver exists"*, and unlimited authority is not assigned to the BIM Manager | `H2` IM matrix §3.7 | A3 | This project | Approved with conditions | **`HARRISMITH` — `GAP OR UNVERIFIED`** |
+| `M3-S12-12` | Six things kept separate: standard or principle · **implementation guidance** · project governance · platform configuration · evidence of operation · **conformity assessment** | none | A4 | — | — | **`INTERP`** |
+| `M3-S12-13` | Harrismith's position — principles stated as informing the approach; governance documents and planned controls exist; **several authorities and appointments unresolved**; **implementation evidence incomplete or absent**; **no conformity assessment performed** | `H1` §11.2, §13.4, §2.3; `H2` | A3 | This project | Approved with conditions | **`HARRISMITH` — `GAP OR UNVERIFIED`** |
+| `M3-S12-14` | *"Presence is not maturity"*; *"configuration is not correctness"* | `H1` §2.4 | A3 | This project | Approved with conditions | **`HARRISMITH` — analogue** |
+| `M3-S12-15` | *"The standard supplies principles; the project must turn them into authorised arrangements, configuration and evidence"* | none | A5 | — | — | **`SYNTH`** |
+| `M3-S12-16` | That **completing the translation chain proves ISO conformity** | — | — | — | — | **`EXCLUDED`** |
+| `M3-S12-17` | That **Harrismith has completed the chain** | — | — | — | — | **`EXCLUDED`** |
+| `M3-S12-18` | That a **configured platform proves ISO conformity** | — | — | — | — | **`EXCLUDED`** |
+| `M3-S12-19` | Any maturity ladder, compliance score, percentage, traffic light or certification badge | — | — | — | — | **`EXCLUDED`** |
+| `M3-S12-20` | Whether the published standard prescribes any translation sequence | — | — | — | — | **`UNRESOLVED`** |
+
+**This slide has no `PUBLIC-SOURCE` and no `GUIDANCE` statement.** It is the
+fourth such slide — 2, 7, 8 and 12 — and carries the same obligation:
+**attribute, or the audience hears ISO.**
+
+**Teaching use and warnings**
+
+| ID | Teaching use | Warning |
+|---|---|---|
+| `M3-S12-01` | The chain, and visual `V10` | **Teaching synthesis.** **Not an ISO-prescribed sequence** — no source presents one |
+| `M3-S12-02`–`03` | What the first two steps are for | Interpretation |
+| `M3-S12-04`–`08` | The middle of the chain | **Harrismith wording.** §4.7's three concepts are the structural version of the same point |
+| `M3-S12-09` | **The line that carries the last step** | The step everyone skips. Say it verbatim |
+| `M3-S12-10` | The assurance chain | **Concept only.** Assurance procedure is **Module 6** |
+| `M3-S12-11` | A2 is TBD | A real, recorded gap at the authorisation step |
+| `M3-S12-12` | **Why this is not a conformity model** | Conformity assessment is the sixth separated item and a **different activity** |
+| `M3-S12-13` | Harrismith's position, row by row | **Not a scorecard.** Its value is that the last two rows are empty |
+| `M3-S12-14` | The configuration caution | — |
+| `M3-S12-15` | The required message | Teaching synthesis |
+| `M3-S12-16`–`19` | — | **Excluded — prohibitions 38, 39, 40.** Delivery test: **if the slide begins scoring compliance, stop** |
+| `M3-S12-20` | Answer: not established; no sequence has been read | — |
+
 ## 5. Harrismith mapping method
 
 The method for Slide 13 and for every later Harrismith reference. **Four
@@ -507,6 +654,12 @@ presentation that implies more.
 | Container classes `ARC-01`–`FIR-01` (`H2` §3.1) | information container | **`LOCAL ANALOGUE OR INTERPRETATION`** | Containers with recorded originators and task teams. **All allocations are PROPOSED GOVERNANCE**, and the matrix is *"intended governance, not live inventory"* |
 | Federation not merging responsibility (`H1` §6.6, §8.5) | originator responsibility | **`LOCAL ANALOGUE OR INTERPRETATION`** | This project's position, clearly stated. **Not verified against the standard**, which has not been read |
 | Harrismith's container arrangement | a verified ISO information-container system | **`EXCLUDED — CONFORMITY CLAIM NOT SUPPORTED`** | No verification exists. The shared term proves nothing |
+| The four CDE states (`H2`) | ISO-associated state language | **`LOCAL ANALOGUE OR INTERPRETATION`** | Resembles ISO-associated practice; **conformity has not been demonstrated**, and **no ISO state model has been seen**. Note *Record / Retained*, not *Archived* |
+| **`Shared → Published` (T4) blocked** (`H2` §11) | authorised exchange | **`GAP OR UNVERIFIED`** | **No available authorising function.** The block is **deliberate governance evidence** — *"a route that cannot legitimately proceed should visibly halt"* — and must not be removed to tidy a diagram |
+| **`TRN-E03` blocked** (`H2` §5) | planned information exchange | **`GAP OR UNVERIFIED`** | Recipient, formats, deliverable set and acceptance authority all unestablished. **Nothing has been delivered on this project** |
+| **Record / Retained** (`H2` §1) | information archiving | **`GAP OR UNVERIFIED`** | *"A conceptual state and a retention requirement — not necessarily a folder."* **No `04 Archive` root is required or approved**; retention is **TBD** |
+| The translation chain (Slide 12) | an ISO-prescribed implementation sequence | **`EXCLUDED — CONFORMITY CLAIM NOT SUPPORTED`** | **Teaching synthesis.** No source presents such a sequence, and **completing the chain would not establish conformity** — assessment is a separate act |
+| Harrismith's position on the chain | a conformity or maturity score | **`EXCLUDED — CONFORMITY CLAIM NOT SUPPORTED`** | **Not a scorecard.** Several authorities unresolved, implementation evidence incomplete, **no conformity assessment performed** |
 | Clause-by-clause conformity | — | **`EXCLUDED — CONFORMITY CLAIM NOT SUPPORTED`** | **No such assessment exists**, and none can be produced from available material |
 | Autodesk platform configuration | ISO conformity | **`EXCLUDED — CONFORMITY CLAIM NOT SUPPORTED`** | No software configuration evidences conformity with anything |
 
@@ -603,6 +756,28 @@ An aligned two-column table on Slide 8 asserts the mapping the slide exists to
 refuse — which is why `V6`'s offset rows, labelled gutter and empty space are
 recorded as **content**, not styling.
 
+### 7.4 Additional prohibitions recorded in T3-D
+
+Ten more, arising from Slides 10–12. Same weight as §7.
+
+| # | Prohibited | Why |
+|---|---|---|
+| 31 | **ACC — or any platform — automatically being a conforming CDE** | `H1` §6.1: a CDE is *"an information-management process supported by technology… it is not a folder tree"*. Purchasing is procurement; a CDE is a process, and **no conformity assessment exists in any case** |
+| 32 | **Folder position proving information status** | `H1` §7.2, §6.8. **Restates prohibition 29 in the CDE context** — recorded separately because Slide 10 is where a folder diagram is most likely to make the claim visually |
+| 33 | **Shared automatically meaning approved** | `H2`: *"**Shared does not mean** published, accepted, or suitable for every purpose."* Shared is a state with a stated purpose, not a quality rating |
+| 34 | **A complete operating `Shared → Published` route** | **T4 has no available authorising function**; publication authority is **UNRESOLVED — TBD**; information **remains Shared**. A solid route claims a workflow this project cannot operate |
+| 35 | **`TRN-E03` being deliverable** | **PROPOSED — BLOCKED PENDING GOVERNANCE DECISIONS.** Recipient not established, formats not established, deliverable set not defined, acceptance authority unresolved |
+| 36 | **A planned schedule entry proving actual delivery** | `H1` §10.1: *"Presence in Published does not establish a delivery… delivery is an act with a recipient and a purpose, not a location."* **Nothing has been delivered on this project** |
+| 37 | **A date proving acceptance** | Published, Delivered, Received and Accepted are **four distinct states**. *"Delivery does not prove acceptance. Receipt does not prove suitability."* And **no real dates exist** — all timing is event-triggered or TBD |
+| 38 | **A configured platform proving ISO conformity** | Configuration is the sixth step of seven and downstream of every decision that matters. `H1` §12.1: **decision precedes configuration**. §2.4: *"presence is not maturity"*, *"configuration is not correctness"* |
+| 39 | **Harrismith having completed the translation chain** | **Several authorities unresolved** (A2 is `TBD` against every function); **implementation evidence incomplete or absent**; **no conformity assessment performed** |
+| 40 | **Any visual maturity or compliance score** | No score, percentage, level, traffic light, tick or certification badge. A scorecard **is** a conformity claim, whatever the caption says — and it would breach prohibitions 1 and 20 at once |
+
+**Prohibitions 34 and 36 are the two a diagram commits silently.** A tidy state
+model that completes through Published, or a timeline that reads as progress,
+each assert something this project cannot support — **without a word being
+spoken.** `V8` and `V9` record the design requirements that prevent it.
+
 ## 8. Unresolved matters carried forward
 
 | # | Unresolved | Resolved by |
@@ -632,6 +807,22 @@ the requirement is not available.**
 evidence — they are **open decisions on a live project**, recorded as such by the
 project itself. They resolve by decision, not by research.
 
+| 16 | Whether the published standard requires any particular **state model or CDE structure** | A licensed copy |
+| 17 | Whether the published standard requires any particular **delivery-planning instrument** | A licensed copy |
+| 18 | Whether the published standard prescribes any **translation sequence** from principle to evidence | A licensed copy. The Slide 12 chain is **teaching synthesis** |
+| 19 | **Harrismith's publication / exchange authority** | **An open project decision** — BEP §9.7; IM matrix D4. Until then `T4` and `TRN-E03` remain blocked |
+| 20 | **Harrismith's recipient identity and acceptance authority** | **An open project decision** — BEP §9.8, §10.11; IM matrix D7 |
+| 21 | **Harrismith's governance-change approval authority by change class** (IM matrix `A2`) | **An open project decision.** *"No single universal approver exists"* |
+| 22 | Harrismith's **retention approach**, and whether any record structure is required | **An open project decision** — BEP §6.3. **No `04 Archive` root is approved** |
+| 23 | Harrismith's **implementation evidence** | Verification activity that has not been performed — BEP §12.9; IM matrix `A4` |
+
+**Items 19–23 are the Sections D and E gaps, and all five are open project
+decisions.** They resolve by someone deciding and recording, not by research —
+and until they do, the blocked routes on Slides 10 and 11 stay blocked. **That is
+the module's most useful demonstration of the principle it teaches**: governance
+can intentionally stop a workflow, and a route that cannot legitimately proceed
+should visibly halt.
+
 **Item 14 is the Section C headline, and it needs three things, not one.** A
 licensed copy would give the standard's definitions. It would **not** give the
 appointment structure or the contractual context that makes a party what it is,
@@ -647,18 +838,19 @@ requirement, they need the standard.**
 
 | Field | Value |
 |---|---|
-| Statements classified | **Slides 1–9 — 139 statements** |
-| `PUBLIC-SOURCE` | 15 |
-| `GUIDANCE` — **all UK** | **8** — entering at Slide 5, peaking on Slides 7–8 |
-| `HARRISMITH` | 41 — the **33 in Slides 4–9 are sub-categorised: 21 analogue, 12 gap or unverified**. The 8 in Slides 1–3 predate the sub-categorisation and are not retrofitted |
-| `INTERP` | 25 |
-| `SYNTH` | 13 |
-| `UNRESOLVED` | 10 statement-level, plus 15 module-level (§8) |
-| `EXCLUDED` | 27 statement-level, plus **30 prohibited claims** (§7, §7.1, §7.2, §7.3) |
-| Slides with **no** `PUBLIC-SOURCE` statement | **2, 7 and 8** |
+| Statements classified | **Slides 1–12 — 201 statements** |
+| `PUBLIC-SOURCE` | 17 |
+| `GUIDANCE` — **all UK** | **8** — on Slides 5–8 only; **nothing after Slide 8** |
+| `HARRISMITH` | 72 — the **64 in Slides 4–12 are sub-categorised: 43 analogue, 21 gap or unverified**. The 8 in Slides 1–3 predate the sub-categorisation and are not retrofitted |
+| `INTERP` | 34 |
+| `SYNTH` | 17 |
+| `UNRESOLVED` | 13 statement-level, plus 23 module-level (§8) |
+| `EXCLUDED` | 40 statement-level, plus **40 prohibited claims** (§7, §7.1–§7.4) |
+| Slides with **no** `PUBLIC-SOURCE` statement | **2, 7, 8 and 12** |
 | Vocabulary relationships recorded | **6** — Slide 8. **None is `ESTABLISHED`** |
-| Slides 10–14 | **Not classified.** Not developed |
-| Mapping method | **Established (§5)**, extended in T3-B and T3-C; applied fully at Slide 13 |
+| Blocked routes recorded | **`T4` and `TRN-E03`** — Slides 10 and 11. **Both must remain visibly blocked** |
+| Slides 13–14 | **Not classified.** Not developed |
+| Mapping method | **Established (§5)**, extended in T3-B, T3-C and T3-D; applied fully at Slide 13 |
 | Clause references used | **Zero** |
 | Requirement acronyms used | **Zero** |
 | Level-of-information-need definitions given | **Zero** — plain concept only |
