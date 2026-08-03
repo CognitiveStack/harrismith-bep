@@ -80,18 +80,27 @@ issued, live, contractual BEP would misrepresent it.
 teaching/
 ├── README.md                        this file
 ├── roadmap.md                       the eight-module programme and current position
-├── module-01-what-is-a-bep/         Module 1 — active
+├── module-01-what-is-a-bep/         Module 1 — produced; review and rehearsal deferred
 │   ├── README.md                    module objective, deliverable and scope
-│   ├── presentation-outline.md      20-minute structure and slide development
-│   ├── speaker-notes.md             natural-language notes, Slides 1–3
+│   ├── presentation-outline.md      20-minute structure, Slides 1–14
+│   ├── speaker-notes.md             natural-language notes, Slides 1–14
 │   ├── visual-demonstration-plan.md candidate visual evidence and its risks
 │   ├── exercises.md                 practice and self-assessment
-│   └── source-map.md                each subject mapped to controlled sources
+│   ├── source-map.md                each subject mapped to controlled sources
+│   └── presentation/                assembly package — production handoff
+├── module-02-roles-and-responsibilities/   Module 2 — CURRENT, ACTIVE
+│   ├── README.md                    module objective, deliverable and scope
+│   ├── presentation-outline.md      20-minute structure, Slides 1–3 developed
+│   ├── speaker-notes.md             natural-language notes, Slides 1–3
+│   ├── visual-demonstration-plan.md candidate visuals for the whole module
+│   ├── exercises.md                 practice and self-assessment
+│   └── source-map.md                role inventory, authority inventory, classification
 ├── shared/
 │   ├── glossary.md                  teaching glossary across all modules
 │   └── presentation-principles.md   how these presentations are built
 └── assets/
-    └── README.md                    asset handling rules — no assets committed yet
+    ├── README.md                    asset handling rules
+    └── module-01/                   Module 1 visual source set
 ```
 
 ## 6. Safety boundary

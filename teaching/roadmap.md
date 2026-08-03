@@ -26,8 +26,8 @@ moves — not as the subject.
 
 | # | Module | Status |
 |---|---|---|
-| 1 | **What is a BIM Execution Plan?** | **CURRENT — ACTIVE** |
-| 2 | BIM Management roles and responsibilities | Planned |
+| 1 | What is a BIM Execution Plan? | **Content and presentation assembly produced.** Review and rehearsal **deferred** |
+| 2 | **BIM Management roles and responsibilities** | **CURRENT — ACTIVE** |
 | 3 | ISO 19650 information-management principles | Planned |
 | 4 | CDE workflows and information states | Planned |
 | 5 | Responsibility matrices and information-delivery planning | Planned |
@@ -35,31 +35,43 @@ moves — not as the subject.
 | 7 | Translating Harrismith into the Triviron BEP | Planned |
 | 8 | Facilitating and presenting a BEP workshop | Planned |
 
-### Module 1 — What is a BIM Execution Plan? — **CURRENT**
+### Module 1 — What is a BIM Execution Plan? — **produced; review and rehearsal deferred**
 
-The active module. Deliverable: a 20-minute presentation using Harrismith as the
-worked example. See
+Deliverable: a 20-minute presentation using Harrismith as the worked example. See
 [`module-01-what-is-a-bep/README.md`](module-01-what-is-a-bep/README.md).
 
-**The Slides 1–14 content baseline, the visual-source baseline and the
-presentation assembly package are complete** — see
-[`assets/module-01/`](assets/module-01/) and
-[`module-01-what-is-a-bep/presentation/`](module-01-what-is-a-bep/presentation/).
-The module itself is **not** complete and remains active: **PowerPoint
-production, presentation review, rehearsal and measured timing**, refinement and
-rendered assets are outstanding.
+**Produced:** the Slides 1–14 content baseline, the visual-source baseline, the
+presentation assembly package, and a PowerPoint assembled **outside this
+repository**.
 
-**Rehearsal is deliberately deferred until an assembled deck exists.**
+**Deferred, not complete:** presentation review and rehearsal with measured
+timing. Both remain outstanding **until the presenter chooses to perform them** —
+they are not blocked, and Module 2 does not wait on them.
 
-Only Module 1 has been developed. Modules 2–8 are recorded here as the intended
-sequence; none of their material exists yet, and their scope may change as
-Module 1 is delivered and reviewed.
+### Module 2 — BIM Management roles and responsibilities — **CURRENT**
+
+The active module. Deliverable: a 20-minute presentation on roles, functions and
+authority. See
+[`module-02-roles-and-responsibilities/README.md`](module-02-roles-and-responsibilities/README.md).
+
+**Established (T2-A):** module structure, the role inventory, the authority
+inventory, the 20-minute presentation architecture, and Slides 1–3 as the initial
+teaching baseline.
+
+**Outstanding:** Slides 4–14, visual source, presentation assembly, PowerPoint
+production, review and rehearsal.
+
+### Modules 3–8 — future scope
+
+Modules 3–8 are recorded below as the intended sequence. **None of their material
+exists**, and their scope may change as Modules 1 and 2 are delivered and
+reviewed.
 
 ### Modules 2–8 — intended scope
 
 | # | Module | Intended subject | Principal expected sources |
 |---|---|---|---|
-| 2 | BIM Management roles and responsibilities | Functional roles, the difference between technical and information-management responsibility, delegation and role combination, why authority never comes from platform permission | BEP §5; `information-management-responsibility-matrix.md` |
+| 2 | BIM Management roles and responsibilities — **now active; see above** | Functional roles, the difference between technical and information-management responsibility, delegation and role combination, why authority never comes from platform permission | BEP §4.6, §5; `information-management-responsibility-matrix.md`; `coordination-review-strategy.md` §3 |
 | 3 | ISO 19650 information-management principles | The principles that inform the approach — purposeful exchange, originator/recipient separation, the state model — and the limits of what this implementation claims | BEP §13.4, §11.2; `guidance/BIM-Delivery-Guide.md` G12 |
 | 4 | CDE workflows and information states | WIP, Shared, Published/Authorised, Record/Retained; controlled transitions; state versus folder; version, revision, status and suitability as four separate properties | BEP §6; `cde-workflow-state-strategy.md` |
 | 5 | Responsibility matrices and information-delivery planning | The Perform/Check/Authorise/Coordinate/Accept/Consult/Inform grammar; container allocation; delivery events, purpose and suitability | Both matrices; `information-delivery-schedule.md` |
@@ -122,13 +134,12 @@ of governance under condition. Describing it neither advances nor reopens it.
 
 | Field | Value |
 |---|---|
-| Active module | **Module 1 — What is a BIM Execution Plan?** — remains **CURRENT — ACTIVE** |
-| Module 1 deliverable | 20-minute presentation — **content, visual-source and assembly baselines complete, not final** |
-| Slides developed | **Slides 1–14** — the full working content baseline |
-| Visual source | **Complete** — `M01-S01`–`M01-S14` in [`assets/module-01/`](assets/module-01/) |
-| Rendered visual assets | **None** — no renderer available; source committed instead |
-| Assembly package | **Complete (T1-E)** — [`module-01-what-is-a-bep/presentation/`](module-01-what-is-a-bep/presentation/) |
-| Module 1 outstanding | **PowerPoint production, presentation review, rehearsal and measured timing**, refinement, rendered assets |
-| Modules 2–8 | Not started |
+| **Active module** | **Module 2 — BIM Management Roles and Responsibilities** — **CURRENT — ACTIVE** |
+| Module 2 deliverable | 20-minute presentation on roles, functions and authority — **structure and Slides 1–3 only** |
+| Module 2 established (T2-A) | Structure · role inventory · authority inventory · 20-minute architecture · Slides 1–3 |
+| Module 2 outstanding | Slides 4–14, visual source, presentation assembly, PowerPoint production, review, rehearsal |
+| Module 1 | Content baseline, visual source and assembly package **produced**; PowerPoint assembled **outside this repository** |
+| Module 1 outstanding | **Presentation review and rehearsal — DEFERRED**, not complete, until the presenter chooses to perform them |
+| Modules 3–8 | **Future scope** — not started |
 | Publication automation | **PAUSED** |
 | Source material status | Training Baseline 0.1 — approved with conditions; publication NOT AUTHORISED |
