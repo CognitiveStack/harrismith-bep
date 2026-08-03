@@ -1,4 +1,4 @@
-# Module 1 — Speaker Notes, Slides 1–3
+# Module 1 — Speaker Notes, Slides 1–8
 
 **Status:** Working notes. **Not a script, and not final.**
 
@@ -195,6 +195,509 @@ by themselves. So who does them, and who is allowed to say yes?"
 
 ---
 
+## Slide 4 — Who prepares, reviews and approves the BEP?
+
+### Purpose
+
+Show that preparing, reviewing, approving, authorising and implementing are five
+different functions held by different parts of the project — and kill the idea
+that one BIM manager writes the BEP alone and imposes it on everyone.
+
+### Essential message
+
+1. **Five different acts, five different accountabilities**: prepare, contribute,
+   review, approve, implement.
+2. **Drafting is concentrated; agreement is distributed.** The BIM Manager
+   maintains the framework — and the Appointing Party, Lead Delivery Party, BIM
+   Coordinator and Task-Team Leads are all *consulted* on it.
+3. **Approval is a separate, named function**, not the drafter signing their own
+   work.
+4. **Implementation belongs to everyone** who touches project information.
+5. Distributed does **not** mean vague. Each function is named and accountable
+   for a different act.
+
+### Suggested wording
+
+> "So who actually writes one of these?
+>
+> The honest answer is that 'writes' is the wrong verb, because five different
+> things happen and people tend to hear them as one.
+>
+> Someone drafts and maintains it. On Harrismith that's the BIM Manager — that
+> part *is* concentrated, and it should be, or you get a document by committee.
+> But look at what the responsibility matrix actually says on that row: the
+> appointing party, the lead delivery party, the coordinator and every task-team
+> lead are all marked 'consult'. They don't write it. They have to be asked.
+>
+> Then it gets reviewed. Then — separately — somebody has to be permitted to say
+> 'this now stands'. That's a different function again, and on Harrismith it's a
+> defined one. And then everyone who touches project information has to actually
+> operate it, which is the part no document can do for you.
+>
+> There's a line in the Harrismith BEP I'd put on a wall. The BIM Manager is not
+> automatically the appointing party, not the lead delivery party, not a design
+> approver, not a technical lead, and not a contractual decision-maker. That
+> function governs how information is managed. It doesn't collect authority over
+> everything it touches."
+
+### Shorter fallback
+
+> "Five different things: someone drafts it, everyone's consulted on it, it gets
+> reviewed, a defined function approves it, and the whole team implements it.
+> They're not the same job, and no single person holds all five. The BIM Manager
+> drafts and maintains — but doesn't approve their own work, and doesn't acquire
+> design or contractual authority by holding the pen."
+
+### Harrismith worked example
+
+**The route the Harrismith BEP itself travelled** (BEP §9.10): working draft →
+controlled review → decisions resolved → baseline candidate → authorised
+training baseline → controlled publication.
+
+It reached *authorised training baseline* — approved with conditions — through a
+function established for that purpose. It has **not** reached controlled
+publication. Two useful things fall out of this: the approval function was
+created *before* the approval decision was taken, and the document's own approval
+route is the same governance model it applies to project information.
+
+### Likely questions and safe answers
+
+| Question | Safe answer |
+|---|---|
+| "So who signs it?" | On Harrismith, a defined approval function did — and the source says plainly that **no real contractual signatory is assigned**, because it is a training implementation. On a real project the signatory follows the appointment, which Harrismith does not have. |
+| "Doesn't the BIM manager just decide everything?" | No, and the sources say so twice. Publication authority is expressly **not** automatically the BIM Manager's, and governance-change approval records that **no single universal approver exists** and unlimited authority is not assigned to that function. |
+| "Who's the BIM manager on Harrismith?" | Nobody. Every role holder is TBD — no appointing party, no lead delivery party, no BIM manager, no coordinator, no task-team leads. It defines functions, not people. |
+| "What if I disagree with what's in it?" | There's a route for that — the Working Process. A proposal isn't governance; it becomes governance by being decided and recorded. Disagreement has a channel rather than needing a corridor conversation. |
+| "Can the CDE administrator change it?" | No. CDE Administration implements approved governance; it doesn't create it. Being able to change a setting is a software capability, not a decision anyone made. |
+| "Isn't 'everyone's responsible' just nobody's responsible?" | It would be if the functions weren't named. They are — the matrix says for every process step who performs, who checks, who authorises, who's consulted and who's informed. That's the opposite of diffuse. |
+
+### Transition to Slide 5
+
+From *who agrees it* to *what they are agreeing to*: "So a group of named
+functions agree it. Agree to what, though? Because this is where a lot of BEPs
+quietly fail — they look finished and they've agreed nothing."
+
+### Delivery warning
+
+**The likely misunderstanding: the audience hears "distributed" as "nobody is
+accountable."** That is the opposite of the point, and it is the reading that
+makes people distrust governance documents.
+
+Guard against it by always pairing the distribution with a name for the function.
+Do not say "it's a team effort". Say "five functions, each accountable for a
+different act, all written down". If you find yourself waving a hand at the
+diagram, you have lost the slide.
+
+**Second risk, smaller:** do not let this slide slide into the
+approval-versus-implementation argument. Foreshadow it — implementation is the
+fifth column — and move on. You need that material later.
+
+---
+
+## Slide 5 — Template versus project-specific BEP
+
+### Purpose
+
+Separate a reusable starting framework from a completed BEP containing decisions
+for one real project — and show that a fully populated document can still have
+decided nothing.
+
+### Essential message
+
+1. **A template asks the right questions; a project-specific BEP records the
+   project's agreed answers.**
+2. **A populated document is not necessarily complete.** Every heading can
+   contain text while the project's decisions remain unmade.
+3. Copying a company template into a project and changing the name produces a
+   document, not an agreement.
+
+**Flag for the presenter, not for the slide:** this distinction is teaching
+synthesis. The Harrismith sources do not teach it and do not discuss BEP
+templates. Do not attribute it to them.
+
+### Suggested wording
+
+> "There's a version of this document that turns up on a lot of projects. It has
+> all the right headings. Roles, CDE, coordination, delivery. It's usually forty
+> pages, and it's usually the same forty pages as the last project.
+>
+> That's a template. And templates are genuinely useful — they stop you
+> forgetting a section. But a template asks the right questions. It hasn't
+> answered any of them for *your* project.
+>
+> The test isn't whether the headings are filled in. Filled-in headings are easy.
+> The test is whether a specific decision has been taken and written down. Who
+> exactly is producing this container. Who exactly is allowed to authorise its
+> release. What exactly happens when structural and mechanical disagree.
+>
+> And I want to be fair to Harrismith here, because it cuts both ways. Harrismith
+> has made a lot of project-specific decisions — six containers with named
+> originating task teams, three delivery events with their checking and
+> authorisation requirements, a four-state CDE model. And it still has a list of
+> things it hasn't decided. Who holds publication authority: unresolved. Who can
+> accept a delivery: unresolved. Level of information need: not defined.
+>
+> Now — it *says* all of that. Out loud, in the document. That's the difference
+> between an incomplete BEP and a dishonest one."
+
+### Shorter fallback
+
+> "A template asks the right questions; a project BEP records the answers. And
+> filled-in headings aren't answers — Harrismith has every section populated and
+> still lists what it hasn't decided, which is the honest way to be incomplete."
+
+### Harrismith worked example
+
+**The publication authority.** The BEP could easily have written "the BIM Manager
+authorises publication" — it would read as complete and nobody would query it.
+Instead BEP §9.7 records that the authority is **UNRESOLVED**, that it depends on
+a delivery arrangement that does not yet exist, and that it is **not**
+automatically the BIM Manager, the BIM Coordinator, the CDE Administrator or the
+Architect. The matrix row D4 carries the same TBD across every column.
+
+That is one row that could have been quietly filled in and was not. It is the
+whole slide in a single example.
+
+### Likely questions and safe answers
+
+| Question | Safe answer |
+|---|---|
+| "So templates are bad?" | Not at all — a template stops you forgetting a section, and the section architecture is worth reusing. The failure is treating the template as the finished product. |
+| "How do I know if mine is a real BEP?" | Pick any responsibility in it and ask who specifically holds it on this project, and what happens if they don't. If the document can't tell you, that part is still a template. |
+| "Isn't 'unresolved' just an excuse for not finishing?" | It would be if it were unmarked. Recording an open decision keeps it visible and assigns it a route. Filling it with a plausible name hides it and creates authority nobody agreed. |
+| "Can we just use Harrismith as our template?" | The structure and method, yes. The decisions, no — they're this project's answers, and they'd be wrong for another project. That's the last slide of this talk. |
+| "Where does the standard company text go?" | Wherever it's genuinely generic. The moment it states who does what on this project, it stops being company text and becomes a decision someone has to actually take. |
+
+### Transition to Slide 6
+
+From *what a completed BEP contains* to *how Harrismith actually holds it*:
+"So — where do all those answers live? Because they're not all in one document,
+and that's deliberate."
+
+### Delivery warning
+
+**The likely misunderstanding: the audience hears this as criticism of
+Harrismith.** You have just listed seven things it hasn't decided; someone will
+read that as "so it's not finished."
+
+Get ahead of it in the wording. The list of unresolved matters is presented as
+*discipline*, not deficiency — a document that records what it does not know is
+doing the thing being taught. If the question comes anyway, agree with the
+factual part and reframe: yes, it is incomplete, and it says exactly where.
+
+**Second risk:** do not attribute the template/project distinction to the
+Harrismith documents. It is your framing. If asked "where does it say that?",
+answer honestly — it doesn't; this is how you are explaining it.
+
+---
+
+## Slide 6 — The Harrismith BEP structure
+
+### Purpose
+
+Show the implementation as one connected management system — a central agreement
+with supporting resources around it — and explain why splitting it that way makes
+it maintainable, reviewable and teachable.
+
+### Essential message
+
+1. **Seven documents, one system.** The BEP is the operating agreement; five
+   supporting resources hold the detail; the governance register records what was
+   decided, assumed and left open.
+2. **The BEP states what is required; the supporting resources hold the detail;
+   detail is not duplicated.**
+3. **Meaning is defined once, allocation is recorded once.**
+4. One enormous document would be worse — not stylistically, but structurally.
+
+### Suggested wording
+
+> "This isn't one document. It's seven, and the split is the interesting part.
+>
+> In the middle you've got the BEP itself — the operating agreement. It says what
+> is required. Around it there are five supporting resources: two responsibility
+> matrices, a delivery schedule, a CDE workflow strategy, a coordination
+> strategy. Each one holds the detail for one part of the agreement. And
+> alongside all of them there's a governance register that records what was
+> decided, what was assumed, and what's still open.
+>
+> The rule is that detail lives in exactly one place. The BEP says a task-team
+> lead authorises sharing; it doesn't reproduce the matrix. The matrix allocates
+> the function; it doesn't redefine what authorising means.
+>
+> There's a sentence in the BEP that explains why, better than I can. Duplication
+> creates divergence — and divergence in governance documentation is worse than
+> absence, because both copies look authoritative.
+>
+> Think about what one big document would do to you. Every delivery date change
+> becomes a change to the BEP. Every reviewer has to re-approve the whole
+> agreement to sign off one coordination tweak. And anyone looking for one
+> allocation has to read three hundred pages to find it."
+
+### Shorter fallback
+
+> "Seven documents, not one. The BEP is the agreement and says what's required;
+> five supporting resources hold the detail — two matrices, a delivery schedule,
+> a CDE strategy, a coordination strategy; and a governance register records
+> decisions and open questions. Detail lives in one place only, because two
+> copies of a rule both look authoritative and will eventually disagree."
+
+### Harrismith worked example
+
+**One rule, traced across three documents.** "A Task-Team Lead authorises
+information to move from WIP to Shared."
+
+- The **BEP** defines what authorising *means* and that it is purpose-bound
+  (§9.4).
+- The **IM Responsibility Matrix** allocates it — row P4, Task-Team Lead marked
+  *Authorise*, the Author absent from the row entirely.
+- The **Delivery Schedule** applies it — every TRN-E01 row's authorisation
+  requirement is Task-Team Lead authorisation to share.
+
+Three documents, three jobs, no duplication. Change the allocation and you edit
+one file.
+
+### Likely questions and safe answers
+
+| Question | Safe answer |
+|---|---|
+| "Which one wins if they conflict?" | The BEP has a precedence order for document conflict. But be careful — on Harrismith the BEP's own authority is recorded as *none*, because it's a training implementation. It's a hierarchy of documents, not a claim of contractual force. |
+| "Are all seven finished?" | No. Each declares its own status. All seven are approved with conditions and none is published, and several carry their own explicit list of unresolved matters. |
+| "Isn't seven documents harder to keep in sync?" | Less so than one, oddly — because nothing is stated twice, there's nothing to fall out of sync. The risk in one big document is two paragraphs saying different things. |
+| "Do I have to read all of it?" | No, and that's part of the design. A task-team lead needs the matrix rows that name them and the schedule rows for their containers. |
+| "Does the BEP approve the supporting documents?" | No. Referencing a resource records that the BEP depends on it. Each declares its own status, and reference doesn't constitute approval. |
+
+### Transition to Slide 7
+
+Narrow from the whole system to the two documents people most often confuse:
+"Two of those seven are both called responsibility matrices, and they get mixed
+up constantly — so let me separate them."
+
+### Delivery warning
+
+**The likely misunderstanding: the audience hears "seven documents" as
+bureaucracy.** Some of them are already thinking about the last governance pack
+they were sent and didn't read.
+
+Do not defend the count. Go straight to the maintenance argument — one document
+means every small change reopens the whole agreement — and give the concrete
+consequence. The audience is much more receptive to "you'd have to re-approve
+everything to change one date" than to "separation of concerns".
+
+**Second risk:** do not imply the seven documents are complete or operational.
+They are approved with conditions and not published, and several are explicitly
+incomplete. Overstating this here undermines the honesty you have built.
+
+---
+
+## Slide 7 — Two responsibility matrices, two different questions
+
+### Purpose
+
+Separate process responsibility from model-content responsibility, and show that
+Harrismith keeps them in two documents because they answer two different
+questions.
+
+### Essential message
+
+1. **The IM matrix asks: who performs, checks, authorises, coordinates and
+   accepts each process function?**
+2. **The Model matrix asks: which party and task team produces and maintains
+   each container?**
+3. They are built differently — one is a grid of **verbs against roles**, the
+   other is a register of **containers with originators**.
+4. **Process responsibility and model-content responsibility are related, but
+   they are not the same thing.**
+5. **RACI is not used**, deliberately.
+
+### Suggested wording
+
+> "Two documents, both called responsibility matrices, and they answer completely
+> different questions.
+>
+> The first one asks: who performs, who checks, who authorises, who coordinates,
+> who accepts — for each step in the process. It's a grid. Twenty-five process
+> functions down the side, nine roles across the top.
+>
+> The second one asks something much simpler: which team produces this model, and
+> keeps it. It's not a grid, it's a register. One entry per container.
+>
+> The first tells you what happens to information. The second tells you whose
+> information it is.
+>
+> One thing worth flagging: the cells don't say R, A, C or I. Harrismith
+> deliberately doesn't use RACI, and it says why — RACI puts checking and
+> authorising in the same bucket, and puts coordinating and performing in the same
+> bucket. Those are exactly the distinctions this whole document depends on. So
+> the terms are perform, check, authorise, coordinate, accept, consult, inform.
+> Seven, not four."
+
+### Shorter fallback
+
+> "One matrix asks who performs, checks and authorises each process step — a grid
+> of functions against roles. The other asks which task team produces each model
+> — a register, one entry per container. What happens to the information, versus
+> whose information it is. And it's deliberately not RACI, because RACI collapses
+> checking and authorising into one letter."
+
+### Harrismith worked example
+
+**From the IM matrix — rows P1 and P4.** P1, *author information in WIP*: the
+Author is marked **Perform**. P4, *authorise WIP information for controlled
+sharing*: the Author does not appear at all, and the Task-Team Lead is marked
+**Authorise**.
+
+The document states the reason directly: an Author does not self-authorise merely
+because they authored the information. It is two rows, and it is the clearest
+thing in the matrix.
+
+**From the Model matrix — the MEP and Fire rows.** MEC-01, ELE-01 and PLM-01 all
+originate from a **single MEP Consultant party**, through three different task
+teams. FIR-01 originates from a **separate Fire Consultant**.
+
+One party, three task teams, three containers — and Fire is not an MEP sub-team.
+The first matrix cannot tell you any of that. That is why the second exists.
+
+### Likely questions and safe answers
+
+| Question | Safe answer |
+|---|---|
+| "Why not just merge them?" | You'd get a grid with every process function against every container — mostly empty, and unreadable. They're separate because they're indexed differently: one by function, one by container. |
+| "Is this RACI?" | No, deliberately. Seven terms instead of four, because RACI collapses checking with authorising and coordinating with performing — and the BEP says it's not to be introduced unless explicitly approved later. |
+| "Who's the checker on Harrismith?" | Nobody yet — every holder is TBD. The matrix allocates functions to roles, not to people, and it explicitly says it isn't evidence that separate people perform them. |
+| "What if one person is author and checker?" | Allowed on a project this size, and the document is specific about it: the functional distinction remains, a self-check is still a checking act, and the combination is *recorded* so the independence limitation is visible. Independence is never claimed where it doesn't exist. |
+| "Where's the federated model in the second matrix?" | It's there as COORD-01 — led by the BIM Coordinator. Worth noting: federation doesn't merge authorship, and COORD-01 isn't a project deliverable unless it's explicitly scheduled as one. |
+| "Are the model allocations final?" | No — they're proposed governance under the training organisation assumption. No organisation is appointed and none is named. |
+
+### Transition to Slide 8
+
+From allocation to commitment: "So we know who does what, and whose model is
+whose. That's still just an allocation of work. It becomes a commitment when
+something is actually due."
+
+### Delivery warning
+
+**The likely misunderstanding: someone translates the cells into RACI out loud** —
+"so Authorise is basically the A" — and the distinction you just made evaporates.
+
+Correct it immediately and cheaply: RACI's A covers both approving and being
+accountable, and this grammar splits Check from Authorise precisely because those
+are different decisions. Don't be precious about it; one sentence, then move.
+
+**Second risk:** do not project either matrix at full size. The IM matrix is a
+nine-column grid across seven sub-tables and reads as noise. Two rows, enlarged,
+carry the message — the full grid carries nothing.
+
+---
+
+## Slide 8 — Information-delivery planning
+
+### Purpose
+
+Show how responsibilities become planned deliveries — and what a delivery plan
+looks like when no dates and no client requirements exist.
+
+### Essential message
+
+1. **A responsibility without a planned delivery is only an allocation of work;
+   the delivery schedule turns it into a coordinated commitment.** *(Teaching
+   wording.)*
+2. A row answers: what, who, for whom, why, at which event, in what state, under
+   what checking and authorisation, depending on what.
+3. **Harrismith has no dates, and says so.** All timing is event-triggered or
+   TBD; no client information requirements are available; none are invented.
+4. **TRN-E03 is blocked**, for five recorded reasons — and is left blocked rather
+   than completed with plausible values.
+5. **Published, Delivered, Received and Accepted are four different states.**
+
+### Suggested wording
+
+> "Knowing who's responsible for a model isn't yet a plan. It's an allocation of
+> work. It becomes a commitment when there's something actually due — to someone,
+> for a reason.
+>
+> That's what the delivery schedule does. Each row says what's delivered, who
+> produces it, who receives it, why, at which event, in what state, what checking
+> has to happen first, who has to authorise it, and what it depends on.
+>
+> Those last few are the ones that matter. Without a checking requirement and an
+> authorisation requirement, a delivery row is a hope.
+>
+> Now — the thing you'll notice immediately is that there are no dates. None. And
+> that's not an oversight; it's stated. There's no client requirement available
+> to this project and no contractual programme, so everything is event-triggered
+> or marked TBD. What could have happened is somebody inventing a plausible design
+> programme so the schedule looked complete.
+>
+> Same with the third event, TRN-E03 — the project-facing exchange. It's marked
+> blocked, with five reasons. Nobody's established who can authorise publication.
+> Nobody's established who can accept it. There's no recipient, no agreed format,
+> no defined deliverable set.
+>
+> And the schedule says something I'd quote at anyone who writes these: assigning
+> a plausible authority to make the row look finished would manufacture governance
+> that does not exist."
+
+### Shorter fallback
+
+> "A delivery row says what, who, for whom, why, at which event, in what state,
+> and under what checking and authorisation. Harrismith has three events and no
+> dates — all event-triggered or TBD, because no client requirements exist and
+> none were invented. The third event is marked blocked, with its five reasons
+> listed, rather than completed with plausible names."
+
+### Harrismith worked example
+
+**TRN-E01 — the design coordination share.** Six containers, six *separate*
+exchanges — each discipline shares from its own originating task team; it is not
+one jointly-owned model.
+
+Every row carries the same conditions: state **Shared**, suitability
+**coordination use only**, checking requirement a task-team technical check *and*
+an information-quality readiness check, authorisation requirement **Task-Team
+Lead authorisation to share**. Format: **TBD** — no format is mandated, because
+no approved standard exists.
+
+And the constraint that makes it teachable: information shared under TRN-E01 is
+**not** construction-ready, **not** formally accepted design, and **not** record
+information. It is authorised for one purpose and says so.
+
+### Likely questions and safe answers
+
+| Question | Safe answer |
+|---|---|
+| "When is this information due?" | On Harrismith, nothing has a date — there are no established milestones and no contractual programme, so timing is event-triggered or TBD. On a real project the dates come from the appointment and the client's requirements, and Harrismith has neither. |
+| "So the schedule is incomplete?" | Incomplete and explicit about it, which is the useful state. The alternative is a schedule full of invented dates that people plan against. |
+| "What does 'blocked' mean — can we unblock it?" | Only by taking the decisions it's waiting for: publication authority, acceptance authority, recipient, formats, deliverable set. It's blocked on governance, not on effort. |
+| "Isn't 'event-triggered' just vague?" | It's less precise than a date and more honest than a wrong one. A row still says what triggers it — for the reshare event, a coordination finding assigned to that team. |
+| "Who signs off the delivery?" | For sharing, the Task-Team Lead. For publication or exchange — unresolved, and the source is explicit that it's *not* automatically the BIM Manager, the coordinator, the CDE administrator or the architect. |
+| "Does delivering it mean they've accepted it?" | No — four separate states. Published is authorised for a purpose; Delivered is sent; Received is arrived; Accepted is acknowledged as suitable. And acceptance doesn't transfer technical responsibility back from whoever produced it. |
+| "Do all six disciplines reshare every cycle?" | No. The reshare rows are conditional templates — a cycle may activate one, several or none. An unactivated row isn't a pending exchange and carries no expectation that anyone produces anything. |
+
+### Transition to next section
+
+From *what is planned* to *where it physically lives and how it moves*: "Every
+one of those rows says a state — Shared, Published. So let me show you what those
+states actually are, and what makes information move between them."
+
+### Delivery warning
+
+**The likely misunderstanding: the audience hears "no dates" as "not a real
+plan", and quietly discounts everything that follows.** This is the highest-risk
+moment in Slides 4–8 — it is easy to sound like you are presenting an unfinished
+document.
+
+Get in front of it: say *why* there are no dates before anyone asks. No
+appointment, no client requirements, therefore no invented programme. Then make
+the positive point — every row still has a purpose, a recipient, a checking
+requirement and an authorisation requirement, and those are the parts that make a
+delivery controlled. Dates without those are a wish list.
+
+**Second risk:** do not let TRN-E01/E02/E03 sound like project milestones. They
+are training planning instruments, and the identifiers are training references,
+not document numbers.
+
+---
+
 ## Notes on using these notes
 
 - **Slide 2 is the one to rehearse.** It is where the audience either recognises
@@ -206,4 +709,14 @@ by themselves. So who does them, and who is allowed to say yes?"
 - **Fallbacks exist for time pressure, not for difficulty.** If the session is
   running long, use them; do not use them to avoid a question you would rather
   not take.
-- Speaker notes for Slides 4–14 do not exist yet.
+- **Slides 4–8 run about nine minutes** — roughly two minutes each for 4, 5 and
+  6, and three minutes shared between 7 and 8. That pair is the tightest in the
+  talk; if Slide 7 overruns, Slide 8 is the one that suffers, and Slide 8 carries
+  the delivery-planning message the module needs.
+- **Each of Slides 4–8 carries a delivery warning.** They are not general advice;
+  each names the specific wrong conclusion that slide invites. Read them before
+  rehearsing, not after.
+- **Two recurring answers are worth having ready**, because they come up on
+  several slides: *every role holder is TBD*, and *no dates or milestones exist*.
+  Say both as ordinary facts about a training implementation, not as apologies.
+- Speaker notes for Slides 9–14 do not exist yet.

@@ -365,3 +365,171 @@ Applicable to every subject above:
 6. **Absence of observation is not observation of absence.** Only Architecture
    was observed as a populated production stream at the level inspected
    (OF-002); no discipline may be described as absent or inactive.
+
+---
+
+## 5. Statement classification — Slides 4–8
+
+Sections 2–4 map the module's ten *subjects*. This section classifies each
+significant *statement* introduced by the developed Slides 4–8.
+
+### Classification scheme
+
+| Class | Meaning |
+|---|---|
+| **DIRECT** | Directly supported — explicit source wording says it |
+| **INTERP** | Supported interpretation — follows from source wording, but the source does not phrase it this way |
+| **SYNTH** | Teaching synthesis — constructed for teaching; no source support, and not to be attributed to the sources |
+| **EXCLUDED** | Considered and left out as unsupported |
+| **UNRESOLVED** | An open project matter, presented as open |
+
+### Slide 4 — Who prepares, reviews and approves the BEP?
+
+| Statement | Class | Source |
+|---|---|---|
+| The BIM Manager performs maintenance of the BEP governance framework | **DIRECT** | S2 §3.1 row G1 (BM = P); S1 §5.5 |
+| The Appointing Party, Lead Delivery Party, BIM Coordinator and Task-Team Leads are *consulted* on it | **DIRECT** | S2 §3.1 row G1 (all marked Cs) |
+| The BIM Manager is not automatically the Appointing Party, Lead Delivery Party, design approver, discipline technical lead or contractual decision-maker | **DIRECT** | S1 §5.5 "Limits of the function"; S2 §4 |
+| No single universal approver exists; unlimited authority is not assigned to the BIM Manager | **DIRECT** | S2 §3.7 A2 note; S1 §12.7 |
+| CDE Administration implements approved governance and does not create it; platform permission is not authority | **DIRECT** | S1 §5.9; S2 §3.2 C2/C3 note |
+| The BEP's own route: working draft → controlled review → decisions resolved → baseline candidate → authorised training baseline → controlled publication | **DIRECT** | S1 §9.10 |
+| Baseline 0.1 is approved with conditions; **no real contractual signatory is assigned**; publication is not authorised | **DIRECT** | S1 §9.10, §1.2 |
+| The Training Baseline Approver is the function authorised to approve, reject or defer a baseline candidate, and carries no publication, acceptance or design authority | **DIRECT** | S1 §9.10 (AG-001); S7 §1 |
+| The approval function was established *before* the approval decision was taken | **DIRECT** | S7 §1 — AG-001 recorded separately from AD-001 |
+| Preparing, contributing, reviewing, approving and implementing are five distinct functions | **INTERP** | Assembled from S1 §5.5, §5.9, §9.10 and S2 §3.1/§3.7. The five-way framing is teaching structure; no source enumerates them as five |
+| "Drafting is concentrated; agreement is distributed; approval is separate; implementation belongs to everyone" | **INTERP** | Follows from G1 (one Perform, four Consult), the separate approval function, and A3 (implementation performed under approved governance) |
+| No one function owns the whole BEP | **INTERP** | Follows from the above. No source states an ownership position |
+| Every role holder is TBD — no appointing party, lead delivery party, BIM manager, coordinator, task-team lead, author, checker or CDE administrator is established | **DIRECT** | S1 §2.3, §5.3–5.9; S2 §2, §6 |
+| Governance-change approval authority, by change class | **UNRESOLVED** | S2 §3.7 A2 (TBD across all columns); S1 §12.7 |
+| Publication / exchange authorisation authority | **UNRESOLVED** | S1 §9.7; S2 §3.6 D4 |
+| Recipient acceptance authority | **UNRESOLVED** | S1 §9.8, §10.11; S2 §3.6 D7 |
+| "The lead appointed party approves the BEP" | **EXCLUDED** | The terms *lead appointed party* and *appointed party* appear in **no** source. S1 uses **Lead Delivery Party** and **Owner / Appointing Party**. Excluded from Module 1; belongs in a later ISO-focused context |
+| Any named individual, company or signatory | **EXCLUDED** | No holder is established anywhere in the sources; none may be invented |
+
+### Slide 5 — Template versus project-specific BEP
+
+**This slide is the module's principal teaching synthesis.** The left-hand column
+of the comparison has no source support at all.
+
+| Statement | Class | Source |
+|---|---|---|
+| The template / project-specific BEP distinction itself | **SYNTH** | **No source.** No Harrismith document discusses BEP templates, company templates, or this distinction. Not to be quoted or attributed |
+| "A template asks the right questions; a project-specific BEP records the project's agreed answers" | **SYNTH** | Teaching wording. Not source wording |
+| The left column — standard headings, standard role categories, common naming principles, standard CDE concepts, standard review prompts, typical delivery-planning fields | **SYNTH** | Constructed for teaching |
+| "A populated document is not necessarily complete" | **INTERP** | Not stated as such. Strongly implied by S1 §1.4 (a proposal becomes governance only by being decided and recorded) and by the sources' practice of recording unresolved matters inside populated sections |
+| Harrismith has a frozen thirteen-section architecture | **DIRECT** | S1 header (Architecture Baseline v1); S9 §3.1 |
+| A training organisation model of six disciplines across four consultant parties | **DIRECT** | S1 §4.1–4.4 (TA-03) |
+| Six named containers, each with one originating task team | **DIRECT** | S3 §3.1 |
+| A seven-term responsibility grammar, with RACI expressly not adopted | **DIRECT** | S1 §5.12; S2 §1 |
+| A four-state CDE model; root topology adopted with conditions, verification pending | **DIRECT** | S1 §6.3; S5 §1; CGD-001 in S7 |
+| Three delivery events with checking and authorisation requirements | **DIRECT** | S4 §2, §3.2, §4.3 |
+| Appointing party and lead delivery party holders | **UNRESOLVED** | S1 §2.3, §5.3, §5.4; S2 §6 |
+| Publication / exchange authority; recipient acceptance authority; governance-change approval authority | **UNRESOLVED** | S2 §6 (D4, D7, A2) |
+| Level of information need — not defined | **DIRECT** | S3 §4 |
+| Naming, coordinate, titleblock and template standards — not established | **DIRECT** | S1 §11.12, §13.3; OF-003 in S7 |
+| Design Collaboration team-space mapping | **UNRESOLVED** | UD-001 in S7; S3 §6 |
+| Comparison with any real organisation's BEP template | **EXCLUDED** | No such material exists in the repository; none may be characterised |
+
+### Slide 6 — The Harrismith BEP structure
+
+| Statement | Class | Source |
+|---|---|---|
+| Seven documents: the BEP plus six supporting resources | **DIRECT** | S1 §1.4, §13.2; S9 §3.1–3.2 |
+| What each supporting resource holds | **DIRECT** | S1 §1.4 and §13.2 tables |
+| The BEP states *what is required*; supporting resources hold the detail; detail is not duplicated | **DIRECT** | S1 §1.4 |
+| "Duplication creates divergence, and divergence in governance documentation is worse than absence, because both copies appear authoritative" | **DIRECT** | S1 §13.1 — quotable verbatim |
+| "Meaning is defined once, allocation is recorded once" | **DIRECT** | S1 §5.12; S2 preamble |
+| Reference does not imply approval; each resource declares its own status | **DIRECT** | S1 §13.1, §13.6; S2 §7; S5 §18 |
+| Not every supporting document is complete or operational | **DIRECT** | Each source's own status block; S2 §6, S3 §6, S4 §7 and S5 §19 each carry an unresolved-matters section |
+| The BEP central, supporting resources around it, register alongside | **INTERP** | A visual arrangement. The sources state the relationships (S1 §1.4, §13.2; S5 §18) but propose no diagram |
+| Worked example: authorisation to share traced across BEP §9.4 → IM matrix P4 → delivery schedule TRN-E01 conditions | **DIRECT** | All three passages state it; the *tracing* across them is teaching structure |
+| A single enormous document would be harder to maintain, review and teach | **INTERP** | Follows from S1 §13.1's non-duplication reasoning. The maintenance and review consequences are teaching elaboration |
+| Any legal or contractual hierarchy among the seven | **EXCLUDED** | S1 §1.5's precedence order concerns document conflict, and the BEP's own authority is recorded as **none** — training / reference, non-contractual |
+| Any claim that the set is complete or issued | **EXCLUDED** | All seven are approved with conditions; **publication is NOT AUTHORISED** |
+
+### Slide 7 — Two responsibility matrices, two different questions
+
+| Statement | Class | Source |
+|---|---|---|
+| The IM matrix answers: who performs which information-management process function | **DIRECT** | S2 purpose statement — "who performs which information-management function?" |
+| The Model matrix answers: who produces and maintains which information container | **DIRECT** | S3 purpose statement — "who produces and maintains which information container?" |
+| The IM matrix expressly does *not* answer which organisation authors each container | **DIRECT** | S2 purpose statement, exclusion list |
+| The Model matrix expressly complements rather than duplicates the other two resources | **DIRECT** | S3 purpose statement table |
+| The grammar is Perform, Check, Authorise, Coordinate, Accept, Consult, Inform | **DIRECT** | S1 §5.12; S2 §1 |
+| **RACI is not adopted**, because it collapses checking from authorising and coordinating from performing; not to be introduced unless explicitly approved later | **DIRECT** | S1 §5.12 |
+| Nine functional role columns: AP, LDP, BM, BC, TTL, Aut, Chk, CDE, Rcp | **DIRECT** | S2 §2 |
+| Row P1 — Author performs authoring in WIP | **DIRECT** | S2 §3.3 |
+| Row P4 — Task-Team Lead authorises; the Author does not appear in the row | **DIRECT** | S2 §3.3 |
+| "An Author does not self-authorise merely because they authored the information" | **DIRECT** | S2 §3.3 P1/P4 note; S1 §5.8 |
+| MEC-01, ELE-01 and PLM-01 originate from a single MEP Consultant party through three task teams; FIR-01 from a separate Fire Consultant | **DIRECT** | S3 §3.1; S1 §4.3; S4 §3.1 |
+| COORD-01 is led by the BIM Coordinator, does not merge authorship, and is not a project deliverable unless explicitly scheduled | **DIRECT** | S3 §3.4 |
+| Author and Checker may be combined; the distinction remains, the combination is recorded, and independence is never claimed where it does not exist | **DIRECT** | S1 §5.8, §9.12; S2 §5 |
+| "One is a grid of verbs against roles; the other is a register of containers with originators" | **INTERP** | An accurate structural description derived from reading both. Neither describes itself this way |
+| "Process responsibility and model-content responsibility are related, but they are not the same thing" | **INTERP** | The required teaching message. Follows from the two purpose statements; not source wording |
+| The counts — 25 process functions; 6 containers plus COORD-01 | **DIRECT** | Counted from S2 §3.1–3.7 and S3 §3.1, §3.4 |
+| All model-matrix allocations are PROPOSED GOVERNANCE under TA-03; no organisation appointed, none named | **DIRECT** | S3 preamble |
+| Any RACI mapping of the seven terms | **EXCLUDED** | Expressly prohibited by S1 §5.12 |
+| Any named role holder | **EXCLUDED** | All TBD (S2 §2, §6; S3 §6) |
+| Level of information need per container | **EXCLUDED / UNRESOLVED** | S3 §4 — **not defined**, and not to be assumed from discipline convention |
+
+### Slide 8 — Information-delivery planning
+
+| Statement | Class | Source |
+|---|---|---|
+| "A responsibility without a planned delivery is only an allocation of work; the delivery schedule turns it into a coordinated commitment" | **SYNTH** | Teaching wording. **Not source wording** — marked as such wherever it appears |
+| The schedule uses sixteen fields approved in BEP §10.13 | **DIRECT** | S4 §1 |
+| The field groupings — what / who / for whom / at which event / in what state / under what control / depending on what | **INTERP** | The sixteen fields are source; the seven-way grouping is teaching structure |
+| Three events: TRN-E01, TRN-E02, TRN-E03 | **DIRECT** | S4 §2 |
+| TRN-E01 — six containers shared as six *separate* exchanges, not one jointly-owned model | **DIRECT** | S4 §3, §3.1 |
+| TRN-E01 suitability is **coordination use only**; not construction-ready, not formally accepted design, not record information | **DIRECT** | S4 §3.2 |
+| TRN-E01 checking requirement: task-team technical/content check **and** information-quality/readiness check | **DIRECT** | S4 §3.2 |
+| TRN-E01/E02 authorisation requirement: **Task-Team Lead authorisation to share** | **DIRECT** | S4 §3.2, §4.3, §6 |
+| TRN-E02 is conditional and repeatable with **no calendar frequency**; a cycle may activate one row, several or none | **DIRECT** | S4 §2, §4, §4.2 |
+| An unactivated TRN-E02 row is not a pending exchange and carries no expectation of production | **DIRECT** | S4 §4.2 |
+| TRN-E03 is **PROPOSED — BLOCKED**, for five recorded reasons | **DIRECT** | S4 §5, §5.1 |
+| "Assigning a plausible authority to make the row look finished would manufacture governance that does not exist" | **DIRECT** | S4 §5.1 — quotable verbatim |
+| Published, Delivered, Received and Accepted are four distinct states | **DIRECT** | S4 §5.3; S1 §10.11 |
+| Acceptance applies only to the identified purpose and does not transfer technical responsibility from the originator | **DIRECT** | S4 §5.3; S1 §9.8 |
+| **No real delivery milestones or dates are established**; all timing event-triggered or TBD | **DIRECT** | S4 §2, §7 |
+| No client / project information requirements are available; none are invented | **DIRECT** | S4 preamble, §7; S1 §10.2 |
+| `TRN-E01-ARC` and similar are training identifiers, not contractual document numbers; no naming standard exists | **DIRECT** | S4 §1 |
+| Formats are TBD; RVT, IFC, PDF and NWC are not mandated — an observed format is not an approved requirement | **DIRECT** | S4 §5.2; S3 §3.2; S1 §10.8, §11.9 |
+| "Presence in Published does not establish a delivery" | **DIRECT** | S1 §10.1 |
+| "Without a checking requirement and an authorisation requirement, a delivery row is a hope" | **INTERP** | Teaching phrasing of what the control fields do. Not source wording |
+| Publication / exchange authority; recipient acceptance authority; recipient identity; formats; deliverable set | **UNRESOLVED** | S4 §5.1, §7; S2 §3.6 D4/D7; S1 §9.7, §9.8 |
+| Any calendar date, month, stage, quarter or duration | **EXCLUDED** | None exists; S4 §7 records that none is established. No illustrative date may be offered |
+| Any construction milestone or programme | **EXCLUDED** | S1 §2.3 — no contractual milestones; S4 preamble — not a contractual programme |
+| A named publication authoriser or accepting party | **EXCLUDED** | UNRESOLVED in three sources; expressly **not** automatically the BIM Manager, BIM Coordinator, CDE Administrator or Architect (S1 §9.7) |
+
+### Summary — Slides 4–8
+
+| Slide | DIRECT | INTERP | SYNTH | UNRESOLVED | EXCLUDED | Rows |
+|---|---:|---:|---:|---:|---:|---:|
+| 4 — Who prepares, reviews, approves | 10 | 3 | 0 | 3 | 2 | 18 |
+| 5 — Template vs project-specific | 8 | 1 | 3 | 3 | 1 | 16 |
+| 6 — Harrismith BEP structure | 8 | 2 | 0 | 0 | 2 | 12 |
+| 7 — Two responsibility matrices | 15 | 2 | 0 | 0 | 2 + 1 dual | 20 |
+| 8 — Information-delivery planning | 17 | 2 | 1 | 1 | 3 | 24 |
+| **Total** | **58** | **10** | **4** | **7** | **11** | **90** |
+
+Slide 7's "dual" row is *level of information need per container*, which is both
+EXCLUDED from the slide and UNRESOLVED in the source (S3 §4).
+
+**Slide 5 is the only slide whose central claim is teaching synthesis.** Slides
+4, 6, 7 and 8 rest on direct source wording, with interpretation confined to
+framing and structure rather than to substance.
+
+### Constraints carried forward into Slides 4–8
+
+All six standing constraints in section 4 apply unchanged. These are the ones
+Slides 4–8 are most likely to breach, restated as checks:
+
+| Constraint | Where it bites in Slides 4–8 |
+|---|---|
+| **Triviron is outside the repository evidence base** | Any early transfer remark; keep transfer to the dedicated later slide |
+| **Template versus project-specific is teaching synthesis** | Slide 5 throughout — never attributed to the sources |
+| **Harrismith terminology differs from some ISO-associated terminology** | Slide 4 — *Lead Delivery Party*, never *lead appointed party* or *appointed party* |
+| **`Record / Retained` is the fourth CDE state, not `Archived`** | Slide 8's state references, and any CDE-state mention on Slide 5 |
+| **No ISO definition may be attributed to ISO 19650 without a verified authoritative source** | All five slides; no ISO wording is verifiable in this repository |
+| **No role holder, date or milestone may be invented** | Slide 4 (holders) and Slide 8 (dates) — the two highest-pressure points in the module |
+| **Agreement must not be presented as proof of implementation** | Slide 6 especially — seven documents existing is not seven processes running |

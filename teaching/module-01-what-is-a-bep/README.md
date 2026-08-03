@@ -26,12 +26,18 @@ A clear **20-minute presentation**, using Harrismith as the worked example.
 | Expected slide count | Approximately 12–14 slides |
 | Worked example | Harrismith Fire Station |
 | Transfer context | A future Triviron multidisciplinary project |
-| Current state | **In development.** Slides 1–3 drafted as an initial teaching baseline |
+| Current state | **In development.** Slides 1–8 drafted as a working teaching baseline |
 
-**This presentation is not final.** Three of an expected twelve to fourteen
-slides exist. The timing structure in
-[`presentation-outline.md`](presentation-outline.md) is a working structure and
-has not been rehearsed against a clock.
+**This presentation is not final.** Eight of an expected twelve to fourteen
+slides exist, covering approximately the first thirteen minutes. The timing
+structure in [`presentation-outline.md`](presentation-outline.md) is a working
+structure and has not been rehearsed against a clock.
+
+| Slides | Sections covered | Time | State |
+|---|---|---:|---|
+| 1–3 | Opening; what a BEP is and is not | 4 min | Drafted |
+| 4–8 | Who prepares/reviews/approves; template vs project-specific; Harrismith structure; responsibilities and delivery planning | 9 min | Drafted |
+| 9–14 | CDE workflow; coordination and review; approval vs implementation; transfer to Triviron | 7 min | Not started |
 
 ## 3. What the presentation must explain
 

@@ -150,6 +150,106 @@ that carry the message.
 
 ---
 
+## 2A. Slide-specific visual plan — Slides 4–8
+
+The entries above are candidate *evidence sources* for the module as a whole.
+This section plans the actual visual for each developed slide.
+
+**All five are producible from Markdown alone.** None requires an image asset,
+none requires a screenshot, and **live Autodesk observation is unnecessary for
+every one of them** — the content is already committed text that needs redrawing
+or extracting, not observing.
+
+**No image assets are created in this increment.**
+
+### Slide 4 — Who prepares, reviews and approves the BEP?
+
+| Field | Value |
+|---|---|
+| **Proposed form** | **Role-flow diagram** — five functions left to right: prepare / maintain → contribute → review → approve → implement, with the consulted roles shown as inputs feeding the first box |
+| **Repository source** | IM Responsibility Matrix §3.1 (row G1) and §3.7 (rows A2–A4); BEP §5.5, §5.9, §9.10 |
+| **Enlarge / simplify** | Enlarge the five function names — they are the slide. Simplify G1 to a single caption: *BIM Manager performs; AP, LDP, BC and TTL are consulted*. Show the BEP §9.10 route as a thin arrow beneath, six words maximum per step |
+| **Must not appear** | Any person's name; any organisation name; the full G-row table; the AG-001 to AG-005 governance identifiers (correct but off-topic here, and they invite publication-planning questions the module does not cover) |
+| **Producible from Markdown alone?** | **Yes** — a redraw of committed text |
+| **Live Autodesk observation** | **Unnecessary** |
+
+**Design note.** The temptation is a hierarchy diagram. Resist it — a hierarchy
+implies reporting lines, and BEP §5.2 is explicit that its role model is a
+conceptual functional model, **not an appointment or organisation chart**. A
+left-to-right flow of *acts* avoids the implication entirely.
+
+### Slide 5 — Template versus project-specific BEP
+
+| Field | Value |
+|---|---|
+| **Proposed form** | **Two-column comparison**, with a third element beneath: a short honest list of what Harrismith has *not* decided |
+| **Repository source** | Left column: teaching synthesis, no source. Right column and the unresolved list: IM Responsibility Matrix §6; Model / Information Responsibility Matrix §6; Information Delivery Schedule §7; BEP §9.7 |
+| **Enlarge / simplify** | Enlarge the required message. Cut the comparison to five rows per column — the outline holds nine, which is a reading exercise, not a slide. Show four unresolved items, not nine |
+| **Must not appear** | Any suggestion that the comparison comes from the Harrismith documents; any real company's template; the full unresolved-matters tables from three separate sources |
+| **Producible from Markdown alone?** | **Yes** |
+| **Live Autodesk observation** | **Unnecessary** |
+
+**Labelling requirement.** If the comparison is shown as a slide, the
+teaching-synthesis status belongs in the speaker's mouth, not necessarily on the
+slide — but it must be said. See [`source-map.md`](source-map.md) section 5.
+
+### Slide 6 — The Harrismith BEP structure
+
+| Field | Value |
+|---|---|
+| **Proposed form** | **Document-relationship diagram** — the BEP central; the five supporting resources arranged around it; the governance-decision register alongside all of them rather than beneath |
+| **Repository source** | BEP §1.4 and §13.2 (the six supporting resources and what each holds); BEP §13.1 (the non-duplication reason) |
+| **Enlarge / simplify** | Enlarge the seven document names. Give each supporting resource a **three-to-five word** caption, not the full purpose sentence. Consider one call-out: *detail lives in one place only* |
+| **Must not appear** | File paths in full (`supporting/information-management-responsibility-matrix.md` is unreadable projected — use "Information Management Responsibility Matrix"); any arrow implying contractual authority or legal hierarchy; any completion indicator, tick or progress bar |
+| **Producible from Markdown alone?** | **Yes** |
+| **Live Autodesk observation** | **Unnecessary** |
+
+**Design note.** Draw the register **alongside** the whole set, not below the
+BEP. It records decisions about every document including the BEP itself, and
+placing it in a subordinate position misrepresents what it does.
+
+**Second design note.** Avoid arrowheads that read as "flows into" or "authorises".
+Plain connecting lines are safer — the relationship being shown is *holds the
+detail for*, not *derives authority from*.
+
+### Slide 7 — Two responsibility matrices, two different questions
+
+| Field | Value |
+|---|---|
+| **Proposed form** | **Two-column comparison** with one **simplified matrix extract** under each column |
+| **Repository source** | IM Responsibility Matrix §3.3 (rows P1 and P4) and its purpose statement; Model / Information Responsibility Matrix §3.1 (the MEC / ELE / PLM / FIR rows) and its purpose statement |
+| **Enlarge / simplify** | Enlarge the two questions — they are the slide's message. Cut the IM extract to **two rows and four columns** (P1, P4 × Aut, Chk, TTL, BC). Cut the model extract to **four rows and three columns** (container, originating party, task team) |
+| **Must not appear** | The full nine-column IM grid; all seven IM sub-tables; any RACI letters; any role holder name; the model matrix's format, state, interface or dependency columns |
+| **Producible from Markdown alone?** | **Yes** |
+| **Live Autodesk observation** | **Unnecessary** |
+
+**This is the highest over-detail risk in Slides 4–8.** Both source documents are
+wide tables, and both are unreadable when projected whole. The two extracts
+above are six rows in total, and each makes exactly one point: *an Author does not
+self-authorise*, and *one party can hold three task teams*.
+
+### Slide 8 — Information-delivery planning
+
+| Field | Value |
+|---|---|
+| **Proposed form** | **Simplified schedule extract** — one TRN-E01 row shown vertically as field/value pairs — plus a small three-row event table |
+| **Repository source** | Information Delivery Schedule §1 (the sixteen fields), §2 (event concepts), §3.1–3.2 (TRN-E01 rows and conditions), §5.1 (why TRN-E03 is blocked) |
+| **Enlarge / simplify** | Show **one** container's row, turned on its side — container, originator, recipient, purpose, state/suitability, checking, authorisation, timing. Eight lines. Enlarge the timing value: **event-triggered / TBD**. Show the three events as three lines with their statuses |
+| **Must not appear** | All sixteen fields as a horizontal table; all six TRN-E01 rows; the TRN-E02 conditional template rows; any invented date, month, stage name or programme bar; the full five-row blocking table (state the count in speech, show at most two) |
+| **Producible from Markdown alone?** | **Yes** |
+| **Live Autodesk observation** | **Unnecessary** |
+
+**The one thing this slide must show visually:** a field labelled *Timing* whose
+value is **event-triggered / TBD**. Saying "there are no dates" is weaker than
+letting the audience see the field and read the value. It converts an apparent
+omission into a visible, deliberate position.
+
+**Prohibition specific to this slide.** No calendar, no Gantt fragment, no stage
+sequence, no month labels — not even as illustrative decoration. Anything that
+looks like a programme will be read as one.
+
+---
+
 ## 3. Summary
 
 | Ref | Visual | From repo? | Live obs. may help | Over-detail risk |
@@ -168,6 +268,21 @@ that carry the message.
 **Six of ten are derivable from the repository today** (V2–V8). Four require
 material that does not exist in the repository (V1, V9, V10) — and of those, V1
 is the one whose absence would be most felt, because the talk opens with it.
+
+### Slides 4–8 — all five producible without any external material
+
+| Slide | Form | From Markdown alone? | Live observation |
+|---|---|---|---|
+| 4 | Role-flow diagram | Yes | Unnecessary |
+| 5 | Two-column comparison + unresolved list | Yes | Unnecessary |
+| 6 | Document-relationship diagram | Yes | Unnecessary |
+| 7 | Two-column comparison + two matrix extracts | Yes | Unnecessary |
+| 8 | Simplified schedule extract + event table | Yes | Unnecessary |
+
+This is worth stating plainly: **the nine-minute middle of the presentation
+needs no screenshots, no model views and no Autodesk access.** It is redrawn and
+extracted text. The visuals that need external material are all at the opening
+and in the later CDE and coordination sections.
 
 ## 4. Standing cautions
 
