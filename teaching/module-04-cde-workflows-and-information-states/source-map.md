@@ -83,10 +83,10 @@ register is [`source-inventory.md`](source-inventory.md) §3.
 
 ---
 
-## 5. Statement classification — Slides 1–7
+## 5. Statement classification — Slides 1–11
 
-**113 statements. 53 `CONTROLLED`, 14 `SUPPORTING`, 21 `DECISION-RECORD`,
-1 `MODULE-1-3`, 7 `INTERP`, 7 `SYNTH`, 10 `EXCLUDED`.**
+**189 statements. 69 `CONTROLLED`, 49 `SUPPORTING`, 29 `DECISION-RECORD`,
+1 `MODULE-1-3`, 14 `INTERP`, 10 `SYNTH`, 17 `EXCLUDED`.**
 
 | Slide | Statements | `CTRL` | `SUPP` | `DEC` | `M1-3` | `INT` | `SYN` | `EXC` |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
@@ -97,9 +97,19 @@ register is [`source-inventory.md`](source-inventory.md) §3.
 | **5** | **18** | **8** | **3** | **3** | **0** | **1** | **1** | **2** |
 | **6** | **18** | **9** | **3** | **2** | **0** | **1** | **1** | **2** |
 | **7** | **17** | **9** | **1** | **4** | **0** | **0** | **1** | **2** |
-| **Total** | **113** | **53** | **14** | **21** | **1** | **7** | **7** | **10** |
+| **8** | **17** | **3** | **3** | **5** | **0** | **3** | **1** | **2** |
+| **9** | **19** | **1** | **13** | **1** | **0** | **2** | **0** | **2** |
+| **10** | **20** | **7** | **9** | **1** | **0** | **0** | **1** | **2** |
+| **11** | **20** | **5** | **10** | **1** | **0** | **2** | **1** | **1** |
+| **Total** | **189** | **69** | **49** | **29** | **1** | **14** | **10** | **17** |
 
-**Three observations.**
+**Four observations.**
+
+**Section C shifts the source balance.** Slides 8–11 draw **35 of their 76
+statements from `S2`** — the CDE strategy holds the transition logic, and says so
+itself. **Section C is the only part of the module where a level-2 supporting
+resource outweighs the BEP**, which is exactly what `S2` §18 records: *"This
+strategy holds the transition logic."*
 
 **Section B is overwhelmingly controlled.** Of the 69 statements on Slides 4–7,
 **34 are `CONTROLLED` and 13 are `DECISION-RECORD`** — 68 per cent from level-1
@@ -265,6 +275,104 @@ both carry a mandatory **empty field** rather than an omission.
 
 ---
 
+### Slide 8 — A transition is more than moving a file
+
+| ID | Statement | Source path | Section | Auth | Governance | Implementation | Class |
+|---|---|---|---|---|---|---|---|
+| `M4-S8-01` | *"**Movement or placement between platform areas must not be treated as sufficient evidence** of a WIP-to-Shared, Shared-to-Published or other information-state transition"* | `docs/CDE-Structure-Governance-Decision.md` | **`CGD-C03`** | 3 | **`CONTROLLED GOVERNANCE`** — active condition | — | **`DECISION-RECORD`** |
+| `M4-S8-02` | The technical actions a user may perform — upload · move · copy · rename · change permissions · create a new platform version | — | — | 4 | — | — | **`INTERP`** |
+| `M4-S8-03` | **None of those establishes** the required checks, the required evidence, transition authority, a changed permitted use, a changed suitability, publication, delivery, receipt or acceptance | `CGD-C03`; `S1` §6.8; `S2` §3 | — | 1, 2, 3 | **`CONTROLLED GOVERNANCE`** | — | **`DECISION-RECORD`** |
+| `M4-S8-04` | *"Each transition requires the applicable governed **checks, authorisation and evidence**"* | `docs/CDE-Structure-Governance-Decision.md` | **`CGD-C03`** | 3 | **`CONTROLLED GOVERNANCE`** | — | **`DECISION-RECORD`** |
+| `M4-S8-05` | *"**Every arrow is a controlled transition.** Each has its own trigger, its own criteria and its own responsible function"* | `supporting/cde-workflow-state-strategy.md` | §2 | 2 | `PROPOSED GOVERNANCE` | — | **`SUPPORTING`** |
+| `M4-S8-06` | The six-step transition anatomy — **required input → checks → gate conditions → authorised decision → recorded evidence → changed permitted use** | `S2` §2, §3 | — | 4 | — | — | **`INTERP`** |
+| `M4-S8-07` | *"Separate transitions do not require separate people… **the requirement is that each decision is made, against its own criteria, and is traceable**"* | `supporting/cde-workflow-state-strategy.md` | §2 | 2 | `PROPOSED GOVERNANCE` | — | **`SUPPORTING`** |
+| `M4-S8-08` | Technical capability may allow an action | `docs/Increment-7C-Live-Validation-Record.md` | §9 | 3 | — | Observed | **`DECISION-RECORD`** |
+| `M4-S8-09` | **Platform write access does not create governance authority** | `bep/…BEP.md` | §6.9, §9.7 | 1 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M4-S8-10` | **CDE Administration configures the agreed arrangement** | `bep/…BEP.md` §5.9; `supporting/…strategy.md` §14 | — | 1, 2 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M4-S8-11` | *"**CDE Administration implements governance; it does not define it.** Changing the software does not make a decision"* | `supporting/cde-workflow-state-strategy.md` | §14 | 2 | `PROPOSED GOVERNANCE` | — | **`SUPPORTING`** |
+| `M4-S8-12` | *"**Governance decision precedes configuration change**"* | `supporting/cde-workflow-state-strategy.md` §17; `bep/…BEP.md` §12.1 | — | 1, 2 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M4-S8-13` | *"**Being able to perform an action in the software says nothing about who was authorised to decide it**"* | `docs/Increment-7C-Live-Validation-Record.md` | §9 | 3 | — | Observed | **`DECISION-RECORD`** |
+| `M4-S8-14` | **Moving the file before the decision is not a substitute for the decision** | `CGD-C03`; `S2` §17 | — | 4 | — | — | **`INTERP`** |
+| `M4-S8-15` | *"The transition occurs when the project authorises a new permitted use and records the required evidence — not when a file changes location"* | none | — | 5 | — | — | **`SYNTH`** |
+| `M4-S8-16` | Technical file movement constituting an authorised transition | — | — | — | — | — | **`EXCLUDED`** |
+| `M4-S8-17` | A platform log proving the governance decision | — | — | — | — | — | **`EXCLUDED`** |
+
+### Slide 9 — The eight controlled steps, and the two that change state
+
+| ID | Statement | Source path | Section | Auth | Governance | Implementation | Class |
+|---|---|---|---|---|---|---|---|
+| `M4-S9-01` | **"Only `T1` and `T4` are information-state transitions. `T8` returns information to the originator's WIP for rework."** | `supporting/cde-workflow-state-strategy.md` | §3 | 2 | `PROPOSED GOVERNANCE` | — | **`SUPPORTING`** |
+| `M4-S9-02` | **`T1`** — state transition, **WIP → Shared**: *"Check, then authorise share, then controlled share"* | `supporting/…strategy.md` | §3.1 | 2 | **`CONTROLLED GOVERNANCE`** | **`IMPLEMENTATION UNVERIFIED`** | **`SUPPORTING`** |
+| `M4-S9-03` | **`T2`** — **action**, not a state transition: *"Receiver review; **consume** decision"*. State after: **Shared — unchanged** | `supporting/…strategy.md` | §3.1 | 2 | `PROPOSED GOVERNANCE` | `IMPLEMENTATION UNVERIFIED` | **`SUPPORTING`** |
+| `M4-S9-04` | **`T3`** — **use / context**, not a state transition: *"Include in a defined coordination cycle"*. State after: **Shared — unchanged** | `supporting/…strategy.md` | §3.1 | 2 | `PROPOSED GOVERNANCE` | `IMPLEMENTATION UNVERIFIED` | **`SUPPORTING`** |
+| `M4-S9-05` | **`T4`** — state transition, **Shared → Published / Authorised**: *"Delivery review, then publication / exchange authorisation"* | `supporting/…strategy.md` | §3.1 | 2 | **`BLOCKED`** | Not reached | **`SUPPORTING`** |
+| `M4-S9-06` | **`T5`** — **event**: *"Controlled delivery / exchange executed"*. State after: **Published — unchanged** | `supporting/…strategy.md` | §3.1 | 2 | `PROPOSED GOVERNANCE` | Downstream of `T4` | **`SUPPORTING`** |
+| `M4-S9-07` | **`T6`** — **event**: *"Recipient receives the exchange"*. State after: **Published — unchanged** | `supporting/…strategy.md` | §3.1 | 2 | `PROPOSED GOVERNANCE` | Downstream of `T4` | **`SUPPORTING`** |
+| `M4-S9-08` | **`T7`** — **decision / status**: *"Recipient **accepts** or rejects for the stated purpose"*. State after: **Published — unchanged** | `supporting/…strategy.md` | §3.1 | 2 | **`UNRESOLVED`** | Downstream of `T4` | **`SUPPORTING`** |
+| `M4-S9-09` | **`T8`** — **rework**, returning information to the originator's WIP, then reprogression through `T1` or `T4` | `supporting/…strategy.md` | §3.1 | 2 | `PROPOSED GOVERNANCE` | `IMPLEMENTATION UNVERIFIED` | **`SUPPORTING`** |
+| `M4-S9-10` | *"**Consumed**, **coordination input**, **delivered**, **received** and **accepted** are **not** information states"* | `supporting/…strategy.md` | §3, §13 | 2 | `PROPOSED GOVERNANCE` | — | **`SUPPORTING`** |
+| `M4-S9-11` | **`T4`'s authorising function is UNRESOLVED — TBD** | `supporting/…strategy.md` §3.2; `bep/…BEP.md` §9.7 | — | 1, 2 | **`BLOCKED`** | Not reached | **`SUPPORTING`** |
+| `M4-S9-12` | **`T7`'s authorising function is UNRESOLVED — TBD / recipient-dependent** | `supporting/…strategy.md` §3.2; `bep/…BEP.md` §9.8, §10.11 | — | 1, 2 | **`UNRESOLVED`** | Not reached | **`SUPPORTING`** |
+| `M4-S9-13` | **Five acts never collapsed** — check · authorisation · review · coordination · acceptance. *"**Checking does not authorise. Coordination does not approve design. Publication does not constitute acceptance.**"* | `supporting/…strategy.md` | §2 | 2 | `PROPOSED GOVERNANCE` | — | **`SUPPORTING`** |
+| `M4-S9-14` | **`T1`'s authorising function is the Task-Team Lead** — established | `bep/…BEP.md` §9.4; `supporting/…strategy.md` §3.2 | — | 1, 2 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M4-S9-15` | *"**PARTIALLY TRACEABLE / NOT YET DEMONSTRATED AS A COMPLETE CYCLE**"* | `docs/Increment-7C-Live-Validation-Record.md` | §8 | 3 | — | **`IMPLEMENTATION UNVERIFIED`** | **`DECISION-RECORD`** |
+| `M4-S9-16` | *"The identifiers describe different controlled acts. Only two change the information state"* | `S2` §3 | — | 4 | — | — | **`INTERP`** |
+| `M4-S9-17` | Grouping the eight by kind — state transitions · actions and uses · events · decision or status · rework | `S2` §3.1 | — | 4 | — | — | **`INTERP`** |
+| `M4-S9-18` | Any sequential rendering — `T1 → T2 → … → T8`, a flowchart, an arrow chain or a maturity ladder | — | — | — | — | — | **`EXCLUDED`** |
+| `M4-S9-19` | **`T8` as a third information-state transition** | — | — | — | — | — | **`EXCLUDED`** |
+
+### Slide 10 — Gates, authority and evidence
+
+| ID | Statement | Source path | Section | Auth | Governance | Implementation | Class |
+|---|---|---|---|---|---|---|---|
+| `M4-S10-01` | `T1` source state **WIP**, destination state **Shared** | `supporting/…strategy.md` | §3.1 | 2 | **`CONTROLLED GOVERNANCE`** | — | **`SUPPORTING`** |
+| `M4-S10-02` | Purpose: *"Information is available beyond the originating task team **for the stated purpose**"* | `supporting/…strategy.md` | §3.1 | 2 | **`CONTROLLED GOVERNANCE`** | — | **`SUPPORTING`** |
+| `M4-S10-03` | Trigger: *"Information ready for controlled sharing"* | `supporting/…strategy.md` | §3.2 | 2 | `PROPOSED GOVERNANCE` | — | **`SUPPORTING`** |
+| `M4-S10-04` | Required check: *"Task-team technical / content check **and** information-quality / readiness check"* | `supporting/…strategy.md` | §3.2 | 2 | `PROPOSED GOVERNANCE` | — | **`SUPPORTING`** |
+| `M4-S10-05` | Initiating function: **authoring team performs** | `supporting/…strategy.md` | §3.2 | 2 | `PROPOSED GOVERNANCE` | — | **`SUPPORTING`** |
+| `M4-S10-06` | **Evidence: version history · checking record · share / exchange record as appropriate** | `supporting/…strategy.md` | §3.3 | 2 | `PROPOSED GOVERNANCE` | — | **`SUPPORTING`** |
+| `M4-S10-07` | Failure route: *"Information remains in, or returns to, WIP. **No partial progression**"* | `supporting/…strategy.md` | §3.3 | 2 | `PROPOSED GOVERNANCE` | — | **`SUPPORTING`** |
+| `M4-S10-08` | The `TRN-E01` worked chain — WIP → check → Task-Team Lead authorises share → Shared → coordination input; suitability *"coordination use only"* | `supporting/…strategy.md` | §9 | 2 | `PROPOSED GOVERNANCE` | `IMPLEMENTATION UNVERIFIED` | **`SUPPORTING`** |
+| `M4-S10-09` | *"Entering a coordination cycle **does not promote a container to Published**"* | `supporting/…strategy.md` | §9 | 2 | `PROPOSED GOVERNANCE` | — | **`SUPPORTING`** |
+| `M4-S10-10` | The eight readiness confirmations — information present · checking complete · container identity clear · coordinates and reference context appropriate · interfaces and issues identified · **purpose of sharing known** · receiving audience understood · required authorisation occurred | `bep/…BEP.md` | §7.7 | 1 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M4-S10-11` | *"**No numeric quality thresholds are set**… readiness is a judgement made against the purpose of the share, by the role authorised to make it"* | `bep/…BEP.md` | §7.7 | 1 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M4-S10-12` | *"The **Task-Team Lead** — or another role explicitly allocated that function by approved governance — authorises information to progress from WIP to Shared"* | `bep/…BEP.md` | §9.4 | 1 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M4-S10-13` | Authorisation to share means the information is *"suitable for the **stated sharing purpose**"* — **not** suitable for construction, formally published, accepted by recipients, or technically approved for every downstream purpose | `bep/…BEP.md` | §9.4 | 1 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M4-S10-14` | *"**Authorisation to share is not authorisation to publish or exchange.** Those are separate decisions with wider consequences"* | `bep/…BEP.md` | §9.4, §9.7 | 1 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M4-S10-15` | *"**Not every platform feature is required for every evidence type.** The evidence must be **sufficient and traceable**"* | `bep/…BEP.md` §9.11; `supporting/…strategy.md` §16 | — | 1, 2 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M4-S10-16` | *"**Git history proves authorship, not issue**"*; *"Authorship is not inferred from folder location"* | `bep/…BEP.md` §9.11, §7.2; `supporting/…strategy.md` §16 | — | 1, 2 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M4-S10-17` | **The complete `T1` cycle is not demonstrated.** `ARC-01` is a container observation; *"only Architecture currently demonstrable as a Shared input"*; no complete traceable cycle observed | `docs/Increment-7C-Live-Validation-Record.md` | §7, §8 | 3 | — | **`IMPLEMENTATION UNVERIFIED`** | **`DECISION-RECORD`** |
+| `M4-S10-18` | *"`T1` works as a governed transition because its purpose, checks, authority and evidence are defined — even though complete live operation is not yet verified"* | none | — | 5 | — | — | **`SYNTH`** |
+| `M4-S10-19` | Omission of the `T1` evidence field | — | — | — | — | — | **`EXCLUDED`** |
+| `M4-S10-20` | Folder location accepted as `T1` evidence; `ARC-01` accepted as proof of a full `T1` cycle | — | — | — | — | — | **`EXCLUDED`** |
+
+### Slide 11 — Why `Shared → Published` remains blocked
+
+| ID | Statement | Source path | Section | Auth | Governance | Implementation | Class |
+|---|---|---|---|---|---|---|---|
+| `M4-S11-01` | `T4` is the **Shared → Published / Authorised** information-state transition | `supporting/…strategy.md` | §3.1 | 2 | **`BLOCKED`** | Not reached | **`SUPPORTING`** |
+| `M4-S11-02` | `T4` trigger: *"A defined delivery or exchange requirement"*; required check: **delivery readiness review** | `supporting/…strategy.md` | §3.2 | 2 | **`BLOCKED`** | Not reached | **`SUPPORTING`** |
+| `M4-S11-03` | *"`T4` therefore has **no available authorising function**, and information remains **Shared**"* | `supporting/…strategy.md` | §3.1, §11 | 2 | **`BLOCKED`** | Not reached | **`SUPPORTING`** |
+| `M4-S11-04` | `T4` evidence: *"Delivery review record; publication authorisation record"* — ***"Currently blocked** — no authorisation can be given while the authority is unresolved"* | `supporting/…strategy.md` | §3.3 | 2 | **`BLOCKED`** | Not reached | **`SUPPORTING`** |
+| `M4-S11-05` | *"The block is represented deliberately and is **a feature of the model, not a gap in it**: **governance can intentionally stop a workflow**"* | `supporting/…strategy.md` | §11 | 2 | `PROPOSED GOVERNANCE` | — | **`SUPPORTING`** |
+| `M4-S11-06` | **Published · Delivered · Received · Accepted** are four distinct things; **only Published is an information state** | `supporting/…strategy.md` §3, §13; `bep/…BEP.md` §10.11 | — | 1, 2 | **`CONTROLLED GOVERNANCE`** | — | **`SUPPORTING`** |
+| `M4-S11-07` | *"**The role holding publication and exchange authority is UNRESOLVED.** It depends on the approved delivery arrangement, **which does not yet exist**"* | `bep/…BEP.md` | §9.7 | 1 | **`UNRESOLVED`** | — | **`CONTROLLED`** |
+| `M4-S11-08` | It is **not automatically held by** the BIM Manager, BIM Coordinator, CDE Administrator or Architect; it remains TBD *"rather than defaulting it to whichever role is nearest"* | `bep/…BEP.md` | §9.7 | 1 | **`UNRESOLVED`** | — | **`CONTROLLED`** |
+| `M4-S11-09` | *"**Authorisation to share is not authorisation to publish or exchange**"* — publication needs an authority distinct from sharing authority | `bep/…BEP.md` | §9.4 | 1 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M4-S11-10` | *"**Platform write permission is not publication authority.** Being able to place a file in a published location is a software capability, **not a decision anyone made**"* | `bep/…BEP.md` | §9.7 | 1 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M4-S11-11` | **Recipient acceptance authority is also UNRESOLVED — TBD** | `bep/…BEP.md` §9.8, §10.11; `S6` `D7` | — | 1, 2 | **`UNRESOLVED`** | — | **`CONTROLLED`** |
+| `M4-S11-12` | `TRN-E03` is a **delivery event** — *"controlled design review / project-facing exchange"* — with status **PROPOSED — BLOCKED PENDING GOVERNANCE DECISIONS** | `supporting/information-delivery-schedule.md` | §5 | 2 | **`BLOCKED`** | Not reached | **`SUPPORTING`** |
+| `M4-S11-13` | **`TRN-E03` exercises `T4`** — the event maps onto the transition; they are **different controlled objects** | `supporting/…strategy.md` | §11 | 2 | **`BLOCKED`** | — | **`SUPPORTING`** |
+| `M4-S11-14` | **The five blocking matters** — publication / exchange authorisation authority · recipient acceptance authority · recipient identity · required formats · deliverable set | `supporting/information-delivery-schedule.md` | §5.1 | 2 | **`BLOCKED`** | Not reached | **`SUPPORTING`** |
+| `M4-S11-15` | *"An entry that cannot proceed is recorded as blocked. **Assigning a plausible authority to make the row look finished would manufacture governance that does not exist**"* | `supporting/information-delivery-schedule.md` | §5.1 | 2 | `PROPOSED GOVERNANCE` | — | **`SUPPORTING`** |
+| `M4-S11-16` | *"**No governed publication / exchange authority evidence was established**"*; *"**No governed recipient acceptance authority evidence was established**"* | `docs/Increment-7C-Live-Validation-Record.md` | §9 | 3 | — | **`IMPLEMENTATION UNVERIFIED`** | **`DECISION-RECORD`** |
+| `M4-S11-17` | The publication-authorising position **appears and is empty** — omitting it would imply no authority is required | — | — | 4 | **`UNRESOLVED`** | — | **`INTERP`** |
+| `M4-S11-18` | *"`T4` cannot proceed because publication authority is unassigned; `TRN-E03` remains blocked because a delivery event requires several additional decisions"* | none | — | 5 | — | — | **`SYNTH`** |
+| `M4-S11-19` | **Satisfying `T4` alone would not automatically complete delivery** — `T4` is blocked by one matter, `TRN-E03` by five | `S2` §11; `S5` §5.1 | — | 4 | — | — | **`INTERP`** |
+| `M4-S11-20` | `T4` and `TRN-E03` used interchangeably; any invented authority, recipient, format or deliverable; the block described as a technical failure | — | — | — | — | — | **`EXCLUDED`** |
+
+---
+
 ## 5.1 Section B — state register
 
 **Every field populated from controlled sources. This is a state register, not a
@@ -330,10 +438,79 @@ transitions. `T8` returns information to the originator's WIP for rework."***
 | `T7` | Decision / status | Published → Published | **UNRESOLVED — TBD** | **`UNRESOLVED`** | Downstream of `T4` |
 | `T8` | Rework | Shared or Published → **WIP** | Originating task team; Task-Team Lead | `PROPOSED GOVERNANCE` | `IMPLEMENTATION UNVERIFIED` |
 
-**Full detail — purpose, gates, inputs and evidence — is in
-[`source-inventory.md`](source-inventory.md) §8.**
+### 7.1 Expanded register — seventeen fields, `T1`–`T8`
 
-### 7.1 `T4` and `TRN-E03` are different objects
+**Verified in T4-C. `—` means the source supplies no value; no field is
+populated by inference.**
+
+#### `T1` — WIP → Shared · the only transition with an established authority
+
+| Field | Value | Source |
+|---|---|---|
+| **Identifier** | `T1` | `S2` §3.1 |
+| **Exact description** | *"Check, then authorise share, then controlled share"* | `S2` §3.1 |
+| **Kind** | **Information-state transition** | `S2` §3 |
+| **Source state** | WIP | `S2` §3.1 |
+| **Destination** | **Shared** | `S2` §3.1 |
+| **Initiating function** | Authoring team performs | `S2` §3.2 |
+| **Checking function** | Task team — technical/content **and** information-quality/readiness | `S2` §3.2; `S1` §5.8 |
+| **Authorising function** | **Task-Team Lead**, or another role explicitly allocated by approved governance | **`S1` §9.4**; `S2` §3.2 |
+| **Required input** | Information ready for controlled sharing | `S2` §3.2 |
+| **Gate conditions** | The eight readiness confirmations; **no numeric threshold** | `S1` §7.7 |
+| **Evidence required** | Task-team checking complete before authorisation | `S1` §7.7; `S2` §3.2 |
+| **Evidence produced** | **Version history · checking record · share / exchange record** | `S2` §3.3 |
+| **Permitted use** | *"Suitable for the stated sharing purpose"* — and no further | `S1` §9.4 |
+| **Governance status** | **`CONTROLLED GOVERNANCE`** | — |
+| **Implementation status** | **`IMPLEMENTATION UNVERIFIED`** — only Architecture demonstrable; no complete cycle | `S4` §7, §8 |
+| **Source reference** | `S2` §3.1–§3.3, §9; `S1` §7.7, §9.4 | — |
+| **Prohibited inference** | That `T1` authority creates publication authority; that folder location is evidence; that `ARC-01` proves a complete cycle | — |
+
+#### `T4` — Shared → Published / Authorised · blocked
+
+| Field | Value | Source |
+|---|---|---|
+| **Identifier** | `T4` | `S2` §3.1 |
+| **Exact description** | *"Delivery review, then publication / exchange authorisation"* | `S2` §3.1 |
+| **Kind** | **Information-state transition** | `S2` §3 |
+| **Source state** | Shared | `S2` §3.1 |
+| **Destination** | **Published / Authorised** — **not reached** | `S2` §3.1 |
+| **Initiating function** | — | — |
+| **Checking function** | Delivery readiness review | `S2` §3.2 |
+| **Authorising function** | **UNRESOLVED — TBD** | **`S1` §9.7**; `S6` `D4` |
+| **Required input** | A defined delivery or exchange requirement | `S2` §3.2 |
+| **Gate conditions** | Delivery readiness review | `S2` §3.2 |
+| **Evidence required** | — **cannot be produced; the decision cannot be made** | `S2` §3.3 |
+| **Evidence produced** | *"Delivery review record; publication authorisation record"* — **currently unobtainable** | `S2` §3.3 |
+| **Permitted use** | *"Authorised for the identified purpose"* — **not reached** | `S2` §3.1 |
+| **Governance status** | **`BLOCKED`** — *"no available authorising function… information remains Shared"* | `S2` §3.1, §3.3, §11 |
+| **Implementation status** | **Not reached.** *"No governed publication / exchange authority evidence was established"* | `S4` §9 |
+| **Source reference** | `S2` §3.1–§3.3, §11, §19; `S1` §9.7 | — |
+| **Prohibited inference** | That `T4` is available; that an administrator may substitute; that `T4` and `TRN-E03` are the same object | — |
+
+#### `T2`, `T3`, `T5`, `T6`, `T7`, `T8` — not state transitions
+
+| Field | `T2` | `T3` | `T5` | `T6` | `T7` | `T8` |
+|---|---|---|---|---|---|---|
+| **Kind** | **Action** | **Use / context** | **Event** | **Event** | **Decision / status** | **Rework route** |
+| **Exact description** | *"Receiver review; consume decision"* | *"Include in a defined coordination cycle"* | *"Controlled delivery / exchange executed"* | *"Recipient receives the exchange"* | *"Recipient accepts or rejects for the stated purpose"* | *"Correction in the originator's WIP, then check, then reauthorise"* |
+| **State before** | Shared | Shared | Published | Published | Published | Shared or Published |
+| **State after** | **Shared — unchanged** | **Shared — unchanged** | **Published — unchanged** | **Published — unchanged** | **Published — unchanged** | **WIP**, then reprogression |
+| **Initiating function** | Receiving task team | **BIM Coordinator** | Originating task team | Recipient | Recipient | Originating task team |
+| **Checking function** | Receiver review of suitability | Input readiness | Transmission prepared | Registration of receipt | Assessment against the requirement | Task-team check of revised information |
+| **Authorising function** | Receiving task team | BIM Coordinator | Originating task team; **CDE Administration may execute platform functions** | Receiving / recipient function | **UNRESOLVED — TBD / recipient-dependent** | **Task-Team Lead** |
+| **Evidence produced** | Consume state or history; receiver's record | Coordination input record; federation record | Transmission record — what, when, by which role, to whom, for what purpose | Receipt record | Acceptance or rejection record, with the stated purpose | Issue history; revised version history; re-check and re-authorisation records; superseded marking |
+| **Governance status** | `PROPOSED` | `PROPOSED` | `PROPOSED` | `PROPOSED` | **`UNRESOLVED`** | `PROPOSED` |
+| **Implementation status** | Unverified | Unverified | Downstream of `T4` | Downstream of `T4` | Downstream of `T4` | Unverified |
+| **Prohibited inference** | That availability is consumption | That coordination input is design approval | That delivery changes the state | That receipt is acceptance | That acceptance transfers technical responsibility | **That `T8` is a third state transition** |
+
+**Source for the whole table:** `S2` §3.1, §3.2, §3.3. **Full purpose and gate
+detail is in [`source-inventory.md`](source-inventory.md) §8.**
+
+**Two fields are deliberately empty.** `T4`'s **initiating function** and its
+**evidence required** carry no value, because **the decision cannot be made**.
+They are shown, not omitted.
+
+### 7.2 `T4` and `TRN-E03` are different objects
 
 | | `T4` | `TRN-E03` |
 |---|---|---|
@@ -451,6 +628,45 @@ authority or a method is required but unassigned, **the field appears and stays
 empty**. Omission reads as *not needed*; an empty field reads as *needed and not
 yet decided*, which is the truth.
 
+### 9.3 Additional prohibitions recorded in T4-C
+
+Twenty-two more, arising from Slides 8–11. Same weight as §9. **These close the
+list at 75.**
+
+| # | Prohibited | Why |
+|---|---|---|
+| 54 | **Technical file movement constituting an authorised transition** | **`CGD-C03`** — movement *"must not be treated as sufficient evidence"* of a transition |
+| 55 | **A platform log proving the governance decision** | `S1` §9.11; `S2` §16 — *"**Git history proves authorship, not issue**"* |
+| 56 | **`T1`–`T8` being eight sequential state transitions** | `S2` §3 — **only `T1` and `T4` are information-state transitions** |
+| 57 | **`T1`–`T8` being a mandatory chronological workflow** | They are identifiers for different controlled **acts**, not steps in a queue |
+| 58 | **Mermaid or arrow chains implying progression through `T1`–`T8`** | A chain asserts one mandatory order, eight transitions, automatic progression and a complete operating route — **four claims the sources deny** |
+| 59 | **`T8` being a third information-state transition** | `S2` §3 — it **returns** information to WIP and reuses `T1` or `T4` on reprogression |
+| 60 | **All `T1`–`T8` having authorising functions** | `T4` and `T7` are **UNRESOLVED — TBD** |
+| 61 | **All `T1`–`T8` being operational** | `S4` §8 — *"PARTIALLY TRACEABLE / NOT YET DEMONSTRATED AS A COMPLETE CYCLE"* |
+| 62 | **Omission of the `T1` evidence field** | Evidence is what distinguishes a governed transition from a file move. **If something must be cut, cut a gate condition** |
+| 63 | **Folder location accepted as `T1` evidence** | `S1` §7.2 — *"Authorship is not inferred from folder location"* |
+| 64 | **`ARC-01` proving a full `T1` cycle** | A **container** observation, not a cycle. `S4` §8 records no complete traceable cycle |
+| 65 | **Task-Team Lead publication authority arising from `T1`** | **`S1` §9.4** — *"Authorisation to share is not authorisation to publish or exchange"* |
+| 66 | **`T4` being available** | `S2` §3.1 — **no available authorising function** |
+| 67 | **`T4` and `TRN-E03` being interchangeable** | Different controlled objects — a state transition and a delivery event. **`TRN-E03` exercises `T4`** |
+| 68 | **`TRN-E03` being only a publication transition** | It is a **delivery event** with four dependencies beyond publication authority |
+| 69 | **Assigning publication authority automatically completing `TRN-E03`** | Four further matters remain — acceptance authority, recipient identity, formats, deliverable set. **Satisfying `T4` alone would not complete delivery** |
+| 70 | **Published meaning Delivered** | `S2` §3 — delivery is an **event**; the state is unchanged |
+| 71 | **Delivered meaning Received** | `S2` §3 — two separate events |
+| 72 | **Received meaning Accepted** | `S2` §3 — acceptance is a **decision and status**, and its authority is unresolved |
+| 73 | **CDE Administration substituting for publication authority** | `S1` §9.7 — named as **not** holding it; *"platform write permission is not publication authority"* |
+| 74 | **The block being a software failure** | `S2` §11 — *"a feature of the model, not a gap in it: **governance can intentionally stop a workflow**"* |
+| 75 | **Information progressing while authority remains unresolved** | `S2` §3.1 — **information remains Shared**. There is no partial progression |
+
+**Prohibitions 56–59 are one error in four forms**, and **58 is the one a
+producer commits silently.** A flowchart of `T1`–`T8` renders eight sequential
+transitions no matter what the caption says — which is why `W9` is specified as a
+**grouped table, and not Mermaid**.
+
+**Prohibitions 66–69 protect the `T4`/`TRN-E03` distinction**, and 69 is the one
+an audience reaches for: resolving the publication authority is necessary for
+delivery and **nowhere near sufficient**.
+
 ## 10. Module-boundary deferrals
 
 | Deferred to | Subject |
@@ -466,17 +682,18 @@ remains deferred.**
 
 | Field | Value |
 |---|---|
-| Statements classified | **Slides 1–7 — 113 statements** |
-| `CONTROLLED` | 53 |
-| `SUPPORTING` | 14 |
-| `DECISION-RECORD` | 21 |
+| Statements classified | **Slides 1–11 — 189 statements** |
+| `CONTROLLED` | 69 |
+| `SUPPORTING` | 49 |
+| `DECISION-RECORD` | 29 |
 | `MODULE-1-3` | 1 |
-| `INTERP` | 7 |
-| `SYNTH` | 7 |
-| `EXCLUDED` | 10 |
+| `INTERP` | 14 |
+| `SYNTH` | 10 |
+| `EXCLUDED` | 17 |
 | Registers | **5** — source authority (§4), **state register (§5.1)**, terminology (§6), transition (§7), unresolved (§8) |
-| Prohibited claims | **53** (§9, §9.1, §9.2) |
-| Slides 8–14 | **Not classified.** Not developed |
+| Prohibited claims | **75** (§9, §9.1–§9.3) |
+| Slides 12–14 | **Not classified.** Not developed |
 | Invented codes, schemas, folders, periods or holders | **Zero** |
-| Mandatory empty fields | **2** — publication authority (Slide 6) · retention method (Slide 7) |
+| Mandatory empty fields | **4** — publication authority (Slides 6 and 11) · retention method (Slide 7) · `T4` initiating function and evidence-required (§7.1) |
+| Transition register | **Expanded (T4-C)** — seventeen fields, `T1`–`T8`, §7.1 |
 | Live observations requested | **Zero** |

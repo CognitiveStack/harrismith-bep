@@ -1,15 +1,15 @@
 # Module 4 — Exercises
 
-**Status:** Exercise set for the **Slides 1–7** baseline. Teaching material;
+**Status:** Exercise set for the **Slides 1–11** baseline. Teaching material;
 **not governance.**
 
 Rehearsal exercises for the presenter, not assessments for an audience. Do them
 aloud, alone, before delivering to anyone. **Exercise 13 is done after each of
 the others.**
 
-**Twenty-nine exercises in two sets.** Exercises 1–14 cover Slides 1–3 and the
-questions that arrive as soon as a state diagram appears; **Exercises 15–29 cover
-Section B — the four states.**
+**Forty-six exercises in three sets.** Exercises 1–14 cover Slides 1–3 and the
+questions that arrive as soon as a state diagram appears; **15–29 cover Section B
+— the four states**; **30–46 cover Section C — the transition workflow.**
 
 **Four of the foundation exercises rehearse questions rather than slides.**
 Exercises 7, 10, 11 and 12 cover material whose slides came later — they are kept
@@ -834,16 +834,475 @@ discussion belongs after the session.
 
 ---
 
+# Section C — Slides 8–11: the transition workflow
+
+**Seventeen further exercises.** Exercise 46 is the timed run, and is done last.
+Exercise 13 still applies after each one.
+
+---
+
+## Exercise 30 — File movement versus authorised transition
+
+**Task.** Explain the difference in thirty seconds, **using the project's own
+words**.
+
+**Why this exercise.** It is Section C's opening claim, and `CGD-C03` states it
+so cleanly that improvising is a waste.
+
+**What good looks like.** `CGD-C03`: **movement or placement between platform
+areas must not be treated as sufficient evidence of a WIP-to-Shared,
+Shared-to-Published or other information-state transition.** Each transition
+requires the applicable governed **checks, authorisation and evidence**. Moving a
+file changes where a file is. A transition changes what the information may be
+used for.
+
+**Success criteria**
+
+- [ ] I used `CGD-C03`, or a close paraphrase.
+- [ ] I named the three requirements — **checks, authorisation, evidence**.
+- [ ] I distinguished **where a file is** from **what it may be used for**.
+- [ ] I did not describe it as a rule someone imposed — three sources say it.
+- [ ] Thirty seconds.
+
+**Common failure.** "You have to follow the process." True and empty. **Name the
+three things the process requires.**
+
+---
+
+## Exercise 31 — Four actions that establish nothing
+
+**Task.** Name **four** things a user can technically do that do **not** establish
+an information state. Twenty seconds.
+
+**Why this exercise.** The abstraction lands only when the audience recognises
+actions they perform daily.
+
+**What good looks like.** Any four of: upload, move, copy, rename, change a
+permission, create a new platform version. And the point that follows — **none
+establishes** the required checks, the required evidence, transition authority, a
+changed permitted use, a changed suitability, publication, delivery, receipt or
+acceptance.
+
+**Success criteria**
+
+- [ ] Four concrete platform actions.
+- [ ] I said what none of them establishes.
+- [ ] I included **create a new version** — the one people forget.
+- [ ] I did not name a product.
+- [ ] Twenty seconds.
+
+**Common failure.** Listing only file operations. **A permission change is the
+most consequential of the four**, and the one nearest to authority.
+
+---
+
+## Exercise 32 — Build the transition anatomy
+
+**Task.** Say the six-step anatomy from memory and **label it correctly**. Thirty
+seconds.
+
+**Why this exercise.** The order carries the teaching — and the labelling stops
+it being mistaken for controlled wording.
+
+**What good looks like.** Required input → checks → gate conditions → authorised
+decision → recorded evidence → changed permitted use. And: *"that's my
+arrangement of what our CDE strategy establishes — every arrow is a controlled
+transition, with its own trigger, its own criteria and its own responsible
+function."*
+
+**Success criteria**
+
+- [ ] All six, in order.
+- [ ] **Evidence before permitted use** — the order is the point.
+- [ ] I labelled it **teaching structure**, not controlled wording.
+- [ ] I did not populate the fields — that is Slide 10.
+- [ ] Thirty seconds.
+
+**Common failure.** Putting evidence last, after the permitted use. **Evidence is
+part of the transition, not a report about it.**
+
+---
+
+## Exercise 33 — Classify `T1`–`T8`
+
+**Task.** Give the **kind** of each of the eight. **Forty-five seconds.** No
+notes.
+
+**Why this exercise.** It is Slide 9's whole content, and hesitating here means
+hesitating in front of an audience holding the table.
+
+**What good looks like.** `T1` state transition · `T2` action · `T3` use or
+context · `T4` state transition · `T5` event · `T6` event · `T7` decision or
+status · `T8` rework route.
+
+**Success criteria**
+
+- [ ] All eight, correctly classified.
+- [ ] I used the controlled words — *action*, *use or context*, *event*,
+      *decision or status*, *rework*.
+- [ ] I did not call any of the six a transition.
+- [ ] Under forty-five seconds, without notes.
+
+**Common failure.** Calling `T5` and `T6` transitions because something moves.
+**Delivery and receipt are events; the state is unchanged.**
+
+---
+
+## Exercise 34 — Which two change state
+
+**Task.** Name them, and say what happens to the state in the other six. Twenty
+seconds.
+
+**Why this exercise.** The headline of Slide 9, and the correction the module
+exists to make.
+
+**What good looks like.** **`T1` and `T4`.** In `T2` and `T3` the information
+stays **Shared**. In `T5`, `T6` and `T7` it stays **Published**. `T8` returns it
+to **WIP** and then reuses `T1` or `T4`.
+
+**Success criteria**
+
+- [ ] `T1` and `T4`, named without hesitation.
+- [ ] I said the state is **unchanged** in `T2`, `T3`, `T5`, `T6` and `T7`.
+- [ ] I described `T8` as a **return and reuse**, not a new transition.
+- [ ] Twenty seconds.
+
+**Common failure.** Naming `T1` and `T8`, because both involve WIP. **`T8`
+returns; it does not introduce a new kind of state change.**
+
+---
+
+## Exercise 35 — Why a linear flowchart misleads
+
+**Task.** A designer proposes drawing `T1 → T2 → … → T8`. Explain why not.
+Thirty seconds.
+
+**Why this exercise.** This will be proposed, it looks helpful, and refusing it
+quickly matters.
+
+**What good looks like.** A chain asserts four things that are not true: **one
+mandatory order**, **eight sequential transitions**, **automatic progression**,
+and **a complete operating route**. Six of the eight are not transitions; most
+information goes through `T1` and stops; `T5`–`T7` cannot arise at all while
+`T4` is blocked. **A grouped table is the honest form.**
+
+**Success criteria**
+
+- [ ] I named at least three of the four false assertions.
+- [ ] I said most information stops at `T1`.
+- [ ] I offered the **alternative** — a table grouped by kind.
+- [ ] I was brief and not precious about it.
+- [ ] Thirty seconds.
+
+**Common failure.** Accepting a compromise — *"a chain with some dashed lines"*.
+Anything that runs left to right through eight boxes asserts the sequence.
+
+---
+
+## Exercise 36 — `T8` without calling it a state transition
+
+**Task.** Explain `T8` in thirty seconds. **The word *transition* is banned.**
+
+**Why this exercise.** `T8` is the step most often miscounted as a third
+transition, and the ban forces the right framing.
+
+**What good looks like.** `T8` is the **rework route**. Something is rejected,
+found unsuitable, or raises an issue; the originating task team corrects it **in
+its own WIP**, checks it, and reauthorises. Coming back out it uses `T1` or `T4`
+again. Previous exchanges are **marked superseded, not deleted**.
+
+**Success criteria**
+
+- [ ] The banned word never appeared.
+- [ ] I called it a **route** or a **return**.
+- [ ] I said correction happens **in the originator's WIP**.
+- [ ] I said it **reuses** `T1` or `T4`.
+- [ ] I mentioned superseded, not deleted.
+
+**Common failure.** "It's the transition back to WIP." One word, and the count
+goes to three.
+
+---
+
+## Exercise 37 — Describe `T1` by purpose, checks, authority and evidence
+
+**Task.** Take `T1` apart in sixty seconds. Four headings.
+
+**Why this exercise.** It is Slide 10's content, and it is the only transition
+that can be taken apart with an established authority behind it.
+
+**What good looks like.** **Purpose** — make information available beyond the
+originating task team for the stated purpose. **Checks** — task-team technical
+and content, **and** information-quality and readiness. **Authority** — the
+Task-Team Lead, or another role explicitly allocated the function. **Evidence** —
+version history, checking record, share record.
+
+**Success criteria**
+
+- [ ] All four headings, in order.
+- [ ] **Both** checks named.
+- [ ] The *or another role explicitly allocated* qualifier included.
+- [ ] All three evidence items named.
+- [ ] Sixty seconds.
+
+**Common failure.** Naming one check. **There are two, and both are required.**
+
+---
+
+## Exercise 38 — Why the evidence field cannot be omitted
+
+**Task.** Explain in thirty seconds why a transition diagram without evidence is
+wrong.
+
+**Why this exercise.** Evidence is the field cut first for space, and it is the
+one that distinguishes a governed transition from a file move.
+
+**What good looks like.** Evidence is what makes the transition demonstrable
+afterwards. It must show that the **required checks occurred**, that the
+**authorised function decided**, that a **new permitted use was established**,
+and that the **originator and container remain traceable**. Without it you have a
+claim that something was authorised, and nothing to support it. Our BEP: evidence
+must be **sufficient and traceable**, and needn't come from any particular
+software function.
+
+**Success criteria**
+
+- [ ] I named at least three of the four things evidence must show.
+- [ ] I used **sufficient and traceable**.
+- [ ] I said evidence needn't come from a particular software feature.
+- [ ] I did not list specific platform features as required.
+- [ ] Thirty seconds.
+
+**Common failure.** "The system records it automatically." Some of it. **The
+checking record and the authorisation record are not automatic.**
+
+---
+
+## Exercise 39 — Governance definition versus live evidence
+
+**Task.** Explain the difference for `T1`. Thirty seconds.
+
+**Why this exercise.** It is the module's central hazard, applied to its best
+example.
+
+**What good looks like.** `T1` is **controlled governance** — its purpose,
+checks, authority and evidence are all defined, and the authority is established.
+It is also **implementation unverified** — no complete traceable cycle has been
+observed. **Both are true at once.** Defining a transition well is not evidence
+that it has run.
+
+**Success criteria**
+
+- [ ] I gave **both** statuses for `T1`.
+- [ ] I said they are **simultaneously true**.
+- [ ] I did not present the gap as a failure.
+- [ ] I distinguished *defined* from *demonstrated*.
+- [ ] Thirty seconds.
+
+**Common failure.** Choosing one. **The whole point is that they are different
+questions.**
+
+---
+
+## Exercise 40 — Why `ARC-01` does not prove a `T1` cycle
+
+**Task.** Explain in thirty seconds.
+
+**Why this exercise.** One qualified observation is the most over-read piece of
+evidence in the module.
+
+**What good looks like.** `ARC-01` is recorded as *"live equivalent observed"* —
+a **container** observation. It says a container exists in a comparable form. It
+does not show that a check occurred, that the Task-Team Lead authorised anything,
+that evidence was recorded, or that a permitted use was established. And our
+validation record is explicit that **no complete traceable cycle** was observed.
+
+**Success criteria**
+
+- [ ] I called it a **container observation**.
+- [ ] I named at least two things it does not show.
+- [ ] I cited the no-complete-cycle finding.
+- [ ] I did not turn it into a failure claim — *absence of observation is not
+      observation of absence*.
+- [ ] Thirty seconds.
+
+**Common failure.** "So Architecture is working." A container was seen. **A cycle
+was not.**
+
+---
+
+## Exercise 41 — Why `T4` is blocked
+
+**Task.** Explain in thirty seconds. **Do not describe it as broken.**
+
+**Why this exercise.** Repeated from Exercise 22 deliberately, now with the
+transition anatomy behind it — the answer should be **more precise**, not longer.
+
+**What good looks like.** `T4` needs a delivery readiness review and then a
+publication or exchange authorisation. That authorisation needs an authority our
+BEP records as **unresolved** — it depends on an approved delivery arrangement
+that does not yet exist. So `T4` has **no available authorising function**, and
+**information remains Shared**. The evidence it would produce cannot be produced,
+because the decision cannot be made.
+
+**Success criteria**
+
+- [ ] I named the gate — **delivery readiness review**.
+- [ ] I said the authority is **unresolved**, not missing.
+- [ ] I said **information remains Shared**.
+- [ ] I noted that the evidence cannot be produced.
+- [ ] The answer was **sharper** than my Exercise 22 answer, not longer.
+
+**Common failure.** Repeating Exercise 22 verbatim. Section C should have added
+the gate and the evidence.
+
+---
+
+## Exercise 42 — Distinguish `T4` from `TRN-E03`
+
+**Task.** Explain the difference in thirty seconds. **Name both kinds.**
+
+**Why this exercise.** They are merged constantly, and the merge hides four
+unresolved matters.
+
+**What good looks like.** **`T4` is an information-state transition** — Shared to
+Published. **`TRN-E03` is a delivery event** — a controlled design review or
+project-facing exchange. `TRN-E03` **exercises** `T4`; it is not `T4`. And they
+are blocked differently: `T4` by **one** matter, `TRN-E03` by **five**.
+
+**Success criteria**
+
+- [ ] Both **kinds** named — transition and event.
+- [ ] I used **exercises**, or an equivalent, for the relationship.
+- [ ] I gave the **one versus five** contrast.
+- [ ] I did not use the identifiers interchangeably at any point.
+- [ ] Thirty seconds.
+
+**Common failure.** "They're basically the same block." They are two blocks, and
+one is four matters larger.
+
+---
+
+## Exercise 43 — The five `TRN-E03` dependencies
+
+**Task.** Name all five. Twenty seconds. **No notes.**
+
+**Why this exercise.** The count is the argument — and four of the five are
+invisible if you only think about publication authority.
+
+**What good looks like.** Publication / exchange authorisation authority ·
+recipient acceptance authority · recipient identity · required formats ·
+deliverable set.
+
+**Success criteria**
+
+- [ ] All five.
+- [ ] I did not invent a sixth.
+- [ ] I did not offer a candidate for any of them.
+- [ ] Twenty seconds, without notes.
+
+**Common failure.** Naming four and adding *"and probably a date"*. **No date is
+among them**, and inventing one adds a matter the sources do not record.
+
+---
+
+## Exercise 44 — Why information remains Shared
+
+**Task.** Explain what actually happens to information while `T4` is blocked.
+Thirty seconds. **Make it sound workable, because it is.**
+
+**Why this exercise.** An audience hearing *blocked* assumes *stuck*. Most of the
+project's work is unaffected.
+
+**What good looks like.** It **remains Shared** — a perfectly usable state. Teams
+can coordinate against it, review it, consume it, reference it for the stated
+purpose. What cannot happen is a project-facing exchange that depends on
+publication. So work continues; only the route needing an unheld authority stops.
+And **no partial progression** — nothing sits half-transitioned.
+
+**Success criteria**
+
+- [ ] I said **remains Shared**, and that Shared is usable.
+- [ ] I named at least two things that still work.
+- [ ] I named what does not.
+- [ ] I said there is **no partial progression**.
+- [ ] Thirty seconds.
+
+**Common failure.** Describing the project as stalled. **One route is stopped.
+The rest of the workflow is unaffected.**
+
+---
+
+## Exercise 45 — Published, Delivered, Received, Accepted
+
+**Task.** Explain all four as separate concepts. Forty-five seconds. **Say which
+is a state.**
+
+**Why this exercise.** Repeated from Exercise 24 with the transition
+classification behind it — the answer should now name the *kinds*.
+
+**What good looks like.** **Published** — an information **state**, authorised
+for a defined purpose. **Delivered** — an **event**, sent to an identified
+recipient. **Received** — an **event**, arrived and registered. **Accepted** — a
+**decision and status** against a stated purpose. Only the first is a state; the
+other three are recorded **against** information whose state is unchanged. And
+acceptance authority is **unresolved** on this project.
+
+**Success criteria**
+
+- [ ] All four, each with its **kind**.
+- [ ] I said **only Published is a state**.
+- [ ] I said the other three leave the state unchanged.
+- [ ] I noted that acceptance authority is unresolved.
+- [ ] Forty-five seconds.
+
+**Common failure.** Treating them as four stages. **They are four different kinds
+of object**, and three of them never change the state.
+
+---
+
+## Exercise 46 — Deliver Slides 8–11 to time
+
+**Task.** Deliver Section C end to end. **Target: 6.0 minutes. Measure it.**
+
+**Why this exercise.** Section C is the module's technical heart, and Slides 9
+and 11 both invite discussion that belongs after the session.
+
+**What good looks like.** Slide 8 lands *movement is not transition*. Slide 9
+lands *only `T1` and `T4`*. Slide 10 takes `T1` apart with its evidence field
+intact. Slide 11 shows two panels, an empty authority position, and the one-versus
+-five contrast.
+
+**Success criteria**
+
+- [ ] **6.0 minutes ± 20 seconds**, measured.
+- [ ] *Only `T1` and `T4` change information state* was said explicitly.
+- [ ] The `T1` **evidence field** was named, not skipped.
+- [ ] The publication-authority position was **shown empty**.
+- [ ] `T4` and `TRN-E03` were never used interchangeably.
+- [ ] I did not draw or describe a `T1`–`T8` sequence.
+- [ ] No authority, recipient, format or deliverable was invented.
+
+**Common failure.** Slide 9 running to 2.5 minutes because eight rows invite
+eight explanations. **Group them, name the two, and move.**
+
+---
+
 ## Scope note
 
-**Twenty-nine exercises, covering the Slides 1–7 baseline.**
+**Forty-six exercises, covering the Slides 1–11 baseline.**
 
 | Set | Exercises | Covers |
 |---|---|---|
 | Foundation | 1–14 | Slides 1–3, and the questions that arrive with a state diagram |
 | Section B | 15–29 | Slides 4–7 — the four states |
+| Section C | 30–46 | Slides 8–11 — the transition workflow |
 
-**Exercise 13 is done after every one of the other twenty-eight.** If you cannot
+**Three exercises are deliberate repeats** — 41 revisits 22, and 45 revisits 24,
+now with the transition classification behind them. **The second answer should be
+sharper, not longer.**
+
+**Exercise 13 is done after every one of the other forty-five.** If you cannot
 say whether a statement is controlled, proposed or unresolved, do not say it.
 
-Exercises for Slides 8–14 are a later increment.
+Exercises for Slides 12–14 are a later increment.

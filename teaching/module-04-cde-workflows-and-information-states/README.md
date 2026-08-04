@@ -1,6 +1,6 @@
 # Module 4 — CDE Workflows and Information States
 
-**Status:** Active module. Structure, source inventory and **Slides 1–7**
+**Status:** Active module. Structure, source inventory and **Slides 1–11**
 baseline. **Not governance, and not a complete module.**
 
 ---
@@ -88,13 +88,13 @@ A **20-minute presentation**, using Harrismith as the worked example.
 | Slide count | 14 |
 | Worked example | Harrismith Fire Station |
 | Transfer context | A future Triviron multidisciplinary project |
-| Current state | **Structure, source inventory and Slides 1–7 baseline.** Module not complete |
+| Current state | **Structure, source inventory and Slides 1–11 baseline.** Module not complete |
 
-**This presentation does not exist yet.** What exists after T4-A and T4-B:
+**This presentation does not exist yet.** What exists after T4-A, T4-B and T4-C:
 
 | Established | Outstanding |
 |---|---|
-| Module structure (T4-A) | **Slides 8–14** |
+| Module structure (T4-A) | **Slides 12–14** |
 | **Source inventory** — exact paths, precedence, registers (T4-A) | Visual source set |
 | Terminology register, with variance recorded (T4-A) | Assembly package |
 | **Transition register** — all eight steps verified (T4-A) | PowerPoint |
@@ -104,6 +104,9 @@ A **20-minute presentation**, using Harrismith as the worked example.
 | **Slides 4–7 — Section B, the four states** (T4-B) | |
 | **State register** — every state's wording, boundaries and status (T4-B) | |
 | Visual specifications `W4`–`W7` (T4-B) | |
+| **Slides 8–11 — Section C, the transition workflow** (T4-C) | |
+| **Expanded transition register** — seventeen fields, `T1`–`T8` (T4-C) | |
+| Visual specifications `W8`–`W11` (T4-C) | |
 
 ## 5. What makes this module different
 
@@ -250,12 +253,12 @@ and what remains unresolved.
 | Module 4 | **CURRENT — ACTIVE**, not complete |
 | Structure | **Established (T4-A)** |
 | Source inventory | **Complete (T4-A)** |
-| Statements classified | **113** across Slides 1–7 — [`source-map.md`](source-map.md) §5 |
+| Statements classified | **189** across Slides 1–11 — [`source-map.md`](source-map.md) §5 |
 | Registers | **5** — source authority · **state** · terminology · transition · unresolved |
-| Prohibited claims | **53** — [`source-map.md`](source-map.md) §9, §9.1, §9.2 |
-| Visual specifications | **`W4`–`W7` complete**; the other ten remain candidates |
-| Slides developed | **1–7** — Section A (T4-A) and Section B (T4-B) |
-| Slides outstanding | **8–14** |
+| Prohibited claims | **75** — [`source-map.md`](source-map.md) §9, §9.1–§9.3 |
+| Visual specifications | **`W4`–`W11` complete**; `W1`, `W2`, `W3`, `W12`, `W13`, `W14` remain candidates |
+| Slides developed | **1–11** — Sections A (T4-A), B (T4-B) and C (T4-C) |
+| Slides outstanding | **12–14** |
 | Visual source | **None** |
 | Assembly package | **None** |
 | PowerPoint | **None** |

@@ -4,8 +4,9 @@
 source file and no rendered image asset exists.** Nothing here is a final asset,
 and creating assets is a later increment.
 
-**`W4`–`W7` — the Section B state visuals — are now specified in full** (T4-B).
-The remaining ten are candidates at the level established in T4-A.
+**`W4`–`W7` (T4-B) and `W8`–`W11` (T4-C) are now specified in full** — the
+Section B state visuals and the Section C transition visuals. **`W1`, `W2`, `W3`,
+`W12`, `W13` and `W14`** remain candidates at the level established in T4-A.
 
 Source identifiers `S1`–`S14` are defined in
 [`source-inventory.md`](source-inventory.md). Classification follows
@@ -445,123 +446,253 @@ rendering.**
 beside a small method panel implies the method is a detail. It is an undecided
 governance matter, and the panels should look equally consequential.
 
-### W8 — File movement versus authorised transition
+### W8 — File movement versus authorised transition · **specified (T4-C)**
 
 | Field | Value |
 |---|---|
 | **Slide** | 8 |
 | **Teaching purpose** | Show the two side by side, and that **one does not produce the other** |
-| **Source basis** | **`CGD-C03`**; `S2` §3; `S4` §9 |
-| **Classification** | `DECISION-RECORD` + `SUPPORTING` |
-| **Governance status** | **Controlled** — active condition |
+| **Source basis** | **`CGD-C03`**; `S2` §2, §3, §14, §17; `S1` §6.9, §12.1; `S4` §9 |
+| **Classification** | `DECISION-RECORD` + `SUPPORTING` + `CONTROLLED` + `INTERP` |
+| **Governance status** | **Controlled** — `CGD-C03` is an active condition |
 | **Implementation status** | — |
 | **Simplify** | **Two panels.** Left: what a user can technically do. Right: what a transition requires |
-| **Omit** | **Any connector between the panels. Any equals sign.** Any permission screenshot |
-| **Overclaim risk** | **HIGH** — a two-panel layout invites the eye to pair them |
+| **Omit** | **Any connector between the panels. Any equals sign. Any causal arrow.** Any permission screenshot, product logo or green completion treatment |
+| **Overclaim risk** | **HIGH** — a two-panel layout invites the eye to pair them, and pairing them asserts that the left produces the right |
 | **Blocked element visible?** | No |
 | **Live evidence required?** | No |
 | **External imagery** | No |
 
 **The fixed content:**
 
-| **Technically able to** | **A transition requires** |
-|---|---|
-| upload · move · copy · rename · download · publish · change permissions | purpose · authority · check · authorisation · evidence |
+```text
+  ┌── TECHNICAL ACTION ─────────┐      ┌── GOVERNED TRANSITION ────────────┐
+  │                             │      │                                   │
+  │  upload                     │      │  required input                   │
+  │  move                       │      │    → checks                       │
+  │  copy                       │      │    → gate conditions              │
+  │  rename                     │      │    → authorised decision          │
+  │  change permissions         │      │    → recorded evidence            │
+  │  create a new version       │      │    → changed permitted use        │
+  │                             │      │                                   │
+  │  establishes NONE of:       │      │  "Each transition requires the    │
+  │  checks · evidence ·        │      │   applicable governed checks,     │
+  │  authority · permitted use ·│      │   authorisation and evidence"     │
+  │  suitability · publication ·│      │                    — CGD-C03      │
+  │  delivery · receipt ·       │      │                                   │
+  │  acceptance                 │      │                                   │
+  └─────────────────────────────┘      └───────────────────────────────────┘
 
-**Requirement.** The panels are **not** joined. `CGD-C03` on the slide:
-*"movement or placement between platform areas must not be treated as sufficient
-evidence of… an information-state transition."*
+              ▲ NO CONNECTOR. The left does not produce the right.
+```
 
-### W9 — The eight controlled steps
+**Five mandatory design requirements.**
+
+1. **No connector, arrow or equals sign between the panels.** A connector asserts
+   causation — the exact claim `CGD-C03` refuses.
+2. **The left panel lists what it establishes: nothing.** The negative list is
+   the panel's content, not a footnote.
+3. **The right panel is a labelled sequence, not populated.** Six steps, no
+   fields — `W10` unpacks one.
+4. **The six-step anatomy carries a `Teaching structure` label**, because the
+   form is the presenter's arrangement of `S2` §2 and §3.
+5. **No permission screenshot, folder tree, product logo or green treatment.**
+
+**Design note.** Draw the panels **the same size**. A large governance panel
+beside a small technical one turns an accurate distinction into a lecture; equal
+panels say *these are two different things*, which is the point.
+
+### W9 — The eight controlled steps, classified · **specified (T4-C)**
 
 | Field | Value |
 |---|---|
 | **Slide** | 9 |
-| **Teaching purpose** | Show all eight steps — **and that only `T1` and `T4` change state** |
-| **Source basis** | **`S2` §3.1** |
-| **Classification** | `SUPPORTING` |
+| **Teaching purpose** | Show all eight steps **grouped by kind** — and that **only `T1` and `T4` change information state** |
+| **Source basis** | **`S2` §3.1, §3.2**; `S2` §2, §3; `S1` §9.4, §9.7, §9.8; `S4` §8 |
+| **Classification** | `SUPPORTING` throughout, with `CONTROLLED` for `T1`'s authority |
 | **Governance status** | **Mixed** — `T1` controlled · `T4` **blocked** · `T7` **unresolved** · the rest proposed |
-| **Implementation status** | **Unverified** — no complete cycle demonstrated (`S4` §8) |
-| **Simplify** | **A table, not a flow.** Eight rows, four columns: ref · kind · state before → after · status |
-| **Omit** | **Any eight-step flowchart.** Any implication that the eight run in sequence. Any completion marker |
+| **Implementation status** | **`IMPLEMENTATION UNVERIFIED`** — *"no complete traceable cycle"* |
+| **Simplify** | **A table grouped by kind.** Five groups, eight rows, four or five columns |
+| **Omit** | **Any flowchart. Any arrow chain. Any left-to-right sequence. Any numbering that implies order. Any compliance colour. Any maturity styling** |
 | **Overclaim risk** | **HIGHEST, jointly with `W3`** — eight identifiers in a row read as an eight-step state machine |
-| **Blocked element visible?** | **YES** — `T4` and `T7` marked |
+| **Blocked element visible?** | **YES** — `T4` blocked, `T7` unresolved |
 | **Live evidence required?** | No |
 | **External imagery** | No |
 
-**Format decision: a table, deliberately not Mermaid.** A flowchart of `T1`–`T8`
-would render eight sequential transitions. **Six of the eight are not state
-transitions at all** — they are actions, uses, events, a status and a rework
-route. **The table's *kind* column is the slide's whole teaching.**
+**Format decision — absolute: a table, and never Mermaid.**
 
-**Requirement.** The two state transitions are **visually distinguished** from
-the other six, and `S2` §3's sentence appears on the slide: *"only `T1` and `T4`
-are information-state transitions."*
+A rendering of `T1 → T2 → T3 → T4 → T5 → T6 → T7 → T8` would assert **four
+things the sources deny**:
 
-### W10 — Gate, authority and evidence
+| It would assert | The source says |
+|---|---|
+| One mandatory order | They are identifiers for **different controlled acts** |
+| Eight sequential transitions | **Only `T1` and `T4` are information-state transitions** |
+| Automatic progression | Every step has *"its own trigger, its own criteria and its own responsible function"* |
+| A complete operating route | **`T4` is blocked; no complete cycle has been demonstrated** |
+
+**The fixed grouping:**
+
+```text
+  ── INFORMATION-STATE TRANSITIONS ──────────────────────────
+     T1   WIP → Shared            authority: Task-Team Lead   ESTABLISHED
+     T4   Shared → Published      authority: TBD              BLOCKED
+
+  ── ACTIONS AND USES — state unchanged ─────────────────────
+     T2   consume decision        Shared → Shared
+     T3   coordination input      Shared → Shared
+
+  ── EVENTS — state unchanged ───────────────────────────────
+     T5   delivery executed       Published → Published
+     T6   receipt registered      Published → Published
+
+  ── DECISION OR STATUS — state unchanged ───────────────────
+     T7   accept or reject        Published → Published       authority: TBD
+
+  ── REWORK ROUTE ───────────────────────────────────────────
+     T8   return to originator's WIP, then reuse T1 or T4
+
+  ── HEADLINE, prominent:
+     Only T1 and T4 change information state.
+```
+
+**Six mandatory design requirements.**
+
+1. **No Mermaid. No flowchart. No arrow chain.** A grouped table is the only
+   permitted form.
+2. **The headline appears prominently** — *Only `T1` and `T4` change information
+   state.*
+3. **`T1` and `T4` are visually distinguished — neutrally.** Weight or a rule,
+   **not colour**, and never green-for-`T1` / red-for-`T4`.
+4. **`T4` is marked blocked and `T7` unresolved**, in the same table.
+5. **The six non-transitions show their state as unchanged**, in their own
+   column. That column is the slide's teaching.
+6. **Implementation status is visible** — *no complete traceable cycle
+   demonstrated*.
+
+**Design note.** Resist numbering the groups. `T1`–`T8` already look like a
+sequence; adding *group 1, group 2* compounds it. **Label the groups by kind, and
+let the identifiers sit inside them.**
+
+### W10 — The `T1` gate model · **specified (T4-C)**
 
 | Field | Value |
 |---|---|
 | **Slide** | 10 |
-| **Teaching purpose** | Show what must exist **before** and **after** a transition |
-| **Source basis** | `S2` §3.2, §3.3, §16; `S6` |
-| **Classification** | `SUPPORTING` |
-| **Governance status** | Proposed |
-| **Implementation status** | Unverified |
-| **Simplify** | **One transition, fully unpacked** — `T1` is the only one with an established authority, so use it |
-| **Omit** | **All eight transitions at once.** Matrix-cell grammar — **Module 5**. The review that satisfies the gate — **Module 6** |
+| **Teaching purpose** | Unpack **one** controlled transition — trigger, checks, authority, evidence, permitted use |
+| **Source basis** | **`S2` §3.1–§3.3, §9**; `S1` §7.7, §9.4, §9.11; `S4` §7, §8 |
+| **Classification** | `SUPPORTING` + `CONTROLLED` + `DECISION-RECORD` |
+| **Governance status** | **`CONTROLLED GOVERNANCE`** — the only transition with an established authority |
+| **Implementation status** | **`IMPLEMENTATION UNVERIFIED`** — no complete cycle demonstrated |
+| **Simplify** | **One transition, five stages, four side labels.** Nothing else |
+| **Omit** | **Any publication path. Any `T4` content beyond one sentence. Any green approval tick. Any claim of complete live execution.** The full readiness list — three or four conditions maximum |
 | **Overclaim risk** | **MEDIUM-HIGH** — a fully populated example reads as a running procedure |
 | **Blocked element visible?** | The **`T4` contrast** is worth one line |
 | **Live evidence required?** | No |
 | **External imagery** | No |
 
-**The fixed form — five fields, in order:**
+**The fixed form:**
 
 ```text
-trigger  →  required check  →  authorising function  →  the act  →  evidence
+                  Author        Checker      Task-Team Lead    receiving user
+                    │              │               │                 │
+   WIP ─────────────┴──────────────┴───────────────┴─────────────────┴──► SHARED
+        required checks    gate conditions    AUTHORITY      EVIDENCE     for the
+        · technical /      · information      Task-Team      · version    defined
+          content            present            Lead           history    purpose
+        · information-     · checking         (or another    · checking
+          quality /          complete          allocated       record
+          readiness        · purpose of        role)         · share /
+                             sharing known                     exchange
+                                                               record
+
+   CDE Administration — implements the permission arrangement; does not decide
+
+   Failure route:  information remains in, or returns to, WIP.
+                   NO PARTIAL PROGRESSION.
+
+   Governance definition  ≠  live implementation evidence
 ```
 
-**Requirement.** **The evidence field is never hidden or abbreviated away.**
-`S2` §3.3 lists what each transition produces, and a gate diagram without its
-evidence teaches a decision with no record.
+**Six mandatory design requirements.**
 
-**Boundary.** One transition unpacked. **If the visual starts showing who signs
-which matrix cell, it is Module 5's.**
+1. **The evidence field is visible and is not abbreviated away.** It is the field
+   that distinguishes a governed transition from a file move. **If space is
+   short, cut a gate condition — never the evidence.**
+2. **Four side labels, distinctly placed**: Author · Checker · CDE Administration
+   · receiving user. **CDE Administration sits beside the chain, not in it.**
+3. **No publication path on this slide.** `T4` gets **one sentence** — *"and the
+   next slide is where this breaks down"*.
+4. **No green approval tick**, and no completion marker at the Shared end.
+5. **The failure route is shown** — back to WIP, **no partial progression**.
+6. **A visible governance-versus-implementation line**, because `T1` is
+   controlled and unverified at the same time.
 
-### W11 — The blocked `Shared → Published` route
+**Design note.** Show **three or four** gate conditions, not all eight. The
+readiness list is a judgement set, not a checklist, and eight boxes make it look
+like one — `S1` §7.7: *"no numeric quality thresholds are set."*
+
+### W11 — `T4` and `TRN-E03`, two blocked objects · **specified (T4-C)**
 
 | Field | Value |
 |---|---|
 | **Slide** | 11 |
-| **Teaching purpose** | Show the block, and that **stopping an unauthorised process is correct behaviour** |
-| **Source basis** | `S2` §3, §11, §19; `S5` §5.1; `S4` §9 |
-| **Classification** | `SUPPORTING` + `DECISION-RECORD` |
-| **Governance status** | **BLOCKED** |
-| **Implementation status** | Not reached |
-| **Simplify** | One route, one halt, one list of blocking matters |
-| **Omit** | **Any completed route. Any invented authorising function. Any red failure styling** |
-| **Overclaim risk** | **HIGH in both directions** — reads as a defect if styled as failure; reads as operating if the route completes |
-| **Blocked element visible?** | **YES — this visual is the block** |
+| **Teaching purpose** | Show **two separate blocked objects** — a state transition and a delivery event — and that resolving one would not resolve the other |
+| **Source basis** | **`S2` §3.1–§3.3, §11, §19**; **`S5` §5, §5.1**; `S1` §9.4, §9.7, §9.8; `S4` §9 |
+| **Classification** | `SUPPORTING` + `CONTROLLED` + `DECISION-RECORD` |
+| **Governance status** | **`BLOCKED`** — both. Two authorities **UNRESOLVED** |
+| **Implementation status** | **Not reached.** *"No governed publication / exchange authority evidence was established"* |
+| **Simplify** | **Two panels, side by side.** `T4` left, `TRN-E03` right |
+| **Omit** | **Any single merged object. Any solid arrow. Any invented authority, recipient, format or deliverable. Any completion tick. Any red failure styling.** Any suggestion an administrator may proceed |
+| **Overclaim risk** | **HIGH in both directions** — merged, it hides four dependencies; styled red, it reads as a defect |
+| **Blocked element visible?** | **YES — the visual is two blocks** |
 | **Live evidence required?** | No |
 | **External imagery** | No |
 
-**The blocking matters — `S5` §5.1, all five, for `TRN-E03`:**
+**The fixed form:**
 
-| Blocking matter | Status |
-|---|---|
-| Publication / exchange authorisation authority | **UNRESOLVED — TBD** |
-| Recipient acceptance authority | **UNRESOLVED — TBD** |
-| Recipient identity | Not established |
-| Required formats | Not established — no approved standard |
-| Deliverable set | Not defined |
+```text
+  ┌── PANEL 1 · T4 ─────────────┐   ┌── PANEL 2 · TRN-E03 ──────────────┐
+  │  INFORMATION-STATE          │   │  DELIVERY EVENT                   │
+  │  TRANSITION                 │   │                                   │
+  │                             │   │  exercises T4                     │
+  │  Shared                     │   │                                   │
+  │    ⇢  Published/Authorised  │   │  blocked on:                      │
+  │                             │   │   1  publication authority        │
+  │  Publication-authorising    │   │   2  acceptance authority         │
+  │  function:                  │   │   3  recipient identity           │
+  │  ┌───────────────────────┐  │   │   4  required formats             │
+  │  │        TBD            │  │   │   5  deliverable set              │
+  │  └───────────────────────┘  │   │                                   │
+  │        ▲ empty, not omitted │   │  Status: PROPOSED — BLOCKED       │
+  │                             │   │                                   │
+  │  Status:  BLOCKED           │   │  Blocked by FIVE matters          │
+  │  Information remains Shared │   │  T4 is blocked by ONE             │
+  └─────────────────────────────┘   └───────────────────────────────────┘
 
-**And the `T4` / `TRN-E03` distinction, which belongs on this slide:** `T4` is
-blocked by **one** matter; `TRN-E03` is blocked by **five**. **They are not
-interchangeable.**
+     Satisfying T4 alone would not automatically complete delivery.
+```
 
-**Requirement.** The block is styled as **deliberate governance, not failure** —
-neutral, not red. `S2` §19's position appears: *"Each is recorded so the gap
-stays visible rather than being filled with a plausible value."*
+**Eight mandatory design requirements.**
+
+1. **Two panels. Never a single merged object.** Merging them is the error the
+   slide exists to prevent, and a merged diagram commits it silently.
+2. **No solid arrow anywhere.** `Shared ⇢ Published` is broken or visibly halted.
+3. **The publication-authority position appears and is empty.** Omitting it
+   implies no authority is required.
+4. **No invented authority, recipient, format or deliverable** — the five
+   blocking matters are listed **as unresolved**, not filled.
+5. **No completion tick, and no red failure styling.** The block is **deliberate
+   governance**.
+6. **`Information remains Shared` appears on Panel 1.**
+7. **The one-versus-five contrast appears**, and is the slide's argument.
+8. **No suggestion that an administrator may proceed** — `S1` §9.7 names the CDE
+   Administrator among those who do **not** hold the authority.
+
+**Design note.** Give the two panels **equal weight**. A large `T4` panel beside a
+small `TRN-E03` panel implies the delivery event is a detail of the transition.
+It is a separate object with four additional unresolved matters, and the visual
+should say so.
 
 ### W12 — The metadata and property stack
 
@@ -642,17 +773,17 @@ acceptance authority?_** · *What evidence will each transition produce?* ·
 | `W5` | 5 | **Layout — specified** | **HIGH** | No |
 | `W6` | 6 | **Layout — specified** | **HIGH** | **YES — empty authority position** |
 | `W7` | 7 | **Layout — specified** | MEDIUM-HIGH | **YES — empty method panel** |
-| `W8` | 8 | Layout — two panels | **HIGH** | No |
-| `W9` | 9 | **Table — not Mermaid** | **HIGHEST** | **YES** |
-| `W10` | 10 | Mermaid or layout | MEDIUM-HIGH | `T4` contrast |
-| `W11` | 11 | **Layout — not Mermaid** | **HIGH** | **YES — the visual is the block** |
+| `W8` | 8 | **Layout — specified** | **HIGH** | **No connector between panels** |
+| `W9` | 9 | **Table — specified; never Mermaid** | **HIGHEST** | **YES — `T4` blocked, `T7` unresolved** |
+| `W10` | 10 | **Layout — specified** | MEDIUM-HIGH | **Evidence field mandatory** |
+| `W11` | 11 | **Layout — specified; two panels** | **HIGH** | **YES — the visual is two blocks** |
 | `W12` | 12 | Layout | **HIGH** | **YES — empty fields** |
 | `W13` | 13 | Mermaid or layout | MEDIUM | No |
 | `W14` | 14 | Layout | **HIGH (Triviron)** | End state open |
 
-**Fourteen candidate visuals. Four specified in full — `W4`–`W7` (T4-B). Six
-carry HIGH or HIGHEST overclaim risk, and seven must keep something visibly
-incomplete.**
+**Fourteen candidate visuals. Eight specified in full — `W4`–`W7` (T4-B) and
+`W8`–`W11` (T4-C). Six carry HIGH or HIGHEST overclaim risk, and eight must keep
+something visibly incomplete.**
 
 **Two of the Section B visuals carry a mandatory empty field.** `W6`'s
 publication-authority position and `W7`'s retention-method panel are **shown and
@@ -660,10 +791,17 @@ left blank** — because omission reads as *not needed* and a filled field inven
 decision. **A producer who removes, fills or shades either has changed the
 claim.**
 
-**Only three are safely Mermaid** — `W10`, `W13`, and `W1` if drawn without a
-return arrow. **`W4` moved to a layout specification in T4-B**: a Mermaid
-boundary with a gate on it renders an outbound edge, and the route out of WIP
-must not be drawn. **Everything that depicts a state, a transition set or an absent
+**Only two are safely Mermaid** — `W13`, and `W1` if drawn without a return
+arrow. **`W4` moved to a layout specification in T4-B** — a Mermaid boundary with
+a gate on it renders an outbound edge, and the route out of WIP must not be
+drawn. **`W10` moved in T4-C** for the same reason: a renderer that lays out a
+five-stage chain will normalise the side labels into the chain, and **CDE
+Administration must sit beside it, not in it**.
+
+**`W9` is the absolute case.** A Mermaid rendering of `T1`–`T8` produces eight
+sequential transitions no matter what the caption says. **A grouped table is the
+only permitted form**, and a producer who converts it has committed prohibition
+58. **Everything that depicts a state, a transition set or an absent
 control is a layout specification**, because a renderer that normalises a broken
 line into a solid one commits the module's central error.
 
