@@ -225,6 +225,11 @@ Completing any of them would assert something the evidence does not support.**
 | External imagery required | **None**, and counterproductive on `M03-S02`, `M03-S03` and `M03-S12` |
 | Live observation required | **None**, and none is authorised |
 | Module 3 | **CURRENT — ACTIVE**, not complete |
-| Next | **Presentation assembly package** |
-| Outstanding | Assembly package, PowerPoint production, review, rehearsal |
+| Assembly package | **Complete (T3-G)** — [`../../module-03-iso-19650-principles/presentation/`](../../module-03-iso-19650-principles/presentation/) |
+| Next | **PowerPoint production** |
+| Outstanding | PowerPoint production, review, rehearsal |
 | Publication automation | **PAUSED** |
+
+**Producing the deck?** The per-slide asset mapping — source path, native
+treatment, warnings and proposed filename — is in
+[`../../module-03-iso-19650-principles/presentation/asset-manifest.md`](../../module-03-iso-19650-principles/presentation/asset-manifest.md).

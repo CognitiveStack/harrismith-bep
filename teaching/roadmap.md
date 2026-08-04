@@ -28,7 +28,7 @@ moves — not as the subject.
 |---|---|---|
 | 1 | What is a BIM Execution Plan? | **Content, visual source, assembly package and PowerPoint produced.** Review and rehearsal **deferred** |
 | 2 | BIM Management roles and responsibilities | **Content, visual source, assembly package and PowerPoint produced.** Review and rehearsal **deferred** |
-| 3 | **ISO 19650 information-management principles** | **CURRENT — ACTIVE.** Content baseline and visual source **complete**; assembly package next |
+| 3 | **ISO 19650 information-management principles** | **CURRENT — ACTIVE.** Content, visual source and assembly package **complete**; PowerPoint next |
 | 4 | CDE workflows and information states | Planned |
 | 5 | Responsibility matrices and information-delivery planning | Planned |
 | 6 | Coordination, review, approval and assurance | Planned |
@@ -81,6 +81,7 @@ ISO 19650 is intended to govern — and on where the available evidence stops. S
 | **T3-D** | **Slides 10–12** — Section D and the Section E opener |
 | **T3-E** | **Slides 13–14** — Section E, and the **module-wide final reconciliation** |
 | **T3-F** | The **visual source set** — 14 slide-source files in [`assets/module-03/`](assets/module-03/), a register, a slide map, and completion of visual specifications `V1` and `V3` |
+| **T3-G** | The **presentation assembly package** — deck specification, slide copy, presenter cues, asset manifest, and production and review checklists, in [`module-03-iso-19650-principles/presentation/`](module-03-iso-19650-principles/presentation/) |
 
 Alongside the slides: **239 classified statements**, **52 prohibited claims**,
 **sixty rehearsal exercises**, **thirteen visual specifications** completed in
@@ -118,9 +119,10 @@ the project *states* ISO 19650 principles inform its approach. Everything else i
 analogue, gap, exclusion or teaching framing. **The only permitted conclusion is
 `No conformity conclusion supported`**, in either direction.
 
-**Outstanding:** the **presentation assembly package** — next — then PowerPoint
-production, then review, then rehearsal. **No timing has been measured**, and
-**no visual has been rendered** (no renderer is available in this environment).
+**Outstanding:** **PowerPoint production** — next, performed by ChatGPT after the
+assembly package is reviewed and accepted — then review, then rehearsal. **No
+timing has been measured**, and **no visual has been rendered** (no renderer is
+available in this environment).
 
 ### Modules 4–8 — future scope
 
@@ -211,8 +213,9 @@ of governance under condition. Describing it neither advances nor reopens it.
 | Module 3 visual specifications | **All thirteen complete** — `V1`–`V13` |
 | Module 3 visual source | **Complete (T3-F)** — 14 files, `M03-S01`–`M03-S14`, in [`assets/module-03/`](assets/module-03/) |
 | Module 3 rendered assets | **None** — no renderer available; source committed instead |
+| Module 3 assembly package | **Complete (T3-G)** — [`module-03-iso-19650-principles/presentation/`](module-03-iso-19650-principles/presentation/) |
 | Module 3 assembly package | **None** |
-| Module 3 outstanding | **Assembly package (next)**, PowerPoint, review, rehearsal. **No timing measured** |
+| Module 3 outstanding | **PowerPoint production (next)**, review, rehearsal. **No timing measured** |
 | Module 2 | Content baseline, visual source and assembly package **produced**; PowerPoint assembled **outside this repository** |
 | Module 2 outstanding | **Presentation review and rehearsal — DEFERRED**, not complete, until the presenter chooses to perform them |
 | Module 1 | Content baseline, visual source and assembly package **produced**; PowerPoint assembled **outside this repository** |
