@@ -1,4 +1,4 @@
-# Module 4 — Speaker Notes, Slides 1–11
+# Module 4 — Speaker Notes, Slides 1–14
 
 **Status:** Working notes. **Not a script, and not final.**
 
@@ -1684,6 +1684,566 @@ decision has not been made — and the model stopping is the model working.
 
 ---
 
-## Slides 12–14
+## Slide 12 — Naming, revision, suitability and metadata support control · 1.5 min
 
-**Not developed.** No notes exist. Developing them is a later increment.
+### Purpose
+
+Show what container properties **do for control** — identification, permitted
+use, traceability, transition evidence — **without teaching a code that does not
+exist**.
+
+### Essential message
+
+1. **Six properties, six different control questions.**
+2. **A code identifies; it does not authorise, and it does not prove a process
+   ran.**
+3. **Metadata supports governance. It does not create authority.**
+4. **Harrismith has none of these standards yet** — naming, revision, suitability
+   and metadata schema are all **not established**.
+5. **That is a decision still to be made, stated as a decision still to be made.**
+
+### Suggested wording
+
+> "Six properties. Each answers a different question, and that's the whole slide.
+>
+> **Name** — which container is this? Our BEP asks for **unambiguous identity**.
+> **Version** — which stored platform occurrence? **Revision** — which managed
+> issue, *where project convention requires one*. **Status** — what condition is
+> declared? **Suitability** — what may this be relied on for? And **metadata** —
+> which structured attributes support identity, filtering, responsibility, state,
+> delivery purpose, interoperability?
+>
+> Now the distinctions, because these get merged constantly. A **filename may
+> identify a container but does not prove its state**. A **platform version does
+> not automatically create a revision** — our BEP's line is that a new platform
+> version creates none of the others. A **revision does not authorise a
+> transition**. **Status is not suitability.** **Suitability is not acceptance.**
+> And **metadata supports governance; it does not create authority**.
+>
+> Then the four boxes on the right, and I want you to look at them properly.
+>
+> **Naming standard — not established. Revision convention — not established.
+> Suitability codes — not established. Metadata schema — not established.**
+>
+> All four of our standards directories are empty. Our BEP says the Naming
+> Standard **does not yet exist**, that **no final naming syntax is created**
+> there — no field order, no separators, no permitted values — and that **no ISO
+> 19650 filename pattern is imposed**. On classification it's just as direct: **no
+> classification system is adopted.** Uniclass, OmniClass, MasterFormat — all
+> unadopted.
+>
+> I'm not going to invent an example code to fill those boxes. If I put a
+> plausible filename up there, half of you would write it down and it would become
+> the project's naming standard by accident. **The boxes stay empty because the
+> decision hasn't been made.**
+>
+> One sentence to take away, and it's the BEP's, not mine: the project's metadata
+> requirements are **defined by governance, not inherited from whatever fields a
+> tool happens to provide.**"
+
+### Shorter fallback
+
+> "Six properties, six questions: which container, which occurrence, which issue,
+> what condition, what may I rely on it for, what attributes support control. A
+> code **identifies**; it doesn't **authorise**, and it doesn't prove the process
+> behind it happened. And Harrismith has **no naming standard, no revision
+> convention, no suitability codes and no metadata schema** — all four
+> directories are empty, and I'm not inventing one from the front of a room."
+
+### Controlled source basis
+
+| Statement | Source |
+|---|---|
+| *"Information containers require **unambiguous identity**"* | **`S1` §11.3** |
+| Version = *"a platform or file history instance"*; revision = *"a controlled issue identifier, **where project convention requires one**"* | **`S1` §6.8** |
+| Status = *"a workflow or decision condition"*; suitability = *"what the information may be used for"* | **`S1` §6.8** |
+| *"A new platform version creates none of the others"* | **`S1` §6.8** |
+| Metadata should support identity, filtering and search, responsibility, state and status, delivery purpose, interoperability | **`S1` §11.4** |
+| *"**Platform folder placement alone is not identification** — a container must remain identifiable when moved, copied or exchanged"* | **`S1` §11.3** |
+| *"**No final naming syntax is created here**"*; **no ISO 19650 filename pattern is imposed**; the Naming Standard *"does not yet exist"* | **`S1` §11.3** |
+| *"**No classification system is adopted**"* — Uniclass, OmniClass, MasterFormat unadopted | **`S1` §11.4** |
+| *"**Software-native metadata is not the project standard**"*; requirements *"defined by governance, not inherited from whatever fields a tool happens to provide"* | **`S1` §11.4** |
+| Folder placement does not determine information state | **`CGD-C01`, `CGD-C03`** |
+| The five properties named and kept distinct | **`S2` §13** |
+
+### Governance-status boundary
+
+**The concepts are governed. The codes are not.** `S1` §6.8 and §11.3–§11.4 are
+**`CONTROLLED GOVERNANCE`** for what each property *means* and *must support*.
+Every actual code set is **`UNRESOLVED`** — `standards/naming/`,
+`standards/coordinates/`, `standards/templates/` and `standards/titleblocks/`
+each contain only a `.gitkeep`.
+
+**Say both halves.** "We have decided what naming must achieve; we have not
+decided what naming looks like." Saying only the first implies a standard exists.
+
+### Invention boundary
+
+**No coded example is offered, from the front or from the floor.** Prohibited: an
+ISO 19650 filename; a South African filename; a revision code; a suitability
+code; a status code; a metadata field set; a model-container name; **any
+fire-station example code**.
+
+A conceptual placeholder such as `[identifier]` is permitted **only** if visibly
+labelled illustrative. **Preferring none at all is the safer choice** — the
+project has explicitly declined to create the thing an example would imply.
+
+### Evidence boundary
+
+The properties **contribute to** transition evidence — identity, originator,
+version history, checked condition, declared permitted use, transition record,
+traceability. That is a **supported interpretation** built from `S1` §9.11 and
+`S2` §3.3.
+
+**Metadata alone proves no authorisation.** A complete, well-formed set of
+attributes is consistent with a transition that was never authorised.
+
+### Likely question
+
+**"So what naming convention should we use?"**
+
+> "I can't answer that here, and I'd be doing you damage if I improvised one. Our
+> BEP is explicit — the Naming Standard **does not yet exist**, and it deliberately
+> creates **no field order, no separator set and no permitted-value list**. What I
+> *can* tell you is what it has to achieve: unambiguous identity, origin and
+> discipline context, information type, consistency for retrieval, and — this is
+> the one people miss — it must stay identifiable **when the container is moved,
+> copied or exchanged**. Folder placement is not identification."
+
+**Second likely question — "Can't we just use ISO 19650 naming?"**
+
+> "That's a governance decision, and it hasn't been made. Our BEP says in terms
+> that **no ISO 19650 filename pattern is imposed**. Adopting one is available to
+> the project — it just has to be *adopted*, by whoever holds that decision, and
+> recorded. Not assumed because it's the familiar pattern."
+
+**Third likely question — "Revit already has parameters. Isn't that our
+metadata?"**
+
+> "No — and the BEP has a sentence for exactly this: **software-native metadata is
+> not the project standard.** The project's metadata requirements are defined by
+> governance, not inherited from whatever fields a tool happens to provide. Those
+> parameters may end up carrying the metadata. They don't get to *define* it."
+
+**Fourth likely question — "If a file is named correctly, is it Shared?"**
+
+> "No. Naming identifies; it doesn't declare state, and it certainly doesn't
+> authorise the transition. Same trap as the folder — a correct name and a correct
+> location can both be true of information nobody authorised anyone to rely on."
+
+### Transition to Slide 13
+
+> "So properties support control, and the codes behind them are decisions we
+> haven't made. Which raises the obvious question — in what order do these
+> decisions happen?"
+
+### Evidence classification
+
+**`CONTROLLED`** — the property definitions; version-does-not-create-revision;
+naming principles; folder placement is not identification; no syntax created; no
+ISO pattern imposed; no classification adopted; software-native metadata is not
+the standard; **the four unestablished standards** (`M4-S12-01`,
+`M4-S12-03`–`M4-S12-05`, `M4-S12-07`–`M4-S12-14`, `M4-S12-18`).
+**`SUPPORTING`** — the five properties named and kept distinct in the CDE strategy
+(`M4-S12-06`).
+**`INTERP`** — the six control questions; the distinctions as a set; the
+evidence-contribution list (`M4-S12-02`, `M4-S12-15`–`M4-S12-17`).
+**`SYNTH`** — the required message (`M4-S12-19`).
+**`UNRESOLVED`** is the *governance status* carried by `M4-S12-11`–`M4-S12-13` and
+`M4-S12-18` — naming standard, revision convention, suitability code set,
+metadata schema, classification system.
+**`EXCLUDED`** — any invented code, syntax, field order, permitted value, code
+set or schema; any claim that a correct name proves state, authorisation or
+process (`M4-S12-20`).
+
+### Delivery warning
+
+**The four empty boxes are the slide.** If they are filled, softened, greyed into
+a "future example" or replaced by a plausible pattern, the slide teaches the
+opposite of what it exists to teach.
+
+**Do not accept a naming convention offered from the floor.** Someone will have a
+good one. It is still not this project's, and repeating it approvingly is how an
+unadopted standard becomes the assumed standard.
+
+**And do not let this become a coding-standards workshop.** It is 1.5 minutes on
+what the properties *control*. The standard itself is a governance decision, made
+elsewhere, by someone with the authority to make it.
+
+---
+
+## Slide 13 — Governance first; permissions and configuration follow · 1.0 min
+
+### Purpose
+
+State the **direction of authority** once, in one minute. **Not a re-argument of
+Slides 1, 8 or 10.**
+
+### Essential message
+
+1. **Governance decision → process rule → permission or configuration →
+   implementation evidence.**
+2. **The reverse does not hold.** A platform setting creates no authority.
+3. **CDE Administration implements governance; it does not create it.**
+4. **A configuration that was never approved is a deviation, however competently
+   it was applied.**
+5. **Document, process and platform must stay aligned.**
+
+### Suggested wording
+
+> "One arrow, one minute.
+>
+> **Governance decides. The process records the decision. CDE Administration
+> configures the platform. Evidence shows the two agree.** That's the direction of
+> travel, and it only runs one way — a platform setting never creates governance
+> authority.
+>
+> Two sentences from our BEP, and they're the whole slide.
+>
+> First: **CDE Administration implements governance; it does not create it.**
+> Configuring folders, spaces, roles, permissions, workflow — all of that is
+> implementation of something already decided. Holding administrative rights over
+> a folder confers **the technical ability to change it and nothing more**.
+>
+> Second — and this is the one I'd write down: **a configuration that was never
+> approved is a deviation, however competently it was applied.** Competence isn't
+> the test. Authorisation is. And our BEP distinguishes a **deviation** — knowingly
+> permitted — from a **non-conformance** — unintended. The difference is *intent
+> and authorisation*, not severity.
+>
+> Which is why document, process and platform configuration have to stay aligned.
+> Change one and not the others and you get, in the BEP's words, **a governance
+> system that describes something the project is not doing** — the most common way
+> controlled documentation ends up ignored.
+>
+> Three callbacks and I'm done. A CDE is a process, not a folder tree. A technical
+> action is not a transition. Authority and evidence are required. Same principle,
+> three times."
+
+### Shorter fallback
+
+> "Governance decides, process records, configuration implements, evidence
+> confirms. Never backwards. **CDE Administration implements governance; it does
+> not create it** — and **a configuration that was never approved is a deviation,
+> however competently it was applied.** Admin rights give you the technical ability
+> to change something and nothing more."
+
+### Controlled source basis
+
+| Statement | Source |
+|---|---|
+| *"**CDE Administration implements governance; it does not create it**"* | **`S1` §5.9** |
+| *"**A configuration that was never approved is a deviation, however competently it was applied**"* | **`S1` §5.9** |
+| *"Holding administrative rights over a folder, space or team confers **the technical ability to change it and nothing more**"* | **`S1` §5.9** |
+| *"**Platform permission is not BEP authority**"*; administrator rights do not substitute for an appointment | **`S1` §5.9** |
+| CDE Administration **holder: TBD** | **`S1` §5.9** |
+| **Deviation** = knowingly permitted departure; **non-conformance** = unintended departure; *"the difference is intent and authorisation, not severity"* | **`S1` §12.6** |
+| *"**Document, process and platform configuration must remain aligned**"*; misalignment produces *"a governance system that describes something the project is not doing"* | **`S1` §12.8** |
+| *"This BEP does not itself authorise any live platform change"* | **`S1` §12.8** |
+| Configuration is not complete because a setting was applied | **`S1` §12.9** |
+| Access rights support but do not create authority | **`S1` §6.9**; `S2` §14 |
+| Governance responsibility for change | **`S1` §12.1, §12.7** |
+| Intended-versus-implemented must be evidenced | **`S2` §6, §17** |
+
+### Authority boundary
+
+**CDE Administration may** configure folders, spaces, roles, permissions and
+platform workflow **where authorised**, implement approved changes, and check
+configuration afterwards.
+
+**CDE Administration does not** determine the information-state model, assign
+publication authority, assign acceptance authority, or approve technical design.
+
+**The holder is TBD.** No name is spoken, and no one in the room is identified as
+holding it.
+
+### Scope boundary
+
+**This slide is direction, not verification.** *How* a project proves that
+configuration matches governance — sampling, audit, review cycles — is **Module
+6**. State the requirement; do not teach the method.
+
+**And do not re-open Slides 1, 8 or 10.** They are named as callbacks, in three
+lines, and then the slide ends. Re-arguing any of them costs the module its
+closing time.
+
+### Implementation-status warning
+
+**Nothing here asserts that Harrismith's configuration is aligned.** `S2` §6
+records intended-versus-implemented as a **four-layer** question, and `S4` found
+most controls **`IMPLEMENTATION UNVERIFIED`**. The slide teaches the required
+direction, not an achieved state.
+
+**And `S1` §12.8 is explicit that the BEP does not itself authorise any live
+platform change.** Nothing said here authorises anyone to configure anything.
+
+### Likely question
+
+**"We configured it before the document was written. Is that a problem?"**
+
+> "It's a **deviation** — and that's a defined word here, not an insult. Our BEP
+> separates a **deviation**, which is a knowingly permitted departure, from a
+> **non-conformance**, which is unintended. The difference is intent and
+> authorisation, not severity. What the BEP won't allow is the third option:
+> pretending the sequence happened correctly. Record it, and decide whether to
+> approve it or correct it."
+
+**Second likely question — "The CDE Administrator has full rights. Doesn't that
+make them the authority?"**
+
+> "No — and the BEP addresses that role by name. Administrative rights confer
+> **the technical ability to change something and nothing more**. **Platform
+> permission is not BEP authority**, and administrator rights don't substitute for
+> an appointment. They can change the folder. They can't decide who may rely on
+> what's in it."
+
+**Third likely question — "Who is the CDE Administrator on Harrismith?"**
+
+> "**TBD.** It's recorded as unassigned, and I'm not going to fill it in from up
+> here. That's the same discipline as the publication authority on the last slide
+> — an unassigned role stays visibly unassigned."
+
+### Transition to Slide 14
+
+> "So: decide, record, configure, evidence — in that order. Which means for
+> Triviron the useful question isn't *how do we set up the CDE*. It's *what do we
+> have to decide before we're allowed to*."
+
+### Evidence classification
+
+**`CONTROLLED`** — implements-not-creates; the CDE Administration responsibility
+list; the never-approved-configuration sentence; administrative rights confer
+technical ability only; platform permission is not BEP authority; holder TBD;
+deviation versus non-conformance; alignment of document, process and
+configuration; the BEP authorises no live change; configuration is not complete
+because a setting was applied; the responsible governance function
+(`M4-S13-03`, `M4-S13-05`–`M4-S13-14`).
+**`SUPPORTING`** — access follows approved responsibility, divergence recorded as
+a deviation; intended-versus-implemented as a four-layer question (`M4-S13-15`,
+`M4-S13-16`).
+**`INTERP`** — the four-step arrow as a single model; the refused reverse arrow;
+the may/does-not table (`M4-S13-01`, `M4-S13-02`, `M4-S13-04`).
+**`SYNTH`** — the required message (`M4-S13-17`).
+**`DECISION-RECORD`** — Harrismith's own alignment is **`IMPLEMENTATION
+UNVERIFIED`** (`M4-S13-18`).
+**`EXCLUDED`** — any named CDE Administrator; any claim that configuration
+confers authority; any claim that Harrismith's configuration has been verified as
+aligned; any authorisation of a live platform change (`M4-S13-19`).
+
+### Delivery warning
+
+**One minute. It is the only slide in the module that can be delivered in one
+minute, and the two after it need their time.** If Slide 12 ran long, recover
+here — not on Slide 14.
+
+**The reverse arrow must stay visibly refused.** A diagram showing only the
+forward chain is a diagram someone can read in either direction.
+
+**And do not name anyone.** Not the CDE Administrator, not the publication
+authority, not "well, realistically it would be…". The slide's own subject is why
+that instinct is the failure mode.
+
+---
+
+## Slide 14 — What Triviron must define before configuring its CDE · 2.0 min
+
+### Purpose
+
+Convert the module into **the decisions a future project must make before it
+configures anything** — as **questions only**.
+
+### Essential message
+
+1. **No Triviron facts exist.** Nothing here asserts anything about that project.
+2. **Five decision areas**: purpose and scope; states and permitted use;
+   transitions, gates and authority; properties; configuration and evidence.
+3. **Two questions appear verbatim and stay unanswered** — publication authority
+   and acceptance authority.
+4. **Configure only after the decisions are made.**
+5. **`CDE configuration basis — not yet established`** is the correct current
+   position, not a failure.
+
+### Suggested wording
+
+> "Last slide, and it's entirely questions. I want to be clear why.
+>
+> **We hold no facts about Triviron.** No jurisdiction, no project type, no
+> client, no procurement route, no appointments, no platform, no folder structure,
+> no states, no naming convention, no dates. If I put an answer on this slide I'd
+> be inventing a project. So: questions.
+>
+> **Purpose and scope.** What information must the CDE govern? Which teams and
+> organisations? Which uses must be controlled? Which phases? What evidence will
+> show the process actually operates?
+>
+> **States and permitted use.** Which states will you adopt? What is each one
+> *for*? Who may rely on each? Is each conceptual, physical, or both? Which folder
+> relationship implements each one — and this is the Harrismith lesson —
+> **how will you stop folder location being mistaken for state?**
+>
+> **Transitions, gates and authority.** Which actions actually change state? Who
+> initiates, who checks, who authorises? And then two questions I want on the
+> record.
+>
+> **Who holds publication authority?**
+>
+> **Who holds acceptance authority?**
+>
+> I'm not going to answer either. Harrismith has both recorded as **unresolved**,
+> and those are precisely the two that a new project assumes into existence in
+> week one. What happens when an authority is unassigned? And which transitions
+> must stay blocked?
+>
+> **Properties.** What naming standard, what revision convention, which status and
+> suitability codes, what metadata schema, who assigns and checks them — and how
+> will you keep the code distinct from evidence that the process behind it
+> happened?
+>
+> **Configuration and evidence.** Which platform? Who may configure it? How is a
+> change authorised? How are deviations recorded? How will you verify that
+> configuration matches governance, and who may declare the CDE ready for use?
+>
+> One sentence to close on: **configure the platform only after the states,
+> purposes, authorities, gates and evidence requirements have been decided.**
+>
+> And the honest status line for a project at this point — **CDE configuration
+> basis: not yet established.** That's not a warning. It's simply where you are
+> before the decisions are made, and saying so is better than a configured
+> platform that nobody authorised."
+
+### Shorter fallback
+
+> "Questions only — we hold no Triviron facts. Five areas: what the CDE governs;
+> which states and what each permits; which actions change state and **who
+> authorises** them; naming, revision, suitability and metadata; and platform
+> configuration with the evidence that it matches governance. Two questions I
+> won't answer: **who holds publication authority, and who holds acceptance
+> authority.** Both are unresolved on Harrismith, and both get assumed on new
+> projects. Configure after the decisions — not before. Right now: **CDE
+> configuration basis, not yet established.**"
+
+### Controlled source basis
+
+| Statement | Source |
+|---|---|
+| Publication / exchange authority **unresolved** | **`S1` §9.7**; `S2` §3.1, §11 |
+| Recipient acceptance authority **unresolved** | **`S1` §9.8**; `S2` §3 |
+| States require defined purpose and permitted reliance | **`S1` §6.3**; `S2` §1 |
+| Folder location does not determine state | **`S1` §6.1**; **`CGD-C01`, `CGD-C03`** |
+| A transition requires initiation, checking, authorisation, record and evidence | **`S2` §2, §3.3** |
+| Blocked routes are recorded as blocked rather than completed with a plausible value | **`S2` §19**; `S5` §5.1 |
+| Naming, revision, suitability and metadata requirements are governance decisions | **`S1` §11.3, §11.4** |
+| Configuration implements governance; unapproved configuration is a deviation | **`S1` §5.9, §12.6** |
+| Document, process and configuration must remain aligned and be evidenced | **`S1` §12.8**; `S2` §6, §17 |
+| Structural adoption carries conditions that must be satisfied before reliance | **`CGD-C01`–`CGD-C08`** |
+| Demonstrability is judged on evidence, not intent | **`S4` §7, §11** |
+
+**Every row supports the *question*. None supplies an answer for Triviron.**
+
+### Invention boundary
+
+**No Triviron project fact is asserted anywhere on this slide or in these notes.**
+Prohibited: jurisdiction; project type; client; asset; procurement route;
+appointment structure; named roles; CDE platform; folder structure; information
+states; naming convention; suitability codes; metadata schema; dates; team names;
+any claim of live implementation.
+
+**And no question is answered by implication.** "Who holds publication authority?
+— well, usually the…" completes the question. The slide's value is that it does
+not.
+
+### Authority boundary
+
+**The two compulsory questions appear verbatim and unanswered:**
+
+> **Who holds publication authority?**
+> **Who holds acceptance authority?**
+
+`S1` §9.7 names four roles that do **not** hold the first by default — BIM
+Manager, BIM Coordinator, CDE Administrator, Architect. **Do not name a fifth**,
+and do not accept one offered from the floor. A suggestion repeated approvingly
+from the front of a room is how an unassigned authority becomes an assumed one.
+
+### End-state boundary
+
+**`CDE configuration basis — not yet established`** is a **neutral future
+position**, not a failure warning and not a criticism of Harrismith. It is the
+correct status for any project that has not yet made these decisions, and it is
+the status Triviron will start from.
+
+**Do not soften it into a plan, a date or a commitment.** No sequencing, no
+"by the end of…", no ownership. Those are decisions, and this slide asks
+questions.
+
+### Likely question
+
+**"Can you give us your recommended answer to any of these?"**
+
+> "Not from here, no — and that's a discipline rather than modesty. Every one of
+> these is a decision that belongs to the project's governance, and an answer
+> offered from the front of a room has a way of becoming the answer. What I'd
+> point at instead is the Harrismith evidence: the two authorities that are still
+> unresolved are the two that stopped a route working. Start there."
+
+**Second likely question — "Isn't this just a long list of things we don't
+know?"**
+
+> "It's a list of things that have to be *decided*, which is different. Most of
+> them aren't hard — they're just usually skipped, because the platform lets you
+> start without them. Then six months later nobody can say what Shared means or
+> who published something. Twenty minutes of decisions now, or that."
+
+**Third likely question — "Which of these matters most?"**
+
+> "The two authority questions. Everything else can be corrected later without
+> much damage — a naming convention can be migrated, a folder can be restructured.
+> An authority that was never assigned means information was relied on without
+> anyone deciding it could be. That's the one that doesn't correct cleanly."
+
+**Fourth likely question — "How long does all this take?"**
+
+> "I genuinely don't know, and I'd be guessing at a number that people would plan
+> against. What I can say is that Harrismith reached a governed, conditionally
+> adopted structure with two authorities still open — so the decisions are not all
+> the same size, and the ones left open were the ones nobody had the standing to
+> make."
+
+### Closing
+
+> "That's Module 4. Four states, two of them currently unreachable. Eight
+> controlled steps, two of which change information state. And four coding
+> standards everyone assumes exist, which don't. **The CDE is the process. The
+> folders are where it shows up.**"
+
+**Then stop.** Do not add a summary of the whole programme, a preview of Module
+5, or a reassurance that Harrismith is nearly finished.
+
+### Evidence classification
+
+**`INTERP`** — the evidence boundary; the five decision areas as a structure; the
+ordering of the questions; the folder-versus-state question; the
+code-versus-evidence question; the end state (`M4-S14-01`–`M4-S14-11`,
+`M4-S14-14`, `M4-S14-15`).
+**`CONTROLLED`** — the two unresolved authorities and the four excluded roles
+(`M4-S14-12`).
+**`SYNTH`** — the required closing message (`M4-S14-13`).
+**No status class is asserted for Triviron at all** — the project has no entry in
+any register, because no controlled source describes it. It is recorded in
+[`source-map.md`](source-map.md) §8.5 as **undescribed**, which is a different
+thing from unresolved.
+**`EXCLUDED`** — any Triviron fact; any answered question; any named authority;
+any recommended convention, code set, schema or platform; any implementation
+claim; any ISO conformity claim (`M4-S14-16`).
+
+### Delivery warning
+
+**Questions only. Two full minutes of them.** The instinct to be helpful — to
+answer one, to offer "what most projects do", to suggest a role — is the single
+failure mode of this slide, and it undoes the module.
+
+**The two authority questions must be spoken, not skimmed.** They are the ones
+the audience will otherwise assume, and they are why Harrismith's `T4` is
+blocked.
+
+**And the end state stays as written.** `CDE configuration basis — not yet
+established`. Not "in progress", not "being developed", not a date.

@@ -2,8 +2,9 @@
 
 **Status:** Traceability record for teaching material. **Not governance.**
 
-Statement-level classification for the developed slides, the four required
-registers, and the list of claims that **may not be made** in this module.
+Statement-level classification for **all fourteen slides**, the **seven
+registers**, the **module-wide final reconciliation** (§11), and the list of
+claims that **may not be made** in this module.
 
 Source identifiers `S1`–`S14` are defined in
 [`source-inventory.md`](source-inventory.md).
@@ -83,27 +84,30 @@ register is [`source-inventory.md`](source-inventory.md) §3.
 
 ---
 
-## 5. Statement classification — Slides 1–11
+## 5. Statement classification — Slides 1–14
 
-**189 statements. 69 `CONTROLLED`, 49 `SUPPORTING`, 29 `DECISION-RECORD`,
-1 `MODULE-1-3`, 14 `INTERP`, 10 `SYNTH`, 17 `EXCLUDED`.**
+**244 statements. 94 `CONTROLLED`, 52 `SUPPORTING`, 30 `DECISION-RECORD`,
+1 `MODULE-1-3`, 34 `INTERP`, 13 `SYNTH`, 20 `EXCLUDED`.**
 
 | Slide | Statements | `CTRL` | `SUPP` | `DEC` | `M1-3` | `INT` | `SYN` | `EXC` |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
 | 1 | 12 | 3 | 2 | 3 | 1 | 1 | 1 | 1 |
 | 2 | 14 | 7 | 2 | 1 | 0 | 2 | 1 | 1 |
 | 3 | 18 | 9 | 3 | 4 | 0 | 1 | 1 | 0 |
-| **4** | **16** | **8** | **0** | **4** | **0** | **1** | **1** | **2** |
-| **5** | **18** | **8** | **3** | **3** | **0** | **1** | **1** | **2** |
-| **6** | **18** | **9** | **3** | **2** | **0** | **1** | **1** | **2** |
-| **7** | **17** | **9** | **1** | **4** | **0** | **0** | **1** | **2** |
-| **8** | **17** | **3** | **3** | **5** | **0** | **3** | **1** | **2** |
-| **9** | **19** | **1** | **13** | **1** | **0** | **2** | **0** | **2** |
-| **10** | **20** | **7** | **9** | **1** | **0** | **0** | **1** | **2** |
-| **11** | **20** | **5** | **10** | **1** | **0** | **2** | **1** | **1** |
-| **Total** | **189** | **69** | **49** | **29** | **1** | **14** | **10** | **17** |
+| 4 | 16 | 8 | 0 | 4 | 0 | 1 | 1 | 2 |
+| 5 | 18 | 8 | 3 | 3 | 0 | 1 | 1 | 2 |
+| 6 | 18 | 9 | 3 | 2 | 0 | 1 | 1 | 2 |
+| 7 | 17 | 9 | 1 | 4 | 0 | 0 | 1 | 2 |
+| 8 | 17 | 3 | 3 | 5 | 0 | 3 | 1 | 2 |
+| 9 | 19 | 1 | 13 | 1 | 0 | 2 | 0 | 2 |
+| 10 | 20 | 7 | 9 | 1 | 0 | 0 | 1 | 2 |
+| 11 | 20 | 5 | 10 | 1 | 0 | 2 | 1 | 1 |
+| **12** | **20** | **13** | **1** | **0** | **0** | **4** | **1** | **1** |
+| **13** | **19** | **11** | **2** | **1** | **0** | **3** | **1** | **1** |
+| **14** | **16** | **1** | **0** | **0** | **0** | **13** | **1** | **1** |
+| **Total** | **244** | **94** | **52** | **30** | **1** | **34** | **13** | **20** |
 
-**Four observations.**
+**Seven observations.**
 
 **Section C shifts the source balance.** Slides 8–11 draw **35 of their 76
 statements from `S2`** — the CDE strategy holds the transition logic, and says so
@@ -122,6 +126,24 @@ are among the best-evidenced material in the programme.
 **The two states the audience most wants are the two least available.** Published
 / Authorised is **`BLOCKED`** and Record / Retained is **`UNRESOLVED`** — and
 both carry a mandatory **empty field** rather than an omission.
+
+**Slide 12 is the most heavily controlled slide in the module** — **13 of its 20
+statements are `CONTROLLED`**, and **six of those record something the project has
+declined to establish**. The BEP is unusually explicit about naming and metadata
+precisely because it is not creating them: it states the principles, then states
+four times over that the standard, the syntax, the classification system and the
+schema do not exist.
+
+**Slide 14 inverts the module's source balance entirely.** **13 of its 16
+statements are `INTERP`**, and only one is `CONTROLLED` — the two unresolved
+authorities. That is the correct profile for a slide whose subject is a project
+**no controlled source describes**: the Harrismith material supports the *asking*
+of every question and the *answering* of none.
+
+**Across the module, 176 of 244 statements are `CONTROLLED`, `SUPPORTING` or
+`DECISION-RECORD`** — 72 per cent traceable to level 1–3 sources. **13 are
+`SYNTH`**, and every one of them is a required-message line rather than a factual
+claim.
 
 ### Slide 1 — A CDE is a governed process, not a folder tree
 
@@ -371,6 +393,80 @@ both carry a mandatory **empty field** rather than an omission.
 | `M4-S11-19` | **Satisfying `T4` alone would not automatically complete delivery** — `T4` is blocked by one matter, `TRN-E03` by five | `S2` §11; `S5` §5.1 | — | 4 | — | — | **`INTERP`** |
 | `M4-S11-20` | `T4` and `TRN-E03` used interchangeably; any invented authority, recipient, format or deliverable; the block described as a technical failure | — | — | — | — | — | **`EXCLUDED`** |
 
+### Slide 12 — Naming, revision, suitability and metadata support control
+
+| ID | Statement | Source path | Section | Auth | Governance | Implementation | Class |
+|---|---|---|---|---|---|---|---|
+| `M4-S12-01` | *"Information containers require **unambiguous identity**"* | `bep/…BEP.md` | §11.3 | 1 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M4-S12-02` | The six properties presented as **six distinct control questions** | — | — | 4 | — | — | **`INTERP`** |
+| `M4-S12-03` | Version — *"a platform or file history instance"* | `bep/…BEP.md` | §6.8 | 1 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M4-S12-04` | Revision — *"a controlled issue identifier, **where project convention requires one**"* | `bep/…BEP.md` | §6.8 | 1 | **`CONTROLLED GOVERNANCE`** | **No convention established** | **`CONTROLLED`** |
+| `M4-S12-05` | Status — *"a workflow or decision condition"*; Suitability — *"what the information may be used for"* | `bep/…BEP.md` | §6.8 | 1 | **`CONTROLLED GOVERNANCE`** | **No code set established** | **`CONTROLLED`** |
+| `M4-S12-06` | The five properties named and kept distinct in the CDE strategy | `supporting/…strategy.md` | §13 | 2 | `PROPOSED GOVERNANCE` | — | **`SUPPORTING`** |
+| `M4-S12-07` | *"**A new platform version creates none of the others**"* | `bep/…BEP.md` | §6.8 | 1 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M4-S12-08` | Metadata should support **identity; filtering and search; responsibility; state and status; delivery purpose; interoperability where required** | `bep/…BEP.md` | §11.4 | 1 | **`CONTROLLED GOVERNANCE`** | **No schema established** | **`CONTROLLED`** |
+| `M4-S12-09` | *"**Platform folder placement alone is not identification** — a container must remain identifiable when moved, copied or exchanged"* | `bep/…BEP.md` | §11.3 | 1 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M4-S12-10` | Naming should carry **origin, discipline and task-team context**, information type and required metadata where approved, with consistency for retrieval and traceability | `bep/…BEP.md` | §11.3 | 1 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M4-S12-11` | The project **Naming Standard** (`standards/naming/`) *"**does not yet exist**"* | `bep/…BEP.md` | §11.3 | 1 | **`UNRESOLVED`** | **Not established** | **`CONTROLLED`** |
+| `M4-S12-12` | *"**No final naming syntax is created here.** No field order, separator set or permitted-value list is defined, and **no ISO 19650 filename pattern is imposed**"* | `bep/…BEP.md` | §11.3 | 1 | **`UNRESOLVED`** | **Not established** | **`CONTROLLED`** |
+| `M4-S12-13` | *"**No classification system is adopted.** Uniclass, OmniClass, MasterFormat and any other system remain **unadopted**"* | `bep/…BEP.md` | §11.4 | 1 | **`UNRESOLVED`** | **Not adopted** | **`CONTROLLED`** |
+| `M4-S12-14` | *"**Software-native metadata is not the project standard**"*; requirements are *"**defined by governance, not inherited** from whatever fields a tool happens to provide"* | `bep/…BEP.md` | §11.4 | 1 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M4-S12-15` | **A revision does not authorise a transition; status is not suitability; suitability is not acceptance** | `bep/…BEP.md` §6.8; `supporting/…strategy.md` §3 | — | 4 | — | — | **`INTERP`** |
+| `M4-S12-16` | **Metadata alone proves no authorisation** — a complete attribute set is consistent with an unauthorised transition | `bep/…BEP.md` §11.4, §6.9 | — | 4 | — | — | **`INTERP`** |
+| `M4-S12-17` | The properties **contribute to** transition evidence — identity, originator, version history, checked condition, declared permitted use, transition record, traceability | `bep/…BEP.md` §9.11; `supporting/…strategy.md` §3.3 | — | 4 | — | — | **`INTERP`** |
+| `M4-S12-18` | **Naming standard, revision convention, suitability code set and metadata schema are all `not established`** — `standards/naming/`, `standards/coordinates/`, `standards/templates/` and `standards/titleblocks/` each contain only a `.gitkeep` | `standards/` (repository state); `bep/…BEP.md` §11.3, §11.4 | — | 1 | **`UNRESOLVED`** | **Not established** | **`CONTROLLED`** |
+| `M4-S12-19` | *"Naming and metadata support control by identifying information and its permitted use — but the code never replaces the governance decision"* | none | — | 5 | — | — | **`SYNTH`** |
+| `M4-S12-20` | Any invented filename, revision, suitability, status or metadata value; any adopted classification system; any claim that a correct name proves state, authorisation or process | — | — | — | — | — | **`EXCLUDED`** |
+
+### Slide 13 — Governance first; permissions and configuration follow
+
+| ID | Statement | Source path | Section | Auth | Governance | Implementation | Class |
+|---|---|---|---|---|---|---|---|
+| `M4-S13-01` | The chain **governance decision → process rule → permission or configuration → implementation evidence** presented as one model | `bep/…BEP.md` §12.1, §12.8; `supporting/…strategy.md` §17 | — | 4 | — | — | **`INTERP`** |
+| `M4-S13-02` | **The reverse arrow appears and is visibly refused** — a platform setting creates no governance authority | `bep/…BEP.md` §5.9, §6.9 | — | 4 | — | — | **`INTERP`** |
+| `M4-S13-03` | *"**CDE Administration implements governance; it does not create it.** Changing the software does not make a decision"* | `bep/…BEP.md` | §5.9 | 1 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M4-S13-04` | The **may / does not** boundary presented as a matched pair of equal weight | `bep/…BEP.md` §5.9 | — | 4 | — | — | **`INTERP`** |
+| `M4-S13-05` | CDE Administration responsibilities — membership; folder and space implementation; permissions; Design Collaboration team-space configuration; coordination-space configuration; platform workflow configuration; implementation of approved changes; checking configuration after change | `bep/…BEP.md` | §5.9 | 1 | **`CONTROLLED GOVERNANCE`** | **`IMPLEMENTATION UNVERIFIED`** | **`CONTROLLED`** |
+| `M4-S13-06` | *"**A configuration that was never approved is a deviation, however competently it was applied**"* | `bep/…BEP.md` | §5.9 | 1 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M4-S13-07` | *"Holding administrative rights over a folder, space or team confers **the technical ability to change it and nothing more**"* | `bep/…BEP.md` | §5.9 | 1 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M4-S13-08` | *"**Platform permission is not BEP authority**"*; administrator rights do not substitute for an appointment | `bep/…BEP.md` | §5.9 | 1 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M4-S13-09` | CDE Administration — **Holder: TBD** | `bep/…BEP.md` | §5.9 | 1 | **`UNRESOLVED`** | — | **`CONTROLLED`** |
+| `M4-S13-10` | **Deviation** = knowingly permitted departure; **non-conformance** = unintended departure. *"The difference is **intent and authorisation, not severity**"* | `bep/…BEP.md` | §12.6 | 1 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M4-S13-11` | *"**Document, process and platform configuration must remain aligned.** A change applied to one and not the others produces a governance system that describes something the project is not doing — **the most common way controlled documentation becomes ignored**"* | `bep/…BEP.md` | §12.8 | 1 | **`CONTROLLED GOVERNANCE`** | **`IMPLEMENTATION UNVERIFIED`** | **`CONTROLLED`** |
+| `M4-S13-12` | *"**This BEP does not itself authorise any live platform change**"* | `bep/…BEP.md` | §12.8 | 1 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M4-S13-13` | A configuration is **not complete because a setting was applied** — the change must be checked after it is made | `bep/…BEP.md` | §12.9, §5.9 | 1 | **`CONTROLLED GOVERNANCE`** | **`IMPLEMENTATION UNVERIFIED`** | **`CONTROLLED`** |
+| `M4-S13-14` | Governance change decisions sit with the **responsible governance function**, by change class | `bep/…BEP.md` | §12.1, §12.7 | 1 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M4-S13-15` | *"Access is configured to follow approved responsibility; responsibility comes first and permission follows it. Where access and approved responsibility diverge, the divergence is recorded as a **deviation**"* | `supporting/…strategy.md` | §14 | 2 | `PROPOSED GOVERNANCE` | **`IMPLEMENTATION UNVERIFIED`** | **`SUPPORTING`** |
+| `M4-S13-16` | Intended-versus-implemented is a **four-layer** question, and platform rules are recorded separately from governance rules | `supporting/…strategy.md` | §6, §17 | 2 | `PROPOSED GOVERNANCE` | **`IMPLEMENTATION UNVERIFIED`** | **`SUPPORTING`** |
+| `M4-S13-17` | *"Configuration implements governance. It does not create it."* — the controlled sentence condensed for the slide | `bep/…BEP.md` §5.9 | — | 5 | — | — | **`SYNTH`** |
+| `M4-S13-18` | **Harrismith's own configuration alignment is not verified** — *"no complete cycle demonstrated"*; demonstrability judged on evidence, not intent | `docs/Increment-7C-Live-Validation-Record.md` | §7, §11 | 3 | — | **`IMPLEMENTATION UNVERIFIED`** | **`DECISION-RECORD`** |
+| `M4-S13-19` | Any named CDE Administrator; configuration presented as conferring authority; Harrismith's alignment presented as verified; any authorisation of a live platform change | — | — | — | — | — | **`EXCLUDED`** |
+
+### Slide 14 — What Triviron must define before configuring its CDE
+
+**No controlled source describes Triviron.** Every `INTERP` row below is a
+**question structure** derived from a Harrismith control — the control supports
+the *asking*, never an answer.
+
+| ID | Statement | Source path | Section | Auth | Governance | Implementation | Class |
+|---|---|---|---|---|---|---|---|
+| `M4-S14-01` | **No Triviron project fact exists in the controlled evidence** — no jurisdiction, project type, client, asset, procurement route, appointment, platform, structure, state, code, schema or date | — | — | 4 | **None asserted** | **None asserted** | **`INTERP`** |
+| `M4-S14-02` | **Group 1 — CDE purpose and scope**: what information, which teams, which uses, which phases, what evidence that the process operates | `bep/…BEP.md` §6.1; `supporting/…strategy.md` §1 | — | 4 | — | — | **`INTERP`** |
+| `M4-S14-03` | **Group 2 — states and permitted use**: which states, what each is for, who may rely on each, conceptual or physical, which folder relationship | `bep/…BEP.md` §6.3, §6.4 | — | 4 | — | — | **`INTERP`** |
+| `M4-S14-04` | **"How will the project prevent folder location from being mistaken for state?"** | `bep/…BEP.md` §6.1; **`CGD-C01`, `CGD-C03`** | — | 4 | — | — | **`INTERP`** |
+| `M4-S14-05` | **Group 3 — transitions, gates and authority**: which actions change state, who initiates, who checks, who authorises | `supporting/…strategy.md` §2, §3.3 | — | 4 | — | — | **`INTERP`** |
+| `M4-S14-06` | **"What happens when an authority is unassigned?"** | `supporting/…strategy.md` §11, §19; `S5` §5.1 | — | 4 | — | — | **`INTERP`** |
+| `M4-S14-07` | **"Which transitions must remain blocked?"** | `supporting/…strategy.md` §11 | — | 4 | — | — | **`INTERP`** |
+| `M4-S14-08` | **Group 4 — naming, revision, suitability and metadata**: which standard, which convention, which codes, what schema, who assigns and checks | `bep/…BEP.md` §11.3, §11.4 | — | 4 | — | — | **`INTERP`** |
+| `M4-S14-09` | **"How will codes be distinguished from evidence of the underlying process?"** | `bep/…BEP.md` §9.11; **`CGD-C03`** | — | 4 | — | — | **`INTERP`** |
+| `M4-S14-10` | **Group 5 — platform configuration and implementation evidence**: which platform, who may configure, how authorised, how deviations are recorded, how configuration is verified, who declares readiness | `bep/…BEP.md` §5.9, §12.6, §12.8; `S4` §7, §11 | — | 4 | — | — | **`INTERP`** |
+| `M4-S14-11` | **The order of the five groups is the argument** — purpose before states, states before transitions, configuration last | — | — | 4 | — | — | **`INTERP`** |
+| `M4-S14-12` | **`Who holds publication authority?`** and **`Who holds acceptance authority?`** correspond to two Harrismith authorities recorded as **UNRESOLVED**, and `S1` §9.7 names **four roles that do not hold the first by default** | `bep/…BEP.md` | §9.7, §9.8 | 1 | **`UNRESOLVED`** | — | **`CONTROLLED`** |
+| `M4-S14-13` | *"Configure the platform only after the states, purposes, authorities, gates and evidence requirements have been decided"* | none | — | 5 | — | — | **`SYNTH`** |
+| `M4-S14-14` | **`CDE configuration basis — not yet established`** as the visible end state — a neutral future position, not a failure warning | — | — | 4 | **`UNRESOLVED`** | — | **`INTERP`** |
+| `M4-S14-15` | **Triviron has no entry in any register in this module** — no governance status and no implementation status is asserted for it, because no controlled source describes it | — | — | 4 | **None asserted** | **None asserted** | **`INTERP`** |
+| `M4-S14-16` | Any Triviron fact; any answered or hinted-at authority question; any recommended convention, code set, schema, platform or folder structure; any implementation or ISO conformity claim; any Harrismith status transferred onto Triviron | — | — | — | — | — | **`EXCLUDED`** |
+
 ---
 
 ## 5.1 Section B — state register
@@ -395,6 +491,81 @@ transition matrix.**
 **`0. Common Files` appears in no column.** It is an **area mapped to no state**
 (`S3` §3.1). **Four areas and four states do not align**, and the mismatch is a
 controlled finding.
+
+---
+
+## 5.2 Property register
+
+**Six properties. Every definition controlled; every code set unestablished.**
+
+| Field | **Name / identifier** | **Version** | **Revision** | **Status** | **Suitability** | **Metadata** |
+|---|---|---|---|---|---|---|
+| **Control question** | Which container is this? | Which stored platform occurrence? | Which managed issue applies? | What condition is declared? | For what purpose may it be relied upon? | Which structured attributes support control? |
+| **Exact controlled wording** | *"Information containers require unambiguous identity"* | *"A platform or file history instance"* | *"A controlled issue identifier, **where project convention requires one**"* | *"A workflow or decision condition"* | `S1`: *"What the information may be used for"*; `S2`: *"The permitted intended use"* | Supports *"identity; filtering and search; responsibility; state and status; delivery purpose; interoperability where required"* |
+| **Source** | `S1` §11.3 | `S1` §6.8; `S2` §13 | `S1` §6.8; `S2` §13 | `S1` §6.8; `S2` §13 | `S1` §6.8; `S2` §13 | `S1` §11.4 |
+| **Created by** | Governance decision, applied by the originator | **The platform, automatically** | **A person, as part of a managed issue** | A workflow or decision act | An authorising decision | Governance requirement, applied by the originator |
+| **What it does control** | Identification and traceability | Which stored occurrence is referenced | Which issue is referenced | The declared condition | **Permitted use** | Filtering, search, responsibility, delivery purpose |
+| **What it does not control** | **State, authorisation, permitted use** | **Revision, state, status, suitability** | **State transition or authorisation** | **Suitability** | **Approval or acceptance** | **Authority** |
+| **Standard established?** | **NO** — `standards/naming/` empty | Platform-native; no project convention | **NO** — no convention | **NO** — no code set | **NO** — no code set | **NO** — no schema |
+| **Governance status** | **`UNRESOLVED`** | `CONTROLLED GOVERNANCE` (definition) | **`UNRESOLVED`** | **`UNRESOLVED`** | **`UNRESOLVED`** | **`UNRESOLVED`** |
+| **Implementation status** | **Not established** | Platform behaviour, **unverified against governance** | **Not established** | **Not established** | **Not established** | **Not established** |
+| **Prohibited inference** | That a correct name proves state, authorisation or that a process occurred | That a new version is a new revision or issue | That a revision authorises a transition | That status equals suitability | That suitability equals approval or acceptance | That metadata creates authority, or that software fields are the standard |
+
+**Four standards do not exist, and the BEP says so four separate times.** The
+**Naming Standard** *"does not yet exist"*; **no final naming syntax is created**
+and **no ISO 19650 filename pattern is imposed** (`S1` §11.3); **no
+classification system is adopted** (`S1` §11.4); and **software-native metadata is
+not the project standard** (`S1` §11.4).
+
+**All four `standards/` directories were inspected and contain only a
+`.gitkeep`** — `standards/naming/`, `standards/coordinates/`,
+`standards/templates/`, `standards/titleblocks/`. **This is a repository
+observation, not an inference.**
+
+**The register's whole point is the row second from the bottom.** Every
+definition is governed; **not one code set is established.** A module that taught
+the definitions without that row would leave an audience believing a standard
+exists somewhere it has not yet looked.
+
+---
+
+## 5.3 Configuration-decision register
+
+**What must be decided, who decides it, and what may only implement it.**
+
+| # | Decision | Decided by | Implemented by | Status | Source |
+|---|---|---|---|---|---|
+| 1 | **The information-state model** — which states, what each permits | Governance | Not a configuration act at all | **`CONTROLLED GOVERNANCE`** — four states defined | `S1` §6.3; `S2` §1 |
+| 2 | **Which actions constitute state transitions** | Governance | — | **`PROPOSED GOVERNANCE`** — only `T1` and `T4` | `S2` §3 |
+| 3 | **`T1` sharing authority** | Governance | Platform permission follows | **Established** — Task-Team Lead | `S2` §3.1 |
+| 4 | **`T4` publication / exchange authority** | Governance | — | **`UNRESOLVED` — TBD** | `S1` §9.7 |
+| 5 | **Recipient acceptance authority** | Governance | — | **`UNRESOLVED` — TBD** | `S1` §9.8 |
+| 6 | **Retention approach and method** | Governance | Platform or process, once decided | **`UNRESOLVED` — TBD**; **no `04 Archive` approved** | `S1` §6.3; `CGD-C06` |
+| 7 | **CDE structural areas** | Governance | CDE Administration | **Adopted with eight conditions** | `CGD-001` §2; `CGD-C01`–`CGD-C08` |
+| 8 | **Folder and space implementation** | — | **CDE Administration, where authorised** | **`IMPLEMENTATION UNVERIFIED`** | `S1` §5.9 |
+| 9 | **Permissions and access rights** | Governance assigns responsibility first | **CDE Administration configures to follow it** | **`IMPLEMENTATION UNVERIFIED`**; divergence is a **deviation** | `S1` §6.9; `S2` §14 |
+| 10 | **Design Collaboration team-space configuration** | Governance | CDE Administration | **`IMPLEMENTATION UNVERIFIED`**; **UD-001** unresolved | `S1` §5.9, §6.4 |
+| 11 | **Platform workflow configuration** | Governance | CDE Administration | **`IMPLEMENTATION UNVERIFIED`** | `S1` §5.9; `S2` §17 |
+| 12 | **Naming standard** | Governance | Applied by originators | **`UNRESOLVED`** — does not exist | `S1` §11.3 |
+| 13 | **Revision convention** | Governance | Applied by originators | **`UNRESOLVED`** — none | `S1` §6.8 |
+| 14 | **Status and suitability code sets** | Governance | Applied at transitions | **`UNRESOLVED`** — none | `S1` §6.8 |
+| 15 | **Metadata schema** | Governance | Platform fields may carry it | **`UNRESOLVED`** — none; **software-native metadata is not the standard** | `S1` §11.4 |
+| 16 | **Classification system** | Governance | — | **`UNRESOLVED`** — **none adopted** | `S1` §11.4 |
+| 17 | **CDE Administration holder** | Appointment | — | **TBD** | `S1` §5.9 |
+| 18 | **Verification that configuration matches governance** | Governance sets the requirement | CDE Administration checks after change | **`IMPLEMENTATION UNVERIFIED`** — *"no complete cycle demonstrated"* | `S1` §12.9; `S4` §8, §11 |
+
+**Read the two right-hand columns of the middle rows together.** Rows 8–11 are
+**implementation without verification**; rows 12–17 are **decisions not yet made**.
+Neither is a software problem, and neither is fixed by configuring something.
+
+**Three sentences govern the whole register.** *"CDE Administration implements
+governance; it does not create it"* (`S1` §5.9). *"A configuration that was never
+approved is a deviation, however competently it was applied"* (`S1` §5.9).
+*"Document, process and platform configuration must remain aligned"* (`S1` §12.8).
+
+**And one boundary applies to every row.** *"This BEP does not itself authorise
+any live platform change"* (`S1` §12.8) — **and neither does this teaching
+module.**
 
 ---
 
@@ -523,25 +694,62 @@ They are shown, not omitted.
 
 ---
 
-## 8. Unresolved-matter register
+## 8. Module-wide unresolved register
 
-| # | Matter | Reference | Status |
-|---|---|---|---|
-| 1 | **Publication / exchange authority** | `S1` §9.7; `S6` `D4` | **UNRESOLVED / TBD** |
-| 2 | **Recipient** | `S1` §2.3, §5.3 | **Not established** |
-| 3 | **Acceptance authority** | `S1` §9.8, §10.11; `S6` `D7` | **UNRESOLVED / TBD** |
-| 4 | **Retention approach** | `S1` §6.3; `CGD-C06` | **TBD** |
-| 5 | **`04 Archive` folder** | `S1` §6.3; `S2` §1; `CGD-C06` | **Not approved, not required, not created** |
-| 6 | **Platform configuration** | `CGD-C07`; `S2` §6 | **Not verified against intended governance** |
-| 7 | **Implementation evidence** | `S4` | **Partial.** No complete cycle demonstrated |
-| 8 | **Naming and suitability code completeness** | `S1` §11.3; `S2` §19; `S12` | **Not established — no standard exists** |
-| 9 | **Metadata implementation** | `S1` §11.4 | **No schema established** |
-| 10 | **Live transition operation** | `S4` §7, §8 | **Not demonstrated as a complete cycle** |
-| 11 | MEP / Structural team-space mapping | **UD-001** | **UNRESOLVED** |
-| 12 | Governance change approval authority by class | `S1` §12.7; `S6` `A2` | **UNRESOLVED / TBD** |
+**Every unresolved matter Module 4 touches, in one place. Eighteen entries, in
+five classes.** Nothing here is filled with a plausible value.
 
-**`S2` §19's position is adopted:** *"Each is recorded so the gap stays visible
-rather than being filled with a plausible value."*
+### 8.1 Unresolved authorities — 4
+
+| # | Matter | Reference | Status | Slides |
+|---|---|---|---|---|
+| 1 | **Publication / exchange authority** | `S1` §9.7; `S6` `D4` | **UNRESOLVED / TBD.** *"Not automatically"* the BIM Manager, BIM Coordinator, CDE Administrator or Architect | **6, 11, 14** |
+| 2 | **Recipient acceptance authority** | `S1` §9.8, §10.11; `S6` `D7` | **UNRESOLVED / TBD** | **9, 11, 14** |
+| 3 | **CDE Administration holder** | `S1` §5.9 | **TBD.** No name exists anywhere in the Harrismith set | **13** |
+| 4 | Governance change approval authority by class | `S1` §12.7; `S6` `A2` | **UNRESOLVED / TBD** | 13 |
+
+### 8.2 Unresolved standards — 5
+
+| # | Matter | Reference | Status | Slides |
+|---|---|---|---|---|
+| 5 | **Naming standard** | `S1` §11.3; `standards/naming/` | **Does not exist.** No syntax, no field order, no separators, no permitted values; **no ISO 19650 pattern imposed** | **12, 14** |
+| 6 | **Revision convention** | `S1` §6.8 | **Not established** | **12, 14** |
+| 7 | **Status and suitability code sets** | `S1` §6.8; `S2` §19 | **Not established** | **2, 12, 14** |
+| 8 | **Metadata schema** | `S1` §11.4 | **Not established.** *"Software-native metadata is not the project standard"* | **12, 14** |
+| 9 | **Classification system** | `S1` §11.4 | **None adopted.** Uniclass, OmniClass, MasterFormat all **unadopted** | **12** |
+
+### 8.3 Unresolved process matters — 4
+
+| # | Matter | Reference | Status | Slides |
+|---|---|---|---|---|
+| 10 | **Retention approach and method** | `S1` §6.3; `CGD-C06` | **TBD** | **7, 14** |
+| 11 | **`04 Archive` folder** | `S1` §6.3; `S2` §1; `CGD-C06` | **Not approved, not required, not created — and not to be invented** | **7** |
+| 12 | **Recipient identity** | `S1` §2.3, §5.3; `S5` §5.1 | **Not established** | 11 |
+| 13 | **Required formats and deliverable set** | `S5` §5.1 | **Not established** | 11 |
+
+### 8.4 Unverified implementation — 4
+
+| # | Matter | Reference | Status | Slides |
+|---|---|---|---|---|
+| 14 | **Platform configuration versus intended governance** | `CGD-C07`; `S2` §6 | **Not verified** | **13** |
+| 15 | **Live transition operation** | `S4` §7, §8 | **Not demonstrated as a complete cycle** | 9, 10 |
+| 16 | **Implementation evidence generally** | `S4` | **Partial.** No complete cycle demonstrated | 3–11 |
+| 17 | MEP / Structural team-space mapping | **UD-001** | **UNRESOLVED** — recorded, never silently corrected | 3 |
+
+### 8.5 Outside the evidence entirely — 1
+
+| # | Matter | Reference | Status | Slides |
+|---|---|---|---|---|
+| 18 | **Every Triviron decision** | **No source exists** | **Not unresolved — undescribed.** Triviron has no entry in any register in this module, and no status is asserted for it | **14** |
+
+**Entry 18 is a different kind of entry, and the distinction matters.** Entries
+1–17 are matters a controlled document has **recorded as open**. Entry 18 is a
+project **no controlled document mentions at all** — so Module 4 asks questions
+about it and records nothing.
+
+**`S2` §19's position is adopted throughout:** *"Each is recorded so the gap
+stays visible rather than being filled with a plausible value."* **Eighteen gaps,
+eighteen visible.**
 
 ---
 
@@ -667,6 +875,60 @@ transitions no matter what the caption says — which is why `W9` is specified a
 an audience reaches for: resolving the publication authority is necessary for
 delivery and **nowhere near sufficient**.
 
+### 9.4 Additional prohibitions recorded in T4-D
+
+Twenty-three more, arising from Slides 12–14. Same weight as §9. **These close
+the module-wide list at 98.**
+
+**Codes and standards — 12**
+
+| # | Prohibited | Why |
+|---|---|---|
+| 76 | **Any invented filename or naming syntax, in any format** | `S1` §11.3 — *"No final naming syntax is created here"*; the Naming Standard **does not yet exist** |
+| 77 | **An ISO 19650 filename pattern presented as this project's standard** | `S1` §11.3 — **no ISO 19650 filename pattern is imposed** |
+| 78 | **Claiming the project rejects, is exempt from, or has failed ISO 19650 naming** | The BEP is **silent by design**, not opposed. Both directions are conformity claims, and neither is supported |
+| 79 | **Any invented revision code or convention** | `S1` §6.8 — a revision applies *"where project convention requires one"*, and **no convention exists** |
+| 80 | **Any invented status or suitability code set** | `S1` §6.8; `S2` §19 — **no code set is established** |
+| 81 | **Any invented metadata schema or field list** | `S1` §11.4 — **no schema established** |
+| 82 | **Any classification system presented as adopted** | `S1` §11.4 — *"No classification system is adopted"*; Uniclass, OmniClass, MasterFormat **unadopted** |
+| 83 | **Software-native fields presented as the project metadata standard** | `S1` §11.4 — *"Software-native metadata is not the project standard"* |
+| 84 | **An unlabelled conceptual placeholder presented as a real identifier** | A placeholder is permitted **only** if visibly labelled illustrative; unlabelled, it is an invented standard |
+| 85 | **Omission of the four `not established` fields** | An omitted field implies **no decision is needed**. All four appear, and all four are **empty** |
+| 86 | **Describing the four unestablished standards as *in progress*, or giving them a date** | **No source records work in progress or a date.** An unmade decision is not a work item |
+| 87 | **A correct name or folder location presented as proof of state, authorisation or process** | `S1` §11.3 — *"platform folder placement alone is not identification"*; **`CGD-C01`, `CGD-C03`** |
+
+**Governance direction and configuration — 6**
+
+| # | Prohibited | Why |
+|---|---|---|
+| 88 | **Metadata or a code presented as creating authority** | `S1` §11.4, §6.9 — metadata supports governance; it does not create it |
+| 89 | **Configuration presented as creating, confirming or constituting governance** | `S1` §5.9 — *"CDE Administration implements governance; it does not create it"* |
+| 90 | **Naming any CDE Administration holder** | `S1` §5.9 — **Holder: TBD**. Extends prohibition 30 to this role specifically |
+| 91 | **Presenting *deviation* as the mild category and *non-conformance* as the severe one** | `S1` §12.6 — *"The difference is intent and authorisation, not severity"* |
+| 92 | **Claiming Harrismith's configuration has been verified as aligned with its governance** | `S2` §6 — a **four-layer** question; `S4` §8 — *"no complete cycle demonstrated"* |
+| 93 | **Presenting this module, or the BEP, as authorising a live platform change** | `S1` §12.8 — *"This BEP does not itself authorise any live platform change"*; root `README.md` §2.1 |
+
+**Triviron — 5**
+
+| # | Prohibited | Why |
+|---|---|---|
+| 94 | **Stating any Triviron project fact** | **No controlled source describes Triviron** — no jurisdiction, project type, client, asset, procurement route, appointment, named role, platform, folder structure, state, code, schema, date or team |
+| 95 | **Answering, or hinting at an answer to, either compulsory authority question** | Both are **UNRESOLVED** on Harrismith (`S1` §9.7, §9.8), and a hint from the front of a room assigns them |
+| 96 | **Recommending a naming convention, code set, schema, platform or folder structure for Triviron** | A recommendation is an answer wearing a qualifier, and it invents the project |
+| 97 | **Presenting `CDE configuration basis — not yet established` as a failure, or attaching a date or an owner to it** | It is a **neutral future position** — the correct status before the decisions are made |
+| 98 | **Transferring a Harrismith status onto Triviron** | Harrismith's blocked `T4` is the **reason a question is asked**, not a prediction about a project nobody has described |
+
+**Prohibitions 85 and 86 extend the empty-field rule to its third and fourth
+applications.** After 44 (publication authority) and 49 (retention method), the
+same instruction now covers the four unestablished standards: **the field
+appears, it is empty, and it is not dated.** Omission reads as *not needed*; a
+date reads as *already in hand*. **Neither is true.**
+
+**Prohibitions 94–98 are the module's hardest boundary**, because every one of
+them would be broken by trying to be helpful. **95 is the single worst**: it
+answers the two questions the module exists to leave open, and it does so in
+front of the people most likely to act on it.
+
 ## 10. Module-boundary deferrals
 
 | Deferred to | Subject |
@@ -678,22 +940,108 @@ delivery and **nowhere near sufficient**.
 **References to those controls may explain a transition gate. Detailed teaching
 remains deferred.**
 
-## 11. Status
+## 11. Module-wide final reconciliation
+
+**Module 4's content baseline is complete. This section checks it against
+itself.**
+
+### 11.1 Coverage
+
+| Check | Result |
+|---|---|
+| Slides developed | **14 of 14** |
+| Timing | **20.0 minutes**, verified against both the section table and the slide table in [`presentation-outline.md`](presentation-outline.md) §1–§2 |
+| Speaker notes | **14 of 14 slides**, 12–13 elements each |
+| Statements classified | **244**, `M4-S1-01` – `M4-S14-16`, no gaps |
+| Visuals specified in full | **11 of 14** — `W4`–`W14`. `W1`–`W3` remain candidates |
+| Exercises | **66**, in four sets |
+| Registers | **7** |
+| Prohibited claims | **98**, contiguous, no duplicates |
+
+### 11.2 The four state-model claims, reconciled across all fourteen slides
+
+| Claim | Where made | Where it must not be contradicted |
+|---|---|---|
+| **A CDE is a process, not a folder tree** | Slide 1 | Slides 3, 7, 8, 12 — each of which discusses folders. **None asserts a folder is a state** |
+| **Only `T1` and `T4` are information-state transitions** | Slide 9 | Slides 8, 10, 11. **`T8` is named as a rework route, never as a third transition** |
+| **`T4` and `TRN-E03` are different objects** | Slide 11 | Slides 9, 14. **They appear separately in §7.2, and never in one shape** |
+| **The concepts are governed; the codes are not** | Slide 12 | Slides 2, 3, 5, 6. **Slide 2 defines the properties and states no code set; Slide 12 says why** |
+
+### 11.3 The six mandatory empty or refused elements
+
+| Element | Slide | Rule |
+|---|---|---|
+| **Publication-authorising function** | **6, 11** | Shown, **empty**. Prohibition 44 |
+| **Retention method** | **7** | Shown, **empty**. Prohibition 49 |
+| **`T4` initiating function and evidence-required** | §7.1 | Shown, **empty**. Prohibition 62 protects the sibling evidence field on `T1` |
+| **The four `not established` standards** | **12** | Shown, **empty**, **undated**. Prohibitions 85, 86 |
+| **The refused reverse arrow** | **13** | Shown, **refused** — not omitted. `W13` |
+| **The two authority questions** | **14** | Asked, **unanswered**. Prohibition 95 |
+
+**Six elements, one rule.** Where something is required but unassigned, blocked
+or undecided, **it appears and stays incomplete**. Omission reads as *not
+needed*; completion invents a decision. **A producer or presenter who "fixes" any
+of the six has changed the claim.**
+
+### 11.4 Status distribution across the module
+
+| Status class | Count | Principal examples |
+|---|---:|---|
+| **`CONTROLLED GOVERNANCE`** | Most of Sections A, B and D | The four state definitions; the six property definitions; the CDE Administration boundary |
+| **`PROPOSED GOVERNANCE`** | Most of Section C | The eight controlled steps; the transition control tables |
+| **`CONDITIONALLY AVAILABLE`** | The four adopted CDE areas | `CGD-001` §2, with **eight conditions** |
+| **`BLOCKED`** | **2 objects** | `T4`; `TRN-E03` |
+| **`UNRESOLVED`** | **17 matters** | §8.1–§8.4 |
+| **`IMPLEMENTATION UNVERIFIED`** | **Nearly everything** | `S4` — *"no complete cycle demonstrated"* |
+| **`LIVE IMPLEMENTATION VERIFIED`** | **Nothing in this module** | — |
+| **Undescribed** | **1** | **Triviron** — §8.5 |
+
+**The bottom two rows are the module's honest summary.** **Not one control in
+Module 4 is verified as operating**, and the project the module is preparing for
+**is not described by any source at all**.
+
+### 11.5 What is not claimed anywhere in Module 4
+
+- **No ISO 19650 conformity claim**, in either direction — Module 3's boundary
+  holds unchanged.
+- **No live implementation claim.** `ARC-01` is one qualified **container**
+  observation, and it proves no cycle.
+- **No invented code, syntax, schema, classification, folder, retention period,
+  authority holder or Triviron fact.** **Zero, across all seven files.**
+- **No authorisation of any platform act.** Root [`README.md`](../../README.md)
+  §2.1 applies unmodified, and `S1` §12.8 says the BEP itself authorises none
+  either.
+- **No measured timing.** Every figure is an allocation until Exercise 64 has
+  been run.
+
+### 11.6 Known residual work
+
+| Item | Status |
+|---|---|
+| `W1`, `W2`, `W3` | **Candidates only** — specification belongs to the visual source set increment |
+| `teaching/assets/module-04/` | **Does not exist.** No visual source file and no rendered asset |
+| Module 4 assembly package | **Not started** |
+| Timing measurement | **Never performed**, for this or any module |
+
+---
+
+## 12. Status
 
 | Field | Value |
 |---|---|
-| Statements classified | **Slides 1–11 — 189 statements** |
-| `CONTROLLED` | 69 |
-| `SUPPORTING` | 49 |
-| `DECISION-RECORD` | 29 |
+| Statements classified | **Slides 1–14 — 244 statements** |
+| `CONTROLLED` | 94 |
+| `SUPPORTING` | 52 |
+| `DECISION-RECORD` | 30 |
 | `MODULE-1-3` | 1 |
-| `INTERP` | 14 |
-| `SYNTH` | 10 |
-| `EXCLUDED` | 17 |
-| Registers | **5** — source authority (§4), **state register (§5.1)**, terminology (§6), transition (§7), unresolved (§8) |
-| Prohibited claims | **75** (§9, §9.1–§9.3) |
-| Slides 12–14 | **Not classified.** Not developed |
-| Invented codes, schemas, folders, periods or holders | **Zero** |
-| Mandatory empty fields | **4** — publication authority (Slides 6 and 11) · retention method (Slide 7) · `T4` initiating function and evidence-required (§7.1) |
+| `INTERP` | 34 |
+| `SYNTH` | 13 |
+| `EXCLUDED` | 20 |
+| Registers | **7** — source authority (§4), state (§5.1), **property (§5.2)**, **configuration-decision (§5.3)**, terminology (§6), transition (§7), **module-wide unresolved (§8)** |
+| Prohibited claims | **98** (§9, §9.1–§9.4) |
+| Content baseline | **Complete.** Slides 1–14 developed |
+| Invented codes, schemas, folders, periods, holders or Triviron facts | **Zero** |
+| Mandatory empty or refused elements | **6** — §11.3 |
 | Transition register | **Expanded (T4-C)** — seventeen fields, `T1`–`T8`, §7.1 |
+| Module-wide final reconciliation | **§11 (T4-D)** |
 | Live observations requested | **Zero** |

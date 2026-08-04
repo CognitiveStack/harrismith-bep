@@ -136,10 +136,14 @@ a CDE actually controls — states, transitions, the properties that support the
 and **why being able to move a file is not authority to change its state**. See
 [`module-04-cde-workflows-and-information-states/README.md`](module-04-cde-workflows-and-information-states/README.md).
 
-**Established (T4-A):** module structure; a **source inventory** recording the
-exact path of every CDE-relevant controlled source, its precedence and four
-registers — source authority, terminology, transitions and unresolved matters;
-the 20-minute fourteen-slide architecture; and **Slides 1–3**.
+**Established (T4-A to T4-D):** module structure; a **source inventory** recording
+the exact path of every CDE-relevant controlled source and its precedence; the
+20-minute fourteen-slide architecture; **the complete Slides 1–14 teaching-content
+baseline**; **seven registers** — source authority, state, property,
+configuration-decision, terminology, transitions and a module-wide unresolved
+register; **244 classified statements**; **98 prohibited claims**; **66
+exercises**; visual specifications **`W4`–`W14`**; and a **module-wide final
+reconciliation**.
 
 **Module 4 returns to repository-only evidence.** Unlike Module 3, every
 statement traces to a controlled Harrismith document. **But it introduces a new
@@ -159,9 +163,9 @@ Four positions are fixed for the module:
 - **A missing verification is not a failure claim** — *absence of observation is
   not observation of absence*.
 
-**Outstanding:** **Slides 4–14**, then visual source, then the assembly package,
-then PowerPoint production, then review, then rehearsal. **No timing has been
-measured.**
+**Outstanding:** visual specifications `W1`–`W3`, then the visual source set,
+then the assembly package, then PowerPoint production, then review, then
+rehearsal. **No timing has been measured** — for this or any module.
 
 ### Modules 5–8 — future scope
 
@@ -244,14 +248,15 @@ of governance under condition. Describing it neither advances nor reopens it.
 | Field | Value |
 |---|---|
 | **Active module** | **Module 4 — CDE Workflows and Information States** — **CURRENT — ACTIVE** |
-| Module 4 deliverable | 20-minute, **fourteen-slide** presentation — **structure, source inventory and Slides 1–3 only; not final** |
-| Module 4 slides developed | **Slides 1–3.** Slides 4–14 **outstanding** |
-| Module 4 established (T4-A) | Structure · **source inventory with exact paths and precedence** · source-authority, terminology, transition and unresolved registers · 20-minute fourteen-slide architecture · **Slides 1–3** · 44 classified statements · 33 prohibited claims |
+| Module 4 deliverable | 20-minute, **fourteen-slide** presentation — **teaching-content baseline complete; not final** |
+| Module 4 slides developed | **Slides 1–14.** None outstanding |
+| Module 4 content baseline | **COMPLETE (T4-D)** |
+| Module 4 established (T4-A to T4-D) | Structure · **source inventory with exact paths and precedence** · **seven registers** · 20-minute fourteen-slide architecture · **Slides 1–14** · **244 classified statements** · **98 prohibited claims** · **66 exercises** · visual specifications **`W4`–`W14`** · **module-wide final reconciliation** |
 | Module 4 source basis | **Controlled Harrismith documents only.** No external source is required |
 | Module 4 governance position | The CDE workflow is **`PROPOSED GOVERNANCE`** and **does not describe the live platform**. **`Shared → Published` is blocked** — no available authorising function. **No `04 Archive` exists or is required.** **No naming, revision, suitability or metadata standard exists** |
 | Module 4 visual source | **None** |
 | Module 4 assembly package | **None** |
-| Module 4 outstanding | **Slides 4–14**, visual source, assembly package, PowerPoint, review, rehearsal |
+| Module 4 outstanding | Visual specifications **`W1`–`W3`**, visual source set, assembly package, PowerPoint, review, rehearsal |
 | Module 3 | Content baseline, visual source and assembly package **produced**; PowerPoint assembled **outside this repository** |
 | Module 3 outstanding | **Presentation review and rehearsal — DEFERRED**, not complete, until the presenter chooses to perform them |
 | Module 2 | Content baseline, visual source and assembly package **produced**; PowerPoint assembled **outside this repository** |

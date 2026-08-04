@@ -1,15 +1,21 @@
 # Module 4 — Exercises
 
-**Status:** Exercise set for the **Slides 1–11** baseline. Teaching material;
-**not governance.**
+**Status:** Exercise set for the complete **Slides 1–14** baseline. Teaching
+material; **not governance.**
 
 Rehearsal exercises for the presenter, not assessments for an audience. Do them
 aloud, alone, before delivering to anyone. **Exercise 13 is done after each of
 the others.**
 
-**Forty-six exercises in three sets.** Exercises 1–14 cover Slides 1–3 and the
+**Sixty-six exercises in four sets.** Exercises 1–14 cover Slides 1–3 and the
 questions that arrive as soon as a state diagram appears; **15–29 cover Section B
-— the four states**; **30–46 cover Section C — the transition workflow.**
+— the four states**; **30–46 cover Section C — the transition workflow**;
+**47–66 cover Sections D and E — properties, the direction of authority, and the
+questions Triviron must answer.**
+
+**Exercise 64 is the module's only full-length run.** No timing in this
+repository has been measured, and every allocation stays an allocation until it
+has been.
 
 **Four of the foundation exercises rehearse questions rather than slides.**
 Exercises 7, 10, 11 and 12 cover material whose slides came later — they are kept
@@ -1288,21 +1294,574 @@ eight explanations. **Group them, name the two, and move.**
 
 ---
 
+# Section D and E — Slides 12–14: properties, governance direction and the questions
+
+**Fifteen practice exercises and five delivery exercises.** The closing five
+include the module's only full-length timed run.
+
+**One rule runs through all twenty.** These slides are where the temptation to be
+helpful is strongest — to supply a naming convention, to name an authority, to
+answer a Triviron question. **Every exercise below is partly a test of not doing
+that.**
+
+---
+
+## Exercise 47 — Six properties, six questions
+
+**Task.** Name the six container properties and the **control question** each one
+answers. Sixty seconds, from memory.
+
+**Why this exercise.** A property list is inert. The questions are what make them
+controls, and they are what Slide 12 has to land.
+
+**What good looks like.** **Name** — which container is this? **Version** — which
+stored platform occurrence? **Revision** — which managed issue, *where project
+convention requires one*? **Status** — what condition is declared? **Suitability**
+— for what purpose may it be relied upon? **Metadata** — which structured
+attributes support control?
+
+**Success criteria**
+
+- [ ] All six, each with **its own** question.
+- [ ] I used the **Harrismith** wording, not an ISO definition.
+- [ ] I included the *"where project convention requires one"* qualification on
+      revision.
+- [ ] Sixty seconds.
+
+**Common failure.** Merging status and suitability into "the status of the file".
+**They answer different questions** — one is a condition, one is a permitted use.
+
+---
+
+## Exercise 48 — A version is not a revision
+
+**Task.** Explain why saving a new version in the platform does not create a
+revision. Thirty seconds.
+
+**Why this exercise.** This is the single most common property confusion, and the
+BEP has a sentence for it.
+
+**What good looks like.** A **version** is a platform or file history instance —
+the software creates it. A **revision** is a **controlled issue identifier**,
+applied where project convention requires one — a person applies it as part of a
+managed issue. The BEP's line: *"a new platform version creates none of the
+others."* Saving is not issuing.
+
+**Success criteria**
+
+- [ ] I distinguished **automatic** from **managed**.
+- [ ] I quoted or paraphrased *a new platform version creates none of the others*.
+- [ ] I did **not** invent a revision code to illustrate it.
+
+**Common failure.** "Version 3 is revision C." **You have just invented a
+revision convention** — and this project has none.
+
+---
+
+## Exercise 49 — Status, suitability, acceptance
+
+**Task.** Explain the difference between **status**, **suitability** and
+**acceptance**. Forty-five seconds.
+
+**Why this exercise.** Three words used interchangeably in most project
+conversations, and the gap between the second and third is where reliance goes
+wrong.
+
+**What good looks like.** **Status** is a workflow or decision **condition**.
+**Suitability** states **what the information may be used for**. **Acceptance** is
+a **recipient's decision and status** against a stated purpose — and on this
+project, acceptance authority is **unresolved**. Status does not equal
+suitability; suitability does not equal acceptance.
+
+**Success criteria**
+
+- [ ] Three distinct definitions.
+- [ ] I said **suitability is not acceptance**.
+- [ ] I noted acceptance authority is unresolved.
+- [ ] I did not use a code to explain any of them.
+
+**Common failure.** Explaining suitability by reciting a code set. **There is no
+approved code set on this project**, and reciting one from elsewhere adopts it.
+
+---
+
+## Exercise 50 — "What naming convention should we use?"
+
+**Task.** Answer the question **without inventing a convention**. Sixty seconds.
+
+**Why this exercise.** It will be asked, it will be asked sincerely, and the
+helpful answer is the wrong one.
+
+**What good looks like.** The project **Naming Standard does not yet exist** —
+`standards/naming/` is empty. The BEP creates **no field order, no separator set
+and no permitted-value list**, and **imposes no ISO 19650 filename pattern**. What
+it does state is what naming must achieve: **unambiguous identity**; origin,
+discipline and task-team context; information type; consistency for retrieval and
+traceability; and identity that survives the container being **moved, copied or
+exchanged** — because **platform folder placement alone is not identification**.
+Adopting a syntax is a governance decision.
+
+**Success criteria**
+
+- [ ] I gave the **principles** and withheld the **syntax**.
+- [ ] I said the Naming Standard does not yet exist.
+- [ ] I said folder placement is not identification.
+- [ ] **I offered no example filename of any kind.**
+
+**Common failure.** "Well, something like Project-Discipline-Type-Number." **You
+have just written the project's naming standard from the front of a room**, and
+somebody in the audience wrote it down.
+
+---
+
+## Exercise 51 — Why no ISO 19650 filename pattern is imposed
+
+**Task.** Explain why the BEP declines to impose an ISO 19650 filename pattern,
+**without implying the project rejects ISO 19650**. Forty-five seconds.
+
+**Why this exercise.** Declining to impose is not the same as declining to adopt,
+and the distinction is easy to fumble into a conformity claim in either direction.
+
+**What good looks like.** The BEP states that **no ISO 19650 filename pattern is
+imposed** — it creates no syntax at all, from any source. Adopting one is
+available to the project; it simply has to be **adopted by whoever holds that
+decision, and recorded**. Not assumed because it is the familiar pattern, and not
+excluded either. The document is silent by design, not opposed.
+
+**Success criteria**
+
+- [ ] I said no pattern is **imposed**.
+- [ ] I did **not** say ISO 19650 is rejected, unsuitable or inapplicable.
+- [ ] I did **not** say Harrismith conforms to, or fails to conform to, ISO 19650.
+- [ ] I said adoption is a governance decision.
+
+**Common failure.** Sliding into either "we don't use ISO here" or "we follow ISO
+naming anyway". **Both are conformity claims**, and neither is supported.
+
+---
+
+## Exercise 52 — Software-native metadata is not the project standard
+
+**Task.** Respond to *"the software already has all these fields — isn't that our
+metadata?"* Forty-five seconds.
+
+**Why this exercise.** The tool's field list is concrete and present; the
+governance requirement is abstract and absent. The concrete one wins unless you
+say otherwise.
+
+**What good looks like.** The BEP's position is direct: **software-native
+metadata is not the project standard**, and the project's metadata requirements
+are **defined by governance, not inherited from whatever fields a tool happens to
+provide**. Those fields may well end up carrying the metadata — they do not get to
+define it. And **no classification system is adopted**: Uniclass, OmniClass,
+MasterFormat all remain unadopted.
+
+**Success criteria**
+
+- [ ] I quoted or paraphrased **defined by governance, not inherited**.
+- [ ] I allowed that the tool may **carry** it.
+- [ ] I said **no classification system is adopted**.
+- [ ] I named no field and specified no schema.
+
+**Common failure.** Listing the software's fields approvingly. **That adopts a
+schema by demonstration.**
+
+---
+
+## Exercise 53 — A correct name proves nothing about state
+
+**Task.** Explain why a correctly named file in the correct folder still tells you
+nothing about its information state. Thirty seconds.
+
+**Why this exercise.** It closes the loop between Slide 12 and Slide 1, and it is
+the property-level version of the module's central error.
+
+**What good looks like.** A filename **identifies** a container; it does not
+declare its state and does not authorise anything. Folder placement does not
+determine state either. A correct name and a correct location can both be true of
+information that **nobody authorised anyone to rely on**. A code does not prove
+that the process behind it occurred.
+
+**Success criteria**
+
+- [ ] I said naming **identifies** and does not **authorise**.
+- [ ] I linked it back to folder placement.
+- [ ] I said a code does not prove the process ran.
+
+**Common failure.** Answering only about naming. **The point is that both
+mechanisms fail in the same way**, and saying both is what makes it land.
+
+---
+
+## Exercise 54 — The four empty boxes, in thirty seconds
+
+**Task.** Explain the four `not established` boxes on Slide 12 — **what they are,
+and why they are shown rather than omitted**. Thirty seconds.
+
+**Why this exercise.** A presenter who apologises for the empty boxes has
+misunderstood them; a presenter who skips them has removed the slide's point.
+
+**What good looks like.** Naming standard, revision convention, suitability code
+set and metadata schema — **all four not established**, all four `standards/`
+directories empty. They are **shown** because omitting them would imply no
+decision is needed, and **empty** because filling them would invent four
+standards at once. This is a decision still to be made, stated as a decision still
+to be made.
+
+**Success criteria**
+
+- [ ] All four named.
+- [ ] I gave the reason for **showing** them.
+- [ ] I gave the reason for leaving them **empty**.
+- [ ] I did not apologise for them or promise a date.
+
+**Common failure.** "We're still working on those." **You do not know that**, and
+it converts an unmade decision into work in progress.
+
+---
+
+## Exercise 55 — The direction of authority, in one sentence
+
+**Task.** State the direction — decision to evidence — in **one sentence**, then
+state what does **not** flow backwards. Thirty seconds total.
+
+**Why this exercise.** Slide 13 has one minute. A presenter who cannot say this in
+one sentence will take three.
+
+**What good looks like.** *Governance decides, the process records the decision,
+configuration implements it, and evidence shows the two agree.* And backwards: **a
+platform setting creates no governance authority.**
+
+**Success criteria**
+
+- [ ] Four stages, one sentence.
+- [ ] The reverse stated explicitly as **refused**.
+- [ ] Under thirty seconds.
+
+**Common failure.** Giving only the forward chain. **A one-directional statement
+is one somebody can read in either direction**, which is why the visual shows the
+refusal.
+
+---
+
+## Exercise 56 — Deviation versus non-conformance
+
+**Task.** Define both, using the BEP's distinguishing criterion. Thirty seconds.
+
+**Why this exercise.** These are defined terms in this project, not synonyms for
+"mistake", and using them loosely undoes their usefulness.
+
+**What good looks like.** A **deviation** is a **knowingly permitted** departure.
+A **non-conformance** is an **unintended** one. *"The difference is intent and
+authorisation, not severity."* A deviation can be serious; a non-conformance can
+be trivial. The distinction is not about how bad it is.
+
+**Success criteria**
+
+- [ ] Both defined.
+- [ ] I said the criterion is **intent and authorisation**.
+- [ ] I said explicitly that it is **not severity**.
+
+**Common failure.** Presenting deviation as the mild one and non-conformance as
+the serious one. **That is precisely the reading the BEP rules out.**
+
+---
+
+## Exercise 57 — "We configured it before the document existed"
+
+**Task.** Respond, without either excusing it or treating it as a scandal. Sixty
+seconds.
+
+**Why this exercise.** It is the most common real situation in the room, and both
+easy answers are wrong.
+
+**What good looks like.** That is a **deviation** — a defined term, not an insult.
+The BEP's sentence is **a configuration that was never approved is a deviation,
+however competently it was applied**: competence is not the test, authorisation
+is. What the BEP does not allow is the third option, pretending the sequence
+happened correctly. **Record it**, then decide whether to approve it or correct
+it. And keep document, process and configuration aligned afterwards — a change
+applied to one and not the others produces **a governance system that describes
+something the project is not doing**.
+
+**Success criteria**
+
+- [ ] I named it a **deviation**, using the defined sense.
+- [ ] I quoted or paraphrased **however competently it was applied**.
+- [ ] I gave the action: **record, then approve or correct**.
+- [ ] I did not moralise, and I did not wave it through.
+
+**Common failure.** "That's fine, everyone does that." **It may well be common,
+and it is still a departure that has to be recorded** — that is the entire point
+of having the word.
+
+---
+
+## Exercise 58 — What CDE Administration may and may not do
+
+**Task.** Give both columns. Forty-five seconds.
+
+**Why this exercise.** The role is the one most often mistaken for an authority,
+and the BEP addresses it explicitly.
+
+**What good looks like.** **May**: configure folders, spaces, roles, permissions
+and platform workflow **where authorised**; implement approved changes; check
+configuration after an approved change. **Does not**: determine the
+information-state model; assign publication authority; assign acceptance
+authority; approve technical design. The governing sentences: **CDE
+Administration implements governance; it does not create it**, and administrative
+rights confer **the technical ability to change it and nothing more**. **Platform
+permission is not BEP authority.** And the **holder is TBD**.
+
+**Success criteria**
+
+- [ ] Both columns, roughly equal weight.
+- [ ] I said **implements, does not create**.
+- [ ] I said **technical ability and nothing more**.
+- [ ] I said the holder is **TBD** and named nobody.
+
+**Common failure.** Delivering the *may* column at length and the *does not*
+column as an afterthought. **The exclusions are the teaching.**
+
+---
+
+## Exercise 59 — Refuse an offered name
+
+**Task.** Someone in the room says *"surely the BIM Manager holds publication
+authority."* Respond in thirty seconds.
+
+**Why this exercise.** Repeated in spirit from Exercise 23, now with Slide 13's
+configuration boundary behind it. **The second answer should be faster and
+firmer.**
+
+**What good looks like.** No — and the BEP names four roles that do **not** hold
+it by default: the **BIM Manager**, the **BIM Coordinator**, the **CDE
+Administrator** and the **Architect**. It is recorded as **unresolved**, pending
+an approved delivery arrangement that does not yet exist. Being able to perform
+the action is not holding the authority. It stays TBD rather than being defaulted
+to whichever role is nearest.
+
+**Success criteria**
+
+- [ ] I declined, immediately.
+- [ ] I named the **four excluded roles**.
+- [ ] I did **not** offer a fifth candidate.
+- [ ] Thirty seconds — a long answer here sounds like negotiation.
+
+**Common failure.** "Probably, but it's not confirmed." **That confirms it in the
+room**, whatever the qualifier says.
+
+---
+
+## Exercise 60 — The five question groups, from memory
+
+**Task.** Name Slide 14's five decision areas **in order**, with one question from
+each. Sixty seconds.
+
+**Why this exercise.** The order is the argument — purpose before states, states
+before transitions, configuration last. A presenter who reorders them teaches
+configuration-first.
+
+**What good looks like.** **1 — CDE purpose and scope.** **2 — Information states
+and permitted use.** **3 — Transitions, gates and authority.** **4 — Naming,
+revision, suitability and metadata.** **5 — Platform configuration and
+implementation evidence.** One question from each, each ending in a question mark.
+
+**Success criteria**
+
+- [ ] Five areas, correct order.
+- [ ] One question from each, **phrased as a question**.
+- [ ] Configuration last.
+- [ ] **No answers offered.**
+
+**Common failure.** Starting with the platform, because that is where real
+projects start. **The slide's order is the correction.**
+
+---
+
+## Exercise 61 — The two questions you will not answer
+
+**Task.** Deliver the two compulsory authority questions and **stop**. Twenty
+seconds, including the silence.
+
+**Why this exercise.** The instinct to fill the pause after an unanswered question
+is very strong, and filling it is how an unassigned authority becomes an assumed
+one.
+
+**What good looks like.** *"Who holds publication authority? Who holds acceptance
+authority?"* — asked plainly, left open, and followed by moving on to the next
+group. If pressed: both are **unresolved** on Harrismith, and they are the two a
+new project assumes into existence in week one.
+
+**Success criteria**
+
+- [ ] Both asked **verbatim**.
+- [ ] **Neither answered**, hinted at, or paired with a candidate.
+- [ ] I did not fill the pause with "which is usually the…".
+- [ ] I moved on cleanly.
+
+**Common failure.** Answering the second one because the silence after the first
+was uncomfortable. **The silence is the exercise.**
+
+---
+
+## Exercise 62 — Deliver Slide 12 to time
+
+**Task.** Deliver Slide 12 alone. **Target: 1.5 minutes. Measure it.**
+
+**Why this exercise.** Slide 12 carries a whole section on its own and invites a
+coding-standards discussion it cannot hold.
+
+**What good looks like.** Six properties with their questions, the key
+distinctions, the four empty boxes, and the governance-not-inherited line. **No
+example code anywhere.** If a naming question arrives, answer it in one sentence
+and move.
+
+**Success criteria**
+
+- [ ] **1.5 minutes ± 10 seconds**, measured.
+- [ ] All six properties, each with its control question.
+- [ ] All four `not established` fields shown and named.
+- [ ] **No filename, revision, suitability, status or metadata example given.**
+- [ ] I said a code does not prove the process occurred.
+
+**Common failure.** Running to three minutes because someone asked about naming.
+**That question belongs after the session**, and Slide 14 asks it properly.
+
+---
+
+## Exercise 63 — Deliver Slides 13–14 to time
+
+**Task.** Deliver Section E end to end. **Target: 3.0 minutes — 1.0 and 2.0.
+Measure both.**
+
+**Why this exercise.** Slide 13 is the only one-minute slide in the module, and it
+steals from Slide 14 if allowed to.
+
+**What good looks like.** Slide 13: the chain, the refused reverse, the
+never-approved-configuration sentence, three callbacks, stop. Slide 14: five
+question groups, the two authority questions in the open, the closing message,
+the end state.
+
+**Success criteria**
+
+- [ ] **Slide 13 at 1.0 minute ± 10 seconds.**
+- [ ] **Slide 14 at 2.0 minutes ± 15 seconds.**
+- [ ] I did not re-argue Slides 1, 8 or 10 on Slide 13.
+- [ ] Every Slide 14 item was a **question**.
+- [ ] **No Triviron fact was stated.**
+- [ ] The end state was delivered as written, with no date and no owner.
+
+**Common failure.** Slide 13 running to two minutes because the callbacks turned
+into recaps. **Three lines, named, not re-argued.**
+
+---
+
+## Exercise 64 — Deliver the whole module to time
+
+**Task.** Deliver Slides 1–14 end to end. **Target: 20.0 minutes. Measure it.**
+
+**Why this exercise.** This is the module's only full-length run, and **no timing
+in this repository has ever been measured**. Every figure in the outline is an
+allocation until this exercise is done.
+
+**What good looks like.** Section A 3.0, Section B 6.5, Section C 6.0, Section D
+1.5, Section E 3.0. Where you lose time, you lose it in Section B and Slide 9;
+where you recover it, recover from Slide 4 or Slide 13. **Slide 11 and Slide 14
+are not recovery slides.**
+
+**Success criteria**
+
+- [ ] **20.0 minutes ± 60 seconds**, measured end to end.
+- [ ] Per-section times recorded against the allocation, so the outline can be
+      corrected if it is wrong.
+- [ ] No state, transition, authority, code or Triviron fact was invented at any
+      point.
+- [ ] Every blocked, empty or unresolved element was **shown as such**.
+- [ ] I said nothing that asserted live implementation.
+
+**Common failure.** Treating the allocation as a measurement. **It is not one, and
+it will not become one until this exercise has been run at least twice.**
+
+---
+
+## Exercise 65 — The closing, and stopping
+
+**Task.** Deliver the module's closing, then **stop**. Thirty seconds.
+
+**Why this exercise.** The end of a twenty-minute module invites a summary of the
+programme, a preview of Module 5 and a reassurance that Harrismith is nearly
+finished. All three are additions, and the third is untrue.
+
+**What good looks like.** Four states, two of them currently unreachable. Eight
+controlled steps, two of which change information state. Four coding standards
+everyone assumes exist, which do not. **The CDE is the process; the folders are
+where it shows up.** Then stop.
+
+**Success criteria**
+
+- [ ] The closing delivered in **one breath's worth of content**.
+- [ ] **No Module 5 preview.**
+- [ ] **No programme summary.**
+- [ ] **No claim that Harrismith is nearly complete, live, issued or conformant.**
+- [ ] I stopped talking.
+
+**Common failure.** "And next time we'll look at…" **Module 5's scope is not
+yours to announce here**, and the closing loses its edge the moment it becomes an
+agenda item.
+
+---
+
+## Exercise 66 — The invention self-audit
+
+**Task.** After any delivery of Slides 12–14, audit yourself against the four
+invention classes. Sixty seconds, written.
+
+**Why this exercise.** This is Exercise 13's discipline applied to the two slides
+where invention is most tempting and least visible — because an invented naming
+convention and an invented Triviron fact both sound like helpfulness.
+
+**What good looks like.** Four questions, answered honestly. **Did I state a
+name, code, convention or schema?** **Did I state a Triviron fact — jurisdiction,
+platform, structure, role, date?** **Did I answer either authority question, or
+hint at an answer?** **Did I claim any control is operating, or that Harrismith
+conforms to anything?** Any yes is a correction to make before the next delivery,
+not a thing to explain away.
+
+**Success criteria**
+
+- [ ] All four asked, in writing.
+- [ ] Any yes recorded with the exact wording used.
+- [ ] The correction made in the notes, not just noted mentally.
+- [ ] I did not count "I only said it as an example" as a no.
+
+**Common failure.** Auditing the slides instead of the delivery. **The slides are
+already controlled; the risk is in what gets said around them.**
+
+---
+
 ## Scope note
 
-**Forty-six exercises, covering the Slides 1–11 baseline.**
+**Sixty-six exercises, covering the complete Slides 1–14 baseline.**
 
 | Set | Exercises | Covers |
 |---|---|---|
 | Foundation | 1–14 | Slides 1–3, and the questions that arrive with a state diagram |
 | Section B | 15–29 | Slides 4–7 — the four states |
 | Section C | 30–46 | Slides 8–11 — the transition workflow |
+| Sections D and E | 47–66 | Slides 12–14 — properties, governance direction, the questions |
 
-**Three exercises are deliberate repeats** — 41 revisits 22, and 45 revisits 24,
-now with the transition classification behind them. **The second answer should be
-sharper, not longer.**
+**Five exercises are deliberate repeats** — 41 revisits 22, 45 revisits 24, 53
+revisits the Slide 1 folder error at property level, and 59 revisits 23 with the
+configuration boundary behind it. **The second answer should be sharper, not
+longer.**
 
-**Exercise 13 is done after every one of the other forty-five.** If you cannot
-say whether a statement is controlled, proposed or unresolved, do not say it.
+**Five are timed delivery runs** — 14 (Slides 1–3), 29 (Slides 4–7), 46 (Slides
+8–11), 62 (Slide 12) and 63 (Slides 13–14) — **and Exercise 64 runs all fourteen
+slides end to end.** Until 64 has been run, **every timing in this module is an
+allocation, not a measurement.**
 
-Exercises for Slides 12–14 are a later increment.
+**Exercise 13 is done after every one of the other sixty-five.** If you cannot say
+whether a statement is controlled, proposed or unresolved, do not say it.
+**Exercise 66 is done after every delivery of Slides 12–14**, for the same reason
+in the two places the discipline is hardest to hold.

@@ -1,7 +1,8 @@
 # Module 4 — CDE Workflows and Information States
 
-**Status:** Active module. Structure, source inventory and **Slides 1–11**
-baseline. **Not governance, and not a complete module.**
+**Status:** Active module. Structure, source inventory and the **complete
+Slides 1–14 teaching-content baseline**. **Not governance, and not a complete
+module** — no visual source set, no assembly package, no deck.
 
 ---
 
@@ -88,18 +89,18 @@ A **20-minute presentation**, using Harrismith as the worked example.
 | Slide count | 14 |
 | Worked example | Harrismith Fire Station |
 | Transfer context | A future Triviron multidisciplinary project |
-| Current state | **Structure, source inventory and Slides 1–11 baseline.** Module not complete |
+| Current state | **Teaching-content baseline complete — Slides 1–14.** Module not complete |
 
-**This presentation does not exist yet.** What exists after T4-A, T4-B and T4-C:
+**This presentation does not exist yet.** What exists after T4-A to T4-D:
 
 | Established | Outstanding |
 |---|---|
-| Module structure (T4-A) | **Slides 12–14** |
-| **Source inventory** — exact paths, precedence, registers (T4-A) | Visual source set |
+| Module structure (T4-A) | **Visual source set** — `teaching/assets/module-04/` |
+| **Source inventory** — exact paths, precedence, registers (T4-A) | **Visual specifications `W1`, `W2`, `W3`** |
 | Terminology register, with variance recorded (T4-A) | Assembly package |
 | **Transition register** — all eight steps verified (T4-A) | PowerPoint |
 | Implementation-status register (T4-A) | Review |
-| 20-minute, fourteen-slide architecture (T4-A) | Rehearsal and measured timing |
+| 20-minute, fourteen-slide architecture (T4-A) | **Rehearsal and measured timing** |
 | **Slides 1–3** (T4-A) | |
 | **Slides 4–7 — Section B, the four states** (T4-B) | |
 | **State register** — every state's wording, boundaries and status (T4-B) | |
@@ -107,6 +108,11 @@ A **20-minute presentation**, using Harrismith as the worked example.
 | **Slides 8–11 — Section C, the transition workflow** (T4-C) | |
 | **Expanded transition register** — seventeen fields, `T1`–`T8` (T4-C) | |
 | Visual specifications `W8`–`W11` (T4-C) | |
+| **Slides 12–14 — Sections D and E** (T4-D) | |
+| **Property register and configuration-decision register** (T4-D) | |
+| **Module-wide unresolved register — eighteen entries** (T4-D) | |
+| **Module-wide final reconciliation** (T4-D) | |
+| Visual specifications `W12`–`W14` (T4-D) | |
 
 ## 5. What makes this module different
 
@@ -213,7 +219,7 @@ exactly where Module 3's Slide 10 stopped.**
 
 ## 10. Honesty constraints on delivery
 
-Four things must be said, or the module misrepresents its example:
+Five things must be said, or the module misrepresents its example:
 
 1. **This workflow is proposed, not operating.** `S2` classifies itself
    `PROPOSED GOVERNANCE` and states it does not describe the live platform.
@@ -224,7 +230,12 @@ Four things must be said, or the module misrepresents its example:
    is a **conceptual state and a retention requirement**; the retention approach
    is **TBD**.
 4. **No naming standard, coordinates standard, metadata schema or suitability
-   code set exists.** All four `standards/` directories are empty.
+   code set exists.** All four `standards/` directories are empty, and `S1` §11.3
+   states that the Naming Standard *"does not yet exist"* and that **no ISO 19650
+   filename pattern is imposed**.
+5. **No Triviron project fact is held.** Slide 14 asks questions and answers
+   none — including **who holds publication authority** and **who holds
+   acceptance authority**, both of which are unresolved on Harrismith.
 
 **And the counterweight, which matters as much:** a framework that records what
 it has not resolved, and stops a route it cannot authorise, is **working
@@ -236,29 +247,33 @@ being filled with a plausible value."*
 | File | Holds |
 |---|---|
 | [`source-inventory.md`](source-inventory.md) | **Exact source paths**, precedence, source-authority register, terminology register and variance, folder topology, **transition register**, implementation-status register, unresolved matters |
-| [`presentation-outline.md`](presentation-outline.md) | The 20-minute structure and Slides 1–3 |
-| [`speaker-notes.md`](speaker-notes.md) | Delivery notes for Slides 1–3 |
-| [`visual-demonstration-plan.md`](visual-demonstration-plan.md) | Candidate visuals for all fourteen slides |
-| [`exercises.md`](exercises.md) | Practice and self-assessment |
-| [`source-map.md`](source-map.md) | Statement classification, the four registers and the **prohibited-claims list** |
+| [`presentation-outline.md`](presentation-outline.md) | The 20-minute structure and **Slides 1–14** |
+| [`speaker-notes.md`](speaker-notes.md) | Delivery notes for **Slides 1–14** |
+| [`visual-demonstration-plan.md`](visual-demonstration-plan.md) | Candidate visuals for all fourteen slides; **`W4`–`W14` specified in full** |
+| [`exercises.md`](exercises.md) | **Sixty-six** practice and self-assessment exercises |
+| [`source-map.md`](source-map.md) | Statement classification, the **seven registers**, the **module-wide final reconciliation** and the **prohibited-claims list** |
 
-[`source-inventory.md`](source-inventory.md) is the load-bearing file in this
-increment. It records what each source actually says, where the sources differ,
-and what remains unresolved.
+[`source-inventory.md`](source-inventory.md) records what each source actually
+says, where the sources differ, and what remains unresolved.
+[`source-map.md`](source-map.md) §11 reconciles the completed module against
+itself.
 
 ## 12. Status
 
 | Field | Value |
 |---|---|
-| Module 4 | **CURRENT — ACTIVE**, not complete |
+| Module 4 | **CURRENT — ACTIVE.** Content baseline complete; module not complete |
 | Structure | **Established (T4-A)** |
 | Source inventory | **Complete (T4-A)** |
-| Statements classified | **189** across Slides 1–11 — [`source-map.md`](source-map.md) §5 |
-| Registers | **5** — source authority · **state** · terminology · transition · unresolved |
-| Prohibited claims | **75** — [`source-map.md`](source-map.md) §9, §9.1–§9.3 |
-| Visual specifications | **`W4`–`W11` complete**; `W1`, `W2`, `W3`, `W12`, `W13`, `W14` remain candidates |
-| Slides developed | **1–11** — Sections A (T4-A), B (T4-B) and C (T4-C) |
-| Slides outstanding | **12–14** |
+| **Teaching-content baseline** | **COMPLETE (T4-D)** — Slides 1–14 |
+| Statements classified | **244** across Slides 1–14 — [`source-map.md`](source-map.md) §5 |
+| Registers | **7** — source authority · state · **property** · **configuration-decision** · terminology · transition · **module-wide unresolved** |
+| Prohibited claims | **98** — [`source-map.md`](source-map.md) §9, §9.1–§9.4 |
+| Exercises | **66**, in four sets |
+| Module-wide final reconciliation | **[`source-map.md`](source-map.md) §11 (T4-D)** |
+| Visual specifications | **`W4`–`W14` complete**; `W1`, `W2` and `W3` remain candidates |
+| Slides developed | **1–14** — Sections A (T4-A), B (T4-B), C (T4-C), D and E (T4-D) |
+| Slides outstanding | **None** |
 | Visual source | **None** |
 | Assembly package | **None** |
 | PowerPoint | **None** |

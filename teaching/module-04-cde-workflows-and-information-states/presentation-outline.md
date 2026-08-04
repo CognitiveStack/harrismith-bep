@@ -1,9 +1,9 @@
 # Module 4 — Presentation Outline
 
-**Status:** Working outline. **Slides 1–11 developed; Slides 12–14 are titles,
-purposes and time allocations only.** This is **not a final presentation**: no
-visual source exists, no deck has been assembled, and the timing below is an
-allocation that has never been measured.
+**Status:** Working outline. **Slides 1–14 developed — the Module 4 teaching-content
+baseline is complete.** This is **not a final presentation**: no visual source
+exists, no deck has been assembled, and the timing below is an allocation that
+has never been measured.
 
 Source identifiers `S1`–`S14` are defined in
 [`source-inventory.md`](source-inventory.md). Classification is in
@@ -37,10 +37,10 @@ Source identifiers `S1`–`S14` are defined in
 | 9 | The eight controlled steps — and the two that change state | 1.5 | ✅ |
 | 10 | Gates, authority and evidence | 1.5 | ✅ |
 | 11 | **Why `Shared → Published` is blocked** | 1.5 | ✅ |
-| 12 | Naming, revision, suitability and metadata support control | 1.5 | ⬜ |
-| 13 | Governance first; permissions and configuration follow | 1.0 | ⬜ |
-| 14 | What Triviron must define before configuring its CDE | 2.0 | ⬜ |
-| | **Total** | **20.0** | **11 of 14** |
+| 12 | Naming, revision, suitability and metadata support control | 1.5 | ✅ |
+| 13 | Governance first; permissions and configuration follow | 1.0 | ✅ |
+| 14 | What Triviron must define before configuring its CDE | 2.0 | ✅ |
+| | **Total** | **20.0** | **14 of 14** |
 
 ### Refinements to the proposed sequence
 
@@ -707,6 +707,8 @@ one is blocked; one is unresolved. **None is demonstrated as operating.**
 
 ---
 
+## 6. Developed slides — the transition workflow
+
 ### Slide 8 — A transition is more than moving a file · 1.5 min
 
 **Purpose of the slide**
@@ -1068,19 +1070,292 @@ Field structure, row construction and appointment-level planning stay deferred.
 
 ---
 
-## 8. Slides 12–14 — scope reserved, not developed
+## 8. Developed slides — properties, governance direction and the Triviron questions
 
-**Titles, purposes and time allocations only.** No content, no message, no source
-classification.
+### Slide 12 — Naming, revision, suitability and metadata support control · 1.5 min
 
-| Slide | Purpose held for it | Principal expected sources |
+**Purpose of the slide**
+
+Show how container properties support **identification, permitted use,
+traceability and transition evidence** — without inventing a single project code
+or schema.
+
+**Six properties, six control questions**
+
+| Property | The control question | Controlled wording |
 |---|---|---|
-| 12 | The five properties and metadata as controls — **concept only** | `S1` §6.8, §11.3, §11.4; `S2` §13; `S12` |
-| 13 | Decision precedes configuration | `S2` §17; `S1` §12.1; **`CGD-C07`** |
-| 14 | What Triviron must define before configuring | **No Triviron source exists** — questions only |
+| **Name / identifier** | **Which container is this?** | *"Information containers require unambiguous identity"* — `S1` §11.3 |
+| **Version** | **Which stored platform occurrence is this?** | *"A platform or file history instance"* — `S1` §6.8 |
+| **Revision** | **Which managed issue applies?** | *"A controlled issue identifier, **where project convention requires one**"* — `S1` §6.8 |
+| **Status** | **What condition is declared?** | *"A workflow or decision condition"* — `S1` §6.8 |
+| **Suitability** | **For what purpose may it be relied upon?** | *"What the information may be used for"* — `S1` §6.8 |
+| **Metadata** | **Which structured attributes support control?** | Should support *"identity; filtering and search; responsibility; state and status; delivery purpose; interoperability where required"* — `S1` §11.4 |
 
-**Two standing constraints on their development:**
+**Harrismith project wording throughout. Not ISO definitions** — `M4-S12-02`.
 
-- **Slide 12 stays at concept level.** **No coding standard exists to teach** —
-  all four `standards/` directories are empty.
-- **Slide 14 invents no Triviron fact.** Questions only.
+**Eight distinctions**
+
+| # | | Source |
+|---|---|---|
+| 1 | **A filename may identify a container but does not prove its state** | `S1` §11.3; **`CGD-C01`** |
+| 2 | **A platform version does not automatically create a revision** | `S1` §6.8 — *"a new platform version creates none of the others"* |
+| 3 | **A revision does not authorise a transition** | `S1` §6.8; `S2` §3 |
+| 4 | **Status does not equal suitability** | `S1` §6.8 |
+| 5 | **Suitability does not equal acceptance** | `S2` §3 — acceptance is a recipient decision and status |
+| 6 | **Metadata supports governance; it does not create authority** | `S1` §11.4, §6.9 |
+| 7 | **A code does not prove the process behind it occurred** | **`CGD-C03`**; `S1` §9.11 |
+| 8 | Several properties may change together **and remain distinct** | `S1` §6.8 |
+
+**The mandatory empty fields — four, and they appear**
+
+> ### Naming standard: **not established**
+> ### Revision convention: **not established**
+> ### Suitability code set: **not established**
+> ### Metadata schema: **not established**
+
+**All four `standards/` directories contain only `.gitkeep`.** `S1` §11.3: the
+project **Naming Standard** *"does not yet exist"*; **"No final naming syntax is
+created here"** — no field order, no separator set, no permitted-value list — and
+**"no ISO 19650 filename pattern is imposed."** `S1` §11.4: **"No classification
+system is adopted"**, and *"software-native metadata is not the project
+standard."*
+
+**Omitting these fields would imply no decision is needed. They are shown, and
+they are empty.**
+
+**No invented example, and none is needed**
+
+| Prohibited | |
+|---|---|
+| An ISO 19650 filename | A South African filename |
+| A revision code | A suitability code |
+| A status code | A metadata field set |
+| A model-container name | **Any fire-station example code** |
+
+**A conceptual placeholder such as `[identifier]` is permitted only if labelled
+illustrative.** **Prefer no coded example at all** — one invented code teaches a
+standard this project has explicitly declined to create.
+
+**What the properties contribute to transition evidence**
+
+Identity · originator · version history · checked condition · declared permitted
+use · transition record · traceability.
+
+*(**Supported interpretation**, built from `S1` §9.11's evidence list and `S2`
+§3.3. **Metadata alone proves no authorisation** — `M4-S12-16`.)*
+
+**And the principle behind the whole slide**, `S1` §11.4:
+
+> *"The project's metadata requirements are **defined by governance**, not
+> inherited from whatever fields a tool happens to provide."*
+
+**Required message**
+
+> Naming and metadata support control by identifying information and its
+> permitted use — but the code never replaces the governance decision.
+
+*(**Teaching synthesis**, consistent with `S1` §11.3, §11.4 and `CGD-C03` —
+`M4-S12-19`.)*
+
+### Slide 13 — Governance first; permissions and configuration follow · 1.0 min
+
+**Purpose of the slide**
+
+A **one-minute synthesis** of the direction of authority. **Not a repeat of
+Slide 1.**
+
+**The model — one principal arrow**
+
+```text
+Governance decision
+  → process rule
+  → permission or platform configuration
+  → implementation evidence
+```
+
+**And the reverse, visibly refused:**
+
+```text
+Platform setting   ✕→   governance authority
+```
+
+**Eight points**
+
+| # | | Source |
+|---|---|---|
+| 1 | **The responsible governance function decides** | `S1` §12.1, §12.7 |
+| 2 | **The approved process records the decision** | `S1` §12.8 |
+| 3 | **CDE Administration implements the approved configuration** | `S1` §5.9 |
+| 4 | Platform permissions **support** the decision | `S1` §6.9; `S2` §14 |
+| 5 | **Access rights do not create professional or governance authority** | `S1` §5.9, §6.9 |
+| 6 | **Configuring first and documenting later creates a deviation** — *"a configuration that was never approved is a deviation, however competently it was applied"* | **`S1` §5.9** |
+| 7 | **A configuration is not complete because a setting was clicked** | `S1` §12.9 |
+| 8 | **Evidence must show that governance and platform implementation agree** | `S1` §12.8; `S2` §6 |
+
+**Point 6 is the sourced sentence to say aloud.** It converts a habit into a
+recorded governance condition — and `S1` §12.6 supplies the vocabulary:
+**deviation** is a *knowingly permitted* departure; **non-conformance** is an
+*unintended* one. *"The difference is intent and authorisation, not severity."*
+
+**And point 8's consequence**, `S1` §12.8:
+
+> **Document, process and platform configuration must remain aligned.** A change
+> applied to one and not the others produces a governance system that describes
+> something the project is not doing — **the most common way controlled
+> documentation becomes ignored.**
+
+**The CDE Administration boundary**
+
+| CDE Administration **may** | CDE Administration **does not** |
+|---|---|
+| Configure folders, spaces, roles, permissions and platform workflow **where authorised** | **Determine the information-state model** |
+| Implement approved structural and configuration changes | **Assign publication authority** |
+| Check platform configuration after an approved change | **Assign acceptance authority** |
+| | **Approve technical design** |
+
+`S1` §5.9: *"Holding administrative rights over a folder, space or team confers
+**the technical ability to change it and nothing more**."* **Administrator rights
+do not substitute for an appointment**, and the **holder is TBD** — no name
+appears.
+
+**The callback — three lines, then move**
+
+```text
+Slide 1  — a CDE is a process, not a folder tree
+Slide 8  — a technical action is not a transition
+Slide 10 — authority and evidence are required
+```
+
+**Do not re-argue any of them.** This slide is the direction of travel, stated
+once.
+
+**Required message**
+
+> Configuration implements governance. It does not create it.
+
+*(**Controlled wording**, `S1` §5.9 — *"CDE Administration implements governance;
+it does not create it"* — condensed for the slide. `M4-S13-17`.)*
+
+### Slide 14 — What Triviron must define before configuring its CDE · 2.0 min
+
+**Purpose of the slide**
+
+Convert Module 4's lessons into the **decisions a future project must make before
+configuring a platform**.
+
+**The evidence boundary, stated first**
+
+**No Triviron project facts exist in the controlled evidence.** Nothing is
+asserted about jurisdiction, project type, client, asset, procurement route,
+appointments, CDE platform, folder structure, information states, naming
+convention, suitability codes, metadata, dates or live implementation. **The
+slide contains questions only.**
+
+#### 1 — CDE purpose and scope
+
+- What project information must the CDE govern?
+- Which teams and organisations participate?
+- Which information uses must be controlled?
+- Which project phases are included?
+- What evidence will demonstrate that the CDE process operates?
+
+#### 2 — Information states and permitted use
+
+- Which information states will the project adopt?
+- What is the purpose of each state?
+- Who may rely on information in each state?
+- Is each state conceptual, physical or both?
+- Which folder or platform relationship, if any, implements each state?
+- **How will the project prevent folder location from being mistaken for state?**
+
+#### 3 — Transitions, gates and authority
+
+- Which actions actually change information state?
+- Who initiates each transition?
+- Who checks the information?
+- Who authorises each transition?
+- **Who holds publication authority?**
+- **Who holds acceptance authority?**
+- What happens when an authority is unassigned?
+- Which transitions must remain blocked?
+
+#### 4 — Naming, revision, suitability and metadata
+
+- What naming standard applies?
+- What revision convention applies?
+- Which status and suitability codes are required?
+- What metadata schema is required?
+- Who assigns and checks each property?
+- **How will codes be distinguished from evidence of the underlying process?**
+
+#### 5 — Platform configuration and implementation evidence
+
+- Which platform will implement the approved governance?
+- Who may configure folders, permissions and roles?
+- How will configuration changes be authorised?
+- How will deviations be recorded?
+- How will the project verify that configuration matches governance?
+- What evidence will prove that transitions operate as approved?
+- Who may declare the CDE ready for project use?
+
+**The two compulsory questions**
+
+> ### Who holds publication authority?
+> ### Who holds acceptance authority?
+
+**Both appear verbatim, and neither is answered.** They are the two authorities
+Harrismith has recorded as **unresolved** — Slides 6 and 11 — and the two most
+likely to be assumed on a new project.
+
+**Required closing message**
+
+> Configure the platform only after the states, purposes, authorities, gates and
+> evidence requirements have been decided.
+
+*(**Teaching synthesis** — `M4-S14-13`.)*
+
+**The end state**
+
+> ### `CDE configuration basis — not yet established`
+
+**A neutral future position, not a failure warning.** It is the correct status
+for a project that has not made these decisions yet.
+
+---
+
+## 9. Module 4 — the complete content baseline
+
+**Slides 1–14. Exactly 20.0 minutes. Never measured.**
+
+| Section | Slides | Time | What it establishes |
+|---|---|---:|---|
+| **A** | 1, 2 | 3.0 | A CDE is a governed process; five properties are distinct |
+| **B** | 3–7 | 6.5 | Four states, four permitted reliances — two of them unreachable |
+| **C** | 8–11 | 6.0 | Movement is not transition; only `T1` and `T4` change state; `T1` unpacked; `T4` and `TRN-E03` blocked |
+| **D** | 12 | 1.5 | Properties support control; **four code sets unestablished** |
+| **E** | 13, 14 | 3.0 | Governance precedes configuration; the questions Triviron must answer |
+| | **14** | **20.0** | |
+
+**Three things the module says that no earlier module could.** The states have
+controlled definitions and **two of the four cannot be reached**. Only **two of
+eight** controlled steps change information state. And **four coding standards
+that everyone assumes exist, do not** — the concepts are governed, the codes are
+not.
+
+---
+
+## 10. Module boundary — what Module 4 does not do
+
+| Not here | Where it belongs |
+|---|---|
+| Responsibility-matrix construction; matrix-cell grammar; delivery-schedule construction; appointment-level delivery planning | **Module 5** |
+| Coordination cycles; clash triage; issue workflow; technical design review; assurance sampling; design approval | **Module 6** |
+| Triviron BEP development | Module 7 |
+| Workshop facilitation | Module 8 |
+| **Any naming standard, revision convention, suitability code set or metadata schema** | **No module — none exists** |
+| **Detailed platform configuration instructions** | **No module** — configuration follows a governance decision, project by project |
+
+**And two things no module will supply**, because they are decisions rather than
+knowledge: **the publication authority** and **the acceptance authority**. Both
+are recorded as unresolved, and Slide 14 asks who will hold them rather than
+suggesting anyone.

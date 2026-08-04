@@ -4,9 +4,13 @@
 source file and no rendered image asset exists.** Nothing here is a final asset,
 and creating assets is a later increment.
 
-**`W4`–`W7` (T4-B) and `W8`–`W11` (T4-C) are now specified in full** — the
-Section B state visuals and the Section C transition visuals. **`W1`, `W2`, `W3`,
-`W12`, `W13` and `W14`** remain candidates at the level established in T4-A.
+**`W4`–`W7` (T4-B), `W8`–`W11` (T4-C) and `W12`–`W14` (T4-D) are now specified in
+full** — the Section B state visuals, the Section C transition visuals and the
+Section D and E closing visuals. **`W1`, `W2` and `W3`** remain candidates at the
+level established in T4-A.
+
+**No visual in this module is Mermaid.** Every specified form is a layout
+specification, for the reason given in section 2 and restated in the summary.
 
 Source identifiers `S1`–`S14` are defined in
 [`source-inventory.md`](source-inventory.md). Classification follows
@@ -52,10 +56,13 @@ claims.**
 | Imply that states progress automatically | `W3`, `W9` |
 | **Hide evidence fields** | `W10` |
 | Convert a conceptual model into an operating workflow | `W3`, `W9`, `W11` |
-| Arrange non-sequential properties as a sequence | `W2` |
+| Arrange non-sequential properties as a sequence | `W2`, `W12` |
+| **Draw a refused edge as a real edge** | `W13` |
+| Balance a deliberately sparse question set with generated structure | `W14` |
 
 **A native-layout specification is preferable wherever deliberate incompleteness
-matters** — and in this module it matters on more visuals than not.
+matters** — and in this module it matters on more visuals than not. **The outcome
+of applying that test to all fourteen is that none of them is Mermaid.**
 
 ## 3. How to read this plan
 
@@ -694,71 +701,232 @@ small `TRN-E03` panel implies the delivery event is a detail of the transition.
 It is a separate object with four additional unresolved matters, and the visual
 should say so.
 
-### W12 — The metadata and property stack
+### W12 — The property stack and the four unestablished standards · **specified (T4-D)**
 
 | Field | Value |
 |---|---|
 | **Slide** | 12 |
-| **Teaching purpose** | Show the five properties plus metadata as **controls that support transition evidence** |
-| **Source basis** | `S1` §6.8, §11.3, §11.4; `S2` §13; `S12` |
+| **Teaching purpose** | Show the six properties as **six different control questions**, and that **four of the standards behind them do not exist** |
+| **Source basis** | **`S1` §6.8, §11.3, §11.4**; `S2` §13; `S12`; **`CGD-C01`, `CGD-C03`** |
 | **Classification** | `CONTROLLED` + `INTERP` |
-| **Governance status** | **Controlled** — the properties. **UNRESOLVED** — every code set and the schema |
-| **Implementation status** | **No schema established** |
-| **Simplify** | A container with its property fields, and **which fields are empty on this project** |
-| **Omit** | **Any coding standard. Any example code. Any metadata schema.** Module 5's suitability-in-delivery-planning |
-| **Overclaim risk** | **HIGH** — a populated property stack teaches a standard that does not exist |
-| **Blocked element visible?** | **YES** — the unestablished fields stay **visibly empty** |
+| **Governance status** | **`CONTROLLED GOVERNANCE`** — what each property must support. **`UNRESOLVED`** — every code set and the schema |
+| **Implementation status** | **No standard established.** All four `standards/` directories hold only `.gitkeep` |
+| **Simplify** | **Two zones.** Left: six property rows, each with its control question. Right: four boxes, all **empty** |
+| **Omit** | **Any coding standard. Any example code, filename, revision, suitability or status value. Any metadata field set. Any classification system.** Module 5's suitability-in-delivery-planning |
+| **Overclaim risk** | **HIGH** — a populated property stack teaches four standards that do not exist |
+| **Blocked element visible?** | **YES — four empty boxes, shown and unfilled** |
 | **Live evidence required?** | No |
 | **External imagery** | No |
 
-**Requirement.** **The empty fields are the slide.** Naming, revision
-convention, suitability code set and metadata schema are all **not established**;
-drawing them populated would invent four standards at once.
+**The fixed form:**
 
-### W13 — Responsibility before permission
+```text
+  PROPERTY              CONTROL QUESTION
+  ────────────────────  ──────────────────────────────────────────
+  Name / identifier     Which container is this?
+  Version               Which stored platform occurrence?
+  Revision              Which managed issue applies?
+  Status                What condition is declared?
+  Suitability           For what purpose may it be relied upon?
+  Metadata              Which structured attributes support control?
+
+  ───────────────────────────────────────────────────────────────
+
+  ON THIS PROJECT:
+
+  Naming standard        ┌──────────────────────┐   not established
+                         └──────────────────────┘
+  Revision convention    ┌──────────────────────┐   not established
+                         └──────────────────────┘
+  Suitability code set   ┌──────────────────────┐   not established
+                         └──────────────────────┘
+  Metadata schema        ┌──────────────────────┐   not established
+                         └──────────────────────┘
+
+           ▲ four positions, shown and empty — not omitted
+
+  A code identifies. It does not authorise, and it does not
+  prove the process behind it occurred.
+```
+
+**Nine mandatory design requirements.**
+
+1. **Six properties, six questions, one row each.** The question is the point;
+   a bare property list teaches nothing.
+2. **All four boxes appear, and all four are empty.** Omitting them implies no
+   decision is needed; filling any one invents a standard.
+3. **`not established` is the label on each.** Not *TBD in progress*, not *to
+   follow*, not a date.
+4. **No example code of any kind** — no ISO 19650 filename, no South African
+   filename, no revision, suitability or status value, no metadata field set, no
+   model-container name, **no fire-station example**.
+5. **A conceptual placeholder such as `[identifier]` is permitted only if
+   visibly labelled illustrative.** **Preferring none at all is the safer
+   choice.**
+6. **No classification system appears** — Uniclass, OmniClass and MasterFormat
+   are **unadopted** (`S1` §11.4) and naming one implies otherwise.
+7. **No software field list.** *"Software-native metadata is not the project
+   standard"*; a screenshot of a properties palette asserts the opposite.
+8. **The code-versus-authority line appears**, or the visual becomes a form
+   design exercise.
+9. **No tick, no red, no warning triangle** on the empty boxes. They are an
+   undecided decision, not a defect.
+
+**Design note.** Resist making the four boxes small. They are the argument of the
+slide, and a producer's instinct will be to shrink an empty element and grow a
+populated one — which inverts the teaching. **Give the empty zone at least equal
+area to the property list.**
+
+### W13 — Governance, then configuration · **specified (T4-D)**
 
 | Field | Value |
 |---|---|
 | **Slide** | 13 |
-| **Teaching purpose** | Show the order — **decision, then configuration** — and that reversing it is a deviation |
-| **Source basis** | `S2` §14, §17; `S1` §6.9, §12.1; **`CGD-C07`, `CGD-C08`** |
+| **Teaching purpose** | Show the **direction of authority** — decision, process, configuration, evidence — and that the reverse does not hold |
+| **Source basis** | **`S1` §5.9, §6.9, §12.1, §12.6, §12.8, §12.9**; `S2` §6, §14, §17; **`CGD-C07`, `CGD-C08`** |
 | **Classification** | `CONTROLLED` + `SUPPORTING` + `DECISION-RECORD` |
-| **Governance status** | **Controlled** |
-| **Implementation status** | **Unverified** |
-| **Simplify** | **One arrow, one direction**: approved responsibility → permission. Beneath it, the reverse **struck through** |
-| **Omit** | **Any permissions screenshot or table. Any named administrator.** Any org-chart shape |
-| **Overclaim risk** | MEDIUM — low content risk, but it reprises Slide 1 |
-| **Blocked element visible?** | No |
+| **Governance status** | **`CONTROLLED GOVERNANCE`** |
+| **Implementation status** | **`IMPLEMENTATION UNVERIFIED`** — `S2` §6 records alignment as a four-layer question |
+| **Simplify** | **One forward chain, one visibly refused reverse arrow, one may/does-not table** |
+| **Omit** | **Any permissions screenshot or table. Any named administrator. Any org-chart shape.** Module 6's verification method |
+| **Overclaim risk** | **MEDIUM-HIGH** — a forward-only chain can be read in either direction, and a permissions image makes configuration the concrete thing |
+| **Blocked element visible?** | **YES — the refused reverse arrow, and `Holder: TBD`** |
 | **Live evidence required?** | No |
-| **External imagery** | **No.** A permissions screenshot would prove the opposite point by making configuration the concrete thing |
+| **External imagery** | **No.** A permissions screenshot would prove the opposite point |
 
-**Requirement.** `S2` §14 on the slide: *"Access is configured to follow approved
-responsibility; responsibility comes first and permission follows it. Where
-access and approved responsibility diverge, the divergence is recorded as a
-**deviation**."*
+**The fixed form:**
 
-### W14 — Triviron CDE-definition questions
+```text
+  Governance      Process         Permission /       Implementation
+  decision   ──▶  rule      ──▶   configuration ──▶  evidence
+
+  ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+
+  Platform setting   ──✕──▶   governance authority
+
+        ▲ shown and refused — not omitted
+
+  ┌─ CDE ADMINISTRATION MAY ────┐  ┌─ DOES NOT ────────────────┐
+  │ configure folders, spaces,  │  │ determine the information-│
+  │ roles, permissions, workflow│  │ state model               │
+  │   — where authorised        │  │ assign publication        │
+  │ implement approved changes  │  │ authority                 │
+  │ check configuration after   │  │ assign acceptance         │
+  │ an approved change          │  │ authority                 │
+  │                             │  │ approve technical design  │
+  │ Holder: TBD                 │  │                           │
+  └─────────────────────────────┘  └───────────────────────────┘
+
+  A configuration that was never approved is a deviation,
+  however competently it was applied.
+```
+
+**Eight mandatory design requirements.**
+
+1. **The reverse arrow appears and is visibly refused.** A forward-only chain is
+   a chain someone can read backwards; the refusal must be on the slide.
+2. **Never Mermaid.** A renderer draws the refused reverse edge as a real edge,
+   and a strike-through is styling a graph engine may drop. **`S1` §5.9's
+   boundary must not depend on a stylesheet.**
+3. **`Holder: TBD` appears, and no name does.** Not the CDE Administrator, not a
+   role standing in for one.
+4. **The `may` and `does not` columns carry equal weight.** A large *may* beside
+   a small *does not* teaches that the exclusions are footnotes.
+5. **The never-approved-configuration sentence appears verbatim.** It is `S1`
+   §5.9's wording and it is the slide's takeaway.
+6. **No permissions screenshot, matrix or platform UI.** It would make
+   configuration the concrete thing and governance the abstraction — exactly
+   backwards.
+7. **No org chart.** The boxes are a function's boundary, not a reporting line.
+8. **No verification method.** *How* alignment is proven is **Module 6**; this
+   visual states the requirement only.
+
+**Design note.** The four-box chain is deliberately plain. If it is styled into a
+process-maturity graphic — numbered stages, gradients, a loop back to the start —
+it acquires a completeness this slide does not claim, and the loop reintroduces
+the reverse arrow the visual exists to refuse.
+
+### W14 — Triviron CDE-definition questions · **specified (T4-D)**
 
 | Field | Value |
 |---|---|
 | **Slide** | 14 |
 | **Teaching purpose** | Convert the module into **questions Triviron must answer before configuring anything** |
-| **Source basis** | **None.** No Triviron project information exists |
-| **Classification** | `SYNTH` |
-| **Governance status** | — |
-| **Implementation status** | — |
-| **Simplify** | Grouped questions — states · transitions · authorities · properties · evidence |
-| **Omit** | **Every Triviron fact.** No answer, no placeholder, no default, no platform name |
+| **Source basis** | **No Triviron source exists.** The question *structure* draws on `S1` §6.1, §6.3, §9.7, §9.8, §11.3, §11.4, §5.9, §12.6, §12.8; `S2` §2, §3.3, §19; `S4` §7, §11; `S5` §5.1; `CGD-C01`–`CGD-C08` |
+| **Classification** | `INTERP` + `SYNTH` |
+| **Governance status** | **None asserted for Triviron** — the project has no entry in any register |
+| **Implementation status** | **None asserted for Triviron** |
+| **Simplify** | **Five grouped question sets**, then two isolated authority questions, then the end state |
+| **Omit** | **Every Triviron fact** — jurisdiction, project type, client, asset, procurement route, appointments, named roles, platform, folder structure, states, naming, codes, schema, dates, teams. **Every answer, default, placeholder, example and recommendation** |
 | **Overclaim risk** | **HIGH — about Triviron, not about Harrismith** |
-| **Blocked element visible?** | The end state stays **open** |
+| **Blocked element visible?** | **YES — the two authority questions stay unanswered, and the end state stays open** |
 | **Live evidence required?** | No |
 | **External imagery** | No |
 
-**Requirement.** Every item ends in a question mark. **The questions that must
-appear:** *Which information states will the project use?* · *Who authorises
-each transition?* · **_Who holds publication authority?_** · **_Who holds
-acceptance authority?_** · *What evidence will each transition produce?* ·
-*What is the retention approach?*
+**The fixed form:**
+
+```text
+  1  CDE PURPOSE AND SCOPE
+     What information? Which teams? Which uses? Which phases?
+     What evidence that the process operates?
+
+  2  INFORMATION STATES AND PERMITTED USE
+     Which states? What is each for? Who may rely on each?
+     Conceptual, physical or both? Which folder relationship?
+     How will folder location be prevented from meaning state?
+
+  3  TRANSITIONS, GATES AND AUTHORITY
+     Which actions change state? Who initiates? Who checks?
+     Who authorises? What if an authority is unassigned?
+     Which transitions must stay blocked?
+
+           ┌───────────────────────────────────────┐
+           │  Who holds publication authority?     │
+           │                                       │
+           │  Who holds acceptance authority?      │
+           └───────────────────────────────────────┘
+                    ▲ asked, and not answered
+
+  4  NAMING, REVISION, SUITABILITY AND METADATA
+     Which standard? Which convention? Which codes? What schema?
+     Who assigns and checks? How are codes kept distinct from
+     evidence that the process occurred?
+
+  5  PLATFORM CONFIGURATION AND IMPLEMENTATION EVIDENCE
+     Which platform? Who may configure? How authorised?
+     How are deviations recorded? How is configuration verified
+     against governance? Who declares the CDE ready for use?
+
+  ───────────────────────────────────────────────────────────
+       CDE configuration basis — not yet established
+```
+
+**Nine mandatory design requirements.**
+
+1. **Every item ends in a question mark.** A statement anywhere on this slide is
+   an invented Triviron fact.
+2. **The two authority questions appear verbatim, together, and set apart.**
+   `Who holds publication authority?` and `Who holds acceptance authority?`
+3. **Neither is answered, hinted at or paired with a candidate role.** `S1` §9.7
+   already excludes four by name; a fifth must not appear.
+4. **No Triviron fact of any kind**, including a placeholder project name, a
+   plausible platform, a folder tree or a date.
+5. **No answer column, no "typical practice" column, no worked example.**
+6. **The five groups keep their order.** Purpose precedes states; states precede
+   transitions; configuration is last — because the order *is* the argument.
+7. **`CDE configuration basis — not yet established` appears as the end state**,
+   in neutral styling.
+8. **The end state carries no warning colour, no icon, no date and no owner.** It
+   is a correct starting position, not a defect.
+9. **No Harrismith status is transferred onto Triviron.** Harrismith's blocked
+   `T4` is the *reason the question is asked*, not a prediction about a project
+   nobody here has described.
+
+**Design note.** This slide will look sparse, and a producer will want to balance
+it — an illustrative answer, a sample state model, a suggested platform, a
+progress bar under the end state. **Each of those invents the project.** The
+sparseness is the deliverable: the audience should leave holding questions, not a
+template someone drew for a project that does not yet exist.
 
 ---
 
@@ -777,33 +945,53 @@ acceptance authority?_** · *What evidence will each transition produce?* ·
 | `W9` | 9 | **Table — specified; never Mermaid** | **HIGHEST** | **YES — `T4` blocked, `T7` unresolved** |
 | `W10` | 10 | **Layout — specified** | MEDIUM-HIGH | **Evidence field mandatory** |
 | `W11` | 11 | **Layout — specified; two panels** | **HIGH** | **YES — the visual is two blocks** |
-| `W12` | 12 | Layout | **HIGH** | **YES — empty fields** |
-| `W13` | 13 | Mermaid or layout | MEDIUM | No |
-| `W14` | 14 | Layout | **HIGH (Triviron)** | End state open |
+| `W12` | 12 | **Layout — specified** | **HIGH** | **YES — four empty boxes** |
+| `W13` | 13 | **Layout — specified; never Mermaid** | MEDIUM-HIGH | **YES — refused reverse arrow; `Holder: TBD`** |
+| `W14` | 14 | **Layout — specified** | **HIGH (Triviron)** | **YES — two authority questions; end state open** |
 
-**Fourteen candidate visuals. Eight specified in full — `W4`–`W7` (T4-B) and
-`W8`–`W11` (T4-C). Six carry HIGH or HIGHEST overclaim risk, and eight must keep
-something visibly incomplete.**
+**Fourteen candidate visuals. Eleven specified in full — `W4`–`W7` (T4-B),
+`W8`–`W11` (T4-C) and `W12`–`W14` (T4-D). Nine carry HIGH or HIGHEST overclaim
+risk, and thirteen of the fourteen must keep something visibly incomplete,
+mandatory or unfilled — `W5` alone has no such element.**
 
-**Two of the Section B visuals carry a mandatory empty field.** `W6`'s
-publication-authority position and `W7`'s retention-method panel are **shown and
-left blank** — because omission reads as *not needed* and a filled field invents a
-decision. **A producer who removes, fills or shades either has changed the
+*(An earlier revision of this summary counted six HIGH-or-HIGHEST and eight
+incomplete-element visuals. Both were undercounts against the table above, and
+the table is the authority.)*
+
+**Three candidates remain unspecified** — `W1`, `W2` and `W3`, all Section A. They
+are described but not fixed in form, and specifying them belongs to the visual
+source set increment.
+
+**Six visuals carry a mandatory empty, blocked or refused element**, and they are
+the ones a producer is most likely to "fix":
+
+| Visual | What stays incomplete | Why |
+|---|---|---|
+| `W6` | The publication-authority position | Omission reads as *no authority needed*; a filled field invents a decision |
+| `W7` | The retention-method panel | The obligation is governed; the method is not |
+| `W11` | Both blocked objects | The block is a feature of the model, not a gap in it |
+| `W12` | **Four `not established` boxes** | Filling any one invents a standard the project has explicitly declined to create |
+| `W13` | **The refused reverse arrow, and `Holder: TBD`** | A forward-only chain can be read backwards; a named holder assigns an unassigned role |
+| `W14` | **The two authority questions, and the end state** | Answering either is the module's single worst failure |
+
+**A producer who removes, fills, shades or completes any of them has changed the
 claim.**
 
-**Only two are safely Mermaid** — `W13`, and `W1` if drawn without a return
-arrow. **`W4` moved to a layout specification in T4-B** — a Mermaid boundary with
-a gate on it renders an outbound edge, and the route out of WIP must not be
-drawn. **`W10` moved in T4-C** for the same reason: a renderer that lays out a
-five-stage chain will normalise the side labels into the chain, and **CDE
-Administration must sit beside it, not in it**.
+**No visual in Module 4 is Mermaid.** `W1` was the last plausible candidate — a
+plain forward chain — and `W13` was the other. **`W13` moved to a layout
+specification in T4-D**: it must show a reverse arrow that is *visibly refused*,
+and a graph renderer draws a refused edge as a real edge while a strike-through is
+styling it may silently drop. **`W4` moved in T4-B** — a Mermaid boundary with a
+gate renders an outbound edge, and the route out of WIP must not be drawn.
+**`W10` moved in T4-C** — a renderer laying out a five-stage chain normalises side
+labels into the chain, and CDE Administration must sit beside it, not in it.
 
 **`W9` is the absolute case.** A Mermaid rendering of `T1`–`T8` produces eight
 sequential transitions no matter what the caption says. **A grouped table is the
 only permitted form**, and a producer who converts it has committed prohibition
-58. **Everything that depicts a state, a transition set or an absent
-control is a layout specification**, because a renderer that normalises a broken
-line into a solid one commits the module's central error.
+58. **Everything that depicts a state, a transition set, a direction of authority
+or an absent control is a layout specification**, because a renderer that
+normalises a broken line into a solid one commits the module's central error.
 
 **No external imagery is required. No live observation is required, and none is
 authorised.**
