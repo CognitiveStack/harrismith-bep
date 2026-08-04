@@ -28,8 +28,8 @@ moves — not as the subject.
 |---|---|---|
 | 1 | What is a BIM Execution Plan? | **Content, visual source, assembly package and PowerPoint produced.** Review and rehearsal **deferred** |
 | 2 | BIM Management roles and responsibilities | **Content, visual source, assembly package and PowerPoint produced.** Review and rehearsal **deferred** |
-| 3 | **ISO 19650 information-management principles** | **CURRENT — ACTIVE.** Content, visual source and assembly package **complete**; PowerPoint next |
-| 4 | CDE workflows and information states | Planned |
+| 3 | ISO 19650 information-management principles | **Content, visual source, assembly package and PowerPoint produced.** Review and rehearsal **deferred** |
+| 4 | **CDE workflows and information states** | **CURRENT — ACTIVE** |
 | 5 | Responsibility matrices and information-delivery planning | Planned |
 | 6 | Coordination, review, approval and assurance | Planned |
 | 7 | Translating Harrismith into the Triviron BEP | Planned |
@@ -65,9 +65,9 @@ timing — on the same footing as Module 1's.
 **The `.pptx` files for Modules 1 and 2 are derivative outputs and are not
 committed to this repository.**
 
-### Module 3 — ISO 19650 information-management principles — **CURRENT**
+### Module 3 — ISO 19650 information-management principles — **produced; review and rehearsal deferred**
 
-The active module. Deliverable: a 20-minute, fourteen-slide presentation on what
+Deliverable: a 20-minute, fourteen-slide presentation on what
 ISO 19650 is intended to govern — and on where the available evidence stops. See
 [`module-03-iso-19650-principles/README.md`](module-03-iso-19650-principles/README.md).
 
@@ -119,28 +119,67 @@ the project *states* ISO 19650 principles inform its approach. Everything else i
 analogue, gap, exclusion or teaching framing. **The only permitted conclusion is
 `No conformity conclusion supported`**, in either direction.
 
-**Outstanding:** **PowerPoint production** — next, performed by ChatGPT after the
-assembly package is reviewed and accepted — then review, then rehearsal. **No
-timing has been measured**, and **no visual has been rendered** (no renderer is
-available in this environment).
+**Produced:** the full Slides 1–14 content baseline, the visual source set in
+[`assets/module-03/`](assets/module-03/), the assembly package in
+[`module-03-iso-19650-principles/presentation/`](module-03-iso-19650-principles/presentation/),
+and a PowerPoint assembled **outside this repository**.
 
-### Modules 4–8 — future scope
+**Deferred, not complete:** presentation review and rehearsal with measured
+timing — on the same footing as Modules 1 and 2. **No visual was rendered** (no
+renderer is available in this environment); the text-based visual source is
+authoritative.
 
-Modules 4–8 are recorded below as the intended sequence. **None of their material
+### Module 4 — CDE workflows and information states — **CURRENT**
+
+The active module. Deliverable: a 20-minute, fourteen-slide presentation on what
+a CDE actually controls — states, transitions, the properties that support them,
+and **why being able to move a file is not authority to change its state**. See
+[`module-04-cde-workflows-and-information-states/README.md`](module-04-cde-workflows-and-information-states/README.md).
+
+**Established (T4-A):** module structure; a **source inventory** recording the
+exact path of every CDE-relevant controlled source, its precedence and four
+registers — source authority, terminology, transitions and unresolved matters;
+the 20-minute fourteen-slide architecture; and **Slides 1–3**.
+
+**Module 4 returns to repository-only evidence.** Unlike Module 3, every
+statement traces to a controlled Harrismith document. **But it introduces a new
+hazard:** the workflow it teaches is **proposed, not operating**. The CDE
+strategy classifies itself `PROPOSED GOVERNANCE` and states it *does not describe
+the live platform*.
+
+Four positions are fixed for the module:
+
+- **Governance status and implementation status are separate**, and both are
+  stated for every workflow concept.
+- **`Shared → Published` is blocked.** Publication authority is unresolved; the
+  transition has **no available authorising function**; information **remains
+  Shared**. The block is **not completed** to tidy a diagram.
+- **There is no `04 Archive` folder, and none is required.** Record / Retained is
+  a conceptual state and a retention requirement; the approach is **TBD**.
+- **A missing verification is not a failure claim** — *absence of observation is
+  not observation of absence*.
+
+**Outstanding:** **Slides 4–14**, then visual source, then the assembly package,
+then PowerPoint production, then review, then rehearsal. **No timing has been
+measured.**
+
+### Modules 5–8 — future scope
+
+Modules 5–8 are recorded below as the intended sequence. **None of their material
 exists**, and their scope may change as the earlier modules are delivered and
 reviewed.
 
-**Module 3 does not consume their scope.** CDE workflows and states in detail
-belong to Module 4; responsibility matrices and delivery planning to Module 5;
-coordination, review, approval and assurance to Module 6. Module 3 explains **why
-those controls exist** and how they relate — not how they operate.
+**Module 4 does not consume their scope.** Responsibility-matrix and
+delivery-schedule construction belong to Module 5; coordination, clash triage,
+assurance and design approval to Module 6. Module 4 explains **what each control
+is and why it exists** — references to a matrix cell or a coordination cycle may
+explain a transition gate, and the detailed teaching stays deferred.
 
-### Modules 3–8 — intended scope
+### Modules 4–8 — intended scope
 
 | # | Module | Intended subject | Principal expected sources |
 |---|---|---|---|
-| 3 | ISO 19650 information-management principles — **now active; see above** | What ISO 19650 is intended to govern; information management rather than software; requirements before production; the life-cycle framing; Part 1 against Part 2; functions rather than job titles; and **the limits of what this implementation claims** | **Registered external sources** — `ISO 19650-1:2018` and `ISO 19650-2:2018` public metadata; UK BIM Framework guidance (**UK jurisdiction**) — plus BEP §11.2, §13.4, §4.6, §6.1 |
-| 4 | CDE workflows and information states | WIP, Shared, Published/Authorised, Record/Retained; controlled transitions; state versus folder; version, revision, status and suitability as four separate properties | BEP §6; `cde-workflow-state-strategy.md` |
+| 4 | CDE workflows and information states — **now active; see above** | What a CDE controls; the four information states; the eight controlled steps and **the two that change state**; gates, authority and evidence; **the blocked `Shared → Published` route**; state, version, revision, status, suitability and metadata as distinct properties; governance before configuration | `bep/…BEP.md` §6, §7, §10, §12; `supporting/cde-workflow-state-strategy.md`; `docs/CDE-Structure-Governance-Decision.md`; `docs/Increment-7C-Live-Validation-Record.md` |
 | 5 | Responsibility matrices and information-delivery planning | The Perform/Check/Authorise/Coordinate/Accept/Consult/Inform grammar; container allocation; delivery events, purpose and suitability | Both matrices; `information-delivery-schedule.md` |
 | 6 | Coordination, review, approval and assurance | Federation, findings, triage, Issues, the coordination cycle, verification; check ≠ authorise ≠ accept | BEP §8, §9; `coordination-review-strategy.md` |
 | 7 | Translating Harrismith into the Triviron BEP | Which Harrismith positions transfer, which are Harrismith-specific, and which are project decisions Triviron must take for itself | The full set, plus Triviron project information when it exists |
@@ -204,23 +243,24 @@ of governance under condition. Describing it neither advances nor reopens it.
 
 | Field | Value |
 |---|---|
-| **Active module** | **Module 3 — ISO 19650 Information-Management Principles** — **CURRENT — ACTIVE** |
-| Module 3 deliverable | 20-minute, **fourteen-slide** presentation — **content baseline complete, not final** |
-| Module 3 slides developed | **Slides 1–14** — the full content baseline (T3-A to T3-E) |
-| Module 3 established | Structure · **external-source control framework** · published-versus-draft ISO status · ISO-versus-guidance separation · 20-minute fourteen-slide architecture · **Harrismith mapping method** · **Slides 1–14** · 239 classified statements · 52 prohibited claims · sixty exercises · **module-wide final reconciliation** |
-| Module 3 external sources | **Registered (T3-A)** — [`external-source-register.md`](module-03-iso-19650-principles/external-source-register.md). **The ISO standards are not held in this repository and have not been read**; no ISO text is reproduced |
-| Module 3 conformity position | **No Harrismith conformity with ISO 19650 is claimed.** No clause-by-clause assessment exists; **no clause reference appears in the module** |
-| Module 3 visual specifications | **All thirteen complete** — `V1`–`V13` |
-| Module 3 visual source | **Complete (T3-F)** — 14 files, `M03-S01`–`M03-S14`, in [`assets/module-03/`](assets/module-03/) |
-| Module 3 rendered assets | **None** — no renderer available; source committed instead |
-| Module 3 assembly package | **Complete (T3-G)** — [`module-03-iso-19650-principles/presentation/`](module-03-iso-19650-principles/presentation/) |
-| Module 3 assembly package | **None** |
-| Module 3 outstanding | **PowerPoint production (next)**, review, rehearsal. **No timing measured** |
+| **Active module** | **Module 4 — CDE Workflows and Information States** — **CURRENT — ACTIVE** |
+| Module 4 deliverable | 20-minute, **fourteen-slide** presentation — **structure, source inventory and Slides 1–3 only; not final** |
+| Module 4 slides developed | **Slides 1–3.** Slides 4–14 **outstanding** |
+| Module 4 established (T4-A) | Structure · **source inventory with exact paths and precedence** · source-authority, terminology, transition and unresolved registers · 20-minute fourteen-slide architecture · **Slides 1–3** · 44 classified statements · 33 prohibited claims |
+| Module 4 source basis | **Controlled Harrismith documents only.** No external source is required |
+| Module 4 governance position | The CDE workflow is **`PROPOSED GOVERNANCE`** and **does not describe the live platform**. **`Shared → Published` is blocked** — no available authorising function. **No `04 Archive` exists or is required.** **No naming, revision, suitability or metadata standard exists** |
+| Module 4 visual source | **None** |
+| Module 4 assembly package | **None** |
+| Module 4 outstanding | **Slides 4–14**, visual source, assembly package, PowerPoint, review, rehearsal |
+| Module 3 | Content baseline, visual source and assembly package **produced**; PowerPoint assembled **outside this repository** |
+| Module 3 outstanding | **Presentation review and rehearsal — DEFERRED**, not complete, until the presenter chooses to perform them |
 | Module 2 | Content baseline, visual source and assembly package **produced**; PowerPoint assembled **outside this repository** |
-| Module 2 outstanding | **Presentation review and rehearsal — DEFERRED**, not complete, until the presenter chooses to perform them |
+| Module 2 outstanding | **Presentation review and rehearsal — DEFERRED**, not complete |
+| Module 2 README status | **Correction DEFERRED** — the module README still self-describes as active; [`roadmap.md`](roadmap.md) carries the authoritative position |
 | Module 1 | Content baseline, visual source and assembly package **produced**; PowerPoint assembled **outside this repository** |
-| Module 1 outstanding | **Presentation review and rehearsal — DEFERRED**, not complete, until the presenter chooses to perform them |
-| Module 1 and 2 `.pptx` files | **Derivative outputs — not committed to this repository** |
-| Modules 4–8 | **Future scope** — not started |
+| Module 1 outstanding | **Presentation review and rehearsal — DEFERRED**, not complete |
+| Module 1–3 `.pptx` files | **Derivative outputs — not committed to this repository** |
+| Rendered visual assets | **None in any module** — no renderer available; text-based source is authoritative |
+| Modules 5–8 | **Future scope** — not started |
 | Publication automation | **PAUSED** |
 | Source material status | Training Baseline 0.1 — approved with conditions; publication NOT AUTHORISED |

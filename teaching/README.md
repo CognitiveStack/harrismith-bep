@@ -44,8 +44,13 @@ Everything taught here is traceable to a recorded source, and each module holds
 its own `source-map.md` — for example
 [`module-01-what-is-a-bep/source-map.md`](module-01-what-is-a-bep/source-map.md).
 
-**Modules 1 and 2 are traceable entirely to controlled Harrismith documents.**
-No external source was required for any slide in either.
+**Modules 1, 2 and 4 are traceable entirely to controlled Harrismith
+documents.** No external source is required for any slide in any of them.
+Module 4 additionally holds a
+[`source-inventory.md`](module-04-cde-workflows-and-information-states/source-inventory.md)
+recording the **exact path** of every CDE-relevant controlled source, the
+precedence between them, and **where they differ** — differences are recorded,
+never harmonised by invention.
 
 **Module 3 is not, and cannot be.** Its subject — ISO 19650 — is a copyrighted
 international standard that is **not held in this repository and has not been
@@ -110,21 +115,31 @@ teaching/
 │   ├── exercises.md                 practice and self-assessment
 │   ├── source-map.md                role inventory, authority inventory, classification
 │   └── presentation/                assembly package — production handoff
-├── module-03-iso-19650-principles/  Module 3 — CURRENT, ACTIVE
+├── module-03-iso-19650-principles/  Module 3 — produced; review and rehearsal deferred
 │   ├── README.md                    module objective, deliverable and scope
 │   ├── external-source-register.md  every external source, its authority and limits
+│   ├── presentation-outline.md      20-minute structure, Slides 1–14
+│   ├── speaker-notes.md             natural-language notes, Slides 1–14
+│   ├── visual-demonstration-plan.md candidate visuals for the whole module
+│   ├── exercises.md                 practice and self-assessment
+│   ├── source-map.md                statement classification, mapping method, prohibited claims
+│   └── presentation/                assembly package — production handoff
+├── module-04-cde-workflows-and-information-states/   Module 4 — CURRENT, ACTIVE
+│   ├── README.md                    module objective, deliverable and scope
+│   ├── source-inventory.md          exact source paths, precedence and four registers
 │   ├── presentation-outline.md      20-minute structure, Slides 1–3 developed
 │   ├── speaker-notes.md             natural-language notes, Slides 1–3
 │   ├── visual-demonstration-plan.md candidate visuals for the whole module
 │   ├── exercises.md                 practice and self-assessment
-│   └── source-map.md                statement classification, mapping method, prohibited claims
+│   └── source-map.md                statement classification, registers, prohibited claims
 ├── shared/
 │   ├── glossary.md                  teaching glossary across all modules
 │   └── presentation-principles.md   how these presentations are built
 └── assets/
     ├── README.md                    asset handling rules
     ├── module-01/                   Module 1 visual source set
-    └── module-02/                   Module 2 visual source set
+    ├── module-02/                   Module 2 visual source set
+    └── module-03/                   Module 3 visual source set
 ```
 
 ## 6. Safety boundary
