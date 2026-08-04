@@ -141,7 +141,7 @@ the exact path of every CDE-relevant controlled source and its precedence; the
 20-minute fourteen-slide architecture; **the complete Slides 1–14 teaching-content
 baseline**; **seven registers** — source authority, state, property,
 configuration-decision, terminology, transitions and a module-wide unresolved
-register; **244 classified statements**; **98 prohibited claims**; **66
+register; **244 classified statements**; **99 prohibited claims**; **71
 exercises**; visual specifications **`W4`–`W14`**; and a **module-wide final
 reconciliation**.
 
@@ -251,7 +251,7 @@ of governance under condition. Describing it neither advances nor reopens it.
 | Module 4 deliverable | 20-minute, **fourteen-slide** presentation — **teaching-content baseline complete; not final** |
 | Module 4 slides developed | **Slides 1–14.** None outstanding |
 | Module 4 content baseline | **COMPLETE (T4-D)** |
-| Module 4 established (T4-A to T4-D) | Structure · **source inventory with exact paths and precedence** · **seven registers** · 20-minute fourteen-slide architecture · **Slides 1–14** · **244 classified statements** · **98 prohibited claims** · **66 exercises** · visual specifications **`W4`–`W14`** · **module-wide final reconciliation** |
+| Module 4 established (T4-A to T4-D) | Structure · **source inventory with exact paths and precedence** · **seven registers** · 20-minute fourteen-slide architecture · **Slides 1–14** · **244 classified statements** · **99 prohibited claims** · **71 exercises** · visual specifications **`W4`–`W14`** · **module-wide final reconciliation** |
 | Module 4 source basis | **Controlled Harrismith documents only.** No external source is required |
 | Module 4 governance position | The CDE workflow is **`PROPOSED GOVERNANCE`** and **does not describe the live platform**. **`Shared → Published` is blocked** — no available authorising function. **No `04 Archive` exists or is required.** **No naming, revision, suitability or metadata standard exists** |
 | Module 4 visual source | **None** |

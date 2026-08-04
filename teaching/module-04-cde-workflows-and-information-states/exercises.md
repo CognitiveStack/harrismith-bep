@@ -7,10 +7,10 @@ Rehearsal exercises for the presenter, not assessments for an audience. Do them
 aloud, alone, before delivering to anyone. **Exercise 13 is done after each of
 the others.**
 
-**Sixty-six exercises in four sets.** Exercises 1–14 cover Slides 1–3 and the
+**Seventy-one exercises in four sets.** Exercises 1–14 cover Slides 1–3 and the
 questions that arrive as soon as a state diagram appears; **15–29 cover Section B
 — the four states**; **30–46 cover Section C — the transition workflow**;
-**47–66 cover Sections D and E — properties, the direction of authority, and the
+**47–71 cover Sections D and E — properties, the direction of authority, and the
 questions Triviron must answer.**
 
 **Exercise 64 is the module's only full-length run.** No timing in this
@@ -1840,16 +1840,170 @@ already controlled; the risk is in what gets said around them.**
 
 ---
 
+## Exercise 67 — Write five state-definition questions for a new project
+
+**Task.** Write five questions a new project must answer before it can say what
+its information states *are*. **Questions only.** Five minutes, written.
+
+**Why this exercise.** Slide 14 gives you a group heading and some examples. The
+skill is generating the questions yourself, for a project you know nothing about
+— which is exactly the position the slide puts the audience in.
+
+**What good looks like.** Five questions covering **which states the project
+adopts**, **what each state is for**, **who may rely on information in each**,
+**whether each state is conceptual, physical or both**, and **how folder location
+will be stopped from being mistaken for state**. Each ends in a question mark.
+None contains a proposed answer, a state name borrowed from Harrismith presented
+as the expected set, or a folder path.
+
+**Success criteria**
+
+- [ ] Five questions, **each ending in a question mark**.
+- [ ] **No answer smuggled into the phrasing** — no "will the project adopt the
+      four states…?"
+- [ ] The conceptual-versus-physical question is present.
+- [ ] The folder-is-not-state question is present.
+- [ ] **No Triviron fact assumed** — not the platform, not the phases, not the
+      participants.
+
+**Common failure.** Writing *"Will the project use Work in Progress, Shared,
+Published and Archive?"* — a Harrismith answer wearing a question mark.
+**Harrismith's four states are one project's decision, not the menu.**
+
+---
+
+## Exercise 68 — Write five transition-authority questions for a new project
+
+**Task.** Write five questions a new project must answer about who moves
+information between states. **Questions only.** Five minutes, written.
+
+**Why this exercise.** This is the group Harrismith did not finish, and the
+reason a route is blocked. Generating these questions is the transferable part of
+the whole module.
+
+**What good looks like.** Five questions covering **which actions actually change
+state**, **who initiates**, **who checks**, **who authorises**, and **what
+happens when an authority is unassigned**. **Both compulsory questions appear
+verbatim** — *"Who holds publication authority?"* and *"Who holds acceptance
+authority?"* — if you use fewer than five slots, they are the two that stay.
+
+**Success criteria**
+
+- [ ] Five questions, **each ending in a question mark**.
+- [ ] **Both compulsory authority questions present, word for word.**
+- [ ] Initiating, checking and authorising treated as **separate** questions.
+- [ ] The unassigned-authority question present.
+- [ ] **No candidate holder named**, not even as an illustration.
+
+**Common failure.** Collapsing initiate, check and authorise into one question
+about "who signs it off". **Three functions, three questions** — Slide 10 spent
+its time establishing exactly that.
+
+---
+
+## Exercise 69 — Write five naming, coding and metadata questions
+
+**Task.** Write five questions a new project must answer about identification,
+revision, suitability and metadata. **Questions only.** Five minutes, written.
+
+**Why this exercise.** This is the group most likely to be answered by whoever
+configures the platform first, using whatever the tool provides — which is the
+failure Slide 12 and Slide 13 exist to prevent.
+
+**What good looks like.** Five questions covering **what naming standard
+applies**, **what revision convention applies**, **which status and suitability
+codes are required**, **what metadata schema is required**, and **who assigns and
+checks each property**. A sixth, if you have room: **how will codes be
+distinguished from evidence that the process behind them happened?**
+
+**Success criteria**
+
+- [ ] Five questions, **each ending in a question mark**.
+- [ ] **No example code, filename, field name or schema anywhere** — not even as
+      "something like".
+- [ ] Assignment and checking asked as a **governance** question, not a tooling
+      one.
+- [ ] **No ISO pattern offered as the default answer.**
+- [ ] Nothing implies the software's own fields are the schema.
+
+**Common failure.** Writing *"Will we use ISO 19650 naming?"* — which is a
+recommendation, not a question, and Harrismith's own BEP declines to impose that
+pattern.
+
+---
+
+## Exercise 70 — "Can we just copy Harrismith's CDE?"
+
+**Task.** Answer it. Forty-five seconds. **Do not recommend the structure, and do
+not disparage it.**
+
+**Why this exercise.** It is the most reasonable question in the room and the
+most dangerous answer to get wrong. Saying yes exports two unresolved authorities
+into a project that will never know they were inherited. Saying "no, build your
+own" wastes the one worked example the audience has.
+
+**What good looks like.** The shape can be copied; what it stands on cannot. The
+structure is the **output** of the five question groups, and it is
+**conditionally adopted** on a project whose publication and acceptance
+authorities are still open and whose `T4` route is blocked. Copy it and you
+inherit those without the record explaining them. **Take the questions, not the
+answers.**
+
+**Success criteria**
+
+- [ ] **Neither recommended nor criticised** — the structure's status is
+      *conditionally adopted*, and that is what gets said.
+- [ ] The two unresolved authorities named as **what would be inherited**.
+- [ ] Questions offered instead of the structure.
+- [ ] **No Triviron assumption** about what it would need.
+- [ ] **No claim that Harrismith's model conforms to anything** it could be
+      copied for.
+
+**Common failure.** "It's a good starting point." **It is a governed answer to
+another project's questions**, and calling it a starting point is how it becomes
+an unexamined default.
+
+---
+
+## Exercise 71 — The ten-second closing
+
+**Task.** Deliver the ten-second closing fallback. **Measure it.** Then run it
+back to back with Exercise 65's thirty-second form and hear the difference.
+
+**Why this exercise.** The closing is where an over-running session gets
+improvised, and an improvised closing is where the module's carefully unclaimed
+things get claimed — that Harrismith is finished, that the states are running,
+that the standards are coming.
+
+**What good looks like.** Four states, eight steps, four standards that do not
+exist yet, and the process-not-folders line. **Nothing added to compensate for
+the lost twenty seconds.** The dropped qualifiers stay dropped rather than being
+replaced by a rounder claim.
+
+**Success criteria**
+
+- [ ] **Ten seconds**, measured — not "about ten".
+- [ ] The process-not-folders line survives.
+- [ ] **No claim added** to fill the gap left by the qualifiers.
+- [ ] **No Module 5 preview**, no programme summary.
+- [ ] I stopped.
+
+**Common failure.** Compressing to *"four states, eight steps, and the standards
+are on their way"* — eight words shorter and one invented fact heavier. **No
+source records any standards work in progress.**
+
+---
+
 ## Scope note
 
-**Sixty-six exercises, covering the complete Slides 1–14 baseline.**
+**Seventy-one exercises, covering the complete Slides 1–14 baseline.**
 
 | Set | Exercises | Covers |
 |---|---|---|
 | Foundation | 1–14 | Slides 1–3, and the questions that arrive with a state diagram |
 | Section B | 15–29 | Slides 4–7 — the four states |
 | Section C | 30–46 | Slides 8–11 — the transition workflow |
-| Sections D and E | 47–66 | Slides 12–14 — properties, governance direction, the questions |
+| Sections D and E | 47–71 | Slides 12–14 — properties, governance direction, the questions |
 
 **Five exercises are deliberate repeats** — 41 revisits 22, 45 revisits 24, 53
 revisits the Slide 1 folder error at property level, and 59 revisits 23 with the
@@ -1858,10 +2012,17 @@ longer.**
 
 **Five are timed delivery runs** — 14 (Slides 1–3), 29 (Slides 4–7), 46 (Slides
 8–11), 62 (Slide 12) and 63 (Slides 13–14) — **and Exercise 64 runs all fourteen
-slides end to end.** Until 64 has been run, **every timing in this module is an
-allocation, not a measurement.**
+slides end to end.** **Two more time the closing** — 65 at thirty seconds and 71
+at ten. Until 64 has been run, **every timing in this module is an allocation,
+not a measurement.**
 
-**Exercise 13 is done after every one of the other sixty-five.** If you cannot say
+**Three exercises build questions rather than answer them** — 67, 68 and 69 ask
+you to generate a new project's state, authority and coding questions from
+nothing. **They are the transferable part of the module**, and the failure mode
+in all three is the same: writing a Harrismith answer with a question mark on the
+end.
+
+**Exercise 13 is done after every one of the other seventy.** If you cannot say
 whether a statement is controlled, proposed or unresolved, do not say it.
 **Exercise 66 is done after every delivery of Slides 12–14**, for the same reason
 in the two places the discipline is hardest to hold.

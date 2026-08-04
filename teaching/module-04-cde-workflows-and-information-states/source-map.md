@@ -877,8 +877,8 @@ delivery and **nowhere near sufficient**.
 
 ### 9.4 Additional prohibitions recorded in T4-D
 
-Twenty-three more, arising from Slides 12–14. Same weight as §9. **These close
-the module-wide list at 98.**
+Twenty-four more, arising from Slides 12–14. Same weight as §9. **These close
+the module-wide list at 99.**
 
 **Codes and standards — 12**
 
@@ -908,7 +908,7 @@ the module-wide list at 98.**
 | 92 | **Claiming Harrismith's configuration has been verified as aligned with its governance** | `S2` §6 — a **four-layer** question; `S4` §8 — *"no complete cycle demonstrated"* |
 | 93 | **Presenting this module, or the BEP, as authorising a live platform change** | `S1` §12.8 — *"This BEP does not itself authorise any live platform change"*; root `README.md` §2.1 |
 
-**Triviron — 5**
+**Triviron — 6**
 
 | # | Prohibited | Why |
 |---|---|---|
@@ -917,6 +917,7 @@ the module-wide list at 98.**
 | 96 | **Recommending a naming convention, code set, schema, platform or folder structure for Triviron** | A recommendation is an answer wearing a qualifier, and it invents the project |
 | 97 | **Presenting `CDE configuration basis — not yet established` as a failure, or attaching a date or an owner to it** | It is a **neutral future position** — the correct status before the decisions are made |
 | 98 | **Transferring a Harrismith status onto Triviron** | Harrismith's blocked `T4` is the **reason a question is asked**, not a prediction about a project nobody has described |
+| 99 | **Offering Harrismith's CDE model to another project as a template, a starting point or a thing to copy** | The structure is **`CONDITIONALLY ADOPTED`** on a project with **two unresolved authorities** (`S1` §9.7, §9.8) and **one blocked route** (`S2` §3.1). Copied, it transfers both **without the record that explains them**. **The five question groups are what transfers** — not the answers |
 
 **Prohibitions 85 and 86 extend the empty-field rule to its third and fourth
 applications.** After 44 (publication authority) and 49 (retention method), the
@@ -924,7 +925,7 @@ same instruction now covers the four unestablished standards: **the field
 appears, it is empty, and it is not dated.** Omission reads as *not needed*; a
 date reads as *already in hand*. **Neither is true.**
 
-**Prohibitions 94–98 are the module's hardest boundary**, because every one of
+**Prohibitions 94–99 are the module's hardest boundary**, because every one of
 them would be broken by trying to be helpful. **95 is the single worst**: it
 answers the two questions the module exists to leave open, and it does so in
 front of the people most likely to act on it.
@@ -951,12 +952,12 @@ itself.**
 |---|---|
 | Slides developed | **14 of 14** |
 | Timing | **20.0 minutes**, verified against both the section table and the slide table in [`presentation-outline.md`](presentation-outline.md) §1–§2 |
-| Speaker notes | **14 of 14 slides**, 12–13 elements each |
+| Speaker notes | **14 of 14 slides**, 12–13 elements each, plus a **module closing (30 s), a closing fallback (10 s) and Section D and E recovery sentences** |
 | Statements classified | **244**, `M4-S1-01` – `M4-S14-16`, no gaps |
 | Visuals specified in full | **11 of 14** — `W4`–`W14`. `W1`–`W3` remain candidates |
-| Exercises | **66**, in four sets |
+| Exercises | **71**, in four sets |
 | Registers | **7** |
-| Prohibited claims | **98**, contiguous, no duplicates |
+| Prohibited claims | **99**, contiguous, no duplicates |
 
 ### 11.2 The four state-model claims, reconciled across all fourteen slides
 
@@ -1038,7 +1039,7 @@ Module 4 is verified as operating**, and the project the module is preparing for
 | `SYNTH` | 13 |
 | `EXCLUDED` | 20 |
 | Registers | **7** — source authority (§4), state (§5.1), **property (§5.2)**, **configuration-decision (§5.3)**, terminology (§6), transition (§7), **module-wide unresolved (§8)** |
-| Prohibited claims | **98** (§9, §9.1–§9.4) |
+| Prohibited claims | **99** (§9, §9.1–§9.4) |
 | Content baseline | **Complete.** Slides 1–14 developed |
 | Invented codes, schemas, folders, periods, holders or Triviron facts | **Zero** |
 | Mandatory empty or refused elements | **6** — §11.3 |

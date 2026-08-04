@@ -2208,7 +2208,25 @@ know?"**
 > the same size, and the ones left open were the ones nobody had the standing to
 > make."
 
-### Closing
+**Fifth likely question — "Can we just copy Harrismith's CDE structure?"**
+
+> "You can copy the *shape* — and people do, because it saves a fortnight. What
+> doesn't copy is everything the shape is standing on: which states this project
+> needs, who holds the authorities, what the checks are, what the evidence has to
+> show. Copy Harrismith and you also inherit two unresolved authorities and a
+> blocked route, without the record that explains why they're there. The
+> structure is the *output* of these five groups of questions. Take the
+> questions."
+
+**And if pressed for a shortcut:** the honest answer is that the questions are
+the short version. **Do not offer Harrismith's structure as a starting template**
+— it is conditionally adopted on a project whose own authorities are open, and
+nothing in the controlled evidence recommends it for reuse.
+
+### Closing · thirty seconds
+
+**The closing is the last thirty seconds of Slide 14's two minutes, not an
+addition to them.** The module total remains **exactly twenty minutes**.
 
 > "That's Module 4. Four states, two of them currently unreachable. Eight
 > controlled steps, two of which change information state. And four coding
@@ -2217,6 +2235,20 @@ know?"**
 
 **Then stop.** Do not add a summary of the whole programme, a preview of Module
 5, or a reassurance that Harrismith is nearly finished.
+
+### Closing fallback · ten seconds
+
+Use this when Slide 14 has run long, when questions have eaten the end of the
+session, or when the room is already standing.
+
+> "Four states, eight steps, four standards that don't exist yet. **The CDE is
+> the process — the folders are just where it shows up.**"
+
+**Nothing is added to compensate for the shorter closing.** The ten-second form
+drops the two-of-four and two-of-eight qualifiers because they need a sentence
+each to be accurate; it does not drop them in favour of a rounder claim. If there
+is time for one more clause, restore *"two of them currently unreachable"* —
+**not** a summary of the programme.
 
 ### Evidence classification
 
@@ -2247,3 +2279,53 @@ blocked.
 
 **And the end state stays as written.** `CDE configuration basis — not yet
 established`. Not "in progress", not "being developed", not a date.
+
+---
+
+## Section recovery — D and E
+
+Sections D and E hold 4.5 of the module's twenty minutes and sit at the end,
+where lost time from Sections A to C arrives. **Recover by compressing delivery,
+never by dropping a boundary.** The material that reads as skippable — the empty
+fields, the refused arrow, the two unanswered questions — is the material the
+whole module exists to deliver.
+
+### Section D recovery sentence — Slide 12
+
+> "Six properties, six different control questions — and four of them have no
+> project standard behind them yet. That's the slide: what the properties
+> *control*, and which decisions haven't been made."
+
+**Then go straight to the four empty fields and move on.** Drop the eight
+distinctions to the two that matter in the room — **status is not suitability**
+and **suitability is not acceptance** — and let the rest go. **Do not drop the
+empty fields to save the distinctions.** A compressed Slide 12 that still shows
+four unestablished standards has done its work; a complete Slide 12 with the
+fields skipped has taught that the standards exist.
+
+### Section E recovery sentence — Slides 13 and 14
+
+> "One direction only — governance decides, process records, configuration
+> follows, evidence proves. Not the other way round. Which leaves the questions a
+> new project has to answer before it configures anything."
+
+**Slide 13 compresses to that one sentence and the refused reverse arrow.** It is
+the only slide in the module that survives being delivered in twenty seconds,
+**and it is the one to compress** — because Slide 14 cannot be.
+
+**Slide 14 does not compress below the two authority questions and the end
+state.** If two minutes are not available, cut question groups — not the two
+compulsory questions, and not `CDE configuration basis — not yet established`.
+**Delivering three groups properly is a shorter Slide 14. Delivering five groups
+while answering one is a different slide.**
+
+### Evidence classification
+
+**`INTERP`** — the recovery order; which distinctions survive compression; the
+judgement that Slide 13 compresses and Slide 14 does not.
+**`SYNTH`** — the recovery sentences themselves and both closing forms, which
+restate content classified at slide level in [`source-map.md`](source-map.md)
+§4 and are **not** new claims.
+**`EXCLUDED`** — any timing figure presented as measured. **No delivery in this
+module has been timed**, so thirty seconds and ten seconds are allocations like
+every other figure here, and Exercise 65 is what turns them into measurements.

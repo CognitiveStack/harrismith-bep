@@ -248,9 +248,9 @@ being filled with a plausible value."*
 |---|---|
 | [`source-inventory.md`](source-inventory.md) | **Exact source paths**, precedence, source-authority register, terminology register and variance, folder topology, **transition register**, implementation-status register, unresolved matters |
 | [`presentation-outline.md`](presentation-outline.md) | The 20-minute structure and **Slides 1–14** |
-| [`speaker-notes.md`](speaker-notes.md) | Delivery notes for **Slides 1–14** |
+| [`speaker-notes.md`](speaker-notes.md) | Delivery notes for **Slides 1–14**, the module closing and its ten-second fallback, and **Section D and E recovery** |
 | [`visual-demonstration-plan.md`](visual-demonstration-plan.md) | Candidate visuals for all fourteen slides; **`W4`–`W14` specified in full** |
-| [`exercises.md`](exercises.md) | **Sixty-six** practice and self-assessment exercises |
+| [`exercises.md`](exercises.md) | **Seventy-one** practice and self-assessment exercises |
 | [`source-map.md`](source-map.md) | Statement classification, the **seven registers**, the **module-wide final reconciliation** and the **prohibited-claims list** |
 
 [`source-inventory.md`](source-inventory.md) records what each source actually
@@ -268,8 +268,8 @@ itself.
 | **Teaching-content baseline** | **COMPLETE (T4-D)** — Slides 1–14 |
 | Statements classified | **244** across Slides 1–14 — [`source-map.md`](source-map.md) §5 |
 | Registers | **7** — source authority · state · **property** · **configuration-decision** · terminology · transition · **module-wide unresolved** |
-| Prohibited claims | **98** — [`source-map.md`](source-map.md) §9, §9.1–§9.4 |
-| Exercises | **66**, in four sets |
+| Prohibited claims | **99** — [`source-map.md`](source-map.md) §9, §9.1–§9.4 |
+| Exercises | **71**, in four sets |
 | Module-wide final reconciliation | **[`source-map.md`](source-map.md) §11 (T4-D)** |
 | Visual specifications | **`W4`–`W14` complete**; `W1`, `W2` and `W3` remain candidates |
 | Slides developed | **1–14** — Sections A (T4-A), B (T4-B), C (T4-C), D and E (T4-D) |
