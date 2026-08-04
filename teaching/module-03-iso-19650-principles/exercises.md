@@ -1,16 +1,17 @@
 # Module 3 — Exercises
 
-**Status:** Exercise set for the **Slides 1–12** baseline. Teaching material;
+**Status:** Complete exercise set for the **Slides 1–14** content baseline.
+Teaching material;
 **not governance.**
 
 Rehearsal exercises for the presenter, not assessments for an audience. Do them
 aloud, alone, before delivering to anyone. **Exercise 10 is done after each of
 the others**, and it is the one that matters most in this module.
 
-**Exercises 1–10 cover Slides 1–3 and the questions that arrive regardless.
-Exercises 11–22 cover Section B — Slides 4–6. Exercises 23–34 cover Section C —
-Slides 7–9. Exercises 35–46 cover Section D and the Section E opener —
-Slides 10–12.**
+**Sixty exercises across five sets** — see the scope note at the end for the
+full map. Exercises 1–10 cover Slides 1–3 and the questions that arrive
+regardless; 11–22 Section B; 23–34 Section C; 35–46 Section D and the Section E
+opener; **47–60 Section E and the module closings.**
 
 **Four exercises rehearse questions rather than slides.** Exercises 5–9 cover
 material whose slides are not yet developed — but the questions arrive the moment
@@ -1394,8 +1395,415 @@ whole slide.
 
 ---
 
+# Section E — Slides 13–14 and the module closing
+
+**Fourteen further exercises**, completing the set. Exercises 58, 59 and 60 are
+the timed runs and are done last.
+
+**These are the exercises that matter most.** Slide 13 is where a careless
+sentence becomes a compliance claim, and Slide 14 is where a helpful sentence
+invents a project.
+
+---
+
+## Exercise 47 — Classify one Harrismith feature
+
+**Task.** Someone names a Harrismith feature — the responsibility matrix, the CDE
+states, the BEP itself. Classify it into one of the four categories and justify
+the choice. Forty-five seconds.
+
+**Why this exercise.** Slide 13's method, applied live. The categories are only
+useful if you can place something in one without hesitating.
+
+**What good looks like.** Almost everything lands in **`LOCAL ANALOGUE OR
+INTERPRETATION`** — it illustrates a principle, and nothing more is evidenced.
+**`DIRECTLY EVIDENCED ALIGNMENT`** holds one item only: that we *state* the
+principles inform our approach. If the feature has an unresolved authority or an
+absent decision behind it, it belongs in **`GAP OR UNVERIFIED`**. And any
+sentence of the form *"which shows we're aligned on that point"* belongs in
+**`EXCLUDED`**.
+
+**Success criteria**
+
+- [ ] I named the category **before** justifying it.
+- [ ] I used *illustrates* or *resembles*, never *satisfies* or *meets*.
+- [ ] I did not promote an analogue into category 1.
+- [ ] I said what evidence would be needed to move it, if any.
+- [ ] Forty-five seconds.
+
+**Common failure.** Placing a well-built feature in category 1 because it is
+well-built. Quality is not evidence of alignment.
+
+---
+
+## Exercise 48 — Why declared influence is not conformity
+
+**Task.** Explain the difference between *ISO 19650 principles inform our
+approach* and *we conform to ISO 19650*. Thirty seconds.
+
+**Why this exercise.** Category 1 contains one item and it is easily
+over-interpreted — by an audience, and by a presenter under pressure to sound
+substantive.
+
+**What good looks like.** Influence is a statement about where the thinking came
+from. Conformity is a statement about whether requirements are met — which needs
+requirements, evidence, and someone competent to judge. Our BEP makes both points
+in one breath: the principles inform the approach, **and** no compliance is
+claimed, established or assessed.
+
+**Success criteria**
+
+- [ ] I described influence as a statement about **origin**, not achievement.
+- [ ] I said conformity needs requirements, evidence and an assessor.
+- [ ] I quoted or paraphrased the BEP's own limiting sentence.
+- [ ] I did not treat influence as a partial or early form of conformity.
+- [ ] Thirty seconds.
+
+**Common failure.** "It's a first step towards compliance." That converts a
+standalone statement into a position on a journey nobody has mapped.
+
+---
+
+## Exercise 49 — Why an analogue is not requirement satisfaction
+
+**Task.** Explain why our CDE state model resembling ISO-associated practice does
+not mean we satisfy a requirement. Thirty seconds.
+
+**Why this exercise.** Category 2 is the biggest band, and resemblance is the most
+persuasive false signal in the whole module.
+
+**What good looks like.** Resemblance is a fact about vocabulary and shape.
+Requirement satisfaction is a fact about meeting stated obligations — and nobody
+here has read the obligations. Our states might match, exceed, or miss what the
+standard asks. **We cannot tell**, and looking similar is not evidence either way.
+
+**Success criteria**
+
+- [ ] I separated **shape** from **obligation**.
+- [ ] I said the comparison **cannot be made** from available material.
+- [ ] I acknowledged it might exceed as well as miss — the uncertainty runs both
+      ways.
+- [ ] I did not imply the resemblance is worthless. It is useful teaching.
+- [ ] Thirty seconds.
+
+**Common failure.** "It's basically the same model." Two overclaims: that there is
+a model we have seen, and that ours matches it.
+
+---
+
+## Exercise 50 — Why a gap is not non-conformity
+
+**Task.** Explain why nine recorded gaps do not add up to non-compliance. Thirty
+seconds.
+
+**Why this exercise.** An audience shown nine gaps will draw the obvious
+conclusion unless you close it explicitly.
+
+**What good looks like.** A gap is a **project state** — something not yet
+decided, not yet assigned, not yet evidenced. Non-conformity is an **audit
+finding** — a judgement that a requirement was not met, made by someone assessing
+against that requirement. Nobody has assessed this project against anything. So
+the gaps are open matters, not failures, and recording them is what makes the
+project credible rather than what condemns it.
+
+**Success criteria**
+
+- [ ] I distinguished **project state** from **audit finding**.
+- [ ] I said no assessment exists in **either** direction.
+- [ ] I framed recorded gaps as a strength of the documentation.
+- [ ] I did not apologise for the gaps.
+- [ ] Thirty seconds.
+
+**Common failure.** Listing the gaps again instead of explaining the category
+error. The audience already heard them; they need the distinction.
+
+---
+
+## Exercise 51 — "Is Harrismith ISO-compliant?"
+
+**Task.** Answer it. Thirty seconds. **This is Exercise 9, repeated deliberately
+after twelve more slides of context.**
+
+**Why this exercise.** You answered it once at the start of your preparation. The
+test now is whether twelve slides of material have made the answer *longer* — it
+should not have.
+
+**What good looks like.** No, and we have never claimed to be. Our BEP says it in
+writing: the principles inform how we manage information, which is a statement
+about influence. No compliance is claimed and none has been assessed. There is no
+clause-by-clause assessment on this project and there could not be. What we do
+have is a documented approach that shows the principles working — a different and
+more useful thing for a training implementation.
+
+**Success criteria**
+
+- [ ] **No** was the first word, or near enough.
+- [ ] I cited the **BEP's own statement**, not my own caution.
+- [ ] I gave the positive close without retracting the no.
+- [ ] The answer was **no longer** than it was at Exercise 9.
+- [ ] I did not use any of the six forbidden formulations.
+
+**Common failure.** Length. More context should make the answer more confident,
+not more elaborate.
+
+---
+
+## Exercise 52 — "Is Harrismith non-compliant?"
+
+**Task.** Answer it. Thirty seconds.
+
+**Why this exercise.** The mirror question, and the one presenters have not
+rehearsed. Having said *no* to compliance, the reflex is to accept the opposite.
+
+**What good looks like.** No — and that is not a dodge. Non-compliance is a
+finding, and findings come from assessments. Nobody has assessed this project
+against the standard. So I can't tell you we comply, and I equally can't tell you
+we don't. The honest position is that **no conformity conclusion is supported in
+either direction**, and I'd rather say that than pick whichever answer sounds
+more modest.
+
+**Success criteria**
+
+- [ ] I said **no** to this question too.
+- [ ] I explained that non-conformity requires an assessment.
+- [ ] I used *in either direction*, or an equivalent.
+- [ ] I did not sound evasive — the symmetry is the point.
+- [ ] Thirty seconds.
+
+**Common failure.** "Well, we're certainly not compliant." It sounds humble and it
+asserts a finding nobody made.
+
+---
+
+## Exercise 53 — Why a percentage would mislead
+
+**Task.** A senior stakeholder asks for a percentage alignment figure. Refuse it
+in thirty seconds, constructively.
+
+**Why this exercise.** The request is reasonable-sounding and hard to decline
+without seeming obstructive. Rehearse the constructive version.
+
+**What good looks like.** A number would assert three things we do not have: an
+assessment method, an evidence base, and a competent assessor. Ninety per cent
+against which requirements, judged by whom, on what evidence? What I can give you
+instead is the four-category map — what is evidenced, what illustrates the
+principles, what is unresolved, and what cannot be claimed. That tells you where
+to act. A percentage tells you nothing you can do anything with.
+
+**Success criteria**
+
+- [ ] I named the three things a number would assert.
+- [ ] I offered the **alternative** rather than only refusing.
+- [ ] I did not offer a rough figure "just to indicate".
+- [ ] I stayed constructive — this person needs to make a decision.
+- [ ] Thirty seconds.
+
+**Common failure.** Offering a hedged number — "somewhere around half, but don't
+quote me". It will be quoted, without the hedge.
+
+---
+
+## Exercise 54 — Necessary but not sufficient
+
+**Task.** Explain why buying a licensed copy of the standard would not make the
+project compliant. Thirty seconds.
+
+**Why this exercise.** Slide 13's licensed-copy position, and the point most
+likely to be misheard as *"so we just need to buy it"*.
+
+**What good looks like.** A licensed copy is **necessary** for clause-level
+verification — you cannot check against text you do not have. It is nowhere near
+**sufficient**. It does not establish that the standard applies to your project,
+does not assign responsibility for meeting it, does not define an assessment
+method, and does not produce the evidence. Buying the document is the cheapest
+part of the exercise.
+
+**Success criteria**
+
+- [ ] I used **necessary** and **not sufficient** explicitly.
+- [ ] I named at least three things the purchase does not do.
+- [ ] I did not discourage buying it — it genuinely is necessary.
+- [ ] I did not imply a purchase plus effort equals conformity.
+- [ ] Thirty seconds.
+
+**Common failure.** "It's a start." True, and it invites the next question to be
+about budget rather than about applicability and evidence.
+
+---
+
+## Exercise 55 — Five applicability questions
+
+**Task.** Generate five Triviron applicability questions from memory. **Questions
+only. Thirty seconds.**
+
+**Why this exercise.** Group 1, and the group most likely to slip into answers —
+because the presenter half-knows some of the answers for other projects.
+
+**What good looks like.** Which published edition applies? Which parts are
+relevant? **Does a licensed copy need to be obtained, and by whom?** Is any
+national adoption or local implementation guidance applicable? Who is authorised
+to determine that applicability?
+
+**Success criteria**
+
+- [ ] Five questions, each ending in a question mark.
+- [ ] The **licensed-copy question** was one of them.
+- [ ] I asked **who is authorised to decide**, not just what applies.
+- [ ] **Zero** answers, hints or defaults offered.
+- [ ] I did not name a jurisdiction.
+
+**Common failure.** "Which edition applies — well, 2018 currently." The clause
+after the dash is an answer to a question about a project you know nothing about.
+
+---
+
+## Exercise 56 — Five appointment and authority questions
+
+**Task.** Generate five Triviron appointment and authority questions. **Questions
+only. Thirty seconds.**
+
+**Why this exercise.** Group 3, and the group where inventing an organisation is
+easiest.
+
+**What good looks like.** Which organisations and parties are appointed? Which
+information-management functions must be fulfilled? Who performs each function?
+How will project terminology be mapped to the applicable standard and to the
+contracts? Which decisions require explicit authority? And the diagnostic: are job
+titles being confused with project functions?
+
+**Success criteria**
+
+- [ ] Five questions, all genuinely open.
+- [ ] I asked about **functions** before asking about people.
+- [ ] I included the terminology-mapping question.
+- [ ] **No organisation, role holder or job title was named.**
+- [ ] I did not assume a delivery structure.
+
+**Common failure.** "Who's the BIM Manager going to be?" It presumes the function
+becomes that title, which Slide 7 spent ninety seconds dismantling.
+
+---
+
+## Exercise 57 — Five implementation-evidence questions
+
+**Task.** Generate five Triviron implementation-evidence and assessment
+questions. **Questions only. Thirty seconds.**
+
+**Why this exercise.** Group 5 is the group everyone forgets, and it is the one
+that decides whether any alignment claim can ever be made.
+
+**What good looks like.** What evidence will demonstrate that the agreed process
+**operates**? Who will verify implementation? What deviations will be recorded?
+Who is competent and authorised to assess alignment or conformity? What scope,
+criteria and evidence will the assessment use? Who may approve or publish an
+alignment claim?
+
+**Success criteria**
+
+- [ ] Five questions covering evidence, verification, deviations, competence and
+      approval.
+- [ ] I asked **who may publish a claim** — the question nobody asks.
+- [ ] I did not describe an assessment procedure.
+- [ ] I did not imply an assessment is planned.
+- [ ] Thirty seconds.
+
+**Common failure.** Turning the group into a method — "so you'd do an internal
+audit, then…". Module 3 defines no assessment procedure, and Module 6 handles
+assurance.
+
+---
+
+## Exercise 58 — Deliver Slide 13 to time
+
+**Task.** Deliver the Slide 13 honesty explanation. **Target: 2.0 minutes.
+Measure it.**
+
+**Why this exercise.** It is the module's longest slide, its most important, and
+the one most likely to be either rushed or turned into an apology.
+
+**What good looks like.** Four categories, equal weight. Category 1 stated as one
+item and left visibly thin. Category 2 covered briskly — six analogues, none
+overclaimed. Category 3 delivered as findings, not confession. Category 4
+including **both** directions. Then the conclusion phrase, verbatim, and nothing
+after it.
+
+**Success criteria**
+
+- [ ] **2.0 minutes ± 15 seconds**, measured.
+- [ ] Category 1 held **one** item throughout.
+- [ ] I said the South African framework gap aloud.
+- [ ] I said category 4 excludes **failure to conform** as well as conformity.
+- [ ] I ended on **`No conformity conclusion supported`** and did not soften it.
+- [ ] My tone was descriptive, not apologetic.
+
+**Common failure.** Spending ninety seconds on the gaps because there are nine of
+them. Categories 1 and 4 carry the teaching; the gaps are evidence for it.
+
+---
+
+## Exercise 59 — The 30-second module closing
+
+**Task.** Deliver the three closing takeaways. **Target: 30 seconds. Measure it.**
+
+**Why this exercise.** It is the last thing the audience hears and the only part
+they will repeat to someone else.
+
+**What good looks like.** ISO 19650 is about information management, not software
+selection. Principles have to become project-specific requirements, assigned
+authority and evidence. And never claim alignment or conformity beyond your basis
+— with the positive note that a project which documents its decisions and records
+what it has not resolved is in a genuinely good position.
+
+**Success criteria**
+
+- [ ] **30 seconds ± 5 seconds**, measured.
+- [ ] All three takeaways, in order.
+- [ ] I ended on a **position**, not on a caveat.
+- [ ] I added no summary after them.
+- [ ] I did not introduce anything new.
+
+**Common failure.** Adding a fourth point. Three is the design; the fourth always
+dilutes the third, which is the one that matters.
+
+---
+
+## Exercise 60 — The 10-second fallback closing
+
+**Task.** Deliver the fallback closing. **Target: 10 seconds. Measure it.**
+
+**Why this exercise.** Sessions overrun. A presenter without a ten-second version
+either cuts the closing entirely or delivers a rushed thirty — and the closing is
+the one part that must survive.
+
+**What good looks like.** *"It's about information, not software. Principles have
+to become requirements, authority and evidence. And never claim alignment beyond
+what you can actually show."*
+
+**Success criteria**
+
+- [ ] **10 seconds or under**, measured.
+- [ ] All three ideas survive, even compressed.
+- [ ] I did not speak faster — I said less.
+- [ ] It still sounds like a conclusion, not an abandonment.
+- [ ] I can produce it from memory, cold.
+
+**Common failure.** Delivering the thirty-second version at double speed. The
+fallback is a different script, not the same one hurried.
+
+---
+
 ## Scope note
 
-**Forty-six exercises, covering the Slides 1–12 baseline and the questions that
-arrive regardless of which slides exist.** Exercises for Slides 13–14 are a later
-increment.
+**Sixty exercises, covering the complete Slides 1–14 content baseline.**
+
+| Set | Exercises | Covers |
+|---|---|---|
+| Foundation | 1–10 | Slides 1–3, and the questions that arrive regardless |
+| Section B | 11–22 | Slides 4–6 |
+| Section C | 23–34 | Slides 7–9 |
+| Section D and E opener | 35–46 | Slides 10–12 |
+| Section E | 47–60 | Slides 13–14 and the closings |
+
+**Exercise 10 is done after every one of the other fifty-nine.** If a sentence
+cannot be classified as principle, guidance, project evidence or your own
+framing, do not say it.

@@ -2,7 +2,8 @@
 
 **Status:** Traceability record for teaching material. **Not governance.**
 
-Statement-level classification for the developed slides — **Slides 1–12** — the
+Statement-level classification for the **complete content baseline — Slides
+1–14** — the
 method by which Harrismith may be mapped to ISO-associated concepts, and the list
 of claims that **may not be made** in this module under any circumstances.
 
@@ -66,10 +67,10 @@ the conflict is stated — it is not resolved by preferring the convenient one.
 
 ---
 
-## 4. Statement classification — Slides 1–12
+## 4. Statement classification — Slides 1–14
 
-**201 statements across twelve slides. 17 `PUBLIC-SOURCE`, 8 `GUIDANCE` (all UK),
-72 `HARRISMITH`, 34 `INTERP`, 17 `SYNTH`, 13 `UNRESOLVED`, 40 `EXCLUDED`.**
+**239 statements across fourteen slides. 17 `PUBLIC-SOURCE`, 8 `GUIDANCE` (all
+UK), 83 `HARRISMITH`, 40 `INTERP`, 29 `SYNTH`, 15 `UNRESOLVED`, 47 `EXCLUDED`.**
 
 | Slide | Statements | `PUB` | `GUID` | `HARR` | `INT` | `SYN` | `UNR` | `EXC` |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
@@ -85,33 +86,39 @@ the conflict is stated — it is not resolved by preferring the convenient one.
 | **10** | **23** | **1** | **0** | **12** | **3** | **1** | **1** | **5** |
 | **11** | **19** | **1** | **0** | **9** | **3** | **1** | **1** | **4** |
 | **12** | **20** | **0** | **0** | **10** | **3** | **2** | **1** | **4** |
-| **Total** | **201** | **17** | **8** | **72** | **34** | **17** | **13** | **40** |
+| **13** | **23** | **0** | **0** | **11** | **5** | **2** | **1** | **4** |
+| **14** | **15** | **0** | **0** | **0** | **1** | **10** | **1** | **3** |
+| **Total** | **239** | **17** | **8** | **83** | **40** | **29** | **15** | **47** |
 
-**Five observations from the totals.**
+**Six observations from the completed totals.**
 
-**Harrismith carries the module, and increasingly so.** 72 of 201 statements,
-against 17 public-source and 8 guidance. Sections D and E draw **31 of their 62
-statements** from this project. That ratio is the honest shape of a module whose
-subject is a document the programme does not hold: the principles are external,
-and **every concrete illustration is this project's own**.
+**Harrismith carries the module.** 83 of 239 statements, against 17 public-source
+and 8 guidance. That ratio is the honest shape of a module whose subject is a
+document the programme does not hold: the principles are external, and **every
+concrete illustration is this project's own**.
 
-**Four slides have no `PUBLIC-SOURCE` statement at all** — Slides 2, 7, 8 and 12.
-Each is built entirely from Harrismith evidence, UK guidance or presenter
-framing, and each carries the same delivery obligation: **attribute, or the
-audience hears ISO.**
+**Five slides have no `PUBLIC-SOURCE` statement at all** — Slides 2, 7, 8, 12 and
+13. Each is built from Harrismith evidence, UK guidance or presenter framing, and
+each carries the same delivery obligation: **attribute, or the audience hears
+ISO.** Slide 13 matters most, because it is the slide an audience will quote.
+
+**Slide 14 has no evidence of any kind** — no public source, no guidance, no
+Harrismith. **It is the only slide built entirely from teaching synthesis**, and
+correctly so: its subject is a project that does not exist yet.
 
 **`GUIDANCE` appears on four slides only — 5, 6, 7 and 8 — and nowhere after.**
-`X5` and `X6` register nothing about common data environments, delivery planning
-or implementation evidence, so **Slides 10, 11 and 12 attribute nothing to them.**
-An absence of guidance is recorded rather than filled.
+`X5` and `X6` register nothing about common data environments, delivery planning,
+implementation evidence or conformity, so Slides 10–14 attribute nothing to them.
+**An absence of guidance is recorded rather than filled.**
 
-**Slide 10 is the most Harrismith-dependent slide in the module** — 12 of 23
-statements, and four of them gaps. It is also the slide where a **diagram can
-overclaim without a word being spoken**; see prohibitions 34 and 36.
+**`EXCLUDED` is the second-largest class** — 47 statements, plus 52 prohibited
+claims. That is deliberate: the closer the module gets to *how it is done* and to
+*what may be claimed*, the more of its content is a boundary.
 
-**`EXCLUDED` has grown faster than any other class** — 40 statements, plus 40
-prohibited claims. In Sections D and E that is deliberate: the closer the module
-gets to *how it is done*, the more of its content is a boundary.
+**`DIRECTLY EVIDENCED` has exactly two statements, both on Slide 13, both about
+one item.** In a module of 239 statements, **the directly evidenced relationship
+between Harrismith and ISO 19650 is a single declaration of influence.** That is
+the module's central finding, and no statement elsewhere may imply otherwise.
 
 ### 4.0 Slides 1–3 — summary
 
@@ -602,6 +609,100 @@ fourth such slide — 2, 7, 8 and 12 — and carries the same obligation:
 | `M3-S12-16`–`19` | — | **Excluded — prohibitions 38, 39, 40.** Delivery test: **if the slide begins scoring compliance, stop** |
 | `M3-S12-20` | Answer: not established; no sequence has been read | — |
 
+### Slide 13 — How Harrismith may be mapped, and where the evidence stops
+
+| ID | Statement | Source | Level | Jurisdiction | Publication status | Class |
+|---|---|---|---|---|---|---|
+| `M3-S13-01` | **Harrismith states that ISO 19650 principles inform its approach** | `H1` §11.2, §13.4 | A3 | This project | Approved with conditions | **`HARRISMITH` — `DIRECTLY EVIDENCED`** |
+| `M3-S13-02` | *"This is a statement about influence. **No formal compliance with ISO 19650 is claimed**, and none has been established or assessed."* | `H1` §11.2 | A3 | This project | Approved with conditions | **`HARRISMITH` — `DIRECTLY EVIDENCED`** |
+| `M3-S13-03` | Declared influence demonstrates **neither conformity, implementation nor successful operation** | `H1` §11.2 | A4 | — | — | **`INTERP`** |
+| `M3-S13-04` | Six analogues — BEP governance framework · role and responsibility definitions · controlled information states · responsibility matrices · planned information delivery · issue and coordination controls | `H1`, `H2` | A3 | This project | Approved with conditions | **`HARRISMITH` — analogue** |
+| `M3-S13-05` | **Resemblance does not prove ISO alignment** | — | A4 | — | — | **`INTERP`** |
+| `M3-S13-06` | Gap — **no licensed clause-level assessment** | §8 item 1 | A3 | This project | — | **`HARRISMITH` — `GAP OR UNVERIFIED`** |
+| `M3-S13-07` | Gap — no complete information-requirement basis | `H1` §7.3, §10.2 | A3 | This project | Approved with conditions | **`HARRISMITH` — `GAP OR UNVERIFIED`** |
+| `M3-S13-08` | Gap — no verified terminology mapping | Slide 8; §8 item 14 | A3 | This project | Approved with conditions | **`HARRISMITH` — `GAP OR UNVERIFIED`** |
+| `M3-S13-09` | Gap — no named holders or complete appointments | `H1` §2.3, §5 | A3 | This project | Approved with conditions | **`HARRISMITH` — `GAP OR UNVERIFIED`** |
+| `M3-S13-10` | Gap — **unresolved publication authority** | `H1` §9.7; `H2` §11; IM matrix D4 | A3 | This project | Approved with conditions | **`HARRISMITH` — `GAP OR UNVERIFIED`** |
+| `M3-S13-11` | Gap — **unresolved acceptance authority** | `H1` §9.8, §10.11; IM matrix D7 | A3 | This project | Approved with conditions | **`HARRISMITH` — `GAP OR UNVERIFIED`** |
+| `M3-S13-12` | Gap — incomplete implementation evidence | `H1` §12.9; IM matrix `A4` | A3 | This project | Approved with conditions | **`HARRISMITH` — `GAP OR UNVERIFIED`** |
+| `M3-S13-13` | Gap — no verified asset-life-cycle information strategy | `H1` §3.3 | A3 | This project | Approved with conditions | **`HARRISMITH` — `GAP OR UNVERIFIED`** |
+| `M3-S13-14` | Gap — **no confirmed South African implementation framework** | Register §6; `H1` §13.4 | — | **South Africa** | — | **`UNRESOLVED`** |
+| `M3-S13-15` | Seven excluded conclusions — conforms · fails to conform · software demonstrates conformity · UK guidance is the South African rule · terminology is equivalent · documentation proves implementation · a checklist is an assessment | — | — | — | — | **`EXCLUDED`** |
+| `M3-S13-16` | Six distinctions — influence ≠ implementation · analogue ≠ requirement satisfaction · documented ≠ operating · unresolved ≠ failed · gap ≠ non-conformity · mapping ≠ assessment | — | A4 | — | — | **`INTERP`** |
+| `M3-S13-17` | **The public material does not contain the complete requirements** — it describes scope | `X1`, `X2` | A4 | International | Published | **`INTERP`** |
+| `M3-S13-18` | A licensed copy would be **necessary** for clause-level verification and is **not sufficient** — applicability, responsibility and assessment method must still be established | — | A4 | — | — | **`INTERP`** |
+| `M3-S13-19` | *"Harrismith contains useful analogues and declared influence, but the available evidence does not support a conformity conclusion in either direction"* | none | A5 | — | — | **`SYNTH`** |
+| `M3-S13-20` | The status phrase — **`No conformity conclusion supported`** | none | A5 | — | — | **`SYNTH`** |
+| `M3-S13-21` | `partially compliant` · `not compliant yet` · `mostly aligned` · `ISO-ready` · `maturity level` · `percentage aligned` | — | — | — | — | **`EXCLUDED`** |
+| `M3-S13-22` | Any formal conformity-assessment procedure | — | — | — | — | **`EXCLUDED`** |
+| `M3-S13-23` | Any tick, cross, score, percentage, traffic light, progression or dominant alignment band | — | — | — | — | **`EXCLUDED`** |
+
+**`DIRECTLY EVIDENCED` appears here and nowhere else in the module.** Two
+statements, one item, and it is a statement about **declared influence** — not
+about practice.
+
+**Teaching use and warnings**
+
+| ID | Teaching use | Warning |
+|---|---|---|
+| `M3-S13-01`–`02` | **Category 1, in full** | **Its near-emptiness is the finding.** Do not promote analogues into it to make the slide look substantive |
+| `M3-S13-03` | The first and most important distinction | Influence is a statement the project made about itself. Nothing follows from it about operation |
+| `M3-S13-04` | Category 2 | **Every item stays labelled an analogue.** Sharing a word with the standard proves nothing about meeting it |
+| `M3-S13-05` | Guards category 2 | — |
+| `M3-S13-06`–`13` | Category 3 — **eight sourced gaps** | **No speculative deficiency is added.** Each traces to a slide or a source-map entry |
+| `M3-S13-14` | The ninth gap | **Say the South African position aloud.** UK guidance is not a substitute for a national framework |
+| `M3-S13-15` | Category 4 | Note that it excludes **both** directions — conformity *and* failure to conform |
+| `M3-S13-16` | The slide's actual teaching | Six distinctions; the seventh — that assessment needs an authorised basis, adequate evidence and a competent assessor — closes it |
+| `M3-S13-17`–`18` | The licensed-standard position | **Necessary, not sufficient.** Buying the document is the cheapest part of the exercise |
+| `M3-S13-19`–`20` | The message and the only permitted conclusion | Teaching synthesis |
+| `M3-S13-21` | — | **Excluded — prohibitions 41–45.** Every one of these smuggles in an assessment nobody performed |
+| `M3-S13-22` | — | **Excluded.** Module 3 defines no conformity-assessment procedure and must not appear to |
+| `M3-S13-23` | — | **Excluded — prohibition 40.** The four bands carry equal weight and no ordering |
+
+### Slide 14 — What Triviron must verify before claiming alignment
+
+| ID | Statement | Source | Level | Jurisdiction | Publication status | Class |
+|---|---|---|---|---|---|---|
+| `M3-S14-01` | **Group 1 — applicability and source basis**: which edition, which parts, licensed copy, access control, national adoption or local guidance, who determines applicability | none | A5 | — | — | **`SYNTH`** |
+| `M3-S14-02` | **Group 2 — information requirements and purposes**: what decisions, what the client function requires, at which events, which recipients and purposes, what level of information need and how agreed | none | A5 | — | — | **`SYNTH`** |
+| `M3-S14-03` | **Group 3 — appointments, functions and terminology**: who is appointed, which functions must be fulfilled, who performs each, how terminology is mapped, whether titles are being confused with functions, which decisions require explicit authority | none | A5 | — | — | **`SYNTH`** |
+| `M3-S14-04` | **Group 4 — CDE and delivery arrangements**: governance model, required states and purposes, who authorises transitions and exchanges, how delivery is planned, which publication, receipt and acceptance authorities must be assigned, how permissions follow decisions | none | A5 | — | — | **`SYNTH`** |
+| `M3-S14-05` | **Group 5 — implementation evidence and assessment**: what evidence demonstrates operation, who verifies, what deviations are recorded, who is competent and authorised to assess, what scope and criteria, who may approve or publish a claim | none | A5 | — | — | **`SYNTH`** |
+| `M3-S14-06` | **"Does a licensed copy of the applicable standard need to be obtained, and by whom?"** — the compulsory visible question | none | A5 | — | — | **`SYNTH`** |
+| `M3-S14-07` | The end state — **`Evidence-based conclusion — not yet available`** | none | A5 | — | — | **`SYNTH`** |
+| `M3-S14-08` | *"ISO alignment is not inherited from a template or a software platform; it must be established for the specific project through applicable requirements, appointments, authorised processes and evidence"* | none | A5 | — | — | **`SYNTH`** |
+| `M3-S14-09` | Closing takeaway 1 — **ISO 19650 concerns information management, not software selection** | `X1` | A4 | International | Published | **`INTERP`** |
+| `M3-S14-10` | Closing takeaway 2 — **principles must become project-specific requirements, authority and evidence** | none | A5 | — | — | **`SYNTH`** |
+| `M3-S14-11` | Closing takeaway 3 — **alignment or conformity must never be claimed beyond the available basis** | none | A5 | — | — | **`SYNTH`** |
+| `M3-S14-12` | **No Triviron project fact exists in the registered evidence** | — | — | — | — | **`UNRESOLVED`** |
+| `M3-S14-13` | Any Triviron jurisdiction, project type, asset type, client, procurement route, contract form, information requirement, appointment, software, delivery stage, date, intended certification or existing ISO alignment | — | — | — | — | **`EXCLUDED`** |
+| `M3-S14-14` | Any answer populated into the question framework | — | — | — | — | **`EXCLUDED`** |
+| `M3-S14-15` | That the Harrismith mapping is reusable by Triviron **without project-specific review** | — | — | — | — | **`EXCLUDED`** |
+
+**This slide has no `PUBLIC-SOURCE`, no `GUIDANCE` and no `HARRISMITH` statement.**
+It is **the only slide in the module built entirely from teaching synthesis**,
+and correctly so: its subject is a project that does not exist yet. The questions
+derive from Module 3's principles and Harrismith's recorded gaps; **no answer is
+available to any of them.**
+
+**Teaching use and warnings**
+
+| ID | Teaching use | Warning |
+|---|---|---|
+| `M3-S14-01` | Group 1 | **Do not answer the applicability question.** Determining it is itself a question, and the slide asks *who is authorised* to do so |
+| `M3-S14-02` | Group 2 | **No formal requirement hierarchy is defined** — no definition-level source is registered (prohibition 16) |
+| `M3-S14-03` | Group 3 | *Are job titles being confused with project functions?* is a **diagnostic**, and the one question a team can answer immediately |
+| `M3-S14-04` | Group 4 | **Conceptual only.** Modules 4 and 5 develop the detailed controls |
+| `M3-S14-05` | Group 5 | **Concept only.** Assurance procedure is Module 6, and no assessment method is defined |
+| `M3-S14-06` | **Compulsory and visible** | Must appear on the slide. **Do not answer it for Triviron** |
+| `M3-S14-07` | The end state | Not a failure state. It is the correct position for a project that has not started |
+| `M3-S14-08` | The closing message | Teaching synthesis |
+| `M3-S14-09`–`11` | The three takeaways — **the last thing said** | Do not summarise the module after them. The takeaways **are** the summary |
+| `M3-S14-12` | The evidence boundary, stated first | — |
+| `M3-S14-13` | — | **Excluded — prohibitions 50–52.** The pull is to be helpful in an aside; an invented fact in an aside is still an invented fact |
+| `M3-S14-14` | — | **Excluded.** Questions only. A populated answer converts a framework into a plan |
+| `M3-S14-15` | — | **Excluded — prohibition 49.** What transfers is the **method**, not the content |
+
 ## 5. Harrismith mapping method
 
 The method for Slide 13 and for every later Harrismith reference. **Four
@@ -778,6 +879,35 @@ model that completes through Published, or a timeline that reads as progress,
 each assert something this project cannot support — **without a word being
 spoken.** `V8` and `V9` record the design requirements that prevent it.
 
+### 7.5 Additional prohibitions recorded in T3-E
+
+Twelve more, arising from Slides 13–14. Same weight as §7. **These close the
+list at 52.**
+
+| # | Prohibited | Why |
+|---|---|---|
+| 41 | **`partially compliant`** | Claims that somebody measured the parts. **Nobody measured anything.** It sounds modest and is a larger claim than *we don't know*, because it asserts an assessment happened **and reports its result** |
+| 42 | **`mostly aligned`** | Same defect, vaguer. *Mostly* against what baseline, judged by whom? |
+| 43 | **`ISO-ready`** | Asserts a distance-to-conformity nobody calculated, and implies a destination nobody agreed |
+| 44 | **Percentage alignment** | A number asserts an assessment method, an evidence base and a competent assessor. **None exists** |
+| 45 | **Maturity-level scoring** | A ladder implies an ordered path with a top. Module 3 records a **classification**, not a journey |
+| 46 | **A licensed copy automatically creating conformity** | A licensed copy is **necessary** for clause-level verification and **nowhere near sufficient**. It does not establish applicability, assign responsibility, define the assessment method, or produce evidence |
+| 47 | **Checklist completion constituting conformity assessment** | Completing a list is not assessing against requirements. **Assessment requires an authorised basis, adequate evidence and a competent assessor** |
+| 48 | **Buying software proving alignment** | **Restates prohibitions 2 and 38** at the module's closing, because it is the last thing an audience will try. Recorded separately so Slide 14's answer is traceable |
+| 49 | **The Harrismith mapping being reusable without project-specific review** | The mapping reflects **this project's** arrangements, unresolved decisions and absent client requirements. **The method transfers; the content does not** |
+| 50 | **Any Triviron applicability conclusion** | No Triviron project fact exists. Jurisdiction, edition, applicable parts and national guidance are **questions**, not findings |
+| 51 | **Any Triviron appointment or authority claim** | No party, organisation, function holder or authority may be named or implied |
+| 52 | **Any Triviron implementation-evidence claim** | No evidence, verification, deviation record or assessment may be described as existing or planned |
+
+**Prohibitions 41–45 are one failure in five costumes.** Each converts *no
+conclusion is supported* into a graded result, and each does it in language that
+sounds more cautious than the truth. **`No conformity conclusion supported`** is
+the only permitted formulation.
+
+**Prohibitions 50–52 protect a project that does not exist.** The pull on Slide
+14 is to be helpful — *"presumably Triviron will be…"* — and an invented fact in
+an aside is still an invented fact, repeated later as a project assumption.
+
 ## 8. Unresolved matters carried forward
 
 | # | Unresolved | Resolved by |
@@ -815,6 +945,8 @@ project itself. They resolve by decision, not by research.
 | 21 | **Harrismith's governance-change approval authority by change class** (IM matrix `A2`) | **An open project decision.** *"No single universal approver exists"* |
 | 22 | Harrismith's **retention approach**, and whether any record structure is required | **An open project decision** — BEP §6.3. **No `04 Archive` root is approved** |
 | 23 | Harrismith's **implementation evidence** | Verification activity that has not been performed — BEP §12.9; IM matrix `A4` |
+| 24 | Whether ISO 19650 applies to any future Triviron project, and which parts | **A project decision, by someone authorised to determine applicability** — Slide 14, Group 1. **Not a research question** |
+| 25 | **Who is competent and authorised to assess conformity** in this programme's context | Outside this programme entirely. Module 3 **defines no assessment procedure** and names no assessor |
 
 **Items 19–23 are the Sections D and E gaps, and all five are open project
 decisions.** They resolve by someone deciding and recording, not by research —
@@ -834,25 +966,186 @@ finding, and Module 3 does not take it.
 about ISO 19650 is scope, guidance or analogy. **If the audience needs the
 requirement, they need the standard.**
 
-## 9. Status
+## 9. Module-wide final reconciliation
+
+**The complete evidence position for Module 3, by category. Nothing is collapsed
+to make the result look simpler.**
+
+### 9.1 Public ISO scope statements used — 17
+
+| Category | IDs |
+|---|---|
+| **Part 1 scope** — concepts and principles; framework covering exchanging, recording, versioning and organising information; life-cycle reach | `M3-S1-01` · `M3-S1-02` · `M3-S1-03` · `M3-S3-04` · `M3-S4-01` · `M3-S5-03` · `M3-S6-02` · `M3-S9-01` |
+| **Part 2 scope** — delivery-phase information-management process; exchanges within it; applicability across asset types, organisations and procurement strategies | `M3-S1-04` · `M3-S3-03` · `M3-S4-02` · `M3-S10-01` · `M3-S11-01` |
+| **Edition currency** — `ISO 19650-1:2018` and `ISO 19650-2:2018` are the current published editions | `M3-S3-01` · `M3-S3-02` |
+| **Draft status** — revision projects exist; a draft is **not** a current published requirement | `M3-S3-05` · `M3-S3-06` |
+
+**All 17 describe scope or status. None describes a requirement**, because the
+text has not been read.
+
+### 9.2 UK implementation-guidance statements — 8
+
+| ID | Statement | Slide |
+|---|---|---|
+| `M3-S5-01` | Requirements established **appointment by appointment** | 5 |
+| `M3-S5-02` | Information management improves specification, production, review and transfer | 5 |
+| `M3-S6-01` | The same, applied to review and transfer | 6 |
+| `M3-S7-01` | **Functions rather than new job titles** | 7 |
+| `M3-S7-02` | The **appointing party** must ensure the function is fulfilled | 7 |
+| `M3-S7-03` | The **lead appointed party** must ensure the relevant function is fulfilled | 7 |
+| `M3-S8-01` | **appointing party** as an ISO-associated term | 8 |
+| `M3-S8-02` | **lead appointed party** as an ISO-associated term | 8 |
+
+**All eight are `X5`/`X6`, jurisdiction `UNITED KINGDOM`, authority level A2.**
+Every one is UK-labelled on the slide and aloud. **None appears after Slide 8**,
+and none is promoted to `PUBLIC-SOURCE` anywhere.
+
+### 9.3 Harrismith analogues — 44
+
+| Slide | IDs | Count |
+|---|---|---:|
+| 4 | `13` | 1 |
+| 5 | `04` · `05` · `06` · `07` | 4 |
+| 6 | *(none — Slide 6's two Harrismith statements are both gaps)* | 0 |
+| 7 | `06` · `07` · `08` · `09` | 4 |
+| 8 | `05` · `06` · `08` · `10` | 4 |
+| 9 | `04`–`10` · `15` | 8 |
+| 10 | `03` · `05` · `06` · `07` · `08` · `09` · `10` · `14` | 8 |
+| 11 | `03` · `04` · `05` · `06` · `07` · `13` | 6 |
+| 12 | `04`–`10` · `14` | 8 |
+| 13 | `04` *(six project arrangements, one statement)* | 1 |
+| | **Total** | **44** |
+
+**Every analogue illustrates a principle and evidences nothing about the
+standard.**
+
+**Slides 1–3 contribute no sub-categorised analogue.** Their eight Harrismith
+statements predate the sub-categorisation introduced in T3-B and are **not
+retrofitted** — Slide 1's three are the project's own influence and
+no-compliance declarations, Slide 2's five are the platform distinctions, and
+Slide 3 has no Harrismith content at all. **8 + 44 + 29 + 2 = 83.**
+
+### 9.4 Harrismith gaps and unverified matters — 29
+
+| Subject | IDs |
+|---|---|
+| Asset management, handover and standards verification **outside current scope** | `M3-S4-11` · `M3-S4-12` |
+| **No formal information requirements**; not invented; project facts TBD | `M3-S5-09` · `M3-S5-10` · `M3-S5-12` |
+| **Level of information need not defined**; not inferred from model content | `M3-S6-09` · `M3-S6-10` |
+| **No named holders** for any defined function | `M3-S7-10` |
+| `lead appointed party` and `appointed party` at **zero occurrences**; `delivery team` incidental; `Lead Delivery Party` identity **not established** | `M3-S8-07` · `M3-S8-09` · `M3-S8-11` |
+| Container allocations are **PROPOSED GOVERNANCE**; intended governance, not live inventory | `M3-S9-11` |
+| **`T4` blocked**; no authorising function; **`TRN-E03` blocked**; Record / Retained not a folder, retention TBD | `M3-S10-11` · `M3-S10-12` · `M3-S10-13` · `M3-S10-15` |
+| **No real dates**; `TRN-E03` blocked; recipient and acceptance authority unestablished | `M3-S11-10` · `M3-S11-11` · `M3-S11-12` |
+| **`A2` TBD across every function**; implementation evidence incomplete; **no conformity assessment performed** | `M3-S12-11` · `M3-S12-13` |
+| The eight sourced gaps consolidated on Slide 13 | `M3-S13-06`–`M3-S13-13` |
+
+**Every gap traces to a controlled source. None was added speculatively**, and
+none is presented as non-conformity.
+
+### 9.5 Directly evidenced alignment — 2 statements, 1 item
+
+| ID | Statement |
+|---|---|
+| `M3-S13-01` | Harrismith **states** that ISO 19650 principles inform its approach |
+| `M3-S13-02` | *"This is a statement about influence. No formal compliance is claimed, and none has been established or assessed."* |
+
+**This is the whole of category 1.** It evidences a **declaration**, not a
+practice — and the project made the declaration and its limits in the same
+breath.
+
+### 9.6 Prohibited conformity inferences — 52
+
+| Group | # | Subject |
+|---|---|---|
+| §7 | 1–8 | Core — Harrismith conformity, software certification, guidance-as-ISO, drafts-as-current, abstracts-as-requirements, title-as-function, silent terminology substitution, unsupported clause requirements |
+| §7.1 (T3-A) | 9–14 | Invented clause numbers and dates; ISO diagrams; over-length quotation; executed exchange; South African requirement; Triviron fact |
+| §7.2 (T3-B) | 15–20 | Life-cycle diagrams; requirement acronyms; level-of-information-need definitions; detail-as-conformity; the eternal model; **gaps-as-non-conformity** |
+| §7.3 (T3-C) | 21–30 | ISO requiring a BIM Manager; title/person as function; `Lead Delivery Party` identity; consultant or contractor as appointed party; task-team terminology as conformity; container as Revit file; federation merging ownership; folder proving status; sharing transferring responsibility |
+| §7.4 (T3-D) | 31–40 | Platform as conforming CDE; folder position; Shared as approved; complete `Shared → Published` route; `TRN-E03` deliverable; schedule entry as delivery; date as acceptance; configuration as conformity; chain completed; **maturity or compliance score** |
+| §7.5 (T3-E) | 41–52 | `partially compliant`; `mostly aligned`; `ISO-ready`; percentage; maturity level; licensed copy as conformity; checklist as assessment; software purchase as alignment; mapping reuse without review; **three Triviron prohibitions** |
+
+**Prohibitions 1 and 20 are mirrors and both hold at once**: Module 3 may not
+claim Harrismith conforms, and may not claim it fails. **Nobody has assessed it.**
+
+### 9.7 Unresolved source questions — 15 statement-level, 25 module-level
+
+**Statement-level:** `M3-S1-11` · `M3-S3-09` · `M3-S4-17` · `M3-S5-16` ·
+`M3-S6-17` · `M3-S7-16` · `M3-S8-03` · `M3-S8-04` · `M3-S8-18` · `M3-S9-22` ·
+`M3-S10-23` · `M3-S11-19` · `M3-S12-20` · `M3-S13-14` · `M3-S14-12`.
+
+**Module-level:** the 25 matters in §8, of which:
+
+| Kind | Items | Resolved by |
+|---|---|---|
+| **Evidence gaps in this programme** | 1–3, 5, 7–9, 12–18 | **A licensed copy of the standard** |
+| **Open project decisions on Harrismith** | 10, 11, 19–23 | **Someone deciding and recording** — not research |
+| **Outside this programme** | 4, 6, 24, 25 | External research, the Triviron project, or an authorised assessor |
+
+**The three kinds must not be conflated.** An evidence gap is fixed by reading; a
+project decision is fixed by deciding; and the last four are not this
+repository's to fix at all.
+
+### 9.8 Teaching-synthesis statements — 29
+
+| Slide | IDs |
+|---|---|
+| 1 | `05` · `07` |
+| 2 | `08` · `09` |
+| 4 | `09` · `10` |
+| 5 | `11` |
+| 6 | `04` · `11` |
+| 7 | `12` |
+| 8 | `12` · `13` |
+| 9 | `14` |
+| 10 | `17` |
+| 11 | `14` |
+| 12 | `01` · `15` |
+| 13 | `19` · `20` |
+| 14 | `01`–`08` · `10` · `11` |
+
+**Every one is labelled at the point of use** — in the outline, in the notes'
+evidence classification, and here. **None is introduced with "ISO says".** Slide
+14 alone contributes ten, because its subject has no evidence and could have none.
+
+### 9.9 Module-boundary deferrals — Modules 4, 5 and 6
+
+| Deferred to | Subject | Recorded at |
+|---|---|---|
+| **Module 4** | CDE state mechanics; transitions and transition authority; evidence requirements and conditions; naming and suitability coding; metadata; folder workflows; the complete state diagram | `M3-S9-21` · `M3-S10-22` |
+| **Module 5** | Responsibility matrices row by row; container allocation and breakdown; delivery-schedule field structure and row construction; purpose and suitability mechanics | `M3-S9-21` · `M3-S11-18` |
+| **Module 6** | Coordination, review, approval and **assurance procedure** — how verification is performed, by whom, against what | Outline §3; `V10` boundary note |
+| **No module** | Any clause-level ISO requirement, definition or figure | §7, prohibition 8 |
+
+**Three delivery tests carry the boundary into the room:** if a slide explains how
+a transition is performed, how a schedule row is populated, or begins scoring
+compliance — **stop**.
+
+---
+
+## 10. Status
 
 | Field | Value |
 |---|---|
-| Statements classified | **Slides 1–12 — 201 statements** |
-| `PUBLIC-SOURCE` | 17 |
+| Statements classified | **Slides 1–14 — 239 statements. Content baseline complete** |
+| `PUBLIC-SOURCE` | 17 — **all scope or status; none a requirement** |
 | `GUIDANCE` — **all UK** | **8** — on Slides 5–8 only; **nothing after Slide 8** |
-| `HARRISMITH` | 72 — the **64 in Slides 4–12 are sub-categorised: 43 analogue, 21 gap or unverified**. The 8 in Slides 1–3 predate the sub-categorisation and are not retrofitted |
-| `INTERP` | 34 |
-| `SYNTH` | 17 |
-| `UNRESOLVED` | 13 statement-level, plus 23 module-level (§8) |
-| `EXCLUDED` | 40 statement-level, plus **40 prohibited claims** (§7, §7.1–§7.4) |
-| Slides with **no** `PUBLIC-SOURCE` statement | **2, 7, 8 and 12** |
+| `HARRISMITH` | 83 — the **75 in Slides 4–14 are sub-categorised: 44 analogue, 29 gap or unverified, 2 directly evidenced**. The 8 in Slides 1–3 predate the sub-categorisation and are not retrofitted |
+| `INTERP` | 40 |
+| `SYNTH` | 29 |
+| `UNRESOLVED` | 15 statement-level, plus 25 module-level (§8) |
+| `EXCLUDED` | 47 statement-level, plus **52 prohibited claims** (§7, §7.1–§7.5) |
+| Slides with **no** `PUBLIC-SOURCE` statement | **2, 7, 8, 12 and 13** |
+| Slides with **no evidence of any kind** | **14** — teaching synthesis only |
+| **`DIRECTLY EVIDENCED ALIGNMENT`** | **1 item, 2 statements** — Slide 13. **Its near-emptiness is the module's central finding** |
 | Vocabulary relationships recorded | **6** — Slide 8. **None is `ESTABLISHED`** |
 | Blocked routes recorded | **`T4` and `TRN-E03`** — Slides 10 and 11. **Both must remain visibly blocked** |
-| Slides 13–14 | **Not classified.** Not developed |
-| Mapping method | **Established (§5)**, extended in T3-B, T3-C and T3-D; applied fully at Slide 13 |
+| Permitted conformity conclusion | **`No conformity conclusion supported`** — and no other formulation |
+| Mapping method | **Established (§5)**, extended in T3-B to T3-E; **applied in full at Slide 13** |
+| Final reconciliation | **Complete (§9)** |
 | Clause references used | **Zero** |
 | Requirement acronyms used | **Zero** |
 | Level-of-information-need definitions given | **Zero** — plain concept only |
 | ISO definitions of *information container* quoted | **Zero** — working description only |
 | Named holders, appointments or organisations | **Zero** |
+| Triviron facts asserted | **Zero** — questions only |

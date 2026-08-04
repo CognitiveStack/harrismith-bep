@@ -1,9 +1,8 @@
 # Module 3 — Presentation Outline
 
-**Status:** Working outline. **Slides 1–12 developed; Slides 13–14 are titles,
-purposes and time allocations only.** This is **not a final presentation**: no
-visual source exists, no deck has been assembled, and the timing below is an
-allocation that has never been measured.
+**Status:** Working outline. **Full content baseline — Slides 1–14 developed.**
+This is **not a final presentation**: no visual source exists, no deck has been
+assembled, and the timing below is an allocation that has never been measured.
 
 Every ISO-related statement in this file is bounded by
 [`external-source-register.md`](external-source-register.md). Classification is
@@ -38,9 +37,9 @@ in [`source-map.md`](source-map.md).
 | 10 | The CDE controls permitted use and exchange | 1.5 | ✅ |
 | 11 | Information delivery must be planned | 1.5 | ✅ |
 | 12 | A principle is not a platform configuration | 1.0 | ✅ |
-| 13 | **How Harrismith may be mapped — and where the evidence stops** | 2.0 | ⬜ |
-| 14 | What Triviron must verify before claiming alignment | 1.0 | ⬜ |
-| | **Total** | **20.0** | **12 of 14** |
+| 13 | **How Harrismith may be mapped — and where the evidence stops** | 2.0 | ✅ |
+| 14 | What Triviron must verify before claiming alignment | 1.0 | ✅ |
+| | **Total** | **20.0** | **14 of 14** |
 
 ### Refinements to the proposed sequence
 
@@ -79,7 +78,7 @@ left Module 3. Module 3 explains **why the control exists**.
 
 ---
 
-## 4. Developed slides — initial teaching baseline
+## 4. Developed slides — the full content baseline
 
 Speaker notes: [`speaker-notes.md`](speaker-notes.md). Statement classification:
 [`source-map.md`](source-map.md) §4. Source identifiers `X1`–`X6`, `H1`, `H2` are
@@ -1132,22 +1131,236 @@ value is that the last two rows are empty.
 the standard. This is what sits between them."* Then run the chain. The slide has
 one minute and the chain is seven steps.
 
+### Slide 13 — How Harrismith may be mapped, and where the evidence stops · 2.0 min
+
+**Purpose of the slide**
+
+Show how a project may be examined against ISO-associated principles **without
+turning the exercise into an unsupported conformity assessment**. This is the
+module's principal honesty slide and its longest.
+
+**Four categories, equal status**
+
+#### 1 — `DIRECTLY EVIDENCED ALIGNMENT`
+
+**One item. Only one.**
+
+> Harrismith **states that ISO 19650 principles inform its approach** — BEP
+> §11.2, §13.4.
+
+That is **declared influence**, evidenced because the project declared it. In the
+same breath the BEP adds: *"This is a statement about influence. **No formal
+compliance with ISO 19650 is claimed**, and none has been established or
+assessed."*
+
+**It demonstrates influence. It does not demonstrate conformity, implementation
+or successful operation.**
+
+#### 2 — `LOCAL ANALOGUE OR INTERPRETATION`
+
+Project arrangements that **resemble or illustrate** information-management
+concepts:
+
+| | |
+|---|---|
+| A BEP governance framework | Controlled information states |
+| Role and responsibility definitions | Responsibility matrices |
+| Planned information delivery | Issue and coordination controls |
+
+**Every item stays labelled an analogue.** Resemblance is not alignment, and
+sharing a word with the standard proves nothing about meeting it.
+
+#### 3 — `GAP OR UNVERIFIED`
+
+Nine, each supported by the source map — **no speculative deficiency is added**:
+
+| # | | Where recorded |
+|---|---|---|
+| 1 | **No licensed clause-level assessment** | §8 item 1 |
+| 2 | No complete information-requirement basis | Slide 5 · `M3-S5-09` |
+| 3 | No verified terminology mapping | Slide 8 · §8 item 14 |
+| 4 | No named holders or complete appointments | Slide 7 · `M3-S7-10` |
+| 5 | **Unresolved publication authority** | Slide 10 · `M3-S10-11` |
+| 6 | **Unresolved acceptance authority** | Slide 11 · `M3-S11-12` |
+| 7 | Incomplete implementation evidence | Slide 12 · `M3-S12-13` |
+| 8 | No verified asset-life-cycle information strategy | Slide 4 · `M3-S4-11` |
+| 9 | **No confirmed South African implementation framework** | Register §6 |
+
+#### 4 — `EXCLUDED — CONFORMITY CLAIM NOT SUPPORTED`
+
+The available evidence **does not support** any of these:
+
+| Not supported |
+|---|
+| Harrismith **conforms** to ISO 19650 |
+| Harrismith **fails to conform** to ISO 19650 |
+| Autodesk software demonstrates conformity |
+| The UK BIM Framework is the applicable South African rule |
+| Project terminology is equivalent to ISO-associated terminology |
+| Documentation alone proves implementation |
+| Completing a checklist constitutes assessment |
+
+**Seven distinctions — the slide's actual teaching**
+
+```text
+influence          ≠ implementation
+analogue           ≠ requirement satisfaction
+documented process ≠ operating process
+unresolved         ≠ failed
+gap                ≠ non-conformity
+mapping            ≠ assessment
+```
+
+And the seventh, which closes it:
+
+> **Assessment requires an authorised basis, adequate evidence and a competent
+> assessor.** Module 3 has none of the three, and **defines no
+> conformity-assessment procedure**.
+
+**The licensed-standard question, answered honestly**
+
+| | |
+|---|---|
+| 1 | **The public material does not contain the complete requirements.** It describes scope |
+| 2 | **A licensed copy would be needed** for clause-level verification |
+| 3 | **Obtaining a licensed copy does not itself perform the assessment** |
+| 4 | The project would still have to establish **applicability, responsibility and assessment method** |
+
+Point 3 is the one that surprises people. Buying the document is the cheapest
+part of the exercise.
+
+**Harrismith status — the only permitted conclusion**
+
+> ### `No conformity conclusion supported`
+
+**Forbidden formulations**, each of which smuggles in an assessment nobody
+performed:
+
+`partially compliant` · `not compliant yet` · `mostly aligned` · `ISO-ready` ·
+`maturity level` · `percentage aligned`
+
+**Required message**
+
+> Harrismith contains useful analogues and declared influence, but the available
+> evidence does not support a conformity conclusion in either direction.
+
+*(**Teaching synthesis**, consistent with `H1` §11.2 and §13.4 — `M3-S13-19`.)*
+
+**Why this slide is worth two minutes.** It is the only place in the programme
+where a conformity misunderstanding gets corrected, and an audience that has sat
+through twelve slides of principles is primed to ask *"so are we compliant?"*.
+Answering that well is the module's deliverable.
+
+### Slide 14 — What Triviron must verify before claiming alignment · 1.0 min
+
+**Purpose of the slide**
+
+Convert Module 3's principles and Harrismith's evidence boundaries into a
+**verification checklist for a future project**. It remains a **question
+framework, not an answer set**.
+
+**The evidence boundary, stated first**
+
+**No Triviron project facts exist in the registered evidence.** Nothing is
+asserted about jurisdiction, project type, asset type, client, procurement route,
+contract form, information requirements, appointments, software, delivery stage,
+dates, intended certification or existing ISO alignment. **The slide contains
+questions only.**
+
+**Five question groups**
+
+#### 1 — Applicability and source basis
+
+- Which published edition of ISO 19650 is applicable?
+- Which parts are relevant to the project?
+- **Does a licensed copy of the applicable standard need to be obtained, and by
+  whom?**
+- Who will control access to it?
+- Is any national adoption, national annex or local implementation guidance
+  applicable?
+- Who is authorised to determine that applicability?
+
+#### 2 — Information requirements and purposes
+
+- What decisions must project information support?
+- What information does the appointing or client function require?
+- At which events is it required?
+- Which recipients and purposes are defined?
+- What level of information need is required, and how will it be agreed?
+
+*(**No formal requirement hierarchy is defined here** — no definition-level source
+is registered. Slide 5's prohibition stands.)*
+
+#### 3 — Appointments, functions and terminology
+
+- Which organisations and parties are appointed?
+- Which information-management functions must be fulfilled?
+- Who performs each function?
+- How will project terminology be mapped to the applicable standard and to the
+  contracts?
+- **Are job titles being confused with project functions?**
+- Which decisions require explicit authority?
+
+#### 4 — CDE and delivery arrangements
+
+- What CDE governance model will apply?
+- Which information states and purposes are required?
+- Who authorises each transition or exchange?
+- How will information delivery be planned?
+- Which **publication, receipt and acceptance authorities** must be assigned?
+- How will platform permissions follow those decisions?
+
+*(Conceptual only. **Modules 4 and 5 develop the detailed controls.**)*
+
+#### 5 — Implementation evidence and assessment
+
+- What evidence will demonstrate that the agreed process **operates**?
+- Who will verify implementation?
+- What deviations will be recorded?
+- Who is **competent and authorised** to assess alignment or conformity?
+- What scope, criteria and evidence will the assessment use?
+- Who may approve or publish any alignment claim?
+
+**The end state**
+
+> ### `Evidence-based conclusion — not yet available`
+
+**Closing message**
+
+> ISO alignment is not inherited from a template or a software platform; it must
+> be established for the specific project through applicable requirements,
+> appointments, authorised processes and evidence.
+
+*(**Teaching synthesis** — `M3-S14-08`.)*
+
+**Three closing takeaways — the last thing said**
+
+| # | |
+|---|---|
+| 1 | **ISO 19650 concerns information management, not software selection.** |
+| 2 | **Principles must become project-specific requirements, authority and evidence.** |
+| 3 | **Alignment or conformity must never be claimed beyond the available basis.** |
+
+**Note on Group 3, question 5.** *Are job titles being confused with project
+functions?* is deliberately phrased as a diagnostic rather than a task. It is the
+one question on this slide that a team can answer immediately, and answering it
+honestly usually reveals two more.
+
 ---
 
-## 5. Slides 13–14 — scope reserved, not developed
+## 5. Module boundary — what Module 3 does not do
 
-**Titles, purposes and time allocations only.** No content, no message, no source
-classification. Developing them is a later increment.
+**The content baseline is complete at Slides 1–14. Four things it deliberately
+does not contain:**
 
-| Slide | Purpose held for it | Principal expected sources |
-|---|---|---|
-| 13 | **The Harrismith mapping, in four categories, with the gaps visible** | `H1` §11.2, §13.4; `source-map.md` §5 |
-| 14 | What Triviron must verify before any alignment claim | **No Triviron source exists** — questions only |
+| Not here | Where it belongs |
+|---|---|
+| CDE state mechanics, transitions, evidence requirements, naming and suitability coding | **Module 4** |
+| Responsibility matrices read row by row; delivery-schedule construction; container breakdown | **Module 5** |
+| Coordination, review, approval and **assurance procedure** | **Module 6** |
+| Any clause-level ISO requirement, definition or figure | **No module** — not available to this programme |
 
-**Two standing constraints on their development:**
-
-- **Slide 14 invents no Triviron fact.** No Triviron project information exists in
-  this repository. The slide asks questions; it does not describe a project.
-- **Slide 13 uses no green checklist.** The four mapping categories in
-  [`source-map.md`](source-map.md) §5 are the required form, and one of them is
-  `EXCLUDED — CONFORMITY CLAIM NOT SUPPORTED`.
+**And two things no module will supply**, because they are decisions rather than
+knowledge: a **terminology mapping** between Harrismith and ISO-associated terms,
+and a **conformity assessment**. Both require an authorised basis, adequate
+evidence and a competent assessor.

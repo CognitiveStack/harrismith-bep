@@ -1,4 +1,4 @@
-# Module 3 — Speaker Notes, Slides 1–12
+# Module 3 — Speaker Notes, Slides 1–14
 
 **Status:** Working notes. **Not a script, and not final.**
 
@@ -8,7 +8,8 @@ if it does not sound like you.
 
 Read the essential message before delivery. Do not read the wording during it.
 
-**No rehearsal has occurred.** Times are planned allocations.
+**No rehearsal has occurred, and no timing has been measured.** Every figure
+below is a planned allocation.
 
 **One rule specific to this module.** When you state something about ISO 19650,
 you must know which of three things you are doing: quoting **public scope**,
@@ -1933,6 +1934,387 @@ assessment: none.* If the slide runs short, cut a middle step — never the end.
 
 ---
 
-## Slides 13–14
+## Slide 13 — How Harrismith may be mapped, and where the evidence stops · 2.0 min
 
-**Not developed.** No notes exist. Developing them is a later increment.
+### Purpose
+
+Show how a project may be examined against ISO-associated principles **without
+turning it into an unsupported conformity assessment**. The module's principal
+honesty slide, and its longest.
+
+### Essential message
+
+1. **Four categories, equal status** — directly evidenced, analogue, gap,
+   excluded.
+2. **Exactly one item is directly evidenced**: that Harrismith **states** ISO
+   19650 principles inform its approach. **Declared influence.**
+3. Most of what Harrismith has is **analogue** — it illustrates the principles
+   without proving anything about them.
+4. **Nine recorded gaps**, each traceable to a source.
+5. **No conformity conclusion is supported — in either direction.**
+
+### Suggested wording
+
+> "Right. The question you've been waiting to ask. Are we compliant?
+>
+> Let me show you how I'd actually answer that, because the method matters more
+> than the answer.
+>
+> Four categories, and I want them to have equal weight — this isn't a scorecard
+> with a good end and a bad end.
+>
+> **Directly evidenced.** One item. One. Our BEP states that ISO 19650 principles
+> inform our approach. That's it. And note what it is: **declared influence**,
+> evidenced because we declared it. The BEP says so in the same sentence — this is
+> a statement about influence, no formal compliance is claimed, and none has been
+> established or assessed. Influence is not implementation.
+>
+> **Local analogue or interpretation.** This is where most of our work sits, and
+> it's genuinely useful. A governance framework. Defined roles and
+> responsibilities. Controlled information states. Responsibility matrices.
+> Planned delivery. Issue and coordination controls. All of it **illustrates** the
+> principles. None of it proves we've satisfied a requirement, because I haven't
+> read the requirements.
+>
+> **Gap or unverified.** Nine of them, and I'm not going to soften any. No
+> licensed clause-level assessment. No complete information-requirement basis. No
+> verified terminology mapping. No named holders. Publication authority
+> unresolved. Acceptance authority unresolved. Implementation evidence incomplete.
+> No verified asset-life-cycle strategy. And no confirmed South African
+> implementation framework.
+>
+> **Excluded.** Things the evidence doesn't support us saying. That we conform —
+> and equally, that we **fail** to conform. That the software demonstrates
+> anything. That UK guidance is the South African rule. That our words mean the
+> same as ISO's words. That documentation proves implementation. That completing a
+> checklist is an assessment.
+>
+> So the honest conclusion is a phrase, not a grade: **no conformity conclusion
+> supported.** Not *partially compliant*. Not *mostly aligned*. Not *ISO-ready*.
+> Those all smuggle in an assessment that nobody performed."
+
+### Shorter fallback
+
+> "Four categories. **Directly evidenced**: one item — we state that ISO 19650
+> principles inform our approach. Declared influence, nothing more. **Analogue**:
+> most of our work — governance framework, roles, states, matrices, planned
+> delivery. It illustrates the principles; it doesn't prove requirement
+> satisfaction. **Gaps**: nine, including unresolved publication and acceptance
+> authority and no clause-level assessment. **Excluded**: that we conform — and
+> that we don't. Conclusion: **no conformity conclusion supported**, in either
+> direction."
+
+### Source basis
+
+| Statement | Source | Level |
+|---|---|---|
+| ISO 19650 principles **inform** the approach; **no compliance claimed, established or assessed** | `H1` §11.2, §13.4 | **A3 — Harrismith, directly evidenced** |
+| Every analogue and every gap | `H1`, `H2`, `H3` | **A3** |
+| The seven distinctions; the licensed-copy position | — | **A4 — interpretation** |
+| The required message; the status phrase | — | **A5 — synthesis** |
+
+**No `PUBLIC-SOURCE` and no `GUIDANCE` statement appears on this slide.** It is
+the fifth such slide — 2, 7, 8, 12 and 13 — and the most important one to
+attribute correctly, because it is the slide an audience will quote.
+
+### Jurisdiction warning
+
+**Say the South African position out loud.** No confirmed South African
+implementation framework is registered, and **UK guidance is not a substitute for
+one**. It is a gap in category 3, not a licence to apply `X5`/`X6` locally.
+
+### Harrismith evidence boundary
+
+**This is the boundary, stated in full.** Everything Module 3 can say about
+Harrismith and ISO 19650 is:
+
+- **one** directly evidenced item — declared influence;
+- **six** analogues, each labelled;
+- **nine** gaps, each sourced;
+- **seven** conclusions the evidence excludes.
+
+**No item may move category to make the picture tidier**, and none was added
+speculatively. The near-emptiness of category 1 is the finding.
+
+### Likely question
+
+**"So is Harrismith ISO-aligned?"**
+
+> "I can't say yes, and I can't say no — and I'd be suspicious of anyone who
+> answers that quickly. What I can say is what's evidenced: we state that the
+> principles inform our approach, and that's the only directly evidenced item
+> there is. Everything else is either an analogue that illustrates the ideas, or a
+> recorded gap. Alignment would need a clause-level comparison against text nobody
+> here has read, with evidence we haven't produced, by someone competent to do it.
+> None of those three exists."
+
+**Second likely question — "Can we say partially compliant?"**
+
+> "No, and it's the most tempting phrase in this whole area. *Partially compliant*
+> claims that somebody measured the parts. Nobody measured anything. It sounds
+> modest and it's actually a bigger claim than *we don't know* — because it
+> asserts an assessment happened and reports its result."
+
+**Third likely question — "Why can't the checklist just show a score?"**
+
+> "Because a score is a conformity claim wearing friendlier clothes. Ninety per
+> cent of what? Measured against which requirements, by whom, using what evidence?
+> The moment you put a number on it, you've asserted an assessment method, an
+> evidence base and a competent assessor — and we have none of them. Four
+> categories with no ordering is honest. A number is not."
+
+**Fourth likely question — "Would buying the standard make us compliant?"**
+
+> "No — and this catches people out. A licensed copy is **necessary** for
+> clause-level verification and it is nowhere near **sufficient**. Buying the
+> document tells you what the requirements are. It doesn't establish that they
+> apply to your project, doesn't say who's responsible for meeting them, doesn't
+> define the assessment method, and doesn't produce the evidence. The purchase is
+> the cheapest part of the exercise."
+
+**Fifth likely question — "Who is allowed to assess conformity?"**
+
+> "Someone with an authorised basis, adequate evidence and the competence to
+> judge — and I'm being deliberately general, because defining a conformity
+> assessment procedure is outside what this course can responsibly do. What I can
+> tell you is that it isn't the person who configured the platform, and it isn't
+> me on the strength of a public abstract."
+
+### Transition to Slide 14
+
+> "So that's where our evidence stops. Which is exactly the useful place to end —
+> because everything in that gap column is a question a real project has to
+> answer."
+
+### Evidence classification
+
+**`HARRISMITH` — directly evidenced** — declared influence; the no-compliance
+statement (`M3-S13-01`, `M3-S13-02`).
+**`HARRISMITH` — analogue** — the six project arrangements (`M3-S13-04`).
+**`HARRISMITH` — `GAP OR UNVERIFIED`** — eight of the nine gaps
+(`M3-S13-06`–`13`).
+**`UNRESOLVED`** — no confirmed South African implementation framework
+(`M3-S13-14`).
+**`INTERP`** — influence ≠ implementation and the other distinctions; the
+public-material limitation; the licensed-copy position (`M3-S13-03`, `05`, `16`,
+`17`, `18`).
+**`SYNTH`** — the required message; the status phrase (`M3-S13-19`,
+`M3-S13-20`).
+**`EXCLUDED`** — the seven unsupported conclusions; the six forbidden
+formulations; any conformity-assessment procedure; any tick, score or progression
+(`M3-S13-15`, `21`–`23`).
+
+### Delivery warning
+
+**The two-minute allocation is deliberate and this slide must not be cut.** If
+the session is running late, take it from Slide 4 or Slide 10 — both have later
+modules behind them. Nothing else in the programme corrects a conformity
+misunderstanding.
+
+**Do not let category 1 grow.** Under pressure to look substantive, there is a
+pull toward promoting analogues into evidence — *"well, our state model is really
+quite aligned"*. **One item. Its near-emptiness is the finding**, and the slide
+fails the moment it looks fuller than it is.
+
+**Do not let the tone turn apologetic.** Nine gaps recited flatly sound like a
+confession. They are a project that wrote down what it does not know, which is
+rarer and harder than the alternative. Deliver them as **findings**, not as
+faults.
+
+**And do not answer the compliance question with a hedge.** *"Not formally"*,
+*"technically no"*, *"we'd probably pass"* — each concedes an assessment that
+never happened.
+
+---
+
+## Slide 14 — What Triviron must verify before claiming alignment · 1.0 min
+
+### Purpose
+
+Convert the module into **questions a future project must answer** — not
+conclusions it may inherit. Then close.
+
+### Essential message
+
+1. **Five question groups**: applicability · requirements · appointments and
+   terminology · CDE and delivery · evidence and assessment.
+2. **Does a licensed copy need to be obtained, and by whom?**
+3. **The end state is `Evidence-based conclusion — not yet available`.**
+4. **Alignment is not inherited** from a template or a platform.
+5. Three closing takeaways, then stop.
+
+### Suggested wording
+
+> "So — Triviron. And I want to be careful here, because I know nothing about that
+> project. Nothing. Not the jurisdiction, not the client, not the procurement
+> route, not the software, not the dates. So this slide is questions, and only
+> questions.
+>
+> **Applicability.** Which published edition applies? Which parts? **Does a
+> licensed copy need to be obtained — and by whom?** Who controls access to it? Is
+> there national adoption or local implementation guidance that applies? And who
+> is authorised to decide that?
+>
+> **Requirements.** What decisions does the information have to support? What does
+> the client function actually require? At which events? For which recipients and
+> purposes? And what level of information need — agreed how?
+>
+> **Appointments, functions and terminology.** Who's appointed? Which
+> information-management functions must be fulfilled, and who performs each? How
+> will the project's words be mapped to the standard's words and to the contracts?
+> And the diagnostic one: **are job titles being confused with project
+> functions?**
+>
+> **CDE and delivery.** What governance model? Which states and purposes? Who
+> authorises each transition? How is delivery planned? Which publication, receipt
+> and acceptance authorities have to be assigned? And how will the permissions
+> follow those decisions rather than lead them?
+>
+> **Evidence and assessment.** What evidence shows the process actually operates?
+> Who verifies implementation? What deviations get recorded? Who is competent and
+> authorised to assess alignment? On what scope and criteria? And who may approve
+> or publish an alignment claim?
+>
+> Every one of those is open. The end state on this slide is deliberately
+> **evidence-based conclusion, not yet available** — and that's the correct
+> position for a project that hasn't started."
+
+### Shorter fallback
+
+> "Five groups of questions for Triviron, and questions only — I know nothing
+> about that project. Applicability: which edition, which parts, **does a licensed
+> copy need to be obtained and by whom**, what national guidance applies, who
+> decides. Requirements: what decisions, what's needed, when, for whom, at what
+> level of information need. Appointments: who's appointed, which functions, who
+> performs them, how terminology gets mapped. CDE and delivery: which states, who
+> authorises, how delivery is planned, which authorities get assigned. Evidence:
+> what proves it operates, who verifies, who is competent to assess. End state:
+> evidence-based conclusion, not yet available."
+
+### 30-second module closing
+
+> "Three things to take away.
+>
+> **One — ISO 19650 is about information management, not software selection.**
+> Nothing you buy makes you compliant, and nothing you buy does the thinking.
+>
+> **Two — principles have to become project-specific requirements, assigned
+> authority, and evidence.** That's the work. The principles are the easy part.
+>
+> **Three — never claim alignment or conformity beyond your basis.** We've got a
+> project that took the principles seriously, documented what it decided, and
+> wrote down what it hasn't resolved. That's a genuinely good position. It is not
+> a compliance claim, and the moment we dress it up as one, we lose the thing that
+> made it worth showing you."
+
+### 10-second fallback closing
+
+> "It's about information, not software. Principles have to become requirements,
+> authority and evidence. And never claim alignment beyond what you can actually
+> show."
+
+### Source basis
+
+**None. This slide has no `PUBLIC-SOURCE`, no `GUIDANCE` and no `HARRISMITH`
+statement.**
+
+It is the only slide in the module built entirely from **teaching synthesis** —
+because its subject is a project that does not exist yet. The questions are
+derived from Module 3's principles and from Harrismith's recorded gaps; **no
+answer is available to any of them.**
+
+### Jurisdiction warning
+
+**Group 1 asks whether national adoption or local implementation guidance
+applies. It does not answer it.** UK guidance is not the South African rule, and
+this module has no basis for saying what is. **Do not answer the applicability
+question for Triviron** — determining it is itself one of the questions, and the
+slide asks who is authorised to do so.
+
+### Harrismith evidence boundary
+
+**The questions come from Harrismith's gaps, and that is their value.** Each of
+the five groups maps to something this project left open — requirements,
+appointments, terminology, publication and acceptance authority, implementation
+evidence. **A future project asking these questions early avoids arriving where
+Harrismith arrived**, which is a perfectly respectable place to be for a training
+implementation and a poor place to be for a live appointment.
+
+**But nothing about Harrismith transfers automatically.** The mapping is
+Harrismith's, and reusing it without project-specific review would repeat this
+project's assumptions in a context nobody has checked.
+
+### Likely question
+
+**"Can Triviron just reuse the Harrismith mapping?"**
+
+> "Not without reviewing every part of it. Our mapping reflects our arrangements,
+> our unresolved decisions and our absence of client requirements — and a real
+> project will differ on all three. What transfers is the **method**: the four
+> categories, the discipline of recording gaps rather than filling them, and the
+> refusal to claim more than the evidence supports. The content doesn't transfer.
+> It's a worked example, not a template."
+
+**Second likely question — "Which ISO edition should Triviron use?"**
+
+> "The applicable published edition — which, as of this course, is the 2018
+> edition of the parts we've discussed. But *which parts apply to that project* is
+> a project decision, not something I can settle from here, and it's the first
+> question on this slide. Both parts are also under revision, so whoever decides
+> applicability needs to check what's published at the time, not what I told you
+> today."
+
+**Third likely question — "Is UK BIM Framework guidance applicable in South
+Africa?"**
+
+> "Not automatically, no. It's official implementation guidance for the UK. It's
+> useful — I've used it three times today and flagged it each time — but it isn't
+> the standard, it isn't a universal national annex, and applying it here would be
+> a decision somebody has to take and justify. Whether an applicable South African
+> framework exists is an open question I can't answer, and I'd rather leave it
+> open than fill it with the nearest available thing."
+
+**Fourth likely question — "Does using ACC or Revit prove alignment?"**
+
+> "No. That's Slide 2 and Slide 12 in one question. Software implements decisions;
+> it doesn't make them, and it can't evidence a process it was never configured to
+> follow. Alignment would need applicable requirements, assigned authority,
+> operating processes and evidence — and then an assessment. A licence gets you
+> none of those."
+
+### Closing
+
+**End on the three takeaways.** Do not add a summary of the whole module after
+them — the takeaways *are* the summary, and anything following dilutes them.
+
+If a question session follows, take the questions **after** the takeaways, and
+close again briefly rather than letting the last thing said be a hedge.
+
+### Evidence classification
+
+**`SYNTH`** — all five question groups; the licensed-copy question; the end
+state; the closing message; takeaways 2 and 3 (`M3-S14-01`–`08`, `10`, `11`).
+**`INTERP`** — takeaway 1, that ISO 19650 concerns information management rather
+than software selection (`M3-S14-09`).
+**`UNRESOLVED`** — **no Triviron project fact exists in the registered evidence**
+(`M3-S14-12`).
+**`EXCLUDED`** — every Triviron fact; any populated answer; reuse of the
+Harrismith mapping without project-specific review (`M3-S14-13`–`15`).
+
+### Delivery warning
+
+**One minute, five groups, thirty questions. You cannot read them all.** Say the
+group headings, pick one or two questions from each — the licensed-copy question
+is compulsory — and let the slide carry the rest. A presenter reciting thirty
+questions in sixty seconds sounds like a disclaimer.
+
+**Answer nothing.** The pull to be helpful — *"well, presumably Triviron will be
+in South Africa"* — invents a project fact in an aside. **No jurisdiction, no
+client, no procurement route, no software, no date, no stage.** If asked directly
+what Triviron's position is, the answer is that you do not know and that finding
+out is the first group of questions.
+
+**Do not end on the gaps.** The takeaways exist so the module closes on what the
+audience should *do*, not on what this project lacks. An audience that leaves
+remembering nine gaps has learned the wrong lesson from a slide designed to teach
+the opposite.

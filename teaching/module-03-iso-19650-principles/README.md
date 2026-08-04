@@ -1,7 +1,8 @@
 # Module 3 — ISO 19650 Information-Management Principles
 
-**Status:** Active module. Structure, external-source control framework and
-Slides 1–12 baseline only. **Not governance, and not a complete module.**
+**Status:** Active module. **Full content baseline — Slides 1–14.** **Not
+governance, and not a complete module**: no visual source, no assembly package,
+no PowerPoint, no review, no rehearsal.
 
 ---
 
@@ -53,19 +54,19 @@ evidence of conformity.
 | Slide count | 14 |
 | Worked example | Harrismith Fire Station — **analogy only** |
 | Transfer context | A future Triviron multidisciplinary project |
-| Current state | **Structure and Slides 1–12 baseline.** Module not complete |
+| Current state | **Full content baseline, Slides 1–14.** Module not complete |
 
 **This presentation does not exist yet.** What exists after increments T3-A to
-T3-D:
+T3-E:
 
 | Established | Outstanding |
 |---|---|
-| Module structure (T3-A) | **Slides 13–14** |
-| External-source control framework (T3-A) | Visual source set |
-| Published-versus-draft ISO status (T3-A) | Assembly package |
-| ISO-versus-guidance separation (T3-A) | PowerPoint |
-| Harrismith mapping method (T3-A) | Review |
-| 20-minute architecture, 14 slides (T3-A) | Rehearsal and measured timing |
+| Module structure (T3-A) | Visual source set |
+| External-source control framework (T3-A) | Assembly package |
+| Published-versus-draft ISO status (T3-A) | PowerPoint |
+| ISO-versus-guidance separation (T3-A) | Review |
+| Harrismith mapping method (T3-A) | Rehearsal and measured timing |
+| 20-minute architecture, 14 slides (T3-A) | |
 | **Slides 1–3** (T3-A) | |
 | **Slides 4–6 — Section B** (T3-B) | |
 | Visual specifications `V2`, `V4`, `V5` (T3-B) | |
@@ -73,6 +74,9 @@ T3-D:
 | Visual specifications `V13`, `V6`, `V7` (T3-C) | |
 | **Slides 10–12 — Section D and the Section E opener** (T3-D) | |
 | Visual specifications `V8`, `V9`, `V10` (T3-D) | |
+| **Slides 13–14 — Section E** (T3-E) | |
+| Visual specifications `V11`, `V12` (T3-E) | |
+| **Module-wide final reconciliation** (T3-E) | |
 
 ## 4. What makes this module different
 
@@ -220,11 +224,11 @@ standard will treat every teaching simplification as a requirement.
 | File | Holds |
 |---|---|
 | [`external-source-register.md`](external-source-register.md) | **Every external source**, its authority level, jurisdiction, permitted use and prohibited inference |
-| [`presentation-outline.md`](presentation-outline.md) | The 20-minute structure and Slides 1–12 |
-| [`speaker-notes.md`](speaker-notes.md) | Delivery notes for Slides 1–12 |
+| [`presentation-outline.md`](presentation-outline.md) | The 20-minute structure and **Slides 1–14** |
+| [`speaker-notes.md`](speaker-notes.md) | Delivery notes for **Slides 1–14**, and the two module closings |
 | [`visual-demonstration-plan.md`](visual-demonstration-plan.md) | Candidate visuals for the whole module |
 | [`exercises.md`](exercises.md) | Practice and self-assessment |
-| [`source-map.md`](source-map.md) | Statement classification, the Harrismith mapping method and the **prohibited-claims list** |
+| [`source-map.md`](source-map.md) | Statement classification, the Harrismith mapping method, the **module-wide final reconciliation** and the **prohibited-claims list** |
 
 ## 12. Status
 
@@ -232,18 +236,33 @@ standard will treat every teaching simplification as a requirement.
 |---|---|
 | Module 3 | **CURRENT — ACTIVE**, not complete |
 | Structure | **Established (T3-A)** |
-| External-source control framework | **Established (T3-A)**; **no source added in T3-B, T3-C or T3-D** |
-| Slides developed | **1–12** — Sections A (T3-A), B (T3-B), C (T3-C), D and the E opener (T3-D) |
-| Slides outstanding | **13–14** |
-| Statements classified | **201** across Slides 1–12 — [`source-map.md`](source-map.md) §4 |
-| Prohibited claims | **40** — [`source-map.md`](source-map.md) §7, §7.1–§7.4 |
-| Visual specifications | **Nine specified in full** — `V2`, `V4`, `V5` (T3-B), `V13`, `V6`, `V7` (T3-C) and `V8`, `V9`, `V10` (T3-D); `V1`, `V3`, `V11`, `V12` remain candidates |
+| External-source control framework | **Established (T3-A)**; **no source added in any later increment** |
+| Slides developed | **1–14 — content baseline complete.** Sections A (T3-A), B (T3-B), C (T3-C), D and the E opener (T3-D), E (T3-E) |
+| Slides outstanding | **None** |
+| Statements classified | **239** across Slides 1–14 — [`source-map.md`](source-map.md) §4; reconciled at §9 |
+| Prohibited claims | **52** — [`source-map.md`](source-map.md) §7, §7.1–§7.5 |
+| Visual specifications | **Eleven specified in full** — every visual from Slide 4 to Slide 14. **Only `V1` and `V3` remain candidates** |
 | Visual source | **None** — no source file, no rendered asset |
 | Assembly package | **None** |
 | PowerPoint | **None** |
 | Review and rehearsal | **Outstanding** |
 | Modules 1 and 2 | PowerPoints produced; **review and rehearsal deferred** |
 | Publication automation | **PAUSED** |
+
+### The module's central finding
+
+Across **239 classified statements**, the directly evidenced relationship between
+Harrismith and ISO 19650 is **one item**: that the project **states** ISO 19650
+principles inform its approach. Everything else is analogue, gap, exclusion or
+teaching framing.
+
+**That is not a weakness in Harrismith.** A training implementation that claims
+influence, documents its arrangements and records what it has not resolved is
+behaving correctly. It is a weakness only in any presentation that implies more —
+which is what Slide 13 and the fifty-two prohibited claims exist to prevent.
+
+**The only permitted conclusion is `No conformity conclusion supported`**, in
+either direction.
 
 ### Deferred corrections
 

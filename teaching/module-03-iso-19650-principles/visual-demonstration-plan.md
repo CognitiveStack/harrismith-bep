@@ -4,9 +4,9 @@
 source file and no rendered image asset exists.** Nothing here is a final asset,
 and creating assets is a later increment.
 
-**Nine of thirteen entries are now specified in full** — `V2`, `V4`, `V5` (T3-B),
-`V13`, `V6`, `V7` (T3-C) and `V8`, `V9`, `V10` (T3-D). The remaining four —
-`V1`, `V3`, `V11`, `V12` — are candidates at the level established in T3-A.
+**Eleven of thirteen entries are now specified in full** — `V2`, `V4`, `V5`
+(T3-B), `V13`, `V6`, `V7` (T3-C), `V8`, `V9`, `V10` (T3-D) and `V11`, `V12`
+(T3-E). Only `V1` and `V3` remain at the candidate level established in T3-A.
 
 Source identifiers `X1`–`X6`, `H1`–`H3` are defined in
 [`external-source-register.md`](external-source-register.md). Classification
@@ -568,52 +568,114 @@ eye to read completion.
 against what — is **Module 6**. This visual shows **that** evidence is required
 and **that** it is missing here. Never how to produce it.
 
-### V11 — Harrismith alignment and gap map
+### V11 — Harrismith mapping, four equal bands · **specified (T3-E)**
 
 | Field | Value |
 |---|---|
 | **Slide** | 13 — **the module's most important visual** |
-| **Teaching purpose** | Show, honestly and in one view, what Harrismith **illustrates**, what is **unverified**, and what is **excluded** |
-| **Source basis** | `H1` §11.2, §13.4; `H2`; [`source-map.md`](source-map.md) §5 |
-| **Classification** | **`HARRISMITH`** for every item; **`INTERP`** for the categorisation |
-| **Jurisdiction** | This project |
-| **Simplify** | **Four labelled bands**, in the `source-map.md` §5 vocabulary. Two or three items per band. No more |
-| **Omit** | **Ticks. Green. Traffic lights. Percentages. Scores. Progress bars. Any ordering that implies progression toward compliance** |
-| **Overclaim risk** | **HIGHEST IN THE MODULE, jointly with V6.** Any visual grammar borrowed from a compliance dashboard converts the slide into the claim it exists to refute |
-| **Copyright risk** | **LOW** |
+| **Teaching purpose** | Show, honestly and in one view, what Harrismith **directly evidences**, what it **illustrates**, what is **unverified**, and what is **excluded** — and that the first band is almost empty |
+| **Source basis** | `H1` §11.2, §13.4; `H2`; `H3`; [`source-map.md`](source-map.md) §5 and §9 |
+| **Classification** | **`HARRISMITH` — `DIRECTLY EVIDENCED`** for band 1; **analogue** for band 2; **`GAP OR UNVERIFIED`** for band 3; **`EXCLUDED`** for band 4; **`INTERP`** for the categorisation itself |
+| **Jurisdiction** | This project. **Band 3 includes the South African framework gap** |
+| **Simplify** | **Four bands.** Band 1: one item. Band 2: up to six. Band 3: up to nine, or a representative five with a count. Band 4: the seven excluded conclusions, condensed |
+| **Omit** | **Ticks. Crosses. Green. Amber. Red. Percentages. Scores. Maturity levels. Progress bars. Progression arrows. Any ordering from bad to good. Any dominant alignment band. Any visual completion** |
+| **Overclaim risk** | **HIGHEST IN THE MODULE, jointly with `V6`.** Any grammar borrowed from a compliance dashboard converts the slide into the claim it exists to refute |
+| **Copyright risk** | **LOW** — original construction |
 | **External imagery** | **No** |
 
-**Four mandatory design requirements.**
+**The four bands — fixed labels, in this vocabulary:**
 
-1. **All four bands are the same size**, including
-   `EXCLUDED — CONFORMITY CLAIM NOT SUPPORTED`. A smaller exclusion band reads as
-   a footnote.
-2. **`DIRECTLY EVIDENCED ALIGNMENT` holds exactly one item** — that ISO 19650
-   principles *inform* the approach, per the BEP's own statement. It is the only
-   directly evidenced item there is, and its near-emptiness is the finding.
-3. **No band is coloured green, and none is coloured red.** Neutral throughout.
-   Colour makes bands one and four into pass and fail.
-4. **The bands are not ordered as a journey.** No left-to-right progression, no
-   arrow. This is a classification, not a maturity path.
+```text
+DIRECTLY EVIDENCED ALIGNMENT
+LOCAL ANALOGUE OR INTERPRETATION
+GAP OR UNVERIFIED
+EXCLUDED — CONFORMITY CLAIM NOT SUPPORTED
+```
 
-### V12 — Triviron verification questions
+**Eight mandatory design requirements.**
+
+1. **All four bands are the same size**, including band 4. A smaller exclusion
+   band reads as a footnote; a larger band 2 reads as a result.
+2. **Band 1 holds exactly one item** — that ISO 19650 principles **inform** the
+   approach, per the BEP's own statement. **It is the only directly evidenced
+   item there is, and its near-emptiness is the finding.** The empty space in
+   band 1 is deliberate and is not to be filled, padded or balanced.
+3. **No band is coloured green, amber or red.** Neutral throughout. Colour turns
+   bands 1 and 4 into pass and fail.
+4. **No ticks, no crosses, no score, no percentage, no maturity level.**
+   Prohibitions 40–45.
+5. **The bands are not ordered as a journey.** No left-to-right progression, no
+   arrow, no numbering that implies a path. **This is a classification, not a
+   maturity ladder** — and vertical stacking must not read as a ranking either.
+6. **The licensed-copy requirement is visible on the slide**: *"clause-level
+   verification would require a licensed copy — necessary, and not sufficient"*.
+7. **The slide is labelled `Mapping — not assessment`.** Prohibition 47.
+8. **The conclusion appears verbatim and alone**:
+   **`No conformity conclusion supported`**. No qualifier, no adverb, no
+   percentage, and none of the six forbidden formulations.
+
+**Design note — the hardest instruction in this plan.** A near-empty band 1 beside
+a full band 3 looks unbalanced, and every design instinct will try to correct it —
+by promoting analogues upward, by shrinking band 3, or by adding a reassuring
+summary line. **The imbalance is the content.** If band 1 ever holds more than one
+item, someone has made a claim the evidence does not support.
+
+**Boundary.** The slide maps; it does not assess. **No conformity-assessment
+procedure is defined, implied or sketched** — see `M3-S13-22`.
+
+### V12 — Triviron verification questions · **specified (T3-E)**
 
 | Field | Value |
 |---|---|
 | **Slide** | 14 |
-| **Teaching purpose** | Convert the module into **questions Triviron must answer** — not conclusions it may inherit |
-| **Source basis** | **None.** No Triviron project information exists in this repository |
-| **Classification** | **`SYNTH`** — questions only |
-| **Jurisdiction** | — |
-| **Simplify** | **Five or six questions. Nothing but questions** — no answers, no defaults, no recommendations |
-| **Omit** | **Every Triviron fact.** No jurisdiction, no procurement route, no appointment, no party, no asset type, no date. **None exists** |
-| **Overclaim risk** | **MEDIUM for ISO; HIGH for Triviron.** The failure mode is not overclaiming about the standard — it is inventing a project. A single plausible detail here becomes a project assumption downstream |
+| **Teaching purpose** | Convert the module into **questions a future project must answer** — not conclusions it may inherit |
+| **Source basis** | **None.** No Triviron project information exists in this repository. The questions derive from Module 3's principles and Harrismith's recorded gaps |
+| **Classification** | **`SYNTH`** — questions only. **The only visual in the module with no evidence basis of any kind** |
+| **Jurisdiction** | **None asserted.** Group 1 *asks* which national adoption or local guidance applies; it does not answer |
+| **Simplify** | **Five labelled groups.** Two or three questions shown per group — the slide need not carry all thirty |
+| **Omit** | **Every Triviron fact** — no jurisdiction, project type, asset type, client, procurement route, contract form, information requirement, appointment, software, delivery stage, date, intended certification or existing alignment. **No populated answer. No tick. No status colour. No organisation name. No software name. No certification badge. No completed final state** |
+| **Overclaim risk** | **HIGH — and about Triviron, not about ISO.** The failure mode is inventing a project. A single plausible detail here becomes a project assumption downstream |
 | **Copyright risk** | **LOW** |
 | **External imagery** | **No** |
 
-**Requirement.** Every item ends in a question mark. If a line can be read as an
-answer, it is rewritten or removed. The one question that must appear:
-**does a licensed copy of the standard need to be obtained, and by whom?**
+**The five groups — fixed:**
+
+```text
+1  Applicability and source basis
+2  Information requirements and purposes
+3  Appointments, functions and terminology
+4  CDE and delivery arrangements
+5  Implementation evidence and assessment
+```
+
+**Seven mandatory design requirements.**
+
+1. **Every item ends in a question mark.** If a line can be read as an answer, it
+   is rewritten or removed.
+2. **The licensed-copy question appears visibly, verbatim**: *"Does a licensed
+   copy of the applicable standard need to be obtained, and by whom?"* — and is
+   **not answered**.
+3. **No answer column, no response field, no example answer**, not even a greyed
+   placeholder. A placeholder reads as a default.
+4. **No dates, no organisations, no software, no certification marks.**
+5. **The end state is shown and is open**:
+   **`Evidence-based conclusion — not yet available`**. **Not a failure state** —
+   it is the correct position for a project that has not started, and it must not
+   be styled as a warning.
+6. **Future-facing styling.** The visual reads as a path ahead, not as a status
+   report. No progress indicator, no completion marker, no stage highlighting.
+7. **The three closing takeaways are visually last**, after the questions. They
+   are the module's final words and nothing follows them.
+
+**Design note.** Thirty questions will not fit and should not be attempted. Show
+the five group headings and two or three questions each — **including the
+licensed-copy question, which is compulsory** — and let the notes carry the rest.
+A wall of thirty questions in sixty seconds reads as a disclaimer rather than a
+framework.
+
+**Boundary.** Groups 4 and 5 stay conceptual: **Modules 4 and 5 develop the
+detailed controls, and assurance procedure is Module 6.** The questions ask *who
+decides* and *what evidence*, never *how to do it*.
 
 ---
 
@@ -632,14 +694,17 @@ answer, it is rewritten or removed. The one question that must appear:
 | `V8` | 10 | `HARRISMITH` + `INTERP` | **HIGH** | MEDIUM |
 | `V9` | 11 | `PUBLIC-SOURCE` + `HARRISMITH` + `INTERP` | **HIGH** | LOW |
 | `V10` | 12 | `SYNTH` + `HARRISMITH` + `INTERP` | **HIGH** | LOW |
-| `V11` | 13 | `HARRISMITH` + `INTERP` | **HIGHEST** | LOW |
-| `V12` | 14 | `SYNTH` | MEDIUM / **HIGH (Triviron)** | LOW |
+| `V11` | 13 | `HARRISMITH` (all four sub-categories) + `INTERP` | **HIGHEST** | LOW |
+| `V12` | 14 | `SYNTH` — **no evidence basis of any kind** | **HIGH (Triviron)** | LOW |
 
-**Nine specified in full: `V2`, `V4`, `V5` (T3-B), `V13`, `V6`, `V7` (T3-C) and
-`V8`, `V9`, `V10` (T3-D)** — the Section B, C and D visuals plus the Section E
-opener. Each carries fixed labels, a fixed form and five to seven mandatory
-design requirements, so the constraints survive into asset production rather than
-being re-decided by whoever draws them.
+**Eleven specified in full**, covering every visual from Slide 4 to Slide 14.
+Each carries fixed labels, a fixed form and five to eight mandatory design
+requirements, so the constraints survive into asset production rather than being
+re-decided by whoever draws them.
+
+**Only `V1` and `V3` remain candidates.** Both serve Slides 1–3, both are
+low-complexity, and both should be specified before visual-source production
+begins.
 
 **Two of them can overclaim without a word being spoken.** `V8` drawn with a
 complete route through Published, or `V9` drawn as progress, each assert a

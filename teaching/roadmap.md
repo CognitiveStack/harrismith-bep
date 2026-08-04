@@ -28,7 +28,7 @@ moves — not as the subject.
 |---|---|---|
 | 1 | What is a BIM Execution Plan? | **Content, visual source, assembly package and PowerPoint produced.** Review and rehearsal **deferred** |
 | 2 | BIM Management roles and responsibilities | **Content, visual source, assembly package and PowerPoint produced.** Review and rehearsal **deferred** |
-| 3 | **ISO 19650 information-management principles** | **CURRENT — ACTIVE** |
+| 3 | **ISO 19650 information-management principles** | **CURRENT — ACTIVE.** Content baseline **complete**; visual source next |
 | 4 | CDE workflows and information states | Planned |
 | 5 | Responsibility matrices and information-delivery planning | Planned |
 | 6 | Coordination, review, approval and assurance | Planned |
@@ -71,11 +71,19 @@ The active module. Deliverable: a 20-minute, fourteen-slide presentation on what
 ISO 19650 is intended to govern — and on where the available evidence stops. See
 [`module-03-iso-19650-principles/README.md`](module-03-iso-19650-principles/README.md).
 
-**Established (T3-A):** module structure; an explicit **external-source control
-framework**; the separation of published ISO material, draft revisions,
-jurisdiction-bound implementation guidance, Harrismith evidence and teaching
-synthesis; the 20-minute fourteen-slide architecture; the Harrismith mapping
-method; and **Slides 1–3**.
+**Content baseline complete (T3-A to T3-E): Slides 1–14.**
+
+| Increment | Established |
+|---|---|
+| **T3-A** | Module structure; an explicit **external-source control framework**; the separation of published ISO material, draft revisions, jurisdiction-bound implementation guidance, Harrismith evidence and teaching synthesis; the 20-minute fourteen-slide architecture; the Harrismith mapping method; **Slides 1–3** |
+| **T3-B** | **Slides 4–6** — Section B, why information management comes first |
+| **T3-C** | **Slides 7–9** — Section C, who manages information |
+| **T3-D** | **Slides 10–12** — Section D and the Section E opener |
+| **T3-E** | **Slides 13–14** — Section E, and the **module-wide final reconciliation** |
+
+Alongside the slides: **239 classified statements**, **52 prohibited claims**,
+**sixty rehearsal exercises**, and **eleven of thirteen visual specifications**
+completed in full. **No external source was added after T3-A.**
 
 **This module differs from Modules 1 and 2 in kind.** Those were built entirely
 from controlled Harrismith documents and needed no external source. **Module 3's
@@ -98,8 +106,15 @@ Three positions are fixed for the module and are not open to convenience:
   compliance. **No clause-by-clause assessment exists**, and no clause reference
   appears anywhere in the module.
 
-**Outstanding:** **Slides 4–14**, then visual source, then the assembly package,
-then PowerPoint production, then review, then rehearsal.
+**The module's central finding.** Across 239 classified statements, the directly
+evidenced relationship between Harrismith and ISO 19650 is **one item** — that
+the project *states* ISO 19650 principles inform its approach. Everything else is
+analogue, gap, exclusion or teaching framing. **The only permitted conclusion is
+`No conformity conclusion supported`**, in either direction.
+
+**Outstanding:** **visual source production** — next — then the assembly package,
+then PowerPoint production, then review, then rehearsal. **No timing has been
+measured.**
 
 ### Modules 4–8 — future scope
 
@@ -182,14 +197,15 @@ of governance under condition. Describing it neither advances nor reopens it.
 | Field | Value |
 |---|---|
 | **Active module** | **Module 3 — ISO 19650 Information-Management Principles** — **CURRENT — ACTIVE** |
-| Module 3 deliverable | 20-minute, **fourteen-slide** presentation — **structure and Slides 1–3 only; not final** |
-| Module 3 slides developed | **Slides 1–3.** Slides 4–14 **outstanding** |
-| Module 3 established (T3-A) | Structure · **external-source control framework** · published-versus-draft ISO status · ISO-versus-guidance separation · 20-minute fourteen-slide architecture · **Harrismith mapping method** · Slides 1–3 |
+| Module 3 deliverable | 20-minute, **fourteen-slide** presentation — **content baseline complete, not final** |
+| Module 3 slides developed | **Slides 1–14** — the full content baseline (T3-A to T3-E) |
+| Module 3 established | Structure · **external-source control framework** · published-versus-draft ISO status · ISO-versus-guidance separation · 20-minute fourteen-slide architecture · **Harrismith mapping method** · **Slides 1–14** · 239 classified statements · 52 prohibited claims · sixty exercises · **module-wide final reconciliation** |
 | Module 3 external sources | **Registered (T3-A)** — [`external-source-register.md`](module-03-iso-19650-principles/external-source-register.md). **The ISO standards are not held in this repository and have not been read**; no ISO text is reproduced |
 | Module 3 conformity position | **No Harrismith conformity with ISO 19650 is claimed.** No clause-by-clause assessment exists; **no clause reference appears in the module** |
-| Module 3 visual source | **None** |
+| Module 3 visual specifications | **Eleven of thirteen complete** — every visual from Slide 4 to Slide 14. `V1` and `V3` remain candidates |
+| Module 3 visual source | **None** — no source file, no rendered asset. **Production is next** |
 | Module 3 assembly package | **None** |
-| Module 3 outstanding | **Slides 4–14**, visual source, assembly package, PowerPoint, review, rehearsal |
+| Module 3 outstanding | **Visual source (next)**, assembly package, PowerPoint, review, rehearsal. **No timing measured** |
 | Module 2 | Content baseline, visual source and assembly package **produced**; PowerPoint assembled **outside this repository** |
 | Module 2 outstanding | **Presentation review and rehearsal — DEFERRED**, not complete, until the presenter chooses to perform them |
 | Module 1 | Content baseline, visual source and assembly package **produced**; PowerPoint assembled **outside this repository** |
