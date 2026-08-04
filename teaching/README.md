@@ -127,11 +127,11 @@ teaching/
 ├── module-04-cde-workflows-and-information-states/   Module 4 — CURRENT, ACTIVE
 │   ├── README.md                    module objective, deliverable and scope
 │   ├── source-inventory.md          exact source paths, precedence and four registers
-│   ├── presentation-outline.md      20-minute structure, Slides 1–3 developed
-│   ├── speaker-notes.md             natural-language notes, Slides 1–3
-│   ├── visual-demonstration-plan.md candidate visuals for the whole module
-│   ├── exercises.md                 practice and self-assessment
-│   └── source-map.md                statement classification, registers, prohibited claims
+│   ├── presentation-outline.md      20-minute structure, Slides 1–14 developed
+│   ├── speaker-notes.md             notes for Slides 1–14, plus closing and recovery
+│   ├── visual-demonstration-plan.md all fourteen visuals specified, W1–W14
+│   ├── exercises.md                 practice and self-assessment — 71 exercises
+│   └── source-map.md                244 statements, seven registers, 99 prohibited claims
 ├── shared/
 │   ├── glossary.md                  teaching glossary across all modules
 │   └── presentation-principles.md   how these presentations are built

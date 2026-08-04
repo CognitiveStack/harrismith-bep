@@ -1,8 +1,9 @@
 # Module 4 — CDE Workflows and Information States
 
-**Status:** Active module. Structure, source inventory and the **complete
-Slides 1–14 teaching-content baseline**. **Not governance, and not a complete
-module** — no visual source set, no assembly package, no deck.
+**Status:** Active module. Structure, source inventory, the **complete Slides
+1–14 teaching-content baseline** and **complete specifications for all fourteen
+visuals**. **Not governance, and not a complete module** — no visual source set,
+no assembly package, no deck.
 
 ---
 
@@ -91,16 +92,16 @@ A **20-minute presentation**, using Harrismith as the worked example.
 | Transfer context | A future Triviron multidisciplinary project |
 | Current state | **Teaching-content baseline complete — Slides 1–14.** Module not complete |
 
-**This presentation does not exist yet.** What exists after T4-A to T4-D:
+**This presentation does not exist yet.** What exists after T4-A to T4-E-A:
 
 | Established | Outstanding |
 |---|---|
 | Module structure (T4-A) | **Visual source set** — `teaching/assets/module-04/` |
-| **Source inventory** — exact paths, precedence, registers (T4-A) | **Visual specifications `W1`, `W2`, `W3`** |
-| Terminology register, with variance recorded (T4-A) | Assembly package |
-| **Transition register** — all eight steps verified (T4-A) | PowerPoint |
-| Implementation-status register (T4-A) | Review |
-| 20-minute, fourteen-slide architecture (T4-A) | **Rehearsal and measured timing** |
+| **Source inventory** — exact paths, precedence, registers (T4-A) | Assembly package |
+| Terminology register, with variance recorded (T4-A) | PowerPoint |
+| **Transition register** — all eight steps verified (T4-A) | Review |
+| Implementation-status register (T4-A) | **Rehearsal and measured timing** |
+| 20-minute, fourteen-slide architecture (T4-A) | |
 | **Slides 1–3** (T4-A) | |
 | **Slides 4–7 — Section B, the four states** (T4-B) | |
 | **State register** — every state's wording, boundaries and status (T4-B) | |
@@ -113,6 +114,7 @@ A **20-minute presentation**, using Harrismith as the worked example.
 | **Module-wide unresolved register — eighteen entries** (T4-D) | |
 | **Module-wide final reconciliation** (T4-D) | |
 | Visual specifications `W12`–`W14` (T4-D) | |
+| **Visual specifications `W1`–`W3` — all fourteen now specified** (T4-E-A) | |
 
 ## 5. What makes this module different
 
@@ -249,7 +251,7 @@ being filled with a plausible value."*
 | [`source-inventory.md`](source-inventory.md) | **Exact source paths**, precedence, source-authority register, terminology register and variance, folder topology, **transition register**, implementation-status register, unresolved matters |
 | [`presentation-outline.md`](presentation-outline.md) | The 20-minute structure and **Slides 1–14** |
 | [`speaker-notes.md`](speaker-notes.md) | Delivery notes for **Slides 1–14**, the module closing and its ten-second fallback, and **Section D and E recovery** |
-| [`visual-demonstration-plan.md`](visual-demonstration-plan.md) | Candidate visuals for all fourteen slides; **`W4`–`W14` specified in full** |
+| [`visual-demonstration-plan.md`](visual-demonstration-plan.md) | **All fourteen visuals specified in full** — `W1`–`W14`, with fixed form, geometry, connector semantics, accessibility and STOP conditions |
 | [`exercises.md`](exercises.md) | **Seventy-one** practice and self-assessment exercises |
 | [`source-map.md`](source-map.md) | Statement classification, the **seven registers**, the **module-wide final reconciliation** and the **prohibited-claims list** |
 
@@ -262,7 +264,7 @@ itself.
 
 | Field | Value |
 |---|---|
-| Module 4 | **CURRENT — ACTIVE.** Content baseline complete; module not complete |
+| Module 4 | **CURRENT — ACTIVE.** Content baseline and visual specifications complete; module not complete |
 | Structure | **Established (T4-A)** |
 | Source inventory | **Complete (T4-A)** |
 | **Teaching-content baseline** | **COMPLETE (T4-D)** — Slides 1–14 |
@@ -271,13 +273,14 @@ itself.
 | Prohibited claims | **99** — [`source-map.md`](source-map.md) §9, §9.1–§9.4 |
 | Exercises | **71**, in four sets |
 | Module-wide final reconciliation | **[`source-map.md`](source-map.md) §11 (T4-D)** |
-| Visual specifications | **`W4`–`W14` complete**; `W1`, `W2` and `W3` remain candidates |
+| Visual specifications | **`W1`–`W14` — all fourteen complete** (T4-E-A) |
 | Slides developed | **1–14** — Sections A (T4-A), B (T4-B), C (T4-C), D and E (T4-D) |
 | Slides outstanding | **None** |
-| Visual source | **None** |
+| Visual source | **None.** `teaching/assets/module-04/` does not exist — production is **T4-E-B**, the next increment |
 | Assembly package | **None** |
 | PowerPoint | **None** |
 | Review and rehearsal | **Outstanding** |
+| Timing | **20.0 minutes allocated. Never measured** — every figure is an allocation until Exercise 64 has been run |
 | Modules 1–3 | Content, visual source, assembly package and PowerPoint produced; **review and rehearsal deferred** |
 | Module 2 README correction | **Deferred** |
 | Publication automation | **PAUSED** |
