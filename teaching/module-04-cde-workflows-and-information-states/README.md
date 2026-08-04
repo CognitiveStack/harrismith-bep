@@ -1,7 +1,7 @@
 # Module 4 — CDE Workflows and Information States
 
-**Status:** Active module. Structure, source inventory and Slides 1–3 baseline
-only. **Not governance, and not a complete module.**
+**Status:** Active module. Structure, source inventory and **Slides 1–7**
+baseline. **Not governance, and not a complete module.**
 
 ---
 
@@ -88,19 +88,22 @@ A **20-minute presentation**, using Harrismith as the worked example.
 | Slide count | 14 |
 | Worked example | Harrismith Fire Station |
 | Transfer context | A future Triviron multidisciplinary project |
-| Current state | **Structure, source inventory and Slides 1–3 baseline.** Module not complete |
+| Current state | **Structure, source inventory and Slides 1–7 baseline.** Module not complete |
 
-**This presentation does not exist yet.** What exists after T4-A:
+**This presentation does not exist yet.** What exists after T4-A and T4-B:
 
-| Established (T4-A) | Outstanding |
+| Established | Outstanding |
 |---|---|
-| Module structure | **Slides 4–14** |
-| **Source inventory** — exact paths, precedence, registers | Visual source set |
-| Terminology register, with variance recorded | Assembly package |
-| **Transition register** — all eight steps verified | PowerPoint |
-| Implementation-status register | Review |
-| 20-minute, fourteen-slide architecture | Rehearsal and measured timing |
-| **Slides 1–3** | |
+| Module structure (T4-A) | **Slides 8–14** |
+| **Source inventory** — exact paths, precedence, registers (T4-A) | Visual source set |
+| Terminology register, with variance recorded (T4-A) | Assembly package |
+| **Transition register** — all eight steps verified (T4-A) | PowerPoint |
+| Implementation-status register (T4-A) | Review |
+| 20-minute, fourteen-slide architecture (T4-A) | Rehearsal and measured timing |
+| **Slides 1–3** (T4-A) | |
+| **Slides 4–7 — Section B, the four states** (T4-B) | |
+| **State register** — every state's wording, boundaries and status (T4-B) | |
+| Visual specifications `W4`–`W7` (T4-B) | |
 
 ## 5. What makes this module different
 
@@ -247,8 +250,12 @@ and what remains unresolved.
 | Module 4 | **CURRENT — ACTIVE**, not complete |
 | Structure | **Established (T4-A)** |
 | Source inventory | **Complete (T4-A)** |
-| Slides developed | **1–3 only** |
-| Slides outstanding | **4–14** |
+| Statements classified | **113** across Slides 1–7 — [`source-map.md`](source-map.md) §5 |
+| Registers | **5** — source authority · **state** · terminology · transition · unresolved |
+| Prohibited claims | **53** — [`source-map.md`](source-map.md) §9, §9.1, §9.2 |
+| Visual specifications | **`W4`–`W7` complete**; the other ten remain candidates |
+| Slides developed | **1–7** — Section A (T4-A) and Section B (T4-B) |
+| Slides outstanding | **8–14** |
 | Visual source | **None** |
 | Assembly package | **None** |
 | PowerPoint | **None** |

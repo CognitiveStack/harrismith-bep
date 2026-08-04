@@ -1,16 +1,19 @@
 # Module 4 — Exercises
 
-**Status:** Initial exercise set for the Slides 1–3 baseline. Teaching material;
+**Status:** Exercise set for the **Slides 1–7** baseline. Teaching material;
 **not governance.**
 
 Rehearsal exercises for the presenter, not assessments for an audience. Do them
 aloud, alone, before delivering to anyone. **Exercise 13 is done after each of
 the others.**
 
-**Four exercises rehearse questions rather than slides.** Exercises 7, 10, 11 and
-12 cover material whose slides are not yet developed — but the questions arrive
-the moment you show a state diagram. Rehearse the answers before the slides
-exist, not after.
+**Twenty-nine exercises in two sets.** Exercises 1–14 cover Slides 1–3 and the
+questions that arrive as soon as a state diagram appears; **Exercises 15–29 cover
+Section B — the four states.**
+
+**Four of the foundation exercises rehearse questions rather than slides.**
+Exercises 7, 10, 11 and 12 cover material whose slides came later — they are kept
+where they are, because the questions arrive early.
 
 ---
 
@@ -413,8 +416,434 @@ revision.
 
 ---
 
+# Section B — Slides 4–7: the four states
+
+**Fifteen further exercises.** Exercise 29 is the timed run, and is done last.
+Exercise 13 still applies after each one.
+
+---
+
+## Exercise 15 — Explain WIP without referring to a folder
+
+**Task.** Explain what WIP is, in forty-five seconds, **without mentioning a
+folder, an area or a location**.
+
+**Why this exercise.** WIP is the state most tightly bound to a folder in
+people's minds, and the binding is exactly what `CGD-C01` refuses.
+
+**What good looks like.** WIP is the task team's **working state** — drafting,
+modelling, internal iterations, local coordination inside the team, correction,
+getting ready to be checked. It stays under the originating task team's
+responsibility. It may hold many versions, and those versions are working steps,
+not project exchanges.
+
+**Success criteria**
+
+- [ ] No folder, area, path or location word.
+- [ ] I called it a **state**, and described it as the team's **working
+      context**.
+- [ ] I said responsibility stays with the **originating task team**.
+- [ ] I said WIP versions are **not project exchanges**.
+- [ ] Forty-five seconds.
+
+**Common failure.** "WIP is where you keep your work in progress." A location
+answer to a governance question.
+
+---
+
+## Exercise 16 — Visibility versus permitted reliance
+
+**Task.** Explain the difference in thirty seconds, **using the project's own
+words**.
+
+**Why this exercise.** It is Slide 4's central line, and it is quotable, so there
+is no need to improvise.
+
+**What good looks like.** Our BEP: **visibility is not permission.** Being able
+to see or open another team's WIP — through folder access, a platform
+permission, or any other means — **does not constitute authority to use it.
+Permission to read is not authorisation to rely.** And other parties do not rely
+on WIP unless there is an explicitly governed exception.
+
+**Success criteria**
+
+- [ ] I used the *visibility is not permission* formulation.
+- [ ] I distinguished **can see** from **may use**.
+- [ ] I mentioned the governed-exception route without describing it.
+- [ ] I attributed it to **our BEP**.
+- [ ] Thirty seconds.
+
+**Common failure.** "You shouldn't really use it." *Shouldn't* is etiquette.
+**Not authorised** is governance.
+
+---
+
+## Exercise 17 — The WIP responsibility chain
+
+**Task.** Name who does what inside WIP. Twenty seconds. **Four lines maximum.**
+
+**Why this exercise.** Module 2 taught the full role model; this is the
+compressed version, and compressing it without re-teaching it is the skill.
+
+**What good looks like.** Author authors. Checker checks. Task-Team Lead may
+authorise the controlled transition out of WIP **where the approved governance
+establishes it**. Everyone else must not treat WIP as coordinated or approved.
+
+**Success criteria**
+
+- [ ] Four lines, no more.
+- [ ] I said *where governance establishes it* on the Task-Team Lead line.
+- [ ] I included the everyone-else line — it is the one that protects the state.
+- [ ] I did not re-teach Module 2.
+- [ ] I named no person.
+
+**Common failure.** Expanding into the authority chain. That is Module 2's, and
+it costs Slide 5 its time.
+
+---
+
+## Exercise 18 — Shared in one sentence, without *approved*
+
+**Task.** Define Shared in **one sentence**. **The word *approved* is banned** —
+along with *signed off*, *cleared* and *authorised for use*.
+
+**Why this exercise.** It is the module's single most common misreading, and the
+banned words are the ones a presenter reaches for under pressure.
+
+**What good looks like.** *"Shared means information made available beyond the
+originating task team for an identified purpose, after required checking and
+authorisation to share."*
+
+**Success criteria**
+
+- [ ] One sentence.
+- [ ] **None of the banned words.**
+- [ ] I said **for an identified purpose**.
+- [ ] I said **after required checking and authorisation**.
+- [ ] I did not imply wider reliance than the purpose supports.
+
+**Common failure.** "Shared means it's ready for other people to use." *Ready*
+and *use* are both unbounded. The purpose is the boundary.
+
+---
+
+## Exercise 19 — Two valid purposes, one invalid inference
+
+**Task.** Give **two** legitimate uses of Shared information and **one** thing it
+does not license. Thirty seconds.
+
+**Why this exercise.** Purpose-bounded reliance is abstract until it has
+examples on both sides.
+
+**What good looks like.** Valid: coordination — *"coordination inputs come from
+appropriate Shared information, not from uncontrolled WIP"*; and reference by
+another task team for the stated working purpose. Invalid: treating it as
+approved for construction, procurement, or any purpose it was not shared for —
+**suitability is bounded by the purpose**.
+
+**Success criteria**
+
+- [ ] Two valid purposes, both traceable to a source.
+- [ ] One invalid inference, stated as invalid.
+- [ ] I used the word **purpose** in all three.
+- [ ] I did not describe how the coordination cycle runs — that is Module 6.
+- [ ] Thirty seconds.
+
+**Common failure.** Offering *"for information"* as a purpose. It is a
+disclaimer, not a purpose, and it bounds nothing.
+
+---
+
+## Exercise 20 — Why responsibility stays with the originator
+
+**Task.** Explain in thirty seconds why a receiving team consuming a model does
+not become responsible for it.
+
+**Why this exercise.** It protects the originator and the receiver at once, and
+audiences get it wrong in both directions.
+
+**What good looks like.** Our BEP: **consumption does not transfer technical
+ownership.** A receiving team that consumes a model **does not acquire
+responsibility for its content — the originator remains responsible for what it
+produced.** And the mirror: **availability is not consumption** — nobody consumes
+information by accident, so nothing is imposed on a receiver either.
+
+**Success criteria**
+
+- [ ] I said responsibility **stays with the originator**.
+- [ ] I said consumption is a **deliberate act**.
+- [ ] I covered **both** directions — nothing transfers, nothing is imposed.
+- [ ] I attributed the wording to **our BEP**.
+- [ ] Thirty seconds.
+
+**Common failure.** "Once you use it, it's on you." That transfers
+responsibility the source explicitly retains with the originator.
+
+---
+
+## Exercise 21 — Why Shared is not Published
+
+**Task.** Explain the difference in thirty seconds. **Name what is required to
+cross.**
+
+**Why this exercise.** It is the hinge between Slides 5 and 6, and the audience's
+instinct — *Published is Shared with more people* — is wrong in kind, not degree.
+
+**What good looks like.** Shared means available beyond the originating team for
+an identified purpose, after check and authorisation **to share**. Published
+means **authorised for a defined delivery or use purpose** — a separate decision
+by a function holding **publication** authority. Crossing needs a delivery
+readiness review and a publication authorisation. Our CDE strategy: **Shared does
+not mean published, accepted, or suitable for every purpose.**
+
+**Success criteria**
+
+- [ ] Two **different authorities**, named as such.
+- [ ] I did not describe it as an audience-size difference.
+- [ ] I named the gate — **delivery readiness review**.
+- [ ] I quoted or paraphrased the *Shared does not mean* line.
+- [ ] Thirty seconds.
+
+**Common failure.** "Published is the formal version." *Formal* is a feeling.
+**A separate authority** is the fact.
+
+---
+
+## Exercise 22 — Why `T4` is blocked
+
+**Task.** Explain in thirty seconds, **without describing it as broken**.
+
+**Why this exercise.** The block is governance working, and the framing decides
+whether the audience hears a feature or a fault.
+
+**What good looks like.** Publication and exchange authority is **unresolved** —
+it depends on the approved delivery arrangement, which does not yet exist. So the
+transition **has no available authorising function, and information remains
+Shared**. That is the system declining to complete a route it cannot authorise —
+the alternative would be completing it by borrowing an authority nobody granted.
+
+**Success criteria**
+
+- [ ] I said **unresolved**, not *missing* or *broken*.
+- [ ] I said **information remains Shared**.
+- [ ] I framed the halt as **correct behaviour**.
+- [ ] I did not suggest a workaround.
+- [ ] Thirty seconds.
+
+**Common failure.** "We just haven't set it up yet." It reframes a recorded
+governance position as an admin backlog, and invites someone helpful to finish
+it.
+
+---
+
+## Exercise 23 — The missing authority, without inventing it
+
+**Task.** Someone asks who holds publication authority. Answer in thirty seconds
+**and refuse three offered candidates**.
+
+**Why this exercise.** The question always comes with a suggestion attached, and
+the BEP has already ruled out four names.
+
+**What good looks like.** Nobody currently holds it — the role is **unresolved**,
+pending an approved delivery arrangement that does not exist. And our BEP names
+four roles that do **not** hold it automatically: the BIM Manager, the BIM
+Coordinator, the CDE Administrator and the Architect. The BEP says so
+deliberately — it keeps the authority TBD **rather than defaulting it to
+whichever role is nearest**.
+
+**Success criteria**
+
+- [ ] I said **unresolved**, and did not name a holder.
+- [ ] I named at least three of the four excluded roles.
+- [ ] I used the *rather than defaulting it to whichever role is nearest*
+      framing.
+- [ ] I did not accept a candidate offered from the floor.
+- [ ] Thirty seconds.
+
+**Common failure.** "Probably the BIM Manager, in practice." The BEP names the
+BIM Manager first among those who do **not** hold it.
+
+---
+
+## Exercise 24 — Why publication is not delivery
+
+**Task.** Explain in thirty seconds. Name all four things kept apart.
+
+**Why this exercise.** Four concepts collapse into one in ordinary speech, and
+the collapse is where responsibility moves without anyone deciding it should.
+
+**What good looks like.** **Published** — authorised for a defined purpose.
+**Delivered** — an exchange event, sent to an identified recipient. **Received**
+— a recipient event, arrived and registered. **Accepted** — a recipient decision
+and status against a stated purpose. Only the first is an information state; the
+others are events, an event and a status recorded **against** information whose
+state is unchanged. Something can be Published and never sent to anyone.
+
+**Success criteria**
+
+- [ ] All four named, each with its own kind.
+- [ ] I said only **Published** is an information state.
+- [ ] I gave the *published but never sent* case, or an equivalent.
+- [ ] I did not describe the delivery-event logic — that is Slides 8–11.
+- [ ] Thirty seconds.
+
+**Common failure.** Treating them as four stages of one process. They are four
+different kinds of object.
+
+---
+
+## Exercise 25 — Record / Retained, without saying *Archive*
+
+**Task.** Explain the fourth state in forty-five seconds. **The word *Archive* is
+banned**, and so is any folder name.
+
+**Why this exercise.** The expectation is near-universal; naming the folder
+creates a requirement three controlled documents decline to create.
+
+**What good looks like.** It is about preserving what must be preserved,
+maintaining traceability, and retaining evidence — superseded information is
+**marked superseded, not deleted**; prior versions and rejected submissions are
+**preserved**; history is not overwritten. It is a **conceptual state and a
+retention requirement — not necessarily a folder**.
+
+**Success criteria**
+
+- [ ] The banned word never appeared.
+- [ ] I named it as a **state or obligation**, not a location.
+- [ ] I gave at least two preservation behaviours from the sources.
+- [ ] I said **not necessarily a folder**.
+- [ ] Forty-five seconds.
+
+**Common failure.** "It's where old stuff goes." Location, and dismissive of
+material the sources treat as the most instructive part of the record.
+
+---
+
+## Exercise 26 — Why the retention method is unresolved
+
+**Task.** Explain in thirty seconds why the project has not created a retention
+location — **and why creating one now would be wrong**.
+
+**Why this exercise.** The obvious fix is the failure the governance model exists
+to prevent.
+
+**What good looks like.** The retention approach is **not yet defined**. No
+mandatory `04 Archive` root is approved or required, and a later approved
+retention and technical implementation route is **still required**. Creating a
+folder now would be **configuration without a decision behind it** — and it might
+not turn out to be a folder at all.
+
+**Success criteria**
+
+- [ ] I said the approach is **not yet defined**.
+- [ ] I said no root is **approved or required**.
+- [ ] I named the failure — **configuration without a decision**.
+- [ ] I allowed that the answer may not be a folder.
+- [ ] Thirty seconds.
+
+**Common failure.** "We'll add it later." *Later* implies the decision is made
+and only the timing is open. **The decision is open.**
+
+---
+
+## Exercise 27 — The state-versus-area mismatch
+
+**Task.** Explain why four states and four areas do not line up. Thirty seconds.
+
+**Why this exercise.** The mismatch is a controlled finding, and tidying it would
+invent a mapping nobody approved.
+
+**What good looks like.** Four root areas were adopted, and **three** map to
+states. **`0. Common Files` is an area mapped to no state** — nothing becomes
+approved, controlled or relied upon by being placed in it. And **Record /
+Retained is a state mapped to no approved area**. So it is three-of-four one way
+and three-of-four the other — which is what happens when concepts and folders are
+kept as separate things.
+
+**Success criteria**
+
+- [ ] I named **both** mismatches, in both directions.
+- [ ] I quoted or paraphrased the *area, not a state* line.
+- [ ] I framed the mismatch as **correct**, not untidy.
+- [ ] I did not propose an alignment.
+- [ ] Thirty seconds.
+
+**Common failure.** "It's a bit inconsistent." It is deliberately consistent —
+with the rule that states are not folders.
+
+---
+
+## Exercise 28 — Classify all four states
+
+**Task.** For each state, give its **governance status** and its **implementation
+status**. Forty-five seconds.
+
+**Why this exercise.** It is Exercise 13 applied to Section B's whole content,
+and it is the check that stops the four states sounding equally available.
+
+**What good looks like.**
+
+| State | Governance | Implementation |
+|---|---|---|
+| **WIP** | Controlled | **Unverified** — one qualified container observation |
+| **Shared** | Controlled | **Unverified** — only Architecture demonstrable |
+| **Published / Authorised** | **Blocked** | **Not reached** |
+| **Record / Retained** | **Unresolved** | **Not addressed** |
+
+**Success criteria**
+
+- [ ] All four, with **both** statuses each.
+- [ ] I did not present any as operating.
+- [ ] I did not present any as failing.
+- [ ] I said *absence of observation is not observation of absence* where
+      relevant.
+- [ ] Forty-five seconds.
+
+**Common failure.** Giving governance status only. **Two states are governed and
+still unverified** — that is the module's whole hazard in one row.
+
+---
+
+## Exercise 29 — Deliver Slides 4–7 to time
+
+**Task.** Deliver the four state slides end to end. **Target: 5.0 minutes.
+Measure it.**
+
+**Why this exercise.** Section B is 6.5 minutes across five slides; Slide 3 takes
+1.5, leaving 5.0 for these four. If they run long, Section C teaches transitions
+between things the audience is still absorbing.
+
+**What good looks like.** Slide 4 lands *visibility is not permission*. Slide 5
+lands *authorised for a defined use, not approved for every use*. Slide 6 lands
+the empty authority field and *information remains Shared*. Slide 7 lands
+*obligation established, method TBD*.
+
+**Success criteria**
+
+- [ ] **5.0 minutes ± 20 seconds**, measured.
+- [ ] The word *approved* never described the Shared state.
+- [ ] The publication-authority field was **shown empty**, not skipped.
+- [ ] *Archive* was said only to refuse it.
+- [ ] The retention-method panel was **shown empty**, not skipped.
+- [ ] No holder, period, folder or route was invented.
+- [ ] I did not teach the transition mechanics.
+
+**Common failure.** Slide 6 running to 2.5 minutes because the unresolved
+authority invites discussion. **Name it, show the empty field, move.** The
+discussion belongs after the session.
+
+---
+
 ## Scope note
 
-**Fourteen exercises, covering the Slides 1–3 baseline and the questions that
-arrive as soon as a state diagram appears.** Exercises for Slides 4–14 are a
-later increment.
+**Twenty-nine exercises, covering the Slides 1–7 baseline.**
+
+| Set | Exercises | Covers |
+|---|---|---|
+| Foundation | 1–14 | Slides 1–3, and the questions that arrive with a state diagram |
+| Section B | 15–29 | Slides 4–7 — the four states |
+
+**Exercise 13 is done after every one of the other twenty-eight.** If you cannot
+say whether a statement is controlled, proposed or unresolved, do not say it.
+
+Exercises for Slides 8–14 are a later increment.

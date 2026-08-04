@@ -4,6 +4,9 @@
 source file and no rendered image asset exists.** Nothing here is a final asset,
 and creating assets is a later increment.
 
+**`W4`–`W7` — the Section B state visuals — are now specified in full** (T4-B).
+The remaining ten are candidates at the level established in T4-A.
+
 Source identifiers `S1`–`S14` are defined in
 [`source-inventory.md`](source-inventory.md). Classification follows
 [`source-map.md`](source-map.md) §1.
@@ -208,89 +211,239 @@ areas map to states, one (`0. Common Files`) maps to none, and one state has no
 area at all.** **The mismatch is the teaching**, and a tidy four-to-four
 alignment destroys it.
 
-### W4 — The WIP task-team boundary
+### W4 — The WIP task-team boundary · **specified (T4-B)**
 
 | Field | Value |
 |---|---|
 | **Slide** | 4 |
 | **Teaching purpose** | Show WIP as bounded by the task team, and that **visibility is not permission to rely** |
-| **Source basis** | `S1` §6.4, §7.5; `S2` §1 |
-| **Classification** | `CONTROLLED` |
+| **Source basis** | `S1` §6.4, §7.5; `S2` §1; `S3` §3.2; `S4` §7 |
+| **Classification** | `CONTROLLED` + `DECISION-RECORD` |
 | **Governance status** | **Controlled** |
-| **Implementation status** | Unverified |
-| **Simplify** | One boundary, one team inside, many versions inside, one observer outside |
-| **Omit** | Any named person; any team-space screenshot; any suggestion the boundary is a permission setting |
-| **Overclaim risk** | MEDIUM |
-| **Blocked element visible?** | No |
+| **Implementation status** | **`IMPLEMENTATION UNVERIFIED`** — one qualified container observation |
+| **Simplify** | One boundary, three functions inside, several versions inside, one observer outside |
+| **Omit** | **Any named person. Any team-space screenshot. Any automatic arrow to Shared.** Any suggestion the boundary is a permission setting. Any green approval tick |
+| **Overclaim risk** | **MEDIUM-HIGH** — a boundary with a gate on it invites the eye to follow the route out |
+| **Blocked element visible?** | No — but **no route out is drawn** |
 | **Live evidence required?** | No |
 | **External imagery** | No |
 
-**Requirement.** The observer outside the boundary can **see** and may not
-**rely** — *"visibility of WIP is not permission to rely on it"*.
+**The fixed form:**
 
-### W5 — Shared: permitted use for a defined purpose
+```text
+┌─ TASK-TEAM WIP ──────────────────────────────────┐
+│                                                  │
+│   Author  →  Checker  →  [ Task-Team Lead gate ] │
+│                                                  │
+│   v1  v2  v3  v4 …   working steps,              │
+│                      NOT project exchanges       │
+│                                                  │
+│   originating responsibility — retained          │
+└──────────────────────────────────────────────────┘
+
+        ●  another team — CAN SEE
+           ✗ MAY NOT RELY
+
+   "Visibility is not permission.
+    Permission to read is not authorisation to rely."  (BEP §7.5)
+```
+
+**Six mandatory design requirements.**
+
+1. **No automatic arrow to Shared.** The Task-Team Lead gate may be **visible on
+   the boundary**, but **no connector leaves it** — transition mechanics are
+   Slides 8–11.
+2. **The observer outside can see and may not rely.** Both halves are drawn — a
+   sight line in, and a refusal marker on reliance.
+3. **Originating responsibility is visible inside the boundary**, and stays
+   there.
+4. **Multiple versions are shown inside**, annotated as **working steps, not
+   project exchanges**.
+5. **No green approval tick, anywhere.**
+6. **No claim that every task team has a verified live area.** If implementation
+   is annotated at all: *"`ARC-01` — one qualified observation; five containers
+   not observed at the inspected level"*.
+
+**Design note.** Draw the boundary as a **responsibility boundary, not a
+permission boundary**. `S1` §6.4: *"A team space is a platform construct…
+**Membership confers no authority**."* A boundary drawn as a padlock teaches the
+opposite.
+
+### W5 — Shared: permitted use for a defined purpose · **specified (T4-B)**
 
 | Field | Value |
 |---|---|
 | **Slide** | 5 |
-| **Teaching purpose** | Show that Shared carries a **stated purpose**, and that reliance is bounded by it |
-| **Source basis** | `S1` §6.3, §6.5, §7.8; `S2` §1, §3; `S3` §3.3 |
-| **Classification** | `CONTROLLED` + `DECISION-RECORD` |
-| **Governance status** | **Controlled** |
-| **Implementation status** | **Unverified** — only Architecture demonstrable as a Shared input (`S4` §7) |
-| **Simplify** | One container, one stated purpose, two or three permitted uses |
-| **Omit** | **Any implication that Shared means approved.** Any suggestion that consumption transfers ownership |
+| **Teaching purpose** | Show that Shared carries a **stated purpose**, that reliance is bounded by it, and that **responsibility stays with the originator** |
+| **Source basis** | `S1` §6.3, §6.5, §6.6, §7.7; `S2` §1, §3; `S3` §3.3; `S4` §7 |
+| **Classification** | `CONTROLLED` + `SUPPORTING` + `DECISION-RECORD` |
+| **Governance status** | **Controlled** — `T1`'s authorising function is established |
+| **Implementation status** | **`IMPLEMENTATION UNVERIFIED`** — *"only Architecture currently demonstrable as a Shared input"* |
+| **Simplify** | One central container, **two or three purpose call-outs**, one retained-responsibility line |
+| **Omit** | **Any approval stamp. Any publication symbol. Any client-acceptance symbol. Any green compliance treatment.** Any platform screenshot |
 | **Overclaim risk** | **HIGH** — Shared is the state most often read as *signed off* |
 | **Blocked element visible?** | No |
 | **Live evidence required?** | No |
 | **External imagery** | No |
 
-**Requirement.** *"Shared does not mean published, accepted, or suitable for
-every purpose"* appears on the slide. And `S3` §3.3 — *"placement alone does not
-evidence that checking or authorisation occurred"*.
+**The fixed form:**
 
-### W6 — The publication-authority gate
+```text
+                    ┌──────────────────────┐
+   originating      │   SHARED CONTAINER   │      purpose call-outs:
+   task team  ══════│                      │────  · coordination
+   RESPONSIBILITY   │  stated purpose:     │────  · controlled review
+   RETAINED         │  ……………………            │────  · reference by another
+                    └──────────────────────┘         task team
+
+   ── ON-SLIDE WARNING:
+      Shared means authorised for A DEFINED USE.
+      It does not mean approved for EVERY use.
+```
+
+**Six mandatory design requirements.**
+
+1. **Purpose labels are visible**, and each permitted use is attached to one.
+2. **The responsibility line stays attached to the originator** — drawn as a
+   persistent connection, not a handover arrow.
+3. **A visible warning that Shared is not Published.**
+4. **No approval stamp, publication symbol, acceptance symbol or tick.**
+5. **No green.** Green reads as *cleared*, which is the misreading the slide
+   exists to refuse.
+6. **`02. Shared` may be referenced, with `S3` §3.3 attached** — *"placement
+   alone does not evidence that checking or authorisation occurred"*.
+
+**Design note.** The purpose call-outs must look like **conditions**, not
+**benefits**. A fan of arrows radiating outward reads as distribution; the same
+arrows terminating in labelled purposes read as bounded permission.
+
+### W6 — The publication-authority gate · **specified (T4-B)**
 
 | Field | Value |
 |---|---|
 | **Slide** | 6 |
-| **Teaching purpose** | Show publication as a **separate decision by a separate authority** |
-| **Source basis** | `S1` §6.7, §9.7; `S2` §1, §3.2; `S3` §3.4; `S6` `D4` |
-| **Classification** | `CONTROLLED` + `SUPPORTING` |
-| **Governance status** | **UNRESOLVED** — the authority is not assigned |
-| **Implementation status** | Not reached |
-| **Simplify** | One gate, one empty authority holder, one purpose label |
-| **Omit** | **Any named or implied authority holder.** Any suggestion that a senior role holds it by default |
-| **Overclaim risk** | **HIGH** — an empty gate invites the audience to fill it |
-| **Blocked element visible?** | **YES** — the authority holder is drawn **empty** |
+| **Teaching purpose** | Show publication as a **separate decision by a separate authority** — and that the authority is **required and unassigned** |
+| **Source basis** | `S1` §6.7, §9.7; `S2` §1, §3.1, §3.2, §11; `S3` §3.4; `S4` §9; `S6` `D4` |
+| **Classification** | `CONTROLLED` + `SUPPORTING` + `DECISION-RECORD` |
+| **Governance status** | **`BLOCKED`** — the authority is **UNRESOLVED** |
+| **Implementation status** | **Not reached** |
+| **Simplify** | One Shared input, one gate, **one empty authority position**, one blocked output |
+| **Omit** | **Any named or implied authority holder. Any solid `Shared → Published` arrow. Any checkmark.** Any suggestion an administrator may substitute. Any red failure styling |
+| **Overclaim risk** | **HIGH in both directions** — an empty gate invites the audience to fill it; a red gate reads as a defect |
+| **Blocked element visible?** | **YES — the authority position is drawn empty, and the output is broken** |
 | **Live evidence required?** | No |
 | **External imagery** | No |
 
-**Requirement.** The authority is drawn as a **labelled, unfilled holder** — not
-omitted. **An authority absent from the diagram reads as an authority that does
-not exist**; an empty one reads as unassigned, which is the truth. And `S3` §3.4
-on the slide: *"Putting a file in `03. Published` does not publish it."*
+**The fixed form:**
 
-### W7 — Retention versus folder
+```text
+   SHARED
+     │
+     ▼
+  ┌─────────────────────────────────────────────┐
+  │  PUBLICATION GATE                           │
+  │                                             │
+  │  required check:  delivery readiness review │
+  │  required evidence: review + authorisation  │
+  │                       record                │
+  │                                             │
+  │  Publication-authorising function:          │
+  │  ┌───────────────────────────────────┐      │
+  │  │        TBD / UNRESOLVED           │      │   ← EMPTY, not omitted
+  │  └───────────────────────────────────┘      │
+  └─────────────────────────────────────────────┘
+     ⇢     T4 BLOCKED
+           No available authorising function
+           INFORMATION REMAINS SHARED
+     ⇢
+   PUBLISHED / AUTHORISED        (not reached)
+```
+
+**Seven mandatory design requirements.**
+
+1. **No solid `Shared → Published` connector.** Broken or visibly halted —
+   never solid, never a faded arrow reading as *in progress*.
+2. **The authority position appears and is empty.** **Omitting it would imply no
+   authority is required**, which is the opposite of true.
+3. **Three labels, all present:** **`T4 blocked`** · **`No available authorising
+   function`** · **`Information remains Shared`**.
+4. **No name in the authority position** — and **no substitution**. `S1` §9.7
+   names the BIM Manager, BIM Coordinator, CDE Administrator and Architect as
+   **not** holding it automatically.
+5. **No checkmark, and no red failure styling.** The block is **deliberate
+   governance**, not a technical fault.
+6. **`TRN-E03` is not drawn as the transition.** It may be named in a single
+   annotation as *a later delivery event that depends on `T4`* — **the event
+   logic is Slides 8–11**.
+7. **`S3` §3.4 appears on the slide** — *"Putting a file in `03. Published` does
+   not publish it."*
+
+**Design note — the hardest instruction on this visual.** An empty box looks
+unfinished, and a designer will want to fill it, shade it, or remove it. **All
+three are wrong.** Filled invents an authority; removed implies none is needed;
+shaded reads as failure. **A plain, labelled, empty position is the only accurate
+rendering.**
+
+### W7 — Retention obligation versus method · **specified (T4-B)**
 
 | Field | Value |
 |---|---|
 | **Slide** | 7 |
-| **Teaching purpose** | Show retention as an **obligation**, and the folder question as **undecided** |
-| **Source basis** | `S1` §6.3; `S2` §1; **`CGD-C06`** |
-| **Classification** | `CONTROLLED` + `DECISION-RECORD` |
-| **Governance status** | **Controlled** — the obligation. **UNRESOLVED** — the method |
-| **Implementation status** | — |
-| **Simplify** | Two panels: **the obligation** (traceability) and **the method** (TBD) |
-| **Omit** | **`04 Archive`. Any folder icon. Any placeholder folder name.** Any implication that a method is imminent |
-| **Overclaim risk** | MEDIUM-HIGH — the audience expects a folder and will read one in |
-| **Blocked element visible?** | **YES** — the method panel is **visibly empty** |
+| **Teaching purpose** | Show retention as an **established obligation** with an **undecided method** |
+| **Source basis** | `S1` §6.3, §7.10, §9.9, §12.10; `S2` §1, §19; **`S3` §3.1, §3.5, `CGD-C06`** |
+| **Classification** | `CONTROLLED` + `SUPPORTING` + `DECISION-RECORD` |
+| **Governance status** | **Controlled** — the obligation. **`UNRESOLVED`** — the method |
+| **Implementation status** | **Not addressed in any validation record** |
+| **Simplify** | **Two panels, side by side** — obligation established, method unresolved |
+| **Omit** | **`04 Archive` in any form. Any folder icon. Any placeholder folder name. Any destination arrow. Any completed storage icon. Any green check. Any invented retention period. Any invented named holder** |
+| **Overclaim risk** | **MEDIUM-HIGH** — the audience expects a folder and will read one in |
+| **Blocked element visible?** | **YES — the method panel is visibly empty** |
 | **Live evidence required?** | No |
 | **External imagery** | No |
 
-**Requirement.** *"No mandatory CDE root named `04 Archive` is required or
-approved"* appears on the slide. **The method panel stays empty** — a
-placeholder folder name reads as a decision.
+**The fixed form:**
+
+```text
+  ┌── OBLIGATION — ESTABLISHED ──┐   ┌── METHOD — UNRESOLVED ──────┐
+  │                              │   │                             │
+  │  · preserve required         │   │  location:            TBD   │
+  │    project information       │   │  retention period:    TBD   │
+  │  · protect against           │   │  responsible holder:  TBD   │
+  │    uncontrolled change       │   │  implementation                │
+  │    or loss                   │   │    evidence:     unavailable   │
+  │  · maintain traceability     │   │                             │
+  │  · retain required evidence  │   │                             │
+  │                              │   │                             │
+  │  superseded ≠ deleted        │   │      ← stays empty →        │
+  └──────────────────────────────┘   └─────────────────────────────┘
+
+  ── ON-SLIDE STATEMENT:
+     Record / Retained is a state or obligation.
+     It is NOT automatically a folder.
+
+  ── STATE-VERSUS-AREA MISMATCH:
+     0. Common Files   — an area mapped to NO state
+     Record / Retained — a state mapped to NO approved area
+```
+
+**Seven mandatory design requirements.**
+
+1. **`04 Archive` appears nowhere** — not as a label, an example, a grey
+   placeholder, a future suggestion or a visual destination.
+2. **The method panel appears and stays empty.** **An omitted method panel reads
+   as complete**; an empty one shows the open decision.
+3. **No destination arrow** from the obligation panel to anywhere. There is
+   nowhere to point.
+4. **No completed storage icon, no green check, no archive imagery.**
+5. **No invented retention period** — none exists in any controlled source.
+6. **No invented named holder** — **no records manager or archive administrator
+   exists in the Harrismith set**.
+7. **The state-versus-area mismatch is shown**, both directions. **Do not force a
+   four-state-to-four-area alignment.**
+
+**Design note.** The two panels are the **same size**. A large obligation panel
+beside a small method panel implies the method is a detail. It is an undecided
+governance matter, and the panels should look equally consequential.
 
 ### W8 — File movement versus authorised transition
 
@@ -485,10 +638,10 @@ acceptance authority?_** · *What evidence will each transition produce?* ·
 | `W1` | 1 | Layout | **HIGH** | Status labels |
 | `W2` | 2 | Layout / cards | MEDIUM-HIGH | **Absent code sets** |
 | `W3` | 3 | **Layout — not Mermaid** | **HIGHEST** | **YES** |
-| `W4` | 4 | Mermaid or layout | MEDIUM | No |
-| `W5` | 5 | Layout | **HIGH** | No |
-| `W6` | 6 | Layout | **HIGH** | **YES — empty authority holder** |
-| `W7` | 7 | Layout | MEDIUM-HIGH | **YES — empty method panel** |
+| `W4` | 4 | **Layout — specified** | MEDIUM-HIGH | **No route out drawn** |
+| `W5` | 5 | **Layout — specified** | **HIGH** | No |
+| `W6` | 6 | **Layout — specified** | **HIGH** | **YES — empty authority position** |
+| `W7` | 7 | **Layout — specified** | MEDIUM-HIGH | **YES — empty method panel** |
 | `W8` | 8 | Layout — two panels | **HIGH** | No |
 | `W9` | 9 | **Table — not Mermaid** | **HIGHEST** | **YES** |
 | `W10` | 10 | Mermaid or layout | MEDIUM-HIGH | `T4` contrast |
@@ -497,11 +650,20 @@ acceptance authority?_** · *What evidence will each transition produce?* ·
 | `W13` | 13 | Mermaid or layout | MEDIUM | No |
 | `W14` | 14 | Layout | **HIGH (Triviron)** | End state open |
 
-**Fourteen candidate visuals. Six carry HIGH or HIGHEST overclaim risk, and
-seven must keep something visibly incomplete.**
+**Fourteen candidate visuals. Four specified in full — `W4`–`W7` (T4-B). Six
+carry HIGH or HIGHEST overclaim risk, and seven must keep something visibly
+incomplete.**
 
-**Only four are safely Mermaid** — `W4`, `W10`, `W13`, and `W1` if drawn without
-a return arrow. **Everything that depicts a state, a transition set or an absent
+**Two of the Section B visuals carry a mandatory empty field.** `W6`'s
+publication-authority position and `W7`'s retention-method panel are **shown and
+left blank** — because omission reads as *not needed* and a filled field invents a
+decision. **A producer who removes, fills or shades either has changed the
+claim.**
+
+**Only three are safely Mermaid** — `W10`, `W13`, and `W1` if drawn without a
+return arrow. **`W4` moved to a layout specification in T4-B**: a Mermaid
+boundary with a gate on it renders an outbound edge, and the route out of WIP
+must not be drawn. **Everything that depicts a state, a transition set or an absent
 control is a layout specification**, because a renderer that normalises a broken
 line into a solid one commits the module's central error.
 

@@ -83,22 +83,35 @@ register is [`source-inventory.md`](source-inventory.md) §3.
 
 ---
 
-## 5. Statement classification — Slides 1–3
+## 5. Statement classification — Slides 1–7
 
-**44 statements. 19 `CONTROLLED`, 7 `SUPPORTING`, 8 `DECISION-RECORD`,
-1 `MODULE-1-3`, 4 `INTERP`, 3 `SYNTH`, 2 `EXCLUDED`.**
+**113 statements. 53 `CONTROLLED`, 14 `SUPPORTING`, 21 `DECISION-RECORD`,
+1 `MODULE-1-3`, 7 `INTERP`, 7 `SYNTH`, 10 `EXCLUDED`.**
 
 | Slide | Statements | `CTRL` | `SUPP` | `DEC` | `M1-3` | `INT` | `SYN` | `EXC` |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
 | 1 | 12 | 3 | 2 | 3 | 1 | 1 | 1 | 1 |
 | 2 | 14 | 7 | 2 | 1 | 0 | 2 | 1 | 1 |
 | 3 | 18 | 9 | 3 | 4 | 0 | 1 | 1 | 0 |
-| **Total** | **44** | **19** | **7** | **8** | **1** | **4** | **3** | **2** |
+| **4** | **16** | **8** | **0** | **4** | **0** | **1** | **1** | **2** |
+| **5** | **18** | **8** | **3** | **3** | **0** | **1** | **1** | **2** |
+| **6** | **18** | **9** | **3** | **2** | **0** | **1** | **1** | **2** |
+| **7** | **17** | **9** | **1** | **4** | **0** | **0** | **1** | **2** |
+| **Total** | **113** | **53** | **14** | **21** | **1** | **7** | **7** | **10** |
 
-**Two observations.** **Slide 3 is the most source-dense in the increment** —
-eighteen statements, sixteen of them from controlled documents. And **every
-Slide 2 property definition is `CONTROLLED`** while **every code set is
+**Three observations.**
+
+**Section B is overwhelmingly controlled.** Of the 69 statements on Slides 4–7,
+**34 are `CONTROLLED` and 13 are `DECISION-RECORD`** — 68 per cent from level-1
+and level-3 sources. **Only two are `SYNTH` per slide at most.** The four states
+are among the best-evidenced material in the programme.
+
+**Every Slide 2 property definition is `CONTROLLED`** while **every code set is
 `UNRESOLVED`**: the vocabulary is governed, the coding is not.
+
+**The two states the audience most wants are the two least available.** Published
+/ Authorised is **`BLOCKED`** and Record / Retained is **`UNRESOLVED`** — and
+both carry a mandatory **empty field** rather than an omission.
 
 ### Slide 1 — A CDE is a governed process, not a folder tree
 
@@ -158,6 +171,122 @@ Slide 2 property definition is `CONTROLLED`** while **every code set is
 | `M4-S3-16` | The state model is **conceptual**; the topology and every state's live realisation are **unverified** | `docs/Increment-7C-Live-Validation-Record.md`; **`CGD-C07`** | — | 3 | — | **`IMPLEMENTATION UNVERIFIED`** | **`DECISION-RECORD`** |
 | `M4-S3-17` | *Delivered*, *received*, *accepted*, *consumed* and *coordination input* are **not information states** | `supporting/cde-workflow-state-strategy.md` | §3, §13 | 2 | `PROPOSED GOVERNANCE` | — | **`SUPPORTING`** |
 | `M4-S3-18` | `T1` — **the authorising function is established**: Task-Team Lead | `supporting/…strategy.md` §3.2; `bep/…BEP.md` §9.4 | — | 1, 2 | **`CONTROLLED GOVERNANCE`** | **`IMPLEMENTATION UNVERIFIED`** | **`CONTROLLED`** |
+
+---
+
+### Slide 4 — Work in Progress: authoring inside the task team
+
+| ID | Statement | Source path | Section | Auth | Governance | Implementation | Class |
+|---|---|---|---|---|---|---|---|
+| `M4-S4-01` | *"WIP is the task team's **working state**"* — drafting, iterations, local coordination, correction, checking preparation | `bep/…BEP.md` | §7.5 | 1 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M4-S4-02` | The originating task team is responsible for authoring, internal checking, readiness assessment, and authorisation for progression **where governance assigns it** | `bep/…BEP.md` | §6.4 | 1 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M4-S4-03` | *"WIP may contain many versions"* — incomplete, provisional or uncoordinated work is expected | `bep/…BEP.md` | §7.5 | 1 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M4-S4-04` | **Not authorised for general project reliance** | `bep/…BEP.md` §6.3; `supporting/cde-workflow-state-strategy.md` §1 | — | 1, 2 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M4-S4-05` | *"**WIP versions are not project exchanges.** A new version in WIP is a working step, not a share, not an issue"* | `bep/…BEP.md` | §7.5 | 1 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M4-S4-06` | *"**Other parties do not rely on WIP** unless an explicitly governed exception exists"* | `bep/…BEP.md` | §7.5, §7.11 | 1 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M4-S4-07` | **"Visibility is not permission."** *"Being able to see or open another team's WIP… does not constitute authority to use it. **Permission to read is not authorisation to rely.**"* | `bep/…BEP.md` | §7.5 | 1 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M4-S4-08` | *"**A team space is a platform construct**… **Membership confers no authority**"* | `bep/…BEP.md` | §6.4 | 1 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M4-S4-09` | **`01. WIP (Work in Progress)`** corresponds to the WIP state; information remains under originator or task-team control | `docs/CDE-Structure-Governance-Decision.md` | §3.2 | 3 | **`CONTROLLED GOVERNANCE`** | **`IMPLEMENTATION UNVERIFIED`** | **`DECISION-RECORD`** |
+| `M4-S4-10` | *"Progression from WIP requires the governed transition applicable to the intended next state"* | `docs/CDE-Structure-Governance-Decision.md` | §3.2 | 3 | **`CONTROLLED GOVERNANCE`** | — | **`DECISION-RECORD`** |
+| `M4-S4-11` | The responsibility chain — Author authors · Checker checks · Task-Team Lead may authorise progression where governance establishes it | `bep/…BEP.md` §5.7, §5.8, §9.4 | — | 4 | — | — | **`INTERP`** |
+| `M4-S4-12` | `ARC-01` — *"Live equivalent observed"*. **A container observation, not a workflow demonstration.** Five other containers *"not observed as a live direct coordination input at the inspected level"* | `docs/Increment-7C-Live-Validation-Record.md` | §7 | 3 | — | **`IMPLEMENTATION UNVERIFIED`** | **`DECISION-RECORD`** |
+| `M4-S4-13` | The WIP workflow as a whole is **not demonstrated**; *"absence of observation is not observation of absence"* | `docs/Increment-7C-Live-Validation-Record.md` | §7 | 3 | — | **`IMPLEMENTATION UNVERIFIED`** | **`DECISION-RECORD`** |
+| `M4-S4-14` | *"WIP is where a task team develops its information — not where the wider project is entitled to rely on it"* | none | — | 5 | — | — | **`SYNTH`** |
+| `M4-S4-15` | Any claim that WIP access constitutes authorisation, or that visibility permits reliance | — | — | — | — | — | **`EXCLUDED`** |
+| `M4-S4-16` | The complete `WIP → Shared` workflow — gates, checks and evidence | — | — | — | — | — | **`EXCLUDED` — Slides 8–11** |
+
+### Slide 5 — Shared: controlled use for a defined purpose
+
+| ID | Statement | Source path | Section | Auth | Governance | Implementation | Class |
+|---|---|---|---|---|---|---|---|
+| `M4-S5-01` | *"Information made available beyond the originating task team **for an identified purpose, after required checking and authorisation**"* | `bep/…BEP.md` | §6.3 | 1 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M4-S5-02` | Shared carries a **stated purpose**, and readiness is judged against it | `bep/…BEP.md` | §6.3, §7.7 | 1 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M4-S5-03` | *"**Availability is not consumption.** Information being visible, accessible or present in a shared location does not mean any team has adopted it. **Nobody consumes information by accident.**"* | `bep/…BEP.md` | §6.5 | 1 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M4-S5-04` | *"**Consumption does not transfer technical ownership.** A receiving team that consumes a model does not acquire responsibility for its content. **The originator remains responsible for what it produced.**"* | `bep/…BEP.md` | §6.5 | 1 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M4-S5-05` | *"**Coordination inputs come from appropriate Shared information, not from uncontrolled WIP**"* | `bep/…BEP.md` | §6.6 | 1 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M4-S5-06` | **Shared is not technical design approval** — *"coordination input is not design approval"* | `supporting/…strategy.md` §3; `bep/…BEP.md` §8.1, §9.5 | — | 1, 2 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M4-S5-07` | **Shared is not delivery, receipt or acceptance** — those are events, an event and a status | `supporting/cde-workflow-state-strategy.md` | §3, §13 | 2 | `PROPOSED GOVERNANCE` | — | **`SUPPORTING`** |
+| `M4-S5-08` | *"No numeric quality thresholds are set"* — readiness is a judgement against the purpose, by the role authorised to make it | `bep/…BEP.md` | §7.7 | 1 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M4-S5-09` | *"**Shared does not mean** published, accepted, or suitable for every purpose"* | `supporting/cde-workflow-state-strategy.md` | §1 | 2 | `PROPOSED GOVERNANCE` | — | **`SUPPORTING`** |
+| `M4-S5-10` | `T1` is authorised by the **Task-Team Lead** — **established**. This creates **no** publication authority | `supporting/…strategy.md` §3.2; `bep/…BEP.md` §9.4, §9.7 | — | 1, 2 | **`CONTROLLED GOVERNANCE`** | **`IMPLEMENTATION UNVERIFIED`** | **`SUPPORTING`** |
+| `M4-S5-11` | **`02. Shared`** corresponds to the Shared state | `docs/CDE-Structure-Governance-Decision.md` | §3.3 | 3 | **`CONTROLLED GOVERNANCE`** | **`IMPLEMENTATION UNVERIFIED`** | **`DECISION-RECORD`** |
+| `M4-S5-12` | *"**Placement alone does not evidence that checking or authorisation occurred**"* | `docs/CDE-Structure-Governance-Decision.md` | §3.3 | 3 | **`CONTROLLED GOVERNANCE`** | — | **`DECISION-RECORD`** |
+| `M4-S5-13` | The **BIM Coordinator** may use Shared information for coordination **without becoming the designer or originator**; **CDE Administration** implements permissions but does not authorise the transition | `bep/…BEP.md` §5.6, §6.9, §8.10; `supporting/…strategy.md` §14 | — | 1, 2 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M4-S5-14` | *"Only Architecture currently demonstrable as a Shared input"* | `docs/Increment-7C-Live-Validation-Record.md` | §7 | 3 | — | **`IMPLEMENTATION UNVERIFIED`** | **`DECISION-RECORD`** |
+| `M4-S5-15` | The authority-boundary summary — sharing authority, coordination use and administration kept apart | `S1`, `S2` | — | 4 | — | — | **`INTERP`** |
+| `M4-S5-16` | *"Shared information may be relied upon only for the purpose for which it was shared"* | none | — | 5 | — | — | **`SYNTH`** |
+| `M4-S5-17` | **Shared = approved** | — | — | — | — | — | **`EXCLUDED`** |
+| `M4-S5-18` | `T1`'s gate, checks and evidence in detail | — | — | — | — | — | **`EXCLUDED` — Slide 10** |
+
+### Slide 6 — Published / Authorised: a separate decision and authority
+
+| ID | Statement | Source path | Section | Auth | Governance | Implementation | Class |
+|---|---|---|---|---|---|---|---|
+| `M4-S6-01` | *"passed the **required preparation, review and authorisation for an identified purpose**"* | `bep/…BEP.md` | §6.7 | 1 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M4-S6-02` | **Published does not mean perfect** — *"Authorisation confirms fitness for a stated purpose, not absence of error"* | `bep/…BEP.md` | §6.7 | 1 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M4-S6-03` | **Published does not mean forever final** — it can be superseded or revised | `bep/…BEP.md` | §6.7 | 1 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M4-S6-04` | **Published does not mean universally suitable** — *"Suitability is bounded by the purpose it was authorised for"* | `bep/…BEP.md` | §6.7 | 1 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M4-S6-05` | **Published does not mean accepted** — *"Acceptance is a separate act by an identified recipient"* | `bep/…BEP.md` | §6.7 | 1 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M4-S6-06` | *"**Authorisation is purpose-specific.** Information authorised for one purpose is not thereby authorised for another"* | `bep/…BEP.md` | §6.7 | 1 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M4-S6-07` | **"The role holding publication and exchange authority is UNRESOLVED."** It depends on the approved delivery arrangement, **which does not yet exist** | `bep/…BEP.md` | §9.7 | 1 | **`UNRESOLVED`** | — | **`CONTROLLED`** |
+| `M4-S6-08` | It is **not automatically held by the BIM Manager, the BIM Coordinator, the CDE Administrator or the Architect**; it remains TBD *"rather than defaulting it to whichever role is nearest"* | `bep/…BEP.md` | §9.7 | 1 | **`UNRESOLVED`** | — | **`CONTROLLED`** |
+| `M4-S6-09` | *"**Platform write permission is not publication authority.** Being able to place a file in a published location is a software capability, **not a decision anyone made**"* | `bep/…BEP.md` | §9.7 | 1 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M4-S6-10` | *"`T4` therefore has **no available authorising function**, and information remains **Shared**"* | `supporting/cde-workflow-state-strategy.md` | §3.1, §3.2, §11 | 2 | **`BLOCKED`** | Not reached | **`SUPPORTING`** |
+| `M4-S6-11` | **Publication is not delivery, receipt or acceptance** — `T5` and `T6` are events; `T7` is a decision and status | `supporting/cde-workflow-state-strategy.md` | §3 | 2 | `PROPOSED GOVERNANCE` | Not reached | **`SUPPORTING`** |
+| `M4-S6-12` | *"**Putting a file in `03. Published` does not publish it.** Publication is a chain of governed events, not a location"* | `docs/CDE-Structure-Governance-Decision.md` | §3.4 | 3 | **`CONTROLLED GOVERNANCE`** | — | **`DECISION-RECORD`** |
+| `M4-S6-13` | *"**No governed publication / exchange authority evidence was established**"* | `docs/Increment-7C-Live-Validation-Record.md` | §9 | 3 | — | **`IMPLEMENTATION UNVERIFIED`** | **`DECISION-RECORD`** |
+| `M4-S6-14` | The `Shared → Published` route is **blocked**, and the block is **deliberate governance, not a technical fault** | `supporting/cde-workflow-state-strategy.md` | §11, §19 | 2 | **`BLOCKED`** | Not reached | **`SUPPORTING`** |
+| `M4-S6-15` | The publication-authorising function field appears **and is empty** — omitting it would imply no authority is required | — | — | 4 | **`UNRESOLVED`** | — | **`INTERP`** |
+| `M4-S6-16` | *"Publication is not the next folder; it is a separate authorised decision that this project cannot currently make"* | none | — | 5 | — | — | **`SYNTH`** |
+| `M4-S6-17` | `TRN-E03` presented **as the transition itself** | — | — | — | — | — | **`EXCLUDED` — a later delivery event that depends on `T4`; detail is Slides 8–11** |
+| `M4-S6-18` | Any named or substituted publication authority | — | — | — | — | — | **`EXCLUDED`** |
+
+### Slide 7 — Record / Retained: preservation without an Archive folder
+
+| ID | Statement | Source path | Section | Auth | Governance | Implementation | Class |
+|---|---|---|---|---|---|---|---|
+| `M4-S7-01` | *"Historical evidence retained for traceability, **according to the project's retention approach**"* | `bep/…BEP.md` | §6.3 | 1 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M4-S7-02` | *"**States are not folders**"* | `bep/…BEP.md` | §6.3 | 1 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M4-S7-03` | *"**No `04 Archive` project root requirement is confirmed**, and none is created here"* | `bep/…BEP.md` | §6.3 | 1 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M4-S7-04` | *"The project's **retention approach is not yet defined**"* | `bep/…BEP.md` | §6.3 | 1 | **`UNRESOLVED`** | — | **`CONTROLLED`** |
+| `M4-S7-05` | *"Superseded information is marked as superseded, **not deleted**"*; *"Previous exchanges remain traceable"* | `bep/…BEP.md` | §7.10 | 1 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M4-S7-06` | *"**Prior versions and exchanges are preserved for traceability.** History is not overwritten to remove failed submissions"* | `bep/…BEP.md` | §9.9 | 1 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M4-S7-07` | *"**History is not deleted because governance changed**"* | `bep/…BEP.md` | §12.10 | 1 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M4-S7-08` | **Two complementary histories** — Git for technical change history, the Governance & Decision Register for decision history; *"neither substitutes for the other"* | `bep/…BEP.md` | §12.10 | 1 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M4-S7-09` | *"**Record / Retained is a conceptual state and a retention requirement — not necessarily a folder**"*; *"no mandatory CDE root named `04 Archive` is required or approved"* | `supporting/cde-workflow-state-strategy.md` | §1, §19 | 2 | **`CONTROLLED GOVERNANCE`** · retention **TBD** | — | **`SUPPORTING`** |
+| `M4-S7-10` | *"Record / Retained is approved as a **conceptual requirement, not as a mandatory `04 Archive` root**"*; *"a later approved retention and technical implementation route is still required"* | `docs/CDE-Structure-Governance-Decision.md` | §3.5; **`CGD-C06`** | 3 | **`CONTROLLED GOVERNANCE`** · method **UNRESOLVED** | — | **`DECISION-RECORD`** |
+| `M4-S7-11` | **`0. Common Files` is an area mapped to no state** — *"Nothing becomes approved, controlled or relied upon by being placed in it"* | `docs/CDE-Structure-Governance-Decision.md` | §3.1 | 3 | **`CONTROLLED GOVERNANCE`** | — | **`DECISION-RECORD`** |
+| `M4-S7-12` | **Record / Retained is a state mapped to no approved area** — the two mismatches are a controlled finding | `docs/CDE-Structure-Governance-Decision.md` | §3.1, §3.5 | 3 | **`CONTROLLED GOVERNANCE`** | — | **`DECISION-RECORD`** |
+| `M4-S7-13` | **Retention method, location, period and holder are all unresolved.** No controlled source assigns a retention function | `bep/…BEP.md` §6.3; `supporting/…strategy.md` §19; **`CGD-C06`** | — | 1, 2, 3 | **`UNRESOLVED`** | — | **`CONTROLLED`** |
+| `M4-S7-14` | *"Retention is a governed obligation; the project has not yet decided the folder, system or method by which it will be implemented"* | none | — | 5 | — | — | **`SYNTH`** |
+| `M4-S7-15` | **Retention is not addressed in any validation record** — not verified, not observed, not demonstrated | `docs/Increment-7C-Live-Validation-Record.md` | — | 3 | — | **`IMPLEMENTATION UNVERIFIED`** | **`DECISION-RECORD`** |
+| `M4-S7-16` | **`04 Archive`** in any form — proposed label, example, placeholder, future suggestion or visual destination | — | — | — | — | — | **`EXCLUDED`** |
+| `M4-S7-17` | Any invented retention period, storage method or named holder | — | — | — | — | — | **`EXCLUDED`** |
+
+---
+
+## 5.1 Section B — state register
+
+**Every field populated from controlled sources. This is a state register, not a
+transition matrix.**
+
+| Field | **WIP** | **Shared** | **Published / Authorised** | **Record / Retained** |
+|---|---|---|---|---|
+| **Exact controlled wording** | *"Information under originator / task-team control. Not authorised for general project reliance."* | *"Information made available beyond the originating task team for an identified purpose, after required checking and authorisation."* | *"Information authorised for a defined delivery or use purpose."* | *"Historical evidence retained for traceability, according to the project's retention approach."* |
+| **Source** | `S1` §6.3 | `S1` §6.3 | `S1` §6.3 | `S1` §6.3 |
+| **Purpose** | Authoring, iteration, internal checking, correction, readiness preparation | Controlled use beyond the originating team, for a stated purpose | Authorised use or delivery for a defined purpose | Preservation and traceability |
+| **Reliance boundary** | **None outside the originating task team** | **The stated purpose only** | **The authorised purpose only** | Traceability and later reference |
+| **Responsible originator** | Originating task team | **Originating task team — retained** | Originating task team — retained | Not assigned |
+| **Checking boundary** | Task-team internal checking | Required checking **before** the share | Required review before authorisation | Not defined |
+| **Authorising boundary** | Task-Team Lead may authorise progression where governance assigns it | **Task-Team Lead — established** (`T1`) | **UNRESOLVED — TBD.** Not the BIM Manager, Coordinator, CDE Administrator or Architect | **Not established** |
+| **Physical-area relationship** | `01. WIP (Work in Progress)` | `02. Shared` | `03. Published` | **No approved area** |
+| **Governance status** | `CONTROLLED GOVERNANCE` | `CONTROLLED GOVERNANCE` | **`BLOCKED`** | **`UNRESOLVED`** |
+| **Implementation status** | `IMPLEMENTATION UNVERIFIED` | `IMPLEMENTATION UNVERIFIED` | **Not reached** | **Not addressed** |
+| **Prohibited inference** | That visibility permits reliance; that access is authorisation | That Shared means approved; that consumption transfers responsibility | That it is delivered, accepted or technically approved; that an administrator may substitute | **That it is a folder; that `04 Archive` exists or is proposed** |
+
+**`0. Common Files` appears in no column.** It is an **area mapped to no state**
+(`S3` §3.1). **Four areas and four states do not align**, and the mismatch is a
+controlled finding.
 
 ---
 
@@ -289,6 +418,39 @@ any question.**
 may not present proposed governance as running, **and** may not present the
 absence of verification as failure.
 
+### 9.2 Additional prohibitions recorded in T4-B
+
+Twenty more, arising from Slides 4–7. Same weight as §9. **These close the list
+at 53.**
+
+| # | Prohibited | Why |
+|---|---|---|
+| 34 | **WIP being safe for wider reliance because it is visible** | `S1` §7.5 — *"Visibility is not permission"* |
+| 35 | **WIP access meaning authorisation** | `S1` §7.5 — *"Permission to read is not authorisation to rely"* |
+| 36 | **Shared meaning universally approved** | `S2` §1 — *"Shared does not mean published, accepted, or suitable for every purpose"* |
+| 37 | **Shared transferring technical responsibility** | `S1` §6.5 — *"The originator remains responsible for what it produced"* |
+| 38 | **Shared creating publication authority** | `S1` §9.7 — the two authorities are distinct |
+| 39 | **The BIM Coordinator becoming originator through coordination use** | `S1` §5.6, §8.10 — the Coordinator does not own the technical design solution |
+| 40 | **The BIM Manager automatically holding publication authority** | `S1` §9.7 — **named as not automatically holding it** |
+| 41 | **The CDE Administrator holding publication authority** | `S1` §9.7 — **named as not automatically holding it**; §6.9 — permission is not authority |
+| 42 | **Published meaning delivered** | `S1` §6.7; `S2` §3 — delivery is an **event** |
+| 43 | **Published meaning technically approved** | `S1` §6.7 — authorisation confirms fitness for a stated purpose, not technical approval |
+| 44 | **Omission of the publication-authority field** | An omitted field implies **no authority is required**. It appears, and it is **empty** |
+| 45 | **`T4` being operational** | `S2` §3 — **no available authorising function** |
+| 46 | **`TRN-E03` being the same object as `T4`** | `TRN-E03` is a delivery event that **exercises** `T4`; it is blocked by five matters where `T4` is blocked by one |
+| 47 | **Record / Retained being a folder** | `S1` §6.3; `S2` §1; **`CGD-C06`** — three independent statements |
+| 48 | **`04 Archive` being proposed or assumed** | Not as a label, example, placeholder, future suggestion or visual destination |
+| 49 | **Omission of the unresolved retention-method field** | An omitted method panel reads as complete. It appears, and it is **empty** |
+| 50 | **A retention period being established** | **None exists in any controlled source** |
+| 51 | **A named retention holder existing** | **No records manager or archive administrator exists in the Harrismith set** |
+| 52 | **Four states mapping neatly to four root areas** | `0. Common Files` maps to no state; Record / Retained has no approved area. **The mismatch is a controlled finding** |
+| 53 | **One qualified live observation proving full CDE implementation** | `ARC-01` is *"Live equivalent observed"* — a **container** observation, not a workflow demonstration |
+
+**Prohibitions 44 and 49 are the same instruction applied twice.** Where an
+authority or a method is required but unassigned, **the field appears and stays
+empty**. Omission reads as *not needed*; an empty field reads as *needed and not
+yet decided*, which is the truth.
+
 ## 10. Module-boundary deferrals
 
 | Deferred to | Subject |
@@ -304,16 +466,17 @@ remains deferred.**
 
 | Field | Value |
 |---|---|
-| Statements classified | **Slides 1–3 — 44 statements** |
-| `CONTROLLED` | 19 |
-| `SUPPORTING` | 7 |
-| `DECISION-RECORD` | 8 |
+| Statements classified | **Slides 1–7 — 113 statements** |
+| `CONTROLLED` | 53 |
+| `SUPPORTING` | 14 |
+| `DECISION-RECORD` | 21 |
 | `MODULE-1-3` | 1 |
-| `INTERP` | 4 |
-| `SYNTH` | 3 |
-| `EXCLUDED` | 2 |
-| Registers | **4** — source authority (§4), terminology (§6), transition (§7), unresolved (§8) |
-| Prohibited claims | **33** (§9, §9.1) |
-| Slides 4–14 | **Not classified.** Not developed |
-| Invented codes, schemas or holders | **Zero** |
+| `INTERP` | 7 |
+| `SYNTH` | 7 |
+| `EXCLUDED` | 10 |
+| Registers | **5** — source authority (§4), **state register (§5.1)**, terminology (§6), transition (§7), unresolved (§8) |
+| Prohibited claims | **53** (§9, §9.1, §9.2) |
+| Slides 8–14 | **Not classified.** Not developed |
+| Invented codes, schemas, folders, periods or holders | **Zero** |
+| Mandatory empty fields | **2** — publication authority (Slide 6) · retention method (Slide 7) |
 | Live observations requested | **Zero** |
