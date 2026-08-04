@@ -28,7 +28,7 @@ moves — not as the subject.
 |---|---|---|
 | 1 | What is a BIM Execution Plan? | **Content, visual source, assembly package and PowerPoint produced.** Review and rehearsal **deferred** |
 | 2 | BIM Management roles and responsibilities | **Content, visual source, assembly package and PowerPoint produced.** Review and rehearsal **deferred** |
-| 3 | **ISO 19650 information-management principles** | **CURRENT — ACTIVE.** Content baseline **complete**; visual source next |
+| 3 | **ISO 19650 information-management principles** | **CURRENT — ACTIVE.** Content baseline and visual source **complete**; assembly package next |
 | 4 | CDE workflows and information states | Planned |
 | 5 | Responsibility matrices and information-delivery planning | Planned |
 | 6 | Coordination, review, approval and assurance | Planned |
@@ -80,10 +80,16 @@ ISO 19650 is intended to govern — and on where the available evidence stops. S
 | **T3-C** | **Slides 7–9** — Section C, who manages information |
 | **T3-D** | **Slides 10–12** — Section D and the Section E opener |
 | **T3-E** | **Slides 13–14** — Section E, and the **module-wide final reconciliation** |
+| **T3-F** | The **visual source set** — 14 slide-source files in [`assets/module-03/`](assets/module-03/), a register, a slide map, and completion of visual specifications `V1` and `V3` |
 
 Alongside the slides: **239 classified statements**, **52 prohibited claims**,
-**sixty rehearsal exercises**, and **eleven of thirteen visual specifications**
-completed in full. **No external source was added after T3-A.**
+**sixty rehearsal exercises**, **thirteen visual specifications** completed in
+full, and **fourteen slide-source files**. **No external source was added after
+T3-A.**
+
+**Note the two identifier spaces.** Module 3 has **13 visual concepts**
+(`V1`–`V13`) and **14 slide-source files** (`M03-S01`–`M03-S14`), because `V1`
+serves both Slide 1 and Slide 2.
 
 **This module differs from Modules 1 and 2 in kind.** Those were built entirely
 from controlled Harrismith documents and needed no external source. **Module 3's
@@ -112,9 +118,9 @@ the project *states* ISO 19650 principles inform its approach. Everything else i
 analogue, gap, exclusion or teaching framing. **The only permitted conclusion is
 `No conformity conclusion supported`**, in either direction.
 
-**Outstanding:** **visual source production** — next — then the assembly package,
-then PowerPoint production, then review, then rehearsal. **No timing has been
-measured.**
+**Outstanding:** the **presentation assembly package** — next — then PowerPoint
+production, then review, then rehearsal. **No timing has been measured**, and
+**no visual has been rendered** (no renderer is available in this environment).
 
 ### Modules 4–8 — future scope
 
@@ -202,10 +208,11 @@ of governance under condition. Describing it neither advances nor reopens it.
 | Module 3 established | Structure · **external-source control framework** · published-versus-draft ISO status · ISO-versus-guidance separation · 20-minute fourteen-slide architecture · **Harrismith mapping method** · **Slides 1–14** · 239 classified statements · 52 prohibited claims · sixty exercises · **module-wide final reconciliation** |
 | Module 3 external sources | **Registered (T3-A)** — [`external-source-register.md`](module-03-iso-19650-principles/external-source-register.md). **The ISO standards are not held in this repository and have not been read**; no ISO text is reproduced |
 | Module 3 conformity position | **No Harrismith conformity with ISO 19650 is claimed.** No clause-by-clause assessment exists; **no clause reference appears in the module** |
-| Module 3 visual specifications | **Eleven of thirteen complete** — every visual from Slide 4 to Slide 14. `V1` and `V3` remain candidates |
-| Module 3 visual source | **None** — no source file, no rendered asset. **Production is next** |
+| Module 3 visual specifications | **All thirteen complete** — `V1`–`V13` |
+| Module 3 visual source | **Complete (T3-F)** — 14 files, `M03-S01`–`M03-S14`, in [`assets/module-03/`](assets/module-03/) |
+| Module 3 rendered assets | **None** — no renderer available; source committed instead |
 | Module 3 assembly package | **None** |
-| Module 3 outstanding | **Visual source (next)**, assembly package, PowerPoint, review, rehearsal. **No timing measured** |
+| Module 3 outstanding | **Assembly package (next)**, PowerPoint, review, rehearsal. **No timing measured** |
 | Module 2 | Content baseline, visual source and assembly package **produced**; PowerPoint assembled **outside this repository** |
 | Module 2 outstanding | **Presentation review and rehearsal — DEFERRED**, not complete, until the presenter chooses to perform them |
 | Module 1 | Content baseline, visual source and assembly package **produced**; PowerPoint assembled **outside this repository** |

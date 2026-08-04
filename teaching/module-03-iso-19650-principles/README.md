@@ -1,8 +1,8 @@
 # Module 3 — ISO 19650 Information-Management Principles
 
-**Status:** Active module. **Full content baseline — Slides 1–14.** **Not
-governance, and not a complete module**: no visual source, no assembly package,
-no PowerPoint, no review, no rehearsal.
+**Status:** Active module. **Full content baseline — Slides 1–14 — and a
+complete visual source set.** **Not governance, and not a complete module**: no
+assembly package, no PowerPoint, no review, no rehearsal.
 
 ---
 
@@ -57,15 +57,15 @@ evidence of conformity.
 | Current state | **Full content baseline, Slides 1–14.** Module not complete |
 
 **This presentation does not exist yet.** What exists after increments T3-A to
-T3-E:
+T3-F:
 
 | Established | Outstanding |
 |---|---|
-| Module structure (T3-A) | Visual source set |
-| External-source control framework (T3-A) | Assembly package |
-| Published-versus-draft ISO status (T3-A) | PowerPoint |
-| ISO-versus-guidance separation (T3-A) | Review |
-| Harrismith mapping method (T3-A) | Rehearsal and measured timing |
+| Module structure (T3-A) | **Assembly package — next** |
+| External-source control framework (T3-A) | PowerPoint |
+| Published-versus-draft ISO status (T3-A) | Review |
+| ISO-versus-guidance separation (T3-A) | Rehearsal and measured timing |
+| Harrismith mapping method (T3-A) | |
 | 20-minute architecture, 14 slides (T3-A) | |
 | **Slides 1–3** (T3-A) | |
 | **Slides 4–6 — Section B** (T3-B) | |
@@ -77,6 +77,8 @@ T3-E:
 | **Slides 13–14 — Section E** (T3-E) | |
 | Visual specifications `V11`, `V12` (T3-E) | |
 | **Module-wide final reconciliation** (T3-E) | |
+| **Visual source set — 14 files** (T3-F) | |
+| Visual specifications `V1`, `V3` completed (T3-F) | |
 
 ## 4. What makes this module different
 
@@ -229,6 +231,7 @@ standard will treat every teaching simplification as a requirement.
 | [`visual-demonstration-plan.md`](visual-demonstration-plan.md) | Candidate visuals for the whole module |
 | [`exercises.md`](exercises.md) | Practice and self-assessment |
 | [`source-map.md`](source-map.md) | Statement classification, the Harrismith mapping method, the **module-wide final reconciliation** and the **prohibited-claims list** |
+| [`../assets/module-03/`](../assets/module-03/) | The **visual source set** — register, slide map and fourteen source files |
 
 ## 12. Status
 
@@ -241,7 +244,9 @@ standard will treat every teaching simplification as a requirement.
 | Slides outstanding | **None** |
 | Statements classified | **239** across Slides 1–14 — [`source-map.md`](source-map.md) §4; reconciled at §9 |
 | Prohibited claims | **52** — [`source-map.md`](source-map.md) §7, §7.1–§7.5 |
-| Visual specifications | **Eleven specified in full** — every visual from Slide 4 to Slide 14. **Only `V1` and `V3` remain candidates** |
+| Visual specifications | **All thirteen specified in full** — `V1`–`V13` (T3-F completed `V1` and `V3`) |
+| Visual source set | **Complete (T3-F)** — [`../assets/module-03/`](../assets/module-03/). **14 slide-source files**, `M03-S01`–`M03-S14` |
+| Rendered assets | **None** — no renderer available; source committed instead |
 | Visual source | **None** — no source file, no rendered asset |
 | Assembly package | **None** |
 | PowerPoint | **None** |

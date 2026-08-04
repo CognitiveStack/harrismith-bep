@@ -1,12 +1,23 @@
 # Module 3 — Visual Demonstration Plan
 
-**Status:** Candidate visuals for the whole Module 3 presentation. **No visual
-source file and no rendered image asset exists.** Nothing here is a final asset,
-and creating assets is a later increment.
+**Status:** The controlling visual plan for Module 3. **Visual source now exists
+(T3-F); no rendered image asset exists.** This plan remains **authoritative** —
+the source set implements it rather than superseding it.
 
-**Eleven of thirteen entries are now specified in full** — `V2`, `V4`, `V5`
-(T3-B), `V13`, `V6`, `V7` (T3-C), `V8`, `V9`, `V10` (T3-D) and `V11`, `V12`
-(T3-E). Only `V1` and `V3` remain at the candidate level established in T3-A.
+**All thirteen visual concepts are now specified in full**, and the **visual
+source set exists** — see [`../assets/module-03/`](../assets/module-03/) (T3-F).
+
+**Two identifier spaces, and they are not the same size:**
+
+| Space | Count | Meaning |
+|---|---|---|
+| **`V1`–`V13`** | **13 visual concepts** | This plan's entries — the controlling specifications |
+| **`M03-S01`–`M03-S14`** | **14 slide-source files** | One per slide, in [`../assets/module-03/source/`](../assets/module-03/source/) |
+
+**The counts differ because `V1` serves two slides.** It is one concept in two
+states — the framework panel on Slide 1, completed with the platform panel on
+Slide 2 — and each state has **its own source file**. Every other concept maps to
+exactly one slide. **`M03-S01`–`M03-S14` is fourteen files, not thirteen.**
 
 Source identifiers `X1`–`X6`, `H1`–`H3` are defined in
 [`external-source-register.md`](external-source-register.md). Classification
@@ -61,24 +72,99 @@ should have to re-decide it deliberately rather than inherit a blanket.
 
 ## 3. Candidate visuals
 
-### V1 — Information-management framework versus software platform
+### V1 — Framework versus software platform · **specified (T3-F)**
 
 | Field | Value |
 |---|---|
-| **Slide** | 1 and 2 — the same visual, built on Slide 1 and completed on Slide 2 |
+| **Slide** | **1 and 2** — one visual concept in **two states**, and **two separate source files** |
 | **Teaching purpose** | Show that the framework governs **information and decisions**, while the platform holds **files and permissions** — and that one does not become the other |
-| **Source basis** | `X1` (scope), `H1` §6.1, §6.9, §6.8 |
-| **Classification** | **`PUBLIC-SOURCE`** for the framework side's scope wording; **`HARRISMITH`** for every platform-side statement |
-| **Jurisdiction** | International (left panel) · This project (right panel) |
-| **Simplify** | **Two panels, four items each.** Left: specify → produce → exchange → record. Right: folders, permissions, versions, storage |
-| **Omit** | Any vendor logo or product name; any arrow implying the platform *delivers* the framework; any tick, score or maturity indicator |
-| **Overclaim risk** | **HIGH.** A two-panel diagram under an ISO-titled slide reads as *the ISO model versus reality*. **Both panels must be labelled with their source class on the slide itself** |
+| **Source basis** | `X1` (scope: specifying, exchanging, recording, organising); `H1` §6.1, §6.8, §6.9, §12.1 |
+| **Classification** | **`PUBLIC-SOURCE`** for the framework panel's scope wording; **`HARRISMITH`** for every platform-panel statement; **`INTERP`** for the panel framing |
+| **Jurisdiction** | International (framework panel) · This project (platform panel) |
+| **Source files** | [`../assets/module-03/source/M03-S01-information-management-framework.md`](../assets/module-03/source/M03-S01-information-management-framework.md) · [`../assets/module-03/source/M03-S02-framework-versus-platform.md`](../assets/module-03/source/M03-S02-framework-versus-platform.md) |
+| **Simplify** | **Four items per panel.** Framework: specify · produce · exchange · record. Platform: folders · permissions · versions · storage |
+| **Omit** | Any vendor logo or product name; any platform screenshot; any equals sign; any bridge, merge or transformation arrow; any tick, score or maturity indicator |
+| **Overclaim risk** | **HIGH.** A two-panel diagram under an ISO-titled slide reads as *the ISO model versus reality*. **Both panels are source-labelled on the slide itself** |
 | **Copyright risk** | **LOW** — original construction, no ISO figure involved |
-| **External imagery** | **No.** A platform screenshot would make the right panel look authoritative and the left panel look theoretical — the exact inversion the slide exists to prevent |
+| **External imagery** | **No.** A platform screenshot would make the right panel look authoritative and the left panel theoretical — the exact inversion the slide exists to prevent |
 
-**Design requirement.** The panels are **not** joined by an equals sign, a bridge
-or a transformation arrow. If a connector is needed at all, it points one way —
-decision to configuration — and is labelled *implements*, per `H1` §12.1.
+**Two states, two source files — and neither depends on an unstated build step.**
+
+| State | Slide | Source file | Contains |
+|---|---|---|---|
+| **State 1** | 1 | `M03-S01` | **The framework panel alone.** No platform panel exists yet |
+| **State 2** | 2 | `M03-S02` | **Both panels**, separated, plus the one permitted connector |
+
+**`M03-S01` is complete in itself.** If Slide 2 is never shown, Slide 1's visual
+still stands — it is not half a diagram. `M03-S02` re-states the framework panel
+in full rather than referring back to it.
+
+**Six mandatory design requirements.**
+
+1. **The panels never touch.** A visible gutter separates them, and no shape
+   spans it.
+2. **No equals sign, no bridge, no merge, no transformation arrow.** Nothing may
+   suggest the platform *delivers* the framework.
+3. **One connector is permitted, and only one**: a single dashed arrow from an
+   **authorised decision** node toward the platform panel, labelled
+   **`implements`** — per `H1` §12.1, *decision precedes configuration*. It never
+   points the other way, and it originates from the decision, **not from the
+   framework panel itself**.
+4. **Both panels carry a visible source label** — framework: *"published scope
+   (`X1`) — paraphrase"*; platform: *"this project's BEP (`H1`) — not ISO
+   wording"*.
+5. **No product name, logo or interface appears anywhere**, in either state.
+6. **No maturity score, tick or completeness indicator.**
+
+**Design note.** Draw the framework panel first and larger in State 1, then keep
+it **the same size** in State 2. Shrinking it when the platform panel arrives
+teaches that the platform is the substantial thing.
+
+### V3 — Part 1 versus Part 2 · **specified (T3-F)**
+
+| Field | Value |
+|---|---|
+| **Slide** | 3 |
+| **Teaching purpose** | Show two published parts answering **two different questions**, with revision status visible but subordinate |
+| **Source basis** | `X1`, `X2` — published scope and edition currency; `X3`, `X4` — draft status only |
+| **Classification** | **`PUBLIC-SOURCE`** for both columns and both statuses; **`INTERP`** for the one-line summary beneath |
+| **Jurisdiction** | International |
+| **Source file** | [`../assets/module-03/source/M03-S03-part-1-versus-part-2.md`](../assets/module-03/source/M03-S03-part-1-versus-part-2.md) |
+| **Simplify** | **Two equal columns. One question per part. Three or four public-scope points each. One subordinate footer** |
+| **Omit** | **Clause numbers. ISO headings beyond the registered titles. Any Part 2 process-activity list. A third column for drafts. Any other part of the `ISO 19650` series. Any diagram resembling a protected ISO structure** |
+| **Overclaim risk** | **HIGH.** A tidy two-column table looks like a summary of the standards' **contents**. It is a summary of their **published scope** |
+| **Copyright risk** | **MEDIUM-HIGH — the module's highest**, and treated accordingly. It is the visual closest to reproducing document structure |
+| **External imagery** | **No.** An ISO catalogue-page screenshot would imply the presenter is reproducing official content |
+
+**Format decision: a table and a layout specification. Not Mermaid.** A diagram
+between the two parts would assert a relationship — sequence, derivation or
+hierarchy — that no registered source establishes. **They are two documents with
+different scopes, not two stages of anything.**
+
+**Seven mandatory design requirements — copyright controls first.**
+
+1. **The visible label `Published scope — not a summary of requirements`
+   appears on the slide.** Not in the notes.
+2. **No clause number of any kind.** None has been read.
+3. **No ISO heading, section name or structural term is copied** beyond the
+   registered document titles and the part numbers themselves.
+4. **No Part 2 process-activity list.** Inventing a numbered process is the worst
+   available failure — specific, plausible, memorable and wrong.
+5. **No third column for the drafts.** Revision status is a **single subordinate
+   footer line**; a third column gives drafts equal visual weight, which is the
+   status error the slide exists to prevent.
+6. **No other part of the `ISO 19650` series is named.** Other parts exist and
+   **are not registered** — name only what
+   [`external-source-register.md`](external-source-register.md) holds.
+7. **No structural diagram.** No nested boxes, no parent-child arrangement, no
+   part-of-a-whole graphic. Two columns, side by side, equal weight.
+
+**Design note — why this entry is the most constrained in the plan.** Everything
+`V3` shows is metadata about two documents, and metadata about a document is one
+short step from the document's own structure. The safeguard is that **only the
+registered titles, the edition years and the public scope summaries may appear**.
+If a line on this visual cannot be traced to `X1`, `X2`, `X3` or `X4`'s
+*information available* field, it does not go on the slide.
 
 ### V2 — Asset-life-cycle ribbon · **specified (T3-B)**
 
@@ -697,14 +783,14 @@ decides* and *what evidence*, never *how to do it*.
 | `V11` | 13 | `HARRISMITH` (all four sub-categories) + `INTERP` | **HIGHEST** | LOW |
 | `V12` | 14 | `SYNTH` — **no evidence basis of any kind** | **HIGH (Triviron)** | LOW |
 
-**Eleven specified in full**, covering every visual from Slide 4 to Slide 14.
-Each carries fixed labels, a fixed form and five to eight mandatory design
-requirements, so the constraints survive into asset production rather than being
-re-decided by whoever draws them.
+**All thirteen specified in full**, covering every slide. Each carries fixed
+labels, a fixed form and five to eight mandatory design requirements, so the
+constraints survive into asset production rather than being re-decided by whoever
+draws them.
 
-**Only `V1` and `V3` remain candidates.** Both serve Slides 1–3, both are
-low-complexity, and both should be specified before visual-source production
-begins.
+**The visual source set implements this plan and does not supersede it.** Where a
+source file and this plan differ, **the plan is authoritative** and the source
+file is the thing to correct.
 
 **Two of them can overclaim without a word being spoken.** `V8` drawn with a
 complete route through Published, or `V9` drawn as progress, each assert a

@@ -1,7 +1,7 @@
 # Teaching Assets
 
-**Status:** Visual **source** is committed for Module 1. **No rendered image
-asset exists anywhere in this directory.**
+**Status:** Visual **source** is committed for Modules 1, 2 and 3. **No rendered
+image asset exists anywhere in this directory.**
 
 ---
 
@@ -17,13 +17,26 @@ prepared slide graphics.
 teaching/assets/
 ├── README.md      this file — asset rules for all modules
 ├── module-01/     visual source set for Module 1 (14 slide visuals)
-└── module-02/     visual source set for Module 2 (14 slide visuals)
+├── module-02/     visual source set for Module 2 (14 slide visuals)
+└── module-03/     visual source set for Module 3 (14 slide visuals, 13 concepts)
 ```
 
 | Module | Visual source | Rendered assets | External evidence needed |
 |---|---|---|---|
 | [`module-01/`](module-01/) | **Complete — Slides 1–14** | **None** | 3 optional — `V1`, `V9`, `V10` |
 | [`module-02/`](module-02/) | **Complete — Slides 1–14** | **None** | **None** |
+| [`module-03/`](module-03/) | **Complete — Slides 1–14** | **None** | **None** |
+
+**Module 3 registers two identifier spaces of different sizes** — **13 visual
+concepts** (`V1`–`V13`) and **14 slide-source files** (`M03-S01`–`M03-S14`),
+because `V1` serves both Slide 1 and Slide 2. See
+[`module-03/visual-register.md`](module-03/visual-register.md) §1.
+
+**One prohibition applies to `module-03/` specifically, and it is absolute.**
+**No ISO diagram, table or figure is reproduced, redrawn, adapted or
+reconstructed** — including from memory, from search results, from third-party
+reproductions, or as a "simplified" derivative with changed styling. Every
+Module 3 visual is an original teaching construction.
 
 **Source and rendered output are different things**, and this directory
 currently holds only the first. See
