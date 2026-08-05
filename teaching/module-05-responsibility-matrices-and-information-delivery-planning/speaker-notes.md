@@ -560,8 +560,9 @@ register guards most heavily — see claims 32, 60 and 61.
 Point at the two rows they will see on Slide 7:
 
 > *"`P4` — authorise for controlled sharing — carries `Au` against the Task-Team
-> Lead. `D4` — authorise publication — carries `TBD` in every column. Same
-> matrix, same shape of row. One is settled; the other is a gap the project
+> Lead. `D4` — authorise publication — has five `TBD` cells and four no-function
+> dashes. The authority remains unresolved, and the matrix makes no allocation.
+> Same matrix, same shape of row. One is settled; the other is a gap the project
 > refused to fill."*
 
 ### Critical distinction
@@ -692,10 +693,15 @@ not governance, and their strength is that anyone can check them.
 ### Critical distinction — `P4` against `D4`
 
 > *"`P4` carries `Au`, and the BEP establishes it: the Task-Team Lead authorises
-> the move from WIP to Shared. `D4` — authorise publication or exchange — carries
-> `TBD` in every column, and the BEP establishes that too: the role holding that
-> authority is unresolved. Same matrix, same row shape, two completely different
-> authority statuses."*
+> the move from WIP to Shared. `D4` — authorise publication or exchange — has
+> five `TBD` cells and four no-function dashes. The authority remains unresolved,
+> and the matrix makes no allocation. The BEP establishes that too: the role
+> holding that authority is unresolved. Same matrix, same row shape, two
+> completely different authority statuses."*
+
+**And do not let the five `TBD` cells be heard as a shortlist.** They record five
+roles whose allocation is unresolved — not five candidates. **Nothing in the
+source says the eventual authority must be one of them.**
 
 **Stop there.** Do not explain publication, delivery or `TRN-E03`.
 
@@ -1257,9 +1263,9 @@ proceed should visibly halt rather than borrow an authority nobody granted.
 
 ### Transition to Slide 13
 
-> *"Five gates, five different words for 'we do not know yet' — and not one of
-> them left blank. That habit is worth a slide of its own, because it is the
-> single most transferable thing in this module."*
+> *"Five matters. Every one typed, every one written down, not one left blank.
+> That habit is worth a slide of its own, because it is the single most
+> transferable thing in this module."*
 
 ### Recovery line if time is short
 

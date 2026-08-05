@@ -411,7 +411,7 @@ decision terminology, which serves a different purpose.
 | `M5-S7-13` | **`Au` appears exactly twice in 297 cells** — at `P4`, and at the IM matrix sharing row allocating authorisation to consume or reference Shared information for a stated purpose. **Both are held by the Task-Team Lead** | `supporting/information-management-responsibility-matrix.md` §3.3, §3.4 — **census by inspection** | — | 4 | **`PROPOSED GOVERNANCE`** | — | **`INTERP`** |
 | `M5-S7-14` | **`Ac` appears once, and only inside `TBD Ac`.** **No acceptance allocation is resolved anywhere in the matrix** | `supporting/information-management-responsibility-matrix.md` §3.6 `D7` — **census by inspection** | — | 4 | **`UNRESOLVED`** | — | **`INTERP`** |
 | `M5-S7-15` | **`TBD Ac` at `D7`** — acceptance is the relevant function at that cell, **the allocation and the authority remain unresolved**, and the value proves **no exchange has been accepted** | `supporting/information-management-responsibility-matrix.md` §3.6 `D7` note; `bep/…BEP.md` §9.8, §10.11 | — | 2, 1 | **`UNRESOLVED`** | **`NOT DEMONSTRATED`** | **`SUPPORTING`** |
-| `M5-S7-16` | **`P4` and `D4` carry different authority statuses.** `P4` is expressly established by `S1` §9.4; **`D4` reads `TBD` in every one of its five allocated columns** | `bep/…BEP.md` §9.4, §9.7; `supporting/information-management-responsibility-matrix.md` §3.3, §3.6 | — | 1, 2 | **`ESTABLISHED ALLOCATION`** / **`UNRESOLVED`** | — | **`CONTROLLED`** |
+| `M5-S7-16` | **`P4` and `D4` carry different authority statuses.** `P4` is expressly established by `S1` §9.4. In `D4`, **AP, LDP, BM, BC and TTL are `TBD`; Aut, Chk, CDE and Rcp are `—`** — five unresolved cells and four resolved no-function cells. **Publication / exchange authority remains unresolved and no allocation is made** | `bep/…BEP.md` §9.4, §9.7; `supporting/information-management-responsibility-matrix.md` §1, §3.3, §3.6 | — | 1, 2 | **`ESTABLISHED ALLOCATION`** / **`UNRESOLVED`** | — | **`CONTROLLED`** |
 | `M5-S7-17` | **A populated cell does not record** the holder's name · that anyone was appointed · that the activity occurred · that a check was independent · authority beyond the exact function recorded · competence · contractual authority · platform permission · completion | `supporting/information-management-responsibility-matrix.md` §2, §5; `bep/…BEP.md` §5.2, §9.1 | — | 4 | — | **`IMPLEMENTATION UNVERIFIED`** | **`INTERP`** |
 | `M5-S7-18` | *"**Authority comes from governance.** Not from platform access, permission or configuration"* | `bep/…BEP.md` | §9.1 | 1 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
 | `M5-S7-19` | Approval workflow mechanics; CDE transition detail; `TRN-E03`; recipient acceptance mechanics; a full technical-review procedure | — | — | — | — | — | **`EXCLUDED`** — **Module 4, Slides 9–12 and Module 6 own them** |
@@ -816,9 +816,9 @@ allocation; delivery events, purpose and suitability"*.
 
 ## 9. Prohibited claims
 
-**One hundred and two claims Module 5 may not make.** Grouped by the error each
+**One hundred and three claims Module 5 may not make.** Grouped by the error each
 would commit. Claims 51–59 were added in **T5-B**; 60–75 in **T5-C**; 76–89 in
-**T5-D**; 90–102 in **T5-E**.
+**T5-D**; 90–102 in **T5-E**; 103 in **T5-F-A-R**.
 
 ### 9.1 Collapsing the three resources — 6
 
@@ -1013,7 +1013,13 @@ would commit. Claims 51–59 were added in **T5-B**; 60–75 in **T5-C**; 76–8
 | 101 | That a **complete teaching-content baseline means the presentation is produced**, reviewed or rehearsed. **No visual specification, asset, assembly package or PowerPoint exists** |
 | 102 | That **the existence of an exercise set means rehearsal has occurred**, or that any allocated time has been measured |
 
-### 9.12 Programme-status claims — required in every increment
+### 9.12 Additional prohibition recorded in T5-F-A-R — 1
+
+| # | Prohibited claim |
+|---|---|
+| 103 | That **`D4` contains `TBD` in all nine columns**, or that its **five `TBD` cells constitute a resolved or proposed authority allocation.** The row holds **five `TBD`** (AP, LDP, BM, BC, TTL) and **four `—`** (Aut, Chk, CDE, Rcp); *"No allocation is made here"* |
+
+### 9.13 Programme-status claims — required in every increment
 
 | # | Prohibited claim |
 |---|---|
@@ -1075,19 +1081,19 @@ decisions. Slide 14 poses the questions; it answers none.
 
 | Field | Value |
 |---|---|
-| Increment | **T5-E — the teaching-content baseline is COMPLETE** |
+| Increment | **T5-F-A-R — specification baseline ACCEPTED** |
 | Slides classified | **All fourteen. 267 statements** |
 | Architecture only | **None.** No slide remains undeveloped |
 | Registers | **Six** — source authority, terminology, hypothesis, unresolved, prohibited claims, boundary deferrals |
 | Hypotheses tested | **25** — `H-G1`–`H-G7`, `H-D1`–`H-D16`, `H-C1`–`H-C2`. **Unchanged since T5-A** |
-| Prohibited claims | **102**, plus 4 standing programme-status prohibitions |
+| Prohibited claims | **103**, plus 4 standing programme-status prohibitions |
 | Classification scheme | **Reconciled in T5-B** — `SYNTH` redefined; `M5-S2-14` reclassified `INTERP`. **Unchanged since**; see §5.1 |
 | Terminology variances | **9** — seven from T5-A, one from T5-C (grammar vs decision terminology), one from T5-D (**five vs six `TRN-E03` blocking matters**) |
 | Final reconciliation | **COMPLETE** — see §12 |
 | Exercise baseline | [`exercises.md`](exercises.md) — **79 exercises**, created in T5-E |
 | Timing | **`20.0 minutes allocated — not measured`** |
 | Visual specifications, sources, assets, assembly package, PowerPoint | **None.** T5-F, T5-G and T5-H not started |
-| Visual specifications | **COMPLETE (T5-F-A)** — [`visual-demonstration-plan.md`](visual-demonstration-plan.md), `M5V-01`–`M5V-14` |
+| Visual specifications | **COMPLETE and ACCEPTED (T5-F-A, corrected in T5-F-A-R)** — [`visual-demonstration-plan.md`](visual-demonstration-plan.md), `M5V-01`–`M5V-14` |
 | Outstanding | **T5-F-B** — visual-source files, register and slide map — and later increments |
 
 ---
@@ -1166,8 +1172,12 @@ recorded at §5.1.
 | 8 | The grammar (`S1` §5.12) and the decision terminology (`S1` §9.2) are two vocabularies | Recorded |
 | 9 | `S4` counts **five** `TRN-E03` blocking matters; `S5` counts **six** | **Recorded and unresolved. Neither list rewritten** |
 
-**No controlled-source conflict was found that required correction, and none was
-silently reconciled.**
+**No conflict *between controlled sources* was found, and none was silently
+reconciled.**
+
+**One teaching-to-controlled-source contradiction was found**, during the
+**T5-F-A review**, and corrected in **T5-F-A-R** — see §12.16. The controlled
+source was always correct and **was not changed**.
 
 ### 12.6 Hypotheses — all 25 accounted for
 
@@ -1205,7 +1215,7 @@ narrowed or resolved by teaching need.**
 
 ### 12.8 Prohibited claims
 
-**102 numbered prohibitions plus 4 standing programme-status prohibitions.**
+**103 numbered prohibitions plus 4 standing programme-status prohibitions.**
 
 | Increment | Added | Range |
 |---|---:|---|
@@ -1214,8 +1224,9 @@ narrowed or resolved by teaching need.**
 | T5-C | 16 | 60–75 |
 | T5-D | 14 | 76–89 |
 | T5-E | 13 | 90–102 |
+| T5-F-A-R | 1 | 103 |
 
-**Highest identifier equals the count: 102.**
+**Highest identifier equals the count: 103.**
 
 ### 12.9 Module 6 boundary — not consumed
 
@@ -1285,6 +1296,8 @@ prohibited claims 101 and 102 forbid the confusion.
 - **T5-F-A** — the pre-visual correction gate and the fourteen visual
   specifications — **COMPLETE**. See
   [`visual-demonstration-plan.md`](visual-demonstration-plan.md).
+- **T5-F-A-R** — the `D4` controlled-source correction, the Slide 12 wording
+  correction and final specification acceptance — **COMPLETE**. See §12.16.
 - **T5-F-B** — the fourteen visual-source files, the visual register and the
   slide-visual map. **NOT STARTED.**
 - **T5-G** — the presentation assembly package.
@@ -1306,3 +1319,74 @@ place**, retaining its identifier and its `SUPPORTING` class.
 
 **No new external source was introduced, and `SYNTH` was not increased.** The
 module's `SYNTH` count remains **1** — `M5-S14-14`.
+
+### 12.16 Controlled-source correction record — T5-F-A-R
+
+**A teaching statement contradicted the controlled Information Management
+Responsibility Matrix. The matrix was correct; the teaching wording was wrong.**
+
+| Field | Value |
+|---|---|
+| Discovered | **Repository review of the T5-F-A commit**, before source production began |
+| Contradicted source | [`supporting/information-management-responsibility-matrix.md`](../../supporting/information-management-responsibility-matrix.md) §1, §2, §3.6 |
+| Nature | Teaching and visual-specification wording described the `D4` row as *"`TBD` in every column"* and, later, as *"`TBD` in every one of its five allocated columns"* |
+| Controlled position | `D4` holds **nine populated cells** — **`TBD`** against AP, LDP, BM, BC and TTL; **`—`** against Aut, Chk, CDE and Rcp. *"No allocation is made here (BEP 9.7)."* |
+| Where it originated | **T5-C**, in `M5-S7-16` and the Slide 7 material; it then propagated into T5-D's roadmap summary and T5-F-A's `M5V-04` and `M5V-07` |
+| Corrected in | **T5-F-A-R**, across all eight permitted files |
+| Controlled source changed | **NO.** It was read, not edited |
+
+**What was and was not wrong.**
+
+- **The cell census was always correct.** 297 cells · `—` 131 · `TBD` 10 ·
+  `Au` 2 · `Ac` 1 inside `TBD Ac`. `D4`'s five `TBD` cells are five of that ten
+  (`D7` contributes one, `A2` four). **No count changes.**
+- **The status conclusion was always correct.** Publication / exchange authority
+  is unresolved, `D4` makes no allocation, and `P4` versus `D4` remains a valid
+  status contrast.
+- **The distribution was wrong.** Saying every column reads `TBD` erased four
+  populated `—` cells; calling five columns *allocated* implied an allocation the
+  source expressly refuses.
+
+**Two teaching points recovered by the correction.**
+
+1. **`D4` is not blank and not uniform.** It is a row in which **four
+   applicability decisions are resolved** and **five allocations are not** — a
+   sharper illustration of Module 5's own typed-absence discipline than the
+   inaccurate version was.
+2. **Five `TBD` cells are not a shortlist.** `S1` §9.7 states the authority is
+   **not** automatically held by the BIM Manager, BIM Coordinator, CDE
+   Administrator, Architect or Lead Delivery Party. **Nothing licenses an
+   inference that the eventual holder is one of the five.** Prohibited claim
+   **103** now forbids it.
+
+**Effect on totals: none.** 267 statements, classification totals and the
+79-exercise count are unchanged; `M5-S7-16` was revised **in place**, retaining
+its identifier and its `CONTROLLED` class, and its source basis was **extended**
+to include `S2` §1 for the `—` definition.
+
+### 12.16.1 Reported need — one occurrence outside the permitted paths
+
+**[`resource-comparison.md`](resource-comparison.md) line 61 carries the same
+inaccurate wording** — its *Authoriser* row reads *"`D4` Authorise publication /
+exchange — **`TBD` in every column**"*.
+
+**It was not corrected.** T5-F-A-R's permitted paths expressly exclude
+`resource-comparison.md`, and the file was left untouched rather than modified
+outside scope. **It is the only remaining occurrence in the module**, and it
+carries the same contradiction with `S2` §3.6 that this increment corrected
+everywhere else.
+
+**Verified clean:** [`source-inventory.md`](source-inventory.md) contains **no**
+statement of the `D4` distribution and needs no correction.
+
+**No instruction is implied.** The need is recorded here for the orchestrator to
+scope into a bounded increment. **Until it is corrected, one file in the module
+still contradicts the controlled matrix.**
+
+### 12.16.2 Second correction in the same increment
+
+Slide 12's transition claimed *"five different words for 'we do not know yet'"*. The five blockers carry **three**
+distinct status terms — `UNRESOLVED — TBD` twice, `Not established` twice,
+`Not defined` once. The wording is now **"Five matters. Every one typed. None
+blank."** **The independent-blocker rule and the five-versus-six variance are
+unchanged.**

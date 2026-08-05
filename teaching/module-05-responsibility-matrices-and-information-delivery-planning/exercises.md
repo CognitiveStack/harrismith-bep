@@ -355,9 +355,14 @@ people or successful performance — because **no source states an order**.
 **Task.** Explain why two structurally identical rows carry different authority
 statuses.
 
-**What good looks like.** `P4` carries `Au` and BEP §9.4 establishes it. `D4`
-carries `TBD` in every column and BEP §9.7 establishes that the authority is
-**unresolved**. Both are governed positions.
+**What good looks like.** `P4` carries **`Au`**, established by **BEP §9.4**.
+`D4` carries **five `TBD` cells** — AP, LDP, BM, BC, TTL — and **four `—` cells**
+— Aut, Chk, CDE, Rcp. Publication / exchange authority is **unresolved** under
+**BEP §9.7**, and **no allocation is made**. **Neither row is blank.** Both are
+governed positions.
+
+**Common failure.** Saying `D4` is `TBD` in every column — four of its nine cells
+are `—`; or treating the five `TBD` roles as a shortlist of candidates.
 
 **Common failure.** Treating `D4` as an oversight.
 

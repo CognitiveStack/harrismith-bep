@@ -211,7 +211,8 @@ performed the **module-wide final reconciliation**.
 
 **`T5-F` is split for control.** **`T5-F-A`** — the pre-visual correction gate
 and the **fourteen visual specifications** `M5V-01`–`M5V-14` — is **COMPLETE**,
-in
+and **`T5-F-A-R`** corrected it and **accepted the specification baseline**. The
+specifications are in
 [`module-05-responsibility-matrices-and-information-delivery-planning/visual-demonstration-plan.md`](module-05-responsibility-matrices-and-information-delivery-planning/visual-demonstration-plan.md).
 **`T5-F-B`** — the fourteen visual-source files, the visual register and the
 slide-visual map — is **NEXT**. The specification exists and is reviewable
@@ -270,8 +271,9 @@ merged**.
 
 **The matrix is 297 cells, and not one is blank.** `Au` appears **twice**; `Ac`
 appears **once**, inside **`TBD Ac`** — **no acceptance allocation is resolved
-anywhere**. `P4` is **established** by BEP §9.4; `D4` reads **`TBD` in every
-column** under BEP §9.7. **Separate Author and Checker columns are separate
+anywhere**. `P4` is **established** by BEP §9.4. **`D4` holds nine populated
+cells — five `TBD` (AP, LDP, BM, BC, TTL) and four `—` (Aut, Chk, CDE, Rcp);
+publication authority is unresolved under BEP §9.7 and no allocation is made.** **Separate Author and Checker columns are separate
 functions, not separate people**, and **independence is not claimed anywhere**.
 
 **The two matrices are complementary, not one matrix.** Slide 4 allocates
@@ -392,7 +394,7 @@ of governance under condition. Describing it neither advances nor reopens it.
 | Field | Value |
 |---|---|
 | **Active module** | **Module 5 — Responsibility Matrices and Information-Delivery Planning** — **CURRENT — ACTIVE** |
-| Module 5 current increment | **T5-F-A — COMPLETE.** **T5-A to T5-F-A complete; T5-F-B and later increments outstanding** |
+| Module 5 current increment | **T5-F-A-R — COMPLETE.** **T5-A to T5-F-A-R complete; T5-F-B and later increments outstanding** |
 | Module 5 deliverable | 20-minute, **fourteen-slide** presentation — **teaching-content baseline complete; not produced** |
 | Module 5 slides developed | **All fourteen.** None architecture only. **Teaching-content baseline COMPLETE** |
 | Module 5 established (T5-A) | Module directory, **six files** · **source inventory and hierarchy** `S1`–`S15` with **`E1`–`E8` excluded and reasons recorded** · **separate analysis of the three principal resources**, 37 fields each · **six registers** · **25 tested hypotheses** · 20-minute fourteen-slide architecture · **Slides 1–3** |
@@ -401,10 +403,11 @@ of governance under condition. Describing it neither advances nor reopens it.
 | Module 5 developed (T5-D) | **Slides 9, 10, 11 and 12** — the schedule's sixteen approved fields · three event concepts with their three statuses · **an event uses a transition but is not one** · the **five independent `TRN-E03` blockers**, each typed and none blank · **225 classified statements** across Slides 1–12 · **89 prohibited claims** · **ninth terminology variance recorded** — `S4` counts five blocking matters, `S5` counts six; neither list rewritten · two wording corrections: **`—` is not a blank**, and **`TRN-E03` fields are typed, not empty** |
 | Module 5 developed (T5-E) | **Slides 13 and 14** — the seven typed absence markers, and the Triviron decision questions with **no answers** · the **exercise baseline**, 79 exercises · the **module-wide final reconciliation** · four consistency corrections, all narrative superlatives recalculated from the final tables · **267 classified statements** · **102 prohibited claims** |
 | Module 5 specified (T5-F-A) | **Fourteen visual specifications** `M5V-01`–`M5V-14`, 31 fields each · module-wide canvas, status, accessibility and Mermaid rules · **25 STOP conditions** · **four pre-visual corrections** — the grammar belongs to one matrix only · Slide 13 is not seven forms of *not yet* · the IM split status is preserved on Slide 14 · three unsupported generalisations removed. **No statement classification or total changed** |
+| Module 5 corrected (T5-F-A-R) | **`D4` controlled-source correction.** Teaching wording said `D4` was *`TBD` in every column*; the controlled matrix records **five `TBD`** (AP, LDP, BM, BC, TTL) and **four `—`** (Aut, Chk, CDE, Rcp), with **no allocation made**. Corrected across all eight permitted files, including `M5-S7-16`, `M5V-04` and `M5V-07`. **The controlled source was read, not changed.** Slide 12's *five different words* corrected — the five blockers carry **three** distinct status terms. **Prohibited claim 103 added; total 103.** **Specification baseline ACCEPTED**. **One occurrence remains uncorrected** — `resource-comparison.md` line 61, **outside the permitted paths**; recorded as a reported need |
 | Module 5 central question | **Revised on source evidence.** *Which information must be produced, by which task team, for which event and recipient, for what purpose — and under which checks and authorisation?* The provisional *"and by when"* was **removed**: BEP §10.5 asks *for which event*, and **no delivery dates or client milestones have been established** |
 | Module 5 governance position | The three resources are **separately controlled** and **not one RACI matrix** — *"RACI is not adopted"* is **controlled governance**. All three are **APPROVED WITH CONDITIONS — Training Baseline 0.1** (`AD-001`), **publication NOT AUTHORISED**; the schedule's entries and the container matrix's allocations are additionally **`PROPOSED GOVERNANCE`**. **Allocation is not performance.** **No matrix or schedule field is blank** — every absence is typed |
 | Module 5 safeguards carried forward | Publication authority **unresolved** · acceptance authority **unresolved** · **`T4` blocked** · information **remains Shared** · `TRN-E03` **blocked on five independent matters, none populated** · `TRN-E03` **is not `T4`** · Published / Delivered / Received / Accepted remain **four distinct objects** · `UD-001` **unresolved, not corrected** · `GCR-006` **open** |
-| Module 5 visual specifications | **COMPLETE (T5-F-A)** — `M5V-01`–`M5V-14`, all `SPECIFICATION COMPLETE`; **zero Mermaid, zero external imagery, zero live-evidence requirements** |
+| Module 5 visual specifications | **COMPLETE and ACCEPTED (T5-F-A, corrected T5-F-A-R)** — `M5V-01`–`M5V-14`; **zero Mermaid, zero external imagery, zero live-evidence requirements** |
 | Module 5 visual source | **None.** T5-F-B not started — `M05-S01`–`M05-S14` reserved only. **No asset directory, no register, no slide map, no rendered asset** |
 | Module 5 assembly package | **None.** T5-G not started |
 | Module 5 PowerPoint | **None.** T5-H not started |

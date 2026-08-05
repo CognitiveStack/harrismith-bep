@@ -3,11 +3,21 @@
 **Status:** Teaching material. **Not governance.** This plan explains and
 specifies; it decides nothing and approves nothing.
 
-**All fourteen visual specifications are complete after T5-F-A.**
+**All fourteen visual specifications are complete after T5-F-A, and were
+corrected and accepted in T5-F-A-R.**
+
+> **T5-F-A-R correction.** Repository review found that `M5V-04` and `M5V-07`
+> repeated an inaccurate description of the controlled `D4` row. **The row holds
+> nine populated cells — `TBD` against AP, LDP, BM, BC and TTL, and `—` against
+> Aut, Chk, CDE and Rcp** — and *"No allocation is made here."* Both
+> specifications now carry the exact distribution, and **STOP condition 26**
+> forbids the inaccurate form. `M5V-12`'s takeaway was also corrected: the five
+> blockers carry **three** distinct status terms, not five. **No controlled
+> source was changed.**
 
 | Field | Value |
 |---|---|
-| Specifications | **`M5V-01`–`M5V-14` — 14 of 14, `SPECIFICATION COMPLETE`** |
+| Specifications | **`M5V-01`–`M5V-14` — 14 of 14, `SPECIFICATION COMPLETE` and `ACCEPTED`** |
 | Visual-source files | **NONE.** `T5-F-B` owns source production |
 | Asset directory | **None.** `teaching/assets/module-05/` does not exist |
 | Visual register / slide-visual map | **None.** `T5-F-B` |
@@ -187,6 +197,7 @@ label**, not by colour · and warnings that remain legible at projection scale.
 | 23 | Imports a screenshot or external image |
 | 24 | Invents a Triviron fact or answer |
 | 25 | Suggests the content baseline is already a produced presentation |
+| 26 | States that `D4` is `TBD` in every column, omits its four `—` cells, or presents its five `TBD` cells as an allocation, a shortlist or a set of candidate authorities |
 
 ---
 
@@ -325,18 +336,18 @@ label**, not by colour · and warnings that remain legible at projection scale.
 | **11 · Fixed form** | **Matrix skeleton** — seven labelled subject-group bands down the left, nine role columns across the top, **cells showing no values**. Two call-outs to the right: one on an **established** row, one on the **unresolved** row |
 | **12 · Why this form** | The structural idea is the teaching point. Showing 297 values would invite reading, and the codes are not defined until Slide 6 |
 | **13 · Simplification rule** | Group names may abbreviate. **Role column count may never be reduced below nine**, and **no cell may be populated** |
-| **14 · Mandatory visible wording** | `33 information-management functions` · `7 subject groups` · `9 functional roles`; `Functional roles only — no holder is established`; call-out 1 **`ESTABLISHED — BEP §9.4`**; call-out 2 **`UNRESOLVED — BEP §9.7`** |
+| **14 · Mandatory visible wording** | `33 information-management functions` · `7 subject groups` · `9 functional roles`; `Functional roles only — no holder is established`; call-out 1 **`ESTABLISHED — BEP §9.4`**; call-out 2 **`UNRESOLVED — BEP §9.7 · TBD ×5 · — ×4 · no allocation made`** |
 | **15 · Mandatory status/warning** | **Both call-outs, together.** One alone flattens the split rule |
-| **16 · Blocked / unresolved / absent** | **The grid is deliberately unpopulated.** The unresolved row's call-out states `TBD in every column` **without drawing the values** |
+| **16 · Blocked / unresolved / absent** | **The grid is deliberately unpopulated.** The unresolved row's call-out states the **actual source distribution — `TBD` ×5 (AP, LDP, BM, BC, TTL) · `—` ×4 (Aut, Chk, CDE, Rcp) · `NO ALLOCATION MADE`** — **without drawing the values into the grid**. It must distinguish the **five unresolved** cells from the **four resolved no-function** cells |
 | **17 · Geometry** | Grid `x = 48–640`, `y = 120–470`. Seven row bands of equal height; nine columns of equal width. Call-outs `x = 664–912`, vertically aligned to their rows, joined by **short leader lines** |
 | **18 · Connector semantics** | **Leader lines only** — they point at a row and mean nothing else. No arrows between grid and call-outs |
 | **19 · Build sequence** | Grid frame → row bands → column headings → established call-out → unresolved call-out |
 | **20 · Mandatory omissions** | **No function code anywhere** · no person · no company · no appointment or organisation chart · no tick, cross or completion mark |
 | **21 · Overclaim risk** | **An empty grid reads as an incomplete document.** A caption must state that the grid is unpopulated **for teaching**, not in the source — the source has 297 populated cells, shown on Slide 7 |
-| **22 · Producer-failure test** | **Does any cell contain a character?** If yes, the visual has pre-empted Slide 6 and 7. **Do both call-outs appear?** If only one, the split rule is broken |
-| **23 · STOP conditions** | Module-wide 3, 5, 6, 8, 9 |
-| **24 · Accessibility** | Reading order: title → grid dimensions → group names → role names → call-out 1 → call-out 2. Grid emptiness stated in words in the alt text |
-| **25 · Screen-reader description** | *"A matrix skeleton: seven subject-group bands down the left, nine functional-role columns across the top, thirty-three function rows in total. The cells are shown empty for teaching; the source matrix is fully populated. Two call-outs: one marking a row the BEP expressly establishes — Task-Team Lead authorises sharing, BEP 9.4; one marking a row the BEP expressly establishes as unresolved — publication authority, BEP 9.7, TBD in every column."* |
+| **22 · Producer-failure test** | **Does any cell contain a character?** If yes, the visual has pre-empted Slide 6 and 7. **Do both call-outs appear?** If only one, the split rule is broken. **Does the unresolved call-out say `TBD` in every column?** If yes, STOP — four of those nine cells are `—` |
+| **23 · STOP conditions** | Module-wide 3, 5, 6, 8, 9, **26** |
+| **24 · Accessibility** | Reading order: title → grid dimensions → group names → role names → call-out 1 → call-out 2. Grid emptiness stated in words in the alt text. **The `TBD` / `—` split in the call-out must be read as two separate counts**, never as one |
+| **25 · Screen-reader description** | *"A matrix skeleton: seven subject-group bands down the left, nine functional-role columns across the top, thirty-three function rows in total. The cells are shown empty for teaching; the source matrix is fully populated. Two call-outs: one marking a row the BEP expressly establishes — Task-Team Lead authorises sharing, BEP 9.4; one marking a row the BEP expressly establishes as unresolved — publication authority, BEP 9.7. That row holds nine populated cells: five TBD, against Appointing Party, Lead Delivery Party, BIM Manager, BIM Coordinator and Task-Team Lead; and four dashes, against Author, Checker, CDE Administration and Recipient. No allocation is made."* |
 | **26 · External imagery** | `NONE REQUIRED` |
 | **27 · Live evidence** | `NONE REQUIRED` |
 | **28 · Mermaid decision** | **PROHIBITED.** Mermaid has no matrix primitive; any graph substitute would imply flow between functions. STOP condition 9 |
@@ -436,25 +447,25 @@ label**, not by colour · and warnings that remain legible at projection scale.
 | **8 · Classification profile** | 2 `CONTROLLED` · 8 `SUPPORTING` · 8 `INTERP` · 2 `EXCLUDED` |
 | **9 · Governance status** | `ESTABLISHED ALLOCATION` (`P4`) · `UNRESOLVED` (`D4`, `D7`) · `PROPOSED GOVERNANCE` (the rest) |
 | **10 · Implementation status** | **`IMPLEMENTATION UNVERIFIED`** — a cell records no performance |
-| **11 · Fixed form** | **Left:** one row and one column highlighted to their intersection, the cell called out. **Centre:** the four `P1`–`P4` rows as **four separate horizontal bars**, each showing only the values that row actually carries. **Right:** the `D4` row with **`TBD` shown in all five allocated columns**. **Footer:** the census line |
-| **12 · Why this form** | Four separate bars prevent the production rows reading as a flowchart. The `D4` row must be *shown* carrying `TBD`, not described — that is the whole status contrast |
-| **13 · Simplification rule** | The census may reduce to `297 cells · none blank · Au ×2 · Ac ×1`. **The `P1`–`P4` bars may not be merged into one arrow** |
-| **14 · Mandatory visible wording** | `row × column = cell`; `which function this role holds in this activity`; `P1 P2 P3 P4` with their values; `P4 — Au — ESTABLISHED, BEP §9.4`; `D4 — TBD in every column — UNRESOLVED, BEP §9.7`; `Combined values record no order`; the census |
+| **11 · Fixed form** | **Left:** one row and one column highlighted to their intersection, the cell called out. **Centre:** the four `P1`–`P4` rows as **four separate horizontal bars**, each showing only the values that row actually carries. **Right:** the **complete nine-cell `D4` row** under its nine role headings — **`TBD` in AP, LDP, BM, BC, TTL; `—` in Aut, Chk, CDE, Rcp** — carrying an **`UNRESOLVED`** label and **`NO ALLOCATION MADE`**. **Footer:** the census line |
+| **12 · Why this form** | Four separate bars prevent the production rows reading as a flowchart. **The `D4` row must be *shown* as the source records it — all nine cells** — because the contrast is not just *unresolved versus established*: four of `D4`'s cells are **resolved**, and abbreviating them away would teach a row that does not exist |
+| **13 · Simplification rule** | The census may reduce to `297 cells · none blank · Au ×2 · Ac ×1`. **The `P1`–`P4` bars may not be merged into one arrow**, and **the four `—` cells of `D4` may not be dropped, summarised or replaced by an ellipsis** — the row is shown complete or not at all |
+| **14 · Mandatory visible wording** | `row × column = cell`; `which function this role holds in this activity`; `P1 P2 P3 P4` with their values; `P4 — Au — ESTABLISHED, BEP §9.4`; the nine `D4` cells with the nine role headings; **`UNRESOLVED`**; **`NO ALLOCATION MADE`**; `BEP §9.7`; `Combined values record no order`; the census |
 | **15 · Mandatory status/warning** | The two status labels on `P4` and `D4`, **and** a line stating a cell does not record a name, an appointment, occurrence or independence |
-| **16 · Blocked / unresolved / absent** | **`D4` is shown carrying `TBD`, and is never completed.** `D7`'s `TBD Ac` may appear as a small annotation, also never completed |
-| **17 · Geometry** | Intersection diagram `x = 48–300`, `y = 96–300`. `P1`–`P4` bars `x = 324–640`, four rows of equal height, `y = 96–300`, **≥ 16 pt vertical gaps so they never abut**. `D4` block `x = 664–912`, same vertical band, **visually isolated**. Census strip `y = 430–470`, full width |
+| **16 · Blocked / unresolved / absent** | **`D4` is shown exactly as recorded — five `TBD`, four `—` — and is never completed.** The four `—` cells are **populated**, not blank: they record that Author, Checker, CDE Administration and Recipient hold **no function** in that activity. **The row is unresolved even though those four applicability decisions are resolved.** `D7`'s `TBD Ac` may appear as a small annotation, also never completed |
+| **17 · Geometry** | Intersection diagram `x = 48–300`, `y = 96–300`. `P1`–`P4` bars `x = 324–616`, four rows of equal height, `y = 96–300`, **≥ 16 pt vertical gaps so they never abut**. `D4` block `x = 640–912`, same vertical band, **visually isolated**: nine equal cells in one row beneath nine role headings, each cell ≥ 28 pt wide so `—` remains legible at 14 pt. Status labels sit immediately beneath the row. Census strip `y = 430–470`, full width |
 | **18 · Connector semantics** | **Leader lines only**, from row and column into the cell. **No arrow between `P1`, `P2`, `P3` and `P4`** — an arrow would assert sequence the source does not state |
-| **19 · Build sequence** | Intersection → cell call-out → four bars → `D4` block → census |
+| **19 · Build sequence** | Intersection → cell call-out → four bars → **`D4` role headings → five `TBD` → four `—` → `UNRESOLVED` → `NO ALLOCATION MADE`** → census |
 | **20 · Mandatory omissions** | **No arrow between the production rows** · no tick or completion mark · no person · no populated `D4` · no ordering within a combined value |
-| **21 · Overclaim risk** | **Two risks.** Four stacked rows imply a workflow; and a populated-looking grid implies work done. Mitigated by gaps, by the absence of connectors, and by the explicit *does not record* line |
-| **22 · Producer-failure test** | **Is there an arrow anywhere between `P1` and `P4`?** If yes, remove it. **Does `D4` show any value other than `TBD`?** If yes, STOP |
-| **23 · STOP conditions** | Module-wide 9, 10, 16 |
-| **24 · Accessibility** | Reading order: intersection → cell meaning → four rows → `D4` → census. Combined values read aloud as *"holds both functions, in no stated order"* |
-| **25 · Screen-reader description** | *"Left: one activity row and one role column highlighted to their intersection; the cell records which function that role holds in that activity. Centre: four separate rows — P1, author in WIP; P2, task-team check; P3, readiness check; P4, authorise for controlled sharing, held by the Task-Team Lead, established by BEP 9.4. There is no arrow between them. Right, isolated: the D4 row, authorise publication, showing TBD in all five allocated columns, unresolved under BEP 9.7. Footer: 297 cells, none blank; Au appears twice; Ac appears once, inside TBD Ac."* |
+| **21 · Overclaim risk** | **Three risks.** Four stacked rows imply a workflow; a populated-looking grid implies work done; and **five `TBD` cells side by side read as a shortlist of candidate authorities**. The third is mitigated by `NO ALLOCATION MADE` and by showing the four `—` cells, which make the row a record of the source rather than a set of options |
+| **22 · Producer-failure test** | **Is there an arrow anywhere between `P1` and `P4`?** If yes, remove it. **Does the `D4` row show exactly nine cells — five `TBD` and four `—`?** If any cell is missing, blank, or carries a different value, **STOP**. **Ask a reader who holds publication authority. If the answer names any of the five `TBD` roles, `NO ALLOCATION MADE` has failed** |
+| **23 · STOP conditions** | Module-wide 9, 10, 16, **26** |
+| **24 · Accessibility** | Reading order: intersection → cell meaning → four rows → `D4` role headings → nine cells → status labels → census. Combined values read aloud as *"holds both functions, in no stated order"*. **Each `D4` cell must be read with its role name**, so the five/four split survives audio |
+| **25 · Screen-reader description** | *"Left: one activity row and one role column highlighted to their intersection; the cell records which function that role holds in that activity. Centre: four separate rows — P1, author in WIP; P2, task-team check; P3, readiness check; P4, authorise for controlled sharing, held by the Task-Team Lead, established by BEP 9.4. There is no arrow between them. Right, isolated: the D4 row, authorise publication or exchange, showing all nine cells — TBD against Appointing Party, Lead Delivery Party, BIM Manager, BIM Coordinator and Task-Team Lead; dash against Author, Checker, CDE Administration and Recipient. The row is labelled unresolved under BEP 9.7, and no allocation is made. The five TBD cells are not a shortlist. Footer: 297 cells, none blank; Au appears twice; Ac appears once, inside TBD Ac."* |
 | **26 · External imagery** | `NONE REQUIRED` |
 | **27 · Live evidence** | `NONE REQUIRED` |
 | **28 · Mermaid decision** | **PROHIBITED.** Mermaid would sequence `P1`–`P4`. STOP condition 9 |
-| **29 · Native reconstruction** | One small table for the intersection + four separate rectangles + one isolated rectangle + one text strip + leader lines |
+| **29 · Native reconstruction** | One small table for the intersection + four separate rectangles + **one isolated 9-column table (one heading row, one value row) for `D4`** + two status text boxes + one text strip + leader lines |
 | **30 · Future source** | `M05-S07` — **NOT CREATED** |
 | **31 · Status** | `SPECIFICATION COMPLETE` · source `NOT STARTED` · rendered `NONE` |
 
@@ -620,7 +631,7 @@ label**, not by colour · and warnings that remain legible at projection scale.
 | **2 · Slide** | 12 — *Why `TRN-E03` is blocked — five matters, not one* · 1.5 min |
 | **3 · Visual title** | Five separately typed blockers, all closed |
 | **4 · Teaching purpose** | Show governance working by stopping, and that the block is five independent matters |
-| **5 · Five-second takeaway** | *Five gates. Five different words. None of them blank.* |
+| **5 · Five-second takeaway** | *Five independent matters. Every one typed. None blank.* |
 | **6 · Source basis** | `S4` §5, §5.1, §5.2; `S1` §9.7, §9.8, §10.4, §10.11, §11.9, §2.3, §5.3; `S5` §11; `S8` `AD-001`; `S9` §7, §9; `S7` `OF-003`, `PAD-001` |
 | **7 · Statements** | `M5-S12-01` – `M5-S12-20` |
 | **8 · Classification profile** | 1 `CONTROLLED` · 12 `SUPPORTING` · 2 `DECISION-RECORD` · 3 `INTERP` · 2 `EXCLUDED` |
@@ -754,8 +765,8 @@ Zero Mermaid. Zero external images. Zero live-evidence requirements.**
 
 | Field | Value |
 |---|---|
-| Increment | **T5-F-A — COMPLETE** |
-| Specifications | **`M5V-01`–`M5V-14`, all `SPECIFICATION COMPLETE`** |
+| Increment | **T5-F-A-R — COMPLETE.** Specification baseline **ACCEPTED** |
+| Specifications | **`M5V-01`–`M5V-14`, all `SPECIFICATION COMPLETE` and `ACCEPTED`** |
 | Visual-source files | **NOT STARTED** — `M05-S01`–`M05-S14` reserved only |
 | Asset directory | **Does not exist** |
 | Visual register / slide-visual map | **Do not exist** — `T5-F-B` |

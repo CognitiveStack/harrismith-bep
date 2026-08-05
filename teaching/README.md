@@ -146,7 +146,7 @@ teaching/
 │   ├── presentation-outline.md      20-minute structure; all fourteen slides developed
 │   ├── speaker-notes.md             notes for all fourteen slides, plus both closings
 │   ├── exercises.md                 practice and self-assessment — 79 exercises
-│   └── visual-demonstration-plan.md fourteen visual specifications, M5V-01 to M5V-14
+│   └── visual-demonstration-plan.md fourteen visual specifications, M5V-01 to M5V-14, accepted
 ├── shared/
 │   ├── glossary.md                  teaching glossary across all modules
 │   └── presentation-principles.md   how these presentations are built
@@ -165,7 +165,7 @@ subdirectories**. There is **no `assets/module-05/` directory and no
 only what exists.
 
 **All fourteen slides are developed**, with presenter notes for every one, both
-closings, **79 exercises**, and **fourteen visual specifications**
+closings, **79 exercises**, and **fourteen accepted visual specifications**
 (`M5V-01`–`M5V-14`). **A complete baseline and a complete specification are not a
 produced presentation:** there are **no visual-source files, no visual register
 and no slide-visual map**, and Module 5 is **not produced, not reviewed, not

@@ -677,7 +677,7 @@ limit of what any populated cell asserts.
 >
 > | `P4` | `D4` |
 > |---|---|
-> | **`Au`** — established by BEP §9.4 | **`TBD`** in every column — BEP §9.7 |
+> | **`Au`** — established by BEP §9.4 | **`TBD` ×5 · `—` ×4** — authority unresolved; **no allocation made** — BEP §9.7 |
 >
 > **Same matrix. Same format. Two different authority statuses.**
 >
@@ -726,8 +726,10 @@ document.
 
 One row and one column highlighted to their intersection, with the cell called
 out as *"which function this role holds in this activity"*. Beneath it the four
-`P1`–`P4` rows in sequence, and to the side the `D4` row with **every column
-reading `TBD`** — shown, never filled.
+`P1`–`P4` rows in sequence, and to the side the **complete nine-cell `D4` row** —
+**five `TBD`** (AP, LDP, BM, BC, TTL) and **four `—`** (Aut, Chk, CDE, Rcp),
+labelled `UNRESOLVED` and `NO ALLOCATION MADE`. **Shown as the source records it,
+never filled and never abbreviated.**
 
 **Transition into Slide 8**
 
@@ -1259,9 +1261,9 @@ shown opening.**
 
 **Transition into Slide 13**
 
-> *"Five gates, five different words for 'we do not know yet' — and not one of
-> them left blank. That habit is worth a slide of its own, because it is the
-> single most transferable thing in this module."*
+> *"Five matters. Every one typed, every one written down, not one left blank.
+> That habit is worth a slide of its own, because it is the single most
+> transferable thing in this module."*
 
 ---
 

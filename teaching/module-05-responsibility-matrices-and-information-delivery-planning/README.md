@@ -7,7 +7,9 @@ baseline and the module-wide final reconciliation in **T5-E**; the pre-visual
 correction gate and the fourteen visual specifications in **T5-F-A**.
 
 **All fourteen slides developed. The teaching-content baseline is COMPLETE.**
-**All fourteen visual specifications are COMPLETE.**
+**All fourteen visual specifications are COMPLETE and ACCEPTED** — corrected in
+**T5-F-A-R**, which fixed a teaching-to-controlled-source contradiction about the
+`D4` row. **No controlled source was changed.**
 
 **A complete baseline and a complete specification are not a produced
 presentation.** There is **no visual-source file, no asset directory, no visual
@@ -213,7 +215,7 @@ externally and are not committed.
 | [`README.md`](README.md) | This file — objective, central question, status, scope, **increment status and validation** (§13) |
 | [`source-inventory.md`](source-inventory.md) | Source hierarchy · `S1`–`S15` with exact paths and declared statuses · why each was consulted · **`E1`–`E8` exclusions with reasons** · the two senses of *publication* |
 | [`resource-comparison.md`](resource-comparison.md) | **The three principal resources analysed separately** — 37 recorded fields each · overlaps · differences · terminology variance · relationships |
-| [`source-map.md`](source-map.md) | Classification scheme and its **T5-B reconciliation** · source-authority register · **267 classified statements, all fourteen slides** · terminology register, **9 variances** · **25 tested hypotheses** · unresolved register · **102 prohibited claims** · boundary deferrals · **module-wide final reconciliation (§12)** |
+| [`source-map.md`](source-map.md) | Classification scheme and its **T5-B reconciliation** · source-authority register · **267 classified statements, all fourteen slides** · terminology register, **9 variances** · **25 tested hypotheses** · unresolved register · **103 prohibited claims** · boundary deferrals · **module-wide final reconciliation (§12)**, including the **T5-F-A-R controlled-source correction record (§12.16)** |
 | [`presentation-outline.md`](presentation-outline.md) | Timing structure · **fourteen-slide architecture** · increment attribution · **all fourteen slides developed** |
 | [`speaker-notes.md`](speaker-notes.md) | Presenter notes — **all fourteen slides**, plus the normal and emergency closings |
 | [`exercises.md`](exercises.md) | **79 exercises** across eight sections — one per slide, resource boundaries, grammar, delivery planning, typed absence, Triviron transfer, hostile questions, rehearsal |
@@ -241,6 +243,7 @@ externally and are not committed.
 | **T5-D** | Information-delivery planning and delivery-event interpretation — **Slides 9–12** · two terminology corrections | ✅ **COMPLETE** |
 | **T5-E** | **Slides 13–14** · the **exercise baseline** · the **module-wide final reconciliation** · four consistency corrections | ✅ **COMPLETE** |
 | **T5-F-A** | **Pre-visual correction gate** — four corrections · **fourteen visual specifications** `M5V-01`–`M5V-14` | ✅ **COMPLETE** |
+| **T5-F-A-R** | **`D4` controlled-source correction** · Slide 12 wording correction · **final specification acceptance** | ✅ **COMPLETE** |
 | **T5-F-B** | Fourteen visual-source files, the visual register and the slide-visual map | **NEXT — outstanding** |
 | T5-G | Presentation assembly package | Outstanding |
 | T5-H | External PowerPoint production — **outside this repository** | Outstanding |
@@ -305,6 +308,8 @@ been true at an earlier increment.
 | Autodesk or ACC activity | **None.** Not authorised, not attempted |
 | Publication automation | **Untouched. Remains `PAUSED`** |
 | T5-F-B or later work performed | **None** |
+| Files created or deleted | **None.** T5-F-A-R is correction-only |
+| Reported need — outside permitted paths | [`resource-comparison.md`](resource-comparison.md) line 61 carries the same inaccurate `D4` wording. **Not corrected — outside T5-F-A-R's permitted paths.** Recorded at [`source-map.md`](source-map.md) §12.16.1. [`source-inventory.md`](source-inventory.md) is clean |
 
 ### 13.3 Safeguards verified intact
 
@@ -430,18 +435,18 @@ structural description is otherwise unchanged.
 
 | Field | Value |
 |---|---|
-| Increment | **T5-F-A — COMPLETE** |
+| Increment | **T5-F-A-R — COMPLETE.** Specification baseline **ACCEPTED** |
 | Module status | **CURRENT — ACTIVE** |
 | Teaching-content baseline | **COMPLETE** — all fourteen slides developed |
 | Slides | **14 of 14.** None architecture only |
 | Classified statements | **267** |
-| Prohibited claims | **102**, plus 4 standing programme-status prohibitions |
+| Prohibited claims | **103**, plus 4 standing programme-status prohibitions |
 | Terminology variances | **9** |
 | Hypotheses | **25**, all accounted for |
 | Exercises | **79** — `E1`–`E79` |
 | Final reconciliation | **COMPLETE** — [`source-map.md`](source-map.md) §12 |
 | Module files | **8** |
-| Visual specifications | **COMPLETE** — `M5V-01`–`M5V-14`, [`visual-demonstration-plan.md`](visual-demonstration-plan.md) |
+| Visual specifications | **COMPLETE and ACCEPTED** — `M5V-01`–`M5V-14`, [`visual-demonstration-plan.md`](visual-demonstration-plan.md) |
 | Visual sources / assets / register / map | **None.** T5-F-B not started |
 | Assembly package | **None.** T5-G not started |
 | PowerPoint | **None**, in this or any module |
