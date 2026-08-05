@@ -29,8 +29,8 @@ moves — not as the subject.
 | 1 | What is a BIM Execution Plan? | **Content, visual source, assembly package and PowerPoint produced.** Review and rehearsal **deferred** |
 | 2 | BIM Management roles and responsibilities | **Content, visual source, assembly package and PowerPoint produced.** Review and rehearsal **deferred** |
 | 3 | ISO 19650 information-management principles | **Content, visual source, assembly package and PowerPoint produced.** Review and rehearsal **deferred** |
-| 4 | **CDE workflows and information states** | **CURRENT — ACTIVE** |
-| 5 | Responsibility matrices and information-delivery planning | Planned |
+| 4 | CDE workflows and information states | **Content, visual source, assembly package and PowerPoint produced.** Review and rehearsal **deferred** |
+| 5 | **Responsibility matrices and information-delivery planning** | **CURRENT — ACTIVE** |
 | 6 | Coordination, review, approval and assurance | Planned |
 | 7 | Translating Harrismith into the Triviron BEP | Planned |
 | 8 | Facilitating and presenting a BEP workshop | Planned |
@@ -129,9 +129,9 @@ timing — on the same footing as Modules 1 and 2. **No visual was rendered** (n
 renderer is available in this environment); the text-based visual source is
 authoritative.
 
-### Module 4 — CDE workflows and information states — **CURRENT**
+### Module 4 — CDE workflows and information states — **produced; review and rehearsal deferred**
 
-The active module. Deliverable: a 20-minute, fourteen-slide presentation on what
+Deliverable: a 20-minute, fourteen-slide presentation on what
 a CDE actually controls — states, transitions, the properties that support them,
 and **why being able to move a file is not authority to change its state**. See
 [`module-04-cde-workflows-and-information-states/README.md`](module-04-cde-workflows-and-information-states/README.md).
@@ -160,10 +160,10 @@ specification**, and **the module contains no Mermaid at all.**
 seven files: README, deck specification, slide copy, presenter cues, asset
 manifest, production checklist and review checklist.
 
-**External PowerPoint production — T4-G — is next.** The deck is produced
-**outside this repository** after the package has been audited and accepted, and
-**is not committed here.** Every visual is rebuilt with **native PowerPoint
-objects**; nothing is imported.
+**External PowerPoint production — T4-G — is complete.** The deck was produced
+**outside this repository**, and **is not committed here** — as for Modules 1, 2
+and 3. Every visual was rebuilt with **native PowerPoint objects**; nothing was
+imported.
 
 **Module 4 returns to repository-only evidence.** Unlike Module 3, every
 statement traces to a controlled Harrismith document. **But it introduces a new
@@ -183,28 +183,82 @@ Four positions are fixed for the module:
 - **A missing verification is not a failure claim** — *absence of observation is
   not observation of absence*.
 
-**Outstanding:** external PowerPoint production (**T4-G**), then review, then
-rehearsal. **No timing has been measured** — for this or any module. The deck
-carries **`20.0 minutes allocated — not yet measured`**.
+**Outstanding:** presentation **review** and **rehearsal** — **DEFERRED**, not
+complete, on the same footing as Modules 1, 2 and 3. **No timing has been
+measured** — for this or any module. The deck carries **`20.0 minutes allocated
+— not measured`**.
 
-### Modules 5–8 — future scope
+### Module 5 — Responsibility matrices and information-delivery planning — **CURRENT**
 
-Modules 5–8 are recorded below as the intended sequence. **None of their material
+The active module. Deliverable: a 20-minute, fourteen-slide presentation on
+**which information must be produced, by whom, for which event and recipient,
+and under which checks and authorisation** — and on the difference between
+allocating responsibility and evidencing that it was discharged. See
+[`module-05-responsibility-matrices-and-information-delivery-planning/README.md`](module-05-responsibility-matrices-and-information-delivery-planning/README.md).
+
+**Current bounded increment: `T5-A` — COMPLETE.** The module directory and its
+six files now exist. T5-A established the module, the **source inventory and
+hierarchy** (`S1`–`S15`, with `E1`–`E8` excluded and reasons recorded), a
+**separate analysis of the three principal resources**, the **fourteen-slide
+architecture**, and **Slides 1–3**.
+
+**Slides 1–3 are developed.** **Slides 4–14 are architecture only** — slide
+number, working title, purpose, central teaching point, principal source basis, a
+high-level visual concept, the governing boundary and allocated time. **They
+carry no content, no visual specification and no assets.**
+
+**Outstanding: `T5-B` and every later increment** — Slides 4–5 (T5-B), Slides 6–8
+(T5-C), Slides 9–12 (T5-D), Slides 13–14 and the content baseline (T5-E), visual
+specifications and sources (T5-F), assembly package (T5-G), external PowerPoint
+production (T5-H). **The module has no exercises file yet.**
+
+**Three positions are fixed for the module, and were confirmed against the
+sources in T5-A:**
+
+- **The three resources are not one RACI matrix.** *"RACI is not adopted"* is
+  **controlled governance** (BEP §5.12), because RACI *"collapses"* checking from
+  authorising and coordinating from performing. The three resources answer three
+  different questions and each states what it does **not** answer.
+- **Allocation is not performance.** A matrix records what someone is responsible
+  for, never that they did it — *"it must not be read as evidence of
+  independence"*. Six containers are allocated; **one has a live equivalent
+  observed**, and *absence of observation is not observation of absence*.
+- **No controlled Harrismith matrix or schedule contains a blank field.** Every
+  absence is typed — `TBD`, `—`, `Not defined`, `Not established`, `Not
+  applicable`, `Conditional`, `BLOCKED`. Module 5 must not present Harrismith as
+  having blanks to interpret.
+
+**The Module 4 safeguards are carried forward unchanged.** Publication authority
+**unresolved**; acceptance authority **unresolved**; **`T4` blocked**;
+information **remains Shared**; `TRN-E03` **blocked on five independent
+matters**, none populated; `TRN-E03` is a delivery event and **not** `T4`;
+Published, Delivered, Received and Accepted remain four distinct objects.
+
+**A second sense of "publication" was found and is recorded.** A
+publication-**arrangement** approval (`PAD-001`, scope *"Training Baseline 0.1
+publication arrangement only"*) concerns the Harrismith **documentation set**. It
+does **not** resolve project publication authority under BEP §9.7, does not
+unblock `T4`, and does not release `TRN-E03`.
+
+**Module 5 does not consume Module 6.** It may identify that a review,
+coordination, approval or acceptance function is **required**; it must not teach
+that function's operational workflow. Coordination-cycle mechanics, federation,
+clash detection, finding and issue triage, escalation, review procedures,
+approval workflow mechanics, assurance sampling and closure all remain
+**Module 6**.
+
+### Modules 6–8 — future scope
+
+Modules 6–8 are recorded below as the intended sequence. **None of their material
 exists**, and their scope may change as the earlier modules are delivered and
 reviewed.
-
-**Module 4 does not consume their scope.** Responsibility-matrix and
-delivery-schedule construction belong to Module 5; coordination, clash triage,
-assurance and design approval to Module 6. Module 4 explains **what each control
-is and why it exists** — references to a matrix cell or a coordination cycle may
-explain a transition gate, and the detailed teaching stays deferred.
 
 ### Modules 4–8 — intended scope
 
 | # | Module | Intended subject | Principal expected sources |
 |---|---|---|---|
-| 4 | CDE workflows and information states — **now active; see above** | What a CDE controls; the four information states; the eight controlled steps and **the two that change state**; gates, authority and evidence; **the blocked `Shared → Published` route**; state, version, revision, status, suitability and metadata as distinct properties; governance before configuration | `bep/…BEP.md` §6, §7, §10, §12; `supporting/cde-workflow-state-strategy.md`; `docs/CDE-Structure-Governance-Decision.md`; `docs/Increment-7C-Live-Validation-Record.md` |
-| 5 | Responsibility matrices and information-delivery planning | The Perform/Check/Authorise/Coordinate/Accept/Consult/Inform grammar; container allocation; delivery events, purpose and suitability | Both matrices; `information-delivery-schedule.md` |
+| 4 | CDE workflows and information states — **produced; see above** | What a CDE controls; the four information states; the eight controlled steps and **the two that change state**; gates, authority and evidence; **the blocked `Shared → Published` route**; state, version, revision, status, suitability and metadata as distinct properties; governance before configuration | `bep/…BEP.md` §6, §7, §10, §12; `supporting/cde-workflow-state-strategy.md`; `docs/CDE-Structure-Governance-Decision.md`; `docs/Increment-7C-Live-Validation-Record.md` |
+| 5 | Responsibility matrices and information-delivery planning — **now active; see above** | **Tested in T5-A and corrected.** The Perform/Check/Authorise/Coordinate/Accept/Consult/Inform grammar — **`CONFIRMED`** (BEP §5.12), but **it belongs to the IM Responsibility Matrix alone** and has **two further values, `TBD` and `—`**, which carry the unresolved allocations; container allocation — **`CONFIRMED`**; delivery events and purpose — **`CONFIRMED`**; suitability — **`CONFIRMED`** as a governed concept, but **no suitability code set exists**. Added on evidence: allocation ≠ performance; delivery event ≠ information-state transition; **how an absence is typed** | Both matrices; `information-delivery-schedule.md`; BEP §5.12, §7.2, §9, §10; `Increment-7C-Live-Validation-Record.md` |
 | 6 | Coordination, review, approval and assurance | Federation, findings, triage, Issues, the coordination cycle, verification; check ≠ authorise ≠ accept | BEP §8, §9; `coordination-review-strategy.md` |
 | 7 | Translating Harrismith into the Triviron BEP | Which Harrismith positions transfer, which are Harrismith-specific, and which are project decisions Triviron must take for itself | The full set, plus Triviron project information when it exists |
 | 8 | Facilitating and presenting a BEP workshop | Running the decision conversations; recording outcomes; converting agreement into governance | `working/README.md`; `working/workshops/workshop-template.md`; `governance-decision-register.md` |
@@ -267,20 +321,33 @@ of governance under condition. Describing it neither advances nor reopens it.
 
 | Field | Value |
 |---|---|
-| **Active module** | **Module 4 — CDE Workflows and Information States** — **CURRENT — ACTIVE** |
-| Module 4 deliverable | 20-minute, **fourteen-slide** presentation — **teaching-content baseline complete; not final** |
+| **Active module** | **Module 5 — Responsibility Matrices and Information-Delivery Planning** — **CURRENT — ACTIVE** |
+| Module 5 current increment | **T5-A — COMPLETE.** Module established; **T5-B and later increments outstanding** |
+| Module 5 deliverable | 20-minute, **fourteen-slide** presentation — **architecture established; content baseline NOT complete** |
+| Module 5 slides developed | **Slides 1–3 only.** Slides 4–14 are **architecture only** — no content, no visual specification, no assets |
+| Module 5 established (T5-A) | Module directory, **six files** · **source inventory and hierarchy** `S1`–`S15` with **`E1`–`E8` excluded and reasons recorded** · **separate analysis of the three principal resources**, 37 fields each · **six registers** · **25 tested hypotheses** · **43 classified statements** · **50 prohibited claims** · 20-minute fourteen-slide architecture · **Slides 1–3** |
+| Module 5 central question | **Revised on source evidence.** *Which information must be produced, by which task team, for which event and recipient, for what purpose — and under which checks and authorisation?* The provisional *"and by when"* was **removed**: BEP §10.5 asks *for which event*, and **no delivery dates or client milestones have been established** |
+| Module 5 governance position | The three resources are **separately controlled** and **not one RACI matrix** — *"RACI is not adopted"* is **controlled governance**. All three are **APPROVED WITH CONDITIONS — Training Baseline 0.1** (`AD-001`), **publication NOT AUTHORISED**; the schedule's entries and the container matrix's allocations are additionally **`PROPOSED GOVERNANCE`**. **Allocation is not performance.** **No matrix or schedule field is blank** — every absence is typed |
+| Module 5 safeguards carried forward | Publication authority **unresolved** · acceptance authority **unresolved** · **`T4` blocked** · information **remains Shared** · `TRN-E03` **blocked on five independent matters, none populated** · `TRN-E03` **is not `T4`** · Published / Delivered / Received / Accepted remain **four distinct objects** · `UD-001` **unresolved, not corrected** · `GCR-006` **open** |
+| Module 5 visual source | **None.** T5-F not started |
+| Module 5 assembly package | **None.** T5-G not started |
+| Module 5 PowerPoint | **None.** T5-H not started |
+| Module 5 outstanding | **T5-B** (Slides 4–5), T5-C, T5-D, T5-E, T5-F, T5-G, T5-H. **No exercises file yet** |
+| Module 5 reported need | [`README.md`](README.md) — the teaching-programme README — **was not updated by T5-A** and needs to be. It was **outside T5-A's permitted paths**; recorded, not actioned |
+| Module 4 deliverable | 20-minute, **fourteen-slide** presentation — **produced** |
 | Module 4 slides developed | **Slides 1–14.** None outstanding |
 | Module 4 content baseline | **COMPLETE (T4-D)** |
 | Module 4 visual specifications | **COMPLETE (T4-E-A)** — `W1`–`W14`, all fourteen |
 | Module 4 visual source | **COMPLETE (T4-E-B)** — `M04-S01`–`M04-S14`, all **`SOURCE COMPLETE`**; **rendered `NONE`** |
-| Module 4 assembly package status | **COMPLETE (T4-F)** — seven files; **`20.0 minutes allocated — not yet measured`** |
-| Module 4 established (T4-A to T4-F) | Structure · **source inventory with exact paths and precedence** · **seven registers** · 20-minute fourteen-slide architecture · **Slides 1–14** · **244 classified statements** · **99 prohibited claims** · **71 exercises** · **module-wide final reconciliation** · visual specifications **`W1`–`W14`** · **visual sources `M04-S01`–`M04-S14`** · **assembly package** |
+| Module 4 assembly package status | **COMPLETE (T4-F)** — seven files; **`20.0 minutes allocated — not measured`** |
+| Module 4 external PowerPoint | **PRODUCED (T4-G)** — assembled **outside this repository**; **not committed here** |
+| Module 4 established (T4-A to T4-G) | Structure · **source inventory with exact paths and precedence** · **seven registers** · 20-minute fourteen-slide architecture · **Slides 1–14** · **244 classified statements** · **99 prohibited claims** · **71 exercises** · **module-wide final reconciliation** · visual specifications **`W1`–`W14`** · **visual sources `M04-S01`–`M04-S14`** · **assembly package** |
 | Module 4 source basis | **Controlled Harrismith documents only.** No external source is required |
 | Module 4 governance position | The CDE workflow is **`PROPOSED GOVERNANCE`** and **does not describe the live platform**. **`Shared → Published` is blocked** — no available authorising function. **No `04 Archive` exists or is required.** **No naming, revision, suitability or metadata standard exists** |
 | Module 4 visual-source location | [`assets/module-04/`](assets/module-04/) — README, visual register, slide-visual map, fourteen sources, and a `rendered/` directory recording that **nothing has been rendered** |
 | Module 4 assembly package | [`module-04-cde-workflows-and-information-states/presentation/`](module-04-cde-workflows-and-information-states/presentation/) — **complete (T4-F)** |
-| Module 4 PowerPoint | **None.** Produced **externally (T4-G)**; **not committed to this repository** |
-| Module 4 outstanding | **External PowerPoint production (T4-G)**, review, rehearsal |
+| Module 4 PowerPoint in repository | **None.** Produced **externally (T4-G)**; **not committed to this repository** |
+| Module 4 outstanding | **Presentation review and rehearsal — DEFERRED**, not complete. **Timing remains allocated, not measured** |
 | Module 3 | Content baseline, visual source and assembly package **produced**; PowerPoint assembled **outside this repository** |
 | Module 3 outstanding | **Presentation review and rehearsal — DEFERRED**, not complete, until the presenter chooses to perform them |
 | Module 2 | Content baseline, visual source and assembly package **produced**; PowerPoint assembled **outside this repository** |
@@ -288,8 +355,9 @@ of governance under condition. Describing it neither advances nor reopens it.
 | Module 2 README status | **Correction DEFERRED** — the module README still self-describes as active; [`roadmap.md`](roadmap.md) carries the authoritative position |
 | Module 1 | Content baseline, visual source and assembly package **produced**; PowerPoint assembled **outside this repository** |
 | Module 1 outstanding | **Presentation review and rehearsal — DEFERRED**, not complete |
-| Module 1–3 `.pptx` files | **Derivative outputs — not committed to this repository** |
+| Module 1–4 `.pptx` files | **Derivative outputs — not committed to this repository** |
 | Rendered visual assets | **None in any module** — no renderer available; text-based source is authoritative |
-| Modules 5–8 | **Future scope** — not started |
+| Measured timing | **None, in any module.** Every deck carries **`20.0 minutes allocated — not measured`** |
+| Modules 6–8 | **Future scope** — not started |
 | Publication automation | **PAUSED** |
 | Source material status | Training Baseline 0.1 — approved with conditions; publication NOT AUTHORISED |
