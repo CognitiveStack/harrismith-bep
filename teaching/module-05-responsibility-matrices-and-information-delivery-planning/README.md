@@ -9,7 +9,8 @@ correction gate and the fourteen visual specifications in **T5-F-A**.
 **All fourteen slides developed. The teaching-content baseline is COMPLETE.**
 **All fourteen visual specifications are COMPLETE and ACCEPTED** — corrected in
 **T5-F-A-R**, which fixed a teaching-to-controlled-source contradiction about the
-`D4` row. **No controlled source was changed.**
+`D4` row, and closed in **T5-F-A-R2**. **All eight Module 5 files now agree with
+the controlled `D4` row, and no controlled source was changed.**
 
 **A complete baseline and a complete specification are not a produced
 presentation.** There is **no visual-source file, no asset directory, no visual
@@ -215,7 +216,7 @@ externally and are not committed.
 | [`README.md`](README.md) | This file — objective, central question, status, scope, **increment status and validation** (§13) |
 | [`source-inventory.md`](source-inventory.md) | Source hierarchy · `S1`–`S15` with exact paths and declared statuses · why each was consulted · **`E1`–`E8` exclusions with reasons** · the two senses of *publication* |
 | [`resource-comparison.md`](resource-comparison.md) | **The three principal resources analysed separately** — 37 recorded fields each · overlaps · differences · terminology variance · relationships |
-| [`source-map.md`](source-map.md) | Classification scheme and its **T5-B reconciliation** · source-authority register · **267 classified statements, all fourteen slides** · terminology register, **9 variances** · **25 tested hypotheses** · unresolved register · **103 prohibited claims** · boundary deferrals · **module-wide final reconciliation (§12)**, including the **T5-F-A-R controlled-source correction record (§12.16)** |
+| [`source-map.md`](source-map.md) | Classification scheme and its **T5-B reconciliation** · source-authority register · **267 classified statements, all fourteen slides** · terminology register, **9 variances** · **25 tested hypotheses** · unresolved register · **103 prohibited claims** · boundary deferrals · **module-wide final reconciliation (§12)**, including the **controlled-source correction record (§12.16)** and its **T5-F-A-R2 closure (§12.16.1)** |
 | [`presentation-outline.md`](presentation-outline.md) | Timing structure · **fourteen-slide architecture** · increment attribution · **all fourteen slides developed** |
 | [`speaker-notes.md`](speaker-notes.md) | Presenter notes — **all fourteen slides**, plus the normal and emergency closings |
 | [`exercises.md`](exercises.md) | **79 exercises** across eight sections — one per slide, resource boundaries, grammar, delivery planning, typed absence, Triviron transfer, hostile questions, rehearsal |
@@ -244,6 +245,7 @@ externally and are not committed.
 | **T5-E** | **Slides 13–14** · the **exercise baseline** · the **module-wide final reconciliation** · four consistency corrections | ✅ **COMPLETE** |
 | **T5-F-A** | **Pre-visual correction gate** — four corrections · **fourteen visual specifications** `M5V-01`–`M5V-14` | ✅ **COMPLETE** |
 | **T5-F-A-R** | **`D4` controlled-source correction** · Slide 12 wording correction · **final specification acceptance** | ✅ **COMPLETE** |
+| **T5-F-A-R2** | **Closure of the remaining `resource-comparison.md` occurrence** — source architecture reconciled | ✅ **COMPLETE** |
 | **T5-F-B** | Fourteen visual-source files, the visual register and the slide-visual map | **NEXT — outstanding** |
 | T5-G | Presentation assembly package | Outstanding |
 | T5-H | External PowerPoint production — **outside this repository** | Outstanding |
@@ -309,7 +311,7 @@ been true at an earlier increment.
 | Publication automation | **Untouched. Remains `PAUSED`** |
 | T5-F-B or later work performed | **None** |
 | Files created or deleted | **None.** T5-F-A-R is correction-only |
-| Reported need — outside permitted paths | [`resource-comparison.md`](resource-comparison.md) line 61 carries the same inaccurate `D4` wording. **Not corrected — outside T5-F-A-R's permitted paths.** Recorded at [`source-map.md`](source-map.md) §12.16.1. [`source-inventory.md`](source-inventory.md) is clean |
+| `D4` reconciliation | **CLOSED in T5-F-A-R2.** The final occurrence — [`resource-comparison.md`](resource-comparison.md)'s *Authoriser* row — is corrected. **All eight Module 5 files now agree with the controlled `D4` row.** Record: [`source-map.md`](source-map.md) §12.16.1 |
 
 ### 13.3 Safeguards verified intact
 
@@ -435,7 +437,7 @@ structural description is otherwise unchanged.
 
 | Field | Value |
 |---|---|
-| Increment | **T5-F-A-R — COMPLETE.** Specification baseline **ACCEPTED** |
+| Increment | **T5-F-A-R2 — COMPLETE.** Source architecture **reconciled**; specification baseline **ACCEPTED** |
 | Module status | **CURRENT — ACTIVE** |
 | Teaching-content baseline | **COMPLETE** — all fourteen slides developed |
 | Slides | **14 of 14.** None architecture only |

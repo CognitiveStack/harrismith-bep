@@ -166,7 +166,10 @@ only what exists.
 
 **All fourteen slides are developed**, with presenter notes for every one, both
 closings, **79 exercises**, and **fourteen accepted visual specifications**
-(`M5V-01`–`M5V-14`). **A complete baseline and a complete specification are not a
+(`M5V-01`–`M5V-14`). **T5-F-A-R2 closed the last teaching-to-controlled-source
+contradiction**, so all eight files now agree with the controlled `D4` row.
+
+**A complete baseline and a complete specification are not a
 produced presentation:** there are **no visual-source files, no visual register
 and no slide-visual map**, and Module 5 is **not produced, not reviewed, not
 rehearsed, and its timing is allocated, never measured**. **T5-F-B — the

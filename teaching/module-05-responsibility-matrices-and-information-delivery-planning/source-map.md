@@ -1081,7 +1081,7 @@ decisions. Slide 14 poses the questions; it answers none.
 
 | Field | Value |
 |---|---|
-| Increment | **T5-F-A-R — specification baseline ACCEPTED** |
+| Increment | **T5-F-A-R2 — source architecture reconciled; specification baseline ACCEPTED** |
 | Slides classified | **All fourteen. 267 statements** |
 | Architecture only | **None.** No slide remains undeveloped |
 | Registers | **Six** — source authority, terminology, hypothesis, unresolved, prohibited claims, boundary deferrals |
@@ -1094,6 +1094,7 @@ decisions. Slide 14 poses the questions; it answers none.
 | Timing | **`20.0 minutes allocated — not measured`** |
 | Visual specifications, sources, assets, assembly package, PowerPoint | **None.** T5-F, T5-G and T5-H not started |
 | Visual specifications | **COMPLETE and ACCEPTED (T5-F-A, corrected in T5-F-A-R)** — [`visual-demonstration-plan.md`](visual-demonstration-plan.md), `M5V-01`–`M5V-14` |
+| `D4` reconciliation | **CLOSED (T5-F-A-R2).** All eight Module 5 files agree with the controlled row — **five `TBD`, four `—`, no allocation made** |
 | Outstanding | **T5-F-B** — visual-source files, register and slide map — and later increments |
 
 ---
@@ -1176,8 +1177,9 @@ recorded at §5.1.
 reconciled.**
 
 **One teaching-to-controlled-source contradiction was found**, during the
-**T5-F-A review**, and corrected in **T5-F-A-R** — see §12.16. The controlled
-source was always correct and **was not changed**.
+**T5-F-A review**. It was corrected across the teaching and specification files
+in **T5-F-A-R** and closed in the analysis file in **T5-F-A-R2** — see §12.16 and
+§12.16.1. The controlled source was always correct and **was not changed**.
 
 ### 12.6 Hypotheses — all 25 accounted for
 
@@ -1298,6 +1300,9 @@ prohibited claims 101 and 102 forbid the confusion.
   [`visual-demonstration-plan.md`](visual-demonstration-plan.md).
 - **T5-F-A-R** — the `D4` controlled-source correction, the Slide 12 wording
   correction and final specification acceptance — **COMPLETE**. See §12.16.
+- **T5-F-A-R2** — closure of the remaining `resource-comparison.md` occurrence —
+  **COMPLETE**. See §12.16.1. **No current Module 5 file contradicts the
+  controlled `D4` row.**
 - **T5-F-B** — the fourteen visual-source files, the visual register and the
   slide-visual map. **NOT STARTED.**
 - **T5-G** — the presentation assembly package.
@@ -1364,24 +1369,51 @@ Responsibility Matrix. The matrix was correct; the teaching wording was wrong.**
 its identifier and its `CONTROLLED` class, and its source basis was **extended**
 to include `S2` §1 for the `—` definition.
 
-### 12.16.1 Reported need — one occurrence outside the permitted paths
+### 12.16.1 Closure of the remaining comparison-file occurrence — T5-F-A-R2
 
-**[`resource-comparison.md`](resource-comparison.md) line 61 carries the same
-inaccurate wording** — its *Authoriser* row reads *"`D4` Authorise publication /
-exchange — **`TBD` in every column**"*.
+**CLOSED.** The last active contradiction with the controlled `D4` row has been
+corrected. **No current Module 5 file contradicts the controlled matrix.**
 
-**It was not corrected.** T5-F-A-R's permitted paths expressly exclude
-`resource-comparison.md`, and the file was left untouched rather than modified
-outside scope. **It is the only remaining occurrence in the module**, and it
-carries the same contradiction with `S2` §3.6 that this increment corrected
-everywhere else.
+**How it was discovered.** During T5-F-A-R's validation sweep,
+[`resource-comparison.md`](resource-comparison.md) line 61 was found carrying the
+same inaccurate wording as the teaching files — its *Authoriser* row read
+*"`D4` Authorise publication / exchange — `TBD` in every column"*, contradicting
+`S2` §3.6.
+
+**Why T5-F-A-R did not correct it.** That increment's permitted paths expressly
+excluded `resource-comparison.md`. **The file was correctly left untouched
+rather than modified outside scope**, and the need was recorded here for the
+orchestrator to scope.
+
+**How it was closed.** **T5-F-A-R2 expressly authorised the file.** The
+*Authoriser* row now reads: `D4` — **`TBD`** against `AP`, `LDP`, `BM`, `BC` and
+`TTL`; **`—`** against `Aut`, `Chk`, `CDE` and `Rcp`; **publication / exchange
+authority is unresolved and no allocation is made.**
+
+| Field | Value |
+|---|---|
+| File | [`resource-comparison.md`](resource-comparison.md), *Authoriser* row |
+| Controlled source | `supporting/information-management-responsibility-matrix.md` §1, §2, §3.6 and the `D4` note |
+| Controlled source changed | **NO.** It was read, not edited |
+| Corrected in | **T5-F-A-R2** |
+| Status | **CLOSED** |
+
+**Local consistency confirmed.** The surrounding comparison rows were reviewed
+and needed no change: *Cell vocabulary* already quotes both `TBD` and `—`
+verbatim; *Blank-field treatment* already states *"There are no blank cells"*;
+*Unresolved-field treatment* and *Blocked-field treatment* already record `D4` as
+**unresolved, not blocked**; and *Governance / planning / evidence* already
+attributes `D4`'s unresolved status to `S1` §9.7. **No general rewrite was
+performed.**
 
 **Verified clean:** [`source-inventory.md`](source-inventory.md) contains **no**
-statement of the `D4` distribution and needs no correction.
+statement of the `D4` distribution and needed no correction.
 
-**No instruction is implied.** The need is recorded here for the orchestrator to
-scope into a bounded increment. **Until it is corrected, one file in the module
-still contradicts the controlled matrix.**
+**The correction chain is complete before source production.** The contradiction
+originated in T5-C, propagated through T5-D and T5-F-A, was corrected across the
+eight teaching and specification files in **T5-F-A-R**, and is closed in the
+analysis file here in **T5-F-A-R2**. **No statement, classification, prohibited
+claim, census figure or total was altered by either correction.**
 
 ### 12.16.2 Second correction in the same increment
 
