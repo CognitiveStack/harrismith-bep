@@ -139,7 +139,8 @@ teaching/
     ├── README.md                    asset handling rules
     ├── module-01/                   Module 1 visual source set
     ├── module-02/                   Module 2 visual source set
-    └── module-03/                   Module 3 visual source set
+    ├── module-03/                   Module 3 visual source set
+    └── module-04/                   Module 4 visual source set — 14 native-layout sources
 ```
 
 ## 6. Safety boundary

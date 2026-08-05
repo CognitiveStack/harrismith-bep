@@ -1,9 +1,9 @@
 # Module 4 — CDE Workflows and Information States
 
 **Status:** Active module. Structure, source inventory, the **complete Slides
-1–14 teaching-content baseline** and **complete specifications for all fourteen
-visuals**. **Not governance, and not a complete module** — no visual source set,
-no assembly package, no deck.
+1–14 teaching-content baseline**, **complete specifications for all fourteen
+visuals**, and a **complete visual-source baseline**. **Not governance, and not a
+complete module** — no assembly package, no rendered asset, no deck.
 
 ---
 
@@ -92,12 +92,12 @@ A **20-minute presentation**, using Harrismith as the worked example.
 | Transfer context | A future Triviron multidisciplinary project |
 | Current state | **Teaching-content baseline complete — Slides 1–14.** Module not complete |
 
-**This presentation does not exist yet.** What exists after T4-A to T4-E-A:
+**This presentation does not exist yet.** What exists after T4-A to T4-E-B:
 
 | Established | Outstanding |
 |---|---|
 | Module structure (T4-A) | **Visual source set** — `teaching/assets/module-04/` |
-| **Source inventory** — exact paths, precedence, registers (T4-A) | Assembly package |
+| **Source inventory** — exact paths, precedence, registers (T4-A) | **Assembly package — next** |
 | Terminology register, with variance recorded (T4-A) | PowerPoint |
 | **Transition register** — all eight steps verified (T4-A) | Review |
 | Implementation-status register (T4-A) | **Rehearsal and measured timing** |
@@ -115,6 +115,7 @@ A **20-minute presentation**, using Harrismith as the worked example.
 | **Module-wide final reconciliation** (T4-D) | |
 | Visual specifications `W12`–`W14` (T4-D) | |
 | **Visual specifications `W1`–`W3` — all fourteen now specified** (T4-E-A) | |
+| **Visual-source baseline** — `M04-S01`–`M04-S14` in [`../assets/module-04/`](../assets/module-04/) (T4-E-B) | |
 
 ## 5. What makes this module different
 
@@ -264,7 +265,7 @@ itself.
 
 | Field | Value |
 |---|---|
-| Module 4 | **CURRENT — ACTIVE.** Content baseline and visual specifications complete; module not complete |
+| Module 4 | **CURRENT — ACTIVE.** Content baseline, visual specifications and visual source complete; module not complete |
 | Structure | **Established (T4-A)** |
 | Source inventory | **Complete (T4-A)** |
 | **Teaching-content baseline** | **COMPLETE (T4-D)** — Slides 1–14 |
@@ -276,8 +277,8 @@ itself.
 | Visual specifications | **`W1`–`W14` — all fourteen complete** (T4-E-A) |
 | Slides developed | **1–14** — Sections A (T4-A), B (T4-B), C (T4-C), D and E (T4-D) |
 | Slides outstanding | **None** |
-| Visual source | **None.** `teaching/assets/module-04/` does not exist — production is **T4-E-B**, the next increment |
-| Assembly package | **None** |
+| Visual source | **COMPLETE (T4-E-B)** — [`../assets/module-04/`](../assets/module-04/): fourteen `M04-S01`–`M04-S14` native-layout sources, all **`SOURCE COMPLETE`**. **Rendered assets: `NONE`** |
+| Assembly package | **None — the next increment** |
 | PowerPoint | **None** |
 | Review and rehearsal | **Outstanding** |
 | Timing | **20.0 minutes allocated. Never measured** — every figure is an allocation until Exercise 64 has been run |

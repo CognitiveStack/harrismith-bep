@@ -954,7 +954,8 @@ itself.**
 | Timing | **20.0 minutes**, verified against both the section table and the slide table in [`presentation-outline.md`](presentation-outline.md) §1–§2 |
 | Speaker notes | **14 of 14 slides**, 12–13 elements each, plus a **module closing (30 s), a closing fallback (10 s) and Section D and E recovery sentences** |
 | Statements classified | **244**, `M4-S1-01` – `M4-S14-16`, no gaps |
-| Visuals specified in full | **11 of 14** — `W4`–`W14`. `W1`–`W3` remain candidates |
+| Visuals specified in full | **14 of 14** — `W1`–`W14`, completed in **T4-E-A** |
+| Visual source files | **14 of 14** — `M04-S01`–`M04-S14`, produced in **T4-E-B**, all **`SOURCE COMPLETE`**. **Rendered: `NONE`** |
 | Exercises | **71**, in four sets |
 | Registers | **7** |
 | Prohibited claims | **99**, contiguous, no duplicates |
@@ -1019,8 +1020,9 @@ Module 4 is verified as operating**, and the project the module is preparing for
 
 | Item | Status |
 |---|---|
-| `W1`, `W2`, `W3` | **Candidates only** — specification belongs to the visual source set increment |
-| `teaching/assets/module-04/` | **Does not exist.** No visual source file and no rendered asset |
+| Visual specifications `W1`–`W14` | **Complete (T4-E-A).** Specification and source production are **separate completed stages** |
+| Visual sources `M04-S01`–`M04-S14` | **Complete (T4-E-B).** **No rendered asset exists**, and none was attempted |
+| `teaching/assets/module-04/` | **Exists (T4-E-B)** — README, visual register, slide-visual map, fourteen slide sources and a `rendered/` directory that records that **nothing has been rendered** |
 | Module 4 assembly package | **Not started** |
 | Timing measurement | **Never performed**, for this or any module |
 

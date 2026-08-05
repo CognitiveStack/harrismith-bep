@@ -1,7 +1,7 @@
 # Teaching Assets
 
-**Status:** Visual **source** is committed for Modules 1, 2 and 3. **No rendered
-image asset exists anywhere in this directory.**
+**Status:** Visual **source** is committed for Modules 1, 2, 3 and 4. **No
+rendered image asset exists anywhere in this directory.**
 
 ---
 
@@ -18,7 +18,8 @@ teaching/assets/
 ├── README.md      this file — asset rules for all modules
 ├── module-01/     visual source set for Module 1 (14 slide visuals)
 ├── module-02/     visual source set for Module 2 (14 slide visuals)
-└── module-03/     visual source set for Module 3 (14 slide visuals, 13 concepts)
+├── module-03/     visual source set for Module 3 (14 slide visuals, 13 concepts)
+└── module-04/     visual source set for Module 4 (14 slide visuals, 14 concepts)
 ```
 
 | Module | Visual source | Rendered assets | External evidence needed |
@@ -26,11 +27,28 @@ teaching/assets/
 | [`module-01/`](module-01/) | **Complete — Slides 1–14** | **None** | 3 optional — `V1`, `V9`, `V10` |
 | [`module-02/`](module-02/) | **Complete — Slides 1–14** | **None** | **None** |
 | [`module-03/`](module-03/) | **Complete — Slides 1–14** | **None** | **None** |
+| [`module-04/`](module-04/) | **Complete — Slides 1–14** | **None** | **None** |
 
 **Module 3 registers two identifier spaces of different sizes** — **13 visual
 concepts** (`V1`–`V13`) and **14 slide-source files** (`M03-S01`–`M03-S14`),
 because `V1` serves both Slide 1 and Slide 2. See
 [`module-03/visual-register.md`](module-03/visual-register.md) §1.
+
+**Module 4 does not have that asymmetry.** **Fourteen concepts** (`W1`–`W14`),
+**fourteen slides** and **fourteen slide-source files** (`M04-S01`–`M04-S14`), in
+a strict one-to-one mapping. See
+[`module-04/visual-register.md`](module-04/visual-register.md) §1.
+
+**Module 4 differs from the other three in one further respect: it contains no
+Mermaid at all.** Every one of its fourteen visuals is a **native-layout
+specification** — geometry in points, exact labels, connector semantics, and
+elements that are deliberately empty, broken or refused. **There is no diagram
+source to render**, and the PowerPoint is reconstructed with native shapes. The
+reasoning is recorded concept by concept in
+[`../module-04-cde-workflows-and-information-states/visual-demonstration-plan.md`](../module-04-cde-workflows-and-information-states/visual-demonstration-plan.md)
+§2, and summarised in [`module-04/README.md`](module-04/README.md) §6.
+
+**Module 4's assembly package is the next step**, and does not exist.
 
 **One prohibition applies to `module-03/` specifically, and it is absolute.**
 **No ISO diagram, table or figure is reproduced, redrawn, adapted or
@@ -127,6 +145,8 @@ Each module holds its own visual register rather than a shared list here.
 |---|---|---|---|
 | Module 1 | [`module-01/visual-register.md`](module-01/visual-register.md) | 14 slide visuals, `SOURCE COMPLETE` | **None** |
 | Module 2 | [`module-02/visual-register.md`](module-02/visual-register.md) | 14 slide visuals — 13 `SOURCE COMPLETE`, 1 `SOURCE PARTIAL` by design | **None** |
+| Module 3 | [`module-03/visual-register.md`](module-03/visual-register.md) | 14 slide visuals, 13 concepts, `SOURCE COMPLETE` | **None** |
+| Module 4 | [`module-04/visual-register.md`](module-04/visual-register.md) | 14 slide visuals, 14 concepts, all `SOURCE COMPLETE` | **None** |
 
 ## 6. Rendering
 
@@ -134,9 +154,14 @@ Each module holds its own visual register rather than a shared list here.
 Graphviz, PlantUML or SVG converter is available in the working environment, and
 none is installed to obtain one.
 
-Mermaid diagram source is held in fenced ```mermaid blocks inside the source
-files, which **render natively on GitHub** — so the diagrams are viewable
-without local tooling.
+Mermaid diagram source is held in fenced ```mermaid blocks inside the Module 1,
+2 and 3 source files, which **render natively on GitHub** — so those diagrams are
+viewable without local tooling.
+
+**Module 4 holds no Mermaid**, and therefore has nothing a renderer could
+consume. That is a design decision, not a gap: a renderer that normalises a
+broken line into a solid one would complete a blocked route the module exists to
+show as blocked. See [`module-04/rendered/README.md`](module-04/rendered/README.md) §2.
 
 If rendering is undertaken later, the rules are in each module's `rendered/`
 README — [Module 1](module-01/rendered/README.md) §3,

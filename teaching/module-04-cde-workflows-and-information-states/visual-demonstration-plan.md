@@ -1,8 +1,15 @@
 # Module 4 — Visual Demonstration Plan
 
-**Status:** Visual specifications for the whole Module 4 presentation. **No
-visual source file and no rendered image asset exists.** Nothing here is a final
-asset, and creating assets is the next increment.
+**Status:** Visual specifications for the whole Module 4 presentation.
+**Fourteen slide-source files exist** in
+[`../../assets/module-04/source/`](../assets/module-04/source/) (T4-E-B).
+**No rendered image asset exists**, and none was attempted.
+
+**Specification and source production are separate completed stages.** **T4-E-A**
+fixed the fourteen specifications below; **T4-E-B** produced the fourteen slide
+sources that implement them. **This plan remains authoritative over both** — where
+a slide source and this plan differ, **the plan is correct and the source file is
+the thing to fix.**
 
 **All fourteen visuals are now specified in full** — `W4`–`W7` (T4-B),
 `W8`–`W11` (T4-C), `W12`–`W14` (T4-D) and **`W1`–`W3` (T4-E-A)**, the Section A
@@ -11,6 +18,12 @@ transition or property had been introduced.
 
 **A specification is authoritative. A rendered or PowerPoint version is
 derivative of the source file, which is itself derivative of the entry here.**
+
+**All fourteen slide sources are `SOURCE COMPLETE`. All fourteen rendered
+statuses are `NONE`.** The register is
+[`../../assets/module-04/visual-register.md`](../assets/module-04/visual-register.md);
+the slide mapping is
+[`../../assets/module-04/slide-visual-map.md`](../assets/module-04/slide-visual-map.md).
 
 **No visual in this module is Mermaid.** Every specified form is a layout
 specification, for the reason given in section 2 and restated in the summary.
@@ -137,6 +150,7 @@ them; their fixed forms and design requirements remain authoritative unchanged.
 | **Blocked element visible?** | No blocked route on this visual. **The three status labels are the mandatory element** — without them the diagram asserts a verified operating architecture |
 | **Live evidence required?** | No |
 | **External imagery** | **No.** A platform screenshot on the bottom band would make configuration the concrete thing and governance the abstraction |
+| **Slide source** | [`M04-S01`](../assets/module-04/source/M04-S01-governance-workflow-platform.md) — **`SOURCE COMPLETE`** (T4-E-B). **Rendered: `NONE`** |
 | **Rendered asset status** | **None exists.** No source file, no SVG, no PNG. Production is T4-E-B |
 
 **The fixed form:**
@@ -301,6 +315,7 @@ PowerPoint version is derivative of that.
 | **Blocked element visible?** | **YES — the three absent code sets**, named on their cards |
 | **Live evidence required?** | No |
 | **External imagery** | **No.** A properties-palette screenshot would assert that software-native fields are the project's schema |
+| **Slide source** | [`M04-S02`](../assets/module-04/source/M04-S02-five-properties.md) — **`SOURCE COMPLETE`** (T4-E-B). **Rendered: `NONE`** |
 | **Rendered asset status** | **None exists.** Production is T4-E-B |
 
 **Form decision — fixed: five equal cards in one row.** At the §3.1 canvas each
@@ -470,6 +485,7 @@ re-open a question this increment closed.
 | **Blocked element visible?** | **YES — mandatory.** The `T4` break, the empty publication authority, and an unreachable third connector |
 | **Live evidence required?** | No |
 | **External imagery** | **No.** Any platform image beside this model asserts the live implementation the warning denies |
+| **Slide source** | [`M04-S03`](../assets/module-04/source/M04-S03-four-state-model.md) — **`SOURCE COMPLETE`** (T4-E-B). **Rendered: `NONE`** |
 | **Rendered asset status** | **None exists.** Production is T4-E-B |
 
 **Format decision: a native layout, not Mermaid.** Mermaid renders a chain, and a
@@ -714,6 +730,7 @@ the argument.
 | **Blocked element visible?** | No — but **no route out is drawn** |
 | **Live evidence required?** | No |
 | **External imagery** | No |
+| **Slide source** | [`M04-S04`](../assets/module-04/source/M04-S04-wip-task-team-boundary.md) — **`SOURCE COMPLETE`** (T4-E-B). **Rendered: `NONE`** |
 
 **The fixed form:**
 
@@ -772,6 +789,7 @@ opposite.
 | **Blocked element visible?** | No |
 | **Live evidence required?** | No |
 | **External imagery** | No |
+| **Slide source** | [`M04-S05`](../assets/module-04/source/M04-S05-shared-defined-purpose.md) — **`SOURCE COMPLETE`** (T4-E-B). **Rendered: `NONE`** |
 
 **The fixed form:**
 
@@ -820,6 +838,7 @@ arrows terminating in labelled purposes read as bounded permission.
 | **Blocked element visible?** | **YES — the authority position is drawn empty, and the output is broken** |
 | **Live evidence required?** | No |
 | **External imagery** | No |
+| **Slide source** | [`M04-S06`](../assets/module-04/source/M04-S06-publication-authority-gate.md) — **`SOURCE COMPLETE`** (T4-E-B). **Rendered: `NONE`** |
 
 **The fixed form:**
 
@@ -887,6 +906,7 @@ rendering.**
 | **Blocked element visible?** | **YES — the method panel is visibly empty** |
 | **Live evidence required?** | No |
 | **External imagery** | No |
+| **Slide source** | [`M04-S07`](../assets/module-04/source/M04-S07-retention-obligation-versus-method.md) — **`SOURCE COMPLETE`** (T4-E-B). **Rendered: `NONE`** |
 
 **The fixed form:**
 
@@ -948,6 +968,7 @@ governance matter, and the panels should look equally consequential.
 | **Blocked element visible?** | No |
 | **Live evidence required?** | No |
 | **External imagery** | No |
+| **Slide source** | [`M04-S08`](../assets/module-04/source/M04-S08-file-movement-versus-transition.md) — **`SOURCE COMPLETE`** (T4-E-B). **Rendered: `NONE`** |
 
 **The fixed content:**
 
@@ -1004,6 +1025,7 @@ panels say *these are two different things*, which is the point.
 | **Blocked element visible?** | **YES** — `T4` blocked, `T7` unresolved |
 | **Live evidence required?** | No |
 | **External imagery** | No |
+| **Slide source** | [`M04-S09`](../assets/module-04/source/M04-S09-eight-controlled-steps.md) — **`SOURCE COMPLETE`** (T4-E-B). **Rendered: `NONE`** |
 
 **Format decision — absolute: a table, and never Mermaid.**
 
@@ -1076,6 +1098,7 @@ let the identifiers sit inside them.**
 | **Blocked element visible?** | The **`T4` contrast** is worth one line |
 | **Live evidence required?** | No |
 | **External imagery** | No |
+| **Slide source** | [`M04-S10`](../assets/module-04/source/M04-S10-t1-gate-model.md) — **`SOURCE COMPLETE`** (T4-E-B). **Rendered: `NONE`** |
 
 **The fixed form:**
 
@@ -1134,6 +1157,7 @@ like one — `S1` §7.7: *"no numeric quality thresholds are set."*
 | **Blocked element visible?** | **YES — the visual is two blocks** |
 | **Live evidence required?** | No |
 | **External imagery** | No |
+| **Slide source** | [`M04-S11`](../assets/module-04/source/M04-S11-t4-and-trn-e03.md) — **`SOURCE COMPLETE`** (T4-E-B). **Rendered: `NONE`** |
 
 **The fixed form:**
 
@@ -1196,6 +1220,7 @@ should say so.
 | **Blocked element visible?** | **YES — four empty boxes, shown and unfilled** |
 | **Live evidence required?** | No |
 | **External imagery** | No |
+| **Slide source** | [`M04-S12`](../assets/module-04/source/M04-S12-property-stack.md) — **`SOURCE COMPLETE`** (T4-E-B). **Rendered: `NONE`** |
 
 **The fixed form:**
 
@@ -1272,6 +1297,7 @@ area to the property list.**
 | **Blocked element visible?** | **YES — the refused reverse arrow, and `Holder: TBD`** |
 | **Live evidence required?** | No |
 | **External imagery** | **No.** A permissions screenshot would prove the opposite point |
+| **Slide source** | [`M04-S13`](../assets/module-04/source/M04-S13-governance-then-configuration.md) — **`SOURCE COMPLETE`** (T4-E-B). **Rendered: `NONE`** |
 
 **The fixed form:**
 
@@ -1341,6 +1367,7 @@ the reverse arrow the visual exists to refuse.
 | **Blocked element visible?** | **YES — the two authority questions stay unanswered, and the end state stays open** |
 | **Live evidence required?** | No |
 | **External imagery** | No |
+| **Slide source** | [`M04-S14`](../assets/module-04/source/M04-S14-triviron-questions.md) — **`SOURCE COMPLETE`** (T4-E-B). **Rendered: `NONE`** |
 
 **The fixed form:**
 
@@ -1438,10 +1465,13 @@ element.**
 incomplete-element visuals. Both were undercounts against the table above, and
 the table is the authority.)*
 
-**All fourteen are native layout specifications.** **No source file and no
-rendered asset exists** — not for `W1`–`W3`, and not for any of the eleven
-specified before them. **Visual-source production is the next increment**, and
-the specification remains authoritative over anything it produces.
+**All fourteen are native layout specifications.** **All fourteen slide-source
+files now exist** — `M04-S01`–`M04-S14`, produced in T4-E-B, one per slide, each
+`SOURCE COMPLETE`. **No rendered asset exists for any of them**, and none was
+attempted.
+
+**The presentation assembly package is the next increment**, and the
+specifications here remain authoritative over anything it produces.
 
 **Eight visuals carry the highest completion risk** — a mandatory empty, blocked
 or refused element that a producer is most likely to "fix":

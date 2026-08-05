@@ -136,19 +136,25 @@ a CDE actually controls — states, transitions, the properties that support the
 and **why being able to move a file is not authority to change its state**. See
 [`module-04-cde-workflows-and-information-states/README.md`](module-04-cde-workflows-and-information-states/README.md).
 
-**Established (T4-A to T4-E-A):** module structure; a **source inventory**
+**Established (T4-A to T4-E-B):** module structure; a **source inventory**
 recording the exact path of every CDE-relevant controlled source and its
 precedence; the 20-minute fourteen-slide architecture; **the complete Slides 1–14
 teaching-content baseline** (T4-D); **seven registers** — source authority,
 state, property, configuration-decision, terminology, transitions and a
 module-wide unresolved register; **244 classified statements**; **99 prohibited
 claims**; **71 exercises**; a **module-wide final reconciliation**; and **visual
-specifications `W1`–`W14` — all fourteen** (T4-E-A).
+specifications `W1`–`W14` — all fourteen** (T4-E-A); and the **visual-source
+baseline `M04-S01`–`M04-S14`** (T4-E-B).
 
-**Specification and production are separate increments.** T4-E-A completed the
-fourteen visual *specifications*; **T4-E-B produces the visual source set** in
-`teaching/assets/module-04/`, which does not yet exist. **No source file and no
-rendered asset exists for any Module 4 visual.**
+**Specification and source production are separate completed stages.** **T4-E-A**
+completed the fourteen visual *specifications*; **T4-E-B** produced the fourteen
+*slide sources* in
+[`assets/module-04/`](assets/module-04/) — `M04-S01`–`M04-S14`, one per slide,
+all **`SOURCE COMPLETE`**. **No rendered asset exists for any Module 4 visual**,
+and none was attempted: every Module 4 visual is a **native-layout
+specification**, and **the module contains no Mermaid at all.**
+
+**The presentation assembly package — T4-F — is next**, and does not exist.
 
 **Module 4 returns to repository-only evidence.** Unlike Module 3, every
 statement traces to a controlled Harrismith document. **But it introduces a new
@@ -168,9 +174,9 @@ Four positions are fixed for the module:
 - **A missing verification is not a failure claim** — *absence of observation is
   not observation of absence*.
 
-**Outstanding:** the visual source set (**T4-E-B**), then the assembly package,
-then PowerPoint production, then review, then rehearsal. **No timing has been
-measured** — for this or any module.
+**Outstanding:** the presentation assembly package (**T4-F**), then PowerPoint
+production, then review, then rehearsal. **No timing has been measured** — for
+this or any module.
 
 ### Modules 5–8 — future scope
 
@@ -257,12 +263,13 @@ of governance under condition. Describing it neither advances nor reopens it.
 | Module 4 slides developed | **Slides 1–14.** None outstanding |
 | Module 4 content baseline | **COMPLETE (T4-D)** |
 | Module 4 visual specifications | **COMPLETE (T4-E-A)** — `W1`–`W14`, all fourteen |
-| Module 4 established (T4-A to T4-E-A) | Structure · **source inventory with exact paths and precedence** · **seven registers** · 20-minute fourteen-slide architecture · **Slides 1–14** · **244 classified statements** · **99 prohibited claims** · **71 exercises** · **module-wide final reconciliation** · visual specifications **`W1`–`W14`, all fourteen** |
+| Module 4 visual source | **COMPLETE (T4-E-B)** — `M04-S01`–`M04-S14`, all **`SOURCE COMPLETE`**; **rendered `NONE`** |
+| Module 4 established (T4-A to T4-E-B) | Structure · **source inventory with exact paths and precedence** · **seven registers** · 20-minute fourteen-slide architecture · **Slides 1–14** · **244 classified statements** · **99 prohibited claims** · **71 exercises** · **module-wide final reconciliation** · visual specifications **`W1`–`W14`** · **visual sources `M04-S01`–`M04-S14`** |
 | Module 4 source basis | **Controlled Harrismith documents only.** No external source is required |
 | Module 4 governance position | The CDE workflow is **`PROPOSED GOVERNANCE`** and **does not describe the live platform**. **`Shared → Published` is blocked** — no available authorising function. **No `04 Archive` exists or is required.** **No naming, revision, suitability or metadata standard exists** |
-| Module 4 visual source | **None.** `teaching/assets/module-04/` does not exist — **T4-E-B** creates it |
-| Module 4 assembly package | **None** |
-| Module 4 outstanding | **Visual source set (T4-E-B)**, assembly package, PowerPoint, review, rehearsal |
+| Module 4 visual-source location | [`assets/module-04/`](assets/module-04/) — README, visual register, slide-visual map, fourteen sources, and a `rendered/` directory recording that **nothing has been rendered** |
+| Module 4 assembly package | **None — T4-F, the next increment** |
+| Module 4 outstanding | **Assembly package (T4-F)**, PowerPoint, review, rehearsal |
 | Module 3 | Content baseline, visual source and assembly package **produced**; PowerPoint assembled **outside this repository** |
 | Module 3 outstanding | **Presentation review and rehearsal — DEFERRED**, not complete, until the presenter chooses to perform them |
 | Module 2 | Content baseline, visual source and assembly package **produced**; PowerPoint assembled **outside this repository** |
