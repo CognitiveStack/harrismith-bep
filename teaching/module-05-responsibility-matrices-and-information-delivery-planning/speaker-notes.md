@@ -2,8 +2,9 @@
 
 **Status:** Presenter notes for teaching material. **Not governance.**
 
-**Notes exist for Slides 1–8** — Slides 1–3 written in T5-A, Slides 4–5 in T5-B,
-Slides 6–8 in T5-C. **Slides 9–14 are architecture and have no notes.**
+**Notes exist for Slides 1–12** — Slides 1–3 written in T5-A, Slides 4–5 in
+T5-B, Slides 6–8 in T5-C, Slides 9–12 in T5-D. **Slides 13–14 are architecture
+and have no notes.**
 
 Statement IDs refer to [`source-map.md`](source-map.md) §5. Source identifiers
 `S1`–`S15` are defined in [`source-inventory.md`](source-inventory.md).
@@ -843,12 +844,436 @@ Then go to Slide 9.
 
 ---
 
+## Slide 9 — The Information Delivery Schedule — sixteen fields
+
+**Allocated: 1.5 min.** The third resource, and the start of Section D.
+
+### Opening sentence
+
+> *"Third resource, third question. Not who performs, not who produces — but what
+> actually gets exchanged, at which event, to whom, and under what conditions."*
+
+### Conceptual explanation
+
+The schedule is the **planning instrument**. Sixteen fields, approved by the BEP
+at §10.13, and the schedule populates them.
+
+Do not read sixteen field names aloud — you will lose the room. **Read the six
+groups**, and say clearly that the grouping is yours, not the schedule's:
+
+> *"I have grouped these for teaching. The schedule lists sixteen fields flat.
+> But they answer six questions: what is this and which event · who originates it
+> · who receives it and why · in what form and for what use · what checks and
+> decisions are required · and what state the entry itself is in."*
+
+That last group is where the trouble is.
+
+### Harrismith worked example
+
+Take four fields the audience will misread, and say what each actually records:
+
+> *"`Status` is the status of the schedule entry — whether the row is proposed,
+> conditional or blocked. It is not the information state, and it is certainly
+> not proof that a delivery happened."*
+
+> *"`State / Suitability` is the information state and what the information may
+> be used for. That is a different field answering a different question."*
+
+> *"`Acceptance Criteria` sets process criteria for receipt. It does not say who
+> is allowed to accept. That authority is unresolved, and the field does not
+> resolve it."*
+
+> *"`Delivery ID` — `TRN-E01-ARC` and the rest — is an internal reference for this
+> exercise. It is not a document number. No Naming Standard exists on this
+> project."*
+
+Add the two quick ones: **`Lead` is a role, never a person** — every populated
+Lead reads *Task-Team Lead, TBD*. **`Recipient` establishes no appointing party.**
+
+### Critical distinction
+
+**A row is a plan. It is not a record.**
+
+> *"Every entry here is proposed governance and training delivery planning. The
+> schedule says so itself, and it lists what it is not evidence of: real client
+> requirements, contractual milestones, actual appointments, programme dates.
+> Writing a row does not make an exchange happen, and it does not mean anyone
+> received or accepted anything."*
+
+### Governance-status qualification
+
+Two sentences, and do not soften them:
+
+> *"No real delivery dates or client milestones have been established. Every
+> timing entry reads event-triggered or TBD."*
+
+> *"And no formal information requirements exist for this project — no EIR, no
+> AIR, nothing equivalent. The schedule says plainly that none are invented here,
+> and that if real requirements ever appear, they take precedence over everything
+> developed in their absence."*
+
+### Likely audience misunderstanding
+
+**"So this is the delivery programme."** No. It is a training planning
+instrument, explicitly not a contractual programme, with no dates in it.
+
+**"`Status` tells me where the information is."** No — that is
+`State / Suitability`. `Status` describes the row.
+
+**"We could add the dates later."** Only if real requirements establish them.
+Inventing them here is precisely what the schedule's population rule forbids.
+
+### Prohibited inference
+
+- That any entry is a client requirement, a milestone, an appointment or a
+  programme date.
+- That a row proves an exchange occurred, was received, or was accepted.
+- **Renaming, merging or dropping any of the sixteen controlled field names** —
+  and never present my six groups as the schedule's structure.
+- Inventing a date, a frequency, a format or a deliverable.
+
+### Transition to Slide 10
+
+> *"Sixteen fields, and one of them is `Exchange / Milestone` — the event the row
+> belongs to. Harrismith defines three events, and no two of them are in the same
+> condition."*
+
+### Recovery line if time is short
+
+> *"Sixteen approved fields covering what, who, to whom, why, in what form and
+> under what control. It is a plan, not a record — and there are no dates in it."*
+
+Then go to Slide 10.
+
+---
+
+## Slide 10 — Three delivery events — proposed, conditional, blocked
+
+**Allocated: 1.5 min.** Three concepts, three conditions.
+
+### Opening sentence
+
+> *"Three events. And the useful thing is that no two of them are in the same
+> state of readiness — which turns out to teach the vocabulary better than any
+> definition would."*
+
+### Conceptual explanation
+
+Take them in order, and give each its status **before** its content.
+
+**`TRN-E01` — `PROPOSED`.** The design coordination share. Information reaches
+**Shared**, suitability **coordination use only**. Six discipline rows.
+
+> *"Six rows, and the schedule is careful about this: six separate exchanges,
+> each from its own originating task team. Not one jointly-owned model."*
+
+Authorisation is Task-Team Lead authorisation to share — the one authority in
+this module the BEP actually establishes. Format is `TBD`; nothing is mandated.
+
+**`TRN-E02` — `PROPOSED`, conditional.** The reshare after a coordination
+finding. Repeatable, and deliberately given **no calendar frequency**.
+
+**`TRN-E03` — `PROPOSED — BLOCKED PENDING GOVERNANCE DECISIONS`.** The
+project-facing exchange. Name it, say it cannot proceed, and **stop** — Slide 12
+is two minutes away.
+
+### Harrismith worked example
+
+`TRN-E02` is the one worth working, because it is the one that misleads:
+
+> *"There are six `TRN-E02` rows, one per discipline. They are template rows, not
+> active deliveries. A row activates only when its own container actually needs
+> controlled rework and reshare. Mechanical needs a correction — `TRN-E02-MEC`
+> activates. Fire does not — `TRN-E02-FIR` stays exactly where it is."*
+
+Then the sentence that prevents the misreading:
+
+> *"An unactivated row is not a pending exchange. It carries no expectation that
+> the task team will produce anything. A cycle may activate one container,
+> several, or none at all."*
+
+### Critical distinction
+
+Put the three statuses side by side, because the words are doing real work:
+
+> *"`PROPOSED` means planned governance — not an executed exchange, and not
+> approval to execute. `CONDITIONAL` means it activates only when its trigger
+> occurs. `BLOCKED` means it cannot proceed while required governance or inputs
+> are unresolved."*
+
+And then the one that matters most:
+
+> *"Blocked is not overdue. Blocked is not rejected. Blocked is not an unfinished
+> row somebody forgot. The schedule's own words: an entry that cannot proceed is
+> recorded as blocked."*
+
+### Governance-status qualification
+
+> *"All three are proposed governance. None of them is evidence that any exchange
+> has taken place, and `TRN-E03` is explicitly not evidence of a real project
+> milestone. There are no calendar dates, no frequencies and no contractual
+> milestones for any of the three."*
+
+### Likely audience misunderstanding
+
+**"So there are six reshares outstanding."** No — six template rows, none
+necessarily active.
+
+**"`PROPOSED` means it is signed off and ready to run."** No. Proposed
+governance is a plan, not an authorisation to execute.
+
+**"Blocked means somebody is late."** No. Blocked means a required decision does
+not exist yet. Nobody is late for a decision that has not been assigned.
+
+### Prohibited inference
+
+- That all six `TRN-E02` rows activate in every cycle, or that any unactivated
+  row is pending.
+- That the three events run in sequence — **they are three concepts, not three
+  stages**.
+- Any calendar date, frequency or timeline.
+- **Explaining the five `TRN-E03` blockers here** — Slide 12 owns them.
+
+### Transition to Slide 11
+
+> *"Each of those events moves information, or would. But moving information and
+> changing its state are not the same act — and confusing them is how a
+> coordination share gets mistaken for a publication."*
+
+### Recovery line if time is short
+
+> *"Three events: a coordination share that is proposed, a reshare that is
+> conditional per affected container, and a project-facing exchange that is
+> blocked. Blocked is not overdue — it means a decision does not exist yet."*
+
+Then go to Slide 11.
+
+---
+
+## Slide 11 — A delivery event is not an information-state transition
+
+**Allocated: 1.5 min.** The precision slide, and the one that protects Slide 12.
+
+### Opening sentence
+
+> *"An event can use a transition without being that transition. That sounds
+> pedantic until you watch someone conclude that a coordination share published
+> something."*
+
+### Conceptual explanation
+
+Four dimensions, and they are genuinely different objects:
+
+> *"Information state — where the information sits and what may be done with it.
+> Workflow event — something that happened. Recipient action — what the receiving
+> team chose to do. Decision status — what was decided about it, for a stated
+> purpose."*
+
+Then the count that anchors everything:
+
+> *"There are eight controlled steps. Only two of them change the information
+> state: `T1`, work in progress to Shared, and `T4`, Shared to Published. The
+> other six are actions, uses, events, statuses or rework — and every one of them
+> leaves the state exactly where it was."*
+
+### Harrismith worked example
+
+Map the three events, out loud, with the answer each time:
+
+> *"`TRN-E01` uses `T1` and then `T3`. Is it `T1`? No — it requires the `T1`
+> route. `TRN-E02` uses `T8` to get back to WIP, then `T1` and `T3` again. Is it
+> `T8`? No. `TRN-E03` depends on `T4`. Is it `T4`? No — and that distinction is
+> the whole of the next slide."*
+
+The `TRN-E02` route is worth saying in full, because it shows where correction
+happens:
+
+> *"Coordination finding, back to the originating task team's own WIP,
+> correction, check, authorise share, Shared, re-coordinate, verify. The
+> originating team fixes its own information, in its own environment, through its
+> own checking route. The shared instance is never edited in place."*
+
+### Critical distinction
+
+This is the one people invent:
+
+> *"`T5` records a delivery. `T6` records a receipt. `T7` records an acceptance
+> or a rejection. Look at what the state does in all three: nothing. It stays
+> Published slash Authorised. So Delivered, Received and Accepted are not
+> information states — they are events and statuses recorded against a state."*
+
+Then the four objects, verbatim from the BEP:
+
+> *"Published — authorised for a defined purpose. Delivered — sent to an
+> identified recipient. Received — arrived and registered. Accepted —
+> acknowledged as suitable for the stated purpose. Four objects. None of them
+> implies the next."*
+
+### Governance-status qualification
+
+> *"And none of this has happened. `T4` has no available authorising function,
+> so information remains Shared. Everything from `T5` onward is a description of
+> a route nobody can currently enter."*
+
+### Likely audience misunderstanding
+
+**"So `TRN-E01` is `T1` with a different name."** No. The event is a planning
+concept in the schedule; `T1` is a controlled transition in the workflow
+strategy. The event **requires** the transition.
+
+**"Once it is delivered, it is in the Delivered state."** No. There is no
+Delivered state. The state stays Published / Authorised; delivery is an event
+recorded against it.
+
+**"So the three events are the workflow."** No — they are three concepts, and
+nothing requires them to run in that order or at all.
+
+### Prohibited inference
+
+- Identifying any event with any transition.
+- Showing `T1`–`T8` as eight sequential state transitions.
+- Showing a Delivered, Received or Accepted **state**.
+- Implying anything has been published, delivered, received or accepted.
+- Teaching issue triage, coordination resolution or verification — **Module 6**.
+
+### Transition to Slide 12
+
+> *"So `TRN-E03` depends on `T4`, and `T4` cannot happen. The interesting part is
+> why — because it is not one missing signature."*
+
+### Recovery line if time is short
+
+> *"Only `T1` and `T4` change the information state. Every event uses a
+> transition; no event is one. And Delivered, Received and Accepted are not
+> states — they are events and statuses recorded against one."*
+
+Then go to Slide 12.
+
+---
+
+## Slide 12 — Why `TRN-E03` is blocked — five matters, not one
+
+**Allocated: 1.5 min.** The module's honesty slide. **Do not cut it.**
+
+### Opening sentence
+
+> *"This is the slide where governance works by stopping. And it is worth
+> looking at carefully, because the block is not one thing."*
+
+### Conceptual explanation
+
+Read the five, each with its recorded status. **Read the status words** — they
+are the content:
+
+> *"Publication or exchange authorisation authority — unresolved, TBD. Recipient
+> acceptance authority — unresolved, TBD, recipient-dependent. Recipient identity
+> — not established. Required formats — not established, no approved standard.
+> Deliverable set — not defined."*
+
+### Critical distinction
+
+**They are independent.** This is the point most easily lost:
+
+> *"Suppose somebody appoints a publication authority tomorrow. What have you
+> got? You still have no recipient, no formats, no deliverable set, and nobody
+> with authority to accept. Resolving one of these releases none of the others.
+> It is five separate decisions, not one signature."*
+
+### Harrismith worked example
+
+Point at what the schedule chose to do:
+
+> *"The schedule could have made this row look finished. Pick a plausible
+> authority, name a likely recipient, put PDF in the format field, and the row
+> reads complete. Instead it says this — and I want to read it exactly:
+> 'Assigning a plausible authority to make the row look finished would
+> manufacture governance that does not exist.'"*
+
+Then the observation that transfers:
+
+> *"And notice: not one of those five is a blank box. Every one carries a written
+> status. Unresolved, TBD. Not established. Not defined. The schedule records the
+> gap rather than concealing it — and that is a habit worth stealing."*
+
+### Governance-status qualification
+
+> *"Published or Authorised requires two things: a completed delivery review, and
+> valid publication authorisation. Neither can currently be met. So `T4` cannot
+> proceed and information remains Shared. No delivery, receipt or acceptance
+> event has been demonstrated anywhere on this project."*
+
+And the format point, briefly:
+
+> *"Revit, IFC, PDF and NWC appear in observed project context. An observed
+> format is not an approved delivery requirement. Nothing here mandates a
+> format."*
+
+### If someone raises the publication approval
+
+They may — it is in the register, and it looks decisive. **Separate the two
+senses immediately:**
+
+> *"That is the Training Baseline publication arrangement, and its scope is the
+> Harrismith documentation set. It does not establish project publication or
+> exchange authority, it does not unblock `T4`, and it does not release
+> `TRN-E03`. The approval decision says so in terms."*
+
+### If someone has read the CDE strategy
+
+They may count six blockers rather than five. **Say so plainly:**
+
+> *"Good catch. The delivery schedule lists five; the CDE workflow strategy lists
+> six — it adds delivery purpose, and it merges acceptance authority with
+> acceptance criteria. Both record the event as blocked. Neither list has been
+> corrected to match the other, and we teach the schedule's five because the
+> schedule owns the event."*
+
+### Likely audience misunderstanding
+
+**"So we just need someone to sign it off."** No — that resolves one of five.
+
+**"The row is incomplete."** The row is **complete as a record**. It completely
+records that the event cannot proceed and exactly why.
+
+**"This is a failure of the project."** No. A route that cannot legitimately
+proceed should visibly halt rather than borrow an authority nobody granted.
+
+### Prohibited inference
+
+- **Populating, resolving or narrowing any of the five.**
+- Showing any blocker as blank or empty — **each carries its typed status**.
+- Claiming publication authority, acceptance authority, the recipient, the
+  formats or the deliverable set is established.
+- Claiming `T4` is unblocked or that information has moved beyond Shared.
+- Offering any training-baseline publication record as a resolution.
+- **Teaching the delivery-review procedure, approval or acceptance workflow,
+  assurance sampling, technical review, issue closure or certification.** You may
+  say that a delivery review, a publication decision and an acceptance function
+  would each be required — then stop. **Module 6.**
+
+### Transition to Slide 13
+
+> *"Five gates, five different words for 'we do not know yet' — and not one of
+> them left blank. That habit is worth a slide of its own, because it is the
+> single most transferable thing in this module."*
+
+### Recovery line if time is short
+
+> *"`TRN-E03` is blocked on five independent matters: publication authority,
+> acceptance authority, recipient, formats, deliverable set. Resolving one
+> releases none of the others — and every one of them is written down rather than
+> left blank."*
+
+Then go to Slide 13.
+
+---
+
 ## Status
 
 | Field | Value |
 |---|---|
-| Increment | **T5-C** |
-| Notes developed | **Slides 1–8** — Slides 1–3 (T5-A), Slides 4–5 (T5-B), Slides 6–8 (T5-C) |
-| Slides 9–14 | **No notes** — architecture only |
+| Increment | **T5-D** |
+| Notes developed | **Slides 1–12** — Slides 1–3 (T5-A), Slides 4–5 (T5-B), Slides 6–8 (T5-C), Slides 9–12 (T5-D) |
+| Slides 13–14 | **No notes** — architecture only |
 | Timing | **`20.0 minutes allocated — not measured`** |
-| Outstanding | **T5-D** — Slides 9–12 — and later increments |
+| Outstanding | **T5-E** — Slides 13–14 and the content baseline — and later increments |

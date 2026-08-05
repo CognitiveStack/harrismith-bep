@@ -2,12 +2,12 @@
 
 **Status:** Traceability record for teaching material. **Not governance.**
 
-Statement-level classification for **Slides 1–8** — the slides developed in
-increments **T5-A** (1–3), **T5-B** (4–5) and **T5-C** (6–8) — plus the
-terminology register, the hypothesis register, the unresolved register, the
-prohibited claims and the Module 6 deferrals.
+Statement-level classification for **Slides 1–12** — the slides developed in
+increments **T5-A** (1–3), **T5-B** (4–5), **T5-C** (6–8) and **T5-D** (9–12) —
+plus the terminology register, the hypothesis register, the unresolved register,
+the prohibited claims and the Module 6 deferrals.
 
-**Slides 9–14 exist as architecture only.** They carry no classified statements
+**Slides 13–14 exist as architecture only.** They carry no classified statements
 and no developed content. See
 [`presentation-outline.md`](presentation-outline.md) §3.
 
@@ -100,10 +100,10 @@ never `SYNTH`** — see §5.1.
 
 ---
 
-## 5. Statement classification — Slides 1–8
+## 5. Statement classification — Slides 1–12
 
-**141 statements. 44 `CONTROLLED`, 51 `SUPPORTING`, 8 `DECISION-RECORD`,
-2 `MODULE-2-4`, 1 `TEACHING-PLAN`, 22 `INTERP`, 0 `SYNTH`, 13 `EXCLUDED`.**
+**225 statements. 50 `CONTROLLED`, 109 `SUPPORTING`, 10 `DECISION-RECORD`,
+3 `MODULE-2-4`, 1 `TEACHING-PLAN`, 32 `INTERP`, 0 `SYNTH`, 20 `EXCLUDED`.**
 
 | Slide | Statements | `CTRL` | `SUPP` | `DEC` | `M2-4` | `PLAN` | `INT` | `SYN` | `EXC` |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
@@ -112,14 +112,18 @@ never `SYNTH`** — see §5.1.
 | 3 | 16 | 2 | 7 | 0 | 0 | 0 | 4 | 0 | 3 |
 | 4 | 19 | 5 | 10 | 0 | 0 | 0 | 2 | 0 | 2 |
 | 5 | 22 | 7 | 12 | 1 | 0 | 0 | 0 | 0 | 2 |
-| **6** | **20** | **14** | **3** | **0** | **0** | **0** | **2** | **0** | **1** |
-| **7** | **20** | **2** | **8** | **0** | **0** | **0** | **8** | **0** | **2** |
-| **8** | **17** | **8** | **5** | **0** | **0** | **0** | **3** | **0** | **1** |
-| **Total** | **141** | **44** | **51** | **8** | **2** | **1** | **22** | **0** | **13** |
+| 6 | 20 | 14 | 3 | 0 | 0 | 0 | 2 | 0 | 1 |
+| 7 | 20 | 2 | 8 | 0 | 0 | 0 | 8 | 0 | 2 |
+| 8 | 17 | 8 | 5 | 0 | 0 | 0 | 3 | 0 | 1 |
+| **9** | **22** | **4** | **15** | **0** | **0** | **0** | **2** | **0** | **1** |
+| **10** | **20** | **0** | **17** | **0** | **0** | **0** | **1** | **0** | **2** |
+| **11** | **22** | **1** | **14** | **0** | **1** | **0** | **4** | **0** | **2** |
+| **12** | **20** | **1** | **12** | **2** | **0** | **0** | **3** | **0** | **2** |
+| **Total** | **225** | **50** | **109** | **10** | **3** | **1** | **32** | **0** | **20** |
 
-**Slides 9–14 are architecture only** and carry no classified statements.
+**Slides 13–14 are architecture only** and carry no classified statements.
 
-**Six observations.**
+**Eight observations.**
 
 **Slide 3 is the most heavily `SUPPORTING` material in the programme so far.**
 Seven of its sixteen statements come from `S2`, `S3` and `S4` directly, because
@@ -145,10 +149,21 @@ act of interpretation: no source describes the matrix as a grid of 297 cells, or
 counts how often each value appears. **The census in `M5-S7-03` and `M5-S7-04`
 was produced by inspection and is labelled as such.**
 
+**Slide 10 is the only slide in the module with no `CONTROLLED` statement.** All
+three delivery-event concepts are `S4`'s own construction — the BEP creates no
+events and names none. **Seventeen of its twenty statements come from `S4`
+directly**, which is the correct profile for a slide whose entire subject is a
+supporting resource's proposal.
+
+**Section D carries the module's evidence load.** Slides 9–12 hold **84 of the
+225 statements**, and Slide 12 alone carries **two of the ten
+`DECISION-RECORD`** statements — because the `TRN-E03` block rests on `AD-001`'s
+explicit non-effects and on `S9`'s observation that the event remains blocked.
+
 **No `SYNTH` statement exists anywhere in the module.** Every statement across
-the eight developed slides either cites a source or is expressly `EXCLUDED` —
-see §5.1. **This was not engineered:** each T5-C statement was classified on its
-own evidence, and none required unsupported presenter framing.
+the twelve developed slides either cites a source or is expressly `EXCLUDED` —
+see §5.1. **This was not engineered:** each T5-C and T5-D statement was
+classified on its own evidence, and none required unsupported presenter framing.
 
 ### 5.1 Classification reconciliation — recorded in T5-B
 
@@ -429,6 +444,134 @@ tipping into criticism. **The sources permit role combination and record no
 non-conformance.** Slide 8 explains a limitation on what the evidence proves — it
 does not allege a failing.
 
+### Slide 9 — The Information Delivery Schedule — sixteen fields
+
+| ID | Statement | Source path | Section | Auth | Governance | Implementation | Class |
+|---|---|---|---|---|---|---|---|
+| `M5-S9-01` | The schedule *"records what information is exchanged, at what event, to whom, why, in what form, and under what checking, authorisation and acceptance conditions"* | `supporting/information-delivery-schedule.md` | §Purpose | 2 | **`PROPOSED GOVERNANCE`** | — | **`SUPPORTING`** |
+| `M5-S9-02` | It is *"a **controlled training delivery-planning instrument**. It is **not a contractual programme**"* | `supporting/information-delivery-schedule.md` | §Purpose | 2 | **`PROPOSED GOVERNANCE`** | — | **`SUPPORTING`** |
+| `M5-S9-03` | **The sixteen fields are approved by the BEP** — the schedule *"will include fields equivalent to"* the list at `S1` §10.13 | `bep/…BEP.md` | §10.13 | 1 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M5-S9-04` | **All sixteen field definitions, verbatim** — Delivery ID · Exchange / Milestone · Information Container · Originating Party · Task Team · Discipline · Lead · Recipient · Purpose · Format · State / Suitability · Checking Requirement · Authorisation Requirement · Acceptance Criteria · Status · Dependencies | `supporting/information-delivery-schedule.md` | §1 | 2 | **`PROPOSED GOVERNANCE`** | — | **`SUPPORTING`** |
+| `M5-S9-05` | **Teaching grouping** — the sixteen fields grouped by the question each answers: identity and event · origin and responsibility · recipient and purpose · form and permitted use · checks and decisions · status and dependencies | none — **teaching grouping only**; `S4` §1 presents one flat list | — | 4 | — | — | **`INTERP`** |
+| `M5-S9-06` | **`Delivery ID`** — *"Identifier for a scheduled container row"*. *"`TRN-E01-ARC` and similar are internal references for this exercise. They are **not** contractual document numbers and carry no project numbering convention — **no Naming Standard exists**"* | `supporting/information-delivery-schedule.md` §1; `bep/…BEP.md` §11.3 | — | 2, 1 | **`UNRESOLVED`** | — | **`SUPPORTING`** |
+| `M5-S9-07` | **`Exchange / Milestone`** — *"The event the row belongs to"*. An **event concept**, not necessarily a contractual milestone | `supporting/information-delivery-schedule.md` | §1, §2 | 2 | **`PROPOSED GOVERNANCE`** | — | **`SUPPORTING`** |
+| `M5-S9-08` | **`Status`** — *"**Status of the schedule entry itself**"*. **Not the information state, and not proof that a delivery completed** | `supporting/information-delivery-schedule.md` | §1, §What these entries are not | 2 | **`PROPOSED GOVERNANCE`** | — | **`SUPPORTING`** |
+| `M5-S9-09` | **`State / Suitability`** — *"CDE state and what the information may be used for"* | `supporting/information-delivery-schedule.md` §1; `bep/…BEP.md` §6.8 | — | 2, 1 | **`CONTROLLED GOVERNANCE`** | — | **`SUPPORTING`** |
+| `M5-S9-10` | **`Format`** — *"Delivery format"*. A requirement field whose value **may remain `TBD`**; *"No format is mandated"* | `supporting/information-delivery-schedule.md` | §1, §3.2 | 2 | **`UNRESOLVED`** | — | **`SUPPORTING`** |
+| `M5-S9-11` | **`Acceptance Criteria`** — *"Process-level criteria for receipt"*. **It does not establish who holds acceptance authority**, which remains `UNRESOLVED — TBD` | `supporting/information-delivery-schedule.md` | §1, §6, §7 | 2 | **`UNRESOLVED`** | — | **`SUPPORTING`** |
+| `M5-S9-12` | **`Lead`** — *"Role leading the exchange for that container"*. Every populated `Lead` reads **Task-Team Lead (`TBD`)** — a role, **not a named person** | `supporting/information-delivery-schedule.md` | §1, §3.1, §4.3 | 2 | **`UNRESOLVED`** | — | **`SUPPORTING`** |
+| `M5-S9-13` | **`Recipient`** — *"Who receives it"*. **It does not establish an appointing party**; no appointing party has been established | `supporting/information-delivery-schedule.md` §1; `bep/…BEP.md` §2.3, §5.3 | — | 2, 1 | **`UNRESOLVED`** | — | **`SUPPORTING`** |
+| `M5-S9-14` | **All entries are classified `PROPOSED GOVERNANCE` / training delivery planning.** They are *"**not** contractual milestones and **not** client information requirements"* | `supporting/information-delivery-schedule.md` | §Classification | 2 | **`PROPOSED GOVERNANCE`** | — | **`SUPPORTING`** |
+| `M5-S9-15` | The entries are *"**not evidence** of"* — real client information requirements · contractual delivery milestones · actual consultant appointments · construction programme dates | `supporting/information-delivery-schedule.md` | §What these entries are not | 2 | **`PROPOSED GOVERNANCE`** | — | **`SUPPORTING`** |
+| `M5-S9-16` | *"**No real delivery dates or client milestones have been established.**"* Timing is **event-triggered or `TBD`** | `supporting/information-delivery-schedule.md` | §Population rule, §2, §7 | 2 | **`UNRESOLVED`** | — | **`SUPPORTING`** |
+| `M5-S9-17` | **No formal information requirements are available** to this implementation — no EIR, AIR or equivalent. *"**None are invented here.**"* | `bep/…BEP.md` §7.3, §10.2; `supporting/information-delivery-schedule.md` §What these entries are not | — | 1, 2 | **`UNRESOLVED`** | — | **`CONTROLLED`** |
+| `M5-S9-18` | **Precedence** — *"Should real project information requirements later become available, **they take precedence** over anything developed in their absence"* | `bep/…BEP.md` §1.5; `supporting/information-delivery-schedule.md` §Precedence | — | 1 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M5-S9-19` | *"This BEP does **not** define the project's final deliverable list"* | `bep/…BEP.md` | §10.4 | 1 | **`UNRESOLVED`** | — | **`CONTROLLED`** |
+| `M5-S9-20` | **Container discipline** — *"Every scheduled discipline container references an existing container ref from `model-information-responsibility-matrix.md`. **No container is scheduled that does not exist in that matrix**"* | `supporting/information-delivery-schedule.md` | §Container discipline | 2 | **`PROPOSED GOVERNANCE`** | — | **`SUPPORTING`** |
+| `M5-S9-21` | **A schedule row is a planning entry, not a transaction record.** It does not prove an exchange occurred, that a recipient received anything, or that anything was accepted | `supporting/information-delivery-schedule.md` §Classification, §What these entries are not; `S9` §7 | — | 4 | **`PROPOSED GOVERNANCE`** | **`NOT DEMONSTRATED`** | **`INTERP`** |
+| `M5-S9-22` | The three delivery events, their statuses, and the `TRN-E03` block | — | — | — | — | — | **`EXCLUDED`** — **Slides 10–12 own them** |
+
+**Teaching warning — `M5-S9-05`.** The grouping is a **teaching device**, not
+schedule structure. `S4` §1 presents one flat list of sixteen. **All sixteen
+controlled names must remain visible on the slide**, and none may be merged,
+renamed or dropped.
+
+### Slide 10 — Three delivery events — proposed, conditional, blocked
+
+| ID | Statement | Source path | Section | Auth | Governance | Implementation | Class |
+|---|---|---|---|---|---|---|---|
+| `M5-S10-01` | **Three restrained training event concepts.** *"This is **not** a full project delivery schedule"* | `supporting/information-delivery-schedule.md` | §2 | 2 | **`PROPOSED GOVERNANCE`** | — | **`SUPPORTING`** |
+| `M5-S10-02` | **`TRN-E01`** — Design coordination share · Timing **event-triggered / `TBD`** · Status **`PROPOSED`** | `supporting/information-delivery-schedule.md` | §2, §3 | 2 | **`PROPOSED GOVERNANCE`** | — | **`SUPPORTING`** |
+| `M5-S10-03` | `TRN-E01` State **Shared**; Suitability **"Coordination use only"** | `supporting/information-delivery-schedule.md` | §3 | 2 | **`PROPOSED GOVERNANCE`** | — | **`SUPPORTING`** |
+| `M5-S10-04` | *"Each discipline container is shared **from its own originating task team**. The six rows below are **six separate exchanges, not one jointly-owned model**"* | `supporting/information-delivery-schedule.md` | §3 | 2 | **`PROPOSED GOVERNANCE`** | — | **`SUPPORTING`** |
+| `M5-S10-05` | `TRN-E01` Authorisation Requirement — **Task-Team Lead authorisation to share** | `supporting/information-delivery-schedule.md` §3.2; `bep/…BEP.md` §9.4; IM matrix `P4` | — | 2, 1 | **`ESTABLISHED ALLOCATION`** | **`IMPLEMENTATION UNVERIFIED`** | **`SUPPORTING`** |
+| `M5-S10-06` | `TRN-E01` Format — *"**TBD by approved format requirement. No format is mandated.**"* | `supporting/information-delivery-schedule.md` | §3.2 | 2 | **`UNRESOLVED`** | — | **`SUPPORTING`** |
+| `M5-S10-07` | *"Information shared under `TRN-E01` is **not** construction-ready, **not** formally accepted design, and **not** record information"* | `supporting/information-delivery-schedule.md` | §3.2 | 2 | **`PROPOSED GOVERNANCE`** | — | **`SUPPORTING`** |
+| `M5-S10-08` | **`TRN-E02`** — Coordination reshare / resolution update · Timing **after required resolution, event-triggered / `TBD`** · Status **`PROPOSED` — conditional**, activated per affected container only | `supporting/information-delivery-schedule.md` | §2, §4 | 2 | **`CONDITIONAL`** | — | **`SUPPORTING`** |
+| `M5-S10-09` | *"**Repeatable and conditional** — **no calendar frequency**"* | `supporting/information-delivery-schedule.md` | §2, §4 | 2 | **`CONDITIONAL`** | — | **`SUPPORTING`** |
+| `M5-S10-10` | The six `TRN-E02` rows are *"**template rows, not active deliveries**"*, each activated *"only when its own container requires controlled rework and reshare"* | `supporting/information-delivery-schedule.md` | §4.2 | 2 | **`CONDITIONAL`** | — | **`SUPPORTING`** |
+| `M5-S10-11` | *"An unactivated row is **not a pending exchange** and carries **no expectation that the task team will produce anything**"* | `supporting/information-delivery-schedule.md` | §4.2 | 2 | **`CONDITIONAL`** | — | **`SUPPORTING`** |
+| `M5-S10-12` | *"A cycle may activate **one container, several, or none**"* | `supporting/information-delivery-schedule.md` | §4 | 2 | **`CONDITIONAL`** | — | **`SUPPORTING`** |
+| `M5-S10-13` | *"The existence of this event does **not** mean all six disciplines reshare during every coordination cycle"* | `supporting/information-delivery-schedule.md` | §4 | 2 | **`CONDITIONAL`** | — | **`SUPPORTING`** |
+| `M5-S10-14` | **`TRN-E03`** — Controlled design review / project-facing exchange · Timing **`TBD`** · Status **`PROPOSED — BLOCKED PENDING GOVERNANCE DECISIONS`** | `supporting/information-delivery-schedule.md` | §2, §5 | 2 | **`BLOCKED`** | — | **`SUPPORTING`** |
+| `M5-S10-15` | *"**This is not evidence of a real project milestone.**"* | `supporting/information-delivery-schedule.md` | §5 | 2 | **`BLOCKED`** | — | **`SUPPORTING`** |
+| `M5-S10-16` | **The three statuses mean three different things** — `PROPOSED` is planned governance, not an executed exchange; `CONDITIONAL` activates only on its stated trigger; `BLOCKED` cannot proceed while required governance or inputs remain unresolved | `S4` §2, §4.2, §5.1 — **synthesised across the three event records** | — | 4 | — | — | **`INTERP`** |
+| `M5-S10-17` | *"**No calendar dates, frequencies or contractual milestones exist for any event.**"* | `supporting/information-delivery-schedule.md` | §2 | 2 | **`UNRESOLVED`** | — | **`SUPPORTING`** |
+| `M5-S10-18` | **Blocked is not rejected, overdue or unfinished** — *"An entry that cannot proceed **is recorded as blocked**"* | `supporting/information-delivery-schedule.md` | §5.1 | 2 | **`BLOCKED`** | — | **`SUPPORTING`** |
+| `M5-S10-19` | The five `TRN-E03` blocking matters in detail | — | — | — | — | — | **`EXCLUDED`** — **Slide 12 owns them** |
+| `M5-S10-20` | The mapping of each event onto controlled workflow steps | — | — | — | — | — | **`EXCLUDED`** — **Slide 11 owns it** |
+
+**Teaching warning — `M5-S10-10` to `M5-S10-13`.** These four are a set. **A
+template row obliges nobody.** Presenting the six `TRN-E02` rows without them
+produces the module's most likely delivery misreading — that six reshares are
+pending.
+
+### Slide 11 — A delivery event is not an information-state transition
+
+| ID | Statement | Source path | Section | Auth | Governance | Implementation | Class |
+|---|---|---|---|---|---|---|---|
+| `M5-S11-01` | *"Of the eight steps below, **only `T1` and `T4` are information-state transitions**. `T8` returns information to the originator's WIP for rework"* | `supporting/cde-workflow-state-strategy.md` | §3 | 2 | **`PROPOSED GOVERNANCE`** | — | **`SUPPORTING`** |
+| `M5-S11-02` | **The eight steps are four different kinds of object** — state transition · receiving-team action · use / context · event · decision / status · rework | `supporting/cde-workflow-state-strategy.md` | §3.1 | 2 | **`PROPOSED GOVERNANCE`** | — | **`SUPPORTING`** |
+| `M5-S11-03` | **`T2`** — receiving-team **action**, *"not a state transition"*; state **Shared — unchanged** | `supporting/cde-workflow-state-strategy.md` | §3.1 | 2 | **`PROPOSED GOVERNANCE`** | — | **`SUPPORTING`** |
+| `M5-S11-04` | **`T3`** — **use / context**, *"not a state transition"*; state **Shared — unchanged** | `supporting/cde-workflow-state-strategy.md` | §3.1 | 2 | **`PROPOSED GOVERNANCE`** | — | **`SUPPORTING`** |
+| `M5-S11-05` | **`T5`** — **Event**; *"A **Delivered** event is recorded"*; state **Published / Authorised — unchanged** | `supporting/cde-workflow-state-strategy.md` | §3.1 | 2 | **`PROPOSED GOVERNANCE`** | — | **`SUPPORTING`** |
+| `M5-S11-06` | **`T6`** — **Event**; *"A **Receipt** event is recorded"*; state **unchanged** | `supporting/cde-workflow-state-strategy.md` | §3.1 | 2 | **`PROPOSED GOVERNANCE`** | — | **`SUPPORTING`** |
+| `M5-S11-07` | **`T7`** — **Decision / status**; an acceptance or rejection **status** is recorded against that purpose; state **unchanged**. *"Not technical approval; no transfer of responsibility"* | `supporting/cde-workflow-state-strategy.md` | §3.1 | 2 | **`PROPOSED GOVERNANCE`** | — | **`SUPPORTING`** |
+| `M5-S11-08` | **Delivered, Received and Accepted are not information states.** `T5`, `T6` and `T7` each leave the state **unchanged** — they record an event or a status | `supporting/cde-workflow-state-strategy.md` §3.1 — the *"unchanged"* column | — | 4 | **`PROPOSED GOVERNANCE`** | — | **`INTERP`** |
+| `M5-S11-09` | **The four distinct objects** — **Published** *"Authorised for a defined purpose and placed in the authorised state"* · **Delivered** *"Sent to an identified recipient for an identified purpose"* · **Received** *"Arrived with, and was registered by, the recipient"* · **Accepted** *"Acknowledged by the recipient as suitable for the stated purpose"* | `bep/…BEP.md` | §10.11 | 1 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M5-S11-10` | **`TRN-E01` transitions used — `T1` (WIP → Shared), then `T3` (Shared → coordination input).** State reached: **Shared** | `supporting/cde-workflow-state-strategy.md` | §9 | 2 | **`PROPOSED GOVERNANCE`** | — | **`SUPPORTING`** |
+| `M5-S11-11` | **`TRN-E01` is not `T1`.** It is a delivery-event concept that **requires** the `T1` route | `S4` §3; `S5` §9 — the event *uses* the transition | — | 4 | **`PROPOSED GOVERNANCE`** | — | **`INTERP`** |
+| `M5-S11-12` | The `TRN-E01` route — `WIP → check → Task-Team Lead authorises share → Shared → coordination input` | `supporting/cde-workflow-state-strategy.md` | §9 | 2 | **`PROPOSED GOVERNANCE`** | **`IMPLEMENTATION UNVERIFIED`** | **`SUPPORTING`** |
+| `M5-S11-13` | **`TRN-E02` transitions used — `T8` (rework), then `T1` and `T3` again.** Activation *"per affected container only"*; frequency *"None"* | `supporting/cde-workflow-state-strategy.md` | §10 | 2 | **`CONDITIONAL`** | — | **`SUPPORTING`** |
+| `M5-S11-14` | The `TRN-E02` lifecycle — `coordination finding → originating task-team WIP → correction → check → authorise share → Shared → re-coordinate → verify` | `supporting/cde-workflow-state-strategy.md` §10; `supporting/information-delivery-schedule.md` §4.1 | — | 2 | **`CONDITIONAL`** | — | **`SUPPORTING`** |
+| `M5-S11-15` | **`TRN-E02` is neither `T8` nor `T1`.** It is an event that uses the rework route and then the share route | `S5` §10 — the event *uses* both transitions | — | 4 | **`CONDITIONAL`** | — | **`INTERP`** |
+| `M5-S11-16` | *"**The originating task team performs the technical correction**, in its own WIP, through its own checking route. The shared instance is **never edited in place** as an uncontrolled workaround"* | `supporting/cde-workflow-state-strategy.md` §10; `bep/…BEP.md` §7.10 | — | 2, 1 | **`PROPOSED GOVERNANCE`** | — | **`SUPPORTING`** |
+| `M5-S11-17` | **`TRN-E03` exercises or depends upon `T4` — it is not `T4`.** Established in Module 4 and carried forward | `../module-04-cde-workflows-and-information-states/source-map.md` §7.2; `S5` §11 | — | 4 | **`BLOCKED`** | — | **`MODULE-2-4`** |
+| `M5-S11-18` | **`T4` is the Shared → Published / Authorised state transition**, requiring delivery review then publication / exchange authorisation — performing function **`UNRESOLVED — TBD`** | `supporting/cde-workflow-state-strategy.md` §3.1, §3.2; `bep/…BEP.md` §9.7 | — | 2, 1 | **`UNRESOLVED`** | — | **`SUPPORTING`** |
+| `M5-S11-19` | *"Transition **`T4`** therefore has **no available authorising function**, and information remains **Shared**"* | `supporting/cde-workflow-state-strategy.md` | §11, §3.3 | 2 | **`BLOCKED`** | **`NOT DEMONSTRATED`** | **`SUPPORTING`** |
+| `M5-S11-20` | **An event may require, depend upon or exercise a transition without being that transition.** Information state, workflow event, recipient action and decision status are **four separate dimensions** | `S5` §3, §3.1, §9–§11 — **synthesised across the mappings** | — | 4 | — | — | **`INTERP`** |
+| `M5-S11-21` | Issue-triage, coordination-resolution and verification mechanics | — | — | — | — | — | **`EXCLUDED`** — **Module 6 owns them** |
+| `M5-S11-22` | Any mandatory `TRN-E01 → TRN-E02 → TRN-E03` sequence; any depiction of `T1`–`T8` as eight sequential state transitions; any Delivered, Received or Accepted **state** | — | — | — | — | — | **`EXCLUDED`** |
+
+**Teaching warning — `M5-S11-05` to `M5-S11-08`.** `T5`, `T6` and `T7` are the
+easiest place in the module to invent a state. **The source's "unchanged" column
+is the evidence** — Published / Authorised is the last state reached, and
+delivery, receipt and acceptance record events and statuses against it.
+
+### Slide 12 — Why `TRN-E03` is blocked — five matters, not one
+
+| ID | Statement | Source path | Section | Auth | Governance | Implementation | Class |
+|---|---|---|---|---|---|---|---|
+| `M5-S12-01` | **`TRN-E03` status — `PROPOSED — BLOCKED PENDING GOVERNANCE DECISIONS`** | `supporting/information-delivery-schedule.md` | §2, §5 | 2 | **`BLOCKED`** | — | **`SUPPORTING`** |
+| `M5-S12-02` | **Blocker 1 — publication / exchange authorisation authority: `UNRESOLVED — TBD`.** *"The role holding publication and exchange authority is **UNRESOLVED**"* | `bep/…BEP.md` §9.7; `supporting/information-delivery-schedule.md` §5.1; IM matrix `D4` | — | 1, 2 | **`UNRESOLVED`** | — | **`CONTROLLED`** |
+| `M5-S12-03` | **Blocker 2 — recipient acceptance authority: `UNRESOLVED — TBD / recipient-dependent`** | `supporting/information-delivery-schedule.md` §5.1; `bep/…BEP.md` §9.8, §10.11; IM matrix `D7` | — | 2, 1 | **`UNRESOLVED`** | — | **`SUPPORTING`** |
+| `M5-S12-04` | **Blocker 3 — recipient identity: `Not established`** | `supporting/information-delivery-schedule.md` §5.1, §5.2; `bep/…BEP.md` §2.3, §5.3 | — | 2, 1 | **`UNRESOLVED`** | — | **`SUPPORTING`** |
+| `M5-S12-05` | **Blocker 4 — required formats: `Not established — no approved standard`** | `supporting/information-delivery-schedule.md` §5.1; `bep/…BEP.md` §11.9; `supporting/governance-decision-register.md` `OF-003` | — | 2, 1 | **`UNRESOLVED`** | — | **`SUPPORTING`** |
+| `M5-S12-06` | **Blocker 5 — deliverable set: `Not defined`** | `supporting/information-delivery-schedule.md` §5.1, §5.2; `bep/…BEP.md` §10.4 | — | 2, 1 | **`UNRESOLVED`** | — | **`SUPPORTING`** |
+| `M5-S12-07` | *"These are **not resolved to complete the schedule**. An entry that cannot proceed is recorded as blocked. **Assigning a plausible authority to make the row look finished would manufacture governance that does not exist**"* | `supporting/information-delivery-schedule.md` | §5.1 | 2 | **`BLOCKED`** | — | **`SUPPORTING`** |
+| `M5-S12-08` | **The five matters are independent. Resolving one releases none of the others** — assigning publication authority would leave the recipient, formats, deliverable set and acceptance authority exactly as they are | `S4` §5.1, §5.2 — each recorded separately, with its own status and reference | — | 4 | **`BLOCKED`** | — | **`INTERP`** |
+| `M5-S12-09` | **`S4` §5.2 records each scheduled field independently `TBD`** — Information Container, Lead, Recipient, Format, Authorisation Requirement and Acceptance Criteria | `supporting/information-delivery-schedule.md` | §5.2 | 2 | **`UNRESOLVED`** | — | **`SUPPORTING`** |
+| `M5-S12-10` | State / Suitability — *"**Published / Authorised only if** the required delivery review has occurred **and** publication authorisation has been given. **Neither condition can currently be met**"* | `supporting/information-delivery-schedule.md` | §5.2 | 2 | **`BLOCKED`** | — | **`SUPPORTING`** |
+| `M5-S12-11` | **`T4` cannot proceed; information remains Shared** | `supporting/cde-workflow-state-strategy.md` §11; `supporting/information-delivery-schedule.md` §5.2 | — | 2 | **`BLOCKED`** | **`NOT DEMONSTRATED`** | **`SUPPORTING`** |
+| `M5-S12-12` | *"**No final deliverable set is invented.** Models, drawings, documents and supporting information may form part of this exchange **only when later defined** through an explicit decision"* | `supporting/information-delivery-schedule.md` | §5.2 | 2 | **`UNRESOLVED`** | — | **`SUPPORTING`** |
+| `M5-S12-13` | *"**RVT, IFC, PDF and NWC are not mandated.** They appear in observed project context. **An observed format is not an approved delivery requirement**"* | `supporting/information-delivery-schedule.md` §5.2; `bep/…BEP.md` §10.8, §11.9 | — | 2, 1 | **`UNRESOLVED`** | — | **`SUPPORTING`** |
+| `M5-S12-14` | **`TRN-E03` remains `PROPOSED` and `BLOCKED`** in the live validation record; **no delivery, receipt or acceptance event is demonstrated** | `docs/Increment-7C-Live-Validation-Record.md` | §7, §9 | 3 | **`BLOCKED`** | **`NOT DEMONSTRATED`** | **`DECISION-RECORD`** |
+| `M5-S12-15` | **Every one of the five is typed, and none is blank** — `UNRESOLVED — TBD` · `Not established` · `Not defined` · `PROPOSED — BLOCKED`. **The schedule records the absence rather than concealing it** | `S4` §5.1, §5.2, §7 — every entry carries an explicit marker | — | 4 | **`BLOCKED`** | — | **`INTERP`** |
+| `M5-S12-16` | **The publication-arrangement boundary.** `AD-001` does **not** *"establish project publication / exchange authority"*; `PAD-001`'s scope is *"Training Baseline 0.1 publication arrangement only"* | `docs/Training-Baseline-0.1-Approval-Decision.md` `AD-001`; `supporting/governance-decision-register.md` `PAD-001` | — | 3, 2 | **`UNRESOLVED`** | — | **`DECISION-RECORD`** |
+| `M5-S12-17` | **Recorded variance — the two sources enumerate the blockers differently.** `S4` §5.1 records **five**; `S5` §11 records **six**, adding *"Delivery purpose defined — Not defined"* and merging acceptance authority with acceptance criteria. **Both record the event as blocked. Neither list is rewritten** | `supporting/information-delivery-schedule.md` §5.1; `supporting/cde-workflow-state-strategy.md` §11 | — | 2 | **`BLOCKED`** | — | **`SUPPORTING`** |
+| `M5-S12-18` | **A delivery review, a publication decision and a recipient acceptance function would each be required.** Module 5 identifies that they are required and stops | `S4` §5.2; `S1` §9.6, §9.7, §9.8 — **requirement identified, mechanics not taught** | — | 4 | **`UNRESOLVED`** | — | **`INTERP`** |
+| `M5-S12-19` | Detailed delivery-review, approval, acceptance, assurance, technical-review, issue-closure and coordination-resolution mechanics; professional certification | — | — | — | — | — | **`EXCLUDED`** — **Module 6 owns them** |
+| `M5-S12-20` | Populating, resolving or narrowing any of the five blocking matters | — | — | — | — | — | **`EXCLUDED`** |
+
+**Teaching warning — `M5-S12-15`.** The slide must **show the typed markers**.
+Five blank boxes would teach the opposite of what the schedule does — the whole
+point is that the absence is **recorded**, in writing, with a name.
+
+**Teaching warning — `M5-S12-17`.** If the audience has read the CDE strategy,
+they will count six. **Say that both lists exist and that neither is corrected.**
+Module 5 teaches the schedule's five because the schedule is the resource that
+owns the event.
+
 ---
 
 ## 6. Terminology register — exact controlled wording
@@ -465,6 +608,7 @@ does not allege a failing.
 | **5** | ***Publication*** means project information publication (`S1` §9.7) **and** the training-baseline publication arrangement (`PAD-001`) | **Two unrelated senses.** See [`source-inventory.md`](source-inventory.md) §5 |
 | **6** | ***Lead*** is a role column in `S2`, a lead function in `S3`, and an approved field in `S4` | `S4`'s is the defined field |
 | **7** | **Identifier collision** — `S2`'s sharing rows are numbered `S1`, `S2`, `S3` | Module 5 always writes *"the IM matrix sharing rows"* |
+| **9** | **The `TRN-E03` blocking matters are enumerated twice, differently.** `S4` §5.1 records **five**; `S5` §11 records **six** | `S5` adds *"Delivery purpose defined — Not defined"* and merges *acceptance authority* with *acceptance criteria*, which `S4` separates. **Both record the event as `BLOCKED`.** Module 5 teaches `S4`'s five, because `S4` owns the event — and **records that `S5` counts six**. Neither list is rewritten |
 | **8** | **Two vocabularies, one project.** `S1` §5.12 defines the **seven-term responsibility grammar**; `S1` §9.2 defines a **six-term decision terminology** — Check · Review · Authorise · Accept · Reject · Coordinate | **Recorded, not merged.** §9.2 **adds** *Review* and *Reject*, which have **no code**, and **omits** Perform, Consult and Inform. Both are controlled; they answer different questions — *who holds which function* against *what kind of decision was made*. **Neither is rewritten to match the other** |
 
 ---
@@ -587,8 +731,9 @@ allocation; delivery events, purpose and suitability"*.
 
 ## 9. Prohibited claims
 
-**Seventy-five claims Module 5 may not make.** Grouped by the error each would
-commit. Claims 51–59 were added in **T5-B**; claims 60–75 in **T5-C**.
+**Eighty-nine claims Module 5 may not make.** Grouped by the error each would
+commit. Claims 51–59 were added in **T5-B**; 60–75 in **T5-C**; 76–89 in
+**T5-D**.
 
 ### 9.1 Collapsing the three resources — 6
 
@@ -722,14 +867,45 @@ commit. Claims 51–59 were added in **T5-B**; claims 60–75 in **T5-C**.
 | 74 | That **role combination is automatically a defect, a non-conformance, evidence of inadequate competence, or evidence that checking did not occur.** The register records **no non-conformance**, and *"none is asserted"* |
 | 75 | That **simulated role participation creates real professional authority, contractual appointment, duty or liability** (`TA-02`); or that **independence may be claimed for presentation neatness**; or that **Slide 8 establishes an assurance procedure, an independence requirement, or a remedy** |
 
-### 9.10 Programme-status claims — required in every increment
+### 9.10 Additional prohibitions recorded in T5-D — 14
+
+**Reading the schedule**
+
+| # | Prohibited claim |
+|---|---|
+| 76 | That the Information Delivery Schedule is a **contractual programme** |
+| 77 | That schedule entries are **real client information requirements**, contractual delivery milestones, actual consultant appointments or construction programme dates |
+| 78 | That a **`Delivery ID` is a contractual document number**, or that any project numbering convention exists. **No Naming Standard exists** |
+| 79 | That a **schedule row proves an exchange occurred, was received, or was accepted** |
+| 80 | That **`Status` is the information state.** It is the status **of the schedule entry itself** |
+| 81 | That **`State / Suitability` is the row's planning status** |
+| 82 | That **`Acceptance Criteria` establishes who holds acceptance authority**; that **`Recipient` establishes an appointing party**; or that **`Lead` names a person** |
+
+**Reading the events**
+
+| # | Prohibited claim |
+|---|---|
+| 83 | That **`PROPOSED` means authorised for execution** |
+| 84 | That **`CONDITIONAL` means delayed**, or that **`BLOCKED` means overdue, rejected, or merely unfinished** |
+| 85 | That **`TRN-E01`, `TRN-E02` and `TRN-E03` form a mandatory sequence** |
+
+**Events against transitions**
+
+| # | Prohibited claim |
+|---|---|
+| 86 | That **`TRN-E01` is `T1`**, that **`TRN-E02` is `T8` or `T1`**, or that **`TRN-E03` is `T4`**. Each **uses** a transition; none **is** one |
+| 87 | That **`T1`–`T8` are eight sequential information-state transitions.** Only `T1` and `T4` change state |
+| 88 | That **Delivered, Received or Accepted is an information state.** `T5`, `T6` and `T7` leave the state **unchanged** |
+| 89 | That any **`TRN-E03` blocking matter is blank, empty, or a formatting artefact.** Each is **typed** — `UNRESOLVED — TBD`, `Not established`, `Not defined`, `PROPOSED — BLOCKED` |
+
+### 9.11 Programme-status claims — required in every increment
 
 | # | Prohibited claim |
 |---|---|
 | A | That a **PowerPoint is tracked in this repository** — none is, in any module |
 | B | That **presentation timing has been measured** — it is **`20.0 minutes allocated — not measured`** |
 | C | That **Module 6 mechanics have been completed**, or that Module 5 teaches them |
-| D | That Slides 9–14 are developed — **they are architecture only** |
+| D | That Slides 13–14 are developed — **they are architecture only** |
 
 ---
 
@@ -751,7 +927,7 @@ function's operational workflow.
 | Assurance sampling and coordination evidence | Not taught |
 | Complete review and acceptance cycles | Module 5 records `GCR-006` as **open** and stops |
 
-**Test to apply when developing Slides 9–14:** if a slide explains **how a
+**Test to apply when developing Slides 13–14:** if a slide explains **how a
 coordination run is performed, how a finding is triaged, how an Issue is closed,
 or how a review is conducted**, it has left Module 5.
 
@@ -772,7 +948,7 @@ decisions. Slide 14 poses the questions; it answers none.
 |---|---|
 | ~~T5-B~~ | ~~Responsibility-matrix purposes and distinctions — Slides 4–5~~ — **COMPLETE** |
 | ~~T5-C~~ | ~~Matrix-cell grammar and allocation boundaries — Slides 6–8~~ — **COMPLETE** |
-| **T5-D** | Delivery events and schedule construction — Slides 9–12 |
+| ~~T5-D~~ | ~~Delivery events and schedule construction — Slides 9–12~~ — **COMPLETE** |
 | **T5-E** | Slides 13–14 and the complete content baseline |
 | **T5-F** | Visual specifications and visual-source set |
 | **T5-G** | Presentation assembly package |
@@ -784,13 +960,13 @@ decisions. Slide 14 poses the questions; it answers none.
 
 | Field | Value |
 |---|---|
-| Increment | **T5-C** |
-| Slides classified | **1–8.** **141 statements** |
-| Slides 9–14 | **Architecture only** — no classified statements |
+| Increment | **T5-D** |
+| Slides classified | **1–12.** **225 statements** |
+| Slides 13–14 | **Architecture only** — no classified statements |
 | Registers | **Six** — source authority, terminology, hypothesis, unresolved, prohibited claims, boundary deferrals |
-| Hypotheses tested | **25** — `H-G1`–`H-G7`, `H-D1`–`H-D16`, `H-C1`–`H-C2`. **Unchanged in T5-C** |
-| Prohibited claims | **75**, plus 4 standing programme-status prohibitions |
-| Classification scheme | **Reconciled in T5-B** — `SYNTH` redefined; `M5-S2-14` reclassified `INTERP`. **Unchanged in T5-C**; see §5.1 |
-| Terminology variances | **8** — one added in T5-C: the grammar (`S1` §5.12) and the decision terminology (`S1` §9.2) are **two vocabularies, recorded not merged** |
+| Hypotheses tested | **25** — `H-G1`–`H-G7`, `H-D1`–`H-D16`, `H-C1`–`H-C2`. **Unchanged in T5-D** |
+| Prohibited claims | **89**, plus 4 standing programme-status prohibitions |
+| Classification scheme | **Reconciled in T5-B** — `SYNTH` redefined; `M5-S2-14` reclassified `INTERP`. **Unchanged in T5-C and T5-D**; see §5.1 |
+| Terminology variances | **9** — one added in T5-C (grammar vs decision terminology) and one in T5-D (**five vs six `TRN-E03` blocking matters**) |
 | Timing | **`20.0 minutes allocated — not measured`** |
-| Outstanding | **T5-D** — Slides 9–12 — and later increments |
+| Outstanding | **T5-E** — Slides 13–14 and the content baseline — and later increments |

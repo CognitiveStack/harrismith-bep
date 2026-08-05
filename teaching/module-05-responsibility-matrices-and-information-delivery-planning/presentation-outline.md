@@ -1,14 +1,14 @@
 # Module 5 — Presentation Outline
 
-**Status:** Working outline. **Slides 1–8 developed — Slides 1–3 in T5-A,
-Slides 4–5 in T5-B, Slides 6–8 in T5-C. Slides 9–14 are architecture only** — no
-content, no visual specification, no assets. **The content baseline is not
-complete.** This is **not a presentation**: no deck exists, and the timing below
+**Status:** Working outline. **Slides 1–12 developed — Slides 1–3 in T5-A,
+Slides 4–5 in T5-B, Slides 6–8 in T5-C, Slides 9–12 in T5-D. Slides 13–14 are
+architecture only** — no content, no visual specification, no assets. **The
+content baseline is not complete.** This is **not a presentation**: no deck exists, and the timing below
 is an allocation that has **never been measured**.
 
 Source identifiers `S1`–`S15` are defined in
 [`source-inventory.md`](source-inventory.md). Statement classification is in
-[`source-map.md`](source-map.md) §5. Presenter notes for **Slides 1–8** are in
+[`source-map.md`](source-map.md) §5. Presenter notes for **Slides 1–12** are in
 [`speaker-notes.md`](speaker-notes.md).
 
 **Timing throughout: `20.0 minutes allocated — not measured`.**
@@ -38,13 +38,13 @@ Source identifiers `S1`–`S15` are defined in
 | 6 | The seven-term grammar — and the two values that carry the gaps | 1.5 | ✅ **T5-C** |
 | 7 | Reading a cell: what a populated cell does and does not prove | 1.5 | ✅ **T5-C** |
 | 8 | One person, two roles — allocation is not independence | 1.0 | ✅ **T5-C** |
-| 9 | The Information Delivery Schedule — sixteen fields | 1.5 | Architecture only |
-| 10 | Three delivery events — proposed, conditional, blocked | 1.5 | Architecture only |
-| 11 | A delivery event is not an information-state transition | 1.5 | Architecture only |
-| 12 | Why `TRN-E03` is blocked — five matters, not one | 1.5 | Architecture only |
+| 9 | The Information Delivery Schedule — sixteen fields | 1.5 | ✅ **T5-D** |
+| 10 | Three delivery events — proposed, conditional, blocked | 1.5 | ✅ **T5-D** |
+| 11 | A delivery event is not an information-state transition | 1.5 | ✅ **T5-D** |
+| 12 | Why `TRN-E03` is blocked — five matters, not one | 1.5 | ✅ **T5-D** |
 | 13 | Nothing is blank — how Harrismith names an absence | 1.0 | Architecture only |
 | 14 | What Triviron must decide before drawing a matrix | 2.0 | Architecture only |
-| | **Total** | **20.0** | **8 of 14** |
+| | **Total** | **20.0** | **12 of 14** |
 
 ### 2.1 How the sequence was derived
 
@@ -70,57 +70,13 @@ are unchanged.
 - **Slide 6 must stay at concept level.** No suitability, status or naming code
   set exists; there is no coding standard to teach.
 
-## 3. Slides 9–14 — architecture only
+## 3. Slides 13–14 — architecture only
 
 **No content is developed below.** Each entry records only: purpose, central
 teaching point, principal source basis, a **high-level** visual concept, the
 governing boundary, and allocated time. **No visual specification, no visual
 source, no on-slide copy and no presenter notes exist for any slide in this
 section.**
-
-### Slide 9 — The Information Delivery Schedule — sixteen fields · 1.5 min
-
-| Field | Value |
-|---|---|
-| **Purpose** | Establish `S4` as the planning instrument, and its sixteen approved fields as the anatomy of a delivery plan |
-| **Central teaching point** | Each field answers one question the producing team must be able to answer **before** information moves — and the fields for *whom*, *what form* and *by whose authority* are the ones most often left implicit |
-| **Principal source basis** | `S4` §1; `S1` §10.13, §10.5 |
-| **Visual concept — high level** | The sixteen fields grouped by the question each answers — *what · who · to whom · why · in what form · under what control* |
-| **Boundary / prohibited claim** | *Status* is the status **of the entry**, not of a delivery; the schedule is **not a contractual programme**; **no dates** |
-| **Time** | 1.5 min |
-
-### Slide 10 — Three delivery events — proposed, conditional, blocked · 1.5 min
-
-| Field | Value |
-|---|---|
-| **Purpose** | Introduce `TRN-E01`, `TRN-E02` and `TRN-E03` and their three different statuses |
-| **Central teaching point** | Three events, three statuses. **A conditional template row is not a pending exchange**, and a blocked event is not an unfinished one |
-| **Principal source basis** | `S4` §2, §3, §4, §4.2, §5 |
-| **Visual concept — high level** | Three event cards side by side, each carrying its own status band — `PROPOSED` · `PROPOSED — conditional` · `PROPOSED — BLOCKED` |
-| **Boundary / prohibited claim** | `TRN-E02` does not mean six disciplines reshare in every cycle; an unactivated row obliges nobody; no calendar frequency exists |
-| **Time** | 1.5 min |
-
-### Slide 11 — A delivery event is not an information-state transition · 1.5 min
-
-| Field | Value |
-|---|---|
-| **Purpose** | Hold the boundary between `S4`'s events and `S5`'s transitions |
-| **Central teaching point** | `TRN-E01` **requires** `T1`; `TRN-E03` **exercises or depends upon** `T4` — **it is not `T4`**. An event may depend on a transition without being one |
-| **Principal source basis** | `S4` §2, §5; `S5` §3; Module 4 carry-forward (`S13`) |
-| **Visual concept — high level** | Two parallel tracks — events above, transitions below — with the dependency arrows between them, and the `T4` link drawn as **broken** |
-| **Boundary / prohibited claim** | Must not present the events as a transition sequence; must not show `T1`–`T8` as eight sequential transitions; **`T4` stays blocked** |
-| **Time** | 1.5 min |
-
-### Slide 12 — Why `TRN-E03` is blocked — five matters, not one · 1.5 min
-
-| Field | Value |
-|---|---|
-| **Purpose** | Show governance working **by stopping**, and show that the block is not a single missing signature |
-| **Central teaching point** | Five independent matters block `TRN-E03`. **Resolving publication authority alone would release none of the other four** |
-| **Principal source basis** | `S4` §5.1, §5.2; `S1` §9.7, §9.8, §10.4, §11.9; `S2` `D4`, `D7` |
-| **Visual concept — high level** | The five blocking matters as five separate gates, all closed, with the deliberately **empty** fields left empty on the slide |
-| **Boundary / prohibited claim** | **None of the five may be populated.** No recipient, no format, no deliverable set, no authoriser, no accepter. Publication-arrangement approvals (`PAD-001`) must not be offered as a resolution |
-| **Time** | 1.5 min |
 
 ### Slide 13 — Nothing is blank — how Harrismith names an absence · 1.0 min
 
@@ -146,12 +102,13 @@ section.**
 
 ---
 
-## 4. Developed slides — T5-A, T5-B and T5-C
+## 4. Developed slides — T5-A to T5-D
 
 Presenter notes: [`speaker-notes.md`](speaker-notes.md). Statement
 classification: [`source-map.md`](source-map.md) §5.
 
-**Slides 1–3 were developed in T5-A; Slides 4–5 in T5-B; Slides 6–8 in T5-C.**
+**Slides 1–3 were developed in T5-A; Slides 4–5 in T5-B; Slides 6–8 in T5-C;
+Slides 9–12 in T5-D.**
 
 ### Slide 1 — Module 5: from who holds a role to what must be produced · 1.0 min
 
@@ -461,7 +418,7 @@ activity occurred.
 **Visual concept — high level**
 
 The matrix **skeleton only** — seven function groups down the left, nine
-functional roles across the top, **cells empty**. Two callouts: one on a row
+functional roles across the top, **showing no cell values**. Two callouts: one on a row
 that the BEP establishes, one on the row that the BEP establishes as unresolved.
 **No cell value appears anywhere on the slide.**
 
@@ -616,8 +573,8 @@ non-function values** — and the recorded reason the project **refused RACI**.
 > | **`—`** | The role holds **no function in this activity** |
 >
 > **These are not the same, and neither is a code.**
-> `TBD` is a gap that must stay open. `—` is a deliberate blank that is already
-> answered.
+> `TBD` is a gap that must stay open. **`—` is not a blank — it is a populated
+> cell recording a resolved answer:** this role has no function here.
 >
 > ### Why not RACI?
 >
@@ -663,7 +620,8 @@ neither is rewritten to match the other.**
 - Inventing a code, or introducing a suitability, status or naming code — **none
   exists**.
 - Applying the grammar to container rows or schedule fields.
-- Presenting `TBD` and `—` as equivalent.
+- Presenting `TBD` and `—` as equivalent, or **describing `—` as a blank** — it
+  is a populated cell recording a resolved no-function entry.
 - Implying `TBD` means someone will necessarily be appointed later.
 - Implying `—` means a role, person or party is absent from the project.
 - Teaching a production workflow, delivery events or coordination mechanics.
@@ -892,17 +850,437 @@ is shown.**
 
 ---
 
+### Slide 9 — The Information Delivery Schedule — sixteen fields · 1.5 min
+
+**Purpose of the slide**
+
+Establish the third resource as the **planning instrument**: its sixteen approved
+fields, what each records — and the line between a plan and a transaction.
+
+**On-slide copy**
+
+> ## What is exchanged, at what event, to whom, why, in what form.
+>
+> **Sixteen approved fields** — BEP §10.13
+>
+> | Group *(teaching only)* | Fields |
+> |---|---|
+> | **Identity and event** | `Delivery ID` · `Exchange / Milestone` |
+> | **Origin and responsibility** | `Information Container` · `Originating Party` · `Task Team` · `Discipline` · `Lead` |
+> | **Recipient and purpose** | `Recipient` · `Purpose` |
+> | **Form and permitted use** | `Format` · `State / Suitability` |
+> | **Checks and decisions** | `Checking Requirement` · `Authorisation Requirement` · `Acceptance Criteria` |
+> | **Status and dependencies** | `Status` · `Dependencies` |
+>
+> *The grouping is a teaching device. The schedule lists sixteen fields flat.*
+>
+> ### Four fields that are routinely misread
+>
+> | Field | What it actually records |
+> |---|---|
+> | **`Status`** | The status of the **schedule entry** — not the information state, not proof of delivery |
+> | **`State / Suitability`** | The CDE state and **what the information may be used for** |
+> | **`Acceptance Criteria`** | Process-level criteria for receipt — **not who holds acceptance authority** |
+> | **`Delivery ID`** | An **internal training reference** — not a document number. No Naming Standard exists |
+>
+> `Lead` is a **role**, never a person. `Recipient` establishes **no appointing
+> party**. `Format` may read **`TBD`** — no format is mandated.
+>
+> ### What this instrument is not
+>
+> **A controlled training delivery-planning instrument — not a contractual
+> programme.** All entries are **`PROPOSED GOVERNANCE`**.
+>
+> Not evidence of: client information requirements · contractual milestones ·
+> consultant appointments · programme dates.
+>
+> > *"No real delivery dates or client milestones have been established."*
+> > Timing is **event-triggered or `TBD`**.
+>
+> **A row is a plan. It is not a record that anything happened.**
+
+**Source basis**
+
+| Claim | Source |
+|---|---|
+| Purpose; training instrument, not a contractual programme | `S4` §Purpose |
+| The sixteen fields are BEP-approved | `S1` §10.13 |
+| All sixteen definitions | `S4` §1 |
+| Teaching grouping | **`INTERP`** — no source groups them |
+| `Delivery ID`; no Naming Standard | `S4` §1; `S1` §11.3 |
+| `Status` is the entry's status | `S4` §1 |
+| `Format` `TBD`; no format mandated | `S4` §1, §3.2 |
+| `Acceptance Criteria`; acceptance authority unresolved | `S4` §1, §6, §7 |
+| `Lead` is Task-Team Lead (`TBD`); `Recipient` establishes no appointing party | `S4` §1, §3.1; `S1` §2.3, §5.3 |
+| All entries `PROPOSED GOVERNANCE`; not evidence of four things | `S4` §Classification, §What these entries are not |
+| No dates; event-triggered or `TBD` | `S4` §Population rule, §2, §7 |
+| No formal information requirements available; none invented | `S1` §7.3, §10.2; `S4` |
+| Real requirements would take precedence | `S1` §1.5; `S4` §Precedence |
+| No final deliverable list | `S1` §10.4 |
+| Container discipline | `S4` §Container discipline |
+
+Classified statements `M5-S9-01` to `M5-S9-22`.
+
+**Teaching synthesis on this slide:** none. Two statements are `INTERP` — the
+teaching grouping, and the plan-versus-transaction boundary.
+
+**Prohibited on this slide**
+
+- Presenting the schedule as a contractual programme, or its entries as client
+  requirements, milestones, appointments or programme dates.
+- Renaming, merging or omitting any of the sixteen controlled field names.
+- Presenting the teaching grouping as schedule structure.
+- Treating `Status` as the information state, or `State / Suitability` as the
+  row's planning status.
+- Inventing a date, a frequency, a format or a deliverable.
+- Claiming a row proves an exchange occurred, was received or was accepted.
+
+**Visual concept — high level**
+
+The sixteen fields shown **individually**, arranged into the six teaching groups,
+with the grouping labelled as a teaching device. **Every controlled field name
+remains visible and unaltered.** Four fields carry a small caution marker;
+no dates and no example values appear.
+
+**Transition into Slide 10**
+
+> *"Sixteen fields, and one of them is `Exchange / Milestone` — the event the row
+> belongs to. Harrismith defines three events, and no two of them are in the
+> same condition."*
+
+---
+
+### Slide 10 — Three delivery events — proposed, conditional, blocked · 1.5 min
+
+**Purpose of the slide**
+
+Introduce the three event concepts **separately**, and teach that their three
+statuses mean three different things.
+
+**On-slide copy**
+
+> ## Three events. Three different conditions.
+>
+> ### `TRN-E01` — Design coordination share
+> **`PROPOSED`** · Event-triggered / `TBD`
+> State **Shared** · Suitability **coordination use only**
+> Six discipline rows = **six separate exchanges, not one jointly-owned model**
+> Authorisation: **Task-Team Lead authorisation to share**
+> Format: **`TBD` — no format is mandated**
+> *Not construction-ready · not formally accepted design · not record
+> information*
+>
+> ### `TRN-E02` — Coordination reshare / resolution update
+> **`PROPOSED` — conditional** · After required resolution; event-triggered /
+> `TBD`
+> **Repeatable, with no calendar frequency**
+> Six **template rows, not active deliveries** — activated **per affected
+> container only**
+> *"An unactivated row is **not a pending exchange**"* and obliges nobody
+> **A cycle may activate one container, several, or none**
+>
+> ### `TRN-E03` — Controlled design review / project-facing exchange
+> **`PROPOSED — BLOCKED PENDING GOVERNANCE DECISIONS`** · Timing **`TBD`**
+> *"This is not evidence of a real project milestone."*
+> **Why it is blocked — next slide but one**
+>
+> ---
+>
+> | Status | Means |
+> |---|---|
+> | **`PROPOSED`** | Planned governance — **not an executed exchange** |
+> | **`CONDITIONAL`** | Activates **only when its stated trigger occurs** |
+> | **`BLOCKED`** | **Cannot proceed** while required governance or inputs remain unresolved |
+>
+> **Blocked is not overdue. Blocked is not rejected. Blocked is not unfinished.**
+> *"An entry that cannot proceed is recorded as blocked."*
+>
+> **No calendar dates, frequencies or contractual milestones exist for any
+> event.**
+
+**Source basis**
+
+| Claim | Source |
+|---|---|
+| Three restrained event concepts; not a full delivery schedule | `S4` §2 |
+| `TRN-E01` concept, timing, status, state, suitability | `S4` §2, §3 |
+| Six separate exchanges | `S4` §3 |
+| Task-Team Lead authorisation | `S4` §3.2; `S1` §9.4; IM matrix `P4` |
+| No format mandated | `S4` §3.2 |
+| Not construction-ready / accepted / record | `S4` §3.2 |
+| `TRN-E02` concept, timing, conditional status | `S4` §2, §4 |
+| Template rows; per-container activation; obliges nobody | `S4` §4.2 |
+| One, several or none | `S4` §4 |
+| `TRN-E03` concept, timing, blocked status | `S4` §2, §5 |
+| Not evidence of a real milestone | `S4` §5 |
+| Status meanings | **`INTERP`** — synthesised across the three records |
+| An entry that cannot proceed is recorded as blocked | `S4` §5.1 |
+| No dates or frequencies for any event | `S4` §2 |
+
+Classified statements `M5-S10-01` to `M5-S10-20`. **Seventeen of twenty come
+from `S4` directly** — this is the only slide in the module with **no
+`CONTROLLED` statement**, because the BEP creates no events.
+
+**Teaching synthesis on this slide:** none. One statement is `INTERP` — the
+three status meanings.
+
+**Prohibited on this slide**
+
+- Presenting `PROPOSED` as authorised for execution.
+- Presenting `CONDITIONAL` as delayed, or `BLOCKED` as overdue, rejected or
+  merely unfinished.
+- Suggesting all six `TRN-E02` rows activate in every cycle, or that an
+  unactivated row is a pending delivery.
+- Presenting the three events as a mandatory sequence.
+- Any calendar date, frequency or timeline.
+- **Developing the five `TRN-E03` blockers** — Slide 12 owns them.
+- Mapping events onto workflow steps — Slide 11 owns that.
+
+**Visual concept — high level**
+
+**Three separate event cards**, side by side, each carrying its **exact status
+label** — `PROPOSED` · `PROPOSED — conditional` · `PROPOSED — BLOCKED PENDING
+GOVERNANCE DECISIONS`. **No timeline, no dates, no arrows between the cards** —
+they are three concepts, not three stages.
+
+**Transition into Slide 11**
+
+> *"Each of those events moves information, or would. But moving information and
+> changing its state are not the same act — and confusing them is how a
+> coordination share gets mistaken for a publication."*
+
+---
+
+### Slide 11 — A delivery event is not an information-state transition · 1.5 min
+
+**Purpose of the slide**
+
+Hold the boundary: an event may **require, depend upon or exercise** a
+transition without **being** it.
+
+**On-slide copy**
+
+> ## An event uses a transition. It is not that transition.
+>
+> ### Four separate dimensions
+>
+> **information state** · **workflow event** · **recipient action** ·
+> **decision status**
+>
+> Of the eight controlled steps, **only `T1` and `T4` change the information
+> state.**
+>
+> | | Kind | State after |
+> |---|---|---|
+> | **`T1`** | **State transition** | **Shared** |
+> | `T2` | Receiving-team action | Shared — *unchanged* |
+> | `T3` | Use / context | Shared — *unchanged* |
+> | **`T4`** | **State transition** | **Published / Authorised** — **blocked** |
+> | `T5` | Event — *Delivered* recorded | *unchanged* |
+> | `T6` | Event — *Receipt* recorded | *unchanged* |
+> | `T7` | Decision / status — accept or reject | *unchanged* |
+> | `T8` | Rework — returns to originator's WIP | WIP, then reprogression |
+>
+> **Delivered, Received and Accepted are not information states.**
+>
+> ### The three events, mapped
+>
+> | Event | Transitions used | Is it that transition? |
+> |---|---|---|
+> | **`TRN-E01`** | **`T1`**, then `T3` | **No** — it requires the `T1` route |
+> | **`TRN-E02`** | **`T8`**, then `T1` and `T3` again | **No** — it uses both routes |
+> | **`TRN-E03`** | **`T4`** | **No** — it exercises or depends upon `T4` |
+>
+> `TRN-E01`: `WIP → check → Task-Team Lead authorises share → Shared →
+> coordination input`
+> `TRN-E02`: `finding → originating WIP → correction → check → authorise share →
+> Shared → re-coordinate → verify`
+> `TRN-E03`: `Shared → delivery review → ⟦ BLOCKED ⟧`
+>
+> ### Four objects that stay distinct — BEP §10.11
+>
+> **Published** authorised for a defined purpose · **Delivered** sent to an
+> identified recipient · **Received** arrived and registered · **Accepted**
+> acknowledged as suitable for the stated purpose
+>
+> **`T4` has no available authorising function. Information remains Shared.**
+
+**Source basis**
+
+| Claim | Source |
+|---|---|
+| Only `T1` and `T4` are state transitions; `T8` returns to WIP | `S5` §3 |
+| The kind, state and result of each step | `S5` §3.1 |
+| Delivered / Received / Accepted are not states | **`INTERP`** — from the *"unchanged"* column, `S5` §3.1 |
+| The four distinct objects, verbatim | `S1` §10.11 |
+| `TRN-E01` uses `T1` then `T3`; the route | `S5` §9 |
+| `TRN-E02` uses `T8`, then `T1` and `T3`; the lifecycle | `S5` §10; `S4` §4.1 |
+| Correction in the originating team's own WIP | `S5` §10; `S1` §7.10 |
+| `TRN-E03` exercises or depends upon `T4`; is not `T4` | Module 4 carry-forward; `S5` §11 |
+| `T4` performing function `UNRESOLVED — TBD` | `S5` §3.2; `S1` §9.7 |
+| `T4` has no available authorising function; information remains Shared | `S5` §11 |
+
+Classified statements `M5-S11-01` to `M5-S11-22`.
+
+**Teaching synthesis on this slide:** none. Four statements are `INTERP` —
+that Delivered / Received / Accepted are not states, and the three
+event-is-not-transition conclusions.
+
+**Prohibited on this slide**
+
+- Identifying `TRN-E01` as `T1`, `TRN-E02` as `T8` or `T1`, or `TRN-E03` as
+  `T4`.
+- Showing `T1`–`T8` as eight sequential state transitions.
+- Showing a Delivered, Received or Accepted **information state**.
+- Showing `TRN-E01 → TRN-E02 → TRN-E03` as a mandatory sequence.
+- Teaching issue-triage, coordination-resolution or verification mechanics —
+  **Module 6**.
+- Implying anything has been published, delivered, received or accepted.
+
+**Visual concept — high level**
+
+**Two parallel tracks** — the three delivery-event concepts above, the
+controlled workflow steps below — joined by **dependency arrows, not equals
+signs**. The `T4` link is drawn **broken**, and the two state-changing steps
+(`T1`, `T4`) are visually distinguished from the six that are not. **No
+sequence arrow runs between the three events.**
+
+**Transition into Slide 12**
+
+> *"So `TRN-E03` depends on `T4`, and `T4` cannot happen. The interesting part is
+> why — because it is not one missing signature."*
+
+---
+
+### Slide 12 — Why `TRN-E03` is blocked — five matters, not one · 1.5 min
+
+**Purpose of the slide**
+
+Show governance working **by stopping** — and show that the block is **five
+independent matters**, each recorded with a name.
+
+**On-slide copy**
+
+> ## `TRN-E03` — `PROPOSED — BLOCKED PENDING GOVERNANCE DECISIONS`
+>
+> ### Five matters. Five separate statuses. None of them blank.
+>
+> | # | Blocking matter | **Recorded status** | Reference |
+> |---|---|---|---|
+> | 1 | Publication / exchange authorisation authority | **`UNRESOLVED — TBD`** | BEP §9.7 · IM matrix `D4` |
+> | 2 | Recipient acceptance authority | **`UNRESOLVED — TBD / recipient-dependent`** | BEP §9.8, §10.11 · IM matrix `D7` |
+> | 3 | Recipient identity | **`Not established`** | BEP §2.3, §5.3 |
+> | 4 | Required formats | **`Not established — no approved standard`** | BEP §11.9 · `OF-003` |
+> | 5 | Deliverable set | **`Not defined`** | BEP §10.4 |
+>
+> **These are independent. Resolving one releases none of the others.**
+> Appoint a publication authority tomorrow and you still have no recipient, no
+> formats, no deliverable set and no accepting party.
+>
+> ### What the schedule does instead of finishing the row
+>
+> > *"An entry that cannot proceed is recorded as blocked. **Assigning a
+> > plausible authority to make the row look finished would manufacture
+> > governance that does not exist.**"*
+>
+> **Every absence above is written down.** `UNRESOLVED — TBD` · `Not
+> established` · `Not defined` · `PROPOSED — BLOCKED`. **The schedule records
+> the gap; it does not conceal it.**
+>
+> ### The consequence, stated plainly
+>
+> Published / Authorised requires a completed delivery review **and** valid
+> publication authorisation. **Neither condition can currently be met.**
+>
+> **`T4` cannot proceed. Information remains Shared.**
+> No delivery, receipt or acceptance event is demonstrated.
+>
+> **And RVT, IFC, PDF and NWC are not mandated** — an observed format is not an
+> approved delivery requirement.
+>
+> ### One boundary to keep
+>
+> The approved **Training Baseline publication arrangement** concerns the
+> Harrismith **documentation set**. It does **not** establish project
+> publication or exchange authority, does not unblock `T4`, and does not release
+> `TRN-E03`.
+
+**Source basis**
+
+| Claim | Source |
+|---|---|
+| `TRN-E03` status | `S4` §2, §5 |
+| Blocker 1 — publication authority | `S1` §9.7; `S4` §5.1; IM matrix `D4` |
+| Blocker 2 — acceptance authority | `S4` §5.1; `S1` §9.8, §10.11; IM matrix `D7` |
+| Blocker 3 — recipient identity | `S4` §5.1, §5.2; `S1` §2.3, §5.3 |
+| Blocker 4 — required formats | `S4` §5.1; `S1` §11.9; `OF-003` |
+| Blocker 5 — deliverable set | `S4` §5.1, §5.2; `S1` §10.4 |
+| Recorded as blocked, not completed by assumption | `S4` §5.1 |
+| Each scheduled field independently `TBD` | `S4` §5.2 |
+| Published / Authorised only if both conditions met; neither can be | `S4` §5.2 |
+| `T4` cannot proceed; information remains Shared | `S5` §11 |
+| No deliverable set invented | `S4` §5.2 |
+| Observed formats are not requirements | `S4` §5.2; `S1` §10.8, §11.9 |
+| `TRN-E03` remains PROPOSED and BLOCKED; no authority evidence | `S9` §7, §9 |
+| Publication-arrangement boundary | `AD-001` explicit non-effects; `PAD-001` scope |
+
+Classified statements `M5-S12-01` to `M5-S12-20`.
+
+**Teaching synthesis on this slide:** none. Three statements are `INTERP` — the
+independent-blocker rule, the typed-absence observation, and the identification
+that three functions would be required.
+
+**Recorded variance.** `S4` §5.1 records **five** blocking matters; `S5` §11
+records **six**, adding *"Delivery purpose defined — Not defined"* and merging
+acceptance authority with acceptance criteria. **Both record the event as
+blocked.** Module 5 teaches `S4`'s five because `S4` owns the event, and
+**records that `S5` counts six**. Neither list is rewritten.
+
+**Prohibited on this slide**
+
+- **Populating, resolving or narrowing any of the five matters.**
+- Showing any blocker as a blank box, an empty placeholder, or a formatting
+  artefact — **each must display its typed status**.
+- Claiming that resolving one matter releases the event.
+- Claiming publication authority, acceptance authority, the recipient, the
+  formats or the deliverable set is established.
+- Offering `PAD-001`, `PM-1`–`PM-7`, `AG-004`, `AG-005`, `NPC-001` or any
+  training-baseline publication record as a resolution.
+- Claiming `T4` is unblocked, or that information has moved beyond Shared.
+- Converting an observed format into a requirement.
+- **Teaching the delivery-review procedure, approval or acceptance workflow
+  mechanics, assurance sampling, technical review, issue closure,
+  coordination-resolution mechanics or professional certification** — Module 6
+  owns all of these. Slide 12 may say that a delivery review, a publication
+  decision and an acceptance function **would be required**, and stop.
+
+**Visual concept — high level**
+
+**Five separately closed gates**, each labelled with its matter **and its actual
+recorded status text**. **No gate is empty and none is a blank box** — the typed
+marker is the content. A single line beneath records the consequence: `T4`
+blocked, information remains Shared. **No sixth gate is drawn, and no gate is
+shown opening.**
+
+**Transition into Slide 13**
+
+> *"Five gates, five different words for 'we do not know yet' — and not one of
+> them left blank. That habit is worth a slide of its own, because it is the
+> single most transferable thing in this module."*
+
+---
+
 ## 5. Status
 
 | Field | Value |
 |---|---|
-| Increment | **T5-C** |
-| Slides developed | **1, 2, 3** (T5-A) · **4, 5** (T5-B) · **6, 7, 8** (T5-C) — each with on-slide copy, source basis, prohibited claims, a high-level visual concept and a transition |
-| Slides 9–14 | **Architecture only** — eight fields each; **no content, no visual specification, no assets** |
-| Content baseline | **NOT complete.** Six slides remain undeveloped |
-| Section C | **Complete** — Slides 6, 7 and 8; **4.0 minutes** |
+| Increment | **T5-D** |
+| Slides developed | **1, 2, 3** (T5-A) · **4, 5** (T5-B) · **6, 7, 8** (T5-C) · **9, 10, 11, 12** (T5-D) — each with on-slide copy, source basis, prohibited claims, a high-level visual concept and a transition |
+| Slides 13–14 | **Architecture only** — eight fields each; **no content, no visual specification, no assets** |
+| Content baseline | **NOT complete.** Two slides remain undeveloped |
+| Sections C and D | **Complete** — Slides 6–8 (**4.0 min**) and Slides 9–12 (**6.0 min**) |
 | Timing | **`20.0 minutes allocated — not measured`** · total verified at **20.0** |
 | Visual sources | **None.** T5-F is not started |
 | Assembly package | **None.** T5-G is not started |
 | PowerPoint | **None**, in this or any module |
-| Outstanding | **T5-D** — Slides 9–12; then T5-E, T5-F, T5-G, T5-H |
+| Outstanding | **T5-E** — Slides 13–14 and the content baseline; then T5-F, T5-G, T5-H |

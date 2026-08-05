@@ -142,9 +142,9 @@ teaching/
 │   ├── README.md                    module objective, central question, scope, increment status
 │   ├── source-inventory.md          exact source paths, own declared statuses, precedence, exclusions
 │   ├── resource-comparison.md       the three principal resources analysed separately
-│   ├── source-map.md                141 statements, six registers, 75 prohibited claims
-│   ├── presentation-outline.md      20-minute structure; Slides 1–8 developed, 9–14 architecture only
-│   └── speaker-notes.md             notes for Slides 1–8 only
+│   ├── source-map.md                225 statements, six registers, 89 prohibited claims
+│   ├── presentation-outline.md      20-minute structure; Slides 1–12 developed, 13–14 architecture only
+│   └── speaker-notes.md             notes for Slides 1–12 only
 ├── shared/
 │   ├── glossary.md                  teaching glossary across all modules
 │   └── presentation-principles.md   how these presentations are built
@@ -162,7 +162,7 @@ before it.** It has **six files and no subdirectories**. There is **no
 `visual-demonstration-plan.md` and no `exercises.md`** — none of those has been
 produced, and the tree above lists only what exists.
 
-**Slides 1–8 are developed; Slides 9–14 are architecture only** — slide number,
+**Slides 1–12 are developed; Slides 13–14 are architecture only** — slide number,
 working title, purpose, central teaching point, source basis, a high-level visual
 concept, boundary and allocated time, with no content. **Module 5 is not
 produced, not reviewed, not rehearsed, and its timing is allocated, never
