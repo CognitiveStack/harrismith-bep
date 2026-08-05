@@ -2,8 +2,8 @@
 
 **Status:** Presenter notes for teaching material. **Not governance.**
 
-**Slides 1–5 only** — Slides 1–3 written in T5-A, Slides 4–5 in T5-B. **Slides
-6–14 are architecture and have no notes.**
+**Notes exist for Slides 1–8** — Slides 1–3 written in T5-A, Slides 4–5 in T5-B,
+Slides 6–8 in T5-C. **Slides 9–14 are architecture and have no notes.**
 
 Statement IDs refer to [`source-map.md`](source-map.md) §5. Source identifiers
 `S1`–`S15` are defined in [`source-inventory.md`](source-inventory.md).
@@ -514,12 +514,341 @@ Then go to Slide 6.
 
 ---
 
+## Slide 6 — The seven-term grammar, and the two values that carry the gaps
+
+**Allocated: 1.5 min.** The vocabulary slide. Everything after it depends on
+this landing cleanly.
+
+### Opening sentence
+
+> *"Seven words. The BEP defines all seven, and then says the matrix will use
+> these terms and no others. That sentence is doing a lot of work."*
+
+### Conceptual explanation
+
+Read the seven from the slide, but **do not read them flatly.** Group them, and
+the structure teaches itself:
+
+- **Three that act** — Perform, Check, Authorise.
+- **One that organises** — Coordinate.
+- **One that receives** — Accept.
+- **Two that are told** — Consult before, Inform after.
+
+Then the pair that matters most:
+
+> *"Check verifies against a defined requirement. Authorise permits progression,
+> for a defined purpose. Those are two different acts by two different roles, and
+> the whole of Section 9 is built on keeping them apart."*
+
+### The two values that are not codes
+
+Slow down here. This is where the vocabulary is usually mis-taught.
+
+> *"There are two more values in the cells, and neither is a function. `TBD`
+> means the allocation is unresolved — the BEP records that authority as not
+> established. A dash means the role holds no function in that activity. They
+> look similar on a page and they mean opposite things: one is a gap that must
+> stay open, the other is a question already answered."*
+
+### Harrismith worked example
+
+Point at the two rows they will see on Slide 7:
+
+> *"`P4` — authorise for controlled sharing — carries `Au` against the Task-Team
+> Lead. `D4` — authorise publication — carries `TBD` in every column. Same
+> matrix, same shape of row. One is settled; the other is a gap the project
+> refused to fill."*
+
+### Critical distinction
+
+**Why RACI was refused.** This is the slide's strongest moment and it is entirely
+on the record:
+
+> *"Somebody could have used RACI. The BEP says no, and it says why: RACI
+> collapses checking into authorising, and coordinating into performing. This
+> project depends on exactly those distinctions. So it refused the tool that
+> loses them — and added that RACI is not to be introduced unless explicitly
+> approved later."*
+
+### Governance-status qualification
+
+The **grammar** is controlled governance — BEP §5.12. The **allocations** made
+using it are mostly proposals. Say it in one line so the audience does not
+transfer the authority of the vocabulary onto the cells:
+
+> *"The words are governed. Where they land, mostly, is proposed."*
+
+And the scope limit:
+
+> *"This vocabulary belongs to this matrix alone. The container matrix and the
+> delivery schedule use no codes at all — so if you see `Ck` written against a
+> container or a delivery row, somebody has borrowed a notation that does not
+> belong there."*
+
+### Likely audience misunderstanding
+
+**"So `P` is Responsible and `Au` is Accountable?"** No — and do not offer a
+partial mapping as a convenience. The moment you map, you have reintroduced the
+collapse the BEP refused.
+
+**"`TBD` means they just haven't got round to naming someone."** No. It records
+that the authority is **not established**. Nothing promises it will be.
+
+**"A dash means that role isn't on the project."** No. It means that role holds
+no function **in that one activity**.
+
+### Prohibited inference
+
+- Any mapping to R, A, C or I, in either direction.
+- Inventing a code, or introducing a suitability, status or naming code —
+  **none exists**.
+- Applying the codes to container rows or schedule fields.
+- Treating `TBD` and `—` as interchangeable.
+- Implying the grammar records seniority, contractual authority or platform
+  permission.
+
+### If asked about *Review* or *Reject*
+
+They have **no code**. They belong to a different controlled vocabulary — BEP
+§9.2's decision terminology: Check, Review, Authorise, Accept, Reject,
+Coordinate. **Two vocabularies, both controlled, neither rewritten to match the
+other.** Say that plainly and move on; it is a good example of the project
+recording a difference instead of tidying it.
+
+### Transition to Slide 7
+
+> *"That is the vocabulary. Now the only thing that matters: what happens when
+> you put one of those values in a cell — and what it still does not tell you."*
+
+### Recovery line if time is short
+
+> *"Seven function codes, plus two values that are not functions: `TBD` for an
+> unresolved allocation, a dash for no function here. RACI was refused on the
+> record because it collapses check from authorise."*
+
+Then go to Slide 7.
+
+---
+
+## Slide 7 — Reading a cell: what a populated cell does and does not prove
+
+**Allocated: 1.5 min.** The applied slide.
+
+### Opening sentence
+
+> *"A cell is an intersection. One activity across, one role down. And what it
+> records is narrower than almost anybody expects."*
+
+### Conceptual explanation
+
+Row is an activity. Column is a functional role. The cell answers one question:
+**which function does this role hold in this activity?**
+
+Then give them the shape of the whole thing, because it is genuinely useful:
+
+> *"Thirty-three activities, nine roles — two hundred and ninety-seven cells.
+> Not one of them is blank. Every single cell carries a code, or `TBD`, or a
+> dash. That is a discipline, and it is worth noticing."*
+
+### Harrismith worked example
+
+The production sequence is the example. Walk the four rows:
+
+> *"`P1`, author in WIP — the Author performs, the Task-Team Lead coordinates.
+> `P2`, the task-team check — the Checker checks, and the Task-Team Lead carries
+> `Co Ck`, coordinating and checking. `P3`, the readiness check — Checker again.
+> `P4`, authorise for sharing — Task-Team Lead, `Au`."*
+
+Then the two rules that fall straight out of it:
+
+> *"An Author does not self-authorise merely because they authored the
+> information. And check is not authorise — checking confirms readiness for the
+> next controlled decision; it does not permit progression."*
+
+### Combined values — say exactly this much
+
+> *"Some cells hold two values. `Co Ck`, `P Co`, `P Ck`. All that means is that
+> the role holds more than one function in that activity. It does not tell you
+> which came first, which matters more, who reports to whom, or that two people
+> were involved. No source states an order, so we do not read one."*
+
+### Two counts worth saying out loud
+
+> *"`Au` appears twice in two hundred and ninety-seven cells. Twice. Authorising
+> is rare, and both instances sit with the Task-Team Lead."*
+
+> *"And `Ac` — accept — appears exactly once, inside `TBD Ac`. So there is no
+> resolved acceptance allocation anywhere in this matrix. The one place
+> acceptance appears, it is unresolved."*
+
+These are counts from reading the document. **Say so** — they are observations,
+not governance, and their strength is that anyone can check them.
+
+### Critical distinction — `P4` against `D4`
+
+> *"`P4` carries `Au`, and the BEP establishes it: the Task-Team Lead authorises
+> the move from WIP to Shared. `D4` — authorise publication or exchange — carries
+> `TBD` in every column, and the BEP establishes that too: the role holding that
+> authority is unresolved. Same matrix, same row shape, two completely different
+> authority statuses."*
+
+**Stop there.** Do not explain publication, delivery or `TRN-E03`.
+
+### Governance-status qualification
+
+Nothing in this matrix is evidence that anything happened. Land it:
+
+> *"Every cell here is an allocation. Not one is a record of performance. Whether
+> any of these checks or authorisations has ever occurred is a different
+> question, answered by different evidence — and we saw on Slide 2 how little of
+> that evidence exists."*
+
+### Likely audience misunderstanding
+
+**"So `Co Ck` means coordinate first, then check."** No. There is no order.
+
+**"A `Ck` in the Checker column means it was independently checked."** No. It
+means the Checker function holds the checking function in that activity. Whether
+a separate person performed it is Slide 8.
+
+**"`TBD Ac` means someone accepted it."** No — the opposite. It records that
+acceptance is the relevant function and that the allocation is unresolved.
+
+### Prohibited inference
+
+- Sequence, priority, chronology or hierarchy from a combined value.
+- Separate people, competence or successful performance from any cell.
+- That `Au` creates authority beyond the defined progression, for the defined
+  purpose.
+- That `TBD Ac` proves acceptance, or resolves acceptance authority.
+- **Completing any `D4`, `D7` or `A2` cell** — including verbally, as an
+  example.
+
+### Transition to Slide 8
+
+> *"Author performs, Checker checks — that reads like separation of duties. It
+> is not. It is separation of functions, and those are different claims."*
+
+### Recovery line if time is short
+
+> *"A cell says which function a role holds in an activity. It never says who,
+> whether it happened, or whether it was independent. `Au` appears twice in 297
+> cells; `Ac` appears once, and it is unresolved."*
+
+Then go to Slide 8.
+
+---
+
+## Slide 8 — One person, two roles — allocation is not independence
+
+**Allocated: 1.0 min.** Short, and the most honest minute in the module.
+
+### Opening sentence
+
+> *"There is an Author column and a Checker column. That looks like separation
+> of duties. It is not — and the project says so itself."*
+
+### Conceptual explanation
+
+A column is a **functional role**, not a headcount. Separating functions on a
+page says nothing about how many people are available to perform them.
+
+> *"The matrix allocates functions to roles. It does not demonstrate that
+> separate people perform them, and — the matrix's own words — it must not be
+> read as evidence of independence."*
+
+### Harrismith worked example
+
+> *"On a project this size, one participant may well be both Author and Checker.
+> The BEP allows it explicitly, where independence cannot reasonably be
+> provided. And it is very precise about what happens then: the functional
+> distinction survives — a self-check is still a checking act against a defined
+> requirement, not the absence of one — and the combination is recorded, so the
+> limitation stays visible in the evidence."*
+
+Add the rule about knowing which hat you are wearing:
+
+> *"A participant performing two functions must know which function they are
+> performing at each decision point. Approving something as one role and applying
+> it as another are two separate acts, even a minute apart."*
+
+### Critical distinction
+
+**Recorded limitation beats invented independence.** Quote it, and attribute it:
+
+> *"The matrix puts it like this — and this is Harrismith's own wording, not a
+> professional standard I am importing: fictional independence is worse than an
+> acknowledged limitation, because it removes the reader's ability to weigh the
+> information."*
+
+The BEP says the same thing in its own words at §9.12 — *an overstated
+independence claim is more damaging than an acknowledged limitation.* Either is
+fine to quote; **attribute whichever you use.**
+
+### Governance-status qualification
+
+Two things must be said, or the slide reads as an accusation:
+
+> *"None of this is a criticism of anyone. Role combination is expressly
+> permitted here. It is not a defect, it is not a non-conformance — the register
+> records none, and asserts none — and it is not evidence that checking did not
+> happen."*
+
+And the training boundary:
+
+> *"`TA-02` — exercising a role for training creates no professional authority,
+> no contractual appointment, no duty and no liability. Nobody in this room
+> acquires an obligation by appearing in a column."*
+
+### Likely audience misunderstanding
+
+**"So the checking is worthless."** No. A self-check is still a check against a
+defined requirement. What changes is what the evidence supports — not whether
+the check occurred.
+
+**"We should fix this."** Perhaps — but that is a project decision under a real
+appointment, and this module does not prescribe a remedy. Independence
+requirements, assurance and review procedure belong to **Module 6** and to
+project-specific governance.
+
+**"Can we just say it was independently checked?"** No. That is the one thing
+the sources forbid outright.
+
+### Prohibited inference
+
+- Claiming independence anywhere, for any allocation.
+- Claiming separate columns prove separate people.
+- Presenting role combination as a defect, non-conformance, or evidence of poor
+  competence.
+- Naming any person.
+- **Teaching assurance sampling, independence requirements, certification,
+  technical or design approval, competence assessment, a review procedure, or a
+  remedy.** Identify that independence affects how evidence is weighed — and
+  stop.
+
+### Transition to Slide 9
+
+> *"That is the responsibility matrix — what it allocates, how to read it, and
+> what it stops short of proving. Now the third resource, and a different
+> question entirely: not who is responsible, but what actually has to be
+> delivered, to whom, and under what conditions."*
+
+### Recovery line if time is short
+
+> *"Separate columns are not separate people. Where roles combine, the functional
+> distinction survives and the combination is recorded — because fictional
+> independence is worse than an acknowledged limitation."*
+
+Then go to Slide 9.
+
+---
+
 ## Status
 
 | Field | Value |
 |---|---|
-| Increment | **T5-B** |
-| Notes developed | **Slides 1–5** — Slides 1–3 (T5-A), Slides 4–5 (T5-B) |
-| Slides 6–14 | **No notes** — architecture only |
+| Increment | **T5-C** |
+| Notes developed | **Slides 1–8** — Slides 1–3 (T5-A), Slides 4–5 (T5-B), Slides 6–8 (T5-C) |
+| Slides 9–14 | **No notes** — architecture only |
 | Timing | **`20.0 minutes allocated — not measured`** |
-| Outstanding | **T5-C** — Slides 6–8 — and later increments |
+| Outstanding | **T5-D** — Slides 9–12 — and later increments |

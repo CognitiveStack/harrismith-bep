@@ -2,12 +2,12 @@
 
 **Status:** Traceability record for teaching material. **Not governance.**
 
-Statement-level classification for **Slides 1–5** — the slides developed in
-increments **T5-A** (1–3) and **T5-B** (4–5) — plus the terminology register, the
-hypothesis register, the unresolved register, the prohibited claims and the
-Module 6 deferrals.
+Statement-level classification for **Slides 1–8** — the slides developed in
+increments **T5-A** (1–3), **T5-B** (4–5) and **T5-C** (6–8) — plus the
+terminology register, the hypothesis register, the unresolved register, the
+prohibited claims and the Module 6 deferrals.
 
-**Slides 6–14 exist as architecture only.** They carry no classified statements
+**Slides 9–14 exist as architecture only.** They carry no classified statements
 and no developed content. See
 [`presentation-outline.md`](presentation-outline.md) §3.
 
@@ -100,23 +100,26 @@ never `SYNTH`** — see §5.1.
 
 ---
 
-## 5. Statement classification — Slides 1–5
+## 5. Statement classification — Slides 1–8
 
-**84 statements. 20 `CONTROLLED`, 35 `SUPPORTING`, 8 `DECISION-RECORD`,
-2 `MODULE-2-4`, 1 `TEACHING-PLAN`, 9 `INTERP`, 0 `SYNTH`, 9 `EXCLUDED`.**
+**141 statements. 44 `CONTROLLED`, 51 `SUPPORTING`, 8 `DECISION-RECORD`,
+2 `MODULE-2-4`, 1 `TEACHING-PLAN`, 22 `INTERP`, 0 `SYNTH`, 13 `EXCLUDED`.**
 
 | Slide | Statements | `CTRL` | `SUPP` | `DEC` | `M2-4` | `PLAN` | `INT` | `SYN` | `EXC` |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | 1 | 12 | 3 | 3 | 2 | 2 | 1 | 0 | 0 | 1 |
 | 2 | 15 | 3 | 3 | 5 | 0 | 0 | 3 | 0 | 1 |
 | 3 | 16 | 2 | 7 | 0 | 0 | 0 | 4 | 0 | 3 |
-| **4** | **19** | **5** | **10** | **0** | **0** | **0** | **2** | **0** | **2** |
-| **5** | **22** | **7** | **12** | **1** | **0** | **0** | **0** | **0** | **2** |
-| **Total** | **84** | **20** | **35** | **8** | **2** | **1** | **9** | **0** | **9** |
+| 4 | 19 | 5 | 10 | 0 | 0 | 0 | 2 | 0 | 2 |
+| 5 | 22 | 7 | 12 | 1 | 0 | 0 | 0 | 0 | 2 |
+| **6** | **20** | **14** | **3** | **0** | **0** | **0** | **2** | **0** | **1** |
+| **7** | **20** | **2** | **8** | **0** | **0** | **0** | **8** | **0** | **2** |
+| **8** | **17** | **8** | **5** | **0** | **0** | **0** | **3** | **0** | **1** |
+| **Total** | **141** | **44** | **51** | **8** | **2** | **1** | **22** | **0** | **13** |
 
-**Slides 6–14 are architecture only** and carry no classified statements.
+**Slides 9–14 are architecture only** and carry no classified statements.
 
-**Four observations.**
+**Six observations.**
 
 **Slide 3 is the most heavily `SUPPORTING` material in the programme so far.**
 Seven of its sixteen statements come from `S2`, `S3` and `S4` directly, because
@@ -132,9 +135,20 @@ it must defuse are **defined in the BEP, not in the matrix**. `S1` §4.2, §4.3 
 because the *allocation ≠ performance* distinction rests on `S9` — the only
 source in the inventory that looked at the live environment.
 
+**Slide 6 is the most heavily `CONTROLLED` slide in the module — 14 of 20.**
+Every one of the seven function terms is defined verbatim in `S1` §5.12, and the
+refusal of RACI is stated twice over. **The vocabulary slide needs almost no
+interpretation, because the BEP wrote the vocabulary.**
+
+**Slide 7 inverts that balance — 8 of 20 are `INTERP`.** Reading a cell is an
+act of interpretation: no source describes the matrix as a grid of 297 cells, or
+counts how often each value appears. **The census in `M5-S7-03` and `M5-S7-04`
+was produced by inspection and is labelled as such.**
+
 **No `SYNTH` statement exists anywhere in the module.** Every statement across
-the five developed slides either cites a source or is expressly `EXCLUDED` —
-see §5.1.
+the eight developed slides either cites a source or is expressly `EXCLUDED` —
+see §5.1. **This was not engineered:** each T5-C statement was classified on its
+own evidence, and none required unsupported presenter framing.
 
 ### 5.1 Classification reconciliation — recorded in T5-B
 
@@ -318,6 +332,103 @@ and the five unobserved containers are not evidence of anything.
 the module's most likely organisational misreading. **`S1` §4.4 is the governing
 statement**, not `S3` §2 — the matrix applies a rule the BEP sets.
 
+### Slide 6 — The seven-term grammar, and the two values that carry the gaps
+
+| ID | Statement | Source path | Section | Auth | Governance | Implementation | Class |
+|---|---|---|---|---|---|---|---|
+| `M5-S6-01` | **The approved responsibility grammar has seven terms**, defined by the BEP and implemented as codes by the matrix | `bep/…BEP.md` §5.12; `supporting/information-management-responsibility-matrix.md` §1 | — | 1, 2 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M5-S6-02` | **`P` Perform** — *"Carries out the activity"* | `bep/…BEP.md` | §5.12 | 1 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M5-S6-03` | **`Ck` Check** — *"Verifies against a defined requirement"* | `bep/…BEP.md` | §5.12 | 1 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M5-S6-04` | **`Au` Authorise** — *"Permits progression, for a defined purpose"* | `bep/…BEP.md` | §5.12 | 1 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M5-S6-05` | **`Co` Coordinate** — *"Organises across parties or task teams"* | `bep/…BEP.md` | §5.12 | 1 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M5-S6-06` | **`Ac` Accept** — *"Receives for an identified purpose"* | `bep/…BEP.md` | §5.12 | 1 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M5-S6-07` | **`Cs` Consult** — *"Is asked before the act"* | `bep/…BEP.md` | §5.12 | 1 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M5-S6-08` | **`In` Inform** — *"Is told after the act"* | `bep/…BEP.md` | §5.12 | 1 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M5-S6-09` | *"The matrix will use these terms **and no others**"* | `bep/…BEP.md` | §5.12 | 1 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M5-S6-10` | **`TBD`** — *"Allocation unresolved. The BEP records this authority as **not established**."* | `supporting/information-management-responsibility-matrix.md` | §1 | 2 | **`UNRESOLVED`** | — | **`SUPPORTING`** |
+| `M5-S6-11` | **`—`** — *"The role holds **no function in this activity**."* | `supporting/information-management-responsibility-matrix.md` | §1 | 2 | **`PROPOSED GOVERNANCE`** | — | **`SUPPORTING`** |
+| `M5-S6-12` | **`TBD` and `—` are not function codes, and they are not equivalent.** One records an unresolved allocation; the other records a role with no part in the activity | `supporting/information-management-responsibility-matrix.md` §1 — the two are separately defined | — | 4 | — | — | **`INTERP`** |
+| `M5-S6-13` | **"RACI is not adopted."** Stated independently in both sources | `bep/…BEP.md` §5.12; `supporting/information-management-responsibility-matrix.md` §1 | — | 1, 2 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M5-S6-14` | The recorded reason — RACI *"collapses"* **checking from authorising** and **coordinating from performing**, *"distinctions this BEP depends on"* | `bep/…BEP.md` | §5.12 | 1 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M5-S6-15` | *"RACI is **not to be introduced unless explicitly approved later**"* | `bep/…BEP.md` | §5.12 | 1 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M5-S6-16` | **Verification is recorded as `Ck`** — *"since verification is checking against a defined requirement"* | `supporting/information-management-responsibility-matrix.md` | §1 | 2 | **`PROPOSED GOVERNANCE`** | — | **`SUPPORTING`** |
+| `M5-S6-17` | **The grammar belongs to the IM Responsibility Matrix alone.** The codes appear in no other resource; the container matrix uses parties and task teams, the schedule uses sixteen named fields | `supporting/information-management-responsibility-matrix.md` §1; `supporting/model-information-responsibility-matrix.md` §3; `supporting/information-delivery-schedule.md` §1 | — | 4 | — | — | **`INTERP`** |
+| `M5-S6-18` | **A second, different vocabulary exists and is not the grammar.** `S1` §9.2 defines a **decision terminology** — Check · Review · Authorise · Accept · Reject · Coordinate — which **adds** *Review* and *Reject* and **omits** Perform, Consult and Inform. *"These terms are not collapsed into 'approval'"* | `bep/…BEP.md` | §9.2 | 1 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M5-S6-19` | The grammar records **functions** — *"not job titles and not people"* — and *"**Authority comes from governance.** Not from platform access, permission or configuration"* | `bep/…BEP.md` | §4.6, §9.1 | 1 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M5-S6-20` | Any mapping of a code to R, A, C or I; any invented code; any suitability, status or naming code | — | — | — | — | — | **`EXCLUDED`** |
+
+**Teaching warning — `M5-S6-18`.** The two vocabularies are **recorded, not
+harmonised**. If the audience hears *Review* or *Reject* and looks for a code,
+say plainly that the grammar has no code for either — they belong to `S1` §9.2's
+decision terminology, which serves a different purpose.
+
+### Slide 7 — Reading a cell: what a populated cell does and does not prove
+
+| ID | Statement | Source path | Section | Auth | Governance | Implementation | Class |
+|---|---|---|---|---|---|---|---|
+| `M5-S7-01` | **A cell is the intersection of one information-management activity row and one functional-role column** | `supporting/information-management-responsibility-matrix.md` §3 — structure by inspection | — | 4 | — | — | **`INTERP`** |
+| `M5-S7-02` | **A populated cell records which function or functions that role holds in that activity** — and nothing further | `supporting/information-management-responsibility-matrix.md` §1, §3 | — | 4 | **`PROPOSED GOVERNANCE`** | — | **`INTERP`** |
+| `M5-S7-03` | **33 rows × 9 columns = 297 cells, and not one is blank.** Every cell carries a code, `TBD`, or `—` | `supporting/information-management-responsibility-matrix.md` §3.1–§3.7 — **census by inspection** | — | 4 | — | — | **`INTERP`** |
+| `M5-S7-04` | **The census** — `—` 131 · `Cs` 69 · `In` 34 · `P` 18 · `Co` 13 · `TBD` 10 · `Ck` 10 · `P Co` 5 · `P Ck` 2 · `Au` 2 · `TBD Ac` 1 · `P Cs` 1 · `Co Ck` 1 | `supporting/information-management-responsibility-matrix.md` §3.1–§3.7 — **census by inspection** | — | 4 | — | — | **`INTERP`** |
+| `M5-S7-05` | **One cell may record more than one function.** `P Co`, `P Ck`, `P Cs`, `Co Ck` and `TBD Ac` all occur | `supporting/information-management-responsibility-matrix.md` | §3.1–§3.7 | 2 | **`PROPOSED GOVERNANCE`** | — | **`SUPPORTING`** |
+| `M5-S7-06` | **A combined value records no sequence, priority, chronology, hierarchy, competence, separate people or successful performance.** No source states an order between codes in a cell | none states an ordering — **recorded absence** | — | 4 | — | — | **`INTERP`** |
+| `M5-S7-07` | **`P1` Author information in WIP** — Author **`P`**, Task-Team Lead `Co`; every other role `—` | `supporting/information-management-responsibility-matrix.md` | §3.3 | 2 | **`PROPOSED GOVERNANCE`** | **`IMPLEMENTATION UNVERIFIED`** | **`SUPPORTING`** |
+| `M5-S7-08` | **`P2` task-team technical / content check** — Checker **`Ck`**, Task-Team Lead **`Co Ck`**, Author `Cs` | `supporting/information-management-responsibility-matrix.md` | §3.3 | 2 | **`PROPOSED GOVERNANCE`** | **`IMPLEMENTATION UNVERIFIED`** | **`SUPPORTING`** |
+| `M5-S7-09` | **`P3` information-quality / readiness check** — Checker **`Ck`**; BIM Manager and BIM Coordinator `Cs` | `supporting/information-management-responsibility-matrix.md` | §3.3 | 2 | **`PROPOSED GOVERNANCE`** | **`IMPLEMENTATION UNVERIFIED`** | **`SUPPORTING`** |
+| `M5-S7-10` | **`P4` authorise WIP information for controlled sharing** — Task-Team Lead **`Au`** | `supporting/information-management-responsibility-matrix.md` §3.3; `bep/…BEP.md` §9.4 | — | 2, 1 | **`ESTABLISHED ALLOCATION`** | **`IMPLEMENTATION UNVERIFIED`** | **`SUPPORTING`** |
+| `M5-S7-11` | *"An Author does **not** self-authorise merely because they authored the information"* | `supporting/information-management-responsibility-matrix.md` §3.3 `P1`/`P4` note; `bep/…BEP.md` §5.8 | — | 2, 1 | **`CONTROLLED GOVERNANCE`** | — | **`SUPPORTING`** |
+| `M5-S7-12` | *"**Check is not Authorise.** Checking confirms readiness for the next controlled decision; **it does not permit progression**"* | `supporting/information-management-responsibility-matrix.md` §3.3 `P2`/`P3` note; `bep/…BEP.md` §9.3 | — | 2, 1 | **`CONTROLLED GOVERNANCE`** | — | **`SUPPORTING`** |
+| `M5-S7-13` | **`Au` appears exactly twice in 297 cells** — at `P4`, and at the IM matrix sharing row allocating authorisation to consume or reference Shared information for a stated purpose. **Both are held by the Task-Team Lead** | `supporting/information-management-responsibility-matrix.md` §3.3, §3.4 — **census by inspection** | — | 4 | **`PROPOSED GOVERNANCE`** | — | **`INTERP`** |
+| `M5-S7-14` | **`Ac` appears once, and only inside `TBD Ac`.** **No acceptance allocation is resolved anywhere in the matrix** | `supporting/information-management-responsibility-matrix.md` §3.6 `D7` — **census by inspection** | — | 4 | **`UNRESOLVED`** | — | **`INTERP`** |
+| `M5-S7-15` | **`TBD Ac` at `D7`** — acceptance is the relevant function at that cell, **the allocation and the authority remain unresolved**, and the value proves **no exchange has been accepted** | `supporting/information-management-responsibility-matrix.md` §3.6 `D7` note; `bep/…BEP.md` §9.8, §10.11 | — | 2, 1 | **`UNRESOLVED`** | **`NOT DEMONSTRATED`** | **`SUPPORTING`** |
+| `M5-S7-16` | **`P4` and `D4` carry different authority statuses.** `P4` is expressly established by `S1` §9.4; **`D4` reads `TBD` in every one of its five allocated columns** | `bep/…BEP.md` §9.4, §9.7; `supporting/information-management-responsibility-matrix.md` §3.3, §3.6 | — | 1, 2 | **`ESTABLISHED ALLOCATION`** / **`UNRESOLVED`** | — | **`CONTROLLED`** |
+| `M5-S7-17` | **A populated cell does not record** the holder's name · that anyone was appointed · that the activity occurred · that a check was independent · authority beyond the exact function recorded · competence · contractual authority · platform permission · completion | `supporting/information-management-responsibility-matrix.md` §2, §5; `bep/…BEP.md` §5.2, §9.1 | — | 4 | — | **`IMPLEMENTATION UNVERIFIED`** | **`INTERP`** |
+| `M5-S7-18` | *"**Authority comes from governance.** Not from platform access, permission or configuration"* | `bep/…BEP.md` | §9.1 | 1 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M5-S7-19` | Approval workflow mechanics; CDE transition detail; `TRN-E03`; recipient acceptance mechanics; a full technical-review procedure | — | — | — | — | — | **`EXCLUDED`** — **Module 4, Slides 9–12 and Module 6 own them** |
+| `M5-S7-20` | Completing `D4`, `D7` or `A2` | — | — | — | — | — | **`EXCLUDED`** |
+
+**Teaching warning — `M5-S7-03` / `M5-S7-04` / `M5-S7-13` / `M5-S7-14`.** These
+four are **counts produced by inspecting the matrix**, not statements any source
+makes. They are classified `INTERP` and **must be presented as observations about
+the document**, not as governance. Their value is that they are checkable: anyone
+can open the matrix and count.
+
+**Teaching warning — `M5-S7-16`.** `D4` is shown **only** to demonstrate the
+status boundary. **No `D4` cell may be completed, and no publication or delivery
+mechanic may be taught here.**
+
+### Slide 8 — One person, two roles — allocation is not independence
+
+| ID | Statement | Source path | Section | Auth | Governance | Implementation | Class |
+|---|---|---|---|---|---|---|---|
+| `M5-S8-01` | *"**One participant may hold more than one role** in this training implementation"* | `supporting/information-management-responsibility-matrix.md` §5; `bep/…BEP.md` §5.11, §9.12 | — | 2, 1 | **`PROPOSED GOVERNANCE`** | — | **`SUPPORTING`** |
+| `M5-S8-02` | *"**Combining roles does not combine the functions.** The responsibilities remain distinct in meaning"* | `bep/…BEP.md` | §5.11 | 1 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M5-S8-03` | *"A participant performing two functions must know **which function they are performing at each decision point**"* | `bep/…BEP.md` | §5.11, §9.12 | 1 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M5-S8-04` | Author and Checker may be performed by the same participant *"**where independence cannot reasonably be provided**"* | `bep/…BEP.md` | §5.8 | 1 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M5-S8-05` | *"**self-checking is still a checking act with a defined requirement, not an omission of one**"* | `bep/…BEP.md` | §5.8 | 1 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M5-S8-06` | *"the combination is **recorded**, so the limitation is **visible in the evidence**"* | `bep/…BEP.md` | §5.8 | 1 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M5-S8-07` | *"**Independence is never claimed where it does not exist**"*; *"**Independent checking is not claimed where it did not occur.** Where one participant performed both the authoring and the checking, the record says so"* | `bep/…BEP.md` | §5.8, §9.12 | 1 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M5-S8-08` | *"**Fictional independence is worse than an acknowledged limitation**, because it removes the reader's ability to weigh the information"* — **Harrismith supporting-resource wording, not an external standard** | `supporting/information-management-responsibility-matrix.md` | §5 | 2 | **`PROPOSED GOVERNANCE`** | — | **`SUPPORTING`** |
+| `M5-S8-09` | The BEP's parallel formulation — *"An overstated independence claim is more damaging than an acknowledged limitation, because it **removes the reader's ability to weigh the evidence**"* | `bep/…BEP.md` | §9.12 | 1 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M5-S8-10` | The matrix *"does **not** demonstrate that separate people perform them, and **it must not be read as evidence of independence**"* | `supporting/information-management-responsibility-matrix.md` | §5 | 2 | **`PROPOSED GOVERNANCE`** | — | **`SUPPORTING`** |
+| `M5-S8-11` | **Separate Author and Checker *columns* do not establish separate *people*.** A column is a functional role; a role is not a headcount | `supporting/information-management-responsibility-matrix.md` §2, §5; `bep/…BEP.md` §4.6 | — | 4 | — | — | **`INTERP`** |
+| `M5-S8-12` | **`TA-02`** — participants may exercise defined roles for training purposes; *"**Doing so creates no real professional authority, contractual appointment, duty or liability**"* | `supporting/governance-decision-register.md` | `TA-02` | 2 | **`TRAINING ASSUMPTION`** | — | **`SUPPORTING`** |
+| `M5-S8-13` | **Role combination is not automatically a defect**, a non-conformance, evidence of inadequate competence, or evidence that checking did not occur | `bep/…BEP.md` §5.8, §5.11 — the combination is expressly permitted and recorded | — | 4 | — | — | **`INTERP`** |
+| `M5-S8-14` | **No `NON-CONFORMANCE` entry is recorded** in the register, and *"**none is asserted or recorded**"* | `supporting/governance-decision-register.md` | §Classification vocabulary | 2 | **`PROPOSED GOVERNANCE`** | — | **`SUPPORTING`** |
+| `M5-S8-15` | *"**Delegation must be explicit**"*; *"**Platform permission does not constitute delegation**"* | `bep/…BEP.md` | §5.11, §9.12 | 1 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M5-S8-16` | **The degree of independence changes how the evidence should be weighed** — which is why the limitation is recorded rather than obscured | `bep/…BEP.md` §5.8, §9.12; `supporting/information-management-responsibility-matrix.md` §5 | — | 4 | — | — | **`INTERP`** |
+| `M5-S8-17` | Assurance sampling; independence requirements for a real appointment; professional certification; technical or design approval; competence assessment; a complete review procedure; a remedy for insufficient independence | — | — | — | — | — | **`EXCLUDED`** — **Module 6 and future project-specific governance own them** |
+
+**Teaching warning — `M5-S8-08`.** Deliver this as **Harrismith's own recorded
+position**, attributed to the supporting resource. It is not a universal
+professional standard and must not be presented as one. `M5-S8-09` is the BEP's
+parallel wording and may be used alongside it.
+
+**Teaching warning — `M5-S8-13` / `M5-S8-14`.** Together these stop the slide
+tipping into criticism. **The sources permit role combination and record no
+non-conformance.** Slide 8 explains a limitation on what the evidence proves — it
+does not allege a failing.
+
 ---
 
 ## 6. Terminology register — exact controlled wording
@@ -354,6 +465,7 @@ statement**, not `S3` §2 — the matrix applies a rule the BEP sets.
 | **5** | ***Publication*** means project information publication (`S1` §9.7) **and** the training-baseline publication arrangement (`PAD-001`) | **Two unrelated senses.** See [`source-inventory.md`](source-inventory.md) §5 |
 | **6** | ***Lead*** is a role column in `S2`, a lead function in `S3`, and an approved field in `S4` | `S4`'s is the defined field |
 | **7** | **Identifier collision** — `S2`'s sharing rows are numbered `S1`, `S2`, `S3` | Module 5 always writes *"the IM matrix sharing rows"* |
+| **8** | **Two vocabularies, one project.** `S1` §5.12 defines the **seven-term responsibility grammar**; `S1` §9.2 defines a **six-term decision terminology** — Check · Review · Authorise · Accept · Reject · Coordinate | **Recorded, not merged.** §9.2 **adds** *Review* and *Reject*, which have **no code**, and **omits** Perform, Consult and Inform. Both are controlled; they answer different questions — *who holds which function* against *what kind of decision was made*. **Neither is rewritten to match the other** |
 
 ---
 
@@ -475,8 +587,8 @@ allocation; delivery events, purpose and suitability"*.
 
 ## 9. Prohibited claims
 
-**Fifty-nine claims Module 5 may not make.** Grouped by the error each would
-commit. Claims 51–59 were added in **T5-B**.
+**Seventy-five claims Module 5 may not make.** Grouped by the error each would
+commit. Claims 51–59 were added in **T5-B**; claims 60–75 in **T5-C**.
 
 ### 9.1 Collapsing the three resources — 6
 
@@ -577,14 +689,47 @@ commit. Claims 51–59 were added in **T5-B**.
 | 58 | That **authorship can be inferred from folder location** (`S1` §7.2) |
 | 59 | That a **mapping between party, task team, discipline, platform team and IM role is an identity**. *"a mapping is not an identity"* (`S1` §4.2) |
 
-### 9.9 Programme-status claims — required in every increment
+### 9.9 Additional prohibitions recorded in T5-C — 16
+
+**Reading the vocabulary**
+
+| # | Prohibited claim |
+|---|---|
+| 60 | That **`TBD` means a holder exists but has not yet been named.** It records that the allocation or authority is **not established** — and carries no promise that one will be |
+| 61 | That **`—` means the role, the person or the party is absent from the project.** It records that the role holds **no function in that activity**, and nothing else |
+| 62 | That the grammar records **seniority, contractual authority or platform permission**. *"Authority comes from governance"* (`S1` §9.1) |
+| 63 | That *Review* or *Reject* has a grammar code. They belong to `S1` §9.2's **decision terminology**, which is a different vocabulary |
+
+**Reading a cell**
+
+| # | Prohibited claim |
+|---|---|
+| 64 | That a **combined cell value establishes sequence, priority, chronology or hierarchy.** No source states an order between codes in a cell |
+| 65 | That a **combined cell value implies separate people**, competence, or successful performance |
+| 66 | That a **populated `Ck` cell proves independent checking** |
+| 67 | That **`Au` creates professional or contractual authority** beyond the defined progression it permits, for the defined purpose |
+| 68 | That **`Ac` is allocated anywhere in the matrix as a resolved function.** It appears **once**, inside **`TBD Ac`** |
+| 69 | That **`TBD Ac` proves an exchange was accepted**, or that it resolves recipient acceptance authority |
+| 70 | That **`P4` and `D4` carry the same authority status** |
+| 71 | That **coordination (`Co`) equals authorisation**, or that **consultation (`Cs`) equals approval** |
+| 72 | That **checking permits progression** — *"it does not permit progression"* (`S2` `P2`/`P3` note; `S1` §9.3) |
+
+**Role combination and independence**
+
+| # | Prohibited claim |
+|---|---|
+| 73 | That **separate Author and Checker columns prove separate people** |
+| 74 | That **role combination is automatically a defect, a non-conformance, evidence of inadequate competence, or evidence that checking did not occur.** The register records **no non-conformance**, and *"none is asserted"* |
+| 75 | That **simulated role participation creates real professional authority, contractual appointment, duty or liability** (`TA-02`); or that **independence may be claimed for presentation neatness**; or that **Slide 8 establishes an assurance procedure, an independence requirement, or a remedy** |
+
+### 9.10 Programme-status claims — required in every increment
 
 | # | Prohibited claim |
 |---|---|
 | A | That a **PowerPoint is tracked in this repository** — none is, in any module |
 | B | That **presentation timing has been measured** — it is **`20.0 minutes allocated — not measured`** |
 | C | That **Module 6 mechanics have been completed**, or that Module 5 teaches them |
-| D | That Slides 4–14 are developed — **they are architecture only** |
+| D | That Slides 9–14 are developed — **they are architecture only** |
 
 ---
 
@@ -606,7 +751,7 @@ function's operational workflow.
 | Assurance sampling and coordination evidence | Not taught |
 | Complete review and acceptance cycles | Module 5 records `GCR-006` as **open** and stops |
 
-**Test to apply when developing Slides 4–14:** if a slide explains **how a
+**Test to apply when developing Slides 9–14:** if a slide explains **how a
 coordination run is performed, how a finding is triaged, how an Issue is closed,
 or how a review is conducted**, it has left Module 5.
 
@@ -626,7 +771,7 @@ decisions. Slide 14 poses the questions; it answers none.
 | Deferred to | Content |
 |---|---|
 | ~~T5-B~~ | ~~Responsibility-matrix purposes and distinctions — Slides 4–5~~ — **COMPLETE** |
-| **T5-C** | Matrix-cell grammar and allocation boundaries — Slides 6–8 |
+| ~~T5-C~~ | ~~Matrix-cell grammar and allocation boundaries — Slides 6–8~~ — **COMPLETE** |
 | **T5-D** | Delivery events and schedule construction — Slides 9–12 |
 | **T5-E** | Slides 13–14 and the complete content baseline |
 | **T5-F** | Visual specifications and visual-source set |
@@ -639,12 +784,13 @@ decisions. Slide 14 poses the questions; it answers none.
 
 | Field | Value |
 |---|---|
-| Increment | **T5-B** |
-| Slides classified | **1–5.** **84 statements** |
-| Slides 6–14 | **Architecture only** — no classified statements |
+| Increment | **T5-C** |
+| Slides classified | **1–8.** **141 statements** |
+| Slides 9–14 | **Architecture only** — no classified statements |
 | Registers | **Six** — source authority, terminology, hypothesis, unresolved, prohibited claims, boundary deferrals |
-| Hypotheses tested | **25** — `H-G1`–`H-G7`, `H-D1`–`H-D16`, `H-C1`–`H-C2`. **Unchanged in T5-B** |
-| Prohibited claims | **59**, plus 4 standing programme-status prohibitions |
-| Classification scheme | **Reconciled in T5-B** — `SYNTH` redefined; `M5-S2-14` reclassified `INTERP`. See §5.1 |
+| Hypotheses tested | **25** — `H-G1`–`H-G7`, `H-D1`–`H-D16`, `H-C1`–`H-C2`. **Unchanged in T5-C** |
+| Prohibited claims | **75**, plus 4 standing programme-status prohibitions |
+| Classification scheme | **Reconciled in T5-B** — `SYNTH` redefined; `M5-S2-14` reclassified `INTERP`. **Unchanged in T5-C**; see §5.1 |
+| Terminology variances | **8** — one added in T5-C: the grammar (`S1` §5.12) and the decision terminology (`S1` §9.2) are **two vocabularies, recorded not merged** |
 | Timing | **`20.0 minutes allocated — not measured`** |
-| Outstanding | **T5-C** — Slides 6–8 — and later increments |
+| Outstanding | **T5-D** — Slides 9–12 — and later increments |
