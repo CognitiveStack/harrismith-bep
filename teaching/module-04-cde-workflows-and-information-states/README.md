@@ -2,8 +2,9 @@
 
 **Status:** Active module. Structure, source inventory, the **complete Slides
 1–14 teaching-content baseline**, **complete specifications for all fourteen
-visuals**, and a **complete visual-source baseline**. **Not governance, and not a
-complete module** — no assembly package, no rendered asset, no deck.
+visuals**, a **complete visual-source baseline** and a **complete presentation
+assembly package**. **Not governance, and not a complete module** — no rendered
+asset, no deck, no review, no rehearsal.
 
 ---
 
@@ -92,15 +93,15 @@ A **20-minute presentation**, using Harrismith as the worked example.
 | Transfer context | A future Triviron multidisciplinary project |
 | Current state | **Teaching-content baseline complete — Slides 1–14.** Module not complete |
 
-**This presentation does not exist yet.** What exists after T4-A to T4-E-B:
+**This presentation does not exist yet.** What exists after T4-A to T4-F:
 
 | Established | Outstanding |
 |---|---|
 | Module structure (T4-A) | **Visual source set** — `teaching/assets/module-04/` |
-| **Source inventory** — exact paths, precedence, registers (T4-A) | **Assembly package — next** |
-| Terminology register, with variance recorded (T4-A) | PowerPoint |
-| **Transition register** — all eight steps verified (T4-A) | Review |
-| Implementation-status register (T4-A) | **Rehearsal and measured timing** |
+| **Source inventory** — exact paths, precedence, registers (T4-A) | **PowerPoint — produced externally (T4-G)** |
+| Terminology register, with variance recorded (T4-A) | Review |
+| **Transition register** — all eight steps verified (T4-A) | **Rehearsal and measured timing** |
+| Implementation-status register (T4-A) | |
 | 20-minute, fourteen-slide architecture (T4-A) | |
 | **Slides 1–3** (T4-A) | |
 | **Slides 4–7 — Section B, the four states** (T4-B) | |
@@ -116,6 +117,7 @@ A **20-minute presentation**, using Harrismith as the worked example.
 | Visual specifications `W12`–`W14` (T4-D) | |
 | **Visual specifications `W1`–`W3` — all fourteen now specified** (T4-E-A) | |
 | **Visual-source baseline** — `M04-S01`–`M04-S14` in [`../assets/module-04/`](../assets/module-04/) (T4-E-B) | |
+| **Presentation assembly package** — [`presentation/`](presentation/), seven files (T4-F) | |
 
 ## 5. What makes this module different
 
@@ -255,6 +257,25 @@ being filled with a plausible value."*
 | [`visual-demonstration-plan.md`](visual-demonstration-plan.md) | **All fourteen visuals specified in full** — `W1`–`W14`, with fixed form, geometry, connector semantics, accessibility and STOP conditions |
 | [`exercises.md`](exercises.md) | **Seventy-one** practice and self-assessment exercises |
 | [`source-map.md`](source-map.md) | Statement classification, the **seven registers**, the **module-wide final reconciliation** and the **prohibited-claims list** |
+| [`presentation/`](presentation/) | **The assembly package (T4-F)** — the PowerPoint-production handoff |
+| [`../assets/module-04/`](../assets/module-04/) | The **visual-source set (T4-E-B)** — `M04-S01`–`M04-S14`, and the register and map |
+
+### Reading order for production
+
+| # | File | For |
+|---|---|---|
+| 1 | [`presentation/README.md`](presentation/README.md) | What the package is, and the seventeen things a producer must not do |
+| 2 | [`presentation/deck-specification.md`](presentation/deck-specification.md) | The whole deck — design rules and fourteen slide specifications |
+| 3 | [`presentation/slide-copy.md`](presentation/slide-copy.md) | **Visible wording only** |
+| 4 | [`presentation/asset-manifest.md`](presentation/asset-manifest.md) | Every visual and its **native PowerPoint treatment** |
+| 5 | [`presentation/presenter-cues.md`](presentation/presenter-cues.md) | What the presenter says — cues, not a script |
+| 6 | [`presentation/production-checklist.md`](presentation/production-checklist.md) | Build checks, **seventeen STOP failures**, accessibility |
+| 7 | [`presentation/review-checklist.md`](presentation/review-checklist.md) | Reviewing the first deck, and **fourteen automatic fails** |
+
+**The package does not supersede the sources it carries.** Where it and a slide
+source differ, the slide source is correct; where a slide source and
+[`visual-demonstration-plan.md`](visual-demonstration-plan.md) differ, the plan
+is correct.
 
 [`source-inventory.md`](source-inventory.md) records what each source actually
 says, where the sources differ, and what remains unresolved.
@@ -265,7 +286,7 @@ itself.
 
 | Field | Value |
 |---|---|
-| Module 4 | **CURRENT — ACTIVE.** Content baseline, visual specifications and visual source complete; module not complete |
+| Module 4 | **CURRENT — ACTIVE.** Content baseline, visual specifications, visual source and assembly package complete; module not complete |
 | Structure | **Established (T4-A)** |
 | Source inventory | **Complete (T4-A)** |
 | **Teaching-content baseline** | **COMPLETE (T4-D)** — Slides 1–14 |
@@ -278,8 +299,8 @@ itself.
 | Slides developed | **1–14** — Sections A (T4-A), B (T4-B), C (T4-C), D and E (T4-D) |
 | Slides outstanding | **None** |
 | Visual source | **COMPLETE (T4-E-B)** — [`../assets/module-04/`](../assets/module-04/): fourteen `M04-S01`–`M04-S14` native-layout sources, all **`SOURCE COMPLETE`**. **Rendered assets: `NONE`** |
-| Assembly package | **None — the next increment** |
-| PowerPoint | **None** |
+| Assembly package | **COMPLETE (T4-F)** — [`presentation/`](presentation/): README, deck specification, slide copy, presenter cues, asset manifest, production checklist, review checklist |
+| PowerPoint | **None.** Produced **externally (T4-G)** after the package is audited and accepted; **not committed to this repository** |
 | Review and rehearsal | **Outstanding** |
 | Timing | **20.0 minutes allocated. Never measured** — every figure is an allocation until Exercise 64 has been run |
 | Modules 1–3 | Content, visual source, assembly package and PowerPoint produced; **review and rehearsal deferred** |

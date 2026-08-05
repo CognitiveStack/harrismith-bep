@@ -131,7 +131,8 @@ teaching/
 │   ├── speaker-notes.md             notes for Slides 1–14, plus closing and recovery
 │   ├── visual-demonstration-plan.md all fourteen visuals specified, W1–W14
 │   ├── exercises.md                 practice and self-assessment — 71 exercises
-│   └── source-map.md                244 statements, seven registers, 99 prohibited claims
+│   ├── source-map.md                244 statements, seven registers, 99 prohibited claims
+│   └── presentation/                assembly package — production handoff
 ├── shared/
 │   ├── glossary.md                  teaching glossary across all modules
 │   └── presentation-principles.md   how these presentations are built
