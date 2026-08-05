@@ -2,11 +2,12 @@
 
 **Status:** Traceability record for teaching material. **Not governance.**
 
-Statement-level classification for **Slides 1–3** — the only slides developed in
-increment **T5-A** — plus the terminology register, the hypothesis register, the
-unresolved register, the prohibited claims and the Module 6 deferrals.
+Statement-level classification for **Slides 1–5** — the slides developed in
+increments **T5-A** (1–3) and **T5-B** (4–5) — plus the terminology register, the
+hypothesis register, the unresolved register, the prohibited claims and the
+Module 6 deferrals.
 
-**Slides 4–14 exist as architecture only.** They carry no classified statements
+**Slides 6–14 exist as architecture only.** They carry no classified statements
 and no developed content. See
 [`presentation-outline.md`](presentation-outline.md) §3.
 
@@ -25,9 +26,15 @@ Source identifiers `S1`–`S15` are defined in
 | **`DECISION-RECORD`** | Controlled decision, approval or validation record — `S8`, `S9`, `S10` |
 | **`MODULE-2-4`** | Earlier-module teaching interpretation, already established — `S13`, `S14` |
 | **`TEACHING-PLAN`** | Programme planning material — `S15`. **Decides nothing** |
-| **`INTERP`** | Supported interpretation; no source phrases it this way |
-| **`SYNTH`** | Teaching synthesis; no source support |
+| **`INTERP`** | Supported interpretation — **cited sources support the construction**, but no source phrases it this way |
+| **`SYNTH`** | Teaching synthesis — **no source states the wording and none is cited in support**. Presenter framing only |
 | **`EXCLUDED`** | Considered and deliberately left out |
+
+**`INTERP` and `SYNTH` are separated by whether a source is cited, not by
+whether the wording is original.** Both classes describe statements no controlled
+document phrases; `INTERP` records the sources the construction rests on, and
+`SYNTH` records that there are none. **A statement with a source reference is
+never `SYNTH`** — see §5.1.
 
 ## 2. Governance and implementation status
 
@@ -93,31 +100,81 @@ Source identifiers `S1`–`S15` are defined in
 
 ---
 
-## 5. Statement classification — Slides 1–3
+## 5. Statement classification — Slides 1–5
 
-**43 statements. 8 `CONTROLLED`, 13 `SUPPORTING`, 7 `DECISION-RECORD`,
-2 `MODULE-2-4`, 1 `TEACHING-PLAN`, 6 `INTERP`, 1 `SYNTH`, 5 `EXCLUDED`.**
+**84 statements. 20 `CONTROLLED`, 35 `SUPPORTING`, 8 `DECISION-RECORD`,
+2 `MODULE-2-4`, 1 `TEACHING-PLAN`, 9 `INTERP`, 0 `SYNTH`, 9 `EXCLUDED`.**
 
 | Slide | Statements | `CTRL` | `SUPP` | `DEC` | `M2-4` | `PLAN` | `INT` | `SYN` | `EXC` |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | 1 | 12 | 3 | 3 | 2 | 2 | 1 | 0 | 0 | 1 |
-| 2 | 15 | 3 | 3 | 5 | 0 | 0 | 2 | 1 | 1 |
+| 2 | 15 | 3 | 3 | 5 | 0 | 0 | 3 | 0 | 1 |
 | 3 | 16 | 2 | 7 | 0 | 0 | 0 | 4 | 0 | 3 |
-| **Total** | **43** | **8** | **13** | **7** | **2** | **1** | **6** | **1** | **5** |
+| **4** | **19** | **5** | **10** | **0** | **0** | **0** | **2** | **0** | **2** |
+| **5** | **22** | **7** | **12** | **1** | **0** | **0** | **0** | **0** | **2** |
+| **Total** | **84** | **20** | **35** | **8** | **2** | **1** | **9** | **0** | **9** |
 
-**Three observations.**
+**Slides 6–14 are architecture only** and carry no classified statements.
+
+**Four observations.**
 
 **Slide 3 is the most heavily `SUPPORTING` material in the programme so far.**
 Seven of its sixteen statements come from `S2`, `S3` and `S4` directly, because
 the three resources **describe themselves and each other explicitly**. Very
 little interpretation is needed to keep them apart — the documents do it.
 
-**Only one `SYNTH` statement exists across all three slides**, and it is a
-learning-objective line, not a factual claim.
+**Slide 5 is the most heavily `CONTROLLED` slide in the module.** Seven of its
+twenty-two statements come from `S1` directly — because the organisational traps
+it must defuse are **defined in the BEP, not in the matrix**. `S1` §4.2, §4.3 and
+§4.4 do the work; `S3` applies it.
 
-**Slide 2 carries five of the module's seven `DECISION-RECORD` statements**,
+**Slide 2 carries five of the module's eight `DECISION-RECORD` statements**,
 because the *allocation ≠ performance* distinction rests on `S9` — the only
 source in the inventory that looked at the live environment.
+
+**No `SYNTH` statement exists anywhere in the module.** Every statement across
+the five developed slides either cites a source or is expressly `EXCLUDED` —
+see §5.1.
+
+### 5.1 Classification reconciliation — recorded in T5-B
+
+**A prior inconsistency was found and resolved.**
+
+| | Position before T5-B |
+|---|---|
+| §1 | `SYNTH` meant *"Teaching synthesis; no source support"* |
+| `M5-S2-14` | The learning objective was classified **`SYNTH`**, source **`none`**, authority level 5 |
+| [`README.md`](README.md) §1 | Recorded the objective as *"derived from `S1` §10.5 and the three resources' own purpose statements"* |
+
+**The README and the source map contradicted each other.** One recorded cited
+sources; the other recorded none.
+
+**Resolution — the evidence was inspected, and it supports the README.** The
+learning objective's substance is source-supported on both halves:
+
+| Clause | Support |
+|---|---|
+| *"say what each governs"* | `S2`, `S3` and `S4` each state their own question and their own exclusions |
+| *"identify what remains unresolved without filling it"* | **All three resources carry an express population rule forbidding invention** — `S2` §Population rule, `S3` §Population rule, `S4` §Population rule |
+| The eight things a task team must be able to answer | `S1` §10.5 |
+
+**`M5-S2-14` is therefore reclassified `INTERP`**, at authority level 4, with its
+supporting sources recorded. It is a supported interpretation, not unsupported
+synthesis.
+
+**`SYNTH` was additionally redefined** so the ambiguity cannot recur. The old
+wording — *"no source support"* — conflated two different things. The class now
+turns on **whether a source is cited**: `INTERP` records the sources a
+construction rests on; `SYNTH` records that there are none. **A statement with a
+source reference is never `SYNTH`.**
+
+**Effect on totals.** `INTERP` 6 → **9** (one from this reclassification, two
+added on Slide 4); `SYNTH` 1 → **0**. **No count was changed to reach a preferred
+figure**, and no other statement was reclassified.
+
+**Scope note.** This refinement applies to **Module 5's scheme only**. Modules
+1–4 hold their own classification schemes in their own source maps and are
+**unchanged**.
 
 ### Slide 1 — Module 5: from who holds a role to what must be produced
 
@@ -158,7 +215,7 @@ sit at one status level internally.
 | `M5-S2-11` | *"Absence of observation is not observation of absence."* **This is not a claim that any discipline is absent, uncommitted or inactive** | `docs/Increment-7C-Live-Validation-Record.md` §7; `supporting/governance-decision-register.md` `OF-002` | — | 3, 2 | — | — | **`DECISION-RECORD`** |
 | `M5-S2-12` | **`GCR-006` remains OPEN** — no complete governed coordination cycle has been exercised or evidenced | `docs/Training-Baseline-0.1-Approval-Decision.md` `AD-001`; `docs/Increment-7C-Live-Validation-Record.md` §8 | — | 3 | **`UNRESOLVED`** | **`NOT DEMONSTRATED`** | **`DECISION-RECORD`** |
 | `M5-S2-13` | **No governed publication or acceptance authority evidence was established** | `docs/Increment-7C-Live-Validation-Record.md` | §9 | 3 | **`UNRESOLVED`** | **`NOT DEMONSTRATED`** | **`DECISION-RECORD`** |
-| `M5-S2-14` | Learning objective — *read the three resources, say what each governs, and identify what remains unresolved without filling it* | none | — | 5 | — | — | **`SYNTH`** |
+| `M5-S2-14` | Learning objective — *read the three resources, say what each governs, and identify what remains unresolved without filling it* | `S1` §10.5; `S2`, `S3`, `S4` purpose statements and **population rules** | — | 4 | — | — | **`INTERP`** |
 | `M5-S2-15` | Any date, programme, frequency or milestone for any delivery event | — | — | — | — | — | **`EXCLUDED`** |
 
 **Teaching warning — `M5-S2-09` to `M5-S2-11`.** The three must be delivered as
@@ -191,6 +248,75 @@ in `M5-S2-05` and the correction is recorded in §7 hypothesis `H-C1`.
 | `M5-S3-14` | Cell grammar, codes and their limits | — | — | — | — | — | **`EXCLUDED`** — **Slides 6–8 own it** |
 | `M5-S3-15` | Delivery-event structure and the `TRN-E03` block | — | — | — | — | — | **`EXCLUDED`** — **Slides 9–12 own it** |
 | `M5-S3-16` | Any combined or simplified single-table view of the three resources | — | — | — | — | — | **`EXCLUDED`** |
+
+### Slide 4 — Who performs which function — the IM Responsibility Matrix
+
+| ID | Statement | Source path | Section | Auth | Governance | Implementation | Class |
+|---|---|---|---|---|---|---|---|
+| `M5-S4-01` | The matrix *"allocates information-management **functions** to **roles** across the process steps defined by the BEP"* | `supporting/information-management-responsibility-matrix.md` | §Purpose | 2 | **`PROPOSED GOVERNANCE`** | — | **`SUPPORTING`** |
+| `M5-S4-02` | It answers one question — *"**who performs which information-management function?**"* | `supporting/information-management-responsibility-matrix.md` | §Purpose | 2 | **`PROPOSED GOVERNANCE`** | — | **`SUPPORTING`** |
+| `M5-S4-03` | *"Section 5 defines what each function **means**. The matrix records **how those functions are allocated**… Meaning is defined once, here; allocation is recorded once, there"* | `bep/…BEP.md` | §5.12 | 1 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M5-S4-04` | **Nine functional-role columns** — `AP`, `LDP`, `BM`, `BC`, `TTL`, `Aut`, `Chk`, `CDE`, `Rcp` | `supporting/information-management-responsibility-matrix.md` | §2, §3 | 2 | **`PROPOSED GOVERNANCE`** | — | **`SUPPORTING`** |
+| `M5-S4-05` | **33 process-function rows in seven subject groups** — governance · CDE · information production · sharing and consumption · coordination · delivery and exchange · change and assurance | `supporting/information-management-responsibility-matrix.md` | §3.1–§3.7 | 2 | **`PROPOSED GOVERNANCE`** | — | **`SUPPORTING`** |
+| `M5-S4-06` | Allocations are made *"to **functional roles**, not to companies or people. **No organisation is appointed and no individual is named**"* | `supporting/information-management-responsibility-matrix.md` | §Population rule | 2 | **`PROPOSED GOVERNANCE`** | — | **`SUPPORTING`** |
+| `M5-S4-07` | *"Functional roles only. **No holder is established for any of them.**"* | `supporting/information-management-responsibility-matrix.md` | §2 | 2 | **`UNRESOLVED`** | — | **`SUPPORTING`** |
+| `M5-S4-08` | *"These are **functions, not job titles and not people**"* | `bep/…BEP.md` | §4.6 | 1 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M5-S4-09` | The role model is *"a **conceptual functional model**, not an appointment chart and **not an organisation chart**"* | `bep/…BEP.md` | §5.2 | 1 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M5-S4-10` | **Three things it expressly does not answer** — which organisation authors a specific container; what is delivered at each milestone; which individual holds each role | `supporting/information-management-responsibility-matrix.md` | §Purpose | 2 | **`PROPOSED GOVERNANCE`** | — | **`SUPPORTING`** |
+| `M5-S4-11` | **The split status rule** — allocations are *"functional governance proposals **unless the BEP already expressly establishes the allocation**"* | `supporting/information-management-responsibility-matrix.md` | §Population rule | 2 | **`PROPOSED GOVERNANCE`** | — | **`SUPPORTING`** |
+| `M5-S4-12` | **Expressly established** — the Task-Team Lead, *"or another role explicitly allocated that function by approved governance"*, authorises information from WIP to Shared | `bep/…BEP.md` §9.4; `supporting/information-management-responsibility-matrix.md` `P4` | — | 1, 2 | **`ESTABLISHED ALLOCATION`** | **`IMPLEMENTATION UNVERIFIED`** | **`CONTROLLED`** |
+| `M5-S4-13` | **Expressly established as unresolved** — *"The role holding publication and exchange authority is **UNRESOLVED**"* | `bep/…BEP.md` §9.7; `supporting/information-management-responsibility-matrix.md` `D4` | — | 1, 2 | **`UNRESOLVED`** | — | **`CONTROLLED`** |
+| `M5-S4-14` | *"Where the BEP records an authority as unresolved, this matrix records it as unresolved **rather than filling it with a plausible role**"* | `supporting/information-management-responsibility-matrix.md` | §Population rule, §6 | 2 | **`UNRESOLVED`** | — | **`SUPPORTING`** |
+| `M5-S4-15` | **A populated allocation is not evidence of appointment.** No holder is established for any role, and the model is not an appointment chart | `supporting/information-management-responsibility-matrix.md` §2; `bep/…BEP.md` §5.2, §5.3 | — | 4 | **`UNRESOLVED`** | — | **`INTERP`** |
+| `M5-S4-16` | **A populated allocation is not evidence that the activity occurred.** The matrix records what a role holds, not what has been done | `supporting/information-management-responsibility-matrix.md` §5; `docs/Increment-7C-Live-Validation-Record.md` §7 | — | 4 | — | **`IMPLEMENTATION UNVERIFIED`** | **`INTERP`** |
+| `M5-S4-17` | *"It does **not** demonstrate that separate people perform them, and **it must not be read as evidence of independence**"* | `supporting/information-management-responsibility-matrix.md` §5; `bep/…BEP.md` §5.11 | — | 2, 1 | **`PROPOSED GOVERNANCE`** | — | **`SUPPORTING`** |
+| `M5-S4-18` | The seven function codes and their definitions, combined codes, `TBD` versus `—`, worked rows, `P1`–`P4`, and `D4` / `D7` in detail | — | — | — | — | — | **`EXCLUDED`** — **Slides 6–7 own them** |
+| `M5-S4-19` | Separation-of-duty mechanics; coordination workflow mechanics | — | — | — | — | — | **`EXCLUDED`** — **Slide 8 and Module 6 own them** |
+
+**Teaching warning — `M5-S4-11` to `M5-S4-14`.** These four are a set. Delivering
+`M5-S4-11` without `M5-S4-12` and `M5-S4-13` leaves the split rule abstract; the
+audience needs one allocation the BEP **establishes** and one it **establishes as
+unresolved** to see that the rule cuts both ways.
+
+**Teaching warning — `M5-S4-18`.** The codes are visible in any reproduction of
+the matrix. **Naming that a code set exists is permitted; defining any code is
+not.** If the visual shows cell values, it has left Slide 4.
+
+### Slide 5 — Who produces which container — the Model / Information Responsibility Matrix
+
+| ID | Statement | Source path | Section | Auth | Governance | Implementation | Class |
+|---|---|---|---|---|---|---|---|
+| `M5-S5-01` | The matrix *"records which party and task team is intended to produce and maintain each information container or container class"* | `supporting/model-information-responsibility-matrix.md` | §Purpose | 2 | **`PROPOSED GOVERNANCE`** | — | **`SUPPORTING`** |
+| `M5-S5-02` | It answers one question — *"**who produces and maintains which information container?**"* | `supporting/model-information-responsibility-matrix.md` | §Purpose | 2 | **`PROPOSED GOVERNANCE`** | — | **`SUPPORTING`** |
+| `M5-S5-03` | **Origination follows one chain** — `party → task team → discipline → information container` | `bep/…BEP.md` | §7.2 | 1 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M5-S5-04` | *"**Originator responsibility remains with the producing task team**, through sharing, consumption, coordination and publication. **No downstream act relieves it**"* | `bep/…BEP.md` | §7.2 | 1 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M5-S5-05` | *"**Authorship is not inferred from folder location.** Where a container sits tells you where it sits. The originator is **recorded, not deduced**"* | `bep/…BEP.md` | §7.2 | 1 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M5-S5-06` | **Six discipline design / coordination containers** — `ARC-01`, `STR-01`, `MEC-01`, `ELE-01`, `PLM-01`, `FIR-01` | `supporting/model-information-responsibility-matrix.md` | §3.1 | 2 | **`PROPOSED GOVERNANCE`** | — | **`SUPPORTING`** |
+| `M5-S5-07` | **`COORD-01` is recorded separately** as multidisciplinary coordination information, not as a seventh discipline container | `supporting/model-information-responsibility-matrix.md` | §3.4 | 2 | **`PROPOSED GOVERNANCE`** | — | **`SUPPORTING`** |
+| `M5-S5-08` | *"Mechanical, Electrical and Plumbing are task teams and disciplines that may sit within a **single MEP Consultant organisation**"* — three task teams, **one party** | `bep/…BEP.md` §4.3; `supporting/model-information-responsibility-matrix.md` §2 | — | 1, 2 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M5-S5-09` | *"**Fire is separate from MEP.**… the Fire Consultant is a distinct party, **not an MEP sub-team**"* | `bep/…BEP.md` §4.3; `supporting/model-information-responsibility-matrix.md` §2 | — | 1, 2 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M5-S5-10` | *"A discipline code identifies the **information domain** of a container. **That is all it does.**"* It does not identify the organisation, the task team, the author, a Design Collaboration team, or contractual responsibility | `bep/…BEP.md` | §4.4 | 1 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M5-S5-11` | **Five concepts, deliberately not interchangeable** — party · task team · discipline · Autodesk collaboration team · IM role. *"a mapping is **not an identity**"* | `bep/…BEP.md` | §4.2 | 1 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M5-S5-12` | **Every §3 allocation is classified `PROPOSED GOVERNANCE`**, derived from the training organisation model **`TA-03`** | `supporting/model-information-responsibility-matrix.md` §Classification; `supporting/governance-decision-register.md` `TA-03` | — | 2 | **`PROPOSED GOVERNANCE`** | — | **`SUPPORTING`** |
+| `M5-S5-13` | **Intended governance, not live inventory** — *"It is **not** an inventory of what currently exists in the CDE"* | `supporting/model-information-responsibility-matrix.md` | §Intended governance | 2 | **`PROPOSED GOVERNANCE`** | **`IMPLEMENTATION UNVERIFIED`** | **`SUPPORTING`** |
+| `M5-S5-14` | `ARC-01` has a live equivalent observed; the other five were **not observed as live direct coordination inputs at the inspected level**. *"Absence of observation is not observation of absence"* | `docs/Increment-7C-Live-Validation-Record.md` §7; `supporting/governance-decision-register.md` `OF-002` | — | 3 | — | **`OBSERVED — QUALIFIED`** / **`NOT DEMONSTRATED`** | **`DECISION-RECORD`** |
+| `M5-S5-15` | **No format is mandated.** *"Observed use does not make RVT mandatory for any task team or any container"*; RVT, IFC, PDF and NWC appear in observed context only | `supporting/model-information-responsibility-matrix.md` §3.2; `bep/…BEP.md` §10.8, §11.9 | — | 2, 1 | **`UNRESOLVED`** | — | **`SUPPORTING`** |
+| `M5-S5-16` | **Level of information need — `Not defined`** for any container, and *"**not** assumed from discipline convention or inferred from observed model content"* | `supporting/model-information-responsibility-matrix.md` | §4 | 2 | **`UNRESOLVED`** | — | **`SUPPORTING`** |
+| `M5-S5-17` | **All Lead entries are Task-Team Lead, holder `TBD`**; contributors are Authors and Checkers **allocated through the IM Responsibility Matrix**, not here | `supporting/model-information-responsibility-matrix.md` | §3 | 2 | **`UNRESOLVED`** | — | **`SUPPORTING`** |
+| `M5-S5-18` | **`COORD-01` is a coordination construct** — it does **not** merge authorship, transfer technical ownership, create a new design author, or become a deliverable *"unless and until it is scheduled as one… through an explicit decision"* | `supporting/model-information-responsibility-matrix.md` | §3.4 | 2 | **`PROPOSED GOVERNANCE`** | — | **`SUPPORTING`** |
+| `M5-S5-19` | **Three things it expressly does not answer** — information-management process functions; delivery events, formats and timing; level of information need | `supporting/model-information-responsibility-matrix.md` | §Purpose, §1, §3, §4 | 2 | **`PROPOSED GOVERNANCE`** | — | **`SUPPORTING`** |
+| `M5-S5-20` | **Trade and contractor containers are a *recorded future extension*, not missing data to be invented now** | `supporting/model-information-responsibility-matrix.md` | §5 | 2 | **`PLANNED`** | — | **`SUPPORTING`** |
+| `M5-S5-21` | Federation mechanics and the coordination cycle | — | — | — | — | — | **`EXCLUDED`** — **Module 6 owns them** |
+| `M5-S5-22` | Container dependencies and interfaces; exchange scheduling; delivery-event fields; format selection | — | — | — | — | — | **`EXCLUDED`** — **Slides 9–12 and Module 6 own them** |
+
+**Teaching warning — `M5-S5-14`.** As on Slide 2, the observed and unobserved
+halves must be delivered together, with the absence-of-observation line attached.
+**`ARC-01`'s observation does not prove the matrix as a whole is implemented**,
+and the five unobserved containers are not evidence of anything.
+
+**Teaching warning — `M5-S5-08` / `M5-S5-09` / `M5-S5-10`.** These three defuse
+the module's most likely organisational misreading. **`S1` §4.4 is the governing
+statement**, not `S3` §2 — the matrix applies a rule the BEP sets.
 
 ---
 
@@ -349,7 +475,8 @@ allocation; delivery events, purpose and suitability"*.
 
 ## 9. Prohibited claims
 
-**Fifty claims Module 5 may not make.** Grouped by the error each would commit.
+**Fifty-nine claims Module 5 may not make.** Grouped by the error each would
+commit. Claims 51–59 were added in **T5-B**.
 
 ### 9.1 Collapsing the three resources — 6
 
@@ -436,7 +563,21 @@ allocation; delivery events, purpose and suitability"*.
 | 49 | That **`UD-001` has been corrected**, or that any replacement team-space mapping is proposed or implied |
 | 50 | That coordinator verification is **design approval**, or that a receiver's consumption decision approves the design |
 
-### 9.8 Programme-status claims — required in every increment
+### 9.8 Additional prohibitions recorded in T5-B — 9
+
+| # | Prohibited claim |
+|---|---|
+| 51 | That **a function is a person**, or that a functional role is a named holder. *"These are functions, not job titles and not people"* (`S1` §4.6) |
+| 52 | That a **populated allocation proves appointment**. No holder is established for any role, and the role model is *"not an appointment chart"* (`S1` §5.2; `S2` §2) |
+| 53 | That **all allocations within the IM Responsibility Matrix share one governance status.** The split rule makes each a proposal **unless the BEP expressly establishes it** (`S2` §Population rule) |
+| 54 | That the **two matrices are one matrix**, that either is subordinate to the other, or that a combined matrix could serve both. They are complementary **by reference, not duplication** |
+| 55 | That a **discipline code identifies** an organisation, a task team, an author, a Design Collaboration team or contractual responsibility. *"That is all it does"* (`S1` §4.4) |
+| 56 | That **every planned container exists**, or that the Model / Information Responsibility Matrix is a **live CDE inventory** (`S3` §Intended governance) |
+| 57 | That **originator responsibility transfers downstream** — to a checker, coordinator, recipient or accepter. *"No downstream act relieves it"* (`S1` §7.2) |
+| 58 | That **authorship can be inferred from folder location** (`S1` §7.2) |
+| 59 | That a **mapping between party, task team, discipline, platform team and IM role is an identity**. *"a mapping is not an identity"* (`S1` §4.2) |
+
+### 9.9 Programme-status claims — required in every increment
 
 | # | Prohibited claim |
 |---|---|
@@ -484,7 +625,7 @@ decisions. Slide 14 poses the questions; it answers none.
 
 | Deferred to | Content |
 |---|---|
-| **T5-B** | Responsibility-matrix purposes and distinctions — Slides 4–5 |
+| ~~T5-B~~ | ~~Responsibility-matrix purposes and distinctions — Slides 4–5~~ — **COMPLETE** |
 | **T5-C** | Matrix-cell grammar and allocation boundaries — Slides 6–8 |
 | **T5-D** | Delivery events and schedule construction — Slides 9–12 |
 | **T5-E** | Slides 13–14 and the complete content baseline |
@@ -498,11 +639,12 @@ decisions. Slide 14 poses the questions; it answers none.
 
 | Field | Value |
 |---|---|
-| Increment | **T5-A** |
-| Slides classified | **1–3 only.** 43 statements |
-| Slides 4–14 | **Architecture only** — no classified statements |
+| Increment | **T5-B** |
+| Slides classified | **1–5.** **84 statements** |
+| Slides 6–14 | **Architecture only** — no classified statements |
 | Registers | **Six** — source authority, terminology, hypothesis, unresolved, prohibited claims, boundary deferrals |
-| Hypotheses tested | **25** — `H-G1`–`H-G7`, `H-D1`–`H-D16`, `H-C1`–`H-C2` |
-| Prohibited claims | **50**, plus 4 standing programme-status prohibitions |
+| Hypotheses tested | **25** — `H-G1`–`H-G7`, `H-D1`–`H-D16`, `H-C1`–`H-C2`. **Unchanged in T5-B** |
+| Prohibited claims | **59**, plus 4 standing programme-status prohibitions |
+| Classification scheme | **Reconciled in T5-B** — `SYNTH` redefined; `M5-S2-14` reclassified `INTERP`. See §5.1 |
 | Timing | **`20.0 minutes allocated — not measured`** |
-| Outstanding | T5-B and later increments |
+| Outstanding | **T5-C** — Slides 6–8 — and later increments |

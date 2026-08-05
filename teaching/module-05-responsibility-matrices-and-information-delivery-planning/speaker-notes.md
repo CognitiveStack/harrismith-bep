@@ -2,7 +2,8 @@
 
 **Status:** Presenter notes for teaching material. **Not governance.**
 
-**Slides 1–3 only.** Slides 4–14 are architecture and have no notes.
+**Slides 1–5 only** — Slides 1–3 written in T5-A, Slides 4–5 in T5-B. **Slides
+6–14 are architecture and have no notes.**
 
 Statement IDs refer to [`source-map.md`](source-map.md) §5. Source identifiers
 `S1`–`S15` are defined in [`source-inventory.md`](source-inventory.md).
@@ -284,12 +285,241 @@ you to the function matrix.
 
 ---
 
+## Slide 4 — Who performs which function — the IM Responsibility Matrix
+
+**Allocated: 1.5 min.** The first of the two matrix slides.
+
+### Opening sentence
+
+> *"This is the matrix most people think they already understand, and it is the
+> one they most often misread. So let us be precise about what it allocates."*
+
+### Conceptual explanation
+
+Two objects, and the whole slide depends on holding them apart.
+
+A **function** is an activity the process requires — *maintain the BEP
+framework*, *perform the readiness check*, *authorise the share*. A **role** is
+the governance position that holds a function in that activity — Task-Team Lead,
+Checker, CDE Administration.
+
+The matrix crosses them: **33 functions down, nine roles across**, in seven
+subject groups. Each intersection records what that role holds in that activity.
+
+Say the division of labour explicitly, because it explains why the matrix looks
+sparse:
+
+> *"BEP Section 5 defines what each function means. The matrix records how those
+> functions are allocated. Meaning is defined once; allocation is recorded once.
+> That is why the matrix carries almost no prose — the definitions are somewhere
+> else on purpose."*
+
+### Harrismith worked example
+
+Use the production sequence, **without reading the codes**:
+
+> *"Take authoring a model. One role produces it. A different role checks it. A
+> third role authorises it to be shared. Three roles, three functions, three
+> separate rows — and the project deliberately refused a notation that would
+> have let checking and authorising share a cell."*
+
+That points forward to Slide 6 without teaching it.
+
+### Critical distinction
+
+**The matrix allocates to roles, not to people or companies.** The wording is
+worth quoting because it is unusually blunt:
+
+> *"Functional roles only. No holder is established for any of them."*
+
+and
+
+> *"…not to companies or people. No organisation is appointed and no individual
+> is named."*
+
+The BEP backs both up: *"These are functions, not job titles and not people"*
+(§4.6), and the role model is *"not an appointment chart and not an organisation
+chart"* (§5.2).
+
+### Status qualification
+
+**Do not let this matrix flatten into one status.** The document is approved with
+conditions; the allocations are **proposals unless the BEP expressly establishes
+them**. Give the audience one of each:
+
+| | |
+|---|---|
+| **Established** | Task-Team Lead authorises WIP → Shared — BEP §9.4 |
+| **Established as unresolved** | Publication / exchange authority — BEP §9.7 |
+
+> *"Same matrix, same column format, two completely different governance
+> weights. One is settled. One is recorded as unsettled — and recorded that way
+> on purpose, rather than filled with whichever role looked closest."*
+
+### Likely audience misunderstanding
+
+**"So this tells us who is responsible."** No — it tells you which *role* holds
+which function. Whether anybody holds that role is a separate question, and the
+answer here is that nobody does yet.
+
+The second common one: **"we could just put names in the columns."** That would
+convert a governance instrument into a staffing chart and destroy the thing that
+makes it traceable.
+
+### Prohibited inference
+
+- That a populated allocation proves someone was **appointed**.
+- That a populated allocation proves the activity **happened**.
+- That the matrix demonstrates **independence** — *"it must not be read as
+  evidence of independence."*
+- **Do not define a single function code.** You may say a code vocabulary
+  exists; Slides 6 and 7 own it. If you find yourself explaining what `Ck`
+  means, stop.
+
+### Transition to Slide 5
+
+> *"That matrix tells you who performs each function. It deliberately does not
+> tell you who authors the architectural model. For that there is a second
+> matrix — and it allocates a completely different object."*
+
+### Recovery line if time is short
+
+> *"One matrix, one question: who performs which information-management
+> function. Roles, not people — and not every allocation carries the same
+> weight."*
+
+Then go straight to Slide 5.
+
+---
+
+## Slide 5 — Who produces which container — the Model / Information Responsibility Matrix
+
+**Allocated: 1.5 min.** The second matrix slide, and the module's organisational
+trap-defusing slide.
+
+### Opening sentence
+
+> *"Different matrix, different object. This one does not allocate functions at
+> all — it allocates information containers."*
+
+### Conceptual explanation
+
+The chain is the slide:
+
+**party → task team → discipline → information container**
+
+Four stages, each a different kind of thing. A *party* is an organisation. A
+*task team* produces a defined package of information. A *discipline* classifies
+the information domain. A *container* is the thing produced.
+
+Six discipline containers are allocated — `ARC-01`, `STR-01`, `MEC-01`,
+`ELE-01`, `PLM-01`, `FIR-01` — plus `COORD-01`, recorded separately.
+
+### Harrismith worked example
+
+**Count the parties on the slide with the audience.** It is the most effective
+ten seconds in the module:
+
+> *"Six containers. Six discipline codes. How many organisations? Four.
+> Mechanical, Electrical and Plumbing are three task teams inside one MEP
+> Consultant. And Fire is not part of MEP at all — it is a separate consultant."*
+
+Then the rule that generalises it:
+
+> *"A discipline code identifies the information domain of a container. That is
+> all it does. It does not tell you the organisation, the task team, the author,
+> the collaboration team, or who carries contractual responsibility."*
+
+The BEP goes further and lists five concepts that must not be swapped — party,
+task team, discipline, Autodesk collaboration team, IM role — and says *"a
+mapping is not an identity."* They often line up. That is not the same as being
+the same thing.
+
+### Critical distinction
+
+**Originator responsibility does not move.** It stays with the producing task
+team *"through sharing, consumption, coordination and publication. No downstream
+act relieves it."*
+
+And the corollary that catches people who work in the platform daily:
+**"Authorship is not inferred from folder location."** Where a container sits
+tells you where it sits. The originator is recorded, not deduced.
+
+### `COORD-01` — say only this
+
+> *"There is a coordination information class as well. It is a construct for
+> bringing separate discipline information together temporarily. It does not
+> merge authorship, it does not create a new author, it does not move technical
+> responsibility, and it is not a deliverable unless somebody explicitly
+> schedules it as one."*
+
+**Stop there.** Federation mechanics and the coordination cycle are Module 6.
+
+### Status qualification
+
+Every allocation in section 3 is **`PROPOSED GOVERNANCE`**, from the training
+organisation model. And the document says plainly what it is not:
+
+> *"It is not an inventory of what currently exists in the CDE."*
+
+Deliver the allocated-versus-observed contrast as one unit, exactly as on
+Slide 2:
+
+> *"Six containers are allocated. One — the architectural model — has a live
+> equivalent observed. The other five were not observed as live coordination
+> inputs at the inspected level. And that is not a statement that they are
+> missing: absence of observation is not observation of absence."*
+
+Also worth naming, briefly: **no format is mandated**, and **level of information
+need is not defined for any container**. Revit appears because it was observed,
+not because it was required.
+
+### Likely audience misunderstanding
+
+**"So there are six consultants."** No — four parties. This is the single most
+common misreading of a discipline-coded container list, and the BEP flags it
+itself.
+
+**"The other five disciplines have not started."** The record does not say that
+and neither should you.
+
+**"So we should be modelling in Revit."** Observed use is not a delivery
+requirement.
+
+### Prohibited inference
+
+- That every planned container **exists**.
+- That `ARC-01`'s observation proves the **matrix** is implemented.
+- That a discipline code identifies an organisation, author or platform team.
+- That `COORD-01` is jointly authored, carries responsibility, or is a
+  deliverable.
+- That originator responsibility passes to a checker, coordinator, recipient or
+  accepter.
+- Container dependencies, scheduling, formats or delivery fields — **Slides
+  9–12**.
+
+### Transition to Slide 6
+
+> *"So one matrix allocates functions and the other allocates containers. Both
+> are read cell by cell — and the cells have a vocabulary the project chose very
+> deliberately. That is next."*
+
+### Recovery line if time is short
+
+> *"Second matrix, second question: who produces which container. Party, task
+> team, discipline, container — four different things, and six discipline codes
+> do not make six companies."*
+
+Then go to Slide 6.
+
+---
+
 ## Status
 
 | Field | Value |
 |---|---|
-| Increment | **T5-A** |
-| Notes developed | **Slides 1–3** |
-| Slides 4–14 | **No notes** — architecture only |
+| Increment | **T5-B** |
+| Notes developed | **Slides 1–5** — Slides 1–3 (T5-A), Slides 4–5 (T5-B) |
+| Slides 6–14 | **No notes** — architecture only |
 | Timing | **`20.0 minutes allocated — not measured`** |
-| Outstanding | T5-B and later increments |
+| Outstanding | **T5-C** — Slides 6–8 — and later increments |

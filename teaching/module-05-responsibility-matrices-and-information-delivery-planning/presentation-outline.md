@@ -1,7 +1,8 @@
 # Module 5 — Presentation Outline
 
-**Status:** Working outline. **Slides 1–3 developed (T5-A). Slides 4–14 are
-architecture only** — no content, no visual specification, no assets. This is
+**Status:** Working outline. **Slides 1–5 developed — Slides 1–3 in T5-A,
+Slides 4–5 in T5-B. Slides 6–14 are architecture only** — no content, no visual
+specification, no assets. **The content baseline is not complete.** This is
 **not a presentation**: no deck exists, and the timing below is an allocation
 that has **never been measured**.
 
@@ -32,8 +33,8 @@ Source identifiers `S1`–`S15` are defined in
 | 1 | Module 5 — from who holds a role to what must be produced | 1.0 | ✅ **T5-A** |
 | 2 | Knowing the role and the transition is not yet a plan | 1.5 | ✅ **T5-A** |
 | 3 | Three resources, three questions — and why they are not one RACI | 1.5 | ✅ **T5-A** |
-| 4 | Who performs which function — the IM Responsibility Matrix | 1.5 | Architecture only |
-| 5 | Who produces which container — the Model / Information Responsibility Matrix | 1.5 | Architecture only |
+| 4 | Who performs which function — the IM Responsibility Matrix | 1.5 | ✅ **T5-B** |
+| 5 | Who produces which container — the Model / Information Responsibility Matrix | 1.5 | ✅ **T5-B** |
 | 6 | The seven-term grammar — and the two values that carry the gaps | 1.5 | Architecture only |
 | 7 | Reading a cell: what a populated cell does and does not prove | 1.5 | Architecture only |
 | 8 | One person, two roles — allocation is not independence | 1.0 | Architecture only |
@@ -43,7 +44,7 @@ Source identifiers `S1`–`S15` are defined in
 | 12 | Why `TRN-E03` is blocked — five matters, not one | 1.5 | Architecture only |
 | 13 | Nothing is blank — how Harrismith names an absence | 1.0 | Architecture only |
 | 14 | What Triviron must decide before drawing a matrix | 2.0 | Architecture only |
-| | **Total** | **20.0** | **3 of 14** |
+| | **Total** | **20.0** | **5 of 14** |
 
 ### 2.1 How the sequence was derived
 
@@ -69,35 +70,13 @@ are unchanged.
 - **Slide 6 must stay at concept level.** No suitability, status or naming code
   set exists; there is no coding standard to teach.
 
-## 3. Slides 4–14 — architecture only
+## 3. Slides 6–14 — architecture only
 
 **No content is developed below.** Each entry records only: purpose, central
 teaching point, principal source basis, a **high-level** visual concept, the
 governing boundary, and allocated time. **No visual specification, no visual
 source, no on-slide copy and no presenter notes exist for any slide in this
 section.**
-
-### Slide 4 — Who performs which function — the IM Responsibility Matrix · 1.5 min
-
-| Field | Value |
-|---|---|
-| **Purpose** | Establish `S2` as the resource that allocates **information-management functions to functional roles** |
-| **Central teaching point** | A function is an *activity the process requires*; a role is *who holds a function in it*. **Neither is a person, and neither is an organisation** |
-| **Principal source basis** | `S2` §Purpose, §2, §3, §Population rule; `S1` §5.12 |
-| **Visual concept — high level** | The matrix skeleton: seven function groups down, nine role columns across. **Structure only — no cell values** (they belong to Slides 6–7) |
-| **Boundary / prohibited claim** | Must not name a person or organisation; must not present the matrix as an **organisational chart**; must not introduce cell codes |
-| **Time** | 1.5 min |
-
-### Slide 5 — Who produces which container — the Model / Information Responsibility Matrix · 1.5 min
-
-| Field | Value |
-|---|---|
-| **Purpose** | Establish `S3` as the resource that allocates **information containers to parties and task teams** |
-| **Central teaching point** | Origination follows `party → task team → discipline → container`, and **originator responsibility never transfers downstream** |
-| **Principal source basis** | `S3` §Purpose, §1, §2, §3.1, §3.4; `S1` §7.2, §4.3, §4.4 |
-| **Visual concept — high level** | The origination chain as four linked stages, with the six discipline containers beneath it and **`COORD-01` shown as a separate, non-authoring construct** |
-| **Boundary / prohibited claim** | Six discipline codes ≠ six organisations; MEC/ELE/PLM are one party; FIR is not an MEP sub-team; `COORD-01` is not a jointly-authored model and not a deliverable; **no live-inventory claim** |
-| **Time** | 1.5 min |
 
 ### Slide 6 — The seven-term grammar — and the two values that carry the gaps · 1.5 min
 
@@ -200,10 +179,12 @@ section.**
 
 ---
 
-## 4. Developed slides — T5-A
+## 4. Developed slides — T5-A and T5-B
 
 Presenter notes: [`speaker-notes.md`](speaker-notes.md). Statement
 classification: [`source-map.md`](source-map.md) §5.
+
+**Slides 1–3 were developed in T5-A; Slides 4–5 in T5-B.**
 
 ### Slide 1 — Module 5: from who holds a role to what must be produced · 1.0 min
 
@@ -425,15 +406,228 @@ quotation with its BEP reference visible. **The three panels never merge.**
 
 ---
 
+### Slide 4 — Who performs which function — the IM Responsibility Matrix · 1.5 min
+
+**Purpose of the slide**
+
+Establish the Information Management Responsibility Matrix as the resource that
+allocates **information-management functions to functional roles** — what its
+rows and columns are, what it expressly does not answer, and **why a populated
+allocation proves neither appointment nor performance.**
+
+**On-slide copy**
+
+> ## Who performs which information-management function?
+>
+> **33 process functions** — seven subject groups
+> governance · CDE · production · sharing · coordination · delivery · change
+>
+> **× 9 functional roles**
+> Appointing Party · Lead Delivery Party · BIM Manager · BIM Coordinator ·
+> Task-Team Lead · Author · Checker · CDE Administration · Recipient
+>
+> ### What it allocates
+>
+> Functions to **roles** — *"not to companies or people. No organisation is
+> appointed and no individual is named."*
+>
+> > **"These are functions, not job titles and not people."** — BEP §4.6
+> > **"…not an appointment chart and not an organisation chart."** — BEP §5.2
+>
+> ### What it does not answer
+>
+> | | Belongs to |
+> |---|---|
+> | Which organisation authors a specific container | **Slide 5** |
+> | What is delivered at each milestone | **Slides 9–12** |
+> | Which individual holds each role | **Nobody — no holder is established** |
+>
+> ### Not one status — read each allocation for its own
+>
+> Allocations are **proposals** *"unless the BEP already expressly establishes
+> the allocation."*
+>
+> | | |
+> |---|---|
+> | **Established** — Task-Team Lead authorises WIP → Shared | BEP §9.4 |
+> | **Established as unresolved** — publication / exchange authority | BEP §9.7 |
+>
+> *Unresolved authority is recorded as unresolved —* **not filled with a
+> plausible role.**
+
+**Source basis**
+
+| Claim | Source |
+|---|---|
+| Allocates functions to roles; answers one question | `S2` §Purpose |
+| Meaning defined once in BEP §5; allocation recorded once here | `S1` §5.12 |
+| Nine role columns; 33 rows in seven groups | `S2` §2, §3.1–§3.7 |
+| Roles not companies or people; no holder established | `S2` §Population rule, §2 |
+| Functions, not job titles and not people | `S1` §4.6 |
+| Not an appointment chart or organisation chart | `S1` §5.2 |
+| Three things it does not answer | `S2` §Purpose |
+| Split status rule | `S2` §Population rule |
+| Task-Team Lead share authorisation — established | `S1` §9.4; `S2` `P4` |
+| Publication authority — established as unresolved | `S1` §9.7; `S2` `D4` |
+| Unresolved recorded, not filled | `S2` §Population rule, §6 |
+| Not evidence of independence | `S2` §5; `S1` §5.11 |
+
+Classified statements `M5-S4-01` to `M5-S4-19`.
+
+**Teaching synthesis on this slide:** none. Two statements are `INTERP` — that a
+populated allocation is not evidence of appointment, and not evidence that the
+activity occurred.
+
+**Prohibited on this slide**
+
+- **Defining any function code.** Naming that a code set exists is permitted;
+  `P`, `Ck`, `Au`, `Co`, `Ac`, `Cs`, `In`, `TBD` and `—` are **Slides 6–7**.
+- Showing a worked row, `P1`–`P4`, or `D4` / `D7` in detail.
+- Naming any person, company or role holder.
+- Presenting the matrix as an organisational chart or an appointment record.
+- Claiming a populated allocation proves appointment, performance or
+  independence.
+- Presenting all allocations at one governance status.
+- Separation-of-duty mechanics (**Slide 8**) or coordination workflow
+  (**Module 6**).
+
+**Visual concept — high level**
+
+The matrix **skeleton only** — seven function groups down the left, nine
+functional roles across the top, **cells empty**. Two callouts: one on a row
+that the BEP establishes, one on the row that the BEP establishes as unresolved.
+**No cell value appears anywhere on the slide.**
+
+**Transition into Slide 5**
+
+> *"That matrix tells you who performs each function. It deliberately does not
+> tell you who authors the architectural model. For that there is a second
+> matrix — and it allocates a completely different object."*
+
+---
+
+### Slide 5 — Who produces which container — the Model / Information Responsibility Matrix · 1.5 min
+
+**Purpose of the slide**
+
+Establish the Model / Information Responsibility Matrix as the resource that
+allocates **information containers to parties and task teams** through the
+origination chain — and defuse the organisational misreadings the BEP itself
+warns about.
+
+**On-slide copy**
+
+> ## Who produces and maintains which information container?
+>
+> ### The origination chain — BEP §7.2
+>
+> **party → task team → discipline → information container**
+>
+> | Container | Party | Task team | Discipline |
+> |---|---|---|---|
+> | `ARC-01` | Architectural Consultant | Architectural | ARC |
+> | `STR-01` | Structural Consultant | Structural | STR |
+> | `MEC-01` | **MEP Consultant** | Mechanical | MEC |
+> | `ELE-01` | **MEP Consultant** | Electrical | ELE |
+> | `PLM-01` | **MEP Consultant** | Plumbing | PLM |
+> | `FIR-01` | **Fire Consultant** | Fire | FIR |
+>
+> **Six containers. Six disciplines. Four parties.**
+> MEC, ELE and PLM sit in **one** MEP Consultant. **Fire is a separate party,
+> not an MEP sub-team.**
+>
+> > **"A discipline code identifies the information domain of a container.
+> > That is all it does."** — BEP §4.4
+> > Not the organisation · not the task team · not the author · not a
+> > collaboration team · not contractual responsibility
+>
+> ### `COORD-01` — recorded separately
+>
+> Multidisciplinary coordination information. **Not a jointly-authored model.**
+> Does not merge authorship · does not transfer technical ownership ·
+> **not a deliverable unless explicitly scheduled as one**
+>
+> ### What this matrix is — and is not
+>
+> **Intended governance** — every allocation `PROPOSED GOVERNANCE`.
+> *"It is not an inventory of what currently exists in the CDE."*
+>
+> | Allocated | Observed |
+> |---|---|
+> | six containers | `ARC-01` only, at the inspected level |
+>
+> *Absence of observation is not observation of absence.*
+>
+> **Originator responsibility stays with the producing task team —
+> no downstream act relieves it.**
+
+**Source basis**
+
+| Claim | Source |
+|---|---|
+| Records which party and task team produces each container | `S3` §Purpose |
+| Origination chain; originator responsibility; authorship not inferred from folder | `S1` §7.2 |
+| Six discipline containers | `S3` §3.1 |
+| `COORD-01` recorded separately, and its four boundaries | `S3` §3.4 |
+| MEC / ELE / PLM in one party; Fire separate | `S1` §4.3; `S3` §2 |
+| A discipline code identifies the information domain and nothing else | `S1` §4.4 |
+| Five concepts not interchangeable; a mapping is not an identity | `S1` §4.2 |
+| All §3 allocations `PROPOSED GOVERNANCE`, from `TA-03` | `S3` §Classification; `S7` `TA-03` |
+| Intended governance, not live inventory | `S3` §Intended governance |
+| Observed container status | `S9` §7; `S7` `OF-002` |
+| No format mandated | `S3` §3.2; `S1` §10.8, §11.9 |
+| Level of information need not defined | `S3` §4 |
+| Lead holders `TBD`; Authors and Checkers allocated in the IM matrix | `S3` §3 |
+| Trade containers a recorded future extension | `S3` §5 |
+
+Classified statements `M5-S5-01` to `M5-S5-22`.
+
+**Teaching synthesis on this slide:** none. **Seven statements are
+`CONTROLLED`** — the organisational rules are set by the BEP, and the matrix
+applies them.
+
+**Prohibited on this slide**
+
+- Implying all six containers exist live, or that `ARC-01`'s observation proves
+  the matrix is implemented.
+- Claiming any unobserved discipline is absent, inactive or uncommitted.
+- Treating six discipline codes as six organisations, MEP as three parties, or
+  Fire as an MEP sub-team.
+- Mandating RVT or any other format.
+- Establishing a level of information need or naming a Task-Team Lead.
+- Claiming `COORD-01` is jointly authored, transfers responsibility, or is a
+  deliverable.
+- Teaching container dependencies, exchange scheduling, delivery-event fields or
+  format selection (**Slides 9–12**), or federation and coordination-cycle
+  mechanics (**Module 6**).
+
+**Visual concept — high level**
+
+The origination chain as four linked stages across the top —
+**party → task team → discipline → container** — with the six discipline
+containers beneath it grouped so that **MEC, ELE and PLM visibly share one
+party** and **FIR visibly stands apart**. `COORD-01` sits **outside and below**
+the six, connected by a different line weight, labelled as a coordination
+construct. **No format, no date, no holder appears.**
+
+**Transition into Slide 6**
+
+> *"So one matrix allocates functions and the other allocates containers. Both
+> are read cell by cell — and the cells have a vocabulary the project chose very
+> deliberately. That is next."*
+
+---
+
 ## 5. Status
 
 | Field | Value |
 |---|---|
-| Increment | **T5-A** |
-| Slides developed | **1, 2, 3** — with on-slide copy, source basis, prohibited claims and a high-level visual concept |
-| Slides 4–14 | **Architecture only** — eight fields each; **no content, no visual specification, no assets** |
-| Timing | **`20.0 minutes allocated — not measured`** |
+| Increment | **T5-B** |
+| Slides developed | **1, 2, 3** (T5-A) · **4, 5** (T5-B) — each with on-slide copy, source basis, prohibited claims, a high-level visual concept and a transition |
+| Slides 6–14 | **Architecture only** — eight fields each; **no content, no visual specification, no assets** |
+| Content baseline | **NOT complete.** Nine slides remain undeveloped |
+| Timing | **`20.0 minutes allocated — not measured`** · total verified at **20.0** |
 | Visual sources | **None.** T5-F is not started |
 | Assembly package | **None.** T5-G is not started |
 | PowerPoint | **None**, in this or any module |
-| Outstanding | T5-B — Slides 4–5; then T5-C, T5-D, T5-E, T5-F, T5-G, T5-H |
+| Outstanding | **T5-C** — Slides 6–8; then T5-D, T5-E, T5-F, T5-G, T5-H |

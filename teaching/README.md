@@ -44,13 +44,18 @@ Everything taught here is traceable to a recorded source, and each module holds
 its own `source-map.md` — for example
 [`module-01-what-is-a-bep/source-map.md`](module-01-what-is-a-bep/source-map.md).
 
-**Modules 1, 2 and 4 are traceable entirely to controlled Harrismith
+**Modules 1, 2, 4 and 5 are traceable entirely to controlled Harrismith
 documents.** No external source is required for any slide in any of them.
-Module 4 additionally holds a
-[`source-inventory.md`](module-04-cde-workflows-and-information-states/source-inventory.md)
-recording the **exact path** of every CDE-relevant controlled source, the
-precedence between them, and **where they differ** — differences are recorded,
-never harmonised by invention.
+
+Modules 4 and 5 each additionally hold a `source-inventory.md` —
+[Module 4's](module-04-cde-workflows-and-information-states/source-inventory.md)
+and
+[Module 5's](module-05-responsibility-matrices-and-information-delivery-planning/source-inventory.md)
+— recording the **exact path** of every relevant controlled source, its **own
+declared status**, the precedence between them, and **where they differ**.
+Differences are recorded, never harmonised by invention. Module 5's inventory
+also records the sources it **considered and excluded**, with the reason for each
+exclusion.
 
 **Module 3 is not, and cannot be.** Its subject — ISO 19650 — is a copyrighted
 international standard that is **not held in this repository and has not been
@@ -124,7 +129,7 @@ teaching/
 │   ├── exercises.md                 practice and self-assessment
 │   ├── source-map.md                statement classification, mapping method, prohibited claims
 │   └── presentation/                assembly package — production handoff
-├── module-04-cde-workflows-and-information-states/   Module 4 — CURRENT, ACTIVE
+├── module-04-cde-workflows-and-information-states/   Module 4 — produced; review and rehearsal deferred
 │   ├── README.md                    module objective, deliverable and scope
 │   ├── source-inventory.md          exact source paths, precedence and four registers
 │   ├── presentation-outline.md      20-minute structure, Slides 1–14 developed
@@ -133,6 +138,13 @@ teaching/
 │   ├── exercises.md                 practice and self-assessment — 71 exercises
 │   ├── source-map.md                244 statements, seven registers, 99 prohibited claims
 │   └── presentation/                assembly package — production handoff
+├── module-05-responsibility-matrices-and-information-delivery-planning/   Module 5 — CURRENT, ACTIVE
+│   ├── README.md                    module objective, central question, scope, increment status
+│   ├── source-inventory.md          exact source paths, own declared statuses, precedence, exclusions
+│   ├── resource-comparison.md       the three principal resources analysed separately
+│   ├── source-map.md                84 statements, six registers, 59 prohibited claims
+│   ├── presentation-outline.md      20-minute structure; Slides 1–5 developed, 6–14 architecture only
+│   └── speaker-notes.md             notes for Slides 1–5 only
 ├── shared/
 │   ├── glossary.md                  teaching glossary across all modules
 │   └── presentation-principles.md   how these presentations are built
@@ -143,6 +155,21 @@ teaching/
     ├── module-03/                   Module 3 visual source set
     └── module-04/                   Module 4 visual source set — 14 native-layout sources
 ```
+
+**Module 5 is under development and is deliberately smaller than the modules
+before it.** It has **six files and no subdirectories**. There is **no
+`assets/module-05/` directory, no `presentation/` package, no
+`visual-demonstration-plan.md` and no `exercises.md`** — none of those has been
+produced, and the tree above lists only what exists.
+
+**Slides 1–5 are developed; Slides 6–14 are architecture only** — slide number,
+working title, purpose, central teaching point, source basis, a high-level visual
+concept, boundary and allocated time, with no content. **Module 5 is not
+produced, not reviewed, not rehearsed, and its timing is allocated, never
+measured.**
+
+**No `.pptx` file is committed anywhere in this repository**, for any module.
+[`roadmap.md`](roadmap.md) carries the authoritative position for every module.
 
 ## 6. Safety boundary
 

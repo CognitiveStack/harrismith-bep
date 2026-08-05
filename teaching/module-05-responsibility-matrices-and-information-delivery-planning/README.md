@@ -1,9 +1,11 @@
 # Module 5 — Responsibility Matrices and Information-Delivery Planning
 
-**Status:** **CURRENT — ACTIVE.** Established in increment **T5-A**.
+**Status:** **CURRENT — ACTIVE.** Established in **T5-A**; matrix distinctions
+developed in **T5-B**.
 
-**Slides 1–3 developed. Slides 4–14 are architecture only.** No visual
-specification, no visual source, no assembly package and no PowerPoint exists.
+**Slides 1–5 developed. Slides 6–14 are architecture only.** **The content
+baseline is not complete.** No exercises, no visual specification, no visual
+source, no assembly package and no PowerPoint exists.
 
 **Teaching material. Not governance.** This module explains controlled Harrismith
 resources; it governs nothing, decides nothing, and changes nothing.
@@ -24,9 +26,11 @@ The module connects the two before it:
 | **Module 4** | How does information move through controlled **states** and **transitions**? |
 | **Module 5** | **Which information must be produced or delivered, by whom, for which purpose or recipient, at which event, under which responsibility — and with what evidence?** |
 
-**Labelled as teaching synthesis.** No controlled source states the module
-objective; it is derived from `S1` §10.5 and the three resources' own purpose
-statements. See [`source-map.md`](source-map.md) §5, `M5-S2-14`.
+**Classified `INTERP` — a supported interpretation.** No controlled source states
+the module objective in these words, but the construction rests on cited
+sources: `S1` §10.5, and the three resources' own purpose statements and
+**population rules**. See [`source-map.md`](source-map.md) §5, `M5-S2-14`, and
+the classification reconciliation at §5.1.
 
 ## 2. Central question
 
@@ -202,9 +206,9 @@ externally and are not committed.
 | [`README.md`](README.md) | This file — objective, central question, status, scope, **T5-A validation and increment status** (§13) |
 | [`source-inventory.md`](source-inventory.md) | Source hierarchy · `S1`–`S15` with exact paths and declared statuses · why each was consulted · **`E1`–`E8` exclusions with reasons** · the two senses of *publication* |
 | [`resource-comparison.md`](resource-comparison.md) | **The three principal resources analysed separately** — 37 recorded fields each · overlaps · differences · terminology variance · relationships |
-| [`source-map.md`](source-map.md) | Classification scheme · source-authority register · **43 classified statements, Slides 1–3** · terminology register · **25 tested hypotheses** · unresolved register · **50 prohibited claims** · boundary deferrals |
-| [`presentation-outline.md`](presentation-outline.md) | Timing structure · **fourteen-slide architecture** · Slides 4–14 **architecture only** · **Slides 1–3 developed content** |
-| [`speaker-notes.md`](speaker-notes.md) | Presenter notes — **Slides 1–3 only** |
+| [`source-map.md`](source-map.md) | Classification scheme and its **T5-B reconciliation** · source-authority register · **84 classified statements, Slides 1–5** · terminology register · **25 tested hypotheses** · unresolved register · **59 prohibited claims** · boundary deferrals |
+| [`presentation-outline.md`](presentation-outline.md) | Timing structure · **fourteen-slide architecture** · Slides 6–14 **architecture only** · **Slides 1–5 developed content** |
+| [`speaker-notes.md`](speaker-notes.md) | Presenter notes — **Slides 1–5 only** |
 
 ### Reading order
 
@@ -222,51 +226,52 @@ externally and are not committed.
 | Increment | Scope | Status |
 |---|---|---|
 | **T5-A** | Module establishment · source inventory and hierarchy · three-resource comparison · hypothesis testing · fourteen-slide architecture · **Slides 1–3** | ✅ **COMPLETE** |
-| T5-B | Responsibility-matrix purposes and distinctions — Slides 4–5 | Outstanding |
-| T5-C | Matrix-cell grammar and allocation boundaries — Slides 6–8 | Outstanding |
+| **T5-B** | Responsibility-matrix purposes and distinctions — **Slides 4–5** · classification reconciliation · `teaching/README.md` correction | ✅ **COMPLETE** |
+| **T5-C** | Matrix-cell grammar and allocation boundaries — Slides 6–8 | **NEXT — outstanding** |
 | T5-D | Delivery events and schedule construction — Slides 9–12 | Outstanding |
 | T5-E | Slides 13–14 and the complete content baseline | Outstanding |
 | T5-F | Visual specifications and visual-source set | Outstanding |
 | T5-G | Presentation assembly package | Outstanding |
 | T5-H | External PowerPoint production — **outside this repository** | Outstanding |
 
-## 13. T5-A validation and increment status
+## 13. Increment status and validation
 
-### 13.1 What T5-A produced
+### 13.1 What T5-A and T5-B produced
 
-| Output | Result |
-|---|---|
-| Module directory | Created — **6 files** |
-| Source hierarchy | Established; traced to `S1` §1.5 |
-| Sources consulted | **15** (`S1`–`S15`) |
-| Sources excluded with reason | **8 groups** (`E1`–`E8`) |
-| Three principal resources | **Analysed separately**, 37 recorded fields each |
-| Hypotheses tested | **25** — 7 grammar, 16 distinctions, 2 central-question |
-| Registers | **Six** — source authority · terminology · hypothesis · unresolved · prohibited claims · boundary deferrals |
-| Classified statements | **43** (Slides 1–3) |
-| Prohibited claims | **50**, plus 4 standing programme-status prohibitions |
-| Slide architecture | **14 slides · 20.0 minutes allocated — not measured** |
-| Slides developed | **1, 2, 3** |
-| Slides 4–14 | **Architecture only** — eight recorded fields each |
+| Output | After T5-A | **After T5-B** |
+|---|---|---|
+| Module files | 6 | **6 — unchanged** |
+| Source hierarchy | Established; traced to `S1` §1.5 | Unchanged |
+| Sources consulted / excluded | **15** (`S1`–`S15`) / **8 groups** (`E1`–`E8`) | Unchanged — **the T5-A inventory was not reopened** |
+| Three principal resources | Analysed separately, 37 fields each | Unchanged |
+| Hypotheses tested | **25** | Unchanged |
+| Registers | **Six** | Unchanged |
+| Classified statements | 43 (Slides 1–3) | **84 (Slides 1–5)** |
+| Prohibited claims | 50 | **59**, plus 4 standing programme-status prohibitions |
+| Slide architecture | 14 slides · **20.0 minutes allocated — not measured** | Unchanged; total re-verified at **20.0** |
+| Slides developed | 1, 2, 3 | **1, 2, 3, 4, 5** |
+| Remaining architecture only | Slides 4–14 | **Slides 6–14** — eight recorded fields each |
+| Classification scheme | `SYNTH` defined as *"no source support"* | **Reconciled** — see §13.5 |
 
-### 13.2 Scope compliance
+### 13.2 Scope compliance — T5-B
 
 | Check | Result |
 |---|---|
-| Paths created or modified | **Only** this module directory and [`../roadmap.md`](../roadmap.md) |
+| Paths modified | **Only** this README, `presentation-outline.md`, `speaker-notes.md`, `source-map.md`, [`../roadmap.md`](../roadmap.md) and [`../README.md`](../README.md) |
+| [`source-inventory.md`](source-inventory.md) and [`resource-comparison.md`](resource-comparison.md) | **Unchanged.** No contradiction with a controlled source was found |
 | Controlled sources modified | **None.** `bep/`, `supporting/`, `docs/`, `guidance/`, `standards/`, `working/`, `output/` unchanged |
 | Modules 1–4 modified | **None** |
 | `teaching/assets/`, `teaching/shared/` modified | **None** |
 | PowerPoint, PDF or office file created | **None** |
 | Visual specification, visual source or rendered asset created | **None** |
-| Presentation assembly package created | **None** |
+| Presentation assembly package or exercise set created | **None** |
 | Autodesk or ACC activity | **None.** Not authorised, not attempted |
 | Publication automation | **Untouched. Remains `PAUSED`** |
-| T5-B or later work performed | **None** |
+| T5-C or later work performed | **None** |
 
 ### 13.3 Safeguards verified intact
 
-| Safeguard | State at end of T5-A |
+| Safeguard | State at end of T5-B |
 |---|---|
 | Publication authority | **UNRESOLVED** — unchanged |
 | Acceptance authority | **UNRESOLVED** — unchanged |
@@ -284,34 +289,60 @@ statement.**
 
 ### 13.4 Known residual work
 
-- **Slides 4–14 have no content**, no visual specification and no assets.
+- **Slides 6–14 have no content**, no visual specification and no assets.
+- **The content baseline is not complete.**
 - **The module has no exercises.** Modules 1–4 carry an `exercises.md`; Module 5
   does not yet, and one is expected in a later increment.
 - **The module has no visual-demonstration plan.** Deferred to T5-F.
 - **Timing has never been measured**, for this or any module.
-- **One repository convention could not be followed within the permitted
-  paths** — see §13.5.
 
-### 13.5 Reported need — outside the permitted paths
+### 13.5 Classification reconciliation — completed in T5-B
 
-**[`../README.md`](../README.md) — the teaching-programme README — was not
-updated, and needs to be.**
+**A contradiction between this README and
+[`source-map.md`](source-map.md) was found and resolved.**
 
-Precedent: the T4-A increment updated `teaching/README.md` alongside
-`teaching/roadmap.md` when Module 4 was established. **T5-A's permitted paths
-were this module directory and `teaching/roadmap.md` only**, so the file was left
-untouched rather than modified outside scope.
+The classification scheme defined `SYNTH` as *"Teaching synthesis; no source
+support"*, and `M5-S2-14` — the learning objective — recorded its source as
+`none`. **This README recorded the same objective as derived from `S1` §10.5 and
+the three resources' purpose statements.** Both could not be right.
 
-**No instruction is implied.** The need is recorded here for the orchestrator to
-scope into a later increment if wanted.
+**The evidence supports this README.** The objective's substance is
+source-supported on both halves: the three resources each state their own
+question and exclusions, and **all three carry an express population rule
+forbidding invention**.
 
-### 13.6 Status
+**Resolution:**
+
+1. `M5-S2-14` is reclassified **`INTERP`** at authority level 4, with its
+   supporting sources recorded.
+2. **`SYNTH` was redefined** so the ambiguity cannot recur — the class now turns
+   on whether a source is cited, not on whether the wording is original. **A
+   statement with a source reference is never `SYNTH`.**
+3. §2 of this README no longer describes the objective as teaching synthesis.
+
+**Effect:** `INTERP` 6 → 9; `SYNTH` 1 → **0**. **No count was changed to reach a
+preferred figure.** The refinement applies to **Module 5's scheme only**;
+Modules 1–4 hold their own schemes and are unchanged. Full record:
+[`source-map.md`](source-map.md) §5.1.
+
+### 13.6 Teaching-programme README — reconciled in T5-B
+
+[`../README.md`](../README.md) was **outside T5-A's permitted paths** and was
+reported rather than changed. **T5-B was authorised to correct it, and did.** It
+now records Module 4 as produced with review and rehearsal deferred, Module 5 as
+the sole active module with its six files and their functions, Slides 1–5
+developed, Slides 6–14 architecture only, and the absence of any Module 5 asset
+directory or presentation package.
+
+### 13.7 Status
 
 | Field | Value |
 |---|---|
-| Increment | **T5-A — COMPLETE** |
+| Increment | **T5-B — COMPLETE** |
 | Module status | **CURRENT — ACTIVE** |
-| Next increment | **T5-B** — Slides 4–5 |
+| Content baseline | **NOT complete** — Slides 6–14 outstanding |
+| Next increment | **T5-C** — Slides 6–8, matrix-cell grammar and allocation boundaries |
 | Timing | **`20.0 minutes allocated — not measured`** |
+| Visual specifications, assets, assembly package | **None** |
 | PowerPoint | **None**, in this or any module |
 | Publication automation | **PAUSED** |
