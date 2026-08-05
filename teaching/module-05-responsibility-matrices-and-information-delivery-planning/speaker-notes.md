@@ -504,9 +504,9 @@ requirement.
 
 ### Transition to Slide 6
 
-> *"So one matrix allocates functions and the other allocates containers. Both
-> are read cell by cell — and the cells have a vocabulary the project chose very
-> deliberately. That is next."*
+> *"So one matrix allocates functions, and it is read through a controlled cell
+> grammar. The other allocates containers to parties and task teams, and uses no
+> such grammar at all. Slide 6 examines the function matrix's vocabulary."*
 
 ### Recovery line if time is short
 
@@ -546,7 +546,8 @@ Then the pair that matters most:
 
 ### The two values that are not codes
 
-Slow down here. This is where the vocabulary is usually mis-taught.
+Slow down here. `TBD` and `—` are the two values the module's prohibited-claims
+register guards most heavily — see claims 32, 60 and 61.
 
 > *"There are two more values in the cells, and neither is a function. `TBD`
 > means the allocation is unresolved — the BEP records that authority as not
@@ -1286,9 +1287,11 @@ Then go to Slide 13.
 Seven markers. **Do not read all seven definitions** — you have a minute. Read
 the panel headings and then work the pairs that actually get confused.
 
-> *"Seven different ways of recording that something is not settled. They are not
-> synonyms. Each one answers a different question, and if you flatten them into
-> 'blank' you have thrown away everything the project knew about its own gaps."*
+> *"Seven typed markers, and they are not synonyms. Five of them record something
+> that is not settled. Two of them — the dash and 'not applicable' — record a
+> settled answer. Each one answers a different question, and if you flatten them
+> into 'blank' you have thrown away everything the project knew about its own
+> gaps."*
 
 **Say this once, explicitly**, because the panel will look like a code table:
 
@@ -1364,8 +1367,9 @@ apply.
 
 ### Recovery line if time is short
 
-> *"Seven different words for 'not settled', and not one blank among them. The
-> two to remember: `TBD` is an open question; a dash is an answered one."*
+> *"Seven typed markers, and not one blank among them. Five record something
+> unsettled; the dash and 'not applicable' record settled answers. The pair to
+> remember: `TBD` is an open question; a dash is an answered one."*
 
 Then go to Slide 14.
 
@@ -1387,7 +1391,8 @@ group heading, then pick one or two questions per group that the room will feel.
 
 > *"Delivery organisation. What parties actually exist — not what we would like
 > to exist. Which disciplines are information domains rather than organisations.
-> And who is formally appointed, which on most projects at kick-off is nobody."*
+> And who is formally appointed — bearing in mind that a role title is not a
+> holder, and Harrismith establishes none."*
 
 > *"Responsibility architecture. What grammar will you use? Harrismith refused
 > RACI and wrote its own seven terms. Triviron might adopt those, might choose
@@ -1395,12 +1400,13 @@ group heading, then pick one or two questions per group that the room will feel.
 > decision."*
 
 > *"Container architecture. What containers must exist, who originates each, and
-> whether your coordination construct is a working set or a deliverable. That
-> last one causes more argument than anything else on the list."*
+> whether your coordination construct is a working set or a deliverable. Keep
+> those two apart — Harrismith records `COORD-01` as a coordination construct
+> that becomes a deliverable only if something explicitly schedules it as one."*
 
-> *"Delivery planning. Sixteen fields' worth of question — and the three that get
-> skipped are always the same: who authorises the progression, who may accept,
-> and against what criteria."*
+> *"Delivery planning. Sixteen fields' worth of question. Pay particular
+> attention to authorisation, acceptance authority and acceptance criteria —
+> Harrismith records all three separately, and two of the three are unresolved."*
 
 > *"Governance and evidence. Which source governs, who may approve a change, what
 > counts as evidence, and how you keep the proposal separate from the
@@ -1412,10 +1418,13 @@ Use Harrismith as an example of **method**, never of answer:
 
 > *"Harrismith has four parties, six containers, three events and a seven-term
 > grammar. None of that transfers. Its organisation is a declared training model
-> under TA-03. Its allocations are functional governance proposals. Its
-> containers and events are proposed governance for a training exercise. What
-> transfers is not the content — it is that somebody sat down and answered these
-> questions in writing, and typed every answer they could not give."*
+> under TA-03. Its containers and its schedule entries are proposed governance.
+> And its responsibility matrix is not even one status — allocations there are
+> proposals unless the BEP expressly establishes them, which it does for
+> Task-Team Lead share authorisation and, in the other direction, for publication
+> authority being unresolved. What transfers is not the content — it is that
+> somebody sat down and answered these questions in writing, and typed every
+> answer they could not give."*
 
 ### Critical distinction
 

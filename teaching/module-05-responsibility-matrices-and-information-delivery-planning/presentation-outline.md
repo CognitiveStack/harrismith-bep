@@ -531,9 +531,9 @@ construct. **No format, no date, no holder appears.**
 
 **Transition into Slide 6**
 
-> *"So one matrix allocates functions and the other allocates containers. Both
-> are read cell by cell — and the cells have a vocabulary the project chose very
-> deliberately. That is next."*
+> *"So one matrix allocates functions, and it is read through a controlled cell
+> grammar. The other allocates containers to parties and task teams, and uses no
+> such grammar at all. Slide 6 examines the function matrix's vocabulary."*
 
 ---
 
@@ -1275,17 +1275,19 @@ information.
 
 **On-slide copy**
 
-> ## Seven ways to say "not yet". None of them is a blank.
+> ## Seven typed markers. None of them is a blank.
 >
-> | Marker | Answers | Harrismith instance |
-> |---|---|---|
-> | **`TBD`** | *Who or what, unresolved?* | Publication authority · every role holder |
-> | **`—`** | *Does this role act here?* **No.** | 131 cells of the IM matrix |
-> | **`Not defined`** | *What content is required?* | Final deliverable set · level of information need |
-> | **`Not established`** | *Whose identity, authority or standard?* | Recipient identity · required formats |
-> | **`Not applicable`** | *Does this field apply at all?* | `COORD-01` originating party |
-> | **`Conditional`** | *Does this row activate?* | `TRN-E02`, per affected container |
-> | **`BLOCKED`** | *Can this proceed?* | `TRN-E03` · `T4` |
+> **They do not all mean "not yet."** Two of them record a **resolved** answer.
+>
+> | Marker | Answers | Outcome | Harrismith instance |
+> |---|---|---|---|
+> | **`TBD`** | *Who or what?* | **UNRESOLVED** | Publication authority · every role holder |
+> | **`—`** | *Does this role act here?* | **RESOLVED — no function** | 131 cells of the IM matrix |
+> | **`Not defined`** | *What content is required?* | **UNRESOLVED** | Final deliverable set · level of information need |
+> | **`Not established`** | *Whose identity, authority or standard?* | **UNRESOLVED** | Recipient identity · required formats |
+> | **`Not applicable`** | *Does this field apply at all?* | **RESOLVED — does not apply** | `COORD-01` originating party |
+> | **`Conditional`** | *Does this row activate?* | **TRIGGER-DEPENDENT** | `TRN-E02`, per affected container |
+> | **`BLOCKED`** | *Can this proceed?* | **CANNOT PROCEED** | `TRN-E03` · `T4` |
 >
 > **This is not a controlled code set.** Only the IM Responsibility Matrix
 > publishes a legend — the other markers were gathered from three further
@@ -1415,10 +1417,18 @@ five decision groups — **and not one answer**.
 >
 > ---
 >
-> **Harrismith answers none of these for Triviron.**
-> Its four parties, its `ARC-01`–`FIR-01`, its `TRN-E01`–`TRN-E03`, its
-> allocations — all **`PROPOSED GOVERNANCE` for a training model** under
-> `TA-03`. **They are an example of method, not a template.**
+> **Harrismith answers none of these for Triviron — and its three resources do
+> not even carry one status between them.**
+>
+> | Resource | Status of its content |
+> |---|---|
+> | **IM Responsibility Matrix** | **Split.** Proposals *"unless the BEP already expressly establishes the allocation"* — `P4` **established**, `D4` **established as unresolved** |
+> | **Model / Information Responsibility Matrix** | **`PROPOSED GOVERNANCE`**, from the training organisation model `TA-03` |
+> | **Information Delivery Schedule** | **`PROPOSED GOVERNANCE`** — each entry additionally proposed, conditional or blocked |
+>
+> **None of it transfers automatically.** Not the four parties, not
+> `ARC-01`–`FIR-01`, not `TRN-E01`–`TRN-E03`, not one allocation. **Triviron
+> decides its own structure and its own allocations.**
 >
 > ### Four things that do transfer
 >
@@ -1441,7 +1451,7 @@ five decision groups — **and not one answer**.
 | Delivery-planning questions | Derived from `S1` §10.5, §10.13; `S4` §1 |
 | Governance-and-evidence questions | Derived from `S1` §1.5, §12.3, §12.7, §12.9; `S7` |
 | Harrismith's structure is a training model | `S7` `TA-03` |
-| Harrismith's allocations are proposals | `S2` §Population rule |
+| The IM matrix's **split status** — proposals unless the BEP expressly establishes them | `S2` §Population rule; `S1` §9.4, §9.7 |
 | Harrismith's containers are `PROPOSED GOVERNANCE`; no Naming Standard | `S3` §Classification; `S1` §11.3 |
 | Harrismith's events are training concepts | `S4` §2, §Classification |
 | Precedence; authority never inferred from configuration | `S1` §1.5 |

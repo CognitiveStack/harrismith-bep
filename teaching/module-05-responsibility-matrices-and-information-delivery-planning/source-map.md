@@ -630,7 +630,7 @@ are classifying different objects.
 | `M5-S14-03` | **Delivery organisation — seven questions.** What parties exist · what task teams sit within each · which disciplines are information domains rather than organisations · who is formally appointed · which functional roles are required · who holds them · which roles may validly be combined | `bep/…BEP.md` §4.2, §4.3, §4.6, §5.2, §5.11 — **questions derived from the BEP's own distinctions** | — | 4 | — | — | **`INTERP`** |
 | `M5-S14-04` | **Harrismith's four-party structure is a training organisation model (`TA-03`)** and *"does **not** constitute actual appointment of any consultant, contractor, company or professional role holder"* | `supporting/governance-decision-register.md` | `TA-03` | 2 | **`TRAINING ASSUMPTION`** | — | **`SUPPORTING`** |
 | `M5-S14-05` | **Responsibility architecture — seven questions.** Which functions need allocation · what grammar will be used · adopt Harrismith's, another, or decide later · who performs, checks, authorises, coordinates and accepts · which authorities are project-wide and which purpose-specific · how unresolved allocations will be typed · how independence limitations will be recorded | `bep/…BEP.md` §5.12, §9.1–§9.8, §5.11; `S2` §1, §5, §6 | — | 4 | — | — | **`INTERP`** |
-| `M5-S14-06` | **Harrismith's allocations are not recommendations.** They are *"functional governance proposals"* for this training implementation | `supporting/information-management-responsibility-matrix.md` | §Population rule | 2 | **`PROPOSED GOVERNANCE`** | — | **`SUPPORTING`** |
+| `M5-S14-06` | **Harrismith's allocations are not recommendations — and they do not share one status.** `S2`'s functional allocations are *"functional governance proposals **unless the BEP already expressly establishes the allocation**"* (`P4` established; `D4` established as unresolved); `S3`'s container allocations are **`PROPOSED GOVERNANCE`**; `S4`'s entries are **`PROPOSED GOVERNANCE`**, each additionally proposed, conditional or blocked | `supporting/information-management-responsibility-matrix.md` §Population rule; `bep/…BEP.md` §9.4, §9.7; `supporting/model-information-responsibility-matrix.md` §Classification; `supporting/information-delivery-schedule.md` §Classification | — | 2, 1 | **`PROPOSED GOVERNANCE`** / **`ESTABLISHED ALLOCATION`** / **`UNRESOLVED`** | — | **`SUPPORTING`** |
 | `M5-S14-07` | **Information-container architecture — seven questions.** What containers must exist · who originates and maintains each · how party, task team, discipline and container are recorded · which dependencies and interfaces must be visible · whether a coordination construct is required · whether it is a working set or a deliverable · what level of information need applies | `bep/…BEP.md` §7.2, §7.3; `S3` §1, §3, §3.3, §3.4, §4 | — | 4 | — | — | **`INTERP`** |
 | `M5-S14-08` | **Harrismith's container identifiers are `PROPOSED GOVERNANCE` for the training delivery model**, derived from `TA-03`. They are not a naming scheme to copy — **no Naming Standard exists** | `supporting/model-information-responsibility-matrix.md` §Classification, §6; `bep/…BEP.md` §11.3 | — | 2, 1 | **`PROPOSED GOVERNANCE`** | — | **`SUPPORTING`** |
 | `M5-S14-09` | **Delivery planning — eleven questions.** What information requirements govern delivery · what events or milestones actually exist · which recipients are identified · the purpose of each exchange · required formats · required checking · who authorises each progression · who may accept for each stated purpose · what acceptance criteria apply · what dependencies and dates are real · what final deliverable set is required | `bep/…BEP.md` §10.5, §10.13; `S4` §1 | — | 4 | — | — | **`INTERP`** |
@@ -1087,7 +1087,8 @@ decisions. Slide 14 poses the questions; it answers none.
 | Exercise baseline | [`exercises.md`](exercises.md) — **79 exercises**, created in T5-E |
 | Timing | **`20.0 minutes allocated — not measured`** |
 | Visual specifications, sources, assets, assembly package, PowerPoint | **None.** T5-F, T5-G and T5-H not started |
-| Outstanding | **T5-F** — visual specifications and visual-source set — and later increments |
+| Visual specifications | **COMPLETE (T5-F-A)** — [`visual-demonstration-plan.md`](visual-demonstration-plan.md), `M5V-01`–`M5V-14` |
+| Outstanding | **T5-F-B** — visual-source files, register and slide map — and later increments |
 
 ---
 
@@ -1281,7 +1282,27 @@ prohibited claims 101 and 102 forbid the confusion.
 
 ### 12.14 Residual work
 
-- **T5-F** — visual specifications and the visual-source set.
+- **T5-F-A** — the pre-visual correction gate and the fourteen visual
+  specifications — **COMPLETE**. See
+  [`visual-demonstration-plan.md`](visual-demonstration-plan.md).
+- **T5-F-B** — the fourteen visual-source files, the visual register and the
+  slide-visual map. **NOT STARTED.**
 - **T5-G** — the presentation assembly package.
 - **T5-H** — external PowerPoint production, **outside this repository**.
 - Review, rehearsal and measured timing — **deferred, as for Modules 1–4**.
+
+### 12.15 T5-F-A correction record
+
+**Four wording corrections were applied before any visual was specified.** None
+changed a statement classification or a total; `M5-S14-06` was **revised in
+place**, retaining its identifier and its `SUPPORTING` class.
+
+| # | Correction | Where |
+|---|---|---|
+| **1** | **The grammar belongs to one matrix only.** The Slide 5 → 6 transition said both matrices *"are read cell by cell"*. It now states that one matrix uses the controlled cell grammar and **the container matrix uses none**, and that Slide 6 examines the function matrix's vocabulary | [`presentation-outline.md`](presentation-outline.md), [`speaker-notes.md`](speaker-notes.md), [`exercises.md`](exercises.md) `E72` |
+| **2** | **Slide 13 is not seven forms of "not yet".** The umbrella heading and the *"not settled"* narration implied all seven markers are unresolved. **`—` and `Not applicable` record resolved answers.** An **outcome column** was added so each marker's outcome is visible, and the recovery line was rewritten | [`presentation-outline.md`](presentation-outline.md), [`speaker-notes.md`](speaker-notes.md) |
+| **3** | **The IM split status is preserved on Slide 14.** The slide grouped organisation, containers, events and allocations as one `PROPOSED GOVERNANCE` block. It now carries a three-row status contrast — **IM matrix split**, container matrix and schedule `PROPOSED GOVERNANCE` — and `M5-S14-06` was revised to cite `S2`, `S3` and `S4` | [`presentation-outline.md`](presentation-outline.md), [`speaker-notes.md`](speaker-notes.md), §5 `M5-S14-06`, [`exercises.md`](exercises.md) `E57`, `E69` |
+| **4** | **Unsupported generalisations removed.** *"which on most projects at kick-off is nobody"*, *"causes more argument than anything else on the list"* and *"the three that get skipped are always the same"* were replaced with bounded cues drawn from the Module 5 material. One further prevalence remark in the Slide 6 notes — *"where the vocabulary is usually mis-taught"* — was replaced with a reference to prohibited claims 32, 60 and 61 | [`speaker-notes.md`](speaker-notes.md) |
+
+**No new external source was introduced, and `SYNTH` was not increased.** The
+module's `SYNTH` count remains **1** — `M5-S14-14`.

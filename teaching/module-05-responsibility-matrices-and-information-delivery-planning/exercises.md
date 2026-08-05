@@ -637,9 +637,9 @@ not exist."*
 say why for each.
 
 **What good looks like.** The four-party structure (`TA-03` training model) ·
-the allocations (functional governance proposals) · the container identifiers
-(`PROPOSED GOVERNANCE`; no Naming Standard) · the three delivery events
-(training event concepts).
+the IM matrix's allocations (**split status** — proposals unless the BEP
+expressly establishes them) · the container identifiers (`PROPOSED GOVERNANCE`;
+no Naming Standard) · the three delivery events (training event concepts).
 
 ### E58 — Module 5 against Module 7
 
@@ -721,9 +721,16 @@ approved.
 
 ### E69 — "Can we just copy Harrismith for Triviron?"
 
-**Bounded answer.** Copy the **method** and the shape. Not the answers — the
-organisation is a declared training model, the allocations are proposals, and
-none of it was decided for Triviron.
+**Bounded answer.** Use Harrismith as an example of **decision structure**, not
+as a populated Triviron template. Its organisation is a declared training model
+under `TA-03`; its **container allocations and schedule entries are proposed
+governance**; and its **IM Responsibility Matrix carries a split status** —
+proposals unless the BEP expressly establishes them, as it does for `P4` and, in
+the other direction, for `D4` being unresolved. **None of it transfers
+automatically.**
+
+**Common failure.** Saying simply *"the allocations are proposals"* — which
+flattens the split status and breaks prohibited claim 5.
 
 ### E70 — "Has this workflow actually been implemented?"
 
@@ -747,8 +754,14 @@ allocation.
 
 ### E72 — Section B → C transition
 
-**Task.** Deliver Slide 5 → Slide 6 — from *two matrices* into *the vocabulary
-both are read with*.
+**Task.** Deliver Slide 5 → Slide 6 — from *two matrices, only one of which has
+a cell grammar* into *that matrix's vocabulary*.
+
+**Success criteria.** The handover states that the **IM Responsibility Matrix**
+is read through the seven-term grammar plus `TBD` and `—`, and that the
+**container matrix uses no function codes at all**.
+
+**Common failure.** Implying both matrices share one coded vocabulary.
 
 **Allocated.** Part of Section B's 4.5 minutes.
 

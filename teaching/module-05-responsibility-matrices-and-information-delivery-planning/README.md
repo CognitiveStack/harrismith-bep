@@ -3,13 +3,16 @@
 **Status:** **CURRENT — ACTIVE.** Established in **T5-A**; matrix distinctions in
 **T5-B**; matrix grammar and allocation boundaries in **T5-C**; delivery planning
 and delivery-event interpretation in **T5-D**; Slides 13–14, the exercise
-baseline and the module-wide final reconciliation in **T5-E**.
+baseline and the module-wide final reconciliation in **T5-E**; the pre-visual
+correction gate and the fourteen visual specifications in **T5-F-A**.
 
 **All fourteen slides developed. The teaching-content baseline is COMPLETE.**
+**All fourteen visual specifications are COMPLETE.**
 
-**A complete content baseline is not a produced presentation.** There is **no
-visual specification, no visual source, no asset, no assembly package and no
-PowerPoint**, and **no review or rehearsal has been performed**.
+**A complete baseline and a complete specification are not a produced
+presentation.** There is **no visual-source file, no asset directory, no visual
+register, no slide-visual map, no assembly package and no PowerPoint**, and **no
+review or rehearsal has been performed**.
 
 **Teaching material. Not governance.** This module explains controlled Harrismith
 resources; it governs nothing, decides nothing, and changes nothing.
@@ -203,7 +206,7 @@ A **20-minute, fourteen-slide** presentation.
 **No PowerPoint exists in this repository, in any module.** Decks are produced
 externally and are not committed.
 
-## 11. Module files — seven
+## 11. Module files — eight
 
 | File | Contains |
 |---|---|
@@ -214,6 +217,7 @@ externally and are not committed.
 | [`presentation-outline.md`](presentation-outline.md) | Timing structure · **fourteen-slide architecture** · increment attribution · **all fourteen slides developed** |
 | [`speaker-notes.md`](speaker-notes.md) | Presenter notes — **all fourteen slides**, plus the normal and emergency closings |
 | [`exercises.md`](exercises.md) | **79 exercises** across eight sections — one per slide, resource boundaries, grammar, delivery planning, typed absence, Triviron transfer, hostile questions, rehearsal |
+| [`visual-demonstration-plan.md`](visual-demonstration-plan.md) | **The controlling visual specification** — module-wide rules, 25 STOP conditions, and **`M5V-01`–`M5V-14`** with 31 recorded fields each |
 
 ### Reading order
 
@@ -236,7 +240,8 @@ externally and are not committed.
 | **T5-C** | Matrix-cell grammar and allocation boundaries — **Slides 6–8** · presenter-notes reference correction | ✅ **COMPLETE** |
 | **T5-D** | Information-delivery planning and delivery-event interpretation — **Slides 9–12** · two terminology corrections | ✅ **COMPLETE** |
 | **T5-E** | **Slides 13–14** · the **exercise baseline** · the **module-wide final reconciliation** · four consistency corrections | ✅ **COMPLETE** |
-| **T5-F** | Visual specifications and visual-source set | **NEXT — outstanding** |
+| **T5-F-A** | **Pre-visual correction gate** — four corrections · **fourteen visual specifications** `M5V-01`–`M5V-14` | ✅ **COMPLETE** |
+| **T5-F-B** | Fourteen visual-source files, the visual register and the slide-visual map | **NEXT — outstanding** |
 | T5-G | Presentation assembly package | Outstanding |
 | T5-H | External PowerPoint production — **outside this repository** | Outstanding |
 
@@ -283,27 +288,27 @@ control it established. **Every superlative and narrative observation in §5 was
 recalculated from the final tables**; none was carried forward because it had
 been true at an earlier increment.
 
-### 13.2 Scope compliance — T5-E
+### 13.2 Scope compliance — T5-F-A
 
 | Check | Result |
 |---|---|
 | Paths modified | **Only** this README, `presentation-outline.md`, `speaker-notes.md`, `source-map.md`, [`../roadmap.md`](../roadmap.md) and [`../README.md`](../README.md) |
-| File created | **Exactly one** — [`exercises.md`](exercises.md), expressly authorised for T5-E |
+| File created | **Exactly one** — [`visual-demonstration-plan.md`](visual-demonstration-plan.md), expressly authorised for T5-F-A |
 | [`source-inventory.md`](source-inventory.md) and [`resource-comparison.md`](resource-comparison.md) | **Unchanged.** No contradiction with a controlled source was found |
 | Controlled sources modified | **None.** `bep/`, `supporting/`, `docs/`, `guidance/`, `standards/`, `working/`, `output/` unchanged |
 | Modules 1–4 modified | **None** |
 | `teaching/assets/`, `teaching/shared/` modified | **None** |
 | PowerPoint, PDF or office file created | **None** |
-| Visual specification, visual source or rendered asset created | **None** |
+| Visual **specifications** created | **Fourteen** — specification only. **No visual-source file, no asset directory, no register, no slide map, no rendered asset** |
 | Presentation assembly package created | **None** |
-| Visual-demonstration plan created | **None** |
+| Renderer or dependency installed | **None** |
 | Autodesk or ACC activity | **None.** Not authorised, not attempted |
 | Publication automation | **Untouched. Remains `PAUSED`** |
-| T5-F or later work performed | **None** |
+| T5-F-B or later work performed | **None** |
 
 ### 13.3 Safeguards verified intact
 
-| Safeguard | State at end of T5-E |
+| Safeguard | State at end of T5-F-A |
 |---|---|
 | Publication authority | **UNRESOLVED** — unchanged |
 | Acceptance authority | **UNRESOLVED** — unchanged |
@@ -425,7 +430,7 @@ structural description is otherwise unchanged.
 
 | Field | Value |
 |---|---|
-| Increment | **T5-E — COMPLETE** |
+| Increment | **T5-F-A — COMPLETE** |
 | Module status | **CURRENT — ACTIVE** |
 | Teaching-content baseline | **COMPLETE** — all fourteen slides developed |
 | Slides | **14 of 14.** None architecture only |
@@ -435,12 +440,12 @@ structural description is otherwise unchanged.
 | Hypotheses | **25**, all accounted for |
 | Exercises | **79** — `E1`–`E79` |
 | Final reconciliation | **COMPLETE** — [`source-map.md`](source-map.md) §12 |
-| Module files | **7** |
-| Visual specifications | **None.** T5-F not started |
-| Visual sources / assets | **None.** T5-F not started |
+| Module files | **8** |
+| Visual specifications | **COMPLETE** — `M5V-01`–`M5V-14`, [`visual-demonstration-plan.md`](visual-demonstration-plan.md) |
+| Visual sources / assets / register / map | **None.** T5-F-B not started |
 | Assembly package | **None.** T5-G not started |
 | PowerPoint | **None**, in this or any module |
 | Review, rehearsal, measured timing | **None performed** |
 | Timing | **`20.0 minutes allocated — not measured`** |
-| Next increment | **T5-F** — visual specifications and visual-source set |
+| Next increment | **T5-F-B** — visual-source files, register and slide-visual map |
 | Publication automation | **PAUSED** |
