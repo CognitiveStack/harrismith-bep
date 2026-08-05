@@ -196,27 +196,31 @@ and under which checks and authorisation** — and on the difference between
 allocating responsibility and evidencing that it was discharged. See
 [`module-05-responsibility-matrices-and-information-delivery-planning/README.md`](module-05-responsibility-matrices-and-information-delivery-planning/README.md).
 
-**`T5-A` to `T5-D` are COMPLETE.** The module directory and its six files now
-exist. **T5-A** established the module, the **source inventory and hierarchy**
-(`S1`–`S15`, with `E1`–`E8` excluded and reasons recorded), a **separate analysis
-of the three principal resources**, the **fourteen-slide architecture**, and
-**Slides 1–3**. **T5-B** developed the two matrix slides — **Slides 4 and 5** —
-reconciled the classification scheme, and corrected [`README.md`](README.md).
-**T5-C** developed **Slides 6, 7 and 8**, completing **Section C — matrix grammar
-and its limits**. **T5-D** developed **Slides 9, 10, 11 and 12**, completing
-**Section D — information-delivery planning**.
+**`T5-A` to `T5-E` are COMPLETE, and the Module 5 teaching-content baseline is
+COMPLETE.** The module directory now holds **seven files**. **T5-A** established
+the module, the **source inventory and hierarchy** (`S1`–`S15`, with `E1`–`E8`
+excluded and reasons recorded), a **separate analysis of the three principal
+resources**, the **fourteen-slide architecture**, and **Slides 1–3**. **T5-B**
+developed **Slides 4 and 5**, reconciled the classification scheme, and corrected
+[`README.md`](README.md). **T5-C** developed **Slides 6–8**, completing
+**Section C**. **T5-D** developed **Slides 9–12**, completing **Section D**.
+**T5-E** developed **Slides 13 and 14**, created the **exercise baseline**, and
+performed the **module-wide final reconciliation**.
 
-**Slides 1–12 are developed.** **Slides 13–14 are architecture only** — slide
-number, working title, purpose, central teaching point, principal source basis, a
-high-level visual concept, the governing boundary and allocated time. **They
-carry no content, no visual specification and no assets.** **The content baseline
-is not complete.**
+**All fourteen slides are developed. No slide remains architecture only.**
 
-**Outstanding: `T5-E` and every later increment** — Slides 13–14 and the content
-baseline (T5-E), visual specifications and sources (T5-F), assembly package
-(T5-G), external PowerPoint production (T5-H). **The module has no exercises file
-yet**, no visual-demonstration plan, no asset directory and no presentation
-package.
+**A complete content baseline is not a produced presentation.** There is **no
+visual specification, no visual source, no asset directory, no visual-
+demonstration plan, no assembly package and no PowerPoint**, and **no review or
+rehearsal has been performed**.
+
+**Outstanding: `T5-F` and every later increment** — visual specifications and
+sources (T5-F), assembly package (T5-G), external PowerPoint production (T5-H).
+
+**The final position, reconciled from the completed tables:** **267 classified
+statements** · **102 prohibited claims** · **nine terminology variances, all
+recorded and none harmonised** · **25 hypotheses, all accounted for** · **79
+exercises** · **`20.0 minutes allocated — not measured`**.
 
 **The schedule plans; it does not record.** Its **sixteen fields** are approved
 at **BEP §10.13**, and every entry is **`PROPOSED GOVERNANCE` / training delivery
@@ -379,21 +383,22 @@ of governance under condition. Describing it neither advances nor reopens it.
 | Field | Value |
 |---|---|
 | **Active module** | **Module 5 — Responsibility Matrices and Information-Delivery Planning** — **CURRENT — ACTIVE** |
-| Module 5 current increment | **T5-D — COMPLETE.** **T5-A to T5-D complete; T5-E and later increments outstanding** |
-| Module 5 deliverable | 20-minute, **fourteen-slide** presentation — **architecture established; content baseline NOT complete** |
-| Module 5 slides developed | **Slides 1–12.** Slides 13–14 are **architecture only** — no content, no visual specification, no assets |
+| Module 5 current increment | **T5-E — COMPLETE.** **T5-A to T5-E complete; T5-F and later increments outstanding** |
+| Module 5 deliverable | 20-minute, **fourteen-slide** presentation — **teaching-content baseline complete; not produced** |
+| Module 5 slides developed | **All fourteen.** None architecture only. **Teaching-content baseline COMPLETE** |
 | Module 5 established (T5-A) | Module directory, **six files** · **source inventory and hierarchy** `S1`–`S15` with **`E1`–`E8` excluded and reasons recorded** · **separate analysis of the three principal resources**, 37 fields each · **six registers** · **25 tested hypotheses** · 20-minute fourteen-slide architecture · **Slides 1–3** |
 | Module 5 developed (T5-B) | **Slides 4 and 5** — the two responsibility matrices, distinguished and not merged · **84 classified statements** across Slides 1–5 · **59 prohibited claims** · **classification scheme reconciled** — `SYNTH` redefined and `M5-S2-14` reclassified `INTERP`, so the module README and source map agree · [`README.md`](README.md) corrected |
 | Module 5 developed (T5-C) | **Slides 6, 7 and 8** — the seven-term grammar with its two non-function values · cell grammar and combined values · role combination and the limit of independence claims · **141 classified statements** across Slides 1–8 · **75 prohibited claims** · **eighth terminology variance recorded** — the grammar and the decision terminology are two controlled vocabularies, not merged · stale presenter-notes reference corrected |
 | Module 5 developed (T5-D) | **Slides 9, 10, 11 and 12** — the schedule's sixteen approved fields · three event concepts with their three statuses · **an event uses a transition but is not one** · the **five independent `TRN-E03` blockers**, each typed and none blank · **225 classified statements** across Slides 1–12 · **89 prohibited claims** · **ninth terminology variance recorded** — `S4` counts five blocking matters, `S5` counts six; neither list rewritten · two wording corrections: **`—` is not a blank**, and **`TRN-E03` fields are typed, not empty** |
+| Module 5 developed (T5-E) | **Slides 13 and 14** — the seven typed absence markers, and the Triviron decision questions with **no answers** · the **exercise baseline**, 79 exercises · the **module-wide final reconciliation** · four consistency corrections, all narrative superlatives recalculated from the final tables · **267 classified statements** · **102 prohibited claims** |
 | Module 5 central question | **Revised on source evidence.** *Which information must be produced, by which task team, for which event and recipient, for what purpose — and under which checks and authorisation?* The provisional *"and by when"* was **removed**: BEP §10.5 asks *for which event*, and **no delivery dates or client milestones have been established** |
 | Module 5 governance position | The three resources are **separately controlled** and **not one RACI matrix** — *"RACI is not adopted"* is **controlled governance**. All three are **APPROVED WITH CONDITIONS — Training Baseline 0.1** (`AD-001`), **publication NOT AUTHORISED**; the schedule's entries and the container matrix's allocations are additionally **`PROPOSED GOVERNANCE`**. **Allocation is not performance.** **No matrix or schedule field is blank** — every absence is typed |
 | Module 5 safeguards carried forward | Publication authority **unresolved** · acceptance authority **unresolved** · **`T4` blocked** · information **remains Shared** · `TRN-E03` **blocked on five independent matters, none populated** · `TRN-E03` **is not `T4`** · Published / Delivered / Received / Accepted remain **four distinct objects** · `UD-001` **unresolved, not corrected** · `GCR-006` **open** |
 | Module 5 visual source | **None.** T5-F not started |
 | Module 5 assembly package | **None.** T5-G not started |
 | Module 5 PowerPoint | **None.** T5-H not started |
-| Module 5 outstanding | **T5-E** (Slides 13–14 and the content baseline), T5-F, T5-G, T5-H. **No exercises file, no visual-demonstration plan, no asset directory, no presentation package** |
-| Module 5 exercises | **None.** Unlike Modules 1–4, no `exercises.md` exists yet |
+| Module 5 outstanding | **T5-F** (visual specifications and sources), T5-G (assembly package), T5-H (external PowerPoint). **No visual-demonstration plan, no asset directory, no presentation package** |
+| Module 5 exercises | **79** — [`module-05-responsibility-matrices-and-information-delivery-planning/exercises.md`](module-05-responsibility-matrices-and-information-delivery-planning/exercises.md), `E1`–`E79`. **`E79` defines a full run and records no result** |
 | Module 4 deliverable | 20-minute, **fourteen-slide** presentation — **produced** |
 | Module 4 slides developed | **Slides 1–14.** None outstanding |
 | Module 4 content baseline | **COMPLETE (T4-D)** |

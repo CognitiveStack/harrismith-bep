@@ -2,9 +2,12 @@
 
 **Status:** Presenter notes for teaching material. **Not governance.**
 
-**Notes exist for Slides 1–12** — Slides 1–3 written in T5-A, Slides 4–5 in
-T5-B, Slides 6–8 in T5-C, Slides 9–12 in T5-D. **Slides 13–14 are architecture
-and have no notes.**
+**Notes exist for all fourteen slides** — Slides 1–3 written in T5-A, 4–5 in
+T5-B, 6–8 in T5-C, 9–12 in T5-D, 13–14 in T5-E, together with the **module
+closing** and its **emergency version**. **No slide lacks presenter notes.**
+
+**No rehearsal has been performed.** Timing throughout remains **allocated, not
+measured**.
 
 Statement IDs refer to [`source-map.md`](source-map.md) §5. Source identifiers
 `S1`–`S15` are defined in [`source-inventory.md`](source-inventory.md).
@@ -1268,12 +1271,270 @@ Then go to Slide 13.
 
 ---
 
+## Slide 13 — Nothing is blank — how Harrismith names an absence
+
+**Allocated: 1.0 min.** Short, and the most transferable minute in the module.
+
+### Opening sentence
+
+> *"Everything we have looked at is full of things nobody has decided yet. And
+> not one of them is a blank space. That is deliberate, and it is the habit worth
+> taking away."*
+
+### Conceptual explanation
+
+Seven markers. **Do not read all seven definitions** — you have a minute. Read
+the panel headings and then work the pairs that actually get confused.
+
+> *"Seven different ways of recording that something is not settled. They are not
+> synonyms. Each one answers a different question, and if you flatten them into
+> 'blank' you have thrown away everything the project knew about its own gaps."*
+
+**Say this once, explicitly**, because the panel will look like a code table:
+
+> *"This is not a controlled code set. Only the responsibility matrix publishes a
+> legend, with two values. The other five markers I have gathered from three
+> further documents. The grouping is mine; the words are theirs."*
+
+### Harrismith worked example
+
+Work the pair that matters most:
+
+> *"`TBD` and a dash sit in the same matrix and look similar. `TBD` means the
+> allocation is unresolved — the BEP records that authority as not established.
+> A dash means the role holds no function in that activity. One is an open
+> question. The other is an answered one. There are a hundred and thirty-one
+> dashes in that matrix, and not one of them is a gap."*
+
+Then the second pair, briefly:
+
+> *"`Not defined` is missing content — the deliverable set, the level of
+> information need. `Not established` is a missing identity, authority or
+> standard — the recipient, the format requirement, the Appointing Party. The
+> sources use them for different objects, so we do too."*
+
+And the third:
+
+> *"`Conditional` waits for its trigger. `Blocked` cannot proceed at all.
+> Neither means late."*
+
+### Critical distinction
+
+**`—` is not a blank.** If you say nothing else on this slide, say that.
+
+> *"A dash is a populated cell. Somebody decided that this role has no part in
+> this activity and wrote it down. That is a resolved answer, not an empty box —
+> and it is certainly not a statement that anyone is absent from the project."*
+
+### Governance-status qualification
+
+> *"And the sources do not agree on one vocabulary. The same authority gap is
+> 'unresolved' in the matrices and 'blocking an event' in the schedule. Both are
+> right — they are classifying different things. Nobody has rewritten either to
+> match the other, and we have not either."*
+
+### Likely audience misunderstanding
+
+**"So the documents are full of holes."** No — they are full of **named** gaps.
+A named gap is a finding. A hole is a failure of record-keeping.
+
+**"Can we not just put TBD everywhere?"** You could, and you would lose the
+distinction between *nobody has decided* and *this role has no part here*.
+
+**"Isn't `Not applicable` a way of ducking the question?"** It can be anywhere
+else. Here it appears once, on `COORD-01`'s originating party, **with a written
+reason** — federation does not merge authorship, so the field genuinely does not
+apply.
+
+### Prohibited inference
+
+- That Harrismith contains an untyped blank.
+- That the seven markers are one controlled universal code set.
+- That `TBD` equals `—`, or `Not defined` equals `Not established`.
+- That `Conditional` means pending or overdue, or `BLOCKED` means rejected or
+  failed.
+- That an unresolved field is a formatting artefact.
+- **Proposing a single tidy replacement vocabulary.**
+
+### Transition to Slide 14
+
+> *"That habit — naming the gap instead of leaving a hole — is the one thing from
+> this module that transfers to any project, on day one, before anybody has
+> agreed anything. Which brings us to the project we are actually here for."*
+
+### Recovery line if time is short
+
+> *"Seven different words for 'not settled', and not one blank among them. The
+> two to remember: `TBD` is an open question; a dash is an answered one."*
+
+Then go to Slide 14.
+
+---
+
+## Slide 14 — What Triviron must decide before drawing a matrix
+
+**Allocated: 2.0 min.** The transfer slide, and the longest on the deck.
+
+### Opening sentence
+
+> *"Everything so far has been Harrismith. This slide is Triviron — and it
+> contains no answers, because there are none to give yet."*
+
+### Conceptual explanation
+
+Five decision groups, thirty-nine questions. **Do not read them all.** Read each
+group heading, then pick one or two questions per group that the room will feel.
+
+> *"Delivery organisation. What parties actually exist — not what we would like
+> to exist. Which disciplines are information domains rather than organisations.
+> And who is formally appointed, which on most projects at kick-off is nobody."*
+
+> *"Responsibility architecture. What grammar will you use? Harrismith refused
+> RACI and wrote its own seven terms. Triviron might adopt those, might choose
+> something else, might decide later — but it has to decide, and record the
+> decision."*
+
+> *"Container architecture. What containers must exist, who originates each, and
+> whether your coordination construct is a working set or a deliverable. That
+> last one causes more argument than anything else on the list."*
+
+> *"Delivery planning. Sixteen fields' worth of question — and the three that get
+> skipped are always the same: who authorises the progression, who may accept,
+> and against what criteria."*
+
+> *"Governance and evidence. Which source governs, who may approve a change, what
+> counts as evidence, and how you keep the proposal separate from the
+> implementation."*
+
+### Harrismith worked example
+
+Use Harrismith as an example of **method**, never of answer:
+
+> *"Harrismith has four parties, six containers, three events and a seven-term
+> grammar. None of that transfers. Its organisation is a declared training model
+> under TA-03. Its allocations are functional governance proposals. Its
+> containers and events are proposed governance for a training exercise. What
+> transfers is not the content — it is that somebody sat down and answered these
+> questions in writing, and typed every answer they could not give."*
+
+### Critical distinction
+
+**Method, not template.** Then the four things that do transfer — these are the
+module's closing argument:
+
+> *"Define the questions before you fill the cells. Keep the three allocations
+> apart — function, container, delivery. Keep governance separate from evidence —
+> an approved decision is not a configured system. And leave every unknown
+> visibly typed."*
+
+**Flag the framing line honestly if pressed.** *"Define the questions before you
+fill the cells"* is **my wording, not the project's** — no source says it. It is
+the only line in this module with no citation behind it, and it is recorded as
+such.
+
+### Governance-status qualification
+
+> *"There is no Triviron information in this repository. None. No parties, no
+> roles, no containers, no events, no dates. Module 7 does the translation, and
+> Module 7 cannot start until that information exists. So the honest status line
+> for Triviron is the one at the bottom of this slide: responsibility and
+> delivery basis — not yet established."*
+
+### Likely audience misunderstanding
+
+**"So which of these should we copy?"** None, automatically. Copy the questions;
+answer them yourselves.
+
+**"Can we just use Harrismith's matrix as a starting template?"** You can use its
+*shape* — functions down, roles across, every cell typed. You cannot use its
+allocations, because they were made for a different, simulated organisation.
+
+**"Give us your recommendation."** Decline. This module teaches how to ask; it
+does not answer for a project it has no information about. **Module 7 owns the
+translation, and it has not been performed.**
+
+**"So we have not actually decided anything."** Correct — and saying so is the
+point of the last line.
+
+### Prohibited inference
+
+- **Answering any question on this slide, for Triviron.**
+- Offering any Harrismith allocation, identifier, event, grammar or structure as
+  a recommendation.
+- Naming any Triviron party, task team, role holder, container, event,
+  recipient, format, authority, date, deliverable or acceptance criterion.
+- Claiming Module 5 has written or begun the Triviron BEP, or that Module 7's
+  translation is done.
+- Designing Module 6's assurance or review workflow.
+
+### Recovery line if time is short
+
+> *"Five groups of questions — organisation, responsibility, containers,
+> delivery, governance. Harrismith answers none of them for Triviron. What
+> transfers is the method: define the questions before you fill the cells, keep
+> the three allocations apart, keep governance separate from evidence, and type
+> every unknown."*
+
+---
+
+## Module 5 closing
+
+### Normal closing — approximately 30 seconds
+
+Deliver after Slide 14, on the closing marker.
+
+> *"So — three resources, three questions. One says who performs which function.
+> One says who produces which container. One says what is exchanged, at what
+> event, to whom and under what conditions. Keep them apart and the project stays
+> traceable; merge them and you lose the distinctions the whole thing rests on."*
+>
+> *"Matrices allocate. Schedules plan. Neither of them proves that anything has
+> been done — that needs different evidence, and on this project most of it does
+> not exist yet."*
+>
+> *"And the habit I would take from Harrismith over anything else: when it did
+> not know something, it wrote down that it did not know, and said which kind of
+> not-knowing it was. Publication authority unresolved. Recipient not
+> established. Deliverable set not defined. Five gates, all closed, all labelled."*
+>
+> *"Nothing here has been decided for Triviron. That comes next, and it comes
+> with Triviron's own information — not with ours."*
+
+### Emergency closing — ten seconds
+
+For when Slide 14 has overrun, or the session is being cut.
+
+> *"Matrices allocate. Schedules plan. Neither proves performance. And every
+> unknown stays visible — that is the part worth stealing. Triviron's basis is
+> not yet established."*
+
+**Both closings must retain all five elements:** matrices allocate · schedules
+plan · neither proves performance · unknowns stay visible · **no Triviron answer
+has been manufactured.**
+
+### Transition toward Module 6
+
+**Do not begin Module 6 content.** One sentence, if a bridge is wanted:
+
+> *"Module 5 has told you what must be produced and by whom. What it has
+> deliberately not told you is how the coordination, review and approval of that
+> information actually runs — how a cycle is performed, how a finding is triaged,
+> how a review reaches a decision. That is Module 6."*
+
+**Nothing beyond that sentence.** Coordination mechanics, federation, clash
+detection, triage, issue closure, assurance and review procedure are **all
+Module 6**, and none has been taught here.
+
+---
+
 ## Status
 
 | Field | Value |
 |---|---|
-| Increment | **T5-D** |
-| Notes developed | **Slides 1–12** — Slides 1–3 (T5-A), Slides 4–5 (T5-B), Slides 6–8 (T5-C), Slides 9–12 (T5-D) |
-| Slides 13–14 | **No notes** — architecture only |
+| Increment | **T5-E** |
+| Notes developed | **All fourteen slides** — 1–3 (T5-A), 4–5 (T5-B), 6–8 (T5-C), 9–12 (T5-D), 13–14 (T5-E) |
+| Slides without notes | **None** |
+| Module closing | **Normal (≈30 s) and emergency (≈10 s)**, plus a one-sentence Module 6 bridge |
 | Timing | **`20.0 minutes allocated — not measured`** |
-| Outstanding | **T5-E** — Slides 13–14 and the content baseline — and later increments |
+| Rehearsal | **None performed.** [`exercises.md`](exercises.md) defines rehearsals; it does not record any |
+| Outstanding | **T5-F** — visual specifications and visual-source set — and later increments |

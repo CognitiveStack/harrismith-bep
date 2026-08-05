@@ -1,14 +1,17 @@
 # Module 5 — Presentation Outline
 
-**Status:** Working outline. **Slides 1–12 developed — Slides 1–3 in T5-A,
-Slides 4–5 in T5-B, Slides 6–8 in T5-C, Slides 9–12 in T5-D. Slides 13–14 are
-architecture only** — no content, no visual specification, no assets. **The
-content baseline is not complete.** This is **not a presentation**: no deck exists, and the timing below
-is an allocation that has **never been measured**.
+**Status:** **All fourteen slides developed. The Module 5 teaching-content
+baseline is COMPLETE.** Slides 1–3 in T5-A, 4–5 in T5-B, 6–8 in T5-C, 9–12 in
+T5-D, 13–14 in T5-E.
+
+**A complete content baseline is not a produced presentation.** There is **no
+visual specification, no visual source, no asset, no assembly package and no
+PowerPoint**, and no review or rehearsal has been performed. The timing below is
+an allocation that has **never been measured**.
 
 Source identifiers `S1`–`S15` are defined in
 [`source-inventory.md`](source-inventory.md). Statement classification is in
-[`source-map.md`](source-map.md) §5. Presenter notes for **Slides 1–12** are in
+[`source-map.md`](source-map.md) §5. Presenter notes for **all fourteen slides** are in
 [`speaker-notes.md`](speaker-notes.md).
 
 **Timing throughout: `20.0 minutes allocated — not measured`.**
@@ -42,9 +45,9 @@ Source identifiers `S1`–`S15` are defined in
 | 10 | Three delivery events — proposed, conditional, blocked | 1.5 | ✅ **T5-D** |
 | 11 | A delivery event is not an information-state transition | 1.5 | ✅ **T5-D** |
 | 12 | Why `TRN-E03` is blocked — five matters, not one | 1.5 | ✅ **T5-D** |
-| 13 | Nothing is blank — how Harrismith names an absence | 1.0 | Architecture only |
-| 14 | What Triviron must decide before drawing a matrix | 2.0 | Architecture only |
-| | **Total** | **20.0** | **12 of 14** |
+| 13 | Nothing is blank — how Harrismith names an absence | 1.0 | ✅ **T5-E** |
+| 14 | What Triviron must decide before drawing a matrix | 2.0 | ✅ **T5-E** |
+| | **Total** | **20.0** | **14 of 14** |
 
 ### 2.1 How the sequence was derived
 
@@ -70,45 +73,35 @@ are unchanged.
 - **Slide 6 must stay at concept level.** No suitability, status or naming code
   set exists; there is no coding standard to teach.
 
-## 3. Slides 13–14 — architecture only
+## 3. Increment attribution — how the fourteen slides were built
 
-**No content is developed below.** Each entry records only: purpose, central
-teaching point, principal source basis, a **high-level** visual concept, the
-governing boundary, and allocated time. **No visual specification, no visual
-source, no on-slide copy and no presenter notes exist for any slide in this
-section.**
+**No slide remains architecture only.** This section preserves which increment
+developed each slide; the content itself is in §4.
 
-### Slide 13 — Nothing is blank — how Harrismith names an absence · 1.0 min
+| Increment | Slides | Subject |
+|---|---|---|
+| **T5-A** | 1, 2, 3 | Module establishment, the central question, and the three resources introduced |
+| **T5-B** | 4, 5 | The two responsibility matrices, distinguished and not merged |
+| **T5-C** | 6, 7, 8 | The grammar, cell reading, and the limit of independence claims |
+| **T5-D** | 9, 10, 11, 12 | The schedule, the three events, event-versus-transition, and the `TRN-E03` block |
+| **T5-E** | 13, 14 | How an absence is typed, and what Triviron must decide |
 
-| Field | Value |
-|---|---|
-| **Purpose** | Teach the discipline the sources actually practise: every absence is **typed**, never left empty |
-| **Central teaching point** | `TBD` · `—` · `Not defined` · `Not established` · `Not applicable` · `Conditional` · `BLOCKED` are **seven different statements**, and collapsing them destroys the information |
-| **Principal source basis** | `S2` §1, §6; `S3` §3.4, §4, §6; `S4` §2, §5.1, §7; hypothesis `H-D11`, `H-D12` |
-| **Visual concept — high level** | The absence vocabulary as a single reference panel, each marker paired with the question it answers |
-| **Boundary / prohibited claim** | Must not present Harrismith as containing blanks; must not classify an absence as an error without source support; must not treat an unresolved field as a formatting artefact (**`H-D12` is `NOT ESTABLISHED`**) |
-| **Time** | 1.0 min |
+**Each developed slide in §4 carries:** purpose · final on-slide copy · source
+basis · classified-statement range · teaching-synthesis position · prohibited
+claims · a **high-level** visual concept · allocated time · a transition.
 
-### Slide 14 — What Triviron must decide before drawing a matrix · 2.0 min
+**The visual concepts are high-level only.** They record what a visual must show
+and must not show. **They are not visual specifications**, and **T5-F has not
+started** — no specification, source file, rendered asset or asset directory
+exists.
 
-| Field | Value |
-|---|---|
-| **Purpose** | Transfer the method, not the Harrismith answers |
-| **Central teaching point** | Triviron must decide **which questions its resources answer, and how it will record what it does not yet know** — before it populates a single cell |
-| **Principal source basis** | Predominantly **`INTERP`**. No controlled source describes Triviron; the Harrismith material supports the *asking* of every question and the *answering* of none |
-| **Visual concept — high level** | The open questions as a decision checklist, with the Harrismith position beside each shown as **an example, not an answer** |
-| **Boundary / prohibited claim** | Must not present Harrismith allocations as recommendations; must not answer any Triviron question; **Module 7 owns the translation** |
-| **Time** | 2.0 min |
-
----
-
-## 4. Developed slides — T5-A to T5-D
+## 4. Developed slides — all fourteen
 
 Presenter notes: [`speaker-notes.md`](speaker-notes.md). Statement
 classification: [`source-map.md`](source-map.md) §5.
 
 **Slides 1–3 were developed in T5-A; Slides 4–5 in T5-B; Slides 6–8 in T5-C;
-Slides 9–12 in T5-D.**
+Slides 9–12 in T5-D; Slides 13–14 in T5-E. No slide remains architecture only.**
 
 ### Slide 1 — Module 5: from who holds a role to what must be produced · 1.0 min
 
@@ -229,9 +222,11 @@ show why Modules 2 and 4 together are still not a delivery plan; and separate
 
 Classified statements `M5-S2-01` to `M5-S2-15`.
 
-**Teaching synthesis on this slide:** the learning objective (`M5-S2-14`) is
-`SYNTH`. **The revised central question is `INTERP`** — derived from `S1` §10.5
-and `S4` §1, and not phrased as a single question by any source.
+**Teaching synthesis on this slide:** none. Three statements are `INTERP` — the
+revised central question, the Module 2 / Module 4 handover, and **the learning
+objective (`M5-S2-14`)**, which cites `S1` §10.5 together with the three
+resources' purpose statements and population rules. **It was reclassified from
+`SYNTH` to `INTERP` in T5-B**; see [`source-map.md`](source-map.md) §5.1.
 
 **Recorded correction.** The provisional central question ended *"and by when?"*.
 **The sources do not support it** — see [`source-map.md`](source-map.md) §7.3
@@ -1270,17 +1265,240 @@ shown opening.**
 
 ---
 
+### Slide 13 — Nothing is blank — how Harrismith names an absence · 1.0 min
+
+**Purpose of the slide**
+
+Teach the discipline the sources actually practise: **every absence is typed**.
+Seven markers, seven different statements — and collapsing any two destroys
+information.
+
+**On-slide copy**
+
+> ## Seven ways to say "not yet". None of them is a blank.
+>
+> | Marker | Answers | Harrismith instance |
+> |---|---|---|
+> | **`TBD`** | *Who or what, unresolved?* | Publication authority · every role holder |
+> | **`—`** | *Does this role act here?* **No.** | 131 cells of the IM matrix |
+> | **`Not defined`** | *What content is required?* | Final deliverable set · level of information need |
+> | **`Not established`** | *Whose identity, authority or standard?* | Recipient identity · required formats |
+> | **`Not applicable`** | *Does this field apply at all?* | `COORD-01` originating party |
+> | **`Conditional`** | *Does this row activate?* | `TRN-E02`, per affected container |
+> | **`BLOCKED`** | *Can this proceed?* | `TRN-E03` · `T4` |
+>
+> **This is not a controlled code set.** Only the IM Responsibility Matrix
+> publishes a legend — the other markers were gathered from three further
+> sources.
+>
+> ### The two that look alike and are not
+>
+> **`TBD`** — the allocation is **unresolved**. It does not mean a holder exists
+> but is unnamed, that the answer is known informally, or that it will
+> necessarily be resolved later.
+>
+> **`—`** — **a populated cell recording a resolved answer**: this role has no
+> function in this activity. **Not blank. Not unresolved. Not `TBD`.** And not a
+> statement that anyone is absent from the project.
+>
+> ### And two more pairs worth keeping apart
+>
+> **`Not defined`** ≠ **`Not established`** — one is missing content, the other
+> a missing identity, authority or standard. The sources use them for different
+> objects.
+>
+> **`Conditional`** ≠ **`BLOCKED`** — conditional waits for its trigger; blocked
+> cannot proceed at all. **Neither means delayed, overdue, pending, rejected or
+> failed.**
+>
+> ### The sources do not share one vocabulary
+>
+> The same authority gap is **unresolved** in the matrices and **blocking an
+> event** in the schedule. **Both are correct — they classify different
+> objects**, and neither has been rewritten to match the other.
+
+**Source basis**
+
+| Claim | Source |
+|---|---|
+| No untyped blank exists | `S2` §3.1–§3.7 census; `S3`; `S4` — **verified by inspection** |
+| Only `S2` publishes a legend | `S2` §1 |
+| The seven-marker grouping | **`INTERP`** — assembled across `S2`, `S3`, `S4`, `S5` |
+| `TBD` definition | `S2` §1 |
+| `—` definition | `S2` §1 |
+| `Not defined` instances | `S4` §7; `S3` §4; `S5` §11 |
+| `Not established` instances | `S4` §5.1, §7; `S1` §2.3, §5.3, §11.9 |
+| `Not applicable` instance | `S3` §3.4 — `COORD-01` |
+| `Conditional` | `S4` §2, §4, §4.2 |
+| `BLOCKED` | `S4` §2, §5, §5.1; `S5` §11 |
+| Vocabulary variance | §6.1 variances 1 and 2 |
+
+Classified statements `M5-S13-01` to `M5-S13-20`. **No `CONTROLLED` statement** —
+the BEP publishes no absence vocabulary; all seven markers belong to the
+supporting resources.
+
+**Teaching synthesis on this slide:** none. Eight statements are `INTERP`, each
+citing the sources it rests on.
+
+**Prohibited on this slide**
+
+- Claiming Harrismith contains an untyped blank.
+- Presenting the seven markers as **one controlled universal code set**.
+- Equating `TBD` with `—`, or `Not defined` with `Not established`.
+- Suggesting `Not applicable` may conceal an unresolved answer.
+- Describing `Conditional` as delayed, pending or overdue, or `BLOCKED` as
+  rejected, failed or merely unfinished.
+- Treating an unresolved field as a formatting artefact — **`H-D12` is
+  `NOT ESTABLISHED`**.
+- Proposing a single replacement vocabulary to tidy the variance.
+
+**Visual concept — high level**
+
+A **seven-row reference panel**: marker · the question it answers · one bounded
+Harrismith instance. A caption states that **this is a teaching grouping, not a
+controlled code set**. `TBD` and `—` are set adjacent and visibly distinguished.
+**No row is empty, and no eighth marker is invented.**
+
+**Transition into Slide 14**
+
+> *"That habit — naming the gap instead of leaving a hole — is the one thing from
+> this module that transfers to any project, on day one, before anybody has
+> agreed anything. Which brings us to the project we are actually here for."*
+
+---
+
+### Slide 14 — What Triviron must decide before drawing a matrix · 2.0 min
+
+**Purpose of the slide**
+
+Transfer the **method**, not the Harrismith answers. Thirty-nine questions across
+five decision groups — **and not one answer**.
+
+**On-slide copy**
+
+> ## Triviron: the questions, before the cells.
+>
+> ### 1 · Delivery organisation
+> What parties actually exist? · What task teams sit within each party? · Which
+> disciplines are information **domains** rather than organisations? · Who is
+> formally appointed? · Which functional roles are required? · Which individuals
+> hold them? · Which roles may validly be combined?
+>
+> ### 2 · Responsibility architecture
+> Which information-management functions need allocation? · What responsibility
+> grammar will be used? · Harrismith's, another, or decided later? · Who
+> performs, checks, authorises, coordinates and accepts? · Which authorities are
+> project-wide and which purpose-specific? · How will unresolved allocations be
+> typed? · How will independence limitations be recorded?
+>
+> ### 3 · Information-container architecture
+> What containers or container classes must exist? · Who originates and
+> maintains each? · How are party, task team, discipline and container recorded?
+> · Which dependencies and interfaces must be visible? · Is a coordination
+> construct required? · Is it a working set or a deliverable? · What level of
+> information need applies?
+>
+> ### 4 · Delivery planning
+> What information requirements govern delivery? · What delivery events or
+> milestones actually exist? · Which recipients are identified? · What is the
+> purpose of each exchange? · What formats are required? · What checking is
+> required? · Who authorises each progression? · Who may accept, for each stated
+> purpose? · What acceptance criteria apply? · What dependencies and dates are
+> real? · What final deliverable set is required?
+>
+> ### 5 · Governance and evidence
+> Which source governs each decision? · Who may approve changes? · How will
+> decisions be recorded? · What counts as implementation evidence? · What must
+> be verified after implementation? · How will proposed governance stay separate
+> from live evidence? · How will unknowns stay visible rather than be completed
+> by assumption?
+>
+> ---
+>
+> **Harrismith answers none of these for Triviron.**
+> Its four parties, its `ARC-01`–`FIR-01`, its `TRN-E01`–`TRN-E03`, its
+> allocations — all **`PROPOSED GOVERNANCE` for a training model** under
+> `TA-03`. **They are an example of method, not a template.**
+>
+> ### Four things that do transfer
+>
+> **Define the questions before you fill the cells.**
+> **Keep the three allocations apart** — function, container, delivery.
+> **Keep governance separate from evidence** — *"an approved decision is not a
+> configured system."*
+> **Leave every unknown visibly typed.**
+>
+> ### `Triviron responsibility and delivery basis — not yet established.`
+
+**Source basis**
+
+| Claim | Source |
+|---|---|
+| No Triviron information exists; Module 7 blocked on it | `S15` §2 |
+| Delivery-organisation questions | Derived from `S1` §4.2, §4.3, §4.6, §5.2, §5.11 |
+| Responsibility-architecture questions | Derived from `S1` §5.12, §9.1–§9.8, §5.11; `S2` |
+| Container-architecture questions | Derived from `S1` §7.2, §7.3; `S3` |
+| Delivery-planning questions | Derived from `S1` §10.5, §10.13; `S4` §1 |
+| Governance-and-evidence questions | Derived from `S1` §1.5, §12.3, §12.7, §12.9; `S7` |
+| Harrismith's structure is a training model | `S7` `TA-03` |
+| Harrismith's allocations are proposals | `S2` §Population rule |
+| Harrismith's containers are `PROPOSED GOVERNANCE`; no Naming Standard | `S3` §Classification; `S1` §11.3 |
+| Harrismith's events are training concepts | `S4` §2, §Classification |
+| Precedence; authority never inferred from configuration | `S1` §1.5 |
+| Approval ≠ implementation ≠ verification | `S1` §12.3, §12.9 |
+| *Define the questions before you fill the cells* | **none — presenter framing** |
+
+Classified statements `M5-S14-01` to `M5-S14-22`.
+
+**Teaching synthesis on this slide.** `M5-S14-14` — *define the questions before
+you fill the cells* — is **the module's only `SYNTH` statement**. It cites no
+source and is presenter framing. **Do not deliver it as though a source said
+it.**
+
+**Prohibited on this slide**
+
+- **Answering any question, for Triviron, in any group.**
+- Offering a Harrismith allocation, identifier, event, grammar or organisational
+  structure as a Triviron recommendation.
+- Naming any Triviron party, task team, role holder, container, event,
+  recipient, format, authority, date, deliverable or acceptance criterion.
+- Claiming Module 5 has written or begun the Triviron BEP, or that Module 7's
+  translation has been performed.
+- Designing Module 6's assurance or review workflow.
+- Implying the completed Module 5 baseline is a produced presentation.
+
+**Visual concept — high level**
+
+A **question-only decision checklist**, five groups, every answer field carrying
+a visible **`Not yet established`** marker. The Harrismith position may appear
+beside a question **only when explicitly labelled as an example, not an answer**.
+The closing marker — *`Triviron responsibility and delivery basis — not yet
+established.`* — is the last element on the slide. **No answer field is ever
+filled, and no Harrismith value is shown as a default.**
+
+**Module 5 closing**
+
+Delivered from the presenter notes — a 30-second normal closing and a 10-second
+emergency version. Both retain: **matrices allocate · schedules plan · neither
+proves performance · unknowns stay visible · no Triviron answer has been
+manufactured.**
+
+---
+
 ## 5. Status
 
 | Field | Value |
 |---|---|
-| Increment | **T5-D** |
-| Slides developed | **1, 2, 3** (T5-A) · **4, 5** (T5-B) · **6, 7, 8** (T5-C) · **9, 10, 11, 12** (T5-D) — each with on-slide copy, source basis, prohibited claims, a high-level visual concept and a transition |
-| Slides 13–14 | **Architecture only** — eight fields each; **no content, no visual specification, no assets** |
-| Content baseline | **NOT complete.** Two slides remain undeveloped |
-| Sections C and D | **Complete** — Slides 6–8 (**4.0 min**) and Slides 9–12 (**6.0 min**) |
+| Increment | **T5-E — teaching-content baseline COMPLETE** |
+| Slides developed | **All fourteen.** 1–3 (T5-A) · 4–5 (T5-B) · 6–8 (T5-C) · 9–12 (T5-D) · 13–14 (T5-E) — each with on-slide copy, source basis, prohibited claims, a high-level visual concept and a transition |
+| Architecture only | **None.** No slide remains undeveloped |
+| Content baseline | **COMPLETE** |
+| Sections | **All five complete** — A 2.5 · B 4.5 · C 4.0 · D 6.0 · E 3.0 |
 | Timing | **`20.0 minutes allocated — not measured`** · total verified at **20.0** |
-| Visual sources | **None.** T5-F is not started |
+| Exercises | [`exercises.md`](exercises.md) — created in T5-E |
+| Visual specifications | **None.** T5-F is not started |
+| Visual sources / assets | **None.** T5-F is not started |
 | Assembly package | **None.** T5-G is not started |
 | PowerPoint | **None**, in this or any module |
-| Outstanding | **T5-E** — Slides 13–14 and the content baseline; then T5-F, T5-G, T5-H |
+| Review, rehearsal, measured timing | **None performed** |
+| Outstanding | **T5-F** — visual specifications and visual-source set; then T5-G, T5-H |

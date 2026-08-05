@@ -142,9 +142,10 @@ teaching/
 │   ├── README.md                    module objective, central question, scope, increment status
 │   ├── source-inventory.md          exact source paths, own declared statuses, precedence, exclusions
 │   ├── resource-comparison.md       the three principal resources analysed separately
-│   ├── source-map.md                225 statements, six registers, 89 prohibited claims
-│   ├── presentation-outline.md      20-minute structure; Slides 1–12 developed, 13–14 architecture only
-│   └── speaker-notes.md             notes for Slides 1–12 only
+│   ├── source-map.md                267 statements, six registers, 102 prohibited claims, final reconciliation
+│   ├── presentation-outline.md      20-minute structure; all fourteen slides developed
+│   ├── speaker-notes.md             notes for all fourteen slides, plus both closings
+│   └── exercises.md                 practice and self-assessment — 79 exercises
 ├── shared/
 │   ├── glossary.md                  teaching glossary across all modules
 │   └── presentation-principles.md   how these presentations are built
@@ -156,17 +157,17 @@ teaching/
     └── module-04/                   Module 4 visual source set — 14 native-layout sources
 ```
 
-**Module 5 is under development and is deliberately smaller than the modules
-before it.** It has **six files and no subdirectories**. There is **no
-`assets/module-05/` directory, no `presentation/` package, no
-`visual-demonstration-plan.md` and no `exercises.md`** — none of those has been
-produced, and the tree above lists only what exists.
+**Module 5's teaching-content baseline is complete, and it is still smaller than
+the modules before it.** It has **seven files and no subdirectories**. There is
+**no `assets/module-05/` directory, no `presentation/` package and no
+`visual-demonstration-plan.md`** — none of those has been produced, and the tree
+above lists only what exists.
 
-**Slides 1–12 are developed; Slides 13–14 are architecture only** — slide number,
-working title, purpose, central teaching point, source basis, a high-level visual
-concept, boundary and allocated time, with no content. **Module 5 is not
-produced, not reviewed, not rehearsed, and its timing is allocated, never
-measured.**
+**All fourteen slides are developed**, with presenter notes for every one, both
+closings, and **79 exercises**. **A complete content baseline is not a produced
+presentation:** Module 5 is **not produced, not reviewed, not rehearsed, and its
+timing is allocated, never measured**. **T5-F — visual specifications and the
+visual-source set — is next.**
 
 **No `.pptx` file is committed anywhere in this repository**, for any module.
 [`roadmap.md`](roadmap.md) carries the authoritative position for every module.

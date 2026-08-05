@@ -1,12 +1,15 @@
 # Module 5 — Responsibility Matrices and Information-Delivery Planning
 
-**Status:** **CURRENT — ACTIVE.** Established in **T5-A**; matrix distinctions
-developed in **T5-B**; matrix grammar and allocation boundaries in **T5-C**;
-delivery planning and delivery-event interpretation in **T5-D**.
+**Status:** **CURRENT — ACTIVE.** Established in **T5-A**; matrix distinctions in
+**T5-B**; matrix grammar and allocation boundaries in **T5-C**; delivery planning
+and delivery-event interpretation in **T5-D**; Slides 13–14, the exercise
+baseline and the module-wide final reconciliation in **T5-E**.
 
-**Slides 1–12 developed. Slides 13–14 are architecture only.** **The content
-baseline is not complete.** No exercises, no visual specification, no visual
-source, no assembly package and no PowerPoint exists.
+**All fourteen slides developed. The teaching-content baseline is COMPLETE.**
+
+**A complete content baseline is not a produced presentation.** There is **no
+visual specification, no visual source, no asset, no assembly package and no
+PowerPoint**, and **no review or rehearsal has been performed**.
 
 **Teaching material. Not governance.** This module explains controlled Harrismith
 resources; it governs nothing, decides nothing, and changes nothing.
@@ -200,16 +203,17 @@ A **20-minute, fourteen-slide** presentation.
 **No PowerPoint exists in this repository, in any module.** Decks are produced
 externally and are not committed.
 
-## 11. Module files
+## 11. Module files — seven
 
 | File | Contains |
 |---|---|
-| [`README.md`](README.md) | This file — objective, central question, status, scope, **T5-A validation and increment status** (§13) |
+| [`README.md`](README.md) | This file — objective, central question, status, scope, **increment status and validation** (§13) |
 | [`source-inventory.md`](source-inventory.md) | Source hierarchy · `S1`–`S15` with exact paths and declared statuses · why each was consulted · **`E1`–`E8` exclusions with reasons** · the two senses of *publication* |
 | [`resource-comparison.md`](resource-comparison.md) | **The three principal resources analysed separately** — 37 recorded fields each · overlaps · differences · terminology variance · relationships |
-| [`source-map.md`](source-map.md) | Classification scheme and its **T5-B reconciliation** · source-authority register · **225 classified statements, Slides 1–12** · terminology register, **9 variances** · **25 tested hypotheses** · unresolved register · **89 prohibited claims** · boundary deferrals |
-| [`presentation-outline.md`](presentation-outline.md) | Timing structure · **fourteen-slide architecture** · Slides 13–14 **architecture only** · **Slides 1–12 developed content** |
-| [`speaker-notes.md`](speaker-notes.md) | Presenter notes — **Slides 1–12 only** |
+| [`source-map.md`](source-map.md) | Classification scheme and its **T5-B reconciliation** · source-authority register · **267 classified statements, all fourteen slides** · terminology register, **9 variances** · **25 tested hypotheses** · unresolved register · **102 prohibited claims** · boundary deferrals · **module-wide final reconciliation (§12)** |
+| [`presentation-outline.md`](presentation-outline.md) | Timing structure · **fourteen-slide architecture** · increment attribution · **all fourteen slides developed** |
+| [`speaker-notes.md`](speaker-notes.md) | Presenter notes — **all fourteen slides**, plus the normal and emergency closings |
+| [`exercises.md`](exercises.md) | **79 exercises** across eight sections — one per slide, resource boundaries, grammar, delivery planning, typed absence, Triviron transfer, hostile questions, rehearsal |
 
 ### Reading order
 
@@ -219,8 +223,9 @@ externally and are not committed.
    resources actually say
 3. [`source-map.md`](source-map.md) — what may and may not be taught
 4. [`presentation-outline.md`](presentation-outline.md) — the architecture and
-   Slides 1–12
-5. [`speaker-notes.md`](speaker-notes.md) — how to deliver Slides 1–12
+   all fourteen slides
+5. [`speaker-notes.md`](speaker-notes.md) — how to deliver them, and how to close
+6. [`exercises.md`](exercises.md) — how to rehearse and self-assess
 
 ## 12. Increment sequence
 
@@ -230,30 +235,32 @@ externally and are not committed.
 | **T5-B** | Responsibility-matrix purposes and distinctions — **Slides 4–5** · classification reconciliation · `teaching/README.md` correction | ✅ **COMPLETE** |
 | **T5-C** | Matrix-cell grammar and allocation boundaries — **Slides 6–8** · presenter-notes reference correction | ✅ **COMPLETE** |
 | **T5-D** | Information-delivery planning and delivery-event interpretation — **Slides 9–12** · two terminology corrections | ✅ **COMPLETE** |
-| **T5-E** | Slides 13–14 and the complete content baseline | **NEXT — outstanding** |
-| T5-F | Visual specifications and visual-source set | Outstanding |
+| **T5-E** | **Slides 13–14** · the **exercise baseline** · the **module-wide final reconciliation** · four consistency corrections | ✅ **COMPLETE** |
+| **T5-F** | Visual specifications and visual-source set | **NEXT — outstanding** |
 | T5-G | Presentation assembly package | Outstanding |
 | T5-H | External PowerPoint production — **outside this repository** | Outstanding |
 
 ## 13. Increment status and validation
 
-### 13.1 What T5-A to T5-D produced
+### 13.1 What T5-A to T5-E produced
 
-| Output | After T5-A | After T5-B | After T5-C | **After T5-D** |
-|---|---|---|---|---|
-| Module files | 6 | 6 | 6 | **6 — unchanged** |
-| Source hierarchy | Established; traced to `S1` §1.5 | Unchanged | Unchanged | Unchanged |
-| Sources consulted / excluded | **15** (`S1`–`S15`) / **8 groups** (`E1`–`E8`) | Unchanged | Unchanged | Unchanged — **the T5-A inventory was not reopened** |
-| Three principal resources | Analysed separately, 37 fields each | Unchanged | Unchanged | Unchanged |
-| Hypotheses tested | **25** | Unchanged | Unchanged | Unchanged |
-| Registers | **Six** | Unchanged | Unchanged | Unchanged |
-| Terminology variances | 7 | 7 | 8 | **9** — five versus six `TRN-E03` blocking matters |
-| Classified statements | 43 (Slides 1–3) | 84 (Slides 1–5) | 141 (Slides 1–8) | **225 (Slides 1–12)** |
-| Prohibited claims | 50 | 59 | 75 | **89**, plus 4 standing programme-status prohibitions |
-| Slide architecture | 14 slides · **20.0 minutes allocated — not measured** | Unchanged | Unchanged | Unchanged; total re-verified at **20.0** |
-| Slides developed | 1, 2, 3 | 1–5 | 1–8 | **1–12.** Sections C and D complete |
-| Remaining architecture only | Slides 4–14 | Slides 6–14 | Slides 9–14 | **Slides 13–14** — eight recorded fields each |
-| Classification scheme | `SYNTH` defined as *"no source support"* | **Reconciled** — see §13.5 | Unchanged | **Unchanged.** No further contradiction found |
+| Output | After T5-A | After T5-B | After T5-C | After T5-D | **After T5-E** |
+|---|---|---|---|---|---|
+| Module files | 6 | 6 | 6 | 6 | **7** — `exercises.md` added |
+| Source hierarchy | Established; traced to `S1` §1.5 | Unchanged | Unchanged | Unchanged | Unchanged |
+| Sources consulted / excluded | **15** (`S1`–`S15`) / **8 groups** | Unchanged | Unchanged | Unchanged | Unchanged — **the T5-A inventory was never reopened** |
+| Three principal resources | Analysed separately, 37 fields each | Unchanged | Unchanged | Unchanged | Unchanged |
+| Hypotheses tested | **25** | Unchanged | Unchanged | Unchanged | **25 — all accounted for** |
+| Registers | **Six** | Unchanged | Unchanged | Unchanged | Unchanged |
+| Terminology variances | 7 | 7 | 8 | 9 | **9 — unchanged** |
+| Classified statements | 43 | 84 | 141 | 225 | **267 — all fourteen slides** |
+| Prohibited claims | 50 | 59 | 75 | 89 | **102**, plus 4 standing programme-status prohibitions |
+| Slide architecture | 14 slides · **20.0 minutes allocated — not measured** | Unchanged | Unchanged | Unchanged | Unchanged; total re-verified at **20.0** |
+| Slides developed | 1, 2, 3 | 1–5 | 1–8 | 1–12 | **All fourteen.** Baseline **COMPLETE** |
+| Remaining architecture only | Slides 4–14 | Slides 6–14 | Slides 9–14 | Slides 13–14 | **None** |
+| Classification scheme | `SYNTH` defined as *"no source support"* | **Reconciled** — see §13.5 | Unchanged | Unchanged | **Unchanged.** No further contradiction found |
+| Exercises | — | — | — | — | **79**, `E1`–`E79` |
+| Final reconciliation | — | — | — | — | **COMPLETE** — [`source-map.md`](source-map.md) §12 |
 
 **T5-C added one verifiable finding.** The IM Responsibility Matrix is
 **33 rows × 9 columns = 297 cells, and not one is blank.** `Au` appears **twice**
@@ -269,25 +276,34 @@ acceptance authority with acceptance criteria. **Both record the event as
 blocked.** Module 5 teaches `S4`'s five because `S4` owns the event, and records
 that `S5` counts six. **Neither list is rewritten.**
 
-### 13.2 Scope compliance — T5-D
+**T5-E closed the baseline.** All fourteen slides are developed, the exercise
+baseline exists, and the **module-wide final reconciliation** at
+[`source-map.md`](source-map.md) §12 checks the completed module against every
+control it established. **Every superlative and narrative observation in §5 was
+recalculated from the final tables**; none was carried forward because it had
+been true at an earlier increment.
+
+### 13.2 Scope compliance — T5-E
 
 | Check | Result |
 |---|---|
 | Paths modified | **Only** this README, `presentation-outline.md`, `speaker-notes.md`, `source-map.md`, [`../roadmap.md`](../roadmap.md) and [`../README.md`](../README.md) |
+| File created | **Exactly one** — [`exercises.md`](exercises.md), expressly authorised for T5-E |
 | [`source-inventory.md`](source-inventory.md) and [`resource-comparison.md`](resource-comparison.md) | **Unchanged.** No contradiction with a controlled source was found |
 | Controlled sources modified | **None.** `bep/`, `supporting/`, `docs/`, `guidance/`, `standards/`, `working/`, `output/` unchanged |
 | Modules 1–4 modified | **None** |
 | `teaching/assets/`, `teaching/shared/` modified | **None** |
 | PowerPoint, PDF or office file created | **None** |
 | Visual specification, visual source or rendered asset created | **None** |
-| Presentation assembly package or exercise set created | **None** |
+| Presentation assembly package created | **None** |
+| Visual-demonstration plan created | **None** |
 | Autodesk or ACC activity | **None.** Not authorised, not attempted |
 | Publication automation | **Untouched. Remains `PAUSED`** |
-| T5-E or later work performed | **None** |
+| T5-F or later work performed | **None** |
 
 ### 13.3 Safeguards verified intact
 
-| Safeguard | State at end of T5-D |
+| Safeguard | State at end of T5-E |
 |---|---|
 | Publication authority | **UNRESOLVED** — unchanged |
 | Acceptance authority | **UNRESOLVED** — unchanged |
@@ -305,12 +321,20 @@ statement.**
 
 ### 13.4 Known residual work
 
-- **Slides 13–14 have no content**, no visual specification and no assets.
-- **The content baseline is not complete.**
-- **The module has no exercises.** Modules 1–4 carry an `exercises.md`; Module 5
-  does not yet, and one is expected in a later increment.
-- **The module has no visual-demonstration plan.** Deferred to T5-F.
-- **Timing has never been measured**, for this or any module.
+**The teaching-content baseline is complete. Production is not.**
+
+- **No visual specifications exist.** Deferred to **T5-F**.
+- **No visual sources or assets exist**, and there is no `assets/module-05/`
+  directory. Deferred to **T5-F**.
+- **No visual-demonstration plan exists.** Unlike Modules 1–4, Module 5 has none;
+  the high-level visual concepts live inside
+  [`presentation-outline.md`](presentation-outline.md).
+- **No presentation assembly package exists.** Deferred to **T5-G**.
+- **No PowerPoint exists**, in this or any module. **T5-H** produces it
+  **outside this repository**.
+- **No review or rehearsal has been performed**, and **timing has never been
+  measured** — for this or any module. [`exercises.md`](exercises.md) `E79`
+  defines a full run and records no result.
 
 ### 13.5 Classification reconciliation — completed in T5-B
 
@@ -368,14 +392,17 @@ increments produced remain as written.
 ### 13.7 Stale-reference correction — completed in T5-C
 
 [`presentation-outline.md`](presentation-outline.md) still read *"Presenter notes
-for Slides 1–3 are in `speaker-notes.md`"* after T5-B added Slides 4–5. **It now
-reads Slides 1–8.**
+for Slides 1–3 are in `speaker-notes.md`"* after T5-B added Slides 4–5. **T5-C
+set it to Slides 1–8**; T5-D to Slides 1–12; **it now reads all fourteen
+slides.**
 
 Three further references made stale by T5-C were corrected in the same pass: the
-reading order in §11 of this file (Slides 1–3 → 1–8), and two ranges in
+reading order in §11 of this file, and two ranges in
 [`source-map.md`](source-map.md) — the standing prohibition against claiming
-undeveloped slides are developed, and the Module 6 boundary test — both now read
-**Slides 9–14**.
+undeveloped slides are developed, and the Module 6 boundary test. **All three
+were refreshed again in T5-E**, and the standing prohibition was **replaced**,
+because with the baseline complete there are no undeveloped slides left to
+misclaim.
 
 **Historical records were not altered.** Statements that T5-A produced Slides
 1–3 and T5-B produced Slides 4–5 remain as written; they are accurate history,
@@ -389,19 +416,31 @@ recording Module 4 as produced with review and rehearsal deferred, Module 5 as
 the sole active module with its six files and their functions, and the absence of
 any Module 5 asset directory or presentation package.
 
-**T5-C refreshed the slide ranges and counts in that file** to **Slides 1–8
-developed, Slides 9–14 architecture only, 141 statements and 75 prohibited
-claims.** The structural description is otherwise unchanged.
+**Each later increment refreshed the slide ranges and counts in that file.**
+T5-C set them to Slides 1–8; T5-D to Slides 1–12; **T5-E to all fourteen slides,
+267 statements, 102 prohibited claims, 79 exercises and seven module files.** The
+structural description is otherwise unchanged.
 
 ### 13.9 Status
 
 | Field | Value |
 |---|---|
-| Increment | **T5-D — COMPLETE** |
+| Increment | **T5-E — COMPLETE** |
 | Module status | **CURRENT — ACTIVE** |
-| Content baseline | **NOT complete** — Slides 13–14 outstanding |
-| Next increment | **T5-E** — Slides 13–14 and the complete content baseline |
-| Timing | **`20.0 minutes allocated — not measured`** |
-| Visual specifications, assets, assembly package | **None** |
+| Teaching-content baseline | **COMPLETE** — all fourteen slides developed |
+| Slides | **14 of 14.** None architecture only |
+| Classified statements | **267** |
+| Prohibited claims | **102**, plus 4 standing programme-status prohibitions |
+| Terminology variances | **9** |
+| Hypotheses | **25**, all accounted for |
+| Exercises | **79** — `E1`–`E79` |
+| Final reconciliation | **COMPLETE** — [`source-map.md`](source-map.md) §12 |
+| Module files | **7** |
+| Visual specifications | **None.** T5-F not started |
+| Visual sources / assets | **None.** T5-F not started |
+| Assembly package | **None.** T5-G not started |
 | PowerPoint | **None**, in this or any module |
+| Review, rehearsal, measured timing | **None performed** |
+| Timing | **`20.0 minutes allocated — not measured`** |
+| Next increment | **T5-F** — visual specifications and visual-source set |
 | Publication automation | **PAUSED** |

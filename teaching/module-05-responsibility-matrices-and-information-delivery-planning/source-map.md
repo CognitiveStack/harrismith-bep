@@ -2,14 +2,15 @@
 
 **Status:** Traceability record for teaching material. **Not governance.**
 
-Statement-level classification for **Slides 1–12** — the slides developed in
-increments **T5-A** (1–3), **T5-B** (4–5), **T5-C** (6–8) and **T5-D** (9–12) —
-plus the terminology register, the hypothesis register, the unresolved register,
-the prohibited claims and the Module 6 deferrals.
+Statement-level classification for **all fourteen slides** — developed across
+increments **T5-A** (1–3), **T5-B** (4–5), **T5-C** (6–8), **T5-D** (9–12) and
+**T5-E** (13–14) — plus the terminology register, the hypothesis register, the
+unresolved register, the prohibited claims, the Module 6 and Module 7 deferrals,
+and the **module-wide final reconciliation** (§12).
 
-**Slides 13–14 exist as architecture only.** They carry no classified statements
-and no developed content. See
-[`presentation-outline.md`](presentation-outline.md) §3.
+**The Module 5 teaching-content baseline is complete.** No slide remains
+architecture only. **No visual specification, visual source, asset, assembly
+package or PowerPoint exists**, and none is claimed.
 
 Source identifiers `S1`–`S15` are defined in
 [`source-inventory.md`](source-inventory.md). Resource analysis is in
@@ -100,10 +101,10 @@ never `SYNTH`** — see §5.1.
 
 ---
 
-## 5. Statement classification — Slides 1–12
+## 5. Statement classification — all fourteen slides
 
-**225 statements. 50 `CONTROLLED`, 109 `SUPPORTING`, 10 `DECISION-RECORD`,
-3 `MODULE-2-4`, 1 `TEACHING-PLAN`, 32 `INTERP`, 0 `SYNTH`, 20 `EXCLUDED`.**
+**267 statements. 52 `CONTROLLED`, 125 `SUPPORTING`, 10 `DECISION-RECORD`,
+3 `MODULE-2-4`, 4 `TEACHING-PLAN`, 49 `INTERP`, 1 `SYNTH`, 23 `EXCLUDED`.**
 
 | Slide | Statements | `CTRL` | `SUPP` | `DEC` | `M2-4` | `PLAN` | `INT` | `SYN` | `EXC` |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
@@ -115,55 +116,62 @@ never `SYNTH`** — see §5.1.
 | 6 | 20 | 14 | 3 | 0 | 0 | 0 | 2 | 0 | 1 |
 | 7 | 20 | 2 | 8 | 0 | 0 | 0 | 8 | 0 | 2 |
 | 8 | 17 | 8 | 5 | 0 | 0 | 0 | 3 | 0 | 1 |
-| **9** | **22** | **4** | **15** | **0** | **0** | **0** | **2** | **0** | **1** |
-| **10** | **20** | **0** | **17** | **0** | **0** | **0** | **1** | **0** | **2** |
-| **11** | **22** | **1** | **14** | **0** | **1** | **0** | **4** | **0** | **2** |
-| **12** | **20** | **1** | **12** | **2** | **0** | **0** | **3** | **0** | **2** |
-| **Total** | **225** | **50** | **109** | **10** | **3** | **1** | **32** | **0** | **20** |
+| 9 | 22 | 4 | 15 | 0 | 0 | 0 | 2 | 0 | 1 |
+| 10 | 20 | 0 | 17 | 0 | 0 | 0 | 1 | 0 | 2 |
+| 11 | 22 | 1 | 14 | 0 | 1 | 0 | 4 | 0 | 2 |
+| 12 | 20 | 1 | 12 | 2 | 0 | 0 | 3 | 0 | 2 |
+| **13** | **20** | **0** | **11** | **0** | **0** | **0** | **8** | **0** | **1** |
+| **14** | **22** | **2** | **5** | **0** | **0** | **3** | **9** | **1** | **2** |
+| **Total** | **267** | **52** | **125** | **10** | **3** | **4** | **49** | **1** | **23** |
 
-**Slides 13–14 are architecture only** and carry no classified statements.
+**All fourteen slides are classified.** No slide remains architecture only.
 
-**Eight observations.**
+**Eight observations — recalculated from the final table in T5-E.**
 
-**Slide 3 is the most heavily `SUPPORTING` material in the programme so far.**
-Seven of its sixteen statements come from `S2`, `S3` and `S4` directly, because
-the three resources **describe themselves and each other explicitly**. Very
-little interpretation is needed to keep them apart — the documents do it.
+**Slide 10 carries the most `SUPPORTING` statements — 17 of 20.** All three
+delivery-event concepts are `S4`'s own construction, and the schedule describes
+them itself. **Slide 3 is second at 7 of 16**, for the same reason in a different
+place: the three resources define themselves *by contrast with each other*, so
+very little interpretation is needed to keep them apart.
 
-**Slide 5 is the most heavily `CONTROLLED` slide in the module.** Seven of its
-twenty-two statements come from `S1` directly — because the organisational traps
-it must defuse are **defined in the BEP, not in the matrix**. `S1` §4.2, §4.3 and
-§4.4 do the work; `S3` applies it.
+**Slide 6 carries the most `CONTROLLED` statements — 14 of 20.** Every one of the
+seven function terms is defined verbatim in `S1` §5.12, and the refusal of RACI
+is stated twice over. **The vocabulary slide needs almost no interpretation,
+because the BEP wrote the vocabulary.** **Slide 5 is second at 7 of 22** — the
+organisational traps it defuses are defined in `S1` §4.2, §4.3 and §4.4, and the
+container matrix applies them.
 
-**Slide 2 carries five of the module's eight `DECISION-RECORD` statements**,
+**Slide 2 carries five of the module's ten `DECISION-RECORD` statements**,
 because the *allocation ≠ performance* distinction rests on `S9` — the only
-source in the inventory that looked at the live environment.
+source in the inventory that looked at the live environment. **Slide 12 carries
+the other two**, where the `TRN-E03` block rests on `AD-001`'s explicit
+non-effects.
 
-**Slide 6 is the most heavily `CONTROLLED` slide in the module — 14 of 20.**
-Every one of the seven function terms is defined verbatim in `S1` §5.12, and the
-refusal of RACI is stated twice over. **The vocabulary slide needs almost no
-interpretation, because the BEP wrote the vocabulary.**
+**Slide 14 carries the most `INTERP` statements — 9 of 22 — and Slides 7 and 13
+follow at 8 each.** All three are slides where the work is reading rather than
+quoting: reading a cell, reading an absence, and reading what a project would
+have to decide. **Every one of those `INTERP` statements cites the sources its
+construction rests on.**
 
-**Slide 7 inverts that balance — 8 of 20 are `INTERP`.** Reading a cell is an
-act of interpretation: no source describes the matrix as a grid of 297 cells, or
-counts how often each value appears. **The census in `M5-S7-03` and `M5-S7-04`
-was produced by inspection and is labelled as such.**
+**Two slides carry no `CONTROLLED` statement — 10 and 13.** The BEP creates no
+delivery events and publishes no absence vocabulary; both subjects belong
+entirely to the supporting resources. That is the correct profile, and it is
+recorded rather than disguised.
 
-**Slide 10 is the only slide in the module with no `CONTROLLED` statement.** All
-three delivery-event concepts are `S4`'s own construction — the BEP creates no
-events and names none. **Seventeen of its twenty statements come from `S4`
-directly**, which is the correct profile for a slide whose entire subject is a
-supporting resource's proposal.
+**The module contains exactly one `SYNTH` statement — `M5-S14-14`.** It is a
+closing framing line on the transfer slide, it cites no source, and it is
+labelled as presenter framing. **Every other statement across all fourteen
+slides either cites a source or is expressly `EXCLUDED`.**
 
-**Section D carries the module's evidence load.** Slides 9–12 hold **84 of the
-225 statements**, and Slide 12 alone carries **two of the ten
-`DECISION-RECORD`** statements — because the `TRN-E03` block rests on `AD-001`'s
-explicit non-effects and on `S9`'s observation that the event remains blocked.
+**`SUPPORTING` outweighs `CONTROLLED` roughly two to one — 125 against 52.**
+That is the expected shape for a module whose subject is three supporting
+resources. **The BEP defines the vocabulary and the principles; the matrices and
+the schedule do the allocating and the scheduling**, and Module 5 spends most of
+its time in the second layer.
 
-**No `SYNTH` statement exists anywhere in the module.** Every statement across
-the twelve developed slides either cites a source or is expressly `EXCLUDED` —
-see §5.1. **This was not engineered:** each T5-C and T5-D statement was
-classified on its own evidence, and none required unsupported presenter framing.
+**23 statements are `EXCLUDED`** — material considered and deliberately kept off
+the slides, most of it deferred to Slides that own it, to Module 6 or to
+Module 7.
 
 ### 5.1 Classification reconciliation — recorded in T5-B
 
@@ -197,9 +205,16 @@ turns on **whether a source is cited**: `INTERP` records the sources a
 construction rests on; `SYNTH` records that there are none. **A statement with a
 source reference is never `SYNTH`.**
 
-**Effect on totals.** `INTERP` 6 → **9** (one from this reclassification, two
-added on Slide 4); `SYNTH` 1 → **0**. **No count was changed to reach a preferred
-figure**, and no other statement was reclassified.
+**Effect on totals at T5-B.** `INTERP` 6 → **9** (one from this reclassification,
+two added on Slide 4); `SYNTH` 1 → **0**. **No count was changed to reach a
+preferred figure**, and no other statement was reclassified.
+
+**Position at the completed baseline.** The module ran from T5-B to T5-D with
+**zero `SYNTH` statements**, because every statement written in those increments
+cited a source. **T5-E introduced exactly one** — `M5-S14-14`, the closing
+framing line on the transfer slide, which cites nothing and is labelled presenter
+framing. **It was not manufactured to populate the class**, and no other
+statement was reclassified to accommodate it.
 
 **Scope note.** This refinement applies to **Module 5's scheme only**. Modules
 1–4 hold their own classification schemes in their own source maps and are
@@ -572,6 +587,76 @@ they will count six. **Say that both lists exist and that neither is corrected.*
 Module 5 teaches the schedule's five because the schedule is the resource that
 owns the event.
 
+### Slide 13 — Nothing is blank — how Harrismith names an absence
+
+| ID | Statement | Source path | Section | Auth | Governance | Implementation | Class |
+|---|---|---|---|---|---|---|---|
+| `M5-S13-01` | **No controlled Harrismith responsibility-matrix or delivery-schedule field is left as an untyped blank.** Every absence carries a written marker | `S2` §3.1–§3.7 (297-cell census); `S3` §3, §4, §6; `S4` §5.1, §7 — **verified by inspection** | — | 4 | — | — | **`INTERP`** |
+| `M5-S13-02` | **Only the IM Responsibility Matrix publishes a formal cell-value legend.** `S3` and `S4` use several prose forms without one | `supporting/information-management-responsibility-matrix.md` §1; `supporting/model-information-responsibility-matrix.md`; `supporting/information-delivery-schedule.md` | — | 4 | — | — | **`INTERP`** |
+| `M5-S13-03` | **The seven markers are a teaching grouping assembled across four sources — not a controlled code set.** No source publishes them as one vocabulary | `S2` §1; `S3` §3.4, §4; `S4` §2, §5.1; `S5` §11 — **grouping is teaching interpretation** | — | 4 | — | — | **`INTERP`** |
+| `M5-S13-04` | **`TBD`** — *"Allocation unresolved. The BEP records this authority as **not established**."* | `supporting/information-management-responsibility-matrix.md` | §1 | 2 | **`UNRESOLVED`** | — | **`SUPPORTING`** |
+| `M5-S13-05` | **`TBD` does not mean** a holder exists but is unnamed · the answer is known informally · the matter will necessarily be resolved later · the field may be completed by inference | `S2` §1, §Population rule — *"records it as unresolved **rather than filling it with a plausible role**"* | — | 4 | **`UNRESOLVED`** | — | **`INTERP`** |
+| `M5-S13-06` | **`—`** — *"The role holds **no function in this activity**."* **A populated cell recording a resolved answer** | `supporting/information-management-responsibility-matrix.md` | §1 | 2 | **`PROPOSED GOVERNANCE`** | — | **`SUPPORTING`** |
+| `M5-S13-07` | **`—` is not blank, not unresolved, and not equivalent to `TBD`**, and it does not mean the role, person, party or discipline is absent from the project | `S2` §1 — the two values are separately defined | — | 4 | **`PROPOSED GOVERNANCE`** | — | **`INTERP`** |
+| `M5-S13-08` | **`Not defined`** — the required content, list or purpose has not been defined. Harrismith instances: **final deliverable set** · **level of information need** · **delivery purpose** (`S5` only) | `supporting/information-delivery-schedule.md` §7; `supporting/model-information-responsibility-matrix.md` §4; `supporting/cde-workflow-state-strategy.md` §11 | — | 2 | **`UNRESOLVED`** | — | **`SUPPORTING`** |
+| `M5-S13-09` | **`Not established`** — the identity, authority, standard or requirement has not been established. Instances: **recipient identity** · **required formats — no approved standard** · **Appointing Party identity** | `supporting/information-delivery-schedule.md` §5.1, §7; `bep/…BEP.md` §2.3, §5.3, §11.9 | — | 2, 1 | **`UNRESOLVED`** | — | **`SUPPORTING`** |
+| `M5-S13-10` | **`Not defined` and `Not established` are used distinctly by the sources** and are not treated as equivalent here | `S3` §4 and `S4` §5.1 use them for different objects — **recorded, not merged** | — | 4 | **`UNRESOLVED`** | — | **`INTERP`** |
+| `M5-S13-11` | **`Not applicable`** — the field does not apply to the object. **Bounded Harrismith instance:** `COORD-01` *Originating party* — *"Not applicable — see note below"*, because federation *"does not merge authorship"* | `supporting/model-information-responsibility-matrix.md` | §3.4 | 2 | **`PROPOSED GOVERNANCE`** | — | **`SUPPORTING`** |
+| `M5-S13-12` | **`Not applicable` is never used to conceal an unresolved answer.** In the one place it appears, the source explains **why** the field does not apply | `S3` §3.4 — the entry carries a reasoned note | — | 4 | **`PROPOSED GOVERNANCE`** | — | **`INTERP`** |
+| `M5-S13-13` | **`Conditional`** — the row or event activates **only when its stated trigger occurs**. Instance: **`TRN-E02`**, *"repeatable and conditional"*, with **no calendar frequency** | `supporting/information-delivery-schedule.md` | §2, §4, §4.2 | 2 | **`CONDITIONAL`** | — | **`SUPPORTING`** |
+| `M5-S13-14` | **Conditional is not** delayed · overdue · optional without rules · pending · active. *"An unactivated row is **not a pending exchange**"* | `supporting/information-delivery-schedule.md` | §4.2 | 2 | **`CONDITIONAL`** | — | **`SUPPORTING`** |
+| `M5-S13-15` | **`BLOCKED`** — the event or route **cannot proceed** while required governance or inputs remain unresolved. Instances: **`TRN-E03`** and **`T4`**, which *"has no available authorising function"* | `supporting/information-delivery-schedule.md` §2, §5; `supporting/cde-workflow-state-strategy.md` §11 | — | 2 | **`BLOCKED`** | — | **`SUPPORTING`** |
+| `M5-S13-16` | **Blocked is not** rejected · failed · overdue · merely unfinished · blank. *"An entry that cannot proceed **is recorded as blocked**"* | `supporting/information-delivery-schedule.md` | §5.1 | 2 | **`BLOCKED`** | — | **`SUPPORTING`** |
+| `M5-S13-17` | **The sources do not share one harmonised absence vocabulary**, and the same authority gap is recorded as **unresolved** in `S2` and `S3` but as **blocking an event** in `S4`. **Both are correct — they classify different objects** | §6.1 variances 1 and 2; `S2` §6; `S3` §6; `S4` §5.1 | — | 2 | **`UNRESOLVED`** / **`BLOCKED`** | — | **`SUPPORTING`** |
+| `M5-S13-18` | **No universal replacement vocabulary is proposed.** Module 5 records the differences and teaches how to read each source on its own terms | Module method — §1.3 of [`source-inventory.md`](source-inventory.md) | — | 4 | — | — | **`INTERP`** |
+| `M5-S13-19` | **`H-D12` remains `NOT ESTABLISHED`** — no source records any field as a formatting artefact or placeholder, so **no Harrismith instance of that reading exists** | §7.2 `H-D12` | — | 4 | **`UNRESOLVED`** | — | **`SUPPORTING`** |
+| `M5-S13-20` | Any claim that Harrismith contains an untyped blank; any presentation of the seven markers as a controlled universal code set; any equivalence between `TBD` and `—`, or between `Not defined` and `Not established` | — | — | — | — | — | **`EXCLUDED`** |
+
+**Teaching warning — `M5-S13-03`.** The panel will look like a code table.
+**Say once, explicitly, that it is not one.** Only `S2` publishes a legend; the
+other six markers were gathered from three further sources by this module.
+
+**Teaching warning — `M5-S13-17`.** This is the slide's honest ending. **Do not
+resolve the variance** by proposing a single vocabulary — the point is that two
+resources can classify the same gap differently and both be right, because they
+are classifying different objects.
+
+### Slide 14 — What Triviron must decide before drawing a matrix
+
+| ID | Statement | Source path | Section | Auth | Governance | Implementation | Class |
+|---|---|---|---|---|---|---|---|
+| `M5-S14-01` | **No Triviron project information exists in this repository.** Module 7 *"cannot be developed beyond generic transfer principles until Triviron project context is available"* | [`../roadmap.md`](../roadmap.md) | §2 | 4 | — | — | **`TEACHING-PLAN`** |
+| `M5-S14-02` | **This slide asks questions and answers none of them.** Every field on it is marked *not yet established* | Module method; `S15` §2 | — | 4 | — | — | **`INTERP`** |
+| `M5-S14-03` | **Delivery organisation — seven questions.** What parties exist · what task teams sit within each · which disciplines are information domains rather than organisations · who is formally appointed · which functional roles are required · who holds them · which roles may validly be combined | `bep/…BEP.md` §4.2, §4.3, §4.6, §5.2, §5.11 — **questions derived from the BEP's own distinctions** | — | 4 | — | — | **`INTERP`** |
+| `M5-S14-04` | **Harrismith's four-party structure is a training organisation model (`TA-03`)** and *"does **not** constitute actual appointment of any consultant, contractor, company or professional role holder"* | `supporting/governance-decision-register.md` | `TA-03` | 2 | **`TRAINING ASSUMPTION`** | — | **`SUPPORTING`** |
+| `M5-S14-05` | **Responsibility architecture — seven questions.** Which functions need allocation · what grammar will be used · adopt Harrismith's, another, or decide later · who performs, checks, authorises, coordinates and accepts · which authorities are project-wide and which purpose-specific · how unresolved allocations will be typed · how independence limitations will be recorded | `bep/…BEP.md` §5.12, §9.1–§9.8, §5.11; `S2` §1, §5, §6 | — | 4 | — | — | **`INTERP`** |
+| `M5-S14-06` | **Harrismith's allocations are not recommendations.** They are *"functional governance proposals"* for this training implementation | `supporting/information-management-responsibility-matrix.md` | §Population rule | 2 | **`PROPOSED GOVERNANCE`** | — | **`SUPPORTING`** |
+| `M5-S14-07` | **Information-container architecture — seven questions.** What containers must exist · who originates and maintains each · how party, task team, discipline and container are recorded · which dependencies and interfaces must be visible · whether a coordination construct is required · whether it is a working set or a deliverable · what level of information need applies | `bep/…BEP.md` §7.2, §7.3; `S3` §1, §3, §3.3, §3.4, §4 | — | 4 | — | — | **`INTERP`** |
+| `M5-S14-08` | **Harrismith's container identifiers are `PROPOSED GOVERNANCE` for the training delivery model**, derived from `TA-03`. They are not a naming scheme to copy — **no Naming Standard exists** | `supporting/model-information-responsibility-matrix.md` §Classification, §6; `bep/…BEP.md` §11.3 | — | 2, 1 | **`PROPOSED GOVERNANCE`** | — | **`SUPPORTING`** |
+| `M5-S14-09` | **Delivery planning — eleven questions.** What information requirements govern delivery · what events or milestones actually exist · which recipients are identified · the purpose of each exchange · required formats · required checking · who authorises each progression · who may accept for each stated purpose · what acceptance criteria apply · what dependencies and dates are real · what final deliverable set is required | `bep/…BEP.md` §10.5, §10.13; `S4` §1 | — | 4 | — | — | **`INTERP`** |
+| `M5-S14-10` | **`TRN-E01`, `TRN-E02` and `TRN-E03` are training event concepts** — *"three restrained training event concepts… **not** a full project delivery schedule"* — and are not Triviron events | `supporting/information-delivery-schedule.md` | §2, §Classification | 2 | **`PROPOSED GOVERNANCE`** | — | **`SUPPORTING`** |
+| `M5-S14-11` | **Governance and evidence — seven questions.** Which source governs each decision · who may approve changes · how decisions will be recorded · what counts as implementation evidence · what must be verified after implementation · how proposed governance stays separate from live evidence · how unknowns stay visible instead of being completed by assumption | `bep/…BEP.md` §1.5, §12.3, §12.7, §12.9; `S7` §Classification vocabulary | — | 4 | — | — | **`INTERP`** |
+| `M5-S14-12` | **Precedence is decided, not inherited** — *"Where documents conflict, the higher tier prevails"*, and *"**Authority is never inferred upward from platform configuration**"* | `bep/…BEP.md` | §1.5 | 1 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M5-S14-13` | *"**Intended state does not prove implementation.** An approved decision is not a configured system"*; and *"**A change is not complete because a document was edited or a setting was clicked**"* | `bep/…BEP.md` | §12.3, §12.9 | 1 | **`CONTROLLED GOVERNANCE`** | — | **`CONTROLLED`** |
+| `M5-S14-14` | Closing framing — ***define the questions before you fill the cells*** | none — **presenter framing** | — | 5 | — | — | **`SYNTH`** |
+| `M5-S14-15` | **Keep the three allocations apart** — function allocation, container allocation and delivery planning are three separate acts requiring three separate resources | Carried from Slides 3–5; `S2`, `S3`, `S4` mutual disclaimers | — | 4 | — | — | **`INTERP`** |
+| `M5-S14-16` | **Keep governance definition separate from implementation evidence.** Approval is not implementation, and implementation is not verification | `bep/…BEP.md` §12.3, §12.9; `docs/Training-Baseline-0.1-Approval-Decision.md` `AD-001` | — | 1 | **`CONTROLLED GOVERNANCE`** | **`IMPLEMENTATION UNVERIFIED`** | **`SUPPORTING`** |
+| `M5-S14-17` | **Leave unresolved matters visibly typed** — the Slide 13 discipline, carried into whatever Triviron builds | Slide 13; `S2` §1; `S4` §5.1 | — | 4 | — | — | **`INTERP`** |
+| `M5-S14-18` | **Harrismith is an example of method, not a Triviron template.** What transfers is the discipline of asking, separating and typing — not the answers | Module method; `TA-02`, `TA-03` | — | 4 | — | — | **`INTERP`** |
+| `M5-S14-19` | **`Triviron responsibility and delivery basis — not yet established.`** | [`../roadmap.md`](../roadmap.md) §2 — no Triviron information exists | — | 4 | **`UNRESOLVED`** | — | **`TEACHING-PLAN`** |
+| `M5-S14-20` | **Module 7 owns the translation** — deciding which Harrismith positions transfer, establishing Triviron-specific answers, writing the Triviron BEP, and populating project-specific matrices and schedules. **None of that has been performed** | [`../roadmap.md`](../roadmap.md) | §2 | 4 | — | — | **`TEACHING-PLAN`** |
+| `M5-S14-21` | Any Triviron role holder, party, task team, discipline structure, container, event, recipient, format, authority, date, deliverable or acceptance criterion | — | — | — | — | — | **`EXCLUDED`** |
+| `M5-S14-22` | Any recommendation that Triviron adopt a specific Harrismith allocation, identifier, event, grammar or organisational structure | — | — | — | — | — | **`EXCLUDED`** |
+
+**Teaching warning — the whole slide.** **Every line is a question or a
+boundary.** If a sentence on this slide can be read as an answer about Triviron,
+it is wrong. The audience will push for answers; the correct response is that
+Module 7 owns them and the basis is not yet established.
+
+**Teaching warning — `M5-S14-14`.** This is **the module's only `SYNTH`
+statement**. It is a framing line, it cites nothing, and it must not be delivered
+as though a source said it.
+
 ---
 
 ## 6. Terminology register — exact controlled wording
@@ -731,9 +816,9 @@ allocation; delivery events, purpose and suitability"*.
 
 ## 9. Prohibited claims
 
-**Eighty-nine claims Module 5 may not make.** Grouped by the error each would
-commit. Claims 51–59 were added in **T5-B**; 60–75 in **T5-C**; 76–89 in
-**T5-D**.
+**One hundred and two claims Module 5 may not make.** Grouped by the error each
+would commit. Claims 51–59 were added in **T5-B**; 60–75 in **T5-C**; 76–89 in
+**T5-D**; 90–102 in **T5-E**.
 
 ### 9.1 Collapsing the three resources — 6
 
@@ -898,14 +983,44 @@ commit. Claims 51–59 were added in **T5-B**; 60–75 in **T5-C**; 76–89 in
 | 88 | That **Delivered, Received or Accepted is an information state.** `T5`, `T6` and `T7` leave the state **unchanged** |
 | 89 | That any **`TRN-E03` blocking matter is blank, empty, or a formatting artefact.** Each is **typed** — `UNRESOLVED — TBD`, `Not established`, `Not defined`, `PROPOSED — BLOCKED` |
 
-### 9.11 Programme-status claims — required in every increment
+### 9.11 Additional prohibitions recorded in T5-E — 13
+
+**Reading an absence**
+
+| # | Prohibited claim |
+|---|---|
+| 90 | That an **untyped blank exists** in any controlled Harrismith matrix or schedule field |
+| 91 | That the **seven typed markers form one controlled, universal code set.** Only `S2` publishes a legend; the grouping is a teaching interpretation across four sources |
+| 92 | That **`Not defined` and `Not established` mean the same thing** |
+| 93 | That **`Not applicable` may be used to conceal an unresolved answer** |
+| 94 | That **every source uses the same absence terminology.** They do not, and the differences are recorded rather than harmonised |
+
+**Transfer to Triviron**
+
+| # | Prohibited claim |
+|---|---|
+| 95 | That **Harrismith's role or function allocations are recommendations for Triviron** |
+| 96 | That **Harrismith's parties, task teams or discipline structure are Triviron facts.** They are a training organisation model under `TA-03` |
+| 97 | That **Harrismith's container identifiers** — `ARC-01`–`FIR-01`, `COORD-01` — **transfer to Triviron** |
+| 98 | That **Harrismith's delivery events** — `TRN-E01`–`TRN-E03` — **transfer to Triviron** |
+| 99 | That **any Triviron role holder, party, task team, container, event, recipient, format, authority, date, deliverable or acceptance criterion is known.** None is |
+| 100 | That **Module 5 has written, or begun, the Triviron BEP**, or that **Module 7's translation has been performed** |
+
+**Completion status**
+
+| # | Prohibited claim |
+|---|---|
+| 101 | That a **complete teaching-content baseline means the presentation is produced**, reviewed or rehearsed. **No visual specification, asset, assembly package or PowerPoint exists** |
+| 102 | That **the existence of an exercise set means rehearsal has occurred**, or that any allocated time has been measured |
+
+### 9.12 Programme-status claims — required in every increment
 
 | # | Prohibited claim |
 |---|---|
 | A | That a **PowerPoint is tracked in this repository** — none is, in any module |
 | B | That **presentation timing has been measured** — it is **`20.0 minutes allocated — not measured`** |
 | C | That **Module 6 mechanics have been completed**, or that Module 5 teaches them |
-| D | That Slides 13–14 are developed — **they are architecture only** |
+| D | That a **complete teaching-content baseline is a produced, reviewed or rehearsed presentation** — see prohibited claims 101 and 102 |
 
 ---
 
@@ -927,9 +1042,9 @@ function's operational workflow.
 | Assurance sampling and coordination evidence | Not taught |
 | Complete review and acceptance cycles | Module 5 records `GCR-006` as **open** and stops |
 
-**Test to apply when developing Slides 13–14:** if a slide explains **how a
+**Test applied to every slide, and passed:** if a slide explained **how a
 coordination run is performed, how a finding is triaged, how an Issue is closed,
-or how a review is conducted**, it has left Module 5.
+or how a review is conducted**, it would have left Module 5. **No slide does.**
 
 ### 10.2 Retained by Module 4
 
@@ -949,7 +1064,7 @@ decisions. Slide 14 poses the questions; it answers none.
 | ~~T5-B~~ | ~~Responsibility-matrix purposes and distinctions — Slides 4–5~~ — **COMPLETE** |
 | ~~T5-C~~ | ~~Matrix-cell grammar and allocation boundaries — Slides 6–8~~ — **COMPLETE** |
 | ~~T5-D~~ | ~~Delivery events and schedule construction — Slides 9–12~~ — **COMPLETE** |
-| **T5-E** | Slides 13–14 and the complete content baseline |
+| ~~T5-E~~ | ~~Slides 13–14, the exercise baseline and the complete content baseline~~ — **COMPLETE** |
 | **T5-F** | Visual specifications and visual-source set |
 | **T5-G** | Presentation assembly package |
 | **T5-H** | External PowerPoint production — **outside this repository** |
@@ -960,13 +1075,213 @@ decisions. Slide 14 poses the questions; it answers none.
 
 | Field | Value |
 |---|---|
-| Increment | **T5-D** |
-| Slides classified | **1–12.** **225 statements** |
-| Slides 13–14 | **Architecture only** — no classified statements |
+| Increment | **T5-E — the teaching-content baseline is COMPLETE** |
+| Slides classified | **All fourteen. 267 statements** |
+| Architecture only | **None.** No slide remains undeveloped |
 | Registers | **Six** — source authority, terminology, hypothesis, unresolved, prohibited claims, boundary deferrals |
-| Hypotheses tested | **25** — `H-G1`–`H-G7`, `H-D1`–`H-D16`, `H-C1`–`H-C2`. **Unchanged in T5-D** |
-| Prohibited claims | **89**, plus 4 standing programme-status prohibitions |
-| Classification scheme | **Reconciled in T5-B** — `SYNTH` redefined; `M5-S2-14` reclassified `INTERP`. **Unchanged in T5-C and T5-D**; see §5.1 |
-| Terminology variances | **9** — one added in T5-C (grammar vs decision terminology) and one in T5-D (**five vs six `TRN-E03` blocking matters**) |
+| Hypotheses tested | **25** — `H-G1`–`H-G7`, `H-D1`–`H-D16`, `H-C1`–`H-C2`. **Unchanged since T5-A** |
+| Prohibited claims | **102**, plus 4 standing programme-status prohibitions |
+| Classification scheme | **Reconciled in T5-B** — `SYNTH` redefined; `M5-S2-14` reclassified `INTERP`. **Unchanged since**; see §5.1 |
+| Terminology variances | **9** — seven from T5-A, one from T5-C (grammar vs decision terminology), one from T5-D (**five vs six `TRN-E03` blocking matters**) |
+| Final reconciliation | **COMPLETE** — see §12 |
+| Exercise baseline | [`exercises.md`](exercises.md) — **79 exercises**, created in T5-E |
 | Timing | **`20.0 minutes allocated — not measured`** |
-| Outstanding | **T5-E** — Slides 13–14 and the content baseline — and later increments |
+| Visual specifications, sources, assets, assembly package, PowerPoint | **None.** T5-F, T5-G and T5-H not started |
+| Outstanding | **T5-F** — visual specifications and visual-source set — and later increments |
+
+---
+
+## 12. Module-wide final reconciliation — T5-E
+
+**The Module 5 teaching-content baseline is complete.** This section reconciles
+all fourteen developed slides against every control the module established.
+**Every superlative and observation in §5 was recalculated from the final tables
+in this increment**; none was carried forward because it had been true earlier.
+
+### 12.1 Coverage
+
+| Field | Result |
+|---|---|
+| Slides developed | **14 of 14.** None architecture only |
+| Classified statements | **267** |
+| Slides with a statement table | **14** |
+| Presenter notes | **All fourteen slides**, plus a normal and an emergency closing |
+| Exercises | [`exercises.md`](exercises.md) — **79**, numbered consecutively `E1`–`E79` |
+| Timing | **20.0 minutes allocated — not measured** |
+| Increments | T5-A · T5-B · T5-C · T5-D · T5-E — **all complete** |
+
+### 12.2 Source hierarchy
+
+The five-level precedence established in T5-A, traced to `S1` §1.5, **was applied
+unchanged throughout and was not reopened**. Fifteen sources consulted
+(`S1`–`S15`); eight groups excluded with reasons (`E1`–`E8`).
+
+**No level-4 or level-5 material was ever cited as though it governed.** Modules
+1–4 appear only as `MODULE-2-4` (3 statements); the roadmap only as
+`TEACHING-PLAN` (4 statements).
+
+### 12.3 The three principal resources
+
+**They remain separate on every slide that touches them.**
+
+| Resource | Owns | Never used for |
+|---|---|---|
+| `S2` IM Responsibility Matrix | Functions to roles; the seven-term grammar; `TBD` and `—` | Container authorship; delivery events |
+| `S3` Model / Information Responsibility Matrix | Containers to parties and task teams | Process functions; events, formats, timing |
+| `S4` Information Delivery Schedule | Sixteen fields; three events; the `TRN-E03` block | Function allocation; container definition |
+
+**No combined table was produced. No RACI substitution occurred.** The refusal of
+RACI is taught as controlled governance (`S1` §5.12), and prohibited claims 1–6
+and 86 protect the boundaries.
+
+### 12.4 Classification scheme
+
+| Class | Count | Check |
+|---|---:|---|
+| `CONTROLLED` | 52 | Explicit `S1` wording |
+| `SUPPORTING` | 125 | Approved supporting resource |
+| `DECISION-RECORD` | 10 | `S8`, `S9`, `S10` |
+| `MODULE-2-4` | 3 | Cited as teaching interpretation only |
+| `TEACHING-PLAN` | 4 | `S15`; decides nothing |
+| `INTERP` | 49 | **Every one cites the sources its construction rests on** |
+| `SYNTH` | 1 | **`M5-S14-14` only** — cites nothing; presenter framing; labelled as such |
+| `EXCLUDED` | 23 | **None appears as slide teaching** |
+| **Total** | **267** | Sums to the per-slide table in §5 |
+
+**The scheme was revised once, in T5-B, and not since.** The reconciliation is
+recorded at §5.1.
+
+### 12.5 Terminology variances — 9, all recorded, none harmonised
+
+| # | Variance | State |
+|---|---|---|
+| 1 | Unresolved markers differ across `S2`, `S3`, `S4` | Recorded |
+| 2 | The same authority gap is *unresolved* in `S2`/`S3` and **`BLOCKED`** in `S4` | Recorded — they classify different objects |
+| 3 | *Purpose* means the container's purpose in `S3`, the exchange's in `S4` | Recorded |
+| 4 | *Accept* is a code in `S2`, a field in `S4` | Recorded |
+| 5 | *Publication* has two unrelated senses | Recorded — see [`source-inventory.md`](source-inventory.md) §5 |
+| 6 | *Status* in `S4` is the entry's status | Recorded |
+| 7 | *State* appears in `S3` and `S4` with different scope | Recorded |
+| 8 | The grammar (`S1` §5.12) and the decision terminology (`S1` §9.2) are two vocabularies | Recorded |
+| 9 | `S4` counts **five** `TRN-E03` blocking matters; `S5` counts **six** | **Recorded and unresolved. Neither list rewritten** |
+
+**No controlled-source conflict was found that required correction, and none was
+silently reconciled.**
+
+### 12.6 Hypotheses — all 25 accounted for
+
+| Group | Count | Outcome |
+|---|---:|---|
+| `H-G1`–`H-G7` — the pre-declared grammar | 7 | 4 `CONFIRMED`, 2 `CONFIRMED WITH QUALIFICATION`, 1 `SOURCE-SPECIFIC` / `REJECTED` for `S3` and `S4` |
+| `H-D1`–`H-D16` — the proposed distinctions | 16 | 14 `CONFIRMED` (3 with qualification), 1 `NOT ESTABLISHED` (`H-D12`), 1 premise corrected (`H-D11`) |
+| `H-C1`–`H-C2` — the central question | 2 | 1 `CONFIRMED WITH QUALIFICATION` and revised; 1 `INTERP` adopted |
+
+**None was reopened after T5-A**, and none was converted into project governance.
+
+### 12.7 Unresolved register — unchanged
+
+All sixteen entries across §8.1–§8.6 remain open. **Nothing was populated,
+narrowed or resolved by teaching need.**
+
+| Safeguard | Final state |
+|---|---|
+| Publication / exchange authority | **UNRESOLVED — TBD** |
+| Recipient acceptance authority | **UNRESOLVED — TBD** |
+| Governance change approval (`A2`) | **UNRESOLVED — TBD by change class** |
+| `TRN-E03` recipient identity | **Not established** |
+| `TRN-E03` required formats | **Not established** |
+| `TRN-E03` deliverable set | **Not defined** |
+| `T4` | **BLOCKED** |
+| Information state | **Remains Shared** |
+| `UD-001` | **Unresolved, not corrected** |
+| `GCR-006` | **OPEN** |
+| Level of information need | **Not defined** |
+| Naming Standard | **Does not exist** |
+| Change-propagation route between the three resources | **Not defined by any source** |
+
+**Published, Delivered, Received and Accepted remain four distinct objects**, and
+**no schedule row was treated as a live transaction** anywhere in the module.
+
+### 12.8 Prohibited claims
+
+**102 numbered prohibitions plus 4 standing programme-status prohibitions.**
+
+| Increment | Added | Range |
+|---|---:|---|
+| T5-A | 50 | 1–50 |
+| T5-B | 9 | 51–59 |
+| T5-C | 16 | 60–75 |
+| T5-D | 14 | 76–89 |
+| T5-E | 13 | 90–102 |
+
+**Highest identifier equals the count: 102.**
+
+### 12.9 Module 6 boundary — not consumed
+
+Coordination-cycle mechanics, model federation, clash detection, finding and
+issue triage, escalation, technical review procedures, approval and acceptance
+workflow mechanics, assurance sampling, coordination evidence, issue closure,
+professional certification and competence assessment **are named as required
+where the sources require them, and taught nowhere.**
+
+**Slides 8 and 12 come closest** — each identifies that a function would be
+required and stops. Neither describes how it would operate.
+
+### 12.10 Module 7 boundary — not consumed
+
+**No Triviron fact, role holder, party, task team, container, event, recipient,
+format, authority, date, deliverable or acceptance criterion appears anywhere in
+this module.** Slide 14 asks 39 questions across five decision groups and answers
+none of them.
+
+**No Harrismith position is offered as a Triviron recommendation.** The closing
+marker is *`Triviron responsibility and delivery basis — not yet established.`*
+
+### 12.11 Governance status versus implementation status
+
+**Both are recorded on every statement where both apply.** The only implementation
+evidence in the inventory is `S9`, which declares **`Authority: None`**.
+
+| Implementation status | Used for |
+|---|---|
+| `IMPLEMENTATION UNVERIFIED` | Intended governance not checked against the live environment |
+| `OBSERVED — QUALIFIED` | `ARC-01` only, at the inspected level |
+| `NOT DEMONSTRATED` | Five containers, `TRN-E02` reshare, `GCR-006`, authority evidence |
+
+**No absence of observation was converted into a failure claim anywhere.**
+
+### 12.12 Timing
+
+| Section | Slides | Allocated |
+|---|---|---:|
+| A — Why allocation is a separate problem | 1, 2 | 2.5 |
+| B — Three resources, three questions | 3, 4, 5 | 4.5 |
+| C — Matrix grammar and its limits | 6, 7, 8 | 4.0 |
+| D — Information-delivery planning | 9, 10, 11, 12 | 6.0 |
+| E — Naming an absence, and transferring the method | 13, 14 | 3.0 |
+| **Total** | **14** | **20.0** |
+
+**`20.0 minutes allocated — not measured.`** No rehearsal has been performed, in
+this or any module.
+
+### 12.13 What does not exist
+
+| Artefact | State |
+|---|---|
+| Visual specifications | **None.** T5-F not started |
+| Visual sources / `assets/module-05/` | **None.** T5-F not started |
+| Rendered visuals | **None**, in any module |
+| Visual-demonstration plan | **None** |
+| Presentation assembly package | **None.** T5-G not started |
+| PowerPoint | **None**, in this or any module |
+| Review, rehearsal, measured timing | **None** |
+
+**A complete teaching-content baseline is not a produced presentation**, and
+prohibited claims 101 and 102 forbid the confusion.
+
+### 12.14 Residual work
+
+- **T5-F** — visual specifications and the visual-source set.
+- **T5-G** — the presentation assembly package.
+- **T5-H** — external PowerPoint production, **outside this repository**.
+- Review, rehearsal and measured timing — **deferred, as for Modules 1–4**.
