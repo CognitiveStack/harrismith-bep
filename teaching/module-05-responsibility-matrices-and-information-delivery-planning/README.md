@@ -16,14 +16,18 @@ the controlled `D4` row, and no controlled source was changed.**
 register and a slide-visual map in
 [`../assets/module-05/`](../assets/module-05/), all `SOURCE COMPLETE`.
 
-**None of that is a produced presentation.** There is **no rendered asset, no
-assembly package and no PowerPoint**, and **no review or rehearsal has been
-performed**.
+**None of that is a produced presentation.** There is **no rendered asset and no
+PowerPoint**, and **no review or rehearsal has been performed**.
 
 **`T5-F-B-R` reconciled the module's production-state records**, which still
 described T5-F as not started. **No teaching content, statement classification,
 count, prohibited claim or specification field was changed** — only stale
 forward-looking status wording.
+
+**`T5-G` produced the presentation assembly package** — [`presentation/`](presentation/),
+**seven PowerPoint-production handoff files**. **It is not a PowerPoint, and
+no rendered asset was created.** **`T5-H` — external PowerPoint production — is
+next, and happens outside this repository.**
 
 **Teaching material. Not governance.** This module explains controlled Harrismith
 resources; it governs nothing, decides nothing, and changes nothing.
@@ -245,8 +249,47 @@ externally and are not committed.
 **The visual source set is not a module file.** It lives at
 [`../assets/module-05/`](../assets/module-05/) — fourteen slide sources
 `M05-S01`–`M05-S14`, a visual register and a slide-visual map, all
-`SOURCE COMPLETE`, with **no rendered asset**. **The Module 5 directory itself
-contains eight files.**
+`SOURCE COMPLETE`, with **no rendered asset**.
+
+**The presentation assembly package is not a module file either.** It lives in
+the [`presentation/`](presentation/) subdirectory — **seven PowerPoint-production
+handoff files**, created in **T5-G**.
+
+**The Module 5 teaching-file count remains eight.** The package files are
+production handoff, not teaching content, and are **not** counted among them.
+
+### Module file and resource tree
+
+```text
+module-05-responsibility-matrices-and-information-delivery-planning/
+├── README.md                        ← eight teaching files
+├── source-inventory.md
+├── resource-comparison.md
+├── source-map.md
+├── presentation-outline.md
+├── speaker-notes.md
+├── exercises.md
+├── visual-demonstration-plan.md
+└── presentation/                    ← seven package files (T5-G), not teaching files
+    ├── README.md
+    ├── deck-specification.md
+    ├── slide-copy.md
+    ├── presenter-cues.md
+    ├── asset-manifest.md
+    ├── production-checklist.md
+    └── review-checklist.md
+
+../assets/module-05/                 ← fourteen visual sources, register, map — not module files
+```
+
+### Package reading order
+
+1. [`presentation/deck-specification.md`](presentation/deck-specification.md)
+2. [`presentation/slide-copy.md`](presentation/slide-copy.md)
+3. [`presentation/asset-manifest.md`](presentation/asset-manifest.md)
+4. [`presentation/presenter-cues.md`](presentation/presenter-cues.md)
+5. [`presentation/production-checklist.md`](presentation/production-checklist.md)
+6. [`presentation/review-checklist.md`](presentation/review-checklist.md)
 
 ## 12. Increment sequence
 
@@ -262,8 +305,8 @@ contains eight files.**
 | **T5-F-A-R2** | **Closure of the remaining `resource-comparison.md` occurrence** — source architecture reconciled | ✅ **COMPLETE** |
 | **T5-F-B** | **Fourteen visual-source files** `M05-S01`–`M05-S14` · visual register · slide-visual map | ✅ **COMPLETE** |
 | **T5-F-B-R** | **Production-state reconciliation** — stale forward-looking production records corrected across seven files. **No teaching content, classification, count or specification field changed** | ✅ **COMPLETE** |
-| **T5-G** | Presentation assembly package | **NEXT — outstanding** |
-| T5-H | External PowerPoint production — **outside this repository** | Outstanding |
+| **T5-G** | **Presentation assembly package** — [`presentation/`](presentation/), seven production-handoff files | ✅ **COMPLETE** |
+| **T5-H** | External PowerPoint production — **outside this repository** | **NEXT — outstanding** |
 
 ## 13. Increment status and validation
 
@@ -361,19 +404,21 @@ baseline are all complete. Production is not.**
   `M05-S01`–`M05-S14`, all `SOURCE COMPLETE`.
 - **The asset directory exists** at [`../assets/module-05/`](../assets/module-05/),
   with a **complete visual register** and a **complete slide-visual map**.
+- **The presentation assembly package is COMPLETE** — [`presentation/`](presentation/),
+  **seven production-handoff files**, created in **T5-G**.
 
 **What does not**
 
 - **No rendered asset exists**, in this or any module. All rendered statuses are
   `NONE`, and no renderer or dependency is installed.
-- **No presentation assembly package exists.** **T5-G — next.**
 - **No PowerPoint exists**, in this or any module. **T5-H** produces it
-  **outside this repository**, later.
+  **outside this repository**, and is **next**.
 - **No review or rehearsal has been performed**, and **timing has never been
   measured** — for this or any module. [`exercises.md`](exercises.md) `E79`
   defines a full run and records no result.
 
-**A complete content, specification and source baseline is still not a produced
+**A complete content baseline, an accepted specification set, a complete
+visual-source baseline and a complete assembly package are still not a produced
 presentation.**
 
 ### 13.5 Classification reconciliation — completed in T5-B
@@ -465,7 +510,7 @@ structural description is otherwise unchanged.
 
 | Field | Value |
 |---|---|
-| Increment | **T5-F-B-R — COMPLETE.** Production-state records reconciled across all Module 5 files. Visual-source baseline remains **COMPLETE** (T5-F-B) |
+| Increment | **T5-G — COMPLETE.** Presentation assembly package produced — [`presentation/`](presentation/), seven files. Production-state records reconciled in T5-F-B-R; visual-source baseline **COMPLETE** (T5-F-B) |
 | Module status | **CURRENT — ACTIVE** |
 | Teaching-content baseline | **COMPLETE** — all fourteen slides developed |
 | Slides | **14 of 14.** None architecture only |
@@ -478,9 +523,9 @@ structural description is otherwise unchanged.
 | Module files | **8** |
 | Visual specifications | **COMPLETE and ACCEPTED** — `M5V-01`–`M5V-14`, [`visual-demonstration-plan.md`](visual-demonstration-plan.md) |
 | Visual sources / assets / register / map | **COMPLETE (T5-F-B)** — [`../assets/module-05/`](../assets/module-05/); fourteen sources all `SOURCE COMPLETE`; **rendered `NONE`** |
-| Assembly package | **None.** T5-G not started |
+| Assembly package | **COMPLETE (T5-G)** — [`presentation/`](presentation/); **seven production-handoff files**; **not a PowerPoint** |
 | PowerPoint | **None**, in this or any module |
 | Review, rehearsal, measured timing | **None performed** |
 | Timing | **`20.0 minutes allocated — not measured`** |
-| Next increment | **T5-G** — the presentation assembly package |
+| Next increment | **T5-H** — external PowerPoint production, **outside this repository** |
 | Publication automation | **PAUSED** |

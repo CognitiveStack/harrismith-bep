@@ -146,7 +146,8 @@ teaching/
 │   ├── presentation-outline.md      20-minute structure; all fourteen slides developed
 │   ├── speaker-notes.md             notes for all fourteen slides, plus both closings
 │   ├── exercises.md                 practice and self-assessment — 79 exercises
-│   └── visual-demonstration-plan.md fourteen visual specifications, M5V-01 to M5V-14, accepted
+│   ├── visual-demonstration-plan.md fourteen visual specifications, M5V-01 to M5V-14, accepted
+│   └── presentation/                assembly package — production handoff
 ├── shared/
 │   ├── glossary.md                  teaching glossary across all modules
 │   └── presentation-principles.md   how these presentations are built
@@ -159,12 +160,14 @@ teaching/
     └── module-05/                   Module 5 visual source set, fourteen native-layout sources
 ```
 
-**Module 5's teaching-content baseline, visual specifications and visual-source
-baseline are complete, and it is still smaller than the modules before it.** The
-module directory holds **eight teaching files and no subdirectories**. Its visual
-sources live in [`assets/module-05/`](assets/module-05/), which **is not a module
-file**. There is **no `presentation/` package** — it has not been produced, and
-the tree above lists only what exists.
+**Module 5's teaching-content baseline, visual specifications, visual-source
+baseline and assembly package are complete, and it is still smaller than the
+modules before it.** The module directory holds **eight teaching files**. Its
+visual sources live in [`assets/module-05/`](assets/module-05/) and its
+production handoff in
+[`module-05-responsibility-matrices-and-information-delivery-planning/presentation/`](module-05-responsibility-matrices-and-information-delivery-planning/presentation/)
+— **neither is a module teaching file**, and the tree above lists only what
+exists.
 
 **All fourteen slides are developed**, with presenter notes for every one, both
 closings, **79 exercises**, and **fourteen accepted visual specifications**
@@ -176,11 +179,18 @@ contradiction**, so all eight files now agree with the controlled `D4` row.
 [`assets/module-05/`](assets/module-05/). **It is a visual source set, not a
 module file.** **No rendered asset exists.**
 
-**A complete baseline, a complete specification set and a complete source set are
-still not a produced presentation:** there is **no rendered asset, no assembly
-package and no PowerPoint**, and Module 5 is **not produced, not reviewed, not
-rehearsed, and its timing is allocated, never measured**. **T5-G — the
-presentation assembly package — is next.**
+**The assembly package is complete (T5-G)** — **seven production-handoff files**
+in
+[`module-05-.../presentation/`](module-05-responsibility-matrices-and-information-delivery-planning/presentation/):
+package README, deck specification, slide copy, presenter cues, asset manifest,
+production checklist and review checklist. **It is a PowerPoint-production
+handoff, not a produced presentation.**
+
+**A complete baseline, a complete specification set, a complete source set and a
+complete assembly package are still not a produced presentation:** there is **no
+rendered asset and no PowerPoint committed**, and Module 5 is **not produced, not
+reviewed, not rehearsed, and its timing is allocated, never measured**. **T5-H —
+external PowerPoint production, outside this repository — is next.**
 
 **`T5-F-B-R` reconciled the Module 5 production-state records** across the module
 and programme files. **No teaching claim, statement classification, count or

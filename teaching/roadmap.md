@@ -218,7 +218,7 @@ pre-visual correction gate and the **fourteen visual specifications**
 [`assets/module-05/`](assets/module-05/) — all **`SOURCE COMPLETE`**, with **no
 rendered asset**. The specifications are in
 [`module-05-responsibility-matrices-and-information-delivery-planning/visual-demonstration-plan.md`](module-05-responsibility-matrices-and-information-delivery-planning/visual-demonstration-plan.md).
-**`T5-G` — the presentation assembly package — is NEXT**, and does not exist.
+**`T5-G` — the presentation assembly package — is COMPLETE.**
 The specification existed and was reviewable **before** source production
 began.
 
@@ -232,9 +232,20 @@ accepted specification and source baselines. **All current Module 5
 production-state records now agree**, and **publication automation remains
 `PAUSED`**. **No teaching content or count was changed.**
 
-**Outstanding: `T5-G` and `T5-H`** — the assembly package (T5-G) and external
-PowerPoint production (T5-H). **Presentation review and rehearsal remain
-outstanding.**
+**`T5-G` produced the presentation assembly package.**
+[`module-05-responsibility-matrices-and-information-delivery-planning/presentation/`](module-05-responsibility-matrices-and-information-delivery-planning/presentation/)
+holds **seven PowerPoint-production handoff files** — package README, deck
+specification, slide copy, presenter cues, asset manifest, production checklist
+and review checklist. **All twenty-six accepted module-wide STOP conditions are
+carried**, with **fourteen package-level additions recorded separately**. **The
+Module 5 teaching-file count remains eight** — the package files are production
+handoff, not teaching content. **No PowerPoint, no rendered asset and no binary
+was created.**
+
+**Outstanding: `T5-H`** — external PowerPoint production, **outside this
+repository**. **Presentation review and rehearsal remain outstanding**, and
+**timing remains allocated, not measured**. **Publication automation remains
+`PAUSED`.**
 
 **The final position, reconciled from the completed tables:** **267 classified
 statements** · **103 prohibited claims** · **nine terminology variances, all
@@ -403,7 +414,7 @@ of governance under condition. Describing it neither advances nor reopens it.
 | Field | Value |
 |---|---|
 | **Active module** | **Module 5 — Responsibility Matrices and Information-Delivery Planning** — **CURRENT — ACTIVE** |
-| Module 5 current increment | **T5-F-B — COMPLETE.** **T5-A to T5-F-B complete; T5-G and T5-H outstanding** |
+| Module 5 current increment | **T5-G — COMPLETE.** **T5-A to T5-G complete; T5-H outstanding** |
 | Module 5 deliverable | 20-minute, **fourteen-slide** presentation — **teaching-content baseline complete; not produced** |
 | Module 5 slides developed | **All fourteen.** None architecture only. **Teaching-content baseline COMPLETE** |
 | Module 5 established (T5-A) | Module directory, **six files** · **source inventory and hierarchy** `S1`–`S15` with **`E1`–`E8` excluded and reasons recorded** · **separate analysis of the three principal resources**, 37 fields each · **six registers** · **25 tested hypotheses** · 20-minute fourteen-slide architecture · **Slides 1–3** |
@@ -421,9 +432,9 @@ of governance under condition. Describing it neither advances nor reopens it.
 | Module 5 visual specifications | **COMPLETE and ACCEPTED (T5-F-A, corrected T5-F-A-R)** — `M5V-01`–`M5V-14`; **zero Mermaid, zero external imagery, zero live-evidence requirements** |
 | Module 5 visual source | **COMPLETE (T5-F-B)** — fourteen sources `M05-S01`–`M05-S14` in [`assets/module-05/`](assets/module-05/), all **`SOURCE COMPLETE`**, with a **visual register** and a **slide-visual map**. **Rendered assets: none.** No renderer or dependency installed |
 | Module 5 reconciled (T5-F-B-R) | **Production-state reconciliation.** Several forward-looking records still said **T5-F is not started** and denied the visual plan, the fourteen specifications, the asset directory, the fourteen sources, the register and the slide map. **All current production-state records now agree**: content baseline complete · specifications accepted · visual sources complete · rendered `NONE` · **no assembly package** · **no PowerPoint** · review and rehearsal outstanding. A second stale count — **25 STOP conditions**, corrected to **26** — was fixed in the module README and here. **No teaching content, slide title, timing, statement classification, prohibited claim, hypothesis, terminology variance, census figure or specification field was changed. No file created or deleted** |
-| Module 5 assembly package | **None.** T5-G not started |
+| Module 5 assembly package (T5-G) | **COMPLETE** — [`module-05-.../presentation/`](module-05-responsibility-matrices-and-information-delivery-planning/presentation/); **seven production-handoff files**; **26 module-wide STOP conditions carried**, 14 package-level additions recorded separately; **42 automatic-fail conditions** in the review checklist. **`20.0 minutes allocated — not measured`.** **No PowerPoint, no rendered asset, no binary, no renderer.** **Module 5 teaching-file count unchanged at eight** |
 | Module 5 PowerPoint | **None.** T5-H not started |
-| Module 5 outstanding | **T5-G** (assembly package), T5-H (external PowerPoint). **No presentation package, no PowerPoint** |
+| Module 5 outstanding | **T5-H** (external PowerPoint, outside this repository). **Presentation review and rehearsal outstanding.** **No PowerPoint, no rendered asset** |
 | Module 5 exercises | **79** — [`module-05-responsibility-matrices-and-information-delivery-planning/exercises.md`](module-05-responsibility-matrices-and-information-delivery-planning/exercises.md), `E1`–`E79`. **`E79` defines a full run and records no result** |
 | Module 4 deliverable | 20-minute, **fourteen-slide** presentation — **produced** |
 | Module 4 slides developed | **Slides 1–14.** None outstanding |
