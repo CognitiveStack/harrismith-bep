@@ -272,11 +272,18 @@ of the module.
 
 ### 13.2 Hypothesis results
 
-**Fourteen `CONFIRMED`; two `CONFIRMED WITH QUALIFICATION` (`H9`, `H10`); one
-`NOT ESTABLISHED` (`H18`); none `CONTRADICTED`.** `H10` carries a recorded
-`NOT ESTABLISHED` limb — **no assurance-sampling method exists in any source**.
-**No hypothesis was manufactured to balance the register.** Full detail:
-[`source-map.md`](source-map.md) §5.
+**18 hypotheses — 15 `CONFIRMED` · 2 `CONFIRMED WITH QUALIFICATION` (`H9`,
+`H10`) · 1 `NOT ESTABLISHED` (`H18`) · 0 `CONTRADICTED`.** `15 + 2 + 1 + 0 =
+18`.
+
+**`H10` carries a recorded qualification — no assurance-sampling method exists
+in any source** (`U14`). **That finding sits inside `H10`; it is not a separate
+hypothesis and is not counted as an additional result.**
+
+**Fifteen hypotheses came from the increment brief (`H1`–`H15`); three arose
+from source comparison (`H16`–`H18`).** **No hypothesis was manufactured to
+balance the register**, and **no individual result was adjusted to reach a
+preferred total**. Full detail: [`source-map.md`](source-map.md) §5.
 
 ### 13.3 Scope compliance — T6-A
 

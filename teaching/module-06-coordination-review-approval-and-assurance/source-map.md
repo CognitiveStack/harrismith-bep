@@ -198,10 +198,26 @@ targeted.**
 | **H17** | No numeric coordination tolerance exists, and a software default does not supply one | **`CONFIRMED`** | **`S2` §11** — every check's tolerance is **`TBD`**. *"A software default tolerance is not a project requirement."* *"Where no tolerance is approved, a check must not present a numeric threshold as though it carried governance authority"* |
 | **H18** | Verification is mandatory in every coordination cycle | **`NOT ESTABLISHED`** | **Variance 4.** `S1` §8.10 — the BIM Coordinator **"may verify"**. `S2` §19 and `S3` `X4` treat it as a defined step. `S2` §21 requires *"required verification was completed"* — **conditioned on "required"**. **The sources do not settle whether every cycle requires it, and Module 6 does not decide** |
 
-**Eighteen hypotheses: fourteen `CONFIRMED`, two `CONFIRMED WITH
-QUALIFICATION`, one `NOT ESTABLISHED`, one further `NOT ESTABLISHED` limb inside
-H10.** No hypothesis was `CONTRADICTED`, and none was manufactured to balance
-the register.
+**18 hypotheses — 15 `CONFIRMED` · 2 `CONFIRMED WITH QUALIFICATION` · 1 `NOT
+ESTABLISHED` · 0 `CONTRADICTED`.** `15 + 2 + 1 + 0 = 18`.
+
+| Result | Hypotheses | Count |
+|---|---|---:|
+| **`CONFIRMED`** | `H1`–`H8`, `H11`–`H17` | **15** |
+| **`CONFIRMED WITH QUALIFICATION`** | `H9`, `H10` | **2** |
+| **`NOT ESTABLISHED`** | `H18` | **1** |
+| **`CONTRADICTED`** | — | **0** |
+| **Total** | `H1`–`H18` | **18** |
+
+**`H10`'s assurance-sampling finding is a qualification within `H10`, not a
+separate result.** `H10` confirms that assurance sampling is not certification, a
+guarantee or proof of compliance; **the qualification is that no source defines
+an assurance-sampling method at all**, recorded as `U14`. **It is one
+hypothesis with one result, and it is not counted twice.**
+
+**Fifteen hypotheses came from the increment brief (`H1`–`H15`); three arose
+from source comparison (`H16`–`H18`).** No hypothesis was manufactured to
+balance the register, and **no result was adjusted to reach a preferred total**.
 
 ## 6. Unresolved-matter register
 
