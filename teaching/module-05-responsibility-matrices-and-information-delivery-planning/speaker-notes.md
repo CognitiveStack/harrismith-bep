@@ -1554,4 +1554,5 @@ Module 6**, and none has been taught here.
 | Rehearsal | **None performed.** [`exercises.md`](exercises.md) defines rehearsals; it does not record any |
 | Visual specifications and sources | **T5-F-A through T5-F-B — COMPLETE.** Fourteen specifications accepted; fourteen sources `SOURCE COMPLETE`; **rendered `NONE`** |
 | Assembly package | **COMPLETE (T5-G)** — seven production-handoff files in [`presentation/`](presentation/). **Not a PowerPoint** |
-| Outstanding | **T5-H** — external PowerPoint production. **Presentation review and rehearsal remain outstanding** |
+| External PowerPoint | **PRODUCED — `REV01`** (`T5-H`, corrected in `T5-H-R1`); **governance review ACCEPTED**. Not committed to this repository |
+| Outstanding | **Module 5 rehearsal and measured timing.** **No rehearsal has been performed** |

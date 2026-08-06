@@ -1,10 +1,31 @@
 # Module 5 — Review Checklist
 
-**Status:** For reviewing the **first externally built deck**. **Teaching
-material. Not governance.**
+**Status:** For reviewing an externally built deck. **Teaching material. Not
+governance.**
 
-**No deck has been built. No review has been performed. This checklist records
-no result.**
+**The external deck has been built and reviewed. Governance review result:
+`ACCEPTED` at `REV01`.** The checklist below is retained **unchanged** as the
+standing review instrument — for `REV02` and any later revision.
+
+### Review history
+
+| # | Event | Result |
+|---|---|---|
+| 1 | **First external build produced** (`T5-H`) — fourteen slides, 16:9, native editable objects, speaker notes on every slide | **Reviewed — revision required** |
+| 2 | **First governance review** found **four bounded visual-production defects**: Slide 2, incorrect overlapping *by when* correction · Slide 3, text escaped the left resource panel · Slide 4, subject-group labels broke inside words · Slide 5, container-block text collisions | **Revision required** |
+| 3 | **`T5-H-R1` bounded correction** — **only Slides 2–5 changed**. Slides 1 and 6–14 **byte-for-byte unchanged**; all fourteen speaker-note files **byte-for-byte unchanged** | **REV01 produced** |
+| 4 | **Final governance review of `REV01`** | **`ACCEPTED`** |
+
+**What acceptance does and does not mean.** The deck passed the fourteen-slide
+count, the exact title and timing sequence, native editable construction, no
+imported imagery, the 14 pt minimum, speaker notes on all fourteen slides, the
+**26** module-wide STOP conditions, the **14** package-level additions, the
+**42** automatic-fail controls, the Slide 4, 6, 7, 11, 12, 13 and 14
+load-bearing safeguards, and the four `T5-H-R1` correction checks.
+
+**It does not mean the module has been rehearsed.** **No rehearsal has been
+performed and no timing has been measured.** **`20.0 minutes` remains an
+allocation.** **The external `.pptx` is not committed to this repository.**
 
 ---
 
@@ -178,7 +199,7 @@ production controls, and conditions were not merged to reduce the total.
 
 - **Package completion is not deck review.** `T5-G` produced a handoff. It did
   not build or check a deck.
-- **Deck review is not rehearsal.** Reviewing a built deck against this checklist
+- **Deck review is not rehearsal.** `REV01` has been reviewed and accepted. That
   says nothing about delivery.
 - **Rehearsal is not complete.** **None has been performed**, for this or any
   module.
@@ -193,7 +214,8 @@ production controls, and conditions were not merged to reduce the total.
 | Visual-source baseline | **COMPLETE** |
 | Assembly package (`T5-G`) | **COMPLETE** |
 | Rendered assets | **NONE** |
-| PowerPoint (`T5-H`) | **Not started** |
-| Deck review | **Not performed** |
+| PowerPoint (`T5-H`, corrected in `T5-H-R1`) | **PRODUCED — `REV01`.** External; **not committed to this repository** |
+| Deck review | **ACCEPTED** at `REV01` |
 | Rehearsal | **Not performed** |
 | Measured timing | **None** |
+| Next | **Module 5 rehearsal and measured timing** |

@@ -397,4 +397,4 @@ filenames. No asset file is produced.**
 | External imagery | **`NONE REQUIRED`** ×14 |
 | Live evidence | **`NONE REQUIRED`** ×14 |
 | Mermaid | **PROHIBITED** ×14 |
-| PowerPoint | **None** |
+| PowerPoint | **PRODUCED — `REV01`**, externally; **not committed to this repository** |

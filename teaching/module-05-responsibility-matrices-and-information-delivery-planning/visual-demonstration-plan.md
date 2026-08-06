@@ -26,7 +26,7 @@ T5-F-B.**
 | Rendered assets | **NONE. No rendering was attempted** |
 | Renderer or dependency installed | **None** |
 | Presentation assembly package | **COMPLETE (`T5-G`)** — [`presentation/`](presentation/); **seven production-handoff files** |
-| PowerPoint | **None.** `T5-H` — **next**, **produced outside this repository** |
+| PowerPoint | **PRODUCED — `REV01`** (`T5-H`, corrected in `T5-H-R1`); **governance review ACCEPTED**. **Produced outside this repository and not committed here** |
 | Timing | **`20.0 minutes allocated — not measured`** |
 
 ## Authority chain
@@ -36,7 +36,7 @@ teaching content
   → visual-demonstration plan        ← this file
   → visual-source files              ← T5-F-B, complete
   → presentation assembly package    ← T5-G, complete
-  → external PowerPoint              ← T5-H, next; absent, outside this repository
+  → external PowerPoint              ← T5-H, complete (REV01, accepted); outside this repository
 ```
 
 **Precedence, in order:**
@@ -776,7 +776,7 @@ requirements. Zero rendered assets.**
 | Visual register / slide-visual map | **Complete** |
 | Rendered assets | **NONE.** No rendering attempted; no renderer installed |
 | Assembly package | **COMPLETE (`T5-G`)** — [`presentation/`](presentation/), **seven** production-handoff files |
-| PowerPoint | **None** — `T5-H`, outside this repository |
+| PowerPoint | **PRODUCED — `REV01`** (`T5-H`, corrected in `T5-H-R1`); **ACCEPTED**. Outside this repository; **not committed here** |
 | Teaching-content baseline | **COMPLETE** and unchanged by this increment |
 | Timing | **`20.0 minutes allocated — not measured`** |
-| Next | **`T5-H`** — external PowerPoint production, **outside this repository** |
+| Next | **Module 5 rehearsal and measured timing** |

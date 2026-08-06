@@ -16,8 +16,10 @@ the controlled `D4` row, and no controlled source was changed.**
 register and a slide-visual map in
 [`../assets/module-05/`](../assets/module-05/), all `SOURCE COMPLETE`.
 
-**None of that is a produced presentation.** There is **no rendered asset and no
-PowerPoint**, and **no review or rehearsal has been performed**.
+**The external PowerPoint has been produced and accepted** — `REV01`, built in
+**T5-H**, corrected in **T5-H-R1**, and **ACCEPTED** by governance review. **It
+is not committed to this repository.** There is **no rendered asset**, and **no
+rehearsal has been performed**.
 
 **`T5-F-B-R` reconciled the module's production-state records**, which still
 described T5-F as not started. **No teaching content, statement classification,
@@ -26,8 +28,15 @@ forward-looking status wording.
 
 **`T5-G` produced the presentation assembly package** — [`presentation/`](presentation/),
 **seven PowerPoint-production handoff files**. **It is not a PowerPoint, and
-no rendered asset was created.** **`T5-H` — external PowerPoint production — is
-next, and happens outside this repository.**
+no rendered asset was created.**
+
+**`T5-H` produced the external PowerPoint**, outside this repository. The first
+build carried **four bounded visual-production defects** — Slide 2's overlapping
+*by when* correction, Slide 3's text escaping the left resource panel, Slide 4's
+subject-group labels breaking inside words, and Slide 5's container-block text
+collisions. **`T5-H-R1`** corrected them, changing **only Slides 2–5**; Slides 1
+and 6–14 and all fourteen speaker-note files remained **byte-for-byte
+unchanged**. **`REV01` was ACCEPTED by governance review.**
 
 **`T5-G-R` reconciled the four protected Module 5 production-state records** —
 [`presentation-outline.md`](presentation-outline.md),
@@ -315,7 +324,10 @@ module-05-responsibility-matrices-and-information-delivery-planning/
 | **T5-F-B-R** | **Production-state reconciliation** — stale forward-looking production records corrected across seven files. **No teaching content, classification, count or specification field changed** | ✅ **COMPLETE** |
 | **T5-G** | **Presentation assembly package** — [`presentation/`](presentation/), seven production-handoff files | ✅ **COMPLETE** |
 | **T5-G-R** | **Assembly-package production-state reconciliation** — four protected production-state records corrected. **No teaching content, classification, specification, source or package file changed** | ✅ **COMPLETE** |
-| **T5-H** | External PowerPoint production — **outside this repository** | **NEXT — outstanding** |
+| **T5-H** | **External PowerPoint production** — **outside this repository**; `.pptx` **not committed** | ✅ **COMPLETE** |
+| **T5-H-R1** | **Bounded external deck correction** — four visual-production defects on **Slides 2–5** only; Slides 1 and 6–14 and all fourteen speaker-note files **byte-for-byte unchanged**. **`REV01`** produced | ✅ **COMPLETE** |
+| **T5-H-S** | **Repository status record** — external production and governance-review acceptance recorded | ✅ **COMPLETE** |
+| — | **Module 5 rehearsal and measured timing** | **NEXT — outstanding** |
 
 ## 13. Increment status and validation
 
@@ -415,16 +427,18 @@ baseline are all complete. Production is not.**
   with a **complete visual register** and a **complete slide-visual map**.
 - **The presentation assembly package is COMPLETE** — [`presentation/`](presentation/),
   **seven production-handoff files**, created in **T5-G**.
+- **The external PowerPoint is PRODUCED and ACCEPTED** — `REV01`, built in
+  **T5-H**, corrected in **T5-H-R1**. **Held outside this repository.**
 
 **What does not**
 
 - **No rendered asset exists**, in this or any module. All rendered statuses are
   `NONE`, and no renderer or dependency is installed.
-- **No PowerPoint exists**, in this or any module. **T5-H** produces it
-  **outside this repository**, and is **next**.
-- **No review or rehearsal has been performed**, and **timing has never been
-  measured** — for this or any module. [`exercises.md`](exercises.md) `E79`
-  defines a full run and records no result.
+- **No PowerPoint is committed**, in this or any module. Module 5's `REV01`
+  exists **externally only**.
+- **No rehearsal has been performed**, and **timing has never been measured** —
+  for this or any module. [`exercises.md`](exercises.md) `E79` defines a full run
+  and records no result.
 
 **A complete content baseline, an accepted specification set, a complete
 visual-source baseline and a complete assembly package are still not a produced
@@ -519,7 +533,7 @@ structural description is otherwise unchanged.
 
 | Field | Value |
 |---|---|
-| Increment | **T5-G-R — COMPLETE.** Assembly-package production-state records reconciled across the four protected Module 5 files. Package **COMPLETE (T5-G)** — [`presentation/`](presentation/), seven files; visual-source baseline **COMPLETE** (T5-F-B) |
+| Increment | **T5-H-S — COMPLETE.** External production and governance-review acceptance recorded. Deck **PRODUCED — `REV01`** (T5-H, corrected T5-H-R1), **ACCEPTED**; package **COMPLETE (T5-G)**; visual-source baseline **COMPLETE (T5-F-B)** |
 | Module status | **CURRENT — ACTIVE** |
 | Teaching-content baseline | **COMPLETE** — all fourteen slides developed |
 | Slides | **14 of 14.** None architecture only |
@@ -533,8 +547,9 @@ structural description is otherwise unchanged.
 | Visual specifications | **COMPLETE and ACCEPTED** — `M5V-01`–`M5V-14`, [`visual-demonstration-plan.md`](visual-demonstration-plan.md) |
 | Visual sources / assets / register / map | **COMPLETE (T5-F-B)** — [`../assets/module-05/`](../assets/module-05/); fourteen sources all `SOURCE COMPLETE`; **rendered `NONE`** |
 | Assembly package | **COMPLETE (T5-G)** — [`presentation/`](presentation/); **seven production-handoff files**; **not a PowerPoint** |
-| PowerPoint | **None**, in this or any module |
-| Review, rehearsal, measured timing | **None performed** |
+| External PowerPoint | **PRODUCED — `REV01`** (T5-H, corrected in T5-H-R1). **Not committed** to this or any repository |
+| Governance review | **ACCEPTED** at `REV01` |
+| Rehearsal, measured timing | **None performed** |
 | Timing | **`20.0 minutes allocated — not measured`** |
-| Next increment | **T5-H** — external PowerPoint production, **outside this repository** |
+| Next increment | **Module 5 rehearsal and measured timing** |
 | Publication automation | **PAUSED** |

@@ -186,11 +186,15 @@ package README, deck specification, slide copy, presenter cues, asset manifest,
 production checklist and review checklist. **It is a PowerPoint-production
 handoff, not a produced presentation.**
 
-**A complete baseline, a complete specification set, a complete source set and a
-complete assembly package are still not a produced presentation:** there is **no
-rendered asset and no PowerPoint committed**, and Module 5 is **not produced, not
-reviewed, not rehearsed, and its timing is allocated, never measured**. **T5-H —
-external PowerPoint production, outside this repository — is next.**
+**The external PowerPoint is produced and accepted.** `REV01` was built in
+**T5-H**, corrected in **T5-H-R1** — four bounded visual-production defects on
+Slides 2–5 only — and **ACCEPTED** by governance review. **It is held outside
+this repository and is not committed.**
+
+**A produced, accepted deck is still not a rehearsed one:** there is **no
+rendered asset and no PowerPoint committed**, and Module 5 **has not been
+rehearsed and its timing is allocated, never measured**. **Module 5 rehearsal and
+measured timing are next.**
 
 **`T5-F-B-R` reconciled the Module 5 production-state records** across the module
 and programme files. **No teaching claim, statement classification, count or

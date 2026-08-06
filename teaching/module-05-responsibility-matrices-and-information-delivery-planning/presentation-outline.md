@@ -12,9 +12,10 @@ produced presentation.** The **visual specifications are complete and accepted**
 [`../assets/module-05/`](../assets/module-05/), all `SOURCE COMPLETE`, with a
 visual register and a slide-visual map. **The presentation assembly package is
 complete** — [`presentation/`](presentation/), seven PowerPoint-production
-handoff files (T5-G). There is **no rendered asset and no PowerPoint**, and **no
-review or rehearsal has been performed**. The timing below is an allocation that
-has **never been measured**.
+handoff files (T5-G). **The external PowerPoint has been produced (`T5-H`),
+corrected (`T5-H-R1`) and accepted at `REV01`** — it is **not committed to this
+repository**. There is **no rendered asset**, and **no rehearsal has been
+performed**. The timing below is an allocation that has **never been measured**.
 
 Source identifiers `S1`–`S15` are defined in
 [`source-inventory.md`](source-inventory.md). Statement classification is in
@@ -1529,6 +1530,7 @@ manufactured.**
 | Visual specifications | **COMPLETE and ACCEPTED (T5-F-A, corrected in T5-F-A-R and T5-F-A-R2)** — `M5V-01`–`M5V-14`, [`visual-demonstration-plan.md`](visual-demonstration-plan.md) |
 | Visual sources / assets | **COMPLETE (T5-F-B)** — fourteen sources `M05-S01`–`M05-S14` in [`../assets/module-05/`](../assets/module-05/), all `SOURCE COMPLETE`, with a visual register and a slide-visual map. **Rendered assets: `NONE`** |
 | Assembly package | **COMPLETE (T5-G)** — [`presentation/`](presentation/); **seven PowerPoint-production handoff files**. **It is not a PowerPoint** |
-| PowerPoint | **None**, in this or any module. **T5-H — next**, produced **outside this repository** and **not committed** |
-| Review, rehearsal, measured timing | **None performed** |
-| Outstanding | **T5-H** — external PowerPoint production — then **presentation review**, **rehearsal** and **measured timing** |
+| PowerPoint | **PRODUCED — `REV01`** (`T5-H`, corrected in `T5-H-R1`). Produced **outside this repository** and **not committed** |
+| Presentation review | **ACCEPTED** at `REV01` |
+| Rehearsal, measured timing | **None performed** |
+| Outstanding | **Module 5 rehearsal and measured timing** |

@@ -10,11 +10,11 @@ material. Not governance. Not the PowerPoint.**
 | Slides specified | **Fourteen** |
 | Duration | **`20.0 minutes allocated — not measured`** |
 | Rendered asset | **NONE.** No rendering attempted; no renderer installed |
-| PowerPoint | **NONE**, in this or any module |
-| Review | **Not performed** |
+| PowerPoint | **PRODUCED — `REV01`** (`T5-H`, corrected in `T5-H-R1`). **External. Not committed to this or any repository** |
+| Review | **ACCEPTED** at `REV01` |
 | Rehearsal | **Not performed** |
 | Measured timing | **None** |
-| Next | **`T5-H`** — external PowerPoint production, **outside this repository** |
+| Next | **Module 5 rehearsal and measured timing** |
 | Publication automation | **`PAUSED`** |
 
 Everything required to build the fourteen-slide Module 5 deck **without
@@ -266,9 +266,9 @@ carrying a claim.** Fixing it introduces a false one.
 | Module-wide STOP conditions carried | **26** |
 | Package-level additions | **14**, separately identified in §6 |
 | Rendered asset | **None** |
-| PowerPoint | **None** |
-| Next increment | **`T5-H`** — external PowerPoint production, outside this repository |
-| Review | **Outstanding** |
+| PowerPoint | **PRODUCED — `REV01`**, externally; **not committed here** |
+| Next increment | **Module 5 rehearsal and measured timing** |
+| Review | **ACCEPTED** at `REV01` |
 | Rehearsal | **Outstanding** |
 | Module 5 | **CURRENT — ACTIVE** |
 | Publication automation | **`PAUSED`** |

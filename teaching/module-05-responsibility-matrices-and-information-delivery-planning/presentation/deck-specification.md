@@ -1,6 +1,7 @@
 # Module 5 — Deck Specification
 
-**Status:** Production specification for the future external PowerPoint.
+**Status:** Production specification for the external PowerPoint — **produced at
+`REV01` and accepted**, and the standing specification for any later revision.
 **Teaching material. Not governance. Not the PowerPoint.**
 
 **Timing throughout: `20.0 minutes allocated — not measured`.**
