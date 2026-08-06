@@ -400,7 +400,9 @@ Production is not, and the specification baseline is not yet accepted.**
   reserved identifiers only.
 - **No visual register and no slide-visual map exist.**
 - **No presentation assembly package exists.**
-- **No PowerPoint exists**, in this or any module.
+- **No Module 6 PowerPoint exists.** Earlier-module PowerPoints are **external
+  derivative outputs** produced outside this repository; **no `.pptx` is
+  committed here**, in any module.
 - **No review or rehearsal has been performed**, and **timing has never been
   measured** — for this or any module.
 

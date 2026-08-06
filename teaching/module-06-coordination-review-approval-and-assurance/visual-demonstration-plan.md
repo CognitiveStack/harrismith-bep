@@ -33,7 +33,7 @@ did not reach and could not reach on its own.
 | Slide-visual map | **DOES NOT EXIST** — the slide-to-specification map in §6 of this file is not one |
 | Rendered assets | **NONE.** No rendering attempted; no renderer or dependency installed |
 | Presentation assembly package | **NONE** |
-| PowerPoint | **NONE**, in this or any module |
+| Module 6 PowerPoint | **NONE.** No Module 6 PowerPoint has been produced, and **no `.pptx` is committed to this repository**. Earlier-module PowerPoints are **external derivative outputs**, produced outside this repository and **outside this increment** |
 | Presentation review | **NOT PERFORMED** |
 | Rehearsal | **NOT PERFORMED** |
 | Timing | **`20.0 minutes allocated — not measured`** |
@@ -536,13 +536,13 @@ nothing to the prohibited-claims register in [`source-map.md`](source-map.md)
 | **13 · Simplification rule** | Check-type descriptions may compress to their operative phrase. **The grid may never be completed, and no unbuilt cell may be filled, shaded to look decided, or removed.** **`PROPOSED` and `TBD` may not be abbreviated to symbols**, and the six check types may not be folded into the grid |
 | **14 · Mandatory visible wording** | *"A check exists because a meaningful interface exists"*. *"Testing everything against everything produces volume, not insight, and buries the findings that matter"* — BEP §8.6. **`Clash detection is one coordination technique, not the whole of coordination`**. The six check types: **Hard Clash · Clearance / Access · Alignment / Reference · Spatial Interface · Information / Readiness · Design / Interface Question**. **`CI-01`–`CI-12`** with their pairs. In every marked cell: **`PROPOSED`** and **`TBD`**. **`Not all possible pairs are built`**. *"These are PROPOSED TRAINING COORDINATION CHECKS. They are not evidence of real client requirements, and they do not become project requirements by appearing here"*. Warning block: **`Software default ≠ project requirement`** and **`No numeric tolerance approved`**. *"A clash count measures how much software found; it says nothing about whether anything was understood, decided or fixed"*. Status: **`NOT DEMONSTRATED — no check is recorded as executed`** |
 | **15 · Mandatory status or warning** | The two-line warning block, **full width and at ≥ 18 pt**, plus **`PROPOSED`** and **`TBD`** on **every** marked cell — a single legend is not sufficient, because a legend can be read past |
-| **16 · Blocked, unresolved or absent** | **No numeric value appears anywhere on the slide** — not a tolerance, not a clearance, not a count, not a percentage. **No red/green pass-fail treatment.** No check marked executed, passed or failed. No software name, default or screenshot |
+| **16 · Blocked, unresolved or absent** | **No numeric tolerance, clearance measurement, clash count, percentage, score, threshold or other project-rule value appears.** **`CI-01`–`CI-12` are identifiers, not numeric criteria, and remain permitted** — as do any source or status references this specification already requires. **No red/green pass-fail treatment.** No check marked executed, passed or failed. No software name, default or screenshot |
 | **17 · Geometry** | Grid `x = 48–600`, `y = 110–430`; **seven columns and seven rows including headers**, so cells are ≈ 79 × 46 pt — wide enough for **`PROPOSED`** and **`TBD`** on two lines at 14 pt. **Every cell is drawn with a visible border, including the empty ones.** Check-type list `x = 624–912`, `y = 110–430`, six rows. Warning block `x = 48–912`, `y = 446–496`, full width |
 | **18 · Connector semantics** | **None.** This is a table beside a list. Any connector would imply that a check type is assigned to a pair, which the source does not state |
 | **19 · Build sequence** | Grid frame with **all** cells bordered → axis labels → the twelve marked pairs → `PROPOSED` and `TBD` in each marked cell → check-type list → warning block → status line |
-| **20 · Mandatory omissions** | **No number, anywhere** · no completed grid · no shading that implies a decision on an unbuilt cell · no red/green · no tick or cross · no "executed" marker · no software default · no interface capture |
+| **20 · Mandatory omissions** | **No numeric criterion or measurement other than the required `CI-01`–`CI-12` identifiers** — no tolerance, clearance, clash count, percentage, score, threshold, progress value or software-default value · no completed grid · no shading that implies a decision on an unbuilt cell · no red/green · no tick or cross · no "executed" marker · no interface capture |
 | **21 · Overclaim risk** | **Two risks.** An empty cell in a grid reads as an oversight rather than a governed choice, and a marked cell reads as a check that has been run. The mitigations are the explicit **`Not all possible pairs are built`** line and the per-cell **`PROPOSED`** wording — **not a legend** |
-| **22 · Producer-failure test** | **Search the finished slide for any digit.** If one is present other than in an identifier such as `CI-07`, **STOP**. **Ask a reader whether these checks have been run.** If the answer is *yes* or *probably*, the per-cell `PROPOSED` has failed. **Ask what the empty cells mean.** If the answer is *not applicable* or *missing*, the *not all pairs are built* line has failed |
+| **22 · Producer-failure test** | **Search the finished slide for digits outside the permitted `CI-01`–`CI-12` identifiers and any source or status reference this specification already requires.** **Any digit functioning as a tolerance, measurement, clash count, percentage, score, threshold or progress value is a STOP.** **Ask a reader whether these checks have been run.** If the answer is *yes* or *probably*, the per-cell `PROPOSED` has failed. **Ask what the empty cells mean.** If the answer is *not applicable* or *missing*, the *not all pairs are built* line has failed |
 | **23 · Applicable STOP conditions** | 18, 19, 20, 21, 22, 53, 54, 59, 70, 71 |
 | **24 · Accessibility and reading order** | Grid heading → axis labels → marked pairs read as *"pair, proposed, tolerance to be determined"* → check-type list → warning → status. **Empty cells must be described in words as deliberately unbuilt**, since visual emptiness does not survive audio |
 | **25 · Screen-reader description** | *"A six-by-six discipline interface grid, deliberately incomplete. Twelve pairs are marked: CI-01 architecture to structure; CI-02 structure to mechanical; CI-03 structure to electrical; CI-04 structure to plumbing; CI-05 structure to fire; CI-06 architecture to mechanical; CI-07 architecture to electrical; CI-08 architecture to plumbing; CI-09 architecture to fire; CI-10 mechanical to electrical; CI-11 mechanical to plumbing; CI-12 mechanical to fire. Every marked cell reads: proposed, tolerance or rule to be determined. All remaining cells are deliberately empty — not all possible pairs are built, and the matrix stops at meaningful interfaces rather than completing the combinatorial set. Beside the grid, six check types: hard clash; clearance or access; alignment or reference; spatial interface; information or readiness; design or interface question. Not every category depends on automated clash detection. Warning: a software default is not a project requirement, and no numeric tolerance is approved. A clash count measures how much software found; it says nothing about whether anything was understood, decided or fixed. No check is recorded as executed."* |
@@ -961,7 +961,7 @@ a visual register or a slide-visual map.**
 | Asset directory created | **None** |
 | Visual register or slide-visual map created | **None** |
 | Rendered assets | **None** |
-| Presentation package or PowerPoint | **None** |
+| Module 6 presentation package or PowerPoint | **None.** No `.pptx` committed |
 | Teaching statements added or changed | **None** — 218 unchanged |
 | Prohibited claims | **93 plus 4 standing — unchanged** |
 | Exercises | **91, `E1`–`E91` — unchanged** |
@@ -1001,7 +1001,7 @@ a visual register or a slide-visual map.**
 | Teaching-content baseline | **COMPLETE and unchanged by `T6-E`** |
 | Asset directory / visual register / slide-visual map | **None exist** |
 | Rendered assets | **NONE.** No renderer or dependency installed |
-| Assembly package / PowerPoint | **None** |
+| Module 6 assembly package / PowerPoint | **None.** No Module 6 PowerPoint produced; **no `.pptx` committed to this repository** |
 | Review / rehearsal / measured timing | **None performed** |
 | Timing | **`20.0 minutes allocated — not measured`** |
 | Slide progression | **Presenter-controlled manual advancement.** No automatic slide-transition timing |
@@ -1023,7 +1023,9 @@ baseline is not yet accepted.**
   register or a slide-visual map.
 - **No rendered asset exists**, in this or any module.
 - **No presentation assembly package exists.**
-- **No PowerPoint exists**, in this or any module.
+- **No Module 6 PowerPoint exists.** Earlier-module PowerPoints are **external
+  derivative outputs** and are **outside this increment**; **no `.pptx` is
+  committed to this repository**.
 - **No presentation review and no rehearsal have been performed**, and **timing
   has never been measured**.
 
@@ -1031,18 +1033,42 @@ baseline is not yet accepted.**
 prohibited claims **92** and **93**, with standing prohibition **D**, forbid the
 confusion.
 
-### 10.1 One reported need — not corrected here
+### 10.1 Correction record — T6-E-R
 
-**Prohibited claim 92 and standing prohibition D** in
-[`source-map.md`](source-map.md) §8.8 and §8.9 each close with the enumerative
-clause *"No visual specification, visual source, asset, assembly package or
-PowerPoint exists"*. **That clause was written in T6-D and its first item is now
-stale** — the fourteen specifications in this file exist.
+**Reported in `T6-E`, corrected in `T6-E-R` under express authorisation.**
 
-**Neither entry was changed.** The prohibited-claims register and the standing
-prohibitions are protected content, and `T6-E` is not permitted to modify them.
-**The prohibition itself is unaffected and remains fully in force**: the Module 6
-baseline is **not** a produced, reviewed or rehearsed presentation, and **no
-visual source, asset, assembly package or PowerPoint exists**.
+**Prohibited claim 92** (§8.8) and **standing prohibition D** (§8.9) in
+[`source-map.md`](source-map.md) each closed with the enumerative clause *"No
+visual specification, visual source, asset, assembly package or PowerPoint
+exists"*. **That clause was written in T6-D**, and its first item became stale
+when the fourteen specifications in this file were created. `T6-E` reported the
+defect rather than patching protected content; **`T6-E-R` corrected the
+production-state explanation in both entries.**
 
-**Recorded here as a reported need for ChatGPT governance review**, not patched.
+**What changed:** the production-state explanation only. Both entries now record
+that **fourteen visual specifications exist**, that **no visual source, asset,
+assembly package or Module 6 PowerPoint exists**, and that **no presentation
+review or rehearsal has been performed**.
+
+**What did not change:** claim **92** keeps its number, its core prohibited
+proposition, its module-level scope and its place in §8.8. Standing prohibition
+**D** keeps its identifier, its core prohibition and its standing applicability
+in the separate A–D register. **Claims 1–91 and 93 are untouched, the numbering
+is unchanged, and the totals remain 93 prohibited claims plus four standing
+prohibitions.** Standing prohibitions **A**, **B** and **C** are untouched.
+
+**Both prohibitions remain fully in force.** Neither the teaching-content
+baseline nor this specification baseline is a produced, reviewed or rehearsed
+presentation.
+
+**`T6-E-R` did not accept the specification baseline.** It remains
+**`SPECIFICATION COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`**, and **`T6-F`
+remains `NOT STARTED — BLOCKED PENDING T6-E ACCEPTANCE`.**
+
+**`T6-E-R` also reconciled two further defects in this file** — the `M6V-06`
+numeric-rule contradiction between fields 16, 20 and 22, which now consistently
+permit the required `CI-01`–`CI-12` identifiers while prohibiting every numeric
+criterion or measurement; and the **PowerPoint-existence scope**, which now
+distinguishes the absent **Module 6** PowerPoint from the earlier modules'
+**external derivative** PowerPoints. **No specification was otherwise altered,
+and no teaching statement, count or register entry was changed.**

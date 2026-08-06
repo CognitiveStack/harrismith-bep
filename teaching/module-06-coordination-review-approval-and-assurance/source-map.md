@@ -713,7 +713,7 @@ was renumbered.**
 
 | # | Prohibited claim |
 |---|---|
-| 92 | That the **Module 6 teaching-content baseline is a produced presentation**, reviewed or rehearsed. **No visual specification, visual source, asset, assembly package or PowerPoint exists** |
+| 92 | That the **Module 6 teaching-content baseline is a produced presentation**, reviewed or rehearsed. **Fourteen visual specifications exist; no visual source, asset, assembly package or Module 6 PowerPoint exists**, and **no presentation review or rehearsal has been performed** |
 | 93 | That **the existence of an exercise set records performance**, or that any allocated time has been measured |
 
 **Ninety-three prohibited claims, plus four standing prohibitions — the final
@@ -729,7 +729,7 @@ increment.**
 | **A** | That a **complete governed coordination cycle has been demonstrated** — `GCR-006` is **OPEN** |
 | **B** | That **a Triviron coordination workflow has been decided** — no Triviron information exists |
 | **C** | That **Module 6 teaching changes Harrismith governance** — it explains; it governs nothing |
-| **D** | That the **teaching-content baseline is a produced presentation** — **no visual specification, visual source, asset, assembly package or PowerPoint exists** |
+| **D** | That the **teaching-content or visual-specification baseline is a produced presentation** — **fourteen visual specifications exist**, but **no visual source, asset, assembly package or Module 6 PowerPoint exists**, and **no presentation review or rehearsal has been performed** |
 
 ## 9. Boundary-deferral register
 
@@ -859,7 +859,9 @@ Production is not.**
   blocked pending acceptance of T6-E**.
 - **No visual register and no slide-visual map exist.**
 - **No presentation assembly package exists.**
-- **No PowerPoint exists**, in this or any module.
+- **No Module 6 PowerPoint exists.** Earlier-module PowerPoints are **external
+  derivative outputs** produced outside this repository; **no `.pptx` is
+  committed here**, in any module.
 - **No review or rehearsal has been performed**, and **timing has never been
   measured**.
 
