@@ -52,7 +52,7 @@ unchanged.
 | Recipient acceptance authority | **`S1` §9.8** | `S8` §9 | **No workflow defined** |
 | What has been demonstrated | **`S7`, `S8`** | — | `S8` declares **`Authority: None`** |
 | Complete governed coordination cycle | **`S7` `GCR-006`** | `S8` §8 | **OPEN — not demonstrated** |
-| Coordination visual specification and assets | — | — | **Not created. T6-D and later** |
+| Coordination visual specification and assets | — | — | **Visual specification not created — `T6-E` next. Visual sources / assets not created — later.** No visual has been rendered or produced |
 
 ## 3. Statement classification — all fourteen slides
 

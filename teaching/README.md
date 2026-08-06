@@ -223,11 +223,11 @@ architecture** at **`20.0 minutes allocated — not measured`**, and presenter
 notes.
 
 **All fourteen slides are developed**, with presenter notes for every one, both
-closings and **91 exercises**. **No exercises,
-no visual-demonstration plan, no visual source, no asset directory, no
-presentation package and no PowerPoint exist**, and no review or rehearsal has
-been performed. **`GCR-006` remains OPEN — no complete governed coordination
-cycle has been demonstrated.** **`T6-E` — specify Module 6 visuals — is next.**
+closings and **91 exercises**. **No visual-demonstration plan, no visual source,
+no asset directory, no presentation package and no PowerPoint exist**, and no
+review or rehearsal has been performed. **`GCR-006` remains OPEN — no complete
+governed coordination cycle has been demonstrated.** **`T6-E` — specify Module 6
+visuals — is next.**
 
 **`T5-F-B-R` reconciled the Module 5 production-state records** across the module
 and programme files. **No teaching claim, statement classification, count or

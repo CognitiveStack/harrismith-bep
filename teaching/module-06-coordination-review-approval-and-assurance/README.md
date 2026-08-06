@@ -248,7 +248,7 @@ review, not by this file.
 | **T6-C** | **Slides 9–12** — assignment and technical response · the Issue status model · verification · coordination completion | ✅ **COMPLETE** |
 | **T6-D** | **Slides 13–14** · both **closings** and the Module 7 bridge · the **exercise baseline** · the **module-wide final reconciliation** | ✅ **COMPLETE** |
 | **T6-E** | **Specify Module 6 visuals** | **NEXT — not started** |
-| Later | Exercises · visual specifications · visual sources · assembly package · external PowerPoint · review · rehearsal | **Not started** |
+| Later | Visual sources · presentation assembly package · external PowerPoint · review · rehearsal | **Not started** |
 
 ## 13. Increment status and validation
 
@@ -326,12 +326,13 @@ already records that `S1` defines no status codes and defers the model to `S2`.
 
 | Check | Result |
 |---|---|
-| Paths created | **Six**, all inside `teaching/module-06-coordination-review-approval-and-assurance/` |
+| Paths created | **Seven**, all inside `teaching/module-06-coordination-review-approval-and-assurance/` — six in T6-A, `exercises.md` in T6-D |
 | Paths modified | **Only** [`../README.md`](../README.md) and [`../roadmap.md`](../roadmap.md) |
 | Modules 1–5 modified | **None** |
 | Controlled or supporting sources modified | **None.** `bep/`, `supporting/`, `docs/`, `guidance/`, `standards/`, `working/`, `output/` unchanged |
 | Assets modified | **None** |
-| Exercises, visual plan, asset directory, package, PowerPoint | **None created** |
+| Exercises | **Created in T6-D** — [`exercises.md`](exercises.md), 91 exercises |
+| Visual plan, visual sources, asset directory, package, PowerPoint | **None created** |
 | Binary, image, PDF or office document | **None created** |
 | Renderer, dependency or script | **None** |
 | Autodesk or ACC activity | **None.** Not authorised, not attempted |

@@ -425,9 +425,11 @@ verification or closure established**; and `Increment-7C` records the result as
 required in every cycle is unsettled** between BEP §8.10's *"may verify"* and the
 strategy's defined step. **Neither was resolved.**
 
-**No exercises, no visual-demonstration plan, no visual source, no asset
-directory, no presentation package and no PowerPoint exist.** No review or
-rehearsal has been performed.
+**The exercise baseline is complete — 91 exercises, `E1`–`E91`.** **No
+visual-demonstration plan, no visual source, no asset directory, no presentation
+package and no PowerPoint exist.** No review or rehearsal has been performed.
+
+**Teaching content is complete; production has not started.**
 
 **Next development increment: `T6-E` — specify Module 6 visuals. It has not
 started.**
@@ -516,7 +518,7 @@ of governance under condition. Describing it neither advances nor reopens it.
 | Module 6 central question | **Corrected on source evidence.** *How does Harrismith **govern** the route from a coordination finding to a **verified disposition** — and which acts must stay distinct?* The provisional *"turn … into"* and *"traceable closure"* wording was **removed**: `GCR-006` is open and the cycle is **not demonstrated** |
 | Module 6 implementation position | **`GCR-006` OPEN.** Model Coordination model set with **zero coordinated versions**; **no Coordination Space configured**; two Reviews and one Issue **open with nothing completed**; recorded result **`PARTIALLY TRACEABLE / NOT YET DEMONSTRATED AS A COMPLETE CYCLE`** |
 | Module 6 recorded absences | **Assurance-sampling method — `NOT ESTABLISHED`** in any source. **Whether verification is mandatory in every cycle — `NOT ESTABLISHED`** (BEP §8.10 *"may verify"* versus the strategy's defined step). **Neither resolved** |
-| Module 6 material not created | **No exercises, visual-demonstration plan, visual source, asset directory, presentation package or PowerPoint.** No review, rehearsal or measured timing |
+| Module 6 material not created | **No visual-demonstration plan, visual source, asset directory, presentation package or PowerPoint.** No review, rehearsal or measured timing |
 | Module 5 teaching-production phase | **COMPLETE.** **T5-A to T5-I-D complete** |
 | Module 5 last increment | **T5-I-D — COMPLETE.** Rehearsal deferred; programme advanced to Module 6 |
 | Module 5 deliverable | 20-minute, **fourteen-slide** presentation — **PRODUCED and ACCEPTED (`REV01`)**; **not rehearsed, timing not measured** |
