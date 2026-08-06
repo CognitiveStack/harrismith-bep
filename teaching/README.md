@@ -142,7 +142,7 @@ teaching/
 │   ├── README.md                    module objective, central question, scope, increment status
 │   ├── source-inventory.md          exact source paths, own declared statuses, precedence, exclusions
 │   ├── resource-comparison.md       the three principal resources analysed separately
-│   ├── source-map.md                267 statements, six registers, 102 prohibited claims, final reconciliation
+│   ├── source-map.md                267 statements, six registers, 103 prohibited claims, final reconciliation
 │   ├── presentation-outline.md      20-minute structure; all fourteen slides developed
 │   ├── speaker-notes.md             notes for all fourteen slides, plus both closings
 │   ├── exercises.md                 practice and self-assessment — 79 exercises
@@ -155,7 +155,8 @@ teaching/
     ├── module-01/                   Module 1 visual source set
     ├── module-02/                   Module 2 visual source set
     ├── module-03/                   Module 3 visual source set
-    └── module-04/                   Module 4 visual source set — 14 native-layout sources
+    ├── module-04/                   Module 4 visual source set — 14 native-layout sources
+    └── module-05/                   Module 5 visual source set, fourteen native-layout sources
 ```
 
 **Module 5's teaching-content baseline and visual specifications are complete,
@@ -169,11 +170,16 @@ closings, **79 exercises**, and **fourteen accepted visual specifications**
 (`M5V-01`–`M5V-14`). **T5-F-A-R2 closed the last teaching-to-controlled-source
 contradiction**, so all eight files now agree with the controlled `D4` row.
 
+**The visual source set is complete** — fourteen native-layout sources
+`M05-S01`–`M05-S14`, a visual register and a slide-visual map, in
+[`assets/module-05/`](assets/module-05/). **It is a visual source set, not a
+module file.** **No rendered asset exists.**
+
 **A complete baseline and a complete specification are not a
 produced presentation:** there are **no visual-source files, no visual register
-and no slide-visual map**, and Module 5 is **not produced, not reviewed, not
-rehearsed, and its timing is allocated, never measured**. **T5-F-B — the
-visual-source set, register and map — is next.**
+and no PowerPoint**, and Module 5 is **not produced, not reviewed, not
+rehearsed, and its timing is allocated, never measured**. **T5-G — the
+presentation assembly package — is next.**
 
 **No `.pptx` file is committed anywhere in this repository**, for any module.
 [`roadmap.md`](roadmap.md) carries the authoritative position for every module.

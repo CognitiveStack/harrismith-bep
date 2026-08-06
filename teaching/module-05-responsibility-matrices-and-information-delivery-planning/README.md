@@ -12,10 +12,13 @@ correction gate and the fourteen visual specifications in **T5-F-A**.
 `D4` row, and closed in **T5-F-A-R2**. **All eight Module 5 files now agree with
 the controlled `D4` row, and no controlled source was changed.**
 
-**A complete baseline and a complete specification are not a produced
-presentation.** There is **no visual-source file, no asset directory, no visual
-register, no slide-visual map, no assembly package and no PowerPoint**, and **no
-review or rehearsal has been performed**.
+**The visual-source baseline is also complete** — fourteen sources, a visual
+register and a slide-visual map in
+[`../assets/module-05/`](../assets/module-05/), all `SOURCE COMPLETE`.
+
+**None of that is a produced presentation.** There is **no rendered asset, no
+assembly package and no PowerPoint**, and **no review or rehearsal has been
+performed**.
 
 **Teaching material. Not governance.** This module explains controlled Harrismith
 resources; it governs nothing, decides nothing, and changes nothing.
@@ -234,6 +237,12 @@ externally and are not committed.
 5. [`speaker-notes.md`](speaker-notes.md) — how to deliver them, and how to close
 6. [`exercises.md`](exercises.md) — how to rehearse and self-assess
 
+**The visual source set is not a module file.** It lives at
+[`../assets/module-05/`](../assets/module-05/) — fourteen slide sources
+`M05-S01`–`M05-S14`, a visual register and a slide-visual map, all
+`SOURCE COMPLETE`, with **no rendered asset**. **The Module 5 directory itself
+contains eight files.**
+
 ## 12. Increment sequence
 
 | Increment | Scope | Status |
@@ -246,8 +255,8 @@ externally and are not committed.
 | **T5-F-A** | **Pre-visual correction gate** — four corrections · **fourteen visual specifications** `M5V-01`–`M5V-14` | ✅ **COMPLETE** |
 | **T5-F-A-R** | **`D4` controlled-source correction** · Slide 12 wording correction · **final specification acceptance** | ✅ **COMPLETE** |
 | **T5-F-A-R2** | **Closure of the remaining `resource-comparison.md` occurrence** — source architecture reconciled | ✅ **COMPLETE** |
-| **T5-F-B** | Fourteen visual-source files, the visual register and the slide-visual map | **NEXT — outstanding** |
-| T5-G | Presentation assembly package | Outstanding |
+| **T5-F-B** | **Fourteen visual-source files** `M05-S01`–`M05-S14` · visual register · slide-visual map | ✅ **COMPLETE** |
+| **T5-G** | Presentation assembly package | **NEXT — outstanding** |
 | T5-H | External PowerPoint production — **outside this repository** | Outstanding |
 
 ## 13. Increment status and validation
@@ -293,29 +302,29 @@ control it established. **Every superlative and narrative observation in §5 was
 recalculated from the final tables**; none was carried forward because it had
 been true at an earlier increment.
 
-### 13.2 Scope compliance — T5-F-A
+### 13.2 Scope compliance — T5-F-B
 
 | Check | Result |
 |---|---|
 | Paths modified | **Only** this README, `presentation-outline.md`, `speaker-notes.md`, `source-map.md`, [`../roadmap.md`](../roadmap.md) and [`../README.md`](../README.md) |
-| File created | **Exactly one** — [`visual-demonstration-plan.md`](visual-demonstration-plan.md), expressly authorised for T5-F-A |
+| Files created | **Eighteen**, all under [`../assets/module-05/`](../assets/module-05/) — asset README, visual register, slide-visual map, fourteen sources, rendered README. **The Module 5 directory itself still contains eight files** |
 | [`source-inventory.md`](source-inventory.md) and [`resource-comparison.md`](resource-comparison.md) | **Unchanged.** No contradiction with a controlled source was found |
 | Controlled sources modified | **None.** `bep/`, `supporting/`, `docs/`, `guidance/`, `standards/`, `working/`, `output/` unchanged |
 | Modules 1–4 modified | **None** |
 | `teaching/assets/`, `teaching/shared/` modified | **None** |
 | PowerPoint, PDF or office file created | **None** |
-| Visual **specifications** created | **Fourteen** — specification only. **No visual-source file, no asset directory, no register, no slide map, no rendered asset** |
+| Visual sources created | **Fourteen** — `M05-S01`–`M05-S14`, all `SOURCE COMPLETE`, plus register and slide-visual map. **No rendered asset, no assembly package, no PowerPoint** |
 | Presentation assembly package created | **None** |
 | Renderer or dependency installed | **None** |
 | Autodesk or ACC activity | **None.** Not authorised, not attempted |
 | Publication automation | **Untouched. Remains `PAUSED`** |
-| T5-F-B or later work performed | **None** |
+| T5-G or later work performed | **None** |
 | Files created or deleted | **None.** T5-F-A-R is correction-only |
 | `D4` reconciliation | **CLOSED in T5-F-A-R2.** The final occurrence — [`resource-comparison.md`](resource-comparison.md)'s *Authoriser* row — is corrected. **All eight Module 5 files now agree with the controlled `D4` row.** Record: [`source-map.md`](source-map.md) §12.16.1 |
 
 ### 13.3 Safeguards verified intact
 
-| Safeguard | State at end of T5-F-A |
+| Safeguard | State at end of T5-F-B |
 |---|---|
 | Publication authority | **UNRESOLVED** — unchanged |
 | Acceptance authority | **UNRESOLVED** — unchanged |
@@ -437,7 +446,7 @@ structural description is otherwise unchanged.
 
 | Field | Value |
 |---|---|
-| Increment | **T5-F-A-R2 — COMPLETE.** Source architecture **reconciled**; specification baseline **ACCEPTED** |
+| Increment | **T5-F-B — COMPLETE.** Visual-source baseline **COMPLETE** |
 | Module status | **CURRENT — ACTIVE** |
 | Teaching-content baseline | **COMPLETE** — all fourteen slides developed |
 | Slides | **14 of 14.** None architecture only |
@@ -449,10 +458,10 @@ structural description is otherwise unchanged.
 | Final reconciliation | **COMPLETE** — [`source-map.md`](source-map.md) §12 |
 | Module files | **8** |
 | Visual specifications | **COMPLETE and ACCEPTED** — `M5V-01`–`M5V-14`, [`visual-demonstration-plan.md`](visual-demonstration-plan.md) |
-| Visual sources / assets / register / map | **None.** T5-F-B not started |
+| Visual sources / assets / register / map | **COMPLETE (T5-F-B)** — [`../assets/module-05/`](../assets/module-05/); fourteen sources all `SOURCE COMPLETE`; **rendered `NONE`** |
 | Assembly package | **None.** T5-G not started |
 | PowerPoint | **None**, in this or any module |
 | Review, rehearsal, measured timing | **None performed** |
 | Timing | **`20.0 minutes allocated — not measured`** |
-| Next increment | **T5-F-B** — visual-source files, register and slide-visual map |
+| Next increment | **T5-G** — the presentation assembly package |
 | Publication automation | **PAUSED** |

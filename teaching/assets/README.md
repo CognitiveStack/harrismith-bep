@@ -1,6 +1,6 @@
 # Teaching Assets
 
-**Status:** Visual **source** is committed for Modules 1, 2, 3 and 4. **No
+**Status:** Visual **source** is committed for Modules 1, 2, 3, 4 and 5. **No
 rendered image asset exists anywhere in this directory.**
 
 ---
@@ -19,7 +19,8 @@ teaching/assets/
 ├── module-01/     visual source set for Module 1 (14 slide visuals)
 ├── module-02/     visual source set for Module 2 (14 slide visuals)
 ├── module-03/     visual source set for Module 3 (14 slide visuals, 13 concepts)
-└── module-04/     visual source set for Module 4 (14 slide visuals, 14 concepts)
+├── module-04/     visual source set for Module 4 (14 slide visuals, 14 concepts)
+└── module-05/     visual source set for Module 5 (14 slide visuals, 14 concepts)
 ```
 
 | Module | Visual source | Rendered assets | External evidence needed |
@@ -28,16 +29,24 @@ teaching/assets/
 | [`module-02/`](module-02/) | **Complete — Slides 1–14** | **None** | **None** |
 | [`module-03/`](module-03/) | **Complete — Slides 1–14** | **None** | **None** |
 | [`module-04/`](module-04/) | **Complete — Slides 1–14** | **None** | **None** |
+| [`module-05/`](module-05/) | **Complete — Slides 1–14** | **None** | **None** |
 
 **Module 3 registers two identifier spaces of different sizes** — **13 visual
 concepts** (`V1`–`V13`) and **14 slide-source files** (`M03-S01`–`M03-S14`),
 because `V1` serves both Slide 1 and Slide 2. See
 [`module-03/visual-register.md`](module-03/visual-register.md) §1.
 
-**Module 4 does not have that asymmetry.** **Fourteen concepts** (`W1`–`W14`),
-**fourteen slides** and **fourteen slide-source files** (`M04-S01`–`M04-S14`), in
-a strict one-to-one mapping. See
-[`module-04/visual-register.md`](module-04/visual-register.md) §1.
+**Modules 4 and 5 do not have that asymmetry.** Module 4 has **fourteen
+concepts** (`W1`–`W14`), fourteen slides and fourteen slide-source files
+(`M04-S01`–`M04-S14`); **Module 5 has fourteen concepts** (`M5V-01`–`M5V-14`),
+fourteen slides and fourteen slide-source files (`M05-S01`–`M05-S14`). **Both are
+strict one-to-one mappings.** See
+[`module-04/visual-register.md`](module-04/visual-register.md) §1 and
+[`module-05/visual-register.md`](module-05/visual-register.md) §1.
+
+**Module 5's source files sit directly under `module-05/`, with no `source/`
+subdirectory.** That is the path its accepted visual plan reserved, and it takes
+precedence over the Module 4 arrangement.
 
 **Module 4 differs from the other three in one further respect: it contains no
 Mermaid at all.** Every one of its fourteen visuals is a **native-layout
@@ -48,7 +57,20 @@ reasoning is recorded concept by concept in
 [`../module-04-cde-workflows-and-information-states/visual-demonstration-plan.md`](../module-04-cde-workflows-and-information-states/visual-demonstration-plan.md)
 §2, and summarised in [`module-04/README.md`](module-04/README.md) §6.
 
-**Module 4's assembly package is the next step**, and does not exist.
+**Module 5 contains no Mermaid either, for the same reason and by the same
+concept-by-concept decision.** All fourteen of its visuals are native-layout
+specifications, recorded in
+[`../module-05-responsibility-matrices-and-information-delivery-planning/visual-demonstration-plan.md`](../module-05-responsibility-matrices-and-information-delivery-planning/visual-demonstration-plan.md)
+§2.4, and summarised in [`module-05/README.md`](module-05/README.md) §6. Its
+hazards include a **blocked route that must stay broken**, an **unpopulated
+matrix skeleton**, **five closed gates**, and a **question-only transfer slide
+whose answer areas must stay empty**.
+
+**Module 4's assembly package and external PowerPoint are already produced** —
+the PowerPoint **outside this repository**, and **not committed here**. **Review
+and rehearsal remain deferred**, as for Modules 1, 2 and 3.
+
+**Module 5's assembly package is the next step**, and does not exist.
 
 **One prohibition applies to `module-03/` specifically, and it is absolute.**
 **No ISO diagram, table or figure is reproduced, redrawn, adapted or
@@ -147,6 +169,7 @@ Each module holds its own visual register rather than a shared list here.
 | Module 2 | [`module-02/visual-register.md`](module-02/visual-register.md) | 14 slide visuals — 13 `SOURCE COMPLETE`, 1 `SOURCE PARTIAL` by design | **None** |
 | Module 3 | [`module-03/visual-register.md`](module-03/visual-register.md) | 14 slide visuals, 13 concepts, `SOURCE COMPLETE` | **None** |
 | Module 4 | [`module-04/visual-register.md`](module-04/visual-register.md) | 14 slide visuals, 14 concepts, all `SOURCE COMPLETE` | **None** |
+| Module 5 | [`module-05/visual-register.md`](module-05/visual-register.md) | 14 slide visuals, 14 concepts, all `SOURCE COMPLETE` | **None** |
 
 ## 6. Rendering
 
@@ -158,10 +181,18 @@ Mermaid diagram source is held in fenced ```mermaid blocks inside the Module 1,
 2 and 3 source files, which **render natively on GitHub** — so those diagrams are
 viewable without local tooling.
 
-**Module 4 holds no Mermaid**, and therefore has nothing a renderer could
+**Modules 4 and 5 hold no Mermaid**, and therefore have nothing a renderer could
 consume. That is a design decision, not a gap: a renderer that normalises a
-broken line into a solid one would complete a blocked route the module exists to
-show as blocked. See [`module-04/rendered/README.md`](module-04/rendered/README.md) §2.
+broken line into a solid one would complete a blocked route those modules exist
+to show as blocked. See
+[`module-04/rendered/README.md`](module-04/rendered/README.md) §2 and
+[`module-05/rendered/README.md`](module-05/rendered/README.md) §2.
+
+**Module 5 adds an explicit completion prohibition.** No empty, blocked, broken
+or refused element may be completed by a renderer — the broken `TRN-E03` → `T4`
+connector, the unpopulated matrix skeleton, the five closed gates, the nine-cell
+`D4` row and the five empty Triviron answer areas all stay exactly as
+specified.
 
 If rendering is undertaken later, the rules are in each module's `rendered/`
 README — [Module 1](module-01/rendered/README.md) §3,

@@ -1081,7 +1081,7 @@ decisions. Slide 14 poses the questions; it answers none.
 
 | Field | Value |
 |---|---|
-| Increment | **T5-F-A-R2 — source architecture reconciled; specification baseline ACCEPTED** |
+| Increment | **T5-F-B — visual-source baseline COMPLETE** |
 | Slides classified | **All fourteen. 267 statements** |
 | Architecture only | **None.** No slide remains undeveloped |
 | Registers | **Six** — source authority, terminology, hypothesis, unresolved, prohibited claims, boundary deferrals |
@@ -1094,8 +1094,9 @@ decisions. Slide 14 poses the questions; it answers none.
 | Timing | **`20.0 minutes allocated — not measured`** |
 | Visual specifications, sources, assets, assembly package, PowerPoint | **None.** T5-F, T5-G and T5-H not started |
 | Visual specifications | **COMPLETE and ACCEPTED (T5-F-A, corrected in T5-F-A-R)** — [`visual-demonstration-plan.md`](visual-demonstration-plan.md), `M5V-01`–`M5V-14` |
+| Visual sources | **COMPLETE (T5-F-B)** — `M05-S01`–`M05-S14` in [`../assets/module-05/`](../assets/module-05/), all `SOURCE COMPLETE`; register and slide-visual map complete; **rendered `NONE`** |
 | `D4` reconciliation | **CLOSED (T5-F-A-R2).** All eight Module 5 files agree with the controlled row — **five `TBD`, four `—`, no allocation made** |
-| Outstanding | **T5-F-B** — visual-source files, register and slide map — and later increments |
+| Outstanding | **T5-G** — the presentation assembly package — and T5-H |
 
 ---
 
@@ -1304,7 +1305,10 @@ prohibited claims 101 and 102 forbid the confusion.
   **COMPLETE**. See §12.16.1. **No current Module 5 file contradicts the
   controlled `D4` row.**
 - **T5-F-B** — the fourteen visual-source files, the visual register and the
-  slide-visual map. **NOT STARTED.**
+  slide-visual map — **COMPLETE**. See
+  [`../assets/module-05/`](../assets/module-05/). **Fourteen sources, all
+  `SOURCE COMPLETE`; no rendered asset; no renderer installed; no source
+  conflict with the accepted plan was found.**
 - **T5-G** — the presentation assembly package.
 - **T5-H** — external PowerPoint production, **outside this repository**.
 - Review, rehearsal and measured timing — **deferred, as for Modules 1–4**.

@@ -3,8 +3,9 @@
 **Status:** Teaching material. **Not governance.** This plan explains and
 specifies; it decides nothing and approves nothing.
 
-**All fourteen visual specifications are complete after T5-F-A, and were
-corrected and accepted in T5-F-A-R.**
+**All fourteen visual specifications are complete after T5-F-A, corrected and
+accepted in T5-F-A-R, and implemented by fourteen visual-source files in
+T5-F-B.**
 
 > **T5-F-A-R correction.** Repository review found that `M5V-04` and `M5V-07`
 > repeated an inaccurate description of the controlled `D4` row. **The row holds
@@ -18,12 +19,13 @@ corrected and accepted in T5-F-A-R.**
 | Field | Value |
 |---|---|
 | Specifications | **`M5V-01`–`M5V-14` — 14 of 14, `SPECIFICATION COMPLETE` and `ACCEPTED`** |
-| Visual-source files | **NONE.** `T5-F-B` owns source production |
-| Asset directory | **None.** `teaching/assets/module-05/` does not exist |
-| Visual register / slide-visual map | **None.** `T5-F-B` |
+| Visual-source files | **14 of 14 — all `SOURCE COMPLETE` (T5-F-B)** |
+| Asset directory | **Exists** — [`../assets/module-05/`](../assets/module-05/) |
+| Visual register | **Complete** — [`../assets/module-05/visual-register.md`](../assets/module-05/visual-register.md) |
+| Slide-visual map | **Complete** — [`../assets/module-05/slide-visual-map.md`](../assets/module-05/slide-visual-map.md) |
 | Rendered assets | **NONE. No rendering was attempted** |
 | Renderer or dependency installed | **None** |
-| Presentation assembly package | **None.** `T5-G` |
+| Presentation assembly package | **None.** `T5-G` — **next** |
 | PowerPoint | **None.** `T5-H`, **produced outside this repository** |
 | Timing | **`20.0 minutes allocated — not measured`** |
 
@@ -238,8 +240,8 @@ label**, not by colour · and warnings that remain legible at projection scale.
 | **27 · Live evidence** | `NONE REQUIRED` |
 | **28 · Mermaid decision** | **PROHIBITED.** Any graph form would connect the three panels and imply a relationship — STOP condition 1 |
 | **29 · Native reconstruction** | Three rectangles + three text boxes + three status rectangles + one footer rectangle. No connectors |
-| **30 · Future source** | `M05-S01` → `teaching/assets/module-05/M05-S01.md` — **NOT CREATED** |
-| **31 · Status** | `SPECIFICATION COMPLETE` · source `NOT STARTED` · rendered `NONE` |
+| **30 · Slide source** | `M05-S01` → [`../assets/module-05/M05-S01.md`](../assets/module-05/M05-S01.md) — **CREATED (T5-F-B)** |
+| **31 · Status** | `SPECIFICATION COMPLETE` · source `SOURCE COMPLETE` · rendered `NONE` |
 
 ---
 
@@ -276,8 +278,8 @@ label**, not by colour · and warnings that remain legible at projection scale.
 | **27 · Live evidence** | `NONE REQUIRED` — `S9` is quoted as text |
 | **28 · Mermaid decision** | **PROHIBITED.** A graph would sequence allocation into observation, implying a pipeline with five failures in it |
 | **29 · Native reconstruction** | One 8-cell table + two rectangles + one nested caution rectangle. No connectors |
-| **30 · Future source** | `M05-S02` — **NOT CREATED** |
-| **31 · Status** | `SPECIFICATION COMPLETE` · source `NOT STARTED` · rendered `NONE` |
+| **30 · Slide source** | `M05-S02` → [`../assets/module-05/M05-S02.md`](../assets/module-05/M05-S02.md) — **CREATED (T5-F-B)** |
+| **31 · Status** | `SPECIFICATION COMPLETE` · source `SOURCE COMPLETE` · rendered `NONE` |
 
 ---
 
@@ -314,8 +316,8 @@ label**, not by colour · and warnings that remain legible at projection scale.
 | **27 · Live evidence** | `NONE REQUIRED` |
 | **28 · Mermaid decision** | **PROHIBITED.** Mermaid would auto-layout the chain and could render the three panels as siblings of a parent node — implying a merged structure. STOP conditions 1 and 4 |
 | **29 · Native reconstruction** | Three rectangles + one quotation rectangle + three small boxes + two straight arrow connectors with text labels |
-| **30 · Future source** | `M05-S03` — **NOT CREATED** |
-| **31 · Status** | `SPECIFICATION COMPLETE` · source `NOT STARTED` · rendered `NONE` |
+| **30 · Slide source** | `M05-S03` → [`../assets/module-05/M05-S03.md`](../assets/module-05/M05-S03.md) — **CREATED (T5-F-B)** |
+| **31 · Status** | `SPECIFICATION COMPLETE` · source `SOURCE COMPLETE` · rendered `NONE` |
 
 ---
 
@@ -352,8 +354,8 @@ label**, not by colour · and warnings that remain legible at projection scale.
 | **27 · Live evidence** | `NONE REQUIRED` |
 | **28 · Mermaid decision** | **PROHIBITED.** Mermaid has no matrix primitive; any graph substitute would imply flow between functions. STOP condition 9 |
 | **29 · Native reconstruction** | One PowerPoint table (9 columns × 7 band rows) with empty cells + two call-out shapes + two leader lines |
-| **30 · Future source** | `M05-S04` — **NOT CREATED** |
-| **31 · Status** | `SPECIFICATION COMPLETE` · source `NOT STARTED` · rendered `NONE` |
+| **30 · Slide source** | `M05-S04` → [`../assets/module-05/M05-S04.md`](../assets/module-05/M05-S04.md) — **CREATED (T5-F-B)** |
+| **31 · Status** | `SPECIFICATION COMPLETE` · source `SOURCE COMPLETE` · rendered `NONE` |
 
 ---
 
@@ -390,8 +392,8 @@ label**, not by colour · and warnings that remain legible at projection scale.
 | **27 · Live evidence** | `NONE REQUIRED` |
 | **28 · Mermaid decision** | **PROHIBITED.** Mermaid subgraphs would render the MEP enclosure, but auto-layout would place `COORD-01` as a peer or a parent of the six — implying it aggregates authorship. STOP condition 9 |
 | **29 · Native reconstruction** | Four boxes + three arrows + six rectangles + one enclosing rectangle (no fill, visible border) + one offset rectangle + one dashed connector |
-| **30 · Future source** | `M05-S05` — **NOT CREATED** |
-| **31 · Status** | `SPECIFICATION COMPLETE` · source `NOT STARTED` · rendered `NONE` |
+| **30 · Slide source** | `M05-S05` → [`../assets/module-05/M05-S05.md`](../assets/module-05/M05-S05.md) — **CREATED (T5-F-B)** |
+| **31 · Status** | `SPECIFICATION COMPLETE` · source `SOURCE COMPLETE` · rendered `NONE` |
 
 ---
 
@@ -428,8 +430,8 @@ label**, not by colour · and warnings that remain legible at projection scale.
 | **27 · Live evidence** | `NONE REQUIRED` |
 | **28 · Mermaid decision** | **PROHIBITED.** A graph would connect terms and imply ordering or hierarchy among the seven, which the source does not state. STOP condition 9 |
 | **29 · Native reconstruction** | Two tables (7 rows; 2 rows) with a fixed empty column between them, plus one quotation rectangle. No connectors |
-| **30 · Future source** | `M05-S06` — **NOT CREATED** |
-| **31 · Status** | `SPECIFICATION COMPLETE` · source `NOT STARTED` · rendered `NONE` |
+| **30 · Slide source** | `M05-S06` → [`../assets/module-05/M05-S06.md`](../assets/module-05/M05-S06.md) — **CREATED (T5-F-B)** |
+| **31 · Status** | `SPECIFICATION COMPLETE` · source `SOURCE COMPLETE` · rendered `NONE` |
 
 ---
 
@@ -466,8 +468,8 @@ label**, not by colour · and warnings that remain legible at projection scale.
 | **27 · Live evidence** | `NONE REQUIRED` |
 | **28 · Mermaid decision** | **PROHIBITED.** Mermaid would sequence `P1`–`P4`. STOP condition 9 |
 | **29 · Native reconstruction** | One small table for the intersection + four separate rectangles + **one isolated 9-column table (one heading row, one value row) for `D4`** + two status text boxes + one text strip + leader lines |
-| **30 · Future source** | `M05-S07` — **NOT CREATED** |
-| **31 · Status** | `SPECIFICATION COMPLETE` · source `NOT STARTED` · rendered `NONE` |
+| **30 · Slide source** | `M05-S07` → [`../assets/module-05/M05-S07.md`](../assets/module-05/M05-S07.md) — **CREATED (T5-F-B)** |
+| **31 · Status** | `SPECIFICATION COMPLETE` · source `SOURCE COMPLETE` · rendered `NONE` |
 
 ---
 
@@ -504,8 +506,8 @@ label**, not by colour · and warnings that remain legible at projection scale.
 | **27 · Live evidence** | `NONE REQUIRED` |
 | **28 · Mermaid decision** | **PROHIBITED.** Mermaid cannot render a boundary-preserving overlap; it would render a merge or a parent node, asserting exactly the collapse this slide denies |
 | **29 · Native reconstruction** | Two rectangles + one line on top + one no-fill rounded rectangle + two text boxes |
-| **30 · Future source** | `M05-S08` — **NOT CREATED** |
-| **31 · Status** | `SPECIFICATION COMPLETE` · source `NOT STARTED` · rendered `NONE` |
+| **30 · Slide source** | `M05-S08` → [`../assets/module-05/M05-S08.md`](../assets/module-05/M05-S08.md) — **CREATED (T5-F-B)** |
+| **31 · Status** | `SPECIFICATION COMPLETE` · source `SOURCE COMPLETE` · rendered `NONE` |
 
 ---
 
@@ -542,8 +544,8 @@ label**, not by colour · and warnings that remain legible at projection scale.
 | **27 · Live evidence** | `NONE REQUIRED` |
 | **28 · Mermaid decision** | **PROHIBITED.** Any graph form would connect the fields and imply a workflow through them |
 | **29 · Native reconstruction** | Six rectangles containing text lists + one caption text box + one 4-row table |
-| **30 · Future source** | `M05-S09` — **NOT CREATED** |
-| **31 · Status** | `SPECIFICATION COMPLETE` · source `NOT STARTED` · rendered `NONE` |
+| **30 · Slide source** | `M05-S09` → [`../assets/module-05/M05-S09.md`](../assets/module-05/M05-S09.md) — **CREATED (T5-F-B)** |
+| **31 · Status** | `SPECIFICATION COMPLETE` · source `SOURCE COMPLETE` · rendered `NONE` |
 
 ---
 
@@ -580,8 +582,8 @@ label**, not by colour · and warnings that remain legible at projection scale.
 | **27 · Live evidence** | `NONE REQUIRED` |
 | **28 · Mermaid decision** | **PROHIBITED.** Mermaid renders nodes in sequence by default; three event nodes would acquire an implied order. STOP condition 12 |
 | **29 · Native reconstruction** | Three rectangles, each with a header band rectangle, plus one caution text strip. **No connectors** |
-| **30 · Future source** | `M05-S10` — **NOT CREATED** |
-| **31 · Status** | `SPECIFICATION COMPLETE` · source `NOT STARTED` · rendered `NONE` |
+| **30 · Slide source** | `M05-S10` → [`../assets/module-05/M05-S10.md`](../assets/module-05/M05-S10.md) — **CREATED (T5-F-B)** |
+| **31 · Status** | `SPECIFICATION COMPLETE` · source `SOURCE COMPLETE` · rendered `NONE` |
 
 ---
 
@@ -618,8 +620,8 @@ label**, not by colour · and warnings that remain legible at projection scale.
 | **27 · Live evidence** | `NONE REQUIRED` |
 | **28 · Mermaid decision** | **PROHIBITED — the strongest case in the module.** Mermaid's auto-layout would sequence the eight steps, would route the blocked edge as a normal edge, and offers no reliable way to render a *broken* connector. STOP conditions 12, 13, 14 |
 | **29 · Native reconstruction** | Eleven rectangles + labelled straight connectors + one connector drawn as two segments with a visible gap and a `BLOCKED` label + one side table |
-| **30 · Future source** | `M05-S11` — **NOT CREATED** |
-| **31 · Status** | `SPECIFICATION COMPLETE` · source `NOT STARTED` · rendered `NONE` |
+| **30 · Slide source** | `M05-S11` → [`../assets/module-05/M05-S11.md`](../assets/module-05/M05-S11.md) — **CREATED (T5-F-B)** |
+| **31 · Status** | `SPECIFICATION COMPLETE` · source `SOURCE COMPLETE` · rendered `NONE` |
 
 ---
 
@@ -656,8 +658,8 @@ label**, not by colour · and warnings that remain legible at projection scale.
 | **27 · Live evidence** | `NONE REQUIRED` — `S9` quoted as text |
 | **28 · Mermaid decision** | **PROHIBITED.** Mermaid would chain the gates and could render an edge past a closed node, implying a traversable route. STOP conditions 14, 16 |
 | **29 · Native reconstruction** | Five rectangles with internal text blocks + one small side text box + two full-width text strips. **No connectors** |
-| **30 · Future source** | `M05-S12` — **NOT CREATED** |
-| **31 · Status** | `SPECIFICATION COMPLETE` · source `NOT STARTED` · rendered `NONE` |
+| **30 · Slide source** | `M05-S12` → [`../assets/module-05/M05-S12.md`](../assets/module-05/M05-S12.md) — **CREATED (T5-F-B)** |
+| **31 · Status** | `SPECIFICATION COMPLETE` · source `SOURCE COMPLETE` · rendered `NONE` |
 
 ---
 
@@ -694,8 +696,8 @@ label**, not by colour · and warnings that remain legible at projection scale.
 | **27 · Live evidence** | `NONE REQUIRED` |
 | **28 · Mermaid decision** | **PROHIBITED.** A graph form would relate the markers to one another and imply a shared scale or hierarchy of certainty. STOP condition 20 |
 | **29 · Native reconstruction** | One 7 × 4 PowerPoint table with a heavier rule between rows one and two + one label text box |
-| **30 · Future source** | `M05-S13` — **NOT CREATED** |
-| **31 · Status** | `SPECIFICATION COMPLETE` · source `NOT STARTED` · rendered `NONE` |
+| **30 · Slide source** | `M05-S13` → [`../assets/module-05/M05-S13.md`](../assets/module-05/M05-S13.md) — **CREATED (T5-F-B)** |
+| **31 · Status** | `SPECIFICATION COMPLETE` · source `SOURCE COMPLETE` · rendered `NONE` |
 
 ---
 
@@ -732,32 +734,33 @@ label**, not by colour · and warnings that remain legible at projection scale.
 | **27 · Live evidence** | `NONE REQUIRED` |
 | **28 · Mermaid decision** | **PROHIBITED.** Any graph would connect Harrismith examples to Triviron questions, which is a recommendation regardless of edge label. STOP condition 24 |
 | **29 · Native reconstruction** | Five rectangles, each containing a text list and a bordered sub-rectangle + one subordinate side panel + one footer strip. **No connectors** |
-| **30 · Future source** | `M05-S14` — **NOT CREATED** |
-| **31 · Status** | `SPECIFICATION COMPLETE` · source `NOT STARTED` · rendered `NONE` |
+| **30 · Slide source** | `M05-S14` → [`../assets/module-05/M05-S14.md`](../assets/module-05/M05-S14.md) — **CREATED (T5-F-B)** |
+| **31 · Status** | `SPECIFICATION COMPLETE` · source `SOURCE COMPLETE` · rendered `NONE` |
 
 ---
 
 ## 5. Specification register
 
-| Visual | Slide | Form | Mermaid | External imagery | Live evidence | Status |
-|---|---:|---|---|---|---|---|
-| `M5V-01` | 1 | Three panels + footer | **Prohibited** | `NONE REQUIRED` | `NONE REQUIRED` | `SPECIFICATION COMPLETE` |
-| `M5V-02` | 2 | Field band + two columns | **Prohibited** | `NONE REQUIRED` | `NONE REQUIRED` | `SPECIFICATION COMPLETE` |
-| `M5V-03` | 3 | Three panels + quotation + chain | **Prohibited** | `NONE REQUIRED` | `NONE REQUIRED` | `SPECIFICATION COMPLETE` |
-| `M5V-04` | 4 | Unpopulated matrix skeleton + two call-outs | **Prohibited** | `NONE REQUIRED` | `NONE REQUIRED` | `SPECIFICATION COMPLETE` |
-| `M5V-05` | 5 | Chain + enclosed containers + offset construct | **Prohibited** | `NONE REQUIRED` | `NONE REQUIRED` | `SPECIFICATION COMPLETE` |
-| `M5V-06` | 6 | Two gutter-separated panels + quotation | **Prohibited** | `NONE REQUIRED` | `NONE REQUIRED` | `SPECIFICATION COMPLETE` |
-| `M5V-07` | 7 | Intersection + four bars + isolated row | **Prohibited** | `NONE REQUIRED` | `NONE REQUIRED` | `SPECIFICATION COMPLETE` |
-| `M5V-08` | 8 | Two boxes + preserved boundary + overlap | **Prohibited** | `NONE REQUIRED` | `NONE REQUIRED` | `SPECIFICATION COMPLETE` |
-| `M5V-09` | 9 | Six groups, sixteen named fields | **Prohibited** | `NONE REQUIRED` | `NONE REQUIRED` | `SPECIFICATION COMPLETE` |
-| `M5V-10` | 10 | Three status cards, no connectors | **Prohibited** | `NONE REQUIRED` | `NONE REQUIRED` | `SPECIFICATION COMPLETE` |
-| `M5V-11` | 11 | Two tracks + `uses` connectors + broken link | **Prohibited** | `NONE REQUIRED` | `NONE REQUIRED` | `SPECIFICATION COMPLETE` |
-| `M5V-12` | 12 | Five closed typed gates | **Prohibited** | `NONE REQUIRED` | `NONE REQUIRED` | `SPECIFICATION COMPLETE` |
-| `M5V-13` | 13 | Seven-row panel with outcome column | **Prohibited** | `NONE REQUIRED` | `NONE REQUIRED` | `SPECIFICATION COMPLETE` |
-| `M5V-14` | 14 | Five question groups + empty answer areas | **Prohibited** | `NONE REQUIRED` | `NONE REQUIRED` | `SPECIFICATION COMPLETE` |
+| Visual | Slide | Form | Mermaid | External imagery | Live evidence | Specification | Source |
+|---|---:|---|---|---|---|---|---|
+| `M5V-01` | 1 | Three panels + footer | **Prohibited** | `NONE REQUIRED` | `NONE REQUIRED` | `SPECIFICATION COMPLETE` | **`SOURCE COMPLETE`** |
+| `M5V-02` | 2 | Field band + two columns | **Prohibited** | `NONE REQUIRED` | `NONE REQUIRED` | `SPECIFICATION COMPLETE` | **`SOURCE COMPLETE`** |
+| `M5V-03` | 3 | Three panels + quotation + chain | **Prohibited** | `NONE REQUIRED` | `NONE REQUIRED` | `SPECIFICATION COMPLETE` | **`SOURCE COMPLETE`** |
+| `M5V-04` | 4 | Unpopulated matrix skeleton + two call-outs | **Prohibited** | `NONE REQUIRED` | `NONE REQUIRED` | `SPECIFICATION COMPLETE` | **`SOURCE COMPLETE`** |
+| `M5V-05` | 5 | Chain + enclosed containers + offset construct | **Prohibited** | `NONE REQUIRED` | `NONE REQUIRED` | `SPECIFICATION COMPLETE` | **`SOURCE COMPLETE`** |
+| `M5V-06` | 6 | Two gutter-separated panels + quotation | **Prohibited** | `NONE REQUIRED` | `NONE REQUIRED` | `SPECIFICATION COMPLETE` | **`SOURCE COMPLETE`** |
+| `M5V-07` | 7 | Intersection + four bars + isolated row | **Prohibited** | `NONE REQUIRED` | `NONE REQUIRED` | `SPECIFICATION COMPLETE` | **`SOURCE COMPLETE`** |
+| `M5V-08` | 8 | Two boxes + preserved boundary + overlap | **Prohibited** | `NONE REQUIRED` | `NONE REQUIRED` | `SPECIFICATION COMPLETE` | **`SOURCE COMPLETE`** |
+| `M5V-09` | 9 | Six groups, sixteen named fields | **Prohibited** | `NONE REQUIRED` | `NONE REQUIRED` | `SPECIFICATION COMPLETE` | **`SOURCE COMPLETE`** |
+| `M5V-10` | 10 | Three status cards, no connectors | **Prohibited** | `NONE REQUIRED` | `NONE REQUIRED` | `SPECIFICATION COMPLETE` | **`SOURCE COMPLETE`** |
+| `M5V-11` | 11 | Two tracks + `uses` connectors + broken link | **Prohibited** | `NONE REQUIRED` | `NONE REQUIRED` | `SPECIFICATION COMPLETE` | **`SOURCE COMPLETE`** |
+| `M5V-12` | 12 | Five closed typed gates | **Prohibited** | `NONE REQUIRED` | `NONE REQUIRED` | `SPECIFICATION COMPLETE` | **`SOURCE COMPLETE`** |
+| `M5V-13` | 13 | Seven-row panel with outcome column | **Prohibited** | `NONE REQUIRED` | `NONE REQUIRED` | `SPECIFICATION COMPLETE` | **`SOURCE COMPLETE`** |
+| `M5V-14` | 14 | Five question groups + empty answer areas | **Prohibited** | `NONE REQUIRED` | `NONE REQUIRED` | `SPECIFICATION COMPLETE` | **`SOURCE COMPLETE`** |
 
-**Fourteen specifications. Fourteen slides. Fourteen reserved future sources.
-Zero Mermaid. Zero external images. Zero live-evidence requirements.**
+**Fourteen specifications. Fourteen slides. Fourteen source files, all
+`SOURCE COMPLETE`. Zero Mermaid. Zero external images. Zero live-evidence
+requirements. Zero rendered assets.**
 
 ---
 
@@ -765,14 +768,14 @@ Zero Mermaid. Zero external images. Zero live-evidence requirements.**
 
 | Field | Value |
 |---|---|
-| Increment | **T5-F-A-R — COMPLETE.** Specification baseline **ACCEPTED** |
+| Increment | **T5-F-B — COMPLETE.** Visual-source baseline **COMPLETE** |
 | Specifications | **`M5V-01`–`M5V-14`, all `SPECIFICATION COMPLETE` and `ACCEPTED`** |
-| Visual-source files | **NOT STARTED** — `M05-S01`–`M05-S14` reserved only |
-| Asset directory | **Does not exist** |
-| Visual register / slide-visual map | **Do not exist** — `T5-F-B` |
+| Visual-source files | **`M05-S01`–`M05-S14`, all `SOURCE COMPLETE`** |
+| Asset directory | [`../assets/module-05/`](../assets/module-05/) |
+| Visual register / slide-visual map | **Complete** |
 | Rendered assets | **NONE.** No rendering attempted; no renderer installed |
 | Assembly package | **None** — `T5-G` |
 | PowerPoint | **None** — `T5-H`, outside this repository |
 | Teaching-content baseline | **COMPLETE** and unchanged by this increment |
 | Timing | **`20.0 minutes allocated — not measured`** |
-| Next | **`T5-F-B`** — fourteen visual-source files, the visual register and the slide-visual map |
+| Next | **`T5-G`** — the presentation assembly package |
