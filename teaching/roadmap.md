@@ -31,7 +31,7 @@ moves — not as the subject.
 | 3 | ISO 19650 information-management principles | **Content, visual source, assembly package and PowerPoint produced.** Review and rehearsal **deferred** |
 | 4 | CDE workflows and information states | **Content, visual source, assembly package and PowerPoint produced.** Review and rehearsal **deferred** |
 | 5 | Responsibility matrices and information-delivery planning | **Content, visual source, assembly package and PowerPoint produced; governance review ACCEPTED (`REV01`).** Rehearsal and measured timing **DEFERRED** |
-| 6 | **Coordination, Review, Approval and Assurance** | **CURRENT — ACTIVE.** **No material exists yet**; `T6-A` is next |
+| 6 | **Coordination, Review, Approval and Assurance** | **CURRENT — ACTIVE.** **`T6-A` COMPLETE** — six files, source architecture, **Slides 1–3 developed; Slides 4–14 architecture only**. `T6-B` next |
 | 7 | Translating Harrismith into the Triviron BEP | Planned |
 | 8 | Facilitating and presenting a BEP workshop | Planned |
 
@@ -370,19 +370,44 @@ approval workflow mechanics, assurance sampling and closure all remain
 
 ### Module 6 — Coordination, Review, Approval and Assurance — **CURRENT — ACTIVE**
 
-**Module 6 is now the active module.** **None of its material exists.** There is
-**no Module 6 directory, no source inventory, no outline, no speaker notes, no
-exercises, no visual plan and no teaching file of any kind.**
+**Module 6 is the active module, and `T6-A` is COMPLETE.**
 
-**Intended scope**, carried forward from the Module 5 boundary register and not
-expanded here: federation · coordination findings · finding and issue triage ·
-Issues · the coordination cycle · verification · **check versus authorise versus
-accept** · review procedures · approval workflow mechanics · assurance sampling ·
-closure.
+Deliverable: a 20-minute, fourteen-slide presentation on **how Harrismith
+governs the route from a coordination finding to a verified disposition, and
+which acts must stay distinct**. See
+[`module-06-coordination-review-approval-and-assurance/README.md`](module-06-coordination-review-approval-and-assurance/README.md).
 
-**Next development increment: `T6-A` — Module 6 foundation, source inventory and
-teaching architecture.** **It has not started**, and **nothing in this record
-teaches or expands any Module 6 topic.**
+**`T6-A` established the source architecture.** The module directory holds **six
+files**: a source inventory recording **`S1`–`S14`** with exact paths and their
+**own declared statuses**, and **`E1`–`E9`** excluded with reasons; a separate
+analysis of the **four principal resources** — BEP §8, BEP §9, the Coordination
+& Review Strategy, and the IM Responsibility Matrix §3.5 and §3.7; a source map
+carrying **49 classified statements**, **nine registers**, **18 hypotheses**,
+**six terminology variances**, **14 unresolved matters** and **34 prohibited
+claims** plus four standing prohibitions; a **fourteen-slide architecture**; and
+presenter notes.
+
+**Slides 1–3 are developed. Slides 4–14 are architecture only** — they carry a
+title, a time and an intended function, and nothing else.
+
+**The module's implementation position is recorded, not softened.** A Model
+Coordination model set exists with **zero coordinated versions**; **no Design
+Collaboration Coordination Space is configured**; two Client Reviews and one
+Coordination-type Issue are open with **no completed review, authorisation,
+verification or closure established**; and `Increment-7C` records the result as
+**`PARTIALLY TRACEABLE / NOT YET DEMONSTRATED AS A COMPLETE CYCLE`**.
+**`GCR-006` remains OPEN.**
+
+**Two matters were found to be `NOT ESTABLISHED` and are taught as absences:**
+**no source defines an assurance-sampling method**, and **whether verification is
+required in every cycle is unsettled** between BEP §8.10's *"may verify"* and the
+strategy's defined step. **Neither was resolved.**
+
+**No exercises, no visual-demonstration plan, no visual source, no asset
+directory, no presentation package and no PowerPoint exist.** No review or
+rehearsal has been performed.
+
+**Next development increment: `T6-B`. It has not started.**
 
 ### Modules 7–8 — future scope
 
@@ -458,9 +483,14 @@ of governance under condition. Describing it neither advances nor reopens it.
 
 | Field | Value |
 |---|---|
-| **Active module** | **Module 6 — Coordination, Review, Approval and Assurance** — **CURRENT — ACTIVE.** **No material exists**; `T6-A` next |
-| **Next development increment** | **`T6-A`** — Module 6 foundation, source inventory and teaching architecture. **NOT STARTED** |
-| Module 6 material | **None.** No directory, source inventory, outline, speaker notes, exercises, visual plan or teaching file exists |
+| **Active module** | **Module 6 — Coordination, Review, Approval and Assurance** — **CURRENT — ACTIVE** |
+| **Next development increment** | **`T6-B`** — continued Module 6 slide development. **NOT STARTED** |
+| Module 6 established (T6-A) | **COMPLETE.** Module directory, **six files** · source inventory **`S1`–`S14`** with exact paths and declared statuses, **`E1`–`E9` excluded with reasons** · **four principal resources analysed separately** · **nine registers** · **18 hypotheses** — 14 `CONFIRMED`, 2 `CONFIRMED WITH QUALIFICATION`, 1 `NOT ESTABLISHED` · **six terminology variances, none harmonised** · **14 unresolved matters, none resolved** · **49 classified statements** · **34 prohibited claims** plus 4 standing · 20-minute fourteen-slide architecture · **Slides 1–3** |
+| Module 6 slides | **3 of 14 developed.** **Slides 4–14 architecture only** |
+| Module 6 central question | **Corrected on source evidence.** *How does Harrismith **govern** the route from a coordination finding to a **verified disposition** — and which acts must stay distinct?* The provisional *"turn … into"* and *"traceable closure"* wording was **removed**: `GCR-006` is open and the cycle is **not demonstrated** |
+| Module 6 implementation position | **`GCR-006` OPEN.** Model Coordination model set with **zero coordinated versions**; **no Coordination Space configured**; two Reviews and one Issue **open with nothing completed**; recorded result **`PARTIALLY TRACEABLE / NOT YET DEMONSTRATED AS A COMPLETE CYCLE`** |
+| Module 6 recorded absences | **Assurance-sampling method — `NOT ESTABLISHED`** in any source. **Whether verification is mandatory in every cycle — `NOT ESTABLISHED`** (BEP §8.10 *"may verify"* versus the strategy's defined step). **Neither resolved** |
+| Module 6 material not created | **No exercises, visual-demonstration plan, visual source, asset directory, presentation package or PowerPoint.** No review, rehearsal or measured timing |
 | Module 5 teaching-production phase | **COMPLETE.** **T5-A to T5-I-D complete** |
 | Module 5 last increment | **T5-I-D — COMPLETE.** Rehearsal deferred; programme advanced to Module 6 |
 | Module 5 deliverable | 20-minute, **fourteen-slide** presentation — **PRODUCED and ACCEPTED (`REV01`)**; **not rehearsed, timing not measured** |

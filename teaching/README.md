@@ -148,6 +148,13 @@ teaching/
 │   ├── exercises.md                 practice and self-assessment — 79 exercises
 │   ├── visual-demonstration-plan.md fourteen visual specifications, M5V-01 to M5V-14, accepted
 │   └── presentation/                assembly package — production handoff
+├── module-06-coordination-review-approval-and-assurance/   Module 6 — CURRENT, ACTIVE
+│   ├── README.md                    module objective, central question, scope, increment status
+│   ├── source-inventory.md          S1–S14 with exact paths and declared statuses; E1–E9 exclusions
+│   ├── resource-comparison.md       the four principal resources analysed separately
+│   ├── source-map.md                49 statements (Slides 1–3), nine registers, 34 prohibited claims
+│   ├── presentation-outline.md      20-minute structure; Slides 1–3 developed, 4–14 architecture only
+│   └── speaker-notes.md             notes for Slides 1–3 only; no module closing yet
 ├── shared/
 │   ├── glossary.md                  teaching glossary across all modules
 │   └── presentation-principles.md   how these presentations are built
@@ -202,9 +209,21 @@ allocations**, **automatic slide progression is `NOT REQUIRED`**, and **the
 presenter advances each slide manually when ready**.
 
 **Module 5's teaching-production phase is COMPLETE, and Module 6 —
-Coordination, Review, Approval and Assurance — is now the current active
-module.** **No Module 6 material exists.** **`T6-A` — Module 6 foundation,
-source inventory and teaching architecture — is next.**
+Coordination, Review, Approval and Assurance — is the current active module.**
+
+**`T6-A` is COMPLETE.** Module 6 now holds **six files** — objective and scope,
+a source inventory of **`S1`–`S14`** with **`E1`–`E9`** excluded, a separate
+comparison of the **four principal resources**, a source map carrying **49
+classified statements**, **18 hypotheses**, **six terminology variances**,
+**14 unresolved matters** and **34 prohibited claims**, a **fourteen-slide
+architecture** at **`20.0 minutes allocated — not measured`**, and presenter
+notes.
+
+**Slides 1–3 are developed. Slides 4–14 are architecture only.** **No exercises,
+no visual-demonstration plan, no visual source, no asset directory, no
+presentation package and no PowerPoint exist**, and no review or rehearsal has
+been performed. **`GCR-006` remains OPEN — no complete governed coordination
+cycle has been demonstrated.** **`T6-B` is next.**
 
 **`T5-F-B-R` reconciled the Module 5 production-state records** across the module
 and programme files. **No teaching claim, statement classification, count or
