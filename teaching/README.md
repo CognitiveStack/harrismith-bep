@@ -152,9 +152,10 @@ teaching/
 │   ├── README.md                    module objective, central question, scope, increment status
 │   ├── source-inventory.md          S1–S14 with exact paths and declared statuses; E1–E9 exclusions
 │   ├── resource-comparison.md       the four principal resources analysed separately
-│   ├── source-map.md                188 statements (Slides 1–12), nine registers, 73 prohibited claims
-│   ├── presentation-outline.md      20-minute structure; Slides 1–12 developed, 13–14 architecture only
-│   └── speaker-notes.md             notes for Slides 1–12; no module closing yet
+│   ├── source-map.md                218 statements, nine registers, 93 prohibited claims, final reconciliation
+│   ├── presentation-outline.md      20-minute structure; all fourteen slides developed
+│   ├── speaker-notes.md             notes for all fourteen slides, plus both closings
+│   └── exercises.md                 practice and self-assessment — 91 exercises
 ├── shared/
 │   ├── glossary.md                  teaching glossary across all modules
 │   └── presentation-principles.md   how these presentations are built
@@ -211,20 +212,22 @@ presenter advances each slide manually when ready**.
 **Module 5's teaching-production phase is COMPLETE, and Module 6 —
 Coordination, Review, Approval and Assurance — is the current active module.**
 
-**`T6-A`, `T6-B` and `T6-C` are COMPLETE.** Module 6 holds **six files** — objective and
+**`T6-A` to `T6-D` are COMPLETE, and the Module 6 teaching-content baseline is
+COMPLETE.** Module 6 holds **seven files** — objective and
 scope, a source inventory of **`S1`–`S14`** with **`E1`–`E9`** excluded, a
 separate comparison of the **four principal resources**, a source map carrying
-**188 classified statements**, **18 hypotheses**, **six terminology variances**,
-**14 unresolved matters** and **73 prohibited claims**, a **fourteen-slide
+**218 classified statements**, **18 hypotheses**, **six terminology variances**,
+**14 unresolved matters**, **93 prohibited claims** and a **module-wide final
+reconciliation**, a **fourteen-slide
 architecture** at **`20.0 minutes allocated — not measured`**, and presenter
 notes.
 
-**Slides 1–12 are developed. Slides 13–14 are architecture only.** **No exercises,
+**All fourteen slides are developed**, with presenter notes for every one, both
+closings and **91 exercises**. **No exercises,
 no visual-demonstration plan, no visual source, no asset directory, no
 presentation package and no PowerPoint exist**, and no review or rehearsal has
 been performed. **`GCR-006` remains OPEN — no complete governed coordination
-cycle has been demonstrated.** **`T6-D` — develop Slides 13–14, the module
-closing, exercises and final content reconciliation — is next.**
+cycle has been demonstrated.** **`T6-E` — specify Module 6 visuals — is next.**
 
 **`T5-F-B-R` reconciled the Module 5 production-state records** across the module
 and programme files. **No teaching claim, statement classification, count or

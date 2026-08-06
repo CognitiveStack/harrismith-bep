@@ -2,9 +2,9 @@
 
 **Status:** Presenter notes for teaching material. **Not governance.**
 
-**Notes exist for Slides 1–12.** Slides 13–14 are **architecture only** and have
-**no presenter notes**. **No module closing has been written** — the closing
-belongs to the increment that develops Slide 14.
+**Notes exist for all fourteen slides**, together with the **normal and emergency
+module closings** and a one-sentence **Module 7 bridge**. **No slide lacks
+presenter notes.**
 
 **No rehearsal has been performed.** Timing throughout remains **allocated, not
 measured**.
@@ -1407,18 +1407,313 @@ met, and none of them is recorded as met.
 
 ---
 
+## Slide 13 — Evidence, escalation, and what a closed Issue does not prove · 1.0 min
+
+### What you are doing here
+
+Three connected things in sixty seconds: **what the cycle leaves behind**, **how
+a matter leaves the cycle unresolved**, and **what none of it proves**.
+
+**This is also the slide to shorten if you are running long** — see the delivery
+warning.
+
+### Opening line
+
+> *"A cycle produces records. The question worth a minute is which of those
+> records prove something, and which just show that somebody clicked."*
+
+### The load-bearing explanation
+
+**Do not read the nine outputs aloud.** Point at them and move:
+
+> *"Nine outputs — the input register, the federation reference, check and
+> finding records, Issue history, meeting decisions, the verification record, the
+> unresolved list, and the cycle summary."*
+
+Then the two lines that matter more than the list:
+
+> *"No duplicate record is required where a controlled platform record already
+> does the job. And a coordination report summarises governed evidence — it does
+> not become a second Issue database. Two records of the same Issue eventually
+> become two different records of the same Issue."*
+
+Then escalation, briskly, landing on one field:
+
+> *"An escalation records the matter, the affected teams, the impact, the
+> decision required, the decision function or owner **where established**, and
+> the next step. And the strategy is explicit: no owner is invented where none is
+> established. 'Decision owner: not established' is a valid and useful entry."*
+
+Then the closure limit — **the heart of the slide**:
+
+> *"A properly evidenced closure concerns the defined coordination matter, for
+> the defined purpose. By itself it does not prove every container was updated,
+> every interface was coordinated, the whole model was checked, the design is
+> complete, or that anything was approved, published, accepted or certified. A
+> Closed label alone proves none of them."*
+
+### The absence, delivered as the takeaway
+
+> *"And one honest gap. The responsibility matrix allocates change and assurance
+> functions. The strategy says the BIM Manager supports assurance. That is the
+> whole of it. No source defines a sampling population, a sample size, a
+> frequency, a selection method, a pass/fail threshold or a report form.
+> Assurance-sampling method: not established. I am not going to invent one for
+> you, and neither should anybody else."*
+
+### Source boundary
+
+`S2` §22 holds the outputs, §23 the escalation. `S1` §8.12 governs escalation
+without invented authorities. `S3` §3.5 `X5` allocates escalation; §3.7 holds
+`A1`–`A5`. **`H9`, `H10`, `H12` and `U14` carry the recorded limits — do not
+re-derive them.**
+
+### Governance-status warning
+
+**`PROPOSED GOVERNANCE`** for the outputs and escalation structure.
+**`CONTROLLED GOVERNANCE`** for *"no owner is invented"*. **`A2` remains `TBD`
+by change class; `A4` has no universal verifier.** **Assurance-sampling method:
+`NOT ESTABLISHED`.**
+
+### Implementation-status warning
+
+**No evidence output is recorded as produced.** The cycle is **partially
+traceable**; a complete governed cycle is **not demonstrated**; **`GCR-006`
+remains OPEN**.
+
+### Distinctions that must remain separate
+
+**Evidence** and **a status label**. **Activity** and **a governed decision**.
+**A summary report** and **the Issue record**. **Escalating** and **resolving**.
+**Change-assurance functions** and **an assurance-sampling method**.
+**Assurance** and **certification**.
+
+### What not to imply
+
+- That **all nine outputs have been produced** — none is recorded as produced.
+- That a report **should duplicate** the Issue database, or that duplicates are
+  harmless.
+- That **escalation resolves** anything, or **creates authority**.
+- That an unknown decision owner should be **filled with a plausible role**.
+- That a **`Closed`** label proves verification, updates, coordination,
+  approval, publication, acceptance or compliance.
+- That **`A1`–`A5`** constitute a sampling method.
+- Any sample size, population, frequency or threshold — **none exists**.
+- That **`GCR-006` is closed** or nearly closed.
+
+### Likely audience question
+
+**"What assurance process should we run?"**
+
+> *"On this project, none is defined — and that is the answer, not a dodge. The
+> matrix allocates change-assurance functions and the strategy says the BIM
+> Manager supports assurance. No sampling population, size, frequency or
+> threshold exists in any source. Inventing one here would be exactly the failure
+> this module keeps warning about."*
+
+**"If the Issue is closed, isn't the clash gone?"**
+
+> *"For the defined matter and purpose, if closure was properly evidenced — yes.
+> But a Closed label on its own proves nothing about the other containers, the
+> other interfaces, or the design. Scope, not suspicion."*
+
+**"Isn't escalating just admitting failure?"**
+
+> *"No. It is a governed route for a matter that cannot be settled in the normal
+> cycle, and it gets recorded with its decision owner — or with 'not established'
+> where none exists. What would be a failure is the matter quietly disappearing."*
+
+### Transition
+
+> *"That is Harrismith's coordination governance, end to end — including the
+> parts it declines to invent. Which leaves the only question that matters for
+> the project we are actually here for."*
+
+### Delivery warning
+
+**This slide is the pacing-recovery point.** If you are over time, compress the
+nine outputs to a gesture and the escalation triggers to one sentence — **but
+never cut the closure limit or the assurance absence.** Those two are the slide's
+reason for existing.
+
+---
+
+## Slide 14 — What Triviron must decide about coordination · 2.0 min
+
+### What you are doing here
+
+Transferring the **method**, and answering nothing. Seven groups of questions,
+seven answer areas, all of them empty.
+
+### Opening line
+
+> *"Everything so far has been Harrismith. Two minutes on the project we are
+> actually here for — and I am going to answer none of it, which is the point."*
+
+### The load-bearing explanation
+
+**Do not read all seven groups.** Name them, and dwell on two:
+
+> *"Coordination governance. Roles and authority. Inputs and federation. Checks
+> and tolerances. Findings, Issues and statuses. Verification, evidence and
+> completion. And the publication and acceptance boundary."*
+
+Then **group 2**, because it is where projects default fastest:
+
+> *"Who coordinates, who owns each technical response, who verifies, when
+> verification is required, who may escalate, who decides escalated technical
+> matters, who decides governance matters. Harrismith answers exactly one of
+> those with a named holder — none. Every holder is TBD, and it says so rather
+> than defaulting."*
+
+Then **group 6**, because it is the module in one question:
+
+> *"And the last one in that group: what evidence would demonstrate one complete
+> governed cycle? Harrismith has that question open as `GCR-006`. Triviron gets
+> to answer it before it becomes a condition rather than after."*
+
+### The transfer boundary — say it precisely
+
+> *"What transfers is the questions, the distinctions, and the discipline of
+> typing an absence instead of leaving a hole. What does not transfer is
+> Harrismith's role allocations, its twelve interface checks, its TBD tolerances,
+> its Issue taxonomy and status model, and its platform arrangements. Those are
+> Harrismith's training decisions, not Triviron's governance."*
+
+Then close the slide:
+
+> *"Module 7 is the Harrismith-to-Triviron translation. This slide answers none
+> of its own questions, and neither will I."*
+
+### Source boundary
+
+Every question group is **derived** from cited `S1`, `S2`, `S3` and `S7`
+sections — classified `INTERP`, and recorded as such. **`TA-02` and `TA-03`
+establish that Harrismith is a training reference.** **`S13` sets the Module 7
+boundary.**
+
+### Governance-status warning
+
+**`NOT YET ESTABLISHED` throughout.** Harrismith statuses appear **only** where
+labelled as a training reference. **No Triviron governance exists.**
+
+### Implementation-status warning
+
+**Not applicable — nothing exists to implement.** **No Triviron information
+exists in this repository.**
+
+### Distinctions that must remain separate
+
+**A question** and **an answer**. **A training reference** and **governance**.
+**What transfers** and **what does not**. **Module 6's scope** and **Module 7's**.
+
+### What not to imply
+
+- **Any answer, in any group.**
+- That a **Harrismith value** may fill an answer position as an example or a
+  default.
+- Any Triviron party, task team, role holder, container, check, tolerance, Issue
+  type, status, environment, date or authority.
+- That any **Harrismith coordination rule automatically applies**.
+- That **Module 7's translation has been performed**, or that this begins it.
+- That the transfer table is a **recommendation** rather than a boundary.
+
+### Likely audience question
+
+**"Can't we just adopt Harrismith's twelve checks as a starting point?"**
+
+> *"You can adopt the method — decide which interfaces are meaningful and build
+> checks for those. The twelve themselves are Harrismith's proposed training
+> checks with every tolerance TBD. Copying them across would import an answer to
+> a question Triviron has not asked yet."*
+
+**"What would you recommend for Triviron's status model?"**
+
+> *"That is a Triviron decision and I am not going to make it from here. What I
+> would say is: whatever you adopt, keep the governed meaning separate from
+> whatever the platform calls it — that is the transferable part."*
+
+**"So Module 6 doesn't tell us what to do?"**
+
+> *"It tells you what to decide, and which distinctions to keep while you decide
+> it. That is a more useful thing to carry than somebody else's answers."*
+
+### Closing
+
+**Deliver the module closing here**, on the closing marker — **inside this
+slide's two minutes.**
+
+### Delivery warning
+
+**Do not fill an answer area, even conversationally.** Saying *"well, Harrismith
+uses the BIM Coordinator for that"* while pointing at group 2 **is** answering
+it, whatever the slide shows.
+
+---
+
+## Module 6 closing
+
+### Normal closing — approximately 30 seconds
+
+Delivered after Slide 14, on the closing marker. **Inside Slide 14's allocated
+2.0 minutes. It adds no time to the module.**
+
+> *"So — Harrismith governs a route. A finding gets triaged; some findings become
+> Issues; an Issue gets assigned; the originating team fixes it in its own WIP,
+> checks it, reshares it; you re-coordinate, and only then can you verify. Every
+> one of those is a different act with a different owner, and the module has been
+> about not letting them collapse into each other."*
+>
+> *"Federation transfers no authorship. Assignment transfers no authorship. A
+> status label is not evidence, and 'Closed' is not 'verified'. Completion is not
+> zero clashes."*
+>
+> *"And the honest part: that whole route is governed, and it has not been shown
+> to run. A model set with zero coordinated versions, two open reviews, one open
+> issue, nothing completed. `GCR-006` — one complete governed coordination cycle,
+> exercised and evidenced — is still open. That is not a criticism of the
+> project; it is the project being accurate about itself."*
+>
+> *"Module 7 asks which of these decisions Triviron actually has to establish —
+> with Triviron's information, not ours."*
+
+### Emergency closing — ten seconds
+
+For when Slide 14 has overrun, or the session is being cut.
+
+> *"Finding, Issue, status, response, verification, acceptance — six different
+> things, and a label proves none of them. Harrismith governs the route; the
+> cycle has not been demonstrated, and `GCR-006` is open. Module 7 asks what
+> Triviron must decide."*
+
+**Both closings must retain all four elements:** the distinctions · the evidence
+boundary · **the unresolved implementation position** · the Module 7 direction.
+
+### Transition toward Module 7
+
+**Do not begin Module 7 content.** One sentence, if a bridge is wanted:
+
+> *"Module 7 is the Harrismith-to-Triviron BEP translation — and it starts where
+> Slide 14 stopped, with the questions rather than our answers."*
+
+**Nothing beyond that sentence.** **No Triviron party, role, container, check,
+tolerance, status, environment or decision may be named**, and **no Triviron
+information exists in this repository.**
+
+---
+
 ## Status
 
 | Field | Value |
 |---|---|
-| Increment | **T6-C** — notes for Slides 9–12. T6-A wrote Slides 1–3; T6-B wrote Slides 4–8 |
-| Notes developed | **Slides 1–12** |
-| Slides without notes | **13–14 — architecture only** |
-| Module closing | **Not written.** Belongs to the increment that develops Slide 14 |
+| Increment | **T6-D — notes COMPLETE.** Slides 1–3 (T6-A) · 4–8 (T6-B) · 9–12 (T6-C) · 13–14 (T6-D) |
+| Notes developed | **All fourteen slides** |
+| Slides without notes | **None** |
+| Module closing | **Normal (≈30 s) and emergency (≈10 s)**, plus a one-sentence Module 7 bridge |
 | Timing | **`20.0 minutes allocated — not measured`** |
 | Slide progression | **No automatic slide-transition timing.** Advance manually when ready |
 | Rehearsal | **None performed** |
-| Exercises | **None exist** |
-| Visual specifications / sources / assets | **None exist** |
+| Exercises | [`exercises.md`](exercises.md) — created in **T6-D** |
+| Visual specifications / sources / assets | **None exist.** Deferred to **T6-E** |
 | Assembly package / PowerPoint | **None exist** |
-| Outstanding | **T6-D** — develop Slides 13–14, the module closing, exercises and final content reconciliation. **Not started** |
+| Outstanding | **T6-E** — specify Module 6 visuals. **Not started** |

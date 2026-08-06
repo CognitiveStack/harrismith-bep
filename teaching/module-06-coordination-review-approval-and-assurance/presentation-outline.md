@@ -1,21 +1,18 @@
 # Module 6 — Presentation Outline
 
-**Status:** **Slides 1–3 developed in T6-A; Slides 4–8 in T6-B; Slides 9–12 in
-T6-C. Slides 13–14 are architecture only.**
+**Status:** **All fourteen slides developed. The Module 6 teaching-content
+baseline is COMPLETE.** Slides 1–3 in T6-A, 4–8 in T6-B, 9–12 in T6-C, 13–14 in
+T6-D.
 
-**An architecture is not a developed slide.** Slides 13–14 record a title, a time
-and an intended function. **They carry no on-slide copy, no source basis, no
-classified statements and no speaker notes**, and must not be presented as
-though they did.
-
-**There is no visual specification, no visual source, no asset, no exercise set,
-no assembly package and no PowerPoint**, and no review or rehearsal has been
-performed.
+**A complete content baseline is not a produced presentation.** There is **no
+visual specification, no visual source, no asset, no assembly package and no
+PowerPoint**, and no review or rehearsal has been performed.
 
 Source identifiers `S1`–`S14` are defined in
 [`source-inventory.md`](source-inventory.md). Statement classification is in
-[`source-map.md`](source-map.md) §3. Presenter notes for **Slides 1–12** are in
-[`speaker-notes.md`](speaker-notes.md).
+[`source-map.md`](source-map.md) §3. Presenter notes for **all fourteen slides**,
+plus both closings, are in [`speaker-notes.md`](speaker-notes.md). Exercises are
+in [`exercises.md`](exercises.md).
 
 **Timing throughout: `20.0 minutes allocated — not measured`.** The per-slide
 times are **pacing allocations**. **No automatic slide-transition timing is
@@ -50,9 +47,9 @@ created; the presenter advances each slide manually when ready.**
 | 10 | The Issue status model is not an information state | 1.5 | ✅ **T6-C** |
 | 11 | Verification — after reshare, against controlled information | 1.5 | ✅ **T6-C** |
 | 12 | Completion is not zero clashes | 1.5 | ✅ **T6-C** |
-| 13 | Evidence, escalation, and what a closed Issue does not prove | 1.0 | Architecture only |
-| 14 | What Triviron must decide about coordination | 2.0 | Architecture only |
-| | **Total** | **20.0** | **12 of 14** |
+| 13 | Evidence, escalation, and what a closed Issue does not prove | 1.0 | ✅ **T6-D** |
+| 14 | What Triviron must decide about coordination | 2.0 | ✅ **T6-D** |
+| | **Total** | **20.0** | **14 of 14** |
 
 ### 2.1 How the architecture was derived
 
@@ -85,7 +82,7 @@ total are unchanged.
 | **T6-A** | 1, 2, 3 | Module establishment, the acts that must stay distinct, and the governed cycle with its evidence gap |
 | **T6-B** | 4, 5, 6, 7, 8 | Federation, input readiness, check selection, the finding-to-Issue decision, and triage |
 | **T6-C** | 9, 10, 11, 12 | Assignment and technical response, the Issue status model, verification, and coordination completion |
-| T6-D onward | 13–14 | **Not started** |
+| **T6-D** | 13, 14 | Evidence, escalation and the assurance boundary; the Triviron questions; both closings; the exercise baseline; the final reconciliation |
 
 **Each developed slide carries:** purpose · exact title · allocated time ·
 on-slide copy · source basis · classified-statement range · governance status ·
@@ -98,7 +95,7 @@ specification, visual source or asset directory exists.**
 
 ---
 
-## 4. Developed slides — 1 to 12
+## 4. Developed slides — all fourteen
 
 ### Slide 1 — Module 6: from who is responsible to what actually happened · 1.0 min
 
@@ -1516,20 +1513,307 @@ developed, **stop here and say so.**
 
 ---
 
-## 5. Slides 13–14 — architecture only
+### Slide 13 — Evidence, escalation, and what a closed Issue does not prove · 1.0 min
 
-**No on-slide copy, source basis, classified statements or speaker notes exist
-for these slides.** The entries below record intended function only, and **may
-be corrected by source analysis in a later increment.**
+**Purpose of the slide**
 
-### Section E — Evidence, assurance and transfer · 3.0 min
+Three connected ideas in one minute: **what the cycle leaves behind**, **how an
+unresolved matter is carried out of it**, and **what neither a `Closed` label nor
+the available assurance material proves**.
 
-| Slide | Working title | Time | Intended function |
-|---|---|---:|---|
-| **13** | Evidence, escalation, and what a closed Issue does not prove | 1.0 | The coordination evidence outputs; escalation without an invented decision owner; **assurance is allocated but no sampling method is established**; what closure does and does not evidence |
-| **14** | What Triviron must decide about coordination | 2.0 | **Questions only.** No Triviron answer, no Module 7 translation |
+**The 1.0-minute allocation is tight. Deliver the lists visually; spend the words
+on the two boundaries.**
+
+**On-slide copy**
+
+> ## What it leaves behind. And what that still does not prove.
+>
+> ### Coordination outputs — Strategy §22
+>
+> Coordination input register · `COORD-01` federation / reference · Check
+> execution record · Clash / finding record · Issue records and history ·
+> Meeting decisions and actions · Verification record · Unresolved / escalated
+> matter list · Cycle summary and status
+>
+> > *"**No duplicate record is required** where an existing controlled platform
+> > record already provides adequate evidence."*
+> >
+> > *"A coordination report **summarises** governed evidence; **it does not
+> > become a second Issue database.** Two records of the same Issue eventually
+> > become **two different records** of the same Issue."*
+>
+> **Evidence must show the governed acts — not merely the final status label.**
+> **Platform activity may evidence activity without proving a valid governed
+> decision.**
+>
+> ### Escalation — Strategy §23
+>
+> **Triggers may include** an unresolved multidisciplinary interface ·
+> conflicting technical decisions · missing information blocking coordination ·
+> a repeatedly unresolved Issue · a coordinate or reference problem affecting
+> multiple teams · a configuration or platform blocker · **unclear decision
+> authority** · an issue affecting delivery readiness
+>
+> **Each escalation records:** the matter · affected teams · impact · decision
+> required · **decision function or owner *where established*** · next step or
+> status
+>
+> > *"**No owner is invented where none is established.** 'Decision owner: not
+> > established' is a valid and useful entry."*
+>
+> **Escalation does not resolve the matter, and it creates no authority.**
+> **It is not failure and not concealment** — governance-level escalations link
+> to the Governance & Decision Register.
+>
+> ### What a correctly closed Issue does **not** prove
+>
+> A properly evidenced closure concerns **the defined coordination matter, for
+> the defined purpose**. By itself it does **not** prove:
+>
+> every information container was updated · every interface was coordinated ·
+> the whole model was checked · the entire design is complete · technical
+> approval occurred · publication was authorised · recipient acceptance occurred
+> · professional certification occurred · regulatory compliance was established ·
+> **the complete governed cycle was demonstrated**
+>
+> **A `Closed` label alone proves none of them.**
+>
+> ### ⚠ `Assurance-sampling method — NOT ESTABLISHED`
+>
+> The responsibility matrix allocates **change and assurance** functions
+> `A1`–`A5`, and the strategy records that the BIM Manager *"supports
+> assurance"*. **That is the whole of it.**
+>
+> **No source defines** a sampling population · a sample size · a frequency · a
+> selection method · a pass/fail threshold · an assurance-report form.
+>
+> **`A1`–`A5` are change-assurance functions. They are not a sampling
+> procedure.** **`A2` remains `TBD` by change class; `A4` has no universal
+> verifier.** **No certification or guarantee follows, and Module 6 invents
+> none.**
+>
+> **Status:** `PROPOSED GOVERNANCE` · **`NOT DEMONSTRATED`**
+> **Cycle partially traceable. Complete governed cycle not demonstrated.
+> `GCR-006` OPEN.**
+
+**Source basis**
+
+| Claim | Source |
+|---|---|
+| The nine coordination outputs | `S2` §22 |
+| No duplicate record required; report is not a second Issue database | `S2` §22 |
+| The eight escalation triggers | `S2` §23 |
+| The six escalation fields, with *where established* | `S2` §23 |
+| No owner is invented; *"Decision owner: not established"* is valid | `S2` §23 |
+| Governance-level escalations link to the register | `S2` §23 |
+| Escalation records rather than resolves | `S1` §8.12; `S2` §23 |
+| `X5` escalate unresolved multidisciplinary interfaces | `S3` §3.5 |
+| Closure concerns the defined matter and purpose | `S2` §19, §21 — **`H9`** |
+| Verification is not approval, certification, publication authority or acceptance | `S2` §19; `S1` §8.10, §9.5 |
+| `A1`–`A5` change and assurance functions; `A2` `TBD`; `A4` no universal verifier | `S3` §3.7 |
+| BIM Manager *"supports assurance"* | `S2` §3 |
+| No assurance-sampling method exists | **`H10`, `U14`** — recorded absence |
+| Partially traceable; `GCR-006` open | `S7`; `S8` §8 — **`H12`** |
+
+Classified statements `M6-S13-01` to `M6-S13-16`.
+
+**Governance status:** **`PROPOSED GOVERNANCE`** (`S2` §22, §23; `S3` §3.5,
+§3.7) · `CONTROLLED GOVERNANCE` (`S1` §8.12, §9.5) · **`UNRESOLVED`** (`A2`,
+`A4`, decision owners) · **`NOT ESTABLISHED`** (assurance-sampling method).
+
+**Implementation status:** **`PARTIALLY TRACEABLE`** (the cycle) ·
+**`NOT DEMONSTRATED`** (a complete governed cycle) · **`GCR-006` OPEN**.
+**No evidence output is recorded as produced.**
+
+**Teaching synthesis on this slide:** none. **Three statements are `INTERP`** —
+the evidence-versus-label distinction, the closure-limit list assembled from
+`H9`, and the assurance-absence enumeration.
+
+**Prohibited on this slide**
+
+- Implying **all nine outputs have been produced** — none is recorded as
+  produced.
+- Suggesting a coordination report **should duplicate** the Issue database, or
+  that duplicate records are harmless.
+- Implying **escalation resolves** a matter or **creates authority**.
+- Filling an unknown **decision owner** with a plausible role.
+- Presenting a **`Closed` label** as proof of verification, container updates,
+  coordination, approval, publication, acceptance, certification or compliance.
+- Presenting **`A1`–`A5` as an assurance-sampling method**.
+- **Inventing** a sample size, population, frequency, threshold or report form.
+- Presenting assurance as **certification or regulatory proof**.
+- Claiming **`GCR-006` is closed**, or that a complete cycle has been
+  demonstrated.
+- **Creating a worked sample.**
+
+**Visual concept — high level**
+
+**Three blocks, and one warning that outranks them.** Left: the nine outputs as
+a plain list, **with no tick, marker or completion state against any of them**.
+Centre: escalation — the six recorded fields, with **"decision function or
+owner — *where established*"** given its own line and the *"not established"*
+example printed beside it. Right: the closure-limit list, headed by what a
+correct closure **does** cover so the limits read as scope, not as failure.
+**Beneath all three, a single full-width warning strip: `Assurance-sampling
+method — NOT ESTABLISHED`** — **visually heavier than the three blocks above
+it**, because an absence is the slide's most transferable point. **No tick, no
+percentage, no sample table.**
+
+**Transition into Slide 14**
+
+> *"That is Harrismith's coordination governance, end to end — including the
+> parts it declines to invent. Which leaves the only question that matters for
+> the project we are actually here for."*
+
+---
+
+### Slide 14 — What Triviron must decide about coordination · 2.0 min
+
+**Purpose of the slide**
+
+Transfer the **method**, and answer nothing. Seven decision groups, every answer
+position permanently marked **`NOT YET ESTABLISHED`**.
+
+**On-slide copy**
+
+> ## Triviron: the questions, before the process.
+>
+> ### 1 · Coordination governance
+> What is the approved coordination purpose? · Which governance document
+> controls the process? · Which sources are binding, supporting or proposed? ·
+> What constitutes one coordination cycle? · What triggers a cycle? · What
+> frequency or event basis applies?
+>
+> **`NOT YET ESTABLISHED`**
+>
+> ### 2 · Roles and authority
+> Who coordinates the process? · Who owns each technical response? · Who
+> verifies a disposition? · When is verification required? · Who may escalate? ·
+> Who decides escalated technical matters? · Who decides governance matters? ·
+> How are combined roles and independence limitations recorded?
+>
+> **`NOT YET ESTABLISHED`**
+>
+> ### 3 · Inputs and federation
+> Which information containers enter each cycle? · What input-register fields
+> are required? · What readiness conditions must be met? · Which coordination
+> environment is approved? · How is the federated view identified? · How is
+> originator responsibility preserved? · Is any coordination view a formal
+> deliverable?
+>
+> **`NOT YET ESTABLISHED`**
+>
+> ### 4 · Checks and tolerances
+> Which interfaces are checked? · Which check types apply? · Which checks are
+> mandatory for which purpose? · What tolerance or rule applies to each check? ·
+> Who approves those rules? · How are manual review findings captured?
+>
+> **`NOT YET ESTABLISHED`**
+>
+> ### 5 · Findings, Issues and statuses
+> What distinguishes a finding, a clash and an Issue? · What triage dispositions
+> are adopted? · When must an Issue be created? · What Issue taxonomy is
+> adopted? · What status meanings are governed? · How are those meanings mapped
+> to platform-native labels? · What assignment fields are mandatory? · What
+> target or priority fields are permitted?
+>
+> **`NOT YET ESTABLISHED`**
+>
+> ### 6 · Verification, evidence and completion
+> What must occur before verification? · What evidence proves verification? ·
+> What evidence permits closure? · What counts as cycle completion? · Which
+> outputs must be retained? · How are unresolved matters carried forward? · What
+> triggers escalation? · Where are governance decisions recorded? · What
+> assurance method, if any, is required? · What evidence would demonstrate **one
+> complete governed cycle**?
+>
+> **`NOT YET ESTABLISHED`**
+>
+> ### 7 · Publication and acceptance boundary
+> How does coordination link to controlled reshare? · Who may authorise
+> publication or exchange? · Who may accept information for the stated purpose?
+> · How are coordination completion, publication and acceptance kept distinct?
+>
+> **`NOT YET ESTABLISHED`**
+>
+> ---
+>
+> ### What transfers, and what does not
+>
+> **Harrismith is a training reference. It is not Triviron governance.**
+>
+> | Transfers | Does **not** transfer |
+> |---|---|
+> | **The questions** | Harrismith's role allocations |
+> | **The distinctions** — finding, clash, Issue, status, response, verification, acceptance | Its twelve interface checks |
+> | **The discipline of typing an absence** | Its `TBD` tolerances |
+> | **Governance separate from evidence** | Its Issue taxonomy and status model |
+> | **Recording an unknown decision owner as unknown** | Its platform arrangements and decisions |
+>
+> **Module 7 — Harrismith-to-Triviron BEP Translation — owns the populated
+> answers. This slide answers none of its own questions.**
+>
+> ### `Triviron coordination basis — not yet established.`
+
+**Source basis**
+
+| Claim | Source |
+|---|---|
+| No Triviron information exists in this repository | `S13`; Module 5 carry-forward (`S11`) |
+| Coordination-governance questions | Derived from `S1` §8.1, §8.13; `S2` §Purpose, §17, §26 |
+| Roles-and-authority questions | Derived from `S1` §5.11, §8.2, §9.2, §9.12; `S2` §3; `S3` §3.5, §3.7 |
+| Inputs-and-federation questions | Derived from `S1` §8.3, §8.5; `S2` §4, §5, §6, §8 |
+| Checks-and-tolerances questions | Derived from `S1` §8.6; `S2` §9, §10, §11 |
+| Findings-Issues-statuses questions | Derived from `S1` §8.7; `S2` §12, §13, §14, §15, §16 |
+| Verification-evidence-completion questions | Derived from `S1` §8.10, §8.11; `S2` §19, §21, §22, §23; `S7` `GCR-006` |
+| Publication-and-acceptance questions | Derived from `S1` §9.4, §9.7, §9.8; `S6` |
+| Harrismith is a training reference | `S7` `TA-02`, `TA-03` |
+| Module 7 owns the translation | `S13` — **teaching plan** |
+
+Classified statements `M6-S14-01` to `M6-S14-14`.
+
+**Governance status:** **`NOT YET ESTABLISHED`** throughout. Harrismith statuses
+appear **only** where labelled as a training reference.
+
+**Implementation status:** **Not applicable** — nothing exists to implement.
+
+**Teaching synthesis on this slide:** none. **Seven statements are `INTERP`** —
+the seven question groups, each derived from cited sources; **three are
+`TEACHING-PLAN`** — the Module 7 boundary and the transfer position.
+
+**Prohibited on this slide**
+
+- **Answering any question, in any group.**
+- Filling an answer position with a **Harrismith value** as an example or a
+  default.
+- Naming any Triviron party, task team, role holder, container, check, tolerance,
+  Issue type, status, environment, date or authority.
+- Claiming any **Harrismith coordination rule automatically applies** to
+  Triviron.
+- Claiming **Module 7's translation has been performed**, or beginning it.
+- Presenting the transfer table as a **recommendation** rather than a boundary.
+- Drawing any connector from a Harrismith example to a Triviron question.
+
+**Visual concept — high level**
+
+**Seven question blocks, each with a bordered answer area containing only
+`NOT YET ESTABLISHED`.** The answer areas are **identical in size and treatment
+across all seven** — none styled as nearer to an answer than another. The
+transfer table sits beneath as **two columns of equal weight**, so *"does not
+transfer"* is not visually subordinate to *"transfers"*. **A closing marker strip
+runs across the foot.** **No connector anywhere on the slide**, and **no
+Harrismith value inside any answer area**.
+
+**Module close**
+
+> *"That is Module 6. The closing is in the presenter notes — thirty seconds
+> normally, ten if the session is being cut."*
+
+---
 
 **Section totals: A 2.5 · B 3.0 · C 5.5 · D 6.0 · E 3.0 = 20.0.**
+
+**All fourteen slides are developed. No slide remains architecture only.**
 
 ---
 
@@ -1537,17 +1821,17 @@ be corrected by source analysis in a later increment.**
 
 | Field | Value |
 |---|---|
-| Increment | **T6-C — Slides 9–12 developed.** T6-A established the foundation and Slides 1–3; T6-B developed Slides 4–8 |
-| Slides developed | **1–12** — each with on-slide copy, source basis, classified statements, prohibited claims, a high-level visual concept and a transition |
-| Architecture only | **Slides 13–14** |
+| Increment | **T6-D — teaching-content baseline COMPLETE.** Slides 1–3 (T6-A) · 4–8 (T6-B) · 9–12 (T6-C) · 13–14 (T6-D) |
+| Slides developed | **All fourteen** — each with on-slide copy, source basis, classified statements, prohibited claims, a high-level visual concept and a transition |
+| Architecture only | **None.** No slide remains undeveloped |
 | Sections | **Five** — A 2.5 · B 3.0 · C 5.5 · D 6.0 · E 3.0 |
 | Timing | **`20.0 minutes allocated — not measured`** · total verified at **20.0** |
 | Slide progression | **No automatic slide-transition timing.** Presenter advances manually when ready |
-| Classified statements | **188** — 49 (T6-A) + 76 (T6-B) + 63 (Slides 9–12, T6-C) |
-| Exercises | **None.** Not created in T6-A, T6-B or T6-C |
-| Visual specifications / sources / assets | **None.** Not created in T6-A, T6-B or T6-C |
+| Classified statements | **218** — 49 (T6-A) + 76 (T6-B) + 63 (T6-C) + 30 (Slides 13–14, T6-D) |
+| Exercises | [`exercises.md`](exercises.md) — created in **T6-D** |
+| Visual specifications / sources / assets | **None.** Deferred to **T6-E** |
 | Assembly package | **None** |
 | PowerPoint | **None** |
 | Review, rehearsal, measured timing | **None performed** |
 | Complete governed coordination cycle | **NOT DEMONSTRATED.** `GCR-006` **OPEN** |
-| Outstanding | **T6-D** — develop Slides 13–14, the module closing, exercises and final content reconciliation. **Not started** |
+| Outstanding | **T6-E** — specify Module 6 visuals. **Not started** |

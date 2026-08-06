@@ -2,14 +2,16 @@
 
 **Status:** **CURRENT — ACTIVE.** Established in **T6-A**: source architecture,
 principal-resource comparison, hypothesis testing, the fourteen-slide
-architecture, and **Slides 1–3**; extended in **T6-B** with **Slides 4–8** and in
-**T6-C** with **Slides 9–12**.
+architecture, and **Slides 1–3**; extended in **T6-B** with **Slides 4–8**, in
+**T6-C** with **Slides 9–12**, and in **T6-D** with **Slides 13–14**, both
+closings, the exercise baseline and the module-wide final reconciliation.
 
-**Slides 1–12 are developed. Slides 13–14 are architecture only.**
+**All fourteen slides developed. The Module 6 teaching-content baseline is
+COMPLETE.**
 
-**No exercises, no visual-demonstration plan, no visual source, no asset
-directory, no presentation package and no PowerPoint exist.** No review or
-rehearsal has been performed.
+**None of that is a produced presentation.** There is **no visual-demonstration
+plan, no visual source, no asset directory, no presentation package and no
+PowerPoint**, and **no review or rehearsal has been performed**.
 
 **Teaching material. Not governance.** This module explains controlled
 Harrismith resources; it governs nothing, decides nothing, and changes nothing.
@@ -207,16 +209,17 @@ timing exists**, and **the presenter advances each slide manually when ready.**
 **No PowerPoint exists in this repository, in any module.** Decks are produced
 externally and are not committed.
 
-## 11. Module files — six
+## 11. Module files — seven
 
 | File | Contains |
 |---|---|
 | [`README.md`](README.md) | This file — objective, central question, status, scope, **increment status and validation** (§13) |
 | [`source-inventory.md`](source-inventory.md) | Source hierarchy · **`S1`–`S14`** with exact paths and declared statuses · **`E1`–`E9` exclusions with reasons** · implementation-evidence register · **6 terminology variances** |
 | [`resource-comparison.md`](resource-comparison.md) | **The four principal resources analysed separately** — governed object, actors, activities, decision points, outputs, status vocabulary, evidence, authority, closure, implementation status, unresolved matters, exclusions and relationships |
-| [`source-map.md`](source-map.md) | Classification scheme · source-authority register · **188 classified statements, Slides 1–12** · terminology register · **18 hypotheses** · **14 unresolved matters** · implementation-evidence register · **73 prohibited claims** plus 4 standing prohibitions · boundary deferrals |
-| [`presentation-outline.md`](presentation-outline.md) | Timing structure · **fourteen-slide architecture** · **Slides 1–12 developed** · Slides 13–14 architecture only |
-| [`speaker-notes.md`](speaker-notes.md) | Presenter notes — **Slides 1–12**. **No module closing is written** |
+| [`source-map.md`](source-map.md) | Classification scheme · source-authority register · **218 classified statements, all fourteen slides** · terminology register · **18 hypotheses** · **14 unresolved matters** · implementation-evidence register · **93 prohibited claims** plus 4 standing prohibitions · boundary deferrals · **module-wide final reconciliation (§10)** |
+| [`presentation-outline.md`](presentation-outline.md) | Timing structure · **fourteen-slide architecture** · **all fourteen slides developed** |
+| [`speaker-notes.md`](speaker-notes.md) | Presenter notes — **all fourteen slides**, plus the **normal and emergency closings** and the Module 7 bridge |
+| [`exercises.md`](exercises.md) | **91 exercises** across nine groups — one per slide, distinctions, federation and checking, assignment and verification, evidence and closure, corrections, safe answers, Triviron transfer, full rehearsal |
 
 ### Reading order
 
@@ -226,10 +229,11 @@ externally and are not committed.
    resources actually say
 3. [`source-map.md`](source-map.md) — what may and may not be taught
 4. [`presentation-outline.md`](presentation-outline.md) — the architecture and
-   Slides 1–12
-5. [`speaker-notes.md`](speaker-notes.md) — how to deliver them
+   all fourteen slides
+5. [`speaker-notes.md`](speaker-notes.md) — how to deliver them, and how to close
+6. [`exercises.md`](exercises.md) — how to rehearse and self-assess
 
-**The Module 6 directory contains six files.** There is **no asset directory and
+**The Module 6 directory contains seven files.** There is **no asset directory and
 no `presentation/` package**, and neither has been produced.
 
 ## 12. Provisional increment sequence
@@ -242,16 +246,17 @@ review, not by this file.
 | **T6-A** | Module establishment · source inventory and hierarchy · four-resource comparison · hypothesis testing · fourteen-slide architecture · **Slides 1–3** | ✅ **COMPLETE** |
 | **T6-B** | **Slides 4–8** — federation · input readiness · check selection · the finding-to-Issue decision · triage | ✅ **COMPLETE** |
 | **T6-C** | **Slides 9–12** — assignment and technical response · the Issue status model · verification · coordination completion | ✅ **COMPLETE** |
-| **T6-D** | **Develop Slides 13–14, the module closing, exercises and final content reconciliation** | **NEXT — not started** |
+| **T6-D** | **Slides 13–14** · both **closings** and the Module 7 bridge · the **exercise baseline** · the **module-wide final reconciliation** | ✅ **COMPLETE** |
+| **T6-E** | **Specify Module 6 visuals** | **NEXT — not started** |
 | Later | Exercises · visual specifications · visual sources · assembly package · external PowerPoint · review · rehearsal | **Not started** |
 
 ## 13. Increment status and validation
 
-### 13.1 What T6-A, T6-B and T6-C produced
+### 13.1 What T6-A to T6-D produced
 
-| Output | After T6-A | **After T6-C** |
+| Output | After T6-A | **After T6-D** |
 |---|---|---|
-| Module files | **6** | **6 — unchanged** |
+| Module files | **6** | **7** — `exercises.md` added |
 | Sources consulted / excluded | **14** (`S1`–`S14`) / **9 groups** (`E1`–`E9`) | **Unchanged.** No source was added |
 | Source hierarchy | **Five levels**, traced to `S1` §1.5 and §13.6 | Unchanged |
 | Principal resources | **Four, analysed separately** | Unchanged |
@@ -259,11 +264,11 @@ review, not by this file.
 | Registers | **Nine** | **Nine — unchanged** |
 | Terminology variances | **6**, none harmonised | **6 — unchanged.** No seventh arose |
 | Unresolved matters | **14**, none resolved | **14 — unchanged.** None populated |
-| Classified statements | **49** — Slides 1–3 | **188** — 49 + 76 + **63** (Slides 9–12) |
-| Prohibited claims | **34**, plus 4 standing | **73** — 34 + 16 + **23** — plus 4 standing |
+| Classified statements | **49** — Slides 1–3 | **218** — 49 + 76 + 63 + **30** (Slides 13–14) |
+| Prohibited claims | **34**, plus 4 standing | **93** — 34 + 16 + 23 + **20** — plus 4 standing |
 | Slide architecture | **14 slides · `20.0 minutes allocated — not measured`** | Unchanged; total re-verified at **20.0** |
-| Slides developed | **1, 2, 3** | **1–12** |
-| Architecture only | Slides 4–14 | **Slides 13–14** |
+| Slides developed | **1, 2, 3** | **All fourteen** |
+| Architecture only | Slides 4–14 | **None** |
 
 **T6-A recorded three findings that shaped the architecture.** No source defines
 an **assurance-sampling method** (`H10`, `U14`), so assurance does not receive
@@ -317,7 +322,7 @@ Slide 10). **They are recorded as related but distinct, and neither is merged
 into the other.** **No seventh terminology variance was created**: variance 2
 already records that `S1` defines no status codes and defers the model to `S2`.
 
-### 13.3 Scope compliance — T6-A, T6-B and T6-C
+### 13.3 Scope compliance — T6-A to T6-D
 
 | Check | Result |
 |---|---|
@@ -332,7 +337,7 @@ already records that `S1` defines no status codes and defers the model to `S2`.
 | Autodesk or ACC activity | **None.** Not authorised, not attempted |
 | Claude Desktop | **Not used** |
 | Publication automation | **Untouched. Remains `PAUSED`** |
-| T6-D or later work performed | **None** |
+| T6-E or later work performed | **None** |
 
 ### 13.4 Safeguards verified intact
 
@@ -354,12 +359,8 @@ statement.**
 
 ### 13.5 Known residual work
 
-**Twelve of fourteen slides exist. The module does not.**
+**The teaching-content baseline is complete. Production is not.**
 
-- **Slides 13–14 are architecture only** — no copy, no source basis, no
-  statements, no notes.
-- **No module closing has been written.**
-- **No exercises exist.**
 - **No visual-demonstration plan, visual source or asset directory exists.**
 - **No presentation assembly package exists.**
 - **No PowerPoint exists**, in this or any module.
@@ -370,24 +371,27 @@ statement.**
 
 | Field | Value |
 |---|---|
-| Increment | **T6-A — COMPLETE** |
+| Increment | **T6-D — COMPLETE.** Teaching-content baseline **COMPLETE** |
 | Module status | **CURRENT — ACTIVE** |
-| Module files | **6** |
-| Slides developed | **12 of 14** — Slides 1–12 |
-| Architecture only | **Slides 13–14** |
-| Classified statements | **188** |
+| Module files | **7** |
+| Slides developed | **14 of 14.** None architecture only |
+| Presenter notes | **All fourteen slides**, plus **normal and emergency closings** and the Module 7 bridge |
+| Teaching-content baseline | **COMPLETE** |
+| Classified statements | **218** |
 | Sources / exclusions | **14 / 9 groups** |
-| Hypotheses | **18** |
-| Terminology variances | **6** |
-| Unresolved matters | **14** |
-| Prohibited claims | **73**, plus 4 standing prohibitions |
+| Hypotheses | **18** — 15 `CONFIRMED` · 2 `CONFIRMED WITH QUALIFICATION` · 1 `NOT ESTABLISHED` · 0 `CONTRADICTED` |
+| Terminology variances | **6**, none harmonised |
+| Unresolved matters | **14**, none resolved |
+| Prohibited claims | **93**, plus 4 standing prohibitions |
+| Final reconciliation | **COMPLETE** — [`source-map.md`](source-map.md) §10 |
 | Timing | **`20.0 minutes allocated — not measured`** |
 | Slide progression | **No automatic slide-transition timing.** Presenter advances manually when ready |
-| Exercises | **None** |
-| Visual specifications / sources / assets | **None** |
+| Exercises | **91** — [`exercises.md`](exercises.md), `E1`–`E91` |
+| Rehearsal | **`NOT PERFORMED`** — `E91` defines a full run and records no result |
+| Visual specifications / sources / assets | **None.** Deferred to **T6-E** |
 | Assembly package | **None** |
 | PowerPoint | **None** |
 | Review, rehearsal, measured timing | **None performed** |
 | Complete governed coordination cycle | **NOT DEMONSTRATED.** `GCR-006` **OPEN** |
-| Next increment | **T6-D** — develop Slides 13–14, the module closing, exercises and final content reconciliation. Not started |
+| Next increment | **T6-E** — specify Module 6 visuals. Not started |
 | Publication automation | **`PAUSED`** |

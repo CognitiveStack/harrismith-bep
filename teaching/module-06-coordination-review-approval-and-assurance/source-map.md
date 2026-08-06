@@ -2,15 +2,17 @@
 
 **Status:** Traceability record for teaching material. **Not governance.**
 
-**Statement-level classification for Slides 1–12** — Slides 1–3 developed in
-**T6-A**, Slides 4–8 in **T6-B**, Slides 9–12 in **T6-C** — plus the
-classification scheme,
+**Statement-level classification for all fourteen slides** — Slides 1–3
+developed in **T6-A**, 4–8 in **T6-B**, 9–12 in **T6-C**, 13–14 in **T6-D** —
+plus the classification scheme,
 source-authority register, terminology-variance register, hypothesis register,
 unresolved-matter register, prohibited-claims register, implementation-evidence
-register and boundary-deferral register.
+register, boundary-deferral register and the **module-wide final reconciliation**
+(§10).
 
-**Slides 13–14 are architecture only.** No statement is classified for them, and
-none may be presented as developed.
+**The Module 6 teaching-content baseline is COMPLETE.** No slide remains
+architecture only. **No visual specification, visual source, asset, assembly
+package or PowerPoint exists**, and none is claimed.
 
 Source identifiers `S1`–`S14` are defined in
 [`source-inventory.md`](source-inventory.md). Resource analysis is in
@@ -52,7 +54,7 @@ unchanged.
 | Complete governed coordination cycle | **`S7` `GCR-006`** | `S8` §8 | **OPEN — not demonstrated** |
 | Coordination visual specification and assets | — | — | **Not created. T6-D and later** |
 
-## 3. Statement classification — Slides 1–12
+## 3. Statement classification — all fourteen slides
 
 **Identifier form: `M6-S<slide>-<n>`.** Every statement carries its source
 basis, class, governance status and — where applicable — implementation status.
@@ -349,29 +351,91 @@ evidence is largely a record of what was not demonstrated.
 2 `INTERP` — **`M6-S12-01`, `M6-S12-12` and `M6-S12-14` counted once each, as
 `CONTROLLED`**. **Total 16.**
 
-### 3.13 Totals for the developed slides
+### 3.13 Slide 13 — `M6-S13-01` to `M6-S13-16`
+
+| ID | Statement | Source | Class | Governance | Implementation |
+|---|---|---|---|---|---|
+| `M6-S13-01` | The coordination cycle's recorded outputs are **nine** — input register · `COORD-01` federation / reference · check execution record · clash / finding record · Issue records and history · meeting decisions and actions · verification record · unresolved / escalated matter list · cycle summary and status | **`S2` §22** | `SUPPORTING` | **`PROPOSED GOVERNANCE`** | **`NOT DEMONSTRATED`** |
+| `M6-S13-02` | *"**No duplicate record is required** where an existing controlled platform record already provides adequate evidence"* | **`S2` §22** | `SUPPORTING` | **`PROPOSED GOVERNANCE`** | — |
+| `M6-S13-03` | *"A coordination report **summarises** governed evidence; **it does not become a second Issue database**. Two records of the same Issue eventually become **two different records** of the same Issue"* | **`S2` §22** | `SUPPORTING` | **`PROPOSED GOVERNANCE`** | — |
+| `M6-S13-04` | **Evidence must show the governed acts, not merely the final status label**; platform activity may evidence activity without proving a valid governed decision | `S2` §19, §22; `S7` `OF-007`; `S1` §9.11 | **`INTERP`** | — | **`OBSERVED — QUALIFIED`** |
+| `M6-S13-05` | **Eight escalation triggers may apply** — an unresolved multidisciplinary interface · conflicting technical decisions · missing information blocking coordination · a repeatedly unresolved Issue · a coordinate or reference problem affecting multiple teams · a configuration or platform blocker · unclear decision authority · an issue affecting delivery readiness | **`S2` §23; `S1` §8.12** | `SUPPORTING` | **`PROPOSED GOVERNANCE`** | — |
+| `M6-S13-06` | **Each escalation records six fields** — the matter · affected teams · impact · decision required · **decision function or owner *where established*** · next step or status | **`S2` §23** | `SUPPORTING` | **`PROPOSED GOVERNANCE`** | — |
+| `M6-S13-07` | *"**No owner is invented where none is established.** 'Decision owner: not established' is a valid and useful entry"* | **`S2` §23; `S1` §8.12** | **`CONTROLLED`** | `CONTROLLED GOVERNANCE` · **`UNRESOLVED`** | — |
+| `M6-S13-08` | *"**Governance-level escalations link to the Governance & Decision Register**"* | **`S2` §23** | `SUPPORTING` | **`PROPOSED GOVERNANCE`** | — |
+| `M6-S13-09` | **Escalation records a matter; it does not resolve it, and it creates no authority.** It is **not failure and not concealment** | `S1` §8.12; `S2` §23; `S3` `X5` | **`INTERP`** | — | — |
+| `M6-S13-10` | **`X5` — escalate unresolved multidisciplinary interfaces — allocates `P` to the BIM Coordinator**, `Co` to BIM Manager, `Cs` to AP, LDP and TTL | **`S3` §3.5** | `SUPPORTING` | **`PROPOSED GOVERNANCE`** | **`IMPLEMENTATION UNVERIFIED`** |
+| `M6-S13-11` | **A correctly evidenced closure concerns the defined coordination matter, for the defined purpose** — and by itself proves none of: every container updated · every interface coordinated · the whole model checked · the design complete · technical approval · publication authorisation · recipient acceptance · professional certification · regulatory compliance · **a complete governed cycle** | `S2` §19, §21; `S1` §8.10, §8.11, §9.5 — **`H9`** | **`INTERP`** | — | **`NOT DEMONSTRATED`** |
+| `M6-S13-12` | **A `Closed` label alone proves none of them** | **`S2` §19** | `SUPPORTING` | **`PROPOSED GOVERNANCE`** | — |
+| `M6-S13-13` | **`A1`–`A5` are change and assurance functions**, and the BIM Manager *"supports assurance"* — **that is the whole of what the sources establish** | **`S3` §3.7; `S2` §3** | `SUPPORTING` | **`PROPOSED GOVERNANCE`** | **`IMPLEMENTATION UNVERIFIED`** |
+| `M6-S13-14` | **`A2` remains `TBD` by change class — *"No single universal approver exists"*; `A4` — *"No single universal verifier is defined"*** | **`S3` §3.7; `S1` §12.7, §12.9** | **`CONTROLLED`** | **`UNRESOLVED`** | — |
+| `M6-S13-15` | **`Assurance-sampling method — NOT ESTABLISHED`.** No source defines a sampling population, sample size, frequency, selection method, pass/fail threshold or assurance-report form. **`A1`–`A5` are not a sampling procedure**, and no certification or guarantee follows | `S3` §3.7; `S2` §3; `S1` §8.10 — **`H10`, `U14`** | **`INTERP`** | **`NOT ESTABLISHED`** | — |
+| `M6-S13-16` | **The cycle is `PARTIALLY TRACEABLE`; a complete governed cycle is `NOT DEMONSTRATED`; `GCR-006` remains OPEN** — and **no evidence output is recorded as produced** | **`S7` `GCR-006`; `S8` §8 — `H12`** | `DECISION-RECORD` | — | **`PARTIALLY TRACEABLE`** / **`NOT DEMONSTRATED`** |
+
+**Slide 13 profile.** 2 `CONTROLLED` · 9 `SUPPORTING` · 1 `DECISION-RECORD` ·
+4 `INTERP`. **Total 16.**
+
+### 3.14 Slide 14 — `M6-S14-01` to `M6-S14-14`
+
+| ID | Statement | Source | Class | Governance | Implementation |
+|---|---|---|---|---|---|
+| `M6-S14-01` | **Group 1 — coordination governance.** Approved purpose · controlling governance document · which sources are binding, supporting or proposed · what constitutes one cycle · what triggers a cycle · frequency or event basis | Derived from `S1` §8.1, §8.13; `S2` §Purpose, §17, §26 | **`INTERP`** | **`NOT YET ESTABLISHED`** | Not applicable |
+| `M6-S14-02` | **Group 2 — roles and authority.** Who coordinates · who owns each technical response · who verifies · when verification is required · who may escalate · who decides escalated technical matters · who decides governance matters · how combined roles and independence limitations are recorded | Derived from `S1` §5.11, §8.2, §9.2, §9.12; `S2` §3; `S3` §3.5, §3.7 | **`INTERP`** | **`NOT YET ESTABLISHED`** | Not applicable |
+| `M6-S14-03` | **Group 3 — inputs and federation.** Which containers enter each cycle · required input-register fields · readiness conditions · approved coordination environment · how the federated view is identified · how originator responsibility is preserved · whether any coordination view is a formal deliverable | Derived from `S1` §8.3, §8.5; `S2` §4, §5, §6, §8 | **`INTERP`** | **`NOT YET ESTABLISHED`** | Not applicable |
+| `M6-S14-04` | **Group 4 — checks and tolerances.** Which interfaces are checked · which check types apply · which checks are mandatory for which purpose · what tolerance or rule applies · who approves those rules · how manual review findings are captured | Derived from `S1` §8.6; `S2` §9, §10, §11 | **`INTERP`** | **`NOT YET ESTABLISHED`** | Not applicable |
+| `M6-S14-05` | **Group 5 — findings, Issues and statuses.** What distinguishes finding, clash and Issue · adopted triage dispositions · when an Issue must be created · adopted Issue taxonomy · governed status meanings · mapping to platform-native labels · mandatory assignment fields · permitted target or priority fields | Derived from `S1` §8.7; `S2` §12, §13, §14, §15, §16 | **`INTERP`** | **`NOT YET ESTABLISHED`** | Not applicable |
+| `M6-S14-06` | **Group 6 — verification, evidence and completion.** What must occur before verification · what evidence proves verification · what evidence permits closure · what counts as cycle completion · which outputs must be retained · how unresolved matters are carried forward · what triggers escalation · where governance decisions are recorded · what assurance method, if any, is required · **what evidence would demonstrate one complete governed cycle** | Derived from `S1` §8.10, §8.11; `S2` §19, §21, §22, §23; `S7` `GCR-006` | **`INTERP`** | **`NOT YET ESTABLISHED`** | Not applicable |
+| `M6-S14-07` | **Group 7 — publication and acceptance boundary.** How coordination links to controlled reshare · who may authorise publication or exchange · who may accept for the stated purpose · how completion, publication and acceptance are kept distinct | Derived from `S1` §9.4, §9.7, §9.8; `S6` | **`INTERP`** | **`NOT YET ESTABLISHED`** | Not applicable |
+| `M6-S14-08` | **Every answer position on this slide reads `NOT YET ESTABLISHED`**, and none is filled with a Harrismith value | `S13`; `S11` — teaching carry-forward | **`TEACHING-PLAN`** | **`NOT YET ESTABLISHED`** | Not applicable |
+| `M6-S14-09` | **Harrismith is a training reference, not Triviron governance** — `TA-02` and `TA-03` establish the training basis | **`S7` `TA-02`, `TA-03`** | `DECISION-RECORD` | — | Not applicable |
+| `M6-S14-10` | **What transfers: the questions; the distinctions; the discipline of typing an absence; governance kept separate from evidence; recording an unknown decision owner as unknown** | `S1` §8, §9; `S2` §13, §23; `S13` | **`INTERP`** | — | — |
+| `M6-S14-11` | **What does not transfer: Harrismith's role allocations, its twelve interface checks, its `TBD` tolerances, its Issue taxonomy and status model, and its platform arrangements and decisions** | `S2` §9, §11, §14, §15; `S3`; `S7` `TA-03` | **`INTERP`** | — | — |
+| `M6-S14-12` | **No Triviron coordination arrangement is established, and no Triviron information exists in this repository** | `S13`; `S11` — teaching carry-forward | **`TEACHING-PLAN`** | **`NOT YET ESTABLISHED`** | Not applicable |
+| `M6-S14-13` | **Module 7 — Harrismith-to-Triviron BEP Translation — owns the populated answers.** Slide 14 answers none of its own questions | `S13` | **`TEACHING-PLAN`** | — | — |
+| `M6-S14-14` | Slide 14 teaches no Module 7 translation, no Module 8 facilitation, and resolves no Module 6 unresolved matter | `S13` | **`EXCLUDED`** | — | — |
+
+**Slide 14 profile.** 9 `INTERP` · 3 `TEACHING-PLAN` · 1 `DECISION-RECORD` ·
+1 `EXCLUDED`. **Total 14.** **No `CONTROLLED` or `SUPPORTING` statement** — the
+slide asserts no Harrismith governance, only questions derived from it.
+
+### 3.15 Totals — the complete fourteen-slide baseline
 
 **Recalculated from the completed rows.**
 
-| Class | Slides 1–3 | Slides 4–8 | Slides 9–12 | Total |
-|---|---:|---:|---:|---:|
-| `CONTROLLED` | 18 | 20 | 9 | **47** |
-| `SUPPORTING` | 12 | 37 | 39 | **88** |
-| `DECISION-RECORD` | 10 | 5 | 4 | **19** |
-| `MODULE-2-5` | 1 | 1 | 1 | **3** |
-| `TEACHING-PLAN` | 0 | 0 | 0 | **0** |
-| `INTERP` | 5 | 13 | 10 | **28** |
-| `SYNTH` | 0 | 0 | 0 | **0** |
-| `EXCLUDED` | 3 | 0 | 0 | **3** |
-| **Total** | **49** | **76** | **63** | **188** |
+| Class | 1–3 | 4–8 | 9–12 | 13–14 | Total |
+|---|---:|---:|---:|---:|---:|
+| `CONTROLLED` | 18 | 20 | 9 | 2 | **49** |
+| `SUPPORTING` | 12 | 37 | 39 | 9 | **97** |
+| `DECISION-RECORD` | 10 | 5 | 4 | 2 | **21** |
+| `MODULE-2-5` | 1 | 1 | 1 | 0 | **3** |
+| `TEACHING-PLAN` | 0 | 0 | 0 | 3 | **3** |
+| `INTERP` | 5 | 13 | 10 | 13 | **41** |
+| `SYNTH` | 0 | 0 | 0 | 0 | **0** |
+| `EXCLUDED` | 3 | 0 | 0 | 1 | **4** |
+| **Total** | **49** | **76** | **63** | **30** | **218** |
 
 **Per-slide totals.** S1 14 · S2 18 · S3 17 · S4 14 · S5 16 · S6 15 · S7 16 ·
-S8 15 · S9 15 · S10 16 · S11 16 · S12 16 = **188**.
+S8 15 · S9 15 · S10 16 · S11 16 · S12 16 · S13 16 · S14 14 = **218**.
 
-**No count and no class distribution was targeted.** **One aggregate was
-corrected by recalculation in T6-C** — the Slide 12 profile, drafted as
-4 `CONTROLLED`, which the rows give as **3**. **No individual classification was
-altered.** **Slides 13–14 contribute nothing — they are architecture only.**
+**Observations recalculated from the final table — not carried forward from an
+earlier increment:**
+
+- **Slide 2 is the most heavily `CONTROLLED` slide** — 10 of 18, because the
+  decision vocabulary is BEP §9.2 verbatim.
+- **Slide 3 carries the most `DECISION-RECORD` statements** — 8 of 17, because
+  it holds the module's implementation position.
+- **Slide 9 is the most `SUPPORTING`-dominated** — 13 of 15, because assignment
+  detail lives entirely in `S2` §16 and §18.
+- **Slide 14 carries no `CONTROLLED` or `SUPPORTING` statement at all** — it
+  asserts no Harrismith governance, only questions derived from it, and holds
+  **all three `TEACHING-PLAN` statements** in the module.
+- **`SYNTH` is 0.** **Every statement in Module 6 cites a source.**
+
+**No count and no class distribution was targeted.** **Three aggregate profile
+counts were corrected across T6-B, T6-C and T6-D by recalculation from unchanged
+rows** — Slide 1 (T6-A recorded 6 `CONTROLLED`; the rows give 5), Slide 4 and
+Slide 7 in T6-B, and Slide 12 in T6-C. **No individual statement was ever
+reclassified to reach a total.**
 
 ## 4. Terminology-variance register
 
@@ -481,9 +545,9 @@ summary:**
 
 ## 8. Prohibited-claims register
 
-**Seventy-three prohibited claims, plus four standing prohibitions** — **34
-recorded in T6-A (§8.1–§8.5), 16 added in T6-B (§8.6) and 23 added in T6-C
-(§8.7)**. Expanded from the sources. **A statement on any Module 6 slide that
+**Ninety-three prohibited claims, plus four standing prohibitions** — **34
+recorded in T6-A (§8.1–§8.5), 16 added in T6-B (§8.6), 23 in T6-C (§8.7) and 20
+in T6-D (§8.8)**. Expanded from the sources. **A statement on any Module 6 slide that
 makes one of these claims is wrong, whatever else is correct on the slide.**
 
 ### 8.1 Findings, clashes and Issues
@@ -613,10 +677,47 @@ developing Slides 9–12. **Numbering continues; no earlier claim was renumbered
 |---|---|
 | 73 | That **Module 6 teaching closes `GCR-006`** — only evidence of a complete governed cycle could |
 
-**Seventy-three prohibited claims, plus four standing prohibitions — the current
+**Seventy-three prohibited claims, plus four standing prohibitions — the running
+total after T6-C.** **No count was targeted.**
+
+### 8.8 Added in T6-D — Slides 13–14 and the module boundary
+
+**Twenty further prohibited claims**, expanded from the sources while developing
+Slides 13–14 and closing the baseline. **Numbering continues; no earlier claim
+was renumbered.**
+
+| # | Prohibited claim | Slide |
+|---|---|---|
+| 74 | That a **`Closed` label proves verification** | 13 |
+| 75 | That a **closed Issue proves every affected container was updated** | 13 |
+| 76 | That a **closed Issue proves the whole project was coordinated** | 13 |
+| 77 | That a **coordination report should duplicate the Issue database** | 13 |
+| 78 | That **duplicate records are harmless** | 13 |
+| 79 | That **escalation resolves a matter** | 13 |
+| 80 | That **escalation creates authority** | 13 |
+| 81 | That an **unknown decision owner must be filled with a plausible role** | 13 |
+| 82 | That **every evidence output has been produced** | 13 |
+| 83 | That the **available assurance functions define an assurance-sampling method** | 13 |
+| 84 | That an **assurance sample size, population, frequency, selection method or threshold exists** | 13 |
+| 85 | That **assurance is certification or regulatory proof** | 13 |
+| 86 | That **`GCR-006` is closed** | 13 |
+| 87 | That the **complete governed cycle has been demonstrated** | 13 |
+| 88 | That **any Harrismith coordination rule automatically applies to Triviron** | 14 |
+| 89 | That **Slide 14 answers a Triviron question** | 14 |
+| 90 | That **Module 7's translation has been performed**, or that Module 6 begins it | 14 |
+| 91 | That a **Harrismith value may fill a Triviron answer position** as an example or default | 14 |
+
+**And two that belong to the module rather than a slide:**
+
+| # | Prohibited claim |
+|---|---|
+| 92 | That the **Module 6 teaching-content baseline is a produced presentation**, reviewed or rehearsed. **No visual specification, visual source, asset, assembly package or PowerPoint exists** |
+| 93 | That **the existence of an exercise set records performance**, or that any allocated time has been measured |
+
+**Ninety-three prohibited claims, plus four standing prohibitions — the final
 total.** **No count was targeted.**
 
-### 8.8 Standing programme-status prohibitions
+### 8.9 Standing programme-status prohibitions
 
 **Four standing prohibitions apply to every Module 6 slide and every Module 6
 increment.**
@@ -626,7 +727,7 @@ increment.**
 | **A** | That a **complete governed coordination cycle has been demonstrated** — `GCR-006` is **OPEN** |
 | **B** | That **a Triviron coordination workflow has been decided** — no Triviron information exists |
 | **C** | That **Module 6 teaching changes Harrismith governance** — it explains; it governs nothing |
-| **D** | That **Slides 13–14 are developed** — they are **architecture only** after T6-C |
+| **D** | That the **teaching-content baseline is a produced presentation** — **no visual specification, visual source, asset, assembly package or PowerPoint exists** |
 
 ## 9. Boundary-deferral register
 
@@ -638,19 +739,141 @@ increment.**
 | Workshop facilitation, meeting scripts, agreement-capture technique | **Module 8** | **Module 6 may say a coordination meeting exists and what it is not** — `S1` §8.9, `S2` §20 — **and stop** |
 | Publication arrangement, `PAD-001`, `PM-1`–`PM-7` | **Excluded — `E1`** | **Module 6 does not address the `T4` block or publication authority beyond recording that they remain unresolved** |
 
-## 10. Status
+## 10. Module-wide final reconciliation
+
+**Every count below was recalculated from the final tables in this file. No
+figure is carried forward because it was once correct.**
+
+### 10.1 Sources and hierarchy
+
+| Item | Final position |
+|---|---|
+| Sources consulted | **14** — `S1`–`S14`, unchanged since T6-A |
+| Excluded groups | **9** — `E1`–`E9`, with reasons |
+| Source hierarchy | **Five levels**, from `S1` §1.5 and §13.6 |
+| Sources added after T6-A | **None.** T6-B, T6-C and T6-D added no source |
+| [`source-inventory.md`](source-inventory.md) / [`resource-comparison.md`](resource-comparison.md) | **Unchanged since T6-A.** No contradiction required reopening either |
+
+### 10.2 Principal-resource boundaries
+
+**Four principal resources, analysed separately and never merged** — `S1` §8
+(the interface process), `S1` §9 (the decisions), `S2` (execution detail), `S3`
+§3.5 and §3.7 (allocation). **`S1` §8.13 defers detail to `S2`; `S1` §9.13 and
+`S2` §3 both defer allocation to `S3`.** The dependency runs one way, and
+**reference approves nothing** (`S1` §13.6).
+
+### 10.3 Slides and timing
+
+| Item | Final position |
+|---|---|
+| Slides | **14, all developed.** None architecture only |
+| Sections | **Five** — A 2.5 · B 3.0 · C 5.5 · D 6.0 · E 3.0 |
+| Total | **20.0 minutes**, verified against both the section and slide tables |
+| Timing status | **`20.0 minutes allocated — not measured`** |
+| Slide progression | **No automatic slide-transition timing.** Presenter advances manually |
+| Increments | Slides 1–3 (T6-A) · 4–8 (T6-B) · 9–12 (T6-C) · 13–14 (T6-D) |
+
+### 10.4 Statements
+
+**218 classified statements**, per §3.15. Class totals: `CONTROLLED` **49** ·
+`SUPPORTING` **97** · `DECISION-RECORD` **21** · `MODULE-2-5` **3** ·
+`TEACHING-PLAN` **3** · `INTERP` **41** · `SYNTH` **0** · `EXCLUDED` **4**.
+
+**`SYNTH` is 0 — every statement cites a source.** Per-slide profiles are in
+§3.1–§3.14 and reconcile to 218.
+
+### 10.5 Registers
+
+| Register | Final position |
+|---|---|
+| Terminology variances | **6, none harmonised.** No seventh arose in T6-B, T6-C or T6-D |
+| Hypotheses | **18 — 15 `CONFIRMED` · 2 `CONFIRMED WITH QUALIFICATION` · 2 qualified (`H9`, `H10`) · 1 `NOT ESTABLISHED` (`H18`) · 0 `CONTRADICTED`.** None added or reclassified after T6-A |
+| Unresolved matters | **14, none resolved and none populated** |
+| Prohibited claims | **93**, sequential 1–93, plus **4 standing prohibitions** kept separate |
+| Implementation evidence | Reconciled at §7 — **unchanged in substance since T6-A** |
+| Boundary deferrals | Reconciled at §9 — Modules 4, 5, 7 and 8 |
+
+**The two qualified hypotheses carry the module's two recorded absences.** `H9`
+bounds what a closed Issue proves; `H10` records that **no assurance-sampling
+method exists in any source** (`U14`). `H18` records that **whether verification
+is mandatory in every cycle is unsettled** (variance 4). **Module 6 decides none
+of them.**
+
+### 10.6 Governance versus implementation
+
+**Every statement about a coordination act carries both dimensions.** The
+module's implementation position, unchanged across four increments:
+
+> a Model Coordination model set exists with **zero coordinated versions** · **no
+> Design Collaboration Coordination Space is configured** · two Client Reviews
+> and one Coordination-type Issue were observed **open** · **no completed review,
+> authorisation, verification or closure was established** · the cycle is
+> **`PARTIALLY TRACEABLE`** · **a complete governed cycle is `NOT DEMONSTRATED`**
+> · **`GCR-006` remains OPEN**
+
+**No observed fragment was converted into a demonstrated cycle at any point.**
+
+### 10.7 Carry-forward safeguards
+
+**All intact.** Roles are not people · allocation is not performance ·
+assignment is not performance · Check is not Authorise · technical response is
+not verification · the six §9.2 acts remain distinct · governance is not
+implementation evidence · originator responsibility is transferred by neither
+federation nor assignment · an Issue status is not an information state · no
+platform capability or label creates authority · **publication authority
+UNRESOLVED** · **acceptance authority UNRESOLVED** · **`T4` BLOCKED** ·
+information remains **Shared** · **`TRN-E03` BLOCKED on five independent
+matters, none resolved** · **`GCR-006` OPEN** · **`UD-001` unresolved** ·
+absence of observation is not observation of absence · **no Triviron fact
+exists** · publication automation **`PAUSED`**.
+
+### 10.8 Module boundaries
+
+**Module 4** — states and transitions not redefined; `T4` not completed.
+**Module 5** — matrices, grammar, container allocation and delivery events not
+rewritten. **Module 7** — Slide 14 poses questions and answers none.
+**Module 8** — meeting facilitation not taught; `S1` §8.9 and `S2` §20 used only
+for the bounded *"a meeting is not a record"* distinction.
+
+### 10.9 Exercises and closings
+
+| Item | Final position |
+|---|---|
+| Exercise baseline | [`exercises.md`](exercises.md) — created in **T6-D** |
+| Module closing | **Normal (≈30 s) and emergency (≈10 s)**, plus a one-sentence Module 7 bridge |
+| Rehearsal | **`NOT PERFORMED`.** `E91` defines a full run and records no result |
+| Measured timing | **None** |
+
+### 10.10 Residual production work
+
+**The teaching-content baseline is complete. Production is not.**
+
+- **No visual-demonstration plan exists.** Deferred to **T6-E**.
+- **No visual source or asset directory exists.** Deferred to **T6-E** and later.
+- **No presentation assembly package exists.**
+- **No PowerPoint exists**, in this or any module.
+- **No review or rehearsal has been performed**, and **timing has never been
+  measured**.
+
+**A complete teaching-content baseline is not a produced presentation**, and
+prohibited claims **92** and **93** forbid the confusion.
+
+## 11. Status
 
 | Field | Value |
 |---|---|
-| Increment | **T6-C** — Slides 9–12 classified. T6-A classified Slides 1–3; T6-B classified Slides 4–8 |
-| Slides classified | **1–12.** Slides 13–14 **architecture only** |
-| Classified statements | **188** — 49 (T6-A) + 76 (T6-B) + 63 (T6-C) |
-| Registers | **Nine** — classification scheme, source authority, terminology variance, hypothesis, unresolved matter, implementation evidence, prohibited claims, boundary deferral, statement classification |
-| Sources consulted / excluded | **14** (`S1`–`S14`) / **9 groups** (`E1`–`E9`) — **unchanged in T6-B and T6-C** |
-| Hypotheses tested | **18** — `H1`–`H18`. **15 `CONFIRMED` · 2 `CONFIRMED WITH QUALIFICATION` · 1 `NOT ESTABLISHED` · 0 `CONTRADICTED`. Unchanged in T6-B and T6-C** |
-| Terminology variances | **6**, none harmonised. **No seventh arose in T6-B or T6-C** |
-| Unresolved matters | **14**, none resolved. **None populated in T6-B or T6-C** |
-| Prohibited claims | **73** — 34 (T6-A) + 16 (T6-B) + 23 (T6-C) — plus **4 standing programme-status prohibitions** |
+| Increment | **T6-D — teaching-content baseline COMPLETE.** All fourteen slides classified |
+| Slides classified | **All fourteen.** None architecture only |
+| Classified statements | **218** — 49 (T6-A) + 76 (T6-B) + 63 (T6-C) + 30 (T6-D) |
+| Registers | **Nine**, plus the **module-wide final reconciliation** (§10) |
+| Sources consulted / excluded | **14** (`S1`–`S14`) / **9 groups** (`E1`–`E9`) — **unchanged since T6-A** |
+| Hypotheses tested | **18** — `H1`–`H18`. **15 `CONFIRMED` · 2 `CONFIRMED WITH QUALIFICATION` · 1 `NOT ESTABLISHED` · 0 `CONTRADICTED`. Unchanged since T6-A** |
+| Terminology variances | **6**, none harmonised. **No seventh arose in T6-B, T6-C or T6-D** |
+| Unresolved matters | **14**, none resolved. **None populated in T6-B, T6-C or T6-D** |
+| Prohibited claims | **93** — 34 + 16 + 23 + **20** — plus **4 standing programme-status prohibitions** |
 | Timing | **`20.0 minutes allocated — not measured`** |
 | Complete governed coordination cycle | **NOT DEMONSTRATED.** `GCR-006` **OPEN** |
-| Exercises, visual plan, visual sources, assets, package, PowerPoint | **None exist** |
+| Exercises | [`exercises.md`](exercises.md) — **created in T6-D** |
+| Final reconciliation | **COMPLETE** — see §10 |
+| Visual plan, visual sources, assets, package, PowerPoint | **None exist.** Deferred to **T6-E** and later |
+| Review, rehearsal, measured timing | **None performed** |
