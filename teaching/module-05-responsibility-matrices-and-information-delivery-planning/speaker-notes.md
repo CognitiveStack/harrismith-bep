@@ -1552,4 +1552,5 @@ Module 6**, and none has been taught here.
 | Module closing | **Normal (≈30 s) and emergency (≈10 s)**, plus a one-sentence Module 6 bridge |
 | Timing | **`20.0 minutes allocated — not measured`** |
 | Rehearsal | **None performed.** [`exercises.md`](exercises.md) defines rehearsals; it does not record any |
-| Outstanding | **T5-F** — visual specifications and visual-source set — and later increments |
+| Visual specifications and sources | **T5-F-A through T5-F-B — COMPLETE.** Fourteen specifications accepted; fourteen sources `SOURCE COMPLETE`; **rendered `NONE`** |
+| Outstanding | **T5-G** — the presentation assembly package — then **T5-H** (external PowerPoint). **Presentation review and rehearsal remain outstanding** |

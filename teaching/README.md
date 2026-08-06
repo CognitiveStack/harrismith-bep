@@ -159,11 +159,12 @@ teaching/
     └── module-05/                   Module 5 visual source set, fourteen native-layout sources
 ```
 
-**Module 5's teaching-content baseline and visual specifications are complete,
-and it is still smaller than the modules before it.** It has **eight files and no
-subdirectories**. There is **no `assets/module-05/` directory and no
-`presentation/` package** — neither has been produced, and the tree above lists
-only what exists.
+**Module 5's teaching-content baseline, visual specifications and visual-source
+baseline are complete, and it is still smaller than the modules before it.** The
+module directory holds **eight teaching files and no subdirectories**. Its visual
+sources live in [`assets/module-05/`](assets/module-05/), which **is not a module
+file**. There is **no `presentation/` package** — it has not been produced, and
+the tree above lists only what exists.
 
 **All fourteen slides are developed**, with presenter notes for every one, both
 closings, **79 exercises**, and **fourteen accepted visual specifications**
@@ -175,11 +176,15 @@ contradiction**, so all eight files now agree with the controlled `D4` row.
 [`assets/module-05/`](assets/module-05/). **It is a visual source set, not a
 module file.** **No rendered asset exists.**
 
-**A complete baseline and a complete specification are not a
-produced presentation:** there are **no visual-source files, no visual register
-and no PowerPoint**, and Module 5 is **not produced, not reviewed, not
+**A complete baseline, a complete specification set and a complete source set are
+still not a produced presentation:** there is **no rendered asset, no assembly
+package and no PowerPoint**, and Module 5 is **not produced, not reviewed, not
 rehearsed, and its timing is allocated, never measured**. **T5-G — the
 presentation assembly package — is next.**
+
+**`T5-F-B-R` reconciled the Module 5 production-state records** across the module
+and programme files. **No teaching claim, statement classification, count or
+prohibited claim was changed.**
 
 **No `.pptx` file is committed anywhere in this repository**, for any module.
 [`roadmap.md`](roadmap.md) carries the authoritative position for every module.

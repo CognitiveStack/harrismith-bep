@@ -34,7 +34,7 @@ T5-F-B.**
 ```
 teaching content
   → visual-demonstration plan        ← this file
-  → visual-source files              ← T5-F-B, not yet created
+  → visual-source files              ← T5-F-B, complete
   → presentation assembly package    ← T5-G
   → external PowerPoint              ← T5-H, outside this repository
 ```
@@ -44,9 +44,9 @@ teaching content
 - Where the **accepted teaching content** and this plan differ, **the teaching
   content is authoritative** — [`presentation-outline.md`](presentation-outline.md),
   [`speaker-notes.md`](speaker-notes.md), [`source-map.md`](source-map.md).
-- Where a future **visual-source file** and this plan differ, **this plan is
+- Where a **visual-source file** and this plan differ, **this plan is
   authoritative**.
-- Where a **PowerPoint** and a future visual source differ, **the source is
+- Where a **PowerPoint** and a visual source differ, **the source is
   authoritative**.
 
 **And above all of them:** where any teaching material conflicts with a
@@ -59,16 +59,17 @@ controlled Harrismith source, **the controlled source wins**.
 **One visual per slide. Strictly one-to-one.**
 
 ```text
-14 visual concepts  =  14 slides  =  14 future visual-source files
+14 visual concepts  =  14 slides  =  14 visual-source files
 ```
 
 | Space | Range | State |
 |---|---|---|
 | **Visual concept** | `M5V-01` – `M5V-14` | **Specified in T5-F-A** |
-| **Future slide source** | `M05-S01` – `M05-S14` | **Reserved. Not created** |
+| **Slide source** | `M05-S01` – `M05-S14` | **Created in T5-F-B — all `SOURCE COMPLETE`** |
 
-**Reserved future path:** `teaching/assets/module-05/M05-S<nn>.md`. **That
-directory does not exist and must not be created in T5-F-A.**
+**Slide-source path:** `teaching/assets/module-05/M05-S<nn>.md`. **That
+directory exists and holds the fourteen sources, the visual register and the
+slide-visual map.** **No rendered asset exists.**
 
 **No controlled identifier is reused.** `P1`–`P4`, `D4`–`D7`, `A2`, `T1`–`T8`,
 `X1`–`X5`, `TRN-E01`–`TRN-E03`, `ARC-01`–`FIR-01` and `COORD-01` belong to the

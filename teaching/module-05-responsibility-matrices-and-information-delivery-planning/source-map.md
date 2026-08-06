@@ -9,8 +9,13 @@ unresolved register, the prohibited claims, the Module 6 and Module 7 deferrals,
 and the **module-wide final reconciliation** (§12).
 
 **The Module 5 teaching-content baseline is complete.** No slide remains
-architecture only. **No visual specification, visual source, asset, assembly
-package or PowerPoint exists**, and none is claimed.
+architecture only. **The visual specifications are complete and accepted**
+(`M5V-01`–`M5V-14`,
+[`visual-demonstration-plan.md`](visual-demonstration-plan.md)) and the **visual
+sources are complete** (`M05-S01`–`M05-S14` in
+[`../assets/module-05/`](../assets/module-05/), with a visual register and a
+slide-visual map). **No rendered asset, assembly package or PowerPoint exists**,
+and none is claimed.
 
 Source identifiers `S1`–`S15` are defined in
 [`source-inventory.md`](source-inventory.md). Resource analysis is in
@@ -97,7 +102,7 @@ never `SYNTH`** — see §5.1.
 | Classification vocabulary | **`S7`** | — | `OBSERVED FACT` / `TRAINING ASSUMPTION` / `PROPOSED` / `APPROVED` / `UNRESOLVED` |
 | Live implementation status | **`S9`** | `S7` `OF-002` | `S9` declares **`Authority: None`** |
 | Coordination mechanics | **`S6`** | — | **Module 6 — deferred** |
-| Visual specification and assets | — | — | **T5-F — not started** |
+| Visual specification and sources | — | — | **Teaching-production controls, not governance.** Controlling plan [`visual-demonstration-plan.md`](visual-demonstration-plan.md) (`M5V-01`–`M5V-14`); sources `M05-S01`–`M05-S14`. **Both complete. They add no Harrismith authority** |
 
 ---
 
@@ -1010,7 +1015,7 @@ would commit. Claims 51–59 were added in **T5-B**; 60–75 in **T5-C**; 76–8
 
 | # | Prohibited claim |
 |---|---|
-| 101 | That a **complete teaching-content baseline means the presentation is produced**, reviewed or rehearsed. **No visual specification, asset, assembly package or PowerPoint exists** |
+| 101 | That a **complete teaching-content baseline means the presentation is produced**, reviewed or rehearsed. **No rendered asset, assembly package or PowerPoint exists** |
 | 102 | That **the existence of an exercise set means rehearsal has occurred**, or that any allocated time has been measured |
 
 ### 9.12 Additional prohibition recorded in T5-F-A-R — 1
@@ -1071,7 +1076,7 @@ decisions. Slide 14 poses the questions; it answers none.
 | ~~T5-C~~ | ~~Matrix-cell grammar and allocation boundaries — Slides 6–8~~ — **COMPLETE** |
 | ~~T5-D~~ | ~~Delivery events and schedule construction — Slides 9–12~~ — **COMPLETE** |
 | ~~T5-E~~ | ~~Slides 13–14, the exercise baseline and the complete content baseline~~ — **COMPLETE** |
-| **T5-F** | Visual specifications and visual-source set |
+| ~~T5-F~~ | ~~Visual specifications and visual-source set~~ — **COMPLETE** (T5-F-A, T5-F-A-R, T5-F-A-R2, T5-F-B) |
 | **T5-G** | Presentation assembly package |
 | **T5-H** | External PowerPoint production — **outside this repository** |
 
@@ -1092,7 +1097,7 @@ decisions. Slide 14 poses the questions; it answers none.
 | Final reconciliation | **COMPLETE** — see §12 |
 | Exercise baseline | [`exercises.md`](exercises.md) — **79 exercises**, created in T5-E |
 | Timing | **`20.0 minutes allocated — not measured`** |
-| Visual specifications, sources, assets, assembly package, PowerPoint | **None.** T5-F, T5-G and T5-H not started |
+| Assembly package, PowerPoint | **None.** **T5-G and T5-H not started** |
 | Visual specifications | **COMPLETE and ACCEPTED (T5-F-A, corrected in T5-F-A-R)** — [`visual-demonstration-plan.md`](visual-demonstration-plan.md), `M5V-01`–`M5V-14` |
 | Visual sources | **COMPLETE (T5-F-B)** — `M05-S01`–`M05-S14` in [`../assets/module-05/`](../assets/module-05/), all `SOURCE COMPLETE`; register and slide-visual map complete; **rendered `NONE`** |
 | `D4` reconciliation | **CLOSED (T5-F-A-R2).** All eight Module 5 files agree with the controlled row — **five `TBD`, four `—`, no allocation made** |
@@ -1279,19 +1284,20 @@ evidence in the inventory is `S9`, which declares **`Authority: None`**.
 **`20.0 minutes allocated — not measured.`** No rehearsal has been performed, in
 this or any module.
 
-### 12.13 What does not exist
+### 12.13 What still does not exist
 
-| Artefact | State |
+| Artefact | Current state |
 |---|---|
-| Visual specifications | **None.** T5-F not started |
-| Visual sources / `assets/module-05/` | **None.** T5-F not started |
+| Visual specifications | **COMPLETE and ACCEPTED** — `M5V-01`–`M5V-14` |
+| Visual sources / `assets/module-05/` | **COMPLETE** — `M05-S01`–`M05-S14`, all `SOURCE COMPLETE`, with register and slide-visual map |
+| Visual-demonstration plan | **Exists and accepted** — [`visual-demonstration-plan.md`](visual-demonstration-plan.md) |
 | Rendered visuals | **None**, in any module |
-| Visual-demonstration plan | **None** |
-| Presentation assembly package | **None.** T5-G not started |
+| Presentation assembly package | **None** — **T5-G next** |
 | PowerPoint | **None**, in this or any module |
 | Review, rehearsal, measured timing | **None** |
 
-**A complete teaching-content baseline is not a produced presentation**, and
+**A complete teaching-content baseline, an accepted specification set and a
+complete visual-source baseline are still not a produced presentation**, and
 prohibited claims 101 and 102 forbid the confusion.
 
 ### 12.14 Residual work

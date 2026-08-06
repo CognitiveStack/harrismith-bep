@@ -4,10 +4,15 @@
 baseline is COMPLETE.** Slides 1–3 in T5-A, 4–5 in T5-B, 6–8 in T5-C, 9–12 in
 T5-D, 13–14 in T5-E.
 
-**A complete content baseline is not a produced presentation.** There is **no
-visual specification, no visual source, no asset, no assembly package and no
-PowerPoint**, and no review or rehearsal has been performed. The timing below is
-an allocation that has **never been measured**.
+**A complete content baseline, specification set and source set are still not a
+produced presentation.** The **visual specifications are complete and accepted**
+— `M5V-01`–`M5V-14` in
+[`visual-demonstration-plan.md`](visual-demonstration-plan.md) — and the
+**visual-source baseline is complete** — `M05-S01`–`M05-S14` in
+[`../assets/module-05/`](../assets/module-05/), all `SOURCE COMPLETE`, with a
+visual register and a slide-visual map. There is **no rendered asset, no
+assembly package and no PowerPoint**, and **no review or rehearsal has been
+performed**. The timing below is an allocation that has **never been measured**.
 
 Source identifiers `S1`–`S15` are defined in
 [`source-inventory.md`](source-inventory.md). Statement classification is in
@@ -90,10 +95,21 @@ developed each slide; the content itself is in §4.
 basis · classified-statement range · teaching-synthesis position · prohibited
 claims · a **high-level** visual concept · allocated time · a transition.
 
-**The visual concepts are high-level only.** They record what a visual must show
-and must not show. **They are not visual specifications**, and **T5-F has not
-started** — no specification, source file, rendered asset or asset directory
-exists.
+**The visual concepts recorded in §4 are high-level only.** They record what a
+visual must show and must not show, as developed across T5-A–T5-E. **They are
+not visual specifications.**
+
+**T5-F-A subsequently produced the controlling visual specifications** —
+`M5V-01`–`M5V-14` in
+[`visual-demonstration-plan.md`](visual-demonstration-plan.md), accepted after
+T5-F-A-R and T5-F-A-R2 — and **T5-F-B subsequently produced the fourteen slide
+sources** `M05-S01`–`M05-S14` in
+[`../assets/module-05/`](../assets/module-05/).
+
+**This outline remains the authority for slide content, sequence and timing**,
+and the visual plan and slide sources implement it. **The outline does not
+become a visual specification**, and the high-level concepts in §4 do not
+override the accepted specifications.
 
 ## 4. Developed slides — all fourteen
 
@@ -1501,16 +1517,16 @@ manufactured.**
 
 | Field | Value |
 |---|---|
-| Increment | **T5-E — teaching-content baseline COMPLETE** |
+| Increment | **T5-E — teaching-content baseline COMPLETE.** Production-state records reconciled in **T5-F-B-R** |
 | Slides developed | **All fourteen.** 1–3 (T5-A) · 4–5 (T5-B) · 6–8 (T5-C) · 9–12 (T5-D) · 13–14 (T5-E) — each with on-slide copy, source basis, prohibited claims, a high-level visual concept and a transition |
 | Architecture only | **None.** No slide remains undeveloped |
 | Content baseline | **COMPLETE** |
 | Sections | **All five complete** — A 2.5 · B 4.5 · C 4.0 · D 6.0 · E 3.0 |
 | Timing | **`20.0 minutes allocated — not measured`** · total verified at **20.0** |
 | Exercises | [`exercises.md`](exercises.md) — created in T5-E |
-| Visual specifications | **None.** T5-F is not started |
-| Visual sources / assets | **None.** T5-F is not started |
-| Assembly package | **None.** T5-G is not started |
-| PowerPoint | **None**, in this or any module |
+| Visual specifications | **COMPLETE and ACCEPTED (T5-F-A, corrected in T5-F-A-R and T5-F-A-R2)** — `M5V-01`–`M5V-14`, [`visual-demonstration-plan.md`](visual-demonstration-plan.md) |
+| Visual sources / assets | **COMPLETE (T5-F-B)** — fourteen sources `M05-S01`–`M05-S14` in [`../assets/module-05/`](../assets/module-05/), all `SOURCE COMPLETE`, with a visual register and a slide-visual map. **Rendered assets: `NONE`** |
+| Assembly package | **None.** **T5-G — next** |
+| PowerPoint | **None**, in this or any module. **T5-H — later, and produced outside this repository** |
 | Review, rehearsal, measured timing | **None performed** |
-| Outstanding | **T5-F** — visual specifications and visual-source set; then T5-G, T5-H |
+| Outstanding | **T5-G** — the presentation assembly package — then **T5-H**, and presentation review and rehearsal |

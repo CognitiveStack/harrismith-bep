@@ -20,6 +20,11 @@ register and a slide-visual map in
 assembly package and no PowerPoint**, and **no review or rehearsal has been
 performed**.
 
+**`T5-F-B-R` reconciled the module's production-state records**, which still
+described T5-F as not started. **No teaching content, statement classification,
+count, prohibited claim or specification field was changed** — only stale
+forward-looking status wording.
+
 **Teaching material. Not governance.** This module explains controlled Harrismith
 resources; it governs nothing, decides nothing, and changes nothing.
 
@@ -223,7 +228,7 @@ externally and are not committed.
 | [`presentation-outline.md`](presentation-outline.md) | Timing structure · **fourteen-slide architecture** · increment attribution · **all fourteen slides developed** |
 | [`speaker-notes.md`](speaker-notes.md) | Presenter notes — **all fourteen slides**, plus the normal and emergency closings |
 | [`exercises.md`](exercises.md) | **79 exercises** across eight sections — one per slide, resource boundaries, grammar, delivery planning, typed absence, Triviron transfer, hostile questions, rehearsal |
-| [`visual-demonstration-plan.md`](visual-demonstration-plan.md) | **The controlling visual specification** — module-wide rules, 25 STOP conditions, and **`M5V-01`–`M5V-14`** with 31 recorded fields each |
+| [`visual-demonstration-plan.md`](visual-demonstration-plan.md) | **The controlling visual specification** — module-wide rules, 26 STOP conditions, and **`M5V-01`–`M5V-14`** with 31 recorded fields each |
 
 ### Reading order
 
@@ -256,6 +261,7 @@ contains eight files.**
 | **T5-F-A-R** | **`D4` controlled-source correction** · Slide 12 wording correction · **final specification acceptance** | ✅ **COMPLETE** |
 | **T5-F-A-R2** | **Closure of the remaining `resource-comparison.md` occurrence** — source architecture reconciled | ✅ **COMPLETE** |
 | **T5-F-B** | **Fourteen visual-source files** `M05-S01`–`M05-S14` · visual register · slide-visual map | ✅ **COMPLETE** |
+| **T5-F-B-R** | **Production-state reconciliation** — stale forward-looking production records corrected across seven files. **No teaching content, classification, count or specification field changed** | ✅ **COMPLETE** |
 | **T5-G** | Presentation assembly package | **NEXT — outstanding** |
 | T5-H | External PowerPoint production — **outside this repository** | Outstanding |
 
@@ -340,22 +346,35 @@ been true at an earlier increment.
 **No unresolved field was populated in any controlled source or in any teaching
 statement.**
 
-### 13.4 Known residual work
+### 13.4 Remaining production work
 
-**The teaching-content baseline is complete. Production is not.**
+**The teaching-content baseline, the visual specifications and the visual-source
+baseline are all complete. Production is not.**
 
-- **No visual specifications exist.** Deferred to **T5-F**.
-- **No visual sources or assets exist**, and there is no `assets/module-05/`
-  directory. Deferred to **T5-F**.
-- **No visual-demonstration plan exists.** Unlike Modules 1–4, Module 5 has none;
-  the high-level visual concepts live inside
-  [`presentation-outline.md`](presentation-outline.md).
-- **No presentation assembly package exists.** Deferred to **T5-G**.
+**What exists**
+
+- **The teaching-content baseline is COMPLETE** — all fourteen slides developed.
+- **The visual specifications are COMPLETE and ACCEPTED** — `M5V-01`–`M5V-14` in
+  [`visual-demonstration-plan.md`](visual-demonstration-plan.md), accepted after
+  **T5-F-A-R** and **T5-F-A-R2**.
+- **The visual-source baseline is COMPLETE** — fourteen sources
+  `M05-S01`–`M05-S14`, all `SOURCE COMPLETE`.
+- **The asset directory exists** at [`../assets/module-05/`](../assets/module-05/),
+  with a **complete visual register** and a **complete slide-visual map**.
+
+**What does not**
+
+- **No rendered asset exists**, in this or any module. All rendered statuses are
+  `NONE`, and no renderer or dependency is installed.
+- **No presentation assembly package exists.** **T5-G — next.**
 - **No PowerPoint exists**, in this or any module. **T5-H** produces it
-  **outside this repository**.
+  **outside this repository**, later.
 - **No review or rehearsal has been performed**, and **timing has never been
   measured** — for this or any module. [`exercises.md`](exercises.md) `E79`
   defines a full run and records no result.
+
+**A complete content, specification and source baseline is still not a produced
+presentation.**
 
 ### 13.5 Classification reconciliation — completed in T5-B
 
@@ -446,7 +465,7 @@ structural description is otherwise unchanged.
 
 | Field | Value |
 |---|---|
-| Increment | **T5-F-B — COMPLETE.** Visual-source baseline **COMPLETE** |
+| Increment | **T5-F-B-R — COMPLETE.** Production-state records reconciled across all Module 5 files. Visual-source baseline remains **COMPLETE** (T5-F-B) |
 | Module status | **CURRENT — ACTIVE** |
 | Teaching-content baseline | **COMPLETE** — all fourteen slides developed |
 | Slides | **14 of 14.** None architecture only |
