@@ -2,13 +2,14 @@
 
 **Status:** Traceability record for teaching material. **Not governance.**
 
-**Statement-level classification for Slides 1–8** — Slides 1–3 developed in
-**T6-A**, Slides 4–8 in **T6-B** — plus the classification scheme,
+**Statement-level classification for Slides 1–12** — Slides 1–3 developed in
+**T6-A**, Slides 4–8 in **T6-B**, Slides 9–12 in **T6-C** — plus the
+classification scheme,
 source-authority register, terminology-variance register, hypothesis register,
 unresolved-matter register, prohibited-claims register, implementation-evidence
 register and boundary-deferral register.
 
-**Slides 9–14 are architecture only.** No statement is classified for them, and
+**Slides 13–14 are architecture only.** No statement is classified for them, and
 none may be presented as developed.
 
 Source identifiers `S1`–`S14` are defined in
@@ -49,9 +50,9 @@ unchanged.
 | Recipient acceptance authority | **`S1` §9.8** | `S8` §9 | **No workflow defined** |
 | What has been demonstrated | **`S7`, `S8`** | — | `S8` declares **`Authority: None`** |
 | Complete governed coordination cycle | **`S7` `GCR-006`** | `S8` §8 | **OPEN — not demonstrated** |
-| Coordination visual specification and assets | — | — | **Not created. T6-B and later** |
+| Coordination visual specification and assets | — | — | **Not created. T6-D and later** |
 
-## 3. Statement classification — Slides 1–8
+## 3. Statement classification — Slides 1–12
 
 **Identifier form: `M6-S<slide>-<n>`.** Every statement carries its source
 basis, class, governance status and — where applicable — implementation status.
@@ -252,27 +253,125 @@ evidence is largely a record of what was not demonstrated.
 **Slide 8 profile.** 1 `CONTROLLED` · 11 `SUPPORTING` · 1 `MODULE-2-5` ·
 2 `INTERP`. **Total 15.**
 
-### 3.9 Totals for the developed slides
+### 3.9 Slide 9 — `M6-S9-01` to `M6-S9-15`
+
+| ID | Statement | Source | Class | Governance | Implementation |
+|---|---|---|---|---|---|
+| `M6-S9-01` | An assignment identifies **the affected interface** | **`S2` §16** | `SUPPORTING` | **`PROPOSED GOVERNANCE`** | — |
+| `M6-S9-02` | An assignment identifies **the responsible task team or function** | **`S2` §16** | `SUPPORTING` | **`PROPOSED GOVERNANCE`** | — |
+| `M6-S9-03` | An assignment identifies **the required action or outcome** | **`S2` §16** | `SUPPORTING` | **`PROPOSED GOVERNANCE`** | — |
+| `M6-S9-04` | An assignment identifies **context and evidence** | **`S2` §16** | `SUPPORTING` | **`PROPOSED GOVERNANCE`** | — |
+| `M6-S9-05` | An assignment identifies **priority or impact — *where established*** | **`S2` §16** | `SUPPORTING` | **`PROPOSED GOVERNANCE`** | — |
+| `M6-S9-06` | An assignment identifies **status** | **`S2` §16** | `SUPPORTING` | **`PROPOSED GOVERNANCE`** | — |
+| `M6-S9-07` | An assignment identifies **a target trigger — *only where genuinely established*** | **`S2` §16** | `SUPPORTING` | **`PROPOSED GOVERNANCE`** | — |
+| `M6-S9-08` | *"**No dates are invented.** Where no target is established, the field records that rather than a plausible value"* | **`S2` §16** | `SUPPORTING` | **`PROPOSED GOVERNANCE`** | — |
+| `M6-S9-09` | *"The **BIM Coordinator coordinates assignment.** The originating or affected **Task-Team Lead owns the technical response** of its team"* | **`S2` §16** | `SUPPORTING` | **`PROPOSED GOVERNANCE`** | — |
+| `M6-S9-10` | *"An Issue assigned to a task team **does not make the BIM Coordinator responsible for designing the fix**. Coordinating an assignment and owning a solution are different things"* | **`S2` §16** | `SUPPORTING` | **`PROPOSED GOVERNANCE`** | — |
+| `M6-S9-11` | **Technical resolution occurs in the originating task team's WIP** — the team evaluates and modifies its own container if required | **`S2` §18; `S1` §8.8, §8.10** | **`CONTROLLED`** | `CONTROLLED GOVERNANCE` | — |
+| `M6-S9-12` | *"The BIM Coordinator may **facilitate agreement** between teams but **does not author a discipline solution** merely because they chair coordination"* | **`S2` §18; `S1` §8.8** | `SUPPORTING` | **`PROPOSED GOVERNANCE`** + `CONTROLLED GOVERNANCE` | — |
+| `M6-S9-13` | *"Where multiple task teams must change, **each remains responsible for its own information**. A jointly-agreed resolution is still **a set of separate changes under separate responsibility**"* | **`S2` §18** | `SUPPORTING` | **`PROPOSED GOVERNANCE`** | — |
+| `M6-S9-14` | **`X3` — resolve technical coordination issue — allocates `P` to Author and Task-Team Lead, `Ck` to Checker, `Co` to BIM Coordinator.** The coordinator coordinates; the team resolves | **`S3` §3.5** | `SUPPORTING` | **`PROPOSED GOVERNANCE`** | **`IMPLEMENTATION UNVERIFIED`** |
+| `M6-S9-15` | **Issue assignment, process coordination, technical authorship, technical response, WIP correction, task-team check and controlled reshare are seven separate things**, and **no assignment, response or correction has been demonstrated** — *"No actual Issue identifiers are created here"* | `S2` §16, §17, §18; `S7` `OF-007`; `S8` §8 | **`INTERP`** | — | **`NOT DEMONSTRATED`** |
+
+**Slide 9 profile.** 1 `CONTROLLED` · 13 `SUPPORTING` · 1 `INTERP` —
+**`M6-S9-12` counted once, as `SUPPORTING`**. **Total 15.**
+
+### 3.10 Slide 10 — `M6-S10-01` to `M6-S10-16`
+
+| ID | Statement | Source | Class | Governance | Implementation |
+|---|---|---|---|---|---|
+| `M6-S10-01` | The governed status model runs **`New` → `Triaged` → `Assigned` → `In Progress` → `Ready for Verification` → `Closed`** | **`S2` §15** | `SUPPORTING` | **`PROPOSED GOVERNANCE`** | — |
+| `M6-S10-02` | **`Deferred` and `Escalated` are *controlled alternate dispositions*** — **not a seventh and eighth step** in the main sequence | **`S2` §15** | `SUPPORTING` | **`PROPOSED GOVERNANCE`** | — |
+| `M6-S10-03` | *"Platform implementation may use different native labels. **The governed meaning is what matters; a native label is a rendering of it, not a replacement for it**"* | **`S2` §15** | `SUPPORTING` | **`PROPOSED GOVERNANCE`** | — |
+| `M6-S10-04` | *"**This status model is not claimed to be configured in Forma.** Configuring it would follow a governance decision, which has not been taken"* | **`S2` §15; `S1` §12.1** | `SUPPORTING` | **`PROPOSED GOVERNANCE`** | **`NOT DEMONSTRATED`** |
+| `M6-S10-05` | An Issue status is **not an information state** — *"Coordination does not create a new CDE information state"* | **`S2` §24; `S6`** | `SUPPORTING` | **`PROPOSED GOVERNANCE`** | — |
+| `M6-S10-06` | An Issue status is **not a suitability code** — **no suitability code set exists on this project** | `S1` §11; `S11` — teaching carry-forward | **`MODULE-2-5`** | **`NOT ESTABLISHED`** | — |
+| `M6-S10-07` | An Issue status is **not recipient acceptance** — a separate function occurring after delivery, whose authority is **UNRESOLVED** | **`S1` §9.2, §9.8** | **`CONTROLLED`** | **`UNRESOLVED`** | — |
+| `M6-S10-08` | An Issue status is **not publication authorisation** — a separate decision, and **UNRESOLVED** | **`S1` §9.7** | **`CONTROLLED`** | **`UNRESOLVED`** | — |
+| `M6-S10-09` | An Issue status is **not technical evidence** | `S2` §15, §19; `S7` `OF-007` | **`INTERP`** | — | — |
+| `M6-S10-10` | **`Ready for Verification` means verification remains to be performed** — the status records a queue position, not an outcome | `S2` §15, §19 | **`INTERP`** | — | — |
+| `M6-S10-11` | **`Closed` as a label does not, by itself, prove the closure conditions were met** — closure follows re-coordination against reshared, controlled information | **`S2` §19** | `SUPPORTING` | **`PROPOSED GOVERNANCE`** | — |
+| `M6-S10-12` | **A status change does not demonstrate that the technical condition changed** | **`S2` §19; `S7` `OF-007`** | `SUPPORTING` | **`PROPOSED GOVERNANCE`** | **`NOT DEMONSTRATED`** |
+| `M6-S10-13` | **Two Client Reviews and one Coordination-type Issue were observed open** | **`S7` `OF-007`; `S8` §6B** | `DECISION-RECORD` | — | **`OBSERVED — QUALIFIED`** |
+| `M6-S10-14` | *"Review and issue **activity** exists in the platform. This is **not** evidence that a governed review, authorisation or verification decision has been taken. **An open item is an open item**"* | **`S7` `OF-007`** | `DECISION-RECORD` | — | **`NOT DEMONSTRATED`** |
+| `M6-S10-15` | **`Deferred` and `Escalated` appear in two related but distinct structures** — triage dispositions (`S2` §13) and controlled alternate status dispositions (`S2` §15). **Neither structure is merged into the other** | `S2` §13, §15 | **`INTERP`** | — | — |
+| `M6-S10-16` | No new terminology variance arises — **variance 2 already records that `S1` defines no status codes and defers the model to `S2`** | `S1` §8.7; `S2` §15 | **`INTERP`** | — | — |
+
+**Slide 10 profile.** 2 `CONTROLLED` · 7 `SUPPORTING` · 2 `DECISION-RECORD` ·
+1 `MODULE-2-5` · 4 `INTERP`. **Total 16.**
+
+### 3.11 Slide 11 — `M6-S11-01` to `M6-S11-16`
+
+| ID | Statement | Source | Class | Governance | Implementation |
+|---|---|---|---|---|---|
+| `M6-S11-01` | Verification occurs **after** the corrected information has been **checked** | **`S2` §19** | `SUPPORTING` | **`PROPOSED GOVERNANCE`** | — |
+| `M6-S11-02` | Verification occurs after the information has been **authorised for reshare** | **`S2` §19** | `SUPPORTING` | **`PROPOSED GOVERNANCE`** | — |
+| `M6-S11-03` | Verification occurs after the information has been **returned to `Shared`** | **`S2` §19; `S6`** | `SUPPORTING` | **`PROPOSED GOVERNANCE`** | — |
+| `M6-S11-04` | Verification occurs after the information has been **included in re-coordination** | **`S2` §19** | `SUPPORTING` | **`PROPOSED GOVERNANCE`** | — |
+| `M6-S11-05` | Verify that the defined coordination matter **no longer exists** | **`S2` §19** | `SUPPORTING` | **`PROPOSED GOVERNANCE`** | — |
+| `M6-S11-06` | **or** that it **meets the agreed coordination rule** | **`S2` §19** | `SUPPORTING` | **`PROPOSED GOVERNANCE`** | — |
+| `M6-S11-07` | **or** that it **has an explicitly approved and recorded disposition** | **`S2` §19** | `SUPPORTING` | **`PROPOSED GOVERNANCE`** | — |
+| `M6-S11-08` | *"**A material Issue is not closed solely because someone says it was fixed in WIP.** Closure follows re-coordination against reshared, controlled information — **a change nobody can see in Shared information has not been demonstrated**"* | **`S2` §19** | `SUPPORTING` | **`PROPOSED GOVERNANCE`** | — |
+| `M6-S11-09` | *"**Verification does not equal** design approval, professional certification, publication authority, or recipient acceptance"* | **`S2` §19; `S1` §8.10, §9.5** | **`CONTROLLED`** | `CONTROLLED GOVERNANCE` | — |
+| `M6-S11-10` | **Checking is not verification** — *"Checking confirms readiness for the next controlled decision"* | **`S1` §9.3** | **`CONTROLLED`** | `CONTROLLED GOVERNANCE` | — |
+| `M6-S11-11` | **A technical response is not verification** — it is the change, not the check on it | `S2` §18, §19 | **`INTERP`** | — | — |
+| `M6-S11-12` | **`Ready for Verification` is not verification**, and **Issue status alone is not verification evidence** | `S2` §15, §19 | **`INTERP`** | — | — |
+| `M6-S11-13` | *"Technical and design responsibility remains with the originating task team, **before and after verification**"* | **`S1` §8.10** | **`CONTROLLED`** | `CONTROLLED GOVERNANCE` | — |
+| `M6-S11-14` | **`X4` — verify coordination resolution / process disposition — allocates `Ck` to the BIM Coordinator.** *"Coordinator verification confirms the coordination process reached a disposition — it is not discipline design approval, professional certification, or acceptance of technical responsibility"* | **`S3` §3.5** | `SUPPORTING` | **`PROPOSED GOVERNANCE`** | **`IMPLEMENTATION UNVERIFIED`** |
+| `M6-S11-15` | **Whether verification is mandatory in every cycle is `NOT ESTABLISHED`** — `S1` §8.10 says the BIM Coordinator *"may verify"*; `S2` §19 and `S3` `X4` treat it as a defined act; `S2` §21 conditions it on *"required verification"*. **Variance 4 and `H18`. Module 6 does not decide it** | `S1` §8.10; `S2` §19, §21; `S3` `X4` | **`INTERP`** | **`NOT ESTABLISHED`** | — |
+| `M6-S11-16` | **No completed verification has been established** — *"No completed review, authorisation, verification or closure was established"* | **`S7` `OF-007`; `S8` §8** | `DECISION-RECORD` | — | **`NOT DEMONSTRATED`** |
+
+**Slide 11 profile.** 3 `CONTROLLED` · 9 `SUPPORTING` · 1 `DECISION-RECORD` ·
+3 `INTERP`. **Total 16.**
+
+### 3.12 Slide 12 — `M6-S12-01` to `M6-S12-16`
+
+| ID | Statement | Source | Class | Governance | Implementation |
+|---|---|---|---|---|---|
+| `M6-S12-01` | *"**Completion is not 'zero clashes.'** A zero-clash report can be produced by **testing nothing**, **excluding everything**, or **resolving symptoms rather than interfaces**"* | **`S1` §8.11; `S2` §21** | **`CONTROLLED`** | `CONTROLLED GOVERNANCE` | — |
+| `M6-S12-02` | Completion condition 1 — **required inputs were identified** | **`S2` §21** | `SUPPORTING` | **`PROPOSED GOVERNANCE`** | **`NOT DEMONSTRATED`** |
+| `M6-S12-03` | Condition 2 — **required readiness checks were performed** | **`S2` §21** | `SUPPORTING` | **`PROPOSED GOVERNANCE`** | **`NOT DEMONSTRATED`** |
+| `M6-S12-04` | Condition 3 — **required coordination checks were performed** | **`S2` §21; `S1` §8.11** | `SUPPORTING` | **`PROPOSED GOVERNANCE`** | **`NOT DEMONSTRATED`** |
+| `M6-S12-05` | Condition 4 — **material findings were triaged** | **`S2` §21; `S1` §8.11** | `SUPPORTING` | **`PROPOSED GOVERNANCE`** | **`NOT DEMONSTRATED`** |
+| `M6-S12-06` | Condition 5 — **required Issues were created and assigned** | **`S2` §21; `S1` §8.11** | `SUPPORTING` | **`PROPOSED GOVERNANCE`** | **`NOT DEMONSTRATED`** |
+| `M6-S12-07` | Condition 6 — **required resolutions or dispositions were recorded** | **`S2` §21; `S1` §8.11** | `SUPPORTING` | **`PROPOSED GOVERNANCE`** | **`NOT DEMONSTRATED`** |
+| `M6-S12-08` | Condition 7 — **required verification was completed** | **`S2` §21; `S1` §8.11** | `SUPPORTING` | **`PROPOSED GOVERNANCE`** | **`NOT DEMONSTRATED`** |
+| `M6-S12-09` | Condition 8 — **unresolved matters were explicitly carried forward or escalated** | **`S2` §21; `S1` §8.11** | `SUPPORTING` | **`PROPOSED GOVERNANCE`** | **`NOT DEMONSTRATED`** |
+| `M6-S12-10` | Condition 9 — **coordination evidence was retained** | **`S2` §21** | `SUPPORTING` | **`PROPOSED GOVERNANCE`** | **`NOT DEMONSTRATED`** |
+| `M6-S12-11` | The conditions apply **"for a defined coordination cycle"** and **"as applicable"**, and seven are qualified by **"required"** or **"material"**. **They are not an unconditional universal checklist** | **`S2` §21** | `SUPPORTING` | **`PROPOSED GOVERNANCE`** | — |
+| `M6-S12-12` | *"**Completion is cycle-specific and purpose-specific.**"* Completion of one cycle establishes nothing about every other coordination need | **`S2` §21; `S1` §8.11** | **`CONTROLLED`** | `CONTROLLED GOVERNANCE` | — |
+| `M6-S12-13` | **A cycle may complete with an unresolved matter explicitly carried forward or escalated** — condition 8. **Carrying a matter forward is a governed outcome, not concealment** | `S2` §21; `S1` §8.11, §8.12 | **`INTERP`** | — | — |
+| `M6-S12-14` | *"It does **not** mean the entire design is complete, technically approved, construction-ready, or accepted by the project"* | **`S2` §21; `S1` §8.11** | **`CONTROLLED`** | `CONTROLLED GOVERNANCE` | — |
+| `M6-S12-15` | **Completion does not publish information, resolve recipient acceptance authority, release `T4` or unblock `TRN-E03`** | `S1` §9.7, §9.8; `S5` §5.1; `S6`; `S10`, `S11` | **`INTERP`** | **`UNRESOLVED`** / **`BLOCKED`** | **`NOT DEMONSTRATED`** |
+| `M6-S12-16` | **No coordination cycle has been completed**, and **`GCR-006` remains OPEN**. **Module 6 teaching cannot close it** — only evidence of a complete governed cycle could | **`S7` `GCR-006`; `S8` §8; `S9`** | `DECISION-RECORD` | — | **`NOT DEMONSTRATED`** |
+
+**Slide 12 profile.** 3 `CONTROLLED` · 10 `SUPPORTING` · 1 `DECISION-RECORD` ·
+2 `INTERP` — **`M6-S12-01`, `M6-S12-12` and `M6-S12-14` counted once each, as
+`CONTROLLED`**. **Total 16.**
+
+### 3.13 Totals for the developed slides
 
 **Recalculated from the completed rows.**
 
-| Class | Slides 1–3 | Slides 4–8 | Total |
-|---|---:|---:|---:|
-| `CONTROLLED` | 18 | 20 | **38** |
-| `SUPPORTING` | 12 | 37 | **49** |
-| `DECISION-RECORD` | 10 | 5 | **15** |
-| `MODULE-2-5` | 1 | 1 | **2** |
-| `TEACHING-PLAN` | 0 | 0 | **0** |
-| `INTERP` | 5 | 13 | **18** |
-| `SYNTH` | 0 | 0 | **0** |
-| `EXCLUDED` | 3 | 0 | **3** |
-| **Total** | **49** | **76** | **125** |
+| Class | Slides 1–3 | Slides 4–8 | Slides 9–12 | Total |
+|---|---:|---:|---:|---:|
+| `CONTROLLED` | 18 | 20 | 9 | **47** |
+| `SUPPORTING` | 12 | 37 | 39 | **88** |
+| `DECISION-RECORD` | 10 | 5 | 4 | **19** |
+| `MODULE-2-5` | 1 | 1 | 1 | **3** |
+| `TEACHING-PLAN` | 0 | 0 | 0 | **0** |
+| `INTERP` | 5 | 13 | 10 | **28** |
+| `SYNTH` | 0 | 0 | 0 | **0** |
+| `EXCLUDED` | 3 | 0 | 0 | **3** |
+| **Total** | **49** | **76** | **63** | **188** |
 
 **Per-slide totals.** S1 14 · S2 18 · S3 17 · S4 14 · S5 16 · S6 15 · S7 16 ·
-S8 15 = **125**.
+S8 15 · S9 15 · S10 16 · S11 16 · S12 16 = **188**.
 
-**No count and no class distribution was targeted.** **Slides 9–14 contribute
-nothing — they are architecture only.**
+**No count and no class distribution was targeted.** **One aggregate was
+corrected by recalculation in T6-C** — the Slide 12 profile, drafted as
+4 `CONTROLLED`, which the rows give as **3**. **No individual classification was
+altered.** **Slides 13–14 contribute nothing — they are architecture only.**
 
 ## 4. Terminology-variance register
 
@@ -477,7 +576,46 @@ unblock `TRN-E03`.**
 **Fifty prohibited claims, plus four standing prohibitions.** **No count was
 targeted.**
 
-### 8.7 Standing programme-status prohibitions
+### 8.7 Added in T6-C — Slides 9–12
+
+**Twenty-two further prohibited claims**, expanded from the sources while
+developing Slides 9–12. **Numbering continues; no earlier claim was renumbered.**
+
+| # | Prohibited claim | Slide |
+|---|---|---|
+| 51 | That **assignment transfers authorship** | 9 |
+| 52 | That the **BIM Coordinator owns or designs the fix** | 9 |
+| 53 | That **assignment proves work started** | 9 |
+| 54 | That **a response proves resolution** | 9 |
+| 55 | That **a WIP correction proves controlled reshare** | 9 |
+| 56 | That a **due date, priority, owner or Issue identifier** exists where none is established | 9 |
+| 57 | That a **verbal agreement modifies controlled information** | 9 |
+| 58 | That the **federated coordination view is edited** to implement a fix | 9 |
+| 59 | That the **Issue status model is a CDE information-state model** | 10 |
+| 60 | That the **status model is configured** in Forma, ACC or any platform | 10 |
+| 61 | That **platform-native labels override the governed meaning** | 10 |
+| 62 | That **`Deferred` and `Escalated` are mandatory sequential stages** in the main status sequence | 10 |
+| 63 | That **`Ready for Verification` means verified** | 10 |
+| 64 | That **`Closed` means technically fixed** | 10 |
+| 65 | That **`Closed` proves verification** | 10, 11 |
+| 66 | That **a status change proves the underlying condition changed** | 10 |
+| 67 | That **verification is checking** | 11 |
+| 68 | That **verification is design approval, professional certification, publication authority or recipient acceptance** | 11 |
+| 69 | That **verification is mandatory in every cycle** — **`H18` is `NOT ESTABLISHED`** | 11 |
+| 70 | That **zero clashes means coordination complete** | 12 |
+| 71 | That **all nine completion conditions were performed**, or that they are an unconditional universal checklist | 12 |
+| 72 | That **cycle completion means the entire design is complete, construction-ready, technically approved or accepted by the project** | 12 |
+
+**And one that belongs to the module rather than a slide:**
+
+| # | Prohibited claim |
+|---|---|
+| 73 | That **Module 6 teaching closes `GCR-006`** — only evidence of a complete governed cycle could |
+
+**Seventy-three prohibited claims, plus four standing prohibitions.** **No count
+was targeted.**
+
+### 8.8 Standing programme-status prohibitions
 
 **Four standing prohibitions apply to every Module 6 slide and every Module 6
 increment.**
@@ -487,7 +625,7 @@ increment.**
 | **A** | That a **complete governed coordination cycle has been demonstrated** — `GCR-006` is **OPEN** |
 | **B** | That **a Triviron coordination workflow has been decided** — no Triviron information exists |
 | **C** | That **Module 6 teaching changes Harrismith governance** — it explains; it governs nothing |
-| **D** | That **Slides 9–14 are developed** — they are **architecture only** after T6-B |
+| **D** | That **Slides 13–14 are developed** — they are **architecture only** after T6-C |
 
 ## 9. Boundary-deferral register
 
@@ -503,15 +641,15 @@ increment.**
 
 | Field | Value |
 |---|---|
-| Increment | **T6-B** — Slides 4–8 classified. T6-A classified Slides 1–3 |
-| Slides classified | **1–8.** Slides 9–14 **architecture only** |
-| Classified statements | **125** — 49 (T6-A) + 76 (T6-B) |
+| Increment | **T6-C** — Slides 9–12 classified. T6-A classified Slides 1–3; T6-B classified Slides 4–8 |
+| Slides classified | **1–12.** Slides 13–14 **architecture only** |
+| Classified statements | **188** — 49 (T6-A) + 76 (T6-B) + 63 (T6-C) |
 | Registers | **Nine** — classification scheme, source authority, terminology variance, hypothesis, unresolved matter, implementation evidence, prohibited claims, boundary deferral, statement classification |
-| Sources consulted / excluded | **14** (`S1`–`S14`) / **9 groups** (`E1`–`E9`) — **unchanged in T6-B** |
-| Hypotheses tested | **18** — `H1`–`H18`. **15 `CONFIRMED` · 2 `CONFIRMED WITH QUALIFICATION` · 1 `NOT ESTABLISHED` · 0 `CONTRADICTED`. Unchanged in T6-B** |
-| Terminology variances | **6**, none harmonised. **No seventh arose in T6-B** |
-| Unresolved matters | **14**, none resolved. **None populated in T6-B** |
-| Prohibited claims | **50** — 34 (T6-A) + 16 (T6-B) — plus **4 standing programme-status prohibitions** |
+| Sources consulted / excluded | **14** (`S1`–`S14`) / **9 groups** (`E1`–`E9`) — **unchanged in T6-B and T6-C** |
+| Hypotheses tested | **18** — `H1`–`H18`. **15 `CONFIRMED` · 2 `CONFIRMED WITH QUALIFICATION` · 1 `NOT ESTABLISHED` · 0 `CONTRADICTED`. Unchanged in T6-B and T6-C** |
+| Terminology variances | **6**, none harmonised. **No seventh arose in T6-B or T6-C** |
+| Unresolved matters | **14**, none resolved. **None populated in T6-B or T6-C** |
+| Prohibited claims | **73** — 34 (T6-A) + 16 (T6-B) + 23 (T6-C) — plus **4 standing programme-status prohibitions** |
 | Timing | **`20.0 minutes allocated — not measured`** |
 | Complete governed coordination cycle | **NOT DEMONSTRATED.** `GCR-006` **OPEN** |
 | Exercises, visual plan, visual sources, assets, package, PowerPoint | **None exist** |

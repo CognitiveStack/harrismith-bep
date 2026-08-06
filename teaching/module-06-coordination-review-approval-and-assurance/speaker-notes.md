@@ -2,7 +2,7 @@
 
 **Status:** Presenter notes for teaching material. **Not governance.**
 
-**Notes exist for Slides 1–8.** Slides 9–14 are **architecture only** and have
+**Notes exist for Slides 1–12.** Slides 13–14 are **architecture only** and have
 **no presenter notes**. **No module closing has been written** — the closing
 belongs to the increment that develops Slide 14.
 
@@ -933,13 +933,487 @@ project.**
 
 ---
 
+## Slide 9 — Assignment and technical response: who owns the fix · 1.5 min
+
+### What you are doing here
+
+Keeping two functions apart that share a room: **coordinating an assignment** and
+**owning a technical solution**. The BIM Coordinator does the first. The
+originating task team does the second. Nothing about chairing the meeting changes
+that.
+
+### Opening line
+
+> *"An Issue has been created and it has to go somewhere. Who it goes to, and
+> what that assignment does and does not make them responsible for, is more
+> precise in Harrismith than most projects manage."*
+
+### The load-bearing explanation
+
+Walk the seven assignment fields quickly — the slide carries them. **Land on the
+two qualifiers**, because they are the honest part:
+
+> *"Priority or impact — where established. A target trigger — only where
+> genuinely established. And the strategy is explicit: no dates are invented.
+> Where no target exists, the field records that rather than a plausible value."*
+
+Then the division, quoted:
+
+> *"The BIM Coordinator coordinates assignment. The originating or affected
+> Task-Team Lead owns the technical response of its team."*
+
+> *"An Issue assigned to a task team does not make the BIM Coordinator
+> responsible for designing the fix. Coordinating an assignment and owning a
+> solution are different things."*
+
+Then where the work happens:
+
+> *"Technical resolution occurs in the originating task team's WIP. A mechanical
+> conflict means the Mechanical team evaluates and modifies MEC-01 if required.
+> The coordinator may facilitate agreement — they do not author a discipline
+> solution because they chair the meeting."*
+
+And the multi-team case, which is the one people get wrong:
+
+> *"Where several teams must change, each remains responsible for its own
+> information. A jointly-agreed resolution is still a set of separate changes
+> under separate responsibility."*
+
+### Source boundary
+
+`S2` §16 holds the assignment fields; §18 holds technical resolution. `S1` §8.8
+and §8.10 govern. **`S3` §3.5 `X3` allocates the function — Module 5 taught the
+matrix grammar; do not re-teach it.**
+
+### Governance-status warning
+
+**`PROPOSED GOVERNANCE`** for the assignment structure and `X3`.
+**`CONTROLLED GOVERNANCE`** for *"the originating task team makes the technical
+change"* and *"the BIM Coordinator manages the process, not the solution."*
+
+### Implementation-status warning
+
+**No assignment, technical response or WIP correction has been demonstrated.**
+*"No actual Issue identifiers are created here."*
+
+### Distinctions that must remain separate
+
+**Issue assignment** · **process coordination** · **technical authorship** ·
+**technical response** · **WIP correction** · **task-team check** ·
+**controlled reshare**. Seven things, and a fluent speaker will merge at least
+two of them without noticing.
+
+### What not to imply
+
+- That assignment **proves work started**.
+- That a response **proves resolution**.
+- That a **verbal agreement** modifies controlled information.
+- That the **federated view is edited** to implement the fix — it is a lens, and
+  Slide 4 established that.
+- Any **named person**, organisation, due date, priority or Issue number.
+- That the BIM Coordinator owns, designs or approves the solution.
+
+### Likely audience question
+
+**"Who do we assign it to if the role holder isn't appointed?"**
+
+> *"To the function, not the person. The strategy assigns to the responsible task
+> team or function, and all holders remain TBD. That is not a gap in the
+> assignment — it is the assignment being honest about what exists."*
+
+**"What if two teams both have to change something?"**
+
+> *"Then both change their own information, and each remains responsible for it.
+> A jointly-agreed resolution is still separate changes under separate
+> responsibility — one agreement does not create one author."*
+
+**"Can the coordinator just fix it in the federated model?"**
+
+> *"No, on two counts. The federated view is a lens — Slide 4. And the
+> coordinator does not author a discipline solution. The fix happens in the
+> originating team's WIP, through their own checking route."*
+
+### Transition
+
+> *"That assignment carries a status. And a status is the single most
+> over-interpreted object in coordination — so it is worth a slide of its own."*
+
+### Delivery warning
+
+**Do not supply an example date or priority, even hypothetically.** The strategy
+says no dates are invented; a spoken example becomes a project convention faster
+than a written one.
+
+---
+
+## Slide 10 — The Issue status model is not an information state · 1.5 min
+
+### What you are doing here
+
+Showing a six-status model, keeping two alternate dispositions **off the main
+line**, and stopping five different misreadings of what a status means.
+
+### Opening line
+
+> *"Every coordination tool has statuses, and everyone reads more into them than
+> they carry. Harrismith's model is six steps — and two things that are
+> deliberately not steps."*
+
+### The load-bearing explanation
+
+Name the six in order:
+
+> *"New. Triaged. Assigned. In Progress. Ready for Verification. Closed."*
+
+Then the two, and **be explicit about the geometry**:
+
+> *"Deferred and Escalated are controlled alternate dispositions. They are not a
+> seventh and eighth stage — a matter does not pass through them on the way to
+> Closed. It goes to one of them instead."*
+
+Then the label point:
+
+> *"Platform implementation may use different native labels. The governed
+> meaning is what matters; a native label is a rendering of it, not a
+> replacement for it. And the model is not claimed to be configured in Forma —
+> configuring it would follow a governance decision that has not been taken."*
+
+Then the five separations, briskly — the slide carries them.
+
+Then **the two statuses that promise less than they look**, which is where the
+minute is best spent:
+
+> *"'Ready for Verification' means verification has not happened. It is a queue
+> position, not an outcome."*
+
+> *"And 'Closed' as a label does not by itself prove the closure conditions were
+> met. A status change does not demonstrate that the technical condition
+> changed."*
+
+### Source boundary
+
+`S2` §15 holds the model. `S1` §8.7 expressly defines **no** issue numbering or
+status codes and defers the taxonomy to `S2`. **Slide 11 owns verification —
+name it and move on.**
+
+### Governance-status warning
+
+**`PROPOSED GOVERNANCE`.** **The model is not claimed to be configured
+anywhere.** Publication authorisation and recipient acceptance are separate
+decisions and both remain **UNRESOLVED**.
+
+### Implementation-status warning
+
+**Two Client Reviews and one Coordination-type Issue were observed open.** *"An
+open item is an open item."* **No completed review, authorisation, verification
+or closure was established.**
+
+### Distinctions that must remain separate
+
+**Issue status** and **information state**. **Issue status** and **suitability
+code** — and none exists on this project. **Issue status** and **recipient
+acceptance**. **Issue status** and **publication authorisation**. **A label** and
+**a technical fact**.
+
+**And one worth naming aloud:** `Deferred` and `Escalated` appear on Slide 8 as
+**triage dispositions** and here as **alternate status dispositions**. **Related
+structures, not the same one, and neither is merged into the other.**
+
+### What not to imply
+
+- That `Deferred` or `Escalated` are **sequential stages**.
+- That the model **is configured**, or that a platform mapping exists.
+- That a **native label overrides** the governed meaning.
+- That **`Ready for Verification`** means verified.
+- That **`Closed`** proves anything was fixed or verified.
+- That a status is a **state**, a **code**, an **approval** or **acceptance**.
+- That the observed open items are **completed decisions**.
+
+### Likely audience question
+
+**"Our platform has different statuses — is that a problem?"**
+
+> *"Not automatically. The governed meaning is what matters; a native label
+> renders it. What would be a problem is the label quietly becoming the
+> governance — and the mapping between them is an implementation decision that
+> has not been taken."*
+
+**"If it's Closed, it's done — surely?"**
+
+> *"Closed is a label. Whether the closure conditions were met is a separate
+> question, and Slide 11 is about exactly that. Closure follows re-coordination
+> against reshared controlled information, not somebody changing a dropdown."*
+
+**"Is 'Escalated' a failure state?"**
+
+> *"No. It is a controlled disposition — a governed route for a matter that
+> cannot be settled in the normal cycle. Recording it is the system working, not
+> the system failing."*
+
+### Transition
+
+> *"`Ready for Verification` is a queue, not an outcome. So what does
+> verification actually require? The strategy is precise, and it is stricter than
+> most projects expect."*
+
+### Delivery warning
+
+**Never draw `Deferred` and `Escalated` in line with the six.** If your visual
+puts them in the sequence, the audience counts eight steps and the distinction is
+gone before you speak.
+
+---
+
+## Slide 11 — Verification: after reshare, against controlled information · 1.5 min
+
+### What you are doing here
+
+Three jobs: **when** verification may occur, **what** it tests, and **what it is
+not** — plus one honest admission about what the sources do not settle.
+
+### Opening line
+
+> *"Somebody says 'it's fixed.' That sentence is not verification, and Harrismith
+> is unusually blunt about why."*
+
+### The load-bearing explanation
+
+Lead with the sentence that carries the slide:
+
+> *"A material Issue is not closed solely because someone says it was fixed in
+> WIP. Closure follows re-coordination against reshared, controlled information —
+> a change nobody can see in Shared information has not been demonstrated."*
+
+Then the four prerequisites, **as conditions that must all hold**:
+
+> *"Checked. Authorised for reshare. Returned to Shared. Included in
+> re-coordination. All four, before verification is even possible."*
+
+Then the three findings:
+
+> *"And then you verify one of three things: the matter no longer exists, or it
+> meets the agreed coordination rule, or it has an explicitly approved and
+> recorded disposition. That third one matters — a matter can be verified as
+> dispositioned rather than eliminated."*
+
+Then the exclusions, quoted:
+
+> *"Verification does not equal design approval, professional certification,
+> publication authority, or recipient acceptance."*
+
+And the four near-misses:
+
+> *"Checking is not verification — it confirms readiness for the next decision.
+> A technical response is not verification — it is the change, not the check on
+> it. 'Ready for Verification' is not verification. And an Issue status alone is
+> not verification evidence."*
+
+### The honest admission
+
+> *"One thing the sources do not settle. The BEP says the coordinator **may**
+> verify. The strategy and the responsibility matrix treat verification as a
+> defined act. And the completion conditions say 'required verification was
+> completed' — conditioned on 'required.' Whether every cycle requires it is not
+> established, and I am not going to decide it for them."*
+
+### Source boundary
+
+`S2` §19 holds the prerequisites, findings and exclusions. `S1` §8.10 and §9.5
+govern; §9.3 supplies the checking distinction. **`S3` `X4` allocates it `Ck`.**
+**Do not reteach Module 4's transition system** — WIP, controlled reshare and
+`Shared` are all this slide needs.
+
+### Governance-status warning
+
+**`PROPOSED GOVERNANCE`** for §19. **`CONTROLLED GOVERNANCE`** for the
+exclusions and the responsibility position. **`NOT ESTABLISHED`** for whether
+verification is mandatory — **`H18`, and it stays that way.**
+
+### Implementation-status warning
+
+**No completed verification has been established.** Nothing on this project has
+been verified.
+
+### Distinctions that must remain separate
+
+**Checking** and **verification**. **Technical response** and **verification**.
+**`Ready for Verification`** and **verification**. **Verification** and
+**approval, certification, publication authority, acceptance**. **Verification**
+and **transfer of responsibility** — it transfers none.
+
+### What not to imply
+
+- That **every cycle requires** verification.
+- That the BIM Coordinator is a **named holder**.
+- That verification **authorises publication** or **accepts a deliverable**.
+- That verification **certifies** professional or regulatory compliance.
+- That a **screenshot or status label** proves verification.
+- That verification **moves responsibility** off the originator.
+
+### Likely audience question
+
+**"The team says they fixed it — isn't that enough to close?"**
+
+> *"Not for a material Issue. The strategy's words: it is not closed solely
+> because someone says it was fixed in WIP. Closure follows re-coordination
+> against reshared, controlled information. If nobody can see the change in
+> Shared, it has not been demonstrated."*
+
+**"Does verification mean the design is approved?"**
+
+> *"No — and the matrix says so in the same breath as allocating it. Coordinator
+> verification confirms the coordination process reached a disposition. It is not
+> discipline design approval, professional certification, or acceptance of
+> technical responsibility."*
+
+**"Do we have to verify everything?"**
+
+> *"The sources genuinely disagree in emphasis, and I am not going to paper over
+> it. The BEP says may verify; the strategy treats it as a defined act; the
+> completion conditions say required verification. Whether it is mandatory in
+> every cycle is recorded as not established."*
+
+### Transition
+
+> *"Verification settles one matter. Completion is a claim about a whole cycle —
+> and it is the claim most often made on the thinnest evidence."*
+
+### Delivery warning
+
+**Do not resolve the `may`/defined question, even if pressed.** Picking a side
+would decide a matter the sources leave open, and `H18` exists precisely to stop
+that.
+
+---
+
+## Slide 12 — Completion is not zero clashes · 1.5 min
+
+### What you are doing here
+
+Refusing the number everyone wants, and replacing it with nine conditions —
+**with their qualifiers intact**, because the qualifiers are the governance.
+
+### Opening line
+
+> *"Somebody will ask for the clash count. Harrismith's answer is that a
+> zero-clash report can be produced by testing nothing."*
+
+### The load-bearing explanation
+
+Quote the refusal in full:
+
+> *"Completion is not 'zero clashes.' A zero-clash report can be produced by
+> testing nothing, excluding everything, or resolving symptoms rather than
+> interfaces."*
+
+Then the nine conditions. **Do not read them one by one** — group them and
+**stress the qualifiers**:
+
+> *"For a defined coordination cycle, and as applicable: required inputs
+> identified, required readiness checks and coordination checks performed,
+> material findings triaged, required Issues created and assigned, required
+> resolutions or dispositions recorded, required verification completed,
+> unresolved matters explicitly carried forward or escalated, and coordination
+> evidence retained."*
+
+Then stop and point at the qualifiers:
+
+> *"'For a defined cycle.' 'As applicable.' 'Required.' 'Material.' Those words
+> are doing the governance. This is not an unconditional checklist you tick to
+> declare victory."*
+
+Then the point most audiences find surprising:
+
+> *"Condition eight means a cycle can complete with an unresolved matter carried
+> forward. Carrying something forward, explicitly and on the record, is a
+> governed outcome — not concealment, and not failure."*
+
+Then the boundary:
+
+> *"Completion is cycle-specific and purpose-specific. It does not mean the
+> entire design is complete, technically approved, construction-ready, or
+> accepted by the project. And it does not publish anything, resolve acceptance
+> authority, release T4, or unblock TRN-E03."*
+
+### Source boundary
+
+`S2` §21 holds the nine conditions; `S1` §8.11 governs the refusal and the
+purpose-specific limit. **Slide 13 owns evidence outputs, escalation detail and
+assurance — name them and stop.**
+
+### Governance-status warning
+
+**`CONTROLLED GOVERNANCE`** for the refusal and the purpose-specific limit;
+**`PROPOSED GOVERNANCE`** for the nine conditions. Publication and acceptance
+authority remain **UNRESOLVED**; `T4` and `TRN-E03` remain **BLOCKED**.
+
+### Implementation-status warning
+
+**No coordination cycle has been completed.** **None of the nine conditions is
+recorded as performed.** **`GCR-006` remains OPEN**, and **Module 6 teaching
+cannot close it** — only evidence of a complete governed cycle could.
+
+### Distinctions that must remain separate
+
+**Completion** and **zero clashes**. **Completion** and **absence of open
+matters**. **Cycle completion** and **project completion**. **Carried forward**
+and **concealed**. **What completion would require** and **what has been done**.
+
+### What not to imply
+
+- That **zero clashes** is completion or coordination.
+- That the nine are an **unconditional universal checklist**.
+- That any of the nine **has been performed**.
+- That completion means **complete, approved, construction-ready or accepted**.
+- That completion **publishes**, **resolves acceptance authority**, **releases
+  `T4`** or **unblocks `TRN-E03`**.
+- That an unresolved matter carried forward is a **failure**.
+- That **teaching this closes `GCR-006`**.
+
+### Likely audience question
+
+**"So what do we report to the client at the end of a cycle?"**
+
+> *"What was in scope, what was checked, what was found, what was dispositioned,
+> what was verified, and what is being carried forward — with the evidence
+> retained. Not a number. The number is the one thing that can be manufactured
+> by doing less work."*
+
+**"Can a cycle be complete if something's still open?"**
+
+> *"Yes — condition eight says so directly, provided the unresolved matter is
+> explicitly carried forward or escalated. What is not acceptable is the matter
+> quietly disappearing."*
+
+**"Does completing cycles close `GCR-006`?"**
+
+> *"One complete governed cycle, exercised and evidenced, would be what
+> `GCR-006` asks for. Teaching the conditions does not do it, and nothing in this
+> module changes its status. It is open."*
+
+### Transition
+
+> *"Which leaves the evidence itself — what a coordination cycle actually leaves
+> behind, and what a closed Issue still does not prove."*
+
+**Slide 13 is architecture only after T6-C.** If you are presenting before it is
+developed, **stop here and say so** rather than improvising.
+
+### Delivery warning
+
+**Never put a tick, a percentage or a green marker against any of the nine.**
+The slide's whole argument is that these are conditions that would have to be
+met, and none of them is recorded as met.
+
+---
+
 ## Status
 
 | Field | Value |
 |---|---|
-| Increment | **T6-B** — notes for Slides 4–8. T6-A wrote Slides 1–3 |
-| Notes developed | **Slides 1–8** |
-| Slides without notes | **9–14 — architecture only** |
+| Increment | **T6-C** — notes for Slides 9–12. T6-A wrote Slides 1–3; T6-B wrote Slides 4–8 |
+| Notes developed | **Slides 1–12** |
+| Slides without notes | **13–14 — architecture only** |
 | Module closing | **Not written.** Belongs to the increment that develops Slide 14 |
 | Timing | **`20.0 minutes allocated — not measured`** |
 | Slide progression | **No automatic slide-transition timing.** Advance manually when ready |
@@ -947,4 +1421,4 @@ project.**
 | Exercises | **None exist** |
 | Visual specifications / sources / assets | **None exist** |
 | Assembly package / PowerPoint | **None exist** |
-| Outstanding | **T6-C** — develop Slides 9–12. **Not started** |
+| Outstanding | **T6-D** — develop Slides 13–14, the module closing, exercises and final content reconciliation. **Not started** |
