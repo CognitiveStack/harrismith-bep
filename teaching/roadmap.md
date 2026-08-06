@@ -31,7 +31,7 @@ moves — not as the subject.
 | 3 | ISO 19650 information-management principles | **Content, visual source, assembly package and PowerPoint produced.** Review and rehearsal **deferred** |
 | 4 | CDE workflows and information states | **Content, visual source, assembly package and PowerPoint produced.** Review and rehearsal **deferred** |
 | 5 | Responsibility matrices and information-delivery planning | **Content, visual source, assembly package and PowerPoint produced; governance review ACCEPTED (`REV01`).** Rehearsal and measured timing **DEFERRED** |
-| 6 | **Coordination, Review, Approval and Assurance** | **CURRENT — ACTIVE.** **`T6-A` to `T6-F` COMPLETE** — eight teaching files, **all fourteen slides developed; teaching-content baseline COMPLETE**; **fourteen visual specifications `M6V-01`–`M6V-14` ACCEPTED after `T6-E-R`**; **fourteen visual sources `M06-S01`–`M06-S14`, `SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`**. `T6-G` **blocked pending that acceptance** |
+| 6 | **Coordination, Review, Approval and Assurance** | **CURRENT — ACTIVE.** **`T6-A` to `T6-G` COMPLETE** — eight teaching files, **all fourteen slides developed; teaching-content baseline COMPLETE**; **fourteen visual specifications ACCEPTED after `T6-E-R`**; **fourteen visual sources ACCEPTED after `T6-F-R`**; **seven-file presentation assembly package `PENDING CHATGPT GOVERNANCE REVIEW`**. `T6-H` **blocked pending that acceptance** |
 | 7 | Translating Harrismith into the Triviron BEP | Planned |
 | 8 | Facilitating and presenting a BEP workshop | Planned |
 
@@ -370,9 +370,10 @@ approval workflow mechanics, assurance sampling and closure all remain
 
 ### Module 6 — Coordination, Review, Approval and Assurance — **CURRENT — ACTIVE**
 
-**Module 6 is the active module. `T6-A` to `T6-F` are COMPLETE. The
+**Module 6 is the active module. `T6-A` to `T6-G` are COMPLETE. The
 teaching-content baseline is COMPLETE, the visual-specification baseline is
-`ACCEPTED after T6-E-R`, and the visual-source baseline is COMPLETE and
+`ACCEPTED after T6-E-R`, the visual-source baseline is `ACCEPTED after T6-F-R`,
+and the seven-file presentation assembly package is COMPLETE and
 `PENDING CHATGPT GOVERNANCE REVIEW`.**
 
 Deliverable: a 20-minute, fourteen-slide presentation on **how Harrismith
@@ -451,8 +452,19 @@ native-layout sources `M06-S01`–`M06-S14` with an eighteen-field header, sixte
 sections and a completion table each; a **visual register**; a **slide-visual
 map**; an **asset-set README carrying all 75 STOP conditions**; and a
 **rendered-status README**. **All fourteen are `SOURCE COMPLETE — PENDING CHATGPT
-GOVERNANCE REVIEW`, and none is accepted.** **`T6-E`, `T6-E-R` and `T6-F` added
-no teaching statement, register entry, prohibited claim or exercise.**
+GOVERNANCE REVIEW` at that point.** **ChatGPT governance review then accepted
+them: `T6-F — ACCEPTED after T6-F-R`.** **`T6-E`, `T6-E-R`, `T6-F`, `T6-F-R` and
+`T6-G` added no teaching statement, register entry, prohibited claim or
+exercise.**
+
+**`T6-G` prepared the presentation assembly package** —
+[`module-06-.../presentation/`](module-06-coordination-review-approval-and-assurance/presentation/),
+**seven production-handoff files**: package README, deck specification, slide
+copy, presenter cues, asset manifest, production checklist and review checklist.
+It carries the **75 accepted STOP conditions** unchanged, adds **40 package-level
+production controls** and **56 automatic-fail conditions**, and is **`PENDING
+CHATGPT GOVERNANCE REVIEW` and not accepted**. **It is a PowerPoint-production
+handoff, not a produced presentation.**
 
 **No rendered asset, no presentation package and no Module 6 PowerPoint exist**,
 and **no renderer or dependency is installed**. No review or rehearsal has been
@@ -461,8 +473,8 @@ performed.
 **Teaching content, visual specifications and visual sources are complete;
 presentation production has not started.**
 
-**Next development increment: `T6-G` — presentation assembly package.
-`NOT STARTED — BLOCKED PENDING T6-F ACCEPTANCE`.**
+**Next development increment: `T6-H` — external PowerPoint production.
+`NOT STARTED — BLOCKED PENDING T6-G ACCEPTANCE`.**
 
 ### Modules 7–8 — future scope
 
@@ -539,7 +551,7 @@ of governance under condition. Describing it neither advances nor reopens it.
 | Field | Value |
 |---|---|
 | **Active module** | **Module 6 — Coordination, Review, Approval and Assurance** — **CURRENT — ACTIVE** |
-| **Next development increment** | **`T6-G`** — presentation assembly package. **`NOT STARTED — BLOCKED PENDING T6-F ACCEPTANCE`** |
+| **Next development increment** | **`T6-H`** — external PowerPoint production. **`NOT STARTED — BLOCKED PENDING T6-G ACCEPTANCE`** |
 | Module 6 established (T6-A) | **COMPLETE.** Module directory, **six files** · source inventory **`S1`–`S14`** with exact paths and declared statuses, **`E1`–`E9` excluded with reasons** · **four principal resources analysed separately** · **nine registers** · **18 hypotheses** — 15 `CONFIRMED`, 2 `CONFIRMED WITH QUALIFICATION`, 1 `NOT ESTABLISHED`, 0 `CONTRADICTED` · **six terminology variances, none harmonised** · **14 unresolved matters, none resolved** · **49 classified statements** · **34 prohibited claims** plus 4 standing · 20-minute fourteen-slide architecture · **Slides 1–3** |
 | Module 6 developed (T6-B) | **Slides 4–8.** Federation — a lens that transfers no authorship, technical ownership or deliverable status · input readiness as the **entry condition**, with visible ≠ selected ≠ suitable ≠ ready · **twelve proposed interface checks, every tolerance `TBD`**, and a software default is **not** a project requirement · the **finding-to-Issue decision** and the recorded BEP/strategy scope variance · the **seven triage dispositions** and the **`Accepted condition`** warning. **76 new classified statements** (125 total) · **16 new prohibited claims** (50 total). **No source, hypothesis, variance or unresolved matter added, reclassified or populated** |
 | Module 6 developed (T6-C) | **Slides 9–12.** Assignment and technical response — the coordinator coordinates, the originating task team resolves in its own WIP, and **no date, priority, owner or Issue identifier is invented** · the **six-status governed model**, with **`Deferred` and `Escalated` as controlled alternate dispositions, not stages**, and the model **not claimed to be configured** · verification — **four prerequisites, three findings, four exclusions**, and **`Ready for Verification` is not verification** · completion — **nine conditions with their `as applicable` and `required` qualifiers intact**, and **completion is not zero clashes**. **63 new classified statements** (188 total) · **23 new prohibited claims** (73 total). **No source, hypothesis, variance or unresolved matter added, reclassified or populated** |
@@ -551,8 +563,11 @@ of governance under condition. Describing it neither advances nor reopens it.
 | Module 6 specified (T6-E) | **Fourteen visual specifications** `M6V-01`–`M6V-14`, **one per slide, 31 fields each** · module-wide canvas, status, external-imagery, live-evidence, visual-form, accessibility and visual-economy rules · **75 module-wide STOP conditions** · specification summary · slide-to-specification map · **reserved future sources `M06-S01`–`M06-S14`**. **All fourteen: `External imagery: NONE REQUIRED`, `Live evidence: NONE REQUIRED`, `Mermaid PROHIBITED`, native reconstruction.** **`SPECIFICATION COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`; not accepted.** **No statement, classification, count, register entry, prohibited claim or exercise changed. Eight Module 6 files** |
 | Module 6 corrected (T6-E-R) | **Three bounded corrections.** Prohibited claim **92** and standing prohibition **D** — stale production-state clauses corrected; **claim numbering, meaning and totals unchanged**. **`M6V-06` numeric-rule contradiction** reconciled across fields 16, 20 and 22 — `CI-01`–`CI-12` are identifiers and remain permitted; every numeric tolerance, measurement, count, percentage, score and threshold prohibited. **PowerPoint-existence scope** corrected so earlier-module external decks are no longer described as absent. **No teaching content, statement, classification, count, exercise or specification form changed** |
 | Module 6 visual specifications | **ACCEPTED** — `T6-E — ACCEPTED after T6-E-R`; `M6V-01`–`M6V-14`; **75 STOP conditions**; zero Mermaid, zero external imagery, zero live-evidence requirements |
-| Module 6 visual sources (T6-F) | **COMPLETE** — **eighteen files** in [`assets/module-06/`](assets/module-06/): fourteen native-layout sources `M06-S01`–`M06-S14`, each with an **eighteen-field header, sixteen sections and a four-row completion table**; **visual register**; **slide-visual map**; **asset-set README carrying all 75 STOP conditions**; **rendered-status README**. **All `SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`; none accepted.** **Rendered `NONE`; no renderer or dependency installed; zero Mermaid; zero external imagery; zero live-evidence requirements.** **No statement, classification, count, register entry, prohibited claim or exercise changed** |
-| Module 6 material not created | **No rendered asset, presentation assembly package or Module 6 PowerPoint.** No `.pptx` committed. No review, rehearsal or measured timing |
+| Module 6 visual sources (T6-F) | **COMPLETE** — **eighteen files** in [`assets/module-06/`](assets/module-06/): fourteen native-layout sources `M06-S01`–`M06-S14`, each with an **eighteen-field header, sixteen sections and a four-row completion table**; **visual register**; **slide-visual map**; **asset-set README carrying all 75 STOP conditions**; **rendered-status README**. **All `SOURCE COMPLETE — ACCEPTED after T6-F-R`.** **Rendered `NONE`; no renderer or dependency installed; zero Mermaid; zero external imagery; zero live-evidence requirements.** **No statement, classification, count, register entry, prohibited claim or exercise changed** |
+| Module 6 corrected (T6-F-R) | **Production-state reconciliation.** Prohibited claim **92** and standing prohibition **D** still enumerated *no visual source, asset…*, which `T6-F` had overtaken; corrected to the current truth. **Claim numbering, core meaning, register totals and standing prohibitions A–C unchanged.** **The fourteen source files, register, slide map, asset README, rendered README and the 75 STOP conditions were byte-unchanged** |
+| Module 6 visual sources | **ACCEPTED** — `T6-F — ACCEPTED after T6-F-R` |
+| Module 6 assembly package (T6-G) | **COMPLETE** — [`module-06-.../presentation/`](module-06-coordination-review-approval-and-assurance/presentation/), **seven production-handoff files**; **75 accepted STOP conditions carried unchanged**, **40 package-level additions**, **56 automatic-fail conditions**; **`20.0 minutes allocated — not measured`**. **`PENDING CHATGPT GOVERNANCE REVIEW`; not accepted.** **No PowerPoint, no rendered asset, no binary, no renderer.** **Module 6 teaching-file count unchanged at eight; asset-set count unchanged at eighteen** |
+| Module 6 material not created | **No rendered visual asset and no Module 6 PowerPoint.** No `.pptx` committed. No deck review, rehearsal or measured timing |
 | Module 5 teaching-production phase | **COMPLETE.** **T5-A to T5-I-D complete** |
 | Module 5 last increment | **T5-I-D — COMPLETE.** Rehearsal deferred; programme advanced to Module 6 |
 | Module 5 deliverable | 20-minute, **fourteen-slide** presentation — **PRODUCED and ACCEPTED (`REV01`)**; **not rehearsed, timing not measured** |

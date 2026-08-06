@@ -16,8 +16,11 @@ T6-E-R`**.
 > **No visual is rendered.**
 > **The source baseline remains pending ChatGPT governance review.**
 
-**No source in this set is accepted.** **`T6-G` — presentation assembly
-package — is `NOT STARTED — BLOCKED PENDING T6-F ACCEPTANCE`.**
+**The source baseline is `ACCEPTED after T6-F-R`.** **`T6-G` produced the
+seven-file presentation assembly package —
+[`../../module-06-coordination-review-approval-and-assurance/presentation/`](../../module-06-coordination-review-approval-and-assurance/presentation/) —
+which is `PENDING CHATGPT GOVERNANCE REVIEW` and not accepted. `T6-H` — external
+PowerPoint production — is `NOT STARTED — BLOCKED PENDING T6-G ACCEPTANCE`.**
 
 ---
 
@@ -66,8 +69,8 @@ screen-reader description · and the native PowerPoint reconstruction method.
 - **not a picture** — nothing here is an image;
 - **not a rendered asset** — nothing has been rendered, and no renderer is
   installed;
-- **not a deck** — there is no presentation assembly package and no Module 6
-  PowerPoint;
+- **not a deck** — the `T6-G` assembly package is a production handoff, not a
+  deck, and **no Module 6 PowerPoint exists**;
 - **not a record of project implementation** — no source file records that any
   coordination act was performed;
 - **not a source of authority** — no visual source creates, resolves or
@@ -84,7 +87,7 @@ accepted Module 6 visual-demonstration plan
   ↓
 Module 6 visual-source files                 ← T6-F, this directory
   ↓
-future presentation assembly package
+presentation assembly package (T6-G)
   ↓
 future external PowerPoint
 ```
@@ -320,7 +323,7 @@ explicitly.
 
 | Field | Required value |
 |---|---|
-| Source status | `SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW` |
+| Source status | `SOURCE COMPLETE — ACCEPTED after T6-F-R` |
 | Rendered status | `NONE` |
 | Renderer used | `None` |
 | Format | `Markdown native-layout specification — not Mermaid` |
@@ -360,8 +363,8 @@ or network rendering service was installed or used.**
 | Eighteen-field header | **Present in all fourteen** |
 | Sixteen sections | **Present in all fourteen** |
 | Four-row completion table | **Present in all fourteen** |
-| Source status | **`SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW` × 14** |
-| Any source accepted | **None** |
+| Source status | **`SOURCE COMPLETE — ACCEPTED after T6-F-R` × 14** |
+| Source acceptance | **GIVEN — `T6-F — ACCEPTED after T6-F-R`** |
 | External imagery | **`NONE REQUIRED` × 14** |
 | Live evidence | **`NONE REQUIRED` × 14** |
 | Mermaid | **`PROHIBITED` × 14 — no Mermaid block exists in this set** |
@@ -371,7 +374,7 @@ or network rendering service was installed or used.**
 | Image, SVG, PNG, JPG, PDF or Office file | **None in this set** |
 | Visual register | **Complete** — [`visual-register.md`](visual-register.md) |
 | Slide-visual map | **Complete** — [`slide-visual-map.md`](slide-visual-map.md) |
-| Presentation assembly package | **None** |
+| Presentation assembly package | **Complete (`T6-G`)** — [`../../module-06-coordination-review-approval-and-assurance/presentation/`](../../module-06-coordination-review-approval-and-assurance/presentation/), **seven files**; **`PENDING CHATGPT GOVERNANCE REVIEW`** |
 | Module 6 PowerPoint | **None.** No `.pptx` is committed to this repository |
 | Presentation review | **NOT PERFORMED** |
 | Rehearsal | **NOT PERFORMED** |
@@ -382,10 +385,11 @@ or network rendering service was installed or used.**
 
 ## 13. Next stage
 
-**`T6-G` — presentation assembly package.**
+**`T6-H` — external PowerPoint production.**
 
-**State: `NOT STARTED — BLOCKED PENDING T6-F ACCEPTANCE`.**
+**State: `NOT STARTED — BLOCKED PENDING T6-G ACCEPTANCE`.**
 
-**`T6-G` may not begin until ChatGPT governance review accepts this
-visual-source baseline.** Nothing in this directory is accepted, and nothing here
-authorises a package, a PowerPoint, a render, a review or a rehearsal.
+**`T6-G` produced the presentation assembly package**, which is **`PENDING
+CHATGPT GOVERNANCE REVIEW` and not accepted**. **`T6-H` may not begin until that
+review accepts it.** Nothing in this directory authorises a PowerPoint, a render,
+a review or a rehearsal.

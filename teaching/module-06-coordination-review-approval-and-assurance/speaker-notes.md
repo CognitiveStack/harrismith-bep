@@ -1715,7 +1715,8 @@ information exists in this repository.**
 | Rehearsal | **None performed** |
 | Exercises | [`exercises.md`](exercises.md) — created in **T6-D** |
 | Visual specifications | **14 of 14 — `M6V-01`–`M6V-14`**, **ACCEPTED after `T6-E-R`** — [`visual-demonstration-plan.md`](visual-demonstration-plan.md) |
-| Visual sources | **14 of 14 — `M06-S01`–`M06-S14` (T6-F)**, all **`SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`** — [`../assets/module-06/`](../assets/module-06/) |
+| Visual sources | **14 of 14 — `M06-S01`–`M06-S14`**, **ACCEPTED after `T6-F-R`** — [`../assets/module-06/`](../assets/module-06/) |
 | Rendered assets | **None** |
-| Assembly package / Module 6 PowerPoint | **None exist** |
-| Outstanding | **T6-G** — presentation assembly package. **`NOT STARTED — BLOCKED PENDING T6-F ACCEPTANCE`** |
+| Assembly package | **COMPLETE (T6-G)** — [`presentation/`](presentation/), seven files; **`PENDING CHATGPT GOVERNANCE REVIEW`** |
+| Module 6 PowerPoint | **None exists.** No `.pptx` committed |
+| Outstanding | **T6-H** — external PowerPoint production. **`NOT STARTED — BLOCKED PENDING T6-G ACCEPTANCE`** |

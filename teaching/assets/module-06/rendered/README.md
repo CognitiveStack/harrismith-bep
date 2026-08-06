@@ -92,11 +92,11 @@ tree.** **No external imagery was browsed for or downloaded.**
 
 | Field | Value |
 |---|---|
-| Increment | **`T6-F`** — visual-source production |
-| Visual sources | **`M06-S01`–`M06-S14`, all `SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`** |
-| Rendered assets | **`NONE`** |
-| Module 6 assembly package | **`NONE`** |
+| Increment | **`T6-F`** — visual-source production, **ACCEPTED after `T6-F-R`** |
+| Visual sources | **`M06-S01`–`M06-S14`, all `SOURCE COMPLETE — ACCEPTED after T6-F-R`** |
+| Rendered visual assets | **`NONE`** |
+| Module 6 assembly package | **COMPLETE (`T6-G`)** — seven files, **`PENDING CHATGPT GOVERNANCE REVIEW`** |
 | Module 6 PowerPoint | **`NONE`.** No `.pptx` is committed to this repository |
 | Presentation review / rehearsal | **`NOT PERFORMED`** |
 | Timing | **`20.0 minutes allocated — not measured`** |
-| Next | **`T6-G` — `NOT STARTED — BLOCKED PENDING T6-F ACCEPTANCE`** |
+| Next | **`T6-H` — `NOT STARTED — BLOCKED PENDING T6-G ACCEPTANCE`** |

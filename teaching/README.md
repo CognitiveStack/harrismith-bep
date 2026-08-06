@@ -156,7 +156,8 @@ teaching/
 │   ├── presentation-outline.md      20-minute structure; all fourteen slides developed
 │   ├── speaker-notes.md             notes for all fourteen slides, plus both closings
 │   ├── exercises.md                 practice and self-assessment — 91 exercises
-│   └── visual-demonstration-plan.md fourteen visual specifications, M6V-01 to M6V-14, accepted
+│   ├── visual-demonstration-plan.md fourteen visual specifications, M6V-01 to M6V-14, accepted
+│   └── presentation/                assembly package — production handoff, pending review
 ├── shared/
 │   ├── glossary.md                  teaching glossary across all modules
 │   └── presentation-principles.md   how these presentations are built
@@ -167,7 +168,7 @@ teaching/
     ├── module-03/                   Module 3 visual source set
     ├── module-04/                   Module 4 visual source set — 14 native-layout sources
     ├── module-05/                   Module 5 visual source set, fourteen native-layout sources
-    └── module-06/                   Module 6 visual source set, fourteen native-layout sources, pending review
+    └── module-06/                   Module 6 visual source set, fourteen native-layout sources, accepted
 ```
 
 **Module 5's teaching-content baseline, visual specifications, visual-source
@@ -214,7 +215,7 @@ presenter advances each slide manually when ready**.
 **Module 5's teaching-production phase is COMPLETE, and Module 6 —
 Coordination, Review, Approval and Assurance — is the current active module.**
 
-**`T6-A` to `T6-F` are COMPLETE, and the Module 6 teaching-content baseline is
+**`T6-A` to `T6-G` are COMPLETE, and the Module 6 teaching-content baseline is
 COMPLETE.** Module 6 holds **eight teaching files** — objective and
 scope, a source inventory of **`S1`–`S14`** with **`E1`–`E9`** excluded, a
 separate comparison of the **four principal resources**, a source map carrying
@@ -230,13 +231,19 @@ closings and **91 exercises**. **`T6-E` specified fourteen visuals**,
 the visual-source baseline** in [`assets/module-06/`](assets/module-06/) —
 **eighteen files**: fourteen native-layout sources `M06-S01`–`M06-S14`, a visual
 register, a slide-visual map, an asset-set README and a rendered-status README.
-**All fourteen sources are `SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`,
-and none is accepted.** **It is a visual source set, not a module teaching
-file.** **No rendered asset, no presentation package and no Module 6 PowerPoint
-exist**, and no review or rehearsal has been performed. **`GCR-006` remains OPEN
-— no complete governed coordination cycle has been demonstrated.** **`T6-G` —
-presentation assembly package — is `NOT STARTED — BLOCKED PENDING T6-F
-ACCEPTANCE`.**
+**All fourteen sources are `SOURCE COMPLETE — ACCEPTED after T6-F-R`.** **It is a visual source set, not a module teaching
+file.**
+
+**`T6-G` produced the presentation assembly package** —
+[`module-06-.../presentation/`](module-06-coordination-review-approval-and-assurance/presentation/),
+**seven production-handoff files**: package README, deck specification, slide
+copy, presenter cues, asset manifest, production checklist and review checklist.
+**It is `PENDING CHATGPT GOVERNANCE REVIEW` and not accepted**, and **it is a
+PowerPoint-production handoff, not a produced presentation.** **No rendered
+visual asset and no Module 6 PowerPoint exist**, and no review or rehearsal has
+been performed. **`GCR-006` remains OPEN — no complete governed coordination
+cycle has been demonstrated.** **`T6-H` — external PowerPoint production — is
+`NOT STARTED — BLOCKED PENDING T6-G ACCEPTANCE`.**
 
 **`T5-F-B-R` reconciled the Module 5 production-state records** across the module
 and programme files. **No teaching claim, statement classification, count or

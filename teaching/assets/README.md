@@ -3,8 +3,9 @@
 **Status:** Visual **source** is committed for Modules 1, 2, 3, 4, 5 and 6. **No
 rendered image asset exists anywhere in this directory.**
 
-**Module 6's visual-source baseline is the newest and is `SOURCE COMPLETE —
-PENDING CHATGPT GOVERNANCE REVIEW`.** It is **not accepted**.
+**Module 6's visual-source baseline is `SOURCE COMPLETE — ACCEPTED after
+T6-F-R`.** Its **presentation assembly package (`T6-G`) is `PENDING CHATGPT
+GOVERNANCE REVIEW` and not accepted**.
 
 ---
 
@@ -34,7 +35,7 @@ teaching/assets/
 | [`module-03/`](module-03/) | **Complete — Slides 1–14** | **None** | **None** |
 | [`module-04/`](module-04/) | **Complete — Slides 1–14** | **None** | **None** |
 | [`module-05/`](module-05/) | **Complete — Slides 1–14** | **None** | **None** |
-| [`module-06/`](module-06/) | **Complete — Slides 1–14; `PENDING CHATGPT GOVERNANCE REVIEW`** | **None** | **None** |
+| [`module-06/`](module-06/) | **Complete — Slides 1–14; ACCEPTED after `T6-F-R`** | **None** | **None** |
 
 **Module 3 registers two identifier spaces of different sizes** — **13 visual
 concepts** (`V1`–`V13`) and **14 slide-source files** (`M03-S01`–`M03-S14`),
@@ -93,9 +94,12 @@ is produced and accepted as `REV01`** (T5-H, corrected in T5-H-R1) — **held
 outside this repository and not committed here**. **Rehearsal and measured timing
 remain `DEFERRED` by governance decision (T5-I-D).**
 
-**Module 6's visual-source baseline is complete (T6-F) and pending ChatGPT
-governance review.** **No Module 6 assembly package and no Module 6 PowerPoint
-exist**, and **`T6-G` is `NOT STARTED — BLOCKED PENDING T6-F ACCEPTANCE`.**
+**Module 6's visual-source baseline is complete and ACCEPTED after `T6-F-R`.**
+**Its presentation assembly package is complete (`T6-G`)** —
+[`../module-06-coordination-review-approval-and-assurance/presentation/`](../module-06-coordination-review-approval-and-assurance/presentation/),
+**seven production-handoff files** — and is **`PENDING CHATGPT GOVERNANCE
+REVIEW`, not accepted**. **No Module 6 PowerPoint exists**, and **`T6-H` is
+`NOT STARTED — BLOCKED PENDING T6-G ACCEPTANCE`.**
 
 **One prohibition applies to `module-03/` specifically, and it is absolute.**
 **No ISO diagram, table or figure is reproduced, redrawn, adapted or
@@ -195,7 +199,7 @@ Each module holds its own visual register rather than a shared list here.
 | Module 3 | [`module-03/visual-register.md`](module-03/visual-register.md) | 14 slide visuals, 13 concepts, `SOURCE COMPLETE` | **None** |
 | Module 4 | [`module-04/visual-register.md`](module-04/visual-register.md) | 14 slide visuals, 14 concepts, all `SOURCE COMPLETE` | **None** |
 | Module 5 | [`module-05/visual-register.md`](module-05/visual-register.md) | 14 slide visuals, 14 concepts, all `SOURCE COMPLETE` | **None** |
-| Module 6 | [`module-06/visual-register.md`](module-06/visual-register.md) | 14 slide visuals, 14 concepts, all `SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW` | **None** |
+| Module 6 | [`module-06/visual-register.md`](module-06/visual-register.md) | 14 slide visuals, 14 concepts, all `SOURCE COMPLETE — ACCEPTED after T6-F-R` | **None** |
 
 ## 6. Rendering
 

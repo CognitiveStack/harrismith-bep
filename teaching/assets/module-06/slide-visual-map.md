@@ -21,9 +21,9 @@ nothing and approves nothing.
 **pacing allocations**. **No automatic slide-transition timing exists; the
 presenter advances each slide manually when ready.**
 
-**All fourteen sources are `SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE
-REVIEW`.** **None is accepted.** **`T6-G` is `NOT STARTED — BLOCKED PENDING T6-F
-ACCEPTANCE`.**
+**All fourteen sources are `SOURCE COMPLETE — ACCEPTED after T6-F-R`.** **`T6-G`
+produced the seven-file presentation assembly package, which is `PENDING CHATGPT
+GOVERNANCE REVIEW`; `T6-H` is `NOT STARTED — BLOCKED PENDING T6-G ACCEPTANCE`.**
 
 ---
 
@@ -348,17 +348,16 @@ ACCEPTANCE`.**
 | Automatic slide-transition timing | **None.** Presenter advances manually |
 | Deliverable from repository source alone | **14 × YES** |
 
-## 4. Status — pending review
+## 4. Status
 
 | Field | Value |
 |---|---|
-| Increment | **`T6-F` — COMPLETE** |
-| Sources | **`M06-S01`–`M06-S14`, all `SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`** |
-| Accepted | **NO** |
-| Rendered assets | **NONE** |
-| Assembly package | **NONE** |
+| Increment | **`T6-F` — COMPLETE and ACCEPTED after `T6-F-R`** |
+| Sources | **`M06-S01`–`M06-S14`, all `SOURCE COMPLETE — ACCEPTED after T6-F-R`** |
+| Rendered visual assets | **NONE** |
+| Assembly package | **COMPLETE (`T6-G`)** — seven files, **`PENDING CHATGPT GOVERNANCE REVIEW`, not accepted** |
 | Module 6 PowerPoint | **NONE.** No `.pptx` committed to this repository |
 | Presentation review / rehearsal | **NOT PERFORMED** |
 | Timing | **`20.0 minutes allocated — not measured`** |
-| Next | **`T6-G` — presentation assembly package** |
-| `T6-G` state | **`NOT STARTED — BLOCKED PENDING T6-F ACCEPTANCE`** |
+| Next | **`T6-H` — external PowerPoint production** |
+| `T6-H` state | **`NOT STARTED — BLOCKED PENDING T6-G ACCEPTANCE`** |

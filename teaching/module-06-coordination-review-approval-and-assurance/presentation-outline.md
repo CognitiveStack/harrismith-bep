@@ -9,7 +9,9 @@ visual specifications `M6V-01`–`M6V-14`** are **ACCEPTED after `T6-E-R`** —
 [`visual-demonstration-plan.md`](visual-demonstration-plan.md) — and the
 **fourteen visual sources `M06-S01`–`M06-S14` are `SOURCE COMPLETE — PENDING
 CHATGPT GOVERNANCE REVIEW`** — [`../assets/module-06/`](../assets/module-06/).
-There is **no rendered asset, no assembly package and no Module 6 PowerPoint**,
+The **seven-file presentation assembly package** exists (`T6-G`) and is
+**`PENDING CHATGPT GOVERNANCE REVIEW`**. There is **no rendered visual asset and
+no Module 6 PowerPoint**,
 and no review or rehearsal has been performed.
 
 Source identifiers `S1`–`S14` are defined in
@@ -1838,10 +1840,10 @@ Harrismith value inside any answer area**.
 | Classified statements | **218** — 49 (T6-A) + 76 (T6-B) + 63 (T6-C) + 30 (Slides 13–14, T6-D) |
 | Exercises | [`exercises.md`](exercises.md) — created in **T6-D** |
 | Visual specifications | **14 of 14 — `M6V-01`–`M6V-14`**, **ACCEPTED after `T6-E-R`** |
-| Visual sources | **14 of 14 — `M06-S01`–`M06-S14` (T6-F)**, all **`SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`**; **none accepted** |
+| Visual sources | **14 of 14 — `M06-S01`–`M06-S14`**, **ACCEPTED after `T6-F-R`** |
 | Rendered assets | **None.** No renderer or dependency installed |
-| Assembly package | **None** |
+| Assembly package | **COMPLETE (T6-G)** — [`presentation/`](presentation/), seven files; **`PENDING CHATGPT GOVERNANCE REVIEW`** |
 | Module 6 PowerPoint | **None.** No `.pptx` is committed to this repository |
 | Review, rehearsal, measured timing | **None performed** |
 | Complete governed coordination cycle | **NOT DEMONSTRATED.** `GCR-006` **OPEN** |
-| Outstanding | **T6-G** — presentation assembly package. **`NOT STARTED — BLOCKED PENDING T6-F ACCEPTANCE`** |
+| Outstanding | **T6-H** — external PowerPoint production. **`NOT STARTED — BLOCKED PENDING T6-G ACCEPTANCE`** |

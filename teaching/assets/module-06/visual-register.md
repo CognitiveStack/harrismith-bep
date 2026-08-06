@@ -5,7 +5,7 @@ each Module 6 visual is, what it rests on, and what it must never assert. It
 decides nothing and approves nothing.
 
 **Fourteen visual concepts, fourteen slides, fourteen visual-source files.**
-**All fourteen sources: `SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`.**
+**All fourteen sources: `SOURCE COMPLETE — ACCEPTED after T6-F-R`.**
 **Rendered: `NONE`.**
 
 **The controlling document is the accepted specification** —
@@ -15,8 +15,10 @@ plan differ, the plan wins.** **Where the plan and the accepted teaching content
 differ, the teaching content wins.** **Where any teaching material conflicts with
 a controlled Harrismith source, the controlled source wins.**
 
-**No source in this set is accepted.** **`T6-G` is `NOT STARTED — BLOCKED PENDING
-T6-F ACCEPTANCE`.**
+**The source baseline is `ACCEPTED after T6-F-R`.** **`T6-G` produced the
+seven-file presentation assembly package, which is `PENDING CHATGPT GOVERNANCE
+REVIEW`; `T6-H` — external PowerPoint production — is `NOT STARTED — BLOCKED
+PENDING T6-G ACCEPTANCE`.**
 
 ---
 
@@ -38,20 +40,20 @@ Controlled and teaching identifiers — `CI-01`–`CI-12`, `X1`–`X5`, `A1`–`
 
 | Visual | Slide | Source | Fixed form | Principal overclaim risk | Source status | Rendered |
 |---|---:|---|---|---|---|---|
-| `M6V-01` | 1 | [`M06-S01.md`](M06-S01.md) | Two equal panels over one full-width status strip | A confident opener reads as "here is the process we run" | `SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW` | `NONE` |
-| `M6V-02` | 2 | [`M06-S02.md`](M06-S02.md) | Two separate vocabulary domains, anti-collapse warning, equal-weight scope comparison | Nine boxes read as one nine-value vocabulary; a styled scope resolves variance 3 | `SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW` | `NONE` |
-| `M6V-03` | 3 | [`M06-S03.md`](M06-S03.md) | Governed-route band, separating status gap, unconnected evidence panel | A closed loop reads as a cycle that turns; nearby evidence reads as its inputs | `SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW` | `NONE` |
-| `M6V-04` | 4 | [`M06-S04.md`](M06-S04.md) | Six containers above an unauthored federated view, upward `assembled from` connectors | A view beneath six containers reads as a funnel; six containers read as six organisations | `SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW` | `NONE` |
-| `M6V-05` | 5 | [`M06-S05.md`](M06-S05.md) | Readiness gate with two exactly equal outcomes | Any asymmetry converts a governed exclusion into a failure | `SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW` | `NONE` |
-| `M6V-06` | 6 | [`M06-S06.md`](M06-S06.md) | Deliberately incomplete interface grid plus separate six-check-type list | An empty cell reads as oversight; a marked cell reads as a check that has run | `SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW` | `NONE` |
-| `M6V-07` | 7 | [`M06-S07.md`](M06-S07.md) | Mixed findings, one decision point, two exactly equal outcomes | Left-to-right layout is itself a conveyor | `SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW` | `NONE` |
-| `M6V-08` | 8 | [`M06-S08.md`](M06-S08.md) | Exactly seven equal-weight triage rows plus one caution call-out | A call-out on one row of seven reads as a highlight, not a caution | `SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW` | `NONE` |
-| `M6V-09` | 9 | [`M06-S09.md`](M06-S09.md) | Two separate lanes with exactly one downward `assigns` connector | A two-lane diagram invites a return arrow, which transfers ownership | `SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW` | `NONE` |
-| `M6V-10` | 10 | [`M06-S10.md`](M06-S10.md) | Six-status main sequence with two detached alternate dispositions | A clean six-step line looks like a configured workflow | `SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW` | `NONE` |
-| `M6V-11` | 11 | [`M06-S11.md`](M06-S11.md) | Four prerequisites, conditional verification gate, three equal findings | A gate asserts that everything passes through it, resolving `H18` by geometry | `SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW` | `NONE` |
-| `M6V-12` | 12 | [`M06-S12.md`](M06-S12.md) | Nine deliberately unticked completion conditions with visible global qualifiers | A nine-item checklist is read as a record of work | `SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW` | `NONE` |
-| `M6V-13` | 13 | [`M06-S13.md`](M06-S13.md) | Three equal evidence/escalation/closure blocks above a heavier assurance-absence strip | Nine outputs read as deliverables that exist; ten limits read as an indictment | `SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW` | `NONE` |
-| `M6V-14` | 14 | [`M06-S14.md`](M06-S14.md) | Seven equal question groups, all answers `NOT YET ESTABLISHED`, equal transfer columns | A grid implies priority; a *transfers* column placed first implies a caveat | `SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW` | `NONE` |
+| `M6V-01` | 1 | [`M06-S01.md`](M06-S01.md) | Two equal panels over one full-width status strip | A confident opener reads as "here is the process we run" | `SOURCE COMPLETE — ACCEPTED after T6-F-R` | `NONE` |
+| `M6V-02` | 2 | [`M06-S02.md`](M06-S02.md) | Two separate vocabulary domains, anti-collapse warning, equal-weight scope comparison | Nine boxes read as one nine-value vocabulary; a styled scope resolves variance 3 | `SOURCE COMPLETE — ACCEPTED after T6-F-R` | `NONE` |
+| `M6V-03` | 3 | [`M06-S03.md`](M06-S03.md) | Governed-route band, separating status gap, unconnected evidence panel | A closed loop reads as a cycle that turns; nearby evidence reads as its inputs | `SOURCE COMPLETE — ACCEPTED after T6-F-R` | `NONE` |
+| `M6V-04` | 4 | [`M06-S04.md`](M06-S04.md) | Six containers above an unauthored federated view, upward `assembled from` connectors | A view beneath six containers reads as a funnel; six containers read as six organisations | `SOURCE COMPLETE — ACCEPTED after T6-F-R` | `NONE` |
+| `M6V-05` | 5 | [`M06-S05.md`](M06-S05.md) | Readiness gate with two exactly equal outcomes | Any asymmetry converts a governed exclusion into a failure | `SOURCE COMPLETE — ACCEPTED after T6-F-R` | `NONE` |
+| `M6V-06` | 6 | [`M06-S06.md`](M06-S06.md) | Deliberately incomplete interface grid plus separate six-check-type list | An empty cell reads as oversight; a marked cell reads as a check that has run | `SOURCE COMPLETE — ACCEPTED after T6-F-R` | `NONE` |
+| `M6V-07` | 7 | [`M06-S07.md`](M06-S07.md) | Mixed findings, one decision point, two exactly equal outcomes | Left-to-right layout is itself a conveyor | `SOURCE COMPLETE — ACCEPTED after T6-F-R` | `NONE` |
+| `M6V-08` | 8 | [`M06-S08.md`](M06-S08.md) | Exactly seven equal-weight triage rows plus one caution call-out | A call-out on one row of seven reads as a highlight, not a caution | `SOURCE COMPLETE — ACCEPTED after T6-F-R` | `NONE` |
+| `M6V-09` | 9 | [`M06-S09.md`](M06-S09.md) | Two separate lanes with exactly one downward `assigns` connector | A two-lane diagram invites a return arrow, which transfers ownership | `SOURCE COMPLETE — ACCEPTED after T6-F-R` | `NONE` |
+| `M6V-10` | 10 | [`M06-S10.md`](M06-S10.md) | Six-status main sequence with two detached alternate dispositions | A clean six-step line looks like a configured workflow | `SOURCE COMPLETE — ACCEPTED after T6-F-R` | `NONE` |
+| `M6V-11` | 11 | [`M06-S11.md`](M06-S11.md) | Four prerequisites, conditional verification gate, three equal findings | A gate asserts that everything passes through it, resolving `H18` by geometry | `SOURCE COMPLETE — ACCEPTED after T6-F-R` | `NONE` |
+| `M6V-12` | 12 | [`M06-S12.md`](M06-S12.md) | Nine deliberately unticked completion conditions with visible global qualifiers | A nine-item checklist is read as a record of work | `SOURCE COMPLETE — ACCEPTED after T6-F-R` | `NONE` |
+| `M6V-13` | 13 | [`M06-S13.md`](M06-S13.md) | Three equal evidence/escalation/closure blocks above a heavier assurance-absence strip | Nine outputs read as deliverables that exist; ten limits read as an indictment | `SOURCE COMPLETE — ACCEPTED after T6-F-R` | `NONE` |
+| `M6V-14` | 14 | [`M06-S14.md`](M06-S14.md) | Seven equal question groups, all answers `NOT YET ESTABLISHED`, equal transfer columns | A grid implies priority; a *transfers* column placed first implies a caveat | `SOURCE COMPLETE — ACCEPTED after T6-F-R` | `NONE` |
 
 ---
 
@@ -71,7 +73,7 @@ Controlled and teaching identifiers — `CI-01`–`CI-12`, `X1`–`X5`, `A1`–`
 | **Governance status** | `CONTROLLED GOVERNANCE` · `PROPOSED GOVERNANCE` · `APPROVED WITH CONDITIONS — Training Baseline 0.1` · `PUBLICATION NOT AUTHORISED` |
 | **Implementation status** | **`NOT DEMONSTRATED`**; `GCR-006` **OPEN** |
 | **Fixed form** | Two equal principal panels over one full-width status strip |
-| **Source status** | `SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW` |
+| **Source status** | `SOURCE COMPLETE — ACCEPTED after T6-F-R` |
 | **Overclaim risk** | A confident two-panel opener reads as a description of current practice |
 | **Mandatory warning** | All four strip entries together — `APPROVED WITH CONDITIONS — Training Baseline 0.1` · `PROPOSED GOVERNANCE` · `GCR-006 OPEN` · `COMPLETE CYCLE NOT DEMONSTRATED` |
 | **Blocked / unresolved / absent** | `PUBLICATION NOT AUTHORISED`; no person, organisation, role holder or platform imagery |
@@ -94,7 +96,7 @@ Controlled and teaching identifiers — `CI-01`–`CI-12`, `X1`–`X5`, `A1`–`
 | **Governance status** | `CONTROLLED GOVERNANCE` (`S1`) · `PROPOSED GOVERNANCE` (`S2`) |
 | **Implementation status** | **Not applicable** — a vocabulary carries no implementation state |
 | **Fixed form** | Two separate vocabulary domains, anti-collapse warning, equal-weight Issue-scope comparison |
-| **Source status** | `SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW` |
+| **Source status** | `SOURCE COMPLETE — ACCEPTED after T6-F-R` |
 | **Overclaim risk** | Nine boxes read as one nine-value vocabulary; a preferred Issue scope resolves variance 3 |
 | **Mandatory warning** | `Not one word` · `Clash / finding ≠ Issue` · `Accepted condition ≠ recipient Accept` |
 | **Blocked / unresolved / absent** | No "approval" umbrella; no triage disposition, taxonomy or status model; no holder |
@@ -117,7 +119,7 @@ Controlled and teaching identifiers — `CI-01`–`CI-12`, `X1`–`X5`, `A1`–`
 | **Governance status** | `PROPOSED GOVERNANCE` · `CONTROLLED GOVERNANCE` · **`BLOCKED`** (`TRN-E03`) |
 | **Implementation status** | **`OBSERVED — QUALIFIED`** · **`PARTIALLY TRACEABLE`** · **`NOT DEMONSTRATED`** · **`GCR-006` OPEN** |
 | **Fixed form** | Governed-route band, separating status gap, unconnected implementation-evidence panel |
-| **Source status** | `SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW` |
+| **Source status** | `SOURCE COMPLETE — ACCEPTED after T6-F-R` |
 | **Overclaim risk** | A closed loop reads as a cycle that turns; evidence near the route reads as its inputs |
 | **Mandatory warning** | `PARTIALLY TRACEABLE` · `NOT DEMONSTRATED` · `GCR-006 OPEN`, plus *absence of observation is not observation of absence* |
 | **Blocked / unresolved / absent** | No closed loop, no percentage, no green, no tick; `TRN-E03` `BLOCKED` |
@@ -140,7 +142,7 @@ Controlled and teaching identifiers — `CI-01`–`CI-12`, `X1`–`X5`, `A1`–`
 | **Governance status** | `CONTROLLED GOVERNANCE` · `PROPOSED GOVERNANCE` |
 | **Implementation status** | **`IMPLEMENTATION UNVERIFIED`** · **`OBSERVED — QUALIFIED`** · **`NOT DEMONSTRATED`** |
 | **Fixed form** | Six source containers above an unauthored federated view, upward `assembled from` connectors |
-| **Source status** | `SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW` |
+| **Source status** | `SOURCE COMPLETE — ACCEPTED after T6-F-R` |
 | **Overclaim risk** | A funnel reading; six containers read as six organisations; `COORD-01` read as a parent |
 | **Mandatory warning** | `Federation transfers no authorship or technical ownership`, plus zero coordinated versions and no demonstrated run |
 | **Blocked / unresolved / absent** | No "single source of truth", no jointly owned model, no author label on the view |
@@ -163,7 +165,7 @@ Controlled and teaching identifiers — `CI-01`–`CI-12`, `X1`–`X5`, `A1`–`
 | **Governance status** | `CONTROLLED GOVERNANCE` · `PROPOSED GOVERNANCE` · **`UNRESOLVED`** (coordination environment) |
 | **Implementation status** | **`OBSERVED — QUALIFIED`** (`ARC-01` only) · **`NOT DEMONSTRATED`** |
 | **Fixed form** | Readiness gate with two exactly equal outcomes |
-| **Source status** | `SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW` |
+| **Source status** | `SOURCE COMPLETE — ACCEPTED after T6-F-R` |
 | **Overclaim risk** | Any asymmetry converts a governed exclusion into a failure |
 | **Mandatory warning** | `Exclusion from one cycle establishes nothing about the project`, inside the excluded exit's group |
 | **Blocked / unresolved / absent** | No percentage, score, gauge or traffic light; no invented field, deadline or approver |
@@ -186,7 +188,7 @@ Controlled and teaching identifiers — `CI-01`–`CI-12`, `X1`–`X5`, `A1`–`
 | **Governance status** | `CONTROLLED GOVERNANCE` · **`PROPOSED`** (all twelve checks) · **`TBD`** (every tolerance) |
 | **Implementation status** | **`NOT DEMONSTRATED`** — no check recorded as executed |
 | **Fixed form** | Deliberately incomplete interface grid plus separate six-check-type list |
-| **Source status** | `SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW` |
+| **Source status** | `SOURCE COMPLETE — ACCEPTED after T6-F-R` |
 | **Overclaim risk** | An empty cell reads as oversight; a marked cell reads as a check that has run |
 | **Mandatory warning** | `Software default ≠ project requirement` · `No numeric tolerance approved`, plus `PROPOSED` and `TBD` in **every** marked cell |
 | **Blocked / unresolved / absent** | **No numeric tolerance, clearance measurement, clash count, percentage, score, threshold or other project-rule value.** `CI-01`–`CI-12` are identifiers, not numeric criteria, and remain permitted |
@@ -209,7 +211,7 @@ Controlled and teaching identifiers — `CI-01`–`CI-12`, `X1`–`X5`, `A1`–`
 | **Governance status** | `CONTROLLED GOVERNANCE` · `PROPOSED GOVERNANCE` |
 | **Implementation status** | **`OBSERVED — QUALIFIED`** · **`NOT DEMONSTRATED`** |
 | **Fixed form** | Mixed findings, one decision point, two exactly equal outcomes |
-| **Source status** | `SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW` |
+| **Source status** | `SOURCE COMPLETE — ACCEPTED after T6-F-R` |
 | **Overclaim risk** | Left-to-right layout is itself a conveyor |
 | **Mandatory warning** | `Clash / finding ≠ Issue` between findings and decision, plus *creating an Issue does not establish…* |
 | **Blocked / unresolved / absent** | No conveyor; no invented identifier; neither Issue scope marked correct |
@@ -232,7 +234,7 @@ Controlled and teaching identifiers — `CI-01`–`CI-12`, `X1`–`X5`, `A1`–`
 | **Governance status** | `PROPOSED GOVERNANCE` · `CONTROLLED GOVERNANCE` · **`UNRESOLVED`** · **`BLOCKED`** (`T4`, `TRN-E03`) · **`NOT ESTABLISHED`** |
 | **Implementation status** | **`NOT DEMONSTRATED`** |
 | **Fixed form** | Exactly seven equal-weight triage rows plus one caution call-out |
-| **Source status** | `SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW` |
+| **Source status** | `SOURCE COMPLETE — ACCEPTED after T6-F-R` |
 | **Overclaim risk** | A call-out on one row of seven reads as a highlight, not a caution |
 | **Mandatory warning** | The `Accepted condition` caution — not recipient `Accept`, not publication authorisation, not technical approval, not regulatory acceptance, does not release `T4`, does not unblock `TRN-E03` |
 | **Blocked / unresolved / absent** | **No eighth row**; no merged or renamed disposition; `T4` and `TRN-E03` `BLOCKED` |
@@ -255,7 +257,7 @@ Controlled and teaching identifiers — `CI-01`–`CI-12`, `X1`–`X5`, `A1`–`
 | **Governance status** | `PROPOSED GOVERNANCE` · `CONTROLLED GOVERNANCE` |
 | **Implementation status** | **`NOT DEMONSTRATED`** · **`IMPLEMENTATION UNVERIFIED`** (`X3`) |
 | **Fixed form** | Two separate lanes with exactly one downward `assigns` connector |
-| **Source status** | `SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW` |
+| **Source status** | `SOURCE COMPLETE — ACCEPTED after T6-F-R` |
 | **Overclaim risk** | A two-lane diagram invites a return arrow, which transfers ownership |
 | **Mandatory warning** | `Coordinating an assignment and owning a solution are different things`, on or beside the connector |
 | **Blocked / unresolved / absent** | No date, priority, identifier, person or organisation; **no upward connector**; no shared frame |
@@ -278,7 +280,7 @@ Controlled and teaching identifiers — `CI-01`–`CI-12`, `X1`–`X5`, `A1`–`
 | **Governance status** | `PROPOSED GOVERNANCE` · `CONTROLLED GOVERNANCE` · **`UNRESOLVED`** · **`NOT ESTABLISHED`** |
 | **Implementation status** | **`OBSERVED — QUALIFIED`** · **`NOT DEMONSTRATED`** · **not claimed configured** |
 | **Fixed form** | Six-status main sequence with two detached alternate dispositions |
-| **Source status** | `SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW` |
+| **Source status** | `SOURCE COMPLETE — ACCEPTED after T6-F-R` |
 | **Overclaim risk** | A clean six-step line looks like a configured workflow |
 | **Mandatory warning** | `Ready for Verification ≠ verified` · `Closed label ≠ proof` · `Model not claimed configured`, plus `Not a seventh and eighth stage` |
 | **Blocked / unresolved / absent** | No platform mapping, no configuration claim, **no coloured status chips**, no `Deferred`/`Escalated` numbering |
@@ -301,7 +303,7 @@ Controlled and teaching identifiers — `CI-01`–`CI-12`, `X1`–`X5`, `A1`–`
 | **Governance status** | `PROPOSED GOVERNANCE` · `CONTROLLED GOVERNANCE` · **`NOT ESTABLISHED`** (`H18`) |
 | **Implementation status** | **`NOT DEMONSTRATED`** |
 | **Fixed form** | Four prerequisites, conditional verification gate, three equal findings |
-| **Source status** | `SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW` |
+| **Source status** | `SOURCE COMPLETE — ACCEPTED after T6-F-R` |
 | **Overclaim risk** | A gate asserts that everything passes through it, resolving `H18` by geometry |
 | **Mandatory warning** | `Whether verification is mandatory in every cycle — NOT ESTABLISHED` · `H18 unchanged` |
 | **Blocked / unresolved / absent** | No unconditional gate, no *every cycle* wording, **no verifier named**; near-misses stay outside the gate |
@@ -324,7 +326,7 @@ Controlled and teaching identifiers — `CI-01`–`CI-12`, `X1`–`X5`, `A1`–`
 | **Governance status** | `CONTROLLED GOVERNANCE` · `PROPOSED GOVERNANCE` · **`UNRESOLVED`** · **`BLOCKED`** |
 | **Implementation status** | **`NOT DEMONSTRATED`** · **`GCR-006` OPEN** |
 | **Fixed form** | Nine deliberately unticked completion conditions with visible global qualifiers |
-| **Source status** | `SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW` |
+| **Source status** | `SOURCE COMPLETE — ACCEPTED after T6-F-R` |
 | **Overclaim risk** | A nine-item checklist is read as a record of work |
 | **Mandatory warning** | `NOT DEMONSTRATED` · `GCR-006 OPEN`, plus `This is not an unconditional universal checklist` |
 | **Blocked / unresolved / absent** | **Every box empty**; no tick, percentage, progress bar or green; condition 8 at equal weight |
@@ -347,7 +349,7 @@ Controlled and teaching identifiers — `CI-01`–`CI-12`, `X1`–`X5`, `A1`–`
 | **Governance status** | `PROPOSED GOVERNANCE` · `CONTROLLED GOVERNANCE` · **`UNRESOLVED`** (`A2`, `A4`, decision owners) · **`NOT ESTABLISHED`** (assurance sampling) |
 | **Implementation status** | **`PARTIALLY TRACEABLE`** · **`NOT DEMONSTRATED`** · **`GCR-006` OPEN** |
 | **Fixed form** | Three equal evidence/escalation/closure blocks above a heavier assurance-absence strip |
-| **Source status** | `SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW` |
+| **Source status** | `SOURCE COMPLETE — ACCEPTED after T6-F-R` |
 | **Overclaim risk** | Nine outputs read as deliverables that exist; ten limits read as an indictment of closure |
 | **Mandatory warning** | `Assurance-sampling method — NOT ESTABLISHED`, heavier than the blocks, plus `None is recorded as produced` |
 | **Blocked / unresolved / absent** | No tick, sample table, percentage or certification symbol; **no worked sample**; no invented decision owner |
@@ -370,7 +372,7 @@ Controlled and teaching identifiers — `CI-01`–`CI-12`, `X1`–`X5`, `A1`–`
 | **Governance status** | **`NOT YET ESTABLISHED`** throughout |
 | **Implementation status** | **Not applicable** — nothing exists to implement |
 | **Fixed form** | Seven equal question groups, all answer areas `NOT YET ESTABLISHED`, plus equal transfer columns |
-| **Source status** | `SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW` |
+| **Source status** | `SOURCE COMPLETE — ACCEPTED after T6-F-R` |
 | **Overclaim risk** | A grid implies priority; a *transfers* column placed first implies the other is a caveat |
 | **Mandatory warning** | `NOT YET ESTABLISHED` × 7, plus `Module 7 owns the populated answers` · `This slide answers none of its questions` |
 | **Blocked / unresolved / absent** | **No Harrismith value in any answer area**; **no arrow into Triviron**; no Triviron fact of any kind |
@@ -390,8 +392,8 @@ Controlled and teaching identifiers — `CI-01`–`CI-12`, `X1`–`X5`, `A1`–`
 | Visual-source files | **14 — `M06-S01`–`M06-S14`** |
 | Mapping | **Strictly one-to-one, 14 = 14 = 14** |
 | Register entries | **14 detailed, 14 summary rows** |
-| Source status | **`SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW` × 14** |
-| Any source accepted | **None** |
+| Source status | **`SOURCE COMPLETE — ACCEPTED after T6-F-R` × 14** |
+| Source acceptance | **`ACCEPTED after T6-F-R`** — all fourteen |
 | Rendered assets | **`NONE` × 14** |
 | Renderer or dependency | **None installed** |
 | External imagery | **`NONE REQUIRED` × 14** |
@@ -406,24 +408,24 @@ Controlled and teaching identifiers — `CI-01`–`CI-12`, `X1`–`X5`, `A1`–`
 | Evidence outputs | **None shown as produced** |
 | Slide 14 answers | **`NOT YET ESTABLISHED` × 7** |
 | Triviron facts | **None** |
-| Presentation package / Module 6 PowerPoint | **None.** No `.pptx` committed |
+| Presentation assembly package | **Complete (`T6-G`), pending review** |
+| Module 6 PowerPoint | **None.** No `.pptx` committed |
 | Timing | **`20.0 minutes allocated — not measured`** |
 | `GCR-006` | **OPEN** |
 | Publication automation | **`PAUSED`** |
 
-## 5. Status — pending review
+## 5. Status
 
 | Field | Value |
 |---|---|
-| Increment | **`T6-F` — COMPLETE** |
+| Increment | **`T6-F` — COMPLETE and ACCEPTED after `T6-F-R`** |
 | Specification baseline | **`T6-E — ACCEPTED after T6-E-R`** |
-| Visual-source baseline | **COMPLETE — `SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`** |
-| Accepted | **NO.** No source in this set is accepted |
-| Rendered assets | **NONE** |
-| Assembly package | **NONE** |
-| Module 6 PowerPoint | **NONE** |
+| Visual-source baseline | **COMPLETE — `SOURCE COMPLETE — ACCEPTED after T6-F-R`** |
+| Rendered visual assets | **NONE.** No renderer or dependency installed |
+| Presentation assembly package | **COMPLETE (`T6-G`)** — [`../../module-06-coordination-review-approval-and-assurance/presentation/`](../../module-06-coordination-review-approval-and-assurance/presentation/), **seven files**; **`PENDING CHATGPT GOVERNANCE REVIEW`, not accepted** |
+| Module 6 PowerPoint | **NONE.** No `.pptx` is committed to this repository |
 | Presentation review | **NOT PERFORMED** |
 | Rehearsal | **NOT PERFORMED** |
 | Timing | **`20.0 minutes allocated — not measured`** |
-| Next | **`T6-G` — presentation assembly package** |
-| `T6-G` state | **`NOT STARTED — BLOCKED PENDING T6-F ACCEPTANCE`** |
+| Next | **`T6-H` — external PowerPoint production** |
+| `T6-H` state | **`NOT STARTED — BLOCKED PENDING T6-G ACCEPTANCE`** |
