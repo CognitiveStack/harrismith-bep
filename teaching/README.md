@@ -155,7 +155,8 @@ teaching/
 │   ├── source-map.md                218 statements, nine registers, 93 prohibited claims, final reconciliation
 │   ├── presentation-outline.md      20-minute structure; all fourteen slides developed
 │   ├── speaker-notes.md             notes for all fourteen slides, plus both closings
-│   └── exercises.md                 practice and self-assessment — 91 exercises
+│   ├── exercises.md                 practice and self-assessment — 91 exercises
+│   └── visual-demonstration-plan.md fourteen visual specifications, M6V-01 to M6V-14, pending review
 ├── shared/
 │   ├── glossary.md                  teaching glossary across all modules
 │   └── presentation-principles.md   how these presentations are built
@@ -212,22 +213,24 @@ presenter advances each slide manually when ready**.
 **Module 5's teaching-production phase is COMPLETE, and Module 6 —
 Coordination, Review, Approval and Assurance — is the current active module.**
 
-**`T6-A` to `T6-D` are COMPLETE, and the Module 6 teaching-content baseline is
-COMPLETE.** Module 6 holds **seven files** — objective and
+**`T6-A` to `T6-E` are COMPLETE, and the Module 6 teaching-content baseline is
+COMPLETE.** Module 6 holds **eight files** — objective and
 scope, a source inventory of **`S1`–`S14`** with **`E1`–`E9`** excluded, a
 separate comparison of the **four principal resources**, a source map carrying
 **218 classified statements**, **18 hypotheses**, **six terminology variances**,
 **14 unresolved matters**, **93 prohibited claims** and a **module-wide final
 reconciliation**, a **fourteen-slide
-architecture** at **`20.0 minutes allocated — not measured`**, and presenter
-notes.
+architecture** at **`20.0 minutes allocated — not measured`**, presenter notes,
+and a **visual-demonstration plan**.
 
 **All fourteen slides are developed**, with presenter notes for every one, both
-closings and **91 exercises**. **No visual-demonstration plan, no visual source,
-no asset directory, no presentation package and no PowerPoint exist**, and no
-review or rehearsal has been performed. **`GCR-006` remains OPEN — no complete
-governed coordination cycle has been demonstrated.** **`T6-E` — specify Module 6
-visuals — is next.**
+closings and **91 exercises**. **`T6-E` specified fourteen visuals**,
+`M6V-01`–`M6V-14`, one per slide — **all `SPECIFICATION COMPLETE — PENDING
+CHATGPT GOVERNANCE REVIEW`, and none accepted.** **No visual source, no asset
+directory, no presentation package and no PowerPoint exist**, and no review or
+rehearsal has been performed. **`GCR-006` remains OPEN — no complete governed
+coordination cycle has been demonstrated.** **`T6-F` — produce Module 6 visual
+sources — is `NOT STARTED — BLOCKED PENDING T6-E ACCEPTANCE`.**
 
 **`T5-F-B-R` reconciled the Module 5 production-state records** across the module
 and programme files. **No teaching claim, statement classification, count or

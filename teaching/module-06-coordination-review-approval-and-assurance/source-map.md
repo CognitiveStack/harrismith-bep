@@ -11,8 +11,10 @@ register, boundary-deferral register and the **module-wide final reconciliation*
 (§10).
 
 **The Module 6 teaching-content baseline is COMPLETE.** No slide remains
-architecture only. **No visual specification, visual source, asset, assembly
-package or PowerPoint exists**, and none is claimed.
+architecture only. **The fourteen visual specifications `M6V-01`–`M6V-14` were
+created in T6-E and are `PENDING CHATGPT GOVERNANCE REVIEW`** —
+[`visual-demonstration-plan.md`](visual-demonstration-plan.md). **No visual
+source, asset, assembly package or PowerPoint exists**, and none is claimed.
 
 Source identifiers `S1`–`S14` are defined in
 [`source-inventory.md`](source-inventory.md). Resource analysis is in
@@ -52,7 +54,7 @@ unchanged.
 | Recipient acceptance authority | **`S1` §9.8** | `S8` §9 | **No workflow defined** |
 | What has been demonstrated | **`S7`, `S8`** | — | `S8` declares **`Authority: None`** |
 | Complete governed coordination cycle | **`S7` `GCR-006`** | `S8` §8 | **OPEN — not demonstrated** |
-| Coordination visual specification and assets | — | — | **Visual specification not created — `T6-E` next. Visual sources / assets not created — later.** No visual has been rendered or produced |
+| Coordination visual specification and assets | — | — | **Visual specification created in `T6-E` — `PENDING CHATGPT GOVERNANCE REVIEW`. Visual sources / assets not created — `T6-F` or later, blocked pending acceptance.** No visual has been rendered or produced |
 
 ## 3. Statement classification — all fourteen slides
 
@@ -846,23 +848,30 @@ for the bounded *"a meeting is not a record"* distinction.
 
 ### 10.10 Residual production work
 
-**The teaching-content baseline is complete. Production is not.**
+**The teaching-content and visual-specification baselines are complete.
+Production is not.**
 
-- **No visual-demonstration plan exists.** Deferred to **T6-E**.
-- **No visual source or asset directory exists.** Deferred to **T6-E** and later.
+- **The visual-demonstration plan exists (T6-E)** — fourteen specifications
+  `M6V-01`–`M6V-14`, all **`PENDING CHATGPT GOVERNANCE REVIEW`**. **Not
+  accepted.**
+- **No visual source or asset directory exists.** `M06-S01`–`M06-S14` are
+  **reserved identifiers only**, deferred to **T6-F** and later, and **`T6-F` is
+  blocked pending acceptance of T6-E**.
+- **No visual register and no slide-visual map exist.**
 - **No presentation assembly package exists.**
 - **No PowerPoint exists**, in this or any module.
 - **No review or rehearsal has been performed**, and **timing has never been
   measured**.
 
-**A complete teaching-content baseline is not a produced presentation**, and
-prohibited claims **92** and **93** forbid the confusion.
+**Neither a complete teaching-content baseline nor a complete specification
+baseline is a produced presentation**, and prohibited claims **92** and **93**
+forbid the confusion.
 
 ## 11. Status
 
 | Field | Value |
 |---|---|
-| Increment | **T6-D — teaching-content baseline COMPLETE.** All fourteen slides classified |
+| Increment | **T6-E — COMPLETE.** Teaching-content baseline **COMPLETE** (T6-D); all fourteen slides classified; **visual-specification baseline COMPLETE — `PENDING CHATGPT GOVERNANCE REVIEW`**. **T6-E added no statement, register entry or prohibited claim** |
 | Slides classified | **All fourteen.** None architecture only |
 | Classified statements | **218** — 49 (T6-A) + 76 (T6-B) + 63 (T6-C) + 30 (T6-D) |
 | Registers | **Nine**, plus the **module-wide final reconciliation** (§10) |
@@ -875,5 +884,6 @@ prohibited claims **92** and **93** forbid the confusion.
 | Complete governed coordination cycle | **NOT DEMONSTRATED.** `GCR-006` **OPEN** |
 | Exercises | [`exercises.md`](exercises.md) — **created in T6-D** |
 | Final reconciliation | **COMPLETE** — see §10 |
-| Visual plan, visual sources, assets, package, PowerPoint | **None exist.** Deferred to **T6-E** and later |
+| Visual plan | **EXISTS (T6-E)** — fourteen specifications `M6V-01`–`M6V-14`, **`PENDING CHATGPT GOVERNANCE REVIEW`**; **not accepted** |
+| Visual sources, assets, package, PowerPoint | **None exist.** `M06-S01`–`M06-S14` reserved only; **`T6-F` `NOT STARTED — BLOCKED PENDING T6-E ACCEPTANCE`** |
 | Review, rehearsal, measured timing | **None performed** |

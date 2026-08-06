@@ -4,9 +4,12 @@
 baseline is COMPLETE.** Slides 1–3 in T6-A, 4–8 in T6-B, 9–12 in T6-C, 13–14 in
 T6-D.
 
-**A complete content baseline is not a produced presentation.** There is **no
-visual specification, no visual source, no asset, no assembly package and no
-PowerPoint**, and no review or rehearsal has been performed.
+**A complete content baseline is not a produced presentation.** The **fourteen
+visual specifications `M6V-01`–`M6V-14` were created in T6-E** and are
+**`PENDING CHATGPT GOVERNANCE REVIEW`** —
+[`visual-demonstration-plan.md`](visual-demonstration-plan.md). There is **no
+visual source, no asset, no assembly package and no PowerPoint**, and no review
+or rehearsal has been performed.
 
 Source identifiers `S1`–`S14` are defined in
 [`source-inventory.md`](source-inventory.md). Statement classification is in
@@ -89,9 +92,12 @@ on-slide copy · source basis · classified-statement range · governance status
 implementation status · prohibited claims · a **high-level** visual concept · a
 transition. **Presenter notes are in [`speaker-notes.md`](speaker-notes.md).**
 
-**The visual concepts are high-level only.** They record what a visual must show
-and must not show. **They are not visual specifications**, and **no visual
-specification, visual source or asset directory exists.**
+**The visual concepts below are high-level only.** They record what a visual must
+show and must not show. **They are not visual specifications.** The
+specifications are in
+[`visual-demonstration-plan.md`](visual-demonstration-plan.md) (T6-E), where each
+concept is developed into `M6V-01`–`M6V-14` **without reinterpreting the slide's
+teaching purpose**. **No visual source or asset directory exists.**
 
 ---
 
@@ -1829,9 +1835,10 @@ Harrismith value inside any answer area**.
 | Slide progression | **No automatic slide-transition timing.** Presenter advances manually when ready |
 | Classified statements | **218** — 49 (T6-A) + 76 (T6-B) + 63 (T6-C) + 30 (Slides 13–14, T6-D) |
 | Exercises | [`exercises.md`](exercises.md) — created in **T6-D** |
-| Visual specifications / sources / assets | **None.** Deferred to **T6-E** |
+| Visual specifications | **14 of 14 — `M6V-01`–`M6V-14` (T6-E)**, all **`SPECIFICATION COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`** |
+| Visual sources / assets | **None.** `M06-S01`–`M06-S14` **reserved only** |
 | Assembly package | **None** |
 | PowerPoint | **None** |
 | Review, rehearsal, measured timing | **None performed** |
 | Complete governed coordination cycle | **NOT DEMONSTRATED.** `GCR-006` **OPEN** |
-| Outstanding | **T6-E** — specify Module 6 visuals. **Not started** |
+| Outstanding | **T6-F** — produce Module 6 visual sources. **`NOT STARTED — BLOCKED PENDING T6-E ACCEPTANCE`** |
