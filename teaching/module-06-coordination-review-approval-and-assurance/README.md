@@ -9,13 +9,14 @@ closings, the exercise baseline and the module-wide final reconciliation;
 `M6V-01`–`M6V-14`**.
 
 **All fourteen slides developed. The Module 6 teaching-content baseline is
-COMPLETE.** **The visual-specification baseline is COMPLETE and
-`PENDING CHATGPT GOVERNANCE REVIEW`.**
+COMPLETE.** **`T6-E` is ACCEPTED after `T6-E-R`**, and the **visual-source
+baseline is COMPLETE (T6-F) and `PENDING CHATGPT GOVERNANCE REVIEW`** —
+[`../assets/module-06/`](../assets/module-06/).
 
-**None of that is a produced presentation.** There is **no visual source, no
-asset directory, no presentation package and no PowerPoint**, and **no review or
-rehearsal has been performed**. **`T6-F` — produce Module 6 visual sources — is
-`NOT STARTED — BLOCKED PENDING T6-E ACCEPTANCE`.**
+**None of that is a produced presentation.** There is **no presentation package
+and no Module 6 PowerPoint**, **no rendered asset**, and **no review or rehearsal
+has been performed**. **`T6-G` — presentation assembly package — is
+`NOT STARTED — BLOCKED PENDING T6-F ACCEPTANCE`.**
 
 **Teaching material. Not governance.** This module explains controlled
 Harrismith resources; it governs nothing, decides nothing, and changes nothing.
@@ -224,7 +225,13 @@ externally and are not committed.
 | [`presentation-outline.md`](presentation-outline.md) | Timing structure · **fourteen-slide architecture** · **all fourteen slides developed** |
 | [`speaker-notes.md`](speaker-notes.md) | Presenter notes — **all fourteen slides**, plus the **normal and emergency closings** and the Module 7 bridge |
 | [`exercises.md`](exercises.md) | **91 exercises** across nine groups — one per slide, distinctions, federation and checking, assignment and verification, evidence and closure, corrections, safe answers, Triviron transfer, full rehearsal |
-| [`visual-demonstration-plan.md`](visual-demonstration-plan.md) | **Fourteen visual specifications `M6V-01`–`M6V-14`**, 31 fields each · module-wide canvas, status, imagery, Mermaid, accessibility and economy rules · **75 STOP conditions** · specification summary · slide-to-specification map · **reserved future sources `M06-S01`–`M06-S14`**. **`PENDING CHATGPT GOVERNANCE REVIEW`** |
+| [`visual-demonstration-plan.md`](visual-demonstration-plan.md) | **Fourteen visual specifications `M6V-01`–`M6V-14`**, 31 fields each · module-wide canvas, status, imagery, Mermaid, accessibility and economy rules · **75 STOP conditions** · specification summary · slide-to-specification map · source identifiers `M06-S01`–`M06-S14`. **`ACCEPTED after T6-E-R`** |
+
+**The visual sources are not module teaching files.** They live in
+[`../assets/module-06/`](../assets/module-06/) — **eighteen files**: fourteen
+sources `M06-S01`–`M06-S14`, a visual register, a slide-visual map, an asset-set
+README and a rendered-status README. **All fourteen are `SOURCE COMPLETE —
+PENDING CHATGPT GOVERNANCE REVIEW`, and none is accepted.**
 
 ### Reading order
 
@@ -240,8 +247,10 @@ externally and are not committed.
 7. [`visual-demonstration-plan.md`](visual-demonstration-plan.md) — what each
    slide's visual must show, must not show, and must not be built from
 
-**The Module 6 directory contains eight files.** There is **no asset directory and
-no `presentation/` package**, and neither has been produced.
+**The Module 6 directory contains eight teaching files.** The **asset directory
+exists** — [`../assets/module-06/`](../assets/module-06/), **eighteen files, none
+of them a module teaching file**. There is **no `presentation/` package**, and
+none has been produced.
 
 ## 12. Provisional increment sequence
 
@@ -254,9 +263,11 @@ review, not by this file.
 | **T6-B** | **Slides 4–8** — federation · input readiness · check selection · the finding-to-Issue decision · triage | ✅ **COMPLETE** |
 | **T6-C** | **Slides 9–12** — assignment and technical response · the Issue status model · verification · coordination completion | ✅ **COMPLETE** |
 | **T6-D** | **Slides 13–14** · both **closings** and the Module 7 bridge · the **exercise baseline** · the **module-wide final reconciliation** | ✅ **COMPLETE** |
-| **T6-E** | **Specify Module 6 visuals** — fourteen specifications `M6V-01`–`M6V-14`, module-wide rules, **75 STOP conditions**, reserved sources `M06-S01`–`M06-S14` | ✅ **COMPLETE — `PENDING CHATGPT GOVERNANCE REVIEW`** |
-| **T6-F** | **Produce Module 6 visual sources** | **`NOT STARTED — BLOCKED PENDING T6-E ACCEPTANCE`** |
-| Later | Presentation assembly package · external PowerPoint · review · rehearsal | **Not started** |
+| **T6-E** | **Specify Module 6 visuals** — fourteen specifications `M6V-01`–`M6V-14`, module-wide rules, **75 STOP conditions**, source identifiers `M06-S01`–`M06-S14` | ✅ **COMPLETE — ACCEPTED after `T6-E-R`** |
+| **T6-E-R** | **Correct and reconcile the specification baseline** — claim 92 and standing prohibition D production-state clauses, the `M6V-06` numeric-rule contradiction, and PowerPoint-existence scope | ✅ **COMPLETE** |
+| **T6-F** | **Produce Module 6 visual sources** — fourteen sources `M06-S01`–`M06-S14`, visual register, slide-visual map, asset-set README, rendered-status README | ✅ **COMPLETE — `PENDING CHATGPT GOVERNANCE REVIEW`** |
+| **T6-G** | **Presentation assembly package** | **`NOT STARTED — BLOCKED PENDING T6-F ACCEPTANCE`** |
+| Later | External PowerPoint · review · rehearsal | **Not started** |
 
 ## 13. Increment status and validation
 
@@ -346,13 +357,49 @@ PowerPoint-reconstructable layout.**
 
 **T6-E added no teaching statement, source, hypothesis, terminology variance,
 unresolved matter, prohibited claim or exercise, and changed no slide title,
-timing, copy, classification or count.** **No visual source, asset directory,
-visual register, slide-visual map, rendered asset, assembly package or
-PowerPoint was created.**
+timing, copy, classification or count.** **T6-E itself created no visual source,
+asset directory, visual register, slide-visual map, rendered asset, assembly
+package or PowerPoint** — those identifiers were reserved at that point, and the
+sources were produced later, in **T6-F**.
 
-**The specification baseline is not accepted.** It is
-**`SPECIFICATION COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`**, and **`T6-F`
-is blocked until that review accepts it.**
+**At the close of T6-E the specification baseline was not yet accepted.** It was
+**`SPECIFICATION COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`**. **Acceptance
+followed, after `T6-E-R`** — see §13.2c.
+
+### 13.2c What T6-E-R and T6-F added
+
+**`T6-E-R` corrected three bounded defects** and reconciled the specification
+baseline: the stale production-state clauses in **prohibited claim 92** and
+**standing prohibition D**; the **`M6V-06` numeric-rule contradiction** between
+fields 16, 20 and 22, which now consistently permit the required `CI-01`–`CI-12`
+identifiers while prohibiting every numeric criterion; and the
+**PowerPoint-existence scope** across the plan, the source map and this file.
+**Claim numbering, claim meaning and the totals were unchanged.**
+
+**ChatGPT governance review then accepted `T6-E` and `T6-E-R`**, the fourteen
+specifications, the 75 STOP conditions, and the authority chain, identifier
+spaces and native-layout method — recorded as **`T6-E — ACCEPTED after T6-E-R`**.
+That acceptance is of a **teaching-production specification baseline**: it
+creates no Harrismith governance authority, resolves no project authority,
+records no project performance, does not close `GCR-006`, and is not presentation
+review or rehearsal.
+
+**`T6-F` produced the visual-source baseline** in
+[`../assets/module-06/`](../assets/module-06/) — **eighteen files**: fourteen
+sources `M06-S01`–`M06-S14` with an **eighteen-field header, sixteen sections and
+a four-row completion table** each, a **visual register**, a **slide-visual
+map**, an **asset-set README carrying all 75 STOP conditions**, and a
+**rendered-status README**.
+
+**All fourteen: `External imagery: NONE REQUIRED`, `Live evidence: NONE
+REQUIRED`, `Mermaid PROHIBITED`, native PowerPoint reconstruction, rendered
+`NONE`.** **All fourteen are `SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE
+REVIEW`, and none is accepted.**
+
+**`T6-F` added no teaching statement, source, hypothesis, terminology variance,
+unresolved matter, prohibited claim or exercise, and changed no slide title,
+timing, copy or classification.** **No rendered asset, presentation package or
+Module 6 PowerPoint was created, and no renderer or dependency was installed.**
 
 ### 13.3 Scope compliance — T6-A to T6-D
 
@@ -392,13 +439,11 @@ statement.**
 
 ### 13.5 Known residual work
 
-**The teaching-content and visual-specification baselines are complete.
-Production is not, and the specification baseline is not yet accepted.**
+**The teaching-content, visual-specification and visual-source baselines are
+complete. Production is not, and the source baseline is not yet accepted.**
 
-- **ChatGPT governance review of T6-E is required before `T6-F` may begin.**
-- **No visual source or asset directory exists.** `M06-S01`–`M06-S14` are
-  reserved identifiers only.
-- **No visual register and no slide-visual map exist.**
+- **ChatGPT governance review of `T6-F` is required before `T6-G` may begin.**
+- **No rendered asset exists**, and **no renderer or dependency is installed**.
 - **No presentation assembly package exists.**
 - **No Module 6 PowerPoint exists.** Earlier-module PowerPoints are **external
   derivative outputs** produced outside this repository; **no `.pptx` is
@@ -410,9 +455,9 @@ Production is not, and the specification baseline is not yet accepted.**
 
 | Field | Value |
 |---|---|
-| Increment | **T6-E — COMPLETE.** Teaching-content baseline **COMPLETE**; visual-specification baseline **COMPLETE — `PENDING CHATGPT GOVERNANCE REVIEW`** |
+| Increment | **T6-F — COMPLETE.** Teaching-content baseline **COMPLETE**; visual-specification baseline **ACCEPTED after T6-E-R**; visual-source baseline **COMPLETE — `PENDING CHATGPT GOVERNANCE REVIEW`** |
 | Module status | **CURRENT — ACTIVE** |
-| Module files | **8** |
+| Module teaching files | **8** — the eighteen asset files in [`../assets/module-06/`](../assets/module-06/) are **not** teaching files |
 | Slides developed | **14 of 14.** None architecture only |
 | Presenter notes | **All fourteen slides**, plus **normal and emergency closings** and the Module 7 bridge |
 | Teaching-content baseline | **COMPLETE** |
@@ -427,14 +472,15 @@ Production is not, and the specification baseline is not yet accepted.**
 | Slide progression | **No automatic slide-transition timing.** Presenter advances manually when ready |
 | Exercises | **91** — [`exercises.md`](exercises.md), `E1`–`E91` |
 | Rehearsal | **`NOT PERFORMED`** — `E91` defines a full run and records no result |
-| Visual specifications | **14 of 14 — `M6V-01`–`M6V-14`**, all **`SPECIFICATION COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`** — [`visual-demonstration-plan.md`](visual-demonstration-plan.md) |
-| Specification acceptance | **NOT GIVEN.** Not accepted, not approved, not production-ready, not source-complete |
-| Visual sources | **None.** `M06-S01`–`M06-S14` **reserved only — `NOT CREATED`** |
-| Asset directory / visual register / slide-visual map | **None exist** |
-| Rendered assets | **None.** No renderer or dependency installed |
+| Visual specifications | **14 of 14 — `M6V-01`–`M6V-14`**, **`SPECIFICATION COMPLETE — ACCEPTED`** after `T6-E-R` — [`visual-demonstration-plan.md`](visual-demonstration-plan.md) |
+| Visual sources | **14 of 14 — `M06-S01`–`M06-S14`**, all **`SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`** — [`../assets/module-06/`](../assets/module-06/) |
+| Source acceptance | **NOT GIVEN.** No source in the set is accepted |
+| Asset directory | **Exists** — [`../assets/module-06/`](../assets/module-06/), **eighteen files** |
+| Visual register / slide-visual map | **Complete** — [`../assets/module-06/visual-register.md`](../assets/module-06/visual-register.md) · [`../assets/module-06/slide-visual-map.md`](../assets/module-06/slide-visual-map.md) |
+| Rendered assets | **None.** No rendering attempted; no renderer or dependency installed |
 | Assembly package | **None** |
-| PowerPoint | **None** |
+| Module 6 PowerPoint | **None.** No `.pptx` is committed to this repository |
 | Review, rehearsal, measured timing | **None performed** |
 | Complete governed coordination cycle | **NOT DEMONSTRATED.** `GCR-006` **OPEN** |
-| Next increment | **T6-F** — produce Module 6 visual sources. **`NOT STARTED — BLOCKED PENDING T6-E ACCEPTANCE`** |
+| Next increment | **T6-G** — presentation assembly package. **`NOT STARTED — BLOCKED PENDING T6-F ACCEPTANCE`** |
 | Publication automation | **`PAUSED`** |

@@ -1,7 +1,10 @@
 # Teaching Assets
 
-**Status:** Visual **source** is committed for Modules 1, 2, 3, 4 and 5. **No
+**Status:** Visual **source** is committed for Modules 1, 2, 3, 4, 5 and 6. **No
 rendered image asset exists anywhere in this directory.**
+
+**Module 6's visual-source baseline is the newest and is `SOURCE COMPLETE —
+PENDING CHATGPT GOVERNANCE REVIEW`.** It is **not accepted**.
 
 ---
 
@@ -20,7 +23,8 @@ teaching/assets/
 ├── module-02/     visual source set for Module 2 (14 slide visuals)
 ├── module-03/     visual source set for Module 3 (14 slide visuals, 13 concepts)
 ├── module-04/     visual source set for Module 4 (14 slide visuals, 14 concepts)
-└── module-05/     visual source set for Module 5 (14 slide visuals, 14 concepts)
+├── module-05/     visual source set for Module 5 (14 slide visuals, 14 concepts)
+└── module-06/     visual source set for Module 6 (14 slide visuals, 14 concepts)
 ```
 
 | Module | Visual source | Rendered assets | External evidence needed |
@@ -30,6 +34,7 @@ teaching/assets/
 | [`module-03/`](module-03/) | **Complete — Slides 1–14** | **None** | **None** |
 | [`module-04/`](module-04/) | **Complete — Slides 1–14** | **None** | **None** |
 | [`module-05/`](module-05/) | **Complete — Slides 1–14** | **None** | **None** |
+| [`module-06/`](module-06/) | **Complete — Slides 1–14; `PENDING CHATGPT GOVERNANCE REVIEW`** | **None** | **None** |
 
 **Module 3 registers two identifier spaces of different sizes** — **13 visual
 concepts** (`V1`–`V13`) and **14 slide-source files** (`M03-S01`–`M03-S14`),
@@ -44,9 +49,14 @@ strict one-to-one mappings.** See
 [`module-04/visual-register.md`](module-04/visual-register.md) §1 and
 [`module-05/visual-register.md`](module-05/visual-register.md) §1.
 
-**Module 5's source files sit directly under `module-05/`, with no `source/`
-subdirectory.** That is the path its accepted visual plan reserved, and it takes
-precedence over the Module 4 arrangement.
+**Module 6 has the same strict one-to-one arrangement** — **fourteen concepts**
+(`M6V-01`–`M6V-14`), fourteen slides and fourteen slide-source files
+(`M06-S01`–`M06-S14`). See
+[`module-06/visual-register.md`](module-06/visual-register.md) §1.
+
+**Module 5's and Module 6's source files sit directly under their module
+directories, with no `source/` subdirectory.** That is the path their accepted
+visual plans reserved, and it takes precedence over the Module 4 arrangement.
 
 **Module 4 differs from the other three in one further respect: it contains no
 Mermaid at all.** Every one of its fourteen visuals is a **native-layout
@@ -66,11 +76,26 @@ hazards include a **blocked route that must stay broken**, an **unpopulated
 matrix skeleton**, **five closed gates**, and a **question-only transfer slide
 whose answer areas must stay empty**.
 
+**Module 6 contains no Mermaid either**, decided visual by visual in
+[`../module-06-coordination-review-approval-and-assurance/visual-demonstration-plan.md`](../module-06-coordination-review-approval-and-assurance/visual-demonstration-plan.md)
+§2.5 and summarised in [`module-06/README.md`](module-06/README.md) §6. Its
+hazards include a **governed route that must never close into a loop**,
+**upward-only federation connectors**, a **deliberately incomplete check grid**,
+**two detached status dispositions**, **nine permanently unticked completion
+boxes**, and **seven Triviron answer areas that must stay empty**.
+
 **Module 4's assembly package and external PowerPoint are already produced** —
 the PowerPoint **outside this repository**, and **not committed here**. **Review
 and rehearsal remain deferred**, as for Modules 1, 2 and 3.
 
-**Module 5's assembly package is the next step**, and does not exist.
+**Module 5's assembly package is complete (T5-G)**, and its **external PowerPoint
+is produced and accepted as `REV01`** (T5-H, corrected in T5-H-R1) — **held
+outside this repository and not committed here**. **Rehearsal and measured timing
+remain `DEFERRED` by governance decision (T5-I-D).**
+
+**Module 6's visual-source baseline is complete (T6-F) and pending ChatGPT
+governance review.** **No Module 6 assembly package and no Module 6 PowerPoint
+exist**, and **`T6-G` is `NOT STARTED — BLOCKED PENDING T6-F ACCEPTANCE`.**
 
 **One prohibition applies to `module-03/` specifically, and it is absolute.**
 **No ISO diagram, table or figure is reproduced, redrawn, adapted or
@@ -170,6 +195,7 @@ Each module holds its own visual register rather than a shared list here.
 | Module 3 | [`module-03/visual-register.md`](module-03/visual-register.md) | 14 slide visuals, 13 concepts, `SOURCE COMPLETE` | **None** |
 | Module 4 | [`module-04/visual-register.md`](module-04/visual-register.md) | 14 slide visuals, 14 concepts, all `SOURCE COMPLETE` | **None** |
 | Module 5 | [`module-05/visual-register.md`](module-05/visual-register.md) | 14 slide visuals, 14 concepts, all `SOURCE COMPLETE` | **None** |
+| Module 6 | [`module-06/visual-register.md`](module-06/visual-register.md) | 14 slide visuals, 14 concepts, all `SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW` | **None** |
 
 ## 6. Rendering
 
@@ -181,18 +207,27 @@ Mermaid diagram source is held in fenced ```mermaid blocks inside the Module 1,
 2 and 3 source files, which **render natively on GitHub** — so those diagrams are
 viewable without local tooling.
 
-**Modules 4 and 5 hold no Mermaid**, and therefore have nothing a renderer could
-consume. That is a design decision, not a gap: a renderer that normalises a
+**Modules 4, 5 and 6 hold no Mermaid**, and therefore have nothing a renderer
+could consume. That is a design decision, not a gap: a renderer that normalises a
 broken line into a solid one would complete a blocked route those modules exist
 to show as blocked. See
-[`module-04/rendered/README.md`](module-04/rendered/README.md) §2 and
-[`module-05/rendered/README.md`](module-05/rendered/README.md) §2.
+[`module-04/rendered/README.md`](module-04/rendered/README.md) §2,
+[`module-05/rendered/README.md`](module-05/rendered/README.md) §2 and
+[`module-06/rendered/README.md`](module-06/rendered/README.md) §2.
 
 **Module 5 adds an explicit completion prohibition.** No empty, blocked, broken
 or refused element may be completed by a renderer — the broken `TRN-E03` → `T4`
 connector, the unpopulated matrix skeleton, the five closed gates, the nine-cell
 `D4` row and the five empty Triviron answer areas all stay exactly as
 specified.
+
+**Module 6 carries thirteen equivalent prohibitions**, listed in
+[`module-06/rendered/README.md`](module-06/rendered/README.md) §3 — among them:
+**do not close the Slide 3 route**, **do not reverse Slide 4 connector
+direction**, **do not rank Slide 5 outcomes**, **do not fill Slide 6 empty
+cells**, **do not add an eighth Slide 8 row**, **do not add a Slide 9 return
+connector**, **do not tick Slide 12 boxes**, **do not populate Slide 14 answer
+areas**, and **do not replace status words with colour or icons**.
 
 If rendering is undertaken later, the rules are in each module's `rendered/`
 README — [Module 1](module-01/rendered/README.md) §3,

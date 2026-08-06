@@ -3,19 +3,25 @@
 **Status:** Teaching material. **Not governance.** This plan specifies; it
 decides nothing, approves nothing and changes no Harrismith governance.
 
-**All fourteen visual specifications are complete after `T6-E`.**
-**`14 of 14 visual specifications complete — governance review required.`**
+**All fourteen visual specifications are complete after `T6-E`, corrected in
+`T6-E-R`, and ACCEPTED by ChatGPT governance review.**
+**`T6-E — ACCEPTED after T6-E-R`.**
 
-> **This is a specification baseline, not a visual source, an asset, an assembly
-> package or a produced PowerPoint.** Nothing in this file has been drawn,
-> rendered, assembled or reviewed. **Every specification is
-> `SPECIFICATION COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`.**
-> **`T6-F` — produce Module 6 visual sources — is `NOT STARTED — BLOCKED
-> PENDING T6-E ACCEPTANCE`.**
+**They are implemented by fourteen visual-source files in `T6-F`** —
+[`../assets/module-06/`](../assets/module-06/).
 
-**The specification baseline is not accepted, not approved, not production-ready
-and not source-complete.** Those words are reserved for a state this increment
-did not reach and could not reach on its own.
+> **This file is a specification baseline. It is not a visual source, an asset,
+> an assembly package or a produced PowerPoint.** Nothing in this file has been
+> drawn, rendered, assembled or reviewed as a presentation.
+> **The `T6-F` visual sources are `SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE
+> REVIEW` and are not accepted.**
+> **`T6-G` — presentation assembly package — is `NOT STARTED — BLOCKED PENDING
+> T6-F ACCEPTANCE`.**
+
+**Acceptance of `T6-E` is acceptance of a teaching-production specification
+baseline.** It **creates no Harrismith governance authority**, **resolves no
+project authority**, **records no project performance**, **does not close
+`GCR-006`**, and **is not presentation review or rehearsal.**
 
 ---
 
@@ -24,13 +30,13 @@ did not reach and could not reach on its own.
 | Item | State |
 |---|---|
 | Teaching-content baseline | **COMPLETE** — `T6-A` to `T6-D`, reconciled in `T6-D-R` |
-| Module 6 teaching files | **Eight** — this file is the eighth |
-| Visual specifications | **`M6V-01`–`M6V-14` — 14 of 14, `SPECIFICATION COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`** |
-| Specification acceptance | **NOT GIVEN.** ChatGPT governance review required |
-| Visual-source files | **NOT CREATED.** `M06-S01`–`M06-S14` are **reserved identifiers only** |
-| Asset directory `teaching/assets/module-06/` | **DOES NOT EXIST** |
-| Visual register | **DOES NOT EXIST** |
-| Slide-visual map | **DOES NOT EXIST** — the slide-to-specification map in §6 of this file is not one |
+| Module 6 teaching files | **Eight** — this file is the eighth. The asset files are **not** teaching files |
+| Visual specifications | **`M6V-01`–`M6V-14` — 14 of 14, `SPECIFICATION COMPLETE — ACCEPTED`** |
+| Specification acceptance | **GIVEN — `T6-E — ACCEPTED after T6-E-R`** |
+| Visual-source files | **CREATED (`T6-F`) — `M06-S01`–`M06-S14`, all `SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`**. **Not accepted** |
+| Asset directory `teaching/assets/module-06/` | **EXISTS** — [`../assets/module-06/`](../assets/module-06/), **eighteen files** |
+| Visual register | **COMPLETE** — [`../assets/module-06/visual-register.md`](../assets/module-06/visual-register.md) |
+| Slide-visual map | **COMPLETE** — [`../assets/module-06/slide-visual-map.md`](../assets/module-06/slide-visual-map.md). The slide-to-specification map in §6 of this file is **not** that map |
 | Rendered assets | **NONE.** No rendering attempted; no renderer or dependency installed |
 | Presentation assembly package | **NONE** |
 | Module 6 PowerPoint | **NONE.** No Module 6 PowerPoint has been produced, and **no `.pptx` is committed to this repository**. Earlier-module PowerPoints are **external derivative outputs**, produced outside this repository and **outside this increment** |
@@ -50,8 +56,8 @@ did not reach and could not reach on its own.
 controlled Harrismith sources
   → accepted Module 6 teaching content
   → Module 6 visual-demonstration plan       ← this file, T6-E
-  → Module 6 visual-source files             ← T6-F, NOT CREATED
-  → presentation assembly package            ← later, NOT CREATED
+  → Module 6 visual-source files             ← T6-F, CREATED — pending review
+  → presentation assembly package            ← T6-G, NOT CREATED
   → external PowerPoint                      ← later, NOT CREATED
 ```
 
@@ -89,10 +95,12 @@ conditions in §3 are production controls, not new teaching claims.**
 | Space | Range | State |
 |---|---|---|
 | **Visual concept** | `M6V-01` – `M6V-14` | **Specified in `T6-E`** — this file |
-| **Slide source** | `M06-S01` – `M06-S14` | **RESERVED ONLY. NOT CREATED — `T6-F` or later** |
+| **Slide source** | `M06-S01` – `M06-S14` | **CREATED in `T6-F` — all `SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`** |
 
-**Reserved future path:** `teaching/assets/module-06/M06-S<nn>.md`.
-**That directory does not exist**, and `T6-E` did not create it.
+**Slide-source path:** `teaching/assets/module-06/M06-S<nn>.md`. **That directory
+exists** and holds the fourteen sources, the visual register, the slide-visual
+map, the asset-set README and the rendered-status README — **eighteen files.**
+**No rendered asset exists.**
 
 **No controlled identifier is reused as a visual identifier.** `CI-01`–`CI-12`,
 `X1`–`X5`, `A1`–`A5`, `COORD-01`, `ARC-01`–`FIR-01`, `TRN-E01`–`TRN-E03`,
@@ -360,8 +368,8 @@ nothing to the prohibited-claims register in [`source-map.md`](source-map.md)
 | **27 · Live evidence** | `NONE REQUIRED` |
 | **28 · Mermaid decision** | **`Mermaid PROHIBITED`.** Any graph form would join the two panels and imply that Module 5 flows into a Module 6 that has been performed — STOP 1 |
 | **29 · Native reconstruction method** | Two rectangles with text boxes + one full-width rectangle containing four separate text runs. **No connectors** |
-| **30 · Reserved slide-source identifier and path** | `M06-S01` → `teaching/assets/module-06/M06-S01.md` — **`NOT CREATED — T6-F or later`** |
-| **31 · Production status** | Visual specification **`SPECIFICATION COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`** · visual source **`NOT CREATED`** · rendered asset **`NONE`** · PowerPoint **`NONE`** |
+| **30 · Slide-source identifier and path** | `M06-S01` → `teaching/assets/module-06/M06-S01.md` — **CREATED (`T6-F`) — `SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`** |
+| **31 · Production status** | Visual specification **`SPECIFICATION COMPLETE — ACCEPTED`** · visual source **`SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`** · rendered asset **`NONE`** · Module 6 PowerPoint **`NONE`** |
 
 ---
 
@@ -398,8 +406,8 @@ nothing to the prohibited-claims register in [`source-map.md`](source-map.md)
 | **27 · Live evidence** | `NONE REQUIRED` |
 | **28 · Mermaid decision** | **`Mermaid PROHIBITED`.** Auto-layout would render nine nodes as siblings of one parent — the exact collapse the slide exists to prevent — and would connect terms that the sources leave unconnected. STOP 6, 8 |
 | **29 · Native reconstruction method** | One 6-row table + one full-width line + one 3-row table + one bordered warning rectangle + one 2-row table. **No connectors** |
-| **30 · Reserved slide-source identifier and path** | `M06-S02` → `teaching/assets/module-06/M06-S02.md` — **`NOT CREATED — T6-F or later`** |
-| **31 · Production status** | Visual specification **`SPECIFICATION COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`** · visual source **`NOT CREATED`** · rendered asset **`NONE`** · PowerPoint **`NONE`** |
+| **30 · Slide-source identifier and path** | `M06-S02` → `teaching/assets/module-06/M06-S02.md` — **CREATED (`T6-F`) — `SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`** |
+| **31 · Production status** | Visual specification **`SPECIFICATION COMPLETE — ACCEPTED`** · visual source **`SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`** · rendered asset **`NONE`** · Module 6 PowerPoint **`NONE`** |
 
 ---
 
@@ -436,8 +444,8 @@ nothing to the prohibited-claims register in [`source-map.md`](source-map.md)
 | **27 · Live evidence** | `NONE REQUIRED` — the four observations appear as bounded text with their accepted qualification |
 | **28 · Mermaid decision** | **`Mermaid PROHIBITED`.** A graph engine would close the route into a cycle and would place the observation nodes inside the same layout, implying they are stages of it. STOP 1, 67 |
 | **29 · Native reconstruction method** | Fifteen small rectangles with straight arrow connectors between adjacent boxes only + one full-width strip rectangle + one outer evidence rectangle containing four or five inner rectangles with no connectors + two text lines |
-| **30 · Reserved slide-source identifier and path** | `M06-S03` → `teaching/assets/module-06/M06-S03.md` — **`NOT CREATED — T6-F or later`** |
-| **31 · Production status** | Visual specification **`SPECIFICATION COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`** · visual source **`NOT CREATED`** · rendered asset **`NONE`** · PowerPoint **`NONE`** |
+| **30 · Slide-source identifier and path** | `M06-S03` → `teaching/assets/module-06/M06-S03.md` — **CREATED (`T6-F`) — `SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`** |
+| **31 · Production status** | Visual specification **`SPECIFICATION COMPLETE — ACCEPTED`** · visual source **`SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`** · rendered asset **`NONE`** · Module 6 PowerPoint **`NONE`** |
 
 ---
 
@@ -474,8 +482,8 @@ nothing to the prohibited-claims register in [`source-map.md`](source-map.md)
 | **27 · Live evidence** | `NONE REQUIRED` |
 | **28 · Mermaid decision** | **`Mermaid PROHIBITED`.** Auto-layout would treat the federated view as a parent or sink node and would normalise the edge direction — the single thing this visual cannot allow. STOP 11 |
 | **29 · Native reconstruction method** | Six rectangles + one rectangle for the view + six straight arrow connectors with text labels, arrowheads at the container end + one offset rectangle + one dashed unarrowed line + one full-width warning rectangle + one status text box |
-| **30 · Reserved slide-source identifier and path** | `M06-S04` → `teaching/assets/module-06/M06-S04.md` — **`NOT CREATED — T6-F or later`** |
-| **31 · Production status** | Visual specification **`SPECIFICATION COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`** · visual source **`NOT CREATED`** · rendered asset **`NONE`** · PowerPoint **`NONE`** |
+| **30 · Slide-source identifier and path** | `M06-S04` → `teaching/assets/module-06/M06-S04.md` — **CREATED (`T6-F`) — `SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`** |
+| **31 · Production status** | Visual specification **`SPECIFICATION COMPLETE — ACCEPTED`** · visual source **`SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`** · rendered asset **`NONE`** · Module 6 PowerPoint **`NONE`** |
 
 ---
 
@@ -512,8 +520,8 @@ nothing to the prohibited-claims register in [`source-map.md`](source-map.md)
 | **27 · Live evidence** | `NONE REQUIRED` |
 | **28 · Mermaid decision** | **`Mermaid PROHIBITED`.** A flowchart would rank the two exits by layout order and would render the register as an upstream stage, producing exactly the pipeline the slide refuses. STOP 15, 16 |
 | **29 · Native reconstruction method** | One text-list rectangle + one bordered gate rectangle containing a ten-line list + two identical rectangles + two identical straight connectors + one 4 × 2 table + one status text strip |
-| **30 · Reserved slide-source identifier and path** | `M06-S05` → `teaching/assets/module-06/M06-S05.md` — **`NOT CREATED — T6-F or later`** |
-| **31 · Production status** | Visual specification **`SPECIFICATION COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`** · visual source **`NOT CREATED`** · rendered asset **`NONE`** · PowerPoint **`NONE`** |
+| **30 · Slide-source identifier and path** | `M06-S05` → `teaching/assets/module-06/M06-S05.md` — **CREATED (`T6-F`) — `SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`** |
+| **31 · Production status** | Visual specification **`SPECIFICATION COMPLETE — ACCEPTED`** · visual source **`SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`** · rendered asset **`NONE`** · Module 6 PowerPoint **`NONE`** |
 
 ---
 
@@ -550,8 +558,8 @@ nothing to the prohibited-claims register in [`source-map.md`](source-map.md)
 | **27 · Live evidence** | `NONE REQUIRED` |
 | **28 · Mermaid decision** | **`Mermaid PROHIBITED`.** Mermaid has no matrix primitive; any graph substitute would draw edges only where checks exist, which reads as a complete network rather than a deliberately partial selection. STOP 18 |
 | **29 · Native reconstruction method** | One 7 × 7 PowerPoint table with all borders visible and twelve populated cells + one six-row list + one full-width warning rectangle + one status text box. **No connectors** |
-| **30 · Reserved slide-source identifier and path** | `M06-S06` → `teaching/assets/module-06/M06-S06.md` — **`NOT CREATED — T6-F or later`** |
-| **31 · Production status** | Visual specification **`SPECIFICATION COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`** · visual source **`NOT CREATED`** · rendered asset **`NONE`** · PowerPoint **`NONE`** |
+| **30 · Slide-source identifier and path** | `M06-S06` → `teaching/assets/module-06/M06-S06.md` — **CREATED (`T6-F`) — `SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`** |
+| **31 · Production status** | Visual specification **`SPECIFICATION COMPLETE — ACCEPTED`** · visual source **`SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`** · rendered asset **`NONE`** · Module 6 PowerPoint **`NONE`** |
 
 ---
 
@@ -588,8 +596,8 @@ nothing to the prohibited-claims register in [`source-map.md`](source-map.md)
 | **27 · Live evidence** | `NONE REQUIRED` |
 | **28 · Mermaid decision** | **`Mermaid PROHIBITED`.** A graph would rank the two outcome branches by layout order, and its default edge routing reads as a process line from detection to Issue. STOP 7 |
 | **29 · Native reconstruction method** | Five or six small rectangles + one heavy bordered decision rectangle + two identical outcome rectangles + identical straight connectors + one 2-row table + text strips |
-| **30 · Reserved slide-source identifier and path** | `M06-S07` → `teaching/assets/module-06/M06-S07.md` — **`NOT CREATED — T6-F or later`** |
-| **31 · Production status** | Visual specification **`SPECIFICATION COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`** · visual source **`NOT CREATED`** · rendered asset **`NONE`** · PowerPoint **`NONE`** |
+| **30 · Slide-source identifier and path** | `M06-S07` → `teaching/assets/module-06/M06-S07.md` — **CREATED (`T6-F`) — `SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`** |
+| **31 · Production status** | Visual specification **`SPECIFICATION COMPLETE — ACCEPTED`** · visual source **`SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`** · rendered asset **`NONE`** · Module 6 PowerPoint **`NONE`** |
 
 ---
 
@@ -626,8 +634,8 @@ nothing to the prohibited-claims register in [`source-map.md`](source-map.md)
 | **27 · Live evidence** | `NONE REQUIRED` |
 | **28 · Mermaid decision** | **`Mermaid PROHIBITED`.** A graph form would connect the dispositions, implying a sequence or a decision tree the source does not state, and could not guarantee exactly seven equal nodes. STOP 23, 24 |
 | **29 · Native reconstruction method** | One 7 × 2 PowerPoint table with fixed equal row heights + one native call-out shape with a heavier border + one leader line + one 4-row table + one status text strip |
-| **30 · Reserved slide-source identifier and path** | `M06-S08` → `teaching/assets/module-06/M06-S08.md` — **`NOT CREATED — T6-F or later`** |
-| **31 · Production status** | Visual specification **`SPECIFICATION COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`** · visual source **`NOT CREATED`** · rendered asset **`NONE`** · PowerPoint **`NONE`** |
+| **30 · Slide-source identifier and path** | `M06-S08` → `teaching/assets/module-06/M06-S08.md` — **CREATED (`T6-F`) — `SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`** |
+| **31 · Production status** | Visual specification **`SPECIFICATION COMPLETE — ACCEPTED`** · visual source **`SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`** · rendered asset **`NONE`** · Module 6 PowerPoint **`NONE`** |
 
 ---
 
@@ -664,8 +672,8 @@ nothing to the prohibited-claims register in [`source-map.md`](source-map.md)
 | **27 · Live evidence** | `NONE REQUIRED` |
 | **28 · Mermaid decision** | **`Mermaid PROHIBITED`.** A graph would route edges automatically and could not guarantee a single unreciprocated downward connector; subgraphs would enclose both lanes in one frame. STOP 27 |
 | **29 · Native reconstruction method** | Two bordered rectangles with internal text runs + one straight arrow connector with a text label + one warning text box + one two-column list + one status text strip |
-| **30 · Reserved slide-source identifier and path** | `M06-S09` → `teaching/assets/module-06/M06-S09.md` — **`NOT CREATED — T6-F or later`** |
-| **31 · Production status** | Visual specification **`SPECIFICATION COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`** · visual source **`NOT CREATED`** · rendered asset **`NONE`** · PowerPoint **`NONE`** |
+| **30 · Slide-source identifier and path** | `M06-S09` → `teaching/assets/module-06/M06-S09.md` — **CREATED (`T6-F`) — `SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`** |
+| **31 · Production status** | Visual specification **`SPECIFICATION COMPLETE — ACCEPTED`** · visual source **`SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`** · rendered asset **`NONE`** · Module 6 PowerPoint **`NONE`** |
 
 ---
 
@@ -702,8 +710,8 @@ nothing to the prohibited-claims register in [`source-map.md`](source-map.md)
 | **27 · Live evidence** | `NONE REQUIRED` |
 | **28 · Mermaid decision** | **`Mermaid PROHIBITED`.** A state diagram would place `Deferred` and `Escalated` as reachable states in the same graph, which is the precise misreading STOP 28 forbids, and would imply a mandatory transition set. STOP 28, 29 |
 | **29 · Native reconstruction method** | Six rectangles + five straight arrows + one detached group of two rectangles under a heading + two short plain lines + one 5-row table + one full-width warning rectangle |
-| **30 · Reserved slide-source identifier and path** | `M06-S10` → `teaching/assets/module-06/M06-S10.md` — **`NOT CREATED — T6-F or later`** |
-| **31 · Production status** | Visual specification **`SPECIFICATION COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`** · visual source **`NOT CREATED`** · rendered asset **`NONE`** · PowerPoint **`NONE`** |
+| **30 · Slide-source identifier and path** | `M06-S10` → `teaching/assets/module-06/M06-S10.md` — **CREATED (`T6-F`) — `SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`** |
+| **31 · Production status** | Visual specification **`SPECIFICATION COMPLETE — ACCEPTED`** · visual source **`SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`** · rendered asset **`NONE`** · Module 6 PowerPoint **`NONE`** |
 
 ---
 
@@ -740,8 +748,8 @@ nothing to the prohibited-claims register in [`source-map.md`](source-map.md)
 | **27 · Live evidence** | `NONE REQUIRED` |
 | **28 · Mermaid decision** | **`Mermaid PROHIBITED`.** A flowchart gate implies a single mandatory path and would place the near-misses inside the graph, giving them an edge into the gate. STOP 35, 36 |
 | **29 · Native reconstruction method** | One enclosing rectangle with four inner text lines + one straight connector + one bordered gate rectangle + three equal rectangles with three identical connectors + one unconnected group of four small boxes + one exclusion text strip + one bordered smaller warning box |
-| **30 · Reserved slide-source identifier and path** | `M06-S11` → `teaching/assets/module-06/M06-S11.md` — **`NOT CREATED — T6-F or later`** |
-| **31 · Production status** | Visual specification **`SPECIFICATION COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`** · visual source **`NOT CREATED`** · rendered asset **`NONE`** · PowerPoint **`NONE`** |
+| **30 · Slide-source identifier and path** | `M06-S11` → `teaching/assets/module-06/M06-S11.md` — **CREATED (`T6-F`) — `SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`** |
+| **31 · Production status** | Visual specification **`SPECIFICATION COMPLETE — ACCEPTED`** · visual source **`SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`** · rendered asset **`NONE`** · Module 6 PowerPoint **`NONE`** |
 
 ---
 
@@ -778,8 +786,8 @@ nothing to the prohibited-claims register in [`source-map.md`](source-map.md)
 | **27 · Live evidence** | `NONE REQUIRED` |
 | **28 · Mermaid decision** | **`Mermaid PROHIBITED`.** A graph would sequence the nine conditions and imply that each must follow the last, contradicting *as applicable*, and offers no reliable empty-checkbox primitive. STOP 39 |
 | **29 · Native reconstruction method** | One bordered qualifier rectangle + one 9-row table with an outlined unfilled square in each first cell + one quotation rectangle + one full-width strip + one status text run. **No connectors** |
-| **30 · Reserved slide-source identifier and path** | `M06-S12` → `teaching/assets/module-06/M06-S12.md` — **`NOT CREATED — T6-F or later`** |
-| **31 · Production status** | Visual specification **`SPECIFICATION COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`** · visual source **`NOT CREATED`** · rendered asset **`NONE`** · PowerPoint **`NONE`** |
+| **30 · Slide-source identifier and path** | `M06-S12` → `teaching/assets/module-06/M06-S12.md` — **CREATED (`T6-F`) — `SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`** |
+| **31 · Production status** | Visual specification **`SPECIFICATION COMPLETE — ACCEPTED`** · visual source **`SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`** · rendered asset **`NONE`** · Module 6 PowerPoint **`NONE`** |
 
 ---
 
@@ -816,8 +824,8 @@ nothing to the prohibited-claims register in [`source-map.md`](source-map.md)
 | **27 · Live evidence** | `NONE REQUIRED` |
 | **28 · Mermaid decision** | **`Mermaid PROHIBITED`.** A graph would connect outputs, escalation and closure into a chain and would render the absence as a terminal node rather than a warning that outranks the diagram. STOP 42, 44 |
 | **29 · Native reconstruction method** | Three rectangles containing plain text lists + one full-width warning rectangle with a heavier border and larger heading + one status text run. **No connectors** |
-| **30 · Reserved slide-source identifier and path** | `M06-S13` → `teaching/assets/module-06/M06-S13.md` — **`NOT CREATED — T6-F or later`** |
-| **31 · Production status** | Visual specification **`SPECIFICATION COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`** · visual source **`NOT CREATED`** · rendered asset **`NONE`** · PowerPoint **`NONE`** |
+| **30 · Slide-source identifier and path** | `M06-S13` → `teaching/assets/module-06/M06-S13.md` — **CREATED (`T6-F`) — `SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`** |
+| **31 · Production status** | Visual specification **`SPECIFICATION COMPLETE — ACCEPTED`** · visual source **`SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`** · rendered asset **`NONE`** · Module 6 PowerPoint **`NONE`** |
 
 ---
 
@@ -854,8 +862,8 @@ nothing to the prohibited-claims register in [`source-map.md`](source-map.md)
 | **27 · Live evidence** | `NONE REQUIRED` |
 | **28 · Mermaid decision** | **`Mermaid PROHIBITED`.** Any graph would connect Harrismith examples to Triviron questions, which is a recommendation regardless of edge label, and its layout would rank the seven groups. STOP 47, 48, 73 |
 | **29 · Native reconstruction method** | Seven identical rectangles, each containing a text list and a bordered sub-rectangle + one 2-column table of equal widths + one footer strip. **No connectors** |
-| **30 · Reserved slide-source identifier and path** | `M06-S14` → `teaching/assets/module-06/M06-S14.md` — **`NOT CREATED — T6-F or later`** |
-| **31 · Production status** | Visual specification **`SPECIFICATION COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`** · visual source **`NOT CREATED`** · rendered asset **`NONE`** · PowerPoint **`NONE`** |
+| **30 · Slide-source identifier and path** | `M06-S14` → `teaching/assets/module-06/M06-S14.md` — **CREATED (`T6-F`) — `SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`** |
+| **31 · Production status** | Visual specification **`SPECIFICATION COMPLETE — ACCEPTED`** · visual source **`SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`** · rendered asset **`NONE`** · Module 6 PowerPoint **`NONE`** |
 
 ---
 
@@ -863,20 +871,20 @@ nothing to the prohibited-claims register in [`source-map.md`](source-map.md)
 
 | Visual | Slide | Time | Fixed form | Mermaid | External imagery | Live evidence | Specification | Source |
 |---|---:|---:|---|---|---|---|---|---|
-| `M6V-01` | 1 | 1.0 | Two equal panels + full-width status strip | **Prohibited** | `NONE REQUIRED` | `NONE REQUIRED` | `SPECIFICATION COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW` | `NOT CREATED` |
-| `M6V-02` | 2 | 1.5 | Two separated domains + anti-collapse warning + scope comparison | **Prohibited** | `NONE REQUIRED` | `NONE REQUIRED` | `SPECIFICATION COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW` | `NOT CREATED` |
-| `M6V-03` | 3 | 1.5 | Governed route band + gap strip + separate evidence panel | **Prohibited** | `NONE REQUIRED` | `NONE REQUIRED` | `SPECIFICATION COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW` | `NOT CREATED` |
-| `M6V-04` | 4 | 1.5 | Six containers + view + upward `assembled from` connectors | **Prohibited** | `NONE REQUIRED` | `NONE REQUIRED` | `SPECIFICATION COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW` | `NOT CREATED` |
-| `M6V-05` | 5 | 1.5 | Readiness gate with two equal exits + eight-way comparison | **Prohibited** | `NONE REQUIRED` | `NONE REQUIRED` | `SPECIFICATION COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW` | `NOT CREATED` |
-| `M6V-06` | 6 | 1.5 | Deliberately incomplete selection grid + check-type list | **Prohibited** | `NONE REQUIRED` | `NONE REQUIRED` | `SPECIFICATION COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW` | `NOT CREATED` |
-| `M6V-07` | 7 | 1.5 | Findings + one triage decision + two equal outcomes | **Prohibited** | `NONE REQUIRED` | `NONE REQUIRED` | `SPECIFICATION COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW` | `NOT CREATED` |
-| `M6V-08` | 8 | 1.0 | Seven equal rows + `Accepted condition` caution | **Prohibited** | `NONE REQUIRED` | `NONE REQUIRED` | `SPECIFICATION COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW` | `NOT CREATED` |
-| `M6V-09` | 9 | 1.5 | Two lanes + one downward `assigns` connector | **Prohibited** | `NONE REQUIRED` | `NONE REQUIRED` | `SPECIFICATION COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW` | `NOT CREATED` |
-| `M6V-10` | 10 | 1.5 | Six-status sequence + detached alternate dispositions | **Prohibited** | `NONE REQUIRED` | `NONE REQUIRED` | `SPECIFICATION COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW` | `NOT CREATED` |
-| `M6V-11` | 11 | 1.5 | Four prerequisites + conditional gate + three equal findings | **Prohibited** | `NONE REQUIRED` | `NONE REQUIRED` | `SPECIFICATION COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW` | `NOT CREATED` |
-| `M6V-12` | 12 | 1.5 | Nine conditions, nine empty boxes, qualifiers above | **Prohibited** | `NONE REQUIRED` | `NONE REQUIRED` | `SPECIFICATION COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW` | `NOT CREATED` |
-| `M6V-13` | 13 | 1.0 | Three equal blocks + heavier full-width absence warning | **Prohibited** | `NONE REQUIRED` | `NONE REQUIRED` | `SPECIFICATION COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW` | `NOT CREATED` |
-| `M6V-14` | 14 | 2.0 | Seven question groups + seven identical empty answers | **Prohibited** | `NONE REQUIRED` | `NONE REQUIRED` | `SPECIFICATION COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW` | `NOT CREATED` |
+| `M6V-01` | 1 | 1.0 | Two equal panels + full-width status strip | **Prohibited** | `NONE REQUIRED` | `NONE REQUIRED` | `SPECIFICATION COMPLETE — ACCEPTED` | `SOURCE COMPLETE — PENDING REVIEW` |
+| `M6V-02` | 2 | 1.5 | Two separated domains + anti-collapse warning + scope comparison | **Prohibited** | `NONE REQUIRED` | `NONE REQUIRED` | `SPECIFICATION COMPLETE — ACCEPTED` | `SOURCE COMPLETE — PENDING REVIEW` |
+| `M6V-03` | 3 | 1.5 | Governed route band + gap strip + separate evidence panel | **Prohibited** | `NONE REQUIRED` | `NONE REQUIRED` | `SPECIFICATION COMPLETE — ACCEPTED` | `SOURCE COMPLETE — PENDING REVIEW` |
+| `M6V-04` | 4 | 1.5 | Six containers + view + upward `assembled from` connectors | **Prohibited** | `NONE REQUIRED` | `NONE REQUIRED` | `SPECIFICATION COMPLETE — ACCEPTED` | `SOURCE COMPLETE — PENDING REVIEW` |
+| `M6V-05` | 5 | 1.5 | Readiness gate with two equal exits + eight-way comparison | **Prohibited** | `NONE REQUIRED` | `NONE REQUIRED` | `SPECIFICATION COMPLETE — ACCEPTED` | `SOURCE COMPLETE — PENDING REVIEW` |
+| `M6V-06` | 6 | 1.5 | Deliberately incomplete selection grid + check-type list | **Prohibited** | `NONE REQUIRED` | `NONE REQUIRED` | `SPECIFICATION COMPLETE — ACCEPTED` | `SOURCE COMPLETE — PENDING REVIEW` |
+| `M6V-07` | 7 | 1.5 | Findings + one triage decision + two equal outcomes | **Prohibited** | `NONE REQUIRED` | `NONE REQUIRED` | `SPECIFICATION COMPLETE — ACCEPTED` | `SOURCE COMPLETE — PENDING REVIEW` |
+| `M6V-08` | 8 | 1.0 | Seven equal rows + `Accepted condition` caution | **Prohibited** | `NONE REQUIRED` | `NONE REQUIRED` | `SPECIFICATION COMPLETE — ACCEPTED` | `SOURCE COMPLETE — PENDING REVIEW` |
+| `M6V-09` | 9 | 1.5 | Two lanes + one downward `assigns` connector | **Prohibited** | `NONE REQUIRED` | `NONE REQUIRED` | `SPECIFICATION COMPLETE — ACCEPTED` | `SOURCE COMPLETE — PENDING REVIEW` |
+| `M6V-10` | 10 | 1.5 | Six-status sequence + detached alternate dispositions | **Prohibited** | `NONE REQUIRED` | `NONE REQUIRED` | `SPECIFICATION COMPLETE — ACCEPTED` | `SOURCE COMPLETE — PENDING REVIEW` |
+| `M6V-11` | 11 | 1.5 | Four prerequisites + conditional gate + three equal findings | **Prohibited** | `NONE REQUIRED` | `NONE REQUIRED` | `SPECIFICATION COMPLETE — ACCEPTED` | `SOURCE COMPLETE — PENDING REVIEW` |
+| `M6V-12` | 12 | 1.5 | Nine conditions, nine empty boxes, qualifiers above | **Prohibited** | `NONE REQUIRED` | `NONE REQUIRED` | `SPECIFICATION COMPLETE — ACCEPTED` | `SOURCE COMPLETE — PENDING REVIEW` |
+| `M6V-13` | 13 | 1.0 | Three equal blocks + heavier full-width absence warning | **Prohibited** | `NONE REQUIRED` | `NONE REQUIRED` | `SPECIFICATION COMPLETE — ACCEPTED` | `SOURCE COMPLETE — PENDING REVIEW` |
+| `M6V-14` | 14 | 2.0 | Seven question groups + seven identical empty answers | **Prohibited** | `NONE REQUIRED` | `NONE REQUIRED` | `SPECIFICATION COMPLETE — ACCEPTED` | `SOURCE COMPLETE — PENDING REVIEW` |
 
 **Fourteen specifications. Fourteen slides. `20.0 minutes allocated — not
 measured`. Zero Mermaid. Zero external images. Zero live-evidence requirements.
@@ -909,29 +917,32 @@ none exists.**
 
 ---
 
-## 7. Reserved future source map
+## 7. Slide-source map
 
-**Reserved only. Nothing below exists.**
+**Created in `T6-F`. All fourteen are `SOURCE COMPLETE — PENDING CHATGPT
+GOVERNANCE REVIEW`, and none is accepted.**
 
 | Reserved identifier | Reserved path | State |
 |---|---|---|
-| `M06-S01` | `teaching/assets/module-06/M06-S01.md` | **`NOT CREATED — T6-F or later`** |
-| `M06-S02` | `teaching/assets/module-06/M06-S02.md` | **`NOT CREATED — T6-F or later`** |
-| `M06-S03` | `teaching/assets/module-06/M06-S03.md` | **`NOT CREATED — T6-F or later`** |
-| `M06-S04` | `teaching/assets/module-06/M06-S04.md` | **`NOT CREATED — T6-F or later`** |
-| `M06-S05` | `teaching/assets/module-06/M06-S05.md` | **`NOT CREATED — T6-F or later`** |
-| `M06-S06` | `teaching/assets/module-06/M06-S06.md` | **`NOT CREATED — T6-F or later`** |
-| `M06-S07` | `teaching/assets/module-06/M06-S07.md` | **`NOT CREATED — T6-F or later`** |
-| `M06-S08` | `teaching/assets/module-06/M06-S08.md` | **`NOT CREATED — T6-F or later`** |
-| `M06-S09` | `teaching/assets/module-06/M06-S09.md` | **`NOT CREATED — T6-F or later`** |
-| `M06-S10` | `teaching/assets/module-06/M06-S10.md` | **`NOT CREATED — T6-F or later`** |
-| `M06-S11` | `teaching/assets/module-06/M06-S11.md` | **`NOT CREATED — T6-F or later`** |
-| `M06-S12` | `teaching/assets/module-06/M06-S12.md` | **`NOT CREATED — T6-F or later`** |
-| `M06-S13` | `teaching/assets/module-06/M06-S13.md` | **`NOT CREATED — T6-F or later`** |
-| `M06-S14` | `teaching/assets/module-06/M06-S14.md` | **`NOT CREATED — T6-F or later`** |
+| `M06-S01` | `teaching/assets/module-06/M06-S01.md` | **`SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`** |
+| `M06-S02` | `teaching/assets/module-06/M06-S02.md` | **`SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`** |
+| `M06-S03` | `teaching/assets/module-06/M06-S03.md` | **`SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`** |
+| `M06-S04` | `teaching/assets/module-06/M06-S04.md` | **`SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`** |
+| `M06-S05` | `teaching/assets/module-06/M06-S05.md` | **`SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`** |
+| `M06-S06` | `teaching/assets/module-06/M06-S06.md` | **`SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`** |
+| `M06-S07` | `teaching/assets/module-06/M06-S07.md` | **`SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`** |
+| `M06-S08` | `teaching/assets/module-06/M06-S08.md` | **`SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`** |
+| `M06-S09` | `teaching/assets/module-06/M06-S09.md` | **`SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`** |
+| `M06-S10` | `teaching/assets/module-06/M06-S10.md` | **`SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`** |
+| `M06-S11` | `teaching/assets/module-06/M06-S11.md` | **`SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`** |
+| `M06-S12` | `teaching/assets/module-06/M06-S12.md` | **`SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`** |
+| `M06-S13` | `teaching/assets/module-06/M06-S13.md` | **`SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`** |
+| `M06-S14` | `teaching/assets/module-06/M06-S14.md` | **`SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`** |
 
-**`teaching/assets/module-06/` does not exist**, and **`T6-E` did not create it,
-a visual register or a slide-visual map.**
+**`teaching/assets/module-06/` exists**, and holds the fourteen sources together
+with a **visual register**, a **slide-visual map**, an **asset-set README** and a
+**rendered-status README**. **No rendered asset exists**, and **no renderer or
+dependency is installed.**
 
 ---
 
@@ -957,9 +968,9 @@ a visual register or a slide-visual map.**
 | Mermaid | **`PROHIBITED` × 14** |
 | Native reconstruction | **Specified × 14** |
 | Screenshot or platform replica | **None proposed** |
-| Visual sources created | **None.** `M06-S01`–`M06-S14` reserved only |
-| Asset directory created | **None** |
-| Visual register or slide-visual map created | **None** |
+| Visual sources | **Fourteen — `M06-S01`–`M06-S14` (T6-F)**, all `SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`; **none accepted** |
+| Asset directory | **Exists** — [`../assets/module-06/`](../assets/module-06/), eighteen files |
+| Visual register and slide-visual map | **Complete** |
 | Rendered assets | **None** |
 | Module 6 presentation package or PowerPoint | **None.** No `.pptx` committed |
 | Teaching statements added or changed | **None** — 218 unchanged |
@@ -991,37 +1002,36 @@ a visual register or a slide-visual map.**
 
 | Field | Value |
 |---|---|
-| Increment | **`T6-E` — COMPLETE** |
-| Specification baseline | **`14 of 14 visual specifications complete — governance review required`** |
-| Specification status | **`PENDING CHATGPT GOVERNANCE REVIEW`** |
-| Accepted / approved / production-ready / source-complete | **NO — none of these** |
+| Increment | **`T6-F` — COMPLETE** |
+| Specification baseline | **`14 of 14 visual specifications complete — ACCEPTED`** |
+| Specification status | **`T6-E — ACCEPTED after T6-E-R`** |
+| Visual-source baseline | **`14 of 14 — SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`** |
+| Source accepted | **NO.** No source in the set is accepted |
 | Visual concepts | **`M6V-01`–`M6V-14`** |
-| Reserved slide sources | **`M06-S01`–`M06-S14` — reserved only, `NOT CREATED`** |
-| Module 6 teaching files | **Eight** |
-| Teaching-content baseline | **COMPLETE and unchanged by `T6-E`** |
-| Asset directory / visual register / slide-visual map | **None exist** |
+| Slide sources | **`M06-S01`–`M06-S14` — created in `T6-F`** |
+| Module 6 teaching files | **Eight** — the asset files are not teaching files |
+| Teaching-content baseline | **COMPLETE and unchanged by `T6-E` and `T6-F`** |
+| Asset directory / visual register / slide-visual map | **All exist** — [`../assets/module-06/`](../assets/module-06/) |
 | Rendered assets | **NONE.** No renderer or dependency installed |
 | Module 6 assembly package / PowerPoint | **None.** No Module 6 PowerPoint produced; **no `.pptx` committed to this repository** |
 | Review / rehearsal / measured timing | **None performed** |
 | Timing | **`20.0 minutes allocated — not measured`** |
 | Slide progression | **Presenter-controlled manual advancement.** No automatic slide-transition timing |
 | Complete governed coordination cycle | **NOT DEMONSTRATED.** **`GCR-006` OPEN** |
-| Next increment | **`T6-F` — produce Module 6 visual sources** |
-| `T6-F` state | **`NOT STARTED — BLOCKED PENDING T6-E ACCEPTANCE`** |
+| Next increment | **`T6-G` — presentation assembly package** |
+| `T6-G` state | **`NOT STARTED — BLOCKED PENDING T6-F ACCEPTANCE`** |
 | Publication automation | **`PAUSED`** |
 
 ---
 
 ## 10. Residual production work
 
-**The visual-specification baseline is complete. Production is not, and the
-baseline is not yet accepted.**
+**The visual-specification baseline is accepted and the visual-source baseline is
+complete. Production is not, and the source baseline is not yet accepted.**
 
-- **ChatGPT governance review of `T6-E` — required before anything else.**
-- **No visual-source file exists.** `M06-S01`–`M06-S14` are reserved identifiers.
-- **`teaching/assets/module-06/` does not exist**, and neither does a visual
-  register or a slide-visual map.
-- **No rendered asset exists**, in this or any module.
+- **ChatGPT governance review of `T6-F` — required before `T6-G` may begin.**
+- **No rendered asset exists**, in this or any module, and **no renderer or
+  dependency is installed.**
 - **No presentation assembly package exists.**
 - **No Module 6 PowerPoint exists.** Earlier-module PowerPoints are **external
   derivative outputs** and are **outside this increment**; **no `.pptx` is
@@ -1045,10 +1055,12 @@ when the fourteen specifications in this file were created. `T6-E` reported the
 defect rather than patching protected content; **`T6-E-R` corrected the
 production-state explanation in both entries.**
 
-**What changed:** the production-state explanation only. Both entries now record
-that **fourteen visual specifications exist**, that **no visual source, asset,
-assembly package or Module 6 PowerPoint exists**, and that **no presentation
-review or rehearsal has been performed**.
+**What changed:** the production-state explanation only. Both entries were
+rewritten to record that **fourteen visual specifications exist**, that **no
+visual source, asset, assembly package or Module 6 PowerPoint exists**, and that
+**no presentation review or rehearsal has been performed** — the position as it
+stood at the end of `T6-E-R`. **See §10.2: `T6-F` has since overtaken part of
+that clause.**
 
 **What did not change:** claim **92** keeps its number, its core prohibited
 proposition, its module-level scope and its place in §8.8. Standing prohibition
@@ -1058,12 +1070,12 @@ is unchanged, and the totals remain 93 prohibited claims plus four standing
 prohibitions.** Standing prohibitions **A**, **B** and **C** are untouched.
 
 **Both prohibitions remain fully in force.** Neither the teaching-content
-baseline nor this specification baseline is a produced, reviewed or rehearsed
-presentation.
+baseline, nor this specification baseline, nor the `T6-F` visual-source baseline
+is a produced, reviewed or rehearsed presentation.
 
-**`T6-E-R` did not accept the specification baseline.** It remains
-**`SPECIFICATION COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`**, and **`T6-F`
-remains `NOT STARTED — BLOCKED PENDING T6-E ACCEPTANCE`.**
+**`T6-E-R` did not accept the specification baseline.** Acceptance came
+afterwards, by ChatGPT governance review, and is recorded as
+**`T6-E — ACCEPTED after T6-E-R`**.
 
 **`T6-E-R` also reconciled two further defects in this file** — the `M6V-06`
 numeric-rule contradiction between fields 16, 20 and 22, which now consistently
@@ -1072,3 +1084,27 @@ criterion or measurement; and the **PowerPoint-existence scope**, which now
 distinguishes the absent **Module 6** PowerPoint from the earlier modules'
 **external derivative** PowerPoints. **No specification was otherwise altered,
 and no teaching statement, count or register entry was changed.**
+
+### 10.2 One reported need — not corrected in T6-F
+
+**Prohibited claim 92 and standing prohibition D are stale again**, in a
+different part of the same clause.
+
+Both now read *"…no visual source, asset, assembly package or Module 6 PowerPoint
+exists…"* — accurate when `T6-E-R` wrote it. **`T6-F` created the fourteen visual
+sources and the asset directory**, so **the *visual source* and *asset* limbs are
+now out of date**. The remaining limbs — **no assembly package, no Module 6
+PowerPoint, no presentation review, no rehearsal** — are still exactly correct.
+
+**Neither entry was changed.** The prohibited-claims register and the standing
+prohibitions are protected content, and **`T6-F` is not permitted to modify
+them**. As in `T6-E`, the defect is **reported rather than patched**.
+
+**Both prohibitions remain fully in force**, and their governed meaning is
+unaffected: **the Module 6 baseline is not a produced, reviewed or rehearsed
+presentation.** A visual source is a construction specification, **not a produced
+presentation** — which is precisely what claims 92 and 93 and standing
+prohibition **D** exist to prevent anyone claiming.
+
+**Recorded here as a reported need for ChatGPT governance review.** A future
+correction increment could align the enumeration; **`T6-F` did not.**

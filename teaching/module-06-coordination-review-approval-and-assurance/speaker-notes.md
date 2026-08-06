@@ -1714,7 +1714,8 @@ information exists in this repository.**
 | Slide progression | **No automatic slide-transition timing.** Advance manually when ready |
 | Rehearsal | **None performed** |
 | Exercises | [`exercises.md`](exercises.md) — created in **T6-D** |
-| Visual specifications | **14 of 14 — `M6V-01`–`M6V-14` (T6-E)**, all **`PENDING CHATGPT GOVERNANCE REVIEW`** — [`visual-demonstration-plan.md`](visual-demonstration-plan.md) |
-| Visual sources / assets | **None exist.** `M06-S01`–`M06-S14` **reserved only** |
-| Assembly package / PowerPoint | **None exist** |
-| Outstanding | **T6-F** — produce Module 6 visual sources. **`NOT STARTED — BLOCKED PENDING T6-E ACCEPTANCE`** |
+| Visual specifications | **14 of 14 — `M6V-01`–`M6V-14`**, **ACCEPTED after `T6-E-R`** — [`visual-demonstration-plan.md`](visual-demonstration-plan.md) |
+| Visual sources | **14 of 14 — `M06-S01`–`M06-S14` (T6-F)**, all **`SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`** — [`../assets/module-06/`](../assets/module-06/) |
+| Rendered assets | **None** |
+| Assembly package / Module 6 PowerPoint | **None exist** |
+| Outstanding | **T6-G** — presentation assembly package. **`NOT STARTED — BLOCKED PENDING T6-F ACCEPTANCE`** |
