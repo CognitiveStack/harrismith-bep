@@ -168,7 +168,7 @@ block equality. **None of those survive audio.**
 | 14 | **Classification profile** | 5 `CONTROLLED` · 3 `SUPPORTING` · 2 `DECISION-RECORD` · 1 `MODULE-2-5` · 2 `INTERP` · 1 `EXCLUDED` — total 14 |
 | 15 | **Principal visible labels** | *allocation*; *"A matrix records responsibility. It never records occurrence."*; *occurrence* · *decision* · *verification* |
 | 16 | **Mandatory warning** | **All four strip entries together** — `APPROVED WITH CONDITIONS — Training Baseline 0.1` · `PROPOSED GOVERNANCE` · `GCR-006 OPEN` · `COMPLETE CYCLE NOT DEMONSTRATED` |
-| 17 | **Fixed geometry** | Panels `y = 96–392`; left `x = 48–476`, right `x = 508–912`; equal width ≈ 428 pt, gap ≈ 32 pt, **never touching**. Strip `x = 48–912`, `y = 416–500`, **height ≥ 84 pt** so four entries sit at ≥ 18 pt |
+| 17 | **Fixed geometry** | Panels `y = 96–392`; left `x = 48–464`, right `x = 496–912`; **each exactly 416 pt wide, gap exactly 32 pt** (`2 × 416 + 32 = 864`), **never touching**. Strip `x = 48–912`, `y = 416–500`, **height ≥ 84 pt** so four entries sit at ≥ 18 pt |
 | 18 | **Connector semantics** | **None.** An arrow left to right would read as *Module 5 leads to Module 6 having happened*. The strip touches nothing |
 | 19 | **Accessibility** | Reading order left → right → **strip last and in full**; panel equality stated in words; status text ≥ 18 pt |
 | 20 | **Overclaim risk** | A confident two-panel opener reads as *"here is the process we run"*. The strip is the entire mitigation |
@@ -273,7 +273,7 @@ position for the whole module.
 | 14 | **Classification profile** | 8 `CONTROLLED` · 3 `SUPPORTING` · 1 `DECISION-RECORD` · 2 `INTERP` — total 14 |
 | 15 | **Principal visible labels** | `ARC-01` `STR-01` `MEC-01` `ELE-01` `PLM-01` `FIR-01` with their originators; `COORD-01`; **`assembled from` on every connector** |
 | 16 | **Mandatory warning** | `Federation transfers no authorship or technical ownership`, **plus** zero coordinated versions and no demonstrated run |
-| 17 | **Fixed geometry** | Containers `y = 96–168`, equal width ≈ 134 pt, gaps ≈ 20 pt. View `x = 240–600`, `y = 268–348`. `COORD-01` `x = 640–912`, same band, **≥ 40 pt clear**. Warning strip `y = 386–430` |
+| 17 | **Fixed geometry** | Containers `y = 96–168`, **each exactly 134 pt wide, five gaps of exactly 12 pt** — `48–182`, `194–328`, `340–474`, `486–620`, `632–766`, `778–912` (`6 × 134 + 5 × 12 = 864`). View `x = 240–600`, `y = 268–348`. `COORD-01` `x = 640–912`, same band, **≥ 40 pt clear**. Warning strip `y = 386–430` |
 | 18 | **Connector semantics** | **Six connectors, all upward, arrowheads at the container end, all labelled `assembled from`.** **No downward or returning connector.** `COORD-01` joined by **one dashed unarrowed line** |
 | 19 | **Accessibility** | **Arrow direction and the absence of an author label both stated in words** — neither survives audio |
 | 20 | **Overclaim risk** | A funnel reading; six containers read as six organisations; `COORD-01` read as a parent |
@@ -376,7 +376,7 @@ numeric project criterion anywhere**.
 | 14 | **Classification profile** | 5 `CONTROLLED` · 6 `SUPPORTING` · 1 `DECISION-RECORD` · 4 `INTERP` — total 16 |
 | 15 | **Principal visible labels** | The seven decision criteria; `Governed Issue`; `Recorded disposition — no Issue`; the two Issue scopes headed **BEP §8.7** and **Strategy §12** |
 | 16 | **Mandatory warning** | `Clash / finding ≠ Issue` **between findings and the decision**, and `Creating an Issue does not establish that it was correctly classified, correctly assigned, resolved or verified` |
-| 17 | **Fixed geometry** | Findings `x = 48–304`. Decision `x = 336–600`, `y = 150–282`, **the heaviest object on the slide**. Outcomes `x = 632–912`: `y = 96–210` and `y = 226–336`, **identical in every dimension**. Comparison `y = 356–440` |
+| 17 | **Fixed geometry** | Findings `x = 48–304`. Decision `x = 336–600`, `y = 150–282`, **the heaviest object on the slide**. Outcomes `x = 632–912`: `y = 96–208` and `y = 224–336`, **each exactly 112 pt high, gap exactly 16 pt, identical in every dimension**. Comparison `y = 356–440` |
 | 18 | **Connector semantics** | Findings → decision: *presented for triage*. Decision → each outcome: **two connectors of identical weight and style**. **Neither outcome connector may be heavier, straighter, shorter or more central.** No connector bypasses the decision |
 | 19 | **Accessibility** | **The equality of the two outcomes stated in words** |
 | 20 | **Overclaim risk** | **Left-to-right layout is itself a conveyor** |
@@ -410,7 +410,7 @@ outcomes at identical weight**; **no automatic conveyor**.
 | 14 | **Classification profile** | 1 `CONTROLLED` · 11 `SUPPORTING` · 1 `MODULE-2-5` · 2 `INTERP` — total 15 |
 | 15 | **Principal visible labels** | The seven dispositions in recorded wording; `Seven. Not six, not eight.` |
 | 16 | **Mandatory warning** | The `Accepted condition` caution — **not recipient `Accept` · not publication authorisation · not technical approval · not regulatory acceptance · does not release `T4` · does not unblock `TRN-E03`** |
-| 17 | **Fixed geometry** | Table `x = 48–600`, `y = 96–430`, **seven rows of exactly equal height ≈ 44 pt**. Call-out `x = 624–912`, `y = 96–300`, **border heavier than the table**. *Is not* block `y = 316–430` |
+| 17 | **Fixed geometry** | Table `x = 48–600`, `y = 96–430` — **334 pt divided into seven rows of exactly equal height; nominal `334 ÷ 7 ≈ 47.714 pt`. Use Distribute Rows across the full 334 pt; do not round each row independently**. Call-out `x = 624–912`, `y = 96–300`, **border heavier than the table**. *Is not* block `y = 316–430` |
 | 18 | **Connector semantics** | **One leader line only**, call-out → the `Accepted condition` row. **No arrows between dispositions** — they are alternatives, not a sequence |
 | 19 | **Accessibility** | **The warning glyph must have a text equivalent**; the caution read immediately after its row |
 | 20 | **Overclaim risk** | A call-out on one row of seven reads as a highlight, not a caution |
@@ -582,7 +582,7 @@ mapping**.
 | 14 | **Classification profile** | 2 `CONTROLLED` · 9 `SUPPORTING` · 1 `DECISION-RECORD` · 4 `INTERP` — total 16 |
 | 15 | **Principal visible labels** | Nine outputs under `None is recorded as produced`; six escalation fields with `where established`; `Decision owner: not established`; the `does cover` heading and the ten limits |
 | 16 | **Mandatory warning** | `Assurance-sampling method — NOT ESTABLISHED`, **visually heavier than the three blocks**, plus `A Closed label alone proves none of them` |
-| 17 | **Fixed geometry** | Three blocks `y = 96–390`, `x = 48–336` / `348–636` / `648–912`, **equal width ≈ 288 pt, none touching**. Warning strip `x = 48–912`, `y = 406–500`, **border ≥ 2 × the block border weight, heading ≥ 20 pt** |
+| 17 | **Fixed geometry** | Three blocks `y = 96–390`, `x = 48–328` / `340–620` / `632–912`, **each exactly 280 pt wide, two gaps of exactly 12 pt** (`3 × 280 + 2 × 12 = 864`), **none touching**. Warning strip `x = 48–912`, `y = 406–500`, **border ≥ 2 × the block border weight, heading ≥ 20 pt** |
 | 18 | **Connector semantics** | **None.** An arrow would imply outputs lead to escalation, or escalation to closure — neither is stated |
 | 19 | **Accessibility** | **The warning's greater weight stated in words**; `where established` read with its field |
 | 20 | **Overclaim risk** | Nine outputs read as deliverables that exist; ten limits read as an indictment of closure |

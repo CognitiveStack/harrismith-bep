@@ -391,6 +391,40 @@ Production is not, and the package is not yet accepted.**
 - **No deck review has been performed.**
 - **No rehearsal has been performed**, and **timing has never been measured**.
 
+## 14.1 `T6-G-R` — geometry reconciliation
+
+**`T6-G`'s package architecture and teaching content were substantively
+correct.** Governance review confirmed the seven authorised files, the fourteen
+slides, the preserved titles, timing and teaching sequence, the 75 accepted STOP
+conditions, the 40 package-level additions, the 56 automatic fails, the
+reconciled source statuses and production-state registers, and that **no rendered
+asset or Module 6 PowerPoint was created**.
+
+**Governance review found five mathematical geometry contradictions** — stated
+equalities, gaps and spans that were not achievable on the accepted
+`960 × 540 pt` canvas. **The five affected slides are 1, 4, 7, 8 and 13.**
+
+| Slide | Contradiction | Corrected to |
+|---:|---|---|
+| **1** | Panels described as equal at `48–476` (428 pt) and `508–912` (404 pt) | `48–464` and `496–912` — **each exactly 416 pt**, gap exactly 32 pt |
+| **4** | Six containers ≈ 134 pt with five ≈ 20 pt gaps needed **904 pt** in an **864 pt** span | Six containers of **exactly 134 pt** with **five exactly 12-pt gaps** — `6 × 134 + 5 × 12 = 864` |
+| **7** | Outcomes described as identical at 114 pt and 110 pt | `96–208` and `224–336` — **each exactly 112 pt**, gap exactly 16 pt |
+| **8** | Seven equal rows across 334 pt stated as ≈ 44 pt; `334 ÷ 7 = 47.714…` | **Nominal `334 ÷ 7 ≈ 47.714 pt`**, with a **Distribute Rows** production instruction against cumulative rounding drift |
+| **13** | Three blocks described as equal at 288, 288 and 264 pt | `48–328`, `340–620`, `632–912` — **each exactly 280 pt**, two exactly 12-pt gaps — `3 × 280 + 2 × 12 = 864` |
+
+**`T6-G-R` corrected arithmetic and coordinates only.** **No wording, status,
+teaching claim, visual meaning or production control changed.** Slide titles,
+timing, teaching copy, mandatory visible strings, speaker notes, presenter cues,
+connector semantics, visual object counts, the 75 STOP conditions, the 40
+package-level additions and the 56 automatic fails are all untouched, and **no
+slide was redesigned or reinterpreted.**
+
+**These are corrections to a teaching-production specification. They are not
+changes to Harrismith governance.**
+
+**The package remains `PACKAGE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`**,
+and **`T6-H` remains `NOT STARTED — BLOCKED PENDING T6-G ACCEPTANCE`.**
+
 ## 15. Next increment
 
 **`T6-H` — external PowerPoint production.**

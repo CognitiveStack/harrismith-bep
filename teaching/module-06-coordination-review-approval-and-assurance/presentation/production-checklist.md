@@ -65,6 +65,9 @@ measured`. Presenter-controlled advancement. Publication automation `PAUSED`.**
 - [ ] **Connector rule** — **none**; panels never touch; strip touches nothing.
 - [ ] **Deliberate condition** — the strip is a **principal object**, sized
       ≥ 84 pt, entries ≥ 18 pt.
+- [ ] **Geometry** — panels `y = 96–392`; left `x = 48–464`, right
+      `x = 496–912`; **each exactly 416 pt wide**; **gap exactly 32 pt**
+      (`2 × 416 + 32 = 864`). Strip `x = 48–912`, `y = 416–500`.
 - [ ] **Accessibility** — strip read last and in full; panel equality in words.
 - [ ] **Producer-failure test** — show the slide for five seconds and ask whether
       the governed route has been demonstrated. *Yes*, *probably* or *unclear*
@@ -121,6 +124,10 @@ measured`. Presenter-controlled advancement. Publication automation `PAUSED`.**
       **no downward or returning connector**; `COORD-01` on one dashed unarrowed
       line.
 - [ ] **Deliberate condition** — **the federated view carries no author label**.
+- [ ] **Geometry** — containers `y = 96–168`, **each exactly 134 pt wide** at
+      `x = 48–182`, `194–328`, `340–474`, `486–620`, `632–766`, `778–912`,
+      with **five gaps of exactly 12 pt** (`6 × 134 + 5 × 12 = 864`). View
+      `x = 240–600`, `y = 268–348`; `COORD-01` `x = 640–912`, ≥ 40 pt clear.
 - [ ] **Accessibility** — arrow direction **and** the missing author label both
       in words.
 - [ ] **Producer-failure test** — ask which direction responsibility travels;
@@ -179,6 +186,9 @@ measured`. Presenter-controlled advancement. Publication automation `PAUSED`.**
       decision → outcomes; **none bypasses the decision**.
 - [ ] **Deliberate condition** — **outcomes identical in width, height, border
       weight and type size**; neither Issue scope preferred.
+- [ ] **Geometry** — outcomes `x = 632–912`: A `y = 96–208`, B `y = 224–336`;
+      **each exactly 112 pt high**, **gap exactly 16 pt**. Decision
+      `x = 336–600`, `y = 150–282`.
 - [ ] **Accessibility** — the equality of the outcomes stated in words.
 - [ ] **Producer-failure test** — cover the decision: does it still read as
       findings becoming Issues? Ask which outcome is normal; ask which Issue
@@ -195,6 +205,11 @@ measured`. Presenter-controlled advancement. Publication automation `PAUSED`.**
       lines**.
 - [ ] **Connector rule** — **one leader line only**; **no arrows between
       dispositions**.
+- [ ] **Geometry** — table `x = 48–600`, `y = 96–430`; **334 pt divided into
+      seven rows of exactly equal height, nominal `334 ÷ 7 ≈ 47.714 pt`**.
+      **Use PowerPoint Distribute Rows across the complete 334-pt height; do
+      not assign seven independently rounded heights whose cumulative total
+      fails to terminate at `y = 430`.**
 - [ ] **Deliberate condition** — **no eighth row**; rows of exactly equal height;
       the caution reads as caution, **not** as advice or a recommendation.
 - [ ] **Accessibility** — the warning glyph has a text equivalent; the caution
@@ -294,6 +309,10 @@ measured`. Presenter-controlled advancement. Publication automation `PAUSED`.**
 - [ ] **Mandatory warning** — `Assurance-sampling method — NOT ESTABLISHED`,
       **visually heavier than the three blocks**.
 - [ ] **Connector rule** — **none**.
+- [ ] **Geometry** — three blocks `y = 96–390` at `x = 48–328`, `340–620`,
+      `632–912`; **each exactly 280 pt wide**, with **two gaps of exactly
+      12 pt** (`3 × 280 + 2 × 12 = 864`). Warning strip `x = 48–912`,
+      `y = 406–500`.
 - [ ] **Deliberate condition** — **no output carries a tick, marker or completion
       state**; the closure block keeps its `does cover` heading **before** the
       limits.
