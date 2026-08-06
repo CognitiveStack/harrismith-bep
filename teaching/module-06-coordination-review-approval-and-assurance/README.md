@@ -214,7 +214,7 @@ externally and are not committed.
 | [`README.md`](README.md) | This file — objective, central question, status, scope, **increment status and validation** (§13) |
 | [`source-inventory.md`](source-inventory.md) | Source hierarchy · **`S1`–`S14`** with exact paths and declared statuses · **`E1`–`E9` exclusions with reasons** · implementation-evidence register · **6 terminology variances** |
 | [`resource-comparison.md`](resource-comparison.md) | **The four principal resources analysed separately** — governed object, actors, activities, decision points, outputs, status vocabulary, evidence, authority, closure, implementation status, unresolved matters, exclusions and relationships |
-| [`source-map.md`](source-map.md) | Classification scheme · source-authority register · **188 classified statements, Slides 1–12** · terminology register · **18 hypotheses** · **14 unresolved matters** · implementation-evidence register · **50 prohibited claims** plus 4 standing prohibitions · boundary deferrals |
+| [`source-map.md`](source-map.md) | Classification scheme · source-authority register · **188 classified statements, Slides 1–12** · terminology register · **18 hypotheses** · **14 unresolved matters** · implementation-evidence register · **73 prohibited claims** plus 4 standing prohibitions · boundary deferrals |
 | [`presentation-outline.md`](presentation-outline.md) | Timing structure · **fourteen-slide architecture** · **Slides 1–12 developed** · Slides 13–14 architecture only |
 | [`speaker-notes.md`](speaker-notes.md) | Presenter notes — **Slides 1–12**. **No module closing is written** |
 

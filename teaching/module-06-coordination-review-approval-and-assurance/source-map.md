@@ -481,9 +481,10 @@ summary:**
 
 ## 8. Prohibited-claims register
 
-**Thirty-four prohibited claims.** Expanded from the sources. **A statement on
-any Module 6 slide that makes one of these claims is wrong, whatever else is
-correct on the slide.**
+**Seventy-three prohibited claims, plus four standing prohibitions** — **34
+recorded in T6-A (§8.1–§8.5), 16 added in T6-B (§8.6) and 23 added in T6-C
+(§8.7)**. Expanded from the sources. **A statement on any Module 6 slide that
+makes one of these claims is wrong, whatever else is correct on the slide.**
 
 ### 8.1 Findings, clashes and Issues
 
@@ -573,8 +574,8 @@ presented as recipient acceptance, approval or authorisation — claim 19 —
 and T6-B adds that it does not release `T4`, resolve acceptance authority or
 unblock `TRN-E03`.**
 
-**Fifty prohibited claims, plus four standing prohibitions.** **No count was
-targeted.**
+**Fifty prohibited claims, plus four standing prohibitions — the running total
+after T6-B.** **No count was targeted.**
 
 ### 8.7 Added in T6-C — Slides 9–12
 
@@ -612,8 +613,8 @@ developing Slides 9–12. **Numbering continues; no earlier claim was renumbered
 |---|---|
 | 73 | That **Module 6 teaching closes `GCR-006`** — only evidence of a complete governed cycle could |
 
-**Seventy-three prohibited claims, plus four standing prohibitions.** **No count
-was targeted.**
+**Seventy-three prohibited claims, plus four standing prohibitions — the current
+total.** **No count was targeted.**
 
 ### 8.8 Standing programme-status prohibitions
 
