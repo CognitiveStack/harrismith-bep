@@ -31,7 +31,7 @@ moves — not as the subject.
 | 3 | ISO 19650 information-management principles | **Content, visual source, assembly package and PowerPoint produced.** Review and rehearsal **deferred** |
 | 4 | CDE workflows and information states | **Content, visual source, assembly package and PowerPoint produced.** Review and rehearsal **deferred** |
 | 5 | Responsibility matrices and information-delivery planning | **Content, visual source, assembly package and PowerPoint produced; governance review ACCEPTED (`REV01`).** Rehearsal and measured timing **DEFERRED** |
-| 6 | **Coordination, Review, Approval and Assurance** | **CURRENT — ACTIVE.** **`T6-A` COMPLETE** — six files, source architecture, **Slides 1–3 developed; Slides 4–14 architecture only**. `T6-B` next |
+| 6 | **Coordination, Review, Approval and Assurance** | **CURRENT — ACTIVE.** **`T6-A` and `T6-B` COMPLETE** — six files, source architecture, **Slides 1–8 developed; Slides 9–14 architecture only**. `T6-C` next |
 | 7 | Translating Harrismith into the Triviron BEP | Planned |
 | 8 | Facilitating and presenting a BEP workshop | Planned |
 
@@ -370,7 +370,7 @@ approval workflow mechanics, assurance sampling and closure all remain
 
 ### Module 6 — Coordination, Review, Approval and Assurance — **CURRENT — ACTIVE**
 
-**Module 6 is the active module, and `T6-A` is COMPLETE.**
+**Module 6 is the active module. `T6-A` and `T6-B` are COMPLETE.**
 
 Deliverable: a 20-minute, fourteen-slide presentation on **how Harrismith
 governs the route from a coordination finding to a verified disposition, and
@@ -387,7 +387,13 @@ carrying **49 classified statements**, **nine registers**, **18 hypotheses**,
 claims** plus four standing prohibitions; a **fourteen-slide architecture**; and
 presenter notes.
 
-**Slides 1–3 are developed. Slides 4–14 are architecture only** — they carry a
+**`T6-B` developed Slides 4–8** — federation as a lens that transfers no
+authorship, input readiness as the entry condition to a cycle, check selection as
+a governed choice with **all twelve tolerances `TBD`**, the finding-to-Issue
+decision, and the **seven triage dispositions** with the `Accepted condition`
+warning. **76 new classified statements** and **16 new prohibited claims**.
+
+**Slides 1–8 are developed. Slides 9–14 are architecture only** — they carry a
 title, a time and an intended function, and nothing else.
 
 **The module's implementation position is recorded, not softened.** A Model
@@ -407,7 +413,7 @@ strategy's defined step. **Neither was resolved.**
 directory, no presentation package and no PowerPoint exist.** No review or
 rehearsal has been performed.
 
-**Next development increment: `T6-B`. It has not started.**
+**Next development increment: `T6-C` — develop Slides 9–12. It has not started.**
 
 ### Modules 7–8 — future scope
 
@@ -484,9 +490,10 @@ of governance under condition. Describing it neither advances nor reopens it.
 | Field | Value |
 |---|---|
 | **Active module** | **Module 6 — Coordination, Review, Approval and Assurance** — **CURRENT — ACTIVE** |
-| **Next development increment** | **`T6-B`** — continued Module 6 slide development. **NOT STARTED** |
+| **Next development increment** | **`T6-C`** — develop Slides 9–12. **NOT STARTED** |
 | Module 6 established (T6-A) | **COMPLETE.** Module directory, **six files** · source inventory **`S1`–`S14`** with exact paths and declared statuses, **`E1`–`E9` excluded with reasons** · **four principal resources analysed separately** · **nine registers** · **18 hypotheses** — 15 `CONFIRMED`, 2 `CONFIRMED WITH QUALIFICATION`, 1 `NOT ESTABLISHED`, 0 `CONTRADICTED` · **six terminology variances, none harmonised** · **14 unresolved matters, none resolved** · **49 classified statements** · **34 prohibited claims** plus 4 standing · 20-minute fourteen-slide architecture · **Slides 1–3** |
-| Module 6 slides | **3 of 14 developed.** **Slides 4–14 architecture only** |
+| Module 6 developed (T6-B) | **Slides 4–8.** Federation — a lens that transfers no authorship, technical ownership or deliverable status · input readiness as the **entry condition**, with visible ≠ selected ≠ suitable ≠ ready · **twelve proposed interface checks, every tolerance `TBD`**, and a software default is **not** a project requirement · the **finding-to-Issue decision** and the recorded BEP/strategy scope variance · the **seven triage dispositions** and the **`Accepted condition`** warning. **76 new classified statements** (125 total) · **16 new prohibited claims** (50 total). **No source, hypothesis, variance or unresolved matter added, reclassified or populated** |
+| Module 6 slides | **8 of 14 developed.** **Slides 9–14 architecture only** |
 | Module 6 central question | **Corrected on source evidence.** *How does Harrismith **govern** the route from a coordination finding to a **verified disposition** — and which acts must stay distinct?* The provisional *"turn … into"* and *"traceable closure"* wording was **removed**: `GCR-006` is open and the cycle is **not demonstrated** |
 | Module 6 implementation position | **`GCR-006` OPEN.** Model Coordination model set with **zero coordinated versions**; **no Coordination Space configured**; two Reviews and one Issue **open with nothing completed**; recorded result **`PARTIALLY TRACEABLE / NOT YET DEMONSTRATED AS A COMPLETE CYCLE`** |
 | Module 6 recorded absences | **Assurance-sampling method — `NOT ESTABLISHED`** in any source. **Whether verification is mandatory in every cycle — `NOT ESTABLISHED`** (BEP §8.10 *"may verify"* versus the strategy's defined step). **Neither resolved** |

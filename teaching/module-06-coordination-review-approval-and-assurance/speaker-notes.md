@@ -2,9 +2,9 @@
 
 **Status:** Presenter notes for teaching material. **Not governance.**
 
-**Notes exist for Slides 1–3 only.** Slides 4–14 are **architecture only** and
-have **no presenter notes**. **No module closing has been written** — the
-closing belongs to the increment that develops Slide 14.
+**Notes exist for Slides 1–8.** Slides 9–14 are **architecture only** and have
+**no presenter notes**. **No module closing has been written** — the closing
+belongs to the increment that develops Slide 14.
 
 **No rehearsal has been performed.** Timing throughout remains **allocated, not
 measured**.
@@ -394,13 +394,552 @@ is an accusation. **All three parts, every time.**
 
 ---
 
+## Slide 4 — Federation: a lens, not an author · 1.5 min
+
+### What you are doing here
+
+Stopping a transfer that nobody intends and no source authorises. **Assembling
+models looks like merging them**, and the visual similarity does the damage.
+
+### Opening line
+
+> *"We are about to put six disciplines' information into one view. Before we
+> do, I want to be precise about what that view is — because it is the single
+> place on this project where responsibility most easily goes missing."*
+
+### The load-bearing explanation
+
+BEP §8.5 is a list of four negatives. Deliver them as a list, not as prose:
+
+> *"Federation does not merge authorship. It does not transfer technical
+> ownership. It does not create a new design author. It does not turn discipline
+> models into one jointly-owned authoring model."*
+
+Then the sentence that does the most work:
+
+> *"Nobody becomes responsible for another team's content by appearing alongside
+> it."*
+
+Say it twice if you have to. It is the whole slide.
+
+Then the six separations. Do not rush them — **source container, federated view,
+originator, technical ownership, coordination-process responsibility, deliverable
+status.** The BIM Coordinator holds **exactly one** of those six: the process.
+
+### Source boundary
+
+`S1` §8.5 governs. `S2` §8 repeats it for `COORD-01` and adds the five
+exclusions. **`S4` §3.4 allocates `COORD-01`; Module 5 taught it. Do not
+re-teach the container allocation here.**
+
+### Governance-status warning
+
+**`S1` §8.5 is `CONTROLLED GOVERNANCE`; `COORD-01` and its exclusions are
+`PROPOSED GOVERNANCE`** from `S4` §3.4 via `TA-03`. **Say which is which if
+asked.**
+
+### Implementation-status warning
+
+**A Model Coordination model set exists with zero coordinated versions.** **No
+completed federation or coordination run has been demonstrated.** If you show a
+federated view on this slide, **it is a diagram of a concept, not a screenshot
+of a project.**
+
+### Words that must remain separate
+
+**Aggregation** and **merging**. **Coordination view** and **authoring model**.
+**Process responsibility** and **technical ownership**. **A federated view** and
+**a deliverable**.
+
+### What not to imply
+
+- That ownership or authorship **flows into** the federated model.
+- That the BIM Coordinator acquires authorship, technical approval or
+  publication authority by chairing coordination.
+- That the federation is a **"single source of truth"** — **no controlled source
+  uses that phrase, and it implies exactly the merge the BEP denies.**
+- That a model set with included folders **is** a completed federation.
+- That `COORD-01` is scheduled, contracted or deliverable.
+
+### Likely audience question
+
+**"So who owns the federated model?"**
+
+> *"The coordination process is led by the BIM Coordinator. The content is owned,
+> discipline by discipline, by the task teams that authored it — before and after
+> federation. Nobody owns the federation as a design artefact, because nobody
+> authored it as one."*
+
+**"Isn't the federated model the coordinated model we issue?"**
+
+> *"Not automatically. `COORD-01` does not become a formal deliverable unless it
+> is explicitly scheduled as one, and no such schedule entry exists. It is a
+> lens, and lenses are not deliverables."*
+
+**"Our models sit in the same folder — doesn't that make them one model?"**
+
+> *"No. Folder location, platform environment and federation membership do not
+> determine authorship. Tools do not define responsibility — that is BEP 8.4."*
+
+### Transition
+
+> *"So the federation is a lens. The next question is what is allowed to be in
+> it — because 'the file is there' is not the same as 'the information is a
+> governed input.'"*
+
+### Delivery warning
+
+**Never draw an arrow pointing into the federated view.** If your visual shows
+containers feeding a central model, the audience reads ownership flowing inward,
+and no amount of narration will remove it.
+
+---
+
+## Slide 5 — Inputs and readiness: what may enter a cycle · 1.5 min
+
+### What you are doing here
+
+Making **readiness an entry condition**, and separating eight things that look
+identical in a file browser.
+
+### Opening line
+
+> *"Everyone has been in the meeting where somebody says 'the model's in there.'
+> That sentence answers none of the questions Harrismith actually asks."*
+
+### The load-bearing explanation
+
+Walk the twelve register fields quickly — they are a list, not a lecture. Pause
+on **`Information State`**:
+
+> *"It must be Shared. Coordinating uncontrolled WIP is not the normal method —
+> that is BEP 6.6 and 8.3."*
+
+Then the ten readiness conditions. Group them rather than reading them out:
+
+> *"Identity and originator. State and purpose. Checks completed and share
+> authorised. Context, limitations, dependencies, version. Ten conditions,
+> confirmed as applicable."*
+
+Then the eight separations — the heart of the slide:
+
+> *"Visible is not selected. Selected is not suitable. Suitable is not ready.
+> Permission to read is not authorisation to rely. Observed content is not a
+> governed input set."*
+
+### Source boundary
+
+`S2` §4 and §5 hold the register and conditions. `S1` §8.3 governs readiness and
+supplies the completeness distinction. **`S6` governs the `Shared` state — do
+not re-teach Module 4's state model.**
+
+### Governance-status warning
+
+**The register and the ten conditions are `PROPOSED GOVERNANCE`.** The
+readiness-versus-completeness distinction is **`CONTROLLED`** — BEP §8.3.
+
+### Implementation-status warning
+
+**Only Architecture was observed as a populated direct production stream, at the
+inspected level.** **No live version or revision values are recorded** — *"none
+were observed or validated, and none is invented."* And **the intended
+coordination environment remains unresolved** — no Coordination Space was
+observed configured, and no configuration is approved.
+
+### Words that must remain separate
+
+**Uploaded** and **input**. **Readiness** and **completeness**. **Permission**
+and **authorisation**. **Excluded** and **absent**.
+
+### What not to imply
+
+- That an uploaded or visible file **is** a controlled coordination input.
+- That exclusion from a cycle says anything about the project.
+- That limited observed content proves other containers do not exist.
+- That any observed platform configuration **is** the approved coordination
+  environment.
+- **Any invented number** — deadline, completeness percentage, model-health
+  score, required format, frequency, named approver, suitability code or
+  platform workflow. **None exists.**
+
+### Likely audience question
+
+**"What percentage complete does a model need to be?"**
+
+> *"There is no threshold, and inventing one would be the failure this slide
+> exists to prevent. Readiness is not completeness — BEP 8.3 says information can
+> be ready to coordinate while remaining incomplete, unapproved and subject to
+> change. What matters is that the ten conditions are confirmed for the defined
+> purpose."*
+
+**"What if a discipline isn't ready?"**
+
+> *"Exclude or defer it, and record the reason. An exclusion with a recorded
+> reason is a governed outcome; coordinating an unready input quietly is not."*
+
+**"Only Architecture is there — are the others behind?"**
+
+> *"That inference is not available. Architecture was observed as a populated
+> stream at one level at one time. Absence of observation is not observation of
+> absence."*
+
+### Transition
+
+> *"Once you have a governed input set, you have to decide what to test — and
+> Harrismith is explicit that you do not test everything."*
+
+### Delivery warning
+
+**Do not shorten the twelve fields or the ten conditions into a tidy five.**
+They are controlled lists, and compressing them changes what readiness means. If
+time is short, **group them aloud but leave them complete on the slide.**
+
+---
+
+## Slide 6 — Checks are chosen, not exhaustive · 1.5 min
+
+### What you are doing here
+
+Two jobs: **check selection is a governed choice**, and **neither a vendor
+default nor a clash count carries authority**.
+
+### Opening line
+
+> *"The instinct is to test everything against everything. Harrismith declines,
+> and gives a reason worth remembering."*
+
+### The load-bearing explanation
+
+> *"Testing everything against everything produces volume, not insight, and
+> buries the findings that matter."*
+
+Then the principle:
+
+> *"A check exists because a meaningful interface exists."*
+
+Walk the six check types briefly, and land the one people forget:
+
+> *"Two of these — Information / Readiness, and Design / Interface Question —
+> are not geometry at all. Not every category depends on automated detection, and
+> they are no less governed for that."*
+
+Then the twelve checks: **name the pattern, not all twelve.**
+
+> *"Twelve proposed checks, built around structure and architecture as the two
+> hubs, plus mechanical against the other services. Not all possible pairs are
+> built — the matrix stops at meaningful interfaces rather than completing the
+> combinatorial set."*
+
+Then the two authority statements. **Slow down for both.**
+
+> *"Every one of the twelve tolerances is TBD. And a software default tolerance
+> is not a project requirement — a value shipped with a tool has no governance
+> authority, and adopting it silently would convert a vendor default into a
+> project rule."*
+
+> *"Where no tolerance is approved, a check must not present a numeric threshold
+> as though it carried governance authority. The check may still run. Its output
+> is a finding for triage, not a compliance judgement."*
+
+### Source boundary
+
+`S2` §9, §10 and §11 hold the checks, types and tolerance position. `S1` §8.6
+governs the selection principle and §8.1 the clash-count warning. **Detailed
+combinations, tolerances and exclusions belong to `S2` — BEP §8.6 says so.**
+
+### Governance-status warning
+
+**All twelve checks are `PROPOSED`.** **Every tolerance is `TBD`.** They are
+**proposed training coordination checks** — *"not evidence of real client
+requirements, and they do not become project requirements by appearing here."*
+
+### Implementation-status warning
+
+**No check is recorded as executed.** Do not mark, colour or annotate any check
+as run, passed or failed.
+
+### Words that must remain separate
+
+**Selected** and **exhaustive**. **Default** and **approved**. **Clash count**
+and **coordination quality**. **A finding** and **a compliance judgement**.
+
+### What not to imply
+
+- That any numeric tolerance exists, or that a default is a reasonable
+  placeholder.
+- That every cycle runs every check.
+- That the twelve cover every technical, regulatory or constructability concern.
+- That **zero clashes** means coordinated — *"a zero-clash report can be produced
+  by testing nothing, excluding everything, or resolving symptoms."*
+- That a detected clash is a **design error**.
+- That **no detected clash** proves coordination.
+
+### Likely audience question
+
+**"What tolerance should we use — 25 mm?"**
+
+> *"There is no approved value, and I am not going to supply one. Every tolerance
+> in the strategy is TBD, to be set by approved coordination requirement,
+> technical standard, system requirement or documented decision. Different
+> interfaces may need different rules — a single project-wide threshold is not
+> assumed."*
+
+**"Why not just run all-versus-all and filter afterwards?"**
+
+> *"Because the filtering never happens, and the findings that matter get buried.
+> The BEP declines blind all-versus-all for that reason."*
+
+**"We got zero clashes — are we coordinated?"**
+
+> *"You know what the software found under the settings it was given. Completion
+> rests on required checks and dispositions, not on an absolute zero-clash
+> state — that is Slide 12."*
+
+### Transition
+
+> *"A check produces output. Output is not yet a finding anybody has accepted,
+> and a finding is not yet an Issue. That gap is where the governance lives."*
+
+### Delivery warning
+
+**Never write a number on this slide.** Not as an example, not as an
+illustration, not with a caveat. **A number on a projected slide becomes the
+project's tolerance by Monday.**
+
+---
+
+## Slide 7 — Finding, clash, Issue: and the decision between them · 1.5 min
+
+### What you are doing here
+
+**Slide 2 named the three objects. This slide develops the decision between
+them.** Do not repeat the vocabulary walk — the audience has it.
+
+### Opening line
+
+> *"You have a check result on screen. Nothing has been decided yet. What turns
+> that output into a governed record is a decision somebody takes, and it has
+> criteria."*
+
+### The load-bearing explanation
+
+Lead with the boundary, then the criteria:
+
+> *"Creating an Issue is a decision — taken at triage, not as an automatic
+> consequence of detection."*
+
+Then the strategy's criteria, in its own words:
+
+> *"An Issue is created when a matter requires ownership, action, decision,
+> tracking, verification or escalation — or otherwise needs a controlled project
+> record."*
+
+Then the five reasons a finding may not need one:
+
+> *"Tolerable. Duplicated. Out of scope. Already known. An artefact of the test
+> setup. Those are the BEP's own words, and they are five good reasons not to
+> create a record."*
+
+Then the point people miss:
+
+> *"And it runs the other way too. A missing input, or an unresolved interface
+> decision, may need a governed record and never be a clash at all."*
+
+Finally, what creation does **not** establish:
+
+> *"Creating an Issue records a matter for action. It does not prove it was
+> correctly classified, correctly assigned, resolved or verified."*
+
+### The recorded variance — say it plainly
+
+> *"One honest wrinkle. The BEP's list is assignment, tracking, decision,
+> verification. The strategy's is broader — it adds ownership, escalation, and a
+> residual limb for anything otherwise needing a controlled record. We teach the
+> strategy's, because the BEP hands it the detail. We record that the BEP's is
+> narrower. Neither is rewritten."*
+
+### Source boundary
+
+`S1` §8.7 governs; `S2` §12 and §14 hold the detail. **The BEP expressly defines
+no issue numbering or status codes.** **The status model is Slide 10 — do not
+preview it.**
+
+### Governance-status warning
+
+**The seven Issue types are `PROPOSED` governance concepts.** *"These are not
+Autodesk system-native labels, and no claim is made that the platform provides
+them."* Any later mapping is *"an implementation decision, not yet made."*
+
+### Implementation-status warning
+
+**One open Coordination-type Issue was observed.** **No completed review,
+authorisation, verification or closure was established.**
+
+### Words that must remain separate
+
+**Detection** and **decision**. **Finding** and **Issue**. **A clash** and **an
+error**. **A governance concept** and **a platform object type**.
+
+### What not to imply
+
+- That every clash or finding **must** become an Issue.
+- That detection alone creates a governed record.
+- That creating an Issue proves valid triage.
+- That the two Issue scopes should be reconciled.
+- That a platform's object type **overrides** a controlled definition.
+- Any Issue identifier, numbering scheme or status code. **None exists.**
+
+### Likely audience question
+
+**"Shouldn't we log everything, to be safe?"**
+
+> *"Logging everything is how a register stops being read. The BEP lists five
+> reasons a finding may not warrant an Issue, and creating one is a decision with
+> criteria. A record nobody triages is not safety, it is noise."*
+
+**"Our platform calls them Issues — so aren't they the same thing?"**
+
+> *"The label may be the same; the definition is the project's. The strategy's
+> seven types are proposed governance concepts and expressly not
+> system-native labels. Mapping the platform's fields onto them has not been
+> decided."*
+
+**"Which definition wins, the BEP's or the strategy's?"**
+
+> *"For teaching, the strategy's — because BEP 8.13 defers the detail to it. But
+> we record that the BEP's is narrower, and neither is rewritten to match. That
+> is a recorded variance, not a mistake."*
+
+### Transition
+
+> *"That decision has seven recorded outcomes — and one of them uses a word that
+> means something completely different three sections later."*
+
+### Delivery warning
+
+**Do not re-run Slide 2 here.** If you find yourself defining *finding*, *clash*
+and *Issue* again, you have lost the slide. **The subject is the decision, not
+the nouns.**
+
+---
+
+## Slide 8 — Triage: seven dispositions, one dangerous word · 1.0 min
+
+### What you are doing here
+
+**One minute. Seven dispositions, and one warning.** Do not narrate the table —
+put it up, name the seven, and spend the remaining time on `Accepted condition`.
+
+### Opening line
+
+> *"Triage has seven recorded outcomes. Six are unremarkable. One is the most
+> misread word in the module."*
+
+### The load-bearing explanation
+
+Name the seven at pace — the slide carries the definitions:
+
+> *"No action or false positive. Accepted condition. Action required, one task
+> team. Action required, multiple task teams. Decision required. Deferred.
+> Escalated. Seven. Not six, not eight."*
+
+Then the traceability line:
+
+> *"Material dispositions remain traceable. A finding closed without record is a
+> finding that will be rediscovered."*
+
+Then **spend half the slide here**:
+
+> *"'Accepted condition' does not mean recipient acceptance or design approval.
+> It means the finding requires no further action for the defined check and the
+> defined coordination purpose. It is a coordination disposition and nothing
+> more — that is the strategy's own wording."*
+
+And the consequences, as a list:
+
+> *"It is not recipient Accept. Not publication authorisation. Not technical
+> approval. Not regulatory acceptance. Not acceptance of the container for every
+> use. It does not release T4. It does not resolve acceptance authority. It does
+> not unblock TRN-E03."*
+
+### Source boundary
+
+`S2` §13 holds all seven. `S1` §9.2 and §9.8 govern *Accept* as a recipient
+function. **The Issue status model is `S2` §15 — Slide 10 owns it.**
+
+### Governance-status warning
+
+**The dispositions are `PROPOSED GOVERNANCE`.** **Recipient acceptance authority
+is `UNRESOLVED` — no Appointing Party acceptance workflow is defined.**
+
+### Implementation-status warning
+
+**No completed triage decision has been established.** *"No completed review,
+authorisation, verification or closure was established."*
+
+### Words that must remain separate
+
+**`Accepted condition`** and **`Accept`**. **Disposition** and **status**.
+**Disposition** and **information state**. **Disposition** and **suitability
+code** — and **no suitability code set exists on this project at all**.
+
+### What not to imply
+
+- That there are six dispositions, or eight.
+- That two may be merged for simplicity.
+- That a disposition is an Issue status, an information state, a suitability
+  code or recipient acceptance.
+- That **`Accepted condition`** is acceptance, approval, authorisation or
+  regulatory clearance.
+- That it releases `T4`, resolves acceptance authority or unblocks `TRN-E03`.
+- That any triage decision **has been taken** on this project.
+
+### Likely audience question
+
+**"So 'Accepted condition' means the client accepted it?"**
+
+> *"No — and that is exactly why the slide exists. It means the coordination
+> finding needs no further action for that check and that purpose. Recipient
+> acceptance is a different function, at a different time, held by a role that is
+> unresolved on this project."*
+
+**"Can we just merge 'one task team' and 'multiple task teams'?"**
+
+> *"They record different things — how many teams must respond changes who owns
+> the response and how it is coordinated. The register lists seven, and I am not
+> going to hand you six."*
+
+**"Is 'Deferred' just a polite 'ignored'?"**
+
+> *"Not if it is done properly. Deferred is carried forward with a recorded
+> reason. A finding closed without record is a finding that will be
+> rediscovered — that is the strategy's line, and it is the difference between
+> deferring and losing."*
+
+### Transition
+
+> *"Four of those seven send work somewhere. Which raises the question Slide 9
+> answers: who owns the fix — and what does an assignment actually prove?"*
+
+**Slide 9 is architecture only after T6-B.** If you are presenting before it is
+developed, **stop here and say so** rather than improvising.
+
+### Delivery warning
+
+**This slide is one minute and it is a table.** Do not read the definitions
+aloud — the audience can read faster than you can speak. **Your minute is best
+spent on the one word that will otherwise be misused for the rest of the
+project.**
+
+---
+
 ## Status
 
 | Field | Value |
 |---|---|
-| Increment | **T6-A** |
-| Notes developed | **Slides 1–3 only** |
-| Slides without notes | **4–14 — architecture only** |
+| Increment | **T6-B** — notes for Slides 4–8. T6-A wrote Slides 1–3 |
+| Notes developed | **Slides 1–8** |
+| Slides without notes | **9–14 — architecture only** |
 | Module closing | **Not written.** Belongs to the increment that develops Slide 14 |
 | Timing | **`20.0 minutes allocated — not measured`** |
 | Slide progression | **No automatic slide-transition timing.** Advance manually when ready |
@@ -408,4 +947,4 @@ is an accusation. **All three parts, every time.**
 | Exercises | **None exist** |
 | Visual specifications / sources / assets | **None exist** |
 | Assembly package / PowerPoint | **None exist** |
-| Outstanding | **T6-B** — the next Module 6 increment. **Not started** |
+| Outstanding | **T6-C** — develop Slides 9–12. **Not started** |
