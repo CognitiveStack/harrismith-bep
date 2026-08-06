@@ -716,7 +716,7 @@ was renumbered.**
 
 | # | Prohibited claim |
 |---|---|
-| 92 | That the **Module 6 teaching-content baseline is a produced presentation**, reviewed or rehearsed. **Fourteen visual specifications exist; no visual source, asset, assembly package or Module 6 PowerPoint exists**, and **no presentation review or rehearsal has been performed** |
+| 92 | That the **Module 6 teaching-content, visual-specification or visual-source baseline is a produced presentation**, reviewed or rehearsed. **Fourteen visual specifications and fourteen Markdown visual-source files exist** — the sources are **construction specifications** — but **no rendered visual asset, presentation assembly package or Module 6 PowerPoint exists**, and **no presentation review or rehearsal has been performed** |
 | 93 | That **the existence of an exercise set records performance**, or that any allocated time has been measured |
 
 **Ninety-three prohibited claims, plus four standing prohibitions — the final
@@ -732,7 +732,7 @@ increment.**
 | **A** | That a **complete governed coordination cycle has been demonstrated** — `GCR-006` is **OPEN** |
 | **B** | That **a Triviron coordination workflow has been decided** — no Triviron information exists |
 | **C** | That **Module 6 teaching changes Harrismith governance** — it explains; it governs nothing |
-| **D** | That the **teaching-content or visual-specification baseline is a produced presentation** — **fourteen visual specifications exist**, but **no visual source, asset, assembly package or Module 6 PowerPoint exists**, and **no presentation review or rehearsal has been performed** |
+| **D** | That the **teaching-content, visual-specification or visual-source baseline is a produced presentation** — **fourteen visual specifications and fourteen Markdown visual-source files exist**, but **no rendered visual asset, presentation assembly package or Module 6 PowerPoint exists**, and **no presentation review or rehearsal has been performed** |
 
 ## 9. Boundary-deferral register
 
@@ -861,7 +861,9 @@ complete. Production is not.**
   PENDING CHATGPT GOVERNANCE REVIEW`**. **Not accepted**, and **`T6-G` is blocked
   pending that acceptance.**
 - **The visual register and slide-visual map are complete.**
-- **No rendered asset exists**, and **no renderer or dependency is installed.**
+- **No rendered visual asset exists** — no PNG, SVG, JPG or other rendered
+  graphic — and **no renderer or dependency is installed.** **The asset directory
+  itself exists**; what it holds is Markdown construction specifications.
 - **No presentation assembly package exists.**
 - **No Module 6 PowerPoint exists.** Earlier-module PowerPoints are **external
   derivative outputs** produced outside this repository; **no `.pptx` is
@@ -871,13 +873,46 @@ complete. Production is not.**
 
 **Neither a complete teaching-content baseline, nor an accepted specification
 baseline, nor a complete visual-source baseline is a produced presentation**, and
-prohibited claims **92** and **93** forbid the confusion. **A visual source is a
-construction specification, not a picture, not a rendered asset and not a deck.**
+prohibited claims **92** and **93** forbid the confusion. **A visual-source file
+is a construction specification — not a picture, not a rendered visual asset and
+not a deck.**
 
-**One reported need is recorded**, not patched: claim 92 and standing prohibition
-D still enumerate *"no visual source, asset…"*, which `T6-F` has overtaken. The
-register is protected content and was not changed. See
-[`visual-demonstration-plan.md`](visual-demonstration-plan.md) §10.2.
+### 10.10.1 Correction record — T6-F-R
+
+**Reported in `T6-F`, corrected in `T6-F-R` under express authorisation.**
+
+`T6-F` created the fourteen Markdown **visual-source files** and the Module 6
+**asset directory**, and **correctly reported** that prohibited claim **92** and
+standing prohibition **D** had thereby become stale: both still enumerated *"no
+visual source, asset, assembly package or Module 6 PowerPoint exists"*. **`T6-F`
+did not patch protected content**, and recorded the drift instead.
+
+**`T6-F-R` corrected only the two stale production-state enumerations.** Both now
+record that **fourteen visual specifications and fourteen Markdown visual-source
+files exist**, that the sources are **construction specifications**, and that
+**no rendered visual asset, presentation assembly package or Module 6 PowerPoint
+exists** and **no presentation review or rehearsal has been performed.**
+
+**Claim numbering, core meaning, register totals and standing prohibitions A–C
+are unchanged.** Claim **92** keeps its identifier, its position in §8.8 and its
+core produced-presentation prohibition; standing prohibition **D** keeps its
+identifier and its standing applicability; **claims 1–91 and 93 are untouched**;
+the totals remain **93 prohibited claims plus four standing prohibitions**.
+
+**The visual-source baseline remains `SOURCE COMPLETE — PENDING CHATGPT
+GOVERNANCE REVIEW`.** **`T6-F-R` does not accept it**, and **`T6-G` remains
+`NOT STARTED — BLOCKED PENDING T6-F ACCEPTANCE`.**
+
+**The current production-state distinction:**
+
+```text
+visual specifications      exist
+Markdown visual sources    exist
+asset directory            exists
+rendered visual assets     do not exist
+assembly package           does not exist
+Module 6 PowerPoint        does not exist
+```
 
 ## 11. Status
 

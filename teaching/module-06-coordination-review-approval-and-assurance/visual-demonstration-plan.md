@@ -1030,8 +1030,10 @@ dependency is installed.**
 complete. Production is not, and the source baseline is not yet accepted.**
 
 - **ChatGPT governance review of `T6-F` — required before `T6-G` may begin.**
-- **No rendered asset exists**, in this or any module, and **no renderer or
-  dependency is installed.**
+- **No rendered visual asset exists** — no PNG, SVG, JPG or other rendered
+  graphic, in this or any module — and **no renderer or dependency is
+  installed.** **The Module 6 asset directory itself exists**; what it holds is
+  Markdown construction specifications.
 - **No presentation assembly package exists.**
 - **No Module 6 PowerPoint exists.** Earlier-module PowerPoints are **external
   derivative outputs** and are **outside this increment**; **no `.pptx` is
@@ -1039,9 +1041,9 @@ complete. Production is not, and the source baseline is not yet accepted.**
 - **No presentation review and no rehearsal have been performed**, and **timing
   has never been measured**.
 
-**A complete specification baseline is not a produced presentation**, and
-prohibited claims **92** and **93**, with standing prohibition **D**, forbid the
-confusion.
+**Neither a complete specification baseline nor a complete visual-source baseline
+is a produced presentation**, and prohibited claims **92** and **93**, with
+standing prohibition **D**, forbid the confusion.
 
 ### 10.1 Correction record — T6-E-R
 
@@ -1059,8 +1061,8 @@ production-state explanation in both entries.**
 rewritten to record that **fourteen visual specifications exist**, that **no
 visual source, asset, assembly package or Module 6 PowerPoint exists**, and that
 **no presentation review or rehearsal has been performed** — the position as it
-stood at the end of `T6-E-R`. **See §10.2: `T6-F` has since overtaken part of
-that clause.**
+stood at the end of `T6-E-R`. **`T6-F` later overtook the *visual source* and
+*asset* limbs of that wording, and `T6-F-R` corrected them — see §10.2.**
 
 **What did not change:** claim **92** keeps its number, its core prohibited
 proposition, its module-level scope and its place in §8.8. Standing prohibition
@@ -1085,26 +1087,65 @@ distinguishes the absent **Module 6** PowerPoint from the earlier modules'
 **external derivative** PowerPoints. **No specification was otherwise altered,
 and no teaching statement, count or register entry was changed.**
 
-### 10.2 One reported need — not corrected in T6-F
+### 10.2 Correction record — T6-F-R
 
-**Prohibited claim 92 and standing prohibition D are stale again**, in a
-different part of the same clause.
+**Reported in `T6-F`, corrected in `T6-F-R` under express authorisation.**
 
-Both now read *"…no visual source, asset, assembly package or Module 6 PowerPoint
-exists…"* — accurate when `T6-E-R` wrote it. **`T6-F` created the fourteen visual
-sources and the asset directory**, so **the *visual source* and *asset* limbs are
-now out of date**. The remaining limbs — **no assembly package, no Module 6
-PowerPoint, no presentation review, no rehearsal** — are still exactly correct.
+**1.** `T6-F` created the **fourteen Markdown visual-source files**
+`M06-S01`–`M06-S14` and the **Module 6 asset directory**
+[`../assets/module-06/`](../assets/module-06/).
 
-**Neither entry was changed.** The prohibited-claims register and the standing
-prohibitions are protected content, and **`T6-F` is not permitted to modify
-them**. As in `T6-E`, the defect is **reported rather than patched**.
+**2.** `T6-F` **correctly reported** that prohibited claim **92** and standing
+prohibition **D** had thereby become stale: both still read *"…no visual source,
+asset, assembly package or Module 6 PowerPoint exists…"*, which was accurate when
+`T6-E-R` wrote it but which `T6-F` had overtaken in its *visual source* and
+*asset* limbs.
 
-**Both prohibitions remain fully in force**, and their governed meaning is
-unaffected: **the Module 6 baseline is not a produced, reviewed or rehearsed
-presentation.** A visual source is a construction specification, **not a produced
-presentation** — which is precisely what claims 92 and 93 and standing
-prohibition **D** exist to prevent anyone claiming.
+**3.** `T6-F` **did not patch protected content.** The prohibited-claims register
+and the standing prohibitions were left untouched, and the drift was recorded
+rather than corrected.
 
-**Recorded here as a reported need for ChatGPT governance review.** A future
-correction increment could align the enumeration; **`T6-F` did not.**
+**4.** **`T6-F-R` corrected the production-state explanation in both entries**,
+and nothing else. Both now record that **fourteen visual specifications and
+fourteen Markdown visual-source files exist**, that the sources are
+**construction specifications**, and that **no rendered visual asset, presentation
+assembly package or Module 6 PowerPoint exists** and **no presentation review or
+rehearsal has been performed.**
+
+**5.** Claim **92** retains identifier `92`, its position in §8.8 and its core
+prohibition — **that a Module 6 baseline is a produced, reviewed or rehearsed
+presentation.**
+
+**6.** Standing prohibition **D** retains identifier `D` and its **standing
+applicability to every Module 6 slide and every Module 6 increment.**
+
+**7.** **Claims 1–91 and 93 remain untouched.**
+
+**8.** **Standing prohibitions A, B and C remain untouched.**
+
+**9.** **The totals remain 93 prohibited claims plus four standing
+prohibitions.**
+
+**10.** **The fourteen visual sources remain `SOURCE COMPLETE — PENDING CHATGPT
+GOVERNANCE REVIEW`.**
+
+**11.** **`T6-F-R` does not accept `T6-F`.** It is a correction-only increment.
+
+**12.** **`T6-G` remains `NOT STARTED — BLOCKED PENDING T6-F ACCEPTANCE`.**
+
+**The current production-state distinction, in the terms both entries now use:**
+
+```text
+visual specifications      exist
+Markdown visual sources    exist
+asset directory            exists
+rendered visual assets     do not exist
+assembly package           does not exist
+Module 6 PowerPoint        does not exist
+```
+
+**Both prohibitions remain fully in force.** A **visual-source file** is a
+construction specification; a **rendered visual asset** is a PNG, SVG, JPG or
+other rendered graphic, and **none exists**. Neither is a produced presentation —
+which is precisely what claims **92** and **93** and standing prohibition **D**
+exist to prevent anyone claiming.
