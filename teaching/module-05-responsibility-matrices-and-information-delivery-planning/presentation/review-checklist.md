@@ -202,7 +202,10 @@ production controls, and conditions were not merged to reduce the total.
 - **Deck review is not rehearsal.** `REV01` has been reviewed and accepted. That
   says nothing about delivery.
 - **Rehearsal is not complete.** **None has been performed**, for this or any
-  module.
+  module, and it is now **`DEFERRED` by governance decision (T5-I-D)**.
+- **The times are pacing allocations, not slide-transition timings.**
+  **Automatic slide progression is `NOT REQUIRED`**; the presenter advances each
+  slide manually when ready.
 - **No complete run has been measured.** [`../exercises.md`](../exercises.md)
   `E79` defines a full run and **records no result**.
 - **`20.0 minutes` remains an allocation.** It has never been timed.
@@ -216,6 +219,7 @@ production controls, and conditions were not merged to reduce the total.
 | Rendered assets | **NONE** |
 | PowerPoint (`T5-H`, corrected in `T5-H-R1`) | **PRODUCED — `REV01`.** External; **not committed to this repository** |
 | Deck review | **ACCEPTED** at `REV01` |
-| Rehearsal | **Not performed** |
-| Measured timing | **None** |
-| Next | **Module 5 rehearsal and measured timing** |
+| Rehearsal | **`DEFERRED — NOT PERFORMED`** (T5-I-D) |
+| Measured timing | **`DEFERRED — NONE`** |
+| Slide progression | **Automatic slide progression `NOT REQUIRED`.** Presenter advances manually when ready |
+| Next | **`T6-A`** — Module 6 foundation, source inventory and teaching architecture |

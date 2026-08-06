@@ -1532,5 +1532,6 @@ manufactured.**
 | Assembly package | **COMPLETE (T5-G)** — [`presentation/`](presentation/); **seven PowerPoint-production handoff files**. **It is not a PowerPoint** |
 | PowerPoint | **PRODUCED — `REV01`** (`T5-H`, corrected in `T5-H-R1`). Produced **outside this repository** and **not committed** |
 | Presentation review | **ACCEPTED** at `REV01` |
-| Rehearsal, measured timing | **None performed** |
-| Outstanding | **Module 5 rehearsal and measured timing** |
+| Rehearsal | **`DEFERRED — NOT PERFORMED`** (T5-I-D) |
+| Measured timing | **`DEFERRED — NONE`.** The twenty-minute allocation has **never been verified** |
+| Outstanding | **None for Module 5 teaching production** — the phase is **COMPLETE**. **`T6-A`** (Module 6) is the next development increment |

@@ -1,6 +1,8 @@
 # Module 5 — Responsibility Matrices and Information-Delivery Planning
 
-**Status:** **CURRENT — ACTIVE.** Established in **T5-A**; matrix distinctions in
+**Status:** **TEACHING-PRODUCTION PHASE COMPLETE.** Deck **PRODUCED — `REV01`**
+and **ACCEPTED**; **rehearsal `DEFERRED — NOT PERFORMED`**. **Module 6 is now the
+current active module.** Established in **T5-A**; matrix distinctions in
 **T5-B**; matrix grammar and allocation boundaries in **T5-C**; delivery planning
 and delivery-event interpretation in **T5-D**; Slides 13–14, the exercise
 baseline and the module-wide final reconciliation in **T5-E**; the pre-visual
@@ -327,7 +329,9 @@ module-05-responsibility-matrices-and-information-delivery-planning/
 | **T5-H** | **External PowerPoint production** — **outside this repository**; `.pptx` **not committed** | ✅ **COMPLETE** |
 | **T5-H-R1** | **Bounded external deck correction** — four visual-production defects on **Slides 2–5** only; Slides 1 and 6–14 and all fourteen speaker-note files **byte-for-byte unchanged**. **`REV01`** produced | ✅ **COMPLETE** |
 | **T5-H-S** | **Repository status record** — external production and governance-review acceptance recorded | ✅ **COMPLETE** |
-| — | **Module 5 rehearsal and measured timing** | **NEXT — outstanding** |
+| **T5-I-D** | **Rehearsal deferral and programme transition** — rehearsal and measured timing **DEFERRED**; Module 6 becomes the current active module | ✅ **COMPLETE** |
+| — | Module 5 rehearsal and measured timing | **`DEFERRED — NOT PERFORMED`** |
+| **T6-A** | **Module 6 foundation, source inventory and teaching architecture** — *Module 6, not Module 5* | **NEXT — not started** |
 
 ## 13. Increment status and validation
 
@@ -438,7 +442,12 @@ baseline are all complete. Production is not.**
   exists **externally only**.
 - **No rehearsal has been performed**, and **timing has never been measured** —
   for this or any module. [`exercises.md`](exercises.md) `E79` defines a full run
-  and records no result.
+  and records no result. **Both are now `DEFERRED` by governance decision
+  (T5-I-D)**, not merely outstanding.
+- **Automatic slide progression is `NOT REQUIRED`.** The per-slide times are
+  **pacing allocations for a possible twenty-minute delivery**, not
+  slide-transition timings. **The presenter advances each slide manually when
+  ready**, and **the twenty-minute allocation has never been verified**.
 
 **A complete content baseline, an accepted specification set, a complete
 visual-source baseline and a complete assembly package are still not a produced
@@ -534,7 +543,7 @@ structural description is otherwise unchanged.
 | Field | Value |
 |---|---|
 | Increment | **T5-H-S — COMPLETE.** External production and governance-review acceptance recorded. Deck **PRODUCED — `REV01`** (T5-H, corrected T5-H-R1), **ACCEPTED**; package **COMPLETE (T5-G)**; visual-source baseline **COMPLETE (T5-F-B)** |
-| Module status | **CURRENT — ACTIVE** |
+| Module status | **TEACHING-PRODUCTION PHASE COMPLETE.** **Module 6 is the current active module** |
 | Teaching-content baseline | **COMPLETE** — all fourteen slides developed |
 | Slides | **14 of 14.** None architecture only |
 | Classified statements | **267** |
@@ -549,7 +558,9 @@ structural description is otherwise unchanged.
 | Assembly package | **COMPLETE (T5-G)** — [`presentation/`](presentation/); **seven production-handoff files**; **not a PowerPoint** |
 | External PowerPoint | **PRODUCED — `REV01`** (T5-H, corrected in T5-H-R1). **Not committed** to this or any repository |
 | Governance review | **ACCEPTED** at `REV01` |
-| Rehearsal, measured timing | **None performed** |
-| Timing | **`20.0 minutes allocated — not measured`** |
-| Next increment | **Module 5 rehearsal and measured timing** |
+| Rehearsal | **`DEFERRED — NOT PERFORMED`** (T5-I-D) |
+| Measured timing | **`DEFERRED — NONE`** |
+| Timing | **`20.0 minutes allocated — not measured`** — pacing allocation, **never verified** |
+| Slide progression | **Automatic slide progression `NOT REQUIRED`.** Presenter advances manually when ready |
+| Next increment | **`T6-A`** — Module 6 foundation, source inventory and teaching architecture. **Module 6, not Module 5** |
 | Publication automation | **PAUSED** |

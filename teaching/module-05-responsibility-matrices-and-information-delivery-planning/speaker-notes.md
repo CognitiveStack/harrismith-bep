@@ -1551,8 +1551,9 @@ Module 6**, and none has been taught here.
 | Slides without notes | **None** |
 | Module closing | **Normal (≈30 s) and emergency (≈10 s)**, plus a one-sentence Module 6 bridge |
 | Timing | **`20.0 minutes allocated — not measured`** |
-| Rehearsal | **None performed.** [`exercises.md`](exercises.md) defines rehearsals; it does not record any |
+| Rehearsal | **`DEFERRED — NOT PERFORMED`** (T5-I-D). [`exercises.md`](exercises.md) defines rehearsals; it does not record any |
+| Slide progression | **Automatic slide progression `NOT REQUIRED`.** The per-slide times are **pacing allocations**; **advance each slide manually when ready** |
 | Visual specifications and sources | **T5-F-A through T5-F-B — COMPLETE.** Fourteen specifications accepted; fourteen sources `SOURCE COMPLETE`; **rendered `NONE`** |
 | Assembly package | **COMPLETE (T5-G)** — seven production-handoff files in [`presentation/`](presentation/). **Not a PowerPoint** |
 | External PowerPoint | **PRODUCED — `REV01`** (`T5-H`, corrected in `T5-H-R1`); **governance review ACCEPTED**. Not committed to this repository |
-| Outstanding | **Module 5 rehearsal and measured timing.** **No rehearsal has been performed** |
+| Outstanding | **None for Module 5 teaching production.** Rehearsal and measured timing are **`DEFERRED`**; **`T6-A`** (Module 6) is next |

@@ -1103,11 +1103,12 @@ decisions. Slide 14 poses the questions; it answers none.
 | Assembly package | **COMPLETE (T5-G)** — [`presentation/`](presentation/), **seven** production-handoff files |
 | PowerPoint | **PRODUCED — `REV01`** (`T5-H`, corrected in `T5-H-R1`), outside this repository; **not committed here** |
 | Presentation review | **ACCEPTED** at `REV01` |
-| Rehearsal, measured timing | **None** |
 | Visual specifications | **COMPLETE and ACCEPTED (T5-F-A, corrected in T5-F-A-R)** — [`visual-demonstration-plan.md`](visual-demonstration-plan.md), `M5V-01`–`M5V-14` |
 | Visual sources | **COMPLETE (T5-F-B)** — `M05-S01`–`M05-S14` in [`../assets/module-05/`](../assets/module-05/), all `SOURCE COMPLETE`; register and slide-visual map complete; **rendered `NONE`** |
 | `D4` reconciliation | **CLOSED (T5-F-A-R2).** All eight Module 5 files agree with the controlled row — **five `TBD`, four `—`, no allocation made** |
-| Outstanding | **Module 5 rehearsal and measured timing** |
+| Rehearsal | **`DEFERRED — NOT PERFORMED`** (T5-I-D) |
+| Measured timing | **`DEFERRED — NONE`** |
+| Outstanding | **None for Module 5 teaching production** — the phase is **COMPLETE**. **`T6-A`** (Module 6) is next |
 
 ---
 
@@ -1300,7 +1301,8 @@ this or any module.
 | Rendered visuals | **None**, in any module |
 | Presentation assembly package | **COMPLETE (T5-G)** — [`presentation/`](presentation/), **seven** files |
 | PowerPoint **in this repository** | **None**, in this or any module. `REV01` exists **externally only** |
-| Rehearsal, measured timing | **None** |
+| Rehearsal | **`DEFERRED — NOT PERFORMED`** (T5-I-D) |
+| Measured timing | **`DEFERRED — NONE`** |
 
 **The external PowerPoint has been produced and accepted at `REV01`, and it is
 still not a rehearsed presentation.** **No complete run has been performed and no
@@ -1331,7 +1333,9 @@ confusion.
   2–5** and leaving Slides 1 and 6–14 and all fourteen speaker-note files
   **byte-for-byte unchanged**. **`REV01` was ACCEPTED by governance review.**
   **The `.pptx` is not committed here.**
-- **Rehearsal and measured timing** — **outstanding**, as for Modules 1–4.
+- **Rehearsal and measured timing** — **`DEFERRED` by governance decision
+  (T5-I-D)**, as for Modules 1–4. **Rehearsal `NOT PERFORMED`; measured timing
+  `NONE`.** The twenty-minute allocation has **never been verified**.
 
 ### 12.15 T5-F-A correction record
 

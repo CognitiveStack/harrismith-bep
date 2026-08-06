@@ -30,8 +30,8 @@ moves — not as the subject.
 | 2 | BIM Management roles and responsibilities | **Content, visual source, assembly package and PowerPoint produced.** Review and rehearsal **deferred** |
 | 3 | ISO 19650 information-management principles | **Content, visual source, assembly package and PowerPoint produced.** Review and rehearsal **deferred** |
 | 4 | CDE workflows and information states | **Content, visual source, assembly package and PowerPoint produced.** Review and rehearsal **deferred** |
-| 5 | **Responsibility matrices and information-delivery planning** | **CURRENT — ACTIVE** |
-| 6 | Coordination, review, approval and assurance | Planned |
+| 5 | Responsibility matrices and information-delivery planning | **Content, visual source, assembly package and PowerPoint produced; governance review ACCEPTED (`REV01`).** Rehearsal and measured timing **DEFERRED** |
+| 6 | **Coordination, Review, Approval and Assurance** | **CURRENT — ACTIVE.** **No material exists yet**; `T6-A` is next |
 | 7 | Translating Harrismith into the Triviron BEP | Planned |
 | 8 | Facilitating and presenting a BEP workshop | Planned |
 
@@ -188,9 +188,9 @@ complete, on the same footing as Modules 1, 2 and 3. **No timing has been
 measured** — for this or any module. The deck carries **`20.0 minutes allocated
 — not measured`**.
 
-### Module 5 — Responsibility matrices and information-delivery planning — **CURRENT**
+### Module 5 — Responsibility matrices and information-delivery planning — **produced and accepted; rehearsal deferred**
 
-The active module. Deliverable: a 20-minute, fourteen-slide presentation on
+Teaching production is **complete**. Deliverable: a 20-minute, fourteen-slide presentation on
 **which information must be produced, by whom, for which event and recipient,
 and under which checks and authorisation** — and on the difference between
 allocating responsibility and evidencing that it was discharged. See
@@ -262,9 +262,19 @@ unchanged**. **`REV01` was ACCEPTED by governance review**, and **`T5-H-S`
 recorded that acceptance in this repository**. **The `.pptx` is held externally
 and is not committed.**
 
-**Outstanding: Module 5 rehearsal and measured timing.** **No rehearsal has been
-performed**, and **timing remains allocated, not measured**. **Publication
-automation remains `PAUSED`.**
+**Rehearsal and measured timing are DEFERRED — a recorded governance decision,
+not an omission.** **Rehearsal: `DEFERRED — NOT PERFORMED`. Measured timing:
+`DEFERRED — NONE`.** **No rehearsal has been performed**, and **timing remains
+`20.0 minutes allocated — not measured`**.
+
+**The accepted deck is presenter-controlled.** The per-slide times are **pacing
+allocations for a possible twenty-minute delivery**. They are **not automatic
+slide-transition timings**: **automatic slide progression is `NOT REQUIRED`**,
+and **the presenter advances each slide manually when ready**. **The twenty-minute
+allocation has never been verified.**
+
+**Module 5's teaching-production phase is COMPLETE.** **Publication automation
+remains `PAUSED`.**
 
 **The final position, reconciled from the completed tables:** **267 classified
 statements** · **103 prohibited claims** · **nine terminology variances, all
@@ -358,19 +368,35 @@ clash detection, finding and issue triage, escalation, review procedures,
 approval workflow mechanics, assurance sampling and closure all remain
 **Module 6**.
 
-### Modules 6–8 — future scope
+### Module 6 — Coordination, Review, Approval and Assurance — **CURRENT — ACTIVE**
 
-Modules 6–8 are recorded below as the intended sequence. **None of their material
-exists**, and their scope may change as the earlier modules are delivered and
-reviewed.
+**Module 6 is now the active module.** **None of its material exists.** There is
+**no Module 6 directory, no source inventory, no outline, no speaker notes, no
+exercises, no visual plan and no teaching file of any kind.**
+
+**Intended scope**, carried forward from the Module 5 boundary register and not
+expanded here: federation · coordination findings · finding and issue triage ·
+Issues · the coordination cycle · verification · **check versus authorise versus
+accept** · review procedures · approval workflow mechanics · assurance sampling ·
+closure.
+
+**Next development increment: `T6-A` — Module 6 foundation, source inventory and
+teaching architecture.** **It has not started**, and **nothing in this record
+teaches or expands any Module 6 topic.**
+
+### Modules 7–8 — future scope
+
+Modules 7 and 8 are recorded below as the intended sequence. **None of their
+material exists**, and their scope may change as the earlier modules are
+delivered and reviewed.
 
 ### Modules 4–8 — intended scope
 
 | # | Module | Intended subject | Principal expected sources |
 |---|---|---|---|
 | 4 | CDE workflows and information states — **produced; see above** | What a CDE controls; the four information states; the eight controlled steps and **the two that change state**; gates, authority and evidence; **the blocked `Shared → Published` route**; state, version, revision, status, suitability and metadata as distinct properties; governance before configuration | `bep/…BEP.md` §6, §7, §10, §12; `supporting/cde-workflow-state-strategy.md`; `docs/CDE-Structure-Governance-Decision.md`; `docs/Increment-7C-Live-Validation-Record.md` |
-| 5 | Responsibility matrices and information-delivery planning — **now active; see above** | **Tested in T5-A and corrected.** The Perform/Check/Authorise/Coordinate/Accept/Consult/Inform grammar — **`CONFIRMED`** (BEP §5.12), but **it belongs to the IM Responsibility Matrix alone** and has **two further values, `TBD` and `—`**, which carry the unresolved allocations; container allocation — **`CONFIRMED`**; delivery events and purpose — **`CONFIRMED`**; suitability — **`CONFIRMED`** as a governed concept, but **no suitability code set exists**. Added on evidence: allocation ≠ performance; delivery event ≠ information-state transition; **how an absence is typed** | Both matrices; `information-delivery-schedule.md`; BEP §5.12, §7.2, §9, §10; `Increment-7C-Live-Validation-Record.md` |
-| 6 | Coordination, review, approval and assurance | Federation, findings, triage, Issues, the coordination cycle, verification; check ≠ authorise ≠ accept | BEP §8, §9; `coordination-review-strategy.md` |
+| 5 | Responsibility matrices and information-delivery planning — **produced and accepted; rehearsal deferred; see above** | **Tested in T5-A and corrected.** The Perform/Check/Authorise/Coordinate/Accept/Consult/Inform grammar — **`CONFIRMED`** (BEP §5.12), but **it belongs to the IM Responsibility Matrix alone** and has **two further values, `TBD` and `—`**, which carry the unresolved allocations; container allocation — **`CONFIRMED`**; delivery events and purpose — **`CONFIRMED`**; suitability — **`CONFIRMED`** as a governed concept, but **no suitability code set exists**. Added on evidence: allocation ≠ performance; delivery event ≠ information-state transition; **how an absence is typed** | Both matrices; `information-delivery-schedule.md`; BEP §5.12, §7.2, §9, §10; `Increment-7C-Live-Validation-Record.md` |
+| 6 | **Coordination, Review, Approval and Assurance — now active; see above** | Federation, findings, triage, Issues, the coordination cycle, verification; **check ≠ authorise ≠ accept**; review procedures, approval workflow mechanics, assurance sampling, closure. **Nothing developed; `T6-A` next** | BEP §8, §9; `coordination-review-strategy.md` |
 | 7 | Translating Harrismith into the Triviron BEP | Which Harrismith positions transfer, which are Harrismith-specific, and which are project decisions Triviron must take for itself | The full set, plus Triviron project information when it exists |
 | 8 | Facilitating and presenting a BEP workshop | Running the decision conversations; recording outcomes; converting agreement into governance | `working/README.md`; `working/workshops/workshop-template.md`; `governance-decision-register.md` |
 
@@ -432,9 +458,12 @@ of governance under condition. Describing it neither advances nor reopens it.
 
 | Field | Value |
 |---|---|
-| **Active module** | **Module 5 — Responsibility Matrices and Information-Delivery Planning** — **CURRENT — ACTIVE** |
-| Module 5 current increment | **T5-H-S — COMPLETE.** **T5-A to T5-H-S complete; rehearsal and measured timing outstanding** |
-| Module 5 deliverable | 20-minute, **fourteen-slide** presentation — **teaching-content baseline complete; not produced** |
+| **Active module** | **Module 6 — Coordination, Review, Approval and Assurance** — **CURRENT — ACTIVE.** **No material exists**; `T6-A` next |
+| **Next development increment** | **`T6-A`** — Module 6 foundation, source inventory and teaching architecture. **NOT STARTED** |
+| Module 6 material | **None.** No directory, source inventory, outline, speaker notes, exercises, visual plan or teaching file exists |
+| Module 5 teaching-production phase | **COMPLETE.** **T5-A to T5-I-D complete** |
+| Module 5 last increment | **T5-I-D — COMPLETE.** Rehearsal deferred; programme advanced to Module 6 |
+| Module 5 deliverable | 20-minute, **fourteen-slide** presentation — **PRODUCED and ACCEPTED (`REV01`)**; **not rehearsed, timing not measured** |
 | Module 5 slides developed | **All fourteen.** None architecture only. **Teaching-content baseline COMPLETE** |
 | Module 5 established (T5-A) | Module directory, **six files** · **source inventory and hierarchy** `S1`–`S15` with **`E1`–`E8` excluded and reasons recorded** · **separate analysis of the three principal resources**, 37 fields each · **six registers** · **25 tested hypotheses** · 20-minute fourteen-slide architecture · **Slides 1–3** |
 | Module 5 developed (T5-B) | **Slides 4 and 5** — the two responsibility matrices, distinguished and not merged · **84 classified statements** across Slides 1–5 · **59 prohibited claims** · **classification scheme reconciled** — `SYNTH` redefined and `M5-S2-14` reclassified `INTERP`, so the module README and source map agree · [`README.md`](README.md) corrected |
@@ -458,7 +487,10 @@ of governance under condition. Describing it neither advances nor reopens it.
 | Module 5 governance review | **ACCEPTED** at `REV01`. Passed the fourteen-slide count · exact title and timing sequence · native editable construction · no imported imagery · 14 pt minimum · speaker notes on all fourteen slides · **26** module-wide STOP conditions · **14** package-level additions · **42** automatic-fail controls · the Slide 4, 6, 7, 11, 12, 13 and 14 load-bearing safeguards · the four `T5-H-R1` correction checks |
 | Module 5 status record (T5-H-S) | **COMPLETE.** External production and review acceptance recorded in the repository. **No `.pptx`, PDF, image or binary was created, copied or committed** |
 | Module 5 PowerPoint in repository | **None.** Produced **externally (T5-H / T5-H-R1)**; **not committed to this repository** |
-| Module 5 outstanding | **Rehearsal and measured timing.** **No rehearsal has been performed**; **timing remains allocated, not measured**. **No rendered asset** |
+| Module 5 rehearsal | **`DEFERRED — NOT PERFORMED`** (T5-I-D). A recorded governance decision, not an omission |
+| Module 5 measured timing | **`DEFERRED — NONE`.** **`20.0 minutes allocated — not measured`** — the allocation has **never been verified** |
+| Module 5 slide progression | **Automatic slide progression `NOT REQUIRED`.** The times are **pacing allocations**, not slide-transition timings; **the presenter advances each slide manually when ready** |
+| Module 5 outstanding | **Rehearsal and measured timing — DEFERRED.** **No rendered asset** |
 | Module 5 exercises | **79** — [`module-05-responsibility-matrices-and-information-delivery-planning/exercises.md`](module-05-responsibility-matrices-and-information-delivery-planning/exercises.md), `E1`–`E79`. **`E79` defines a full run and records no result** |
 | Module 4 deliverable | 20-minute, **fourteen-slide** presentation — **produced** |
 | Module 4 slides developed | **Slides 1–14.** None outstanding |

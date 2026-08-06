@@ -779,4 +779,5 @@ requirements. Zero rendered assets.**
 | PowerPoint | **PRODUCED — `REV01`** (`T5-H`, corrected in `T5-H-R1`); **ACCEPTED**. Outside this repository; **not committed here** |
 | Teaching-content baseline | **COMPLETE** and unchanged by this increment |
 | Timing | **`20.0 minutes allocated — not measured`** |
-| Next | **Module 5 rehearsal and measured timing** |
+| Rehearsal / measured timing | **`DEFERRED — NOT PERFORMED` / `DEFERRED — NONE`** (T5-I-D) |
+| Next | **`T6-A`** — Module 6 foundation, source inventory and teaching architecture |

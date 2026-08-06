@@ -138,7 +138,7 @@ teaching/
 │   ├── exercises.md                 practice and self-assessment — 71 exercises
 │   ├── source-map.md                244 statements, seven registers, 99 prohibited claims
 │   └── presentation/                assembly package — production handoff
-├── module-05-responsibility-matrices-and-information-delivery-planning/   Module 5 — CURRENT, ACTIVE
+├── module-05-responsibility-matrices-and-information-delivery-planning/   Module 5 — produced and accepted; rehearsal deferred
 │   ├── README.md                    module objective, central question, scope, increment status
 │   ├── source-inventory.md          exact source paths, own declared statuses, precedence, exclusions
 │   ├── resource-comparison.md       the three principal resources analysed separately
@@ -193,8 +193,18 @@ this repository and is not committed.**
 
 **A produced, accepted deck is still not a rehearsed one:** there is **no
 rendered asset and no PowerPoint committed**, and Module 5 **has not been
-rehearsed and its timing is allocated, never measured**. **Module 5 rehearsal and
-measured timing are next.**
+rehearsed and its timing is allocated, never measured**.
+
+**Rehearsal and measured timing are `DEFERRED` by governance decision (T5-I-D)** —
+**rehearsal `DEFERRED — NOT PERFORMED`**, **measured timing `DEFERRED — NONE`**.
+The deck is **presenter-controlled**: the per-slide times are **pacing
+allocations**, **automatic slide progression is `NOT REQUIRED`**, and **the
+presenter advances each slide manually when ready**.
+
+**Module 5's teaching-production phase is COMPLETE, and Module 6 —
+Coordination, Review, Approval and Assurance — is now the current active
+module.** **No Module 6 material exists.** **`T6-A` — Module 6 foundation,
+source inventory and teaching architecture — is next.**
 
 **`T5-F-B-R` reconciled the Module 5 production-state records** across the module
 and programme files. **No teaching claim, statement classification, count or

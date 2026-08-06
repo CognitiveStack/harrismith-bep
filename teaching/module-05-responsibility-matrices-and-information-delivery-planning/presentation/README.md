@@ -12,9 +12,10 @@ material. Not governance. Not the PowerPoint.**
 | Rendered asset | **NONE.** No rendering attempted; no renderer installed |
 | PowerPoint | **PRODUCED — `REV01`** (`T5-H`, corrected in `T5-H-R1`). **External. Not committed to this or any repository** |
 | Review | **ACCEPTED** at `REV01` |
-| Rehearsal | **Not performed** |
-| Measured timing | **None** |
-| Next | **Module 5 rehearsal and measured timing** |
+| Rehearsal | **`DEFERRED — NOT PERFORMED`** (T5-I-D) |
+| Measured timing | **`DEFERRED — NONE`** |
+| Slide progression | **Automatic slide progression `NOT REQUIRED`.** Presenter advances manually when ready |
+| Next | **`T6-A`** — Module 6 foundation, source inventory and teaching architecture |
 | Publication automation | **`PAUSED`** |
 
 Everything required to build the fourteen-slide Module 5 deck **without
@@ -267,10 +268,10 @@ carrying a claim.** Fixing it introduces a false one.
 | Package-level additions | **14**, separately identified in §6 |
 | Rendered asset | **None** |
 | PowerPoint | **PRODUCED — `REV01`**, externally; **not committed here** |
-| Next increment | **Module 5 rehearsal and measured timing** |
+| Next increment | **`T6-A`** — Module 6 foundation, source inventory and teaching architecture |
 | Review | **ACCEPTED** at `REV01` |
-| Rehearsal | **Outstanding** |
-| Module 5 | **CURRENT — ACTIVE** |
+| Rehearsal | **`DEFERRED — NOT PERFORMED`** |
+| Module 5 | **TEACHING-PRODUCTION PHASE COMPLETE.** **Module 6 is the current active module** |
 | Publication automation | **`PAUSED`** |
 
 **A complete content baseline, an accepted specification set, a complete
