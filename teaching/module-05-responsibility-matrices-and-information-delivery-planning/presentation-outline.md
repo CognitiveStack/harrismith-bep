@@ -10,9 +10,11 @@ produced presentation.** The **visual specifications are complete and accepted**
 [`visual-demonstration-plan.md`](visual-demonstration-plan.md) — and the
 **visual-source baseline is complete** — `M05-S01`–`M05-S14` in
 [`../assets/module-05/`](../assets/module-05/), all `SOURCE COMPLETE`, with a
-visual register and a slide-visual map. There is **no rendered asset, no
-assembly package and no PowerPoint**, and **no review or rehearsal has been
-performed**. The timing below is an allocation that has **never been measured**.
+visual register and a slide-visual map. **The presentation assembly package is
+complete** — [`presentation/`](presentation/), seven PowerPoint-production
+handoff files (T5-G). There is **no rendered asset and no PowerPoint**, and **no
+review or rehearsal has been performed**. The timing below is an allocation that
+has **never been measured**.
 
 Source identifiers `S1`–`S15` are defined in
 [`source-inventory.md`](source-inventory.md). Statement classification is in
@@ -1517,7 +1519,7 @@ manufactured.**
 
 | Field | Value |
 |---|---|
-| Increment | **T5-E — teaching-content baseline COMPLETE.** Production-state records reconciled in **T5-F-B-R** |
+| Increment | **T5-E — teaching-content baseline COMPLETE.** Production-state records reconciled in **T5-F-B-R** and **T5-G-R** |
 | Slides developed | **All fourteen.** 1–3 (T5-A) · 4–5 (T5-B) · 6–8 (T5-C) · 9–12 (T5-D) · 13–14 (T5-E) — each with on-slide copy, source basis, prohibited claims, a high-level visual concept and a transition |
 | Architecture only | **None.** No slide remains undeveloped |
 | Content baseline | **COMPLETE** |
@@ -1526,7 +1528,7 @@ manufactured.**
 | Exercises | [`exercises.md`](exercises.md) — created in T5-E |
 | Visual specifications | **COMPLETE and ACCEPTED (T5-F-A, corrected in T5-F-A-R and T5-F-A-R2)** — `M5V-01`–`M5V-14`, [`visual-demonstration-plan.md`](visual-demonstration-plan.md) |
 | Visual sources / assets | **COMPLETE (T5-F-B)** — fourteen sources `M05-S01`–`M05-S14` in [`../assets/module-05/`](../assets/module-05/), all `SOURCE COMPLETE`, with a visual register and a slide-visual map. **Rendered assets: `NONE`** |
-| Assembly package | **None.** **T5-G — next** |
-| PowerPoint | **None**, in this or any module. **T5-H — later, and produced outside this repository** |
+| Assembly package | **COMPLETE (T5-G)** — [`presentation/`](presentation/); **seven PowerPoint-production handoff files**. **It is not a PowerPoint** |
+| PowerPoint | **None**, in this or any module. **T5-H — next**, produced **outside this repository** and **not committed** |
 | Review, rehearsal, measured timing | **None performed** |
-| Outstanding | **T5-G** — the presentation assembly package — then **T5-H**, and presentation review and rehearsal |
+| Outstanding | **T5-H** — external PowerPoint production — then **presentation review**, **rehearsal** and **measured timing** |

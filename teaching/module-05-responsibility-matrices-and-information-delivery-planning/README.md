@@ -29,6 +29,14 @@ forward-looking status wording.
 no rendered asset was created.** **`T5-H` — external PowerPoint production — is
 next, and happens outside this repository.**
 
+**`T5-G-R` reconciled the four protected Module 5 production-state records** —
+[`presentation-outline.md`](presentation-outline.md),
+[`speaker-notes.md`](speaker-notes.md), [`source-map.md`](source-map.md) and
+[`visual-demonstration-plan.md`](visual-demonstration-plan.md) — which still
+recorded the assembly package as absent and `T5-G` as next. **No teaching
+content, slide copy, statement classification, visual specification, visual
+source or package file was changed.**
+
 **Teaching material. Not governance.** This module explains controlled Harrismith
 resources; it governs nothing, decides nothing, and changes nothing.
 
@@ -306,6 +314,7 @@ module-05-responsibility-matrices-and-information-delivery-planning/
 | **T5-F-B** | **Fourteen visual-source files** `M05-S01`–`M05-S14` · visual register · slide-visual map | ✅ **COMPLETE** |
 | **T5-F-B-R** | **Production-state reconciliation** — stale forward-looking production records corrected across seven files. **No teaching content, classification, count or specification field changed** | ✅ **COMPLETE** |
 | **T5-G** | **Presentation assembly package** — [`presentation/`](presentation/), seven production-handoff files | ✅ **COMPLETE** |
+| **T5-G-R** | **Assembly-package production-state reconciliation** — four protected production-state records corrected. **No teaching content, classification, specification, source or package file changed** | ✅ **COMPLETE** |
 | **T5-H** | External PowerPoint production — **outside this repository** | **NEXT — outstanding** |
 
 ## 13. Increment status and validation
@@ -510,7 +519,7 @@ structural description is otherwise unchanged.
 
 | Field | Value |
 |---|---|
-| Increment | **T5-G — COMPLETE.** Presentation assembly package produced — [`presentation/`](presentation/), seven files. Production-state records reconciled in T5-F-B-R; visual-source baseline **COMPLETE** (T5-F-B) |
+| Increment | **T5-G-R — COMPLETE.** Assembly-package production-state records reconciled across the four protected Module 5 files. Package **COMPLETE (T5-G)** — [`presentation/`](presentation/), seven files; visual-source baseline **COMPLETE** (T5-F-B) |
 | Module status | **CURRENT — ACTIVE** |
 | Teaching-content baseline | **COMPLETE** — all fourteen slides developed |
 | Slides | **14 of 14.** None architecture only |

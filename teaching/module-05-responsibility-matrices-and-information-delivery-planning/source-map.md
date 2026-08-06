@@ -14,8 +14,9 @@ architecture only. **The visual specifications are complete and accepted**
 [`visual-demonstration-plan.md`](visual-demonstration-plan.md)) and the **visual
 sources are complete** (`M05-S01`–`M05-S14` in
 [`../assets/module-05/`](../assets/module-05/), with a visual register and a
-slide-visual map). **No rendered asset, assembly package or PowerPoint exists**,
-and none is claimed.
+slide-visual map). **The presentation assembly package is complete** —
+[`presentation/`](presentation/), seven PowerPoint-production handoff files
+(T5-G). **No rendered asset or PowerPoint exists**, and none is claimed.
 
 Source identifiers `S1`–`S15` are defined in
 [`source-inventory.md`](source-inventory.md). Resource analysis is in
@@ -1015,7 +1016,7 @@ would commit. Claims 51–59 were added in **T5-B**; 60–75 in **T5-C**; 76–8
 
 | # | Prohibited claim |
 |---|---|
-| 101 | That a **complete teaching-content baseline means the presentation is produced**, reviewed or rehearsed. **No rendered asset, assembly package or PowerPoint exists** |
+| 101 | That a **complete teaching-content baseline means the presentation is produced**, reviewed or rehearsed. **No rendered asset and no PowerPoint exists** |
 | 102 | That **the existence of an exercise set means rehearsal has occurred**, or that any allocated time has been measured |
 
 ### 9.12 Additional prohibition recorded in T5-F-A-R — 1
@@ -1077,7 +1078,7 @@ decisions. Slide 14 poses the questions; it answers none.
 | ~~T5-D~~ | ~~Delivery events and schedule construction — Slides 9–12~~ — **COMPLETE** |
 | ~~T5-E~~ | ~~Slides 13–14, the exercise baseline and the complete content baseline~~ — **COMPLETE** |
 | ~~T5-F~~ | ~~Visual specifications and visual-source set~~ — **COMPLETE** (T5-F-A, T5-F-A-R, T5-F-A-R2, T5-F-B) |
-| **T5-G** | Presentation assembly package |
+| ~~T5-G~~ | ~~Presentation assembly package~~ — **COMPLETE** — [`presentation/`](presentation/), seven files |
 | **T5-H** | External PowerPoint production — **outside this repository** |
 
 ---
@@ -1097,11 +1098,13 @@ decisions. Slide 14 poses the questions; it answers none.
 | Final reconciliation | **COMPLETE** — see §12 |
 | Exercise baseline | [`exercises.md`](exercises.md) — **79 exercises**, created in T5-E |
 | Timing | **`20.0 minutes allocated — not measured`** |
-| Assembly package, PowerPoint | **None.** **T5-G and T5-H not started** |
+| Assembly package | **COMPLETE (T5-G)** — [`presentation/`](presentation/), **seven** production-handoff files |
+| PowerPoint | **None.** **T5-H next**, produced outside this repository |
+| Review, rehearsal, measured timing | **None** |
 | Visual specifications | **COMPLETE and ACCEPTED (T5-F-A, corrected in T5-F-A-R)** — [`visual-demonstration-plan.md`](visual-demonstration-plan.md), `M5V-01`–`M5V-14` |
 | Visual sources | **COMPLETE (T5-F-B)** — `M05-S01`–`M05-S14` in [`../assets/module-05/`](../assets/module-05/), all `SOURCE COMPLETE`; register and slide-visual map complete; **rendered `NONE`** |
 | `D4` reconciliation | **CLOSED (T5-F-A-R2).** All eight Module 5 files agree with the controlled row — **five `TBD`, four `—`, no allocation made** |
-| Outstanding | **T5-G** — the presentation assembly package — and T5-H |
+| Outstanding | **T5-H** — external PowerPoint production — and presentation review, rehearsal and measured timing |
 
 ---
 
@@ -1292,13 +1295,14 @@ this or any module.
 | Visual sources / `assets/module-05/` | **COMPLETE** — `M05-S01`–`M05-S14`, all `SOURCE COMPLETE`, with register and slide-visual map |
 | Visual-demonstration plan | **Exists and accepted** — [`visual-demonstration-plan.md`](visual-demonstration-plan.md) |
 | Rendered visuals | **None**, in any module |
-| Presentation assembly package | **None** — **T5-G next** |
-| PowerPoint | **None**, in this or any module |
+| Presentation assembly package | **COMPLETE (T5-G)** — [`presentation/`](presentation/), **seven** files |
+| PowerPoint | **None**, in this or any module — **T5-H next** |
 | Review, rehearsal, measured timing | **None** |
 
-**A complete teaching-content baseline, an accepted specification set and a
-complete visual-source baseline are still not a produced presentation**, and
-prohibited claims 101 and 102 forbid the confusion.
+**A complete teaching-content baseline, an accepted specification set, a complete
+visual-source baseline and a complete assembly package are still not a produced
+PowerPoint, and none of them has been reviewed or rehearsed**, and prohibited
+claims 101 and 102 forbid the confusion.
 
 ### 12.14 Residual work
 
@@ -1315,8 +1319,11 @@ prohibited claims 101 and 102 forbid the confusion.
   [`../assets/module-05/`](../assets/module-05/). **Fourteen sources, all
   `SOURCE COMPLETE`; no rendered asset; no renderer installed; no source
   conflict with the accepted plan was found.**
-- **T5-G** — the presentation assembly package.
-- **T5-H** — external PowerPoint production, **outside this repository**.
+- **T5-G** — the presentation assembly package — **COMPLETE**. See
+  [`presentation/`](presentation/). **Seven production-handoff files; no
+  PowerPoint, no rendered asset and no binary was created.**
+- **T5-H** — external PowerPoint production, **outside this repository** —
+  **next**.
 - Review, rehearsal and measured timing — **deferred, as for Modules 1–4**.
 
 ### 12.15 T5-F-A correction record

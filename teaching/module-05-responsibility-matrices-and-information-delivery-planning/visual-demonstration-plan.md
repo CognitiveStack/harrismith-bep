@@ -25,8 +25,8 @@ T5-F-B.**
 | Slide-visual map | **Complete** — [`../assets/module-05/slide-visual-map.md`](../assets/module-05/slide-visual-map.md) |
 | Rendered assets | **NONE. No rendering was attempted** |
 | Renderer or dependency installed | **None** |
-| Presentation assembly package | **None.** `T5-G` — **next** |
-| PowerPoint | **None.** `T5-H`, **produced outside this repository** |
+| Presentation assembly package | **COMPLETE (`T5-G`)** — [`presentation/`](presentation/); **seven production-handoff files** |
+| PowerPoint | **None.** `T5-H` — **next**, **produced outside this repository** |
 | Timing | **`20.0 minutes allocated — not measured`** |
 
 ## Authority chain
@@ -35,8 +35,8 @@ T5-F-B.**
 teaching content
   → visual-demonstration plan        ← this file
   → visual-source files              ← T5-F-B, complete
-  → presentation assembly package    ← T5-G
-  → external PowerPoint              ← T5-H, outside this repository
+  → presentation assembly package    ← T5-G, complete
+  → external PowerPoint              ← T5-H, next; absent, outside this repository
 ```
 
 **Precedence, in order:**
@@ -769,14 +769,14 @@ requirements. Zero rendered assets.**
 
 | Field | Value |
 |---|---|
-| Increment | **T5-F-B — COMPLETE.** Visual-source baseline **COMPLETE** |
+| Increment | **T5-F-B — COMPLETE.** Visual-source baseline **COMPLETE**. Production status reconciled after **T5-G** in **T5-G-R** |
 | Specifications | **`M5V-01`–`M5V-14`, all `SPECIFICATION COMPLETE` and `ACCEPTED`** |
 | Visual-source files | **`M05-S01`–`M05-S14`, all `SOURCE COMPLETE`** |
 | Asset directory | [`../assets/module-05/`](../assets/module-05/) |
 | Visual register / slide-visual map | **Complete** |
 | Rendered assets | **NONE.** No rendering attempted; no renderer installed |
-| Assembly package | **None** — `T5-G` |
+| Assembly package | **COMPLETE (`T5-G`)** — [`presentation/`](presentation/), **seven** production-handoff files |
 | PowerPoint | **None** — `T5-H`, outside this repository |
 | Teaching-content baseline | **COMPLETE** and unchanged by this increment |
 | Timing | **`20.0 minutes allocated — not measured`** |
-| Next | **`T5-G`** — the presentation assembly package |
+| Next | **`T5-H`** — external PowerPoint production, **outside this repository** |
