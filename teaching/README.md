@@ -158,6 +158,12 @@ teaching/
 │   ├── exercises.md                 practice and self-assessment — 91 exercises
 │   ├── visual-demonstration-plan.md fourteen visual specifications, M6V-01 to M6V-14, accepted
 │   └── presentation/                assembly package — production handoff, pending review
+├── module-07-harrismith-to-triviron-bep-translation/   Module 7 — CURRENT; architecture baseline pending review
+│   ├── README.md                    status, objective, boundary, exclusions, seven domains, STOP register
+│   ├── source-inventory.md          source classes A–F; class F (Triviron) — NONE IDENTIFIED
+│   ├── translation-framework.md     the translation method and its STOP rule
+│   ├── translation-decision-register-schema.md   future register semantics — the register itself does not exist
+│   └── source-map.md                Modules 1–6 as method inputs; no Harrismith value → Triviron value route
 ├── shared/
 │   ├── glossary.md                  teaching glossary across all modules
 │   └── presentation-principles.md   how these presentations are built
@@ -214,7 +220,17 @@ presenter advances each slide manually when ready**.
 
 **Module 5's teaching-production phase is COMPLETE, Module 6's
 teaching-production phase is COMPLETE, and Module 7 — Translating Harrismith
-into the Triviron BEP — is now the current teaching module.**
+into the Triviron BEP — is now the current teaching module, in
+architecture-baseline development.** **`T7-B` created Module 7's five
+architecture files in
+[`module-07-harrismith-to-triviron-bep-translation/`](module-07-harrismith-to-triviron-bep-translation/),
+all `ARCHITECTURE BASELINE — PENDING CHATGPT GOVERNANCE REVIEW`.** Module 7
+develops a **controlled translation framework** supporting the future
+development of a **project-specific Triviron BEP** — a teaching-architecture
+decision, **not a Triviron governance fact**.
+**`NO CONTROLLED TRIVIRON GOVERNANCE FACT IDENTIFIED IN T7-A`** — no
+Translation Decision Register exists, no register row is populated, and no
+Module 7 teaching content, exercise, visual or presentation material exists.
 
 **`T6-A` to `T6-H` are COMPLETE, and the Module 6 teaching-content baseline is
 COMPLETE.** Module 6 holds **eight teaching files** — objective and
