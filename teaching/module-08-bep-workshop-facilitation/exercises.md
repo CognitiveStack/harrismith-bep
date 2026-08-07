@@ -711,9 +711,10 @@ explicitly hypothetical.
 - **Expected reasoning / answer:** No controlled source establishes a
   governed per-workshop closure model — the only closure logic in the
   sources is the Working Process's contribution-level closure (WP8), which
-  is expressly not promoted into workshop governance. "Closure" would imply
-  a governed end-state that does not exist; "conclude and follow up" claims
-  only what the method supports. And yes — a session may properly conclude
+  is expressly not promoted into workshop governance. Using "workshop
+  closure" here would imply a governed per-workshop end-state that is not
+  established by the current identified source set; "conclude and follow up"
+  claims only what the method supports. And yes — a session may properly conclude
   with matters unresolved: the end of a session is a reconciliation point,
   not proof that every matter is resolved, and unresolved is neither failure
   nor approval.
@@ -780,16 +781,19 @@ explicitly hypothetical.
 
 ### E45
 
-- **Prompt:** State the facilitator's job in one sentence, and the thing the
-  facilitator must never become — with the reason governance cares.
+- **Prompt:** State the facilitator's job in one sentence, and what
+  facilitation must never be treated as — with the reason governance cares.
 - **Expected reasoning / answer:** The facilitator structures the decision
   conversation — framing matters, exposing evidence and authority
   requirements, keeping the states distinct, preserving unresolved work.
-  The facilitator must never become the authority: facilitation confers no
-  decision ownership or approval power, and participation confers no
-  authority — governance establishes who may decide. If the meeting or its
-  facilitator quietly becomes the authority, decisions stop being traceable
-  to any governed basis.
+  **Facilitation must never be treated as the source of decision or
+  approval authority**: facilitation itself confers no decision ownership or
+  approval power, and participation confers no authority — governance
+  establishes who may decide. If the person facilitating also separately
+  holds an established authority function, any governed decision must be
+  traceable to that separate authority basis, not to facilitation or
+  participation. When facilitation is allowed to substitute for the governed
+  authority route, decisions stop being traceable to any governed basis.
 - **Basis:** Outline Slide 14 fields 5–7; Module 8 `README.md` §3.
 - **Misconception detected:** Facilitation drifting into authority
   (`M8-S01`, `M8-S02`).
@@ -828,7 +832,8 @@ explicitly hypothetical.
   team can make the change" — no workshop output edits a controlled
   document; implementation follows only from an authorised implementation
   route after a governed decision, and tool access changes nothing. The
-  facilitator has, in one sentence, become the authority. (Hypothetical —
+  facilitator has, in one sentence, treated the meeting and their
+  facilitation as if they were the authority. (Hypothetical —
   no such session is recorded or established in this programme.)
 - **Basis:** Outline Slide 14 field 7; `M8-S04`, `M8-S05`, `M8-S11`,
   `M8-S15`.

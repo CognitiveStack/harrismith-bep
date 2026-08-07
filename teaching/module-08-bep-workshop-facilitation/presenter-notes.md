@@ -407,7 +407,10 @@ implied.**
   decisions. It makes the evidence, decision question, authority
   requirement, outcome and follow-up visible enough for governance to
   work."* — teaching synthesis.
-- **Boundary warning:** the facilitator neither decides nor approves
+- **Boundary warning:** facilitation itself confers no decision or approval
+  authority — if a person facilitating also separately holds an established
+  authority function, any governed act must be traceable to that authority
+  basis, never to the fact that the person facilitated the session
   (`M8-S02`); consensus is not approval (`M8-S04`); no Triviron authority
   holder, facilitator or workshop is identified, scheduled or held in this
   programme (`M8-S12`); Module 8 creates no Triviron BEP (`M8-S13`); no
