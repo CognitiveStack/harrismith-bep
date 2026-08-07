@@ -168,7 +168,7 @@ teaching/
 │   ├── presentation-outline.md      fourteen-slide / 20-minute architecture; all fourteen slides developed
 │   ├── presenter-notes.md           delivery cues, all fourteen slides
 │   └── exercises.md                 55 exercises, Slides 1–14
-├── module-08-bep-workshop-facilitation/   Module 8 — CURRENT; teaching content complete, T8-F pending review
+├── module-08-bep-workshop-facilitation/   Module 8 — teaching-content baseline ACCEPTED; visuals not started
 │   ├── README.md                    status, objective, boundaries, M8-S01–M8-S15 STOP register
 │   ├── source-inventory.md          A–F classes plus the non-governing working-pattern overlay
 │   ├── workshop-method-framework.md BEFORE → DURING → AFTER teaching method — synthesis labelled
@@ -254,15 +254,18 @@ rehearsal and measured timing remain **`NOT PERFORMED`**. **Module 8 is the
 current module: `T8-A — ACCEPTED` and the architecture baseline is `ACCEPTED
 after T8-B`** in
 [`module-08-bep-workshop-facilitation/`](module-08-bep-workshop-facilitation/)
-— `TEACHING ARCHITECTURE — NOT TRIVIRON GOVERNANCE`. **All fourteen slides
-are developed**: Slides 1–3 `ACCEPTED after T8-C-R` (E4/E10 wording accepted
-in `T8-C-R2`), Slides 4–8 `ACCEPTED after T8-D-R`, Slides 9–12 `ACCEPTED
-after T8-E-R`, and **`T8-F` developed Slides 13–14** — presenter notes cover
-all fourteen slides and the exercise baseline is `E1`–`E48`. Status:
-**`TEACHING CONTENT COMPLETE — T8-F PENDING CHATGPT GOVERNANCE REVIEW`** —
-production completion, not governance acceptance. Visual specification and
-presentation production remain **`NOT STARTED`**, and no BEP workshop has
-been held or scheduled in this programme.
+— `TEACHING ARCHITECTURE — NOT TRIVIRON GOVERNANCE`. **The `MODULE 8
+TEACHING-CONTENT BASELINE is ACCEPTED`**: all fourteen slides developed and
+accepted — Slides 1–3 `ACCEPTED after T8-C-R` (E4/E10 wording accepted in
+`T8-C-R2`), Slides 4–8 `ACCEPTED after T8-D-R`, Slides 9–12 `ACCEPTED after
+T8-E-R`, Slides 13–14 `ACCEPTED after T8-F-R` — with presenter notes for all
+fourteen slides and exercises `E1`–`E48` accepted as part of the baseline.
+The acceptance covers **teaching content only**: visual specification, visual
+sources, presentation assembly and production remain **`NOT STARTED`**,
+rehearsal and measured timing **`NOT PERFORMED`**, and no BEP workshop has
+been held or scheduled in this programme. **The next programme production
+activity remains `NOT YET AUTHORISED — SEPARATE GOVERNED DECISION
+REQUIRED`.**
 
 **`T6-A` to `T6-H` are COMPLETE, and the Module 6 teaching-content baseline is
 COMPLETE.** Module 6 holds **eight teaching files** — objective and

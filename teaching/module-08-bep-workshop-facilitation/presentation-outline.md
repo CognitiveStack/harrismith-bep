@@ -1,16 +1,16 @@
 # Module 8 — Presentation Outline
 
-**Status:** **`TEACHING CONTENT COMPLETE — T8-F PENDING CHATGPT GOVERNANCE
-REVIEW`**
+**Status:** **`MODULE 8 TEACHING-CONTENT BASELINE — ACCEPTED`**
 
 **`TEACHING MATERIAL — NOT TRIVIRON GOVERNANCE`**
 
-**All fourteen slides are developed.** Slides 1–3 `ACCEPTED after T8-C-R`
-(E4/E10 wording accepted in `T8-C-R2`) · Slides 4–8 `ACCEPTED after T8-D-R`
-· Slides 9–12 `ACCEPTED after T8-E-R` · **Slides 13–14 developed in `T8-F` —
-`PENDING CHATGPT GOVERNANCE REVIEW`**. **Production completion is not
-governance acceptance**: the teaching-content baseline is complete as
-produced and awaits review.
+**All fourteen slides are developed and accepted.** Slides 1–3 `ACCEPTED
+after T8-C-R` (E4/E10 wording accepted in `T8-C-R2`) · Slides 4–8 `ACCEPTED
+after T8-D-R` · Slides 9–12 `ACCEPTED after T8-E-R` · **Slides 13–14
+`ACCEPTED after T8-F-R`**. The acceptance covers the **teaching-content
+baseline only** — not Triviron governance, not an actual workshop, and not
+visual design, presentation production, rehearsal or measured timing, all of
+which remain not started or not performed.
 
 **Objective (accepted architecture — `TEACHING SYNTHESIS — NOT GOVERNANCE`).**
 *Teach the learner to prepare, facilitate, conclude and follow up a BEP
@@ -308,11 +308,12 @@ by this outline.**
 
 | Field | Value |
 |---|---|
-| Slides developed | **All fourteen** — Slides 1–3 **`ACCEPTED after T8-C-R`** (E4/E10 wording accepted in `T8-C-R2`); Slides 4–8 **`ACCEPTED after T8-D-R`**; Slides 9–12 **`ACCEPTED after T8-E-R`**; Slides 13–14 **`T8-F — PENDING CHATGPT GOVERNANCE REVIEW`** |
-| Teaching-content baseline | **`COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`** — production completion, not governance acceptance |
+| Slides developed | **All fourteen — DEVELOPED AND ACCEPTED** — Slides 1–3 **`ACCEPTED after T8-C-R`** (E4/E10 wording accepted in `T8-C-R2`); Slides 4–8 **`ACCEPTED after T8-D-R`**; Slides 9–12 **`ACCEPTED after T8-E-R`**; Slides 13–14 **`ACCEPTED after T8-F-R`** |
+| Teaching-content baseline | **`MODULE 8 TEACHING-CONTENT BASELINE — ACCEPTED`** — acceptance of teaching content only; not Triviron governance, an actual workshop, visual design or presentation production |
 | Presentation architecture | **`ACCEPTED after T8-C-R`** |
 | Timing | **`20.0 minutes allocated — not measured`** — validated sum 20.0 |
 | Rehearsal / measured timing | **`NOT PERFORMED`** |
 | Visual specification | **`NOT STARTED`** — visual sources and presentation assembly likewise **`NOT STARTED`** |
 | Presentation production | **`NOT STARTED`** |
+| Next production activity | **`NOT YET AUTHORISED — SEPARATE GOVERNED DECISION REQUIRED`** |
 | Publication automation | **`PAUSED`** |

@@ -1,7 +1,8 @@
 # Module 8 — Exercises
 
-**Status:** **`TEACHING CONTENT COMPLETE — T8-F PENDING CHATGPT GOVERNANCE
-REVIEW`**
+**Status:** **`MODULE 8 TEACHING-CONTENT BASELINE — ACCEPTED`** — exercises
+`E1`–`E48` are **complete and accepted as part of the teaching-content
+baseline**.
 
 **`TEACHING MATERIAL — NOT TRIVIRON GOVERNANCE`**
 
@@ -9,7 +10,7 @@ Practice and self-assessment for the developed slides. **Exercises exist for
 all fourteen slides** (`E1`–`E12` for Slides 1–3, `ACCEPTED after T8-C-R`
 with the E4/E10 wording accepted in `T8-C-R2`; `E13`–`E27` for Slides 4–8,
 `ACCEPTED after T8-D-R`; `E28`–`E40` for Slides 9–12, `ACCEPTED after
-T8-E-R`; `E41`–`E48` for Slides 13–14, added in `T8-F`). The count is
+T8-E-R`; `E41`–`E48` for Slides 13–14, `ACCEPTED after T8-F-R`). The count is
 coverage-driven, not targeted. Module 8 exercise IDs are their own series and
 are unrelated to any other module's.
 
@@ -963,6 +964,6 @@ explicitly hypothetical.
 
 | Field | Value |
 |---|---|
-| Exercises | **48** — `E1`–`E12` (Slides 1–3, `ACCEPTED after T8-C-R`; E4/E10 wording accepted in `T8-C-R2`) · `E13`–`E27` (Slides 4–8, `ACCEPTED after T8-D-R`) · `E28`–`E40` (Slides 9–12, `ACCEPTED after T8-E-R`) · `E41`–`E48` (Slides 13–14, T8-F); coverage-driven |
+| Exercises | **48 — complete and accepted** — `E1`–`E12` (Slides 1–3, `ACCEPTED after T8-C-R`; E4/E10 wording accepted in `T8-C-R2`) · `E13`–`E27` (Slides 4–8, `ACCEPTED after T8-D-R`) · `E28`–`E40` (Slides 9–12, `ACCEPTED after T8-E-R`) · `E41`–`E48` (Slides 13–14, `ACCEPTED after T8-F-R`); coverage-driven |
 | Triviron answers, participants or workshop values requested or supplied | **None** |
 | Publication automation | **`PAUSED`** |

@@ -4,18 +4,21 @@
 
 **`TEACHING ARCHITECTURE — NOT TRIVIRON GOVERNANCE`**
 
-Teaching content **`COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`**
-(production completion, not governance acceptance): presentation architecture
-**`ACCEPTED after T8-C-R`**; **Slides 1–3 `ACCEPTED after T8-C-R`** (E4/E10
-wording accepted in `T8-C-R2`); **Slides 4–8 `ACCEPTED after T8-D-R`**;
-**Slides 9–12 `ACCEPTED after T8-E-R`**; **Slides 13–14 developed (`T8-F`) —
-`PENDING CHATGPT GOVERNANCE REVIEW`**. **All fourteen slides developed**;
-presenter notes Slides 1–14; exercises `E1`–`E48` (Slides 1–14 coverage
-complete). Timing **`20.0 minutes allocated — not measured`** · rehearsal
+**`MODULE 8 TEACHING-CONTENT BASELINE — ACCEPTED`.** Presentation
+architecture **`ACCEPTED after T8-C-R`**; **Slides 1–3 `ACCEPTED after
+T8-C-R`** (E4/E10 wording accepted in `T8-C-R2`); **Slides 4–8 `ACCEPTED
+after T8-D-R`**; **Slides 9–12 `ACCEPTED after T8-E-R`**; **Slides 13–14
+`ACCEPTED after T8-F-R`**. **All fourteen slides developed and accepted**;
+presenter notes Slides 1–14 accepted; exercises `E1`–`E48` accepted. **The
+acceptance covers the teaching-content baseline only** — not Triviron
+governance, not an actual workshop, and not visual or presentation
+production. Timing **`20.0 minutes allocated — not measured`** · rehearsal
 **`NOT PERFORMED`** · measured timing **`NOT PERFORMED`** · visual
 specification **`NOT STARTED`** · visual sources **`NOT STARTED`** ·
 presentation assembly **`NOT STARTED`** · presentation production
-**`NOT STARTED`** · publication automation **`PAUSED`**.
+**`NOT STARTED`** · publication automation **`PAUSED`**. **The next
+programme production activity remains `NOT YET AUTHORISED — SEPARATE
+GOVERNED DECISION REQUIRED`.**
 
 **No actual workshop is held, scheduled, simulated or implied by this
 module.**
@@ -173,5 +176,7 @@ teaching sources or the accepted Translation Decision Register.**
 | **T8-C-R2** | Inherited E4/E10 hypothetical-workshop wording bounded | ✅ **ACCEPTED** |
 | **T8-E** | **Slides 9–12 developed** — the decision states, unresolved outputs, decision recording, and controlled updates/verification · presenter notes and exercises `E28`–`E40` | ✅ **ACCEPTED after T8-E-R** |
 | **T8-E-R** | Decision-existence and decision-effect wording corrections | ✅ **COMPLETE** |
-| **T8-F** | **Slides 13–14 developed** — conclude/follow-up and the facilitation control checklist · presenter notes and exercises `E41`–`E48` · **full fourteen-slide reconciliation** | **`TEACHING CONTENT COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`** |
-| Later | Visual specification · visual sources · presentation assembly and production | **Not started — each requires its own authorised increment** |
+| **T8-F** | **Slides 13–14 developed** — conclude/follow-up and the facilitation control checklist · presenter notes and exercises `E41`–`E48` · **full fourteen-slide reconciliation** | ✅ **ACCEPTED after T8-F-R** |
+| **T8-F-R** | Closure-source and facilitator-authority wording corrections | ✅ **ACCEPTED** |
+| **T8-G0** | Teaching-content acceptance-status reconciliation | **`PENDING CHATGPT GOVERNANCE REVIEW`** |
+| Later | Visual specification (**`NOT STARTED`**) · visual sources · presentation assembly and production | **Not started — the next production activity is a separate governed decision** |

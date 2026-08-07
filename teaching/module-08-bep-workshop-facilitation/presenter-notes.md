@@ -1,7 +1,7 @@
 # Module 8 — Presenter Notes
 
-**Status:** **`TEACHING CONTENT COMPLETE — T8-F PENDING CHATGPT GOVERNANCE
-REVIEW`**
+**Status:** **`MODULE 8 TEACHING-CONTENT BASELINE — ACCEPTED`** — presenter
+notes are **complete and accepted as part of the teaching-content baseline**.
 
 **`TEACHING MATERIAL — NOT TRIVIRON GOVERNANCE`**
 
@@ -10,11 +10,11 @@ word-for-word script**. [`presentation-outline.md`](presentation-outline.md)
 is the controlling teaching content; where a cue and the outline differ, the
 outline is correct.
 
-**Notes exist for all fourteen slides** (Slides 1–3 `ACCEPTED after T8-C-R`;
-Slides 4–8 `ACCEPTED after T8-D-R`; Slides 9–12 `ACCEPTED after T8-E-R`;
-Slides 13–14 added in `T8-F`). All times are pacing allocations — nothing has
-been rehearsed or measured. **No actual workshop is held, scheduled or
-implied.**
+**Notes exist for all fourteen slides, all accepted** (Slides 1–3 `ACCEPTED
+after T8-C-R`; Slides 4–8 `ACCEPTED after T8-D-R`; Slides 9–12 `ACCEPTED
+after T8-E-R`; Slides 13–14 `ACCEPTED after T8-F-R`). All times are pacing
+allocations — nothing has been rehearsed or measured. **No actual workshop is
+held, scheduled or implied.**
 
 ---
 
@@ -429,8 +429,9 @@ implied.**
 
 | Field | Value |
 |---|---|
-| Notes developed | **All fourteen slides** — Slides 1–3 `ACCEPTED after T8-C-R`; Slides 4–8 `ACCEPTED after T8-D-R`; Slides 9–12 `ACCEPTED after T8-E-R`; Slides 13–14 added in `T8-F` |
+| Notes developed | **All fourteen slides, all accepted** — Slides 1–3 `ACCEPTED after T8-C-R`; Slides 4–8 `ACCEPTED after T8-D-R`; Slides 9–12 `ACCEPTED after T8-E-R`; Slides 13–14 `ACCEPTED after T8-F-R` |
 | Timing | **`20.0 minutes allocated — not measured`** |
-| Rehearsal | **None performed** |
+| Rehearsal | **`NOT PERFORMED`** |
+| Measured timing | **`NOT PERFORMED`** |
 | Presentation production | **`NOT STARTED`** |
 | Publication automation | **`PAUSED`** |
