@@ -1,15 +1,15 @@
 # Module 7 — Exercises
 
-**Status:** **`TEACHING CONTENT IN DEVELOPMENT — T7-F PENDING CHATGPT
-GOVERNANCE REVIEW`**
+**Status:** **`TEACHING CONTENT COMPLETE — T7-G PENDING CHATGPT GOVERNANCE
+REVIEW`**
 
 **`TEACHING MATERIAL — NOT TRIVIRON GOVERNANCE`**
 
 Practice and self-assessment for the developed slides. **Exercises exist for
-Slides 1–12 (`E1`–`E14` for Slides 1–3, `ACCEPTED after T7-D-R`; `E15`–`E29`
-for Slides 4–8, `ACCEPTED after T7-E-R`; `E30`–`E45` for Slides 9–12, added
-in `T7-F`). Slides 13–14 are `NOT YET DEVELOPED` and have no exercises.** The
-count is coverage-driven, not targeted.
+all fourteen slides** (`E1`–`E14` for Slides 1–3, `ACCEPTED after T7-D-R`;
+`E15`–`E29` for Slides 4–8, `ACCEPTED after T7-E-R`; `E30`–`E45` for Slides
+9–12, `ACCEPTED after T7-F-R`; `E46`–`E55` for Slides 13–14, added in
+`T7-G`). The count is coverage-driven, not targeted.
 
 **No exercise asks the learner to invent a Triviron answer**, and no expected
 answer contains one.
@@ -703,6 +703,159 @@ answer contains one.
 
 ---
 
+## Slide 13 exercises — unknowns are controlled work
+
+### E46
+
+- **Prompt:** Harrismith's assurance-sampling method is `NOT ESTABLISHED`; a
+  Triviron publication authority is `NOT YET ESTABLISHED`. Explain why the
+  two matters carry different statuses.
+- **Expected reasoning / answer:** `NOT ESTABLISHED` requires **positive
+  evidential support**: Harrismith's controlled sources were examined and
+  positively record that no method is defined within the governed scope.
+  `NOT YET ESTABLISHED` marks an insufficient controlled basis: `T7-A`
+  identified no controlled Triviron source establishing the matter — a
+  census finding, not proof of absence. Missing evidence is never evidence
+  of absence, so the Triviron matter can never carry `NOT ESTABLISHED` on
+  current evidence.
+- **Basis:** Schema §4 worked contrast; outline Slide 13.
+- **Misconception detected:** Absence of identified evidence upgraded into
+  evidence of absence (`M7-S12`, `M7-S13`).
+
+### E47
+
+- **Prompt:** Distinguish an *unknown* matter from an `UNRESOLVED` one.
+- **Expected reasoning / answer:** `UNRESOLVED` is not mere ignorance: it
+  marks a matter that has been **recognised and considered** and remains
+  open through disagreement, dependency, conflict, ambiguity or a pending
+  decision — an active open matter. A matter that has simply not been
+  examined is not `UNRESOLVED`; in this programme's Triviron rows the
+  unexamined-evidence position is `NOT YET ESTABLISHED`.
+- **Basis:** Schema §4; outline Slide 13 field 6.
+- **Misconception detected:** Every unknown labelled `UNRESOLVED`
+  (`M7-S13`).
+
+### E48
+
+- **Prompt:** Why can no Triviron register row carry `TBD` today, when
+  Harrismith's tolerance table is full of them?
+- **Expected reasoning / answer:** `TBD` marks an **intentional deferral
+  inside an already established governance scope**. Harrismith's tolerance
+  `TBD`s sit inside its established check scope — Harrismith evidence about
+  Harrismith. No Triviron governance scope has been established in this
+  programme, so there is nothing to defer within: a Triviron `TBD` would be
+  a generic blank wearing a precise label, which the vocabulary forbids.
+- **Basis:** Schema §4; outline Slide 13 fields 6, 11.
+- **Misconception detected:** `TBD` used as a scope-free blank (`M7-S06`,
+  `M7-S13`).
+
+### E49
+
+- **Prompt:** A reviewer suggests upgrading a few register statuses "so the
+  module looks further along". What does the discipline of typed absence say?
+- **Expected reasoning / answer:** Statuses are never upgraded or
+  substituted to make a document appear complete. A typed absence is a
+  positive information-management result: it records exactly why the answer
+  is not held and prevents false certainty. Guessed or cosmetically upgraded
+  content is the failure mode the vocabulary exists to prevent — a blank or
+  a flattering label is inferior to an accurate typed absence.
+- **Basis:** Outline Slide 13 field 7; register §10.
+- **Misconception detected:** Completeness prioritised over evidential
+  accuracy (`M7-S18`).
+
+### E50
+
+- **Prompt:** Do the four terms — `NOT YET ESTABLISHED`, `NOT ESTABLISHED`,
+  `UNRESOLVED`, `TBD` — form a sequence a matter passes through?
+- **Expected reasoning / answer:** No. They are **semantic states, not
+  stages**: each answers "why is this not known/decided?" differently —
+  insufficient basis; positively evidenced absence; recognised-but-open;
+  intentionally deferred within an established scope. A matter moves between
+  them only when its evidential situation genuinely changes, in any
+  direction — there is no chronological ladder.
+- **Basis:** Schema §4; outline Slide 13 field 7.
+- **Misconception detected:** Status vocabulary read as a timeline
+  (`M7-S13`).
+
+## Slide 14 exercises — from decision backlog to BEP workshop
+
+### E51
+
+- **Prompt:** After a future successful workshop programme, what would the
+  register's relationship to the Triviron BEP be — and what is it today?
+- **Expected reasoning / answer:** Today the register is a **decision
+  backlog**: 21 typed questions, zero BEP content — a future BEP
+  *destination* is a conceptual class, not a populated document. In future
+  governed work, BEP, matrix, schedule and appendix content would be
+  populated **only when earned** — evidence identified, authority engaged,
+  decision taken and recorded with status. The backlog never becomes BEP
+  content by relabelling.
+- **Basis:** Outline Slide 14 field 6; register §10; schema §8.
+- **Misconception detected:** Backlog mistaken for, or ripened into, BEP
+  content (`M7-S11`, `M7-S14`).
+
+### E52
+
+- **Prompt:** In the future workflow, why are *evidence gathering* and
+  *decision-making* separate stages — and why does gathered evidence not
+  decide?
+- **Expected reasoning / answer:** Evidence gathering fills the
+  available/missing position with controlled class F sources; deciding is a
+  governance act by the appropriate authority. Evidence informs — it does
+  not itself decide, and it does not identify or create the authority.
+  Sufficient evidence may make a matter decidable; only the engaged
+  authority makes it decided.
+- **Basis:** Outline Slide 14 field 7; `source-map.md` §4;
+  `translation-framework.md` §2.4, §2.7.
+- **Misconception detected:** Evidence conflated with authority (`M7-S16`,
+  `M7-S17`).
+
+### E53
+
+- **Prompt:** In the future workflow, a candidate decision has been framed
+  under an authorised proposal stage. Is the matter now `ESTABLISHED`?
+- **Expected reasoning / answer:** No — this hypothetical stops at
+  `PROPOSED — NOT APPROVED`. A candidate is a proposal carrying no approved
+  authority; `ESTABLISHED` requires a controlled Triviron source
+  (for a fact) or an authorised governance decision (for an arrangement).
+  Candidate ≠ decision ≠ established position — and no stage happens
+  automatically. This scenario is hypothetical and populates no actual row.
+- **Basis:** Schema §3–§4, §7; outline Slide 14 field 7.
+- **Misconception detected:** Proposal treated as establishment
+  (`M7-S18`).
+
+### E54
+
+- **Prompt:** *"The workshop will be quick — we'll take Harrismith's BEP and
+  adapt the names."* Diagnose against the Module 7 method.
+- **Expected reasoning / answer:** That is *copy Harrismith into Triviron* —
+  precisely what the workshop is not. The STOP rule survives into every
+  future stage: no Triviron candidate may be derived solely from a populated
+  Harrismith value. A workshop is a controlled decision-making process in
+  which questions, required evidence, authority and status are explicit —
+  and attendance approves nothing automatically. Harrismith supplies the
+  method and the questions; the answers must be earned from Triviron
+  evidence and Triviron decisions.
+- **Basis:** Outline Slide 14 field 6; `translation-framework.md` §2.5.
+- **Misconception detected:** Workshop as fill-in-the-blanks copying; a
+  meeting as automatic approval (`M7-S15`).
+
+### E55
+
+- **Prompt:** Slide 14 names Module 8 — BEP workshop facilitation. What may
+  the audience conclude about workshops from that?
+- **Expected reasoning / answer:** Only that facilitation method is the next
+  *teaching* subject. No workshop has occurred or been scheduled; no
+  Triviron project appointment, participant, decision owner or authority is
+  known in this programme; and Module 8 itself will teach facilitation — it
+  will not create or approve Triviron governance. The bridge is a roadmap
+  statement, not an event.
+- **Basis:** Outline Slide 14 fields 6, 11; `../roadmap.md` Module 8 row.
+- **Misconception detected:** A roadmap bridge read as an actual workshop or
+  appointment (`M7-S10`, `M7-S17`).
+
+---
+
 ## Coverage map
 
 | Required distinction | Exercises |
@@ -759,11 +912,31 @@ answer contains one.
 | Proposal-stage authorisation | E44 |
 | Conditions for `ESTABLISHED` | E44, E45 |
 
+**Slides 13–14 coverage (T7-G):**
+
+| Required distinction | Exercises |
+|---|---|
+| `NOT YET ESTABLISHED` vs `NOT ESTABLISHED` | E46 |
+| Missing evidence vs evidence of absence | E46 |
+| `UNRESOLVED` vs unknown | E47 |
+| `TBD` vs generic blank | E48 |
+| `TBD` requiring established scope | E48 |
+| Typed absence vs guessed content | E49 |
+| Whether four statuses form a chronological sequence | E50 |
+| Decision backlog vs BEP content | E51 |
+| Future BEP destination vs current populated BEP | E51 |
+| Evidence gathering vs decision-making | E52 |
+| Evidence vs authority | E52 |
+| Authority vs candidate decision | E53 |
+| Candidate decision vs established position | E53 |
+| Workshop vs automatic approval | E54 |
+| Harrismith method vs Triviron answer | E54 |
+| Module 8 bridge vs claim that a workshop exists | E55 |
+
 ## Status
 
 | Field | Value |
 |---|---|
-| Exercises | **45** — `E1`–`E14` (Slides 1–3, `ACCEPTED after T7-D-R`) · `E15`–`E29` (Slides 4–8, `ACCEPTED after T7-E-R`) · `E30`–`E45` (Slides 9–12, T7-F); coverage-driven |
-| Slides 13–14 exercises | **None — `NOT YET DEVELOPED`** |
+| Exercises | **55** — `E1`–`E14` (Slides 1–3, `ACCEPTED after T7-D-R`) · `E15`–`E29` (Slides 4–8, `ACCEPTED after T7-E-R`) · `E30`–`E45` (Slides 9–12, `ACCEPTED after T7-F-R`) · `E46`–`E55` (Slides 13–14, T7-G); coverage-driven |
 | Triviron answers requested or supplied | **None** |
 | Publication automation | **`PAUSED`** |

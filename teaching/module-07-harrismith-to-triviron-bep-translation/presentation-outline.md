@@ -1,14 +1,15 @@
 # Module 7 — Presentation Outline
 
-**Status:** **`TEACHING CONTENT IN DEVELOPMENT — T7-F PENDING CHATGPT
-GOVERNANCE REVIEW`**
+**Status:** **`TEACHING CONTENT COMPLETE — T7-G PENDING CHATGPT GOVERNANCE
+REVIEW`**
 
 **`TEACHING MATERIAL — NOT TRIVIRON GOVERNANCE`**
 
-**Slides 1–3 are `ACCEPTED after T7-D-R`. Slides 4–8 are `ACCEPTED after
-T7-E-R`. Slides 9–12 are developed in `T7-F` and `PENDING CHATGPT GOVERNANCE
-REVIEW`. Slides 13–14 are architecture only — `NOT YET DEVELOPED`.** The
-teaching-content baseline is **not complete**.
+**All fourteen slides are developed.** Slides 1–3 `ACCEPTED after T7-D-R` ·
+Slides 4–8 `ACCEPTED after T7-E-R` · Slides 9–12 `ACCEPTED after T7-F-R` ·
+**Slides 13–14 developed in `T7-G` — `PENDING CHATGPT GOVERNANCE REVIEW`**.
+**Production completion is not governance acceptance**: the teaching-content
+baseline is complete as produced and awaits review.
 
 **Central teaching purpose.** *How do we use Harrismith as a reference
 implementation to discover the evidence and decisions required for a future
@@ -198,7 +199,7 @@ reality.
 | 11 | What must not be said | Any of the twelve checks, any `CI-` identifier, any check type or any tolerance value — as a Triviron starter value, likely value, default or recommendation; any software clearance presented as a project tolerance; any implied approver |
 | 12 | Transition to next slide | *"Checks produce findings. Domain 5 asks what a finding becomes — and who decides that it becomes anything at all."* |
 
-## 11. Slide 9 — Domain 5: Findings, Issues and statuses — DEVELOPED (T7-F)
+## 11. Slide 9 — Domain 5: Findings, Issues and statuses — DEVELOPED — `ACCEPTED after T7-F-R`
 
 | # | Field | Value |
 |---|---|---|
@@ -215,7 +216,7 @@ reality.
 | 11 | What must not be said | Harrismith's Issue definitions (either variant) as a Triviron definition; the seven triage dispositions; `Accepted condition`; the six statuses; `Deferred`; `Escalated`; any numbering scheme; any implication that *finding*, *clash* or *Issue* already carries an adopted Triviron definition; any Triviron platform or configuration |
 | 12 | Transition to next slide | *"Once a governed record exists, someone must be able to close it — on evidence. That is Domain 6."* |
 
-## 12. Slide 10 — Domain 6: Verification, evidence and completion — DEVELOPED (T7-F)
+## 12. Slide 10 — Domain 6: Verification, evidence and completion — DEVELOPED — `ACCEPTED after T7-F-R`
 
 | # | Field | Value |
 |---|---|---|
@@ -232,7 +233,7 @@ reality.
 | 11 | What must not be said | Harrismith's four verification prerequisites, three verification findings, nine completion conditions or nine evidence outputs — as Triviron content; `GCR-006` or the partial-trace status as Triviron's; any implication that a Triviron cycle has run, or that zero clashes would mean completion |
 | 12 | Transition to next slide | *"A completed, verified matter still is not published — and published still is not accepted. The last domain keeps those acts apart."* |
 
-## 13. Slide 11 — Domain 7: Publication and acceptance boundary — DEVELOPED (T7-F)
+## 13. Slide 11 — Domain 7: Publication and acceptance boundary — DEVELOPED — `ACCEPTED after T7-F-R`
 
 | # | Field | Value |
 |---|---|---|
@@ -249,7 +250,7 @@ reality.
 | 11 | What must not be said | Harrismith's `T1`–`T8` (including `T3`, `T4`, `T8`), `TRN-E02`, `TRN-E03`, event activation rules, `D4`, the publication block, `Accepted condition` or `PAD-001` — as Triviron content; that Triviron has a publication authority; that Triviron has no publication authority in reality; that any job title should hold it; that platform permissions establish it |
 | 12 | Transition to next slide | *"Seven domains, twenty-one questions, all typed. What may you actually say at this point? Exactly what the evidence permits."* |
 
-## 14. Slide 12 — What the evidence lets you say — DEVELOPED (T7-F)
+## 14. Slide 12 — What the evidence lets you say — DEVELOPED — `ACCEPTED after T7-F-R`
 
 | # | Field | Value |
 |---|---|---|
@@ -266,26 +267,50 @@ reality.
 | 11 | What must not be said | That any row has reached `DECISION REQUIRED`, `PROPOSAL` or `ESTABLISHED`; that the classifications form a timetable; that `EVIDENCE REQUIRED` means the arrangement does not exist; that classification and status are one axis; that the zeros are disappointing — they are the exact truth the method exists to protect |
 | 12 | Transition to next slide | *"Saying exactly what you know requires a vocabulary for what you don't. Slide 13 gives absence its four names."* |
 
-## 15. Slides 13–14 — architecture only
+## 15. Slide 13 — Unknowns are controlled work — DEVELOPED (T7-G)
 
-**Every slide below is `NOT YET DEVELOPED`.** Only number, title, purpose,
-timing and principal register/domain mapping are recorded.
+| # | Field | Value |
+|---|---|---|
+| 1 | Slide number | 13 |
+| 2 | Title | Unknowns are controlled work |
+| 3 | Teaching purpose | Teach the precise typed-absence vocabulary and why disciplined absence is a positive information-management result rather than a blank to be guessed away |
+| 4 | Timing allocation | **1.4 min** — allocated, not measured |
+| 5 | Audience takeaway | **Unknown is not one status. The reason we do not know determines the status.** *(Teaching synthesis — see field 8)* |
+| 6 | Visible content | The four terms with their exact schema meanings, shown as a four-way contrast: **`NOT YET ESTABLISHED`** → insufficient controlled basis to establish — the programme lacks sufficient controlled evidence and/or an authorised decision; not a claim the arrangement does not exist in reality, not a sign nobody has considered it, not an intentional deferral · **`NOT ESTABLISHED`** → controlled evidence **positively establishes** absence within the governed scope — requires positive evidential support, never used merely because evidence was not found: *absence of identified evidence is not evidence of absence* · **`UNRESOLVED`** → a recognised, considered matter remains open through disagreement, dependency, conflict, ambiguity or pending decision — an active matter, not merely an unknown one · **`TBD`** → the value is intentionally deferred **inside an already established governance scope** — not a generic blank, and unusable where the scope itself is not established. The worked position: **all 21 Triviron row statuses are currently `NOT YET ESTABLISHED`** — because that is what the current programme evidence supports, and for no other reason |
+| 7 | Key distinctions | Missing evidence ≠ evidence of absence · `NOT YET ESTABLISHED` ≠ `NOT ESTABLISHED` · unknown ≠ `UNRESOLVED` · `UNRESOLVED` ≠ `TBD` · `TBD` requires an established scope · a blank field is inferior to a typed absence · typed absence does not weaken governance — it prevents false certainty · statuses are never upgraded or substituted to make a document appear complete · **the four terms are semantic states, not stages** — no chronological progression exists among them |
+| 8 | Source basis | `translation-decision-register-schema.md` §4 (accepted architecture — the exact meanings and misuse bars, including the worked `NOT ESTABLISHED` / `NOT YET ESTABLISHED` contrast); register §10 (accepted reconciliation — the 21 statuses). Source-safe illustrations: Harrismith's tolerance entries as `TBD` inside an established check scope, and Harrismith's unresolved publication authority as an `UNRESOLVED`-type matter — each expressly **Harrismith evidence about Harrismith**, never a Triviron condition. The central statement is **teaching synthesis** and labelled as such |
+| 9 | Register relationship | Register-wide — field 18 of every row carries this vocabulary; the slide explains why all 21 currently read `NOT YET ESTABLISHED` and why none may be silently upgraded |
+| 10 | Applicable STOP conditions | **`M7-S12`** (missing repository fact proves nothing about reality), **`M7-S13`** (the four terms are not interchangeable), **`M7-S06`** (the Harrismith `TBD` illustration transfers no tolerance and no status), **`M7-S18`** |
+| 11 | What must not be said | That any of the 21 statuses could be `NOT ESTABLISHED` on current evidence; that Triviron lacks the arrangements in reality; that the four terms form a sequence a matter passes through; that a `TBD` could be recorded for Triviron today (no Triviron governance scope has been established in this programme to defer within); that typed absence is a placeholder awaiting invention |
+| 12 | Transition to next slide | *"A backlog of precisely typed unknowns is not an ending — it is exactly what a decision workshop needs to begin. Last slide."* |
 
-| Slide | Title | Purpose | Timing | Principal TDR / domain mapping | Development status |
-|---:|---|---|---:|---|---|
-| 13 | Unknowns are controlled work | Teach typed absence — `NOT YET ESTABLISHED` vs `NOT ESTABLISHED` vs `UNRESOLVED` vs `TBD`, never collapsed — and why missing evidence becomes a visible backlog rather than guessed content | 1.4 | Schema §4; register statuses | **`NOT YET DEVELOPED`** |
-| 14 | From decision backlog to BEP workshop | Close the module: what future evidence gathering and governed decision-making would need to accomplish before a project-specific Triviron BEP could be populated; bridge to Module 8 — BEP workshop facilitation. No workshop has occurred; no appointment, future BEP or Triviron answer may be implied | 1.5 | Whole register; Module 8 bridge | **`NOT YET DEVELOPED`** |
+## 16. Slide 14 — From decision backlog to BEP workshop — DEVELOPED (T7-G)
+
+| # | Field | Value |
+|---|---|---|
+| 1 | Slide number | 14 |
+| 2 | Title | From decision backlog to BEP workshop |
+| 3 | Teaching purpose | Close Module 7 by showing what future governed work must accomplish before a project-specific Triviron BEP could responsibly be populated, and bridge to Module 8 |
+| 4 | Timing allocation | **1.5 min** — allocated, not measured |
+| 5 | Audience takeaway | **A good BEP workshop does not start with answers. It starts with the decisions that must be earned.** *(Teaching synthesis — see field 8)* |
+| 6 | Visible content | The future workflow, conceptually and expressly as a **teaching workflow, not a current Triviron workflow**: **decision backlog → evidence gathering → decision agenda → appropriate authority engaged → candidate decision, if authorised → decision recorded with status → BEP / matrix / schedule / appendix populated only when earned**. Beneath it, the complete Module 7 method reconnected in one line: *Harrismith reference pattern → translation question → Triviron evidence required → evidence available / missing → STOP → candidate decision → authority required → recorded status → controlled destination*. The roadmap close: **Completed teaching foundation: Modules 1–6 · Module 7: translation method / decision backlog · Next: Module 8 — BEP workshop facilitation**. The boundary line: the future workshop is **not** *copy Harrismith into Triviron* and **not** *fill in the blanks* — it is a controlled decision-making process in which the questions, required evidence, authority and status are made explicit |
+| 7 | Key distinctions | Decision backlog ≠ BEP content · evidence gathering ≠ decision-making · evidence ≠ authority · candidate decision ≠ established position · a workshop ≠ automatic approval · the STOP rule survives into every future stage: no candidate may be derived solely from a populated Harrismith value · Module 8 teaches facilitation method — it does not itself create or approve Triviron governance |
+| 8 | Source basis | `translation-framework.md` §1–§2 (accepted sequence and STOP rule); register §9–§10 (accepted reconciliation — the backlog this slide hands forward); `translation-decision-register-schema.md` §5, §7 (authority and candidate prerequisites the future workflow must satisfy); [`../roadmap.md`](../roadmap.md) Module 8 row (teaching plan — not governance). The central statement is **teaching synthesis** and labelled as such |
+| 9 | Register relationship | Register-wide — the register is the decision backlog the future workflow would consume; its zeros are the starting position handed to Module 8, unchanged |
+| 10 | Applicable STOP conditions | **`M7-S10`** (no project appointment claimed or implied), **`M7-S11`** (no Triviron BEP exists in this programme; the framework is not the BEP), **`M7-S15`** (the STOP rule governs every future candidate), **`M7-S17`** (no authority or simulated function exists to engage today — engaging one is future governed work), **`M7-S18`** |
+| 11 | What must not be said | That a Triviron project appointment, BEP, workshop, schedule, participant, decision owner or authority exists or is known; that the register contains proposals; that Module 8 creates or approves Triviron governance; that the workshop would start from Harrismith's values or fill in blanks; that any current zero is a defect the workshop will simply erase |
+| 12 | Transition / close | **Module close:** *"Six modules taught you how a managed project works. This module taught you how to ask for one — twenty-one questions, every gap typed, every decision awaiting its evidence and its authority. Module 8 is where we learn to run the conversations that earn the answers."* |
 
 ---
 
-## 16. Status
+## 17. Status
 
 | Field | Value |
 |---|---|
-| Slides developed | **1–12** — Slides 1–3 **`ACCEPTED after T7-D-R`**; Slides 4–8 **`ACCEPTED after T7-E-R`**; Slides 9–12 **`T7-F — PENDING CHATGPT GOVERNANCE REVIEW`** |
-| Slides 13–14 | **`NOT YET DEVELOPED`** — architecture only |
-| Teaching-content baseline | **NOT COMPLETE** |
+| Slides developed | **All fourteen** — Slides 1–3 **`ACCEPTED after T7-D-R`**; Slides 4–8 **`ACCEPTED after T7-E-R`**; Slides 9–12 **`ACCEPTED after T7-F-R`**; Slides 13–14 **`T7-G — PENDING CHATGPT GOVERNANCE REVIEW`** |
+| Teaching-content baseline | **`TEACHING CONTENT COMPLETE — T7-G PENDING CHATGPT GOVERNANCE REVIEW`** — production completion, not governance acceptance |
 | Timing | **`20.0 minutes allocated — not measured`** — validated sum 20.0 |
-| Register | **`ACCEPTED after T7-C-R` — unchanged by T7-D, T7-E and T7-F**; an input, not a drafting surface |
+| Register | **`ACCEPTED after T7-C-R` — unchanged by T7-D, T7-E, T7-F and T7-G**; an input, not a drafting surface |
+| Visual specification | **`NOT STARTED`** |
 | Presentation production | **`NOT STARTED`** |
 | Publication automation | **`PAUSED`** |

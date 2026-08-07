@@ -1,7 +1,7 @@
 # Module 7 — Presenter Notes
 
-**Status:** **`TEACHING CONTENT IN DEVELOPMENT — T7-F PENDING CHATGPT
-GOVERNANCE REVIEW`**
+**Status:** **`TEACHING CONTENT COMPLETE — T7-G PENDING CHATGPT GOVERNANCE
+REVIEW`**
 
 **`TEACHING MATERIAL — NOT TRIVIRON GOVERNANCE`**
 
@@ -10,10 +10,10 @@ word-for-word script**. [`presentation-outline.md`](presentation-outline.md)
 is the controlling teaching content; where a cue and the outline differ, the
 outline is correct.
 
-**Notes exist for Slides 1–12 (Slides 1–3 `ACCEPTED after T7-D-R`; Slides 4–8
-`ACCEPTED after T7-E-R`; Slides 9–12 added in `T7-F`). Slides 13–14 are
-`NOT YET DEVELOPED`.** All times are pacing allocations — nothing has been
-rehearsed or measured.
+**Notes exist for all fourteen slides** (Slides 1–3 `ACCEPTED after T7-D-R`;
+Slides 4–8 `ACCEPTED after T7-E-R`; Slides 9–12 `ACCEPTED after T7-F-R`;
+Slides 13–14 added in `T7-G`). All times are pacing allocations — nothing has
+been rehearsed or measured.
 
 ---
 
@@ -325,14 +325,68 @@ rehearsed or measured.
 
 ---
 
-## Slides 13–14 — `NOT YET DEVELOPED`
+## Slide 13 — Unknowns are controlled work — `1.4 min`
 
-One-sentence later purposes only; no delivery notes exist.
+- **Opening cue:** "Every register row we've seen says *not yet established*.
+  Here's why that exact phrase — and not three others — is doing real work."
+- **Explanation sequence:** (1) the claim: unknown is not one status — the
+  *reason* we do not know determines the status; (2) walk the four terms with
+  their schema meanings: `NOT YET ESTABLISHED` — insufficient controlled
+  basis to establish (not a claim about reality, not neglect, not deferral);
+  `NOT ESTABLISHED` — controlled evidence **positively establishes** absence,
+  and absence of identified evidence is never evidence of absence;
+  `UNRESOLVED` — a recognised, considered matter still open through conflict,
+  dependency or pending decision; `TBD` — intentional deferral **inside an
+  established scope**, never a generic blank; (3) apply to the register: all
+  21 Triviron statuses are `NOT YET ESTABLISHED` because that is what the
+  programme evidence supports — and only that; (4) close the discipline: a
+  typed absence beats a blank, prevents false certainty, and is never
+  upgraded to make a document look complete. The four terms are **semantic
+  states, not stages**.
+- **Key sentence:** *"Unknown is not one status. The reason we do not know
+  determines the status."* — teaching synthesis, and say so if asked.
+- **Boundary warning:** never let `NOT YET ESTABLISHED` slide into
+  `NOT ESTABLISHED` (`M7-S13`); the 21 statuses say nothing about what
+  Triviron has in reality (`M7-S12`); no Triviron `TBD` is possible today —
+  no Triviron governance scope has been established in this programme to
+  defer within.
+- **Source-safe illustrations:** `TBD` — Harrismith's tolerance entries:
+  intentional deferrals inside an established check scope; `UNRESOLVED` —
+  Harrismith's publication authority: a recognised matter carried open. Both
+  are **Harrismith evidence about Harrismith**, never Triviron conditions,
+  and neither value nor status transfers.
+- **Transition cue:** "A backlog of precisely typed unknowns is exactly what
+  a decision workshop needs. One slide left."
 
-| Slide | Later teaching purpose |
-|---:|---|
-| 13 | Typed absence as controlled work — four status terms, never collapsed |
-| 14 | From decision backlog to the Module 8 BEP workshop bridge |
+## Slide 14 — From decision backlog to BEP workshop — `1.5 min`
+
+- **Opening cue:** "Twenty-one questions, zero answers, every gap typed.
+  What would it actually take to turn this into a BEP? Not a template — a
+  process."
+- **Explanation sequence:** (1) the future workflow, expressly a **teaching
+  workflow, not a current Triviron workflow**: decision backlog → evidence
+  gathering → decision agenda → appropriate authority engaged → candidate
+  decision, if authorised → decision recorded with status → BEP / matrix /
+  schedule / appendix populated **only when earned**; (2) the STOP rule
+  survives every stage: no candidate from a Harrismith value alone — so the
+  workshop is neither *copy Harrismith into Triviron* nor *fill in the
+  blanks*; (3) reconnect the whole method in one line — pattern → question →
+  evidence required → available/missing → STOP → candidate → authority →
+  status → destination; (4) roadmap close: Modules 1–6 the foundation,
+  Module 7 the translation method and decision backlog, **next: Module 8 —
+  BEP workshop facilitation** — not started, and Module 8 itself creates no
+  Triviron governance.
+- **Key sentence:** *"A good BEP workshop does not start with answers. It
+  starts with the decisions that must be earned."* — teaching synthesis, and
+  say so if asked.
+- **Boundary warning:** no appointment, BEP, workshop, participant, owner or
+  authority exists or is known (`M7-S10`, `M7-S11`, `M7-S17`); the register
+  contains no proposals; nothing here schedules anything.
+- **Source-safe illustration:** none required — the register's own zeros are
+  the handover exhibit.
+- **Closing cue (module close):** "Six modules taught you how a managed
+  project works. This one taught you how to *ask* for one. Module 8 is where
+  we learn to run the conversations that earn the answers. Thank you."
 
 ---
 
@@ -340,8 +394,7 @@ One-sentence later purposes only; no delivery notes exist.
 
 | Field | Value |
 |---|---|
-| Notes developed | **Slides 1–12** — Slides 1–3 `ACCEPTED after T7-D-R`; Slides 4–8 `ACCEPTED after T7-E-R`; Slides 9–12 added in `T7-F` |
-| Slides 13–14 | **`NOT YET DEVELOPED`** |
+| Notes developed | **All fourteen slides** — Slides 1–3 `ACCEPTED after T7-D-R`; Slides 4–8 `ACCEPTED after T7-E-R`; Slides 9–12 `ACCEPTED after T7-F-R`; Slides 13–14 added in `T7-G` |
 | Timing | **`20.0 minutes allocated — not measured`** |
 | Rehearsal | **None performed** |
 | Presentation production | **`NOT STARTED`** |
