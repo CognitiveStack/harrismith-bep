@@ -158,13 +158,16 @@ teaching/
 │   ├── exercises.md                 practice and self-assessment — 91 exercises
 │   ├── visual-demonstration-plan.md fourteen visual specifications, M6V-01 to M6V-14, accepted
 │   └── presentation/                assembly package — production handoff, pending review
-├── module-07-harrismith-to-triviron-bep-translation/   Module 7 — CURRENT; architecture and register baselines accepted
+├── module-07-harrismith-to-triviron-bep-translation/   Module 7 — CURRENT; teaching content in development (T7-D)
 │   ├── README.md                    status, objective, boundary, exclusions, seven domains, STOP register
 │   ├── source-inventory.md          source classes A–F; class F (Triviron) — NONE IDENTIFIED
 │   ├── translation-framework.md     the translation method and its STOP rule
 │   ├── translation-decision-register-schema.md   the register's controlling field semantics and vocabularies
 │   ├── translation-decision-register.md          21 rows TDR-001–TDR-021 — zero Triviron evidence, zero candidates
-│   └── source-map.md                Modules 1–6 as method inputs; no Harrismith value → Triviron value route
+│   ├── source-map.md                Modules 1–6 as method inputs; no Harrismith value → Triviron value route
+│   ├── presentation-outline.md      fourteen-slide / 20-minute architecture; Slides 1–3 developed
+│   ├── presenter-notes.md           delivery cues, Slides 1–3 only
+│   └── exercises.md                 14 exercises, Slides 1–3 only
 ├── shared/
 │   ├── glossary.md                  teaching glossary across all modules
 │   └── presentation-principles.md   how these presentations are built
@@ -232,8 +235,12 @@ development of a **project-specific Triviron BEP** — a teaching-architecture
 decision, **not a Triviron governance fact**.
 **`NO CONTROLLED TRIVIRON GOVERNANCE FACT IDENTIFIED IN T7-A`** — the register
 records **zero controlled Triviron evidence, zero candidate decisions, zero
-`PROPOSAL` rows and zero `ESTABLISHED` Triviron answers**, and no Module 7
-teaching content, exercise, visual or presentation material exists.
+`PROPOSAL` rows and zero `ESTABLISHED` Triviron answers**. **`T7-D` began
+teaching-content development** — the fourteen-slide / 20-minute architecture
+with **Slides 1–3 developed** (plus presenter notes and 14 exercises for those
+slides), status **`TEACHING CONTENT IN DEVELOPMENT — T7-D PENDING CHATGPT
+GOVERNANCE REVIEW`**; **Slides 4–14 are `NOT YET DEVELOPED`**, and no visual
+or presentation material exists.
 
 **`T6-A` to `T6-H` are COMPLETE, and the Module 6 teaching-content baseline is
 COMPLETE.** Module 6 holds **eight teaching files** — objective and

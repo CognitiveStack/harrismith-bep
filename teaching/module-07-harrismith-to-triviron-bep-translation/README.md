@@ -2,15 +2,20 @@
 
 **Status:** Architecture baseline **`ACCEPTED after T7-B-R`**. Translation
 Decision Register — **`ACCEPTED after T7-C-R`**. Teaching-content development
-**`NOT STARTED`**. Presentation production **`NOT STARTED`**.
+**`IN DEVELOPMENT — T7-D PENDING CHATGPT GOVERNANCE REVIEW`** — **Slides 1–3
+developed; Slides 4–14 `NOT YET DEVELOPED`**. Presentation production
+**`NOT STARTED`**.
 
 **Teaching material. Not governance.** This module explains and structures a
 translation method; it governs nothing, decides nothing for Triviron, and
 changes no Harrismith governance.
 
-The module's teaching content is **not complete** and has not been started. No
-slide, exercise, visual specification, visual source, presentation package or
-PowerPoint exists for Module 7. The
+The module's teaching content is **not complete**. `T7-D` established the
+**20-minute, fourteen-slide architecture** (`20.0 minutes allocated — not
+measured`) and developed **Slides 1–3 only**, with presenter notes and
+exercises for those slides; **Slides 4–14 are `NOT YET DEVELOPED`**. No visual
+specification, visual source, presentation package or PowerPoint exists for
+Module 7. The
 [Translation Decision Register](translation-decision-register.md) exists as a
 **register baseline** — 21 rows, zero controlled Triviron evidence identified,
 zero candidate decisions — and is **`TEACHING / TRANSLATION CONTROL — NOT
@@ -131,6 +136,9 @@ handoff. **It answers none of them for Triviron.**
 | [`translation-decision-register-schema.md`](translation-decision-register-schema.md) | The register's field semantics, classification and status vocabularies | Any candidate row; any Triviron answer |
 | [`source-map.md`](source-map.md) | How Modules 1–6 and the controlled sources feed Module 7 | Any `Harrismith value → Triviron value` route |
 | [`translation-decision-register.md`](translation-decision-register.md) | The 21-row evidence-and-decision backlog (`TDR-001`–`TDR-021`), typed statuses and boundary warnings | Any Triviron candidate decision, role, authority, platform, tolerance, taxonomy or publication arrangement — all `NOT POPULATED` / `NOT YET ESTABLISHED` |
+| [`presentation-outline.md`](presentation-outline.md) | The fourteen-slide / 20-minute architecture; Slides 1–3 developed | Slides 4–14 content (`NOT YET DEVELOPED`); any Triviron answer |
+| [`presenter-notes.md`](presenter-notes.md) | Delivery cues for Slides 1–3 | A script; notes for Slides 4–14; any Triviron answer |
+| [`exercises.md`](exercises.md) | 14 coverage-driven exercises for Slides 1–3 | Exercises for Slides 4–14; any exercise inviting a Triviron answer |
 
 ## 9. STOP register — Module 7 architecture prohibitions
 
@@ -179,4 +187,5 @@ Navisworks configuration. **Publication automation remains `PAUSED`.**
 | **T7-B-R** | Evidence-boundary wording corrections (`NONE IDENTIFIED` ≠ `NONE EXISTS`; two-limb `ESTABLISHED` route) | ✅ **COMPLETE** |
 | **T7-C** | Initial Translation Decision Register baseline — 21 rows, `TDR-001`–`TDR-021` | ✅ **ACCEPTED after T7-C-R** |
 | **T7-C-R** | Architecture status-header reconciliation | ✅ **COMPLETE** |
-| Later | Register evidence/population work · teaching content · presentation production | **Not started — each requires its own authorised increment** |
+| **T7-D** | Teaching-content architecture · fourteen-slide / 20-minute structure · **Slides 1–3 developed** · presenter notes and exercises for Slides 1–3 | **`TEACHING CONTENT IN DEVELOPMENT — PENDING CHATGPT GOVERNANCE REVIEW`** |
+| Later | Slides 4–14 development · register evidence/population work · visual specification and sources · presentation production | **Not started — each requires its own authorised increment** |
