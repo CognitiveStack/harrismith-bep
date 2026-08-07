@@ -1,15 +1,16 @@
 # Module 7 — Exercises
 
-**Status:** **`TEACHING CONTENT COMPLETE — T7-G PENDING CHATGPT GOVERNANCE
-REVIEW`**
+**Status:** **`MODULE 7 TEACHING-CONTENT BASELINE — ACCEPTED`** — exercises
+`E1`–`E55` are **complete and accepted as part of the teaching-content
+baseline**.
 
 **`TEACHING MATERIAL — NOT TRIVIRON GOVERNANCE`**
 
 Practice and self-assessment for the developed slides. **Exercises exist for
 all fourteen slides** (`E1`–`E14` for Slides 1–3, `ACCEPTED after T7-D-R`;
 `E15`–`E29` for Slides 4–8, `ACCEPTED after T7-E-R`; `E30`–`E45` for Slides
-9–12, `ACCEPTED after T7-F-R`; `E46`–`E55` for Slides 13–14, added in
-`T7-G`). The count is coverage-driven, not targeted.
+9–12, `ACCEPTED after T7-F-R`; `E46`–`E55` for Slides 13–14, `ACCEPTED after
+T7-G-R`). The count is coverage-driven, not targeted.
 
 **No exercise asks the learner to invent a Triviron answer**, and no expected
 answer contains one.

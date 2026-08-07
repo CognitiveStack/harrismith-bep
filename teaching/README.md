@@ -158,7 +158,7 @@ teaching/
 │   ├── exercises.md                 practice and self-assessment — 91 exercises
 │   ├── visual-demonstration-plan.md fourteen visual specifications, M6V-01 to M6V-14, accepted
 │   └── presentation/                assembly package — production handoff, pending review
-├── module-07-harrismith-to-triviron-bep-translation/   Module 7 — CURRENT; teaching content in development (T7-D)
+├── module-07-harrismith-to-triviron-bep-translation/   Module 7 — teaching-content baseline ACCEPTED; visuals not started
 │   ├── README.md                    status, objective, boundary, exclusions, seven domains, STOP register
 │   ├── source-inventory.md          source classes A–F; class F (Triviron) — NONE IDENTIFIED
 │   ├── translation-framework.md     the translation method and its STOP rule
@@ -235,14 +235,16 @@ development of a **project-specific Triviron BEP** — a teaching-architecture
 decision, **not a Triviron governance fact**.
 **`NO CONTROLLED TRIVIRON GOVERNANCE FACT IDENTIFIED IN T7-A`** — the register
 records **zero controlled Triviron evidence, zero candidate decisions, zero
-`PROPOSAL` rows and zero `ESTABLISHED` Triviron answers**. **The
-teaching-content baseline is complete as produced** — all fourteen slides of
-the 20-minute architecture developed (**Slides 1–3 `ACCEPTED after T7-D-R`**,
-**Slides 4–8 `ACCEPTED after T7-E-R`**, **Slides 9–12 `ACCEPTED after
-T7-F-R`**, **Slides 13–14 developed in `T7-G`**), with presenter notes for
-all fourteen slides and 55 exercises — status **`TEACHING CONTENT COMPLETE —
-T7-G PENDING CHATGPT GOVERNANCE REVIEW`**; production completion is not
-governance acceptance, and no visual or presentation material exists.
+`PROPOSAL` rows and zero `ESTABLISHED` Triviron answers**. **The `MODULE 7
+TEACHING-CONTENT BASELINE is ACCEPTED`** — all fourteen slides of the
+20-minute architecture developed and accepted (Slides 1–3 `after T7-D-R` ·
+4–8 `after T7-E-R` · 9–12 `after T7-F-R` · 13–14 `after T7-G-R`), with
+presenter notes and 55 exercises accepted as part of the baseline. The
+acceptance covers **teaching content only** — visual specification, visual
+sources, presentation assembly and production remain **`NOT STARTED`**, and
+rehearsal and measured timing remain **`NOT PERFORMED`**. **Module 8:
+`T8-A — ACCEPTED` (read-only source and boundary census, zero mutations);
+architecture `NOT STARTED`; `T8-B` next after `T7-H0` acceptance.**
 
 **`T6-A` to `T6-H` are COMPLETE, and the Module 6 teaching-content baseline is
 COMPLETE.** Module 6 holds **eight teaching files** — objective and

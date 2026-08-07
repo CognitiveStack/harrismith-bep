@@ -1,15 +1,15 @@
 # Module 7 — Presentation Outline
 
-**Status:** **`TEACHING CONTENT COMPLETE — T7-G PENDING CHATGPT GOVERNANCE
-REVIEW`**
+**Status:** **`MODULE 7 TEACHING-CONTENT BASELINE — ACCEPTED`**
 
 **`TEACHING MATERIAL — NOT TRIVIRON GOVERNANCE`**
 
-**All fourteen slides are developed.** Slides 1–3 `ACCEPTED after T7-D-R` ·
-Slides 4–8 `ACCEPTED after T7-E-R` · Slides 9–12 `ACCEPTED after T7-F-R` ·
-**Slides 13–14 developed in `T7-G` — `PENDING CHATGPT GOVERNANCE REVIEW`**.
-**Production completion is not governance acceptance**: the teaching-content
-baseline is complete as produced and awaits review.
+**All fourteen slides are developed and accepted.** Slides 1–3 `ACCEPTED after
+T7-D-R` · Slides 4–8 `ACCEPTED after T7-E-R` · Slides 9–12 `ACCEPTED after
+T7-F-R` · **Slides 13–14 `ACCEPTED after T7-G-R`**. The acceptance applies to
+the **teaching-content baseline only** — it is not Triviron governance, not a
+Triviron BEP, and not visual design, presentation production, rehearsal or
+measured timing, all of which remain not started or not performed.
 
 **Central teaching purpose.** *How do we use Harrismith as a reference
 implementation to discover the evidence and decisions required for a future
@@ -307,8 +307,8 @@ reality.
 
 | Field | Value |
 |---|---|
-| Slides developed | **All fourteen** — Slides 1–3 **`ACCEPTED after T7-D-R`**; Slides 4–8 **`ACCEPTED after T7-E-R`**; Slides 9–12 **`ACCEPTED after T7-F-R`**; Slides 13–14 **`T7-G — PENDING CHATGPT GOVERNANCE REVIEW`** |
-| Teaching-content baseline | **`TEACHING CONTENT COMPLETE — T7-G PENDING CHATGPT GOVERNANCE REVIEW`** — production completion, not governance acceptance |
+| Slides developed | **All fourteen — DEVELOPED AND ACCEPTED** — Slides 1–3 **`ACCEPTED after T7-D-R`**; Slides 4–8 **`ACCEPTED after T7-E-R`**; Slides 9–12 **`ACCEPTED after T7-F-R`**; Slides 13–14 **`ACCEPTED after T7-G-R`** |
+| Teaching-content baseline | **`MODULE 7 TEACHING-CONTENT BASELINE — ACCEPTED`** — acceptance of teaching content only; not Triviron governance, visual design or presentation production |
 | Timing | **`20.0 minutes allocated — not measured`** — validated sum 20.0 |
 | Register | **`ACCEPTED after T7-C-R` — unchanged by T7-D, T7-E, T7-F and T7-G**; an input, not a drafting surface |
 | Visual specification | **`NOT STARTED`** |

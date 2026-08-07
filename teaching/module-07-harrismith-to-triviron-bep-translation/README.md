@@ -1,13 +1,16 @@
 # Module 7 — Harrismith → Triviron BEP Translation
 
-**Status:** Architecture baseline **`ACCEPTED after T7-B-R`**. Translation
-Decision Register — **`ACCEPTED after T7-C-R`**. Teaching content: **Slides
-1–3 `ACCEPTED after T7-D-R`**; **Slides 4–8 `ACCEPTED after T7-E-R`**;
-**Slides 9–12 `ACCEPTED after T7-F-R`**; **Slides 13–14 `T7-G — PENDING
-CHATGPT GOVERNANCE REVIEW`**. Teaching-content baseline **`COMPLETE — PENDING
-CHATGPT GOVERNANCE REVIEW`** (production completion, not governance
-acceptance). Visual specification **`NOT STARTED`**. Presentation production
-**`NOT STARTED`**.
+**Status:** **`MODULE 7 TEACHING-CONTENT BASELINE — ACCEPTED`.** Architecture
+baseline **`ACCEPTED after T7-B-R`** · Translation Decision Register
+**`ACCEPTED after T7-C-R`** · Slides 1–3 **`ACCEPTED after T7-D-R`** · Slides
+4–8 **`ACCEPTED after T7-E-R`** · Slides 9–12 **`ACCEPTED after T7-F-R`** ·
+Slides 13–14 **`ACCEPTED after T7-G-R`**. **The acceptance applies to the
+teaching-content baseline only** — it is not Triviron governance, not a
+Triviron BEP, not a project appointment, and it does not make the Translation
+Decision Register Triviron governance. Visual specification **`NOT STARTED`**
+· visual sources **`NOT STARTED`** · presentation assembly **`NOT STARTED`**
+· presentation production **`NOT STARTED`** · rehearsal **`NOT PERFORMED`** ·
+measured timing **`NOT PERFORMED`**.
 
 **Teaching material. Not governance.** This module explains and structures a
 translation method; it governs nothing, decides nothing for Triviron, and
@@ -201,5 +204,7 @@ Navisworks configuration. **Publication automation remains `PAUSED`.**
 | **T7-E-R** | Slides 4–8 evidence-boundary wording corrections | ✅ **COMPLETE** |
 | **T7-F** | **Slides 9–12 developed** — Domains 5–7 and the evidence-precision synthesis · presenter notes and exercises `E30`–`E45` | ✅ **ACCEPTED after T7-F-R** |
 | **T7-F-R** | Slide 9 taxonomy and evidence-boundary wording corrections | ✅ **COMPLETE** |
-| **T7-G** | **Slides 13–14 developed** — typed absence and the Module 8 workshop bridge · presenter notes and exercises `E46`–`E55` · **full fourteen-slide baseline reconciliation** | **`TEACHING CONTENT COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`** |
-| Later | Register evidence/population work · visual specification and sources · presentation production | **Not started — each requires its own authorised increment** |
+| **T7-G** | **Slides 13–14 developed** — typed absence and the Module 8 workshop bridge · presenter notes and exercises `E46`–`E55` · **full fourteen-slide baseline reconciliation** | ✅ **ACCEPTED after T7-G-R** |
+| **T7-G-R** | Slide 14 workshop/authority evidence-boundary corrections | ✅ **COMPLETE** |
+| **T7-H0** | Acceptance-status reconciliation — this increment | **`PENDING CHATGPT GOVERNANCE REVIEW`** |
+| Later | Visual specification (**`NOT STARTED`**) · visual sources · presentation assembly and production · register evidence/population work | **Not started — each requires its own authorised increment** |

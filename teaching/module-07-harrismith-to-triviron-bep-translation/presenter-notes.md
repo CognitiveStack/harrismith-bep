@@ -1,7 +1,7 @@
 # Module 7 — Presenter Notes
 
-**Status:** **`TEACHING CONTENT COMPLETE — T7-G PENDING CHATGPT GOVERNANCE
-REVIEW`**
+**Status:** **`MODULE 7 TEACHING-CONTENT BASELINE — ACCEPTED`** — presenter
+notes are **complete and accepted as part of the teaching-content baseline**.
 
 **`TEACHING MATERIAL — NOT TRIVIRON GOVERNANCE`**
 
@@ -12,8 +12,8 @@ outline is correct.
 
 **Notes exist for all fourteen slides** (Slides 1–3 `ACCEPTED after T7-D-R`;
 Slides 4–8 `ACCEPTED after T7-E-R`; Slides 9–12 `ACCEPTED after T7-F-R`;
-Slides 13–14 added in `T7-G`). All times are pacing allocations — nothing has
-been rehearsed or measured.
+Slides 13–14 `ACCEPTED after T7-G-R`). All times are pacing allocations —
+nothing has been rehearsed or measured.
 
 ---
 
