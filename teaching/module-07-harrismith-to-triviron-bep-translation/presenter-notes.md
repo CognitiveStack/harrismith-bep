@@ -211,8 +211,8 @@ rehearsed or measured.
 
 ## Slide 9 — Domain 5: Findings, Issues and statuses — `1.5 min`
 
-- **Opening cue:** "A clash tool can detect. It cannot decide. Everything on
-  this slide is about where detection ends and governance begins."
+- **Opening cue:** "A clash tool can detect. It cannot decide. This slide is
+  about the decisions detection cannot make for you."
 - **Explanation sequence:** (1) the sequence — detect → classify → decide
   whether to create a governed record → apply governed status meanings; (2)
   `TDR-013` — the structural distinction: a clash is one kind of finding, an
@@ -223,8 +223,8 @@ rehearsed or measured.
   dispositions must be governed too; (4) `TDR-015` — status meanings are
   governed, not platform-supplied, and a status label is not technical
   evidence.
-- **Key sentence:** *"Detection is technical; everything after it is
-  governance."*
+- **Key sentence:** *"Detection alone does not create an Issue — governance
+  decides when a finding becomes a governed record."*
 - **Boundary warning:** no Harrismith definitions (either variant), triage
   dispositions, `Accepted condition`, statuses, `Deferred`/`Escalated` or
   numbering — and no platform object type ever establishes a governance

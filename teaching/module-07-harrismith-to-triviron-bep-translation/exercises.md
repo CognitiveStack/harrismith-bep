@@ -459,17 +459,20 @@ answer contains one.
 
 ### E30
 
-- **Prompt:** Place *finding*, *clash* and *Issue* in their structural
-  relationship, and say which of the three is a governance object.
-- **Expected reasoning / answer:** A clash is one kind of finding; a finding
-  is a detection result; an Issue is a **governed record** — created only
-  when a governed decision says the matter needs one. Not every finding
-  becomes an Issue. Only the Issue is a governance object; the other two are
-  technical results awaiting a governed decision. For Triviron, the governed
-  definitions themselves are `NOT YET ESTABLISHED`.
-- **Basis:** Register `TDR-013` field 5; outline Slide 9.
-- **Misconception detected:** Detection results treated as governance
-  records (`M7-S07`).
+- **Prompt:** State the structural relationship between *finding*, *clash*
+  and *Issue* that the accepted register records — and state what that
+  relationship does **not** establish for Triviron.
+- **Expected reasoning / answer:** A clash is **one kind of finding**; an
+  Issue is a **governed record**; and **not every finding becomes an
+  Issue** — that is the reusable structural distinction `TDR-013` records.
+  What it does not establish: the governed Triviron definitions and the
+  finding → Issue boundary are `NOT YET ESTABLISHED` in this programme, and
+  the distinction is **not** a fuller taxonomy — it does not classify
+  findings or clashes as inherently non-governance objects, and it does not
+  say where any project must draw its lines.
+- **Basis:** Register `TDR-013` fields 5–6, 18; outline Slide 9.
+- **Misconception detected:** The three-term distinction inflated into a
+  complete taxonomy or an adopted definition (`M7-S07`, `M7-S18`).
 
 ### E31
 
@@ -505,8 +508,9 @@ answer contains one.
 - **Expected reasoning / answer:** No — they are different axes. The
   classification says what kind of translation work the row contains: a
   reusable structural distinction (finding/clash/Issue). The status says the
-  current governed Triviron position: no governed Triviron definitions are
-  established. The distinction being reusable is not evidence Triviron has
+  current governed Triviron position: the governed Triviron finding/clash/
+  Issue definitions remain `NOT YET ESTABLISHED` in the current programme
+  baseline. The distinction being reusable is not evidence Triviron has
   adopted Harrismith's definitions — or any definitions.
 - **Basis:** Register `TDR-013` fields 10, 18; schema §3–§4.
 - **Misconception detected:** Classification and status conflated;
