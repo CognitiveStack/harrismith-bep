@@ -1,7 +1,7 @@
 # Module 8 — Presenter Notes
 
-**Status:** **`TEACHING CONTENT IN DEVELOPMENT — T8-E PENDING CHATGPT
-GOVERNANCE REVIEW`**
+**Status:** **`TEACHING CONTENT COMPLETE — T8-F PENDING CHATGPT GOVERNANCE
+REVIEW`**
 
 **`TEACHING MATERIAL — NOT TRIVIRON GOVERNANCE`**
 
@@ -10,10 +10,11 @@ word-for-word script**. [`presentation-outline.md`](presentation-outline.md)
 is the controlling teaching content; where a cue and the outline differ, the
 outline is correct.
 
-**Notes exist for Slides 1–12 (Slides 1–3 `ACCEPTED after T8-C-R`; Slides
-4–8 `ACCEPTED after T8-D-R`; Slides 9–12 added in `T8-E`). Slides 13–14 are
-`NOT YET DEVELOPED`.** All times are pacing allocations — nothing has been
-rehearsed or measured. **No actual workshop is held, scheduled or implied.**
+**Notes exist for all fourteen slides** (Slides 1–3 `ACCEPTED after T8-C-R`;
+Slides 4–8 `ACCEPTED after T8-D-R`; Slides 9–12 `ACCEPTED after T8-E-R`;
+Slides 13–14 added in `T8-F`). All times are pacing allocations — nothing has
+been rehearsed or measured. **No actual workshop is held, scheduled or
+implied.**
 
 ---
 
@@ -91,7 +92,7 @@ rehearsed or measured. **No actual workshop is held, scheduled or implied.**
   (`M8-S07`).
 - **Illustration:** none required — the framework diagram is the content.
 - **Transition cue:** "So let's do BEFORE properly — starting with the
-  backlog." *(Slides 4–14 continue from here — `NOT YET DEVELOPED`.)*
+  backlog."
 
 ---
 
@@ -223,7 +224,6 @@ rehearsed or measured. **No actual workshop is held, scheduled or implied.**
 - **Illustration:** none required — the loop diagram is the content.
 - **Transition cue:** "Inside every conversation, four words get confused —
   discussion, option, proposal, decision. Next slide keeps them apart."
-  *(Slides 9–14 continue from here — `NOT YET DEVELOPED`.)*
 
 ---
 
@@ -347,18 +347,78 @@ rehearsed or measured. **No actual workshop is held, scheduled or implied.**
   change completed"* (`FOR REVIEW · Authority: None · Not approved`).
 - **Transition cue:** "Updates routed, verification pending, unresolved
   matters visible — now end the session properly. Concluding and follow-up,
-  next." *(Slides 13–14 continue from here — `NOT YET DEVELOPED`.)*
+  next."
 
 ---
 
-## Slides 13–14 — `NOT YET DEVELOPED`
+## Slide 13 — Conclude, follow up and preserve traceability — `1.4 min`
 
-One-line architecture stubs only; no delivery notes exist.
+- **Opening cue:** "Sessions don't end because everything is decided. They
+  end because the time is up — and that's fine, if the ending is a
+  reconciliation and not an amnesia."
+- **Explanation sequence:** (1) name the boundary first: there is no
+  governed workshop-closure model in the sources — this slide teaches
+  *conclude and follow up*, not "closure"; (2) the per-matter
+  reconciliation: what was actually produced — governed decision (where
+  established), proposal, unresolved matter, evidence request, action,
+  recognised decision requirement, or another working outcome; (3) the four
+  routing questions: authority/evidence/status clear? which record carries
+  it? what follow-up, owned by which function where established? what
+  remains visibly unresolved?; (4) the timing boundary: no due-date
+  convention exists — nothing is invented; (5) hand the outputs into AFTER
+  with traceability intact.
+- **Key sentence:** *"The session can end while work remains open; what
+  matters is that every material outcome and unresolved requirement remains
+  visible, correctly classified and routed."* — teaching synthesis;
+  "correctly classified" means using the appropriate vocabulary of whichever
+  governing or working system holds the record, not a new Module 8
+  vocabulary.
+- **Boundary warning:** a session-end summary is not approval (`M8-S05`);
+  ending the session authorises no BEP update (`M8-S13`); unresolved is not
+  failure and not approval (`M8-S10`); no session must produce a governed
+  decision.
+- **Source-safe illustration:** WP8's own closure logic closes
+  *contributions*, not workshops — the difference is the whole slide
+  (`FOR REVIEW · Authority: None · Not approved`).
+- **Transition cue:** "Outputs visible and routed. One question left: what
+  is the facilitator for — and what must the facilitator never become?"
 
-| Slide | Later teaching purpose |
-|---:|---|
-| 13 | Conclude and follow up — no invented closure criterion |
-| 14 | The facilitation control checklist — never become the authority |
+## Slide 14 — Facilitate the conversation — do not become the authority — `1.4 min`
+
+- **Opening cue:** "Everything this module taught fits on one checklist —
+  and the checklist ends with a warning."
+- **Explanation sequence:** (1) BEFORE — frame the matter: decision question
+  exposed, evidence required/available/missing shown, dependencies and
+  required authority exposed, typed absence preserved instead of invented
+  holders; (2) DURING — control the conversation: discussion, option and
+  proposal kept distinct; consensus kept separate from authority; the
+  supportable outcome exposed; unresolved matters preserved; facilitation
+  never becoming decision ownership; (3) AFTER — preserve the governed
+  route: record what was produced, trace any governed decision to its
+  authority and controlled record, route authorised implementation
+  separately, keep implementation ≠ verification, keep follow-up visible;
+  (4) the warning strip: **workshop ≠ authority; facilitator ≠ approver
+  merely because they facilitated**; (5) the roadmap close: Modules 1–6
+  built the foundations; Module 7 asked what decisions must be earned;
+  Module 8 taught how to structure the conversation that earns them —
+  without the conversation becoming authority. Where the programme goes
+  next is itself a governed decision.
+- **Key sentence:** *"Good BIM-management facilitation does not manufacture
+  decisions. It makes the evidence, decision question, authority
+  requirement, outcome and follow-up visible enough for governance to
+  work."* — teaching synthesis.
+- **Boundary warning:** the facilitator neither decides nor approves
+  (`M8-S02`); consensus is not approval (`M8-S04`); no Triviron authority
+  holder, facilitator or workshop is identified, scheduled or held in this
+  programme (`M8-S12`); Module 8 creates no Triviron BEP (`M8-S13`); no
+  Module 9 is invented, and no actual workshop is "next" (`M8-S14`).
+- **Illustration:** none required — the checklist is the module.
+- **Closing cue (module close):** "Eight modules ago this programme began
+  with one question — what is a BEP for? You now know how a managed project
+  works, which decisions a new project must earn, and how to run the
+  conversations that earn them — without ever letting the meeting become
+  the authority. Where the programme goes next is itself a governed
+  decision. Thank you."
 
 ---
 
@@ -366,8 +426,7 @@ One-line architecture stubs only; no delivery notes exist.
 
 | Field | Value |
 |---|---|
-| Notes developed | **Slides 1–12** — Slides 1–3 `ACCEPTED after T8-C-R`; Slides 4–8 `ACCEPTED after T8-D-R`; Slides 9–12 added in `T8-E` |
-| Slides 13–14 | **`NOT YET DEVELOPED`** |
+| Notes developed | **All fourteen slides** — Slides 1–3 `ACCEPTED after T8-C-R`; Slides 4–8 `ACCEPTED after T8-D-R`; Slides 9–12 `ACCEPTED after T8-E-R`; Slides 13–14 added in `T8-F` |
 | Timing | **`20.0 minutes allocated — not measured`** |
 | Rehearsal | **None performed** |
 | Presentation production | **`NOT STARTED`** |

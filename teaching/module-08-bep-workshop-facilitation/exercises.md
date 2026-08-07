@@ -1,15 +1,15 @@
 # Module 8 — Exercises
 
-**Status:** **`TEACHING CONTENT IN DEVELOPMENT — T8-E PENDING CHATGPT
-GOVERNANCE REVIEW`**
+**Status:** **`TEACHING CONTENT COMPLETE — T8-F PENDING CHATGPT GOVERNANCE
+REVIEW`**
 
 **`TEACHING MATERIAL — NOT TRIVIRON GOVERNANCE`**
 
 Practice and self-assessment for the developed slides. **Exercises exist for
-Slides 1–12 (`E1`–`E12` for Slides 1–3, `ACCEPTED after T8-C-R` with the
-E4/E10 wording accepted in `T8-C-R2`; `E13`–`E27` for Slides 4–8, `ACCEPTED
-after T8-D-R`; `E28`–`E40` for Slides 9–12, added in `T8-E`). Slides 13–14
-are `NOT YET DEVELOPED` and have no exercises.** The count is
+all fourteen slides** (`E1`–`E12` for Slides 1–3, `ACCEPTED after T8-C-R`
+with the E4/E10 wording accepted in `T8-C-R2`; `E13`–`E27` for Slides 4–8,
+`ACCEPTED after T8-D-R`; `E28`–`E40` for Slides 9–12, `ACCEPTED after
+T8-E-R`; `E41`–`E48` for Slides 13–14, added in `T8-F`). The count is
 coverage-driven, not targeted. Module 8 exercise IDs are their own series and
 are unrelated to any other module's.
 
@@ -701,6 +701,160 @@ explicitly hypothetical.
 
 ---
 
+## Slide 13 exercises — conclude, follow up and preserve traceability
+
+### E41
+
+- **Prompt:** Why does Module 8 teach "conclude and follow up" rather than
+  "workshop closure" — and may a session end while matters remain
+  unresolved?
+- **Expected reasoning / answer:** No controlled source establishes a
+  governed per-workshop closure model — the only closure logic in the
+  sources is the Working Process's contribution-level closure (WP8), which
+  is expressly not promoted into workshop governance. "Closure" would imply
+  a governed end-state that does not exist; "conclude and follow up" claims
+  only what the method supports. And yes — a session may properly conclude
+  with matters unresolved: the end of a session is a reconciliation point,
+  not proof that every matter is resolved, and unresolved is neither failure
+  nor approval.
+- **Basis:** Outline Slide 13 fields 3, 6–7; framework §6 closure boundary.
+- **Misconception detected:** A governed closure state invented; unresolved
+  read as failure (`M8-S10`).
+
+### E42
+
+- **Prompt:** Hypothetical scenario: a session concludes holding one
+  proposal, two unresolved matters, one evidence request and three actions.
+  Route each output type, and state what none of them has become.
+- **Expected reasoning / answer:** The proposal routes toward the governed
+  decision route for the established authority; the unresolved matters stay
+  visibly unresolved in the working record with their reasons; the evidence
+  request tasks a function against a stated requirement; the actions sit
+  with their owning functions. None of them has become a governed decision,
+  an approval or a document change — an action is not a decision, an
+  evidence request does not decide, and unresolved does not ripen into
+  approved by the session ending. (Hypothetical — no such session is
+  recorded or established in this programme.)
+- **Basis:** Outline Slide 13 field 6 reconciliation; framework §3 step 7,
+  §5.
+- **Misconception detected:** Session outputs read as governance outcomes
+  (`M8-S05`, `M8-S10`, `M8-S11`).
+
+### E43
+
+- **Prompt:** Hypothetical scenario: while recording follow-up, the recorder
+  wants to add "within two weeks" to every action and to name the most
+  involved participant as owner of the technical content investigated. Assess
+  both instincts.
+- **Expected reasoning / answer:** Both fail. No controlled action-due-date
+  convention exists — deadlines, follow-up periods and escalation timing are
+  never invented; a date is recorded only where a source actually knows it
+  or the hypothetical expressly establishes one, and this one does not.
+  And an action owner receives the follow-up task only: action assignment
+  transfers no technical ownership or authorship, and a follow-up function
+  is never converted into an invented person or holder.
+- **Basis:** Outline Slide 13 fields 6–7; Working Register dates rule
+  (**working pattern — `FOR REVIEW · Authority: None · Not approved`**).
+- **Misconception detected:** Invented deadlines; action ownership inflated
+  into technical ownership (`M8-S06`).
+
+### E44
+
+- **Prompt:** Hypothetical scenario: a governed decision was properly taken
+  and recorded during the session. At conclusion, may the reconciliation
+  list that matter as finished?
+- **Expected reasoning / answer:** Only as *decided* — not as finished. A
+  recorded decision is not an implemented decision: any affected artefact
+  change belongs to the separate authorised implementation route, and an
+  implementation is not complete until the required verification is
+  evidenced — and verification is not acceptance unless controlled
+  governance establishes that relationship. The reconciliation carries the
+  decision's traceability into AFTER; it does not skip the remaining acts.
+  (Hypothetical — no such decision is recorded or established in this
+  programme.)
+- **Basis:** Outline Slide 13 field 7; BEP §12.7–§12.9 (controlled).
+- **Misconception detected:** Decided collapsed into implemented and
+  verified (`M8-S11`).
+
+## Slide 14 exercises — facilitate, don't become the authority
+
+### E45
+
+- **Prompt:** State the facilitator's job in one sentence, and the thing the
+  facilitator must never become — with the reason governance cares.
+- **Expected reasoning / answer:** The facilitator structures the decision
+  conversation — framing matters, exposing evidence and authority
+  requirements, keeping the states distinct, preserving unresolved work.
+  The facilitator must never become the authority: facilitation confers no
+  decision ownership or approval power, and participation confers no
+  authority — governance establishes who may decide. If the meeting or its
+  facilitator quietly becomes the authority, decisions stop being traceable
+  to any governed basis.
+- **Basis:** Outline Slide 14 fields 5–7; Module 8 `README.md` §3.
+- **Misconception detected:** Facilitation drifting into authority
+  (`M8-S01`, `M8-S02`).
+
+### E46
+
+- **Prompt:** Reproduce the Module 8 method as one safe sequence — BEFORE,
+  DURING, AFTER — in your own words, marking where the STOP-like boundaries
+  sit.
+- **Expected reasoning / answer:** BEFORE: select backlog matters; frame
+  each decision question; build the evidence position (required ≠ available
+  ≠ missing); expose dependencies and the required authority type; keep
+  typed absences. DURING: one conversation at a time; keep discussion,
+  option, proposal and governed decision distinct; check whether the
+  required authority is actually established and engaged — a useful
+  discussion can occur without it, but no governed decision can be claimed
+  from discussion alone; record, route or park each outcome. AFTER:
+  reconcile the record; route consequential decisions through the governed
+  decision route to the controlled record; implement only where authorised;
+  verify; keep unresolved work visible. Boundaries: the meeting is never
+  authority; nothing moves from Harrismith into a Triviron answer; and no
+  workshop output edits a controlled document by itself.
+- **Basis:** The full accepted framework §§1–6; outline Slides 3–13.
+- **Misconception detected:** The method reproduced without its boundaries.
+
+### E47
+
+- **Prompt:** Hypothetical scenario: at session end the facilitator
+  announces, "the room agreed, it's in the record, so the matrix team can
+  make the change." Identify every boundary crossed in that one sentence.
+- **Expected reasoning / answer:** Three at least. "The room agreed" —
+  consensus alone establishes no authorised decision. "It's in the record" —
+  a meeting record is not automatically approval or governed decision
+  evidence; a governed decision would need the established authority's
+  governed act, traceable in the appropriate controlled record. "The matrix
+  team can make the change" — no workshop output edits a controlled
+  document; implementation follows only from an authorised implementation
+  route after a governed decision, and tool access changes nothing. The
+  facilitator has, in one sentence, become the authority. (Hypothetical —
+  no such session is recorded or established in this programme.)
+- **Basis:** Outline Slide 14 field 7; `M8-S04`, `M8-S05`, `M8-S11`,
+  `M8-S15`.
+- **Misconception detected:** Consensus + record + willingness read as
+  authorised change (`M8-S04`, `M8-S05`, `M8-S11`).
+
+### E48
+
+- **Prompt:** A learner proposes bringing Harrismith's populated answers to
+  a future Triviron decision workshop "so the room has defaults to approve".
+  Diagnose against the whole programme.
+- **Expected reasoning / answer:** This crosses the programme's deepest
+  boundary: Harrismith supplies reference patterns, questions and governance
+  distinctions — never Triviron's populated answers, and no Harrismith
+  value may be copied into Triviron as an answer or default. A room
+  "approving defaults" would also collapse proposal into approval and make
+  the meeting the authority. The safe use of Harrismith in the room is the
+  method: the questions, the evidence discipline, the typed absences and
+  the authority requirements each matter must satisfy on Triviron's own
+  evidence.
+- **Basis:** Outline Slide 14 field 7; Module 7 accepted boundary; `M8-S08`.
+- **Misconception detected:** Reference values smuggled in as approvable
+  defaults (`M8-S08`).
+
+---
+
 ## Coverage map
 
 | Required distinction | Exercises |
@@ -776,11 +930,34 @@ explicitly hypothetical.
 | Verification vs acceptance | E40 |
 | Permissions vs authority | E40 |
 
+**Slides 13–14 coverage (T8-F):**
+
+| Required distinction | Exercises |
+|---|---|
+| Conclusion vs closure | E41 |
+| Session end vs all matters resolved | E41, E42 |
+| Unresolved vs approved | E42 |
+| Action vs decision | E42 |
+| Action owner vs technical owner | E43 |
+| Evidence request vs decision | E42 |
+| Decision vs implementation | E44 |
+| Implementation vs verification | E44 |
+| No invented due date | E43 |
+| Correct routing of a mixed set of outcomes | E42 |
+| Facilitator vs authority | E45, E47 |
+| Participation vs authority | E45 |
+| Consensus vs authorised decision | E47 |
+| Evidence vs decision | E46, E47 |
+| Proposal vs approval | E48 |
+| Meeting record vs automatic governed-decision evidence | E47 |
+| Permissions vs authority | E47 |
+| Harrismith method vs Triviron answer | E48 |
+| Full Module 8 method in one safe sequence | E46 |
+
 ## Status
 
 | Field | Value |
 |---|---|
-| Exercises | **40** — `E1`–`E12` (Slides 1–3, `ACCEPTED after T8-C-R`; E4/E10 wording accepted in `T8-C-R2`) · `E13`–`E27` (Slides 4–8, `ACCEPTED after T8-D-R`) · `E28`–`E40` (Slides 9–12, T8-E); coverage-driven |
-| Slides 13–14 exercises | **None — `NOT YET DEVELOPED`** |
+| Exercises | **48** — `E1`–`E12` (Slides 1–3, `ACCEPTED after T8-C-R`; E4/E10 wording accepted in `T8-C-R2`) · `E13`–`E27` (Slides 4–8, `ACCEPTED after T8-D-R`) · `E28`–`E40` (Slides 9–12, `ACCEPTED after T8-E-R`) · `E41`–`E48` (Slides 13–14, T8-F); coverage-driven |
 | Triviron answers, participants or workshop values requested or supplied | **None** |
 | Publication automation | **`PAUSED`** |
