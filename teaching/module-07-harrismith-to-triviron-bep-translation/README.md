@@ -206,5 +206,5 @@ Navisworks configuration. **Publication automation remains `PAUSED`.**
 | **T7-F-R** | Slide 9 taxonomy and evidence-boundary wording corrections | ✅ **COMPLETE** |
 | **T7-G** | **Slides 13–14 developed** — typed absence and the Module 8 workshop bridge · presenter notes and exercises `E46`–`E55` · **full fourteen-slide baseline reconciliation** | ✅ **ACCEPTED after T7-G-R** |
 | **T7-G-R** | Slide 14 workshop/authority evidence-boundary corrections | ✅ **COMPLETE** |
-| **T7-H0** | Acceptance-status reconciliation — this increment | **`PENDING CHATGPT GOVERNANCE REVIEW`** |
+| **T7-H0** | Acceptance-status reconciliation | ✅ **ACCEPTED** |
 | Later | Visual specification (**`NOT STARTED`**) · visual sources · presentation assembly and production · register evidence/population work | **Not started — each requires its own authorised increment** |

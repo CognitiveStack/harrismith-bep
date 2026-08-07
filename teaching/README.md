@@ -168,6 +168,11 @@ teaching/
 │   ├── presentation-outline.md      fourteen-slide / 20-minute architecture; all fourteen slides developed
 │   ├── presenter-notes.md           delivery cues, all fourteen slides
 │   └── exercises.md                 55 exercises, Slides 1–14
+├── module-08-bep-workshop-facilitation/   Module 8 — CURRENT; architecture baseline pending review
+│   ├── README.md                    status, objective, boundaries, M8-S01–M8-S15 STOP register
+│   ├── source-inventory.md          A–F classes plus the non-governing working-pattern overlay
+│   ├── workshop-method-framework.md BEFORE → DURING → AFTER teaching method — synthesis labelled
+│   └── source-map.md                permitted flows and prohibited routes; vocabulary separation
 ├── shared/
 │   ├── glossary.md                  teaching glossary across all modules
 │   └── presentation-principles.md   how these presentations are built
@@ -242,9 +247,14 @@ TEACHING-CONTENT BASELINE is ACCEPTED`** — all fourteen slides of the
 presenter notes and 55 exercises accepted as part of the baseline. The
 acceptance covers **teaching content only** — visual specification, visual
 sources, presentation assembly and production remain **`NOT STARTED`**, and
-rehearsal and measured timing remain **`NOT PERFORMED`**. **Module 8:
-`T8-A — ACCEPTED` (read-only source and boundary census, zero mutations);
-architecture `NOT STARTED`; `T8-B` next after `T7-H0` acceptance.**
+rehearsal and measured timing remain **`NOT PERFORMED`**. **Module 8 is the
+current module: `T8-A — ACCEPTED` (read-only census, zero mutations) and
+`T7-H0 — ACCEPTED`; `T8-B` created the four-file architecture baseline in
+[`module-08-bep-workshop-facilitation/`](module-08-bep-workshop-facilitation/)
+— status `ARCHITECTURE BASELINE — T8-B PENDING CHATGPT GOVERNANCE REVIEW`,
+`TEACHING ARCHITECTURE — NOT TRIVIRON GOVERNANCE`. Module 8 teaching content
+is `NOT STARTED`; no BEP workshop has been held or scheduled in this
+programme.**
 
 **`T6-A` to `T6-H` are COMPLETE, and the Module 6 teaching-content baseline is
 COMPLETE.** Module 6 holds **eight teaching files** — objective and
