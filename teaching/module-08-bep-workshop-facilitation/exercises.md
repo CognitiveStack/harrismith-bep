@@ -475,13 +475,17 @@ explicitly hypothetical.
   interface question, surfaces three possible approaches, and one
   participant writes up the second approach as a recommendation. Classify
   what exists at that point — and say what does not.
-- **Expected reasoning / answer:** Discussion (the debate and reasoning);
-  three options (possible courses under consideration); one proposal (a
-  candidate position put forward). What does not exist: a governed decision —
-  none of the four states has crossed into one, because no appropriate
-  established authority has exercised its function through the governed
-  route and recorded the outcome. The four states are conditions, not a
-  pipeline: the conversation could legitimately have stopped at any of them.
+- **Expected reasoning / answer:** The facts supplied establish discussion
+  (the debate and reasoning); three options (possible courses under
+  consideration); and one proposal (a candidate position put forward). They
+  **do not establish a governed decision**: the scenario supplies no
+  evidence that an appropriate established authority exercised its decision
+  function through the governed route and that the outcome was recorded
+  appropriately. The learner may therefore say only that a governed decision
+  is *not established by the scenario* — not that no governed decision
+  occurred in reality. The four states are conditions, not a pipeline: the
+  conversation could legitimately have stopped at discussion, an option or
+  the proposal.
 - **Basis:** Outline Slide 9 fields 6–7; framework §3.
 - **Misconception detected:** A written-up recommendation read as a decision
   (`M8-S11`).
@@ -579,10 +583,13 @@ explicitly hypothetical.
 - **Expected reasoning / answer:** An evidence request changes the *evidence
   position's future* — it tasks a function with identifying controlled
   evidence against a stated requirement. It does not decide, approve or
-  create authority. A governed decision changes the
-  *governed position* — and only when the established authority exercises
-  its function through the governed route. A session that produces only
-  evidence requests has still moved the matter forward, traceably.
+  create authority. A governed decision **establishes the governed decision
+  outcome or status** — when, and only when, the appropriate established
+  authority exercises its function through the governed route. That outcome
+  may or may not require a later controlled change: any affected artefact
+  change belongs to the separate authorised implementation route. A session
+  that produces only evidence requests has still moved the matter forward,
+  traceably.
 - **Basis:** Outline Slide 10 field 7; framework §2 steps 3–5, §3 step 7.
 - **Misconception detected:** Evidence request read as an outcome-decision
   (`M8-S07`).
