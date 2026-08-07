@@ -195,13 +195,25 @@ answer contains one.
 - **Prompt:** A future increment identifies a genuine controlled Triviron
   organisation chart. Which chain steps change for `TDR-004`, and which do
   not change automatically?
-- **Expected reasoning / answer:** Steps 3–4 change: the evidence requirement
-  can be matched by identified class F evidence, recorded with its status and
-  authority. The STOP rule still holds: no candidate decision follows
-  automatically — candidacy additionally needs an expressly authorised
-  proposal stage, and authority/owner fields still require source-grounded
-  values or typed absence. Evidence does not itself decide.
-- **Basis:** Schema §5, §7; `source-map.md` §4 ("informs — evidence does not
+- **Expected reasoning / answer:** **Step 3 — Triviron evidence required —
+  does not change.** The recorded requirement stands unless the new evidence
+  shows the requirement itself was incorrectly framed. **Step 4 — evidence
+  available / missing — changes**: the controlled organisation chart, if
+  genuinely admitted through a governed route with its status and authority
+  recorded, becomes identified evidence, so `NONE IDENTIFIED` no longer
+  describes the whole row's evidence position. But `TDR-004` requires more
+  than a chart — appointment/contract information and a responsibility /
+  authority decision allocating the coordination function — so **those gaps
+  stay explicitly recorded as missing**, and the row may well remain
+  `EVIDENCE REQUIRED` while the evidence needed to responsibly frame a
+  candidate remains incomplete. The **STOP rule still applies**: no candidate
+  decision follows automatically, and no decision authority or owner follows
+  automatically. A controlled factual source establishes only the facts it
+  actually supports — a chart does not allocate the coordination function,
+  identify an authority or owner, or authorise any governed arrangement.
+  **Evidence arrival does not itself decide.**
+- **Basis:** `translation-framework.md` §2.3–§2.5; schema §5, §7; register
+  `TDR-004` fields 7–13; `source-map.md` §4 ("informs — evidence does not
   itself decide").
 - **Misconception detected:** Evidence arrival treated as decision authority
   (`M7-S16`, `M7-S17`).
