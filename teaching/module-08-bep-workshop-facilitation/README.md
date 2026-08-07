@@ -1,14 +1,15 @@
 # Module 8 — Facilitating and Presenting a BEP Workshop
 
-**Status:** **`ARCHITECTURE BASELINE — T8-B PENDING CHATGPT GOVERNANCE
-REVIEW`**
+**Status:** **`ARCHITECTURE BASELINE — ACCEPTED after T8-B`**
 
 **`TEACHING ARCHITECTURE — NOT TRIVIRON GOVERNANCE`**
 
-Teaching content **`NOT STARTED`** · presentation architecture
-**`NOT STARTED`** · exercises **`NOT STARTED`** · visual specification
-**`NOT STARTED`** · presentation production **`NOT STARTED`** · publication
-automation **`PAUSED`**.
+Teaching content **`IN DEVELOPMENT — NOT COMPLETE`**: presentation
+architecture **`ESTABLISHED IN T8-C — PENDING CHATGPT GOVERNANCE REVIEW`**;
+**Slides 1–3 developed (`T8-C`) — `PENDING CHATGPT GOVERNANCE REVIEW`**;
+**Slides 4–14 `NOT YET DEVELOPED`**; exercises **Slides 1–3 only**. Visual
+specification **`NOT STARTED`** · presentation production **`NOT STARTED`** ·
+publication automation **`PAUSED`**.
 
 **No actual workshop is held, scheduled, simulated or implied by this
 module.**
@@ -149,11 +150,15 @@ teaching sources or the accepted Translation Decision Register.**
 | [`source-inventory.md`](source-inventory.md) | Source classes, statuses and limits | Any authority promotion |
 | [`workshop-method-framework.md`](workshop-method-framework.md) | The before/during/after teaching method and its checkpoints | Any governed workflow claim; any actual workshop |
 | [`source-map.md`](source-map.md) | What each source may feed into Module 8, and the prohibited routes | Any `working → governance`, `workshop → BEP`, `Harrismith → Triviron` or `synthesis → governance` route |
+| [`presentation-outline.md`](presentation-outline.md) | The fourteen-slide / 20-minute architecture; Slides 1–3 developed | Slides 4–14 content (`NOT YET DEVELOPED`); any actual workshop |
+| [`presenter-notes.md`](presenter-notes.md) | Delivery cues for Slides 1–3 | A script; notes for Slides 4–14 |
+| [`exercises.md`](exercises.md) | 12 coverage-driven exercises for Slides 1–3 | Exercises for Slides 4–14; any invented workshop value |
 
 ## 13. Increment status
 
 | Increment | Scope | Status |
 |---|---|---|
 | **T8-A** | Read-only workshop source and boundary census | ✅ **ACCEPTED** |
-| **T8-B** | Architecture baseline — this baseline | **`PENDING CHATGPT GOVERNANCE REVIEW`** |
-| Later | Teaching content · presentation architecture · exercises · visuals · production | **Not started — each requires its own authorised increment** |
+| **T8-B** | Architecture baseline — four files | ✅ **ACCEPTED** |
+| **T8-C** | Presentation architecture (fourteen slides / 20 minutes) · **Slides 1–3 developed** · presenter notes and exercises `E1`–`E12` for Slides 1–3 | **`TEACHING CONTENT IN DEVELOPMENT — PENDING CHATGPT GOVERNANCE REVIEW`** |
+| Later | Slides 4–14 development · visuals · production | **Not started — each requires its own authorised increment** |

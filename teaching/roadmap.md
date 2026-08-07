@@ -33,7 +33,7 @@ moves — not as the subject.
 | 5 | Responsibility matrices and information-delivery planning | **Content, visual source, assembly package and PowerPoint produced; governance review ACCEPTED (`REV01`).** Rehearsal and measured timing **DEFERRED** |
 | 6 | Coordination, Review, Approval and Assurance | **TEACHING-PRODUCTION COMPLETE.** **`T6-A` to `T6-H` COMPLETE** — eight teaching files, **all fourteen slides developed; teaching-content baseline COMPLETE**; **fourteen visual specifications ACCEPTED after `T6-E-R`**; **fourteen visual sources ACCEPTED after `T6-F-R`**; **assembly package `ACCEPTED after T6-G-R`**; **external PowerPoint produced — `T6-H — ACCEPTED after T6-H-R1`**. Rehearsal and measured timing **DEFERRED** |
 | 7 | **Translating Harrismith into the Triviron BEP** | **TEACHING-CONTENT BASELINE ACCEPTED.** `T7-A`, `T7-B0` **ACCEPTED**; architecture baseline **`ACCEPTED after T7-B-R`**; **Translation Decision Register — 21 rows — `ACCEPTED after T7-C-R`**; Slides 1–3 **`ACCEPTED after T7-D-R`**; Slides 4–8 **`ACCEPTED after T7-E-R`**; Slides 9–12 **`ACCEPTED after T7-F-R`**; Slides 13–14 **`ACCEPTED after T7-G-R`**. **Zero Triviron evidence identified, zero candidate decisions.** **Visual specification `NOT STARTED` — deferred while the teaching programme proceeds**; no visual or presentation material exists |
-| 8 | **Facilitating and presenting a BEP workshop** | **CURRENT — ARCHITECTURE BASELINE IN REVIEW.** **`T8-A — ACCEPTED`** (read-only census); **`T8-B` architecture baseline — four files — `PENDING CHATGPT GOVERNANCE REVIEW`**. Teaching content **`NOT STARTED`**. No workshop has been held or scheduled in this programme |
+| 8 | **Facilitating and presenting a BEP workshop** | **CURRENT — ACTIVE.** **`T8-A — ACCEPTED`**; **architecture baseline `ACCEPTED after T8-B`**; **`T8-C` — fourteen-slide presentation architecture established, Slides 1–3 developed — `PENDING CHATGPT GOVERNANCE REVIEW`**; Slides 4–14 `NOT YET DEVELOPED`. No workshop has been held or scheduled in this programme |
 
 ### Module 1 — What is a BIM Execution Plan? — **produced; review and rehearsal deferred**
 
@@ -549,12 +549,20 @@ is `ACCEPTED`**. **`T8-B` created the Module 8 architecture baseline** in
 an expressly non-governing working-pattern overlay carrying its own
 `FOR REVIEW / Authority: None / Not approved` status), the
 `BEFORE → DURING → AFTER` workshop-method framework (labelled teaching
-synthesis), and a source map with prohibited routes — all
-**`ARCHITECTURE BASELINE — T8-B PENDING CHATGPT GOVERNANCE REVIEW`**.
-**Module 8 teaching content is `NOT STARTED`.** No BEP workshop has been held
-or scheduled in this programme, and no Triviron workshop participant,
-facilitator, authority or decision structure is identified or established in
-this programme. **Module 7 develops a controlled translation framework
+synthesis), and a source map with prohibited routes — the architecture baseline is
+**`ACCEPTED after T8-B`**.
+
+**`T8-C` began Module 8 teaching content.** It established the **20-minute,
+fourteen-slide presentation architecture** (`20.0 minutes allocated — not
+measured`; presenter-controlled advancement) and **developed Slides 1–3** —
+the backlog-to-workshop handoff, the workshop-is-not-authority boundary, and
+the Before → During → After control model (labelled teaching synthesis) —
+with presenter notes and **exercises `E1`–`E12`** for those slides. **Slides
+4–14 are `NOT YET DEVELOPED`**, the teaching-content baseline is **not
+complete**, and `T8-C` is **`PENDING CHATGPT GOVERNANCE REVIEW`**. No BEP
+workshop has been held or scheduled in this programme, and no Triviron
+workshop participant, facilitator, authority or decision structure is
+identified or established in this programme. **Module 7 develops a controlled translation framework
 supporting the future development of a project-specific Triviron BEP — a
 teaching-architecture decision, not a Triviron governance fact.**
 **`NO CONTROLLED TRIVIRON GOVERNANCE FACT IDENTIFIED IN T7-A`** — the register
@@ -635,12 +643,12 @@ of governance under condition. Describing it neither advances nor reopens it.
 | Field | Value |
 |---|---|
 | **Active module** | **Module 7 — Translating Harrismith into the Triviron BEP** — **CURRENT — ACTIVE** |
-| **Next development increment** | **`T8-B` — Module 8 architecture baseline — `PENDING CHATGPT GOVERNANCE REVIEW`.** Later increments proceed only through their own approvals |
+| **Next development increment** | **`T8-C` — Module 8 presentation architecture and Slides 1–3 — `PENDING CHATGPT GOVERNANCE REVIEW`.** Later increments proceed only through their own approvals |
 | Module 7 architecture baseline | **`ACCEPTED after T7-B-R`** — five files |
 | Module 7 Translation Decision Register | **`ACCEPTED after T7-C-R`** — 21 rows; **0** Triviron evidence identified; **0** candidate decisions; **0** `PROPOSAL`; **0** `ESTABLISHED`; **unchanged by T7-D** |
 | Module 7 teaching content | **`MODULE 7 TEACHING-CONTENT BASELINE — ACCEPTED`** — all fourteen slides **developed and accepted** (Slides 1–3 `after T7-D-R` · 4–8 `after T7-E-R` · 9–12 `after T7-F-R` · 13–14 `after T7-G-R`); presenter notes **complete and accepted**; exercises **`E1`–`E55` complete and accepted**; **`20.0 minutes allocated — not measured`**; rehearsal **`NOT PERFORMED`** |
 | Module 7 visual specification | **`NOT STARTED`** — deferred while the teaching programme proceeds; visual sources, presentation assembly and production likewise **`NOT STARTED`** |
-| Module 8 | **CURRENT** — **`T8-A — ACCEPTED`**; **`T8-B` architecture baseline (four files) `PENDING CHATGPT GOVERNANCE REVIEW`**; teaching content **`NOT STARTED`**; no workshop held or scheduled in this programme |
+| Module 8 | **CURRENT** — **`T8-A — ACCEPTED`**; architecture baseline **`ACCEPTED after T8-B`**; teaching content **`IN DEVELOPMENT`** — Slides 1–3 developed (`T8-C` pending review), Slides 4–14 `NOT YET DEVELOPED`; no workshop held or scheduled in this programme |
 | Module 7 presentation production | **`NOT STARTED`** |
 | Module 6 teaching-production phase | **COMPLETE.** **`T6-A` to `T6-H` complete** |
 | Module 6 assembly package | **ACCEPTED** — **`T6-G — ACCEPTED after T6-G-R`** |
@@ -720,6 +728,6 @@ of governance under condition. Describing it neither advances nor reopens it.
 | Rendered visual assets | **None in any module** — no renderer available; text-based source is authoritative |
 | Measured timing | **None, in any module.** Every deck carries **`20.0 minutes allocated — not measured`** |
 | Module 7 | **TEACHING-CONTENT BASELINE ACCEPTED** — architecture **`ACCEPTED after T7-B-R`**; register **`ACCEPTED after T7-C-R`**; all fourteen slides accepted (13–14 `after T7-G-R`); no candidate decision; visual specification **`NOT STARTED`** |
-| Module 8 | **CURRENT** — `T8-A` **ACCEPTED**; `T8-B` architecture baseline **`PENDING CHATGPT GOVERNANCE REVIEW`**; teaching content **`NOT STARTED`** |
+| Module 8 | **CURRENT** — `T8-A` **ACCEPTED**; architecture **`ACCEPTED after T8-B`**; teaching content **`IN DEVELOPMENT`** (Slides 1–3; `T8-C` pending review) |
 | Publication automation | **PAUSED** |
 | Source material status | Training Baseline 0.1 — approved with conditions; publication NOT AUTHORISED |

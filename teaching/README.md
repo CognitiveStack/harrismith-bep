@@ -168,11 +168,14 @@ teaching/
 │   ├── presentation-outline.md      fourteen-slide / 20-minute architecture; all fourteen slides developed
 │   ├── presenter-notes.md           delivery cues, all fourteen slides
 │   └── exercises.md                 55 exercises, Slides 1–14
-├── module-08-bep-workshop-facilitation/   Module 8 — CURRENT; architecture baseline pending review
+├── module-08-bep-workshop-facilitation/   Module 8 — CURRENT; architecture accepted, Slides 1–3 pending review
 │   ├── README.md                    status, objective, boundaries, M8-S01–M8-S15 STOP register
 │   ├── source-inventory.md          A–F classes plus the non-governing working-pattern overlay
 │   ├── workshop-method-framework.md BEFORE → DURING → AFTER teaching method — synthesis labelled
-│   └── source-map.md                permitted flows and prohibited routes; vocabulary separation
+│   ├── source-map.md                permitted flows and prohibited routes; vocabulary separation
+│   ├── presentation-outline.md      fourteen-slide / 20-minute architecture; Slides 1–3 developed
+│   ├── presenter-notes.md           delivery cues, Slides 1–3 only
+│   └── exercises.md                 12 exercises, Slides 1–3 only
 ├── shared/
 │   ├── glossary.md                  teaching glossary across all modules
 │   └── presentation-principles.md   how these presentations are built
@@ -248,13 +251,15 @@ presenter notes and 55 exercises accepted as part of the baseline. The
 acceptance covers **teaching content only** — visual specification, visual
 sources, presentation assembly and production remain **`NOT STARTED`**, and
 rehearsal and measured timing remain **`NOT PERFORMED`**. **Module 8 is the
-current module: `T8-A — ACCEPTED` (read-only census, zero mutations) and
-`T7-H0 — ACCEPTED`; `T8-B` created the four-file architecture baseline in
+current module: `T8-A — ACCEPTED` and the architecture baseline is `ACCEPTED
+after T8-B`** in
 [`module-08-bep-workshop-facilitation/`](module-08-bep-workshop-facilitation/)
-— status `ARCHITECTURE BASELINE — T8-B PENDING CHATGPT GOVERNANCE REVIEW`,
-`TEACHING ARCHITECTURE — NOT TRIVIRON GOVERNANCE`. Module 8 teaching content
-is `NOT STARTED`; no BEP workshop has been held or scheduled in this
-programme.**
+— `TEACHING ARCHITECTURE — NOT TRIVIRON GOVERNANCE`. **`T8-C` established the
+fourteen-slide / 20-minute presentation architecture and developed Slides
+1–3** (with presenter notes and 12 exercises), status **`TEACHING CONTENT IN
+DEVELOPMENT — T8-C PENDING CHATGPT GOVERNANCE REVIEW`**; **Slides 4–14 are
+`NOT YET DEVELOPED`**, and no BEP workshop has been held or scheduled in this
+programme.
 
 **`T6-A` to `T6-H` are COMPLETE, and the Module 6 teaching-content baseline is
 COMPLETE.** Module 6 holds **eight teaching files** — objective and
