@@ -5,11 +5,12 @@
 **`TEACHING ARCHITECTURE — NOT TRIVIRON GOVERNANCE`**
 
 Teaching content **`IN DEVELOPMENT — NOT COMPLETE`**: presentation
-architecture **`ESTABLISHED IN T8-C — PENDING CHATGPT GOVERNANCE REVIEW`**;
-**Slides 1–3 developed (`T8-C`) — `PENDING CHATGPT GOVERNANCE REVIEW`**;
-**Slides 4–14 `NOT YET DEVELOPED`**; exercises **Slides 1–3 only**. Visual
-specification **`NOT STARTED`** · presentation production **`NOT STARTED`** ·
-publication automation **`PAUSED`**.
+architecture **`ACCEPTED after T8-C-R`**; **Slides 1–3 `ACCEPTED after
+T8-C-R`**; **Slides 4–8 developed (`T8-D`) — `PENDING CHATGPT GOVERNANCE
+REVIEW`**; **Slides 9–14 `NOT YET DEVELOPED`**; presenter notes Slides 1–8;
+exercises **Slides 1–8 only** (`E1`–`E27`). Visual specification
+**`NOT STARTED`** · presentation production **`NOT STARTED`** · publication
+automation **`PAUSED`**.
 
 **No actual workshop is held, scheduled, simulated or implied by this
 module.**
@@ -160,5 +161,7 @@ teaching sources or the accepted Translation Decision Register.**
 |---|---|---|
 | **T8-A** | Read-only workshop source and boundary census | ✅ **ACCEPTED** |
 | **T8-B** | Architecture baseline — four files | ✅ **ACCEPTED** |
-| **T8-C** | Presentation architecture (fourteen slides / 20 minutes) · **Slides 1–3 developed** · presenter notes and exercises `E1`–`E12` for Slides 1–3 | **`TEACHING CONTENT IN DEVELOPMENT — PENDING CHATGPT GOVERNANCE REVIEW`** |
-| Later | Slides 4–14 development · visuals · production | **Not started — each requires its own authorised increment** |
+| **T8-C** | Presentation architecture (fourteen slides / 20 minutes) · **Slides 1–3 developed** · presenter notes and exercises `E1`–`E12` for Slides 1–3 | ✅ **ACCEPTED after T8-C-R** |
+| **T8-C-R** | Discussion / consensus / meeting-record wording corrections | ✅ **COMPLETE** |
+| **T8-D** | **Slides 4–8 developed** — the BEFORE phase and the DURING entry · presenter notes and exercises `E13`–`E27` | **`TEACHING CONTENT IN DEVELOPMENT — PENDING CHATGPT GOVERNANCE REVIEW`** |
+| Later | Slides 9–14 development · visuals · production | **Not started — each requires its own authorised increment** |

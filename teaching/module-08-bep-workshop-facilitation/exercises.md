@@ -1,14 +1,15 @@
 # Module 8 — Exercises
 
-**Status:** **`TEACHING CONTENT IN DEVELOPMENT — T8-C PENDING CHATGPT
+**Status:** **`TEACHING CONTENT IN DEVELOPMENT — T8-D PENDING CHATGPT
 GOVERNANCE REVIEW`**
 
 **`TEACHING MATERIAL — NOT TRIVIRON GOVERNANCE`**
 
 Practice and self-assessment for the developed slides. **Exercises exist for
-Slides 1–3 only; Slides 4–14 are `NOT YET DEVELOPED` and have no exercises.**
-The count is coverage-driven, not targeted. Module 8 exercise IDs are their
-own series and are unrelated to any other module's.
+Slides 1–8 (`E1`–`E12` for Slides 1–3, `ACCEPTED after T8-C-R`; `E13`–`E27`
+for Slides 4–8, added in `T8-D`). Slides 9–14 are `NOT YET DEVELOPED` and
+have no exercises.** The count is coverage-driven, not targeted. Module 8
+exercise IDs are their own series and are unrelated to any other module's.
 
 **No exercise asks the learner to invent participant names, a facilitator, a
 chair, authority, a Triviron decision, a workshop date, an agenda value or a
@@ -211,6 +212,252 @@ explicitly hypothetical.
 
 ---
 
+## Slide 4 exercises — backlog into decision agenda
+
+### E13
+
+- **Prompt:** A backlog matter has been selected for workshop preparation
+  and now sits as a decision-agenda item. What has changed about the matter
+  — and what has not?
+- **Expected reasoning / answer:** Changed: the matter is now framed for a
+  future conversation — its decision question, evidence position,
+  dependencies, required authority type, status and destination are carried
+  forward visibly. Not changed: nothing is decided, approved or populated;
+  the register row is untouched (the register is an input, never a drafting
+  surface); and the item remains a **workshop-preparation artefact — not a
+  decision**. Selecting a matter is not deciding it.
+- **Basis:** Outline Slide 4 fields 6–7; framework §2.
+- **Misconception detected:** Agenda placement read as progress toward, or
+  creation of, a decision (`M8-S11`, `M8-S13`).
+
+### E14
+
+- **Prompt:** The agenda item carries "required authority: project
+  coordination-governance authority". Has an authority holder been
+  identified?
+- **Expected reasoning / answer:** No. Carrying an authority **requirement**
+  forward names only the *kind* of function the decision would need. The
+  holder is a separate matter of controlled governance; where none is
+  established, the item carries a typed absence — and the workshop cannot
+  fill it by inviting someone.
+- **Basis:** Outline Slide 4 field 7; Module 7 required-authority-type
+  convention (teaching interpretation).
+- **Misconception detected:** Authority requirement conflated with authority
+  holder (`M8-S01`, `M8-S02`).
+
+### E15
+
+- **Prompt:** An agenda item names its controlled destination as "responsibility
+  matrix". May the matrix be updated once the workshop discusses the matter?
+- **Expected reasoning / answer:** Not on that basis. A destination entry
+  records where a *future authorised* decision would eventually land. The
+  update route requires a governed decision by the appropriate authority,
+  then authorised implementation, then verification. Carrying a destination
+  ≠ authorising an update, and no `workshop → document update` route exists.
+- **Basis:** Outline Slide 4 field 7; framework §5; source-map §2.
+- **Misconception detected:** Destination read as implementation authority
+  (`M8-S11`).
+
+## Slide 5 exercises — the evidence position
+
+### E16
+
+- **Prompt:** Define the three states of the evidence position and explain
+  why all three must be visible before discussion begins.
+- **Expected reasoning / answer:** **Required** — what evidence the decision
+  question would need; **available** — what controlled, classified evidence
+  has actually been identified (with its classification and source authority
+  visible); **missing** — the unsupported remainder. Visible together, they
+  tell the room what an honest conversation can and cannot support — and
+  prevent arguments between unstated evidence positions. The evidence
+  position informs discussion; it does not decide, approve or identify
+  authority.
+- **Basis:** Outline Slide 5 field 6; framework §2 steps 3–5.
+- **Misconception detected:** Evidence states blurred; discussion launched
+  without an evidence boundary (`M8-S07`).
+
+### E17
+
+- **Prompt:** An agenda item's evidence-available field reads
+  `NONE IDENTIFIED`. A participant concludes the arrangement in question
+  does not exist. Diagnose.
+- **Expected reasoning / answer:** Missing evidence is not evidence of
+  absence: `NONE IDENTIFIED` records only what this programme's controlled
+  evidence holds — it is not `NONE EXISTS` and proves nothing about reality.
+  The matter stays typed as it is; it is not upgraded, downgraded or tidied
+  into `TBD`.
+- **Basis:** Outline Slide 5 fields 6–7; Module 8 `README.md` §6.
+- **Misconception detected:** Census absence inflated into real-world
+  non-existence; unknown converted to `TBD` (`M8-S09`, `M8-S12`).
+
+### E18
+
+- **Prompt:** Suppose, hypothetically, every item of required evidence for a
+  matter has been identified and classified. What may the workshop now do —
+  and what still may it not claim?
+- **Expected reasoning / answer:** It may hold a well-informed discussion:
+  present the evidence, weigh options, frame a proposal, recognise a
+  decision requirement. It still may not claim a governed decision: a fully
+  evidenced matter waits for the appropriate established authority to
+  exercise its decision function through the governed route. Evidence
+  informs; it does not decide, approve, identify authority or create it.
+  (Hypothetical — no such evidence pack exists.)
+- **Basis:** Framework §4 authority checkpoint; outline Slide 5 field 7.
+- **Misconception detected:** Evidence sufficiency treated as decision or
+  authority (`M8-S07`).
+
+## Slide 6 exercises — functions, participants and authority
+
+### E19
+
+- **Prompt:** The preparation list names "structural task-team function" as
+  required for a matter. A structural engineer accepts the invitation. Which
+  of Slide 6's five concepts have now been satisfied?
+- **Expected reasoning / answer:** At most one: a **participant** who can
+  contribute the needed technical knowledge. The **required function** is a
+  governance concept, not a person; whether the participant holds any
+  **authority** depends entirely on controlled governance, not on the
+  invitation; and neither **facilitator** nor **action owner** is implied.
+  Attendance establishes no authority.
+- **Basis:** Outline Slide 6 fields 6–7; matrices pattern.
+- **Misconception detected:** Person, function and authority collapsed
+  (`M8-S01`).
+
+### E20
+
+- **Prompt:** No authority holder is established for a matter, and the
+  facilitator is the most senior person in the room. May the record show the
+  facilitator as acting decision authority "to keep things moving"?
+- **Expected reasoning / answer:** No. Facilitating structures the
+  conversation; it makes no one decision owner, approver or authoriser —
+  and seniority is not governance. Where no holder is established, the typed
+  absence is retained and the matter's legitimate outputs are proposals,
+  actions, evidence requests or a recognised decision requirement. No chair
+  function exists to fall back on either — none is established by any
+  source, and chairing would not itself confer authority.
+- **Basis:** Outline Slide 6 fields 6, 11; strategy facilitate-not-author
+  pattern; `M8-S03` teaching-safety synthesis.
+- **Misconception detected:** Facilitator or seniority substituted for
+  authority (`M8-S02`, `M8-S03`).
+
+### E21
+
+- **Prompt:** An action from the preparation list assigns "investigate the
+  container inventory" to the coordination function, and that function's
+  nominee has edit rights in the platform. What do the assignment and the
+  permissions each establish?
+- **Expected reasoning / answer:** The assignment establishes only
+  responsibility for the follow-up action — not authorship, technical
+  responsibility or design ownership of anything investigated. The platform
+  permissions establish nothing at all about governance: tool roles and
+  access are not governance authority. Both boundaries hold regardless of
+  how the action is later performed.
+- **Basis:** Outline Slide 6 field 7; `M8-S06`, `M8-S15`.
+- **Misconception detected:** Action assignment or tool access read as
+  ownership or authority (`M8-S06`, `M8-S15`).
+
+## Slide 7 exercises — the decision agenda
+
+### E22
+
+- **Prompt:** While preparing an agenda item, the "current status" field is
+  empty because nobody checked the register. May it be filled with `TBD` so
+  the layout looks complete?
+- **Expected reasoning / answer:** No, twice over. First, the field should
+  carry the matter's actual recorded status from its source — preparation
+  means checking, not guessing. Second, `TBD` has a precise meaning
+  (intentional deferral within an established scope) and is never a filler
+  for an unchecked or unknown value. A blank or honestly typed absence is
+  preferable to invented content.
+- **Basis:** Outline Slide 7 fields 6–7; `M8-S09`.
+- **Misconception detected:** `TBD` used as a cosmetic blank; layout
+  completeness prioritised over accuracy (`M8-S09`).
+
+### E23
+
+- **Prompt:** Distinguish an agenda item's "current status" field from the
+  workshop's eventual outcome for that matter.
+- **Expected reasoning / answer:** The current-status field records the
+  matter's position **going in** — what the controlled record says now. The
+  workshop outcome is whatever the conversation legitimately produces —
+  clarification, evidence request, action, proposal, recognised decision
+  requirement, unresolved matter, or (only through the governed route by
+  the established authority) a governed decision. Writing the hoped-for
+  outcome into the status field would pre-fill what the room is supposed to
+  decide.
+- **Basis:** Outline Slide 7 fields 5, 7.
+- **Misconception detected:** Status conflated with outcome; agenda
+  pre-filling the answer (`M8-S11`).
+
+### E24
+
+- **Prompt:** Slides 4 and 7 both concern the decision agenda. State the
+  difference in one sentence each, and say why neither slide replaces the
+  other.
+- **Expected reasoning / answer:** Slide 4 teaches **how a backlog matter
+  becomes selected workshop-preparation input** — the carry-forward move and
+  its boundaries. Slide 7 teaches **what one prepared agenda item must
+  visibly carry** — the anatomy of the artefact. The move and the anatomy
+  are different lessons: one could select correctly yet prepare an item that
+  hides the evidence position or authority requirement, and vice versa.
+- **Basis:** Outline Slide 7 field 3 (the recorded distinction); Slide 4
+  field 3.
+- **Misconception detected:** The two slides read as duplication; either
+  lesson skipped.
+
+## Slide 8 exercises — one conversation at a time
+
+### E25
+
+- **Prompt:** The one-matter-at-a-time loop looks like a meeting procedure.
+  What is its actual status, and why does that matter?
+- **Expected reasoning / answer:** It is **teaching inference** — a
+  facilitation discipline reasoned from the one-matter-per-row pattern of
+  the controlled sources, not a governed meeting rule established by any
+  source. The label matters because presenting it as procedure would invent
+  workshop governance that does not exist; as inference, it is advice whose
+  rationale (evidence kept per-matter, authority unambiguous, decisions
+  traceable, unresolved items visible) can be taught honestly.
+- **Basis:** Outline Slide 8 fields 3, 7; framework §3 inference note.
+- **Misconception detected:** Inference promoted to governed procedure
+  (`M8-S11`, `M8-S12`).
+
+### E26
+
+- **Prompt:** Mid-loop, the room reaches enthusiastic unanimous agreement on
+  a matter whose required authority is not engaged. Walk the facilitator's
+  correct handling.
+- **Expected reasoning / answer:** Name the agreement for what it is —
+  consensus, which alone establishes no authorised decision. Record the
+  supportable outputs: the reasoning, a proposal carrying the agreement, any
+  evidence requests or actions, and the recognised decision requirement with
+  its required authority type. Route the proposal toward the governed
+  decision route. Do not record a decision, do not treat the facilitator or
+  the room as authority, and move to the next matter. Discussion alone
+  establishes no governed decision. (Hypothetical — no workshop exists.)
+- **Basis:** Framework §4; outline Slide 8 field 6; `M8-S04`.
+- **Misconception detected:** Consensus converted into an authorised
+  decision (`M8-S04`, `M8-S10`).
+
+### E27
+
+- **Prompt:** At the end of one conversation, the loop says "record / route /
+  park appropriately". Give one example of each fate and what none of the
+  three may become automatically.
+- **Expected reasoning / answer:** **Record** — a clarification or agreed
+  action noted in the working record with its owning function. **Route** — a
+  proposal with governance significance sent toward the governed decision
+  route for the established authority. **Park** — a matter whose evidence or
+  authority is not available, held visibly as unresolved or as an evidence
+  request. None of the three automatically becomes approval, a governed
+  decision or a document update — parking does not resolve, recording does
+  not approve, and routing does not decide.
+- **Basis:** Outline Slide 8 field 6; framework §3 step 7, §5.
+- **Misconception detected:** Any of the three fates read as a governance
+  outcome (`M8-S05`, `M8-S10`, `M8-S11`).
+
+---
+
 ## Coverage map
 
 | Required distinction | Exercises |
@@ -228,11 +475,40 @@ explicitly hypothetical.
 | Workshop output vs BEP update | E9, E10 |
 | Decision vs implementation vs verification | E9, E10, E11 |
 
+**Slides 4–8 coverage (T8-D):**
+
+| Required distinction | Exercises |
+|---|---|
+| Backlog vs agenda | E13 |
+| Selecting a matter vs deciding it | E13 |
+| Authority requirement vs authority holder | E14 |
+| Destination vs authorisation to update | E15 |
+| Required vs available vs missing evidence | E16 |
+| Missing evidence vs evidence of absence | E17 |
+| Evidence vs decision | E18 |
+| Evidence vs authority | E18 |
+| Function vs person | E19 |
+| Participant vs authority | E19 |
+| Facilitator vs decision owner | E20 |
+| No invented chair | E20 |
+| Action owner vs technical owner | E21 |
+| Permissions vs governance authority | E21 |
+| Agenda field vs populated answer | E22, E23 |
+| Typed absence vs invented value | E22 |
+| Agenda vs decision | E23 |
+| Current status vs workshop outcome | E23 |
+| Slide 4 / Slide 7 non-duplication | E24 |
+| One-at-a-time as inference, not procedure | E25 |
+| Discussion vs governed decision | E26 |
+| Consensus vs authorised decision | E26 |
+| Legitimate output when authority unavailable | E26 |
+| Record / route / park distinction | E27 |
+
 ## Status
 
 | Field | Value |
 |---|---|
-| Exercises | **12** — `E1`–`E12`, Slides 1–3 only; coverage-driven |
-| Slides 4–14 exercises | **None — `NOT YET DEVELOPED`** |
+| Exercises | **27** — `E1`–`E12` (Slides 1–3, `ACCEPTED after T8-C-R`) · `E13`–`E27` (Slides 4–8, T8-D); coverage-driven |
+| Slides 9–14 exercises | **None — `NOT YET DEVELOPED`** |
 | Triviron answers, participants or workshop values requested or supplied | **None** |
 | Publication automation | **`PAUSED`** |

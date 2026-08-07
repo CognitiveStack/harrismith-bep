@@ -168,7 +168,7 @@ teaching/
 │   ├── presentation-outline.md      fourteen-slide / 20-minute architecture; all fourteen slides developed
 │   ├── presenter-notes.md           delivery cues, all fourteen slides
 │   └── exercises.md                 55 exercises, Slides 1–14
-├── module-08-bep-workshop-facilitation/   Module 8 — CURRENT; architecture accepted, Slides 1–3 pending review
+├── module-08-bep-workshop-facilitation/   Module 8 — CURRENT; Slides 1–3 accepted, Slides 4–8 pending review
 │   ├── README.md                    status, objective, boundaries, M8-S01–M8-S15 STOP register
 │   ├── source-inventory.md          A–F classes plus the non-governing working-pattern overlay
 │   ├── workshop-method-framework.md BEFORE → DURING → AFTER teaching method — synthesis labelled
@@ -254,12 +254,12 @@ rehearsal and measured timing remain **`NOT PERFORMED`**. **Module 8 is the
 current module: `T8-A — ACCEPTED` and the architecture baseline is `ACCEPTED
 after T8-B`** in
 [`module-08-bep-workshop-facilitation/`](module-08-bep-workshop-facilitation/)
-— `TEACHING ARCHITECTURE — NOT TRIVIRON GOVERNANCE`. **`T8-C` established the
-fourteen-slide / 20-minute presentation architecture and developed Slides
-1–3** (with presenter notes and 12 exercises), status **`TEACHING CONTENT IN
-DEVELOPMENT — T8-C PENDING CHATGPT GOVERNANCE REVIEW`**; **Slides 4–14 are
-`NOT YET DEVELOPED`**, and no BEP workshop has been held or scheduled in this
-programme.
+— `TEACHING ARCHITECTURE — NOT TRIVIRON GOVERNANCE`. **The fourteen-slide /
+20-minute presentation architecture and Slides 1–3 are `ACCEPTED after
+T8-C-R`; `T8-D` developed Slides 4–8** (presenter notes and 27 exercises now
+cover Slides 1–8), status **`TEACHING CONTENT IN DEVELOPMENT — T8-D PENDING
+CHATGPT GOVERNANCE REVIEW`**; **Slides 9–14 are `NOT YET DEVELOPED`**, and no
+BEP workshop has been held or scheduled in this programme.
 
 **`T6-A` to `T6-H` are COMPLETE, and the Module 6 teaching-content baseline is
 COMPLETE.** Module 6 holds **eight teaching files** — objective and
