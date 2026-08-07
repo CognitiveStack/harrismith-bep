@@ -379,9 +379,12 @@ been rehearsed or measured.
 - **Key sentence:** *"A good BEP workshop does not start with answers. It
   starts with the decisions that must be earned."* — teaching synthesis, and
   say so if asked.
-- **Boundary warning:** no appointment, BEP, workshop, participant, owner or
-  authority exists or is known (`M7-S10`, `M7-S11`, `M7-S17`); the register
-  contains no proposals; nothing here schedules anything.
+- **Boundary warning:** no Triviron project appointment, workshop,
+  participant, decision owner or authority is established or identified in
+  this programme; no simulated decision function has been authorised; Module
+  7 establishes no Triviron BEP (`M7-S10`, `M7-S11`, `M7-S17`); the register
+  contains no proposals; nothing here schedules a workshop — and Module 8
+  itself creates no Triviron governance.
 - **Source-safe illustration:** none required — the register's own zeros are
   the handover exhibit.
 - **Closing cue (module close):** "Six modules taught you how a managed

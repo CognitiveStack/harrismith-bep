@@ -845,11 +845,12 @@ answer contains one.
 - **Prompt:** Slide 14 names Module 8 — BEP workshop facilitation. What may
   the audience conclude about workshops from that?
 - **Expected reasoning / answer:** Only that facilitation method is the next
-  *teaching* subject. No workshop has occurred or been scheduled; no
-  Triviron project appointment, participant, decision owner or authority is
-  known in this programme; and Module 8 itself will teach facilitation — it
-  will not create or approve Triviron governance. The bridge is a roadmap
-  statement, not an event.
+  *teaching* subject. No Triviron BEP workshop is recorded or established as
+  having occurred in this programme, and no workshop schedule is established
+  here; no Triviron project appointment, participant, decision owner or
+  authority is identified or established in this programme; and Module 8
+  itself will teach facilitation — it will not create or approve Triviron
+  governance. The bridge is a roadmap statement, not an event.
 - **Basis:** Outline Slide 14 fields 6, 11; `../roadmap.md` Module 8 row.
 - **Misconception detected:** A roadmap bridge read as an actual workshop or
   appointment (`M7-S10`, `M7-S17`).
