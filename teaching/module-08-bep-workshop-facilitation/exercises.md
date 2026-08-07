@@ -77,7 +77,7 @@ explicitly hypothetical.
   record. The hypothetical does not say whether that happened; without that
   evidence, the workshop result remains reasoning, agreement and proposal
   rather than an established governance decision. (Hypothetical — no such
-  workshop exists.)
+  workshop is recorded or established in this programme.)
 - **Basis:** BEP §8.9 (controlled); WP5/WP6 (working pattern,
   `Authority: None`); outline Slide 2 field 7.
 - **Misconception detected:** Attendance or consensus treated as authority
@@ -179,7 +179,8 @@ explicitly hypothetical.
   record → where authorised, controlled implementation → verification and
   traceability. Missing from the proposal: the governed decision by the
   established authority, and the authorisation to implement. Freshness is
-  not authority. (Hypothetical — no workshop exists.)
+  not authority. (Hypothetical — no such workshop is recorded or established
+  in this programme.)
 - **Basis:** Framework §5 route diagram; source-map §2 prohibited routes;
   WP7 (working pattern).
 - **Misconception detected:** Momentum substituting for governance
