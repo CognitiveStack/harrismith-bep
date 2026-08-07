@@ -110,9 +110,11 @@ held, scheduled or implied.**
   The decision agenda selects and frames what a future conversation would
   need to address."* — teaching synthesis, and say so if asked.
 - **Boundary warning:** the register is an input, never a drafting surface —
-  Module 8 modifies nothing in it (`M8-S13`); no row has been selected for
-  any actual workshop, and none is planned (`M8-S12`); placement on an
-  agenda creates neither authority nor a candidate (`M8-S11`).
+  Module 8 modifies nothing in it (`M8-S13`); **no Module 7 row is recorded
+  in this programme as selected for an actual workshop, and no workshop plan
+  or schedule is established in the programme evidence** (`M8-S12`);
+  placement on an agenda creates neither authority nor a candidate
+  (`M8-S11`).
 - **Illustration:** none required — the carry-forward sequence is the
   content.
 - **Transition cue:** "A framed question is half the preparation. The room
@@ -161,7 +163,7 @@ held, scheduled or implied.**
   identifies nobody's governance function (`M8-S15`).
 - **Source-safe illustration:** the workshop template records *participating
   functions — roles and functions, not participant names* — the pattern in
-  one line (`Authority: None`).
+  one line (`FOR REVIEW · Authority: None · Not approved`).
 - **Transition cue:** "Question, evidence, people, authority — now put one
   matter's preparation on a single page."
 

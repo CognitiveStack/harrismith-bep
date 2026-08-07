@@ -216,25 +216,27 @@ explicitly hypothetical.
 
 ### E13
 
-- **Prompt:** A backlog matter has been selected for workshop preparation
-  and now sits as a decision-agenda item. What has changed about the matter
-  — and what has not?
+- **Prompt:** Hypothetical scenario: a backlog matter has been selected for
+  workshop preparation and now sits as a decision-agenda item. What has
+  changed about the matter — and what has not?
 - **Expected reasoning / answer:** Changed: the matter is now framed for a
   future conversation — its decision question, evidence position,
   dependencies, required authority type, status and destination are carried
-  forward visibly. Not changed: nothing is decided, approved or populated;
-  the register row is untouched (the register is an input, never a drafting
-  surface); and the item remains a **workshop-preparation artefact — not a
-  decision**. Selecting a matter is not deciding it.
+  forward visibly. Not changed: **the selection/carry-forward move itself
+  establishes no governed decision or approval and populates no answer**;
+  the Translation Decision Register remains untouched (the register is an
+  input, never a drafting surface); and the item remains a
+  **workshop-preparation artefact — not a decision**. Selecting a matter is
+  not deciding it.
 - **Basis:** Outline Slide 4 fields 6–7; framework §2.
 - **Misconception detected:** Agenda placement read as progress toward, or
   creation of, a decision (`M8-S11`, `M8-S13`).
 
 ### E14
 
-- **Prompt:** The agenda item carries "required authority: project
-  coordination-governance authority". Has an authority holder been
-  identified?
+- **Prompt:** Hypothetical scenario: an agenda item carries "required
+  authority: project coordination-governance authority". Has an authority
+  holder been identified?
 - **Expected reasoning / answer:** No. Carrying an authority **requirement**
   forward names only the *kind* of function the decision would need. The
   holder is a separate matter of controlled governance; where none is
@@ -247,8 +249,9 @@ explicitly hypothetical.
 
 ### E15
 
-- **Prompt:** An agenda item names its controlled destination as "responsibility
-  matrix". May the matrix be updated once the workshop discusses the matter?
+- **Prompt:** Hypothetical scenario: an agenda item names its controlled
+  destination as "responsibility matrix". May the matrix be updated once the
+  workshop discusses the matter?
 - **Expected reasoning / answer:** Not on that basis. A destination entry
   records where a *future authorised* decision would eventually land. The
   update route requires a governed decision by the appropriate authority,
@@ -278,9 +281,9 @@ explicitly hypothetical.
 
 ### E17
 
-- **Prompt:** An agenda item's evidence-available field reads
-  `NONE IDENTIFIED`. A participant concludes the arrangement in question
-  does not exist. Diagnose.
+- **Prompt:** Hypothetical scenario: an agenda item's evidence-available
+  field reads `NONE IDENTIFIED`, and a participant concludes the arrangement
+  in question does not exist. Diagnose.
 - **Expected reasoning / answer:** Missing evidence is not evidence of
   absence: `NONE IDENTIFIED` records only what this programme's controlled
   evidence holds — it is not `NONE EXISTS` and proves nothing about reality.
@@ -301,7 +304,7 @@ explicitly hypothetical.
   evidenced matter waits for the appropriate established authority to
   exercise its decision function through the governed route. Evidence
   informs; it does not decide, approve, identify authority or create it.
-  (Hypothetical — no such evidence pack exists.)
+  (Hypothetical — no such evidence pack exists in this programme.)
 - **Basis:** Framework §4 authority checkpoint; outline Slide 5 field 7.
 - **Misconception detected:** Evidence sufficiency treated as decision or
   authority (`M8-S07`).
@@ -310,9 +313,10 @@ explicitly hypothetical.
 
 ### E19
 
-- **Prompt:** The preparation list names "structural task-team function" as
-  required for a matter. A structural engineer accepts the invitation. Which
-  of Slide 6's five concepts have now been satisfied?
+- **Prompt:** Hypothetical scenario: a preparation list names "structural
+  task-team function" as required for a matter, and a structural engineer
+  accepts the invitation. Which of Slide 6's five concepts have now been
+  satisfied?
 - **Expected reasoning / answer:** At most one: a **participant** who can
   contribute the needed technical knowledge. The **required function** is a
   governance concept, not a person; whether the participant holds any
@@ -325,9 +329,10 @@ explicitly hypothetical.
 
 ### E20
 
-- **Prompt:** No authority holder is established for a matter, and the
-  facilitator is the most senior person in the room. May the record show the
-  facilitator as acting decision authority "to keep things moving"?
+- **Prompt:** Hypothetical scenario: no authority holder is established for
+  a matter, and the facilitator is the most senior person in the room. May
+  the record show the facilitator as acting decision authority "to keep
+  things moving"?
 - **Expected reasoning / answer:** No. Facilitating structures the
   conversation; it makes no one decision owner, approver or authoriser —
   and seniority is not governance. Where no holder is established, the typed
@@ -342,10 +347,10 @@ explicitly hypothetical.
 
 ### E21
 
-- **Prompt:** An action from the preparation list assigns "investigate the
-  container inventory" to the coordination function, and that function's
-  nominee has edit rights in the platform. What do the assignment and the
-  permissions each establish?
+- **Prompt:** Hypothetical scenario: an action from a preparation list
+  assigns "investigate the container inventory" to the coordination
+  function, and that function's nominee has edit rights in the platform.
+  What do the assignment and the permissions each establish?
 - **Expected reasoning / answer:** The assignment establishes only
   responsibility for the follow-up action — not authorship, technical
   responsibility or design ownership of anything investigated. The platform
@@ -360,9 +365,9 @@ explicitly hypothetical.
 
 ### E22
 
-- **Prompt:** While preparing an agenda item, the "current status" field is
-  empty because nobody checked the register. May it be filled with `TBD` so
-  the layout looks complete?
+- **Prompt:** Hypothetical scenario: while an agenda item is being prepared,
+  the "current status" field is empty because nobody checked the register.
+  May it be filled with `TBD` so the layout looks complete?
 - **Expected reasoning / answer:** No, twice over. First, the field should
   carry the matter's actual recorded status from its source — preparation
   means checking, not guessing. Second, `TBD` has a precise meaning
@@ -434,7 +439,8 @@ explicitly hypothetical.
   its required authority type. Route the proposal toward the governed
   decision route. Do not record a decision, do not treat the facilitator or
   the room as authority, and move to the next matter. Discussion alone
-  establishes no governed decision. (Hypothetical — no workshop exists.)
+  establishes no governed decision. (Hypothetical — no such workshop exists
+  in this programme.)
 - **Basis:** Framework §4; outline Slide 8 field 6; `M8-S04`.
 - **Misconception detected:** Consensus converted into an authorised
   decision (`M8-S04`, `M8-S10`).
