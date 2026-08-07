@@ -158,7 +158,7 @@ teaching/
 │   ├── exercises.md                 practice and self-assessment — 91 exercises
 │   ├── visual-demonstration-plan.md fourteen visual specifications, M6V-01 to M6V-14, accepted
 │   └── presentation/                assembly package — production handoff, pending review
-├── module-07-harrismith-to-triviron-bep-translation/   Module 7 — teaching-content baseline ACCEPTED; visuals not started
+├── module-07-harrismith-to-triviron-bep-translation/   Module 7 — teaching content and visual specification ACCEPTED; visual sources not started
 │   ├── README.md                    status, objective, boundary, exclusions, seven domains, STOP register
 │   ├── source-inventory.md          source classes A–F; class F (Triviron) — NONE IDENTIFIED
 │   ├── translation-framework.md     the translation method and its STOP rule
@@ -167,7 +167,8 @@ teaching/
 │   ├── source-map.md                Modules 1–6 as method inputs; no Harrismith value → Triviron value route
 │   ├── presentation-outline.md      fourteen-slide / 20-minute architecture; all fourteen slides developed
 │   ├── presenter-notes.md           delivery cues, all fourteen slides
-│   └── exercises.md                 55 exercises, Slides 1–14
+│   ├── exercises.md                 55 exercises, Slides 1–14
+│   └── visual-demonstration-plan.md fourteen visual specifications, M7V-01 to M7V-14, accepted
 ├── module-08-bep-workshop-facilitation/   Module 8 — teaching-content baseline ACCEPTED; visuals not started
 │   ├── README.md                    status, objective, boundaries, M8-S01–M8-S15 STOP register
 │   ├── source-inventory.md          A–F classes plus the non-governing working-pattern overlay
@@ -247,9 +248,15 @@ records **zero controlled Triviron evidence, zero candidate decisions, zero
 TEACHING-CONTENT BASELINE is ACCEPTED`** — all fourteen slides of the
 20-minute architecture developed and accepted (Slides 1–3 `after T7-D-R` ·
 4–8 `after T7-E-R` · 9–12 `after T7-F-R` · 13–14 `after T7-G-R`), with
-presenter notes and 55 exercises accepted as part of the baseline. The
-acceptance covers **teaching content only** — visual specification, visual
-sources, presentation assembly and production remain **`NOT STARTED`**, and
+presenter notes and 55 exercises accepted as part of the baseline. **The
+`MODULE 7 VISUAL-SPECIFICATION BASELINE is also ACCEPTED`** — `T7-I`
+**`ACCEPTED`** and **`T7-J — ACCEPTED after T7-J-R + T7-J-R2`** — fourteen
+visual concepts `M7V-01`–`M7V-14` and visual-production STOPs
+`M7V-S01`–`M7V-S34` in
+[`module-07-harrismith-to-triviron-bep-translation/visual-demonstration-plan.md`](module-07-harrismith-to-triviron-bep-translation/visual-demonstration-plan.md),
+**`VISUAL-PRODUCTION CONTROL — NOT TRIVIRON GOVERNANCE`**. **Those acceptances
+cover teaching content and the visual specification only** — visual sources
+(`T7-K`), presentation assembly and production remain **`NOT STARTED`**, and
 rehearsal and measured timing remain **`NOT PERFORMED`**. **Module 8 is the
 current module: `T8-A — ACCEPTED` and the architecture baseline is `ACCEPTED
 after T8-B`** in

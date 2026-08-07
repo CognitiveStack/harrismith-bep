@@ -7,10 +7,12 @@ baseline **`ACCEPTED after T7-B-R`** · Translation Decision Register
 Slides 13–14 **`ACCEPTED after T7-G-R`**. **The acceptance applies to the
 teaching-content baseline only** — it is not Triviron governance, not a
 Triviron BEP, not a project appointment, and it does not make the Translation
-Decision Register Triviron governance. Visual specification **`NOT STARTED`**
-· visual sources **`NOT STARTED`** · presentation assembly **`NOT STARTED`**
-· presentation production **`NOT STARTED`** · rehearsal **`NOT PERFORMED`** ·
-measured timing **`NOT PERFORMED`**.
+Decision Register Triviron governance. **Visual specification `ACCEPTED after
+T7-J-R + T7-J-R2`** — `T7-I` **ACCEPTED**, and the **`MODULE 7
+VISUAL-SPECIFICATION BASELINE` is `ACCEPTED`**; that acceptance covers the
+specification only. Visual sources **`NOT STARTED`** · presentation assembly
+**`NOT STARTED`** · presentation production **`NOT STARTED`** · rehearsal
+**`NOT PERFORMED`** · measured timing **`NOT PERFORMED`**.
 
 **Teaching material. Not governance.** This module explains and structures a
 translation method; it governs nothing, decides nothing for Triviron, and
@@ -25,8 +27,10 @@ synthesis (`ACCEPTED after T7-F-R`); `T7-G` developed **Slides 13–14** —
 typed absence and the Module 8 workshop bridge — completing the
 teaching-content baseline as produced, with presenter notes for all fourteen
 slides and **55 exercises** (`E1`–`E55`). **Production completion is not
-governance acceptance.** No visual specification, visual source, presentation
-package or PowerPoint exists for Module 7. The
+governance acceptance.** **The visual specification exists and is accepted** —
+[`visual-demonstration-plan.md`](visual-demonstration-plan.md), fourteen
+concepts `M7V-01`–`M7V-14`, **`ACCEPTED after T7-J-R + T7-J-R2`**. **No visual
+source, presentation package or PowerPoint exists for Module 7.** The
 [Translation Decision Register](translation-decision-register.md) exists as a
 **register baseline** — 21 rows, zero controlled Triviron evidence identified,
 zero candidate decisions — and is **`TEACHING / TRANSLATION CONTROL — NOT
@@ -150,6 +154,7 @@ handoff. **It answers none of them for Triviron.**
 | [`presentation-outline.md`](presentation-outline.md) | The fourteen-slide / 20-minute architecture; all fourteen slides developed | Any Triviron answer; any visual specification or presentation artefact |
 | [`presenter-notes.md`](presenter-notes.md) | Delivery cues for all fourteen slides | A script; any Triviron answer |
 | [`exercises.md`](exercises.md) | 55 coverage-driven exercises for Slides 1–14 | Any exercise inviting a Triviron answer |
+| [`visual-demonstration-plan.md`](visual-demonstration-plan.md) | The accepted visual specification — module-wide visual rules, visual-production STOPs `M7V-S01`–`M7V-S34`, visual concepts `M7V-01`–`M7V-14`, and the Module 8 empty-grammar reuse rules | Any Triviron answer; any teaching statement; any visual source, asset, assembly package or PowerPoint — none exists |
 
 ## 9. STOP register — Module 7 architecture prohibitions
 
@@ -207,4 +212,9 @@ Navisworks configuration. **Publication automation remains `PAUSED`.**
 | **T7-G** | **Slides 13–14 developed** — typed absence and the Module 8 workshop bridge · presenter notes and exercises `E46`–`E55` · **full fourteen-slide baseline reconciliation** | ✅ **ACCEPTED after T7-G-R** |
 | **T7-G-R** | Slide 14 workshop/authority evidence-boundary corrections | ✅ **COMPLETE** |
 | **T7-H0** | Acceptance-status reconciliation | ✅ **ACCEPTED** |
-| Later | Visual specification (**`NOT STARTED`**) · visual sources · presentation assembly and production · register evidence/population work | **Not started — each requires its own authorised increment** |
+| **T7-I** | Read-only Module 7 visual-production census | ✅ **ACCEPTED** |
+| **T7-J** | **Visual specification** — module-wide visual rules · visual-production STOPs `M7V-S01`–`M7V-S34` · fourteen visual concepts `M7V-01`–`M7V-14`, 34 fields each · Module 8 empty-grammar reuse rules | ✅ **ACCEPTED after T7-J-R + T7-J-R2** |
+| **T7-J-R** | `M7V-14` workshop-planning evidence-boundary correction | ✅ **ACCEPTED** |
+| **T7-J-R2** | `M7V-14` header-geometry reconciliation | ✅ **ACCEPTED** |
+| **T7-J0** | Visual-specification acceptance propagation | **`PENDING CHATGPT GOVERNANCE REVIEW`** |
+| Later | Visual sources (**`T7-K` — `NOT STARTED`; may begin only after `T7-J0` governance review**) · presentation assembly (`T7-L`) · PowerPoint production (`T7-M`) · register evidence/population work | **Not started — each requires its own authorised increment** |

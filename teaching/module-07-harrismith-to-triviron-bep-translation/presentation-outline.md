@@ -9,7 +9,11 @@ T7-D-R` · Slides 4–8 `ACCEPTED after T7-E-R` · Slides 9–12 `ACCEPTED after
 T7-F-R` · **Slides 13–14 `ACCEPTED after T7-G-R`**. The acceptance applies to
 the **teaching-content baseline only** — it is not Triviron governance, not a
 Triviron BEP, and not visual design, presentation production, rehearsal or
-measured timing, all of which remain not started or not performed.
+measured timing. **The visual specification is separately accepted**
+([`visual-demonstration-plan.md`](visual-demonstration-plan.md) — `ACCEPTED
+after T7-J-R + T7-J-R2`); **visual sources, presentation assembly and
+production remain `NOT STARTED`, and rehearsal and measured timing remain
+`NOT PERFORMED`.**
 
 **Central teaching purpose.** *How do we use Harrismith as a reference
 implementation to discover the evidence and decisions required for a future
@@ -311,6 +315,8 @@ reality.
 | Teaching-content baseline | **`MODULE 7 TEACHING-CONTENT BASELINE — ACCEPTED`** — acceptance of teaching content only; not Triviron governance, visual design or presentation production |
 | Timing | **`20.0 minutes allocated — not measured`** — validated sum 20.0 |
 | Register | **`ACCEPTED after T7-C-R` — unchanged by T7-D, T7-E, T7-F and T7-G**; an input, not a drafting surface |
-| Visual specification | **`NOT STARTED`** |
+| Visual specification | **`ACCEPTED after T7-J-R + T7-J-R2`** — [`visual-demonstration-plan.md`](visual-demonstration-plan.md); `M7V-01`–`M7V-14`. **It changed no teaching content on this outline** |
+| Visual sources (`T7-K`) | **`NOT STARTED`** — may begin only after `T7-J0` governance review |
 | Presentation production | **`NOT STARTED`** |
+| Rehearsal · measured timing | **`NOT PERFORMED`** |
 | Publication automation | **`PAUSED`** |

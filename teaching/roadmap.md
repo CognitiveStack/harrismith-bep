@@ -32,7 +32,7 @@ moves — not as the subject.
 | 4 | CDE workflows and information states | **Content, visual source, assembly package and PowerPoint produced.** Review and rehearsal **deferred** |
 | 5 | Responsibility matrices and information-delivery planning | **Content, visual source, assembly package and PowerPoint produced; governance review ACCEPTED (`REV01`).** Rehearsal and measured timing **DEFERRED** |
 | 6 | Coordination, Review, Approval and Assurance | **TEACHING-PRODUCTION COMPLETE.** **`T6-A` to `T6-H` COMPLETE** — eight teaching files, **all fourteen slides developed; teaching-content baseline COMPLETE**; **fourteen visual specifications ACCEPTED after `T6-E-R`**; **fourteen visual sources ACCEPTED after `T6-F-R`**; **assembly package `ACCEPTED after T6-G-R`**; **external PowerPoint produced — `T6-H — ACCEPTED after T6-H-R1`**. Rehearsal and measured timing **DEFERRED** |
-| 7 | **Translating Harrismith into the Triviron BEP** | **TEACHING-CONTENT BASELINE ACCEPTED.** `T7-A`, `T7-B0` **ACCEPTED**; architecture baseline **`ACCEPTED after T7-B-R`**; **Translation Decision Register — 21 rows — `ACCEPTED after T7-C-R`**; Slides 1–3 **`ACCEPTED after T7-D-R`**; Slides 4–8 **`ACCEPTED after T7-E-R`**; Slides 9–12 **`ACCEPTED after T7-F-R`**; Slides 13–14 **`ACCEPTED after T7-G-R`**. **Zero Triviron evidence identified, zero candidate decisions.** **Visual specification `NOT STARTED` — deferred while the teaching programme proceeds**; no visual or presentation material exists |
+| 7 | **Translating Harrismith into the Triviron BEP** | **TEACHING-CONTENT BASELINE ACCEPTED.** `T7-A`, `T7-B0` **ACCEPTED**; architecture baseline **`ACCEPTED after T7-B-R`**; **Translation Decision Register — 21 rows — `ACCEPTED after T7-C-R`**; Slides 1–3 **`ACCEPTED after T7-D-R`**; Slides 4–8 **`ACCEPTED after T7-E-R`**; Slides 9–12 **`ACCEPTED after T7-F-R`**; Slides 13–14 **`ACCEPTED after T7-G-R`**. **Zero Triviron evidence identified, zero candidate decisions.** **VISUAL-SPECIFICATION BASELINE ACCEPTED** — `T7-I` **ACCEPTED**; **`T7-J — ACCEPTED after T7-J-R + T7-J-R2`**; fourteen visual concepts `M7V-01`–`M7V-14` and visual-production STOPs `M7V-S01`–`M7V-S34`. **Visual sources (`T7-K`), presentation assembly and production `NOT STARTED`**; no visual source, rendered asset or presentation material exists |
 | 8 | **Facilitating and presenting a BEP workshop** | **TEACHING-CONTENT BASELINE ACCEPTED.** **`T8-A — ACCEPTED`**; **architecture baseline `ACCEPTED after T8-B`**; Slides 1–3 **`ACCEPTED after T8-C-R`** (E4/E10 accepted in `T8-C-R2`); Slides 4–8 **`ACCEPTED after T8-D-R`**; Slides 9–12 **`ACCEPTED after T8-E-R`**; Slides 13–14 **`ACCEPTED after T8-F-R`**. **Visual specification and presentation production `NOT STARTED`.** No workshop has been held or scheduled in this programme |
 
 ### Module 1 — What is a BIM Execution Plan? — **produced; review and rehearsal deferred**
@@ -535,10 +535,18 @@ the programme evidence position, and `T7-G` is `ACCEPTED after T7-G-R` — the
 `MODULE 7 TEACHING-CONTENT BASELINE is ACCEPTED`.** The acceptance covers
 teaching content only — not Triviron governance, visual design, presentation
 production, rehearsal or measured timing. **The accepted register was not
-changed by any teaching increment.** Visual specification and presentation
-production remain **`NOT STARTED`** — deferred while the teaching programme
-proceeds into Module 8; the deferral does not reopen Module 7 teaching
-content.
+changed by any teaching increment.** **The Module 7 visual specification is
+now separately accepted:** `T7-I` — the read-only visual-production census —
+is **`ACCEPTED`**, and **`T7-J` is `ACCEPTED after T7-J-R + T7-J-R2`**,
+carrying fourteen visual concepts `M7V-01`–`M7V-14` at 34 fields each,
+visual-production STOPs `M7V-S01`–`M7V-S34`, module-wide canvas, geometry,
+classification/status, typed-absence, connector and accessibility rules, and
+Module 7 → Module 8 **empty-grammar** reuse rules. **`T7-J-R` bounded the
+Slide 14 workshop wording to the programme evidence position and `T7-J-R2`
+reconciled the resulting `M7V-14` header geometry.** **The acceptance covers
+the specification only** — **visual sources (`T7-K`), presentation assembly
+and PowerPoint production remain `NOT STARTED`**, and **no visual specification
+increment changed any Module 7 teaching content or the accepted register.**
 
 **Module 8 position:** **`T8-A` — the read-only Module 8 workshop source and
 boundary census — is `ACCEPTED`** (zero repository mutations), and **`T7-H0`
@@ -684,11 +692,12 @@ of governance under condition. Describing it neither advances nor reopens it.
 | Field | Value |
 |---|---|
 | **Active module** | **Module 7 — Translating Harrismith into the Triviron BEP** — **CURRENT — ACTIVE** |
-| **Next development increment** | **`T8-G0` — Module 8 teaching-acceptance reconciliation — `PENDING CHATGPT GOVERNANCE REVIEW`.** **The next production activity is `NOT YET AUTHORISED — SEPARATE GOVERNED DECISION REQUIRED`** |
+| **Next development increment** | **`T7-J0` — Module 7 visual-specification acceptance propagation — `PENDING CHATGPT GOVERNANCE REVIEW`.** **`T7-K` — Module 7 visual-source production — is `NOT STARTED` and may begin only after `T7-J0` governance review.** `T8-G0` — Module 8 teaching-acceptance reconciliation — remains **`PENDING CHATGPT GOVERNANCE REVIEW`**. **The next production activity is `NOT YET AUTHORISED — SEPARATE GOVERNED DECISION REQUIRED`** |
 | Module 7 architecture baseline | **`ACCEPTED after T7-B-R`** — five files |
 | Module 7 Translation Decision Register | **`ACCEPTED after T7-C-R`** — 21 rows; **0** Triviron evidence identified; **0** candidate decisions; **0** `PROPOSAL`; **0** `ESTABLISHED`; **unchanged by T7-D** |
 | Module 7 teaching content | **`MODULE 7 TEACHING-CONTENT BASELINE — ACCEPTED`** — all fourteen slides **developed and accepted** (Slides 1–3 `after T7-D-R` · 4–8 `after T7-E-R` · 9–12 `after T7-F-R` · 13–14 `after T7-G-R`); presenter notes **complete and accepted**; exercises **`E1`–`E55` complete and accepted**; **`20.0 minutes allocated — not measured`**; rehearsal **`NOT PERFORMED`** |
-| Module 7 visual specification | **`NOT STARTED`** — deferred while the teaching programme proceeds; visual sources, presentation assembly and production likewise **`NOT STARTED`** |
+| Module 7 visual specification | **`ACCEPTED after T7-J-R + T7-J-R2`** — `T7-I` **ACCEPTED**; **`MODULE 7 VISUAL-SPECIFICATION BASELINE — ACCEPTED`**; `M7V-01`–`M7V-14`, 34 fields each; `M7V-S01`–`M7V-S34`; **zero Mermaid, zero external imagery, zero live-evidence requirements**. **The acceptance covers the specification only** |
+| Module 7 visual sources (`T7-K`) | **`NOT STARTED`** — **may begin only after `T7-J0` governance review**; presentation assembly (`T7-L`) and PowerPoint production (`T7-M`) likewise **`NOT STARTED`**; rendered assets **`NONE`** |
 | Module 8 | **TEACHING-CONTENT BASELINE ACCEPTED** — **`T8-A — ACCEPTED`**; architecture baseline **`ACCEPTED after T8-B`**; **all fourteen slides accepted** (`T8-C-R`/`T8-C-R2`/`T8-D-R`/`T8-E-R`/`T8-F-R`); presenter notes Slides 1–14 accepted; 48 exercises accepted; **visual specification, visual sources, presentation assembly and production `NOT STARTED`**; no workshop held or scheduled in this programme |
 | Module 8 next production activity | **`NOT YET AUTHORISED — SEPARATE GOVERNED DECISION REQUIRED`** |
 | Module 7 presentation production | **`NOT STARTED`** |
@@ -769,7 +778,7 @@ of governance under condition. Describing it neither advances nor reopens it.
 | Module 1–4 `.pptx` files | **Derivative outputs — not committed to this repository** |
 | Rendered visual assets | **None in any module** — no renderer available; text-based source is authoritative |
 | Measured timing | **None, in any module.** Every deck carries **`20.0 minutes allocated — not measured`** |
-| Module 7 | **TEACHING-CONTENT BASELINE ACCEPTED** — architecture **`ACCEPTED after T7-B-R`**; register **`ACCEPTED after T7-C-R`**; all fourteen slides accepted (13–14 `after T7-G-R`); no candidate decision; visual specification **`NOT STARTED`** |
+| Module 7 | **TEACHING-CONTENT BASELINE ACCEPTED** — architecture **`ACCEPTED after T7-B-R`**; register **`ACCEPTED after T7-C-R`**; all fourteen slides accepted (13–14 `after T7-G-R`); no candidate decision; **visual specification `ACCEPTED after T7-J-R + T7-J-R2`**; visual sources, assembly and production **`NOT STARTED`** |
 | Module 8 | **TEACHING-CONTENT BASELINE ACCEPTED** — `T8-A` **ACCEPTED**; architecture **`ACCEPTED after T8-B`**; all fourteen slides accepted (13–14 `after T8-F-R`); visual specification **`NOT STARTED`**; next production activity a **separate governed decision** |
 | Publication automation | **PAUSED** |
 | Source material status | Training Baseline 0.1 — approved with conditions; publication NOT AUTHORISED |
