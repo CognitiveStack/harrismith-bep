@@ -1,6 +1,8 @@
 # Module 7 — Translation Decision Register Schema
 
-**Status:** **`ARCHITECTURE BASELINE — PENDING CHATGPT GOVERNANCE REVIEW`.**
+**Status:** **`ARCHITECTURE BASELINE — ACCEPTED after T7-B-R`.** The
+acceptance covers the Module 7 teaching-architecture baseline (`T7-B`) only —
+it is not Triviron governance and does not accept `T7-C`.
 **Teaching material. Not governance.**
 
 **This file defines the Translation Decision Register. It is not the

@@ -1,6 +1,8 @@
 # Module 7 — Source Map
 
-**Status:** **`ARCHITECTURE BASELINE — PENDING CHATGPT GOVERNANCE REVIEW`.**
+**Status:** **`ARCHITECTURE BASELINE — ACCEPTED after T7-B-R`.** The
+acceptance covers the Module 7 teaching-architecture baseline (`T7-B`) only —
+it is not Triviron governance and does not accept `T7-C`.
 **Teaching material. Not governance.**
 
 How Modules 1–6 and the controlled Harrismith sources feed Module 7 as
