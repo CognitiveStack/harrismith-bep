@@ -43,7 +43,8 @@ actual workshop is held, scheduled or implied.**
 ## Slide 2 — What a BEP workshop is — and is not — `1.4 min`
 
 - **Opening cue:** "Every failure mode in this module is one sentence: the
-  meeting started deciding. Here's the boundary that prevents it."
+  meeting started being treated as the decision authority. Here's the
+  boundary that prevents it."
 - **Explanation sequence:** (1) what the workshop can be taught as — a
   structured forum for examining evidence, understanding options, identifying
   decisions required, exposing authority requirements, recording reasoning
@@ -60,9 +61,11 @@ actual workshop is held, scheduled or implied.**
   never call the Working Process an approved process or anyone's procedure;
   if chairing comes up, chairing a meeting would not by itself establish
   approval or decision authority — teaching-safety synthesis.
-- **Source-safe illustration:** the Working Process's own design — an
-  intake route anyone can use precisely *because* it cannot decide anything —
-  is the worked example of participation kept separate from governance.
+- **Source-safe illustration:** the Working Process's own design — an intake
+  route anyone can use precisely *because* nothing in it by itself changes
+  approved governance or creates an authoritative governance decision — is
+  the worked example of participation kept separate from governance, and its
+  non-governing status is exactly what makes it useful.
 - **Transition cue:** "What keeps it safe isn't hope — it's boundaries in
   three places: before, during, after."
 

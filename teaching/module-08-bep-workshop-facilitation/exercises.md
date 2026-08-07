@@ -68,12 +68,15 @@ explicitly hypothetical.
 - **Prompt:** Suppose, hypothetically, every required function attends a
   future decision workshop and the room unanimously agrees an answer. What
   has been decided?
-- **Expected reasoning / answer:** Nothing, yet. Attendance establishes no
-  authority, and consensus in discussion is not an authorised decision. The
-  agreement becomes a governed decision only when the established authority
-  takes it through the governed decision route and it is recorded in the
-  authoritative decision record. Until then the workshop holds a proposal
-  and reasoning. (Hypothetical — no such workshop exists.)
+- **Expected reasoning / answer:** The unanimous agreement alone establishes
+  no governed or authorised decision — attendance and consensus do not create
+  authority. A governed decision can be claimed only if the appropriate
+  established authority actually exercises that decision function through the
+  governed route and the outcome is recorded in the appropriate controlled
+  record. The hypothetical does not say whether that happened; without that
+  evidence, the workshop result remains reasoning, agreement and proposal
+  rather than an established governance decision. (Hypothetical — no such
+  workshop exists.)
 - **Basis:** BEP §8.9 (controlled); WP5/WP6 (working pattern,
   `Authority: None`); outline Slide 2 field 7.
 - **Misconception detected:** Attendance or consensus treated as authority
@@ -100,9 +103,11 @@ explicitly hypothetical.
   is not approved workshop governance? What makes it useful anyway?
 - **Expected reasoning / answer:** Its own declarations control — `FOR
   REVIEW`, `Authority: None`, `Not approved`, working material. It is useful
-  as a **worked pattern** precisely because it demonstrates participation
-  kept separate from governance: an easy intake route that cannot decide
-  anything. Usefulness and detail never upgrade authority.
+  as a **worked pattern** precisely because participation and working
+  outcomes remain separate from governance: nothing in the Working Process
+  by itself changes approved governance or creates an authoritative
+  governance decision, however its own working statuses resolve. Usefulness
+  and detail never upgrade authority.
 - **Basis:** `working/README.md` own status block and WP1/WP5;
   `source-inventory.md` W1.
 - **Misconception detected:** A useful source promoted into approved
@@ -112,12 +117,14 @@ explicitly hypothetical.
 
 - **Prompt:** A meeting record exists, well written and complete. What does
   it prove by itself?
-- **Expected reasoning / answer:** That a conversation occurred and what was
-  discussed — evidence of the session, possibly useful. It is not
-  automatically approval or governed decision evidence: consequential
-  decisions belong in the appropriate controlled record, taken by the
-  established authority. *"A decision nobody can produce afterwards did not
-  happen"* — and a record of talk is not a record of decision.
+- **Expected reasoning / answer:** It evidences what the record says occurred
+  and was discussed — and it may form part of evidence. By itself it does
+  **not automatically** establish that approval or a governed decision
+  occurred. If a consequential governed decision was actually taken, its
+  authority, decision and status must be traceable in the appropriate
+  controlled record; the meeting record may reference or support that
+  evidence, but it does not acquire decision authority merely by existing.
+  *"A decision nobody can produce afterwards did not happen."*
 - **Basis:** BEP §8.9 (controlled); `M8-S05`; framework §6 minutes boundary
   (labelled synthesis where the word "minutes" is used).
 - **Misconception detected:** Meeting record treated as automatic approval
@@ -146,10 +153,11 @@ explicitly hypothetical.
 - **Prompt:** Place these four objects in the control model and state why no
   two collapse: a heated discussion; a governed decision; a matrix update; a
   verification check.
-- **Expected reasoning / answer:** Discussion happens DURING and decides
-  nothing. A governed decision is taken by the established authority through
-  the governed route and recorded — it may follow the discussion but is a
-  separate act. The matrix update is implementation, permitted only through
+- **Expected reasoning / answer:** Discussion happens DURING; discussion
+  alone establishes no governed decision. A governed decision is a separate
+  governed act, taken by the appropriate established authority through the
+  governed route and recorded — it may follow the discussion but is not the
+  discussion. The matrix update is implementation, permitted only through
   the authorised implementation route AFTER the decision. Verification then
   confirms the implementation matches the decision. Collapsing any pair —
   talk into decision, decision into edit, edit into verified — breaks the
