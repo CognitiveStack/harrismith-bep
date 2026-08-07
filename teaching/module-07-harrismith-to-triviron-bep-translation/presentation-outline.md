@@ -1,13 +1,14 @@
 # Module 7 — Presentation Outline
 
-**Status:** **`TEACHING CONTENT IN DEVELOPMENT — T7-E PENDING CHATGPT
+**Status:** **`TEACHING CONTENT IN DEVELOPMENT — T7-F PENDING CHATGPT
 GOVERNANCE REVIEW`**
 
 **`TEACHING MATERIAL — NOT TRIVIRON GOVERNANCE`**
 
-**Slides 1–3 are `ACCEPTED after T7-D-R`. Slides 4–8 are developed in `T7-E`
-and `PENDING CHATGPT GOVERNANCE REVIEW`. Slides 9–14 are architecture only —
-`NOT YET DEVELOPED`.** The teaching-content baseline is **not complete**.
+**Slides 1–3 are `ACCEPTED after T7-D-R`. Slides 4–8 are `ACCEPTED after
+T7-E-R`. Slides 9–12 are developed in `T7-F` and `PENDING CHATGPT GOVERNANCE
+REVIEW`. Slides 13–14 are architecture only — `NOT YET DEVELOPED`.** The
+teaching-content baseline is **not complete**.
 
 **Central teaching purpose.** *How do we use Harrismith as a reference
 implementation to discover the evidence and decisions required for a future
@@ -112,7 +113,7 @@ reality.
 
 ---
 
-## 6. Slide 4 — The decision backlog: 21 questions, zero Triviron answers — DEVELOPED (T7-E)
+## 6. Slide 4 — The decision backlog: 21 questions, zero Triviron answers — DEVELOPED — `ACCEPTED after T7-E-R`
 
 | # | Field | Value |
 |---|---|---|
@@ -129,7 +130,7 @@ reality.
 | 11 | What must not be said | That the register is, contains, or partially completes a Triviron BEP; that any row is "nearly answered"; that the five classifications are a maturity ladder the rows will climb on schedule; that the zeros mean Triviron has nothing in reality |
 | 12 | Transition to next slide | *"Twenty-one questions is abstract. Let's walk the seven domains, three questions at a time — starting where Module 6 started: what coordination is for."* |
 
-## 7. Slide 5 — Domain 1: Coordination governance — DEVELOPED (T7-E)
+## 7. Slide 5 — Domain 1: Coordination governance — DEVELOPED — `ACCEPTED after T7-E-R`
 
 | # | Field | Value |
 |---|---|---|
@@ -146,7 +147,7 @@ reality.
 | 11 | What must not be said | Harrismith's purpose statement, BEP/strategy split, cycle steps, meeting arrangements or any frequency — as content, example answer or default; any sentence implying Triviron's coordination purpose, governing document or cycle is known |
 | 12 | Transition to next slide | *"A governed cycle needs people with defined functions. Domain 2 asks who — without naming anyone."* |
 
-## 8. Slide 6 — Domain 2: Roles and authority — DEVELOPED (T7-E)
+## 8. Slide 6 — Domain 2: Roles and authority — DEVELOPED — `ACCEPTED after T7-E-R`
 
 | # | Field | Value |
 |---|---|---|
@@ -163,7 +164,7 @@ reality.
 | 11 | What must not be said | Any named or implied Triviron BIM Manager, BIM Coordinator, task-team holder, verification holder, decision owner or authority holder; that the Harrismith `X`-allocations are a starting point; that verification mandatoriness has an obvious answer |
 | 12 | Transition to next slide | *"Functions act on inputs. Domain 3 asks which inputs enter a cycle, when they are ready — and what federation does and does not move."* |
 
-## 9. Slide 7 — Domain 3: Inputs and federation — DEVELOPED (T7-E)
+## 9. Slide 7 — Domain 3: Inputs and federation — DEVELOPED — `ACCEPTED after T7-E-R`
 
 | # | Field | Value |
 |---|---|---|
@@ -180,7 +181,7 @@ reality.
 | 11 | What must not be said | Harrismith container names, `COORD-01`, folder topology, the six-discipline set, the federated-model construct or any platform mechanism — as content or example; any sentence naming a platform as a Triviron arrangement; that the federation principle's reusability means Triviron has adopted it |
 | 12 | Transition to next slide | *"Federated inputs get checked. Domain 4 asks which checks, against which rules — and who approves them."* |
 
-## 10. Slide 8 — Domain 4: Checks and tolerances — DEVELOPED (T7-E)
+## 10. Slide 8 — Domain 4: Checks and tolerances — DEVELOPED — `ACCEPTED after T7-E-R`
 
 | # | Field | Value |
 |---|---|---|
@@ -197,30 +198,94 @@ reality.
 | 11 | What must not be said | Any of the twelve checks, any `CI-` identifier, any check type or any tolerance value — as a Triviron starter value, likely value, default or recommendation; any software clearance presented as a project tolerance; any implied approver |
 | 12 | Transition to next slide | *"Checks produce findings. Domain 5 asks what a finding becomes — and who decides that it becomes anything at all."* |
 
-## 11. Slides 9–14 — architecture only
+## 11. Slide 9 — Domain 5: Findings, Issues and statuses — DEVELOPED (T7-F)
+
+| # | Field | Value |
+|---|---|---|
+| 1 | Slide number | 9 |
+| 2 | Title | Domain 5: Findings, Issues and statuses |
+| 3 | Teaching purpose | Teach the three Domain 5 translation questions — `TDR-013`–`TDR-015` |
+| 4 | Timing allocation | **1.5 min** — allocated, not measured |
+| 5 | Audience takeaway | **Detect → classify → decide whether to create a governed record → apply governed status meanings** — detection is technical; everything after it is governance |
+| 6 | Visible content | The three questions as recorded: *What distinguishes a finding, a clash and an Issue?* (`TDR-013`) · *When must an Issue be created?* (`TDR-014`) · *What status meanings are governed?* (`TDR-015`) — with evidence-required kinds (issue-management procedure or coordination requirement adopting definitions; creation limbs and triage dispositions; a governed status vocabulary) and current positions: evidence `NONE IDENTIFIED`, answers `NOT YET ESTABLISHED`. `TDR-013` is marked **`METHOD`** — the structural distinction (a clash is one kind of finding; an Issue is a governed record; not every finding becomes one) is reusable, and that reusability is **not evidence that Triviron has adopted any definitions** |
+| 7 | Key distinctions | A clash is one type of finding · a finding is not automatically an Issue · an Issue is a governed record · Issue creation is a governed triage decision, not an automatic result of detection · status vocabulary is governed, not platform-supplied · a status label is not technical evidence · alternate dispositions are controlled outcomes, not automatic workflow stages · where controlled definitions differ in breadth, both are recorded — never silently reconciled |
+| 8 | Source basis | Register `TDR-013`–`TDR-015` fields 3–10, 17 (accepted register); reference patterns: `bep/Harrismith-Fire-Station-BEP.md` §8.7 (expressly defers numbering and status codes — deferral itself as a governed act) and `supporting/coordination-review-strategy.md` §12–§15 (controlled Harrismith — pattern only; its definition-breadth variance cited only as the discipline of recording both definitions) |
+| 9 | Register relationship | Direct — **`TDR-013` `METHOD`**, stated as such; `TDR-014` and `TDR-015` `EVIDENCE REQUIRED`. Classification and status are separate axes: `TDR-013` is `METHOD` *and* its status is `NOT YET ESTABLISHED` |
+| 10 | Applicable STOP conditions | **`M7-S07`** (no Harrismith Issue taxonomy or status model), **`M7-S03`** (a platform's object type establishes no governance meaning, and no platform is attributed to Triviron), **`M7-S13`**, **`M7-S15`**, **`M7-S18`** (`METHOD` ≠ adoption) |
+| 11 | What must not be said | Harrismith's Issue definitions (either variant) as a Triviron definition; the seven triage dispositions; `Accepted condition`; the six statuses; `Deferred`; `Escalated`; any numbering scheme; any implication that *finding*, *clash* or *Issue* already carries an adopted Triviron definition; any Triviron platform or configuration |
+| 12 | Transition to next slide | *"Once a governed record exists, someone must be able to close it — on evidence. That is Domain 6."* |
+
+## 12. Slide 10 — Domain 6: Verification, evidence and completion — DEVELOPED (T7-F)
+
+| # | Field | Value |
+|---|---|---|
+| 1 | Slide number | 10 |
+| 2 | Title | Domain 6: Verification, evidence and completion |
+| 3 | Teaching purpose | Teach the three Domain 6 translation questions — `TDR-016`–`TDR-018` |
+| 4 | Timing allocation | **1.5 min** — allocated, not measured |
+| 5 | Audience takeaway | **Ready for verification → verification → evidence-supported disposition → closure → demonstrated cycle** — five distinct acts, and a complete cycle is demonstrated, never asserted |
+| 6 | Visible content | The three questions as recorded: *What must occur before verification?* (`TDR-016`) · *What evidence permits closure?* (`TDR-017`) · *What evidence demonstrates one complete governed coordination cycle?* (`TDR-018`) — with evidence-required kinds (verification requirement stating prerequisites; closure-evidence definition; a cycle-demonstration evidence set adopted by governance decision) and current positions: evidence `NONE IDENTIFIED`, answers `NOT YET ESTABLISHED`. Harrismith worked evidence, cited as Harrismith evidence only: its own record keeps `GCR-006` **OPEN** and records `PARTIALLY TRACEABLE / NOT YET DEMONSTRATED AS A COMPLETE CYCLE` — the discipline of refusing to claim completion |
+| 7 | Key distinctions | Ready for verification ≠ verified · verification examines evidence, not assertions · closure requires evidence of disposition · a closed record proves only what its evidence supports · completion conditions keep their qualifiers (`as applicable`, `required`) · one closed matter ≠ one complete cycle · a partial trace remains partial · completion ≠ zero clashes · software capability provisioning ≠ evidence a governed cycle ran |
+| 8 | Source basis | Register `TDR-016`–`TDR-018` fields 3–9, 17 (accepted register); reference patterns: `bep/Harrismith-Fire-Station-BEP.md` §8.10, `supporting/coordination-review-strategy.md` §18–§19, §21–§22, `supporting/governance-decision-register.md` `GCR-006`, `docs/Increment-7C-Live-Validation-Record.md` §8 (controlled Harrismith — pattern and Harrismith-evidence illustration only; no prerequisite, finding, condition or output list imported) |
+| 9 | Register relationship | Direct — `TDR-016`, `TDR-017`, `TDR-018`; all three `EVIDENCE REQUIRED` |
+| 10 | Applicable STOP conditions | **`M7-S12`** (a missing fact proves nothing about reality; capability provisioning proves no cycle), **`M7-S13`**, **`M7-S15`** (no prerequisites, findings, conditions or outputs imported; `GCR-006` is not a Triviron condition), **`M7-S18`** |
+| 11 | What must not be said | Harrismith's four verification prerequisites, three verification findings, nine completion conditions or nine evidence outputs — as Triviron content; `GCR-006` or the partial-trace status as Triviron's; any implication that a Triviron cycle has run, or that zero clashes would mean completion |
+| 12 | Transition to next slide | *"A completed, verified matter still is not published — and published still is not accepted. The last domain keeps those acts apart."* |
+
+## 13. Slide 11 — Domain 7: Publication and acceptance boundary — DEVELOPED (T7-F)
+
+| # | Field | Value |
+|---|---|---|
+| 1 | Slide number | 11 |
+| 2 | Title | Domain 7: Publication and acceptance boundary |
+| 3 | Teaching purpose | Teach the three Domain 7 translation questions — `TDR-019`–`TDR-021` |
+| 4 | Timing allocation | **1.5 min** — allocated, not measured |
+| 5 | Audience takeaway | **Coordination outcome → governed exchange event → authorisation → publication/exchange → recipient acceptance** — kept apart at every step: ability to move a file is not authority to change its state |
+| 6 | Visible content | The three questions as recorded: *How does coordination link to controlled reshare or exchange?* (`TDR-019`) · *Who may authorise publication or exchange?* (`TDR-020`) · *How are completion, publication and recipient acceptance kept distinct?* (`TDR-021`) — with evidence-required kinds (exchange requirement + CDE governance decision + outcome-to-event mapping; acceptance/publication authority decision + appointment information; adoption of the act distinctions) and current positions: evidence `NONE IDENTIFIED`, answers `NOT YET ESTABLISHED`. The programme-bounded authority statement, exactly: **no controlled Triviron publication/exchange authority allocation is currently identified in this programme** — so the register position is `NOT YET ESTABLISHED`. `TDR-021` is marked **`METHOD`** — the four-act distinction is reusable; reusability is not adoption |
+| 7 | Key distinctions | An information-delivery event is not an information-state transition · coordination use does not itself change state · rework/reshare requires governed event logic · ability to move a file ≠ authority to change its information state · completion ≠ publication · publication ≠ recipient acceptance · verification ≠ authorisation · one word carrying two meanings must not collapse two acts |
+| 8 | Source basis | Register `TDR-019`–`TDR-021` fields 3–10, 12, 17 (accepted register); reference patterns: `bep/Harrismith-Fire-Station-BEP.md` §9.2, §9.7–§9.8, `supporting/cde-workflow-state-strategy.md`, `supporting/information-delivery-schedule.md`, `supporting/coordination-review-strategy.md` §13, §17 (controlled Harrismith — pattern only; **Harrismith's publication authority is unresolved even for Harrismith**, which transfers as the discipline of typing an unresolved authority, never as a Triviron absence) |
+| 9 | Register relationship | Direct — `TDR-019` and `TDR-020` `EVIDENCE REQUIRED`; **`TDR-021` `METHOD`**, stated as such. Classification and status remain separate axes: `TDR-021` is `METHOD` *and* `NOT YET ESTABLISHED` |
+| 10 | Applicable STOP conditions | **`M7-S09`** (no Triviron publication or acceptance authority — in either direction), **`M7-S02`** (no `T`-transitions, `TRN-` events or CDE arrangements), **`M7-S13`**, **`M7-S15`**, **`M7-S16`** (no authority inferred from tool permission), **`M7-S18`** |
+| 11 | What must not be said | Harrismith's `T1`–`T8` (including `T3`, `T4`, `T8`), `TRN-E02`, `TRN-E03`, event activation rules, `D4`, the publication block, `Accepted condition` or `PAD-001` — as Triviron content; that Triviron has a publication authority; that Triviron has no publication authority in reality; that any job title should hold it; that platform permissions establish it |
+| 12 | Transition to next slide | *"Seven domains, twenty-one questions, all typed. What may you actually say at this point? Exactly what the evidence permits."* |
+
+## 14. Slide 12 — What the evidence lets you say — DEVELOPED (T7-F)
+
+| # | Field | Value |
+|---|---|---|
+| 1 | Slide number | 12 |
+| 2 | Title | What the evidence lets you say |
+| 3 | Teaching purpose | Teach how to state the current translation position precisely without overstating evidence or governance maturity |
+| 4 | Timing allocation | **1.5 min** — allocated, not measured |
+| 5 | Audience takeaway | **Precision is progress: say exactly what the evidence permits — no more and no less.** *(Teaching synthesis — see field 8)* |
+| 6 | Visible content | The five translation classifications with their semantic boundaries — **`METHOD`**: a reusable structural distinction or analytical method has been identified; it does not establish Triviron adoption · **`EVIDENCE REQUIRED`**: the controlled Triviron evidence needed to responsibly frame the matter has not been identified sufficiently; it does not mean the arrangement does not exist · **`DECISION REQUIRED`**: unusable until the schema's evidence prerequisite is satisfied · **`PROPOSAL`**: requires an expressly authorised proposal stage — none is authorised in the current baseline · **`ESTABLISHED`**: requires the appropriate controlled Triviron source or authorised decision — the current register contains none. Current position: **`METHOD` 3 · `EVIDENCE REQUIRED` 18 · `DECISION REQUIRED` 0 · `PROPOSAL` 0 · `ESTABLISHED` 0**. The two introductory contrasts: `NONE IDENTIFIED` ≠ `NONE EXISTS`, and `NOT YET ESTABLISHED` ≠ `NOT ESTABLISHED` ≠ `UNRESOLVED` ≠ `TBD` — introduced here, developed on Slide 13 |
+| 7 | Key distinctions | The five labels are **not** an automatic maturity ladder, a mandatory chronological pipeline, a schedule, or equally reachable in the current baseline · classification (what kind of translation work the row contains) is a separate axis from status (the current governed Triviron position) — a row is validly `METHOD` *and* `NOT YET ESTABLISHED` · precision about limits is the deliverable, not a caveat |
+| 8 | Source basis | `translation-decision-register-schema.md` §3–§4 (accepted architecture — classification and status semantics); register §9–§10 (accepted reconciliation — the counts); `translation-framework.md` §2.5–§2.8; Slides 1–11 as taught. The central statement is **teaching synthesis** — no exact source sentence carries it, and it is labelled as such |
+| 9 | Register relationship | Register-wide — the slide states the whole register's current classification profile and forbids overstating it |
+| 10 | Applicable STOP conditions | **`M7-S12`**, **`M7-S13`** (the four status terms are not interchangeable), **`M7-S15`**, **`M7-S17`** (no proposal stage or simulated function exists to invoke), **`M7-S18`** (no `ESTABLISHED` claim for any populated Triviron answer) |
+| 11 | What must not be said | That any row has reached `DECISION REQUIRED`, `PROPOSAL` or `ESTABLISHED`; that the classifications form a timetable; that `EVIDENCE REQUIRED` means the arrangement does not exist; that classification and status are one axis; that the zeros are disappointing — they are the exact truth the method exists to protect |
+| 12 | Transition to next slide | *"Saying exactly what you know requires a vocabulary for what you don't. Slide 13 gives absence its four names."* |
+
+## 15. Slides 13–14 — architecture only
 
 **Every slide below is `NOT YET DEVELOPED`.** Only number, title, purpose,
 timing and principal register/domain mapping are recorded.
 
 | Slide | Title | Purpose | Timing | Principal TDR / domain mapping | Development status |
 |---:|---|---|---:|---|---|
-| 9 | Domain 5: Findings, Issues and statuses | Teach `TDR-013`–`TDR-015` | 1.5 | Domain 5 | **`NOT YET DEVELOPED`** |
-| 10 | Domain 6: Verification, evidence and completion | Teach `TDR-016`–`TDR-018` | 1.5 | Domain 6 | **`NOT YET DEVELOPED`** |
-| 11 | Domain 7: Publication and acceptance boundary | Teach `TDR-019`–`TDR-021` | 1.5 | Domain 7 | **`NOT YET DEVELOPED`** |
-| 12 | What the evidence lets you say | Teach the difference between translation classification and evidential/governance maturity — `METHOD` · `EVIDENCE REQUIRED` · `DECISION REQUIRED` · `PROPOSAL` · `ESTABLISHED` — without implying the present register has reached the last three | 1.5 | Schema §3; register classifications | **`NOT YET DEVELOPED`** |
 | 13 | Unknowns are controlled work | Teach typed absence — `NOT YET ESTABLISHED` vs `NOT ESTABLISHED` vs `UNRESOLVED` vs `TBD`, never collapsed — and why missing evidence becomes a visible backlog rather than guessed content | 1.4 | Schema §4; register statuses | **`NOT YET DEVELOPED`** |
 | 14 | From decision backlog to BEP workshop | Close the module: what future evidence gathering and governed decision-making would need to accomplish before a project-specific Triviron BEP could be populated; bridge to Module 8 — BEP workshop facilitation. No workshop has occurred; no appointment, future BEP or Triviron answer may be implied | 1.5 | Whole register; Module 8 bridge | **`NOT YET DEVELOPED`** |
 
 ---
 
-## 12. Status
+## 16. Status
 
 | Field | Value |
 |---|---|
-| Slides developed | **1–8** — Slides 1–3 **`ACCEPTED after T7-D-R`**; Slides 4–8 **`T7-E — PENDING CHATGPT GOVERNANCE REVIEW`** |
-| Slides 9–14 | **`NOT YET DEVELOPED`** — architecture only |
+| Slides developed | **1–12** — Slides 1–3 **`ACCEPTED after T7-D-R`**; Slides 4–8 **`ACCEPTED after T7-E-R`**; Slides 9–12 **`T7-F — PENDING CHATGPT GOVERNANCE REVIEW`** |
+| Slides 13–14 | **`NOT YET DEVELOPED`** — architecture only |
 | Teaching-content baseline | **NOT COMPLETE** |
 | Timing | **`20.0 minutes allocated — not measured`** — validated sum 20.0 |
-| Register | **`ACCEPTED after T7-C-R` — unchanged by T7-D and T7-E**; an input, not a drafting surface |
+| Register | **`ACCEPTED after T7-C-R` — unchanged by T7-D, T7-E and T7-F**; an input, not a drafting surface |
 | Presentation production | **`NOT STARTED`** |
 | Publication automation | **`PAUSED`** |

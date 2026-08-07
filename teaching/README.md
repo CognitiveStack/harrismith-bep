@@ -165,9 +165,9 @@ teaching/
 │   ├── translation-decision-register-schema.md   the register's controlling field semantics and vocabularies
 │   ├── translation-decision-register.md          21 rows TDR-001–TDR-021 — zero Triviron evidence, zero candidates
 │   ├── source-map.md                Modules 1–6 as method inputs; no Harrismith value → Triviron value route
-│   ├── presentation-outline.md      fourteen-slide / 20-minute architecture; Slides 1–8 developed
-│   ├── presenter-notes.md           delivery cues, Slides 1–8
-│   └── exercises.md                 29 exercises, Slides 1–8
+│   ├── presentation-outline.md      fourteen-slide / 20-minute architecture; Slides 1–12 developed
+│   ├── presenter-notes.md           delivery cues, Slides 1–12
+│   └── exercises.md                 45 exercises, Slides 1–12
 ├── shared/
 │   ├── glossary.md                  teaching glossary across all modules
 │   └── presentation-principles.md   how these presentations are built
@@ -237,11 +237,11 @@ decision, **not a Triviron governance fact**.
 records **zero controlled Triviron evidence, zero candidate decisions, zero
 `PROPOSAL` rows and zero `ESTABLISHED` Triviron answers**. **Teaching-content
 development is in progress** — the fourteen-slide / 20-minute architecture
-with **Slides 1–3 `ACCEPTED after T7-D-R`** and **Slides 4–8 developed in
-`T7-E`** (presenter notes and 29 exercises cover Slides 1–8), status
-**`TEACHING CONTENT IN DEVELOPMENT — T7-E PENDING CHATGPT GOVERNANCE
-REVIEW`**; **Slides 9–14 are `NOT YET DEVELOPED`**, and no visual or
-presentation material exists.
+with **Slides 1–3 `ACCEPTED after T7-D-R`**, **Slides 4–8 `ACCEPTED after
+T7-E-R`** and **Slides 9–12 developed in `T7-F`** (presenter notes and 45
+exercises cover Slides 1–12), status **`TEACHING CONTENT IN DEVELOPMENT —
+T7-F PENDING CHATGPT GOVERNANCE REVIEW`**; **Slides 13–14 are `NOT YET
+DEVELOPED`**, and no visual or presentation material exists.
 
 **`T6-A` to `T6-H` are COMPLETE, and the Module 6 teaching-content baseline is
 COMPLETE.** Module 6 holds **eight teaching files** — objective and

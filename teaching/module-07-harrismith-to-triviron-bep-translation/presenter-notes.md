@@ -1,6 +1,6 @@
 # Module 7 — Presenter Notes
 
-**Status:** **`TEACHING CONTENT IN DEVELOPMENT — T7-E PENDING CHATGPT
+**Status:** **`TEACHING CONTENT IN DEVELOPMENT — T7-F PENDING CHATGPT
 GOVERNANCE REVIEW`**
 
 **`TEACHING MATERIAL — NOT TRIVIRON GOVERNANCE`**
@@ -10,9 +10,10 @@ word-for-word script**. [`presentation-outline.md`](presentation-outline.md)
 is the controlling teaching content; where a cue and the outline differ, the
 outline is correct.
 
-**Notes exist for Slides 1–8 (Slides 1–3 `ACCEPTED after T7-D-R`; Slides 4–8
-added in `T7-E`). Slides 9–14 are `NOT YET DEVELOPED`.** All times are pacing
-allocations — nothing has been rehearsed or measured.
+**Notes exist for Slides 1–12 (Slides 1–3 `ACCEPTED after T7-D-R`; Slides 4–8
+`ACCEPTED after T7-E-R`; Slides 9–12 added in `T7-F`). Slides 13–14 are
+`NOT YET DEVELOPED`.** All times are pacing allocations — nothing has been
+rehearsed or measured.
 
 ---
 
@@ -208,16 +209,128 @@ allocations — nothing has been rehearsed or measured.
 
 ---
 
-## Slides 9–14 — `NOT YET DEVELOPED`
+## Slide 9 — Domain 5: Findings, Issues and statuses — `1.5 min`
+
+- **Opening cue:** "A clash tool can detect. It cannot decide. Everything on
+  this slide is about where detection ends and governance begins."
+- **Explanation sequence:** (1) the sequence — detect → classify → decide
+  whether to create a governed record → apply governed status meanings; (2)
+  `TDR-013` — the structural distinction: a clash is one kind of finding, an
+  Issue is a governed record, and not every finding becomes one; this row is
+  **`METHOD`** — reusable, which is *not* evidence Triviron has adopted any
+  definitions; (3) `TDR-014` — creation is a governed triage decision with
+  stated limbs, never an automatic result of detection — and the other
+  dispositions must be governed too; (4) `TDR-015` — status meanings are
+  governed, not platform-supplied, and a status label is not technical
+  evidence.
+- **Key sentence:** *"Detection is technical; everything after it is
+  governance."*
+- **Boundary warning:** no Harrismith definitions (either variant), triage
+  dispositions, `Accepted condition`, statuses, `Deferred`/`Escalated` or
+  numbering — and no platform object type ever establishes a governance
+  meaning (`M7-S07`, `M7-S03`). *Finding*, *clash* and *Issue* carry no
+  adopted Triviron definition.
+- **Example / analogy (source-safe):** Harrismith's two controlled sources
+  define "Issue" with different breadth — and record both definitions rather
+  than reconciling them. The *recording practice* transfers; neither
+  definition does.
+- **Transition cue:** "Once a governed record exists, someone has to close
+  it — on evidence."
+
+## Slide 10 — Domain 6: Verification, evidence and completion — `1.5 min`
+
+- **Opening cue:** "Five different acts hide inside the word 'done'. This
+  slide pulls them apart."
+- **Explanation sequence:** (1) the sequence — ready for verification →
+  verification → evidence-supported disposition → closure → demonstrated
+  cycle, each act distinct; (2) `TDR-016` — verification has governed
+  prerequisites, and being *ready* for verification is not being verified;
+  verification examines evidence, not assertions; (3) `TDR-017` — closure
+  requires evidence of disposition; a closed record proves only what its
+  evidence supports; completion conditions keep their qualifiers; (4)
+  `TDR-018` — one closed matter is not one complete cycle; a complete cycle
+  is demonstrated, never asserted; completion is not zero clashes; installed
+  capability is not evidence a cycle ran.
+- **Key sentence:** *"A complete cycle is demonstrated, never asserted."*
+- **Boundary warning:** no Harrismith prerequisites, findings, completion
+  conditions or evidence outputs transfer; `GCR-006` and the partial-trace
+  status are **Harrismith evidence about Harrismith** — never a Triviron
+  condition; and nothing may imply a Triviron cycle has run (`M7-S12`,
+  `M7-S15`).
+- **Example / analogy (source-safe):** Harrismith's own record keeps
+  `GCR-006` open and calls its observed position *partially traceable, not
+  yet demonstrated as a complete cycle* — a project refusing to claim
+  completion it cannot evidence. The refusal is the lesson.
+- **Transition cue:** "Verified and closed still doesn't mean published — and
+  published doesn't mean accepted."
+
+## Slide 11 — Domain 7: Publication and acceptance boundary — `1.5 min`
+
+- **Opening cue:** "Anyone with the right permission can move a file. That
+  has never once been the same thing as authority to publish it."
+- **Explanation sequence:** (1) the structure — coordination outcome →
+  governed exchange event → authorisation → publication/exchange → recipient
+  acceptance, each act distinct; (2) `TDR-019` — outcomes move through
+  governed exchange events; an event *uses* a state transition but is not
+  one, and coordination use itself changes no state; rework/reshare needs
+  governed event logic; (3) `TDR-020` — publication/exchange needs an
+  identified authorising function; an unresolved authority is typed and
+  blocks the route visibly; state the boundary exactly: **no controlled
+  Triviron publication/exchange authority allocation is currently identified
+  in this programme**, so the register position is `NOT YET ESTABLISHED`;
+  (4) `TDR-021` — completion ≠ publication ≠ acceptance, verification ≠
+  authorisation, and one word carrying two meanings must not collapse two
+  acts; this row is **`METHOD`** — reusable, not adopted.
+- **Key sentence:** *"Ability to move a file is not authority to change its
+  state."*
+- **Boundary warning:** no `T`-transitions, `TRN-` events, activation rules,
+  `D4`, publication block, `Accepted condition` or `PAD-001` as Triviron
+  content (`M7-S02`); never say Triviron *has* a publication authority, never
+  say it has none in reality, never point at a job title or permission
+  (`M7-S09`, `M7-S16`). Harrismith's own unresolved publication authority
+  transfers only as the discipline of typing an unresolved authority.
+- **Example / analogy:** none required — the Harrismith unresolved-authority
+  pattern in the outline is already the worked illustration.
+- **Transition cue:** "Twenty-one questions, all typed. So what may you
+  actually *say*? Exactly what the evidence permits."
+
+## Slide 12 — What the evidence lets you say — `1.5 min`
+
+- **Opening cue:** "This module has produced twenty-one questions and zero
+  answers — and can defend every word of that sentence. Here's how."
+- **Explanation sequence:** (1) walk the five classifications with their
+  boundaries: `METHOD` — a reusable distinction identified, not Triviron
+  adoption; `EVIDENCE REQUIRED` — needed controlled evidence not identified
+  sufficiently, which is not non-existence; `DECISION REQUIRED` — unusable
+  until the schema's evidence prerequisite is met; `PROPOSAL` — needs an
+  expressly authorised proposal stage, and none is authorised; `ESTABLISHED`
+  — needs a controlled Triviron source or authorised decision, and the
+  register contains none; (2) show the counts — 3 · 18 · 0 · 0 · 0 — and say
+  why the zeros are exact, not disappointing; (3) separate the two axes:
+  classification says what kind of translation work a row contains; status
+  says the current governed Triviron position — `TDR-013` is `METHOD` *and*
+  `NOT YET ESTABLISHED`, validly; (4) introduce (only introduce) the absence
+  vocabulary: `NONE IDENTIFIED` ≠ `NONE EXISTS`; `NOT YET ESTABLISHED` ≠
+  `NOT ESTABLISHED` ≠ `UNRESOLVED` ≠ `TBD` — Slide 13 develops them.
+- **Key sentence:** *"Precision is progress: say exactly what the evidence
+  permits — no more and no less."* — teaching synthesis, and say so if
+  asked.
+- **Boundary warning:** the five labels are not a ladder, pipeline or
+  schedule (`M7-S13`, `M7-S18`); no row has reached the last three; do not
+  exhaust the absence vocabulary here — that is Slide 13's job.
+- **Example / analogy:** none required — the register's counts are the
+  exhibit.
+- **Transition cue:** "Saying exactly what you know needs a vocabulary for
+  what you don't. Absence has four names — next slide."
+
+---
+
+## Slides 13–14 — `NOT YET DEVELOPED`
 
 One-sentence later purposes only; no delivery notes exist.
 
 | Slide | Later teaching purpose |
 |---:|---|
-| 9 | Domain 5 — findings, Issues and statuses questions (`TDR-013`–`TDR-015`) |
-| 10 | Domain 6 — verification, evidence and completion questions (`TDR-016`–`TDR-018`) |
-| 11 | Domain 7 — publication and acceptance boundary questions (`TDR-019`–`TDR-021`) |
-| 12 | Translation classification versus evidential/governance maturity |
 | 13 | Typed absence as controlled work — four status terms, never collapsed |
 | 14 | From decision backlog to the Module 8 BEP workshop bridge |
 
@@ -227,8 +340,8 @@ One-sentence later purposes only; no delivery notes exist.
 
 | Field | Value |
 |---|---|
-| Notes developed | **Slides 1–8** — Slides 1–3 `ACCEPTED after T7-D-R`; Slides 4–8 added in `T7-E` |
-| Slides 9–14 | **`NOT YET DEVELOPED`** |
+| Notes developed | **Slides 1–12** — Slides 1–3 `ACCEPTED after T7-D-R`; Slides 4–8 `ACCEPTED after T7-E-R`; Slides 9–12 added in `T7-F` |
+| Slides 13–14 | **`NOT YET DEVELOPED`** |
 | Timing | **`20.0 minutes allocated — not measured`** |
 | Rehearsal | **None performed** |
 | Presentation production | **`NOT STARTED`** |

@@ -2,10 +2,10 @@
 
 **Status:** Architecture baseline **`ACCEPTED after T7-B-R`**. Translation
 Decision Register — **`ACCEPTED after T7-C-R`**. Teaching-content development
-in progress: **Slides 1–3 `ACCEPTED after T7-D-R`**; **Slides 4–8
-`IN DEVELOPMENT — T7-E PENDING CHATGPT GOVERNANCE REVIEW`**; **Slides 9–14
-`NOT YET DEVELOPED`**. Teaching-content baseline **NOT COMPLETE**.
-Presentation production **`NOT STARTED`**.
+in progress: **Slides 1–3 `ACCEPTED after T7-D-R`**; **Slides 4–8 `ACCEPTED
+after T7-E-R`**; **Slides 9–12 `IN DEVELOPMENT — T7-F PENDING CHATGPT
+GOVERNANCE REVIEW`**; **Slides 13–14 `NOT YET DEVELOPED`**. Teaching-content
+baseline **NOT COMPLETE**. Presentation production **`NOT STARTED`**.
 
 **Teaching material. Not governance.** This module explains and structures a
 translation method; it governs nothing, decides nothing for Triviron, and
@@ -14,11 +14,12 @@ changes no Harrismith governance.
 The module's teaching content is **not complete**. `T7-D` established the
 **20-minute, fourteen-slide architecture** (`20.0 minutes allocated — not
 measured`) and developed **Slides 1–3** (`ACCEPTED after T7-D-R`); `T7-E`
-developed **Slides 4–8** — the decision backlog and Domains 1–4 — with
-presenter notes and exercises (`E15`–`E29`) for those slides; **Slides 9–14
-are `NOT YET DEVELOPED`**. No visual
-specification, visual source, presentation package or PowerPoint exists for
-Module 7. The
+developed **Slides 4–8** — the decision backlog and Domains 1–4 (`ACCEPTED
+after T7-E-R`); `T7-F` developed **Slides 9–12** — Domains 5–7 and the
+evidence-precision synthesis — with presenter notes and exercises
+(`E30`–`E45`) for those slides; **Slides 13–14 are `NOT YET DEVELOPED`**. No
+visual specification, visual source, presentation package or PowerPoint
+exists for Module 7. The
 [Translation Decision Register](translation-decision-register.md) exists as a
 **register baseline** — 21 rows, zero controlled Triviron evidence identified,
 zero candidate decisions — and is **`TEACHING / TRANSLATION CONTROL — NOT
@@ -139,9 +140,9 @@ handoff. **It answers none of them for Triviron.**
 | [`translation-decision-register-schema.md`](translation-decision-register-schema.md) | The register's field semantics, classification and status vocabularies | Any candidate row; any Triviron answer |
 | [`source-map.md`](source-map.md) | How Modules 1–6 and the controlled sources feed Module 7 | Any `Harrismith value → Triviron value` route |
 | [`translation-decision-register.md`](translation-decision-register.md) | The 21-row evidence-and-decision backlog (`TDR-001`–`TDR-021`), typed statuses and boundary warnings | Any Triviron candidate decision, role, authority, platform, tolerance, taxonomy or publication arrangement — all `NOT POPULATED` / `NOT YET ESTABLISHED` |
-| [`presentation-outline.md`](presentation-outline.md) | The fourteen-slide / 20-minute architecture; Slides 1–8 developed | Slides 9–14 content (`NOT YET DEVELOPED`); any Triviron answer |
-| [`presenter-notes.md`](presenter-notes.md) | Delivery cues for Slides 1–8 | A script; notes for Slides 9–14; any Triviron answer |
-| [`exercises.md`](exercises.md) | 29 coverage-driven exercises for Slides 1–8 | Exercises for Slides 9–14; any exercise inviting a Triviron answer |
+| [`presentation-outline.md`](presentation-outline.md) | The fourteen-slide / 20-minute architecture; Slides 1–12 developed | Slides 13–14 content (`NOT YET DEVELOPED`); any Triviron answer |
+| [`presenter-notes.md`](presenter-notes.md) | Delivery cues for Slides 1–12 | A script; notes for Slides 13–14; any Triviron answer |
+| [`exercises.md`](exercises.md) | 45 coverage-driven exercises for Slides 1–12 | Exercises for Slides 13–14; any exercise inviting a Triviron answer |
 
 ## 9. STOP register — Module 7 architecture prohibitions
 
@@ -192,5 +193,7 @@ Navisworks configuration. **Publication automation remains `PAUSED`.**
 | **T7-C-R** | Architecture status-header reconciliation | ✅ **COMPLETE** |
 | **T7-D** | Teaching-content architecture · fourteen-slide / 20-minute structure · **Slides 1–3 developed** · presenter notes and exercises for Slides 1–3 | ✅ **ACCEPTED after T7-D-R** |
 | **T7-D-R** | Exercise `E14` evidence-arrival logic correction | ✅ **COMPLETE** |
-| **T7-E** | **Slides 4–8 developed** — the decision backlog and Domains 1–4 · presenter notes and exercises `E15`–`E29` | **`TEACHING CONTENT IN DEVELOPMENT — PENDING CHATGPT GOVERNANCE REVIEW`** |
-| Later | Slides 9–14 development · register evidence/population work · visual specification and sources · presentation production | **Not started — each requires its own authorised increment** |
+| **T7-E** | **Slides 4–8 developed** — the decision backlog and Domains 1–4 · presenter notes and exercises `E15`–`E29` | ✅ **ACCEPTED after T7-E-R** |
+| **T7-E-R** | Slides 4–8 evidence-boundary wording corrections | ✅ **COMPLETE** |
+| **T7-F** | **Slides 9–12 developed** — Domains 5–7 and the evidence-precision synthesis · presenter notes and exercises `E30`–`E45` | **`TEACHING CONTENT IN DEVELOPMENT — PENDING CHATGPT GOVERNANCE REVIEW`** |
+| Later | Slides 13–14 development · register evidence/population work · visual specification and sources · presentation production | **Not started — each requires its own authorised increment** |

@@ -1,14 +1,15 @@
 # Module 7 — Exercises
 
-**Status:** **`TEACHING CONTENT IN DEVELOPMENT — T7-E PENDING CHATGPT
+**Status:** **`TEACHING CONTENT IN DEVELOPMENT — T7-F PENDING CHATGPT
 GOVERNANCE REVIEW`**
 
 **`TEACHING MATERIAL — NOT TRIVIRON GOVERNANCE`**
 
 Practice and self-assessment for the developed slides. **Exercises exist for
-Slides 1–8 (`E1`–`E14` for Slides 1–3, `ACCEPTED after T7-D-R`; `E15`–`E29`
-for Slides 4–8, added in `T7-E`). Slides 9–14 are `NOT YET DEVELOPED` and have
-no exercises.** The count is coverage-driven, not targeted.
+Slides 1–12 (`E1`–`E14` for Slides 1–3, `ACCEPTED after T7-D-R`; `E15`–`E29`
+for Slides 4–8, `ACCEPTED after T7-E-R`; `E30`–`E45` for Slides 9–12, added
+in `T7-F`). Slides 13–14 are `NOT YET DEVELOPED` and have no exercises.** The
+count is coverage-driven, not targeted.
 
 **No exercise asks the learner to invent a Triviron answer**, and no expected
 answer contains one.
@@ -454,6 +455,250 @@ answer contains one.
 
 ---
 
+## Slide 9 exercises — Domain 5: findings, Issues and statuses
+
+### E30
+
+- **Prompt:** Place *finding*, *clash* and *Issue* in their structural
+  relationship, and say which of the three is a governance object.
+- **Expected reasoning / answer:** A clash is one kind of finding; a finding
+  is a detection result; an Issue is a **governed record** — created only
+  when a governed decision says the matter needs one. Not every finding
+  becomes an Issue. Only the Issue is a governance object; the other two are
+  technical results awaiting a governed decision. For Triviron, the governed
+  definitions themselves are `NOT YET ESTABLISHED`.
+- **Basis:** Register `TDR-013` field 5; outline Slide 9.
+- **Misconception detected:** Detection results treated as governance
+  records (`M7-S07`).
+
+### E31
+
+- **Prompt:** A clash tool reports 400 clashes. How many Issues exist?
+- **Expected reasoning / answer:** Unknowable from the number alone. Issue
+  creation is a governed triage decision with stated limbs — not an automatic
+  consequence of detection — and dispositions other than "raise an Issue"
+  must be governed too. For Triviron, no creation limbs or triage
+  dispositions are established in this programme, so the question of *which*
+  matters would become Issues is `NOT YET ESTABLISHED`.
+- **Basis:** Register `TDR-014` field 5; outline Slide 9.
+- **Misconception detected:** Detection count equated with Issue count
+  (`M7-S07`, `M7-S15`).
+
+### E32
+
+- **Prompt:** A platform shows an Issue as "Closed". What does that label
+  establish — technically and in governance terms?
+- **Expected reasoning / answer:** By itself, neither. A status label is not
+  technical evidence, and status *meanings* are governed, not
+  platform-supplied — a platform's object types and labels establish no
+  governance meaning. What "Closed" means, and what evidence closure
+  requires, are governed decisions; for Triviron both are
+  `NOT YET ESTABLISHED`.
+- **Basis:** Register `TDR-015` field 5; outline Slide 9 field 7.
+- **Misconception detected:** Platform label read as governed meaning or as
+  evidence (`M7-S03`, `M7-S07`).
+
+### E33
+
+- **Prompt:** `TDR-013` is classified `METHOD` while its status is
+  `NOT YET ESTABLISHED`. Is that a contradiction?
+- **Expected reasoning / answer:** No — they are different axes. The
+  classification says what kind of translation work the row contains: a
+  reusable structural distinction (finding/clash/Issue). The status says the
+  current governed Triviron position: no governed Triviron definitions are
+  established. The distinction being reusable is not evidence Triviron has
+  adopted Harrismith's definitions — or any definitions.
+- **Basis:** Register `TDR-013` fields 10, 18; schema §3–§4.
+- **Misconception detected:** Classification and status conflated;
+  `METHOD` read as adoption (`M7-S13`, `M7-S18`).
+
+## Slide 10 exercises — Domain 6: verification, evidence and completion
+
+### E34
+
+- **Prompt:** A matter is marked "Ready for Verification". What has been
+  established?
+- **Expected reasoning / answer:** Only that the matter's record has reached
+  a readiness state — nothing has been verified. Verification is a separate
+  act with governed prerequisites, and it examines **evidence**, not
+  assertions. What those prerequisites are for Triviron is
+  `NOT YET ESTABLISHED`.
+- **Basis:** Register `TDR-016` field 5; outline Slide 10.
+- **Misconception detected:** Readiness state read as verification
+  (`M7-S15`).
+
+### E35
+
+- **Prompt:** What does a closed coordination matter prove?
+- **Expected reasoning / answer:** Exactly what its closure evidence
+  supports — no more. Closure requires evidence of disposition, not absence
+  of complaint, and completion conditions keep their qualifiers
+  (`as applicable`, `required`). A closed record is not proof of coordination
+  quality, of other matters' states, or of anything unobserved.
+- **Basis:** Register `TDR-017` field 5; outline Slide 10 field 7.
+- **Misconception detected:** Closure inflated into general proof
+  (`M7-S12`).
+
+### E36
+
+- **Prompt:** *"Every Issue is closed and the clash count is zero — the
+  coordination cycle is complete."* Give both errors.
+- **Expected reasoning / answer:** First, one closed matter — or all closed
+  matters — is not a demonstrated cycle: a complete governed cycle is an
+  evidenced end-to-end demonstration against a defined evidence set, which
+  for Triviron is `NOT YET ESTABLISHED`. Second, completion is not zero
+  clashes: completion is defined by governed conditions, not by a detector's
+  count.
+- **Basis:** Register `TDR-018` field 5; outline Slide 10 field 7.
+- **Misconception detected:** Closure count or clash count read as cycle
+  completion (`M7-S12`, `M7-S15`).
+
+### E37
+
+- **Prompt:** Harrismith's record keeps `GCR-006` open and describes its
+  observed position as `PARTIALLY TRACEABLE / NOT YET DEMONSTRATED AS A
+  COMPLETE CYCLE`. What does this evidence teach Module 7 — and what does it
+  say about Triviron?
+- **Expected reasoning / answer:** It is Harrismith evidence about Harrismith
+  only: a project with provisioned capability and observed fragments still
+  refusing to claim a complete cycle it cannot evidence — partial trace
+  stays partial, and capability provisioning is not evidence a governed
+  cycle ran. The *discipline* transfers. It says nothing about Triviron:
+  Triviron inherits neither the condition nor the status, and no Triviron
+  cycle may be implied to have run.
+- **Basis:** Register `TDR-018` field 6; outline Slide 10 fields 6, 11.
+- **Misconception detected:** Harrismith's condition or status projected
+  onto Triviron; provisioning read as demonstration (`M7-S12`, `M7-S15`).
+
+## Slide 11 exercises — Domain 7: publication and acceptance boundary
+
+### E38
+
+- **Prompt:** Is an information-delivery event the same thing as an
+  information-state transition?
+- **Expected reasoning / answer:** No. An event *uses* a transition but is
+  not one; coordination use itself changes no information state; and
+  rework/reshare requires governed event logic — not calendar habit or tool
+  behaviour. Which events Triviron will govern, and what activates them, is
+  `NOT YET ESTABLISHED`.
+- **Basis:** Register `TDR-019` field 5; outline Slide 11 field 7.
+- **Misconception detected:** Event and transition collapsed (`M7-S02`,
+  `M7-S13`).
+
+### E39
+
+- **Prompt:** A user's platform permissions allow moving files into a
+  published area. What authority does that establish?
+- **Expected reasoning / answer:** None. Ability to move a file is not
+  authority to change its information state. Publication/exchange requires
+  an identified authorising function, established by a controlled
+  responsibility/authority decision — and an unresolved authority is typed
+  and blocks the route visibly. No controlled Triviron publication/exchange
+  authority allocation is currently identified in this programme, so the
+  register position is `NOT YET ESTABLISHED`.
+- **Basis:** Register `TDR-020` fields 5, 12; outline Slide 11.
+- **Misconception detected:** Tool permission read as publication authority
+  (`M7-S09`, `M7-S16`).
+
+### E40
+
+- **Prompt:** Order and distinguish: completion, publication, recipient
+  acceptance. Which act implies which?
+- **Expected reasoning / answer:** None implies another. Completion of
+  coordination is one act; publication/exchange is a separately authorised
+  act; recipient acceptance is a third act performed by the recipient after
+  delivery. Verification and authorisation are likewise distinct. A document
+  can be complete and unpublished, published and unaccepted — and one word
+  ("accepted") used for two different acts must never collapse them.
+- **Basis:** Register `TDR-021` field 5; outline Slide 11 field 7.
+- **Misconception detected:** The four acts merged; completion read as
+  delivery (`M7-S09`, `M7-S13`).
+
+### E41
+
+- **Prompt:** Harrismith's own publication authority is unresolved. May
+  Slide 11 therefore say "Triviron has no publication authority"?
+- **Expected reasoning / answer:** No, twice over. Harrismith's unresolved
+  authority is a Harrismith fact — it transfers only as the discipline of
+  typing an unresolved authority visibly, never as a Triviron absence. And
+  the programme's evidence position permits only: no controlled Triviron
+  publication/exchange authority allocation is currently identified **in
+  this programme** — `NOT YET ESTABLISHED`, which asserts nothing about
+  reality in either direction. `TDR-021`'s `METHOD` classification likewise
+  records a reusable distinction, not adoption.
+- **Basis:** Register `TDR-020` field 6, `TDR-021` field 10; outline Slide 11
+  fields 6, 11.
+- **Misconception detected:** A Harrismith gap projected onto Triviron;
+  `NOT YET ESTABLISHED` hardened into an existence claim (`M7-S09`,
+  `M7-S12`, `M7-S18`).
+
+## Slide 12 exercises — what the evidence lets you say
+
+### E42
+
+- **Prompt:** Eighteen rows are `EVIDENCE REQUIRED`. Does that mean eighteen
+  Triviron arrangements are missing in reality?
+- **Expected reasoning / answer:** No. `EVIDENCE REQUIRED` means the
+  controlled Triviron evidence needed to responsibly frame the matter has
+  not been identified sufficiently — in this programme. It does not mean the
+  arrangement does not exist: `NONE IDENTIFIED` is not `NONE EXISTS`, and
+  the register speaks only to the programme's controlled evidence position.
+- **Basis:** Schema §3; outline Slide 12 field 6.
+- **Misconception detected:** `EVIDENCE REQUIRED` read as non-existence
+  (`M7-S12`).
+
+### E43
+
+- **Prompt:** Sketch the five classifications as a project timeline. What is
+  wrong with the request itself?
+- **Expected reasoning / answer:** The five labels are not a maturity
+  ladder, chronological pipeline or schedule. Each later label has a
+  *precondition*, not a date: `DECISION REQUIRED` needs sufficiently
+  identified evidence; `PROPOSAL` needs an expressly authorised proposal
+  stage; `ESTABLISHED` needs a controlled Triviron source or authorised
+  decision. A row may properly remain `METHOD` or `EVIDENCE REQUIRED`
+  indefinitely — and none is guaranteed to advance at all.
+- **Basis:** Schema §3; outline Slide 12 field 7.
+- **Misconception detected:** Classification treated as a timetable
+  (`M7-S13`, `M7-S18`).
+
+### E44
+
+- **Prompt:** Suppose future increments identify sufficient controlled
+  Triviron evidence for one matter. May its row then move directly to
+  `PROPOSAL`?
+- **Expected reasoning / answer:** No. Evidence sufficiency may support
+  `DECISION REQUIRED`, but `PROPOSAL` additionally requires an **expressly
+  authorised proposal stage** — none is authorised in the current baseline —
+  and any candidate would be labelled `PROPOSED — NOT APPROVED` with its
+  authority identified or its absence typed. `ESTABLISHED` needs more still:
+  a controlled Triviron source establishing the fact, or an authorised
+  decision establishing the arrangement. Evidence arrival changes the
+  available/missing position; it authorises nothing by itself, and this
+  hypothetical populates no actual row.
+- **Basis:** Schema §3, §5, §7; `translation-framework.md` §2.5–§2.6.
+- **Misconception detected:** Classification steps skipped; evidence treated
+  as authorisation (`M7-S15`, `M7-S17`, `M7-S18`).
+
+### E45
+
+- **Prompt:** In one sentence each, state what the register's current
+  position lets you say about (a) the translation method, (b) Triviron
+  evidence, (c) Triviron governance.
+- **Expected reasoning / answer:** (a) A complete questioning method exists:
+  21 typed translation problems across seven domains, three of them carrying
+  reusable structural distinctions (`METHOD`). (b) No controlled Triviron
+  evidence has been identified in this programme — `NONE IDENTIFIED`, which
+  is not `NONE EXISTS`. (c) No Triviron governance position is established,
+  proposed or decided in this programme — every populated answer remains
+  `NOT YET ESTABLISHED`. Saying exactly this — no more and no less — is the
+  slide's point.
+- **Basis:** Register §9–§10; outline Slide 12.
+- **Misconception detected:** Overstatement in any of the three directions
+  (`M7-S12`, `M7-S18`).
+
+---
+
 ## Coverage map
 
 | Required distinction | Exercises |
@@ -486,11 +731,35 @@ answer contains one.
 | Approval authority vs assumed job title | E29 |
 | Zeros vs real-world nonexistence | E17 |
 
+**Slides 9–12 coverage (T7-F):**
+
+| Required distinction | Exercises |
+|---|---|
+| Finding vs clash vs Issue | E30 |
+| Finding detection vs Issue creation | E31 |
+| Governed status meaning vs platform label | E32 |
+| Status vs technical evidence | E32 |
+| Ready-for-verification vs verified | E34 |
+| Assertion vs evidence | E34 |
+| Closure vs proof | E35 |
+| Closed matter vs complete cycle | E36 |
+| Complete cycle vs zero clashes | E36 |
+| Partial trace vs demonstrated cycle | E37 |
+| Event vs transition | E38 |
+| Tool permission vs publication authority | E39 |
+| Completion vs publication | E40 |
+| Publication vs recipient acceptance | E40 |
+| `METHOD` vs adoption | E33, E41 |
+| `EVIDENCE REQUIRED` vs non-existence | E42 |
+| Classification vs maturity ladder | E43 |
+| Proposal-stage authorisation | E44 |
+| Conditions for `ESTABLISHED` | E44, E45 |
+
 ## Status
 
 | Field | Value |
 |---|---|
-| Exercises | **29** — `E1`–`E14` (Slides 1–3, `ACCEPTED after T7-D-R`) · `E15`–`E29` (Slides 4–8, T7-E); coverage-driven |
-| Slides 9–14 exercises | **None — `NOT YET DEVELOPED`** |
+| Exercises | **45** — `E1`–`E14` (Slides 1–3, `ACCEPTED after T7-D-R`) · `E15`–`E29` (Slides 4–8, `ACCEPTED after T7-E-R`) · `E30`–`E45` (Slides 9–12, T7-F); coverage-driven |
+| Slides 13–14 exercises | **None — `NOT YET DEVELOPED`** |
 | Triviron answers requested or supplied | **None** |
 | Publication automation | **`PAUSED`** |
