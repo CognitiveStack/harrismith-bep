@@ -1,6 +1,6 @@
 # Module 7 — Translation Decision Register
 
-**Status:** **`REGISTER BASELINE — PENDING CHATGPT GOVERNANCE REVIEW`**
+**Status:** **`REGISTER BASELINE — ACCEPTED after T7-C-R`**
 
 **`TEACHING / TRANSLATION CONTROL — NOT TRIVIRON GOVERNANCE`**
 

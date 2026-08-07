@@ -1,9 +1,8 @@
 # Module 7 — Harrismith → Triviron BEP Translation
 
 **Status:** Architecture baseline **`ACCEPTED after T7-B-R`**. Translation
-Decision Register — **`REGISTER BASELINE — PENDING CHATGPT GOVERNANCE
-REVIEW`**. Teaching-content development **`NOT STARTED`**. Presentation
-production **`NOT STARTED`**.
+Decision Register — **`ACCEPTED after T7-C-R`**. Teaching-content development
+**`NOT STARTED`**. Presentation production **`NOT STARTED`**.
 
 **Teaching material. Not governance.** This module explains and structures a
 translation method; it governs nothing, decides nothing for Triviron, and
@@ -178,5 +177,6 @@ Navisworks configuration. **Publication automation remains `PAUSED`.**
 | **T7-B0** | Module 6 → Module 7 repository-boundary reconciliation | ✅ **ACCEPTED** |
 | **T7-B** | Architecture baseline and Translation Decision Register schema | ✅ **ACCEPTED after T7-B-R** |
 | **T7-B-R** | Evidence-boundary wording corrections (`NONE IDENTIFIED` ≠ `NONE EXISTS`; two-limb `ESTABLISHED` route) | ✅ **COMPLETE** |
-| **T7-C** | Initial Translation Decision Register baseline — 21 rows, `TDR-001`–`TDR-021` | **`REGISTER BASELINE — PENDING CHATGPT GOVERNANCE REVIEW`** |
+| **T7-C** | Initial Translation Decision Register baseline — 21 rows, `TDR-001`–`TDR-021` | ✅ **ACCEPTED after T7-C-R** |
+| **T7-C-R** | Architecture status-header reconciliation | ✅ **COMPLETE** |
 | Later | Register evidence/population work · teaching content · presentation production | **Not started — each requires its own authorised increment** |
