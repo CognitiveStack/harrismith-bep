@@ -79,13 +79,15 @@ is itself a defect.
 | **`UNRESOLVED`** | The matter is recognised and has been considered, but remains open, conflicting, dependent or undecided | The matter has simply not been examined yet |
 | **`TBD`** | The matter lies **within an established governance scope** but its value has intentionally been deferred for later determination | There is no established scope to defer within — **`TBD` is not a generic blank** |
 | **`PROPOSED — NOT APPROVED`** | A candidate governance arrangement exists but carries no approved authority | No authorised candidate exists |
-| **`ESTABLISHED`** | A controlled Triviron source or authorised decision positively establishes the position | **Currently prohibited for any populated Triviron answer** — class F is empty |
+| **`ESTABLISHED`** | A controlled Triviron source or authorised decision positively establishes the position | **Currently prohibited for any populated Triviron answer** — no class F source is currently identified |
 
 Worked contrast, from the existing controlled record: Harrismith's
 assurance-sampling method is **`NOT ESTABLISHED`** because sources were
 examined and positively record that no method is defined; a Triviron
-publication authority is **`NOT YET ESTABLISHED`** because no Triviron source
-exists to examine. The two must never be swapped.
+publication authority is **`NOT YET ESTABLISHED`** because `T7-A` identified no
+controlled Triviron source establishing the matter — which is a census finding,
+not proof that no such arrangement exists outside this repository. The two must
+never be swapped.
 
 ## 5. Authority and owner field rules — fields 12 and 13
 

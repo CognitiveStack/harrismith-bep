@@ -103,8 +103,8 @@ the failure mode this framework exists to prevent.
 Identify the **conceptual destination class** in the future Triviron BEP
 architecture — main BEP clause, matrix, schedule, strategy, appendix, register
 — per the schema's destination rule. **No Triviron section number, clause
-number, filename or template name exists to point at**, so the exact
-destination remains `NOT YET ESTABLISHED`.
+number, filename or template name has been established in this programme**, so
+the exact destination remains `NOT YET ESTABLISHED`.
 
 ## 3. Seven kinds of thing, kept apart
 
@@ -133,7 +133,7 @@ The only worked example this baseline permits is the empty shape:
 reference pattern:        <exact path §ref — declared status — source class>
 translation question:     <question derived from the pattern's structure>
 evidence required:        <the class F source that would be needed>
-evidence available:       NONE IDENTIFIED (class F is empty)
+evidence available:       NONE IDENTIFIED (no class F source is currently identified)
 ─ STOP rule applies — no candidate may be derived from the Harrismith value ─
 candidate decision:       (schema-only; none may be written in this increment)
 authority required:       NOT YET ESTABLISHED

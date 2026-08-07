@@ -29,7 +29,7 @@ Each module feeds Module 7 as **`TEACHES METHOD`** only.
 
 | Teaching input | Feeds Module 7 with | What would be `REQUIRED TO ESTABLISH TRIVIRON` in that area |
 |---|---|---|
-| **Module 1** → BEP purpose and document status | What a BEP is for; status/authority discipline; the transfer-chain pattern (worked example → questions → decisions not yet taken → BEP that does not exist) | A Triviron appointment context and a governed decision to develop a Triviron BEP with a controlled status scheme |
+| **Module 1** → BEP purpose and document status | What a BEP is for; status/authority discipline; the transfer-chain pattern (worked example → questions → decisions not yet taken → a Triviron BEP not yet developed by this programme) | A Triviron appointment context and a governed decision to develop a Triviron BEP with a controlled status scheme |
 | **Module 2** → roles, functions, holders and authority | Function ≠ organisation ≠ person; authority from governance, not permission; the assignment-sequence discipline (permissions after authorities) | Triviron organisational facts, appointments and authority decisions, from controlled Triviron sources |
 | **Module 3** → information-management / ISO 19650 evidence discipline | External-source registration; jurisdiction limits; `No conformity conclusion supported`; never teaching a draft as a requirement | A Triviron decision on applicable standards and any conformity claims, plus the licensed source basis for them |
 | **Module 4** → CDE states and transition governance | State ≠ folder; transition ≠ file movement; governance before configuration; governance status ≠ implementation status | Triviron CDE governance decisions and platform facts, from controlled Triviron sources |
@@ -70,15 +70,34 @@ Module 7 translation framework ─────────────── TEA
         │  defines evidence requirements
         ▼
 class F: controlled Triviron sources ───────── REQUIRED TO ESTABLISH TRIVIRON
-        │                                        (currently NONE IDENTIFIED)
+        │      may establish Triviron FACTS —   (currently NONE IDENTIFIED)
+        │      the controlled evidence basis
+        │
+        │  informs — evidence does not itself decide
         ▼
-future authorised Triviron decisions ───────── the only route to ESTABLISHED
+authorised Triviron governance decisions ───── may establish governed Triviron
+                                               DECISIONS and ARRANGEMENTS
+                                               (none currently recorded in
+                                               this programme)
 ```
 
 **Reading rule:** the first three tiers can never produce an `ESTABLISHED`
-Triviron position, however complete they become. Only the last two tiers can —
-and both are currently empty. **No edge in this diagram carries a value from
-the Harrismith side to the Triviron side.**
+Triviron position, however complete they become. Only the last two tiers can,
+and they establish **different kinds of thing**:
+
+- a **controlled Triviron source** may establish a Triviron **fact** — the
+  controlled evidence basis;
+- an **authorised Triviron governance decision** may establish a **governed
+  Triviron decision or arrangement**.
+
+**Either may support an `ESTABLISHED` register position where semantically
+appropriate** — a factual matter rests on a controlled source; a governed
+arrangement rests on an authorised decision. **Evidence does not automatically
+create a governance decision; a governance decision is not needed to establish
+every factual matter; and a factual source never authorises an arrangement.**
+No class F source is currently identified, and no authorised Triviron decision
+is currently recorded in this programme. **No edge in this diagram carries a
+value from the Harrismith side to the Triviron side.**
 
 ## 5. Boundary restatements
 

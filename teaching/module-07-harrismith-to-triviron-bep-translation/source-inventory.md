@@ -117,9 +117,12 @@ Markdown source.**
 **`NONE IDENTIFIED`.**
 
 No controlled Triviron organisational or project source, decision record,
-appointment record, requirement document or observation record exists in this
-repository. Until one enters through a governed route and declares its own
-status and authority, **class F is empty and every register row's
+appointment record, requirement document or observation record was identified
+in this repository by the `T7-A` census. **`NONE IDENTIFIED` is not
+`NONE EXISTS`** — the census establishes what this repository was found to
+hold, not what exists outside it. Until a controlled Triviron source enters
+this repository through a governed route and declares its own status and
+authority, **no class F source is identified and every register row's
 `Triviron evidence currently available` field can only record typed absence.**
 
 ## 8. Standing rules
