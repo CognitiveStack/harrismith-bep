@@ -32,7 +32,7 @@ moves — not as the subject.
 | 4 | CDE workflows and information states | **Content, visual source, assembly package and PowerPoint produced.** Review and rehearsal **deferred** |
 | 5 | Responsibility matrices and information-delivery planning | **Content, visual source, assembly package and PowerPoint produced; governance review ACCEPTED (`REV01`).** Rehearsal and measured timing **DEFERRED** |
 | 6 | Coordination, Review, Approval and Assurance | **TEACHING-PRODUCTION COMPLETE.** **`T6-A` to `T6-H` COMPLETE** — eight teaching files, **all fourteen slides developed; teaching-content baseline COMPLETE**; **fourteen visual specifications ACCEPTED after `T6-E-R`**; **fourteen visual sources ACCEPTED after `T6-F-R`**; **assembly package `ACCEPTED after T6-G-R`**; **external PowerPoint produced — `T6-H — ACCEPTED after T6-H-R1`**. Rehearsal and measured timing **DEFERRED** |
-| 7 | **Translating Harrismith into the Triviron BEP** | **CURRENT — ARCHITECTURE BASELINE IN DEVELOPMENT.** `T7-A` and `T7-B0` **ACCEPTED**; **`T7-B` architecture baseline — five files — `PENDING CHATGPT GOVERNANCE REVIEW`**. No teaching content, register population or presentation material exists |
+| 7 | **Translating Harrismith into the Triviron BEP** | **CURRENT — ACTIVE.** `T7-A`, `T7-B0` **ACCEPTED**; architecture baseline **`ACCEPTED after T7-B-R`**; **`T7-C` Translation Decision Register baseline — 21 rows — `REGISTER BASELINE — PENDING CHATGPT GOVERNANCE REVIEW`**. **Zero Triviron evidence identified, zero candidate decisions.** No teaching content or presentation material exists |
 | 8 | Facilitating and presenting a BEP workshop | Planned |
 
 ### Module 1 — What is a BIM Execution Plan? — **produced; review and rehearsal deferred**
@@ -482,17 +482,21 @@ allocated — not measured`**. **Publication automation remains `PAUSED`.**
 ### Modules 7–8
 
 **Module 7 — Translating Harrismith into the Triviron BEP — is the current
-teaching module, in architecture-baseline development.** **`T7-B` created its
-five architecture files** in
-[`module-07-harrismith-to-triviron-bep-translation/`](module-07-harrismith-to-triviron-bep-translation/)
-— README, source inventory, translation framework, Translation Decision
-Register schema and source map — all
-**`ARCHITECTURE BASELINE — PENDING CHATGPT GOVERNANCE REVIEW`**. **Module 7
-develops a controlled translation framework supporting the future development
-of a project-specific Triviron BEP — a teaching-architecture decision, not a
-Triviron governance fact.** **`NO CONTROLLED TRIVIRON GOVERNANCE FACT
-IDENTIFIED IN T7-A`** — no register row is populated and no Triviron answer
-exists. **No teaching content, exercises, visuals or presentation material
+teaching module.** Its **architecture baseline (`T7-B`, five files) is
+`ACCEPTED after T7-B-R`**, in
+[`module-07-harrismith-to-triviron-bep-translation/`](module-07-harrismith-to-triviron-bep-translation/).
+**`T7-C` created the initial Translation Decision Register** — **21 rows,
+`TDR-001`–`TDR-021`, three per accepted decision domain**, all 20 schema
+fields populated per row — status **`REGISTER BASELINE — PENDING CHATGPT
+GOVERNANCE REVIEW`** and **`TEACHING / TRANSLATION CONTROL — NOT TRIVIRON
+GOVERNANCE`**. **Module 7 develops a controlled translation framework
+supporting the future development of a project-specific Triviron BEP — a
+teaching-architecture decision, not a Triviron governance fact.**
+**`NO CONTROLLED TRIVIRON GOVERNANCE FACT IDENTIFIED IN T7-A`** — the register
+records **zero controlled Triviron evidence identified, zero candidate
+decisions, zero `PROPOSAL` rows and zero `ESTABLISHED` Triviron answers**; its
+existence makes the future Triviron BEP neither complete nor partially
+complete. **No teaching content, exercises, visuals or presentation material
 exist for Module 7.** Module 8 remains future scope. Scope may change as the
 modules are delivered and reviewed.
 
@@ -565,7 +569,11 @@ of governance under condition. Describing it neither advances nor reopens it.
 | Field | Value |
 |---|---|
 | **Active module** | **Module 7 — Translating Harrismith into the Triviron BEP** — **CURRENT — ACTIVE** |
-| **Next development increment** | **`T7-B` — Module 7 architecture baseline — `PENDING CHATGPT GOVERNANCE REVIEW`.** Later increments proceed only through their own approvals |
+| **Next development increment** | **`T7-C` — Translation Decision Register baseline — `PENDING CHATGPT GOVERNANCE REVIEW`.** Later increments proceed only through their own approvals |
+| Module 7 architecture baseline | **`ACCEPTED after T7-B-R`** — five files |
+| Module 7 Translation Decision Register | **`REGISTER BASELINE — PENDING CHATGPT GOVERNANCE REVIEW`** — 21 rows; **0** Triviron evidence identified; **0** candidate decisions; **0** `PROPOSAL`; **0** `ESTABLISHED` |
+| Module 7 teaching content | **`NOT STARTED`** |
+| Module 7 presentation production | **`NOT STARTED`** |
 | Module 6 teaching-production phase | **COMPLETE.** **`T6-A` to `T6-H` complete** |
 | Module 6 assembly package | **ACCEPTED** — **`T6-G — ACCEPTED after T6-G-R`** |
 | Module 6 external PowerPoint | **PRODUCED — `HFS-BIM-Management-Module-06-Coordination-Review-Approval-and-Assurance-REV01.pptx`**, assembled **outside this repository**; corrected by **`T6-H-R1`**; **`T6-H — ACCEPTED after T6-H-R1`**; **not committed here** |
@@ -643,7 +651,7 @@ of governance under condition. Describing it neither advances nor reopens it.
 | Module 1–4 `.pptx` files | **Derivative outputs — not committed to this repository** |
 | Rendered visual assets | **None in any module** — no renderer available; text-based source is authoritative |
 | Measured timing | **None, in any module.** Every deck carries **`20.0 minutes allocated — not measured`** |
-| Module 7 | **CURRENT — ARCHITECTURE BASELINE IN DEVELOPMENT** — five architecture files (`T7-B`), **`PENDING CHATGPT GOVERNANCE REVIEW`**; no teaching content, no populated register |
+| Module 7 | **CURRENT — ACTIVE** — architecture baseline **`ACCEPTED after T7-B-R`**; register baseline (`T7-C`) **`PENDING CHATGPT GOVERNANCE REVIEW`**; no teaching content; no candidate decision |
 | Module 8 | **Future scope** — not started |
 | Publication automation | **PAUSED** |
 | Source material status | Training Baseline 0.1 — approved with conditions; publication NOT AUTHORISED |

@@ -1,15 +1,21 @@
 # Module 7 — Harrismith → Triviron BEP Translation
 
-**Status:** **`ARCHITECTURE BASELINE — PENDING CHATGPT GOVERNANCE REVIEW`**
+**Status:** Architecture baseline **`ACCEPTED after T7-B-R`**. Translation
+Decision Register — **`REGISTER BASELINE — PENDING CHATGPT GOVERNANCE
+REVIEW`**. Teaching-content development **`NOT STARTED`**. Presentation
+production **`NOT STARTED`**.
 
 **Teaching material. Not governance.** This module explains and structures a
 translation method; it governs nothing, decides nothing for Triviron, and
 changes no Harrismith governance.
 
-**This is an architecture baseline only.** The module's teaching content is
-**not complete** and has not been started. No slide, exercise, visual
-specification, visual source, presentation package or PowerPoint exists for
-Module 7, and none is created by this baseline.
+The module's teaching content is **not complete** and has not been started. No
+slide, exercise, visual specification, visual source, presentation package or
+PowerPoint exists for Module 7. The
+[Translation Decision Register](translation-decision-register.md) exists as a
+**register baseline** — 21 rows, zero controlled Triviron evidence identified,
+zero candidate decisions — and is **`TEACHING / TRANSLATION CONTROL — NOT
+TRIVIRON GOVERNANCE`**.
 
 ---
 
@@ -123,8 +129,9 @@ handoff. **It answers none of them for Triviron.**
 | [`README.md`](README.md) | Module status, objective, boundary, exclusions, domains, STOP register | Any Triviron answer; any teaching content baseline |
 | [`source-inventory.md`](source-inventory.md) | The Module 7 source classes and per-source authority limits | Any promotion of a source's authority |
 | [`translation-framework.md`](translation-framework.md) | The translation method and its STOP rule | Any populated translation |
-| [`translation-decision-register-schema.md`](translation-decision-register-schema.md) | The future register's field semantics, classification and status vocabularies | The register itself; any candidate row |
+| [`translation-decision-register-schema.md`](translation-decision-register-schema.md) | The register's field semantics, classification and status vocabularies | Any candidate row; any Triviron answer |
 | [`source-map.md`](source-map.md) | How Modules 1–6 and the controlled sources feed Module 7 | Any `Harrismith value → Triviron value` route |
+| [`translation-decision-register.md`](translation-decision-register.md) | The 21-row evidence-and-decision backlog (`TDR-001`–`TDR-021`), typed statuses and boundary warnings | Any Triviron candidate decision, role, authority, platform, tolerance, taxonomy or publication arrangement — all `NOT POPULATED` / `NOT YET ESTABLISHED` |
 
 ## 9. STOP register — Module 7 architecture prohibitions
 
@@ -169,5 +176,7 @@ Navisworks configuration. **Publication automation remains `PAUSED`.**
 |---|---|---|
 | **T7-A** | Read-only source architecture and Triviron evidence census | ✅ **ACCEPTED** |
 | **T7-B0** | Module 6 → Module 7 repository-boundary reconciliation | ✅ **ACCEPTED** |
-| **T7-B** | Architecture baseline and Translation Decision Register schema — this baseline | **`ARCHITECTURE BASELINE — PENDING CHATGPT GOVERNANCE REVIEW`** |
-| Later | Register population · teaching content · presentation production | **Not started — each requires its own authorised increment** |
+| **T7-B** | Architecture baseline and Translation Decision Register schema | ✅ **ACCEPTED after T7-B-R** |
+| **T7-B-R** | Evidence-boundary wording corrections (`NONE IDENTIFIED` ≠ `NONE EXISTS`; two-limb `ESTABLISHED` route) | ✅ **COMPLETE** |
+| **T7-C** | Initial Translation Decision Register baseline — 21 rows, `TDR-001`–`TDR-021` | **`REGISTER BASELINE — PENDING CHATGPT GOVERNANCE REVIEW`** |
+| Later | Register evidence/population work · teaching content · presentation production | **Not started — each requires its own authorised increment** |

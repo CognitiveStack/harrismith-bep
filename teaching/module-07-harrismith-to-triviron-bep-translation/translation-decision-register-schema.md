@@ -3,9 +3,11 @@
 **Status:** **`ARCHITECTURE BASELINE — PENDING CHATGPT GOVERNANCE REVIEW`.**
 **Teaching material. Not governance.**
 
-**This file defines the future Translation Decision Register. It is not the
-register.** No register exists, no row exists, and no row may be created under
-this schema until register population is expressly authorised as its own
+**This file defines the Translation Decision Register. It is not the
+register.** The register itself was created by the expressly authorised `T7-C`
+increment — [`translation-decision-register.md`](translation-decision-register.md)
+— and this file remains its controlling schema. No further row, and no
+candidate-decision content, may be created without its own expressly authorised
 increment.
 
 ---

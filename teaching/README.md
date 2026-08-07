@@ -158,11 +158,12 @@ teaching/
 │   ├── exercises.md                 practice and self-assessment — 91 exercises
 │   ├── visual-demonstration-plan.md fourteen visual specifications, M6V-01 to M6V-14, accepted
 │   └── presentation/                assembly package — production handoff, pending review
-├── module-07-harrismith-to-triviron-bep-translation/   Module 7 — CURRENT; architecture baseline pending review
+├── module-07-harrismith-to-triviron-bep-translation/   Module 7 — CURRENT; architecture accepted, register baseline pending review
 │   ├── README.md                    status, objective, boundary, exclusions, seven domains, STOP register
 │   ├── source-inventory.md          source classes A–F; class F (Triviron) — NONE IDENTIFIED
 │   ├── translation-framework.md     the translation method and its STOP rule
-│   ├── translation-decision-register-schema.md   future register semantics — the register itself does not exist
+│   ├── translation-decision-register-schema.md   the register's controlling field semantics and vocabularies
+│   ├── translation-decision-register.md          21 rows TDR-001–TDR-021 — zero Triviron evidence, zero candidates
 │   └── source-map.md                Modules 1–6 as method inputs; no Harrismith value → Triviron value route
 ├── shared/
 │   ├── glossary.md                  teaching glossary across all modules
@@ -220,17 +221,19 @@ presenter advances each slide manually when ready**.
 
 **Module 5's teaching-production phase is COMPLETE, Module 6's
 teaching-production phase is COMPLETE, and Module 7 — Translating Harrismith
-into the Triviron BEP — is now the current teaching module, in
-architecture-baseline development.** **`T7-B` created Module 7's five
-architecture files in
-[`module-07-harrismith-to-triviron-bep-translation/`](module-07-harrismith-to-triviron-bep-translation/),
-all `ARCHITECTURE BASELINE — PENDING CHATGPT GOVERNANCE REVIEW`.** Module 7
-develops a **controlled translation framework** supporting the future
+into the Triviron BEP — is now the current teaching module.** **Its
+architecture baseline (`T7-B`, five files) is `ACCEPTED after T7-B-R`**, in
+[`module-07-harrismith-to-triviron-bep-translation/`](module-07-harrismith-to-triviron-bep-translation/).
+**`T7-C` created the initial Translation Decision Register — 21 rows,
+`TDR-001`–`TDR-021` — status `REGISTER BASELINE — PENDING CHATGPT GOVERNANCE
+REVIEW` and `TEACHING / TRANSLATION CONTROL — NOT TRIVIRON GOVERNANCE`.**
+Module 7 develops a **controlled translation framework** supporting the future
 development of a **project-specific Triviron BEP** — a teaching-architecture
 decision, **not a Triviron governance fact**.
-**`NO CONTROLLED TRIVIRON GOVERNANCE FACT IDENTIFIED IN T7-A`** — no
-Translation Decision Register exists, no register row is populated, and no
-Module 7 teaching content, exercise, visual or presentation material exists.
+**`NO CONTROLLED TRIVIRON GOVERNANCE FACT IDENTIFIED IN T7-A`** — the register
+records **zero controlled Triviron evidence, zero candidate decisions, zero
+`PROPOSAL` rows and zero `ESTABLISHED` Triviron answers**, and no Module 7
+teaching content, exercise, visual or presentation material exists.
 
 **`T6-A` to `T6-H` are COMPLETE, and the Module 6 teaching-content baseline is
 COMPLETE.** Module 6 holds **eight teaching files** — objective and
