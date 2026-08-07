@@ -1,6 +1,6 @@
 # Module 7 — Presenter Notes
 
-**Status:** **`TEACHING CONTENT IN DEVELOPMENT — T7-D PENDING CHATGPT
+**Status:** **`TEACHING CONTENT IN DEVELOPMENT — T7-E PENDING CHATGPT
 GOVERNANCE REVIEW`**
 
 **`TEACHING MATERIAL — NOT TRIVIRON GOVERNANCE`**
@@ -10,8 +10,9 @@ word-for-word script**. [`presentation-outline.md`](presentation-outline.md)
 is the controlling teaching content; where a cue and the outline differ, the
 outline is correct.
 
-**Notes exist for Slides 1–3 only. Slides 4–14 are `NOT YET DEVELOPED`.** All
-times are pacing allocations — nothing has been rehearsed or measured.
+**Notes exist for Slides 1–8 (Slides 1–3 `ACCEPTED after T7-D-R`; Slides 4–8
+added in `T7-E`). Slides 9–14 are `NOT YET DEVELOPED`.** All times are pacing
+allocations — nothing has been rehearsed or measured.
 
 ---
 
@@ -90,17 +91,128 @@ times are pacing allocations — nothing has been rehearsed or measured.
 
 ---
 
-## Slides 4–14 — `NOT YET DEVELOPED`
+## Slide 4 — The decision backlog: 21 questions, zero Triviron answers — `1.3 min`
+
+- **Opening cue:** "Here is Module 7's entire working record on one slide.
+  Twenty-one questions. Zero answers. And that's the healthy state."
+- **Explanation sequence:** (1) the shape — seven domains, three questions
+  each, one register row per question, `TDR-001`–`TDR-021`; (2) what a row
+  holds — the translation problem: the pattern, the question, the evidence
+  required, the typed gaps — never a Triviron answer; (3) the five
+  classifications, then mark the reality: only `METHOD` (3 rows) and
+  `EVIDENCE REQUIRED` (18 rows) are in use — `DECISION REQUIRED`, `PROPOSAL`
+  and `ESTABLISHED` all stand at zero, and nothing climbs that ladder
+  automatically; (4) read the zeros: evidence identified 0, candidates 0.
+- **Key sentence:** *"The register tells us what must be established. It does
+  not establish the answer."*
+- **Boundary warning:** the zeros are the programme's controlled evidence
+  position — never proof that Triviron lacks anything in reality
+  (`M7-S12`); and no appointment exists to imply (`M7-S10`).
+- **Example / analogy:** none required — the register's own reconciliation is
+  the exhibit.
+- **Transition cue:** "Let's walk the domains, three questions at a time."
+
+## Slide 5 — Domain 1: Coordination governance — `1.5 min`
+
+- **Opening cue:** "Before anyone opens a clash tool, three governance
+  questions have to have owners: what is coordination *for*, which document
+  *governs* it, and what counts as *one cycle*?"
+- **Explanation sequence:** (1) `TDR-001` — purpose: a governed statement in a
+  controlled document, not a software capability; (2) `TDR-002` — governing
+  document: something must govern meaning, and it may expressly defer detail —
+  but reference is not approval; (3) `TDR-003` — one cycle: a defined,
+  governed sequence with a governance-decided trigger; (4) for each: the
+  evidence kinds required, and the current position — `NONE IDENTIFIED`,
+  `NOT YET ESTABLISHED`.
+- **Key sentence:** *"Purpose, governing document, governed cycle — three
+  decisions, and a tool answers none of them."*
+- **Boundary warning:** Harrismith's purpose text, document split, cycle
+  steps, meetings and frequency stay behind (`M7-S14`, `M7-S15`); Harrismith's
+  own cycle-wording variance is cited only as the discipline of *recording* a
+  variance rather than harmonising it.
+- **Example / analogy (source-safe):** Harrismith records two cycle-step
+  wordings across two controlled sources and harmonises neither — that
+  *practice* is the transferable thing.
+- **Transition cue:** "A governed cycle needs functions. Who does what — next."
+
+## Slide 6 — Domain 2: Roles and authority — `1.5 min`
+
+- **Opening cue:** "Three allocation questions — and notice that none of them
+  is answered by an org chart alone, a job title, or a login."
+- **Explanation sequence:** (1) `TDR-004` — who coordinates: a *function*
+  first, a holder later, and an unfilled holder is a typed absence; (2)
+  `TDR-005` — technical ownership: the coordinating function manages the
+  process; the originating team owns the fix in its own working environment;
+  (3) `TDR-006` — verification: a distinct function *and* a separate
+  mandatoriness decision — even Harrismith carries an unresolved may-verify
+  variance, carried visibly; (4) the E14 lesson: if evidence arrives (say, a
+  controlled organisation chart), the *available/missing* position moves —
+  the requirement, candidate, authority and owner do not move automatically.
+- **Key sentences:** *"Function first; holder later; absence typed."* ·
+  *"Coordination transfers no technical authorship."*
+- **Boundary warning:** never name or imply a Triviron BIM Manager,
+  Coordinator, verifier, owner or authority (`M7-S04`, `M7-S16`); no
+  simulated function exists (`M7-S17`); allocation is not performance.
+- **Example / analogy:** none beyond the E14 evidence-arrival hypothetical,
+  already source-safe.
+- **Transition cue:** "Functions act on inputs — and inputs have rules of
+  their own."
+
+## Slide 7 — Domain 3: Inputs and federation — `1.5 min`
+
+- **Opening cue:** "Federation is where responsibility quietly leaks — unless
+  governance says it can't. Three questions stop the leak."
+- **Explanation sequence:** (1) `TDR-007` — the input set is governed and
+  registered, not whatever the platform shows; (2) `TDR-008` — readiness is
+  established before federation: visible ≠ selected ≠ suitable ≠ ready, and
+  consuming an input changes no information state; (3) `TDR-009` — the lens
+  principle: federation transfers no authorship, no technical ownership, no
+  deliverable status — and this row is classified **`METHOD`**: the principle
+  is reusable, which is *not* evidence Triviron has adopted it; (4) software
+  federation capability establishes no project governance.
+- **Key sentence:** *"Federation is a lens — it changes what you can see, not
+  who owns what."* *(teaching synthesis of the accepted `TDR-009` principle)*
+- **Boundary warning:** no container names, no `COORD-01`, no topology, no
+  discipline set, and **no platform named as a Triviron arrangement**
+  (`M7-S02`, `M7-S03`); federation is not approval and not publication.
+- **Example / analogy:** none required — the three refusals (authorship,
+  ownership, status) are the content.
+- **Transition cue:** "Once inputs are federated, they get checked. Against
+  what — and says who?"
+
+## Slide 8 — Domain 4: Checks and tolerances — `1.5 min`
+
+- **Opening cue:** "Every clash tool ships with defaults. Not one of them is
+  a project tolerance."
+- **Explanation sequence:** (1) `TDR-010` — interfaces and check types: a
+  governed choice against *this project's* interfaces; the interface matrix
+  is a controlled artefact, not a software output; (2) `TDR-011` — rules and
+  tolerances: governed decisions recorded per check; a `TBD` is meaningful
+  only inside an established scope — which is why even Harrismith's `TBD`
+  entries do not transfer; (3) `TDR-012` — approval: checks, rules and
+  tolerances need an identified approval authority, never inferred from a
+  job title or tool role; (4) name the exclusions plainly: the twelve
+  Harrismith checks, `CI-01`–`CI-12`, the six types, the `TBD` entries — none
+  is a starter value, likely value, default or recommendation.
+- **Key sentence:** *"A software default is not a project tolerance."*
+- **Boundary warning:** `M7-S05`, `M7-S06`, `M7-S13` (`TBD` ≠
+  `NOT YET ESTABLISHED`), `M7-S16`; all Triviron check and tolerance answers
+  remain `NOT YET ESTABLISHED`.
+- **Example / analogy (source-safe):** Harrismith's §11 tolerance table —
+  twelve proposed checks, every tolerance `TBD` — shows a project *refusing*
+  to let defaults stand in for decisions; the refusal transfers, the table
+  does not.
+- **Transition cue:** "Checks produce findings. What a finding becomes — and
+  who decides — is Domain 5."
+
+---
+
+## Slides 9–14 — `NOT YET DEVELOPED`
 
 One-sentence later purposes only; no delivery notes exist.
 
 | Slide | Later teaching purpose |
 |---:|---|
-| 4 | Introduce the 21-row decision backlog and its zero-answer state |
-| 5 | Domain 1 — coordination governance questions (`TDR-001`–`TDR-003`) |
-| 6 | Domain 2 — roles and authority questions (`TDR-004`–`TDR-006`) |
-| 7 | Domain 3 — inputs and federation questions (`TDR-007`–`TDR-009`) |
-| 8 | Domain 4 — checks and tolerances questions (`TDR-010`–`TDR-012`) |
 | 9 | Domain 5 — findings, Issues and statuses questions (`TDR-013`–`TDR-015`) |
 | 10 | Domain 6 — verification, evidence and completion questions (`TDR-016`–`TDR-018`) |
 | 11 | Domain 7 — publication and acceptance boundary questions (`TDR-019`–`TDR-021`) |
@@ -114,8 +226,8 @@ One-sentence later purposes only; no delivery notes exist.
 
 | Field | Value |
 |---|---|
-| Notes developed | **Slides 1–3** |
-| Slides 4–14 | **`NOT YET DEVELOPED`** |
+| Notes developed | **Slides 1–8** — Slides 1–3 `ACCEPTED after T7-D-R`; Slides 4–8 added in `T7-E` |
+| Slides 9–14 | **`NOT YET DEVELOPED`** |
 | Timing | **`20.0 minutes allocated — not measured`** |
 | Rehearsal | **None performed** |
 | Presentation production | **`NOT STARTED`** |

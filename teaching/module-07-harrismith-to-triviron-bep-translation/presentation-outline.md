@@ -1,11 +1,12 @@
 # Module 7 — Presentation Outline
 
-**Status:** **`TEACHING CONTENT IN DEVELOPMENT — T7-D PENDING CHATGPT
+**Status:** **`TEACHING CONTENT IN DEVELOPMENT — T7-E PENDING CHATGPT
 GOVERNANCE REVIEW`**
 
 **`TEACHING MATERIAL — NOT TRIVIRON GOVERNANCE`**
 
-**Slides 1–3 are developed. Slides 4–14 are architecture only —
+**Slides 1–3 are `ACCEPTED after T7-D-R`. Slides 4–8 are developed in `T7-E`
+and `PENDING CHATGPT GOVERNANCE REVIEW`. Slides 9–14 are architecture only —
 `NOT YET DEVELOPED`.** The teaching-content baseline is **not complete**.
 
 **Central teaching purpose.** *How do we use Harrismith as a reference
@@ -58,7 +59,7 @@ reality.
 
 ---
 
-## 3. Slide 1 — Where we are: Harrismith → Triviron — DEVELOPED
+## 3. Slide 1 — Where we are: Harrismith → Triviron — DEVELOPED — `ACCEPTED after T7-D-R`
 
 | # | Field | Value |
 |---|---|---|
@@ -75,7 +76,7 @@ reality.
 | 11 | What must not be said | *"We are creating the Triviron BEP"* or any equivalent; that a Triviron project appointment exists; that Module 7 produces project governance; that Modules 1–6 rehearsals or reviews are complete (they are deferred) |
 | 12 | Transition to next slide | *"Before we translate anything, we fix the rule that governs every minute of this module: what may move across, and what may not."* |
 
-## 4. Slide 2 — Translate the method, not the answers — DEVELOPED
+## 4. Slide 2 — Translate the method, not the answers — DEVELOPED — `ACCEPTED after T7-D-R`
 
 | # | Field | Value |
 |---|---|---|
@@ -92,7 +93,7 @@ reality.
 | 11 | What must not be said | Any sentence of the form *"Triviron will use…"*, *"Triviron should adopt…"* or *"you can start from Harrismith's values"*; nothing on the right-hand side may be softened into a "starter set" or "sensible default"; no arrow may be drawn from the Harrismith side to a Triviron answer |
 | 12 | Transition to next slide | *"If answers don't transfer, what does the work actually look like? It looks like a chain — with a hard stop in the middle."* |
 
-## 5. Slide 3 — The translation chain — DEVELOPED
+## 5. Slide 3 — The translation chain — DEVELOPED — `ACCEPTED after T7-D-R`
 
 | # | Field | Value |
 |---|---|---|
@@ -111,19 +112,98 @@ reality.
 
 ---
 
-## 6. Slides 4–14 — architecture only
+## 6. Slide 4 — The decision backlog: 21 questions, zero Triviron answers — DEVELOPED (T7-E)
+
+| # | Field | Value |
+|---|---|---|
+| 1 | Slide number | 4 |
+| 2 | Title | The decision backlog: 21 questions, zero Triviron answers |
+| 3 | Teaching purpose | Introduce the Translation Decision Register as the working record of Module 7 |
+| 4 | Timing allocation | **1.3 min** — allocated, not measured |
+| 5 | Audience takeaway | **The register tells us what must be established. It does not establish the answer** |
+| 6 | Visible content | The backlog shape: **seven domains × three questions = 21 rows**, `TDR-001`–`TDR-021`, one row per translation problem. The five translation classifications shown as a labelled strip — `METHOD` · `EVIDENCE REQUIRED` · `DECISION REQUIRED` · `PROPOSAL` · `ESTABLISHED` — with the current usage marked: **only `METHOD` (3) and `EVIDENCE REQUIRED` (18) are in use; the last three stand at zero**. The current-state panel: **controlled Triviron evidence identified `0` · candidate decisions `0` · `PROPOSAL` `0` · `ESTABLISHED` `0`**. Closing line: *typed absence is a valid result — zero candidate decisions is controlled progress, not failure* |
+| 7 | Key distinctions | Backlog ≠ populated BEP · a register row records the translation problem, never a Triviron answer · classification ≠ answer maturity earned automatically — progressing along the five labels is neither automatic nor inevitable · the zeros are the programme's evidence position, not a claim about real-world Triviron arrangements |
+| 8 | Source basis | [`translation-decision-register.md`](translation-decision-register.md) §1, §9–§10 (accepted register — row set, domain summary, reconciliation); [`translation-decision-register-schema.md`](translation-decision-register-schema.md) §3 (classification enumeration — accepted architecture) |
+| 9 | Register relationship | Direct — the slide *is* the register's introduction; every count shown is the accepted register's own reconciliation, quoted, not recalculated |
+| 10 | Applicable STOP conditions | **`M7-S10`** (a backlog for a *future* project — no appointment exists), **`M7-S12`** (zeros prove nothing about reality), **`M7-S13`** (status terms not interchangeable), **`M7-S15`**, **`M7-S18`** (no `ESTABLISHED` claim) |
+| 11 | What must not be said | That the register is, contains, or partially completes a Triviron BEP; that any row is "nearly answered"; that the five classifications are a maturity ladder the rows will climb on schedule; that the zeros mean Triviron has nothing in reality |
+| 12 | Transition to next slide | *"Twenty-one questions is abstract. Let's walk the seven domains, three questions at a time — starting where Module 6 started: what coordination is for."* |
+
+## 7. Slide 5 — Domain 1: Coordination governance — DEVELOPED (T7-E)
+
+| # | Field | Value |
+|---|---|---|
+| 1 | Slide number | 5 |
+| 2 | Title | Domain 1: Coordination governance |
+| 3 | Teaching purpose | Teach the three Domain 1 translation questions — `TDR-001`–`TDR-003` |
+| 4 | Timing allocation | **1.5 min** — allocated, not measured |
+| 5 | Audience takeaway | **Purpose → governing document → governed cycle** — three governance decisions a project must take before any coordination tool matters; none of the three is established in this programme's evidence for Triviron |
+| 6 | Visible content | The three questions as recorded: *What is coordination for?* (`TDR-001`) · *Which controlled document governs it?* (`TDR-002`) · *What constitutes and triggers one cycle?* (`TDR-003`) — each with its evidence-required kinds (appointment/brief/coordination requirement; document-architecture decision; cycle-definition decision) and its current position: evidence `NONE IDENTIFIED`, answer `NOT YET ESTABLISHED` |
+| 7 | Key distinctions | Software capability ≠ coordination purpose · document reference ≠ document approval (reference does not constitute approval) · a cycle trigger is a governance decision, not a software rhythm · differing source wording is recorded, never silently harmonised (the Harrismith cycle-wording variance is the worked example of *recording* a variance, not content to adopt) |
+| 8 | Source basis | Register `TDR-001`–`TDR-003` fields 3–9, 17 (accepted register); reference patterns behind them: `bep/Harrismith-Fire-Station-BEP.md` §8.1–§8.2, §8.8, §8.13, §13.6 and `supporting/coordination-review-strategy.md` §1–§2, §17 (controlled Harrismith — pattern only, no value imported) |
+| 9 | Register relationship | Direct — `TDR-001`, `TDR-002`, `TDR-003`; all three `EVIDENCE REQUIRED` |
+| 10 | Applicable STOP conditions | **`M7-S13`**, **`M7-S14`** (no Triviron document architecture or clause may be implied), **`M7-S15`** (no purpose text, architecture, cycle steps, meetings or frequency imported), **`M7-S18`** |
+| 11 | What must not be said | Harrismith's purpose statement, BEP/strategy split, cycle steps, meeting arrangements or any frequency — as content, example answer or default; any sentence implying Triviron's coordination purpose, governing document or cycle is known |
+| 12 | Transition to next slide | *"A governed cycle needs people with defined functions. Domain 2 asks who — without naming anyone."* |
+
+## 8. Slide 6 — Domain 2: Roles and authority — DEVELOPED (T7-E)
+
+| # | Field | Value |
+|---|---|---|
+| 1 | Slide number | 6 |
+| 2 | Title | Domain 2: Roles and authority |
+| 3 | Teaching purpose | Teach the three Domain 2 translation questions — `TDR-004`–`TDR-006` |
+| 4 | Timing allocation | **1.5 min** — allocated, not measured |
+| 5 | Audience takeaway | **Function → technical ownership → verification** — three separate allocation decisions, none inferable from a job title, a platform permission, or Harrismith's role model |
+| 6 | Visible content | The three questions as recorded: *Who coordinates?* (`TDR-004`) · *Who owns each technical response?* (`TDR-005`) · *Who verifies, and when is verification required?* (`TDR-006`) — each with its evidence-required kinds (organisation chart + appointment/contract + allocation decision; task-team structure + allocation decision; verification requirement + allocation and mandatoriness decision) and its current position: evidence `NONE IDENTIFIED`, holder and answer `NOT YET ESTABLISHED`. Note on `TDR-006`: even Harrismith carries an unresolved may-verify variance — carried visibly, not resolved on anyone's behalf |
+| 7 | Key distinctions | Function ≠ person · allocation ≠ holder · coordinator ≠ technical designer by default — coordination transfers no technical authorship · allocation ≠ performance · the verification *function* and the verification *trigger* (mandatoriness) are separate decisions · authority is never inferred from job title or platform permission · **evidence arrival changes the available/missing position, not automatically the requirement, candidate, authority or owner** (the corrected E14 lesson) |
+| 8 | Source basis | Register `TDR-004`–`TDR-006` fields 3–9, 12–13, 17 (accepted register); reference patterns: `supporting/information-management-responsibility-matrix.md` §3.5 (`X1`–`X4`), §3.7 (`A4`), `bep/Harrismith-Fire-Station-BEP.md` §5.6, §5.11, §8.10, `supporting/coordination-review-strategy.md` §16, §18–§19 (controlled Harrismith — pattern only); `translation-framework.md` §2.3–§2.5 |
+| 9 | Register relationship | Direct — `TDR-004`, `TDR-005`, `TDR-006`; all three `EVIDENCE REQUIRED` |
+| 10 | Applicable STOP conditions | **`M7-S01`** (no Harrismith role model transfer), **`M7-S04`** (no Triviron BIM Manager / Coordinator or holder established by this programme), **`M7-S16`** (no inferred authority), **`M7-S17`** (no simulated function), **`M7-S18`** |
+| 11 | What must not be said | Any named or implied Triviron BIM Manager, BIM Coordinator, task-team holder, verification holder, decision owner or authority holder; that the Harrismith `X`-allocations are a starting point; that verification mandatoriness has an obvious answer |
+| 12 | Transition to next slide | *"Functions act on inputs. Domain 3 asks which inputs enter a cycle, when they are ready — and what federation does and does not move."* |
+
+## 9. Slide 7 — Domain 3: Inputs and federation — DEVELOPED (T7-E)
+
+| # | Field | Value |
+|---|---|---|
+| 1 | Slide number | 7 |
+| 2 | Title | Domain 3: Inputs and federation |
+| 3 | Teaching purpose | Teach the three Domain 3 translation questions — `TDR-007`–`TDR-009` |
+| 4 | Timing allocation | **1.5 min** — allocated, not measured |
+| 5 | Audience takeaway | **Federation is a lens: it transfers no authorship, no technical ownership and no deliverable status** — and inputs must be governed and ready before any lens is applied |
+| 6 | Visible content | The three questions as recorded: *Which information containers enter each coordination cycle?* (`TDR-007`) · *What readiness conditions apply to those inputs?* (`TDR-008`) · *How is originator responsibility preserved through federation?* (`TDR-009`) — with evidence-required kinds (container inventory + task-team structure + coordination requirement; readiness/CDE governance decision; adopted federation-responsibility rule) and current positions: evidence `NONE IDENTIFIED`, answers `NOT YET ESTABLISHED`. `TDR-009`'s principle is marked **`METHOD`** — a reusable structural distinction, expressly **not** evidence that Triviron has adopted the rule |
+| 7 | Key distinctions | Governed input set ≠ whatever is visible in a platform · readiness must be established before federation — visible ≠ selected ≠ suitable ≠ ready · federation ≠ authorship transfer · federation ≠ approval · federation ≠ publication · software federation capability ≠ project governance |
+| 8 | Source basis | Register `TDR-007`–`TDR-009` fields 3–10, 17 (accepted register); reference patterns: `supporting/model-information-responsibility-matrix.md` §3.1, §3.4, `supporting/coordination-review-strategy.md` §4–§5, §8, `supporting/cde-workflow-state-strategy.md` `T3` (controlled Harrismith — pattern only, no container name, topology, platform mechanism or discipline set imported) |
+| 9 | Register relationship | Direct — `TDR-007` and `TDR-008` `EVIDENCE REQUIRED`; **`TDR-009` `METHOD`** — stated as such |
+| 10 | Applicable STOP conditions | **`M7-S02`** (no Harrismith CDE/topology transfer), **`M7-S03`** (no platform — ACC, Forma, Revit, Navisworks or any other — attributed to Triviron), **`M7-S12`**, **`M7-S15`**, **`M7-S18`** (`METHOD` reusability is not adoption evidence) |
+| 11 | What must not be said | Harrismith container names, `COORD-01`, folder topology, the six-discipline set, the federated-model construct or any platform mechanism — as content or example; any sentence naming a platform as a Triviron arrangement; that the federation principle's reusability means Triviron has adopted it |
+| 12 | Transition to next slide | *"Federated inputs get checked. Domain 4 asks which checks, against which rules — and who approves them."* |
+
+## 10. Slide 8 — Domain 4: Checks and tolerances — DEVELOPED (T7-E)
+
+| # | Field | Value |
+|---|---|---|
+| 1 | Slide number | 8 |
+| 2 | Title | Domain 4: Checks and tolerances |
+| 3 | Teaching purpose | Teach the three Domain 4 translation questions — `TDR-010`–`TDR-012` |
+| 4 | Timing allocation | **1.5 min** — allocated, not measured |
+| 5 | Audience takeaway | **Interface → governed check → governed rule/tolerance → approval authority** — a chain of governed choices; a software default is not a project tolerance, and no link of the chain is inherited from Harrismith |
+| 6 | Visible content | The three questions as recorded: *Which interfaces and check types apply?* (`TDR-010`) · *What rule or tolerance applies to each check?* (`TDR-011`) · *Who approves those checks, rules and tolerances?* (`TDR-012`) — with evidence-required kinds (task-team structure + check schedule / coordination requirement; tolerance decision + controlled standard; approval-allocation decision) and current positions: evidence `NONE IDENTIFIED`, answers `NOT YET ESTABLISHED`. The register's exclusions stated plainly: **the twelve Harrismith checks, `CI-01`–`CI-12`, the six check types and Harrismith's `TBD` tolerance entries do not transfer** — not as starter values, likely values, defaults or recommendations |
+| 7 | Key distinctions | Check selection is a governed choice made against the project's own interfaces · an interface matrix is a controlled artefact, not a software output · a software default is not a project tolerance · **`TBD` is meaningful only inside an established scope** — Harrismith's `TBD` entries sit inside Harrismith's check scope, so even the status does not transfer · approval authority cannot be inferred from a job title or tool role |
+| 8 | Source basis | Register `TDR-010`–`TDR-012` fields 3–9, 12, 17 (accepted register); reference patterns: `supporting/coordination-review-strategy.md` §9–§11, §26 and `supporting/information-management-responsibility-matrix.md` §3.7 `A2` (controlled Harrismith — pattern only); `translation-decision-register-schema.md` §4 (`TBD` rule — accepted architecture) |
+| 9 | Register relationship | Direct — `TDR-010`, `TDR-011`, `TDR-012`; all three `EVIDENCE REQUIRED` |
+| 10 | Applicable STOP conditions | **`M7-S05`** (no Harrismith checks or `CI-` identifiers), **`M7-S06`** (no Harrismith tolerances — including their `TBD` status), **`M7-S13`** (`TBD` ≠ `NOT YET ESTABLISHED`), **`M7-S16`** (no inferred approver), **`M7-S15`** |
+| 11 | What must not be said | Any of the twelve checks, any `CI-` identifier, any check type or any tolerance value — as a Triviron starter value, likely value, default or recommendation; any software clearance presented as a project tolerance; any implied approver |
+| 12 | Transition to next slide | *"Checks produce findings. Domain 5 asks what a finding becomes — and who decides that it becomes anything at all."* |
+
+## 11. Slides 9–14 — architecture only
 
 **Every slide below is `NOT YET DEVELOPED`.** Only number, title, purpose,
-timing and principal register/domain mapping are recorded. No field beyond
-these is populated in T7-D.
+timing and principal register/domain mapping are recorded.
 
 | Slide | Title | Purpose | Timing | Principal TDR / domain mapping | Development status |
 |---:|---|---|---:|---|---|
-| 4 | The decision backlog: 21 questions, zero Triviron answers | Introduce `TDR-001`–`TDR-021` | 1.3 | Whole register | **`NOT YET DEVELOPED`** |
-| 5 | Domain 1: Coordination governance | Teach `TDR-001`–`TDR-003` | 1.5 | Domain 1 | **`NOT YET DEVELOPED`** |
-| 6 | Domain 2: Roles and authority | Teach `TDR-004`–`TDR-006` | 1.5 | Domain 2 | **`NOT YET DEVELOPED`** |
-| 7 | Domain 3: Inputs and federation | Teach `TDR-007`–`TDR-009` | 1.5 | Domain 3 | **`NOT YET DEVELOPED`** |
-| 8 | Domain 4: Checks and tolerances | Teach `TDR-010`–`TDR-012` | 1.5 | Domain 4 | **`NOT YET DEVELOPED`** |
 | 9 | Domain 5: Findings, Issues and statuses | Teach `TDR-013`–`TDR-015` | 1.5 | Domain 5 | **`NOT YET DEVELOPED`** |
 | 10 | Domain 6: Verification, evidence and completion | Teach `TDR-016`–`TDR-018` | 1.5 | Domain 6 | **`NOT YET DEVELOPED`** |
 | 11 | Domain 7: Publication and acceptance boundary | Teach `TDR-019`–`TDR-021` | 1.5 | Domain 7 | **`NOT YET DEVELOPED`** |
@@ -133,14 +213,14 @@ these is populated in T7-D.
 
 ---
 
-## 7. Status
+## 12. Status
 
 | Field | Value |
 |---|---|
-| Slides developed | **1–3** |
-| Slides 4–14 | **`NOT YET DEVELOPED`** — architecture only |
+| Slides developed | **1–8** — Slides 1–3 **`ACCEPTED after T7-D-R`**; Slides 4–8 **`T7-E — PENDING CHATGPT GOVERNANCE REVIEW`** |
+| Slides 9–14 | **`NOT YET DEVELOPED`** — architecture only |
 | Teaching-content baseline | **NOT COMPLETE** |
 | Timing | **`20.0 minutes allocated — not measured`** — validated sum 20.0 |
-| Register | **`ACCEPTED after T7-C-R` — unchanged by T7-D**; an input, not a drafting surface |
+| Register | **`ACCEPTED after T7-C-R` — unchanged by T7-D and T7-E**; an input, not a drafting surface |
 | Presentation production | **`NOT STARTED`** |
 | Publication automation | **`PAUSED`** |

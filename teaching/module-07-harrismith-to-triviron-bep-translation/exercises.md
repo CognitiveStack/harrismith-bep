@@ -1,13 +1,14 @@
 # Module 7 — Exercises
 
-**Status:** **`TEACHING CONTENT IN DEVELOPMENT — T7-D PENDING CHATGPT
+**Status:** **`TEACHING CONTENT IN DEVELOPMENT — T7-E PENDING CHATGPT
 GOVERNANCE REVIEW`**
 
 **`TEACHING MATERIAL — NOT TRIVIRON GOVERNANCE`**
 
 Practice and self-assessment for the developed slides. **Exercises exist for
-Slides 1–3 only; Slides 4–14 are `NOT YET DEVELOPED` and have no exercises.**
-The count is coverage-driven, not targeted.
+Slides 1–8 (`E1`–`E14` for Slides 1–3, `ACCEPTED after T7-D-R`; `E15`–`E29`
+for Slides 4–8, added in `T7-E`). Slides 9–14 are `NOT YET DEVELOPED` and have
+no exercises.** The count is coverage-driven, not targeted.
 
 **No exercise asks the learner to invent a Triviron answer**, and no expected
 answer contains one.
@@ -220,6 +221,232 @@ answer contains one.
 
 ---
 
+## Slide 4 exercises — the decision backlog
+
+### E15
+
+- **Prompt:** A reviewer skims the register and says: *"Twenty-one populated
+  rows — so the Triviron BEP is about a third written."* Correct them.
+- **Expected reasoning / answer:** The register is an evidence-and-decision
+  **backlog**, not BEP content. A populated row records the translation
+  problem — pattern, question, evidence required, typed gaps — never a
+  Triviron answer. Zero candidate decisions exist, so zero BEP content exists;
+  the register's own reconciliation says its existence makes the future BEP
+  neither complete nor partially complete.
+- **Basis:** Register §1, §10; outline Slide 4.
+- **Misconception detected:** Backlog mistaken for populated BEP (`M7-S11`).
+
+### E16
+
+- **Prompt:** The five translation classifications are `METHOD`,
+  `EVIDENCE REQUIRED`, `DECISION REQUIRED`, `PROPOSAL`, `ESTABLISHED`. Is this
+  a maturity ladder every row climbs over time?
+- **Expected reasoning / answer:** No. Progression is neither automatic nor
+  inevitable: `DECISION REQUIRED` needs identified evidence, `PROPOSAL` needs
+  an expressly authorised proposal stage, `ESTABLISHED` needs a controlled
+  Triviron source or authorised decision. A row may legitimately remain
+  `METHOD` or `EVIDENCE REQUIRED` indefinitely — the classification records
+  the current basis, not a schedule.
+- **Basis:** Schema §3; outline Slide 4 field 7.
+- **Misconception detected:** Classification read as a timetable
+  (`M7-S18`).
+
+### E17
+
+- **Prompt:** Why does Slide 4 call zero candidate decisions "controlled
+  progress, not failure"?
+- **Expected reasoning / answer:** The module's method makes unknowns visible
+  and typed instead of guessed. With zero identified controlled Triviron
+  evidence, the only defensible register state is questions with typed
+  absences. Producing candidate answers now would violate the STOP rule —
+  that would be the failure. The zeros describe the programme's evidence
+  position only, never real-world Triviron arrangements.
+- **Basis:** Register §9–§10; `translation-framework.md` §2.5; outline Slide 4.
+- **Misconception detected:** Progress equated with populated answers
+  (`M7-S12`, `M7-S15`).
+
+## Slide 5 exercises — Domain 1: coordination governance
+
+### E18
+
+- **Prompt:** *"Our clash-detection tool defines what coordination is for."*
+  Diagnose against `TDR-001`.
+- **Expected reasoning / answer:** Software capability is not coordination
+  purpose. `TDR-001` requires the purpose to be explicitly governed and
+  stated in a controlled document — evidenced by appointment/brief/requirement
+  material and a governance decision. A tool can execute checks; it cannot
+  supply the project's reason for coordinating.
+- **Basis:** Register `TDR-001` fields 5, 7; outline Slide 5.
+- **Misconception detected:** Purpose delegated to software (`M7-S15`).
+
+### E19
+
+- **Prompt:** Harrismith's BEP expressly defers coordination detail to its
+  coordination strategy, and states that reference does not constitute
+  approval. What transfers to `TDR-002`, and what does not?
+- **Expected reasoning / answer:** Transfers as method: a governing document
+  must be identified; it may expressly defer detail to a subordinate resource
+  that declares its own status; referencing a document never approves it.
+  Does not transfer: Harrismith's document set, the BEP/strategy split itself,
+  and any document title or architecture — Triviron's document architecture
+  is its own future decision.
+- **Basis:** Register `TDR-002` fields 5–6; BEP §8.13, §13.6 pattern.
+- **Misconception detected:** Governing document confused with referenced
+  supporting document; architecture inherited by habit (`M7-S14`).
+
+### E20
+
+- **Prompt:** *"Coordination runs fortnightly — that's just how the software
+  schedules it."* What does `TDR-003` say about this?
+- **Expected reasoning / answer:** A cycle trigger is a governance decision —
+  event basis or frequency chosen and recorded by the project — not a
+  software rhythm or default schedule. And what constitutes *one* cycle must
+  itself be defined as a governed sequence. Both remain
+  `NOT YET ESTABLISHED` for Triviron, with no frequency imported from
+  anywhere.
+- **Basis:** Register `TDR-003` fields 5–6; outline Slide 5.
+- **Misconception detected:** Cycle trigger mistaken for software frequency
+  (`M7-S15`).
+
+## Slide 6 exercises — Domain 2: roles and authority
+
+### E21
+
+- **Prompt:** Distinguish the three objects in `TDR-004`: the coordination
+  *function*, its *allocation*, and its *holder*. Which can exist without the
+  others?
+- **Expected reasoning / answer:** A function is defined work (coordinating);
+  an allocation assigns that function within a governance structure; a holder
+  is the person/organisation filling it. A function can be defined with no
+  allocation; an allocation can exist with the holder recorded as a typed
+  absence. None may be inferred from a job title or login — and naming a
+  holder without evidence is prohibited.
+- **Basis:** Register `TDR-004` fields 5–6, 12–13; outline Slide 6.
+- **Misconception detected:** Function, allocation and holder collapsed into
+  one (`M7-S04`, `M7-S16`).
+
+### E22
+
+- **Prompt:** During a future cycle, who fixes a wall-services clash — the
+  coordinator or the originating team — and what does a matrix cell about
+  that allocation prove?
+- **Expected reasoning / answer:** As method: the coordinating function
+  manages the process; the originating team owns the technical response in
+  its own working environment — coordination transfers no technical
+  authorship. And an allocation cell proves only responsibility assignment,
+  never that the activity occurred: allocation is not performance. For
+  Triviron both the team structure and the allocation are
+  `NOT YET ESTABLISHED`.
+- **Basis:** Register `TDR-005` field 5; outline Slide 6 field 7.
+- **Misconception detected:** Coordinator as designer; allocation read as
+  performance evidence (`M7-S01`).
+
+### E23
+
+- **Prompt:** `TDR-006` contains two separate decisions, not one. Name them,
+  and explain why Harrismith cannot settle either for Triviron.
+- **Expected reasoning / answer:** (1) *Who* verifies — the verification
+  function and its allocation; (2) *when* verification is required — the
+  mandatoriness/trigger decision. Harrismith itself carries an unresolved
+  variance ("may verify" vs a defined step) and records no universal
+  verifier — a variance to be carried visibly, not resolved by convenience,
+  and certainly not resolved on Triviron's behalf.
+- **Basis:** Register `TDR-006` fields 4–6; outline Slide 6.
+- **Misconception detected:** Verification function and verification trigger
+  merged; a source variance quietly harmonised (`M7-S13`, `M7-S16`).
+
+## Slide 7 exercises — Domain 3: inputs and federation
+
+### E24
+
+- **Prompt:** A model is visible in the shared environment. Is it a
+  coordination input?
+- **Expected reasoning / answer:** Not by visibility. Cycle inputs are a
+  governed, registered set with recorded originators, and readiness must be
+  established before federation: visible ≠ selected ≠ suitable ≠ ready.
+  Consuming an input for coordination also changes no information state.
+  Which containers qualify, and what "ready" means, are Triviron decisions —
+  `NOT YET ESTABLISHED`.
+- **Basis:** Register `TDR-007`–`TDR-008` field 5; outline Slide 7.
+- **Misconception detected:** File availability mistaken for input readiness
+  (`M7-S02`).
+
+### E25
+
+- **Prompt:** Complete and justify: federation is not ______, not ______, and
+  not ______.
+- **Expected reasoning / answer:** Not authorship transfer, not approval, not
+  publication. Federation is a lens — it changes what can be seen together,
+  while authorship, technical ownership and deliverable status stay with the
+  originator. Approval and publication are separate governance acts with
+  their own authorities, and software federation capability establishes no
+  project governance.
+- **Basis:** Register `TDR-009` field 5; outline Slide 7 field 7.
+- **Misconception detected:** Federation read as responsibility, approval or
+  status transfer (`M7-S03`).
+
+### E26
+
+- **Prompt:** `TDR-009` is classified `METHOD`. Does that mean Triviron has
+  adopted the federation-responsibility rule?
+- **Expected reasoning / answer:** No. `METHOD` records that a structural
+  distinction is *reusable* — nothing more. Adoption would need a controlled
+  Triviron coordination requirement or governance decision (the row's field 7
+  evidence), which is `NONE IDENTIFIED`. Reusability is not adoption
+  evidence, and the row frames no candidate decision.
+- **Basis:** Register `TDR-009` fields 7–10, 20; schema §3.
+- **Misconception detected:** A `METHOD` classification read as an
+  established Triviron position (`M7-S18`).
+
+## Slide 8 exercises — Domain 4: checks and tolerances
+
+### E27
+
+- **Prompt:** *"Start Triviron with the twelve Harrismith checks and adjust
+  later."* Why does the register prohibit this, and what is the governed
+  alternative?
+- **Expected reasoning / answer:** The twelve checks, their `CI-`
+  identifiers and the six types are populated Harrismith values — expressly
+  excluded from transfer, even as a starter set. The governed alternative:
+  identify *this project's* interfaces from its own discipline structure,
+  then select check types against them as a governed choice recorded in a
+  controlled artefact. The interface matrix is a controlled artefact, not a
+  software output.
+- **Basis:** Register `TDR-010` fields 5–6, 20; outline Slide 8.
+- **Misconception detected:** Inherited check set replacing interface
+  identification (`M7-S05`, `M7-S15`).
+
+### E28
+
+- **Prompt:** Why is a Triviron tolerance today `NOT YET ESTABLISHED` rather
+  than `TBD` — when Harrismith's own tolerances are `TBD`?
+- **Expected reasoning / answer:** `TBD` marks an intentional deferral
+  *inside an established governance scope*: Harrismith has an established
+  check scope, so its per-check deferrals are `TBD`. No Triviron check scope
+  has been established in this programme, so there is no scope to defer
+  within — the position is `NOT YET ESTABLISHED`. And in neither case is a
+  software default a project tolerance: a tolerance is a governed decision
+  recorded per check.
+- **Basis:** Register `TDR-011` fields 5–6; schema §4; outline Slide 8.
+- **Misconception detected:** `TBD` used as a scope-free blank; defaults
+  standing in for decisions (`M7-S06`, `M7-S13`).
+
+### E29
+
+- **Prompt:** The project's senior technologist configures the clash tool.
+  May the register record them as the check/tolerance approval authority?
+- **Expected reasoning / answer:** No. Authority fields accept only an exact
+  source-grounded Triviron value or a typed absence — never an inference from
+  a job title, software permission or tool role. Configuring a tool is not
+  approving a governed check. Until a controlled responsibility/authority
+  decision is identified, `TDR-012` records the required authority *kind*
+  with holder `NOT YET ESTABLISHED`.
+- **Basis:** Register `TDR-012` fields 5, 12; schema §5.
+- **Misconception detected:** Approval authority inferred from role or tool
+  access (`M7-S16`, `M7-S17`).
+
+---
+
 ## Coverage map
 
 | Required distinction | Exercises |
@@ -231,11 +458,32 @@ answer contains one.
 | Typed absence vs invented content | E11, E13 |
 | STOP before candidate decision | E9, E10, E14 |
 
+**Slides 4–8 coverage (T7-E):**
+
+| Required distinction | Exercises |
+|---|---|
+| Backlog vs populated BEP | E15 |
+| Classification vs answer | E16, E26 |
+| Coordination purpose vs software capability | E18 |
+| Governing document vs referenced supporting document | E19 |
+| Cycle trigger vs software frequency | E20 |
+| Function vs holder | E21 |
+| Coordination vs technical ownership | E22 |
+| Allocation vs performance | E22 |
+| Verification function vs verification trigger | E23 |
+| Input readiness vs mere file availability | E24 |
+| Federation vs authorship/approval/status transfer | E25 |
+| Interface identification vs inherited check set | E27 |
+| Project tolerance vs software default | E28 |
+| `TBD` vs `NOT YET ESTABLISHED` | E28 |
+| Approval authority vs assumed job title | E29 |
+| Zeros vs real-world nonexistence | E17 |
+
 ## Status
 
 | Field | Value |
 |---|---|
-| Exercises | **14** — `E1`–`E14`, Slides 1–3 only; coverage-driven |
-| Slides 4–14 exercises | **None — `NOT YET DEVELOPED`** |
+| Exercises | **29** — `E1`–`E14` (Slides 1–3, `ACCEPTED after T7-D-R`) · `E15`–`E29` (Slides 4–8, T7-E); coverage-driven |
+| Slides 9–14 exercises | **None — `NOT YET DEVELOPED`** |
 | Triviron answers requested or supplied | **None** |
 | Publication automation | **`PAUSED`** |
