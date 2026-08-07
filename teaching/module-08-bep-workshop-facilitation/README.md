@@ -6,11 +6,12 @@
 
 Teaching content **`IN DEVELOPMENT — NOT COMPLETE`**: presentation
 architecture **`ACCEPTED after T8-C-R`**; **Slides 1–3 `ACCEPTED after
-T8-C-R`**; **Slides 4–8 developed (`T8-D`) — `PENDING CHATGPT GOVERNANCE
-REVIEW`**; **Slides 9–14 `NOT YET DEVELOPED`**; presenter notes Slides 1–8;
-exercises **Slides 1–8 only** (`E1`–`E27`). Visual specification
-**`NOT STARTED`** · presentation production **`NOT STARTED`** · publication
-automation **`PAUSED`**.
+T8-C-R`** (E4/E10 wording accepted in `T8-C-R2`); **Slides 4–8 `ACCEPTED
+after T8-D-R`**; **Slides 9–12 developed (`T8-E`) — `PENDING CHATGPT
+GOVERNANCE REVIEW`**; **Slides 13–14 `NOT YET DEVELOPED`**; presenter notes
+Slides 1–12; exercises **Slides 1–12 only** (`E1`–`E40`). Visual
+specification **`NOT STARTED`** · presentation production **`NOT STARTED`** ·
+publication automation **`PAUSED`**.
 
 **No actual workshop is held, scheduled, simulated or implied by this
 module.**
@@ -163,5 +164,8 @@ teaching sources or the accepted Translation Decision Register.**
 | **T8-B** | Architecture baseline — four files | ✅ **ACCEPTED** |
 | **T8-C** | Presentation architecture (fourteen slides / 20 minutes) · **Slides 1–3 developed** · presenter notes and exercises `E1`–`E12` for Slides 1–3 | ✅ **ACCEPTED after T8-C-R** |
 | **T8-C-R** | Discussion / consensus / meeting-record wording corrections | ✅ **COMPLETE** |
-| **T8-D** | **Slides 4–8 developed** — the BEFORE phase and the DURING entry · presenter notes and exercises `E13`–`E27` | **`TEACHING CONTENT IN DEVELOPMENT — PENDING CHATGPT GOVERNANCE REVIEW`** |
-| Later | Slides 9–14 development · visuals · production | **Not started — each requires its own authorised increment** |
+| **T8-D** | **Slides 4–8 developed** — the BEFORE phase and the DURING entry · presenter notes and exercises `E13`–`E27` | ✅ **ACCEPTED after T8-D-R** |
+| **T8-D-R** | Scenario-labelling and source-boundary wording corrections | ✅ **COMPLETE** |
+| **T8-C-R2** | Inherited E4/E10 hypothetical-workshop wording bounded | ✅ **ACCEPTED** |
+| **T8-E** | **Slides 9–12 developed** — the decision states, unresolved outputs, decision recording, and controlled updates/verification · presenter notes and exercises `E28`–`E40` | **`TEACHING CONTENT IN DEVELOPMENT — PENDING CHATGPT GOVERNANCE REVIEW`** |
+| Later | Slides 13–14 development · visuals · production | **Not started — each requires its own authorised increment** |

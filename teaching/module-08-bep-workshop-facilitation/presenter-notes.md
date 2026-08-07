@@ -1,6 +1,6 @@
 # Module 8 — Presenter Notes
 
-**Status:** **`TEACHING CONTENT IN DEVELOPMENT — T8-D PENDING CHATGPT
+**Status:** **`TEACHING CONTENT IN DEVELOPMENT — T8-E PENDING CHATGPT
 GOVERNANCE REVIEW`**
 
 **`TEACHING MATERIAL — NOT TRIVIRON GOVERNANCE`**
@@ -10,10 +10,10 @@ word-for-word script**. [`presentation-outline.md`](presentation-outline.md)
 is the controlling teaching content; where a cue and the outline differ, the
 outline is correct.
 
-**Notes exist for Slides 1–8 (Slides 1–3 `ACCEPTED after T8-C-R`; Slides 4–8
-added in `T8-D`). Slides 9–14 are `NOT YET DEVELOPED`.** All times are pacing
-allocations — nothing has been rehearsed or measured. **No actual workshop is
-held, scheduled or implied.**
+**Notes exist for Slides 1–12 (Slides 1–3 `ACCEPTED after T8-C-R`; Slides
+4–8 `ACCEPTED after T8-D-R`; Slides 9–12 added in `T8-E`). Slides 13–14 are
+`NOT YET DEVELOPED`.** All times are pacing allocations — nothing has been
+rehearsed or measured. **No actual workshop is held, scheduled or implied.**
 
 ---
 
@@ -227,16 +227,136 @@ held, scheduled or implied.**
 
 ---
 
-## Slides 9–14 — `NOT YET DEVELOPED`
+## Slide 9 — Discussion, option, proposal, decision — `1.5 min`
+
+- **Opening cue:** "Right now, is the room discussing, weighing an option,
+  forming a proposal — or recording a governed decision? If the facilitator
+  can't answer that, nobody can."
+- **Explanation sequence:** (1) define the four states — discussion
+  (conversation, reasoning, challenge, clarification, interpretation);
+  option (a possible course being considered); proposal (a candidate
+  position put forward); governed decision (actually exercised through the
+  governed route by the established authority, and recorded); (2) break the
+  pipeline expectation — a conversation may stay discussion, surface options
+  without proposals, produce several proposals, end unresolved, or generate
+  an evidence request or decision requirement; where the established
+  authority genuinely acts through the governed route, it may include or
+  lead to a governed decision; (3) the precision pair: **discussion alone
+  establishes no governed decision; consensus alone establishes no
+  authorised decision**; (4) the working-status trap: a Working `APPROVED`
+  is never `APPROVED GOVERNANCE`.
+- **Key sentence:** *"Facilitation should make it obvious whether the room
+  is discussing, considering an option, forming a proposal or recording a
+  governed decision."* — teaching synthesis.
+- **Boundary warning:** never say discussion decides nothing or that nothing
+  can be decided in a workshop — the boundary is *alone establishes no
+  governed decision*; never require a proposal to progress (`M8-S04`,
+  `M8-S10`, `M8-S11`).
+- **Source-safe illustration:** the workshop template says it in two lines —
+  *"Options are not decisions"*, *"A proposal is not an approval"*
+  (`FOR REVIEW · Authority: None · Not approved`).
+- **Transition cue:** "And when no governed decision can be earned yet?
+  Handled precisely, that's still a productive session."
+
+## Slide 10 — Unresolved matters, actions and evidence requests — `1.5 min`
+
+- **Opening cue:** "The most dangerous moment in a workshop is the urge to
+  leave with an answer. Here's what to leave with instead, when the answer
+  isn't earned."
+- **Explanation sequence:** (1) the legitimate outputs — clarification ·
+  recorded reasoning · evidence request · follow-up action · proposal ·
+  recognised decision requirement · unresolved matter · intentional
+  deferral only where the strict `TBD` conditions hold — and no session
+  must produce them all; (2) the `TBD` guard: intentional deferral **within
+  an already established governance scope** — never unknown, unchecked,
+  missing evidence, a blank, or a synonym for `UNRESOLVED`; (3) actions:
+  owned by functions; assignment transfers no authorship or technical
+  responsibility; and **no due-date convention exists — none is invented**;
+  (4) parking is visibility, not resolution.
+- **Key sentence:** *"A controlled unresolved result is better than a
+  fabricated decision."* — teaching synthesis; the point is traceability
+  and precision, not celebrating open items.
+- **Boundary warning:** unresolved never drifts into "basically agreed"
+  (`M8-S10`); unknowns never become `TBD` (`M8-S09`); no invented dates,
+  periods or escalation clocks; an evidence request does not decide, approve
+  or create authority (`M8-S07`).
+- **Source-safe illustration:** the Working Register's own rule — *"Dates
+  are recorded only where actually known. None is invented"* (`FOR REVIEW ·
+  Authority: None · Not approved`).
+- **Transition cue:** "Sometimes though, the authority is there and the
+  decision is real. Then everything depends on how it's recorded."
+
+## Slide 11 — Record the decision — and the authority — `1.5 min`
+
+- **Opening cue:** "Years later, nobody will care how good the meeting felt.
+  They'll ask three things: what was decided, on whose authority, and where
+  is the record."
+- **Explanation sequence:** (1) two record kinds: the workshop/working
+  record — discussion, evidence considered, options, proposals, actions,
+  unresolved matters, references to decisions; where it is based on
+  `working/` it carries `FOR REVIEW · Authority: None · Not approved`, and
+  its own `APPROVED` status never creates `APPROVED GOVERNANCE`; (2) the
+  governed decision record — where a decision genuinely occurs, the
+  appropriate controlled record makes it traceable: what was decided, the
+  authority basis, status, evidence basis, affected destination, and
+  implementation/verification linkage where applicable (the register
+  pattern, not an invented template); (3) the boundary, precisely: a
+  workshop record or minutes **may** form part of evidence, reference a
+  decision, support traceability — it is **not automatically** approval or
+  governed decision evidence.
+- **Key sentence:** *"A governed decision must be traceable to the decision,
+  its authority and its controlled record — not merely to the fact that a
+  meeting occurred."* — teaching synthesis grounded in the controlled
+  register pattern and BEP §8.9.
+- **Boundary warning:** never say minutes can never record a decision — the
+  boundary is *not automatically* (`M8-S05`); no invented Triviron record,
+  ID, holder, date or status (`M8-S12`); the facilitator's record confers
+  nothing (`M8-S02`).
+- **Illustration:** BEP §8.9's own line carries the slide — *"a decision
+  nobody can produce afterwards did not happen"* (controlled).
+- **Transition cue:** "A recorded decision still hasn't changed a single
+  document. The last stretch is controlled updates and verification."
+
+## Slide 12 — After: controlled updates and verification — `1.5 min`
+
+- **Opening cue:** "The workshop is over, the decision is recorded — and
+  every controlled document is still exactly as it was. That's correct, and
+  here's the route that changes it."
+- **Explanation sequence:** (1) draw the safe route: workshop discussion /
+  working record → where governance significance exists, the governed
+  decision route → controlled decision record → where authorised, controlled
+  implementation → verification / traceability; (2) the prohibition on the
+  slide: **no automatic `workshop → BEP edit` route**; (3) keep the three
+  acts apart — decision ≠ implementation ≠ verification; a destination entry
+  is not authority to edit; a governed decision is not a completed
+  implementation; an implementation is not verified until the verification
+  is evidenced; (4) destinations stay conceptual classes only — BEP clause,
+  matrices, schedules, strategies, appendix, register — no Triviron
+  destination, section number or filename; (5) verification evidence is not
+  recipient acceptance unless controlled governance establishes that
+  relationship — and publication remains a separate, unauthorised matter.
+- **Key sentence:** *"A governed decision reaches the affected controlled
+  artefact only through its authorised implementation route; implementation
+  and verification remain separate."* — teaching synthesis grounded in the
+  controlled decision/change patterns (BEP §12.7–§12.9).
+- **Boundary warning:** tool permissions authorise nothing (`M8-S15`);
+  workshop conclusion approves nothing; verification ≠ acceptance; nothing
+  here implies any decision is implemented or verified, or that publication
+  is authorised (`M8-S11`, `M8-S13`).
+- **Source-safe illustration:** WP8's line — *"A decision made is not a
+  change completed"* (`FOR REVIEW · Authority: None · Not approved`).
+- **Transition cue:** "Updates routed, verification pending, unresolved
+  matters visible — now end the session properly. Concluding and follow-up,
+  next." *(Slides 13–14 continue from here — `NOT YET DEVELOPED`.)*
+
+---
+
+## Slides 13–14 — `NOT YET DEVELOPED`
 
 One-line architecture stubs only; no delivery notes exist.
 
 | Slide | Later teaching purpose |
 |---:|---|
-| 9 | Discussion · option · proposal · decision — kept apart |
-| 10 | Unresolved matters, actions and evidence requests as legitimate outputs |
-| 11 | Recording decisions and authority — `Working APPROVED ≠ APPROVED GOVERNANCE` |
-| 12 | Controlled updates and verification — no `workshop → BEP edit` |
 | 13 | Conclude and follow up — no invented closure criterion |
 | 14 | The facilitation control checklist — never become the authority |
 
@@ -246,8 +366,8 @@ One-line architecture stubs only; no delivery notes exist.
 
 | Field | Value |
 |---|---|
-| Notes developed | **Slides 1–8** — Slides 1–3 `ACCEPTED after T8-C-R`; Slides 4–8 added in `T8-D` |
-| Slides 9–14 | **`NOT YET DEVELOPED`** |
+| Notes developed | **Slides 1–12** — Slides 1–3 `ACCEPTED after T8-C-R`; Slides 4–8 `ACCEPTED after T8-D-R`; Slides 9–12 added in `T8-E` |
+| Slides 13–14 | **`NOT YET DEVELOPED`** |
 | Timing | **`20.0 minutes allocated — not measured`** |
 | Rehearsal | **None performed** |
 | Presentation production | **`NOT STARTED`** |

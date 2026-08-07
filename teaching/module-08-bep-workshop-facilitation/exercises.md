@@ -1,15 +1,17 @@
 # Module 8 — Exercises
 
-**Status:** **`TEACHING CONTENT IN DEVELOPMENT — T8-D PENDING CHATGPT
+**Status:** **`TEACHING CONTENT IN DEVELOPMENT — T8-E PENDING CHATGPT
 GOVERNANCE REVIEW`**
 
 **`TEACHING MATERIAL — NOT TRIVIRON GOVERNANCE`**
 
 Practice and self-assessment for the developed slides. **Exercises exist for
-Slides 1–8 (`E1`–`E12` for Slides 1–3, `ACCEPTED after T8-C-R`; `E13`–`E27`
-for Slides 4–8, added in `T8-D`). Slides 9–14 are `NOT YET DEVELOPED` and
-have no exercises.** The count is coverage-driven, not targeted. Module 8
-exercise IDs are their own series and are unrelated to any other module's.
+Slides 1–12 (`E1`–`E12` for Slides 1–3, `ACCEPTED after T8-C-R` with the
+E4/E10 wording accepted in `T8-C-R2`; `E13`–`E27` for Slides 4–8, `ACCEPTED
+after T8-D-R`; `E28`–`E40` for Slides 9–12, added in `T8-E`). Slides 13–14
+are `NOT YET DEVELOPED` and have no exercises.** The count is
+coverage-driven, not targeted. Module 8 exercise IDs are their own series and
+are unrelated to any other module's.
 
 **No exercise asks the learner to invent participant names, a facilitator, a
 chair, authority, a Triviron decision, a workshop date, an agenda value or a
@@ -465,6 +467,233 @@ explicitly hypothetical.
 
 ---
 
+## Slide 9 exercises — discussion, option, proposal, decision
+
+### E28
+
+- **Prompt:** Hypothetical scenario: over twenty minutes a room debates an
+  interface question, surfaces three possible approaches, and one
+  participant writes up the second approach as a recommendation. Classify
+  what exists at that point — and say what does not.
+- **Expected reasoning / answer:** Discussion (the debate and reasoning);
+  three options (possible courses under consideration); one proposal (a
+  candidate position put forward). What does not exist: a governed decision —
+  none of the four states has crossed into one, because no appropriate
+  established authority has exercised its function through the governed
+  route and recorded the outcome. The four states are conditions, not a
+  pipeline: the conversation could legitimately have stopped at any of them.
+- **Basis:** Outline Slide 9 fields 6–7; framework §3.
+- **Misconception detected:** A written-up recommendation read as a decision
+  (`M8-S11`).
+
+### E29
+
+- **Prompt:** Hypothetical scenario: the whole room, including every invited
+  function, agrees the proposal is right. The facilitator says "then we're
+  decided." Correct the facilitator precisely.
+- **Expected reasoning / answer:** Consensus alone establishes no authorised
+  decision, and discussion alone establishes no governed decision. Agreement
+  makes the proposal strong; it does not make it decided. "Decided" can be
+  claimed only if the appropriate established authority exercises its
+  decision function through the governed route and the outcome is recorded
+  in the appropriate controlled record — an act separate from attendance,
+  consensus and facilitation. Until then the room holds a well-supported
+  proposal. (Hypothetical — no such workshop is recorded or established in
+  this programme.)
+- **Basis:** Outline Slide 9 field 6 precision strip; framework §4.
+- **Misconception detected:** Consensus converted into an authorised
+  decision (`M8-S04`).
+
+### E30
+
+- **Prompt:** A working record later shows the matter's Working Process
+  status as `APPROVED`. What does that status establish, in the Working
+  Process's own words?
+- **Expected reasoning / answer:** Only that the working process reached an
+  approved outcome or route — the Working Process itself states that a
+  Working `APPROVED` does not create `APPROVED GOVERNANCE`. The
+  authoritative governance decision belongs in the Governance & Decision
+  Register and nowhere else. The working family's status remains
+  `FOR REVIEW · Authority: None · Not approved`, and nothing in it by itself
+  changes approved governance.
+- **Basis:** WP9/WP6 (working pattern, `FOR REVIEW · Authority: None · Not
+  approved`); outline Slide 9 field 7.
+- **Misconception detected:** A working status read as governance approval
+  (`M8-S11`).
+
+## Slide 10 exercises — unresolved matters, actions and evidence requests
+
+### E31
+
+- **Prompt:** Hypothetical scenario: a matter ends the session unresolved
+  after long discussion, and a participant suggests minuting it as "agreed
+  in principle" so momentum isn't lost. Diagnose.
+- **Expected reasoning / answer:** An `UNRESOLVED` matter does not become
+  approved because it was discussed at length, consensus seemed near, or
+  the session ended. "Agreed in principle" is a fabricated decision wearing
+  soft words — the exact failure the typed-outputs discipline prevents. The
+  correct record: the reasoning, any proposal, the recognised decision
+  requirement, and the matter held visibly unresolved. A controlled
+  unresolved result is better than a fabricated decision.
+- **Basis:** Outline Slide 10 fields 5, 7; `M8-S10`.
+- **Misconception detected:** Momentum converting unresolved into approved
+  (`M8-S10`).
+
+### E32
+
+- **Prompt:** May a facilitator write `TBD` against a matter whose evidence
+  was simply never gathered?
+- **Expected reasoning / answer:** No. `TBD` means intentional deferral
+  **within an already established governance scope** — a deliberate,
+  scoped choice to decide later. Ungathered evidence is an unknown, and the
+  honest outputs are an evidence request and the matter's actual typed
+  state. Writing `TBD` would disguise an unknown as a decision-shaped
+  deferral.
+- **Basis:** Outline Slide 10 field 6 `TBD` guard; accepted Module 7
+  semantics (cited, not merged).
+- **Misconception detected:** Unknown dressed as `TBD` (`M8-S09`).
+
+### E33
+
+- **Prompt:** Hypothetical scenario: the session assigns "obtain the missing
+  interface evidence" to the coordination function. The recorder starts
+  adding "due Friday" to make the action trackable. Assess both halves.
+- **Expected reasoning / answer:** The assignment is a legitimate output —
+  an action owned by a function; it transfers no authorship or technical
+  responsibility for whatever the evidence concerns. The due date is not:
+  no controlled action-due-date convention exists in the current source set,
+  and dates are recorded only where actually known or expressly established
+  — this hypothetical establishes none, so the date field stays absent.
+  Trackability comes from the owning function and the visible action, not
+  from an invented deadline.
+- **Basis:** Outline Slide 10 field 6 action boundary; Working Register
+  dates rule (working pattern, `FOR REVIEW · Authority: None · Not
+  approved`).
+- **Misconception detected:** Invented due date; assignment read as
+  ownership (`M8-S06`).
+
+### E34
+
+- **Prompt:** Distinguish an evidence request from a decision, and say what
+  each changes.
+- **Expected reasoning / answer:** An evidence request changes the *evidence
+  position's future* — it tasks a function with identifying controlled
+  evidence against a stated requirement. It does not decide, approve or
+  create authority. A governed decision changes the
+  *governed position* — and only when the established authority exercises
+  its function through the governed route. A session that produces only
+  evidence requests has still moved the matter forward, traceably.
+- **Basis:** Outline Slide 10 field 7; framework §2 steps 3–5, §3 step 7.
+- **Misconception detected:** Evidence request read as an outcome-decision
+  (`M8-S07`).
+
+## Slide 11 exercises — record the decision and the authority
+
+### E35
+
+- **Prompt:** Hypothetical scenario: an excellent workshop record captures
+  the discussion, options, a proposal and an action list. Someone files it
+  as "the decision record" for the matter. What is wrong, and what would a
+  genuine governed decision record add?
+- **Expected reasoning / answer:** The workshop record is the wrong kind of
+  record: it may form part of evidence, reference decisions and support
+  traceability, but it is **not automatically** approval or governed
+  decision evidence — and where it is working material it carries
+  `FOR REVIEW · Authority: None · Not approved`. A genuine governed decision
+  record, in the appropriate controlled register, would make traceable: what
+  was decided, the decision authority and its basis, the status, the
+  evidence basis, the affected destination, and the implementation/
+  verification linkage where applicable.
+- **Basis:** Outline Slide 11 field 6; register pattern (controlled);
+  `M8-S05`.
+- **Misconception detected:** Meeting record filed as decision record
+  (`M8-S05`).
+
+### E36
+
+- **Prompt:** Why does traceability require the decision, the authority
+  **and** the controlled record together — not any one alone?
+- **Expected reasoning / answer:** A decision without recorded authority
+  cannot show it was validly taken; an authority without a recorded decision
+  has decided nothing demonstrable; a record without either is a note. Only
+  the three together let a later reader answer *what was decided, on whose
+  authority, with what status, where* — and *"a decision nobody can produce
+  afterwards did not happen."*
+- **Basis:** Outline Slide 11 field 5; BEP §8.9 (controlled).
+- **Misconception detected:** Any single element treated as sufficient
+  traceability.
+
+### E37
+
+- **Prompt:** While teaching Slide 11, may the presenter sketch a filled
+  example — say, a decision ID, an approver and a date — "just to make it
+  concrete"?
+- **Expected reasoning / answer:** No. No Triviron register ID, decision ID,
+  approver name, authority holder, date or status value for an actual
+  matter may be invented — a filled example would read as evidence that a
+  decision or holder exists. The concrete teaching device is the **field
+  anatomy** (what traceability must show), kept blank, with typed absence
+  where a value is not established.
+- **Basis:** Outline Slide 11 fields 8, 11; `M8-S12`.
+- **Misconception detected:** Illustrative values hardening into asserted
+  facts (`M8-S12`).
+
+## Slide 12 exercises — controlled updates and verification
+
+### E38
+
+- **Prompt:** Hypothetical scenario: a governed decision has been properly
+  taken and recorded, naming the responsibility matrix as its destination.
+  The matrix is edited that afternoon and the matter is declared finished.
+  Identify every step that was skipped.
+- **Expected reasoning / answer:** Two at least. The edit required
+  **authorised implementation** — a destination entry in the decision record
+  is not authority to edit, and implementation follows the authorised route,
+  not proximity to the decision. And "finished" required **verification** —
+  an implementation is not verified until the required verification is
+  evidenced; a governed decision is not a completed implementation, and a
+  completed edit is not a verified one. (Hypothetical — no such decision is
+  recorded or established in this programme.)
+- **Basis:** Outline Slide 12 fields 6–7; BEP §12.7–§12.9 (controlled);
+  WP8.
+- **Misconception detected:** Decision, implementation and verification
+  collapsed (`M8-S11`).
+
+### E39
+
+- **Prompt:** Why is there no `workshop → BEP edit` route even after a
+  successful session — and what is the route?
+- **Expected reasoning / answer:** Because a workshop output is discussion,
+  proposals and working records — none of which is a governed decision or
+  implementation authority. The safe route: workshop discussion / working
+  record → where governance significance exists, the governed decision
+  route → controlled decision record → where authorised, controlled
+  implementation → verification / traceability. Every arrow is a distinct
+  governed step; skipping any of them turns a conversation into an
+  ungoverned document change.
+- **Basis:** Outline Slide 12 field 6; framework §5; source-map §2.
+- **Misconception detected:** Session success read as edit authorisation
+  (`M8-S11`, `M8-S13`).
+
+### E40
+
+- **Prompt:** An implementation has been verified against its governed
+  decision. A participant concludes the deliverable is therefore accepted
+  and can be published. Diagnose both leaps.
+- **Expected reasoning / answer:** Verification evidence shows the
+  implementation matches the decision — it is not recipient acceptance
+  unless controlled governance establishes that relationship, and acceptance
+  is a distinct act by the recipient under its own arrangement. Publication
+  is further still: a separately authorised act, and nothing in this
+  programme authorises one. Tool permissions to move or publish files change
+  none of this.
+- **Basis:** Outline Slide 12 field 7; Module 6/7 act distinctions (teaching
+  interpretation); `M8-S15`.
+- **Misconception detected:** Verification inflated into acceptance and
+  publication (`M8-S13`, `M8-S15`).
+
+---
+
 ## Coverage map
 
 | Required distinction | Exercises |
@@ -511,11 +740,40 @@ explicitly hypothetical.
 | Legitimate output when authority unavailable | E26 |
 | Record / route / park distinction | E27 |
 
+**Slides 9–12 coverage (T8-E):**
+
+| Required distinction | Exercises |
+|---|---|
+| Discussion vs governed decision | E28, E29 |
+| Option vs decision | E28 |
+| Proposal vs approval | E28, E29 |
+| Consensus vs authorised decision | E29 |
+| Non-linear nature of the four concepts | E28 |
+| Working `APPROVED` vs `APPROVED GOVERNANCE` | E30 |
+| Unresolved vs approved | E31 |
+| Unknown vs `TBD` | E32 |
+| Action vs decision | E33, E34 |
+| Action owner vs technical owner | E33 |
+| Evidence request vs decision | E34 |
+| Parking vs resolving | E31 |
+| No invented due date | E33 |
+| Workshop record vs governed decision record | E35 |
+| Meeting record as evidence, not automatic authority | E35 |
+| Authority basis / decision traceability | E36 |
+| Working status vs governance status | E30, E35 |
+| No invented holder or decision | E37 |
+| Decision vs implementation | E38 |
+| Implementation vs verification | E38 |
+| Destination vs authority to edit | E38 |
+| No `workshop → BEP edit` | E39 |
+| Verification vs acceptance | E40 |
+| Permissions vs authority | E40 |
+
 ## Status
 
 | Field | Value |
 |---|---|
-| Exercises | **27** — `E1`–`E12` (Slides 1–3, `ACCEPTED after T8-C-R`) · `E13`–`E27` (Slides 4–8, T8-D); coverage-driven |
-| Slides 9–14 exercises | **None — `NOT YET DEVELOPED`** |
+| Exercises | **40** — `E1`–`E12` (Slides 1–3, `ACCEPTED after T8-C-R`; E4/E10 wording accepted in `T8-C-R2`) · `E13`–`E27` (Slides 4–8, `ACCEPTED after T8-D-R`) · `E28`–`E40` (Slides 9–12, T8-E); coverage-driven |
+| Slides 13–14 exercises | **None — `NOT YET DEVELOPED`** |
 | Triviron answers, participants or workshop values requested or supplied | **None** |
 | Publication automation | **`PAUSED`** |
