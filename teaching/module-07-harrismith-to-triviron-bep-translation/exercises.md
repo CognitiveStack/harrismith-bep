@@ -273,9 +273,12 @@ answer contains one.
   Diagnose against `TDR-001`.
 - **Expected reasoning / answer:** Software capability is not coordination
   purpose. `TDR-001` requires the purpose to be explicitly governed and
-  stated in a controlled document — evidenced by appointment/brief/requirement
-  material and a governance decision. A tool can execute checks; it cannot
-  supply the project's reason for coordinating.
+  stated in a controlled document — evidenced by appointment/contract
+  information, client / appointing-party information requirements, a project
+  brief, and **a coordination requirement or governance decision record**
+  stating the project's coordination purpose (either route can carry the
+  purpose statement). A tool can execute checks; it cannot supply the
+  project's reason for coordinating.
 - **Basis:** Register `TDR-001` fields 5, 7; outline Slide 5.
 - **Misconception detected:** Purpose delegated to software (`M7-S15`).
 
@@ -433,14 +436,18 @@ answer contains one.
 
 ### E29
 
-- **Prompt:** The project's senior technologist configures the clash tool.
-  May the register record them as the check/tolerance approval authority?
-- **Expected reasoning / answer:** No. Authority fields accept only an exact
-  source-grounded Triviron value or a typed absence — never an inference from
-  a job title, software permission or tool role. Configuring a tool is not
-  approving a governed check. Until a controlled responsibility/authority
-  decision is identified, `TDR-012` records the required authority *kind*
-  with holder `NOT YET ESTABLISHED`.
+- **Prompt:** Suppose a future controlled source establishes that a project
+  senior technologist configures the clash tool. May that fact alone allow
+  the register to record that person as the check/tolerance approval
+  authority?
+- **Expected reasoning / answer:** No. That controlled source would establish
+  only the fact it supports — that the person configures the tool — and
+  nothing more. Authority fields accept only an exact source-grounded
+  Triviron value or a typed absence — never an inference from a job title,
+  software permission or tool role. Configuring a tool is not approving a
+  governed check, and no authority holder is inferred automatically. Until a
+  controlled responsibility/authority decision is identified, `TDR-012`
+  records the required authority *kind* with holder `NOT YET ESTABLISHED`.
 - **Basis:** Register `TDR-012` fields 5, 12; schema §5.
 - **Misconception detected:** Approval authority inferred from role or tool
   access (`M7-S16`, `M7-S17`).

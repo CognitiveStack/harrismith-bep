@@ -107,7 +107,8 @@ allocations — nothing has been rehearsed or measured.
   not establish the answer."*
 - **Boundary warning:** the zeros are the programme's controlled evidence
   position — never proof that Triviron lacks anything in reality
-  (`M7-S12`); and no appointment exists to imply (`M7-S10`).
+  (`M7-S12`); and no controlled Triviron project appointment is currently
+  identified, so none may be claimed or implied (`M7-S10`).
 - **Example / analogy:** none required — the register's own reconciliation is
   the exhibit.
 - **Transition cue:** "Let's walk the domains, three questions at a time."
