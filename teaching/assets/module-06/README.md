@@ -14,13 +14,14 @@ T6-E-R`**.
 > **No source file records project implementation, and no visual source creates
 > authority.**
 > **No visual is rendered.**
-> **The source baseline remains pending ChatGPT governance review.**
+> **The source baseline is accepted — `T6-F — ACCEPTED after T6-F-R`.**
 
 **The source baseline is `ACCEPTED after T6-F-R`.** **`T6-G` produced the
 seven-file presentation assembly package —
 [`../../module-06-coordination-review-approval-and-assurance/presentation/`](../../module-06-coordination-review-approval-and-assurance/presentation/) —
-which is `PENDING CHATGPT GOVERNANCE REVIEW` and not accepted. `T6-H` — external
-PowerPoint production — is `NOT STARTED — BLOCKED PENDING T6-G ACCEPTANCE`.**
+which is `ACCEPTED after T6-G-R`. `T6-H` — external PowerPoint production — is
+COMPLETE and `ACCEPTED after T6-H-R1`; the external `REV01` deck is not
+committed to this repository.**
 
 ---
 
@@ -70,7 +71,8 @@ screen-reader description · and the native PowerPoint reconstruction method.
 - **not a rendered asset** — nothing has been rendered, and no renderer is
   installed;
 - **not a deck** — the `T6-G` assembly package is a production handoff, not a
-  deck, and **no Module 6 PowerPoint exists**;
+  deck, and **the Module 6 PowerPoint is a separate external artefact, not
+  committed to this repository**;
 - **not a record of project implementation** — no source file records that any
   coordination act was performed;
 - **not a source of authority** — no visual source creates, resolves or
@@ -374,22 +376,22 @@ or network rendering service was installed or used.**
 | Image, SVG, PNG, JPG, PDF or Office file | **None in this set** |
 | Visual register | **Complete** — [`visual-register.md`](visual-register.md) |
 | Slide-visual map | **Complete** — [`slide-visual-map.md`](slide-visual-map.md) |
-| Presentation assembly package | **Complete (`T6-G`)** — [`../../module-06-coordination-review-approval-and-assurance/presentation/`](../../module-06-coordination-review-approval-and-assurance/presentation/), **seven files**; **`PENDING CHATGPT GOVERNANCE REVIEW`** |
-| Module 6 PowerPoint | **None.** No `.pptx` is committed to this repository |
-| Presentation review | **NOT PERFORMED** |
-| Rehearsal | **NOT PERFORMED** |
+| Presentation assembly package | **Complete (`T6-G`)** — [`../../module-06-coordination-review-approval-and-assurance/presentation/`](../../module-06-coordination-review-approval-and-assurance/presentation/), **seven files**; **`ACCEPTED after T6-G-R`** |
+| Module 6 PowerPoint | **Produced externally (`REV01`) — `T6-H — ACCEPTED after T6-H-R1`.** No `.pptx` is committed to this repository |
+| Presentation review | **Deck governance review ACCEPTED (`T6-H-R1`)** |
+| Rehearsal | **DEFERRED — NOT PERFORMED** |
 | Timing | **`20.0 minutes allocated — not measured`** |
 | Slide progression | **Presenter-controlled manual advancement.** No automatic slide-transition timing |
 | Complete governed coordination cycle | **NOT DEMONSTRATED.** **`GCR-006` OPEN** |
 | Publication automation | **`PAUSED`** |
 
-## 13. Next stage
+## 13. `T6-H` — external PowerPoint production
 
-**`T6-H` — external PowerPoint production.**
+**COMPLETE — `ACCEPTED after T6-H-R1`.**
 
-**State: `NOT STARTED — BLOCKED PENDING T6-G ACCEPTANCE`.**
-
-**`T6-G` produced the presentation assembly package**, which is **`PENDING
-CHATGPT GOVERNANCE REVIEW` and not accepted**. **`T6-H` may not begin until that
-review accepts it.** Nothing in this directory authorises a PowerPoint, a render,
-a review or a rehearsal.
+**`T6-G` produced the presentation assembly package, `ACCEPTED after T6-G-R`;
+`T6-H` then produced the external deck
+`HFS-BIM-Management-Module-06-Coordination-Review-Approval-and-Assurance-REV01.pptx`
+outside this repository, and it is not committed here.** Nothing in this
+directory authorises a render or a rehearsal, and **rehearsal remains
+DEFERRED**.

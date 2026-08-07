@@ -2,10 +2,10 @@
 
 **Teaching material. Not governance. Not the PowerPoint.**
 
-**`T6-G` COMPLETE. Package `PENDING CHATGPT GOVERNANCE REVIEW`. `T6-H` `NOT
-STARTED — BLOCKED PENDING T6-G ACCEPTANCE`. No deck review. No rehearsal.
-`20.0 minutes allocated — not measured`. Presenter-controlled advancement.
-Publication automation `PAUSED`.**
+**`T6-G` COMPLETE — `ACCEPTED after T6-G-R`. `T6-H` COMPLETE — `ACCEPTED after
+T6-H-R1`; the external `REV01` deck is not committed to this repository.
+Rehearsal `DEFERRED`. `20.0 minutes allocated — not measured`.
+Presenter-controlled advancement. Publication automation `PAUSED`.**
 
 ---
 
@@ -416,7 +416,7 @@ demonstrated** and that **`GCR-006` remains OPEN**.
 | Rendered visual assets | **`NONE`** |
 | Renderer, converter or dependency | **None installed** |
 | Image, SVG, PNG, JPG, PDF or Office file | **None in this package** |
-| Module 6 PowerPoint | **None.** No `.pptx` committed to this repository |
-| Deck review / rehearsal / measured timing | **None performed** |
-| Package status | **`PENDING CHATGPT GOVERNANCE REVIEW`** |
-| `T6-H` | **`NOT STARTED — BLOCKED PENDING T6-G ACCEPTANCE`** |
+| Module 6 PowerPoint | **Produced externally — `HFS-BIM-Management-Module-06-Coordination-Review-Approval-and-Assurance-REV01.pptx`.** No `.pptx` committed to this repository |
+| Deck review / rehearsal / measured timing | **Deck governance review ACCEPTED (`T6-H-R1`)**; rehearsal **DEFERRED**; measured timing **NONE** |
+| Package status | **`ACCEPTED after T6-G-R`** |
+| `T6-H` | **COMPLETE — `ACCEPTED after T6-H-R1`** |

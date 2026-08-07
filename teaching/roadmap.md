@@ -31,8 +31,8 @@ moves — not as the subject.
 | 3 | ISO 19650 information-management principles | **Content, visual source, assembly package and PowerPoint produced.** Review and rehearsal **deferred** |
 | 4 | CDE workflows and information states | **Content, visual source, assembly package and PowerPoint produced.** Review and rehearsal **deferred** |
 | 5 | Responsibility matrices and information-delivery planning | **Content, visual source, assembly package and PowerPoint produced; governance review ACCEPTED (`REV01`).** Rehearsal and measured timing **DEFERRED** |
-| 6 | **Coordination, Review, Approval and Assurance** | **CURRENT — ACTIVE.** **`T6-A` to `T6-G` COMPLETE** — eight teaching files, **all fourteen slides developed; teaching-content baseline COMPLETE**; **fourteen visual specifications ACCEPTED after `T6-E-R`**; **fourteen visual sources ACCEPTED after `T6-F-R`**; **seven-file presentation assembly package `PENDING CHATGPT GOVERNANCE REVIEW`**. `T6-H` **blocked pending that acceptance** |
-| 7 | Translating Harrismith into the Triviron BEP | Planned |
+| 6 | Coordination, Review, Approval and Assurance | **TEACHING-PRODUCTION COMPLETE.** **`T6-A` to `T6-H` COMPLETE** — eight teaching files, **all fourteen slides developed; teaching-content baseline COMPLETE**; **fourteen visual specifications ACCEPTED after `T6-E-R`**; **fourteen visual sources ACCEPTED after `T6-F-R`**; **assembly package `ACCEPTED after T6-G-R`**; **external PowerPoint produced — `T6-H — ACCEPTED after T6-H-R1`**. Rehearsal and measured timing **DEFERRED** |
+| 7 | **Translating Harrismith into the Triviron BEP** | **CURRENT — ACTIVE.** Material not yet created |
 | 8 | Facilitating and presenting a BEP workshop | Planned |
 
 ### Module 1 — What is a BIM Execution Plan? — **produced; review and rehearsal deferred**
@@ -368,13 +368,13 @@ clash detection, finding and issue triage, escalation, review procedures,
 approval workflow mechanics, assurance sampling and closure all remain
 **Module 6**.
 
-### Module 6 — Coordination, Review, Approval and Assurance — **CURRENT — ACTIVE**
+### Module 6 — Coordination, Review, Approval and Assurance — **produced and accepted; rehearsal deferred**
 
-**Module 6 is the active module. `T6-A` to `T6-G` are COMPLETE. The
+**Module 6 teaching-production is COMPLETE. `T6-A` to `T6-H` are COMPLETE. The
 teaching-content baseline is COMPLETE, the visual-specification baseline is
 `ACCEPTED after T6-E-R`, the visual-source baseline is `ACCEPTED after T6-F-R`,
-and the seven-file presentation assembly package is COMPLETE and
-`PENDING CHATGPT GOVERNANCE REVIEW`.**
+the seven-file presentation assembly package is `ACCEPTED after T6-G-R`, and the
+external PowerPoint is produced — `T6-H — ACCEPTED after T6-H-R1`.**
 
 Deliverable: a 20-minute, fourteen-slide presentation on **how Harrismith
 governs the route from a coordination finding to a verified disposition, and
@@ -462,25 +462,28 @@ exercise.**
 **seven production-handoff files**: package README, deck specification, slide
 copy, presenter cues, asset manifest, production checklist and review checklist.
 It carries the **75 accepted STOP conditions** unchanged, adds **40 package-level
-production controls** and **56 automatic-fail conditions**, and is **`PENDING
-CHATGPT GOVERNANCE REVIEW` and not accepted**. **It is a PowerPoint-production
+production controls** and **56 automatic-fail conditions**. **ChatGPT governance
+review found five mathematically inconsistent geometry descriptions, `T6-G-R`
+corrected the arithmetic and coordinates only, and the package was then
+accepted: `T6-G — ACCEPTED after T6-G-R`.** **It is a PowerPoint-production
 handoff, not a produced presentation.**
 
-**No rendered asset, no presentation package and no Module 6 PowerPoint exist**,
-and **no renderer or dependency is installed**. No review or rehearsal has been
-performed.
+**`T6-H` then produced the external PowerPoint, and `T6-H-R1` corrected it —
+`T6-H — ACCEPTED after T6-H-R1`.** The final presentation,
+`HFS-BIM-Management-Module-06-Coordination-Review-Approval-and-Assurance-REV01.pptx`,
+was produced **outside this repository** and **is not committed here** — as for
+Modules 1–5. **No rendered asset exists in the repository**, and **no renderer
+or dependency is installed**.
 
-**Teaching content, visual specifications and visual sources are complete;
-presentation production has not started.**
+**Module 6 teaching-production is COMPLETE.** **Rehearsal remains DEFERRED, and
+measured timing has NOT been performed** — the deck carries **`20.0 minutes
+allocated — not measured`**. **Publication automation remains `PAUSED`.**
 
-**Next development increment: `T6-H` — external PowerPoint production.
-`NOT STARTED — BLOCKED PENDING T6-G ACCEPTANCE`.**
+### Modules 7–8
 
-### Modules 7–8 — future scope
-
-Modules 7 and 8 are recorded below as the intended sequence. **None of their
-material exists**, and their scope may change as the earlier modules are
-delivered and reviewed.
+**Module 7 — Translating Harrismith into the Triviron BEP — is now the current
+teaching module.** **None of its material exists yet**, and Module 8 remains
+future scope. Their scope may change as the modules are delivered and reviewed.
 
 ### Modules 4–8 — intended scope
 
@@ -488,8 +491,8 @@ delivered and reviewed.
 |---|---|---|---|
 | 4 | CDE workflows and information states — **produced; see above** | What a CDE controls; the four information states; the eight controlled steps and **the two that change state**; gates, authority and evidence; **the blocked `Shared → Published` route**; state, version, revision, status, suitability and metadata as distinct properties; governance before configuration | `bep/…BEP.md` §6, §7, §10, §12; `supporting/cde-workflow-state-strategy.md`; `docs/CDE-Structure-Governance-Decision.md`; `docs/Increment-7C-Live-Validation-Record.md` |
 | 5 | Responsibility matrices and information-delivery planning — **produced and accepted; rehearsal deferred; see above** | **Tested in T5-A and corrected.** The Perform/Check/Authorise/Coordinate/Accept/Consult/Inform grammar — **`CONFIRMED`** (BEP §5.12), but **it belongs to the IM Responsibility Matrix alone** and has **two further values, `TBD` and `—`**, which carry the unresolved allocations; container allocation — **`CONFIRMED`**; delivery events and purpose — **`CONFIRMED`**; suitability — **`CONFIRMED`** as a governed concept, but **no suitability code set exists**. Added on evidence: allocation ≠ performance; delivery event ≠ information-state transition; **how an absence is typed** | Both matrices; `information-delivery-schedule.md`; BEP §5.12, §7.2, §9, §10; `Increment-7C-Live-Validation-Record.md` |
-| 6 | **Coordination, Review, Approval and Assurance — now active; see above** | Federation, findings, triage, Issues, the coordination cycle, verification; **check ≠ authorise ≠ accept**; review procedures, approval workflow mechanics, assurance sampling, closure. **`T6-A` to `T6-E` complete; see above** | BEP §8, §9; `coordination-review-strategy.md` |
-| 7 | Translating Harrismith into the Triviron BEP | Which Harrismith positions transfer, which are Harrismith-specific, and which are project decisions Triviron must take for itself | The full set, plus Triviron project information when it exists |
+| 6 | **Coordination, Review, Approval and Assurance — teaching-production complete; see above** | Federation, findings, triage, Issues, the coordination cycle, verification; **check ≠ authorise ≠ accept**; review procedures, approval workflow mechanics, assurance sampling, closure. **`T6-A` to `T6-H` complete; see above** | BEP §8, §9; `coordination-review-strategy.md` |
+| 7 | **Translating Harrismith into the Triviron BEP — now current; see above** | Which Harrismith positions transfer, which are Harrismith-specific, and which are project decisions Triviron must take for itself | The full set, plus Triviron project information when it exists |
 | 8 | Facilitating and presenting a BEP workshop | Running the decision conversations; recording outcomes; converting agreement into governance | `working/README.md`; `working/workshops/workshop-template.md`; `governance-decision-register.md` |
 
 **Module 7 has an external dependency.** No Triviron project information exists
@@ -550,8 +553,14 @@ of governance under condition. Describing it neither advances nor reopens it.
 
 | Field | Value |
 |---|---|
-| **Active module** | **Module 6 — Coordination, Review, Approval and Assurance** — **CURRENT — ACTIVE** |
-| **Next development increment** | **`T6-H`** — external PowerPoint production. **`NOT STARTED — BLOCKED PENDING T6-G ACCEPTANCE`** |
+| **Active module** | **Module 7 — Translating Harrismith into the Triviron BEP** — **CURRENT — ACTIVE** |
+| **Next development increment** | **Module 7 development — `NOT STARTED`.** Proceeds only through its own approved increments |
+| Module 6 teaching-production phase | **COMPLETE.** **`T6-A` to `T6-H` complete** |
+| Module 6 assembly package | **ACCEPTED** — **`T6-G — ACCEPTED after T6-G-R`** |
+| Module 6 external PowerPoint | **PRODUCED — `HFS-BIM-Management-Module-06-Coordination-Review-Approval-and-Assurance-REV01.pptx`**, assembled **outside this repository**; corrected by **`T6-H-R1`**; **`T6-H — ACCEPTED after T6-H-R1`**; **not committed here** |
+| Module 6 PowerPoint in repository | **None.** Produced **externally (T6-H / T6-H-R1)**; **not committed to this repository** |
+| Module 6 rehearsal | **`DEFERRED — NOT PERFORMED`** |
+| Module 6 measured timing | **`DEFERRED — NONE`.** **`20.0 minutes allocated — not measured`** |
 | Module 6 established (T6-A) | **COMPLETE.** Module directory, **six files** · source inventory **`S1`–`S14`** with exact paths and declared statuses, **`E1`–`E9` excluded with reasons** · **four principal resources analysed separately** · **nine registers** · **18 hypotheses** — 15 `CONFIRMED`, 2 `CONFIRMED WITH QUALIFICATION`, 1 `NOT ESTABLISHED`, 0 `CONTRADICTED` · **six terminology variances, none harmonised** · **14 unresolved matters, none resolved** · **49 classified statements** · **34 prohibited claims** plus 4 standing · 20-minute fourteen-slide architecture · **Slides 1–3** |
 | Module 6 developed (T6-B) | **Slides 4–8.** Federation — a lens that transfers no authorship, technical ownership or deliverable status · input readiness as the **entry condition**, with visible ≠ selected ≠ suitable ≠ ready · **twelve proposed interface checks, every tolerance `TBD`**, and a software default is **not** a project requirement · the **finding-to-Issue decision** and the recorded BEP/strategy scope variance · the **seven triage dispositions** and the **`Accepted condition`** warning. **76 new classified statements** (125 total) · **16 new prohibited claims** (50 total). **No source, hypothesis, variance or unresolved matter added, reclassified or populated** |
 | Module 6 developed (T6-C) | **Slides 9–12.** Assignment and technical response — the coordinator coordinates, the originating task team resolves in its own WIP, and **no date, priority, owner or Issue identifier is invented** · the **six-status governed model**, with **`Deferred` and `Escalated` as controlled alternate dispositions, not stages**, and the model **not claimed to be configured** · verification — **four prerequisites, three findings, four exclusions**, and **`Ready for Verification` is not verification** · completion — **nine conditions with their `as applicable` and `required` qualifiers intact**, and **completion is not zero clashes**. **63 new classified statements** (188 total) · **23 new prohibited claims** (73 total). **No source, hypothesis, variance or unresolved matter added, reclassified or populated** |
@@ -566,8 +575,8 @@ of governance under condition. Describing it neither advances nor reopens it.
 | Module 6 visual sources (T6-F) | **COMPLETE** — **eighteen files** in [`assets/module-06/`](assets/module-06/): fourteen native-layout sources `M06-S01`–`M06-S14`, each with an **eighteen-field header, sixteen sections and a four-row completion table**; **visual register**; **slide-visual map**; **asset-set README carrying all 75 STOP conditions**; **rendered-status README**. **All `SOURCE COMPLETE — ACCEPTED after T6-F-R`.** **Rendered `NONE`; no renderer or dependency installed; zero Mermaid; zero external imagery; zero live-evidence requirements.** **No statement, classification, count, register entry, prohibited claim or exercise changed** |
 | Module 6 corrected (T6-F-R) | **Production-state reconciliation.** Prohibited claim **92** and standing prohibition **D** still enumerated *no visual source, asset…*, which `T6-F` had overtaken; corrected to the current truth. **Claim numbering, core meaning, register totals and standing prohibitions A–C unchanged.** **The fourteen source files, register, slide map, asset README, rendered README and the 75 STOP conditions were byte-unchanged** |
 | Module 6 visual sources | **ACCEPTED** — `T6-F — ACCEPTED after T6-F-R` |
-| Module 6 assembly package (T6-G) | **COMPLETE** — [`module-06-.../presentation/`](module-06-coordination-review-approval-and-assurance/presentation/), **seven production-handoff files**; **75 accepted STOP conditions carried unchanged**, **40 package-level additions**, **56 automatic-fail conditions**; **`20.0 minutes allocated — not measured`**. **`PENDING CHATGPT GOVERNANCE REVIEW`; not accepted.** **No PowerPoint, no rendered asset, no binary, no renderer.** **Module 6 teaching-file count unchanged at eight; asset-set count unchanged at eighteen** |
-| Module 6 material not created | **No rendered visual asset and no Module 6 PowerPoint.** No `.pptx` committed. No deck review, rehearsal or measured timing |
+| Module 6 assembly package (T6-G) | **COMPLETE** — [`module-06-.../presentation/`](module-06-coordination-review-approval-and-assurance/presentation/), **seven production-handoff files**; **75 accepted STOP conditions carried unchanged**, **40 package-level additions**, **56 automatic-fail conditions**; **`20.0 minutes allocated — not measured`**. **Subsequently `ACCEPTED after T6-G-R`.** **Module 6 teaching-file count unchanged at eight; asset-set count unchanged at eighteen** |
+| Module 6 material not committed | **No rendered visual asset in the repository, and no `.pptx` committed** — the external `REV01` deck is held outside the repository. **Rehearsal and measured timing remain DEFERRED** |
 | Module 5 teaching-production phase | **COMPLETE.** **T5-A to T5-I-D complete** |
 | Module 5 last increment | **T5-I-D — COMPLETE.** Rehearsal deferred; programme advanced to Module 6 |
 | Module 5 deliverable | 20-minute, **fourteen-slide** presentation — **PRODUCED and ACCEPTED (`REV01`)**; **not rehearsed, timing not measured** |
@@ -623,6 +632,7 @@ of governance under condition. Describing it neither advances nor reopens it.
 | Module 1–4 `.pptx` files | **Derivative outputs — not committed to this repository** |
 | Rendered visual assets | **None in any module** — no renderer available; text-based source is authoritative |
 | Measured timing | **None, in any module.** Every deck carries **`20.0 minutes allocated — not measured`** |
-| Modules 7–8 | **Future scope** — not started |
+| Module 7 | **CURRENT — ACTIVE** — material not yet created |
+| Module 8 | **Future scope** — not started |
 | Publication automation | **PAUSED** |
 | Source material status | Training Baseline 0.1 — approved with conditions; publication NOT AUTHORISED |

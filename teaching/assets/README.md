@@ -97,9 +97,10 @@ remain `DEFERRED` by governance decision (T5-I-D).**
 **Module 6's visual-source baseline is complete and ACCEPTED after `T6-F-R`.**
 **Its presentation assembly package is complete (`T6-G`)** —
 [`../module-06-coordination-review-approval-and-assurance/presentation/`](../module-06-coordination-review-approval-and-assurance/presentation/),
-**seven production-handoff files** — and is **`PENDING CHATGPT GOVERNANCE
-REVIEW`, not accepted**. **No Module 6 PowerPoint exists**, and **`T6-H` is
-`NOT STARTED — BLOCKED PENDING T6-G ACCEPTANCE`.**
+**seven production-handoff files** — and is **`ACCEPTED after T6-G-R`**. **Its
+external PowerPoint is produced and accepted as `REV01` (`T6-H`, corrected in
+`T6-H-R1`) — held outside this repository and not committed here.** **Rehearsal
+and measured timing remain `DEFERRED`.**
 
 **One prohibition applies to `module-03/` specifically, and it is absolute.**
 **No ISO diagram, table or figure is reproduced, redrawn, adapted or

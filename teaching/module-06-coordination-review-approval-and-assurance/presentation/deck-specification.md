@@ -2,14 +2,13 @@
 
 **Teaching material. Not governance. Not the PowerPoint.**
 
-**`T6-G` COMPLETE. Package `PACKAGE COMPLETE — PENDING CHATGPT GOVERNANCE
-REVIEW`.** **`T6-H` — external PowerPoint production — is `NOT STARTED — BLOCKED
-PENDING T6-G ACCEPTANCE`.**
+**`T6-G` COMPLETE — `ACCEPTED after T6-G-R`.** **`T6-H` — external PowerPoint
+production — is COMPLETE and `ACCEPTED after T6-H-R1`.**
 
-**No rendered visual asset exists. No Module 6 PowerPoint exists. No deck review
-has been performed. No rehearsal has been performed. Timing is allocated, not
-measured. Slide advancement is presenter-controlled. Publication automation
-remains `PAUSED`.**
+**No rendered visual asset exists in the repository. The external Module 6
+PowerPoint (`REV01`) was produced outside this repository and is not committed
+here. Rehearsal remains `DEFERRED`. Timing is allocated, not measured. Slide
+advancement is presenter-controlled. Publication automation remains `PAUSED`.**
 
 ---
 
@@ -650,16 +649,16 @@ condition was merged to produce a smaller number.**
 | Teaching content | **ACCEPTED** — eight Module 6 teaching files |
 | Visual specifications | **`T6-E — ACCEPTED after T6-E-R`** — `M6V-01`–`M6V-14` |
 | Visual sources | **`T6-F — ACCEPTED after T6-F-R`** — `M06-S01`–`M06-S14`, eighteen asset files |
-| This package | **`T6-G` COMPLETE — `PACKAGE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`**; **not accepted** |
+| This package | **`T6-G` COMPLETE — `ACCEPTED after T6-G-R`** |
 | Rendered visual asset | **NONE.** No renderer, converter or dependency installed |
-| Module 6 PowerPoint | **NONE.** No `.pptx` is committed to this repository |
-| Deck review | **NOT PERFORMED** |
-| Rehearsal | **NOT PERFORMED** |
+| Module 6 PowerPoint | **Produced externally — `HFS-BIM-Management-Module-06-Coordination-Review-Approval-and-Assurance-REV01.pptx`.** No `.pptx` is committed to this repository |
+| Deck review | **Deck governance review ACCEPTED — `T6-H — ACCEPTED after T6-H-R1`** |
+| Rehearsal | **DEFERRED — NOT PERFORMED** |
 | Measured timing | **NONE.** `20.0 minutes allocated — not measured` |
 | Slide advancement | **Presenter controlled; no automatic timing** |
 | Complete governed coordination cycle | **NOT DEMONSTRATED.** **`GCR-006` OPEN** |
 | `T4` / `TRN-E03` | **BLOCKED** |
 | Publication / acceptance authority | **UNRESOLVED** |
-| Next increment | **`T6-H` — external PowerPoint production** |
-| `T6-H` state | **`NOT STARTED — BLOCKED PENDING T6-G ACCEPTANCE`** |
+| `T6-H` | **External PowerPoint production — COMPLETE** |
+| `T6-H` state | **`ACCEPTED after T6-H-R1`** |
 | Publication automation | **`PAUSED`** |

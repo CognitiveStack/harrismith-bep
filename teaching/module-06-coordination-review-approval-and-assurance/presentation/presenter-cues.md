@@ -7,11 +7,11 @@
 **[`../speaker-notes.md`](../speaker-notes.md) remains authoritative.** Where a
 cue and the accepted notes differ, **the notes are correct**.
 
-**`T6-G` COMPLETE. Package `PENDING CHATGPT GOVERNANCE REVIEW`. `T6-H` `NOT
-STARTED — BLOCKED PENDING T6-G ACCEPTANCE`. No rendered visual asset. No Module 6
-PowerPoint. No deck review. No rehearsal. `20.0 minutes allocated — not
-measured`. Advance each slide manually when ready. Publication automation
-`PAUSED`.**
+**`T6-G` COMPLETE — `ACCEPTED after T6-G-R`. `T6-H` COMPLETE — `ACCEPTED after
+T6-H-R1`; the external `REV01` deck is not committed to this repository. No
+rendered visual asset in the repository. Rehearsal `DEFERRED`. `20.0 minutes
+allocated — not measured`. Advance each slide manually when ready. Publication
+automation `PAUSED`.**
 
 > **Nothing here has been rehearsed or timed.** The per-slide times are **pacing
 > allocations**, never measured results.

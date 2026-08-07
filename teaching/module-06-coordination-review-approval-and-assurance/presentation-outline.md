@@ -7,12 +7,13 @@ T6-D.
 **A complete content baseline is not a produced presentation.** The **fourteen
 visual specifications `M6V-01`–`M6V-14`** are **ACCEPTED after `T6-E-R`** —
 [`visual-demonstration-plan.md`](visual-demonstration-plan.md) — and the
-**fourteen visual sources `M06-S01`–`M06-S14` are `SOURCE COMPLETE — PENDING
-CHATGPT GOVERNANCE REVIEW`** — [`../assets/module-06/`](../assets/module-06/).
-The **seven-file presentation assembly package** exists (`T6-G`) and is
-**`PENDING CHATGPT GOVERNANCE REVIEW`**. There is **no rendered visual asset and
-no Module 6 PowerPoint**,
-and no review or rehearsal has been performed.
+**fourteen visual sources `M06-S01`–`M06-S14` are `SOURCE COMPLETE — ACCEPTED
+after T6-F-R`** — [`../assets/module-06/`](../assets/module-06/).
+The **seven-file presentation assembly package** (`T6-G`) is **`ACCEPTED after
+T6-G-R`**, and the **external PowerPoint is produced — `T6-H — ACCEPTED after
+T6-H-R1`** — outside this repository and **not committed here**. There is **no
+rendered visual asset in the repository**; **rehearsal remains DEFERRED** and
+**measured timing has not been performed**.
 
 Source identifiers `S1`–`S14` are defined in
 [`source-inventory.md`](source-inventory.md). Statement classification is in
@@ -1842,8 +1843,8 @@ Harrismith value inside any answer area**.
 | Visual specifications | **14 of 14 — `M6V-01`–`M6V-14`**, **ACCEPTED after `T6-E-R`** |
 | Visual sources | **14 of 14 — `M06-S01`–`M06-S14`**, **ACCEPTED after `T6-F-R`** |
 | Rendered assets | **None.** No renderer or dependency installed |
-| Assembly package | **COMPLETE (T6-G)** — [`presentation/`](presentation/), seven files; **`PENDING CHATGPT GOVERNANCE REVIEW`** |
-| Module 6 PowerPoint | **None.** No `.pptx` is committed to this repository |
-| Review, rehearsal, measured timing | **None performed** |
+| Assembly package | **COMPLETE (T6-G)** — [`presentation/`](presentation/), seven files; **`ACCEPTED after T6-G-R`** |
+| Module 6 PowerPoint | **PRODUCED externally (T6-H / T6-H-R1)** — `HFS-BIM-Management-Module-06-Coordination-Review-Approval-and-Assurance-REV01.pptx`; **not committed to this repository** |
+| Review, rehearsal, measured timing | **Deck governance review ACCEPTED (`T6-H — ACCEPTED after T6-H-R1`).** Rehearsal **DEFERRED — not performed**; measured timing **NONE** |
 | Complete governed coordination cycle | **NOT DEMONSTRATED.** `GCR-006` **OPEN** |
-| Outstanding | **T6-H** — external PowerPoint production. **`NOT STARTED — BLOCKED PENDING T6-G ACCEPTANCE`** |
+| Outstanding | **Rehearsal and measured timing — DEFERRED.** Module 6 teaching-production is **COMPLETE** |

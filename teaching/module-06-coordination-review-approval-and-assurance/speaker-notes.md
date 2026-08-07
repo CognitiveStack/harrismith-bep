@@ -1717,6 +1717,6 @@ information exists in this repository.**
 | Visual specifications | **14 of 14 — `M6V-01`–`M6V-14`**, **ACCEPTED after `T6-E-R`** — [`visual-demonstration-plan.md`](visual-demonstration-plan.md) |
 | Visual sources | **14 of 14 — `M06-S01`–`M06-S14`**, **ACCEPTED after `T6-F-R`** — [`../assets/module-06/`](../assets/module-06/) |
 | Rendered assets | **None** |
-| Assembly package | **COMPLETE (T6-G)** — [`presentation/`](presentation/), seven files; **`PENDING CHATGPT GOVERNANCE REVIEW`** |
-| Module 6 PowerPoint | **None exists.** No `.pptx` committed |
-| Outstanding | **T6-H** — external PowerPoint production. **`NOT STARTED — BLOCKED PENDING T6-G ACCEPTANCE`** |
+| Assembly package | **COMPLETE (T6-G)** — [`presentation/`](presentation/), seven files; **`ACCEPTED after T6-G-R`** |
+| Module 6 PowerPoint | **PRODUCED externally (T6-H / T6-H-R1)** — `HFS-BIM-Management-Module-06-Coordination-Review-Approval-and-Assurance-REV01.pptx`; **not committed here** |
+| Outstanding | **Rehearsal and measured timing — DEFERRED.** Module 6 teaching-production is **COMPLETE** |

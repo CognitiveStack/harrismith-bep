@@ -2,12 +2,15 @@
 
 **Teaching material. Not governance. Not the PowerPoint.**
 
-> **The deck does not exist yet.** This checklist is the instrument a reviewer
-> will use **after** `T6-H` produces it. **It records no review result, and
-> nothing in it has been performed.**
+> **The deck now exists as an external artefact** — produced in `T6-H` outside
+> this repository and corrected in `T6-H-R1`. This checklist is the instrument a
+> reviewer uses against it. **The file itself records no review result** — the
+> `T6-H-R1` acceptance is recorded in the module status records, not by ticking
+> boxes here.
 
-**`T6-G` COMPLETE. Package `PENDING CHATGPT GOVERNANCE REVIEW`. `T6-H` `NOT
-STARTED — BLOCKED PENDING T6-G ACCEPTANCE`. Publication automation `PAUSED`.**
+**`T6-G` COMPLETE — `ACCEPTED after T6-G-R`. `T6-H` COMPLETE — `ACCEPTED after
+T6-H-R1`; the external `REV01` deck is not committed to this repository.
+Publication automation `PAUSED`.**
 
 ---
 
@@ -194,11 +197,11 @@ unperformed review are separated only where they mislead differently.
 
 | Field | Value |
 |---|---|
-| Deck | **DOES NOT EXIST.** `T6-H` `NOT STARTED — BLOCKED PENDING T6-G ACCEPTANCE` |
-| Package | **`PACKAGE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`** |
-| Package accepted | **NO** |
-| Deck review | **`NOT PERFORMED`** |
-| Review result | **`NONE`** |
+| Deck | **PRODUCED EXTERNALLY** — `HFS-BIM-Management-Module-06-Coordination-Review-Approval-and-Assurance-REV01.pptx` (`T6-H` / `T6-H-R1`); **not committed to this repository** |
+| Package | **`PACKAGE COMPLETE — ACCEPTED after T6-G-R`** |
+| Package accepted | **YES — `T6-G — ACCEPTED after T6-G-R`** |
+| Deck review | **Governance review of the deck ACCEPTED — `T6-H — ACCEPTED after T6-H-R1`** |
+| Review result | **`T6-H-R1 — ACCEPTED`** |
 | Reviewer | **Not appointed by this package** |
 | Review record | **None exists.** No review history, real or illustrative, appears anywhere in this package |
 
@@ -222,18 +225,18 @@ unperformed review are separated only where they mislead differently.
 | Visual specifications | **`T6-E — ACCEPTED after T6-E-R`** — `M6V-01`–`M6V-14` |
 | Visual sources | **`T6-F — ACCEPTED after T6-F-R`** — `M06-S01`–`M06-S14` |
 | Asset set | **Eighteen files** — [`../../assets/module-06/`](../../assets/module-06/) |
-| Presentation assembly package | **`T6-G` COMPLETE — seven files — `PENDING CHATGPT GOVERNANCE REVIEW`** |
-| Package accepted | **NO** |
+| Presentation assembly package | **`T6-G` COMPLETE — seven files — `ACCEPTED after T6-G-R`** |
+| Package accepted | **YES — `ACCEPTED after T6-G-R`** |
 | Rendered visual asset | **NONE.** No renderer, converter or dependency installed |
-| Module 6 PowerPoint | **NONE.** No `.pptx` is committed to this repository |
-| Deck review | **NOT PERFORMED** |
-| Rehearsal | **NOT PERFORMED** |
+| Module 6 PowerPoint | **Produced externally (`REV01`).** No `.pptx` is committed to this repository |
+| Deck review | **Governance review ACCEPTED (`T6-H-R1`)** |
+| Rehearsal | **DEFERRED — NOT PERFORMED** |
 | Measured timing | **NONE** |
 | Slide advancement | **Presenter controlled; no automatic timing** |
 | Complete governed coordination cycle | **NOT DEMONSTRATED.** **`GCR-006` OPEN** |
 | `T4` / `TRN-E03` | **BLOCKED** |
 | Publication / acceptance authority | **UNRESOLVED** |
 | Triviron | **No fact exists, and none was introduced** |
-| Next increment | **`T6-H` — external PowerPoint production** |
-| `T6-H` state | **`NOT STARTED — BLOCKED PENDING T6-G ACCEPTANCE`** |
+| `T6-H` | **External PowerPoint production — COMPLETE** |
+| `T6-H` state | **`ACCEPTED after T6-H-R1`** |
 | Publication automation | **`PAUSED`** |

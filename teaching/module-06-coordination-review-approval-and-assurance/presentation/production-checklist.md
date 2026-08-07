@@ -7,17 +7,18 @@
 > future production run records that run — **it records nothing about the state
 > of this repository**.
 
-**`T6-G` COMPLETE. Package `PENDING CHATGPT GOVERNANCE REVIEW`. `T6-H` `NOT
-STARTED — BLOCKED PENDING T6-G ACCEPTANCE`. No rendered visual asset. No Module 6
-PowerPoint. No deck review. No rehearsal. `20.0 minutes allocated — not
-measured`. Presenter-controlled advancement. Publication automation `PAUSED`.**
+**`T6-G` COMPLETE — `ACCEPTED after T6-G-R`. `T6-H` COMPLETE — `ACCEPTED after
+T6-H-R1`; the external `REV01` deck is not committed to this repository. No
+rendered visual asset in the repository. Rehearsal `DEFERRED`. `20.0 minutes
+allocated — not measured`. Presenter-controlled advancement. Publication
+automation `PAUSED`.**
 
 ---
 
 ## 1. Before building
 
-- [ ] The package is **accepted by ChatGPT governance review**. **Until then,
-      `T6-H` is blocked and no deck may be built.**
+- [ ] The package is **accepted by ChatGPT governance review** — **SATISFIED:
+      `T6-G — ACCEPTED after T6-G-R`**.
 - [ ] [`deck-specification.md`](deck-specification.md) read in full.
 - [ ] [`slide-copy.md`](slide-copy.md) read in full.
 - [ ] [`asset-manifest.md`](asset-manifest.md) read in full.

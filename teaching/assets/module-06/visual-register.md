@@ -16,9 +16,9 @@ differ, the teaching content wins.** **Where any teaching material conflicts wit
 a controlled Harrismith source, the controlled source wins.**
 
 **The source baseline is `ACCEPTED after T6-F-R`.** **`T6-G` produced the
-seven-file presentation assembly package, which is `PENDING CHATGPT GOVERNANCE
-REVIEW`; `T6-H` — external PowerPoint production — is `NOT STARTED — BLOCKED
-PENDING T6-G ACCEPTANCE`.**
+seven-file presentation assembly package, `ACCEPTED after T6-G-R`; `T6-H` —
+external PowerPoint production — is COMPLETE and `ACCEPTED after T6-H-R1`; the
+external `REV01` deck is not committed to this repository.**
 
 ---
 
@@ -422,10 +422,10 @@ Controlled and teaching identifiers — `CI-01`–`CI-12`, `X1`–`X5`, `A1`–`
 | Specification baseline | **`T6-E — ACCEPTED after T6-E-R`** |
 | Visual-source baseline | **COMPLETE — `SOURCE COMPLETE — ACCEPTED after T6-F-R`** |
 | Rendered visual assets | **NONE.** No renderer or dependency installed |
-| Presentation assembly package | **COMPLETE (`T6-G`)** — [`../../module-06-coordination-review-approval-and-assurance/presentation/`](../../module-06-coordination-review-approval-and-assurance/presentation/), **seven files**; **`PENDING CHATGPT GOVERNANCE REVIEW`, not accepted** |
-| Module 6 PowerPoint | **NONE.** No `.pptx` is committed to this repository |
-| Presentation review | **NOT PERFORMED** |
-| Rehearsal | **NOT PERFORMED** |
+| Presentation assembly package | **COMPLETE (`T6-G`)** — [`../../module-06-coordination-review-approval-and-assurance/presentation/`](../../module-06-coordination-review-approval-and-assurance/presentation/), **seven files**; **`ACCEPTED after T6-G-R`** |
+| Module 6 PowerPoint | **Produced externally (`REV01`) — `T6-H — ACCEPTED after T6-H-R1`.** No `.pptx` is committed to this repository |
+| Presentation review | **Deck governance review ACCEPTED (`T6-H-R1`)** |
+| Rehearsal | **DEFERRED — NOT PERFORMED** |
 | Timing | **`20.0 minutes allocated — not measured`** |
-| Next | **`T6-H` — external PowerPoint production** |
-| `T6-H` state | **`NOT STARTED — BLOCKED PENDING T6-G ACCEPTANCE`** |
+| `T6-H` | **External PowerPoint production — COMPLETE** |
+| `T6-H` state | **`ACCEPTED after T6-H-R1`** |

@@ -148,7 +148,7 @@ teaching/
 │   ├── exercises.md                 practice and self-assessment — 79 exercises
 │   ├── visual-demonstration-plan.md fourteen visual specifications, M5V-01 to M5V-14, accepted
 │   └── presentation/                assembly package — production handoff
-├── module-06-coordination-review-approval-and-assurance/   Module 6 — CURRENT, ACTIVE
+├── module-06-coordination-review-approval-and-assurance/   Module 6 — produced and accepted; rehearsal deferred
 │   ├── README.md                    module objective, central question, scope, increment status
 │   ├── source-inventory.md          S1–S14 with exact paths and declared statuses; E1–E9 exclusions
 │   ├── resource-comparison.md       the four principal resources analysed separately
@@ -212,10 +212,11 @@ The deck is **presenter-controlled**: the per-slide times are **pacing
 allocations**, **automatic slide progression is `NOT REQUIRED`**, and **the
 presenter advances each slide manually when ready**.
 
-**Module 5's teaching-production phase is COMPLETE, and Module 6 —
-Coordination, Review, Approval and Assurance — is the current active module.**
+**Module 5's teaching-production phase is COMPLETE, Module 6's
+teaching-production phase is COMPLETE, and Module 7 — Translating Harrismith
+into the Triviron BEP — is now the current teaching module.**
 
-**`T6-A` to `T6-G` are COMPLETE, and the Module 6 teaching-content baseline is
+**`T6-A` to `T6-H` are COMPLETE, and the Module 6 teaching-content baseline is
 COMPLETE.** Module 6 holds **eight teaching files** — objective and
 scope, a source inventory of **`S1`–`S14`** with **`E1`–`E9`** excluded, a
 separate comparison of the **four principal resources**, a source map carrying
@@ -238,12 +239,15 @@ file.**
 [`module-06-.../presentation/`](module-06-coordination-review-approval-and-assurance/presentation/),
 **seven production-handoff files**: package README, deck specification, slide
 copy, presenter cues, asset manifest, production checklist and review checklist.
-**It is `PENDING CHATGPT GOVERNANCE REVIEW` and not accepted**, and **it is a
-PowerPoint-production handoff, not a produced presentation.** **No rendered
-visual asset and no Module 6 PowerPoint exist**, and no review or rehearsal has
-been performed. **`GCR-006` remains OPEN — no complete governed coordination
-cycle has been demonstrated.** **`T6-H` — external PowerPoint production — is
-`NOT STARTED — BLOCKED PENDING T6-G ACCEPTANCE`.**
+**It is `ACCEPTED after T6-G-R`**, and **it is a PowerPoint-production handoff,
+not a produced presentation.** **`T6-H` then produced the external Module 6
+PowerPoint —
+`HFS-BIM-Management-Module-06-Coordination-Review-Approval-and-Assurance-REV01.pptx`
+— outside this repository; `T6-H-R1` corrected it, and
+`T6-H — ACCEPTED after T6-H-R1`. The `.pptx` is not committed here.** **No
+rendered visual asset exists in the repository**, **rehearsal remains DEFERRED**
+and **measured timing has not been performed**. **`GCR-006` remains OPEN — no
+complete governed coordination cycle has been demonstrated.**
 
 **`T5-F-B-R` reconciled the Module 5 production-state records** across the module
 and programme files. **No teaching claim, statement classification, count or

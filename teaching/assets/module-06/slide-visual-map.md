@@ -22,8 +22,9 @@ nothing and approves nothing.
 presenter advances each slide manually when ready.**
 
 **All fourteen sources are `SOURCE COMPLETE — ACCEPTED after T6-F-R`.** **`T6-G`
-produced the seven-file presentation assembly package, which is `PENDING CHATGPT
-GOVERNANCE REVIEW`; `T6-H` is `NOT STARTED — BLOCKED PENDING T6-G ACCEPTANCE`.**
+produced the seven-file presentation assembly package, `ACCEPTED after T6-G-R`;
+`T6-H` — external PowerPoint production — is COMPLETE and `ACCEPTED after
+T6-H-R1`; the external `REV01` deck is not committed to this repository.**
 
 ---
 
@@ -355,9 +356,9 @@ GOVERNANCE REVIEW`; `T6-H` is `NOT STARTED — BLOCKED PENDING T6-G ACCEPTANCE`.
 | Increment | **`T6-F` — COMPLETE and ACCEPTED after `T6-F-R`** |
 | Sources | **`M06-S01`–`M06-S14`, all `SOURCE COMPLETE — ACCEPTED after T6-F-R`** |
 | Rendered visual assets | **NONE** |
-| Assembly package | **COMPLETE (`T6-G`)** — seven files, **`PENDING CHATGPT GOVERNANCE REVIEW`, not accepted** |
-| Module 6 PowerPoint | **NONE.** No `.pptx` committed to this repository |
-| Presentation review / rehearsal | **NOT PERFORMED** |
+| Assembly package | **COMPLETE (`T6-G`)** — seven files, **`ACCEPTED after T6-G-R`** |
+| Module 6 PowerPoint | **Produced externally (`REV01`).** No `.pptx` committed to this repository |
+| Presentation review / rehearsal | **Deck governance review ACCEPTED (`T6-H-R1`)**; rehearsal **DEFERRED — NOT PERFORMED** |
 | Timing | **`20.0 minutes allocated — not measured`** |
-| Next | **`T6-H` — external PowerPoint production** |
-| `T6-H` state | **`NOT STARTED — BLOCKED PENDING T6-G ACCEPTANCE`** |
+| `T6-H` | **External PowerPoint production — COMPLETE** |
+| `T6-H` state | **`ACCEPTED after T6-H-R1`** |

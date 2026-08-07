@@ -1,6 +1,6 @@
 # Module 6 — Coordination, Review, Approval and Assurance
 
-**Status:** **CURRENT — ACTIVE.** Established in **T6-A**: source architecture,
+**Status:** **TEACHING-PRODUCTION COMPLETE — rehearsal deferred.** Established in **T6-A**: source architecture,
 principal-resource comparison, hypothesis testing, the fourteen-slide
 architecture, and **Slides 1–3**; extended in **T6-B** with **Slides 4–8**, in
 **T6-C** with **Slides 9–12**, and in **T6-D** with **Slides 13–14**, both
@@ -13,12 +13,15 @@ COMPLETE.** **`T6-E` is ACCEPTED after `T6-E-R`**, and the **visual-source
 baseline is ACCEPTED after `T6-F-R`** —
 [`../assets/module-06/`](../assets/module-06/).
 
-**None of that is a produced presentation.** There is **no presentation package
-and no Module 6 PowerPoint**, **no rendered asset**, and **no review or rehearsal
-has been performed**. **`T6-G` produced the seven-file presentation assembly
-package — [`presentation/`](presentation/) — which is `PENDING CHATGPT GOVERNANCE
-REVIEW` and not accepted. `T6-H` — external PowerPoint production — is
-`NOT STARTED — BLOCKED PENDING T6-G ACCEPTANCE`.**
+**The Markdown baselines are not themselves a produced presentation.** **`T6-G`
+produced the seven-file presentation assembly package —
+[`presentation/`](presentation/) — `ACCEPTED after T6-G-R`. `T6-H` then produced
+the external PowerPoint —
+`HFS-BIM-Management-Module-06-Coordination-Review-Approval-and-Assurance-REV01.pptx`
+— outside this repository; `T6-H-R1` corrected it, and `T6-H — ACCEPTED after
+T6-H-R1`. The `.pptx` is not committed here.** **No rendered asset exists in the
+repository**, **rehearsal remains DEFERRED** and **measured timing has not been
+performed**.
 
 **Teaching material. Not governance.** This module explains controlled
 Harrismith resources; it governs nothing, decides nothing, and changes nothing.
@@ -269,9 +272,9 @@ review, not by this file.
 | **T6-E-R** | **Correct and reconcile the specification baseline** — claim 92 and standing prohibition D production-state clauses, the `M6V-06` numeric-rule contradiction, and PowerPoint-existence scope | ✅ **COMPLETE** |
 | **T6-F** | **Produce Module 6 visual sources** — fourteen sources `M06-S01`–`M06-S14`, visual register, slide-visual map, asset-set README, rendered-status README | ✅ **COMPLETE — ACCEPTED after `T6-F-R`** |
 | **T6-F-R** | **Reconcile the visual-source production state** — claim 92 and standing prohibition D production-state clauses | ✅ **COMPLETE** |
-| **T6-G** | **Presentation assembly package** — seven production-handoff files in [`presentation/`](presentation/) | ✅ **COMPLETE — `PENDING CHATGPT GOVERNANCE REVIEW`** |
-| **T6-H** | **External PowerPoint production** | **`NOT STARTED — BLOCKED PENDING T6-G ACCEPTANCE`** |
-| Later | External PowerPoint · review · rehearsal | **Not started** |
+| **T6-G** | **Presentation assembly package** — seven production-handoff files in [`presentation/`](presentation/) | ✅ **COMPLETE — `ACCEPTED after T6-G-R`** |
+| **T6-H** | **External PowerPoint production** — `HFS-BIM-Management-Module-06-Coordination-Review-Approval-and-Assurance-REV01.pptx`, produced **outside this repository**, corrected by **`T6-H-R1`**; **not committed here** | ✅ **COMPLETE — `ACCEPTED after T6-H-R1`** |
+| Later | Rehearsal · measured timing | **DEFERRED — not performed** |
 
 ## 13. Increment status and validation
 
@@ -443,26 +446,27 @@ statement.**
 
 ### 13.5 Known residual work
 
-**The teaching-content, visual-specification and visual-source baselines are
-complete. Production is not, and the source baseline is not yet accepted.**
+**The teaching-content, visual-specification, visual-source and
+presentation-assembly baselines are complete and accepted, and the external
+PowerPoint is produced and accepted. Rehearsal is not.**
 
-- **ChatGPT governance review of `T6-G` is required before `T6-H` may begin.**
-- **No rendered asset exists**, and **no renderer or dependency is installed**.
-- **The presentation assembly package exists (`T6-G`)** — seven files in
-  [`presentation/`](presentation/), **`PENDING CHATGPT GOVERNANCE REVIEW` and not
-  accepted**.
-- **No Module 6 PowerPoint exists.** Earlier-module PowerPoints are **external
-  derivative outputs** produced outside this repository; **no `.pptx` is
-  committed here**, in any module.
-- **No review or rehearsal has been performed**, and **timing has never been
-  measured** — for this or any module.
+- **`T6-G` is `ACCEPTED after T6-G-R`**, and **`T6-H` is `ACCEPTED after
+  T6-H-R1`**.
+- **No rendered asset exists in the repository**, and **no renderer or
+  dependency is installed**.
+- **The Module 6 PowerPoint —
+  `HFS-BIM-Management-Module-06-Coordination-Review-Approval-and-Assurance-REV01.pptx`
+  — is an external derivative output** produced outside this repository;
+  **no `.pptx` is committed here**, in any module.
+- **Rehearsal remains DEFERRED**, and **timing has never been measured** — for
+  this or any module.
 
 ### 13.6 Status
 
 | Field | Value |
 |---|---|
-| Increment | **T6-G — COMPLETE.** Teaching-content baseline **COMPLETE**; visual-specification baseline **ACCEPTED after T6-E-R**; visual-source baseline **ACCEPTED after T6-F-R**; presentation assembly package **COMPLETE — `PENDING CHATGPT GOVERNANCE REVIEW`** |
-| Module status | **CURRENT — ACTIVE** |
+| Increment | **T6-H — COMPLETE.** Teaching-content baseline **COMPLETE**; visual-specification baseline **ACCEPTED after T6-E-R**; visual-source baseline **ACCEPTED after T6-F-R**; presentation assembly package **ACCEPTED after T6-G-R**; external PowerPoint **ACCEPTED after T6-H-R1** |
+| Module status | **TEACHING-PRODUCTION COMPLETE — rehearsal deferred** |
 | Module teaching files | **8** — the eighteen asset files in [`../assets/module-06/`](../assets/module-06/) are **not** teaching files |
 | Slides developed | **14 of 14.** None architecture only |
 | Presenter notes | **All fourteen slides**, plus **normal and emergency closings** and the Module 7 bridge |
@@ -484,9 +488,9 @@ complete. Production is not, and the source baseline is not yet accepted.**
 | Asset directory | **Exists** — [`../assets/module-06/`](../assets/module-06/), **eighteen files** |
 | Visual register / slide-visual map | **Complete** — [`../assets/module-06/visual-register.md`](../assets/module-06/visual-register.md) · [`../assets/module-06/slide-visual-map.md`](../assets/module-06/slide-visual-map.md) |
 | Rendered assets | **None.** No rendering attempted; no renderer or dependency installed |
-| Assembly package | **COMPLETE (T6-G)** — [`presentation/`](presentation/), **seven files**; **`PENDING CHATGPT GOVERNANCE REVIEW`, not accepted** |
-| Module 6 PowerPoint | **None.** No `.pptx` is committed to this repository |
-| Review, rehearsal, measured timing | **None performed** |
+| Assembly package | **COMPLETE (T6-G)** — [`presentation/`](presentation/), **seven files**; **`ACCEPTED after T6-G-R`** |
+| Module 6 PowerPoint | **PRODUCED externally (T6-H / T6-H-R1)** — `HFS-BIM-Management-Module-06-Coordination-Review-Approval-and-Assurance-REV01.pptx`; **not committed to this repository** |
+| Review, rehearsal, measured timing | **Deck governance review ACCEPTED (`T6-H — ACCEPTED after T6-H-R1`).** Rehearsal **DEFERRED — not performed**; measured timing **NONE** |
 | Complete governed coordination cycle | **NOT DEMONSTRATED.** `GCR-006` **OPEN** |
-| Next increment | **T6-H** — external PowerPoint production. **`NOT STARTED — BLOCKED PENDING T6-G ACCEPTANCE`** |
+| Next increment | **None in Module 6.** Module 7 is the current teaching module |
 | Publication automation | **`PAUSED`** |

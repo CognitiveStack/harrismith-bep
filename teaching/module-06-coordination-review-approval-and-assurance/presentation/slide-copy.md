@@ -4,10 +4,11 @@
 
 **This file contains visible slide wording only.**
 
-**`T6-G` COMPLETE. Package `PENDING CHATGPT GOVERNANCE REVIEW`. `T6-H` `NOT
-STARTED — BLOCKED PENDING T6-G ACCEPTANCE`. No rendered visual asset. No Module 6
-PowerPoint. No deck review. No rehearsal. `20.0 minutes allocated — not
-measured`. Presenter-controlled advancement. Publication automation `PAUSED`.**
+**`T6-G` COMPLETE — `ACCEPTED after T6-G-R`. `T6-H` COMPLETE — `ACCEPTED after
+T6-H-R1`; the external `REV01` deck is not committed to this repository. No
+rendered visual asset in the repository. Rehearsal `DEFERRED`. `20.0 minutes
+allocated — not measured`. Presenter-controlled advancement. Publication
+automation `PAUSED`.**
 
 ---
 

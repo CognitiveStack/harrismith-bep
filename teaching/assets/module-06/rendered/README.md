@@ -95,8 +95,8 @@ tree.** **No external imagery was browsed for or downloaded.**
 | Increment | **`T6-F`** — visual-source production, **ACCEPTED after `T6-F-R`** |
 | Visual sources | **`M06-S01`–`M06-S14`, all `SOURCE COMPLETE — ACCEPTED after T6-F-R`** |
 | Rendered visual assets | **`NONE`** |
-| Module 6 assembly package | **COMPLETE (`T6-G`)** — seven files, **`PENDING CHATGPT GOVERNANCE REVIEW`** |
-| Module 6 PowerPoint | **`NONE`.** No `.pptx` is committed to this repository |
-| Presentation review / rehearsal | **`NOT PERFORMED`** |
+| Module 6 assembly package | **COMPLETE (`T6-G`)** — seven files, **`ACCEPTED after T6-G-R`** |
+| Module 6 PowerPoint | **Produced externally (`REV01`) — `T6-H — ACCEPTED after T6-H-R1`.** No `.pptx` is committed to this repository |
+| Presentation review / rehearsal | **Deck governance review ACCEPTED (`T6-H-R1`)**; rehearsal **DEFERRED — NOT PERFORMED** |
 | Timing | **`20.0 minutes allocated — not measured`** |
-| Next | **`T6-H` — `NOT STARTED — BLOCKED PENDING T6-G ACCEPTANCE`** |
+| `T6-H` | **COMPLETE — `ACCEPTED after T6-H-R1`** |

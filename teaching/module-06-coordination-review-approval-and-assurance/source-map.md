@@ -16,9 +16,11 @@ ACCEPTED after `T6-E-R`** —
 [`visual-demonstration-plan.md`](visual-demonstration-plan.md) — the **fourteen
 visual sources `M06-S01`–`M06-S14` are ACCEPTED after `T6-F-R`** —
 [`../assets/module-06/`](../assets/module-06/) — and the **seven-file
-presentation assembly package is `PENDING CHATGPT GOVERNANCE REVIEW`** —
-[`presentation/`](presentation/). **No rendered visual asset and no Module 6
-PowerPoint exists**, and none is claimed.
+presentation assembly package is `ACCEPTED after T6-G-R`** —
+[`presentation/`](presentation/). **The external Module 6 PowerPoint (`REV01`)
+was produced outside this repository — `T6-H — ACCEPTED after T6-H-R1` — and is
+not committed here.** **No rendered visual asset exists in the repository**, and
+none is claimed.
 
 Source identifiers `S1`–`S14` are defined in
 [`source-inventory.md`](source-inventory.md). Resource analysis is in
@@ -58,7 +60,7 @@ unchanged.
 | Recipient acceptance authority | **`S1` §9.8** | `S8` §9 | **No workflow defined** |
 | What has been demonstrated | **`S7`, `S8`** | — | `S8` declares **`Authority: None`** |
 | Complete governed coordination cycle | **`S7` `GCR-006`** | `S8` §8 | **OPEN — not demonstrated** |
-| Coordination visual specification and assets | — | — | **Visual specification `ACCEPTED after T6-E-R`. Visual sources `ACCEPTED after T6-F-R`. Presentation assembly package created in `T6-G` — `PENDING CHATGPT GOVERNANCE REVIEW`, not accepted.** No visual has been rendered, and no Module 6 PowerPoint has been produced |
+| Coordination visual specification and assets | — | — | **Visual specification `ACCEPTED after T6-E-R`. Visual sources `ACCEPTED after T6-F-R`. Presentation assembly package created in `T6-G` — `ACCEPTED after T6-G-R`.** No visual has been rendered in the repository; the external Module 6 PowerPoint (`REV01`) was produced outside this repository (`T6-H — ACCEPTED after T6-H-R1`) and is not committed |
 
 ## 3. Statement classification — all fourteen slides
 
@@ -717,7 +719,7 @@ was renumbered.**
 
 | # | Prohibited claim |
 |---|---|
-| 92 | That the **Module 6 teaching-content, visual-specification, visual-source or presentation-assembly baseline is a produced presentation**, reviewed or rehearsed. **Fourteen visual specifications, fourteen Markdown visual-source files and a seven-file Markdown presentation assembly package exist — all are construction or production specifications** — but **no rendered visual asset or Module 6 PowerPoint exists**, and **no presentation review or rehearsal has been performed** |
+| 92 | That the **Module 6 teaching-content, visual-specification, visual-source or presentation-assembly baseline is a produced presentation**, reviewed or rehearsed. **Fourteen visual specifications, fourteen Markdown visual-source files and a seven-file Markdown presentation assembly package exist — all are construction or production specifications** — the produced presentation is the **separate external `REV01` PowerPoint (`T6-H — ACCEPTED after T6-H-R1`), which is not committed to this repository**; **no rendered visual asset exists in the repository**, and **no rehearsal or measured timing has been performed** |
 | 93 | That **the existence of an exercise set records performance**, or that any allocated time has been measured |
 
 **Ninety-three prohibited claims, plus four standing prohibitions — the final
@@ -733,7 +735,7 @@ increment.**
 | **A** | That a **complete governed coordination cycle has been demonstrated** — `GCR-006` is **OPEN** |
 | **B** | That **a Triviron coordination workflow has been decided** — no Triviron information exists |
 | **C** | That **Module 6 teaching changes Harrismith governance** — it explains; it governs nothing |
-| **D** | That the **teaching-content, visual-specification, visual-source or presentation-assembly baseline is a produced presentation** — **fourteen visual specifications, fourteen Markdown visual-source files and a seven-file Markdown presentation assembly package exist**, but **no rendered visual asset or Module 6 PowerPoint exists**, and **no presentation review or rehearsal has been performed** |
+| **D** | That the **teaching-content, visual-specification, visual-source or presentation-assembly baseline is a produced presentation** — **fourteen visual specifications, fourteen Markdown visual-source files and a seven-file Markdown presentation assembly package exist**; the produced presentation is the **separate external `REV01` PowerPoint (`T6-H — ACCEPTED after T6-H-R1`), not committed to this repository**; **no rendered visual asset exists in the repository**, and **no rehearsal or measured timing has been performed** |
 
 ## 9. Boundary-deferral register
 
@@ -853,27 +855,28 @@ for the bounded *"a meeting is not a record"* distinction.
 ### 10.10 Residual production work
 
 **The teaching-content, visual-specification, visual-source and
-presentation-assembly baselines are complete. Deck production is not.**
+presentation-assembly baselines are complete and accepted. The external deck is
+produced and accepted; rehearsal is not performed.**
 
 - **The visual-demonstration plan is ACCEPTED (T6-E, corrected in T6-E-R)** —
   fourteen specifications `M6V-01`–`M6V-14`.
 - **The visual sources exist (T6-F)** — `M06-S01`–`M06-S14` in
   [`../assets/module-06/`](../assets/module-06/), all **`SOURCE COMPLETE —
-  PENDING CHATGPT GOVERNANCE REVIEW`**. **Not accepted**, and **`T6-G` is blocked
-  pending that acceptance.**
+  ACCEPTED after T6-F-R`**.
 - **The visual register and slide-visual map are complete.**
 - **No rendered visual asset exists** — no PNG, SVG, JPG or other rendered
   graphic — and **no renderer or dependency is installed.** **The asset directory
   itself exists**; what it holds is Markdown construction specifications.
 - **The presentation assembly package exists (`T6-G`)** — seven Markdown files in
-  [`presentation/`](presentation/), **`PENDING CHATGPT GOVERNANCE REVIEW` and not
-  accepted**. **It is a production handoff, not a deck.** **`T6-H` is blocked
-  pending its acceptance.**
-- **No Module 6 PowerPoint exists.** Earlier-module PowerPoints are **external
-  derivative outputs** produced outside this repository; **no `.pptx` is
-  committed here**, in any module.
-- **No review or rehearsal has been performed**, and **timing has never been
-  measured**.
+  [`presentation/`](presentation/), **`ACCEPTED after T6-G-R`**. **It is a
+  production handoff, not a deck.**
+- **The Module 6 PowerPoint —
+  `HFS-BIM-Management-Module-06-Coordination-Review-Approval-and-Assurance-REV01.pptx`
+  — was produced outside this repository (`T6-H`), corrected by `T6-H-R1`, and
+  `T6-H — ACCEPTED after T6-H-R1`.** Like the earlier modules' decks it is an
+  **external derivative output**; **no `.pptx` is committed here**, in any
+  module.
+- **Rehearsal has not been performed**, and **timing has never been measured**.
 
 **None of the teaching-content, visual-specification, visual-source or
 presentation-assembly baselines is a produced presentation**, and prohibited
@@ -881,7 +884,7 @@ claims **92** and **93** forbid the confusion. **A visual-source file is a
 construction specification and the assembly package is a production
 specification — neither is a picture, a rendered visual asset or a deck.**
 
-### 10.10.1 Production-state history — T6-E-R, T6-F-R and T6-G
+### 10.10.1 Production-state history — T6-E-R, T6-F-R, T6-G and T7-B0
 
 **Prohibited claim 92 and standing prohibition D carry a production-state
 explanation alongside their core prohibition. That explanation has been updated
@@ -893,6 +896,7 @@ prohibitions and the register totals have never changed.**
 | **`T6-E-R`** | The **specification-stage** wording. The clause written in T6-D still said *no visual specification exists*; fourteen had been created |
 | **`T6-F-R`** | The **source-stage** wording. The clause still said *no visual source, asset…*; fourteen Markdown visual-source files and the asset directory had been created |
 | **`T6-G`** | The **package-stage** wording. The clause still said *no presentation assembly package exists*; the seven-file Markdown package now exists |
+| **`T7-B0`** | The **external-deck stage** wording. The clause still said *no Module 6 PowerPoint exists*; the external `REV01` deck had been produced in `T6-H`, corrected by `T6-H-R1` and accepted — it remains uncommitted to this repository |
 
 **`T6-G`'s update is a predictable production-state transition, not a missed
 defect.** Each baseline is created by the increment that creates it, and the
@@ -905,8 +909,8 @@ applicability; **claims 1–91 and 93 and standing prohibitions A–C are
 untouched**; the totals remain **93 prohibited claims plus four standing
 prohibitions**.
 
-**The package remains `PENDING CHATGPT GOVERNANCE REVIEW`**, and **`T6-H` remains
-`NOT STARTED — BLOCKED PENDING T6-G ACCEPTANCE`.**
+**The package was subsequently `ACCEPTED after T6-G-R`**, and **`T6-H` was
+subsequently completed and `ACCEPTED after T6-H-R1`.**
 
 #### The T6-F-R record, retained
 
@@ -942,16 +946,16 @@ afterwards, by ChatGPT governance review, and is recorded as
 visual specifications      exist
 Markdown visual sources    exist
 asset directory            exists
-assembly package           exists — seven files, pending review
-rendered visual assets     do not exist
-Module 6 PowerPoint        does not exist
+assembly package           exists — seven files, ACCEPTED after T6-G-R
+rendered visual assets     do not exist in the repository
+Module 6 PowerPoint        produced externally (REV01) — not committed here
 ```
 
 ## 11. Status
 
 | Field | Value |
 |---|---|
-| Increment | **T6-G — COMPLETE.** Teaching-content baseline **COMPLETE** (T6-D); all fourteen slides classified; **visual-specification baseline ACCEPTED after T6-E-R**; **visual-source baseline ACCEPTED after T6-F-R**; **presentation assembly package COMPLETE — `PENDING CHATGPT GOVERNANCE REVIEW`**. **T6-E, T6-E-R, T6-F, T6-F-R and T6-G added no statement, register entry or prohibited claim** |
+| Increment | **T6-H — COMPLETE.** Teaching-content baseline **COMPLETE** (T6-D); all fourteen slides classified; **visual-specification baseline ACCEPTED after T6-E-R**; **visual-source baseline ACCEPTED after T6-F-R**; **presentation assembly package ACCEPTED after T6-G-R**; **external PowerPoint ACCEPTED after T6-H-R1**. **T6-E, T6-E-R, T6-F, T6-F-R and T6-G added no statement, register entry or prohibited claim** |
 | Slides classified | **All fourteen.** None architecture only |
 | Classified statements | **218** — 49 (T6-A) + 76 (T6-B) + 63 (T6-C) + 30 (T6-D) |
 | Registers | **Nine**, plus the **module-wide final reconciliation** (§10) |
@@ -966,6 +970,6 @@ Module 6 PowerPoint        does not exist
 | Final reconciliation | **COMPLETE** — see §10 |
 | Visual plan | **ACCEPTED** — `T6-E — ACCEPTED after T6-E-R`; fourteen specifications `M6V-01`–`M6V-14` |
 | Visual sources | **ACCEPTED** — `T6-F — ACCEPTED after T6-F-R`; `M06-S01`–`M06-S14` in [`../assets/module-06/`](../assets/module-06/), all **`SOURCE COMPLETE — ACCEPTED after T6-F-R`** |
-| Presentation assembly package | **COMPLETE (T6-G)** — [`presentation/`](presentation/), **seven files**; **`PENDING CHATGPT GOVERNANCE REVIEW`, not accepted** |
-| Rendered visual assets, Module 6 PowerPoint | **None exist.** No `.pptx` committed. **`T6-H` `NOT STARTED — BLOCKED PENDING T6-G ACCEPTANCE`** |
-| Review, rehearsal, measured timing | **None performed** |
+| Presentation assembly package | **COMPLETE (T6-G)** — [`presentation/`](presentation/), **seven files**; **`ACCEPTED after T6-G-R`** |
+| Rendered visual assets, Module 6 PowerPoint | **No rendered asset in the repository; no `.pptx` committed.** The external `REV01` PowerPoint was produced outside this repository — **`T6-H — ACCEPTED after T6-H-R1`** |
+| Review, rehearsal, measured timing | **Deck governance review ACCEPTED (`T6-H-R1`).** Rehearsal **DEFERRED — not performed**; measured timing **NONE** |
