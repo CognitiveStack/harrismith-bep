@@ -42,9 +42,15 @@ REVIEW`**
       `EVIDENCE REQUIRED` **18** · `DECISION REQUIRED` **0** · `PROPOSAL` **0** ·
       `ESTABLISHED` **0**; `3 + 18 = 21`.
 - [ ] `TEACHING SYNTHESIS` is labelled in words on Slides 2, 12, 13 and 14.
-- [ ] **No Triviron answer, role, holder, authority, organisation, platform,
-      container, tolerance, numeric value, taxonomy, status model, date, schedule
-      or workshop appears anywhere.**
+- [ ] **No unsupported Triviron answer, role, holder, authority, organisation,
+      platform, container, tolerance, numeric value, taxonomy, status model,
+      date, schedule or workshop is presented as an established, current or
+      known Triviron fact or arrangement.**
+- [ ] **References to those concepts remain permitted** where the accepted slide
+      uses them as a question, evidence requirement, exclusion, typed absence,
+      boundary warning or teaching distinction — **and those references must
+      remain where the accepted source specifies them.** The test is whether the
+      deck *presents* an arrangement as Triviron's, not whether a word appears.
 
 ## 3. Status review
 

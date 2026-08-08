@@ -90,9 +90,15 @@ to:**
       terminus** in either vocabulary.
 - [ ] **Every STOP boundary and boundary strip is a principal object** at ≥ 18
       pt — never a footnote, footer, caption or small print.
-- [ ] **No unapproved Triviron fact** anywhere: no answer, role, holder,
+- [ ] **No unsupported Triviron fact** anywhere: no answer, role, holder,
       authority, organisation, platform, container, tolerance, numeric value,
-      taxonomy, status model, date, schedule or workshop.
+      taxonomy, status model, date, schedule or workshop **may be presented as an
+      established, current or known Triviron arrangement**.
+- [ ] **Accepted questions, evidence requirements, exclusions, typed absences and
+      governance-warning references to those concepts are permitted and must
+      remain where specified.** Deleting one because it contains a listed word is
+      itself a defect — the test is presentation as fact, not lexical
+      appearance.
 - [ ] **No hidden or visually weakened warning:** every governance line is
       legible at projection size.
 - [ ] No footer branding, page furniture, date stamp or logo.

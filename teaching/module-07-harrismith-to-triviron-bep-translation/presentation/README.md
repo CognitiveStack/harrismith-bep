@@ -27,7 +27,7 @@ REVIEW`**
 | Package accepted | **NO.** Not accepted until ChatGPT governance review |
 | Package files | **Seven** |
 | Teaching content | **`ACCEPTED`** — Module 7 teaching baseline |
-| Translation Decision Register | **`ACCEPTED after T7-C-R`** — 21 rows; **0** controlled Triviron evidence; **0** candidate decisions |
+| Translation Decision Register | **`ACCEPTED after T7-C-R`** — 21 rows; controlled Triviron evidence **`NONE IDENTIFIED` × 21**; **0** candidate decisions |
 | Visual specification | **`ACCEPTED after T7-J-R + T7-J-R2`** — `M7V-01`–`M7V-14` |
 | Visual sources | **`ACCEPTED under T7-K`** — `M07-S01`–`M07-S14`, eighteen asset files |
 | `T7-I` · `T7-J0` · `T7-K0` | **`ACCEPTED`** |
