@@ -2,7 +2,8 @@
 
 **`MODULE 7 PRESENTATION ASSEMBLY PACKAGE — UNDER GOVERNED CORRECTION`** ·
 **`T7-L — ACCEPTED after T7-L-R`** · **`T7-L-R2 — ACCEPTED`** ·
-**`T7-L-R3 — PENDING CHATGPT GOVERNANCE REVIEW`**
+**`T7-L-R3 — ACCEPTED`** · **`T7-L-R4 — PENDING CHATGPT GOVERNANCE REVIEW`** ·
+**`P9 — SUPERSEDED FOR MODULE 7`**
 
 **`TEACHING PRODUCTION HANDOFF — NOT TRIVIRON GOVERNANCE`**
 
@@ -11,6 +12,18 @@
 > **This is the build instrument.** Work top to bottom. **A box that cannot be
 > ticked honestly is a `STOP AND REFER BACK`, not a box to leave blank.**
 
+> ### 14 LOGICAL TEACHING UNITS → 18 PHYSICAL SLIDES
+>
+> **`P9` is superseded for Module 7.** Build **exactly fourteen logical teaching
+> units implemented as exactly eighteen physical slides**. **Only logical Slides
+> 6, 11, 13 and 14 may use two physical frames**, each into **exactly two**.
+> Every other logical unit is **one** physical slide. See
+> [`deck-specification.md`](deck-specification.md) **§13**.
+>
+> **All eighteen physical frames are `PRODUCTION FIT — VERIFIED ON DECLARED
+> BASIS`.** The four one-frame layouts for logical Slides 6, 11, 13 and 14 are
+> **withdrawn from production** and must not be built.
+>
 > ### `T7-M-R1` IS NOT AUTHORISED
 >
 > **Do not begin a new PowerPoint build from this checklist yet.** The `T7-M`
@@ -19,17 +32,14 @@
 > at the accepted type floors** after `T7-L-R2`'s copy reconciliation. See
 > [`deck-specification.md`](deck-specification.md) **§11**.
 >
-> **A producer reaching this checklist before those four slides are resolved by a
-> governed geometry increment must STOP.** The correct response to an unresolved
-> slide is **refer back**, never smaller type.
+> **`T7-M-R1` remains `NOT STARTED` and is NOT AUTHORISED.** It may begin only
+> after ChatGPT accepts `T7-L-R4`. **`T7-L-R4` is not accepted**, so no new
+> PowerPoint may be built from this checklist yet.
 >
-> **`T7-L-R3` attempted that geometry increment and did not succeed.** Slides 6,
-> 11, 13 and 14 remain **`UNRESOLVED`** at deficits of `75`–`230 pt`. **They are
-> not buildable at the type floors in any arrangement of the accepted visual
-> concepts**, and Slide 13's mandatory `18 pt` text alone exceeds the canvas.
-> **No coordinate in §3 has changed.** Build **nothing** on those four slides
-> until a governed increment resolves them — see
-> [`deck-specification.md`](deck-specification.md) **§12**.
+> `T7-L-R3` proved the four one-frame layouts impossible (deficits `75`–`230 pt`;
+> Slide 13's mandatory `18 pt` text alone exceeded the canvas). **`T7-L-R4`
+> resolves them by governed pagination, not by smaller type and not by removing
+> copy.** The correct response to any residual misfit is still **refer back**.
 
 ---
 
@@ -75,14 +85,14 @@ to:**
 - [ ] **Measure your actual font metrics against that basis.** If your line
       height or character advance is **larger** than declared, **STOP AND REFER
       BACK** — you may not compensate by reducing type.
-- [ ] Read [`deck-specification.md`](deck-specification.md) **§11** and **§12**
-      and confirm which slides are recorded **feasible** and which are recorded
-      **unresolved**. **Do not build an unresolved slide.**
-- [ ] Confirm the four slides recorded **`UNRESOLVED`** — **6, 11, 13, 14** —
-      have been resolved by a governed increment **that changed their geometry or
-      their governing controls**. **`T7-L-R3` did not resolve them and changed no
-      coordinate**, so if no later increment has, **STOP: the deck cannot be
-      built.**
+- [ ] Read [`deck-specification.md`](deck-specification.md) **§11**, **§12** and
+      **§13**. Confirm **all eighteen physical frames** are recorded
+      **`PRODUCTION FIT — VERIFIED ON DECLARED BASIS`** with positive margin.
+- [ ] Build the **A/B frame geometry of §13.7–§13.9** for logical Slides 6, 11, 13
+      and 14. **Do not build their superseded one-frame geometry.**
+- [ ] Note the two tightest frames — **`M07-S11-A`** (`+10.0` frame, `+1.2` zone)
+      and **`M07-S14-B`** (`+8.0` frame, `+0.4` band) — recorded at §13.12.
+      **On these especially: STOP AND REFER BACK rather than shrink.**
 - [ ] Confirm, for every slide you do build, that its region geometry carries
       **both** claims: **coordinate arithmetic verified** *and* **production fit
       verified with positive margin**. **Coordinate arithmetic alone is not
@@ -96,20 +106,48 @@ to:**
 
 ## 2. Global build checks
 
-- [ ] **Fourteen slides.** No fifteenth. No appendix, agenda, thank-you or
-      contact slide.
+- [ ] **Exactly fourteen logical teaching units implemented as exactly eighteen
+      physical slides.** Physical count **`18`** — expected, maximum and minimum.
+      Logical count **`14`** — expected, maximum and minimum.
+- [ ] **Only logical Slides 6, 11, 13 and 14 use two physical frames**, and each
+      uses **exactly two**. **Every other logical unit is one physical slide.**
+- [ ] **No appendix, agenda, thank-you, references, contact or bonus slide.** No
+      nineteenth physical slide. No fifteenth logical unit.
 - [ ] **Titles exact**, in order, matching [`slide-copy.md`](slide-copy.md).
+      **On a continuation frame the parent title is reproduced verbatim**, with
+      the continuation label **inside the reserved title zone and outside the
+      title wording**.
+- [ ] **`PART 1 OF 2` / `PART 2 OF 2` appears on exactly eight physical frames** —
+      6, 7, 12, 13, 15, 16, 17, 18 — and on no other.
+- [ ] **The `A → B` page transition is drawn as nothing at all.** No arrow, line,
+      bracket, chevron or leader; no object named `page-transition` or
+      equivalent. **A continuation is not a connector.**
+- [ ] **No page transition is styled or labelled as semantic progression**, a next
+      stage, a next state, a next step or an approval.
+- [ ] **Logical Slide 13:** all four semantic states sit together on frame A.
+      **The pagination creates no ordering, sequence, first/last treatment or
+      progression.**
+- [ ] **Logical Slide 14:** frame A ends at the authority gate; frame B opens with
+      its post-authority reminder band. **The page advance never bypasses,
+      crosses or carries authority.**
+- [ ] **Each A/B timing pair sums to its parent allocation** — logical 6
+      `1.0 + 0.5 = 1.5`, logical 11 `1.0 + 0.5 = 1.5`, logical 13
+      `0.8 + 0.6 = 1.4`, logical 14 `0.8 + 0.7 = 1.5`.
 - [ ] **Timing metadata records allocations only** — `20.0 minutes allocated —
       not measured`. Nothing describes the deck as verified, rehearsed, tested or
       final.
-- [ ] Per-slide allocations sum to **20.0**: `1.0 + 1.3 + 1.5 + 1.3 + 1.5 + 1.5 +
-      1.5 + 1.5 + 1.5 + 1.5 + 1.5 + 1.5 + 1.4 + 1.5`.
+- [ ] **Physical** allocations sum to **20.0**: `1.0 + 1.3 + 1.5 + 1.3 + 1.5 +
+      1.0 + 0.5 + 1.5 + 1.5 + 1.5 + 1.5 + 1.0 + 0.5 + 1.5 + 0.8 + 0.6 + 0.8 +
+      0.7`. **Logical** allocations also sum to `20.0`. **No allocation was
+      increased because a logical unit uses two frames.**
 - [ ] **Manual advancement only.** No automatic slide-transition timing anywhere
       in the file.
 - [ ] **Slide-copy fidelity:** every verbatim string in `slide-copy.md` §4
       appears exactly, unshortened and unsplit.
-- [ ] **One-to-one mapping:** every slide carries exactly one visual, matching
-      `Slide n → M7V-nn → M07-Snn`.
+- [ ] **Mapping:** every physical frame traces to **one** logical teaching unit
+      and **one** accepted logical visual — `logical n → M7V-nn → M07-Snn →
+      physical frame(s)`. **Ten logical units map 1 : 1; four map 1 : 2.** No
+      logical unit has zero frames, three frames or an alternate mapping.
 - [ ] **Native editable objects only** — text boxes, rectangles, shapes, lines,
       connectors, tables, borders, fills.
 - [ ] **No import of any kind:** no PNG, JPG, SVG, screenshot, logo, icon,
@@ -122,9 +160,11 @@ to:**
 - [ ] **Accessibility:** logical reading order set per slide; alternative text
       taken from the accepted source screen-reader descriptions, not invented.
 - [ ] **No colour-only semantics** anywhere in the deck.
-- [ ] **Connector count across the whole deck is exactly 12** — 2 on Slide 1, 6
-      on Slide 3, 4 on Slide 14, **zero on the other eleven slides** — and every
-      connector's meaning is expressible in one sentence.
+- [ ] **Connector count across the whole deck is exactly 12** — 2 on physical 1,
+      6 on physical 3, **3 on physical 17 (`M07-S14-A`)**, **1 on physical 18
+      (`M07-S14-B`)**, **zero on the other fourteen physical frames** — and every
+      connector's meaning is expressible in one sentence. **The four extra
+      physical pages add no connector.**
 - [ ] **Typed absence is neutral everywhere:** no zero, absence or unknown styled
       as failure, deficiency, negative score, rejected state, red alarm, empty
       progress, grey, dashes, strike-through, cross or unticked box.

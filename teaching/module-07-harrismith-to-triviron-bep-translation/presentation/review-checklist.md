@@ -2,7 +2,8 @@
 
 **`MODULE 7 PRESENTATION ASSEMBLY PACKAGE — UNDER GOVERNED CORRECTION`** ·
 **`T7-L — ACCEPTED after T7-L-R`** · **`T7-L-R2 — ACCEPTED`** ·
-**`T7-L-R3 — PENDING CHATGPT GOVERNANCE REVIEW`**
+**`T7-L-R3 — ACCEPTED`** · **`T7-L-R4 — PENDING CHATGPT GOVERNANCE REVIEW`** ·
+**`P9 — SUPERSEDED FOR MODULE 7`**
 
 **`TEACHING PRODUCTION HANDOFF — NOT TRIVIRON GOVERNANCE`**
 
@@ -32,15 +33,40 @@
 
 ---
 
-## 1. Structural review
+## 1. Structural review — 14 logical / 18 physical
 
-- [ ] Exactly **fourteen slides**. No fifteenth, no appendix, agenda, thank-you
-      or contact slide.
-- [ ] Slide order matches the accepted outline, 1 → 14.
+**Verify the two counts separately. A deck that satisfies one and not the other
+fails.**
+
+- [ ] Exactly **fourteen logical teaching units**. No fifteenth.
+- [ ] Exactly **eighteen physical slides**. No nineteenth, no appendix, agenda,
+      thank-you, references, contact or bonus slide.
+- [ ] **Exactly four split pairs, and they are logical Slides 6, 11, 13 and 14** —
+      no other logical unit is split.
+- [ ] **Each authorised split has exactly two frames** — not one, not three.
+- [ ] **The other ten logical units each occupy exactly one physical slide.**
+- [ ] Physical order is `1 → 18` and matches
+      [`deck-specification.md`](deck-specification.md) §13.3.
 - [ ] Every title is **exact** — none shortened, retitled or improved.
-- [ ] Every slide carries **exactly one visual**, mapped
-      `Slide n → M7V-nn → M07-Snn`.
-- [ ] No slide has zero sources, two sources or an alternate mapping.
+- [ ] **On each continuation frame the parent title is reproduced verbatim**, and
+      the continuation label sits **inside the reserved title zone, outside the
+      title wording**.
+- [ ] **`PART 1 OF 2` / `PART 2 OF 2` appears on exactly the eight split frames** —
+      physical 6, 7, 12, 13, 15, 16, 17, 18 — and nowhere else.
+- [ ] **The continuation label carries no semantic, sequential or progression
+      meaning** anywhere it appears.
+- [ ] Every physical frame maps to **one** logical unit and **one** accepted
+      logical visual: `logical n → M7V-nn → M07-Snn → physical frame(s)`.
+- [ ] No logical unit has zero frames, three frames or an alternate mapping.
+- [ ] **A/B continuity:** each pair reads as **one** teaching unit continued, not
+      as two topics. Frame B is never titled or styled as a new subject.
+- [ ] **Each A/B timing pair sums to its parent allocation** — `1.0 + 0.5 = 1.5`,
+      `1.0 + 0.5 = 1.5`, `0.8 + 0.6 = 1.4`, `0.8 + 0.7 = 1.5`. **Physical and
+      logical allocations both total `20.0`.**
+- [ ] **No one-slide overload has been restored.** If any of logical Slides 6, 11,
+      13 or 14 appears as a single physical slide, **the deck fails**.
+- [ ] **All eighteen physical frames carry a `G9` text-fit record with positive
+      margin**, matching §13.11.
 - [ ] Presentation is **16:9** at the `960 × 540 pt` reference geometry.
 - [ ] Title zone `y = 0–72` reserved on every slide.
 - [ ] No footer branding, page furniture, date stamp or logo.
@@ -102,7 +128,16 @@
 - [ ] Slide 2's channel is **empty**.
 - [ ] Slide 3's STOP band is the **largest and heaviest object** on its slide;
       the lower row is **not** greyed or faded.
-- [ ] Slides 5–11 share **one** grammar — none independently redesigned.
+- [ ] Slides 5–11 share **one** grammar — none independently redesigned. **The
+      family has a single-frame variant and a governed two-frame pagination
+      variant, and nothing else.** Logical 6's and 11's `A` frames carry the same
+      three co-equal cards as their single-frame siblings.
+- [ ] **Logical Slide 13's pagination creates no semantic progression.** All four
+      states sit together on frame A; frame B carries no state, no ordering and no
+      fifth quadrant.
+- [ ] **Logical Slide 14's pagination does not cross authority.** Frame A ends at
+      the gate; frame B opens with its post-authority reminder band; nothing
+      implies the page advance granted authority.
 - [ ] Slide 10's fence border weight **differs** from the card borders.
 - [ ] Slide 12's cards are **offset** — no lower card shares a column with an
       upper card.
@@ -137,8 +172,13 @@
 - [ ] Slide 2: **0 — and none between the two principal columns.**
 - [ ] Slide 3: **6**, within rows only; **none crosses the STOP band**; **the
       upper row does not connect to the lower row**; no loop or closed cycle.
-- [ ] Slides 4–13: **0 each.** No spoke, ring, orbit or wheel on Slide 12; the
-      Slide 13 separating rule is a **boundary, not a connector**.
+- [ ] All physical frames other than 1, 3, 17 and 18: **0 each.** No spoke, ring,
+      orbit or wheel on physical 14; nothing on logical Slide 13's frames.
+- [ ] **Physical 17 (`M07-S14-A`): 3** — within Register 1 only.
+- [ ] **Physical 18 (`M07-S14-B`): 1** — stage 5 → 6 only.
+- [ ] **The `A → B` page transition is drawn as nothing** on all four pairs. No
+      arrow, line, bracket, chevron or leader. **A continuation is not a
+      connector, and the four extra pages add none.**
 - [ ] Slide 6: **no line joins any two objects.**
 - [ ] Slide 9: **no finding → Issue arrow.**
 - [ ] Slide 10: **no connector touches the fence.**
@@ -187,11 +227,12 @@ is not reviewed further; it is returned.**
       spacing** anywhere in the file.
 - [ ] **No note, comment, property or instruction in the deck** permits a producer
       to shrink type.
-- [ ] **The four slides recorded unresolved in
-      [`deck-specification.md`](deck-specification.md) §11 and §12 — 6, 11, 13,
-      14 — have been resolved by a governed increment.** **`T7-L-R3` attempted
-      this and did not succeed**; if no later governed increment has resolved
-      them, **the deck is out of scope for review and is returned**.
+- [ ] **Logical Slides 6, 11, 13 and 14 are built to the `T7-L-R4` A/B frame
+      geometry of §13.7–§13.9**, not to their superseded one-frame geometry.
+- [ ] **The two tightest frames measure true:** `M07-S11-A` (`+10.0` frame,
+      `+1.2` zone) and `M07-S14-B` (`+8.0` frame, `+0.4` band). **Neither was
+      made to fit by reducing type, condensing, narrowing a card or breaking
+      co-equality.**
 - [ ] **Every built region carries both claims:** *coordinate arithmetic
       verified* **and** *production fit verified with positive margin*. A region
       offering only coordinate arithmetic is **not** verified — see §12.7 of the
@@ -292,6 +333,39 @@ has been invented:** 41 and 42 derive from `M7V-S33`, the accepted STOP that
 already prohibits setting governance text below `18 pt` and relying on
 presentation tricks in place of legible type.
 
+### `T7-L-R4` register audit — count unchanged at 42
+
+**No condition was added, removed, renumbered or broadened by `T7-L-R4`.** The
+register was audited against the governed pagination and **no gap was found that
+required a new condition.**
+
+| | Before | After |
+|---|---:|---:|
+| **Conditions** | **42** | **42** |
+
+**Result of the audit — reported, not acted on:**
+
+| Condition | Finding |
+|---|---|
+| **No condition literally requires fourteen *physical* slides.** The register was searched; every occurrence of *fourteen* or *14* is either the logical unit **Slide 14** or the **`14 pt`** type floor. **No pagination contradiction exists, so nothing needed correcting** | ✓ |
+| **24 · 25 · 26** — Slide 14's authority gate, final box and workshop declaration | **Valid and unchanged.** They govern **logical** Slide 14 **across both its frames**: the gate and its three Register-1 connectors sit on frame A; the final box and the stage 5 → 6 connector sit on frame B. **A connector crossing the gate, or entering the final box, fails wherever it appears** |
+| **27** — *changes accepted geometry without a governed correction* | **Satisfied.** `T7-L-R4` **is** the expressly authorised governed correction, recorded in §13 with full before/after arithmetic |
+| **39** — *redesigns any of Slides 5–11 away from the shared domain-family grammar* | **Valid and unchanged, and it applies to the split frames.** The family has a **single-frame variant** and a **governed two-frame pagination variant**; logical 6's and 11's `A` frames carry the same three co-equal cards as their single-frame siblings. **Any independent redesign of a split frame fails under 39** |
+| **28 · 41 · 42** — the type floors and fit strategies | **Valid and unchanged. They apply to all eighteen physical frames** |
+| **9 · 10 · 11 · 12 · 13 · 23** — typed absence, progression and vocabulary merging | **Valid and unchanged.** They cover a page transition presented as semantic progression: logical Slide 13's four states sit together on one frame, so pagination can create no ordering, and any frame that made `NONE IDENTIFIED` a status or a fifth state fails under **23** |
+
+**Conditions the increment asked about specifically, and where they are enforced
+without a new register entry:** *any other logical slide split* · *a split with
+more or fewer than two frames* · *physical count ≠ 18* · *logical count ≠ 14* ·
+*a page transition drawn as progression* · *Slide 14 A → B bypassing authority* ·
+*Slide 13 A → B creating state progression*. **All seven are checklist items in
+§1, §4 and §6 above, and the first four are `P9` requirements in
+[`deck-specification.md`](deck-specification.md) §13.1.** They are **structural
+build requirements**, not new governance failure modes, so `T7-L-R4` did **not**
+manufacture register entries for them. **If governance prefers them as explicit
+automatic-fail conditions, that is a decision for review — it is reported here,
+not taken.**
+
 ## 11. Review readiness
 
 - [ ] Deck built from this package, not from an independent reading.
@@ -323,18 +397,21 @@ presentation tricks in place of legible type.
 |---|---|
 | Assembly package (`T7-L`) | **`ACCEPTED after T7-L-R`** |
 | `T7-L0` | **`ACCEPTED`** |
-| Assembly correction (`T7-L-R2`) | **`ACCEPTED`** — *copy-density / type-floor reconciliation and feasibility audit; production readiness not yet achieved* |
-| Geometry reconciliation (`T7-L-R3`) | **`PENDING CHATGPT GOVERNANCE REVIEW`** — **not accepted**. **Did not achieve four passes**; no coordinate changed |
-| Slides 6, 11, 13, 14 geometry | **coordinate arithmetic VERIFIED · production fit NOT VERIFIED** |
+| Assembly correction (`T7-L-R2`) | **`ACCEPTED`** — *copy-density / type-floor reconciliation and feasibility audit* |
+| Geometry reconciliation (`T7-L-R3`) | **`ACCEPTED`** — *proof that the four one-frame layouts are production-infeasible; production-fit status reconciliation* |
+| Split pagination (`T7-L-R4`) | **`PENDING CHATGPT GOVERNANCE REVIEW`** — **not accepted** |
+| `P9` | **`SUPERSEDED FOR MODULE 7`** — 14 logical units / 18 physical slides |
+| Logical teaching units · physical slides | **14** · **18** |
+| Physical frames production-fit VERIFIED | **18 of 18**, margins `+8.0` to `+252.0 pt` |
 | PowerPoint (`T7-M`) | **`PRODUCED; QC FAILED; NOT ACCEPTED`** — external, not in this repository |
 | `T7-M` failure reason | **production-feasibility failure — accepted type floors not achievable under the prior visible-copy / geometry combination** |
 | PowerPoint (`T7-M-R1`) | **`NOT STARTED`** — **not authorised** |
-| Slides unresolved at the type floors | **4 — Slides 6, 11, 13, 14.** See [`deck-specification.md`](deck-specification.md) §11 and §12 |
-| Automatic-fail conditions | **42** — unchanged by `T7-L-R3`. Was 40 at `T7-L-R2`; **28** strengthened, **41** and **42** added there |
+| Logical units unresolved | **None** — all four resolved by governed pagination. See [`deck-specification.md`](deck-specification.md) §13 |
+| Automatic-fail conditions | **42** — unchanged by `T7-L-R3` and `T7-L-R4`. Was 40 at `T7-L-R2`; **28** strengthened, **41** and **42** added there |
 | Deck review | **NOT PERFORMED** on a conforming deck |
 | Rendered assets | **`NONE`** |
 | Rehearsal | **`NOT PERFORMED`** |
 | Measured timing | **`NOT PERFORMED`** |
 | Timing | **`20.0 minutes allocated — not measured`** |
 | Publication automation | **`PAUSED`** |
-| Next gate | **ChatGPT governance review of `T7-L-R3`** |
+| Next gate | **ChatGPT governance review of `T7-L-R4`** |

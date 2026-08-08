@@ -2,7 +2,7 @@
 
 **`MODULE 7 PRESENTATION ASSEMBLY PACKAGE — UNDER GOVERNED CORRECTION`** ·
 **`T7-L — ACCEPTED after T7-L-R`** · **`T7-L-R2 — ACCEPTED`** ·
-**`T7-L-R3 — PENDING CHATGPT GOVERNANCE REVIEW`**
+**`T7-L-R3 — ACCEPTED`** · **`T7-L-R4 — PENDING CHATGPT GOVERNANCE REVIEW`**
 
 **`TEACHING PRODUCTION HANDOFF — NOT TRIVIRON GOVERNANCE`**
 
@@ -24,12 +24,20 @@
 > authoritative. **The deck became less dense. The teaching did not become
 > smaller.**
 
+> **`T7-L-R4` — 14 LOGICAL UNITS ACROSS 18 PHYSICAL SLIDES.** Logical Slides 6,
+> 11, 13 and 14 are each delivered across **two physical frames**. **A page
+> advance inside a pair continues the same logical teaching unit — it does not
+> start a new decision domain, a new state, or a new stage.** §10 carries the
+> per-pair transition cues. **No new teaching statement is introduced.**
+
 ---
 
 ## 1. Standing delivery rules
 
 | Rule | Requirement |
 |---|---|
+| **C8** | **A continuation frame is the same teaching unit.** On reaching `PART 2 OF 2`, say so: *"same question set, second page"* — never *"next topic"* |
+| **C9** | **`page advance ≠ semantic progression`** on logical Slide 13, and **`page advance ≠ authority progression`** on logical Slide 14. Both are mandatory spoken points, not optional colour |
 | **C1** | **Never answer a `TDR-` question for Triviron.** Not as an example, not "just to illustrate", not "off the record" |
 | **C2** | **Never deliver a boundary strip as small print.** Read it; it is content |
 | **C3** | **Never say a zero is a problem.** Zero candidate decisions is the controlled position |
@@ -152,7 +160,7 @@ answer is:**
 - **Fallback.** The universal fallback (§5).
 - **Transition.** *"A governed cycle needs people with defined functions."*
 
-### Slide 6 — Domain 2: Roles and authority · 1.5 min
+### Logical Slide 6 — Domain 2: Roles and authority · 1.5 min · physical 6–7
 
 - **Opening cue.** *"Three questions beginning with 'who' — and not one holder."*
 - **Central distinction.** Function ≠ person · allocation ≠ holder · allocation ≠
@@ -167,9 +175,12 @@ answer is:**
   separate decisions** · **authority is never inferred from a job title or a
   platform permission**. And: **Harrismith itself carries an unresolved `may
   verify` variance — carried visibly, not resolved on anyone's behalf.**
+- **`PART 1 OF 2` → `PART 2 OF 2`.** *"Same three questions — second page, for
+  what does not transfer and what this programme has not established."* **Say
+  that the unit continues.** Do not announce a new domain.
 - **Fallback.** *"I cannot name anyone, and neither can this programme. That is
   the honest position, not an omission."*
-- **Transition.** *"Functions act on inputs."*
+- **Transition, after `PART 2 OF 2`.** *"Functions act on inputs."*
 
 ### Slide 7 — Domain 3: Inputs and federation · 1.5 min
 
@@ -254,7 +265,7 @@ answer is:**
   nothing about Triviron in either direction."*
 - **Transition.** *"A completed, verified matter still is not published."*
 
-### Slide 11 — Domain 7: Publication and acceptance boundary · 1.5 min
+### Logical Slide 11 — Domain 7: Publication and acceptance boundary · 1.5 min · physical 12–13
 
 - **Opening cue.** *"Ability to move a file is not authority to change its
   state."*
@@ -270,6 +281,10 @@ answer is:**
   `completion ≠ publication` · `publication ≠ recipient acceptance` ·
   `verification ≠ authorisation` · **one word carrying two meanings must not
   collapse two acts**.
+- **`PART 1 OF 2` → `PART 2 OF 2`.** *"Same three questions — second page, for
+  the authority position, the exclusions and the boundary."* **Read the
+  `on TDR-020:` label aloud** so the authority statement is heard as attached to
+  that one question, not to the domain as a whole.
 - **Fallback.** *"This programme has not identified a publication authority for
   Triviron. I am not saying there isn't one — I am saying we have not identified
   one."*
@@ -294,7 +309,7 @@ answer is:**
 - **Transition.** *"Saying what you know requires a vocabulary for what you
   don't."*
 
-### Slide 13 — Unknowns are controlled work · 1.4 min
+### Logical Slide 13 — Unknowns are controlled work · 1.4 min · physical 15–16
 
 - **Opening cue.** *"Unknown is not one status. The reason decides which one."*
 - **Central distinction.** Missing evidence ≠ evidence of absence ·
@@ -305,12 +320,18 @@ answer is:**
   kind of thing entirely.
 - **Boundary cue.** All 21 statuses read `NOT YET ESTABLISHED` **because that is
   what the evidence supports, and for no other reason**.
+- **`PART 1 OF 2` → `PART 2 OF 2` — MANDATORY.** **All four states are on page
+  one.** Before advancing, say: **`page advance ≠ semantic progression`** — *"all
+  four states were on that page together; turning the page does not put them in
+  an order, and page two is not a fifth state."* **Page two is the current
+  register position and the evidence position — two separately labelled things,
+  neither of them a state.**
 - **Fallback.** *"We cannot record `NOT ESTABLISHED` for Triviron today — that
   would require positive evidence of absence, and we have none."*
-- **Transition.** *"A backlog of precisely typed unknowns is exactly what a
-  decision workshop needs."*
+- **Transition, after `PART 2 OF 2`.** *"A backlog of precisely typed unknowns is
+  exactly what a decision workshop needs."*
 
-### Slide 14 — From decision backlog to BEP workshop · 1.5 min
+### Logical Slide 14 — From decision backlog to BEP workshop · 1.5 min · physical 17–18
 
 - **Opening cue.** **Read the header declaration in full, first, before any
   stage.** *"Teaching workflow — not a current Triviron workflow."*
@@ -328,6 +349,15 @@ answer is:**
   And on the workshop: it is **a controlled decision-making process in which the
   questions, required evidence, authority and status are made explicit** — the
   enumeration that left the boundary strip.
+- **`PART 1 OF 2` → `PART 2 OF 2` — MANDATORY.** **Page one ends at the
+  authority gate. Stop there and say why before advancing:**
+  **`page advance ≠ authority progression`** — *"turning this page is not the
+  authority being granted. Nothing on the next page follows automatically; it
+  follows only if an appropriate authority is engaged and authorises it."* Then
+  read Frame B's reminder band aloud: **`TEACHING WORKFLOW — NOT A CURRENT
+  TRIVIRON WORKFLOW · continued only when authorised`**, and note that stage 5
+  still reads **`candidate decision, if authorised`** and stage 7 still reads
+  **`only when earned`**.
 - **Fallback.** *"I cannot tell you when, because nothing here schedules
   anything. Module 8 is the next teaching module, not the next event."*
 - **Module close.** *"Six modules taught you how a managed project works. This
@@ -349,7 +379,39 @@ answer is:**
 | Timing claims | **Allocated, not measured** |
 | Rehearsal | **`NOT PERFORMED`** |
 | `T7-L-R2` additions | **Nine `say aloud` cues — Slides 4, 5, 6, 7, 8, 9, 10, 11, 12, 14** |
-| New teaching statement introduced by `T7-L-R2` | **None** |
+| `T7-L-R4` additions | **Rules `C8`–`C9`; four `PART 1 OF 2 → PART 2 OF 2` transition cues; §10** |
+| Logical teaching units | **14** |
+| Physical delivery sections | **18** — ten single-frame, four A/B pairs |
+| New teaching statement introduced by `T7-L-R2` or `T7-L-R4` | **None** |
+
+## 10. `T7-L-R4` physical-frame delivery map
+
+**Fourteen logical teaching units, eighteen physical delivery sections.** A pair
+is **one** teaching unit delivered across two pages.
+
+| Physical # | Logical unit | Frame | Allocation | Delivery note |
+|---:|---:|---|---:|---|
+| 1–5 | 1–5 | single | 1.0 · 1.3 · 1.5 · 1.3 · 1.5 | as §7 |
+| **6** | **6** | **A** | **1.0** | the three Domain 2 cards; read `function`, then `holder`, on every card |
+| **7** | **6** | **B** | **0.5** | exclusions, the holder statement, the boundary. **Announce continuation, not a new domain** |
+| 8–11 | 7–10 | single | 1.5 each | as §7 |
+| **12** | **11** | **A** | **1.0** | the three Domain 7 cards and the four co-equal acts |
+| **13** | **11** | **B** | **0.5** | the `on TDR-020:` authority band, exclusions, two-directional statement, boundary |
+| 14 | 12 | single | 1.5 | as §7 |
+| **15** | **13** | **A** | **0.8** | **all four semantic states together.** Say there is no first and no last |
+| **16** | **13** | **B** | **0.6** | `CURRENT STATUS POSITION` and `EVIDENCE AVAILABILITY`, separately. **`page advance ≠ semantic progression`** |
+| **17** | **14** | **A** | **0.8** | declaration, Register 1, **stop at the authority gate** |
+| **18** | **14** | **B** | **0.7** | Register 2, method chain, roadmap close, teaching close. **`page advance ≠ authority progression`** |
+| | | | **20.0** | **allocated, not measured** |
+
+**Pair sums:** logical 6 `1.0 + 0.5 = 1.5` · logical 11 `1.0 + 0.5 = 1.5` ·
+logical 13 `0.8 + 0.6 = 1.4` · logical 14 `0.8 + 0.7 = 1.5`. **Each equals its
+parent allocation exactly.**
+
+**Section recovery (§6) is unchanged in effect.** If time is short inside a pair,
+compress the spoken content — **never skip Frame B**, because it carries the
+governing boundary, the mandatory programme-bounded statements and, on logical
+Slide 14, the post-authority reminder.
 
 ## 9. `T7-L-R2` spoken-delivery transfer record
 

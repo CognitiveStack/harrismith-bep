@@ -2,7 +2,7 @@
 
 **`MODULE 7 PRESENTATION ASSEMBLY PACKAGE — UNDER GOVERNED CORRECTION`** ·
 **`T7-L — ACCEPTED after T7-L-R`** · **`T7-L-R2 — ACCEPTED`** ·
-**`T7-L-R3 — PENDING CHATGPT GOVERNANCE REVIEW`**
+**`T7-L-R3 — ACCEPTED`** · **`T7-L-R4 — PENDING CHATGPT GOVERNANCE REVIEW`**
 
 **`TEACHING PRODUCTION HANDOFF — NOT TRIVIRON GOVERNANCE`**
 
@@ -23,9 +23,40 @@
 
 > **`T7-L-R3` — this copy is unchanged.** `T7-L-R3` attempted to resolve Slides
 > 6, 11, 13 and 14 by **geometry** reconciliation, not by further copy reduction.
-> It did not succeed; all four remain **`UNRESOLVED`**. **No wording on any slide
-> was shortened, moved or reduced by `T7-L-R3`**, and none may be. See
+> It did not succeed; all four were recorded **`UNRESOLVED`**. **No wording on any
+> slide was shortened, moved or reduced by `T7-L-R3`**, and none may be. See
 > [`deck-specification.md`](deck-specification.md) **§12**.
+
+> ### `T7-L-R4` — GOVERNED SPLIT PAGINATION · 14 LOGICAL / 18 PHYSICAL
+>
+> **ChatGPT has superseded `P9` for Module 7.** Logical Slides **6, 11, 13 and
+> 14** are each produced as **two physical frames**; the other ten logical units
+> remain one physical slide each. **Fourteen logical teaching units → eighteen
+> physical slides.**
+>
+> **No wording was added, removed, shortened or moved to notes by `T7-L-R4`.**
+> Every accepted visible string below is **allocated to a physical frame**, and
+> §5 marks each allocation with **`→ FRAME A`** or **`→ FRAME B`**. **Logical
+> parent headings are retained so a reviewer can audit that nothing was lost.**
+>
+> **This is pagination. It is not eighteen teaching topics.** See
+> [`deck-specification.md`](deck-specification.md) **§13**.
+
+### Physical-frame map
+
+| Physical # | Logical unit | Frame | Continuation label |
+|---:|---:|---|---|
+| 1–5 | 1–5 | single | — |
+| **6 · 7** | **6** | **A · B** | `PART 1 OF 2` · `PART 2 OF 2` |
+| 8–11 | 7–10 | single | — |
+| **12 · 13** | **11** | **A · B** | `PART 1 OF 2` · `PART 2 OF 2` |
+| 14 | 12 | single | — |
+| **15 · 16** | **13** | **A · B** | `PART 1 OF 2` · `PART 2 OF 2` |
+| **17 · 18** | **14** | **A · B** | `PART 1 OF 2` · `PART 2 OF 2` |
+
+**On every continuation frame the parent title is reproduced verbatim.** The
+continuation label sits **inside the reserved title zone, outside the title
+wording**, and carries **no semantic, sequential or progression meaning**.
 
 ---
 
@@ -331,11 +362,17 @@ split · its cycle steps · its meeting arrangements · any frequency`
 
 ---
 
-### Slide 6 — Domain 2: Roles and authority · 1.5 min
+### Logical Slide 6 — Domain 2: Roles and authority · 1.5 min
 
-**Title.** Domain 2: Roles and authority
+**`T7-L-R4` — TWO PHYSICAL FRAMES.** Physical **6** = `FRAME A` `PART 1 OF 2`
+(1.0 min) · physical **7** = `FRAME B` `PART 2 OF 2` (0.5 min). **Pair sum
+`1.5` = parent allocation.** Every item below is allocated to a frame. **Nothing
+is omitted and nothing is newly duplicated except the boundary strip, which rule
+`G7` requires on both frames.**
 
-**Card zone 1 — three runs each.**
+**Title — both frames, verbatim.** Domain 2: Roles and authority
+
+**→ FRAME A · Card zone 1 — three runs each.**
 `function:` · A · 18 pt — `coordination` **‖** `technical-response ownership`
 **‖** `verification`
 `holder: NOT YET ESTABLISHED` · A · 18 pt — **on each of the three cards, at the
@@ -344,34 +381,52 @@ Question · B · 14 pt — `TDR-004 — Who coordinates?` **‖**
 `TDR-005 — Who owns each technical response?` **‖**
 `TDR-006 — Who verifies, and when is verification required?`
 
-**Evidence kinds** · B · 14 pt.
+**→ FRAME A · Evidence kinds** · B · 14 pt.
 `organisation chart · appointments / contracts · coordination-function
 allocation decision` **‖**
 `task-team structure · technical-response ownership allocation decision` **‖**
 `verification requirement · verification allocation and mandatoriness decision`
 
-**Classification** · A · 18 pt. `EVIDENCE REQUIRED` × 3
+**→ FRAME A · Classification** · A · 18 pt. `EVIDENCE REQUIRED` × 3
 
-**Exclusion strip** · B · 14 pt. `Harrismith's role model · its allocations · any
-named or implied role holder`
+**→ FRAME A · Evidence position and status** · A · 18 pt. On each of the three
+cards: `Triviron evidence currently available: NONE IDENTIFIED` ·
+`NONE IDENTIFIED ≠ NONE EXISTS` · `classification: EVIDENCE REQUIRED` ·
+`status: NOT YET ESTABLISHED` — **two separately labelled lines, never merged.**
 
-**Mandatory holder statement** · A · 18 pt. `no Triviron BIM Manager, BIM
-Coordinator, task-team holder, verification holder, decision owner or authority
-holder is established by this programme`
+**→ FRAME A · Boundary strip, verbatim** · A · 18 pt. **`These are questions
+Triviron must answer for itself. No answer on this slide is Triviron's, and none
+is proposed.`** — **repeated on Frame A because rule `G7` requires the governing
+boundary to sit with the cards it governs.**
 
-**`function ≠ person` is carried structurally** by the two separate labelled
-lines on every card. **The holder line is never smaller, fainter or
+**→ FRAME B · Exclusion strip** · A heading, B items · 18 pt / 14 pt.
+`Does not transfer as an answer` · `Harrismith's role model · its allocations ·
+any named or implied role holder`
+
+**→ FRAME B · Mandatory holder statement** · A · 18 pt. `no Triviron BIM Manager,
+BIM Coordinator, task-team holder, verification holder, decision owner or
+authority holder is established by this programme`
+
+**→ FRAME B · Boundary strip, verbatim** · A · 18 pt. **`These are questions
+Triviron must answer for itself. No answer on this slide is Triviron's, and none
+is proposed.`** — **`G7` repetition, as above.**
+
+**`function ≠ person` is carried structurally** on Frame A by the two separate
+labelled lines on every card. **The holder line is never smaller, fainter or
 parenthetical.** Card 3's Harrismith `may verify` variance note is **Class C** and
-moves to [`presenter-cues.md`](presenter-cues.md) Slide 6; **the variance is
+is delivered from [`presenter-cues.md`](presenter-cues.md); **the variance is
 still delivered, and is neither resolved nor rewritten.**
 
-> **SLIDE 6 REMAINS UNRESOLVED AT THE TYPE FLOORS.** Zone 1 must carry two
-> `18 pt` runs and one `14 pt` run inside a `54 pt` zone — needing `114.4 pt`.
-> **`T7-L-R3` re-derived the whole slide on the declared basis and confirmed a
-> slide-level deficit of `75.2 pt`**, against the maximum `436 pt` budget, with
-> every lever tested. See [`deck-specification.md`](deck-specification.md) §11 and
-> **§12.2**. **No producer may resolve this by shrinking type, and no coordinate
-> has been changed.**
+**Frame A carries no org chart, hierarchy, reporting line, tree, swimlane, RACI,
+`X`-allocation grid, seat, silhouette or avatar. Frame B carries none either.**
+**`connector count = 0` on both frames.**
+
+> **RESOLVED BY `T7-L-R4` GOVERNED PAGINATION.** The `75.2 pt` one-frame deficit
+> recorded at `T7-L-R3` §12.2 is removed by splitting the logical unit across two
+> physical frames. **Frame A `+24.0 pt`, Frame B `+252.0 pt`, every zone
+> positive** — see [`deck-specification.md`](deck-specification.md) **§13.7**.
+> **No type was reduced and no copy was removed.** Frame B's large margin is
+> **not** to be filled with prose.
 
 ---
 
@@ -516,57 +571,87 @@ cycle` are delivered from the cues.
 
 ---
 
-### Slide 11 — Domain 7: Publication and acceptance boundary · 1.5 min
+### Logical Slide 11 — Domain 7: Publication and acceptance boundary · 1.5 min
 
-**Title.** Domain 7: Publication and acceptance boundary
+**`T7-L-R4` — TWO PHYSICAL FRAMES.** Physical **12** = `FRAME A` `PART 1 OF 2`
+(1.0 min) · physical **13** = `FRAME B` `PART 2 OF 2` (0.5 min). **Pair sum
+`1.5` = parent allocation.**
 
-**Card questions** · B · 14 pt.
+**Title — both frames, verbatim.** Domain 7: Publication and acceptance boundary
+
+**→ FRAME A · Card questions** · B · 14 pt.
 `TDR-019 — How does coordination link to controlled reshare or exchange?` ·
 `TDR-020 — Who may authorise publication or exchange?` — with
 `holder: NOT YET ESTABLISHED` · A · 18 pt ·
 `TDR-021 — How are completion, publication and recipient acceptance kept
 distinct?`
 
-**Evidence kinds** · B · 14 pt.
+**→ FRAME A · Evidence kinds** · B · 14 pt.
 `information exchange requirement · CDE governance decision · cycle-to-exchange
 mapping` **‖**
 `acceptance / publication authority decision · appointment or contract
 information` **‖**
 `act-distinction decision record · exchange requirement · authority decision`
 
-**Four act cells on `TDR-021`, co-equal, nothing between them** · A · 18 pt.
+**→ FRAME A · Four act cells on `TDR-021`, co-equal, nothing between them** · A · 18 pt.
 `completion` · `publication` · `exchange` · `recipient acceptance`
 
 **Zero connectors among the four acts, in any direction. The four are never
 collapsed to save space.**
 
-**Classification** · A · 18 pt. `EVIDENCE REQUIRED` × 2 · on `TDR-021`:
+**→ FRAME A · Classification** · A · 18 pt. `EVIDENCE REQUIRED` × 2 · on `TDR-021`:
 **`classification: METHOD`** with `the four-act distinction is reusable —
 reusability is not adoption`
 
-**Programme-bounded authority statement, verbatim, adjacent to `TDR-020`'s holder
-line** · A · 18 pt. **`no controlled Triviron publication / exchange authority
-allocation is currently identified in this programme`**
+**→ FRAME A · Evidence position and status** · A · 18 pt. On each of the three
+cards: `Triviron evidence currently available: NONE IDENTIFIED` ·
+`NONE IDENTIFIED ≠ NONE EXISTS` · `classification:` *value* ·
+`status: NOT YET ESTABLISHED` — **two separately labelled lines, never merged.**
 
-**Exclusion strip** · B · 14 pt. `Harrismith's transition set · its exchange
+**→ FRAME A · Boundary strip, verbatim** · A · 18 pt. **`These are questions
+Triviron must answer for itself. No answer on this slide is Triviron's, and none
+is proposed.`** — **`G7` repetition: the boundary sits with the cards it
+governs.**
+
+**→ FRAME B · Programme-bounded authority statement, verbatim, in its own band
+explicitly labelled `on TDR-020:`** · A · 18 pt. **`no controlled Triviron
+publication / exchange authority allocation is currently identified in this
+programme`**
+
+**The `on TDR-020:` label is mandatory.** It keeps the attribution unmistakable so
+the statement can never read as a deck-wide, card-1 or card-3 claim. **No leader,
+arrow or line joins the band to anything.**
+
+**→ FRAME B · Exclusion strip** · A heading, B items · 18 pt / 14 pt.
+`Does not transfer as an answer` · `Harrismith's transition set · its exchange
 events · its publication block · its acceptance condition · its authority record`
 
-**Mandatory two-directional statement** · A · 18 pt. `no claim is made in either
-direction: Triviron is not stated to have a publication or acceptance authority,
-and is not stated to lack one`
+**→ FRAME B · Mandatory two-directional statement** · A · 18 pt. `no claim is
+made in either direction: Triviron is not stated to have a publication or
+acceptance authority, and is not stated to lack one`
+
+**→ FRAME B · Boundary strip, verbatim** · A · 18 pt. **`These are questions
+Triviron must answer for itself. No answer on this slide is Triviron's, and none
+is proposed.`** — **`G7` repetition, as above.**
+
+**Neither frame may imply a known Triviron authority holder, and neither may
+imply that Triviron lacks one.** **`connector count = 0` on both frames,
+including zero between the four governance acts, in any direction. The four acts
+are never collapsed and never joined.**
 
 `completion ≠ publication`, `publication ≠ recipient acceptance` and
 `verification ≠ authorisation` are carried by the four co-equal act cells and
 delivered from [`presenter-cues.md`](presenter-cues.md) Slide 11.
 
-> **SLIDE 11 REMAINS UNRESOLVED AT THE TYPE FLOORS.** `T7-L-R3` relocated the
-> 107-character programme-bounded authority statement out of card 2's narrow
-> column into a dedicated full-width band, **saving `43.2 pt`** — and the slide
-> still shows a **deficit of `160.0 pt`**. The four act cells are the second
-> binding element: a `61 pt` cell carries **five characters** per `18 pt` line, so
-> `recipient acceptance` needs four lines, and no rearrangement improves on it.
-> See [`deck-specification.md`](deck-specification.md) §11 and **§12.3**. **The
-> statement may not be shrunk or shortened; the four acts may not be collapsed.**
+> **RESOLVED BY `T7-L-R4` GOVERNED PAGINATION.** The `160.0 pt` one-frame deficit
+> recorded at `T7-L-R3` §12.3 is removed by splitting the logical unit. **Frame A
+> `+10.0 pt`, Frame B `+188.0 pt`, every zone positive** — see
+> [`deck-specification.md`](deck-specification.md) **§13.7**. **Frame A is the
+> tightest frame in the deck** (`+1.2 pt` at its tightest zone), because
+> co-equality forces all three cards to card 3's `Z4` height and a `61 pt` act
+> cell holds five characters per `18 pt` line. **A producer whose metrics exceed
+> the declared basis STOPS and refers back — see §13.12. The statement may not be
+> shrunk or shortened; the four acts may not be collapsed.**
 
 ---
 
@@ -622,13 +707,24 @@ and status vocabularies remain separately labelled everywhere they appear.**
 
 ---
 
-### Slide 13 — Unknowns are controlled work · 1.4 min
+### Logical Slide 13 — Unknowns are controlled work · 1.4 min
 
-**Unchanged by `T7-L-R2`.** Feasibility audited; no copy correction applied.
+**Unchanged in wording by `T7-L-R2` and `T7-L-R4`.** Feasibility audited; no copy
+correction applied.
 
-**Title.** Unknowns are controlled work
+**`T7-L-R4` — TWO PHYSICAL FRAMES.** Physical **15** = `FRAME A` `PART 1 OF 2`
+(0.8 min) · physical **16** = `FRAME B` `PART 2 OF 2` (0.6 min). **Pair sum
+`1.4` = parent allocation.**
 
-**Quadrant — `NOT YET ESTABLISHED`** · A · 18 pt. *insufficient controlled basis
+> **ALL FOUR SEMANTIC STATES SIT TOGETHER ON FRAME A.** The states are **not
+> divided between the pages**, so **no pagination-induced ordering, sequence,
+> first/last or progression can arise**. This is why the `§12.6.1` seam was
+> chosen over any arrangement that splits the states. **The continuation label
+> means `second physical page` and nothing else — never `next semantic stage`.**
+
+**Title — both frames, verbatim.** Unknowns are controlled work
+
+**→ FRAME A · Quadrant — `NOT YET ESTABLISHED`** · A · 18 pt. *insufficient controlled basis
 to establish: the programme lacks sufficient controlled evidence and/or an
 authorised decision* · **bar:** *not a claim the arrangement does not exist in
 reality; not a sign nobody has considered it; not an intentional deferral* ·
@@ -636,60 +732,91 @@ reality; not a sign nobody has considered it; not an intentional deferral* ·
 because that is what the current programme evidence supports, and for no other
 reason`
 
-**Quadrant — `NOT ESTABLISHED`** · A · 18 pt. *controlled evidence positively
+**→ FRAME A · Quadrant — `NOT ESTABLISHED`** · A · 18 pt. *controlled evidence positively
 establishes absence within the governed scope* · **bar:** *requires positive
 evidential support; never used merely because evidence was not found —*
 `absence of identified evidence is not evidence of absence`
 
-**Quadrant — `UNRESOLVED`** · A · 18 pt. *a recognised, considered matter remains
+**→ FRAME A · Quadrant — `UNRESOLVED`** · A · 18 pt. *a recognised, considered matter remains
 open through disagreement, dependency, conflict, ambiguity or pending decision* ·
 **bar:** *an active matter, not merely an unknown one*
 
-**Quadrant — `TBD`** · A · 18 pt. *the value is intentionally deferred inside an
+**→ FRAME A · Quadrant — `TBD`** · A · 18 pt. *the value is intentionally deferred inside an
 already established governance scope* · **bar:** *not a generic blank; unusable
 where the scope itself is not established — no Triviron governance scope has been
 established in this programme to defer within*
 
-**Evidence-position panel** · A · 18 pt. **`NONE IDENTIFIED`** — *register field
-8: the controlled Triviron evidence has not been identified in this repository* ·
-`NONE IDENTIFIED ≠ NONE EXISTS` ·
-`this is an evidence-availability position, not a field-18 status — the two are
-different registers of absence and are never placed on one axis`
+**→ FRAME A · Non-progression band, verbatim** · A · 18 pt. **`THESE ARE SEMANTIC
+STATES, NOT STAGES — no chronological progression exists among them`** —
+**repeated here because rule `G7` requires this warning to sit with the four
+quadrants it governs. It is also the misuse strip's first entry on Frame B.**
 
-**Misuse-warning strip — all four together** · A · 18 pt.
+**→ FRAME B · `CURRENT STATUS POSITION` band** · A · 18 pt, own border, labelled.
+`all 21 Triviron row statuses are currently NOT YET ESTABLISHED — because that is
+what the current programme evidence supports, and for no other reason`
+
+**→ FRAME B · `EVIDENCE AVAILABILITY` band** · A · 18 pt, own border, labelled.
+**`NONE IDENTIFIED`** — *register field 8: the controlled Triviron evidence has
+not been identified in this repository* · 14 pt ·
+`NONE IDENTIFIED ≠ NONE EXISTS` · 18 pt ·
+`this is an evidence-availability position, not a field-18 status — the two are
+different registers of absence and are never placed on one axis` · 18 pt
+
+**The two Frame-B bands are separately bordered and separately labelled.**
+**`status ≠ evidence availability` is carried structurally** — no shared axis,
+ramp, legend, colour scale or numbering, and nothing joins them. **`NONE
+IDENTIFIED` is never a fifth quadrant and never a status.**
+
+**→ FRAME B · Misuse-warning strip — all four together** · A · 18 pt.
 **`THESE ARE SEMANTIC STATES, NOT STAGES — no chronological progression exists
 among them`** · `a blank field is inferior to a typed absence` ·
 `statuses are never upgraded or substituted to make a document appear complete` ·
 **`TEACHING SYNTHESIS: unknown is not one status — the reason we do not know
 determines the status.`**
 
-**2 × 2 non-sequential arrangement. No arrows. `NONE IDENTIFIED` stays in its own
-evidence-position panel and is never a fifth quadrant or a status. `TBD` is
-applied to no Triviron matter.**
+**Frame A is a 2 × 2 non-sequential arrangement. No arrows on either frame. No
+numbering, ordering marker, first/last treatment, colour ramp or severity scale.
+`TBD` is applied to no Triviron matter. No classification vocabulary appears on
+either frame.** **`connector count = 0` on both frames.**
 
-> **SLIDE 13 REMAINS UNRESOLVED AT THE TYPE FLOORS — AND IS THE DECISIVE CASE.**
-> `T7-L-R3` moved the 21-row status census out of the `NOT YET ESTABLISHED`
-> quadrant into a separately labelled `CURRENT REGISTER POSITION` element, which
-> **does remove the co-equality defect** — that quadrant no longer outweighs its
-> three peers. It creates no space: the census must still appear on the slide.
-> **Deficit `230.4 pt`.** And this slide's mandatory `≥ 18 pt` text **alone** is
-> 24 lines = **`518.4 pt`**, before any `14 pt` copy, padding, gap or border,
-> against a `436 pt` canvas — **it does not fit in any arrangement whatsoever.**
-> See [`deck-specification.md`](deck-specification.md) §11 and **§12.4**. **No
-> copy correction is applied**; the content is protected and the defect is
-> structural.
+> **RESOLVED BY `T7-L-R4` GOVERNED PAGINATION.** `T7-L-R3` proved this logical
+> unit's mandatory `≥ 18 pt` text alone is 24 lines = **`518.4 pt`** against a
+> `436 pt` canvas — **impossible on one frame in any arrangement**. Two frames
+> resolve it: **Frame A `+64.0 pt`, Frame B `+78.0 pt`, every band positive** —
+> see [`deck-specification.md`](deck-specification.md) **§13.8**. The 21-row
+> census now sits in its own labelled **`CURRENT STATUS POSITION`** band on Frame
+> B, so **no quadrant outweighs its three peers**. **No type was reduced and no
+> copy was removed.**
 
 ---
 
-### Slide 14 — From decision backlog to BEP workshop · 1.5 min
+### Logical Slide 14 — From decision backlog to BEP workshop · 1.5 min
 
 **Corrected by `T7-L-R2`** — boundary strip and roadmap close compressed. **Every
 protected declaration, the authority gate, the seven stages and the complete
 nine-object method chain are retained.**
 
-**Title.** From decision backlog to BEP workshop
+**`T7-L-R4` — TWO PHYSICAL FRAMES, SPLIT AT THE AUTHORITY GATE.** Physical **17**
+= `FRAME A` `PART 1 OF 2` (0.8 min) · physical **18** = `FRAME B` `PART 2 OF 2`
+(0.7 min). **Pair sum `1.5` = parent allocation.**
 
-**Header declaration — two semantic statements, three physical lines, wording
+> **FRAME A ENDS AT THE GOVERNANCE STOP.** It carries the declaration, Register 1
+> and the authority gate. **No connector leaves, enters, crosses or passes behind
+> the gate.**
+>
+> **FRAME B BEGINS AFTER THE AUTHORITY BOUNDARY** and opens with its own reminder
+> band. **The page advance is not a connector, is never drawn as one, and never
+> carries authority.** `page advance ≠ authority progression`.
+>
+> **`§12.6.1`'s prose and its allocation table disagree about this seam.** The
+> prose says *authority gate*; the table puts Register 2 on frame A. `T7-L-R4`
+> implements the **authority seam** as the increment expressly prescribes, and
+> the contradiction is reported at
+> [`deck-specification.md`](deck-specification.md) **§13.9** for governance.
+
+**Title — both frames, verbatim.** From decision backlog to BEP workshop
+
+**→ FRAME A · Header declaration — two semantic statements, three physical lines, wording
 unchanged** · A · 18 pt.
 
 1. **`TEACHING WORKFLOW — NOT A CURRENT TRIVIRON WORKFLOW`**
@@ -698,30 +825,30 @@ unchanged** · A · 18 pt.
 
 **The semicolon is the only permitted break point.**
 
-**Register 1** · A · 18 pt. `decision backlog` · `evidence gathering` ·
+**→ FRAME A · Register 1** · A · 18 pt. `decision backlog` · `evidence gathering` ·
 `decision agenda` · `appropriate authority engaged`
 
-**Authority gate strip — both lines** · A · 18 pt.
+**→ FRAME A · Authority gate strip — both lines** · A · 18 pt.
 **`AUTHORITY REQUIRED — no automatic progression`** ·
 `evidence ≠ authority · no appropriate Triviron authority holder is currently
 identified or established in this programme`
 
-**Register 2** · A · 18 pt. `candidate decision, if authorised` ·
+**→ FRAME B · Register 2** · A · 18 pt. `candidate decision, if authorised` ·
 `decision recorded with status` ·
 `BEP / matrix / schedule / appendix populated **only when earned**`
 
-**Method one-liner — complete and verbatim, all nine objects** · A · 18 pt,
+**→ FRAME B · Method one-liner — complete and verbatim, all nine objects** · A · 18 pt,
 labelled `analytical sequence — nothing flows along these arrows`.
 
 `Harrismith reference pattern → translation question → Triviron evidence
 required → evidence available / missing → STOP → candidate decision → authority
 required → recorded status → controlled destination`
 
-**Roadmap close** · B · 14 pt. `Modules 1–6: foundation` ·
+**→ FRAME B · Roadmap close** · B · 14 pt. `Modules 1–6: foundation` ·
 `Module 7: translation method / decision backlog` ·
 `Next: Module 8 — BEP workshop facilitation`
 
-**Boundary strip — all three together** · A · 18 pt.
+**→ FRAME B · Boundary strip — all three together** · A · 18 pt.
 `the future workshop is a controlled decision-making process — not "copy
 Harrismith into Triviron" and not "fill in the blanks"` ·
 `the backlog handed forward is unchanged — 21 rows, evidence NONE IDENTIFIED ×
@@ -729,10 +856,23 @@ Harrismith into Triviron" and not "fill in the blanks"` ·
 **`TEACHING SYNTHESIS: a good BEP workshop does not start with answers. It starts
 with the decisions that must be earned.`**
 
-**Four connectors total — three within Register 1, one from stage 5 to stage 6.
-No connector crosses the authority gate. No connector enters the final
-controlled-destination box; it is reached by condition, not by arrow.** The
-one-liner's arrows are typographic characters in a single text run.
+**→ FRAME B · Post-authority reminder band, opening the frame** · A · 18 pt.
+**`TEACHING WORKFLOW — NOT A CURRENT TRIVIRON WORKFLOW · continued only when
+authorised`**
+
+**This band is mandatory and is the first thing read on Frame B.** It does two
+governed jobs: it prevents Frame B reading as a **current** Triviron workflow when
+seen alone — the full declaration sits on Frame A — and it prevents **the page
+advance itself from functioning as an implied connector across authority**.
+**The short teaching-workflow label is repeated here under rule `G7`; the full
+declaration is never weakened, shortened or split.**
+
+**Four drawn connectors in total across both frames — three within Register 1 on
+Frame A, one from stage 5 to stage 6 on Frame B. No fifth connector. No connector
+crosses the authority gate. No connector enters the final controlled-destination
+box; it is reached by condition, not by arrow. No connector represents the A → B
+page transition.** The one-liner's arrows are typographic characters in a single
+text run, not drawn connectors.
 
 **`T7-L-R2` Slide 14 compressions, all Class B:**
 
@@ -746,17 +886,15 @@ one-liner's arrows are typographic characters in a single text run.
 the authority gate · `evidence ≠ authority` · `candidate decision, if authorised`
 · `only when earned` · the teaching-versus-current-workflow distinction.
 
-> **SLIDE 14 REMAINS UNRESOLVED AT THE TYPE FLOORS.** `T7-L-R3` applied the
-> authorised **horizontal packing** — the nine-object method chain beside the
-> roadmap close — which **saved `49.6 pt`**, taking the requirement from
-> `607.2 pt` to `557.6 pt` against a `436 pt` envelope. **Deficit `121.6 pt`.**
-> Horizontal packing cannot close the rest: for a fixed string a narrower column
-> needs *more* lines, so full-width stacking already minimises the header, the
-> gate, the chain and the boundary strip. See
-> [`deck-specification.md`](deck-specification.md) §11 and **§12.5**. **The
-> header's accepted `3 × 18 pt = 54 pt` nominal fit is arithmetically wrong** — it
-> treats line height as equal to point size; the true need is `72.8 pt`, so the
-> band must be at least `82 pt`.
+> **RESOLVED BY `T7-L-R4` GOVERNED PAGINATION.** The `121.6 pt` one-frame deficit
+> recorded at `T7-L-R3` §12.5 is removed by splitting at the authority gate.
+> **Frame A `+194.0 pt`, Frame B `+8.0 pt`, every band positive** — see
+> [`deck-specification.md`](deck-specification.md) **§13.9**. The header band is
+> now **`82 pt`**, correcting the accepted `3 × 18 pt = 54 pt inside 64 pt` claim,
+> which treated line height as equal to point size; the true need is `72.8 pt`.
+> **Frame B is the deck's tightest band-level fit (`+0.4 pt` on the reminder
+> band); a producer whose metrics exceed the declared basis STOPS and refers back
+> — see §13.12.** **No type was reduced and no copy was removed.**
 
 ---
 
@@ -781,6 +919,13 @@ the authority gate · `evidence ≠ authority` · `candidate decision, if author
 | Minimum intended type stated per element | **Yes — `14 pt` or `18 pt`, never lower** |
 | Slides materially reduced in density | **2, 4, 5–11, 12, 14** |
 | Slides unchanged | **1, 3, 13** |
-| Slides still unresolved at the type floors | **6, 11, 13, 14 — see [`deck-specification.md`](deck-specification.md) §11 and §12** |
-| Copy changed by `T7-L-R3` | **None.** `T7-L-R3` was a geometry increment and reduced no wording |
+| Logical teaching units | **14** |
+| Physical slide sections | **18** — ten single-frame, four A/B pairs |
+| Split logical units | **6, 11, 13, 14 only** — each into exactly two frames |
+| Logical units still unresolved | **None.** All four resolved by `T7-L-R4` pagination — see [`deck-specification.md`](deck-specification.md) §13 |
+| Copy changed by `T7-L-R3` or `T7-L-R4` | **None.** Both were geometry/pagination increments and reduced no wording |
+| Copy allocated to a physical frame | **Every accepted visible string** — marked `→ FRAME A` or `→ FRAME B` |
+| Text repeated across a pair | **Only the governing boundary, under rule `G7`** — Slides 6 and 11 boundary strip; Slide 13 non-progression warning; Slide 14 short workflow label. **Each repetition is documented with its reason** |
+| Parent titles | **Verbatim on both frames of every pair** |
+| Continuation labels | **`PART 1 OF 2` / `PART 2 OF 2`**, inside the title zone, outside the title wording, carrying no semantic meaning |
 | Package readiness for `T7-M-R1` | **NOT READY.** `T7-M-R1` is **`NOT STARTED`** and **not authorised** |

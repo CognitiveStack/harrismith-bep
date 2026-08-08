@@ -384,6 +384,66 @@ each requiring a governance decision — are recorded in
 [`presentation/deck-specification.md`](presentation/deck-specification.md) §12.**
 **A produced PowerPoint never governs this plan.**
 
+### 2.12b Logical visual units and physical production frames — `T7-L-R4`
+
+**`T7-L-R3 — ACCEPTED`** *(proof that the four one-frame layouts are
+production-infeasible; production-fit status reconciliation)*.
+**`T7-L-R4 — PENDING CHATGPT GOVERNANCE REVIEW`.**
+
+**ChatGPT has expressly superseded production rule `P9` for Module 7.** This plan
+continues to specify **fourteen logical visual units**. Production now realises
+them as **eighteen physical presentation frames**.
+
+| | |
+|---|---|
+| **Logical visual units** | **`14` — `M7V-01`–`M7V-14`.** Unchanged. This plan creates no fifteenth |
+| **Physical production frames** | **`18`** — ten logical units at one frame each; **four at two frames each** |
+| **Paginated logical units** | **`M7V-06`, `M7V-11`, `M7V-13`, `M7V-14` only**, each into **exactly two** frames |
+| **Child frame identifiers** | `M7V-06-A/B` · `M7V-11-A/B` · `M7V-13-A/B` · `M7V-14-A/B`. **These describe physical pagination, not teaching content.** The logical parent remains the accepted teaching visual |
+| **The one-to-one rule** | Superseded. **One logical teaching unit → one accepted logical visual → one, or (only where governed split pagination is authorised) two, physical frames** |
+
+**Eighteen physical frames are not eighteen teaching topics.** No new visual
+concept, teaching statement, source, count or claim has been created.
+
+**The original fourteen-physical-slide feasibility position is not current.** It
+was never tested for text fit — `G1`–`G8` test coordinate arithmetic only — and
+`T7-L-R3` proved four of those layouts impossible at the accepted type floors.
+**`T7-J` and `T7-K` acceptance of the coordinate arithmetic stands as history and
+is not withdrawn.** What is withdrawn is the production use of the four
+one-frame layouts.
+
+| Logical visual | Slide | Physical frames | Physical # | Production fit, `G9` |
+|---|---:|---|---|---|
+| `M7V-01`–`M7V-05` | 1–5 | one each | 1–5 | **VERIFIED** |
+| **`M7V-06`** | **6** | **`M7V-06-A` · `M7V-06-B`** | **6 · 7** | **VERIFIED** — `+24.0` · `+252.0` |
+| `M7V-07`–`M7V-10` | 7–10 | one each | 8–11 | **VERIFIED** |
+| **`M7V-11`** | **11** | **`M7V-11-A` · `M7V-11-B`** | **12 · 13** | **VERIFIED** — `+10.0` · `+188.0` |
+| `M7V-12` | 12 | one | 14 | **VERIFIED** |
+| **`M7V-13`** | **13** | **`M7V-13-A` · `M7V-13-B`** | **15 · 16** | **VERIFIED** — `+64.0` · `+78.0` |
+| **`M7V-14`** | **14** | **`M7V-14-A` · `M7V-14-B`** | **17 · 18** | **VERIFIED** — `+194.0` · `+8.0` |
+
+**All eighteen physical frames pass `G9` with positive margin.** The frame
+geometry, the per-band and per-zone arithmetic and the connector distribution are
+specified in
+[`presentation/deck-specification.md`](presentation/deck-specification.md) §13 and
+in each affected `M07-Snn` source file. **§2.12a's `production fit — NOT
+VERIFIED` position refers to the four superseded one-frame layouts.**
+
+**Pagination controls carried by this plan:**
+
+| Rule | Requirement |
+|---|---|
+| **`M7V-P1`** | **A continuation is not a connector.** The `A → B` page advance is never drawn as an arrow, line, bracket, chevron or leader. **The deck-wide drawn connector total remains exactly `12`** — four extra physical pages add none |
+| **`M7V-P2`** | **The parent title is reproduced verbatim on both frames.** The continuation label sits inside the reserved title zone, outside the title wording, and carries **no semantic, sequential or progression meaning** |
+| **`M7V-P3`** | **On `M7V-13` the four semantic states are not divided between frames.** All four quadrants sit on frame A, so **no pagination-induced ordering can arise**. The label means *second physical page*, never *next semantic stage* |
+| **`M7V-P4`** | **On `M7V-14` frame A ends at the authority gate.** The page advance never functions as an implied connector across authority, and frame B opens with its own boundary reminder |
+| **`M7V-P5`** | **The domain family `F.1`–`F.16` is unchanged.** It now has a **single-frame variant** (`M7V-05`, `07`, `08`, `09`, `10`) and a **governed two-frame pagination variant** (`M7V-06`, `M7V-11`). **Splitting authorises no independent graphic redesign** — there are two governed variants, not eight unrelated layouts |
+| **`M7V-P6`** | **Timing is unchanged at `20.0 minutes allocated — not measured`.** Each pair's frame allocations sum exactly to its parent's |
+
+**Neither accepted STOP register is changed.** `M7-S01`–`M7-S18` and
+`M7V-S01`–`M7V-S34` are unchanged, unrenumbered and unreplaced. **The
+automatic-fail register remains at `42`.**
+
 ### 2.13 Visual economy
 
 **The accepted slide copy is content-complete. Much of it is too dense to

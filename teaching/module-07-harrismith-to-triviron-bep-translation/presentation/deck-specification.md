@@ -3,8 +3,12 @@
 **`MODULE 7 PRESENTATION ASSEMBLY PACKAGE — UNDER GOVERNED CORRECTION`** ·
 **`T7-L — ACCEPTED after T7-L-R`** ·
 **`T7-L-R2 — ACCEPTED`** *(copy-density / type-floor reconciliation and
-feasibility audit; production readiness not established)* ·
-**`T7-L-R3 — PENDING CHATGPT GOVERNANCE REVIEW`**
+feasibility audit)* ·
+**`T7-L-R3 — ACCEPTED`** *(proof that the four one-frame layouts are
+production-infeasible; production-fit status reconciliation)* ·
+**`T7-L-R4 — PENDING CHATGPT GOVERNANCE REVIEW`** ·
+**`P9 — SUPERSEDED FOR MODULE 7`** by the governed 14-logical / 18-physical
+pagination rule — see **§13**
 
 **`TEACHING PRODUCTION HANDOFF — NOT TRIVIRON GOVERNANCE`**
 
@@ -53,8 +57,9 @@ source file wins**.
 | Title zone | **`y = 0–72` reserved.** No content beneath the title baseline |
 | Side margins | **≥ 48 pt** — content span exactly **864 pt**, `x = 48–912` |
 | Lowest permitted object edge | **`y ≤ 520`** |
-| Slides | **Fourteen** |
-| Total time | **`20.0 minutes allocated — not measured`** |
+| **Logical teaching units** | **Fourteen** |
+| **Physical PowerPoint slides** | **Eighteen** — governed split pagination, `T7-L-R4`. **Only logical Slides 6, 11, 13 and 14 are paginated, each into exactly two frames.** See **§13** |
+| Total time | **`20.0 minutes allocated — not measured`** — unchanged; each A/B pair shares its parent's allocation |
 | Advancement | **Manual, presenter-controlled.** **No automatic slide-transition timing** |
 | Object policy | **Native editable PowerPoint objects only** |
 | External imagery | **NONE** |
@@ -135,7 +140,13 @@ basis.**
 | 14 | From decision backlog to BEP workshop | 1.5 |
 | | **Total** | **20.0 — allocated, not measured** |
 
-**Titles are exact. A producer may not shorten, retitle or "improve" one.**
+**This table is the fourteen LOGICAL teaching units.** For the eighteen physical
+slides, their allocations and their logical parents, see **§13.3** and **§13.5**.
+**Both tables sum to exactly `20.0`.**
+
+**Titles are exact. A producer may not shorten, retitle or "improve" one** —
+including on a continuation frame, where the parent title is reproduced
+**verbatim** and the continuation label sits outside the title wording (§13.4).
 
 ## 4. Design approach
 
@@ -552,7 +563,7 @@ visual STOP registers, which are unchanged.**
 | **P6** | Keep every boundary strip a **principal object** at ≥ 18 pt |
 | **P7** | Keep the deck's total connector count at **twelve**, with the per-slide distribution in §6 |
 | **P8** | Take alternative text from the accepted source screen-reader descriptions |
-| **P9** | Add no slide, no appendix, no agenda slide, no thank-you slide and no contact slide |
+| **P9** | **SUPERSEDED FOR MODULE 7 by `T7-L-R4`.** **Add no physical slide except the four expressly authorised second frames for logical Slides 6, 11, 13 and 14.** Physical count **exactly `18`** — expected, maximum and minimum; logical count **exactly `14`**. Still no appendix, agenda, thank-you, references, contact or bonus slide. See **§13.1** |
 | **P10** | Add no logo, footer branding, page furniture or date stamp |
 
 ## 10. Production-state summary
@@ -560,15 +571,18 @@ visual STOP registers, which are unchanged.**
 | Field | Value |
 |---|---|
 | Package | **`MODULE 7 PRESENTATION ASSEMBLY PACKAGE — UNDER GOVERNED CORRECTION`** |
-| `T7-L` | **`ACCEPTED after T7-L-R`** |
-| `T7-L0` | **`ACCEPTED`** |
-| `T7-L-R2` | **`ACCEPTED`** — *as copy-density / type-floor reconciliation and feasibility audit; production readiness not yet achieved* |
-| `T7-L-R3` | **`PENDING CHATGPT GOVERNANCE REVIEW`** — **not accepted** |
-| Slides specified | **14 of 14** |
-| Slides feasible at the accepted type floors | **10 of 14** — Slides 1, 2, 3, 4, 5, 7, 8, 9, 10, 12 |
-| Slides **unresolved** at the accepted type floors | **4 of 14** — Slides **6, 11, 13, 14**. See §11 and **§12** |
-| Geometry reconciliation attempted | **`T7-L-R3` — all four still UNRESOLVED.** No coordinate changed; see §12 |
-| Geometry status, Slides 6, 11, 13, 14 | **coordinate arithmetic VERIFIED · production fit NOT VERIFIED** — see §12.7 |
+| `T7-L` · `T7-L0` | **`ACCEPTED after T7-L-R`** · **`ACCEPTED`** |
+| `T7-L-R2` | **`ACCEPTED`** — *copy-density / type-floor reconciliation and feasibility audit* |
+| `T7-L-R3` | **`ACCEPTED`** — *proof that the four one-frame layouts are production-infeasible; production-fit status reconciliation* |
+| `T7-L-R4` | **`PENDING CHATGPT GOVERNANCE REVIEW`** — **not accepted** |
+| `P9` | **`SUPERSEDED FOR MODULE 7`** — 14 logical units / 18 physical slides |
+| Logical teaching units | **14** |
+| Physical PowerPoint slides | **18** |
+| Logical units specified | **14 of 14** |
+| Physical frames specified | **18 of 18** — ten single-frame, four A/B pairs. See §13 |
+| Physical frames **production-fit VERIFIED on the declared basis** | **18 of 18.** The ten single-frame logical units at `T7-L-R2`; the eight split frames at `T7-L-R4` (§13.11), margins **`+16.0`** to **`+267.2 pt`** |
+| Physical frames unresolved | **`0`** |
+| Superseded | The four **one-frame** layouts for logical Slides 6, 11, 13 and 14. Their `T7-K` **coordinate arithmetic** stands as history; their **production geometry** is now the A/B geometry of §13.7–§13.9 (§12 records why) |
 | Rendered assets | **`NONE`** |
 | External imagery | **`NONE`** |
 | PowerPoint (`T7-M`) | **`PRODUCED; QC FAILED; NOT ACCEPTED`** — external, not in this repository |
@@ -1011,3 +1025,352 @@ its type-floor arithmetic passes with positive margin.**
 
 **Slides 1, 2, 3, 4, 5, 7, 8, 9, 10 and 12 are untouched** by `T7-L-R3` and keep
 their `T7-L-R2` result, *feasible on the declared basis*.
+
+---
+
+## 13. Governed split pagination — `T7-L-R4`
+
+**`T7-L-R3 — ACCEPTED`** *(as proof that the four one-frame layouts are
+production-infeasible, and as the production-fit status reconciliation)*.
+**`T7-L-R4 — PENDING CHATGPT GOVERNANCE REVIEW`.**
+
+**ChatGPT has expressly authorised a narrow relaxation of `P9`.** Module 7 is now
+produced as **fourteen logical teaching units across eighteen physical
+PowerPoint slides**. Only logical Slides **6, 11, 13 and 14** are paginated, each
+into **exactly two** physical frames.
+
+**This is controlled pagination.** It is **not** new teaching content, not four
+new topics, not an appendix, not optional or bonus slides, not an expanded
+curriculum, and not a change to the Translation Decision Register.
+
+### 13.1 `P9` — superseded for Module 7
+
+| | |
+|---|---|
+| **Old `P9`** | *Add no slide, no appendix, no agenda slide, no thank-you slide and no contact slide* — **exactly fourteen physical slides** |
+| **New `P9`** | **`P9 — SUPERSEDED FOR MODULE 7` by the governed 14-logical / 18-physical pagination rule.** **Add no physical slide except the four expressly authorised second frames for logical Slides 6, 11, 13 and 14.** Still no appendix, agenda, thank-you, references, contact or bonus slide |
+| **Physical slide count** | **expected `18` · maximum `18` · minimum `18`** |
+| **Logical unit count** | **expected `14` · maximum `14` · minimum `14`** |
+
+### 13.2 The one-to-one rule, reconciled
+
+**Former rule:** *one logical slide → one visual source → one physical slide.*
+
+**Replaced by:** **one logical teaching unit → one accepted logical visual source
+→ one, or (only where governed split pagination is authorised) two, physical
+frames.**
+
+**Ten logical units map 1 : 1. Four map 1 : 2. Fourteen logical sources →
+eighteen physical frames.** **This deck has eighteen physical slides and
+fourteen teaching topics. It does not have eighteen teaching topics.**
+
+### 13.3 Logical-to-physical map
+
+| Logical unit | Exact accepted title | Logical visual | Physical frame | Physical # | Continuation label | Allocation |
+|---:|---|---|---|---:|---|---:|
+| 1 | Where we are: Harrismith → Triviron | `M7V-01` | `M07-S01` | **1** | — | 1.0 |
+| 2 | Translate the method, not the answers | `M7V-02` | `M07-S02` | **2** | — | 1.3 |
+| 3 | The translation chain | `M7V-03` | `M07-S03` | **3** | — | 1.5 |
+| 4 | The decision backlog: 21 questions, zero Triviron answers | `M7V-04` | `M07-S04` | **4** | — | 1.3 |
+| 5 | Domain 1: Coordination governance | `M7V-05` | `M07-S05` | **5** | — | 1.5 |
+| **6** | Domain 2: Roles and authority | `M7V-06-A` | **`M07-S06-A`** | **6** | **`PART 1 OF 2`** | **1.0** |
+| **6** | Domain 2: Roles and authority | `M7V-06-B` | **`M07-S06-B`** | **7** | **`PART 2 OF 2`** | **0.5** |
+| 7 | Domain 3: Inputs and federation | `M7V-07` | `M07-S07` | **8** | — | 1.5 |
+| 8 | Domain 4: Checks and tolerances | `M7V-08` | `M07-S08` | **9** | — | 1.5 |
+| 9 | Domain 5: Findings, Issues and statuses | `M7V-09` | `M07-S09` | **10** | — | 1.5 |
+| 10 | Domain 6: Verification, evidence and completion | `M7V-10` | `M07-S10` | **11** | — | 1.5 |
+| **11** | Domain 7: Publication and acceptance boundary | `M7V-11-A` | **`M07-S11-A`** | **12** | **`PART 1 OF 2`** | **1.0** |
+| **11** | Domain 7: Publication and acceptance boundary | `M7V-11-B` | **`M07-S11-B`** | **13** | **`PART 2 OF 2`** | **0.5** |
+| 12 | What the evidence lets you say | `M7V-12` | `M07-S12` | **14** | — | 1.5 |
+| **13** | Unknowns are controlled work | `M7V-13-A` | **`M07-S13-A`** | **15** | **`PART 1 OF 2`** | **0.8** |
+| **13** | Unknowns are controlled work | `M7V-13-B` | **`M07-S13-B`** | **16** | **`PART 2 OF 2`** | **0.6** |
+| **14** | From decision backlog to BEP workshop | `M7V-14-A` | **`M07-S14-A`** | **17** | **`PART 1 OF 2`** | **0.8** |
+| **14** | From decision backlog to BEP workshop | `M7V-14-B` | **`M07-S14-B`** | **18** | **`PART 2 OF 2`** | **0.7** |
+| | **Total** | **14 logical** | **18 physical** | **18** | **4 pairs** | **20.0** |
+
+**A producer must always be able to answer both questions:** *which physical
+PowerPoint slide is this?* and *which logical Module 7 teaching unit does it
+implement?* **Both identifiers appear in every controlling layer.**
+
+### 13.4 Titles and continuation labels
+
+| Rule | Requirement |
+|---|---|
+| **T1** | **The parent title is reproduced verbatim on both frames of a pair.** It is never rewritten, shortened, suffixed or qualified to create a new claim |
+| **T2** | The continuation label is **`PART 1 OF 2`** / **`PART 2 OF 2`**, placed **inside the reserved title zone `y = 0–72`, right-aligned, separate from the title wording**. It consumes **no content height** |
+| **T3** | **The label is production navigation, not teaching content.** It carries no semantic, sequential or progression meaning |
+| **T4** | **On logical Slide 13 the label means `second physical page` and nothing else** — never *next semantic stage*. The four semantic states are **not divided** between the pages, so no state ordering can arise |
+| **T5** | **On logical Slide 14 the label never implies that the page advance carries authority.** Frame B opens with its own boundary reminder — see §13.9 |
+| **T6** | The label is **not** a logo, footer, page furniture or date stamp, all of which remain prohibited by `P10` |
+
+### 13.5 Timing reconciliation
+
+**Total remains `20.0 minutes allocated — not measured`. No allocation was
+increased because a logical unit uses two frames.**
+
+| Logical unit | Parent allocation | Frame A | Frame B | Pair sum |
+|---:|---:|---:|---:|---:|
+| **6** | **1.5** | 1.0 | 0.5 | **1.5** ✓ |
+| **11** | **1.5** | 1.0 | 0.5 | **1.5** ✓ |
+| **13** | **1.4** | 0.8 | 0.6 | **1.4** ✓ |
+| **14** | **1.5** | 0.8 | 0.7 | **1.5** ✓ |
+
+**Child allocations are unequal where the semantic split warrants it** — each A
+frame carries the substantive cards or quadrants, each B frame the governance
+bands. **Every pair sum equals its parent exactly.** Deck total:
+`1.0 + 1.3 + 1.5 + 1.3 + 1.5 + 1.0 + 0.5 + 1.5 + 1.5 + 1.5 + 1.5 + 1.0 + 0.5 +
+1.5 + 0.8 + 0.6 + 0.8 + 0.7 = 20.0` ✓ — **allocated, not measured. No rehearsal
+or timing verification is claimed.**
+
+### 13.6 Repeated boundary text — the governed reason
+
+**Rule `G7` requires that no boundary, status or STOP warning be positioned
+outside the visual region it governs.** Splitting a logical slide therefore
+**requires** the governing boundary to appear on **both** frames wherever both
+frames carry governed content. This is not padding and not duplication for
+appearance.
+
+| Frame | Repeated text | Why `G7` requires it |
+|---|---|---|
+| **6A · 11A** | family boundary strip, verbatim | The frame shows three unanswered Triviron question cards. Without the boundary, the cards would sit outside the region their governing warning occupies |
+| **6B · 11B** | family boundary strip, verbatim | The frame shows exclusions and a mandatory programme-bounded statement; the same boundary governs them |
+| **13A** | `THESE ARE SEMANTIC STATES, NOT STAGES — no chronological progression exists among them` | This warning governs the four quadrants. It may not sit on the other page |
+| **14B** | short teaching-workflow reminder — see §13.9 | Prevents Frame B reading as a current Triviron workflow, and prevents the page advance reading as authority |
+
+**Nothing else is repeated.** No large text block is duplicated without the `G7`
+reason stated above.
+
+### 13.7 Physical-frame specifications — Slides 6 and 11
+
+**Both remain inside the Slides 5–11 logical domain family.** The family now has a
+**single-frame variant** (Slides 5, 7, 8, 9, 10) and a **governed two-frame
+pagination variant** (logical 6 and 11). **There are not eight unrelated
+layouts**, and no domain slide is independently redesigned.
+
+#### `M07-S06-A` — physical 6
+
+| Field | Value |
+|---|---|
+| Logical parent | **logical Slide 6 · `M07-S06` · `M7V-06`** |
+| Title | **Domain 2: Roles and authority** — verbatim · `PART 1 OF 2` |
+| Carries | **Three co-equal Domain 2 cards** — `TDR-004`, `TDR-005`, `TDR-006`; `function:` and `holder: NOT YET ESTABLISHED` on each; evidence kinds; evidence position; `classification:`; `status:` · **family boundary strip, verbatim** |
+| Geometry | Cards `x = 48–328`, `340–620`, `632–912`, `y = 84–436` — **each exactly 280 × 352 pt, two gaps of exactly 12 pt** (`3 × 280 + 2 × 12 = 864`). Boundary strip `x = 48–912`, `y = 444–496` — 52 pt, one visible border. Lowest edge `496 ≤ 520` ✓ |
+| Zones | **`Z1 = 120` · `Z2 = 62` · `Z3 = 79` · `Z4 = 79`**, three gaps of `4 pt` — `120 + 62 + 79 + 79 + 12 = 352` ✓ |
+| Zone margins | `Z1` need `114.4` → **`+5.6`** · `Z2` need `58.4` → **`+3.6`** · `Z3` need `76.8` → **`+2.2`** · `Z4` need `76.8` → **`+2.2`**. **Every zone positive** |
+| Connectors | **`0`** |
+| Allocation | **1.0 min** — allocated, not measured |
+| Production fit | **`PRODUCTION FIT — VERIFIED ON DECLARED BASIS`** · allocated `352 + 8 + 52 = 412` · budget `436` · **frame margin `+24.0 pt`** |
+
+#### `M07-S06-B` — physical 7
+
+| Field | Value |
+|---|---|
+| Logical parent | **logical Slide 6 · `M07-S06` · `M7V-06`** |
+| Title | **Domain 2: Roles and authority** — verbatim · `PART 2 OF 2` |
+| Carries | **Exclusion strip** (heading verbatim + grouped nouns) · **mandatory programme-bounded holder statement**, verbatim · **family boundary strip**, verbatim |
+| Geometry | Exclusion strip `x = 48–912`, `y = 84–140` — 56 pt · holder-statement band `y = 148–204` — 56 pt · boundary strip `y = 212–268` — 56 pt. **All bands full width, one visible border, `8 pt` inter-band gaps** |
+| Connectors | **`0`** |
+| Allocation | **0.5 min** — allocated, not measured |
+| Production fit | **`PRODUCTION FIT — VERIFIED ON DECLARED BASIS`** · allocated `56 + 56 + 56 + 16 = 184` · budget `436` · **frame margin `+252.0 pt`** |
+
+**The large margin on 6B is deliberate and is not to be filled with prose.**
+`P9` forbids adding content; §19 of the increment records that positive margin is
+a feature.
+
+#### `M07-S11-A` — physical 12
+
+| Field | Value |
+|---|---|
+| Logical parent | **logical Slide 11 · `M07-S11` · `M7V-11`** |
+| Title | **Domain 7: Publication and acceptance boundary** — verbatim · `PART 1 OF 2` |
+| Carries | **Three co-equal Domain 7 cards** — `TDR-019`, `TDR-020` with `holder: NOT YET ESTABLISHED`, `TDR-021` with `classification: METHOD` and its qualifier; evidence kinds; **the four co-equal act cells**; evidence position; `classification:`; `status:` · **family boundary strip, verbatim** |
+| Geometry | Cards `x = 48–328`, `340–620`, `632–912`, `y = 84–450` — **each exactly 280 × 366 pt, two gaps of exactly 12 pt**. Zones **`Z1 = 86` · `Z2 = 96` · `Z3 = 78` · `Z4 = 94`**, three `4 pt` gaps — `86 + 96 + 78 + 94 + 12 = 366` ✓. **Act cells inside card 3's `Z2`, unchanged: `x = 652–713`, `717–778`, `782–843`, `847–908`, each exactly 61 pt, three gaps of exactly 4 pt, the 8 pt residual distributed 4 pt to each inset.** Boundary strip `x = 48–912`, `y = 458–510` — 52 pt. Lowest edge `510 ≤ 520` ✓ |
+| Zone margins | `Z1` need `84.0` → **`+2.0`** · `Z2` need `94.4` → **`+1.6`** · `Z3` need `76.8` → **`+1.2`** · `Z4` need `92.8` → **`+1.2`**. **Every zone positive. This is the tightest frame in the deck** — see §13.12 |
+| Connectors | **`0` — including zero between the four governance acts, in any direction** |
+| Allocation | **1.0 min** — allocated, not measured |
+| Production fit | **`PRODUCTION FIT — VERIFIED ON DECLARED BASIS`** · allocated `366 + 8 + 52 = 426` · budget `436` · **frame margin `+10.0 pt`** |
+
+#### `M07-S11-B` — physical 13
+
+| Field | Value |
+|---|---|
+| Logical parent | **logical Slide 11 · `M07-S11` · `M7V-11`** |
+| Title | **Domain 7: Publication and acceptance boundary** — verbatim · `PART 2 OF 2` |
+| Carries | **Programme-bounded publication / exchange authority statement**, verbatim, **explicitly labelled `on TDR-020:`** · **exclusion strip** · **mandatory two-directional statement**, verbatim · **family boundary strip**, verbatim |
+| Geometry | Authority band `x = 48–912`, `y = 84–140` — 56 pt, labelled `on TDR-020:` · exclusion strip `y = 148–204` — 56 pt · two-directional band `y = 212–268` — 56 pt · boundary strip `y = 276–332` — 56 pt. **`8 pt` inter-band gaps** |
+| Connectors | **`0`. No leader, arrow or line joins the authority band to anything** |
+| Allocation | **0.5 min** — allocated, not measured |
+| Production fit | **`PRODUCTION FIT — VERIFIED ON DECLARED BASIS`** · allocated `56 + 56 + 56 + 56 + 24 = 248` · budget `436` · **frame margin `+188.0 pt`** |
+
+**Neither frame may imply a known Triviron authority holder, and neither may
+imply that Triviron lacks one.** The authority band carries the label
+`on TDR-020:` so its attribution is unmistakable and cannot read as a deck-wide,
+card-1 or card-3 statement.
+
+### 13.8 Physical-frame specifications — Slide 13
+
+**The four semantic states are NOT divided between the pages.** All four
+quadrants sit on Frame A. **No pagination-induced ordering is therefore
+possible**, which is why the §12.6.1 seam was preferred over any arrangement that
+splits the states.
+
+#### `M07-S13-A` — physical 15
+
+| Field | Value |
+|---|---|
+| Logical parent | **logical Slide 13 · `M07-S13` · `M7V-13`** |
+| Title | **Unknowns are controlled work** — verbatim · `PART 1 OF 2` |
+| Carries | **All four co-equal semantic-state quadrants** — `NOT YET ESTABLISHED`, `NOT ESTABLISHED`, `UNRESOLVED`, `TBD`, each with its meaning and its own misuse bar **inside its own frame** · **`THESE ARE SEMANTIC STATES, NOT STAGES — no chronological progression exists among them`**, verbatim |
+| Geometry | Quadrants `x = 48–474` and `486–912` (**each exactly 426 pt, one 12 pt gap**, `2 × 426 + 12 = 864`); rows `y = 84–244` and `256–416` — **each exactly 160 pt, one 12 pt gap** (`2 × 160 + 12 = 332`). Non-progression band `x = 48–912`, `y = 424–456` — 32 pt. Lowest edge `456 ≤ 520` ✓ |
+| Quadrant margin | Co-equal quadrant need `157.6` (worst case, `NOT ESTABLISHED` and `TBD` misuse bars) → **`+2.4` each**. Non-progression band need `29.6` → **`+2.4`** |
+| Connectors | **`0`.** No arrow, no numbering, no first/last treatment, no ordering marker |
+| Allocation | **0.8 min** — allocated, not measured |
+| Production fit | **`PRODUCTION FIT — VERIFIED ON DECLARED BASIS`** · allocated `332 + 8 + 32 = 372` · budget `436` · **frame margin `+64.0 pt`** |
+
+#### `M07-S13-B` — physical 16
+
+| Field | Value |
+|---|---|
+| Logical parent | **logical Slide 13 · `M07-S13` · `M7V-13`** |
+| Title | **Unknowns are controlled work** — verbatim · `PART 2 OF 2` |
+| Carries | **`CURRENT STATUS POSITION`** band — the 21-row status census · **`EVIDENCE AVAILABILITY`** band — `NONE IDENTIFIED`, its field-8 definition, `NONE IDENTIFIED ≠ NONE EXISTS`, and the not-a-status line · **misuse-warning strip**, all four entries |
+| Geometry | Status band `x = 48–912`, `y = 84–164` — 80 pt, own border, labelled · evidence band `y = 172–324` — 152 pt, own border, labelled · misuse strip `y = 332–442` — 110 pt, own border. **`8 pt` inter-band gaps** |
+| Connectors | **`0`.** The two bands are **independently labelled and explicitly separated**; nothing joins them, and neither is placed on an axis with the other |
+| Allocation | **0.6 min** — allocated, not measured |
+| Production fit | **`PRODUCTION FIT — VERIFIED ON DECLARED BASIS`** · allocated `80 + 152 + 110 + 16 = 358` · budget `436` · **frame margin `+78.0 pt`**. Band margins: status `+3.2` · evidence `+3.2` · misuse `+3.6` |
+
+**`status ≠ evidence availability` is carried structurally** by two separately
+bordered, separately labelled bands — **`CURRENT STATUS POSITION`** and
+**`EVIDENCE AVAILABILITY`** — with no shared axis, ramp, legend or numbering.
+**`NONE IDENTIFIED` is never a fifth quadrant and never a status.** **No
+classification vocabulary appears on either frame of logical Slide 13.**
+
+### 13.9 Physical-frame specifications — Slide 14 · the authority seam
+
+> **DEFECT FOUND IN `§12.6.1` — REPORTED, NOT SILENTLY RESOLVED.**
+> §12.6.1's **prose** states that Slide 14 *"splits exactly at the authority
+> gate"*. Its **allocation table** places **Register 2 on frame `14a`**, after the
+> gate — which is a *workflow | supporting-close* seam, **not** an authority seam.
+> **The two are inconsistent.**
+>
+> `T7-L-R4` implements the **authority seam**, as expressly and repeatedly
+> prescribed by the increment: frame A ends at the governance STOP; Register 2
+> opens frame B. **Both arrangements pass the declared basis**, and both are
+> recorded here so governance can choose:
+>
+> | Arrangement | Frame A | Frame B |
+> |---|---:|---:|
+> | **Authority seam — IMPLEMENTED** | `216.8` · **`+219.2`** | `420.0` · **`+16.0`** |
+> | §12.6.1 table — *workflow \| close* | `297.6` · `+138.4` | `301.6` · `+134.4` |
+>
+> **The authority seam is materially tighter on frame B (`+16.0` against
+> `+134.4`) and it places the page turn exactly at the authority boundary** — the
+> risk §14 of the increment devotes most of its length to mitigating. The
+> §12.6.1 table arrangement keeps the gate and both registers on one frame, so a
+> page turn cannot bypass authority at all. **Both are safe as specified; the
+> table arrangement is inherently safer on this point. This is flagged for
+> governance decision.**
+
+#### `M07-S14-A` — physical 17
+
+| Field | Value |
+|---|---|
+| Logical parent | **logical Slide 14 · `M07-S14` · `M7V-14`** |
+| Title | **From decision backlog to BEP workshop** — verbatim · `PART 1 OF 2` |
+| Carries | **Header declaration, both semantic statements, three physical lines, verbatim** · **Register 1** — `decision backlog`, `evidence gathering`, `decision agenda`, `appropriate authority engaged` · **the authority gate itself**, carrying `AUTHORITY REQUIRED — no automatic progression` and `evidence ≠ authority · no appropriate Triviron authority holder is currently identified or established in this programme` |
+| Geometry | Header `x = 48–912`, `y = 84–166` — **exactly 82 pt** (three 18 pt lines need `72.8 pt`; the accepted `64 pt` was arithmetically wrong) · Register 1 `y = 174–234`, four boxes `x = 48–249`, `269–470`, `490–691`, `711–912` — **each exactly 201 × 60 pt, three gaps of exactly 20 pt** (`4 × 201 + 3 × 20 = 864`) · **authority gate `y = 242–326` — exactly 84 pt, border ≥ 3 pt, the heaviest object on the frame.** Both inter-band gaps exactly `8 pt`. Vertical: `82 + 8 + 60 + 8 + 84 = 242 = 326 − 84` ✓ |
+| Connectors | **`3`** — `1 → 2`, `2 → 3`, `3 → 4`, all **within Register 1**. **No connector leaves, enters, crosses or passes behind the authority gate.** **The frame ends at the governance STOP** |
+| Allocation | **0.8 min** — allocated, not measured |
+| Production fit | **`PRODUCTION FIT — VERIFIED ON DECLARED BASIS`** · allocated `82 + 60 + 84 + 16 = 242` · budget `436` · **frame margin `+194.0 pt`**. Band margins: header `+9.2` · Register 1 `+8.8` · gate `+7.2` |
+
+#### `M07-S14-B` — physical 18
+
+| Field | Value |
+|---|---|
+| Logical parent | **logical Slide 14 · `M07-S14` · `M7V-14`** |
+| Title | **From decision backlog to BEP workshop** — verbatim · `PART 2 OF 2` |
+| Carries | **Post-authority reminder band**, opening the frame — see below · **Register 2** — `candidate decision, if authorised`, `decision recorded with status`, `BEP / matrix / schedule / appendix populated only when earned` · **the complete nine-object method chain**, labelled `analytical sequence — nothing flows along these arrows` · **roadmap close** · **boundary strip**, all three entries |
+| Geometry | Reminder band `x = 48–912`, `y = 84–114` — 30 pt · Register 2 `y = 122–196`, three boxes `x = 48–324`, `342–618`, `636–912` — **each exactly 276 × 74 pt, two gaps of exactly 18 pt** (`3 × 276 + 2 × 18 = 864`) · method chain `y = 204–304` — 100 pt, full width · roadmap close `y = 312–356`, three segments **each exactly 276 pt**, 44 pt tall · boundary strip `y = 364–512` — 148 pt. **All four inter-band gaps exactly `8 pt`.** Vertical: `30 + 8 + 74 + 8 + 100 + 8 + 44 + 8 + 148 = 428 = 512 − 84` ✓ |
+| Connectors | **`1`** — `stage 5 → stage 6`, **within Register 2 only**. **No connector enters the final controlled-destination box** — it is reached by condition, not by arrow. **No connector touches the reminder band, the method chain, the roadmap close or the boundary strip.** The chain's arrows are **typographic characters in a single text run**, not drawn connectors |
+| Allocation | **0.7 min** — allocated, not measured |
+| Production fit | **`PRODUCTION FIT — VERIFIED ON DECLARED BASIS`** · allocated `30 + 74 + 100 + 44 + 148 + 32 = 428` · budget `436` · **frame margin `+8.0 pt`**. Band margins: reminder `+0.4` · Register 2 `+1.2` · chain `+1.6` · roadmap `+2.4` · boundary `+2.4` |
+
+**The post-authority reminder band is mandatory and is the first thing read on
+frame B.** Required wording, at `≥ 18 pt`:
+
+> **`TEACHING WORKFLOW — NOT A CURRENT TRIVIRON WORKFLOW · continued only when
+> authorised`**
+
+**It does two governed jobs.** It prevents frame B from reading as a current
+Triviron workflow when seen alone — which §15's prohibition on ambiguity
+requires, since the full declaration sits on frame A. And it prevents **the page
+advance itself from functioning as an implied connector across authority**.
+**The page advance is not a connector, is never drawn as one, and never carries
+authority.** Register 2's first stage independently retains the accepted
+conditional wording `candidate decision, if authorised`, and its last retains
+`only when earned`.
+
+**Logical Slide 14's drawn connector total remains exactly `4`** — three on frame
+A, one on frame B. **There is no fifth connector, and no connector represents the
+A → B page transition.**
+
+### 13.10 Connector census under pagination
+
+**The deck-wide drawn connector total remains exactly `12`. Four extra physical
+pages add no connector.**
+
+| Physical # | Logical unit | Connectors |
+|---:|---:|---:|
+| **1** | 1 | **2** |
+| **3** | 3 | **6** |
+| **17** | 14 A | **3** |
+| **18** | 14 B | **1** |
+| all other 14 physical slides | 2, 4–13 | **0 each** |
+| | **Total** | **`12`** |
+
+**A continuation or page transition is not a connector.** **`A → B` is never
+represented by an arrow, line, bracket, chevron, leader or any other mark.**
+
+### 13.11 Eight-frame production-fit summary
+
+| Frame | Physical # | Text need | Allocated | Budget | Frame margin | Tightest band/zone | Connectors | Status |
+|---|---:|---:|---:|---:|---:|---:|---:|---|
+| `M07-S06-A` | 6 | `397.6` | `412` | `436` | **`+24.0`** | `+2.2` | **0** | **VERIFIED** |
+| `M07-S06-B` | 7 | `168.8` | `184` | `436` | **`+252.0`** | `+4.8` | **0** | **VERIFIED** |
+| `M07-S11-A` | 12 | `419.2` | `426` | `436` | **`+10.0`** | `+1.2` | **0** | **VERIFIED** |
+| `M07-S11-B` | 13 | `228.0` | `248` | `436` | **`+188.0`** | `+4.8` | **0** | **VERIFIED** |
+| `M07-S13-A` | 15 | `364.8` | `372` | `436` | **`+64.0`** | `+2.4` | **0** | **VERIFIED** |
+| `M07-S13-B` | 16 | `348.0` | `358` | `436` | **`+78.0`** | `+3.2` | **0** | **VERIFIED** |
+| `M07-S14-A` | 17 | `216.8` | `242` | `436` | **`+194.0`** | `+7.2` | **3** | **VERIFIED** |
+| `M07-S14-B` | 18 | `420.0` | `428` | `436` | **`+8.0`** | `+0.4` | **1** | **VERIFIED** |
+
+**All eight frames are `PRODUCTION FIT — VERIFIED ON DECLARED BASIS`. Every frame
+margin is positive and `≥ 8 pt`. Every band and zone margin is positive.** **No
+frame passes at zero or negative margin.** Every figure is computed on the §1.1
+basis using the **worst-case string** in each co-equal object, since co-equal
+objects share one height.
+
+**`Allocated`** is the sum of the frame's band and zone heights plus its `8 pt`
+inter-band gaps; **`Text need`** is the height the copy actually consumes. Each
+band is allocated **at or above** its own need, so no band relies on a
+neighbour's spare.
+
+### 13.12 The two tight frames — stated plainly
+
+**`M07-S11-A` (`+10.0 pt` frame, `+1.2 pt` tightest zone) and `M07-S14-B`
+(`+8.0 pt` frame, `+0.4 pt` tightest band) are the tightest in the deck.** Both
+are positive and both meet the `≥ 8 pt` frame threshold, but their internal slack
+is small enough to name.
+
+| Frame | Why it is tight | What a producer does |
+|---|---|---|
+| **`M07-S11-A`** | `Z4` must carry `classification: METHOD`, its qualifier and `status:` on card 3, and **co-equality forces all three cards to that height**. `Z2` must carry the four act cells, where a `61 pt` cell holds five characters per 18 pt line | **STOP AND REFER BACK.** Do not shrink type, narrow a card or break co-equality |
+| **`M07-S14-B`** | The reminder band is a single 18 pt line with `0.4 pt` spare, and the boundary strip's three Class A entries need six 18 pt lines | **STOP AND REFER BACK.** The §12.6.1 table arrangement (§13.9) would give this frame `+134.4 pt` instead, and remains available to governance |
+
+**Both are governed by rule `D6` and the `STOP AND REFER BACK` rule.** A producer
+whose real font metrics exceed the §1.1 declared basis **refers back** — on these
+two frames especially — and **never compensates by reducing type, condensing a
+font or reducing spacing.**
+
+**Spare capacity is not to be filled.** No frame may receive additional prose,
+and none of these margins licenses larger content.

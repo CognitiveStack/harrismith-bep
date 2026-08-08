@@ -3,8 +3,12 @@
 **`MODULE 7 PRESENTATION ASSEMBLY PACKAGE — UNDER GOVERNED CORRECTION`** ·
 **`T7-L — ACCEPTED after T7-L-R`** ·
 **`T7-L-R2 — ACCEPTED`** *(copy-density / type-floor reconciliation and
-feasibility audit; production readiness not established)* ·
-**`T7-L-R3 — PENDING CHATGPT GOVERNANCE REVIEW`**
+feasibility audit)* ·
+**`T7-L-R3 — ACCEPTED`** *(proof that the four one-frame layouts are
+production-infeasible; production-fit status reconciliation)* ·
+**`T7-L-R4 — PENDING CHATGPT GOVERNANCE REVIEW`** ·
+**`P9 — SUPERSEDED FOR MODULE 7`** by the governed 14-logical / 18-physical
+pagination rule
 
 **`TEACHING PRODUCTION HANDOFF — NOT TRIVIRON GOVERNANCE`**
 
@@ -25,14 +29,17 @@ feasibility audit; production readiness not established)* ·
 
 | Field | Value |
 |---|---|
-| Increment | **`T7-L-R3`** — unresolved-slide geometry reconciliation |
+| Increment | **`T7-L-R4`** — governed split pagination for logical Slides 6, 11, 13 and 14 |
+| Architecture | **14 logical teaching units → 18 physical PowerPoint slides.** Only logical Slides 6, 11, 13 and 14 are paginated, each into exactly two frames |
 | Package status | **`MODULE 7 PRESENTATION ASSEMBLY PACKAGE — UNDER GOVERNED CORRECTION`** |
-| Package accepted | **`T7-L — ACCEPTED after T7-L-R`** · **`T7-L0 — ACCEPTED`** · **`T7-L-R2 — ACCEPTED`**, *as copy-density / type-floor reconciliation and feasibility audit; production readiness not yet achieved*. **`T7-L-R3` is NOT accepted** |
+| Package accepted | **`T7-L — ACCEPTED after T7-L-R`** · **`T7-L0 — ACCEPTED`** · **`T7-L-R2 — ACCEPTED`** · **`T7-L-R3 — ACCEPTED`**. **`T7-L-R4` is NOT accepted** |
 | `T7-L-R2` reason | **Production-feasibility failure** — the accepted type floors were not achievable under the prior visible-copy / geometry combination |
-| `T7-L-R3` result | **Geometry reconciliation attempted and NOT achieved.** Slides 6, 11, 13 and 14 remain **`UNRESOLVED`** at deficits of `75`–`230 pt`. **No coordinate changed** — no arrangement of the accepted visual concepts passes. See [`deck-specification.md`](deck-specification.md) **§12** |
-| Feasibility position | **10 of 14 slides feasible at the accepted type floors. Slides 6, 11, 13 and 14 remain UNRESOLVED** — see [`deck-specification.md`](deck-specification.md) §11 and §12 |
-| Geometry status, Slides 6, 11, 13, 14 | **coordinate arithmetic VERIFIED · production fit NOT VERIFIED** — the distinction the accepted sources never drew; see [`deck-specification.md`](deck-specification.md) §12.7 |
-| Package files | **Seven** |
+| `T7-L-R3` result | **`ACCEPTED`** — proof that the four one-frame layouts are production-infeasible in any arrangement (deficits `75`–`230 pt`); no coordinate changed. See [`deck-specification.md`](deck-specification.md) **§12** |
+| `T7-L-R4` result | **Governed pagination implemented.** All four resolved: **18 of 18 physical frames `PRODUCTION FIT — VERIFIED ON DECLARED BASIS`**, margins **`+8.0`** to **`+252.0 pt`**. **No copy removed, no type reduced, no teaching statement added.** See [`deck-specification.md`](deck-specification.md) **§13** |
+| Feasibility position | **18 of 18 physical frames verified. No logical unit unresolved** |
+| Tightest frames | **`M07-S11-A`** (`+10.0` frame, `+1.2` zone) and **`M07-S14-B`** (`+8.0` frame, `+0.4` band) — §13.12. **A producer whose metrics exceed the declared basis STOPS and refers back** |
+| Package files | **Seven** — no new file created by `T7-L-R4` |
+| Logical teaching units · physical slides | **14** · **18** |
 | Teaching content | **`ACCEPTED`** — Module 7 teaching baseline |
 | Translation Decision Register | **`ACCEPTED after T7-C-R`** — 21 rows; controlled Triviron evidence **`NONE IDENTIFIED` × 21**; **0** candidate decisions |
 | Visual specification | **`ACCEPTED after T7-J-R + T7-J-R2`** — `M7V-01`–`M7V-14` |
@@ -144,7 +151,13 @@ refers back.** It is never repaired inside this package or inside the deck.
 
 ## 6. Mapping to the fourteen slide-source files
 
-**One slide = one visual concept = one visual source. Strictly one-to-one.**
+**One logical teaching unit = one visual concept = one accepted logical visual
+source.** **`T7-L-R4`:** that logical source is realised as **one, or — for
+logical Slides 6, 11, 13 and 14 only — two physical frames**. The table below is
+the **logical** mapping; for the eighteen **physical** frames see
+[`deck-specification.md`](deck-specification.md) §13.3 and
+[`../../assets/module-07/slide-visual-map.md`](../../assets/module-07/slide-visual-map.md)
+§9.
 
 | Slide | Exact accepted title | Time | Visual | Source |
 |---:|---|---:|---|---|
@@ -164,8 +177,9 @@ refers back.** It is never repaired inside this package or inside the deck.
 | 14 | From decision backlog to BEP workshop | 1.5 | `M7V-14` | [`M07-S14`](../../assets/module-07/M07-S14.md) |
 | | **Total** | **20.0** | **14** | **14** |
 
-**No slide may have zero sources, two sources, an external visual or an
-alternate mapping.**
+**No logical unit may have zero sources, two sources, an external visual or an
+alternate mapping.** **Ten logical units map to one physical frame; four map to
+exactly two.** **Eighteen physical slides are not eighteen teaching topics.**
 
 ## 7. Reading order
 
@@ -247,7 +261,14 @@ governance failure. **The following are deliberate and may not be adjusted:**
 - Slide 12's **offset arrangement** — aligning the cards into a row destroys the
   slide;
 - Slide 13's **quadrants** — a row or column of four creates a progression;
-- Slide 14's **three-line header** and its **8 pt band gaps**;
+- Slide 14's **three-line header** (now an `82 pt` band — `T7-L-R2`/`T7-L-R4`
+  corrected the arithmetic) and its **8 pt band gaps**;
+- the **`A → B` page transition on all four split pairs**, which is drawn as
+  **nothing at all** — a continuation is not a connector;
+- logical Slide 13's **four states sitting together on frame A**, so pagination
+  can create no ordering;
+- logical Slide 14's **frame A ending at the authority gate**, and frame B's
+  **post-authority reminder band**;
 - every **boundary strip**, which is a principal object and never small print.
 
 ## 11. Timing and slide progression
@@ -268,9 +289,9 @@ tested duration or a final duration.**
 
 | Item | State |
 |---|---|
-| Assembly package (`T7-L`) | **`ACCEPTED after T7-L-R`**; **`T7-L-R2 — ACCEPTED`**; **`T7-L-R3` PENDING GOVERNANCE REVIEW** |
+| Assembly package (`T7-L`) | **`ACCEPTED after T7-L-R`**; **`T7-L-R2` and `T7-L-R3` ACCEPTED**; **`T7-L-R4` PENDING GOVERNANCE REVIEW** |
 | PowerPoint (`T7-M`) | **`PRODUCED; QC FAILED; NOT ACCEPTED`** — external, not committed here |
-| PowerPoint (`T7-M-R1`) | **`NOT STARTED`. Not authorised.** It may begin only after `T7-L-R3` governance review **and** a governed resolution of the four unresolved slides |
+| PowerPoint (`T7-M-R1`) | **`NOT STARTED`. Not authorised.** It may begin only after ChatGPT accepts **`T7-L-R4`** |
 | Future deck filename convention | `HFS-BIM-Management-Module-07-Harrismith-to-Triviron-BEP-Translation-REV01.pptx` — **a naming convention only; no binary exists, and no `.pptx` is committed to this repository** |
 | Rendered assets | **`NONE`** |
 | Deck review | **NOT PERFORMED** |
@@ -289,7 +310,7 @@ Navisworks configuration.**
 
 ## 14. Next gate
 
-**ChatGPT governance review of `T7-L-R3`.**
+**ChatGPT governance review of `T7-L-R4`.**
 
 `T7-L` is **`ACCEPTED after T7-L-R`**, `T7-L0` is **`ACCEPTED`**, and `T7-L-R2` is
 **`ACCEPTED`** as copy-density / type-floor reconciliation and feasibility audit —
@@ -298,16 +319,25 @@ failed QC; it is `NOT ACCEPTED`**. `T7-L-R3` — the unresolved-slide geometry
 reconciliation — is **`PENDING CHATGPT GOVERNANCE REVIEW`** and **is not
 accepted**.
 
-**`T7-L-R3` did not achieve four passes.** Slides **6, 11, 13 and 14** remain
-**`UNRESOLVED`**: the required visible copy cannot be set at `≥ 14 pt` / `≥ 18 pt`
-inside `960 × 540 pt` in **any** arrangement of the accepted visual concepts, and
-on Slide 13 the mandatory `18 pt` text alone exceeds the canvas.
-[`deck-specification.md`](deck-specification.md) **§12.6** sets out the options
-that would work — each needing a governance decision this increment does not
-take. **The nearest, `12.6.1`, passes all eight halves with large margin but
-requires relaxing control `P9`.**
+`T7-L`, `T7-L0`, `T7-L-R2` and `T7-L-R3` are **`ACCEPTED`**. `T7-M` was
+**produced externally and failed QC; it is `NOT ACCEPTED`**. `T7-L-R4` — the
+governed split pagination — is **`PENDING CHATGPT GOVERNANCE REVIEW`** and **is
+not accepted**.
 
-**`T7-M-R1` is `NOT STARTED` and is not authorised.**
+**`T7-L-R4` resolves all four previously unresolved logical units** by producing
+them across two physical frames each, under the expressly authorised relaxation of
+`P9`. **All eighteen physical frames are `PRODUCTION FIT — VERIFIED ON DECLARED
+BASIS` with positive margin.** No copy was removed, no type reduced, no teaching
+statement added, and no new Markdown source file created.
+
+**One defect was found and is reported rather than silently resolved:**
+[`deck-specification.md`](deck-specification.md) **§12.6.1**'s prose and its
+allocation table disagree about where logical Slide 14 splits. `T7-L-R4`
+implements the **authority seam** the increment expressly prescribes; §13.9
+records both arrangements and their arithmetic for governance.
+
+**`T7-M-R1` is `NOT STARTED` and is not authorised.** It may begin only after
+ChatGPT accepts `T7-L-R4`.
 
 **Publication automation remains `PAUSED`.** Module 8 remains untouched: teaching
 baseline **`ACCEPTED`**, visual production **`NOT STARTED`**.

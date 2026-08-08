@@ -171,8 +171,11 @@ Triviron conclusion transfers.** **No Module 8 source file is created by
 | Rehearsal · measured timing | **`NOT PERFORMED`** |
 | Timing | **`20.0 minutes allocated — not measured`** |
 | Publication automation | **`PAUSED`** |
-| Presentation geometry reconciliation (`T7-L-R3`) | **`PENDING CHATGPT GOVERNANCE REVIEW`** — **not accepted** |
-| Next gate | **ChatGPT governance review of `T7-L-R3`** |
+| Presentation geometry reconciliation (`T7-L-R3`) | **`ACCEPTED`** — *proof that the four one-frame layouts are production-infeasible; production-fit status reconciliation* |
+| Presentation split pagination (`T7-L-R4`) | **`PENDING CHATGPT GOVERNANCE REVIEW`** — **not accepted** |
+| Logical visual sources | **14** |
+| Physical production frames | **18** |
+| Next gate | **ChatGPT governance review of `T7-L-R4`** |
 
 ## 9. Production-feasibility position — `T7-L-R2`
 
@@ -254,3 +257,53 @@ padding, no inter-run gap and no border, against a `436 pt` content height.
 `T7-L-R3` does not take — are recorded in
 [`../../module-07-harrismith-to-triviron-bep-translation/presentation/deck-specification.md`](../../module-07-harrismith-to-triviron-bep-translation/presentation/deck-specification.md)
 §12.6.** **A produced PowerPoint never governs these sources.**
+
+
+## 11. Logical sources and physical frames — `T7-L-R4`
+
+**Fourteen logical visual sources. Eighteen physical production frames.**
+**There are not eighteen independent teaching sources**, and none was created.
+`P9` has been superseded for Module 7 by the governed 14-logical / 18-physical
+pagination rule.
+
+| Logical source | Slide | Physical frame(s) | Physical # | Frames | Production fit |
+|---|---:|---|---|---:|---|
+| `M07-S01` | 1 | `M07-S01` | 1 | 1 | **VERIFIED** |
+| `M07-S02` | 2 | `M07-S02` | 2 | 1 | **VERIFIED** |
+| `M07-S03` | 3 | `M07-S03` | 3 | 1 | **VERIFIED** |
+| `M07-S04` | 4 | `M07-S04` | 4 | 1 | **VERIFIED** |
+| `M07-S05` | 5 | `M07-S05` | 5 | 1 | **VERIFIED** |
+| **`M07-S06`** | **6** | **`M07-S06-A` · `M07-S06-B`** | **6 · 7** | **2** | **VERIFIED** — `+24.0` · `+252.0` |
+| `M07-S07` | 7 | `M07-S07` | 8 | 1 | **VERIFIED** |
+| `M07-S08` | 8 | `M07-S08` | 9 | 1 | **VERIFIED** |
+| `M07-S09` | 9 | `M07-S09` | 10 | 1 | **VERIFIED** |
+| `M07-S10` | 10 | `M07-S10` | 11 | 1 | **VERIFIED** |
+| **`M07-S11`** | **11** | **`M07-S11-A` · `M07-S11-B`** | **12 · 13** | **2** | **VERIFIED** — `+10.0` · `+188.0` |
+| `M07-S12` | 12 | `M07-S12` | 14 | 1 | **VERIFIED** |
+| **`M07-S13`** | **13** | **`M07-S13-A` · `M07-S13-B`** | **15 · 16** | **2** | **VERIFIED** — `+64.0` · `+78.0` |
+| **`M07-S14`** | **14** | **`M07-S14-A` · `M07-S14-B`** | **17 · 18** | **2** | **VERIFIED** — `+194.0` · `+8.0` |
+| **14 logical** | | **18 physical** | **1–18** | **18** | **18 of 18 VERIFIED** |
+
+**§10's `production fit — NOT VERIFIED` position for `M07-S06`, `M07-S11`,
+`M07-S13` and `M07-S14` referred to their superseded ONE-FRAME layouts. Those
+layouts are withdrawn from production.** Their `T7-K` **coordinate arithmetic**
+stands as history and is not erased. **The current production geometry for those
+four logical sources is the A/B frame geometry**, specified in
+[`../../module-07-harrismith-to-triviron-bep-translation/presentation/deck-specification.md`](../../module-07-harrismith-to-triviron-bep-translation/presentation/deck-specification.md)
+§13.7–§13.9 and in each source file.
+
+| Field | Value |
+|---|---|
+| Logical source definitions | **Unchanged — `ACCEPTED under T7-K` × 14** |
+| New Markdown source files | **None.** Each parent defines its frames internally |
+| Connector census | **Unchanged — `12`.** Logical Slide 14's four are distributed 3 (frame A) + 1 (frame B) |
+| Classification / status census | **Unchanged** |
+| Typed-absence census | **Unchanged** |
+| Automatic-fail conditions | **42 — unchanged** |
+| `G9` text-fit self-check | **Applied to all eighteen physical frames** |
+| Timing | **`20.0 minutes allocated — not measured`** — each pair sums to its parent |
+| `T7-M` | **`PRODUCED; QC FAILED; NOT ACCEPTED`** — external, not in this repository |
+| `T7-M-R1` | **`NOT STARTED; NOT AUTHORISED`** |
+| Publication automation | **`PAUSED`** |
+
+**A produced PowerPoint never governs these sources.**

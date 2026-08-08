@@ -132,3 +132,67 @@ or checklist exists. No PowerPoint or PDF exists.**
 | PowerPoint (`T7-M`) | **`NOT STARTED`** |
 | Publication automation | **`PAUSED`** |
 | Next gate | **ChatGPT governance review of `T7-L0`** |
+
+
+---
+
+## 9. Logical-to-physical production map — `T7-L-R4`
+
+**ChatGPT has superseded `P9` for Module 7.** The mapping is no longer
+`one logical slide → one physical slide`. It is now:
+
+**one logical teaching unit → one accepted logical visual source → one, or (only
+where governed split pagination is authorised) two, physical frames.**
+
+**Exactly 14 logical rows. Exactly 18 physical destinations.**
+
+| Logical unit | Logical visual | Logical source | Physical frame(s) | Physical deck # | Frames |
+|---:|---|---|---|---|---:|
+| 1 | `M7V-01` | [`M07-S01.md`](M07-S01.md) | `M07-S01` | **1** | 1 |
+| 2 | `M7V-02` | [`M07-S02.md`](M07-S02.md) | `M07-S02` | **2** | 1 |
+| 3 | `M7V-03` | [`M07-S03.md`](M07-S03.md) | `M07-S03` | **3** | 1 |
+| 4 | `M7V-04` | [`M07-S04.md`](M07-S04.md) | `M07-S04` | **4** | 1 |
+| 5 | `M7V-05` | [`M07-S05.md`](M07-S05.md) | `M07-S05` | **5** | 1 |
+| **6** | `M7V-06-A` · `M7V-06-B` | [`M07-S06.md`](M07-S06.md) | **`M07-S06-A`** · **`M07-S06-B`** | **6 · 7** | **2** |
+| 7 | `M7V-07` | [`M07-S07.md`](M07-S07.md) | `M07-S07` | **8** | 1 |
+| 8 | `M7V-08` | [`M07-S08.md`](M07-S08.md) | `M07-S08` | **9** | 1 |
+| 9 | `M7V-09` | [`M07-S09.md`](M07-S09.md) | `M07-S09` | **10** | 1 |
+| 10 | `M7V-10` | [`M07-S10.md`](M07-S10.md) | `M07-S10` | **11** | 1 |
+| **11** | `M7V-11-A` · `M7V-11-B` | [`M07-S11.md`](M07-S11.md) | **`M07-S11-A`** · **`M07-S11-B`** | **12 · 13** | **2** |
+| 12 | `M7V-12` | [`M07-S12.md`](M07-S12.md) | `M07-S12` | **14** | 1 |
+| **13** | `M7V-13-A` · `M7V-13-B` | [`M07-S13.md`](M07-S13.md) | **`M07-S13-A`** · **`M07-S13-B`** | **15 · 16** | **2** |
+| **14** | `M7V-14-A` · `M7V-14-B` | [`M07-S14.md`](M07-S14.md) | **`M07-S14-A`** · **`M07-S14-B`** | **17 · 18** | **2** |
+| **14 rows** | **14 logical visuals** | **14 source files** | **18 frame IDs** | **1–18** | **18** |
+
+**Ten logical units map 1 : 1. Four map 1 : 2.** **No logical unit has zero
+frames, three frames, an external visual or an alternate mapping.**
+
+**The A/B identifiers describe physical pagination, not teaching content.** The
+logical parent remains the accepted teaching visual, and the four parent source
+files are unchanged in identity: `M07-S06`, `M07-S11`, `M07-S13`, `M07-S14`.
+**No new Markdown source file was created** — each parent defines its two frames
+internally.
+
+### 9.1 Family grouping under pagination
+
+**Slides 5–11 remain one logical domain family.** The family now has:
+
+| Variant | Logical units | Physical frames |
+|---|---|---|
+| **Single-frame variant** | 5, 7, 8, 9, 10 | one each |
+| **Governed two-frame pagination variant** | **6, 11** | two each |
+
+**The shared grammar is unchanged** — `3 × 280 + 2 × 12 = 864`, card hierarchy,
+four-zone structure, evidence-position treatment, classification/status
+treatment, boundary treatment, accessibility sequence. **Splitting logical Slides
+6 and 11 authorises no independent graphic redesign.** Their `A` frames carry the
+same three co-equal cards as their single-frame siblings; their `B` frames carry
+only full-width governance bands. **There are two governed variants, not eight
+unrelated layouts.**
+
+### 9.2 Timing under pagination
+
+**Total unchanged: `20.0 minutes allocated — not measured`.** Each pair shares its
+parent allocation: logical 6 `1.0 + 0.5 = 1.5` · logical 11 `1.0 + 0.5 = 1.5` ·
+logical 13 `0.8 + 0.6 = 1.4` · logical 14 `0.8 + 0.7 = 1.5`. **`T7-L-R4` changed
+no logical allocation and rehearses, measures or re-allocates nothing.**
