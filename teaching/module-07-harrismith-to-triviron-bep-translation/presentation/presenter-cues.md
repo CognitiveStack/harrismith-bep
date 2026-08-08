@@ -1,8 +1,8 @@
 # Module 7 — Presenter Cues
 
-**`MODULE 7 PRESENTATION ASSEMBLY PACKAGE — UNDER GOVERNED CORRECTION (T7-L-R2)`** ·
-**`T7-L — ACCEPTED after T7-L-R`** ·
-**`T7-L-R2 — PENDING CHATGPT GOVERNANCE REVIEW`**
+**`MODULE 7 PRESENTATION ASSEMBLY PACKAGE — UNDER GOVERNED CORRECTION`** ·
+**`T7-L — ACCEPTED after T7-L-R`** · **`T7-L-R2 — ACCEPTED`** ·
+**`T7-L-R3 — PENDING CHATGPT GOVERNANCE REVIEW`**
 
 **`TEACHING PRODUCTION HANDOFF — NOT TRIVIRON GOVERNANCE`**
 
@@ -400,5 +400,6 @@ table states it honestly rather than claiming all eleven remain projected.
 text** — `verification ≠ authorisation`, `federation ≠ authorship transfer` and
 `status label ≠ technical evidence`. **Each remains anchored on its slide by the
 accepted `TDR-` question it belongs to**, and each is a mandatory `say aloud` cue.
-**This is a governance judgement, and it is offered for review rather than
-asserted as settled** — see the completion report.
+**This is a governance judgement, and it was reviewed and accepted at
+`T7-L-R2`.** **`T7-L-R3` changed no cue and moved no further content here** — it
+was a geometry increment, and it reduced no visible copy.

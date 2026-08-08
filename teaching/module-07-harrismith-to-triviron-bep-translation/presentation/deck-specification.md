@@ -1,8 +1,10 @@
 # Module 7 — Deck Specification
 
-**`MODULE 7 PRESENTATION ASSEMBLY PACKAGE — UNDER GOVERNED CORRECTION (T7-L-R2)`** ·
+**`MODULE 7 PRESENTATION ASSEMBLY PACKAGE — UNDER GOVERNED CORRECTION`** ·
 **`T7-L — ACCEPTED after T7-L-R`** ·
-**`T7-L-R2 — PENDING CHATGPT GOVERNANCE REVIEW`**
+**`T7-L-R2 — ACCEPTED`** *(copy-density / type-floor reconciliation and
+feasibility audit; production readiness not established)* ·
+**`T7-L-R3 — PENDING CHATGPT GOVERNANCE REVIEW`**
 
 **`TEACHING PRODUCTION HANDOFF — NOT TRIVIRON GOVERNANCE`**
 
@@ -30,6 +32,15 @@ source file wins**.
 > **`T7-L-R2` has applied every compression the accepted architecture permits**
 > and declared the typographic basis in §1. **Four slides remain unresolved at
 > the accepted type floors** — see **§11**. **`T7-M-R1` is not authorised.**
+>
+> **`T7-L-R3` then attempted to resolve those four by geometry/layout
+> reconciliation within the accepted visual concepts. It could not.** All four
+> remain **`UNRESOLVED`**, with deficits of `75` to `230 pt` at the best
+> arrangement tested — and Slide 13's mandatory `18 pt` text **alone** exceeds the
+> canvas in any arrangement. **No coordinate has been changed**, because no
+> arrangement of the accepted concepts achieves a pass. **The full arithmetic, the
+> levers tested, and the options that would work — each requiring a governance
+> decision this increment does not take — are in §12.**
 
 ---
 
@@ -548,12 +559,16 @@ visual STOP registers, which are unchanged.**
 
 | Field | Value |
 |---|---|
-| Package | **`UNDER GOVERNED CORRECTION — T7-L-R2 PENDING CHATGPT GOVERNANCE REVIEW`** |
+| Package | **`MODULE 7 PRESENTATION ASSEMBLY PACKAGE — UNDER GOVERNED CORRECTION`** |
 | `T7-L` | **`ACCEPTED after T7-L-R`** |
 | `T7-L0` | **`ACCEPTED`** |
+| `T7-L-R2` | **`ACCEPTED`** — *as copy-density / type-floor reconciliation and feasibility audit; production readiness not yet achieved* |
+| `T7-L-R3` | **`PENDING CHATGPT GOVERNANCE REVIEW`** — **not accepted** |
 | Slides specified | **14 of 14** |
 | Slides feasible at the accepted type floors | **10 of 14** — Slides 1, 2, 3, 4, 5, 7, 8, 9, 10, 12 |
-| Slides **unresolved** at the accepted type floors | **4 of 14** — Slides **6, 11, 13, 14**. See §11 |
+| Slides **unresolved** at the accepted type floors | **4 of 14** — Slides **6, 11, 13, 14**. See §11 and **§12** |
+| Geometry reconciliation attempted | **`T7-L-R3` — all four still UNRESOLVED.** No coordinate changed; see §12 |
+| Geometry status, Slides 6, 11, 13, 14 | **coordinate arithmetic VERIFIED · production fit NOT VERIFIED** — see §12.7 |
 | Rendered assets | **`NONE`** |
 | External imagery | **`NONE`** |
 | PowerPoint (`T7-M`) | **`PRODUCED; QC FAILED; NOT ACCEPTED`** — external, not in this repository |
@@ -732,3 +747,267 @@ been created.**
 | Is the visible-copy density materially reduced? | **YES — Slides 2, 4, 5–11, 12, 14** |
 | Is every accepted semantic boundary intact? | **YES** |
 | Is the package ready for `T7-M-R1`? | **NO. Four slides are unresolved. `T7-M-R1` is `NOT STARTED` and not authorised** |
+
+---
+
+## 12. Geometry-feasibility reconciliation — `T7-L-R3`
+
+**`T7-L-R2 — ACCEPTED`** *(as copy-density / type-floor reconciliation and
+feasibility audit; production readiness not established)*.
+**`T7-L-R3 — PENDING CHATGPT GOVERNANCE REVIEW`.**
+
+`T7-L-R3` was directed to resolve the four slides §11 recorded unresolved —
+**6, 11, 13, 14** — by **geometry/layout reconciliation within the accepted visual
+concepts**, at the accepted type floors, with **positive safety margin**.
+
+**Result: none of the four can be resolved that way. All four remain
+`UNRESOLVED`.** The reason is not layout skill; it is arithmetic, and it is set
+out in full below so the governance decision can be taken on evidence.
+
+### 12.1 Method
+
+Every region of each slide was re-derived from the **`T7-L-R2` accepted visible
+copy** on the **declared basis of §1.1** — line height `1.2 ×`, character advance
+`0.5 ×`, padding `8 pt` per axis — using the **worst-case string** in each
+co-equal object, since co-equal objects must share one height.
+
+**Content budget.** Slides 6, 11 and 13 begin at `y = 96`; §6 of the increment
+permits a first content edge at `y ≥ 84`, so all four were given the **maximum
+budget `y = 84–520 = 436 pt`**. Slide 14 already begins at `y = 84`.
+
+**No coordinate has been changed.** Changing coordinates that still fail would
+create churn across five controlling layers for no feasibility gain, and would
+breach the §21 requirement that no layer be left inconsistent with another. §8
+therefore still carries the accepted geometry, now correctly labelled as
+**coordinate-arithmetic verified, production fit NOT verified** — see §12.7.
+
+### 12.2 Slide 6 — three co-equal Domain 2 cards
+
+**Cards `280 pt` wide → interior `272 pt` → `30 chars/line` at 18 pt, `38` at 14 pt.**
+
+| Zone | Runs, worst case | Lines | Height |
+|---|---|---:|---:|
+| **Z1** | `function: technical-response ownership` 37 ch @ 18 | 2 | `43.2` |
+| | `holder: NOT YET ESTABLISHED` 27 ch @ 18 | 1 | `21.6` |
+| | `TDR-006 — Who verifies, and when is verification required?` 58 ch @ 14 | 2 | `33.6` |
+| | *+ 2 internal gaps + padding* | | `16.0` |
+| | **Z1 need** | | **`114.4`** |
+| **Z2** | evidence kinds, 87 ch @ 14 | 3 | `58.4` |
+| **Z3** | `Triviron evidence currently available: NONE IDENTIFIED` 54 ch @ 18 | 2 | `43.2` |
+| | `NONE IDENTIFIED ≠ NONE EXISTS` 29 ch @ 18 | 1 | `21.6` |
+| | **Z3 need** | | **`76.8`** |
+| **Z4** | `classification: EVIDENCE REQUIRED` 33 ch @ 18 | 2 | `43.2` |
+| | `status: NOT YET ESTABLISHED` 27 ch @ 18 | 1 | `21.6` |
+| | **Z4 need** | | **`76.8`** |
+| | *3 inter-zone gaps* | | `12.0` |
+| | **CARD** | | **`338.4`** |
+
+| Full-width band | Runs | Height |
+|---|---|---:|
+| Exclusion strip | heading 29 ch @ 18 (1 line) + grouped nouns 75 ch @ 14 (1 line) | `50.4` |
+| Boundary strip | family sentence 112 ch @ 18 (2 lines) + mandatory holder statement 147 ch @ 18 (2 lines) | `98.4` |
+| *2 band gaps* | | `24.0` |
+
+**Total `511.2 pt` · budget `436 pt` · DEFICIT `75.2 pt`.**
+
+**Every lever was tested and none closes it.** Starting at `y = 84` is already
+included. Merging the two full-width bands into one saves `20 pt`. Shortening the
+worst function value to `function: technical response` (28 ch, one line) saves
+`21.6 pt` — and was **rejected** under §4/§25, since *ownership* is load-bearing
+for `TDR-005`. Even taking both, the deficit is `33.6 pt`.
+
+**Why nothing else is available.** `holder: NOT YET ESTABLISHED` is a **status**
+and is floored at 18 pt; the production control requires the holder line to be
+**the same weight as the function line**, so `function:` is floored at 18 pt too;
+`function ≠ person` is carried **structurally** by those two separate lines, so
+they may not be merged. Z3's two lines and Z4's two lines are mandatory verbatim
+at 18 pt. **Sub-dividing the card into columns makes it worse** — a narrower
+column carries fewer characters per line and therefore needs more lines.
+
+### 12.3 Slide 11 — three co-equal Domain 7 cards
+
+| Zone | Runs, worst case | Lines | Height |
+|---|---|---:|---:|
+| **Z1** | `TDR-021` question 80 ch @ 14 | 3 | `50.4` |
+| | `holder: NOT YET ESTABLISHED` @ 18 (card 2) | 1 | `21.6` |
+| | **Z1 need** | | **`84.0`** |
+| **Z2** | evidence kinds 86 ch @ 14 | 3 | `58.4` |
+| | **act cells — `recipient acceptance` 20 ch @ 18 in a `61 pt` cell (`5 chars/line`)** | **4** | **`94.4`** |
+| | **Z2 need — the act cells govern** | | **`94.4`** |
+| **Z3** | as Slide 6 | 3 | `76.8` |
+| **Z4** | `classification: METHOD` @ 18 + four-act qualifier 65 ch @ 14 + `status:` @ 18 | 1+2+1 | `92.8` |
+| | *3 inter-zone gaps* | | `12.0` |
+| | **CARD** | | **`360.0`** |
+
+| Full-width band | Height |
+|---|---:|
+| Authority band — `no controlled Triviron publication / exchange authority allocation is currently identified in this programme`, 107 ch @ 18 (2 lines) | `51.2` |
+| Exclusion strip | `50.4` |
+| Boundary strip — family sentence + two-directional statement, 2 + 2 lines @ 18 | `98.4` |
+| *3 band gaps* | `36.0` |
+
+**Total `596.0 pt` · budget `436 pt` · DEFICIT `160.0 pt`.**
+
+**The §12 authorisation to relocate the authority statement was used.** Moving it
+out of card 2's narrow column into a dedicated full-width band **saves `43.2 pt`**
+— inside the card it needs 4 lines (`94.4 pt`), full width only 2 (`51.2 pt`).
+**That saving is real and is already counted above.** It leaves `160 pt` still
+missing.
+
+**The four act cells are the second binding element.** At `61 pt` wide a cell
+carries **five characters** per 18 pt line, so `recipient acceptance` needs four
+lines. Rearranging them vertically inside the card (`106.4 pt`) or as a 2 × 2
+block (`98.4 pt`) is **no better than the accepted horizontal row (`94.4 pt`)**.
+They may not be collapsed, may not be narrowed further, and **zero connectors may
+run among them**.
+
+### 12.4 Slide 13 — four co-equal semantic-state quadrants
+
+**Quadrants `426 pt` wide → interior `418 pt` → `46 chars/line` at 18 pt, `59` at 14 pt.**
+
+| Quadrant | Head @ 18 | Meaning @ 14 | Misuse bar @ 18 | Need |
+|---|---:|---:|---:|---:|
+| `NOT YET ESTABLISHED` | 1 line | 3 lines | 118 ch → 3 lines | `153.6` |
+| `NOT ESTABLISHED` | 1 | 2 | 165 ch → 4 lines | `157.6` |
+| `UNRESOLVED` | 1 | 2 | 48 ch → 2 lines | `114.4` |
+| `TBD` | 1 | 2 | 158 ch → 4 lines | `157.6` |
+
+**Co-equality forces every quadrant to the worst case: `157.6 pt`.**
+Two rows + one `12 pt` gap = **`327.2 pt`**.
+
+| Lower region | Height |
+|---|---:|
+| `CURRENT REGISTER POSITION` + the 21-status statement, 146 ch @ 18 → 4 lines in a `426 pt` column | `120.0` |
+| `EVIDENCE AVAILABILITY` + `NONE IDENTIFIED` + field-8 definition + `NONE IDENTIFIED ≠ NONE EXISTS` + not-a-status line 152 ch @ 18 → 4 lines | `208.8` |
+| **side-by-side panel — the taller column governs** | **`208.8`** |
+| Misuse-warning strip, four entries @ 18, full width | `106.4` |
+| *2 band gaps* | `24.0` |
+
+**Total `666.4 pt` · budget `436 pt` · DEFICIT `230.4 pt`.**
+
+**The authorised relocation was applied and it works as intended.** Moving the
+21-row status census out of the `NOT YET ESTABLISHED` quadrant into a separately
+labelled `CURRENT REGISTER POSITION` element **removes the co-equality defect** —
+that quadrant no longer carries more weight than its three peers, and the four
+remain genuinely co-equal. **The relocation is a correct and reusable design
+decision; it simply does not create space, because the census still has to appear
+somewhere on the slide.**
+
+**Slide 13 also fails a stronger test.** Its mandatory `≥ 18 pt` text, counted as
+bare line height with **no** 14 pt copy, **no** padding, **no** inter-run gap,
+**no** border and **no** band gap, is **24 lines = `518.4 pt`** against a content
+height of `436 pt`. **The governance text alone does not fit the canvas at 18 pt,
+in any arrangement whatsoever.** This is a proof of impossibility, not a layout
+shortfall.
+
+### 12.5 Slide 14 — declaration · Register 1 · gate · Register 2 · supporting regions
+
+**Horizontal packing was authorised by §18 and was tested.**
+
+| Region | Composition | Height |
+|---|---|---:|
+| Header declaration | 3 lines @ 18, full width | `72.8` |
+| Register 1 | 4 boxes `201 pt` (`21 chars/line`); `appropriate authority engaged` → 2 lines | `51.2` |
+| Authority gate | `AUTHORITY REQUIRED — no automatic progression` 1 line + `evidence ≠ authority · …` 2 lines | `76.8` |
+| Register 2 | 3 boxes `276 pt` (`29 chars/line`); `BEP / matrix / schedule / appendix populated only when earned` → 3 lines | `72.8` |
+| Method chain + roadmap close **side by side** | chain in `640 pt` (2 runs, 4 lines) `98.4`; roadmap in `212 pt` `108.8` | `108.8` |
+| Boundary strip | 3 entries @ 18, full width, 2 + 2 + 2 lines | `145.6` |
+| *5 band gaps* | | `40.0` |
+
+**Best achievable total `557.6 pt` · budget `436 pt` · DEFICIT `121.6 pt`.**
+Horizontal packing of the supporting regions **saved `49.6 pt`** against the
+`607.2 pt` all-stacked arrangement. It is a genuine improvement and it is
+retained in the recommendation below — but it recovers `50 pt`, not `134 pt`.
+
+**Why horizontal packing cannot close the rest.** For a fixed string, a narrower
+column produces **more** lines and therefore **more** height. Full-width
+single-column stacking already **minimises** the height of every long region.
+Horizontal packing helps only where two **short** regions can share a row, and
+Slide 14 has exactly one such pairing. The header, the gate, the nine-object
+chain and the boundary strip are all long, and all are already at their
+minimum-height full-width form.
+
+**Header note.** The accepted `3 × 18 pt = 54 pt inside 64 pt` claim is
+superseded, as §11 already recorded. Three 18 pt lines need `64.8 pt` of line
+height plus `8 pt` padding = **`72.8 pt`**, so the header band must be at least
+`82 pt` to carry the declaration with the `≥ 8 pt` margin this increment
+requires. **The declaration's wording, its three physical lines and the semicolon
+break point are unchanged.**
+
+### 12.6 Options that would resolve all four — for governance decision
+
+**Reported, not applied. `T7-L-R3` invents none of these and chooses none.**
+
+| # | Option | Result | Blocked by |
+|---:|---|---|---|
+| **1** | **Split each overloaded slide into two**, preserving every accepted string and both type floors | **All eight halves PASS with large margin** — see §12.6.1 | **`P9`** — *add no slide* |
+| **2** | Set **explanatory** boundary prose (misuse bars, definitions, qualifiers) at 14 pt, keeping status and classification **words**, STOP declarations and verbatim declarations at 18 pt | **Still fails all four**: margins `−65.6`, `−162.4`, `−112.8`, `−59.2` | insufficient anyway |
+| **3** | Move further load-bearing content from slides to presenter cues | untested | **§4 · §25** of this increment |
+| **4** | Adopt a larger reference canvas than `960 × 540 pt` | untested | **§6** — canvas preserved |
+| **5** | Revise the declared basis, if a producer's real font metrics are narrower or shorter | conditional | **§5** — basis is fixed for planning |
+
+**Option 2 is quantified because it is the least invasive, and it is reported
+precisely so that it is not mistaken for a solution: it does not work.**
+
+#### 12.6.1 Option 1, quantified
+
+Budget `436 pt` per slide, full `18/14 pt` floors, **every accepted visible string
+retained**, nothing moved to notes.
+
+| Half | Carries | Need | Margin |
+|---|---|---:|---:|
+| **6a** | three co-equal Domain 2 cards | `338.4` | **`+97.6`** |
+| **6b** | exclusion strip · boundary strip · mandatory holder statement | `160.8` | **`+275.2`** |
+| **11a** | three co-equal Domain 7 cards incl. the four act cells | `372.0` | **`+64.0`** |
+| **11b** | authority band · exclusion strip · boundary strip | `224.0` | **`+212.0`** |
+| **13a** | four co-equal semantic-state quadrants | `327.2` | **`+108.8`** |
+| **13b** | `CURRENT REGISTER POSITION` · `EVIDENCE AVAILABILITY` · misuse-warning strip | `327.2` | **`+108.8`** |
+| **14a** | declaration · Register 1 · authority gate · Register 2 | `297.6` | **`+138.4`** |
+| **14b** | nine-object method chain · roadmap close · boundary strip | `301.6` | **`+134.4`** |
+
+**Every half passes with well above the `≥ 8 pt` margin this increment requires.**
+The split lines fall on the accepted semantic seams — cards from strips, quadrants
+from panels, workflow from supporting close — so **no visual concept is replaced
+and no teaching meaning is redesigned**. Slide 14's split falls exactly at the
+**authority gate**, which is where the slide's own argument already divides.
+
+**This is the only tested arrangement that satisfies all of: required visible
+copy · accepted semantic boundaries · connector controls · `≥ 14 pt` every run ·
+`≥ 18 pt` every principal, status, classification and boundary run · positive
+safety margin.** **It requires a governance decision to relax `P9`, and
+`T7-L-R3` does not take that decision.**
+
+### 12.7 `GEOMETRY VERIFIED` — the distinction that was missing
+
+**The accepted sources record `GEOMETRY ARITHMETIC — VERIFIED AGAINST ACCEPTED
+SPECIFICATION`. That claim is true and remains true. It was also misread as
+production feasibility, and it never meant that.**
+
+| Claim | Meaning | Status on Slides 6, 11, 13, 14 |
+|---|---|---|
+| **Coordinate arithmetic verified** | Spans, equalities, gaps and disjointness reconcile: `Σ widths + Σ gaps = span`, no overlap, no off-canvas object | **VERIFIED — unchanged by `T7-L-R3`** |
+| **Production fit verified** | The required copy **fits the stated regions at the type floors**, on a declared typographic basis, with positive margin | **NOT VERIFIED — `UNRESOLVED`** |
+
+**The plan's self-check rules `G1`–`G8` test only the first.** No rule tested
+text fit, which is why fourteen slides could be recorded `GEOMETRY VERIFIED` and
+still be unbuildable at 18 pt. **`T7-L-R3` adds `G9` to the visual-demonstration
+plan** to close that gap; it is a clarification of the existing self-check, **not
+a new automatic-fail condition** — the register stays at **42**.
+
+**From `T7-L-R3` onward, no slide may be described as production-feasible unless
+its type-floor arithmetic passes with positive margin.**
+
+### 12.8 `T7-L-R3` result
+
+| Slide | Result | Deficit at best arrangement tested |
+|---:|---|---:|
+| **6** | **UNRESOLVED** | `75.2 pt` |
+| **11** | **UNRESOLVED** | `160.0 pt` |
+| **13** | **UNRESOLVED** | `230.4 pt` — and its 18 pt text alone exceeds the canvas |
+| **14** | **UNRESOLVED** | `121.6 pt` after authorised horizontal packing |
+
+**Not all four PASS. Production readiness is therefore not recommended, and
+`T7-M-R1` remains `NOT STARTED` and `NOT AUTHORISED`.**
+
+**Slides 1, 2, 3, 4, 5, 7, 8, 9, 10 and 12 are untouched** by `T7-L-R3` and keep
+their `T7-L-R2` result, *feasible on the declared basis*.

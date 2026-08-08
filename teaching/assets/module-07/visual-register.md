@@ -17,6 +17,11 @@ approves nothing and establishes nothing about Triviron.
 > assembly package. **Four slides remain unresolved at the accepted type floors —
 > see §9.**
 
+> **`T7-L-R3` note.** The **Geometry** column below reads **VERIFIED** for
+> *coordinate arithmetic only*. That was always its meaning and it remains true.
+> **It is not a production-fit claim** — see §10 for the two-part status, and for
+> the four sources whose production fit is **NOT VERIFIED**.
+
 ---
 
 ## 1. The register
@@ -43,6 +48,12 @@ approves nothing and establishes nothing about Triviron.
 in the source file and the arithmetic was recalculated in `T7-K`. **All fourteen
 were recalculated. All fourteen reconcile.**
 
+**`T7-L-R3` clarification — this column means coordinate arithmetic, not
+production fit.** It records that spans, equalities, gaps and disjointness
+reconcile. It never recorded that the required copy **fits** its regions at the
+accepted type floors, because no rule tested that until `G9` was added to the
+visual-demonstration plan. **See §10 for the two-part status per source.**
+
 ## 2. Uniform positions — all fourteen
 
 | Field | Value |
@@ -53,7 +64,8 @@ were recalculated. All fourteen reconcile.**
 | Mermaid / automatic layout | **`PROHIBITED` × 14** |
 | Rendered | **`NONE` × 14** |
 | Source status | **`ACCEPTED under T7-K` × 14** |
-| Geometry | **VERIFIED × 14** |
+| Geometry — coordinate arithmetic | **VERIFIED × 14** — unchanged by `T7-L-R3` |
+| Geometry — production fit | **VERIFIED × 10** · **NOT VERIFIED × 4** (`M07-S06`, `M07-S11`, `M07-S13`, `M07-S14`) |
 | Reference canvas | **`960 × 540 pt` × 14** |
 | Accepted status | **`ACCEPTED under T7-K` × 14** — acceptance covers the source definitions only |
 
@@ -153,13 +165,14 @@ Triviron conclusion transfers.** **No Module 8 source file is created by
 | Controlling specification | **`T7-J — ACCEPTED after T7-J-R + T7-J-R2`** |
 | Rendered assets | **`NONE`** |
 | Presentation assembly (`T7-L`) | **`ACCEPTED after T7-L-R`** · **`T7-L0 — ACCEPTED`** |
-| Presentation assembly correction (`T7-L-R2`) | **`PENDING CHATGPT GOVERNANCE REVIEW`** — **not accepted** |
+| Presentation assembly correction (`T7-L-R2`) | **`ACCEPTED`** — *copy-density / type-floor reconciliation and feasibility audit; production readiness not yet achieved* |
 | PowerPoint (`T7-M`) | **`PRODUCED; QC FAILED; NOT ACCEPTED`** — external artefact, **not in this repository** |
 | PowerPoint (`T7-M-R1`) | **`NOT STARTED`** — **not authorised** |
 | Rehearsal · measured timing | **`NOT PERFORMED`** |
 | Timing | **`20.0 minutes allocated — not measured`** |
 | Publication automation | **`PAUSED`** |
-| Next gate | **ChatGPT governance review of `T7-L-R2`** |
+| Presentation geometry reconciliation (`T7-L-R3`) | **`PENDING CHATGPT GOVERNANCE REVIEW`** — **not accepted** |
+| Next gate | **ChatGPT governance review of `T7-L-R3`** |
 
 ## 9. Production-feasibility position — `T7-L-R2`
 
@@ -186,3 +199,58 @@ a typographic basis — **not by reopening these sources.**
 **The arithmetic supporting each unresolved slide is recorded in
 [`../../module-07-harrismith-to-triviron-bep-translation/presentation/deck-specification.md`](../../module-07-harrismith-to-triviron-bep-translation/presentation/deck-specification.md)
 §11.** **A produced PowerPoint never governs these sources.**
+
+
+## 10. Production-geometry status — `T7-L-R3`
+
+**`T7-L-R3` attempted to resolve the four unresolved slides by geometry/layout
+reconciliation within the accepted visual concepts. It did not succeed. All four
+remain `UNRESOLVED`, and no coordinate was changed.**
+
+**Source definitions remain `ACCEPTED under T7-K` × 14.** What changes here is
+**how the geometry claim is stated**, so that coordinate arithmetic is never again
+read as production feasibility.
+
+| Source | Slide | Coordinate arithmetic | Production fit | Deficit at best arrangement tested |
+|---|---:|---|---|---:|
+| `M07-S01` | 1 | **VERIFIED** | **VERIFIED** | — |
+| `M07-S02` | 2 | **VERIFIED** | **VERIFIED** | — |
+| `M07-S03` | 3 | **VERIFIED** | **VERIFIED** | — |
+| `M07-S04` | 4 | **VERIFIED** | **VERIFIED** | — |
+| `M07-S05` | 5 | **VERIFIED** | **VERIFIED** | — |
+| **`M07-S06`** | **6** | **VERIFIED** | **NOT VERIFIED** | **`75.2 pt`** |
+| `M07-S07` | 7 | **VERIFIED** | **VERIFIED** | — |
+| `M07-S08` | 8 | **VERIFIED** | **VERIFIED** | — |
+| `M07-S09` | 9 | **VERIFIED** | **VERIFIED** | — |
+| `M07-S10` | 10 | **VERIFIED** | **VERIFIED** | — |
+| **`M07-S11`** | **11** | **VERIFIED** | **NOT VERIFIED** | **`160.0 pt`** |
+| `M07-S12` | 12 | **VERIFIED** | **VERIFIED** | — |
+| **`M07-S13`** | **13** | **VERIFIED** | **NOT VERIFIED** | **`230.4 pt`** |
+| **`M07-S14`** | **14** | **VERIFIED** | **NOT VERIFIED** | **`121.6 pt`** |
+
+**`M07-S06`, `M07-S11`, `M07-S13` and `M07-S14` were accepted under `T7-K` and
+their production geometry is now under governed `T7-L-R3` correction on
+fabrication evidence.** Their `T7-K` coordinate arithmetic is **not withdrawn**;
+the implicit production-feasibility reading of it is. **The original feasibility
+claim is not current for those four.**
+
+**Slide 13 carries the decisive finding:** its mandatory `≥ 18 pt` text alone is
+**24 lines = `518.4 pt`**, counted as bare line height with no 14 pt copy, no
+padding, no inter-run gap and no border, against a `436 pt` content height.
+**That is a proof of impossibility, not a layout shortfall.**
+
+| Field | Value |
+|---|---|
+| Sources changed in definition | **None** |
+| Coordinates changed | **None** |
+| Connector census | **Unchanged — 12 across the package** |
+| Automatic-fail conditions | **42 — unchanged** |
+| Text-fit self-check | **`G9`, added to the visual-demonstration plan §2.3** — a clarification of the existing self-check, **not** a new automatic-fail condition |
+| `T7-M` | **`PRODUCED; QC FAILED; NOT ACCEPTED`** — external, not in this repository |
+| `T7-M-R1` | **`NOT STARTED; NOT AUTHORISED`** |
+| Publication automation | **`PAUSED`** |
+
+**The options that would resolve all four — each requiring a governance decision
+`T7-L-R3` does not take — are recorded in
+[`../../module-07-harrismith-to-triviron-bep-translation/presentation/deck-specification.md`](../../module-07-harrismith-to-triviron-bep-translation/presentation/deck-specification.md)
+§12.6.** **A produced PowerPoint never governs these sources.**

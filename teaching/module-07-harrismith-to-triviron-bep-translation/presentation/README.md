@@ -1,8 +1,10 @@
 # Module 7 — Presentation Assembly Package
 
-**`MODULE 7 PRESENTATION ASSEMBLY PACKAGE — UNDER GOVERNED CORRECTION (T7-L-R2)`** ·
+**`MODULE 7 PRESENTATION ASSEMBLY PACKAGE — UNDER GOVERNED CORRECTION`** ·
 **`T7-L — ACCEPTED after T7-L-R`** ·
-**`T7-L-R2 — PENDING CHATGPT GOVERNANCE REVIEW`**
+**`T7-L-R2 — ACCEPTED`** *(copy-density / type-floor reconciliation and
+feasibility audit; production readiness not established)* ·
+**`T7-L-R3 — PENDING CHATGPT GOVERNANCE REVIEW`**
 
 **`TEACHING PRODUCTION HANDOFF — NOT TRIVIRON GOVERNANCE`**
 
@@ -23,11 +25,13 @@
 
 | Field | Value |
 |---|---|
-| Increment | **`T7-L-R2`** — presentation production-feasibility reconciliation |
-| Package status | **`UNDER GOVERNED CORRECTION`** — `T7-L-R2` **`PENDING CHATGPT GOVERNANCE REVIEW`** |
-| Package accepted | **`T7-L — ACCEPTED after T7-L-R`** and **`T7-L0 — ACCEPTED`**. **`T7-L-R2` is NOT accepted.** Neither the correction nor the corrected package may be described as accepted |
+| Increment | **`T7-L-R3`** — unresolved-slide geometry reconciliation |
+| Package status | **`MODULE 7 PRESENTATION ASSEMBLY PACKAGE — UNDER GOVERNED CORRECTION`** |
+| Package accepted | **`T7-L — ACCEPTED after T7-L-R`** · **`T7-L0 — ACCEPTED`** · **`T7-L-R2 — ACCEPTED`**, *as copy-density / type-floor reconciliation and feasibility audit; production readiness not yet achieved*. **`T7-L-R3` is NOT accepted** |
 | `T7-L-R2` reason | **Production-feasibility failure** — the accepted type floors were not achievable under the prior visible-copy / geometry combination |
-| Feasibility position | **10 of 14 slides feasible at the accepted type floors. Slides 6, 11, 13 and 14 remain UNRESOLVED** — see [`deck-specification.md`](deck-specification.md) §11 |
+| `T7-L-R3` result | **Geometry reconciliation attempted and NOT achieved.** Slides 6, 11, 13 and 14 remain **`UNRESOLVED`** at deficits of `75`–`230 pt`. **No coordinate changed** — no arrangement of the accepted visual concepts passes. See [`deck-specification.md`](deck-specification.md) **§12** |
+| Feasibility position | **10 of 14 slides feasible at the accepted type floors. Slides 6, 11, 13 and 14 remain UNRESOLVED** — see [`deck-specification.md`](deck-specification.md) §11 and §12 |
+| Geometry status, Slides 6, 11, 13, 14 | **coordinate arithmetic VERIFIED · production fit NOT VERIFIED** — the distinction the accepted sources never drew; see [`deck-specification.md`](deck-specification.md) §12.7 |
 | Package files | **Seven** |
 | Teaching content | **`ACCEPTED`** — Module 7 teaching baseline |
 | Translation Decision Register | **`ACCEPTED after T7-C-R`** — 21 rows; controlled Triviron evidence **`NONE IDENTIFIED` × 21**; **0** candidate decisions |
@@ -264,9 +268,9 @@ tested duration or a final duration.**
 
 | Item | State |
 |---|---|
-| Assembly package (`T7-L`) | **`ACCEPTED after T7-L-R`**; correction **`T7-L-R2` PENDING GOVERNANCE REVIEW** |
+| Assembly package (`T7-L`) | **`ACCEPTED after T7-L-R`**; **`T7-L-R2 — ACCEPTED`**; **`T7-L-R3` PENDING GOVERNANCE REVIEW** |
 | PowerPoint (`T7-M`) | **`PRODUCED; QC FAILED; NOT ACCEPTED`** — external, not committed here |
-| PowerPoint (`T7-M-R1`) | **`NOT STARTED`. Not authorised.** It may begin only after `T7-L-R2` governance review **and** resolution of the four unresolved slides |
+| PowerPoint (`T7-M-R1`) | **`NOT STARTED`. Not authorised.** It may begin only after `T7-L-R3` governance review **and** a governed resolution of the four unresolved slides |
 | Future deck filename convention | `HFS-BIM-Management-Module-07-Harrismith-to-Triviron-BEP-Translation-REV01.pptx` — **a naming convention only; no binary exists, and no `.pptx` is committed to this repository** |
 | Rendered assets | **`NONE`** |
 | Deck review | **NOT PERFORMED** |
@@ -285,17 +289,25 @@ Navisworks configuration.**
 
 ## 14. Next gate
 
-**ChatGPT governance review of `T7-L-R2`.**
+**ChatGPT governance review of `T7-L-R3`.**
 
-`T7-L` is **`ACCEPTED after T7-L-R`** and `T7-L0` is **`ACCEPTED`**. `T7-M` was
-**produced externally and failed QC; it is `NOT ACCEPTED`**. `T7-L-R2` — this
-production-feasibility reconciliation — is **`PENDING CHATGPT GOVERNANCE
-REVIEW`** and **is not accepted**.
+`T7-L` is **`ACCEPTED after T7-L-R`**, `T7-L0` is **`ACCEPTED`**, and `T7-L-R2` is
+**`ACCEPTED`** as copy-density / type-floor reconciliation and feasibility audit —
+**production readiness not established**. `T7-M` was **produced externally and
+failed QC; it is `NOT ACCEPTED`**. `T7-L-R3` — the unresolved-slide geometry
+reconciliation — is **`PENDING CHATGPT GOVERNANCE REVIEW`** and **is not
+accepted**.
 
-**`T7-M-R1` is `NOT STARTED` and is not authorised.** It may begin only after
-`T7-L-R2` governance review **and** a governed resolution of the four slides
-recorded unresolved in [`deck-specification.md`](deck-specification.md) §11 —
-Slides **6, 11, 13 and 14**.
+**`T7-L-R3` did not achieve four passes.** Slides **6, 11, 13 and 14** remain
+**`UNRESOLVED`**: the required visible copy cannot be set at `≥ 14 pt` / `≥ 18 pt`
+inside `960 × 540 pt` in **any** arrangement of the accepted visual concepts, and
+on Slide 13 the mandatory `18 pt` text alone exceeds the canvas.
+[`deck-specification.md`](deck-specification.md) **§12.6** sets out the options
+that would work — each needing a governance decision this increment does not
+take. **The nearest, `12.6.1`, passes all eight halves with large margin but
+requires relaxing control `P9`.**
+
+**`T7-M-R1` is `NOT STARTED` and is not authorised.**
 
 **Publication automation remains `PAUSED`.** Module 8 remains untouched: teaching
 baseline **`ACCEPTED`**, visual production **`NOT STARTED`**.

@@ -1,8 +1,8 @@
 # Module 7 — Asset Manifest
 
-**`MODULE 7 PRESENTATION ASSEMBLY PACKAGE — UNDER GOVERNED CORRECTION (T7-L-R2)`** ·
-**`T7-L — ACCEPTED after T7-L-R`** ·
-**`T7-L-R2 — PENDING CHATGPT GOVERNANCE REVIEW`**
+**`MODULE 7 PRESENTATION ASSEMBLY PACKAGE — UNDER GOVERNED CORRECTION`** ·
+**`T7-L — ACCEPTED after T7-L-R`** · **`T7-L-R2 — ACCEPTED`** ·
+**`T7-L-R3 — PENDING CHATGPT GOVERNANCE REVIEW`**
 
 **`TEACHING PRODUCTION HANDOFF — NOT TRIVIRON GOVERNANCE`**
 
@@ -136,3 +136,5 @@ back.**
 | Type-floor position | **Slides 6, 11, 13 and 14 are recorded UNRESOLVED** at `≥ 14 pt` / `≥ 18 pt` — see [`deck-specification.md`](deck-specification.md) §11. **No object here may be built by shrinking type** |
 | `T7-M` | **`PRODUCED; QC FAILED; NOT ACCEPTED`** — external, not in this repository |
 | `T7-M-R1` | **`NOT STARTED`** — not authorised |
+| Object inventory changed by `T7-L-R3` | **No.** `T7-L-R3` changed **no coordinate and no object**, because no arrangement of the accepted visual concepts passes the type floors — see [`deck-specification.md`](deck-specification.md) §12 |
+| Slides 6, 11, 13, 14 geometry | **coordinate arithmetic VERIFIED · production fit NOT VERIFIED.** The object lists below remain the accepted ones and **may not be built until the four slides are resolved by a governed increment** |

@@ -189,6 +189,20 @@ check must be satisfied **before `T7-K` visual-source production begins**.
 | **G6** | **No off-canvas object.** Every coordinate lies within `x = 0–960`, `y = 0–540`, and every content object within `x = 48–912`, `y = 72–520` |
 | **G7** | **No boundary, status or STOP warning may be positioned outside the visual region it governs.** A warning about a panel sits inside or immediately beneath that panel's own frame |
 | **G8** | A producer who cannot reproduce a stated arithmetic result **stops and refers back**. A producer may not silently adjust coordinates to make a layout fit |
+| **G9** | **`TEXT-FIT SELF-CHECK` — added by `T7-L-R3`.** `G1`–`G8` test **coordinate arithmetic only**. They do not test whether the required copy **fits** the stated region at the accepted type floors, and no rule did — which is why fourteen visuals could be recorded `GEOMETRY VERIFIED` and still be unbuildable at 18 pt. **Every region must additionally record: object width · usable width (`width − 8 pt`) · intended point size · characters per line · worst-case string length · lines required · text height (`lines × 1.2 × point size`) · object height · remaining vertical margin.** A region with **negative or zero margin is a defect**; `≥ 8 pt` is preferred for load-bearing regions. **A stated fit that does not survive this check is a defect, exactly as a stated equality that does not divide exactly is a defect under `G3`** |
+
+**`GEOMETRY VERIFIED` therefore carries two independent claims, and `T7-L-R3`
+requires both to be stated separately:**
+
+| Claim | Tested by | Meaning |
+|---|---|---|
+| **Coordinate arithmetic verified** | `G1`–`G8` | Spans, equalities, gaps and disjointness reconcile; nothing off-canvas |
+| **Production fit verified** | **`G9`** | The required copy fits its region at `≥ 14 pt` / `≥ 18 pt`, with positive margin, on a declared typographic basis |
+
+**A visual satisfying `G1`–`G8` but not `G9` is `coordinate arithmetic verified ·
+production fit NOT verified`. It may not be described as production-feasible.**
+**`M7V-06`, `M7V-11`, `M7V-13` and `M7V-14` are currently in that state** — see
+[`presentation/deck-specification.md`](presentation/deck-specification.md) §12.
 
 ### 2.4 Status visibility
 
@@ -343,6 +357,32 @@ choice.**
 | **K8** | A conditional step is drawn with its condition **in words on the object**, never as an unconditional arrowhead |
 | **K9** | **No connector may terminate on an empty, absent or zero-valued object** — that reads as a route to an answer |
 | **K10** | Connector direction and meaning are carried by **label and arrowhead**, never by colour |
+
+### 2.12a Production-geometry correction status — `T7-L-R3`
+
+**Four accepted specifications are under governed production-geometry
+correction.** `T7-J` acceptance of their **coordinate arithmetic** is unchanged
+and is not withdrawn. What is withdrawn is the **implicit** claim that their
+geometry was production-feasible at the accepted type floors — a claim `G1`–`G8`
+never tested and `G9` now does.
+
+| Specification | Slide | Coordinate arithmetic | Production fit | Deficit at best arrangement tested |
+|---|---:|---|---|---:|
+| **`M7V-06`** | 6 | **VERIFIED** — unchanged | **NOT VERIFIED** | `75.2 pt` |
+| **`M7V-11`** | 11 | **VERIFIED** — unchanged | **NOT VERIFIED** | `160.0 pt` |
+| **`M7V-13`** | 13 | **VERIFIED** — unchanged | **NOT VERIFIED** | `230.4 pt` |
+| **`M7V-14`** | 14 | **VERIFIED** — unchanged | **NOT VERIFIED** | `121.6 pt` |
+
+**No coordinate in §4 has been changed by `T7-L-R3`**, because no arrangement of
+these accepted visual concepts passes the type floors — repacking, horizontal
+composition and zone re-allocation were all tested. **The remaining specifications
+`M7V-01`–`M7V-05`, `M7V-07`–`M7V-10` and `M7V-12` are unaffected** and keep their
+`T7-L-R2` result, *feasible on the declared basis*.
+
+**The evidence, the levers tested and the options that would resolve all four —
+each requiring a governance decision — are recorded in
+[`presentation/deck-specification.md`](presentation/deck-specification.md) §12.**
+**A produced PowerPoint never governs this plan.**
 
 ### 2.13 Visual economy
 

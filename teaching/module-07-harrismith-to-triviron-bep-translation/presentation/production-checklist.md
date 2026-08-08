@@ -1,8 +1,8 @@
 # Module 7 — Production Checklist
 
-**`MODULE 7 PRESENTATION ASSEMBLY PACKAGE — UNDER GOVERNED CORRECTION (T7-L-R2)`** ·
-**`T7-L — ACCEPTED after T7-L-R`** ·
-**`T7-L-R2 — PENDING CHATGPT GOVERNANCE REVIEW`**
+**`MODULE 7 PRESENTATION ASSEMBLY PACKAGE — UNDER GOVERNED CORRECTION`** ·
+**`T7-L — ACCEPTED after T7-L-R`** · **`T7-L-R2 — ACCEPTED`** ·
+**`T7-L-R3 — PENDING CHATGPT GOVERNANCE REVIEW`**
 
 **`TEACHING PRODUCTION HANDOFF — NOT TRIVIRON GOVERNANCE`**
 
@@ -22,6 +22,14 @@
 > **A producer reaching this checklist before those four slides are resolved by a
 > governed geometry increment must STOP.** The correct response to an unresolved
 > slide is **refer back**, never smaller type.
+>
+> **`T7-L-R3` attempted that geometry increment and did not succeed.** Slides 6,
+> 11, 13 and 14 remain **`UNRESOLVED`** at deficits of `75`–`230 pt`. **They are
+> not buildable at the type floors in any arrangement of the accepted visual
+> concepts**, and Slide 13's mandatory `18 pt` text alone exceeds the canvas.
+> **No coordinate in §3 has changed.** Build **nothing** on those four slides
+> until a governed increment resolves them — see
+> [`deck-specification.md`](deck-specification.md) **§12**.
 
 ---
 
@@ -67,9 +75,24 @@ to:**
 - [ ] **Measure your actual font metrics against that basis.** If your line
       height or character advance is **larger** than declared, **STOP AND REFER
       BACK** — you may not compensate by reducing type.
-- [ ] Read [`deck-specification.md`](deck-specification.md) **§11** and confirm
-      which slides are recorded **feasible** and which are recorded
+- [ ] Read [`deck-specification.md`](deck-specification.md) **§11** and **§12**
+      and confirm which slides are recorded **feasible** and which are recorded
       **unresolved**. **Do not build an unresolved slide.**
+- [ ] Confirm the four slides recorded **`UNRESOLVED`** — **6, 11, 13, 14** —
+      have been resolved by a governed increment **that changed their geometry or
+      their governing controls**. **`T7-L-R3` did not resolve them and changed no
+      coordinate**, so if no later increment has, **STOP: the deck cannot be
+      built.**
+- [ ] Confirm, for every slide you do build, that its region geometry carries
+      **both** claims: **coordinate arithmetic verified** *and* **production fit
+      verified with positive margin**. **Coordinate arithmetic alone is not
+      feasibility** — that misreading is what produced the `7.8 pt` deck. See
+      [`deck-specification.md`](deck-specification.md) **§12.7**.
+- [ ] Run the **`G9` text-fit self-check** of
+      [`../visual-demonstration-plan.md`](../visual-demonstration-plan.md) §2.3
+      on every region before drawing it: worst-case string, chars per line, lines
+      required, text height, region height, **remaining margin ≥ 8 pt where
+      reasonably possible and never negative**.
 
 ## 2. Global build checks
 

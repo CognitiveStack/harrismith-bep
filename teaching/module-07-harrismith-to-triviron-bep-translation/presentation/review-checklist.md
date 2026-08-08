@@ -1,8 +1,8 @@
 # Module 7 — Review Checklist
 
-**`MODULE 7 PRESENTATION ASSEMBLY PACKAGE — UNDER GOVERNED CORRECTION (T7-L-R2)`** ·
-**`T7-L — ACCEPTED after T7-L-R`** ·
-**`T7-L-R2 — PENDING CHATGPT GOVERNANCE REVIEW`**
+**`MODULE 7 PRESENTATION ASSEMBLY PACKAGE — UNDER GOVERNED CORRECTION`** ·
+**`T7-L — ACCEPTED after T7-L-R`** · **`T7-L-R2 — ACCEPTED`** ·
+**`T7-L-R3 — PENDING CHATGPT GOVERNANCE REVIEW`**
 
 **`TEACHING PRODUCTION HANDOFF — NOT TRIVIRON GOVERNANCE`**
 
@@ -188,9 +188,17 @@ is not reviewed further; it is returned.**
 - [ ] **No note, comment, property or instruction in the deck** permits a producer
       to shrink type.
 - [ ] **The four slides recorded unresolved in
-      [`deck-specification.md`](deck-specification.md) §11 — 6, 11, 13, 14 — have
-      been resolved by a governed geometry increment.** **If they have not, the
-      deck is out of scope for review and is returned.**
+      [`deck-specification.md`](deck-specification.md) §11 and §12 — 6, 11, 13,
+      14 — have been resolved by a governed increment.** **`T7-L-R3` attempted
+      this and did not succeed**; if no later governed increment has resolved
+      them, **the deck is out of scope for review and is returned**.
+- [ ] **Every built region carries both claims:** *coordinate arithmetic
+      verified* **and** *production fit verified with positive margin*. A region
+      offering only coordinate arithmetic is **not** verified — see §12.7 of the
+      deck specification.
+- [ ] **The `G9` text-fit record is present** for every region: worst-case
+      string, chars per line, lines, text height, region height, remaining
+      margin. **No region has negative or zero margin.**
 
 ## 9. Accessibility review
 
@@ -314,17 +322,19 @@ presentation tricks in place of legible type.
 | Field | Value |
 |---|---|
 | Assembly package (`T7-L`) | **`ACCEPTED after T7-L-R`** |
-| Assembly package correction (`T7-L-R2`) | **`PENDING CHATGPT GOVERNANCE REVIEW`** — **not accepted** |
 | `T7-L0` | **`ACCEPTED`** |
+| Assembly correction (`T7-L-R2`) | **`ACCEPTED`** — *copy-density / type-floor reconciliation and feasibility audit; production readiness not yet achieved* |
+| Geometry reconciliation (`T7-L-R3`) | **`PENDING CHATGPT GOVERNANCE REVIEW`** — **not accepted**. **Did not achieve four passes**; no coordinate changed |
+| Slides 6, 11, 13, 14 geometry | **coordinate arithmetic VERIFIED · production fit NOT VERIFIED** |
 | PowerPoint (`T7-M`) | **`PRODUCED; QC FAILED; NOT ACCEPTED`** — external, not in this repository |
 | `T7-M` failure reason | **production-feasibility failure — accepted type floors not achievable under the prior visible-copy / geometry combination** |
 | PowerPoint (`T7-M-R1`) | **`NOT STARTED`** — **not authorised** |
-| Slides unresolved at the type floors | **4 — Slides 6, 11, 13, 14.** See [`deck-specification.md`](deck-specification.md) §11 |
-| Automatic-fail conditions | **42** — was 40; **28** strengthened, **41** and **42** added |
+| Slides unresolved at the type floors | **4 — Slides 6, 11, 13, 14.** See [`deck-specification.md`](deck-specification.md) §11 and §12 |
+| Automatic-fail conditions | **42** — unchanged by `T7-L-R3`. Was 40 at `T7-L-R2`; **28** strengthened, **41** and **42** added there |
 | Deck review | **NOT PERFORMED** on a conforming deck |
 | Rendered assets | **`NONE`** |
 | Rehearsal | **`NOT PERFORMED`** |
 | Measured timing | **`NOT PERFORMED`** |
 | Timing | **`20.0 minutes allocated — not measured`** |
 | Publication automation | **`PAUSED`** |
-| Next gate | **ChatGPT governance review of `T7-L-R2`** |
+| Next gate | **ChatGPT governance review of `T7-L-R3`** |

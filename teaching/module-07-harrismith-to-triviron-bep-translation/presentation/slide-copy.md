@@ -1,8 +1,8 @@
 # Module 7 — Slide Copy
 
-**`MODULE 7 PRESENTATION ASSEMBLY PACKAGE — UNDER GOVERNED CORRECTION (T7-L-R2)`** ·
-**`T7-L — ACCEPTED after T7-L-R`** ·
-**`T7-L-R2 — PENDING CHATGPT GOVERNANCE REVIEW`**
+**`MODULE 7 PRESENTATION ASSEMBLY PACKAGE — UNDER GOVERNED CORRECTION`** ·
+**`T7-L — ACCEPTED after T7-L-R`** · **`T7-L-R2 — ACCEPTED`** ·
+**`T7-L-R3 — PENDING CHATGPT GOVERNANCE REVIEW`**
 
 **`TEACHING PRODUCTION HANDOFF — NOT TRIVIRON GOVERNANCE`**
 
@@ -20,6 +20,12 @@
 > [`../presenter-notes.md`](../presenter-notes.md). **No semantic boundary has
 > been weakened.** See [`deck-specification.md`](deck-specification.md) §11 for
 > the type-floor feasibility audit and the slides that remain **unresolved**.
+
+> **`T7-L-R3` — this copy is unchanged.** `T7-L-R3` attempted to resolve Slides
+> 6, 11, 13 and 14 by **geometry** reconciliation, not by further copy reduction.
+> It did not succeed; all four remain **`UNRESOLVED`**. **No wording on any slide
+> was shortened, moved or reduced by `T7-L-R3`**, and none may be. See
+> [`deck-specification.md`](deck-specification.md) **§12**.
 
 ---
 
@@ -359,11 +365,13 @@ parenthetical.** Card 3's Harrismith `may verify` variance note is **Class C** a
 moves to [`presenter-cues.md`](presenter-cues.md) Slide 6; **the variance is
 still delivered, and is neither resolved nor rewritten.**
 
-> **`T7-L-R2` — SLIDE 6 REMAINS UNRESOLVED AT THE TYPE FLOORS.** Zone 1 must
-> carry two `18 pt` runs and one `14 pt` run inside a `54 pt` zone. **Deficit
-> 15.2 pt after full compression.** See
-> [`deck-specification.md`](deck-specification.md) §11. **No producer may resolve
-> this by shrinking type.**
+> **SLIDE 6 REMAINS UNRESOLVED AT THE TYPE FLOORS.** Zone 1 must carry two
+> `18 pt` runs and one `14 pt` run inside a `54 pt` zone — needing `114.4 pt`.
+> **`T7-L-R3` re-derived the whole slide on the declared basis and confirmed a
+> slide-level deficit of `75.2 pt`**, against the maximum `436 pt` budget, with
+> every lever tested. See [`deck-specification.md`](deck-specification.md) §11 and
+> **§12.2**. **No producer may resolve this by shrinking type, and no coordinate
+> has been changed.**
 
 ---
 
@@ -551,12 +559,14 @@ and is not stated to lack one`
 `verification ≠ authorisation` are carried by the four co-equal act cells and
 delivered from [`presenter-cues.md`](presenter-cues.md) Slide 11.
 
-> **`T7-L-R2` — SLIDE 11 REMAINS UNRESOLVED AT THE TYPE FLOORS.** Card 2 must
-> carry the 107-character programme-bounded authority statement at `18 pt`
-> adjacent to the holder line — four lines, `94.4 pt` — inside a card that must
-> also carry Zones 1, 3 and 4. **Deficit 63.2 pt after full compression.** See
-> [`deck-specification.md`](deck-specification.md) §11. **The statement may not
-> be shrunk, shortened or relegated to a distant strip.**
+> **SLIDE 11 REMAINS UNRESOLVED AT THE TYPE FLOORS.** `T7-L-R3` relocated the
+> 107-character programme-bounded authority statement out of card 2's narrow
+> column into a dedicated full-width band, **saving `43.2 pt`** — and the slide
+> still shows a **deficit of `160.0 pt`**. The four act cells are the second
+> binding element: a `61 pt` cell carries **five characters** per `18 pt` line, so
+> `recipient acceptance` needs four lines, and no rearrangement improves on it.
+> See [`deck-specification.md`](deck-specification.md) §11 and **§12.3**. **The
+> statement may not be shrunk or shortened; the four acts may not be collapsed.**
 
 ---
 
@@ -657,13 +667,17 @@ determines the status.`**
 evidence-position panel and is never a fifth quadrant or a status. `TBD` is
 applied to no Triviron matter.**
 
-> **`T7-L-R2` — SLIDE 13 REMAINS UNRESOLVED AT THE TYPE FLOORS.** Slide 13 was
-> treated as presumptively feasible. The audit does not support that: four
-> quadrants each carrying a meaning line, a misuse bar and — in one case — a
-> 21-status note, all at `18 pt`, exceed the accepted `114 pt` quadrant height.
-> **No copy correction is applied here**, because §24 of the increment protects
-> this slide's content and the deficit is a geometry matter. See
-> [`deck-specification.md`](deck-specification.md) §11.
+> **SLIDE 13 REMAINS UNRESOLVED AT THE TYPE FLOORS — AND IS THE DECISIVE CASE.**
+> `T7-L-R3` moved the 21-row status census out of the `NOT YET ESTABLISHED`
+> quadrant into a separately labelled `CURRENT REGISTER POSITION` element, which
+> **does remove the co-equality defect** — that quadrant no longer outweighs its
+> three peers. It creates no space: the census must still appear on the slide.
+> **Deficit `230.4 pt`.** And this slide's mandatory `≥ 18 pt` text **alone** is
+> 24 lines = **`518.4 pt`**, before any `14 pt` copy, padding, gap or border,
+> against a `436 pt` canvas — **it does not fit in any arrangement whatsoever.**
+> See [`deck-specification.md`](deck-specification.md) §11 and **§12.4**. **No
+> copy correction is applied**; the content is protected and the defect is
+> structural.
 
 ---
 
@@ -732,13 +746,17 @@ one-liner's arrows are typographic characters in a single text run.
 the authority gate · `evidence ≠ authority` · `candidate decision, if authorised`
 · `only when earned` · the teaching-versus-current-workflow distinction.
 
-> **`T7-L-R2` — SLIDE 14 REMAINS UNRESOLVED AT THE TYPE FLOORS.** After the
-> compressions above, the seven bands still require approximately `500 pt`
-> against the accepted `436 pt` envelope, and the header alone requires `72.8 pt`
-> against its accepted `64 pt`. **Deficit approximately 64 pt.** See
-> [`deck-specification.md`](deck-specification.md) §11. **The header's accepted
-> `3 × 18 pt = 54 pt` nominal fit is arithmetically wrong** — it treats line
-> height as equal to point size.
+> **SLIDE 14 REMAINS UNRESOLVED AT THE TYPE FLOORS.** `T7-L-R3` applied the
+> authorised **horizontal packing** — the nine-object method chain beside the
+> roadmap close — which **saved `49.6 pt`**, taking the requirement from
+> `607.2 pt` to `557.6 pt` against a `436 pt` envelope. **Deficit `121.6 pt`.**
+> Horizontal packing cannot close the rest: for a fixed string a narrower column
+> needs *more* lines, so full-width stacking already minimises the header, the
+> gate, the chain and the boundary strip. See
+> [`deck-specification.md`](deck-specification.md) §11 and **§12.5**. **The
+> header's accepted `3 × 18 pt = 54 pt` nominal fit is arithmetically wrong** — it
+> treats line height as equal to point size; the true need is `72.8 pt`, so the
+> band must be at least `82 pt`.
 
 ---
 
@@ -763,5 +781,6 @@ the authority gate · `evidence ≠ authority` · `candidate decision, if author
 | Minimum intended type stated per element | **Yes — `14 pt` or `18 pt`, never lower** |
 | Slides materially reduced in density | **2, 4, 5–11, 12, 14** |
 | Slides unchanged | **1, 3, 13** |
-| Slides still unresolved at the type floors | **6, 11, 13, 14 — see [`deck-specification.md`](deck-specification.md) §11** |
+| Slides still unresolved at the type floors | **6, 11, 13, 14 — see [`deck-specification.md`](deck-specification.md) §11 and §12** |
+| Copy changed by `T7-L-R3` | **None.** `T7-L-R3` was a geometry increment and reduced no wording |
 | Package readiness for `T7-M-R1` | **NOT READY.** `T7-M-R1` is **`NOT STARTED`** and **not authorised** |
