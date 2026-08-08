@@ -1,7 +1,8 @@
 # Module 7 — Production Checklist
 
-**`MODULE 7 PRESENTATION ASSEMBLY PACKAGE — ACCEPTED after T7-L-R`** ·
-**`T7-L — ACCEPTED after T7-L-R`**
+**`MODULE 7 PRESENTATION ASSEMBLY PACKAGE — UNDER GOVERNED CORRECTION (T7-L-R2)`** ·
+**`T7-L — ACCEPTED after T7-L-R`** ·
+**`T7-L-R2 — PENDING CHATGPT GOVERNANCE REVIEW`**
 
 **`TEACHING PRODUCTION HANDOFF — NOT TRIVIRON GOVERNANCE`**
 
@@ -9,6 +10,18 @@
 
 > **This is the build instrument.** Work top to bottom. **A box that cannot be
 > ticked honestly is a `STOP AND REFER BACK`, not a box to leave blank.**
+
+> ### `T7-M-R1` IS NOT AUTHORISED
+>
+> **Do not begin a new PowerPoint build from this checklist yet.** The `T7-M`
+> fabrication reached `7.8 pt` minimum type with **146** runs below `14 pt` and
+> correctly stopped at QC. **Four slides — 6, 11, 13 and 14 — remain unresolved
+> at the accepted type floors** after `T7-L-R2`'s copy reconciliation. See
+> [`deck-specification.md`](deck-specification.md) **§11**.
+>
+> **A producer reaching this checklist before those four slides are resolved by a
+> governed geometry increment must STOP.** The correct response to an unresolved
+> slide is **refer back**, never smaller type.
 
 ---
 
@@ -47,6 +60,16 @@ to:**
       pt** (content span exactly **864 pt**).
 - [ ] Set the type floor: **14 pt visible, 18 pt for status, classification and
       boundary words**.
+- [ ] Read the **declared typographic basis** in
+      [`deck-specification.md`](deck-specification.md) **§1.1**: line height
+      **`1.2 ×`** point size, character advance **`0.5 ×`** point size, text-box
+      padding **`8 pt`** per axis.
+- [ ] **Measure your actual font metrics against that basis.** If your line
+      height or character advance is **larger** than declared, **STOP AND REFER
+      BACK** — you may not compensate by reducing type.
+- [ ] Read [`deck-specification.md`](deck-specification.md) **§11** and confirm
+      which slides are recorded **feasible** and which are recorded
+      **unresolved**. **Do not build an unresolved slide.**
 
 ## 2. Global build checks
 
@@ -60,7 +83,7 @@ to:**
       1.5 + 1.5 + 1.5 + 1.5 + 1.5 + 1.5 + 1.4 + 1.5`.
 - [ ] **Manual advancement only.** No automatic slide-transition timing anywhere
       in the file.
-- [ ] **Slide-copy fidelity:** every verbatim string in `slide-copy.md` §3
+- [ ] **Slide-copy fidelity:** every verbatim string in `slide-copy.md` §4
       appears exactly, unshortened and unsplit.
 - [ ] **One-to-one mapping:** every slide carries exactly one visual, matching
       `Slide n → M7V-nn → M07-Snn`.
@@ -339,10 +362,42 @@ to:**
 - [ ] **No meeting room, calendar, date, participant, seat, table, agenda,
       scheduled event, clock or duration.**
 
-## 4. Accessibility checks
+## 4. Type-floor verification — mandatory, measured
 
-- [ ] Minimum visible type **14 pt** on every slide.
-- [ ] **Every status, classification and governance-boundary word ≥ 18 pt.**
+**This section is the instrument that the `T7-M` build lacked. It is not a
+judgement; it is a measurement.**
+
+- [ ] **Enumerate every explicit text run in the file** — every text box, table
+      cell, shape label and connector label, on all fourteen slides.
+- [ ] **Record the explicit point size of each run.** A run with an inherited or
+      theme-derived size is resolved to its **effective** size and recorded.
+- [ ] **`minimum explicit type >= 14 pt`.** Compute the minimum across the whole
+      deck and write it down. **If the figure is below `14 pt`, production review
+      fails — there is no discretion.**
+- [ ] **`all principal / status / classification / governance-boundary text >= 18
+      pt`.** Enumerate those runs specifically — every `classification:` line,
+      every `status:` line, every `holder:` line, every `NONE IDENTIFIED`, every
+      `NOT YET ESTABLISHED`, every STOP band, gate strip, fence heading, boundary
+      strip, exclusion-strip heading and mandatory programme-bounded statement —
+      and confirm each is **`≥ 18 pt`**. **Any one below `18 pt` fails production
+      review.**
+- [ ] **Count the runs below `14 pt`. The required count is `0`.** For reference,
+      the `T7-M` fabrication recorded **146** and a minimum of **`7.8 pt`**.
+- [ ] Confirm **no run was reduced below either floor to force a fit**, and that
+      **no line spacing is below `1.0`**, **no font is condensed** and **no
+      character spacing is reduced**.
+- [ ] Confirm **no note, comment, property or instruction anywhere in the file**
+      says a producer may shrink type if required.
+- [ ] **If any box in this section cannot be ticked, the deck is not finished and
+      is not to be presented as finished.** Record it as a
+      **`STOP AND REFER BACK`** against the specific slide and run.
+
+## 5. Accessibility checks
+
+- [ ] Minimum visible type **14 pt** on every slide — **verified by measurement
+      in §4, not by eye**.
+- [ ] **Every status, classification and governance-boundary word ≥ 18 pt** —
+      **verified by measurement in §4**.
 - [ ] Text contrast ≥ 4.5 : 1; line, border and connector contrast ≥ 3 : 1.
 - [ ] **No information carried by colour alone** anywhere.
 - [ ] Reading order set per slide, matching the accepted source.
@@ -352,7 +407,7 @@ to:**
       in words.
 - [ ] Every warning legible at projection size — none in a corner or footer.
 
-## 5. Timing checks
+## 6. Timing checks
 
 - [ ] Timing recorded as **`20.0 minutes allocated — not measured`**.
 - [ ] No slide, note or property claims verified, rehearsed, tested or final
@@ -360,7 +415,7 @@ to:**
 - [ ] **No automatic slide-transition timing** set on any slide.
 - [ ] Rehearsal state recorded as **`NOT PERFORMED`**.
 
-## 6. Package-to-deck handoff
+## 7. Package-to-deck handoff
 
 - [ ] Every slide traced back to its `M07-Snn` source.
 - [ ] Every deviation — **there should be none** — recorded and referred back

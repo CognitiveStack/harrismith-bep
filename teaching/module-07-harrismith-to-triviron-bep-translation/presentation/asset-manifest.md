@@ -1,7 +1,8 @@
 # Module 7 — Asset Manifest
 
-**`MODULE 7 PRESENTATION ASSEMBLY PACKAGE — ACCEPTED after T7-L-R`** ·
-**`T7-L — ACCEPTED after T7-L-R`**
+**`MODULE 7 PRESENTATION ASSEMBLY PACKAGE — UNDER GOVERNED CORRECTION (T7-L-R2)`** ·
+**`T7-L — ACCEPTED after T7-L-R`** ·
+**`T7-L-R2 — PENDING CHATGPT GOVERNANCE REVIEW`**
 
 **`TEACHING PRODUCTION HANDOFF — NOT TRIVIRON GOVERNANCE`**
 
@@ -62,13 +63,13 @@ RECONSTRUCTION` × 14 · External imagery `NONE` × 14 · Live evidence `NONE` �
 | 1 | 3 rectangles + text boxes · 2 labelled arrow connectors · 1 text block · 1 bordered full-width rectangle (3 runs) |
 | 2 | 2 rectangles + text boxes · 1 bordered full-width rectangle (4 runs) · **nothing in the channel** · **no connectors** |
 | 3 | 8 rectangles + text boxes · 6 arrows (3 per row, none between rows) · 1 heavy-bordered full-width rectangle (3 runs) · 1 bordered full-width rectangle (7 runs) · 2 heading text boxes |
-| 4 | 1 native table 4 cols × 7 rows · **5 separate rectangles** for the classification strip (**not a table**) · 2 heading text boxes · 1 bordered full-width rectangle (6 runs) |
+| 4 | 1 native table 4 cols × 7 rows · **5 separate rectangles** for the classification strip (**not a table**) · 2 heading text boxes · 1 bordered full-width rectangle (**5 runs** — `T7-L-R2`) |
 | 5 | 3 rectangles, each 4 stacked text boxes · 2 bordered full-width rectangles · **no connectors** |
 | 6 | 3 rectangles, each **5** stacked text boxes (Z1 split) · 2 bordered full-width rectangles · **no connectors, no lines** |
 | 7 | 3 rectangles, each 4 stacked text boxes · 2 bordered full-width rectangles · **no connectors** |
 | 8 | 3 rectangles, each 4 stacked text boxes · 1 **enlarged bordered rectangle** (1 heading + 4 item runs, **not a table**) · 1 bordered strip · **no connectors** |
 | 9 | 3 rectangles, each 4 stacked text boxes · 2 bordered full-width rectangles · **no connectors** |
-| 10 | 3 rectangles, each 4 stacked text boxes · 1 **fenced rectangle of different border weight** (1 heading + 4 runs) · 1 bordered strip · **no connectors** |
+| 10 | 3 rectangles, each 4 stacked text boxes · 1 **fenced rectangle of different border weight** (1 heading + **3 runs** — `T7-L-R2`) · 1 bordered strip · **no connectors** |
 | 11 | 3 rectangles, each 4 stacked text boxes · **4 small rectangles** inside card 3's zone 2 · 2 bordered full-width rectangles · **no connectors, including between the act cells** |
 | 12 | 5 rectangles + text boxes at the stated offsets · 1 central hub rectangle (2 runs) · 1 bordered full-width rectangle (3 runs) · **no connectors, rings or spokes** |
 | 13 | 4 rectangles (or one 2 × 2 table with a 12 pt cell gap) · 1 full-width line ≥ 2 pt · 1 bordered rectangle (3 runs) · 1 bordered rectangle (4 runs) · **no connectors** |
@@ -128,3 +129,10 @@ back.**
 | Invented file import path | **None** |
 | Connector total | **12** — 2 + 6 + 4, zero on the other eleven slides |
 | Binary referenced | **None** |
+| Object inventory changed by `T7-L-R2` | **No** — the native object counts in §3 are unchanged, because `T7-L-R2` compressed **text within existing objects** and removed producer guidance that was never an object |
+| Slide 10 fence runs | **`1 heading + 3 runs`** — was `1 heading + 4 runs`; the *discipline of refusing to claim completion* line moved to presenter cues. **The fence, its distinct border weight and its verbatim heading are unchanged** |
+| Slide 4 panel runs | **5** — was 6; the controlled-progress line moved to presenter cues |
+| Slide 12 hub runs | **2** — unchanged; the second run is compressed, not removed |
+| Type-floor position | **Slides 6, 11, 13 and 14 are recorded UNRESOLVED** at `≥ 14 pt` / `≥ 18 pt` — see [`deck-specification.md`](deck-specification.md) §11. **No object here may be built by shrinking type** |
+| `T7-M` | **`PRODUCED; QC FAILED; NOT ACCEPTED`** — external, not in this repository |
+| `T7-M-R1` | **`NOT STARTED`** — not authorised |

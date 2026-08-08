@@ -1,7 +1,8 @@
 # Module 7 — Deck Specification
 
-**`MODULE 7 PRESENTATION ASSEMBLY PACKAGE — ACCEPTED after T7-L-R`** ·
-**`T7-L — ACCEPTED after T7-L-R`**
+**`MODULE 7 PRESENTATION ASSEMBLY PACKAGE — UNDER GOVERNED CORRECTION (T7-L-R2)`** ·
+**`T7-L — ACCEPTED after T7-L-R`** ·
+**`T7-L-R2 — PENDING CHATGPT GOVERNANCE REVIEW`**
 
 **`TEACHING PRODUCTION HANDOFF — NOT TRIVIRON GOVERNANCE`**
 
@@ -13,6 +14,22 @@
 **This is a compression layer.** It carries what a producer must build. Where it
 is silent, the accepted `M07-Snn` source file governs; where they differ, **the
 source file wins**.
+
+> **`T7-L-R2` correction.** External fabrication (`T7-M`) produced fourteen
+> slides but **stopped at QC**: minimum explicit type `7.8 pt`, with **146** text
+> runs below `14 pt`. The producer correctly declined to delete mandatory wording
+> or freely change accepted geometry, and invoked **`STOP AND REFER BACK`**.
+>
+> **The root cause is arithmetic, not taste.** Every accepted zone and band
+> height in this deck was computed treating **line height as equal to nominal
+> point size**. Real single line spacing is approximately **`1.2 ×`** the point
+> size. Every accepted band is therefore understated by about **20 %** before
+> padding — see §11 field 11 of Slide 14, whose accepted `3 × 18 pt = 54 pt`
+> nominal fit is **wrong**: three `18 pt` lines occupy `64.8 pt`.
+>
+> **`T7-L-R2` has applied every compression the accepted architecture permits**
+> and declared the typographic basis in §1. **Four slides remain unresolved at
+> the accepted type floors** — see **§11**. **`T7-M-R1` is not authorised.**
 
 ---
 
@@ -40,6 +57,42 @@ source file wins**.
 
 **Permitted objects:** text boxes · rectangles · native shapes · straight lines ·
 connectors · native tables · borders · fills.
+
+### 1.1 Declared typographic basis — `T7-L-R2`
+
+**No feasibility claim in this specification is verifiable without a declared
+measurement basis.** The absence of one is what allowed the `T7-M` fabrication to
+reach `7.8 pt`. **This basis is now part of the specification.**
+
+| Parameter | Declared value | Consequence |
+|---|---|---|
+| **Line height** | **`1.2 × nominal point size`** — PowerPoint "single" spacing | `14 pt` → **`16.8 pt`** per line · `18 pt` → **`21.6 pt`** per line |
+| **Character advance** | **`0.5 × nominal point size`** — proportional sans, mixed case | `14 pt` → **`7.0 pt`** per character · `18 pt` → **`9.0 pt`** per character |
+| **Text-box padding** | **`8 pt` total per axis** — `4 pt` each side | Usable width = object width **− 8 pt**; usable height = object height **− 8 pt** |
+| **Line spacing floor** | **`1.0` (single). Never below** | Reduced leading is a **`STOP`**, not a fit strategy |
+| **Condensation** | **PROHIBITED** | No font condensation, no reduced character spacing |
+
+**Derived line capacities, at the floors:**
+
+| Object width | Usable | `14 pt` chars/line | `18 pt` chars/line |
+|---:|---:|---:|---:|
+| **864 pt** full-width strip | 848 | **121** | **94** |
+| **426 pt** Slide 13 quadrant | 418 | **59** | **46** |
+| **416 pt** Slide 2 column | 408 | **58** | **45** |
+| **280 pt** family card | 272 | **38** | **30** |
+| **208 pt** Slide 4 grid cell | 200 | **28** | **22** |
+| **200 pt** Slide 12 card | 192 | **27** | **21** |
+| **168 pt** Slide 4 classification cell | 160 | **22** | **17** |
+| **61 pt** Slide 11 act cell | 53 | **7** | **5** |
+
+**This basis is a floor-setting convention, not a measurement.** A producer whose
+actual font metrics are **wider or taller** than the declared basis **STOPS and
+refers back** — that producer may not compensate by reducing type. A producer
+whose metrics are narrower or shorter gains slack and may use it.
+
+**The basis is what makes `≥ 14 pt` and `≥ 18 pt` testable.** Any statement in
+this specification that a band "fits" means: **fits at the floors, on this
+basis.**
 
 ## 2. Narrative arc
 
@@ -84,8 +137,9 @@ boundary.
 | **D2** | **Co-equal objects are pixel-identical** but for their text — same width, height, border, fill and type |
 | **D3** | **Nothing is emphasised to look more advanced, more important or nearer to an answer** |
 | **D4** | **No decorative three-dimensional effect, gradient, shadow ramp or software-interface replica** |
-| **D5** | **If space is short, cut content text — never boundary text** |
+| **D5** | **If space is short, the answer is `STOP AND REFER BACK`.** Content compression is **exhausted** — `T7-L-R2` applied it. **Never cut boundary text, and never reduce type** |
 | **D6** | **Geometry comes from the accepted source and is never improvised.** A producer who cannot achieve a stated span, equality or gap **STOPS and refers back** |
+| **D7** | **Type floors are absolute.** `≥ 14 pt` every visible run; `≥ 18 pt` every principal label, classification, status and governance boundary. **No exception, no "temporary small print", no producer discretion to shrink** |
 
 ## 5. Status-label rules
 
@@ -140,8 +194,9 @@ Triviron answer by traversing one.**
 
 | Rule | Requirement |
 |---|---|
-| **A1** | Minimum visible type **14 pt** |
-| **A2** | Principal labels **≥ 18 pt**; **every status, classification and governance-boundary word ≥ 18 pt** |
+| **A1** | **Minimum visible type `14 pt` — absolute.** Any explicit visible text run below `14 pt` is an **automatic production-review failure** |
+| **A2** | **Principal labels `≥ 18 pt`; every status, classification and governance-boundary word `≥ 18 pt` — absolute.** Any such run below `18 pt` is an **automatic production-review failure** |
+| **A2.1** | **Both floors are tested against the declared typographic basis of §1.1.** A producer may set larger type, **never smaller**. There is no note, allowance or condition anywhere in this package permitting a producer to shrink below either floor |
 | **A3** | Text contrast **≥ 4.5 : 1**; line, border and connector contrast **≥ 3 : 1** |
 | **A4** | **No colour-only semantics** anywhere |
 | **A5** | Logical reading order, defined per slide |
@@ -460,7 +515,7 @@ instantiated seven times. **No domain slide is independently redesigned.**
 | 8 | **Visual form** | Declared teaching-workflow band · register 1 · **authority gate strip** · register 2 · method one-liner · roadmap close · boundary strip |
 | 9 | **Required visible copy** | See [`slide-copy.md`](slide-copy.md) Slide 14 |
 | 10 | **Geometry — accepted `T7-J-R2` reconciliation, used exactly** | **Header `x = 48–912`, `y = 84–148` (exactly 64 pt)** · register 1 `y = 156–224`, four boxes **each exactly 201 × 68 pt**, three **20 pt** gaps · **authority gate `y = 232–272` (exactly 40 pt, border ≥ 3 pt)** · register 2 `y = 280–348`, three boxes **each exactly 276 × 68 pt**, two **18 pt** gaps · method one-liner `y = 356–412` · roadmap close `y = 420–464`, three segments **each exactly 276 pt** · boundary strip `y = 472–520`. **All six inter-band gaps exactly 8 pt.** Vertical: `64 + 8 + 68 + 8 + 40 + 8 + 68 + 8 + 56 + 8 + 44 + 8 + 48 = 436 = 520 − 84`. Title zone `y = 0–72` reserved, **12 pt clear interval** to the header |
-| 11 | **Header layout** | **Two semantic statements across three physical text lines**, wording unchanged: line 1 `TEACHING WORKFLOW — NOT A CURRENT TRIVIRON WORKFLOW`; line 2 `no actual Triviron workshop or schedule is established in this programme;`; line 3 `this diagram does not assert or schedule one`. **The semicolon is the only permitted break point.** Single (1.0) line spacing, no paragraph spacing, **no font condensation, no reduced character spacing**. Nominal fit `3 × 18 pt = 54 pt` inside 64 pt, leaving 10 pt. **If it cannot be achieved at ≥ 18 pt, STOP and refer back** |
+| 11 | **Header layout** | **Two semantic statements across three physical text lines**, wording unchanged: line 1 `TEACHING WORKFLOW — NOT A CURRENT TRIVIRON WORKFLOW`; line 2 `no actual Triviron workshop or schedule is established in this programme;`; line 3 `this diagram does not assert or schedule one`. **The semicolon is the only permitted break point.** Single (1.0) line spacing, no paragraph spacing, **no font condensation, no reduced character spacing**. **`T7-L-R2` CORRECTION — the accepted nominal fit `3 × 18 pt = 54 pt` is arithmetically wrong.** It treats line height as equal to point size. On the declared basis of §1.1, three `18 pt` lines occupy **`3 × 21.6 = 64.8 pt`**, plus `8 pt` padding = **`72.8 pt`**, against an accepted band of **`64 pt`** — a **deficit of `8.8 pt` before any other content**. **The header cannot be achieved at `≥ 18 pt` in `y = 84–148`. STOP AND REFER BACK — this is an unresolved item, see §11** |
 | 12 | **Connectors** | **4** — three within register 1, one from stage 5 to stage 6. **No connector crosses, enters, leaves or passes behind the authority gate. No connector enters the final box** — it is reached by condition, not by arrow. **No connector touches the one-liner, roadmap close or boundary strip.** The one-liner's arrows are **typographic characters in a single text run**, not drawn connectors |
 | 13 | **Boundary treatment** | Header's two statements together; gate strip's two lines together; boundary strip's three entries together |
 | 14 | **Source/authority labels** | The roadmap close names a **module, not an event**; the central statement labelled **`TEACHING SYNTHESIS`** |
@@ -493,11 +548,187 @@ visual STOP registers, which are unchanged.**
 
 | Field | Value |
 |---|---|
-| Package | **`ACCEPTED after T7-L-R`** |
+| Package | **`UNDER GOVERNED CORRECTION — T7-L-R2 PENDING CHATGPT GOVERNANCE REVIEW`** |
+| `T7-L` | **`ACCEPTED after T7-L-R`** |
+| `T7-L0` | **`ACCEPTED`** |
 | Slides specified | **14 of 14** |
+| Slides feasible at the accepted type floors | **10 of 14** — Slides 1, 2, 3, 4, 5, 7, 8, 9, 10, 12 |
+| Slides **unresolved** at the accepted type floors | **4 of 14** — Slides **6, 11, 13, 14**. See §11 |
 | Rendered assets | **`NONE`** |
 | External imagery | **`NONE`** |
-| PowerPoint (`T7-M`) | **`NOT STARTED`** |
+| PowerPoint (`T7-M`) | **`PRODUCED; QC FAILED; NOT ACCEPTED`** — external, not in this repository |
+| PowerPoint (`T7-M-R1`) | **`NOT STARTED`** — **not authorised** |
+| Deck review | **NOT PERFORMED** on a conforming deck |
 | Rehearsal · measured timing | **`NOT PERFORMED`** |
 | Timing | **`20.0 minutes allocated — not measured`** |
 | Publication automation | **`PAUSED`** |
+
+---
+
+## 11. Type-floor feasibility audit — `T7-L-R2`
+
+**Method.** Every visible run in [`slide-copy.md`](slide-copy.md) was classified
+**A / B / C** (§3 there), Class C was removed from visible copy, Class B was
+compressed to the limit the accepted architecture permits, and the residue was
+measured against the accepted geometry on the **declared typographic basis of
+§1.1**.
+
+**Notation.** *need* = lines × line height + `8 pt` padding. *have* = accepted
+band or zone height. **Deficits are stated, never absorbed.**
+
+### 11.1 Slides feasible at the floors
+
+| Slide | Binding element | Need | Have | Margin |
+|---:|---|---:|---:|---:|
+| **1** | boundary strip, 3 runs @ 18 pt, full width | `3 × 21.6 + 8 = 72.8` | `84` | **+11.2** |
+| **2** | column content @ 18/14 pt | `21.6 + 3 × 16.8 + 8 = 80.0` | `340` | **+260.0** |
+| **3** | STOP band, 3 runs @ 18 pt, full width | `1 + 1 + 2 = 4 lines → 86.4 + 8 = 94.4` | `90` | **−4.4 → resolved by re-allocating the panel's spare `44 pt`** |
+| **4** | grid cell, identifier + 3–6 word topic @ 14 pt | `2 × 16.8 + 8 = 41.6` | `40` | **−1.6 → resolved by capping topic labels at 3–4 words** |
+| **5** | family card, no mandatory statement | `257.6` | `300` | **+42.4** |
+| **7** | family card, `METHOD` qualifier | `236.0` | `252` | **+16.0** |
+| **8** | family card, variant | `257.6` | `276` | **+18.4** |
+| **9** | family card, `METHOD` qualifier compressed | `236.0` | `252` | **+16.0** |
+| **10** | family card, variant, fence reduced to 3 runs | `257.6` | `276` | **+18.4** |
+| **12** | card, operative clause only | `43.2 + 3 × 16.8 + 8 = 101.6` | `112` | **+10.4** |
+
+**Slides 3 and 4 carry a bounded residual** that the accepted geometry absorbs
+without changing any coordinate: Slide 3's current-position panel has `44 pt` of
+spare height above its own need, and Slide 4's topic labels are already specified
+as three-to-six words — **capped at three to four by `T7-L-R2`** so a 28-character
+cell fits two `14 pt` lines. **Neither is a geometry change.**
+
+### 11.2 Slides unresolved at the floors
+
+**These four slides cannot be built at `≥ 14 pt` / `≥ 18 pt` under the accepted
+geometry, after full Class B compression. They are reported, not repaired.**
+
+#### Slide 6 — Zone 1 carries three runs, two of them `18 pt`
+
+```text
+function:  <value>            18 pt, 1 line   = 21.6
+holder: NOT YET ESTABLISHED   18 pt, 1 line   = 21.6      (status → 18 pt floor)
+TDR-nnn — <question>          14 pt, 2 lines  = 33.6
+padding                                       =  8.0
+                                        need  = 84.8
+                              accepted Z1     = 54.0
+                                      DEFICIT = 30.8
+```
+
+**Card-level:** `84.8 + 24.8 + 72.8 + 72.8 + 12 = 267.2` against `252 pt`
+available once the boundary strip is enlarged to carry the mandatory holder
+statement. **Card deficit `15.2 pt`.**
+
+**Why it cannot be compressed away.** The question may not be deleted; `holder:
+NOT YET ESTABLISHED` is a **status** and is floored at `18 pt`; the holder line
+**may not be lighter or smaller than the function line** (a protected control);
+and `function ≠ person` is carried **structurally** by the two separate lines, so
+merging them destroys the slide's principal teaching point. **No org chart,
+hierarchy, RACI or role-holder graphic may be introduced.**
+
+#### Slide 11 — card 2 must carry a 107-character `18 pt` governance statement
+
+```text
+TDR-020 — <question>          14 pt, 2 lines  = 33.6
+holder: NOT YET ESTABLISHED   18 pt, 1 line   = 21.6
+programme-bounded authority   18 pt, 4 lines  = 86.4      (107 ch ÷ 30 ch/line)
+Z3 evidence position          18 pt, 3 lines  = 64.8
+Z4 classification + status    18 pt, 3 lines  = 64.8
+padding, 4 zones                              = 32.0
+zone gaps                                     = 12.0
+                                        need  = 315.2
+                              available       = 252.0
+                                      DEFICIT =  63.2
+```
+
+**Why it cannot be compressed away.** The statement is **mandatory verbatim** and
+must sit **adjacent to `TDR-020`'s holder line**, not in a distant strip. Card 3's
+Zone 2 separately carries the **four co-equal act cells**, which at `61 pt` wide
+hold only **7 characters per `14 pt` line** — `recipient acceptance` needs three
+lines. **The four acts may not be collapsed, and zero connectors may run among
+them.**
+
+#### Slide 13 — four quadrants at the `18 pt` floor
+
+```text
+quadrant meaning line         18 pt, 2 lines  = 43.2      (46 ch/line at 426 pt)
+misuse bar                    18 pt, 2 lines  = 43.2
+padding                                       =  8.0
+                                        need  = 94.4
+                              accepted        = 114.0     → +19.6  OK
+NOT YET ESTABLISHED quadrant additionally carries the 21-status note:
+                              18 pt, 4 lines  = 86.4
+                                        need  = 180.8
+                              accepted        = 114.0
+                                      DEFICIT =  66.8
+```
+
+**Slide 13 was treated as presumptively feasible. The audit does not support
+that.** Three of the four quadrants fit; the `NOT YET ESTABLISHED` quadrant does
+not, because it alone carries the 21-status note. **No copy correction has been
+applied**, because the increment protects this slide's content and the deficit is
+a geometry matter. **The four semantic states, the 2 × 2 non-sequential
+arrangement, the absence of arrows, the separate evidence-position panel and
+`states ≠ stages` are all intact.**
+
+#### Slide 14 — the seven bands exceed the envelope
+
+| Band | Need | Accepted | Deficit |
+|---|---:|---:|---:|
+| header declaration, 3 lines @ 18 pt | `72.8` | `64` | **8.8** |
+| register 1, 2 lines @ 18 pt | `51.2` | `68` | — |
+| **authority gate, 2 runs @ 18 pt** | `72.8` | `40` | **32.8** |
+| register 2, 3 lines @ 18 pt | `72.8` | `68` | **4.8** |
+| method one-liner, 202 ch @ 18 pt | `72.8` | `56` | **16.8** |
+| roadmap close, 2 lines @ 14 pt | `41.6` | `44` | — |
+| boundary strip, compressed, @ 18 pt | `2 + 2 + 2 = 6 lines → 129.6 + 8 = 137.6` | `48` | **89.6** |
+| six inter-band gaps | `48` | `48` | — |
+| **total** | **`≈ 570`** | **`436`** | **`≈ 134`** |
+
+**After the Class B compressions recorded in [`slide-copy.md`](slide-copy.md)
+Slide 14**, the deficit falls from approximately `163 pt` to approximately
+`134 pt`. **It does not reach zero.** The gate strip and the boundary strip are
+the binding elements, and **both are Class A governance boundaries at the `18 pt`
+floor**.
+
+**Why it cannot be compressed away.** The header declaration is verbatim across
+three lines; `AUTHORITY REQUIRED — no automatic progression` and `evidence ≠
+authority` are load-bearing; the method one-liner appears **in full, all nine
+objects, or not at all**; and the boundary strip's three entries include a
+`TEACHING SYNTHESIS` line and the unchanged-backlog statement. **The authority
+gate remains between the registers, four connectors remain, none crosses the
+gate, and none enters the final box.**
+
+### 11.3 Geometry position — deliberately not changed here
+
+**`T7-L-R2` applies no geometry change.** Every deficit above would require
+re-allocating band and zone heights, and §26 of the increment requires any
+geometry change to propagate consistently through the visual-demonstration plan,
+the affected `M07-Snn` sources, this specification, the asset manifest and both
+checklists. **A partial propagation would create the conflicting geometry layers
+that rule expressly prohibits.**
+
+**The reconciliation is therefore complete on copy and incomplete on geometry**,
+and the geometry work is **referred back** as a distinct governed increment. The
+arithmetic above is the input that increment needs:
+
+| Slide | Minimum geometry reconciliation required |
+|---:|---|
+| **5–11** | Re-allocate the family zones inside the **unchanged** `296 pt` / `276 pt` card envelope — indicative `Z1 60 / Z2 60 / Z3 76 / Z4 88`, sum `284 + 12 = 296` ✓ — and enlarge the boundary strip on Slides 6, 7, 9 and 11 to carry the mandatory statement at `18 pt` |
+| **6** | Additional Zone 1 height for the third run, or an authorised relocation of the question within the card |
+| **11** | A band for the programme-bounded authority statement that remains **adjacent** to card 2's holder line |
+| **13** | Additional height for the `NOT YET ESTABLISHED` quadrant **without** breaking the 2 × 2 co-equality |
+| **14** | Re-allocation across the seven bands within `x = 48–912`, `y ≤ 520`, preserving the title zone, the visual ordering, the gate between the registers and the no-crossing connector semantics |
+
+**No coordinate in §8 has been altered.** **No conflicting geometry layer has
+been created.**
+
+### 11.4 Audit conclusion
+
+| Question | Answer |
+|---|---|
+| Does the corrected specification target `≥ 14 pt` for every visible run? | **YES — §7 A1, absolute** |
+| Does it target `≥ 18 pt` for every principal / status / classification / boundary run? | **YES — §7 A2, absolute** |
+| Does any instruction anywhere permit shrinking below those floors? | **NO — all such latitude removed** |
+| Is the visible-copy density materially reduced? | **YES — Slides 2, 4, 5–11, 12, 14** |
+| Is every accepted semantic boundary intact? | **YES** |
+| Is the package ready for `T7-M-R1`? | **NO. Four slides are unresolved. `T7-M-R1` is `NOT STARTED` and not authorised** |

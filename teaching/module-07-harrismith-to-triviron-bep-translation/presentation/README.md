@@ -1,7 +1,8 @@
 # Module 7 — Presentation Assembly Package
 
-**`MODULE 7 PRESENTATION ASSEMBLY PACKAGE — ACCEPTED after T7-L-R`** ·
-**`T7-L — ACCEPTED after T7-L-R`**
+**`MODULE 7 PRESENTATION ASSEMBLY PACKAGE — UNDER GOVERNED CORRECTION (T7-L-R2)`** ·
+**`T7-L — ACCEPTED after T7-L-R`** ·
+**`T7-L-R2 — PENDING CHATGPT GOVERNANCE REVIEW`**
 
 **`TEACHING PRODUCTION HANDOFF — NOT TRIVIRON GOVERNANCE`**
 
@@ -22,9 +23,11 @@
 
 | Field | Value |
 |---|---|
-| Increment | **`T7-L`** — presentation assembly |
-| Package status | **`ACCEPTED after T7-L-R`** |
-| Package accepted | **YES — `T7-L — ACCEPTED after T7-L-R`.** Acceptance of a **production handoff only**: not a produced PowerPoint, not rendered, not deck-reviewed, not rehearsed, not timing-verified |
+| Increment | **`T7-L-R2`** — presentation production-feasibility reconciliation |
+| Package status | **`UNDER GOVERNED CORRECTION`** — `T7-L-R2` **`PENDING CHATGPT GOVERNANCE REVIEW`** |
+| Package accepted | **`T7-L — ACCEPTED after T7-L-R`** and **`T7-L0 — ACCEPTED`**. **`T7-L-R2` is NOT accepted.** Neither the correction nor the corrected package may be described as accepted |
+| `T7-L-R2` reason | **Production-feasibility failure** — the accepted type floors were not achievable under the prior visible-copy / geometry combination |
+| Feasibility position | **10 of 14 slides feasible at the accepted type floors. Slides 6, 11, 13 and 14 remain UNRESOLVED** — see [`deck-specification.md`](deck-specification.md) §11 |
 | Package files | **Seven** |
 | Teaching content | **`ACCEPTED`** — Module 7 teaching baseline |
 | Translation Decision Register | **`ACCEPTED after T7-C-R`** — 21 rows; controlled Triviron evidence **`NONE IDENTIFIED` × 21**; **0** candidate decisions |
@@ -32,8 +35,9 @@
 | Visual sources | **`ACCEPTED under T7-K`** — `M07-S01`–`M07-S14`, eighteen asset files |
 | `T7-I` · `T7-J0` · `T7-K0` · `T7-L-R` | **`ACCEPTED`** |
 | Rendered visual asset | **`NONE`.** No renderer, converter or dependency installed |
-| Module 7 PowerPoint | **`NOT STARTED`** — `T7-M`. No `.pptx` exists or is committed |
-| Deck review | **NOT PERFORMED** |
+| Module 7 PowerPoint | **`T7-M — PRODUCED; QC FAILED; NOT ACCEPTED`.** External artefact, **not in this repository**; no `.pptx` exists or is committed here |
+| Next PowerPoint pass | **`T7-M-R1 — NOT STARTED`** — **not authorised** |
+| Deck review | **NOT PERFORMED** on a conforming deck |
 | Rehearsal | **`NOT PERFORMED`** |
 | Measured timing | **`NONE`** — **`20.0 minutes allocated — not measured`** |
 | Slide advancement | **Presenter controlled; no automatic timing** |
@@ -260,8 +264,9 @@ tested duration or a final duration.**
 
 | Item | State |
 |---|---|
-| Assembly package (`T7-L`) | **`ACCEPTED after T7-L-R`** |
-| PowerPoint (`T7-M`) | **`NOT STARTED`.** **External PowerPoint production may begin only after `T7-L0` governance review** |
+| Assembly package (`T7-L`) | **`ACCEPTED after T7-L-R`**; correction **`T7-L-R2` PENDING GOVERNANCE REVIEW** |
+| PowerPoint (`T7-M`) | **`PRODUCED; QC FAILED; NOT ACCEPTED`** — external, not committed here |
+| PowerPoint (`T7-M-R1`) | **`NOT STARTED`. Not authorised.** It may begin only after `T7-L-R2` governance review **and** resolution of the four unresolved slides |
 | Future deck filename convention | `HFS-BIM-Management-Module-07-Harrismith-to-Triviron-BEP-Translation-REV01.pptx` — **a naming convention only; no binary exists, and no `.pptx` is committed to this repository** |
 | Rendered assets | **`NONE`** |
 | Deck review | **NOT PERFORMED** |
@@ -280,6 +285,17 @@ Navisworks configuration.**
 
 ## 14. Next gate
 
-**ChatGPT governance review of `T7-L0`.** `T7-L` is **`ACCEPTED after T7-L-R`**.
-`T7-M` — external PowerPoint production — is **`NOT STARTED`** and **may begin
-only after `T7-L0` governance review**.
+**ChatGPT governance review of `T7-L-R2`.**
+
+`T7-L` is **`ACCEPTED after T7-L-R`** and `T7-L0` is **`ACCEPTED`**. `T7-M` was
+**produced externally and failed QC; it is `NOT ACCEPTED`**. `T7-L-R2` — this
+production-feasibility reconciliation — is **`PENDING CHATGPT GOVERNANCE
+REVIEW`** and **is not accepted**.
+
+**`T7-M-R1` is `NOT STARTED` and is not authorised.** It may begin only after
+`T7-L-R2` governance review **and** a governed resolution of the four slides
+recorded unresolved in [`deck-specification.md`](deck-specification.md) §11 —
+Slides **6, 11, 13 and 14**.
+
+**Publication automation remains `PAUSED`.** Module 8 remains untouched: teaching
+baseline **`ACCEPTED`**, visual production **`NOT STARTED`**.

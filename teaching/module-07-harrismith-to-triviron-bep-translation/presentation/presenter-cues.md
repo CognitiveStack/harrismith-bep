@@ -1,7 +1,8 @@
 # Module 7 — Presenter Cues
 
-**`MODULE 7 PRESENTATION ASSEMBLY PACKAGE — ACCEPTED after T7-L-R`** ·
-**`T7-L — ACCEPTED after T7-L-R`**
+**`MODULE 7 PRESENTATION ASSEMBLY PACKAGE — UNDER GOVERNED CORRECTION (T7-L-R2)`** ·
+**`T7-L — ACCEPTED after T7-L-R`** ·
+**`T7-L-R2 — PENDING CHATGPT GOVERNANCE REVIEW`**
 
 **`TEACHING PRODUCTION HANDOFF — NOT TRIVIRON GOVERNANCE`**
 
@@ -13,6 +14,15 @@
 
 > **These cues introduce no new teaching statement.** They condense accepted
 > notes. A presenter who needs more says less, not more.
+
+> **`T7-L-R2` — spoken-delivery transfer.** `T7-L-R2` removed explanatory
+> supporting content from [`slide-copy.md`](slide-copy.md) so the deck can be set
+> at its type floors. **Every teaching distinction so removed is delivered from
+> here instead** — see §9 for the transfer record. **No new teaching statement
+> has been introduced;** each item below already existed in these cues or in the
+> accepted [`../presenter-notes.md`](../presenter-notes.md), which remains
+> authoritative. **The deck became less dense. The teaching did not become
+> smaller.**
 
 ---
 
@@ -120,6 +130,9 @@ answer is:**
   progression* — before reading any count.
 - **Boundary cue.** The three zeros mean **prerequisite evidence not
   identified**, never *not yet achieved*.
+- **`T7-L-R2` — say aloud.** **`typed absence is a valid result — zero candidate
+  decisions is controlled progress, not failure`.** This left the panel to make
+  the panel fit; **it must not leave the room.**
 - **Fallback.** *"A completed version of this grid would still hold questions."*
 - **Transition.** *"Twenty-one is abstract. Let's walk the seven domains."*
 
@@ -133,6 +146,9 @@ answer is:**
   in order; the slide does not.**
 - **Boundary cue.** Harrismith's purpose text, its document split, its cycle
   steps and any frequency **do not transfer**.
+- **`T7-L-R2` — say aloud.** The Harrismith cycle-wording variance is **the
+  worked example of recording a variance, not content to adopt** — **`both
+  recorded, neither rewritten`**. **Never harmonise, prefer or resolve it.**
 - **Fallback.** The universal fallback (§5).
 - **Transition.** *"A governed cycle needs people with defined functions."*
 
@@ -145,6 +161,12 @@ answer is:**
   *"Notice there is no chart here, and there will not be one."*
 - **Boundary cue.** *"An organisation chart is named as evidence we would need.
   It is not evidence we have."*
+- **`T7-L-R2` — say aloud.** `allocation ≠ holder` · `allocation ≠ performance` ·
+  `coordinator ≠ technical designer — coordination transfers no technical
+  authorship` · **the verification function and the verification trigger are two
+  separate decisions** · **authority is never inferred from a job title or a
+  platform permission**. And: **Harrismith itself carries an unresolved `may
+  verify` variance — carried visibly, not resolved on anyone's behalf.**
 - **Fallback.** *"I cannot name anyone, and neither can this programme. That is
   the honest position, not an omission."*
 - **Transition.** *"Functions act on inputs."*
@@ -158,6 +180,11 @@ answer is:**
   qualifier, then **status** — three separate things.
 - **Boundary cue.** *"`METHOD` means the distinction is reusable. It does not
   mean Triviron has adopted it."*
+- **`T7-L-R2` — say aloud.** `governed input set ≠ whatever is visible in a
+  platform` · `visible ≠ selected ≠ suitable ≠ ready` ·
+  `federation ≠ authorship transfer` · `federation ≠ approval` ·
+  `federation ≠ publication` · `software federation capability ≠ project
+  governance`.
 - **Fallback.** *"No platform is attributed to Triviron on this slide or
   anywhere in this module."*
 - **Transition.** *"Federated inputs get checked."*
@@ -172,6 +199,13 @@ answer is:**
   most concrete object on the slide, and it is a list of what may not appear.
 - **Boundary cue.** *"Not as starter values, likely values, defaults or
   recommendations — including the `TBD` status itself."*
+- **`T7-L-R2` — say aloud.** `check selection is a governed choice made against
+  the project's own interfaces` · `an interface matrix is a controlled artefact,
+  not a software output` · `a software default is not a project tolerance` ·
+  **`TBD` is meaningful only inside an established scope — Harrismith's `TBD`
+  entries sit inside Harrismith's check scope, so even the status does not
+  transfer** · `approval authority cannot be inferred from a job title or tool
+  role`.
 - **Fallback.** *"I am not going to give you a number, because any number I gave
   you would be Harrismith's or invented."*
 - **Transition.** *"Checks produce findings."*
@@ -185,6 +219,16 @@ answer is:**
   and the status beside it still reads `NOT YET ESTABLISHED`.
 - **Boundary cue.** *"No Triviron Issue taxonomy, status model or numbering
   scheme exists in this programme."*
+- **`T7-L-R2` — say aloud.** `TDR-013`'s on-slide `METHOD` qualifier was
+  shortened to the family form, so **this distinction set is now spoken, not
+  projected:** `a clash is one type of finding` · `a finding is not automatically
+  an Issue` · `an Issue is a governed record` · `Issue creation is a governed
+  triage decision, not an automatic result of detection` · `status vocabulary is
+  governed, not platform-supplied` · **`a status label is not technical
+  evidence`** · `alternate dispositions are controlled outcomes, not automatic
+  workflow stages` · **where controlled definitions differ in breadth, both are
+  recorded — never silently reconciled**. **`METHOD` here means the structure is
+  reusable, never that Triviron has adopted any definitions.**
 - **Fallback.** The universal fallback (§5).
 - **Transition.** *"Once a governed record exists, someone must close it — on
   evidence."*
@@ -198,6 +242,14 @@ answer is:**
   *"This block is Harrismith's evidence about Harrismith."*
 - **Boundary cue.** `GCR-006` is **OPEN**, and it is **not a Triviron
   condition**.
+- **`T7-L-R2` — say aloud.** Name **the discipline of refusing to claim
+  completion** — the fence line that left visible copy. Then: `ready for
+  verification ≠ verified` · `verification examines evidence, not assertions` ·
+  `closure requires evidence of disposition` · `a closed record proves only what
+  its evidence supports` · `completion conditions keep their qualifiers — as
+  applicable, required` · **`one closed matter ≠ one complete cycle`** ·
+  `a partial trace remains partial` · `completion ≠ zero clashes` ·
+  `software capability provisioning ≠ evidence a governed cycle ran`.
 - **Fallback.** *"That is Harrismith's record of its own incompleteness. It says
   nothing about Triviron in either direction."*
 - **Transition.** *"A completed, verified matter still is not published."*
@@ -212,6 +264,12 @@ answer is:**
   them**. *"The separation is the content."*
 - **Boundary cue.** Read the programme-bounded statement **verbatim**, then the
   two-directional line.
+- **`T7-L-R2` — say aloud.** `an information-delivery event is not an
+  information-state transition` · `coordination use does not itself change state` ·
+  **`ability to move a file ≠ authority to change its information state`** ·
+  `completion ≠ publication` · `publication ≠ recipient acceptance` ·
+  `verification ≠ authorisation` · **one word carrying two meanings must not
+  collapse two acts**.
 - **Fallback.** *"This programme has not identified a publication authority for
   Triviron. I am not saying there isn't one — I am saying we have not identified
   one."*
@@ -227,6 +285,10 @@ answer is:**
   first, then the cards in any order, and say the order is arbitrary.
 - **Boundary cue.** The three zeros are **prerequisites not satisfied**, not
   stages awaiting arrival.
+- **`T7-L-R2` — say aloud.** The hub now reads only `classification is not
+  status`. **Complete it in words:** *two independent systems — and
+  `ESTABLISHED` appears in both, meaning different things in each.* Then read
+  each card's operative clause with its count.
 - **Fallback.** *"`ESTABLISHED` is not the goal of a ladder. It is a category
   that requires a controlled source we do not have."*
 - **Transition.** *"Saying what you know requires a vocabulary for what you
@@ -259,6 +321,13 @@ answer is:**
   it.
 - **Boundary cue.** *"No actual Triviron workshop or schedule is established in
   this programme, and this diagram does not assert or schedule one."*
+- **`T7-L-R2` — say aloud.** The gate strip was compressed. **State the removed
+  clause:** **no simulated Triviron decision function has been authorised.** Then
+  the retained boundary: `evidence ≠ authority`, and **no appropriate Triviron
+  authority holder is currently identified or established in this programme.**
+  And on the workshop: it is **a controlled decision-making process in which the
+  questions, required evidence, authority and status are made explicit** — the
+  enumeration that left the boundary strip.
 - **Fallback.** *"I cannot tell you when, because nothing here schedules
   anything. Module 8 is the next teaching module, not the next event."*
 - **Module close.** *"Six modules taught you how a managed project works. This
@@ -279,3 +348,57 @@ answer is:**
 | Fallback for method/answer confusion | **Present — universal (§5) plus per-slide** |
 | Timing claims | **Allocated, not measured** |
 | Rehearsal | **`NOT PERFORMED`** |
+| `T7-L-R2` additions | **Nine `say aloud` cues — Slides 4, 5, 6, 7, 8, 9, 10, 11, 12, 14** |
+| New teaching statement introduced by `T7-L-R2` | **None** |
+
+## 9. `T7-L-R2` spoken-delivery transfer record
+
+**Why this section exists.** `T7-L-R2` reduced visible slide copy so the deck can
+be set at `≥ 14 pt` / `≥ 18 pt`. **A teaching distinction that leaves the slide
+must not leave the delivery.** Each row records what moved and where it is now
+delivered.
+
+| Slide | Removed from visible copy | Now delivered by | Class |
+|---:|---|---|---|
+| **4** | *typed absence is a valid result — zero candidate decisions is controlled progress, not failure* | Slide 4 `say aloud` + rule **C3**. The zeros keep `prerequisite evidence not identified` **on the slide** | B |
+| **5** | the three distinction lines, incl. the cycle-wording variance line | Slide 5 `say aloud` + central distinction | C |
+| **6** | six distinction lines + the card-3 `may verify` variance note | Slide 6 `say aloud`. **`function ≠ person` stays on the slide**, carried by the `function:` / `holder:` lines | C |
+| **7** | six distinction lines | Slide 7 `say aloud` | C |
+| **8** | five distinction lines | Slide 8 `say aloud`. **The `TBD`-does-not-transfer exclusion item stays on the slide** | C |
+| **9** | `TDR-013`'s long `METHOD` qualifier + eight distinction lines | Slide 9 `say aloud`. **`METHOD` and its family qualifier stay on the slide** | B / C |
+| **10** | *the discipline of refusing to claim completion* + nine distinction lines | Slide 10 `say aloud`. **`NOT YET DEMONSTRATED AS A COMPLETE CYCLE` stays on the slide, verbatim** | B / C |
+| **11** | seven distinction lines | Slide 11 `say aloud`. **The four co-equal act cells and both mandatory statements stay on the slide** | C |
+| **12** | the hub's *two independent systems … `ESTABLISHED` means different things in each* | Slide 12 `say aloud`. **`classification is not status` stays on the hub, verbatim** | B |
+| **14** | *no simulated Triviron decision function has been authorised* + the workshop enumeration | Slide 14 `say aloud`. **The header declaration, the gate, `evidence ≠ authority` and `only when earned` stay on the slide, verbatim** | B |
+
+**Nothing in this table is a new teaching statement.** Every item is accepted
+Module 7 content, and the accepted
+[`../presenter-notes.md`](../presenter-notes.md) remains authoritative over all of
+it.
+
+### Protected semantic boundaries — where each one now lives
+
+**All eleven survive `T7-L-R2` unchanged in meaning. None was collapsed,
+simplified or weakened into a lesser claim.** Their *carriage* differs, and this
+table states it honestly rather than claiming all eleven remain projected.
+
+| Boundary | Carried by |
+|---|---|
+| `NONE IDENTIFIED ≠ NONE EXISTS` | **Visible, verbatim** — Slides 3, 4, 5–11, 12, 13 |
+| `classification ≠ status` | **Visible** — two separately labelled lines on every domain card; Slide 4 panel; Slide 12 hub `classification is not status`, verbatim |
+| `METHOD ≠ adoption` | **Visible** — each `METHOD` classification carries `not evidence of Triviron adoption` / `reusability is not adoption` |
+| `evidence ≠ authority` | **Visible, verbatim** — Slide 14 authority gate |
+| `finding ≠ Issue` | **Visible as the `TDR-013` question**, plus Slide 9 `say aloud` |
+| `completion ≠ publication` | **Visible structurally** — Slide 11's four co-equal act cells, `completion` and `publication` separate, nothing between them; plus Slide 11 `say aloud` |
+| `publication ≠ recipient acceptance` | **Visible structurally** — same four act cells; plus Slide 11 `say aloud` |
+| `verification ≠ authorisation` | **Spoken** — Slide 11 `say aloud`. The `TDR-021` question keeps the acts distinct on the slide |
+| `federation ≠ authorship transfer` | **Spoken** — Slide 7 `say aloud`. The `TDR-009` question and its `METHOD` qualifier remain visible |
+| `status label ≠ technical evidence` | **Spoken** — Slide 9 `say aloud`. The `TDR-015` question remains visible |
+| `zero candidate decisions ≠ failure` | **Visible** — `prerequisite evidence not identified` on Slide 4's zero cells and `prerequisite not satisfied — not a stage awaiting arrival` on Slide 12's, both verbatim; plus Slide 4 `say aloud` and rule **C3** |
+
+**Three boundaries are now carried by spoken delivery rather than projected
+text** — `verification ≠ authorisation`, `federation ≠ authorship transfer` and
+`status label ≠ technical evidence`. **Each remains anchored on its slide by the
+accepted `TDR-` question it belongs to**, and each is a mandatory `say aloud` cue.
+**This is a governance judgement, and it is offered for review rather than
+asserted as settled** — see the completion report.

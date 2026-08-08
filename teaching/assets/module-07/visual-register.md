@@ -12,6 +12,11 @@ approves nothing and establishes nothing about Triviron.
 
 **Fourteen active rows. All fourteen are `ACCEPTED under T7-K`.**
 
+> **`T7-L-R2` note.** These source definitions are **unchanged**. The
+> production-feasibility correction was applied downstream, in the presentation
+> assembly package. **Four slides remain unresolved at the accepted type floors —
+> see §9.**
+
 ---
 
 ## 1. The register
@@ -147,9 +152,37 @@ Triviron conclusion transfers.** **No Module 8 source file is created by
 | Source acceptance | **GIVEN — `T7-K — ACCEPTED`** |
 | Controlling specification | **`T7-J — ACCEPTED after T7-J-R + T7-J-R2`** |
 | Rendered assets | **`NONE`** |
-| Presentation assembly (`T7-L`) | **`ACCEPTED after T7-L-R`** |
-| PowerPoint (`T7-M`) | **`NOT STARTED`** |
+| Presentation assembly (`T7-L`) | **`ACCEPTED after T7-L-R`** · **`T7-L0 — ACCEPTED`** |
+| Presentation assembly correction (`T7-L-R2`) | **`PENDING CHATGPT GOVERNANCE REVIEW`** — **not accepted** |
+| PowerPoint (`T7-M`) | **`PRODUCED; QC FAILED; NOT ACCEPTED`** — external artefact, **not in this repository** |
+| PowerPoint (`T7-M-R1`) | **`NOT STARTED`** — **not authorised** |
 | Rehearsal · measured timing | **`NOT PERFORMED`** |
 | Timing | **`20.0 minutes allocated — not measured`** |
 | Publication automation | **`PAUSED`** |
-| Next gate | **ChatGPT governance review of `T7-L0`** |
+| Next gate | **ChatGPT governance review of `T7-L-R2`** |
+
+## 9. Production-feasibility position — `T7-L-R2`
+
+**The fourteen visual sources remain `ACCEPTED under T7-K`. `T7-L-R2` changes no
+source definition, no geometry and no source status.**
+
+External fabrication (`T7-M`) demonstrated that the accepted production
+specification is **not fully fabricable at the accepted type floors**: minimum
+explicit type **`7.8 pt`**, **146** runs below `14 pt`. The correction was applied
+in the **presentation assembly layer**, by compressing visible copy and declaring
+a typographic basis — **not by reopening these sources.**
+
+| Field | Value |
+|---|---|
+| Source definitions | **Unchanged — `ACCEPTED under T7-K` × 14** |
+| Geometry | **Unchanged — VERIFIED × 14.** No coordinate altered by `T7-L-R2` |
+| Connector census | **Unchanged — 12 across the package** |
+| Classification / status census | **Unchanged** |
+| Typed-absence census | **Unchanged** |
+| Slides feasible at the type floors | **10 of 14** |
+| Slides **unresolved** at the type floors | **4 — Slides 6, 11, 13, 14** |
+| Geometry reconciliation | **REQUIRED BUT NOT APPLIED.** Referred back as a distinct governed increment, so that no conflicting geometry layer is created between this register, the visual-demonstration plan, the `M07-Snn` sources and the assembly package |
+
+**The arithmetic supporting each unresolved slide is recorded in
+[`../../module-07-harrismith-to-triviron-bep-translation/presentation/deck-specification.md`](../../module-07-harrismith-to-triviron-bep-translation/presentation/deck-specification.md)
+§11.** **A produced PowerPoint never governs these sources.**
