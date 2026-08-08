@@ -3,7 +3,7 @@
 **`MODULE 7 PRESENTATION ASSEMBLY PACKAGE — UNDER GOVERNED CORRECTION`** ·
 **`T7-L — ACCEPTED after T7-L-R`** · **`T7-L-R2 — ACCEPTED`** ·
 **`T7-L-R3 — ACCEPTED`** · **`T7-L-R4 — NOT YET ACCEPTED`** ·
-**`T7-L-R5 — PENDING CHATGPT GOVERNANCE REVIEW`** ·
+**`T7-L-R5 — NOT YET ACCEPTED`** · **`T7-L-R6 — PENDING CHATGPT GOVERNANCE REVIEW`** ·
 **`P9 — SUPERSEDED FOR MODULE 7`**
 
 **`TEACHING PRODUCTION HANDOFF — NOT TRIVIRON GOVERNANCE`**
@@ -253,6 +253,10 @@ is not reviewed further; it is returned.**
       eye.
 - [ ] **No container was enlarged, moved or re-anchored to make copy fit**, and no
       accepted coordinate was adjusted.
+- [ ] **`M07-S11-A`'s bounded exception is governance-accepted for fabrication
+      SUBJECT TO this rendered-measurement gate.** Acceptance of the planning
+      margin is **not** a pass: if the built frame overflows, clips, or carries any
+      run below its floor, **the deck fails** regardless.
 - [ ] **Inspect these frames explicitly, in this order:** **`M07-S11-A`** (planned
       `+6.6 pt`, the deck's tightest — **`BOUNDED / TIGHT`**), **`M07-S06-A`**
       (`+8.2 pt`), **`M07-S14-A`** and **`M07-S14-B`**. **Then every other region
@@ -431,21 +435,22 @@ not taken.**
 | Assembly correction (`T7-L-R2`) | **`ACCEPTED`** — *copy-density / type-floor reconciliation and feasibility audit* |
 | Geometry reconciliation (`T7-L-R3`) | **`ACCEPTED`** — *proof that the four one-frame layouts are production-infeasible; production-fit status reconciliation* |
 | Split pagination (`T7-L-R4`) | **`NOT YET ACCEPTED`** — *bounded production-robustness correction required: Slide 14 seam choice and avoidably tight local text-fit margins*. Architecture accepted in principle |
-| Geometry hardening (`T7-L-R5`) | **`PENDING CHATGPT GOVERNANCE REVIEW`** — **not accepted** |
+| Geometry hardening (`T7-L-R5`) | **`NOT YET ACCEPTED`** — *one bounded stale Slide 14 current-production typography instruction remained*. Production architecture accepted and not reopened |
+| Source-consistency correction (`T7-L-R6`) | **`PENDING CHATGPT GOVERNANCE REVIEW`** — **not accepted** |
 | `P9` | **`SUPERSEDED FOR MODULE 7`** — 14 logical units / 18 physical slides |
 | Logical teaching units · physical slides | **14** · **18** |
 | Physical frames production-fit VERIFIED | **17 of 18.** Min **load-bearing region** margins `+8.2` to `+29.2 pt` |
-| Physical frames **`BOUNDED / TIGHT`** | **1 — `M07-S11-A`**, `+6.6 pt` against an `8 pt` target and a `+6.7 pt` ceiling. **Production readiness not claimed for it** |
+| Physical frames **`BOUNDED / TIGHT`** | **1 — `M07-S11-A`**, `+6.6 pt` against an `8 pt` target and a `+6.7 pt` ceiling. **`ACCEPTED FOR FABRICATION SUBJECT TO RENDERED-MEASUREMENT GATE`** — the rendered checks in §8 are mandatory and decisive |
 | Slide 14 seam | **`workflow | close`** — all four connectors on frame A, none on frame B |
 | PowerPoint (`T7-M`) | **`PRODUCED; QC FAILED; NOT ACCEPTED`** — external, not in this repository |
 | `T7-M` failure reason | **production-feasibility failure — accepted type floors not achievable under the prior visible-copy / geometry combination** |
 | PowerPoint (`T7-M-R1`) | **`NOT STARTED`** — **not authorised** |
 | Logical units unresolved | **None** — all four resolved by governed pagination. See [`deck-specification.md`](deck-specification.md) §13 |
-| Automatic-fail conditions | **42** — unchanged by `T7-L-R3`, `T7-L-R4` and `T7-L-R5`. Was 40 at `T7-L-R2`; **28** strengthened, **41** and **42** added there. **The `8 pt` robustness target lives in `G9.1`, the deck specification and the two checklists — not in the register** |
+| Automatic-fail conditions | **42** — unchanged by `T7-L-R3`, `T7-L-R4`, `T7-L-R5` and `T7-L-R6`. Was 40 at `T7-L-R2`; **28** strengthened, **41** and **42** added there. **The `8 pt` robustness target lives in `G9.1`, the deck specification and the two checklists — not in the register** |
 | Deck review | **NOT PERFORMED** on a conforming deck |
 | Rendered assets | **`NONE`** |
 | Rehearsal | **`NOT PERFORMED`** |
 | Measured timing | **`NOT PERFORMED`** |
 | Timing | **`20.0 minutes allocated — not measured`** |
 | Publication automation | **`PAUSED`** |
-| Next gate | **ChatGPT governance review of `T7-L-R5`** |
+| Next gate | **ChatGPT governance review of `T7-L-R6`** |

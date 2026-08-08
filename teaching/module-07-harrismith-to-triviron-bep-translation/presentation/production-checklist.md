@@ -3,7 +3,8 @@
 **`MODULE 7 PRESENTATION ASSEMBLY PACKAGE — UNDER GOVERNED CORRECTION`** ·
 **`T7-L — ACCEPTED after T7-L-R`** · **`T7-L-R2 — ACCEPTED`** ·
 **`T7-L-R3 — ACCEPTED`** · **`T7-L-R4 — NOT YET ACCEPTED`** ·
-**`T7-L-R5 — PENDING CHATGPT GOVERNANCE REVIEW`** ·
+**`T7-L-R5 — NOT YET ACCEPTED`** ·
+**`T7-L-R6 — PENDING CHATGPT GOVERNANCE REVIEW`** ·
 **`P9 — SUPERSEDED FOR MODULE 7`**
 
 **`TEACHING PRODUCTION HANDOFF — NOT TRIVIRON GOVERNANCE`**
@@ -23,8 +24,10 @@
 >
 > **Seventeen of eighteen physical frames are `PRODUCTION FIT — VERIFIED ON
 > DECLARED BASIS`.** **`M07-S11-A` is `PRODUCTION FIT — BOUNDED / TIGHT`** at
-> `+6.6 pt` against an `8 pt` target and a `+6.7 pt` arithmetic ceiling — build it
-> with particular care and **refer back rather than shrink**. The four one-frame
+> `+6.6 pt` against an `8 pt` target and a `+6.7 pt` arithmetic ceiling.
+> **Governance has accepted it for fabrication SUBJECT TO the rendered-measurement
+> gate of §4.1** — build it with particular care and **refer back rather than
+> shrink**. **Acceptance of the planning margin is not a pass.** The four one-frame
 > layouts for logical Slides 6, 11, 13 and 14 are **withdrawn from production**
 > and must not be built.
 >
@@ -103,7 +106,8 @@ to:**
       [`deck-specification.md`](deck-specification.md) **§13.13** and the
       per-region margins at **§13.11**. **Every load-bearing region carries
       `≥ 8 pt` planned slack except `M07-S11-A`**, which is at its arithmetic
-      ceiling of `+6.7 pt` and recorded **`BOUNDED / TIGHT`** at §13.12.
+      ceiling of `+6.7 pt` and recorded **`BOUNDED / TIGHT — ACCEPTED FOR
+      FABRICATION SUBJECT TO RENDERED-MEASUREMENT GATE`** at §13.12.
 - [ ] **On `M07-S11-A` especially: STOP AND REFER BACK rather than shrink.**
       `+6.6 pt` is about a third of one 18 pt line.
 - [ ] Confirm, for every slide you do build, that its region geometry carries
@@ -417,35 +421,68 @@ to:**
 - [ ] **No `TBD` and no `NOT ESTABLISHED` applied to any Triviron matter.**
 - [ ] **No fifth quadrant. No classification word.**
 
-### Slide 14 — From decision backlog to BEP workshop · 1.5
+### Logical Slide 14 — From decision backlog to BEP workshop · 1.5
 
-- [ ] **Header `x = 48–912`, `y = 84–148`, exactly 64 pt**; 12 pt clear from the
+> **`T7-L-R6` — THESE ARE THE CURRENT TWO-FRAME CHECKS.** The one-frame checks
+> they replaced (`64 pt` header at `y = 84–148`, `40 pt` gate, the
+> `64 + 8 + 68 + …` vertical sum) belonged to the geometry `T7-L-R3` proved
+> infeasible. **Do not build them.** Geometry of record:
+> [`deck-specification.md`](deck-specification.md) **§13.9**.
+
+**`M07-S14-A` — physical 17 · `PART 1 OF 2` · 1.0 min · the workflow core**
+
+- [ ] **Header `x = 48–912`, `y = 84–184`, exactly 100 pt**; 12 pt clear from the
       reserved title zone.
 - [ ] **Both semantic statements present, verbatim, across the three authorised
       physical lines, breaking only at the semicolon.**
 - [ ] Header typography: **≥ 18 pt, single (1.0) line spacing, no paragraph
-      spacing, no condensation, no reduced character spacing.** Nominal fit
-      `3 × 18 = 54 pt` inside 64 pt. **If it does not fit, STOP.**
-- [ ] Register 1 `y = 156–224`: four boxes **each exactly 201 × 68 pt**, three
-      gaps **exactly 20 pt**.
-- [ ] **Authority gate `y = 232–272`, exactly 40 pt, border ≥ 3 pt.**
-- [ ] Register 2 `y = 280–348`: three boxes **each exactly 276 × 68 pt**, two
-      gaps **exactly 18 pt**.
-- [ ] Method one-liner `y = 356–412`; roadmap close `y = 420–464`; boundary strip
-      `y = 472–520`.
-- [ ] **All six inter-band gaps exactly 8 pt.**
-- [ ] Vertical check: `64 + 8 + 68 + 8 + 40 + 8 + 68 + 8 + 56 + 8 + 44 + 8 + 48 =
-      436 = 520 − 84`.
-- [ ] **Exactly 4 connectors** — three in register 1, one from stage 5 to 6.
-- [ ] **No connector crosses, enters, leaves or passes behind the authority
-      gate.**
-- [ ] **No connector enters the final box.** Box 7 carries `only when earned`
-      inside itself.
-- [ ] Method one-liner **complete, all nine objects**, arrows as typographic
-      characters in one text run, labelled as an analytical sequence.
+      spacing, no condensation, no reduced character spacing, AutoFit OFF.**
+      **Three 18 pt lines need `3 × 21.6 + 8 = 72.8 pt` inside the `100 pt`
+      band — margin `+27.2 pt`. If they do not fit, STOP.**
+- [ ] Register 1 `y = 192–268`: four boxes **each exactly 201 × 76 pt**, three
+      gaps **exactly 20 pt** (`4 × 201 + 3 × 20 = 864`).
+- [ ] **Authority gate `x = 48–912`, `y = 276–376`, exactly 100 pt, border ≥ 3 pt
+      — the heaviest object on the frame.**
+- [ ] Register 2 `y = 384–480`: three boxes **each exactly 276 × 96 pt**, two gaps
+      **exactly 18 pt** (`3 × 276 + 2 × 18 = 864`).
+- [ ] **All three inter-band gaps exactly 8 pt.** Vertical check:
+      `100 + 8 + 76 + 8 + 100 + 8 + 96 = 396`; lowest edge `480 ≤ 520`.
+- [ ] **Exactly 4 connectors on this frame** — three within Register 1
+      (`1 → 2`, `2 → 3`, `3 → 4`) and one within Register 2 (`5 → 6`).
+- [ ] **No connector `4 → 5`.** **No connector crosses, enters, leaves or passes
+      behind the authority gate.**
+- [ ] **No connector `6 → 7`, and none enters the final box.** Box 7 carries
+      `only when earned` inside itself.
 - [ ] Register 2 is **not** greyed, blocked or styled as unavailable.
+- [ ] **The whole workflow core is on this one frame** — declaration, Register 1,
+      the authority gate and Register 2 — so the gate and the conditional stages
+      are visible together.
+
+**`M07-S14-B` — physical 18 · `PART 2 OF 2` · 0.5 min · the supporting close**
+
+- [ ] Method chain `x = 48–912`, `y = 84–216` — **132 pt**.
+- [ ] Method chain **complete, all nine objects**, arrows as **typographic
+      characters in one text run**, labelled as an analytical sequence.
+- [ ] Roadmap close `y = 224–296` — three segments **each exactly 276 pt**, two
+      gaps **exactly 18 pt**, 72 pt tall. **Module 8 is named as a teaching
+      module, never an event or a scheduled workshop.**
+- [ ] Boundary strip `x = 48–912`, `y = 304–520` — **216 pt**, all three entries.
+- [ ] **Both inter-band gaps exactly 8 pt.** Vertical check:
+      `132 + 8 + 72 + 8 + 216 = 436`; lowest edge `520 ≤ 520`.
+- [ ] **Connector count = 0 on this frame.** Verify by counting connector
+      objects: the answer must be zero.
+- [ ] **No post-authority reminder band.** `T7-L-R4`'s band was obsolete
+      mitigation for the superseded authority-gate seam. **Do not reinstate it.**
+- [ ] **Nothing is drawn between frames A and B** — no arrow, line, bracket,
+      chevron, leader or transition line. **A page turn is not a connector.**
+
+**Both frames**
+
+- [ ] **Parent title reproduced verbatim on both frames**, with `PART 1 OF 2` /
+      `PART 2 OF 2` inside the reserved title zone, outside the title wording.
+- [ ] Allocations **`1.0` + `0.5` = `1.5`** — allocated, not measured.
 - [ ] **No meeting room, calendar, date, participant, seat, table, agenda,
-      scheduled event, clock or duration.**
+      scheduled event, clock or duration** on either frame.
 
 ## 4. Type-floor verification — mandatory, measured
 

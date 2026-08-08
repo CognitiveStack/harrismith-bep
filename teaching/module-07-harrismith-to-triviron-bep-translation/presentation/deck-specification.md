@@ -3,9 +3,10 @@
 **`MODULE 7 PRESENTATION ASSEMBLY PACKAGE — UNDER GOVERNED CORRECTION`** ·
 **`T7-L — ACCEPTED after T7-L-R`** ·
 **`T7-L-R2 — ACCEPTED`** · **`T7-L-R3 — ACCEPTED`** ·
-**`T7-L-R4 — NOT YET ACCEPTED`** *(bounded production-robustness correction
-required — Slide 14 seam choice and avoidably tight local text-fit margins)* ·
-**`T7-L-R5 — PENDING CHATGPT GOVERNANCE REVIEW`** ·
+**`T7-L-R4 — NOT YET ACCEPTED`** ·
+**`T7-L-R5 — NOT YET ACCEPTED`** *(one bounded stale Slide 14 current-production
+typography instruction remained)* ·
+**`T7-L-R6 — PENDING CHATGPT GOVERNANCE REVIEW`** ·
 **`P9 — SUPERSEDED FOR MODULE 7`** by the governed 14-logical / 18-physical
 pagination rule — see **§13**
 
@@ -535,7 +536,7 @@ instantiated seven times. **No domain slide is independently redesigned.**
 | 7 | **Visual / source** | `M7V-14` → [`M07-S14`](../../assets/module-07/M07-S14.md) |
 | 8 | **Visual form** | Declared teaching-workflow band · register 1 · **authority gate strip** · register 2 · method one-liner · roadmap close · boundary strip |
 | 9 | **Required visible copy** | See [`slide-copy.md`](slide-copy.md) Slide 14 |
-| 10 | **Geometry — accepted `T7-J-R2` reconciliation, used exactly** | **Header `x = 48–912`, `y = 84–148` (exactly 64 pt)** · register 1 `y = 156–224`, four boxes **each exactly 201 × 68 pt**, three **20 pt** gaps · **authority gate `y = 232–272` (exactly 40 pt, border ≥ 3 pt)** · register 2 `y = 280–348`, three boxes **each exactly 276 × 68 pt**, two **18 pt** gaps · method one-liner `y = 356–412` · roadmap close `y = 420–464`, three segments **each exactly 276 pt** · boundary strip `y = 472–520`. **All six inter-band gaps exactly 8 pt.** Vertical: `64 + 8 + 68 + 8 + 40 + 8 + 68 + 8 + 56 + 8 + 44 + 8 + 48 = 436 = 520 − 84`. Title zone `y = 0–72` reserved, **12 pt clear interval** to the header |
+| 10 | **Geometry — accepted `T7-J-R2` reconciliation · SUPERSEDED, RETAINED AS HISTORY.** `T7-L-R3` proved this single-frame layout infeasible at the accepted type floors, and its `64 pt` header band is arithmetically wrong for three 18 pt lines (which need `72.8 pt`). **Do not build these coordinates — the current production geometry is the two-frame `T7-L-R5` A/B geometry of §13.9** | **Header `x = 48–912`, `y = 84–148` (exactly 64 pt)** · register 1 `y = 156–224`, four boxes **each exactly 201 × 68 pt**, three **20 pt** gaps · **authority gate `y = 232–272` (exactly 40 pt, border ≥ 3 pt)** · register 2 `y = 280–348`, three boxes **each exactly 276 × 68 pt**, two **18 pt** gaps · method one-liner `y = 356–412` · roadmap close `y = 420–464`, three segments **each exactly 276 pt** · boundary strip `y = 472–520`. **All six inter-band gaps exactly 8 pt.** Vertical: `64 + 8 + 68 + 8 + 40 + 8 + 68 + 8 + 56 + 8 + 44 + 8 + 48 = 436 = 520 − 84`. Title zone `y = 0–72` reserved, **12 pt clear interval** to the header |
 | 11 | **Header layout** | **Two semantic statements across three physical text lines**, wording unchanged: line 1 `TEACHING WORKFLOW — NOT A CURRENT TRIVIRON WORKFLOW`; line 2 `no actual Triviron workshop or schedule is established in this programme;`; line 3 `this diagram does not assert or schedule one`. **The semicolon is the only permitted break point.** Single (1.0) line spacing, no paragraph spacing, **no font condensation, no reduced character spacing**. **`T7-L-R2` CORRECTION — the accepted nominal fit `3 × 18 pt = 54 pt` is arithmetically wrong.** It treats line height as equal to point size. On the declared basis of §1.1, three `18 pt` lines occupy **`3 × 21.6 = 64.8 pt`**, plus `8 pt` padding = **`72.8 pt`**, against an accepted band of **`64 pt`** — a **deficit of `8.8 pt` before any other content**. **The header cannot be achieved at `≥ 18 pt` in `y = 84–148`. STOP AND REFER BACK — this is an unresolved item, see §11** |
 | 12 | **Connectors** | **4** — three within register 1, one from stage 5 to stage 6. **No connector crosses, enters, leaves or passes behind the authority gate. No connector enters the final box** — it is reached by condition, not by arrow. **No connector touches the one-liner, roadmap close or boundary strip.** The one-liner's arrows are **typographic characters in a single text run**, not drawn connectors |
 | 13 | **Boundary treatment** | Header's two statements together; gate strip's two lines together; boundary strip's three entries together |
@@ -574,14 +575,15 @@ visual STOP registers, which are unchanged.**
 | `T7-L-R2` | **`ACCEPTED`** — *copy-density / type-floor reconciliation and feasibility audit* |
 | `T7-L-R3` | **`ACCEPTED`** — *proof that the four one-frame layouts are production-infeasible; production-fit status reconciliation* |
 | `T7-L-R4` | **`NOT YET ACCEPTED`** — *bounded production-robustness correction required: Slide 14 seam choice and avoidably tight local text-fit margins*. Its architecture (14 logical / 18 physical, four two-frame splits, `P9` supersession, titles, labels, timing, copy, type floors, connector census) is **accepted in principle and not reopened** |
-| `T7-L-R5` | **`PENDING CHATGPT GOVERNANCE REVIEW`** — **not accepted** |
+| `T7-L-R5` | **`NOT YET ACCEPTED`** — *one bounded stale Slide 14 current-production typography instruction remained*. Its production architecture — 14 logical / 18 physical, the `workflow | close` seam, `14A = 4` / `14B = 0`, type floors, the AutoFit prohibition, the `G9` robustness framework and the hardened geometry — is **accepted and not reopened** |
+| `T7-L-R6` | **`PENDING CHATGPT GOVERNANCE REVIEW`** — **not accepted** |
 | `P9` | **`SUPERSEDED FOR MODULE 7`** — 14 logical units / 18 physical slides |
 | Logical teaching units | **14** |
 | Physical PowerPoint slides | **18** |
 | Logical units specified | **14 of 14** |
 | Physical frames specified | **18 of 18** — ten single-frame, four A/B pairs. See §13 |
 | Physical frames **production-fit VERIFIED on the declared basis** | **17 of 18** — the ten single-frame logical units, plus seven of the eight split frames at `T7-L-R5` (§13.11) |
-| Physical frames **`PRODUCTION FIT — BOUNDED / TIGHT`** | **1 — `M07-S11-A`**, min load-bearing region margin `+6.6 pt` against an `8 pt` target and a `+6.7 pt` mathematical maximum. **Reported to governance; production readiness not claimed for it** — see §13.12 |
+| Physical frames **`PRODUCTION FIT — BOUNDED / TIGHT`** | **1 — `M07-S11-A`**, min load-bearing region margin `+6.6 pt` against an `8 pt` target and a `+6.7 pt` mathematical maximum. **`BOUNDED / TIGHT — ACCEPTED FOR FABRICATION SUBJECT TO RENDERED-MEASUREMENT GATE`** (ChatGPT, at `T7-L-R6`) — see §13.12 |
 | Physical frames unresolved | **`0`** |
 | Production-robustness criterion | **`≥ 8 pt` planned slack on every load-bearing region** — §13.13. Achieved on **7 of 8** split frames; **`M07-S11-A` is at its arithmetic ceiling** |
 | Slide 14 seam | **`workflow | close`** — `T7-L-R5`, on governance decision. The `T7-L-R4` authority-gate seam is **superseded** |
@@ -1424,8 +1426,18 @@ character spacing, reduce line spacing, narrow a card or break co-equality.**
 taller than the §1.1 declared basis will not fit — **and that is a referral, not a
 production decision.**
 
-**This frame is reported to governance and production readiness is not claimed for
-it.**
+**Governance position — `T7-L-R6`.** ChatGPT has **expressly accepted** this
+bounded exception as **`BOUNDED / TIGHT — ACCEPTED FOR FABRICATION SUBJECT TO
+RENDERED-MEASUREMENT GATE`**, on the basis that the `6.4 pt` shortfall is
+arithmetic, the alternative four-act layouts are worse, accepted content is not to
+be shortened, a third physical frame is not justified for the remaining
+planning-margin difference, and **rendered measurement is the final production
+gate**.
+
+**Acceptance is conditional and is not a pass.** The built frame must still show
+**AutoFit off · every visible run `≥ 14 pt` · every principal, status,
+classification and governance-boundary run `≥ 18 pt` · no overflow · no clipping ·
+no text reduction**. **If actual metrics do not fit — `STOP AND REFER BACK`.**
 
 ### 13.13 Production-robustness criterion — `T7-L-R5`
 

@@ -1377,6 +1377,27 @@ transfers.**
 
 ### `M7V-14` — Slide 14
 
+> **`T7-L-R6` — THE ONE-FRAME GEOMETRY FIELDS BELOW ARE SUPERSEDED, RETAINED AS
+> HISTORY.** Fields **16 (geometry)**, **17 (geometry arithmetic self-check)**,
+> **23 (build sequence)** and **32 (native reconstruction method)** specify the
+> single physical slide that `T7-L-R3` proved infeasible, including a `64 pt`
+> header band at `y = 84–148` that cannot carry three 18 pt lines (they need
+> `72.8 pt`). **Their coordinate arithmetic is not withdrawn as a record, but it
+> is withdrawn from production. Do not build it.**
+>
+> **The current production geometry is the two-frame `T7-L-R5` A/B geometry** —
+> `M7V-14-A`: header `y = 84–184` (**100 pt**) · Register 1 `y = 192–268` ·
+> authority gate `y = 276–376` · Register 2 `y = 384–480` · **all four
+> connectors**. `M7V-14-B`: method chain `y = 84–216` · roadmap close
+> `y = 224–296` · boundary strip `y = 304–520` · **zero connectors**. **Seam:
+> `workflow | close`** — see §2.12b rule `M7V-P4`,
+> [`presentation/deck-specification.md`](presentation/deck-specification.md)
+> §13.9 and [`../../assets/module-07/M07-S14.md`](../../assets/module-07/M07-S14.md).
+>
+> **The semantic fields of this entry — purpose, visible wording, connector
+> meanings, prohibitions, STOP conditions and failure tests — remain fully in
+> force.** Only the one-frame dimensions are superseded.
+
 | Field | Value |
 |---|---|
 | **1 · Identifier** | `M7V-14` |

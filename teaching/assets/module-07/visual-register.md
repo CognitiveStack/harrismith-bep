@@ -173,10 +173,11 @@ Triviron conclusion transfers.** **No Module 8 source file is created by
 | Publication automation | **`PAUSED`** |
 | Presentation geometry reconciliation (`T7-L-R3`) | **`ACCEPTED`** — *proof that the four one-frame layouts are production-infeasible; production-fit status reconciliation* |
 | Presentation split pagination (`T7-L-R4`) | **`NOT YET ACCEPTED`** — *bounded production-robustness correction required: Slide 14 seam choice and avoidably tight local text-fit margins* |
-| Split-frame geometry hardening (`T7-L-R5`) | **`PENDING CHATGPT GOVERNANCE REVIEW`** — **not accepted** |
+| Split-frame geometry hardening (`T7-L-R5`) | **`NOT YET ACCEPTED`** — *one bounded stale Slide 14 current-production typography instruction remained*. Production architecture accepted and not reopened |
+| Source-consistency correction (`T7-L-R6`) | **`PENDING CHATGPT GOVERNANCE REVIEW`** — **not accepted** |
 | Logical visual sources | **14** |
 | Physical production frames | **18** |
-| Next gate | **ChatGPT governance review of `T7-L-R5`** |
+| Next gate | **ChatGPT governance review of `T7-L-R6`** |
 
 ## 9. Production-feasibility position — `T7-L-R2`
 
@@ -288,8 +289,12 @@ pagination rule.
 **Margins are now reported as the minimum LOAD-BEARING REGION margin, not the
 whole-frame margin** — `T7-L-R5` rule `R3`: a weak region may not hide inside a
 healthy frame. **Seven of the eight split frames carry `≥ 8 pt` on every
-load-bearing region.** **`M07-S11-A` is at its arithmetic ceiling** and is
-reported to governance; production readiness is not claimed for it.
+load-bearing region.** **`M07-S11-A` is at its arithmetic ceiling** and is recorded
+**`BOUNDED / TIGHT — ACCEPTED FOR FABRICATION SUBJECT TO RENDERED-MEASUREMENT
+GATE`** (ChatGPT, at `T7-L-R6`). **Acceptance of the planning margin is not a
+pass**: the built frame must show AutoFit off, every visible run `≥ 14 pt`, every
+principal, status, classification and governance-boundary run `≥ 18 pt`, no
+overflow and no clipping, or **`STOP AND REFER BACK`**.
 
 **§10's `production fit — NOT VERIFIED` position for `M07-S06`, `M07-S11`,
 `M07-S13` and `M07-S14` referred to their superseded ONE-FRAME layouts. Those
