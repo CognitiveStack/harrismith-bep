@@ -172,10 +172,11 @@ Triviron conclusion transfers.** **No Module 8 source file is created by
 | Timing | **`20.0 minutes allocated — not measured`** |
 | Publication automation | **`PAUSED`** |
 | Presentation geometry reconciliation (`T7-L-R3`) | **`ACCEPTED`** — *proof that the four one-frame layouts are production-infeasible; production-fit status reconciliation* |
-| Presentation split pagination (`T7-L-R4`) | **`PENDING CHATGPT GOVERNANCE REVIEW`** — **not accepted** |
+| Presentation split pagination (`T7-L-R4`) | **`NOT YET ACCEPTED`** — *bounded production-robustness correction required: Slide 14 seam choice and avoidably tight local text-fit margins* |
+| Split-frame geometry hardening (`T7-L-R5`) | **`PENDING CHATGPT GOVERNANCE REVIEW`** — **not accepted** |
 | Logical visual sources | **14** |
 | Physical production frames | **18** |
-| Next gate | **ChatGPT governance review of `T7-L-R4`** |
+| Next gate | **ChatGPT governance review of `T7-L-R5`** |
 
 ## 9. Production-feasibility position — `T7-L-R2`
 
@@ -273,16 +274,22 @@ pagination rule.
 | `M07-S03` | 3 | `M07-S03` | 3 | 1 | **VERIFIED** |
 | `M07-S04` | 4 | `M07-S04` | 4 | 1 | **VERIFIED** |
 | `M07-S05` | 5 | `M07-S05` | 5 | 1 | **VERIFIED** |
-| **`M07-S06`** | **6** | **`M07-S06-A` · `M07-S06-B`** | **6 · 7** | **2** | **VERIFIED** — `+24.0` · `+252.0` |
+| **`M07-S06`** | **6** | **`M07-S06-A` · `M07-S06-B`** | **6 · 7** | **2** | **VERIFIED** — min region `+8.2` · `+24.8` |
 | `M07-S07` | 7 | `M07-S07` | 8 | 1 | **VERIFIED** |
 | `M07-S08` | 8 | `M07-S08` | 9 | 1 | **VERIFIED** |
 | `M07-S09` | 9 | `M07-S09` | 10 | 1 | **VERIFIED** |
 | `M07-S10` | 10 | `M07-S10` | 11 | 1 | **VERIFIED** |
-| **`M07-S11`** | **11** | **`M07-S11-A` · `M07-S11-B`** | **12 · 13** | **2** | **VERIFIED** — `+10.0` · `+188.0` |
+| **`M07-S11`** | **11** | **`M07-S11-A` · `M07-S11-B`** | **12 · 13** | **2** | **`M07-S11-A` BOUNDED / TIGHT** — min region `+6.6` against an `8 pt` target and a `+6.7` ceiling · `M07-S11-B` **VERIFIED** `+24.8` |
 | `M07-S12` | 12 | `M07-S12` | 14 | 1 | **VERIFIED** |
-| **`M07-S13`** | **13** | **`M07-S13-A` · `M07-S13-B`** | **15 · 16** | **2** | **VERIFIED** — `+64.0` · `+78.0` |
-| **`M07-S14`** | **14** | **`M07-S14-A` · `M07-S14-B`** | **17 · 18** | **2** | **VERIFIED** — `+194.0` · `+8.0` |
-| **14 logical** | | **18 physical** | **1–18** | **18** | **18 of 18 VERIFIED** |
+| **`M07-S13`** | **13** | **`M07-S13-A` · `M07-S13-B`** | **15 · 16** | **2** | **VERIFIED** — min region `+14.4` · `+29.2` |
+| **`M07-S14`** | **14** | **`M07-S14-A` · `M07-S14-B`** | **17 · 18** | **2** | **VERIFIED** — min region `+23.2` · `+30.4`. **Seam corrected to `workflow | close` by `T7-L-R5`** |
+| **14 logical** | | **18 physical** | **1–18** | **18** | **17 of 18 VERIFIED · 1 BOUNDED / TIGHT** |
+
+**Margins are now reported as the minimum LOAD-BEARING REGION margin, not the
+whole-frame margin** — `T7-L-R5` rule `R3`: a weak region may not hide inside a
+healthy frame. **Seven of the eight split frames carry `≥ 8 pt` on every
+load-bearing region.** **`M07-S11-A` is at its arithmetic ceiling** and is
+reported to governance; production readiness is not claimed for it.
 
 **§10's `production fit — NOT VERIFIED` position for `M07-S06`, `M07-S11`,
 `M07-S13` and `M07-S14` referred to their superseded ONE-FRAME layouts. Those
@@ -296,12 +303,13 @@ four logical sources is the A/B frame geometry**, specified in
 |---|---|
 | Logical source definitions | **Unchanged — `ACCEPTED under T7-K` × 14** |
 | New Markdown source files | **None.** Each parent defines its frames internally |
-| Connector census | **Unchanged — `12`.** Logical Slide 14's four are distributed 3 (frame A) + 1 (frame B) |
+| Connector census | **Unchanged — `12`.** After the `T7-L-R5` seam correction, **all four of logical Slide 14's connectors sit on frame A**; frame B has none |
 | Classification / status census | **Unchanged** |
 | Typed-absence census | **Unchanged** |
 | Automatic-fail conditions | **42 — unchanged** |
 | `G9` text-fit self-check | **Applied to all eighteen physical frames** |
-| Timing | **`20.0 minutes allocated — not measured`** — each pair sums to its parent |
+| Timing | **`20.0 minutes allocated — not measured`** — each pair sums to its parent. **`T7-L-R5` rebalanced logical Slide 14's children only, `0.8 + 0.7` → `1.0 + 0.5`** |
+| Production-robustness criterion | **`≥ 8 pt` planned slack on every load-bearing region** — deck specification §13.13 |
 | `T7-M` | **`PRODUCED; QC FAILED; NOT ACCEPTED`** — external, not in this repository |
 | `T7-M-R1` | **`NOT STARTED; NOT AUTHORISED`** |
 | Publication automation | **`PAUSED`** |

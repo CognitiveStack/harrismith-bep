@@ -2,7 +2,8 @@
 
 **`MODULE 7 PRESENTATION ASSEMBLY PACKAGE — UNDER GOVERNED CORRECTION`** ·
 **`T7-L — ACCEPTED after T7-L-R`** · **`T7-L-R2 — ACCEPTED`** ·
-**`T7-L-R3 — ACCEPTED`** · **`T7-L-R4 — PENDING CHATGPT GOVERNANCE REVIEW`**
+**`T7-L-R3 — ACCEPTED`** · **`T7-L-R4 — NOT YET ACCEPTED`** ·
+**`T7-L-R5 — PENDING CHATGPT GOVERNANCE REVIEW`**
 
 **`TEACHING PRODUCTION HANDOFF — NOT TRIVIRON GOVERNANCE`**
 
@@ -173,9 +174,13 @@ path exists and none may be invented.**
 | 14 | 12 | What the evidence lets you say | — | `M7V-12` | `M07-S12` | 5 rectangles at the stated offsets · 1 hub (2 runs) · 1 bordered strip (3 runs) | **0** | The five classifications read as a ladder |
 | **15** | **13** | Unknowns are controlled work | **`PART 1 OF 2`** | **`M7V-13-A`** | **`M07-S13-A`** | **4 rectangles (2 × 2, 12 pt gaps), each with meaning and its own misuse bar** · 1 bordered non-progression band (1 run) · **no connectors, no rule** | **0** | The four states read as stages; a page turn read as ordering |
 | **16** | **13** | Unknowns are controlled work | **`PART 2 OF 2`** | **`M7V-13-B`** | **`M07-S13-B`** | **3 bordered full-width bands** — `CURRENT STATUS POSITION` (1 run) · `EVIDENCE AVAILABILITY` (4 runs) · misuse strip (4 runs) · **no connectors** | **0** | `NONE IDENTIFIED` read as a status or a fifth state |
-| **17** | **14** | From decision backlog to BEP workshop | **`PART 1 OF 2`** | **`M7V-14-A`** | **`M07-S14-A`** | **1 header rectangle (one text box, both statements, three physical lines)** · 4 rectangles + text · **3 arrows** · 1 heavy-bordered gate rectangle (2 runs) | **3** | A teaching workflow read as a project plan; a connector crossing the gate |
-| **18** | **14** | From decision backlog to BEP workshop | **`PART 2 OF 2`** | **`M7V-14-B`** | **`M07-S14-B`** | **1 bordered reminder band (1 run)** · 3 rectangles + text · **1 arrow** · 1 full-width text box (chain, arrows as typographic characters) · 3 rectangles · 1 bordered strip (3 runs) | **1** | **The page advance read as authority; a connector into the final box** |
+| **17** | **14** | From decision backlog to BEP workshop | **`PART 1 OF 2`** | **`M7V-14-A`** | **`M07-S14-A`** | **the whole workflow core — `T7-L-R5`:** 1 header rectangle (one text box, both statements, three physical lines) · 4 rectangles + text (Register 1) · **3 arrows** · 1 heavy-bordered gate rectangle (2 runs) · 3 rectangles + text (Register 2) · **1 arrow** | **4** | A teaching workflow read as a project plan; a connector crossing the gate or entering the final box |
+| **18** | **14** | From decision backlog to BEP workshop | **`PART 2 OF 2`** | **`M7V-14-B`** | **`M07-S14-B`** | **the supporting close — `T7-L-R5`:** 1 full-width text box (nine-object chain, arrows as typographic characters) · 3 rectangles (roadmap close) · 1 bordered strip (3 runs). **No reminder band — removed as obsolete mitigation. No connectors** | **0** | The close read as a scheduled workshop; Module 8 read as an event |
 | | **14** | | **4 pairs** | **14 logical** | **18 physical** | | **`12`** | |
+
+**Connector distribution after the `T7-L-R5` seam correction: physical 1 = `2` ·
+physical 3 = `6` · physical 17 (`M07-S14-A`) = `4` · physical 18
+(`M07-S14-B`) = `0` · every other physical frame = `0`. Deck total `12`.**
 
 **Physical frames `18` · logical teaching units `14` · logical visual sources
 `14` · drawn connectors `12`.**
@@ -190,8 +195,8 @@ path exists and none may be invented.**
 | `M07-S11-B` | **`authority-band-tdr-020`** · `exclusion-strip` · **`two-directional-band`** · **`boundary-strip`** |
 | `M07-S13-A` | `quadrants` · **`non-progression-band`** |
 | `M07-S13-B` | **`current-status-position`** · **`evidence-availability`** · **`misuse-warning-strip`** |
-| `M07-S14-A` | **`header-declaration`** · `register-1` · **`authority-gate`** |
-| `M07-S14-B` | **`post-authority-reminder`** · `register-2` · `method-one-liner` · `roadmap-close` · **`boundary-strip`** |
+| `M07-S14-A` | **`header-declaration`** · `register-1` · **`authority-gate`** · `register-2` |
+| `M07-S14-B` | `method-one-liner` · `roadmap-close` · **`boundary-strip`** |
 
 **Any group whose name is bold is a principal governance object.** It is never
 resized down, restyled as a caption, or moved out of its owning frame. **No group
@@ -214,6 +219,8 @@ A → B advance is not an object.
 | External imagery · live evidence · rendered | **`NONE` × 18** |
 | Import / screenshot allowed | **`NO` × 18** |
 | Invented file import path | **None** |
-| Connector total | **`12`** — 2 + 6 + 3 + 1, zero on the other fourteen physical frames |
+| Connector total | **`12`** — 2 + 6 + 4 + 0, zero on the other fifteen physical frames |
+| Slide 14 seam | **`workflow | close`** — `T7-L-R5`. All four connectors on frame A; frame B has none |
+| Obsolete objects removed | **1 — `post-authority-reminder` band on `M07-S14-B`**, removed as temporary production mitigation, not teaching content |
 | Page transition drawn as a connector | **Never** |
 | Binary referenced | **None** |

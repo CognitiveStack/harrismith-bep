@@ -2,7 +2,8 @@
 
 **`MODULE 7 PRESENTATION ASSEMBLY PACKAGE — UNDER GOVERNED CORRECTION`** ·
 **`T7-L — ACCEPTED after T7-L-R`** · **`T7-L-R2 — ACCEPTED`** ·
-**`T7-L-R3 — ACCEPTED`** · **`T7-L-R4 — PENDING CHATGPT GOVERNANCE REVIEW`**
+**`T7-L-R3 — ACCEPTED`** · **`T7-L-R4 — NOT YET ACCEPTED`** ·
+**`T7-L-R5 — PENDING CHATGPT GOVERNANCE REVIEW`**
 
 **`TEACHING PRODUCTION HANDOFF — NOT TRIVIRON GOVERNANCE`**
 
@@ -796,23 +797,26 @@ either frame.** **`connector count = 0` on both frames.**
 protected declaration, the authority gate, the seven stages and the complete
 nine-object method chain are retained.**
 
-**`T7-L-R4` — TWO PHYSICAL FRAMES, SPLIT AT THE AUTHORITY GATE.** Physical **17**
-= `FRAME A` `PART 1 OF 2` (0.8 min) · physical **18** = `FRAME B` `PART 2 OF 2`
-(0.7 min). **Pair sum `1.5` = parent allocation.**
+**`T7-L-R5` — TWO PHYSICAL FRAMES, SPLIT AT THE `WORKFLOW | CLOSE` SEAM.**
+Physical **17** = `FRAME A` `PART 1 OF 2` (**1.0 min**) · physical **18** =
+`FRAME B` `PART 2 OF 2` (**0.5 min**). **Pair sum `1.5` = parent allocation.**
 
-> **FRAME A ENDS AT THE GOVERNANCE STOP.** It carries the declaration, Register 1
-> and the authority gate. **No connector leaves, enters, crosses or passes behind
-> the gate.**
+> **SEAM CORRECTED BY `T7-L-R5` ON GOVERNANCE DECISION.** `T7-L-R4` split at the
+> authority gate; ChatGPT has decided in favour of the **`workflow | close`**
+> seam, and the authority-gate seam is **superseded**.
 >
-> **FRAME B BEGINS AFTER THE AUTHORITY BOUNDARY** and opens with its own reminder
-> band. **The page advance is not a connector, is never drawn as one, and never
-> carries authority.** `page advance ≠ authority progression`.
+> **FRAME A CARRIES THE ENTIRE GOVERNED WORKFLOW CORE** — declaration ·
+> Register 1 · `AUTHORITY REQUIRED — no automatic progression` · Register 2 — so
+> **the authority gate and the conditional post-authority stages remain visible
+> together**. The page turn happens only **after** the whole workflow core has
+> been shown, so **it cannot be read as progression across authority.**
 >
-> **`§12.6.1`'s prose and its allocation table disagree about this seam.** The
-> prose says *authority gate*; the table puts Register 2 on frame A. `T7-L-R4`
-> implements the **authority seam** as the increment expressly prescribes, and
-> the contradiction is reported at
-> [`deck-specification.md`](deck-specification.md) **§13.9** for governance.
+> **FRAME B IS THE SUPPORTING CLOSE** — the nine-object method chain, the Module 8
+> roadmap close and the teaching / workshop boundary. **No authority transition
+> occurs across the page turn.**
+>
+> **The `T7-L-R4` post-authority reminder band is REMOVED** as obsolete production
+> mitigation — see the note at the end of this section.
 
 **Title — both frames, verbatim.** From decision backlog to BEP workshop
 
@@ -833,7 +837,7 @@ unchanged** · A · 18 pt.
 `evidence ≠ authority · no appropriate Triviron authority holder is currently
 identified or established in this programme`
 
-**→ FRAME B · Register 2** · A · 18 pt. `candidate decision, if authorised` ·
+**→ FRAME A · Register 2** · A · 18 pt. `candidate decision, if authorised` ·
 `decision recorded with status` ·
 `BEP / matrix / schedule / appendix populated **only when earned**`
 
@@ -856,23 +860,30 @@ Harrismith into Triviron" and not "fill in the blanks"` ·
 **`TEACHING SYNTHESIS: a good BEP workshop does not start with answers. It starts
 with the decisions that must be earned.`**
 
-**→ FRAME B · Post-authority reminder band, opening the frame** · A · 18 pt.
-**`TEACHING WORKFLOW — NOT A CURRENT TRIVIRON WORKFLOW · continued only when
-authorised`**
+**All four drawn connectors sit on FRAME A** — three within Register 1
+(`1 → 2`, `2 → 3`, `3 → 4`) and one within Register 2 (`5 → 6`). **FRAME B has
+zero drawn connectors.** **No connector `4 → 5`. No connector crosses, enters,
+leaves or passes behind the authority gate. No connector `6 → 7`, and none enters
+the final controlled-destination box** — it is reached by condition, not by arrow.
+**No connector represents the A → B page transition.** The one-liner's arrows are
+typographic characters in a single text run, not drawn connectors.
 
-**This band is mandatory and is the first thing read on Frame B.** It does two
-governed jobs: it prevents Frame B reading as a **current** Triviron workflow when
-seen alone — the full declaration sits on Frame A — and it prevents **the page
-advance itself from functioning as an implied connector across authority**.
-**The short teaching-workflow label is repeated here under rule `G7`; the full
-declaration is never weakened, shortened or split.**
-
-**Four drawn connectors in total across both frames — three within Register 1 on
-Frame A, one from stage 5 to stage 6 on Frame B. No fifth connector. No connector
-crosses the authority gate. No connector enters the final controlled-destination
-box; it is reached by condition, not by arrow. No connector represents the A → B
-page transition.** The one-liner's arrows are typographic characters in a single
-text run, not drawn connectors.
+> ### `T7-L-R5` — OBSOLETE MITIGATION REMOVED
+>
+> `T7-L-R4` added a **post-authority reminder band** to Frame B reading
+> `TEACHING WORKFLOW — NOT A CURRENT TRIVIRON WORKFLOW · continued only when
+> authorised`. **Its sole purpose was to mitigate the authority-seam page turn.**
+> That seam no longer exists, so **the band is removed**.
+>
+> **This is the removal of temporary production mitigation, not of teaching
+> content.** It was introduced by `T7-L-R4` and appears in **no accepted teaching
+> source**. **Nothing accepted is lost:** the **full** declaration —
+> `TEACHING WORKFLOW — NOT A CURRENT TRIVIRON WORKFLOW` and `no actual Triviron
+> workshop or schedule is established in this programme; this diagram does not
+> assert or schedule one` — sits **complete and verbatim on Frame A**, as does the
+> **entire** authority gate including `evidence ≠ authority`. The teaching /
+> workshop boundary strip remains on Frame B. **No other text was removed by
+> `T7-L-R5`, and no accepted copy was shortened.**
 
 **`T7-L-R2` Slide 14 compressions, all Class B:**
 
@@ -886,15 +897,16 @@ text run, not drawn connectors.
 the authority gate · `evidence ≠ authority` · `candidate decision, if authorised`
 · `only when earned` · the teaching-versus-current-workflow distinction.
 
-> **RESOLVED BY `T7-L-R4` GOVERNED PAGINATION.** The `121.6 pt` one-frame deficit
-> recorded at `T7-L-R3` §12.5 is removed by splitting at the authority gate.
-> **Frame A `+194.0 pt`, Frame B `+8.0 pt`, every band positive** — see
-> [`deck-specification.md`](deck-specification.md) **§13.9**. The header band is
-> now **`82 pt`**, correcting the accepted `3 × 18 pt = 54 pt inside 64 pt` claim,
-> which treated line height as equal to point size; the true need is `72.8 pt`.
-> **Frame B is the deck's tightest band-level fit (`+0.4 pt` on the reminder
-> band); a producer whose metrics exceed the declared basis STOPS and refers back
-> — see §13.12.** **No type was reduced and no copy was removed.**
+> **RESOLVED, AND HARDENED BY `T7-L-R5`.** The `121.6 pt` one-frame deficit
+> recorded at `T7-L-R3` §12.5 is removed by pagination; the **`workflow | close`**
+> seam then replaces `T7-L-R4`'s authority-gate seam on governance decision.
+> **Every load-bearing region on both frames now carries `≥ +23 pt`** — Frame A
+> min `+23.2`, Frame B min `+30.4` — against `T7-L-R4`'s worst band of `+0.4 pt`.
+> The header band is **`100 pt`**, correcting the accepted
+> `3 × 18 pt = 54 pt inside 64 pt` claim, which treated line height as equal to
+> point size; the true need is `72.8 pt`. See
+> [`deck-specification.md`](deck-specification.md) **§13.9** and **§13.11**.
+> **No type was reduced and no accepted copy was removed.**
 
 ---
 

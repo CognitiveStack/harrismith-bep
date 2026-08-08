@@ -2,7 +2,8 @@
 
 **`MODULE 7 PRESENTATION ASSEMBLY PACKAGE — UNDER GOVERNED CORRECTION`** ·
 **`T7-L — ACCEPTED after T7-L-R`** · **`T7-L-R2 — ACCEPTED`** ·
-**`T7-L-R3 — ACCEPTED`** · **`T7-L-R4 — PENDING CHATGPT GOVERNANCE REVIEW`** ·
+**`T7-L-R3 — ACCEPTED`** · **`T7-L-R4 — NOT YET ACCEPTED`** ·
+**`T7-L-R5 — PENDING CHATGPT GOVERNANCE REVIEW`** ·
 **`P9 — SUPERSEDED FOR MODULE 7`**
 
 **`TEACHING PRODUCTION HANDOFF — NOT TRIVIRON GOVERNANCE`**
@@ -60,9 +61,10 @@ fails.**
 - [ ] No logical unit has zero frames, three frames or an alternate mapping.
 - [ ] **A/B continuity:** each pair reads as **one** teaching unit continued, not
       as two topics. Frame B is never titled or styled as a new subject.
-- [ ] **Each A/B timing pair sums to its parent allocation** — `1.0 + 0.5 = 1.5`,
-      `1.0 + 0.5 = 1.5`, `0.8 + 0.6 = 1.4`, `0.8 + 0.7 = 1.5`. **Physical and
-      logical allocations both total `20.0`.**
+- [ ] **Each A/B timing pair sums to its parent allocation** — logical 6
+      `1.0 + 0.5 = 1.5`, logical 11 `1.0 + 0.5 = 1.5`, logical 13
+      `0.8 + 0.6 = 1.4`, logical 14 **`1.0 + 0.5 = 1.5`**. **Physical and logical
+      allocations both total `20.0`.**
 - [ ] **No one-slide overload has been restored.** If any of logical Slides 6, 11,
       13 or 14 appears as a single physical slide, **the deck fails**.
 - [ ] **All eighteen physical frames carry a `G9` text-fit record with positive
@@ -135,9 +137,16 @@ fails.**
 - [ ] **Logical Slide 13's pagination creates no semantic progression.** All four
       states sit together on frame A; frame B carries no state, no ordering and no
       fifth quadrant.
-- [ ] **Logical Slide 14's pagination does not cross authority.** Frame A ends at
-      the gate; frame B opens with its post-authority reminder band; nothing
-      implies the page advance granted authority.
+- [ ] **Logical Slide 14's pagination does not cross authority.** **Frame A
+      carries the entire workflow core** — declaration, Register 1, the authority
+      gate and Register 2 together — so the gate and the conditional stages are
+      visible on one page and the page turn happens only after the whole core has
+      been shown. **Frame B is the supporting close.** Nothing implies the page
+      advance granted authority, approval or acceptance.
+- [ ] **The `T7-L-R4` post-authority reminder band is absent from frame B** — it
+      was obsolete production mitigation, and the corrected seam removed the risk
+      it mitigated. **The full declaration and the entire authority gate are
+      present, complete and verbatim, on frame A.**
 - [ ] Slide 10's fence border weight **differs** from the card borders.
 - [ ] Slide 12's cards are **offset** — no lower card shares a column with an
       upper card.
@@ -174,8 +183,12 @@ fails.**
       upper row does not connect to the lower row**; no loop or closed cycle.
 - [ ] All physical frames other than 1, 3, 17 and 18: **0 each.** No spoke, ring,
       orbit or wheel on physical 14; nothing on logical Slide 13's frames.
-- [ ] **Physical 17 (`M07-S14-A`): 3** — within Register 1 only.
-- [ ] **Physical 18 (`M07-S14-B`): 1** — stage 5 → 6 only.
+- [ ] **Physical 17 (`M07-S14-A`): 4** — three within Register 1 (`1 → 2`,
+      `2 → 3`, `3 → 4`) and one within Register 2 (`5 → 6`). **None `4 → 5`. None
+      crossing the authority gate. None `6 → 7` and none entering the final
+      box.**
+- [ ] **Physical 18 (`M07-S14-B`): 0.** The nine-object chain's arrows are
+      **typographic characters**, not drawn connectors.
 - [ ] **The `A → B` page transition is drawn as nothing** on all four pairs. No
       arrow, line, bracket, chevron or leader. **A continuation is not a
       connector, and the four extra pages add none.**
@@ -229,10 +242,28 @@ is not reviewed further; it is returned.**
       to shrink type.
 - [ ] **Logical Slides 6, 11, 13 and 14 are built to the `T7-L-R4` A/B frame
       geometry of §13.7–§13.9**, not to their superseded one-frame geometry.
-- [ ] **The two tightest frames measure true:** `M07-S11-A` (`+10.0` frame,
-      `+1.2` zone) and `M07-S14-B` (`+8.0` frame, `+0.4` band). **Neither was
-      made to fit by reducing type, condensing, narrowing a card or breaking
-      co-equality.**
+- [ ] **Planned versus rendered:** the producer's §4.1 record is present, listing
+      **every load-bearing region's planned allocation against its rendered
+      height**. **A review without that record is returned.**
+- [ ] **PowerPoint AutoFit is disabled on every text container** — *Shrink text on
+      overflow* and *Resize shape to fit text* both off. **An enabled AutoFit is a
+      fail even if the deck currently looks correct**, because it will reduce type
+      on the next edit.
+- [ ] **No region overflows, clips or hides text.** Inspect by measurement, not by
+      eye.
+- [ ] **No container was enlarged, moved or re-anchored to make copy fit**, and no
+      accepted coordinate was adjusted.
+- [ ] **Inspect these frames explicitly, in this order:** **`M07-S11-A`** (planned
+      `+6.6 pt`, the deck's tightest — **`BOUNDED / TIGHT`**), **`M07-S06-A`**
+      (`+8.2 pt`), **`M07-S14-A`** and **`M07-S14-B`**. **Then every other region
+      flagged by the final robustness audit at
+      [`deck-specification.md`](deck-specification.md) §13.11.**
+- [ ] **No visual judgement may override a type-floor measurement failure.** A
+      frame that looks well-proportioned but measures below `14 pt` or `18 pt`
+      **fails** — conditions 28, 41 and 42.
+- [ ] **Nothing was made to fit by reducing type, condensing a font, reducing
+      character spacing, reducing line spacing, enabling AutoFit, narrowing a card
+      or breaking co-equality.**
 - [ ] **Every built region carries both claims:** *coordinate arithmetic
       verified* **and** *production fit verified with positive margin*. A region
       offering only coordinate arithmetic is **not** verified — see §12.7 of the
@@ -399,19 +430,22 @@ not taken.**
 | `T7-L0` | **`ACCEPTED`** |
 | Assembly correction (`T7-L-R2`) | **`ACCEPTED`** — *copy-density / type-floor reconciliation and feasibility audit* |
 | Geometry reconciliation (`T7-L-R3`) | **`ACCEPTED`** — *proof that the four one-frame layouts are production-infeasible; production-fit status reconciliation* |
-| Split pagination (`T7-L-R4`) | **`PENDING CHATGPT GOVERNANCE REVIEW`** — **not accepted** |
+| Split pagination (`T7-L-R4`) | **`NOT YET ACCEPTED`** — *bounded production-robustness correction required: Slide 14 seam choice and avoidably tight local text-fit margins*. Architecture accepted in principle |
+| Geometry hardening (`T7-L-R5`) | **`PENDING CHATGPT GOVERNANCE REVIEW`** — **not accepted** |
 | `P9` | **`SUPERSEDED FOR MODULE 7`** — 14 logical units / 18 physical slides |
 | Logical teaching units · physical slides | **14** · **18** |
-| Physical frames production-fit VERIFIED | **18 of 18**, margins `+8.0` to `+252.0 pt` |
+| Physical frames production-fit VERIFIED | **17 of 18.** Min **load-bearing region** margins `+8.2` to `+29.2 pt` |
+| Physical frames **`BOUNDED / TIGHT`** | **1 — `M07-S11-A`**, `+6.6 pt` against an `8 pt` target and a `+6.7 pt` ceiling. **Production readiness not claimed for it** |
+| Slide 14 seam | **`workflow | close`** — all four connectors on frame A, none on frame B |
 | PowerPoint (`T7-M`) | **`PRODUCED; QC FAILED; NOT ACCEPTED`** — external, not in this repository |
 | `T7-M` failure reason | **production-feasibility failure — accepted type floors not achievable under the prior visible-copy / geometry combination** |
 | PowerPoint (`T7-M-R1`) | **`NOT STARTED`** — **not authorised** |
 | Logical units unresolved | **None** — all four resolved by governed pagination. See [`deck-specification.md`](deck-specification.md) §13 |
-| Automatic-fail conditions | **42** — unchanged by `T7-L-R3` and `T7-L-R4`. Was 40 at `T7-L-R2`; **28** strengthened, **41** and **42** added there |
+| Automatic-fail conditions | **42** — unchanged by `T7-L-R3`, `T7-L-R4` and `T7-L-R5`. Was 40 at `T7-L-R2`; **28** strengthened, **41** and **42** added there. **The `8 pt` robustness target lives in `G9.1`, the deck specification and the two checklists — not in the register** |
 | Deck review | **NOT PERFORMED** on a conforming deck |
 | Rendered assets | **`NONE`** |
 | Rehearsal | **`NOT PERFORMED`** |
 | Measured timing | **`NOT PERFORMED`** |
 | Timing | **`20.0 minutes allocated — not measured`** |
 | Publication automation | **`PAUSED`** |
-| Next gate | **ChatGPT governance review of `T7-L-R4`** |
+| Next gate | **ChatGPT governance review of `T7-L-R5`** |

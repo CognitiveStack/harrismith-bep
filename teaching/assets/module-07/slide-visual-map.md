@@ -190,9 +190,31 @@ same three co-equal cards as their single-frame siblings; their `B` frames carry
 only full-width governance bands. **There are two governed variants, not eight
 unrelated layouts.**
 
+### 9.1a Connector allocation across split frames — `T7-L-R5`
+
+**The deck-wide drawn connector total is `12` and is unaffected by pagination.**
+Only logical Slide 14 carries connectors among the split frames, and after the
+`T7-L-R5` **`workflow | close`** seam correction **all four sit on frame A**.
+
+| Physical # | Frame | Connectors | Meaning |
+|---:|---|---:|---|
+| 1 | `M07-S01` | **2** | `the next module in the teaching programme` |
+| 3 | `M07-S03` | **6** | `the next step in the analytical sequence` |
+| **17** | **`M07-S14-A`** | **4** | `the next stage of the teaching workflow` — three within Register 1, one within Register 2 (`5 → 6`) |
+| **18** | **`M07-S14-B`** | **0** | — |
+| all other 14 | — | **0 each** | — |
+| | | **`12`** | |
+
+**A page transition is not a connector.** `A → B` is drawn as nothing on all four
+pairs. **The method chain's arrows are typographic characters inside one text
+run**, not drawn connectors.
+
 ### 9.2 Timing under pagination
 
 **Total unchanged: `20.0 minutes allocated — not measured`.** Each pair shares its
 parent allocation: logical 6 `1.0 + 0.5 = 1.5` · logical 11 `1.0 + 0.5 = 1.5` ·
-logical 13 `0.8 + 0.6 = 1.4` · logical 14 `0.8 + 0.7 = 1.5`. **`T7-L-R4` changed
-no logical allocation and rehearses, measures or re-allocates nothing.**
+logical 13 `0.8 + 0.6 = 1.4` · logical 14 **`1.0 + 0.5 = 1.5`**. **`T7-L-R5`
+rebalanced logical Slide 14's two child allocations only** — from `0.8 + 0.7`,
+because the corrected seam moves Register 2 onto frame A. **No logical allocation
+changed, the pair sum is still `1.5`, and the deck total is still `20.0`.**
+**Nothing here rehearses, measures or re-allocates anything.**

@@ -189,7 +189,13 @@ check must be satisfied **before `T7-K` visual-source production begins**.
 | **G6** | **No off-canvas object.** Every coordinate lies within `x = 0–960`, `y = 0–540`, and every content object within `x = 48–912`, `y = 72–520` |
 | **G7** | **No boundary, status or STOP warning may be positioned outside the visual region it governs.** A warning about a panel sits inside or immediately beneath that panel's own frame |
 | **G8** | A producer who cannot reproduce a stated arithmetic result **stops and refers back**. A producer may not silently adjust coordinates to make a layout fit |
-| **G9** | **`TEXT-FIT SELF-CHECK` — added by `T7-L-R3`.** `G1`–`G8` test **coordinate arithmetic only**. They do not test whether the required copy **fits** the stated region at the accepted type floors, and no rule did — which is why fourteen visuals could be recorded `GEOMETRY VERIFIED` and still be unbuildable at 18 pt. **Every region must additionally record: object width · usable width (`width − 8 pt`) · intended point size · characters per line · worst-case string length · lines required · text height (`lines × 1.2 × point size`) · object height · remaining vertical margin.** A region with **negative or zero margin is a defect**; `≥ 8 pt` is preferred for load-bearing regions. **A stated fit that does not survive this check is a defect, exactly as a stated equality that does not divide exactly is a defect under `G3`** |
+| **G9** | **`TEXT-FIT SELF-CHECK` — added by `T7-L-R3`, strengthened by `T7-L-R5`.** `G1`–`G8` test **coordinate arithmetic only**. They do not test whether the required copy **fits** the stated region at the accepted type floors, and no rule did — which is why fourteen visuals could be recorded `GEOMETRY VERIFIED` and still be unbuildable at 18 pt. **Every region must record: object width · usable width (`width − 8 pt`) · intended point size · characters per line · worst-case string length · lines required · text height (`lines × 1.2 × point size`) · object height · remaining vertical margin.** A region with **negative or zero margin is a defect**. **A stated fit that does not survive this check is a defect, exactly as a stated equality that does not divide exactly is a defect under `G3`** |
+| **G9.1** | **PRODUCTION-ROBUSTNESS TARGET — `T7-L-R5`. Every load-bearing region carries `≥ 8 pt` planned vertical slack**, wherever the frame's existing unused capacity makes this achievable. **A merely positive margin is not sufficient**: the declared basis is a planning convention, not measured PowerPoint font geometry, and a region planned at `+0.4 pt` has no tolerance for a real font one percent wider |
+| **G9.2** | **A zone height is the WORST SINGLE co-equal object, never a blend of worst runs taken from different objects.** Blending inflates the need and steals slack — it is how `T7-L-R4` recorded `M7V-11-A`'s `Z1` as `84.0` instead of `67.2` |
+| **G9.3** | **Spare capacity is used only to enlarge existing text containers and governed regions — never to add content.** A frame may remain visually sparse; **sparse is acceptable**. Frame reserve left unallocated is recorded, not filled |
+| **G9.4** | **The whole-frame margin never substitutes for a region margin.** Every region is reported individually, so a weak region cannot hide inside a healthy frame |
+| **G9.5** | A region below `8 pt` for a **genuine** constraint is recorded **`PRODUCTION FIT — BOUNDED / TIGHT`** and reported to governance with its **mathematical maximum**. **It is never silently called fully verified.** **The declared basis may not be adjusted to improve a calculated margin** |
+| **G9.6** | **Planned margin is a design check; measurement of the rendered PowerPoint is the final production check.** A producer whose real metrics exceed a governed container **stops and refers back** |
 
 **`GEOMETRY VERIFIED` therefore carries two independent claims, and `T7-L-R3`
 requires both to be stated separately:**
@@ -388,7 +394,9 @@ each requiring a governance decision — are recorded in
 
 **`T7-L-R3 — ACCEPTED`** *(proof that the four one-frame layouts are
 production-infeasible; production-fit status reconciliation)*.
-**`T7-L-R4 — PENDING CHATGPT GOVERNANCE REVIEW`.**
+**`T7-L-R4 — NOT YET ACCEPTED`** *(bounded production-robustness correction
+required — Slide 14 seam choice and avoidably tight local text-fit margins)*.
+**`T7-L-R5 — PENDING CHATGPT GOVERNANCE REVIEW`.**
 
 **ChatGPT has expressly superseded production rule `P9` for Module 7.** This plan
 continues to specify **fourteen logical visual units**. Production now realises
@@ -415,14 +423,18 @@ one-frame layouts.
 | Logical visual | Slide | Physical frames | Physical # | Production fit, `G9` |
 |---|---:|---|---|---|
 | `M7V-01`–`M7V-05` | 1–5 | one each | 1–5 | **VERIFIED** |
-| **`M7V-06`** | **6** | **`M7V-06-A` · `M7V-06-B`** | **6 · 7** | **VERIFIED** — `+24.0` · `+252.0` |
+| **`M7V-06`** | **6** | **`M7V-06-A` · `M7V-06-B`** | **6 · 7** | **VERIFIED** — min region `+8.2` · `+24.8` |
 | `M7V-07`–`M7V-10` | 7–10 | one each | 8–11 | **VERIFIED** |
-| **`M7V-11`** | **11** | **`M7V-11-A` · `M7V-11-B`** | **12 · 13** | **VERIFIED** — `+10.0` · `+188.0` |
+| **`M7V-11`** | **11** | **`M7V-11-A` · `M7V-11-B`** | **12 · 13** | **`M7V-11-A` BOUNDED / TIGHT** — min region `+6.6`, ceiling `+6.7` · **`M7V-11-B` VERIFIED** `+24.8` |
 | `M7V-12` | 12 | one | 14 | **VERIFIED** |
-| **`M7V-13`** | **13** | **`M7V-13-A` · `M7V-13-B`** | **15 · 16** | **VERIFIED** — `+64.0` · `+78.0` |
-| **`M7V-14`** | **14** | **`M7V-14-A` · `M7V-14-B`** | **17 · 18** | **VERIFIED** — `+194.0` · `+8.0` |
+| **`M7V-13`** | **13** | **`M7V-13-A` · `M7V-13-B`** | **15 · 16** | **VERIFIED** — min region `+14.4` · `+29.2` |
+| **`M7V-14`** | **14** | **`M7V-14-A` · `M7V-14-B`** | **17 · 18** | **VERIFIED** — min region `+23.2` · `+30.4`. **Seam corrected to `workflow | close`** |
 
-**All eighteen physical frames pass `G9` with positive margin.** The frame
+**All eighteen physical frames pass `G9` with positive margin, and seventeen also
+pass the `G9.1` robustness target of `≥ 8 pt` on every load-bearing region.**
+**`M7V-11-A` is at its arithmetic ceiling (`+6.6` against `+6.7`) and is recorded
+`BOUNDED / TIGHT`.** **Margins are reported as the minimum LOAD-BEARING REGION
+margin, never the whole-frame margin** (`G9.4`). The frame
 geometry, the per-band and per-zone arithmetic and the connector distribution are
 specified in
 [`presentation/deck-specification.md`](presentation/deck-specification.md) §13 and
@@ -436,9 +448,9 @@ VERIFIED` position refers to the four superseded one-frame layouts.**
 | **`M7V-P1`** | **A continuation is not a connector.** The `A → B` page advance is never drawn as an arrow, line, bracket, chevron or leader. **The deck-wide drawn connector total remains exactly `12`** — four extra physical pages add none |
 | **`M7V-P2`** | **The parent title is reproduced verbatim on both frames.** The continuation label sits inside the reserved title zone, outside the title wording, and carries **no semantic, sequential or progression meaning** |
 | **`M7V-P3`** | **On `M7V-13` the four semantic states are not divided between frames.** All four quadrants sit on frame A, so **no pagination-induced ordering can arise**. The label means *second physical page*, never *next semantic stage* |
-| **`M7V-P4`** | **On `M7V-14` frame A ends at the authority gate.** The page advance never functions as an implied connector across authority, and frame B opens with its own boundary reminder |
+| **`M7V-P4`** | **On `M7V-14` the seam is `workflow | close` — corrected by `T7-L-R5` on governance decision.** Frame A carries the **entire** governed workflow core: `Register 1` → `AUTHORITY REQUIRED — no automatic progression` → `Register 2`, so the gate and the conditional post-authority stages **remain visible together**. The page turn happens only **after** the whole core has been shown, and therefore **cannot be read as progression across authority**. Frame B is the supporting close — the nine-object chain, the roadmap close and the teaching / workshop boundary. **All four drawn connectors sit on frame A; frame B has none.** The `T7-L-R4` authority-gate seam and its post-authority reminder band are **superseded and removed** |
 | **`M7V-P5`** | **The domain family `F.1`–`F.16` is unchanged.** It now has a **single-frame variant** (`M7V-05`, `07`, `08`, `09`, `10`) and a **governed two-frame pagination variant** (`M7V-06`, `M7V-11`). **Splitting authorises no independent graphic redesign** — there are two governed variants, not eight unrelated layouts |
-| **`M7V-P6`** | **Timing is unchanged at `20.0 minutes allocated — not measured`.** Each pair's frame allocations sum exactly to its parent's |
+| **`M7V-P6`** | **Timing is unchanged at `20.0 minutes allocated — not measured`.** Each pair's frame allocations sum exactly to its parent's. **`T7-L-R5` rebalanced `M7V-14`'s two child allocations only**, `0.8 + 0.7` → **`1.0 + 0.5`**, because the corrected seam moves Register 2 onto frame A |
 
 **Neither accepted STOP register is changed.** `M7-S01`–`M7-S18` and
 `M7V-S01`–`M7V-S34` are unchanged, unrenumbered and unreplaced. **The

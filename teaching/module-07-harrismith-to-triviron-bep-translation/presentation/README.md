@@ -6,7 +6,9 @@
 feasibility audit)* ·
 **`T7-L-R3 — ACCEPTED`** *(proof that the four one-frame layouts are
 production-infeasible; production-fit status reconciliation)* ·
-**`T7-L-R4 — PENDING CHATGPT GOVERNANCE REVIEW`** ·
+**`T7-L-R4 — NOT YET ACCEPTED`** *(bounded production-robustness correction
+required — Slide 14 seam choice and avoidably tight local text-fit margins)* ·
+**`T7-L-R5 — PENDING CHATGPT GOVERNANCE REVIEW`** ·
 **`P9 — SUPERSEDED FOR MODULE 7`** by the governed 14-logical / 18-physical
 pagination rule
 
@@ -29,15 +31,17 @@ pagination rule
 
 | Field | Value |
 |---|---|
-| Increment | **`T7-L-R4`** — governed split pagination for logical Slides 6, 11, 13 and 14 |
+| Increment | **`T7-L-R5`** — hardened split-frame production geometry |
 | Architecture | **14 logical teaching units → 18 physical PowerPoint slides.** Only logical Slides 6, 11, 13 and 14 are paginated, each into exactly two frames |
 | Package status | **`MODULE 7 PRESENTATION ASSEMBLY PACKAGE — UNDER GOVERNED CORRECTION`** |
-| Package accepted | **`T7-L — ACCEPTED after T7-L-R`** · **`T7-L0 — ACCEPTED`** · **`T7-L-R2 — ACCEPTED`** · **`T7-L-R3 — ACCEPTED`**. **`T7-L-R4` is NOT accepted** |
+| Package accepted | **`T7-L — ACCEPTED after T7-L-R`** · **`T7-L0 — ACCEPTED`** · **`T7-L-R2 — ACCEPTED`** · **`T7-L-R3 — ACCEPTED`**. **`T7-L-R4` is `NOT YET ACCEPTED`; `T7-L-R5` is NOT accepted** |
 | `T7-L-R2` reason | **Production-feasibility failure** — the accepted type floors were not achievable under the prior visible-copy / geometry combination |
 | `T7-L-R3` result | **`ACCEPTED`** — proof that the four one-frame layouts are production-infeasible in any arrangement (deficits `75`–`230 pt`); no coordinate changed. See [`deck-specification.md`](deck-specification.md) **§12** |
-| `T7-L-R4` result | **Governed pagination implemented.** All four resolved: **18 of 18 physical frames `PRODUCTION FIT — VERIFIED ON DECLARED BASIS`**, margins **`+8.0`** to **`+252.0 pt`**. **No copy removed, no type reduced, no teaching statement added.** See [`deck-specification.md`](deck-specification.md) **§13** |
-| Feasibility position | **18 of 18 physical frames verified. No logical unit unresolved** |
-| Tightest frames | **`M07-S11-A`** (`+10.0` frame, `+1.2` zone) and **`M07-S14-B`** (`+8.0` frame, `+0.4` band) — §13.12. **A producer whose metrics exceed the declared basis STOPS and refers back** |
+| `T7-L-R4` result | **`NOT YET ACCEPTED`.** Its architecture — 14 logical / 18 physical, four two-frame splits, `P9` supersession, titles, labels, timing, copy, type floors, connector census — is **accepted in principle and not reopened**. Two bounded defects remained: the Slide 14 seam choice and avoidably tight local margins |
+| `T7-L-R5` result | **Both defects corrected.** Slide 14 seam changed to **`workflow | close`** on governance decision; **every load-bearing region re-audited under `G9.1`**. **17 of 18 physical frames `PRODUCTION FIT — VERIFIED ON DECLARED BASIS`** with `≥ 8 pt` on every load-bearing region. **No copy removed, no type reduced, no teaching statement added, no content added to consume spare space.** See [`deck-specification.md`](deck-specification.md) **§13.11** and **§13.13** |
+| Feasibility position | **17 of 18 verified · 1 `BOUNDED / TIGHT`. No logical unit unresolved** |
+| The one bounded frame | **`M07-S11-A`** — min load-bearing region margin **`+6.6 pt`** against an `8 pt` target and a **`+6.7 pt` mathematical ceiling**. **`≥ 8 pt` is not achievable there without altering accepted content.** Reported to governance; **production readiness is not claimed for it** — §13.12 |
+| Robustness gain, `T7-L-R4` → `T7-L-R5` | minimum load-bearing region margin per frame: `+2.2 → +8.2` · `+4.8 → +24.8` · `+1.2 → +6.6` · `+4.8 → +24.8` · `+2.4 → +14.4` · `+3.2 → +29.2` · `+7.2 → +23.2` · `+0.4 → +30.4` |
 | Package files | **Seven** — no new file created by `T7-L-R4` |
 | Logical teaching units · physical slides | **14** · **18** |
 | Teaching content | **`ACCEPTED`** — Module 7 teaching baseline |
@@ -267,8 +271,11 @@ governance failure. **The following are deliberate and may not be adjusted:**
   **nothing at all** — a continuation is not a connector;
 - logical Slide 13's **four states sitting together on frame A**, so pagination
   can create no ordering;
-- logical Slide 14's **frame A ending at the authority gate**, and frame B's
-  **post-authority reminder band**;
+- logical Slide 14's **`workflow | close` seam**, which keeps the declaration,
+  both registers and the authority gate together on frame A;
+- the **frame reserve deliberately left unused** on `M07-S06-B`, `M07-S11-B` and
+  `M07-S14-A` — sparse is acceptable, and spare capacity is never filled with
+  prose;
 - every **boundary strip**, which is a principal object and never small print.
 
 ## 11. Timing and slide progression
@@ -289,9 +296,9 @@ tested duration or a final duration.**
 
 | Item | State |
 |---|---|
-| Assembly package (`T7-L`) | **`ACCEPTED after T7-L-R`**; **`T7-L-R2` and `T7-L-R3` ACCEPTED**; **`T7-L-R4` PENDING GOVERNANCE REVIEW** |
+| Assembly package (`T7-L`) | **`ACCEPTED after T7-L-R`**; **`T7-L-R2` and `T7-L-R3` ACCEPTED**; **`T7-L-R4` NOT YET ACCEPTED**; **`T7-L-R5` PENDING GOVERNANCE REVIEW** |
 | PowerPoint (`T7-M`) | **`PRODUCED; QC FAILED; NOT ACCEPTED`** — external, not committed here |
-| PowerPoint (`T7-M-R1`) | **`NOT STARTED`. Not authorised.** It may begin only after ChatGPT accepts **`T7-L-R4`** |
+| PowerPoint (`T7-M-R1`) | **`NOT STARTED`. Not authorised.** It may begin only after ChatGPT accepts **`T7-L-R5`** |
 | Future deck filename convention | `HFS-BIM-Management-Module-07-Harrismith-to-Triviron-BEP-Translation-REV01.pptx` — **a naming convention only; no binary exists, and no `.pptx` is committed to this repository** |
 | Rendered assets | **`NONE`** |
 | Deck review | **NOT PERFORMED** |
@@ -310,7 +317,7 @@ Navisworks configuration.**
 
 ## 14. Next gate
 
-**ChatGPT governance review of `T7-L-R4`.**
+**ChatGPT governance review of `T7-L-R5`.**
 
 `T7-L` is **`ACCEPTED after T7-L-R`**, `T7-L0` is **`ACCEPTED`**, and `T7-L-R2` is
 **`ACCEPTED`** as copy-density / type-floor reconciliation and feasibility audit —
@@ -324,20 +331,30 @@ accepted**.
 governed split pagination — is **`PENDING CHATGPT GOVERNANCE REVIEW`** and **is
 not accepted**.
 
-**`T7-L-R4` resolves all four previously unresolved logical units** by producing
-them across two physical frames each, under the expressly authorised relaxation of
-`P9`. **All eighteen physical frames are `PRODUCTION FIT — VERIFIED ON DECLARED
-BASIS` with positive margin.** No copy was removed, no type reduced, no teaching
-statement added, and no new Markdown source file created.
+`T7-L-R4`'s architecture is accepted in principle and is not reopened.
+**`T7-L-R5` corrects its two bounded production-readiness defects.**
 
-**One defect was found and is reported rather than silently resolved:**
-[`deck-specification.md`](deck-specification.md) **§12.6.1**'s prose and its
-allocation table disagree about where logical Slide 14 splits. `T7-L-R4`
-implements the **authority seam** the increment expressly prescribes; §13.9
-records both arrangements and their arithmetic for governance.
+**Slide 14's seam is now `workflow | close`**, on ChatGPT's decision: frame A
+carries the entire governed workflow core — declaration, Register 1, the authority
+gate and Register 2 — so the gate and the conditional post-authority stages remain
+visible together and **the page turn cannot be read as progression across
+authority**. The `T7-L-R4` post-authority reminder band is **removed as obsolete
+production mitigation, not as teaching content**.
+
+**Local production slack is hardened.** Every load-bearing region was re-audited
+under `G9.1`; **17 of 18 physical frames now carry `≥ 8 pt` planned slack on every
+load-bearing region**, against `T7-L-R4` minima as low as `+0.4 pt`. Every gain
+came from **enlarging existing containers with capacity the frames already had** —
+**no content was added, removed or shortened, and the declared basis is
+unchanged**.
+
+**One frame is bounded and is reported, not hidden.** **`M07-S11-A`** reaches
+`+6.6 pt` against a **`+6.7 pt` mathematical ceiling**: `≥ 8 pt` would need
+`6.4 pt` more than the canvas provides. It is recorded **`PRODUCTION FIT —
+BOUNDED / TIGHT`** and **production readiness is not claimed for it**.
 
 **`T7-M-R1` is `NOT STARTED` and is not authorised.** It may begin only after
-ChatGPT accepts `T7-L-R4`.
+ChatGPT accepts `T7-L-R5`.
 
 **Publication automation remains `PAUSED`.** Module 8 remains untouched: teaching
 baseline **`ACCEPTED`**, visual production **`NOT STARTED`**.

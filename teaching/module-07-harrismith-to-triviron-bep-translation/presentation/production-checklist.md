@@ -2,7 +2,8 @@
 
 **`MODULE 7 PRESENTATION ASSEMBLY PACKAGE — UNDER GOVERNED CORRECTION`** ·
 **`T7-L — ACCEPTED after T7-L-R`** · **`T7-L-R2 — ACCEPTED`** ·
-**`T7-L-R3 — ACCEPTED`** · **`T7-L-R4 — PENDING CHATGPT GOVERNANCE REVIEW`** ·
+**`T7-L-R3 — ACCEPTED`** · **`T7-L-R4 — NOT YET ACCEPTED`** ·
+**`T7-L-R5 — PENDING CHATGPT GOVERNANCE REVIEW`** ·
 **`P9 — SUPERSEDED FOR MODULE 7`**
 
 **`TEACHING PRODUCTION HANDOFF — NOT TRIVIRON GOVERNANCE`**
@@ -20,9 +21,17 @@
 > Every other logical unit is **one** physical slide. See
 > [`deck-specification.md`](deck-specification.md) **§13**.
 >
-> **All eighteen physical frames are `PRODUCTION FIT — VERIFIED ON DECLARED
-> BASIS`.** The four one-frame layouts for logical Slides 6, 11, 13 and 14 are
-> **withdrawn from production** and must not be built.
+> **Seventeen of eighteen physical frames are `PRODUCTION FIT — VERIFIED ON
+> DECLARED BASIS`.** **`M07-S11-A` is `PRODUCTION FIT — BOUNDED / TIGHT`** at
+> `+6.6 pt` against an `8 pt` target and a `+6.7 pt` arithmetic ceiling — build it
+> with particular care and **refer back rather than shrink**. The four one-frame
+> layouts for logical Slides 6, 11, 13 and 14 are **withdrawn from production**
+> and must not be built.
+>
+> **Logical Slide 14 splits at the `workflow | close` seam — `T7-L-R5`.** Frame A
+> carries declaration + Register 1 + authority gate + Register 2 and **all four**
+> drawn connectors; frame B carries the method chain, roadmap close and boundary
+> strip with **zero** connectors.
 >
 > ### `T7-M-R1` IS NOT AUTHORISED
 >
@@ -90,19 +99,26 @@ to:**
       **`PRODUCTION FIT — VERIFIED ON DECLARED BASIS`** with positive margin.
 - [ ] Build the **A/B frame geometry of §13.7–§13.9** for logical Slides 6, 11, 13
       and 14. **Do not build their superseded one-frame geometry.**
-- [ ] Note the two tightest frames — **`M07-S11-A`** (`+10.0` frame, `+1.2` zone)
-      and **`M07-S14-B`** (`+8.0` frame, `+0.4` band) — recorded at §13.12.
-      **On these especially: STOP AND REFER BACK rather than shrink.**
+- [ ] Read the **production-robustness criterion** at
+      [`deck-specification.md`](deck-specification.md) **§13.13** and the
+      per-region margins at **§13.11**. **Every load-bearing region carries
+      `≥ 8 pt` planned slack except `M07-S11-A`**, which is at its arithmetic
+      ceiling of `+6.7 pt` and recorded **`BOUNDED / TIGHT`** at §13.12.
+- [ ] **On `M07-S11-A` especially: STOP AND REFER BACK rather than shrink.**
+      `+6.6 pt` is about a third of one 18 pt line.
 - [ ] Confirm, for every slide you do build, that its region geometry carries
       **both** claims: **coordinate arithmetic verified** *and* **production fit
       verified with positive margin**. **Coordinate arithmetic alone is not
       feasibility** — that misreading is what produced the `7.8 pt` deck. See
       [`deck-specification.md`](deck-specification.md) **§12.7**.
-- [ ] Run the **`G9` text-fit self-check** of
+- [ ] Run the **`G9`–`G9.6` text-fit self-check** of
       [`../visual-demonstration-plan.md`](../visual-demonstration-plan.md) §2.3
       on every region before drawing it: worst-case string, chars per line, lines
-      required, text height, region height, **remaining margin ≥ 8 pt where
-      reasonably possible and never negative**.
+      required, text height, region height, remaining margin. **A zone's height is
+      the worst SINGLE co-equal object, never a blend (`G9.2`).** **Report every
+      region individually — a whole-frame margin never substitutes (`G9.4`).**
+- [ ] **Do not fill spare capacity with content (`G9.3`).** Frame reserve is
+      recorded and left unused. **Sparse is acceptable.**
 
 ## 2. Global build checks
 
@@ -127,9 +143,15 @@ to:**
 - [ ] **Logical Slide 13:** all four semantic states sit together on frame A.
       **The pagination creates no ordering, sequence, first/last treatment or
       progression.**
-- [ ] **Logical Slide 14:** frame A ends at the authority gate; frame B opens with
-      its post-authority reminder band. **The page advance never bypasses,
-      crosses or carries authority.**
+- [ ] **Logical Slide 14 splits at the `workflow | close` seam.** Frame A carries
+      the **entire** workflow core — declaration, Register 1, the authority gate
+      and Register 2 — and **all four** drawn connectors. Frame B carries the
+      method chain, roadmap close and boundary strip, with **zero** connectors.
+      **The page advance never bypasses, crosses or carries authority**, because
+      the whole core is shown before the page turns.
+- [ ] **Frame B carries no post-authority reminder band.** `T7-L-R4`'s band was
+      obsolete production mitigation for the superseded authority-gate seam and is
+      **removed**. **Do not reinstate it.**
 - [ ] **Each A/B timing pair sums to its parent allocation** — logical 6
       `1.0 + 0.5 = 1.5`, logical 11 `1.0 + 0.5 = 1.5`, logical 13
       `0.8 + 0.6 = 1.4`, logical 14 `0.8 + 0.7 = 1.5`.
@@ -454,6 +476,38 @@ judgement; it is a measurement.**
 - [ ] **If any box in this section cannot be ticked, the deck is not finished and
       is not to be presented as finished.** Record it as a
       **`STOP AND REFER BACK`** against the specific slide and run.
+
+### 4.1 Rendered measurement — the final production check
+
+> **Planned margin is a design check on a declared convention. Rendered
+> PowerPoint measurement is the final production check.** The `≥ 8 pt` planned
+> slack of `G9.1` is calculated on the §1.1 basis; it is **not** a measurement of
+> your font. **These boxes are measured in the built file, not derived from the
+> specification.**
+
+- [ ] **Disable PowerPoint AutoFit on every text container** — *Shrink text on
+      overflow* and *Resize shape to fit text* are both **off**. **AutoFit
+      silently reduces font size and would defeat every type floor in this
+      package.**
+- [ ] **After AutoFit is disabled, re-read every explicit run size.** Confirm the
+      recorded sizes are the sizes actually set — **not a size AutoFit reduced
+      before you measured**.
+- [ ] **Measure the rendered height of every load-bearing region** and compare it
+      with the planned allocation in
+      [`deck-specification.md`](deck-specification.md) §13.7–§13.9. **Record
+      planned versus rendered for each.**
+- [ ] **No region overflows its container. No text is clipped, hidden behind a
+      border, or scrolled out of view.** Inspect each region visually **and** by
+      measurement.
+- [ ] **No text box has been enlarged, moved or re-anchored to make copy fit.**
+      Geometry comes from the specification.
+- [ ] **If real rendered metrics exceed a governed container, STOP AND REFER
+      BACK.** **Do not** shrink type, condense a font, reduce character spacing,
+      reduce line spacing, enable AutoFit, narrow a card or break co-equality.
+- [ ] **Give `M07-S11-A` explicit attention** — its planned slack is `+6.6 pt`.
+      Measure it first; if it does not fit, the deck stops there.
+- [ ] Record the outcome as **planned-versus-rendered evidence** and hand it to
+      [`review-checklist.md`](review-checklist.md) §8.
 
 ## 5. Accessibility checks
 

@@ -2,7 +2,8 @@
 
 **`MODULE 7 PRESENTATION ASSEMBLY PACKAGE — UNDER GOVERNED CORRECTION`** ·
 **`T7-L — ACCEPTED after T7-L-R`** · **`T7-L-R2 — ACCEPTED`** ·
-**`T7-L-R3 — ACCEPTED`** · **`T7-L-R4 — PENDING CHATGPT GOVERNANCE REVIEW`**
+**`T7-L-R3 — ACCEPTED`** · **`T7-L-R4 — NOT YET ACCEPTED`** ·
+**`T7-L-R5 — PENDING CHATGPT GOVERNANCE REVIEW`**
 
 **`TEACHING PRODUCTION HANDOFF — NOT TRIVIRON GOVERNANCE`**
 
@@ -37,7 +38,7 @@
 | Rule | Requirement |
 |---|---|
 | **C8** | **A continuation frame is the same teaching unit.** On reaching `PART 2 OF 2`, say so: *"same question set, second page"* — never *"next topic"* |
-| **C9** | **`page advance ≠ semantic progression`** on logical Slide 13, and **`page advance ≠ authority progression`** on logical Slide 14. Both are mandatory spoken points, not optional colour |
+| **C9** | **`page advance ≠ governance progression`.** On logical Slide 13 say **`page advance ≠ semantic progression`**; on logical Slide 14 say **`page advance ≠ governance progression`**. Both are mandatory spoken points, not optional colour |
 | **C1** | **Never answer a `TDR-` question for Triviron.** Not as an example, not "just to illustrate", not "off the record" |
 | **C2** | **Never deliver a boundary strip as small print.** Read it; it is content |
 | **C3** | **Never say a zero is a problem.** Zero candidate decisions is the controlled position |
@@ -349,15 +350,19 @@ answer is:**
   And on the workshop: it is **a controlled decision-making process in which the
   questions, required evidence, authority and status are made explicit** — the
   enumeration that left the boundary strip.
-- **`PART 1 OF 2` → `PART 2 OF 2` — MANDATORY.** **Page one ends at the
-  authority gate. Stop there and say why before advancing:**
-  **`page advance ≠ authority progression`** — *"turning this page is not the
-  authority being granted. Nothing on the next page follows automatically; it
-  follows only if an appropriate authority is engaged and authorises it."* Then
-  read Frame B's reminder band aloud: **`TEACHING WORKFLOW — NOT A CURRENT
-  TRIVIRON WORKFLOW · continued only when authorised`**, and note that stage 5
-  still reads **`candidate decision, if authorised`** and stage 7 still reads
-  **`only when earned`**.
+- **`PART 1 OF 2` → `PART 2 OF 2` — MANDATORY, and corrected by `T7-L-R5`.**
+  **Page one now carries the complete teaching workflow core** — declaration,
+  Register 1, the authority gate and Register 2 together. **Deliver the whole
+  workflow on page one**, stopping at the gate to say why it exists before
+  reading the conditional stages: stage 5 reads **`candidate decision, if
+  authorised`** and stage 7 reads **`only when earned`**. **The authority
+  boundary is crossed nowhere — not by an arrow and not by the page.**
+  Then advance and frame page two for what it is: *"that is the whole workflow.
+  What follows is how we reason about it, and where Module 8 picks it up."*
+  **Say `page advance ≠ governance progression`** — the page turn is
+  **`workflow core → supporting explanation and close`**, and nothing more. It
+  is **not** a new teaching topic, **not** authority, **not** approval, **not**
+  acceptance, and **not** a workshop happening.
 - **Fallback.** *"I cannot tell you when, because nothing here schedules
   anything. Module 8 is the next teaching module, not the next event."*
 - **Module close.** *"Six modules taught you how a managed project works. This
@@ -380,6 +385,7 @@ answer is:**
 | Rehearsal | **`NOT PERFORMED`** |
 | `T7-L-R2` additions | **Nine `say aloud` cues — Slides 4, 5, 6, 7, 8, 9, 10, 11, 12, 14** |
 | `T7-L-R4` additions | **Rules `C8`–`C9`; four `PART 1 OF 2 → PART 2 OF 2` transition cues; §10** |
+| `T7-L-R5` changes | **Slide 14 transition rewritten for the `workflow | close` seam; `C9` generalised to `page advance ≠ governance progression`; Slide 14 child allocations `1.0 / 0.5`** |
 | Logical teaching units | **14** |
 | Physical delivery sections | **18** — ten single-frame, four A/B pairs |
 | New teaching statement introduced by `T7-L-R2` or `T7-L-R4` | **None** |
@@ -400,18 +406,27 @@ is **one** teaching unit delivered across two pages.
 | 14 | 12 | single | 1.5 | as §7 |
 | **15** | **13** | **A** | **0.8** | **all four semantic states together.** Say there is no first and no last |
 | **16** | **13** | **B** | **0.6** | `CURRENT STATUS POSITION` and `EVIDENCE AVAILABILITY`, separately. **`page advance ≠ semantic progression`** |
-| **17** | **14** | **A** | **0.8** | declaration, Register 1, **stop at the authority gate** |
-| **18** | **14** | **B** | **0.7** | Register 2, method chain, roadmap close, teaching close. **`page advance ≠ authority progression`** |
+| **17** | **14** | **A** | **1.0** | **the whole workflow core** — declaration, Register 1, the authority gate, Register 2. Stop at the gate and say why |
+| **18** | **14** | **B** | **0.5** | method chain, roadmap close, teaching close. **`page advance ≠ governance progression`** |
 | | | | **20.0** | **allocated, not measured** |
 
 **Pair sums:** logical 6 `1.0 + 0.5 = 1.5` · logical 11 `1.0 + 0.5 = 1.5` ·
-logical 13 `0.8 + 0.6 = 1.4` · logical 14 `0.8 + 0.7 = 1.5`. **Each equals its
-parent allocation exactly.**
+logical 13 `0.8 + 0.6 = 1.4` · logical 14 **`1.0 + 0.5 = 1.5`**. **Each equals its
+parent allocation exactly.** **`T7-L-R5` rebalanced logical Slide 14's children
+only**, from `0.8 + 0.7`, because the corrected seam moves Register 2 onto frame
+A. **Deck total unchanged at `20.0` — allocated, not measured.**
 
 **Section recovery (§6) is unchanged in effect.** If time is short inside a pair,
-compress the spoken content — **never skip Frame B**, because it carries the
-governing boundary, the mandatory programme-bounded statements and, on logical
-Slide 14, the post-authority reminder.
+compress the spoken content — **never skip Frame B**, because on logical Slides 6
+and 11 it carries the governing boundary and the mandatory programme-bounded
+statements, on logical Slide 13 the status and evidence positions, and on logical
+Slide 14 the teaching / workshop boundary and the Module 8 handoff.
+
+**`T7-L-R5` note.** The `T7-L-R4` post-authority reminder band on Slide 14's
+frame B is **removed** — the corrected seam keeps the declaration, both registers
+and the gate together on frame A, so the mitigation is obsolete. **No teaching
+statement was removed**, and no cue lost a point: the declaration and the full
+authority gate are delivered on frame A.
 
 ## 9. `T7-L-R2` spoken-delivery transfer record
 
