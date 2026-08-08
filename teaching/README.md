@@ -158,7 +158,7 @@ teaching/
 │   ├── exercises.md                 practice and self-assessment — 91 exercises
 │   ├── visual-demonstration-plan.md fourteen visual specifications, M6V-01 to M6V-14, accepted
 │   └── presentation/                assembly package — production handoff, pending review
-├── module-07-harrismith-to-triviron-bep-translation/   Module 7 — teaching content and visual specification ACCEPTED; visual sources not started
+├── module-07-harrismith-to-triviron-bep-translation/   Module 7 — teaching content and visual specification ACCEPTED; visual sources pending review
 │   ├── README.md                    status, objective, boundary, exclusions, seven domains, STOP register
 │   ├── source-inventory.md          source classes A–F; class F (Triviron) — NONE IDENTIFIED
 │   ├── translation-framework.md     the translation method and its STOP rule
@@ -255,8 +255,11 @@ visual concepts `M7V-01`–`M7V-14` and visual-production STOPs
 `M7V-S01`–`M7V-S34` in
 [`module-07-harrismith-to-triviron-bep-translation/visual-demonstration-plan.md`](module-07-harrismith-to-triviron-bep-translation/visual-demonstration-plan.md),
 **`VISUAL-PRODUCTION CONTROL — NOT TRIVIRON GOVERNANCE`**. **Those acceptances
-cover teaching content and the visual specification only** — visual sources
-(`T7-K`), presentation assembly and production remain **`NOT STARTED`**, and
+cover teaching content and the visual specification only.** The **`T7-K`
+visual-source package** — eighteen files in
+[`assets/module-07/`](assets/module-07/), `M07-S01`–`M07-S14` — is
+**`PENDING CHATGPT GOVERNANCE REVIEW` and is not accepted**; presentation
+assembly and production remain **`NOT STARTED`**, and
 rehearsal and measured timing remain **`NOT PERFORMED`**. **Module 8 is the
 current module: `T8-A — ACCEPTED` and the architecture baseline is `ACCEPTED
 after T8-B`** in

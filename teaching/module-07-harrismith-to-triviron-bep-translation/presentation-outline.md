@@ -11,8 +11,9 @@ the **teaching-content baseline only** — it is not Triviron governance, not a
 Triviron BEP, and not visual design, presentation production, rehearsal or
 measured timing. **The visual specification is separately accepted**
 ([`visual-demonstration-plan.md`](visual-demonstration-plan.md) — `ACCEPTED
-after T7-J-R + T7-J-R2`); **visual sources, presentation assembly and
-production remain `NOT STARTED`, and rehearsal and measured timing remain
+after T7-J-R + T7-J-R2`), and the **`T7-K` visual-source package is
+`PENDING CHATGPT GOVERNANCE REVIEW` — not accepted**. **Presentation assembly
+and production remain `NOT STARTED`, and rehearsal and measured timing remain
 `NOT PERFORMED`.**
 
 **Central teaching purpose.** *How do we use Harrismith as a reference
@@ -316,7 +317,7 @@ reality.
 | Timing | **`20.0 minutes allocated — not measured`** — validated sum 20.0 |
 | Register | **`ACCEPTED after T7-C-R` — unchanged by T7-D, T7-E, T7-F and T7-G**; an input, not a drafting surface |
 | Visual specification | **`ACCEPTED after T7-J-R + T7-J-R2`** — [`visual-demonstration-plan.md`](visual-demonstration-plan.md); `M7V-01`–`M7V-14`. **It changed no teaching content on this outline** |
-| Visual sources (`T7-K`) | **`NOT STARTED`** — may begin only after `T7-J0` governance review |
+| Visual sources (`T7-K`) | **`PENDING CHATGPT GOVERNANCE REVIEW`** — eighteen files in `teaching/assets/module-07/`; **not accepted**. They changed no teaching content on this outline |
 | Presentation production | **`NOT STARTED`** |
 | Rehearsal · measured timing | **`NOT PERFORMED`** |
 | Publication automation | **`PAUSED`** |

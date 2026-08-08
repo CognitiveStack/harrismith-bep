@@ -10,7 +10,7 @@ Triviron BEP, not a project appointment, and it does not make the Translation
 Decision Register Triviron governance. **Visual specification `ACCEPTED after
 T7-J-R + T7-J-R2`** — `T7-I` **ACCEPTED**, and the **`MODULE 7
 VISUAL-SPECIFICATION BASELINE` is `ACCEPTED`**; that acceptance covers the
-specification only. Visual sources **`NOT STARTED`** · presentation assembly
+specification only. Visual sources **`T7-K — PENDING CHATGPT GOVERNANCE REVIEW`** · presentation assembly
 **`NOT STARTED`** · presentation production **`NOT STARTED`** · rehearsal
 **`NOT PERFORMED`** · measured timing **`NOT PERFORMED`**.
 
@@ -29,8 +29,11 @@ teaching-content baseline as produced, with presenter notes for all fourteen
 slides and **55 exercises** (`E1`–`E55`). **Production completion is not
 governance acceptance.** **The visual specification exists and is accepted** —
 [`visual-demonstration-plan.md`](visual-demonstration-plan.md), fourteen
-concepts `M7V-01`–`M7V-14`, **`ACCEPTED after T7-J-R + T7-J-R2`**. **No visual
-source, presentation package or PowerPoint exists for Module 7.** The
+concepts `M7V-01`–`M7V-14`, **`ACCEPTED after T7-J-R + T7-J-R2`**. **The `T7-K`
+visual-source package exists** — [`../assets/module-07/`](../assets/module-07/),
+eighteen files, `M07-S01`–`M07-S14` — and is **`PENDING CHATGPT GOVERNANCE
+REVIEW`, not accepted**. **No rendered asset, presentation package or PowerPoint
+exists for Module 7.** The
 [Translation Decision Register](translation-decision-register.md) exists as a
 **register baseline** — 21 rows, zero controlled Triviron evidence identified,
 zero candidate decisions — and is **`TEACHING / TRANSLATION CONTROL — NOT
@@ -216,5 +219,6 @@ Navisworks configuration. **Publication automation remains `PAUSED`.**
 | **T7-J** | **Visual specification** — module-wide visual rules · visual-production STOPs `M7V-S01`–`M7V-S34` · fourteen visual concepts `M7V-01`–`M7V-14`, 34 fields each · Module 8 empty-grammar reuse rules | ✅ **ACCEPTED after T7-J-R + T7-J-R2** |
 | **T7-J-R** | `M7V-14` workshop-planning evidence-boundary correction | ✅ **ACCEPTED** |
 | **T7-J-R2** | `M7V-14` header-geometry reconciliation | ✅ **ACCEPTED** |
-| **T7-J0** | Visual-specification acceptance propagation | **`PENDING CHATGPT GOVERNANCE REVIEW`** |
-| Later | Visual sources (**`T7-K` — `NOT STARTED`; may begin only after `T7-J0` governance review**) · presentation assembly (`T7-L`) · PowerPoint production (`T7-M`) · register evidence/population work | **Not started — each requires its own authorised increment** |
+| **T7-J0** | Visual-specification acceptance propagation | ✅ **ACCEPTED** |
+| **T7-K** | **Visual-source package** — `teaching/assets/module-07/`, eighteen files: fourteen native visual sources `M07-S01`–`M07-S14`, a visual register, a slide-visual map, a package README and a rendered-status README | **`PENDING CHATGPT GOVERNANCE REVIEW`** |
+| Later | Presentation assembly (`T7-L`) · PowerPoint production (`T7-M`) · register evidence/population work | **Not started — each requires its own authorised increment** |
