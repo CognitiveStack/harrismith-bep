@@ -1,6 +1,6 @@
 # Module 7 — Visual Register
 
-**`MODULE 7 VISUAL-SOURCE PACKAGE — T7-K PENDING CHATGPT GOVERNANCE REVIEW`**
+**`MODULE 7 VISUAL-SOURCE PACKAGE — ACCEPTED`** · **`T7-K — ACCEPTED`**
 
 **`VISUAL SOURCES — NOT RENDERED`**
 
@@ -10,7 +10,7 @@
 geometry state and risk for fourteen native visual sources. It decides nothing,
 approves nothing and establishes nothing about Triviron.
 
-**Fourteen active rows. No row is accepted.**
+**Fourteen active rows. All fourteen are `ACCEPTED under T7-K`.**
 
 ---
 
@@ -18,20 +18,20 @@ approves nothing and establishes nothing about Triviron.
 
 | Source | Spec | Slide | Title | Source class | Source status | Geometry | External imagery | Live evidence | Rendered | Principal STOP risks |
 |---|---|---:|---|---|---|---|---|---|---|---|
-| `M07-S01` | `M7V-01` | 1 | Where we are: Harrismith → Triviron | `NATIVE ORIGINAL DIAGRAM` (typographic/concept) | `T7-K PENDING CHATGPT GOVERNANCE REVIEW` | **VERIFIED** | `NONE REQUIRED` | `NONE REQUIRED` | `NONE` | Roadmap read as a project plan or scheduled workshop — `M7-S10`, `M7-S11`, `M7V-S31` |
-| `M07-S02` | `M7V-02` | 2 | Translate the method, not the answers | `NATIVE ORIGINAL DIAGRAM` | `T7-K PENDING CHATGPT GOVERNANCE REVIEW` | **VERIFIED** | `NONE REQUIRED` | `NONE REQUIRED` | `NONE` | A cross-column connector or implied row pairing; the right column read as defaults — `M7-S15`, `M7V-S13` |
-| `M07-S03` | `M7V-03` | 3 | The translation chain | `NATIVE ORIGINAL DIAGRAM` | `T7-K PENDING CHATGPT GOVERNANCE REVIEW` | **VERIFIED** | `NONE REQUIRED` | `NONE REQUIRED` | `NONE` | A connector crossing the STOP band; the chain read as a delivering pipeline — `M7V-S16`, `M7V-S17`, `M7V-S18` |
-| `M07-S04` | `M7V-04` | 4 | The decision backlog: 21 questions, zero Triviron answers | `NATIVE ORIGINAL DIAGRAM` | `T7-K PENDING CHATGPT GOVERNANCE REVIEW` | **VERIFIED** | `NONE REQUIRED` | `NONE REQUIRED` | `NONE` | The classification strip read as a ladder; zeros read as failure — `M7V-S21`, `M7V-S23`, `M7V-S26` |
-| `M07-S05` | `M7V-05` | 5 | Domain 1: Coordination governance | `NATIVE ORIGINAL DIAGRAM` | `T7-K PENDING CHATGPT GOVERNANCE REVIEW` | **VERIFIED** | `NONE REQUIRED` | `NONE REQUIRED` | `NONE` | A drawn Triviron document architecture from zone 2 — `M7-S14`, `M7V-S11` |
-| `M07-S06` | `M7V-06` | 6 | Domain 2: Roles and authority | `NATIVE ORIGINAL DIAGRAM` | `T7-K PENDING CHATGPT GOVERNANCE REVIEW` | **VERIFIED** | `NONE REQUIRED` | `NONE REQUIRED` | `NONE` | **Highest.** An org chart; a filled holder; `organisation chart` drawn rather than named — `M7-S04`, `M7-S16`, `M7V-S02`, `M7V-S03` |
-| `M07-S07` | `M7V-07` | 7 | Domain 3: Inputs and federation | `NATIVE ORIGINAL DIAGRAM` | `T7-K PENDING CHATGPT GOVERNANCE REVIEW` | **VERIFIED** | `NONE REQUIRED` | `NONE REQUIRED` | `NONE` | A container topology; `METHOD` read as settled — `M7-S02`, `M7-S03`, `M7V-S05`, `M7V-S19` |
-| `M07-S08` | `M7V-08` | 8 | Domain 4: Checks and tolerances | `NATIVE ORIGINAL DIAGRAM` | `T7-K PENDING CHATGPT GOVERNANCE REVIEW` | **VERIFIED** | `NONE REQUIRED` | `NONE REQUIRED` | `NONE` | The exclusion list read as a menu; any numeric value — `M7-S05`, `M7-S06`, `M7V-S07` |
-| `M07-S09` | `M7V-09` | 9 | Domain 5: Findings, Issues and statuses | `NATIVE ORIGINAL DIAGRAM` | `T7-K PENDING CHATGPT GOVERNANCE REVIEW` | **VERIFIED** | `NONE REQUIRED` | `NONE REQUIRED` | `NONE` | A drawn status set becoming a Triviron taxonomy; finding → Issue as automatic — `M7-S07`, `M7V-S06` |
-| `M07-S10` | `M7V-10` | 10 | Domain 6: Verification, evidence and completion | `NATIVE ORIGINAL DIAGRAM` | `T7-K PENDING CHATGPT GOVERNANCE REVIEW` | **VERIFIED** | `NONE REQUIRED` | `NONE REQUIRED` | `NONE` | Harrismith evidence read as Triviron's; a drawn cycle — `M7-S12`, `M7-S15`, `M7V-S05` |
-| `M07-S11` | `M7V-11` | 11 | Domain 7: Publication and acceptance boundary | `NATIVE ORIGINAL DIAGRAM` | `T7-K PENDING CHATGPT GOVERNANCE REVIEW` | **VERIFIED** | `NONE REQUIRED` | `NONE REQUIRED` | `NONE` | An invented authority holder **in either direction**; an arrow between the four acts — `M7-S09`, `M7-S16`, `M7V-S09` |
-| `M07-S12` | `M7V-12` | 12 | What the evidence lets you say | `NATIVE ORIGINAL DIAGRAM` | `T7-K PENDING CHATGPT GOVERNANCE REVIEW` | **VERIFIED** | `NONE REQUIRED` | `NONE REQUIRED` | `NONE` | The five classifications read as a ladder; the two `ESTABLISHED` meanings merged — `M7-S18`, `M7V-S21`, `M7V-S23` |
-| `M07-S13` | `M7V-13` | 13 | Unknowns are controlled work | `NATIVE ORIGINAL DIAGRAM` | `T7-K PENDING CHATGPT GOVERNANCE REVIEW` | **VERIFIED** | `NONE REQUIRED` | `NONE REQUIRED` | `NONE` | The four states read as stages; `NONE IDENTIFIED` read as a fifth status — `M7-S13`, `M7V-S22`, `M7V-S25` |
-| `M07-S14` | `M7V-14` | 14 | From decision backlog to BEP workshop | `NATIVE ORIGINAL DIAGRAM` | `T7-K PENDING CHATGPT GOVERNANCE REVIEW` | **VERIFIED** | `NONE REQUIRED` | `NONE REQUIRED` | `NONE` | A teaching workflow read as a project plan or schedule; a connector crossing the authority gate — `M7-S10`, `M7-S11`, `M7V-S16`, `M7V-S30` |
+| `M07-S01` | `M7V-01` | 1 | Where we are: Harrismith → Triviron | `NATIVE ORIGINAL DIAGRAM` (typographic/concept) | `ACCEPTED under T7-K` | **VERIFIED** | `NONE REQUIRED` | `NONE REQUIRED` | `NONE` | Roadmap read as a project plan or scheduled workshop — `M7-S10`, `M7-S11`, `M7V-S31` |
+| `M07-S02` | `M7V-02` | 2 | Translate the method, not the answers | `NATIVE ORIGINAL DIAGRAM` | `ACCEPTED under T7-K` | **VERIFIED** | `NONE REQUIRED` | `NONE REQUIRED` | `NONE` | A cross-column connector or implied row pairing; the right column read as defaults — `M7-S15`, `M7V-S13` |
+| `M07-S03` | `M7V-03` | 3 | The translation chain | `NATIVE ORIGINAL DIAGRAM` | `ACCEPTED under T7-K` | **VERIFIED** | `NONE REQUIRED` | `NONE REQUIRED` | `NONE` | A connector crossing the STOP band; the chain read as a delivering pipeline — `M7V-S16`, `M7V-S17`, `M7V-S18` |
+| `M07-S04` | `M7V-04` | 4 | The decision backlog: 21 questions, zero Triviron answers | `NATIVE ORIGINAL DIAGRAM` | `ACCEPTED under T7-K` | **VERIFIED** | `NONE REQUIRED` | `NONE REQUIRED` | `NONE` | The classification strip read as a ladder; zeros read as failure — `M7V-S21`, `M7V-S23`, `M7V-S26` |
+| `M07-S05` | `M7V-05` | 5 | Domain 1: Coordination governance | `NATIVE ORIGINAL DIAGRAM` | `ACCEPTED under T7-K` | **VERIFIED** | `NONE REQUIRED` | `NONE REQUIRED` | `NONE` | A drawn Triviron document architecture from zone 2 — `M7-S14`, `M7V-S11` |
+| `M07-S06` | `M7V-06` | 6 | Domain 2: Roles and authority | `NATIVE ORIGINAL DIAGRAM` | `ACCEPTED under T7-K` | **VERIFIED** | `NONE REQUIRED` | `NONE REQUIRED` | `NONE` | **Highest.** An org chart; a filled holder; `organisation chart` drawn rather than named — `M7-S04`, `M7-S16`, `M7V-S02`, `M7V-S03` |
+| `M07-S07` | `M7V-07` | 7 | Domain 3: Inputs and federation | `NATIVE ORIGINAL DIAGRAM` | `ACCEPTED under T7-K` | **VERIFIED** | `NONE REQUIRED` | `NONE REQUIRED` | `NONE` | A container topology; `METHOD` read as settled — `M7-S02`, `M7-S03`, `M7V-S05`, `M7V-S19` |
+| `M07-S08` | `M7V-08` | 8 | Domain 4: Checks and tolerances | `NATIVE ORIGINAL DIAGRAM` | `ACCEPTED under T7-K` | **VERIFIED** | `NONE REQUIRED` | `NONE REQUIRED` | `NONE` | The exclusion list read as a menu; any numeric value — `M7-S05`, `M7-S06`, `M7V-S07` |
+| `M07-S09` | `M7V-09` | 9 | Domain 5: Findings, Issues and statuses | `NATIVE ORIGINAL DIAGRAM` | `ACCEPTED under T7-K` | **VERIFIED** | `NONE REQUIRED` | `NONE REQUIRED` | `NONE` | A drawn status set becoming a Triviron taxonomy; finding → Issue as automatic — `M7-S07`, `M7V-S06` |
+| `M07-S10` | `M7V-10` | 10 | Domain 6: Verification, evidence and completion | `NATIVE ORIGINAL DIAGRAM` | `ACCEPTED under T7-K` | **VERIFIED** | `NONE REQUIRED` | `NONE REQUIRED` | `NONE` | Harrismith evidence read as Triviron's; a drawn cycle — `M7-S12`, `M7-S15`, `M7V-S05` |
+| `M07-S11` | `M7V-11` | 11 | Domain 7: Publication and acceptance boundary | `NATIVE ORIGINAL DIAGRAM` | `ACCEPTED under T7-K` | **VERIFIED** | `NONE REQUIRED` | `NONE REQUIRED` | `NONE` | An invented authority holder **in either direction**; an arrow between the four acts — `M7-S09`, `M7-S16`, `M7V-S09` |
+| `M07-S12` | `M7V-12` | 12 | What the evidence lets you say | `NATIVE ORIGINAL DIAGRAM` | `ACCEPTED under T7-K` | **VERIFIED** | `NONE REQUIRED` | `NONE REQUIRED` | `NONE` | The five classifications read as a ladder; the two `ESTABLISHED` meanings merged — `M7-S18`, `M7V-S21`, `M7V-S23` |
+| `M07-S13` | `M7V-13` | 13 | Unknowns are controlled work | `NATIVE ORIGINAL DIAGRAM` | `ACCEPTED under T7-K` | **VERIFIED** | `NONE REQUIRED` | `NONE REQUIRED` | `NONE` | The four states read as stages; `NONE IDENTIFIED` read as a fifth status — `M7-S13`, `M7V-S22`, `M7V-S25` |
+| `M07-S14` | `M7V-14` | 14 | From decision backlog to BEP workshop | `NATIVE ORIGINAL DIAGRAM` | `ACCEPTED under T7-K` | **VERIFIED** | `NONE REQUIRED` | `NONE REQUIRED` | `NONE` | A teaching workflow read as a project plan or schedule; a connector crossing the authority gate — `M7-S10`, `M7-S11`, `M7V-S16`, `M7V-S30` |
 
 **Geometry** reads **VERIFIED** only where
 **`GEOMETRY ARITHMETIC — VERIFIED AGAINST ACCEPTED SPECIFICATION`** is recorded
@@ -47,12 +47,12 @@ were recalculated. All fourteen reconcile.**
 | Live evidence | **`NONE REQUIRED` × 14** |
 | Mermaid / automatic layout | **`PROHIBITED` × 14** |
 | Rendered | **`NONE` × 14** |
-| Source status | **`T7-K PENDING CHATGPT GOVERNANCE REVIEW` × 14** |
+| Source status | **`ACCEPTED under T7-K` × 14** |
 | Geometry | **VERIFIED × 14** |
 | Reference canvas | **`960 × 540 pt` × 14** |
-| Accepted status | **NONE — no source is accepted** |
+| Accepted status | **`ACCEPTED under T7-K` × 14** — acceptance covers the source definitions only |
 
-**No row implies approval.**
+**Acceptance covers the source definitions only** — not rendering, assembly, PowerPoint, PDF, rehearsal, measured timing, publication, Triviron governance or an actual workshop.
 
 ## 3. Connector census
 
@@ -143,8 +143,8 @@ Triviron conclusion transfers.** **No Module 8 source file is created by
 
 | Field | Value |
 |---|---|
-| Sources | **14 of 14 — `SOURCE COMPLETE — T7-K PENDING CHATGPT GOVERNANCE REVIEW`** |
-| Source acceptance | **NOT GIVEN** |
+| Sources | **14 of 14 — `SOURCE COMPLETE — ACCEPTED`** |
+| Source acceptance | **GIVEN — `T7-K — ACCEPTED`** |
 | Controlling specification | **`T7-J — ACCEPTED after T7-J-R + T7-J-R2`** |
 | Rendered assets | **`NONE`** |
 | Presentation assembly (`T7-L`) | **`NOT STARTED`** |
@@ -152,4 +152,4 @@ Triviron conclusion transfers.** **No Module 8 source file is created by
 | Rehearsal · measured timing | **`NOT PERFORMED`** |
 | Timing | **`20.0 minutes allocated — not measured`** |
 | Publication automation | **`PAUSED`** |
-| Next gate | **ChatGPT governance review of `T7-K`** |
+| Next gate | **ChatGPT governance review of `T7-K0`** |

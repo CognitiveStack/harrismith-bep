@@ -69,7 +69,7 @@ Were it authorised, these would apply without exception:
 | Field | Value |
 |---|---|
 | Increment | **`T7-K`** — visual-source production |
-| Package status | **`T7-K PENDING CHATGPT GOVERNANCE REVIEW`** |
+| Package status | **`ACCEPTED under T7-K`** — **acceptance of source definitions does not authorise rendering** |
 | Rendered assets | **`NONE`** |
 | Rendering | **`NOT STARTED`** |
 | Presentation assembly (`T7-L`) | **`NOT STARTED`** |

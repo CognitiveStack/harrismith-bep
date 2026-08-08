@@ -1,7 +1,7 @@
 # Module 7 — Visual Source Set
 
-**Status:** **`MODULE 7 VISUAL-SOURCE PACKAGE — T7-K PENDING CHATGPT GOVERNANCE
-REVIEW`**
+**Status:** **`MODULE 7 VISUAL-SOURCE PACKAGE — ACCEPTED`.** **`T7-K — ACCEPTED`**
+· `T7-J0` **ACCEPTED**
 
 **`VISUAL SOURCES — NOT RENDERED`**
 
@@ -16,8 +16,9 @@ changes no Harrismith governance.
 > **No source file records project implementation, and no visual source creates
 > authority.**
 > **No visual is rendered. No rendering has been attempted.**
-> **The source baseline is NOT accepted — it is `T7-K PENDING CHATGPT
-> GOVERNANCE REVIEW`.**
+> **The source baseline is `ACCEPTED under T7-K`. Acceptance covers the source
+> definitions only — not rendering, assembly, PowerPoint, PDF, rehearsal,
+> measured timing, publication, Triviron governance or an actual workshop.**
 
 ---
 
@@ -67,8 +68,8 @@ teaching/assets/module-07/
 | Translation Decision Register | **`ACCEPTED after T7-C-R`** — an input, never a drafting surface |
 | Visual specification (`T7-J`) | **`ACCEPTED after T7-J-R + T7-J-R2`** — the controlling production specification |
 | `T7-I` · `T7-J-R` · `T7-J-R2` · `T7-J0` | **`ACCEPTED`** |
-| Visual sources (`T7-K`) | **`SOURCE COMPLETE — T7-K PENDING CHATGPT GOVERNANCE REVIEW`** — 14 of 14 |
-| Source acceptance | **NOT GIVEN** |
+| Visual sources (`T7-K`) | **`SOURCE COMPLETE — ACCEPTED`** — 14 of 14 |
+| Source acceptance | **GIVEN — `T7-K — ACCEPTED`**; **`MODULE 7 VISUAL-SOURCE PACKAGE — ACCEPTED`** |
 | Rendered visual assets | **`NONE`** — see [`rendered/README.md`](rendered/README.md) |
 | Presentation assembly (`T7-L`) | **`NOT STARTED`** |
 | PowerPoint production (`T7-M`) | **`NOT STARTED`** |
@@ -232,7 +233,8 @@ package · a PowerPoint · a PDF · a governance record · Triviron evidence · 
 Triviron answer · evidence that any Module 7 visual has been drawn, rendered,
 reviewed, rehearsed or timed.
 
-**No visual has been drawn or rendered. The package is not accepted.**
+**No visual has been drawn or rendered.** **Acceptance of the source definitions
+does not authorise rendering, assembly or production.**
 
 ## 13. Publication and safety boundary
 
@@ -243,5 +245,5 @@ tree, or any Forma, ACC, Revit or Navisworks configuration.
 
 ## 14. Next gate
 
-**ChatGPT governance review of `T7-K`.** `T7-L` — presentation assembly — is
-**`NOT STARTED`** and may begin only after that review.
+**ChatGPT governance review of `T7-K0`.** `T7-L` — presentation assembly — is
+**`NOT STARTED`** and **may begin only after `T7-K0` governance review**.

@@ -1,6 +1,6 @@
 # Module 7 — Slide-Visual Map
 
-**`MODULE 7 VISUAL-SOURCE PACKAGE — T7-K PENDING CHATGPT GOVERNANCE REVIEW`**
+**`MODULE 7 VISUAL-SOURCE PACKAGE — ACCEPTED`** · **`T7-K — ACCEPTED`**
 
 **`VISUAL SOURCES — NOT RENDERED`**
 
@@ -106,7 +106,7 @@ Slides 1, 2, 3, 4, 12, 13 and 14 each carry their own accepted form.
 ## 6. Downstream mapping
 
 ```text
-Slide n  →  M7V-n (accepted specification)  →  M07-Sn (this package, pending)
+Slide n  →  M7V-n (accepted specification)  →  M07-Sn (this package, ACCEPTED)
                                                    ↓
                                         presentation assembly — T7-L, NOT STARTED
                                                    ↓
@@ -123,12 +123,12 @@ or checklist exists. No PowerPoint or PDF exists.**
 | Field | Value |
 |---|---|
 | Mappings | **14 of 14 — complete and one-to-one** |
-| Sources | **14 of 14 — `T7-K PENDING CHATGPT GOVERNANCE REVIEW`** |
-| Source acceptance | **NOT GIVEN** |
+| Sources | **14 of 14 — `ACCEPTED under T7-K`** |
+| Source acceptance | **GIVEN — `T7-K — ACCEPTED`** |
 | Controlling specification | **`T7-J — ACCEPTED after T7-J-R + T7-J-R2`** |
 | Timing | **`20.0 minutes allocated — not measured`** — unchanged by `T7-K` |
 | Rendered assets | **`NONE`** |
 | Presentation assembly (`T7-L`) | **`NOT STARTED`** |
 | PowerPoint (`T7-M`) | **`NOT STARTED`** |
 | Publication automation | **`PAUSED`** |
-| Next gate | **ChatGPT governance review of `T7-K`** |
+| Next gate | **ChatGPT governance review of `T7-K0`** |

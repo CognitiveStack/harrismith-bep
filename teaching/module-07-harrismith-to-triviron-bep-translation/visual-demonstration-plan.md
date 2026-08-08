@@ -55,9 +55,9 @@ publication · Triviron governance · an actual workshop.
 | Translation Decision Register | **`ACCEPTED after T7-C-R`** — unchanged by `T7-J`; an input, never a drafting surface |
 | Visual specifications | **`M7V-01`–`M7V-14` — 14 of 14, `SPECIFICATION COMPLETE — ACCEPTED`** |
 | Specification acceptance | **GIVEN — `T7-J — ACCEPTED after T7-J-R + T7-J-R2`** |
-| Visual-source files | **`T7-K` — `SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`**; `M07-S01`–`M07-S14` exist in [`../assets/module-07/`](../assets/module-07/). **Not accepted** |
+| Visual-source files | **`T7-K` — `SOURCE COMPLETE — ACCEPTED`**; `M07-S01`–`M07-S14` in [`../assets/module-07/`](../assets/module-07/) |
 | Asset directory `teaching/assets/module-07/` | **EXISTS** — [`../assets/module-07/`](../assets/module-07/), **eighteen files**, created by `T7-K` |
-| Visual register · slide-visual map · rendered README · asset README | **COMPLETE (`T7-K`)** — pending review |
+| Visual register · slide-visual map · rendered README · asset README | **COMPLETE — `ACCEPTED under T7-K`** |
 | Rendered visual assets | **NONE.** No rendering attempted; no renderer or dependency installed |
 | Presentation assembly package | **`NOT STARTED`** — `T7-L` |
 | Module 7 PowerPoint | **`NOT STARTED`** — `T7-M`; no `.pptx` in this repository |
@@ -1486,7 +1486,7 @@ PowerPoint and no PDF exists for Module 7.
 | Scope of the acceptance | **The visual specification only** — not visual sources, rendered assets, presentation assembly, PowerPoint, PDF, rehearsal, measured timing, publication, Triviron governance or an actual workshop |
 | Module 7 teaching content | **`ACCEPTED` — unchanged by `T7-J`, `T7-J-R`, `T7-J-R2` and `T7-J0`** |
 | Translation Decision Register | **`ACCEPTED after T7-C-R` — unchanged, byte-identical** |
-| Visual sources (`T7-K`) | **`SOURCE COMPLETE — PENDING CHATGPT GOVERNANCE REVIEW`** — eighteen files; **not accepted** |
+| Visual sources (`T7-K`) | **`SOURCE COMPLETE — ACCEPTED`** — eighteen files |
 | Presentation assembly (`T7-L`) | **`NOT STARTED`** |
 | PowerPoint production (`T7-M`) | **`NOT STARTED`** |
 | Presentation review | **`NOT PERFORMED`** |
@@ -1496,5 +1496,7 @@ PowerPoint and no PDF exists for Module 7.
 | Module 8 | **Untouched — visual work remains deferred.** Module 7's grammar may later be reused **as empty grammar only** |
 | Publication automation | **`PAUSED`** |
 | `T7-J0` — acceptance propagation | **ACCEPTED** |
-| Next gate | **ChatGPT governance review of `T7-K`** |
+| `T7-K` — visual-source package | **ACCEPTED** |
+| Presentation assembly (`T7-L`) | **`NOT STARTED`** — may begin only after `T7-K0` governance review |
+| Next gate | **ChatGPT governance review of `T7-K0`** |
 
