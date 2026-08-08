@@ -261,8 +261,8 @@ visual-source package** — eighteen files in
 **`ACCEPTED`**, covering the source definitions only. The **`T7-L` presentation
 assembly package** — seven files in
 [`module-07-harrismith-to-triviron-bep-translation/presentation/`](module-07-harrismith-to-triviron-bep-translation/presentation/)
-— is **`PENDING CHATGPT GOVERNANCE REVIEW` and is not accepted**; PowerPoint
-production remains **`NOT STARTED`**, and
+— is **`ACCEPTED after T7-L-R`**, covering the production handoff only; external
+PowerPoint production remains **`NOT STARTED`**, and
 rehearsal and measured timing remain **`NOT PERFORMED`**. **Module 8 is the
 current module: `T8-A — ACCEPTED` and the architecture baseline is `ACCEPTED
 after T8-B`** in

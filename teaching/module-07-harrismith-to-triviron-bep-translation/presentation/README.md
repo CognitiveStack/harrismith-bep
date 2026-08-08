@@ -1,7 +1,7 @@
 # Module 7 — Presentation Assembly Package
 
-**`MODULE 7 PRESENTATION ASSEMBLY PACKAGE — T7-L PENDING CHATGPT GOVERNANCE
-REVIEW`**
+**`MODULE 7 PRESENTATION ASSEMBLY PACKAGE — ACCEPTED after T7-L-R`** ·
+**`T7-L — ACCEPTED after T7-L-R`**
 
 **`TEACHING PRODUCTION HANDOFF — NOT TRIVIRON GOVERNANCE`**
 
@@ -23,14 +23,14 @@ REVIEW`**
 | Field | Value |
 |---|---|
 | Increment | **`T7-L`** — presentation assembly |
-| Package status | **`T7-L PENDING CHATGPT GOVERNANCE REVIEW`** |
-| Package accepted | **NO.** Not accepted until ChatGPT governance review |
+| Package status | **`ACCEPTED after T7-L-R`** |
+| Package accepted | **YES — `T7-L — ACCEPTED after T7-L-R`.** Acceptance of a **production handoff only**: not a produced PowerPoint, not rendered, not deck-reviewed, not rehearsed, not timing-verified |
 | Package files | **Seven** |
 | Teaching content | **`ACCEPTED`** — Module 7 teaching baseline |
 | Translation Decision Register | **`ACCEPTED after T7-C-R`** — 21 rows; controlled Triviron evidence **`NONE IDENTIFIED` × 21**; **0** candidate decisions |
 | Visual specification | **`ACCEPTED after T7-J-R + T7-J-R2`** — `M7V-01`–`M7V-14` |
 | Visual sources | **`ACCEPTED under T7-K`** — `M07-S01`–`M07-S14`, eighteen asset files |
-| `T7-I` · `T7-J0` · `T7-K0` | **`ACCEPTED`** |
+| `T7-I` · `T7-J0` · `T7-K0` · `T7-L-R` | **`ACCEPTED`** |
 | Rendered visual asset | **`NONE`.** No renderer, converter or dependency installed |
 | Module 7 PowerPoint | **`NOT STARTED`** — `T7-M`. No `.pptx` exists or is committed |
 | Deck review | **NOT PERFORMED** |
@@ -260,8 +260,8 @@ tested duration or a final duration.**
 
 | Item | State |
 |---|---|
-| Assembly package (`T7-L`) | **CREATED — `PENDING CHATGPT GOVERNANCE REVIEW`** |
-| PowerPoint (`T7-M`) | **`NOT STARTED`** — may begin only after `T7-L` governance review |
+| Assembly package (`T7-L`) | **`ACCEPTED after T7-L-R`** |
+| PowerPoint (`T7-M`) | **`NOT STARTED`.** **External PowerPoint production may begin only after `T7-L0` governance review** |
 | Future deck filename convention | `HFS-BIM-Management-Module-07-Harrismith-to-Triviron-BEP-Translation-REV01.pptx` — **a naming convention only; no binary exists, and no `.pptx` is committed to this repository** |
 | Rendered assets | **`NONE`** |
 | Deck review | **NOT PERFORMED** |
@@ -280,5 +280,6 @@ Navisworks configuration.**
 
 ## 14. Next gate
 
-**ChatGPT governance review of `T7-L`.** `T7-M` — external PowerPoint production
-— is **`NOT STARTED`** and may begin only after that review.
+**ChatGPT governance review of `T7-L0`.** `T7-L` is **`ACCEPTED after T7-L-R`**.
+`T7-M` — external PowerPoint production — is **`NOT STARTED`** and **may begin
+only after `T7-L0` governance review**.

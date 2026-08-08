@@ -12,9 +12,9 @@ Triviron BEP, and not visual design, presentation production, rehearsal or
 measured timing. **The visual specification is separately accepted**
 ([`visual-demonstration-plan.md`](visual-demonstration-plan.md) — `ACCEPTED
 after T7-J-R + T7-J-R2`), and the **`T7-K` visual-source package is
-`ACCEPTED`**. **The `T7-L` presentation assembly package is `PENDING CHATGPT
-GOVERNANCE REVIEW`; PowerPoint production remains `NOT STARTED`, and rehearsal
-and measured timing remain `NOT PERFORMED`.**
+`ACCEPTED`**. **The `T7-L` presentation assembly package is `ACCEPTED after
+T7-L-R`; external PowerPoint production remains `NOT STARTED`, and rehearsal and
+measured timing remain `NOT PERFORMED`.**
 
 **Central teaching purpose.** *How do we use Harrismith as a reference
 implementation to discover the evidence and decisions required for a future

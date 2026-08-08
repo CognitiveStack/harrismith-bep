@@ -108,7 +108,7 @@ Slides 1, 2, 3, 4, 12, 13 and 14 each carry their own accepted form.
 ```text
 Slide n  →  M7V-n (accepted specification)  →  M07-Sn (this package, ACCEPTED)
                                                    ↓
-                                        presentation assembly — T7-L, NOT STARTED
+                                        presentation assembly — T7-L, ACCEPTED
                                                    ↓
                                         external PowerPoint — T7-M, NOT STARTED
 ```
@@ -128,7 +128,7 @@ or checklist exists. No PowerPoint or PDF exists.**
 | Controlling specification | **`T7-J — ACCEPTED after T7-J-R + T7-J-R2`** |
 | Timing | **`20.0 minutes allocated — not measured`** — unchanged by `T7-K` |
 | Rendered assets | **`NONE`** |
-| Presentation assembly (`T7-L`) | **`T7-L` — `PENDING CHATGPT GOVERNANCE REVIEW`** |
+| Presentation assembly (`T7-L`) | **`ACCEPTED after T7-L-R`** |
 | PowerPoint (`T7-M`) | **`NOT STARTED`** |
 | Publication automation | **`PAUSED`** |
-| Next gate | **ChatGPT governance review of `T7-K0`** |
+| Next gate | **ChatGPT governance review of `T7-L0`** |

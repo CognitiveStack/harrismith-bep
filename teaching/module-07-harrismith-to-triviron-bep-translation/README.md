@@ -11,8 +11,8 @@ Decision Register Triviron governance. **Visual specification `ACCEPTED after
 T7-J-R + T7-J-R2`** — `T7-I` **ACCEPTED**, and the **`MODULE 7
 VISUAL-SPECIFICATION BASELINE` is `ACCEPTED`**; that acceptance covers the
 specification only. **Visual-source package `ACCEPTED under T7-K`** · presentation assembly
-**`T7-L — PENDING CHATGPT GOVERNANCE REVIEW`** · presentation production
-**`NOT STARTED`** · rehearsal
+**`ACCEPTED after T7-L-R`** · presentation production
+**`T7-M — NOT STARTED`** · rehearsal
 **`NOT PERFORMED`** · measured timing **`NOT PERFORMED`**.
 
 **Teaching material. Not governance.** This module explains and structures a
@@ -34,9 +34,9 @@ concepts `M7V-01`–`M7V-14`, **`ACCEPTED after T7-J-R + T7-J-R2`**. **The `T7-K
 visual-source package exists** — [`../assets/module-07/`](../assets/module-07/),
 eighteen files, `M07-S01`–`M07-S14` — and is **`ACCEPTED under T7-K`**; that
 acceptance covers the source definitions only. **The `T7-L` presentation
-assembly package exists** — [`presentation/`](presentation/), seven files,
-**`PENDING CHATGPT GOVERNANCE REVIEW`**. **No rendered asset and no PowerPoint
-exists for Module 7.** The
+assembly package exists** — [`presentation/`](presentation/), seven files, and is
+**`ACCEPTED after T7-L-R`**; that acceptance covers the production handoff only.
+**No rendered asset and no PowerPoint exists for Module 7.** The
 [Translation Decision Register](translation-decision-register.md) exists as a
 **register baseline** — 21 rows, zero controlled Triviron evidence identified,
 zero candidate decisions — and is **`TEACHING / TRANSLATION CONTROL — NOT
@@ -225,5 +225,7 @@ Navisworks configuration. **Publication automation remains `PAUSED`.**
 | **T7-J0** | Visual-specification acceptance propagation | ✅ **ACCEPTED** |
 | **T7-K** | **Visual-source package** — `teaching/assets/module-07/`, eighteen files: fourteen native visual sources `M07-S01`–`M07-S14`, a visual register, a slide-visual map, a package README and a rendered-status README | ✅ **ACCEPTED** |
 | **T7-K0** | Visual-source acceptance propagation | ✅ **ACCEPTED** |
-| **T7-L** | **Presentation assembly package** — [`presentation/`](presentation/), seven files: README, deck specification, slide copy, presenter cues, asset manifest, production checklist, review checklist | **`PENDING CHATGPT GOVERNANCE REVIEW`** |
-| Later | PowerPoint production (**`T7-M` — `NOT STARTED`; may begin only after `T7-L` governance review**) · register evidence/population work | **Not started — each requires its own authorised increment** |
+| **T7-L** | **Presentation assembly package** — [`presentation/`](presentation/), seven files: README, deck specification, slide copy, presenter cues, asset manifest, production checklist, review checklist | ✅ **ACCEPTED after T7-L-R** |
+| **T7-L-R** | Assembly evidence-boundary wording reconciliation | ✅ **ACCEPTED** |
+| **T7-L0** | Presentation-assembly acceptance propagation | **`PENDING CHATGPT GOVERNANCE REVIEW`** |
+| Later | External PowerPoint production (**`T7-M` — `NOT STARTED`; may begin only after `T7-L0` governance review**) · register evidence/population work | **Not started — each requires its own authorised increment** |
