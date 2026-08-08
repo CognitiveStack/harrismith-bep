@@ -147,7 +147,7 @@ Triviron conclusion transfers.** **No Module 8 source file is created by
 | Source acceptance | **GIVEN — `T7-K — ACCEPTED`** |
 | Controlling specification | **`T7-J — ACCEPTED after T7-J-R + T7-J-R2`** |
 | Rendered assets | **`NONE`** |
-| Presentation assembly (`T7-L`) | **`NOT STARTED`** |
+| Presentation assembly (`T7-L`) | **`T7-L` — `PENDING CHATGPT GOVERNANCE REVIEW`** |
 | PowerPoint (`T7-M`) | **`NOT STARTED`** |
 | Rehearsal · measured timing | **`NOT PERFORMED`** |
 | Timing | **`20.0 minutes allocated — not measured`** |

@@ -128,7 +128,7 @@ or checklist exists. No PowerPoint or PDF exists.**
 | Controlling specification | **`T7-J — ACCEPTED after T7-J-R + T7-J-R2`** |
 | Timing | **`20.0 minutes allocated — not measured`** — unchanged by `T7-K` |
 | Rendered assets | **`NONE`** |
-| Presentation assembly (`T7-L`) | **`NOT STARTED`** |
+| Presentation assembly (`T7-L`) | **`T7-L` — `PENDING CHATGPT GOVERNANCE REVIEW`** |
 | PowerPoint (`T7-M`) | **`NOT STARTED`** |
 | Publication automation | **`PAUSED`** |
 | Next gate | **ChatGPT governance review of `T7-K0`** |

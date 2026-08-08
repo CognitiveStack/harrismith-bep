@@ -71,7 +71,7 @@ teaching/assets/module-07/
 | Visual sources (`T7-K`) | **`SOURCE COMPLETE — ACCEPTED`** — 14 of 14 |
 | Source acceptance | **GIVEN — `T7-K — ACCEPTED`**; **`MODULE 7 VISUAL-SOURCE PACKAGE — ACCEPTED`** |
 | Rendered visual assets | **`NONE`** — see [`rendered/README.md`](rendered/README.md) |
-| Presentation assembly (`T7-L`) | **`NOT STARTED`** |
+| Presentation assembly (`T7-L`) | **`T7-L` — `PENDING CHATGPT GOVERNANCE REVIEW`** |
 | PowerPoint production (`T7-M`) | **`NOT STARTED`** |
 | Rehearsal · measured timing | **`NOT PERFORMED`** |
 | Timing | **`20.0 minutes allocated — not measured`** |
@@ -245,5 +245,6 @@ tree, or any Forma, ACC, Revit or Navisworks configuration.
 
 ## 14. Next gate
 
-**ChatGPT governance review of `T7-K0`.** `T7-L` — presentation assembly — is
-**`NOT STARTED`** and **may begin only after `T7-K0` governance review**.
+**ChatGPT governance review of `T7-L`.** `T7-K0` is **ACCEPTED**; the `T7-L`
+presentation assembly package exists and is **`PENDING CHATGPT GOVERNANCE
+REVIEW`**. `T7-M` — external PowerPoint production — is **`NOT STARTED`**.

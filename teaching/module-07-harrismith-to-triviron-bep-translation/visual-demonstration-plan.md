@@ -59,7 +59,7 @@ publication · Triviron governance · an actual workshop.
 | Asset directory `teaching/assets/module-07/` | **EXISTS** — [`../assets/module-07/`](../assets/module-07/), **eighteen files**, created by `T7-K` |
 | Visual register · slide-visual map · rendered README · asset README | **COMPLETE — `ACCEPTED under T7-K`** |
 | Rendered visual assets | **NONE.** No rendering attempted; no renderer or dependency installed |
-| Presentation assembly package | **`NOT STARTED`** — `T7-L` |
+| Presentation assembly package | **`T7-L` — CREATED, `PENDING CHATGPT GOVERNANCE REVIEW`** — [`presentation/`](presentation/), seven files |
 | Module 7 PowerPoint | **`NOT STARTED`** — `T7-M`; no `.pptx` in this repository |
 | Presentation review | **NOT PERFORMED** |
 | Rehearsal | **`NOT PERFORMED`** |
@@ -1487,7 +1487,7 @@ PowerPoint and no PDF exists for Module 7.
 | Module 7 teaching content | **`ACCEPTED` — unchanged by `T7-J`, `T7-J-R`, `T7-J-R2` and `T7-J0`** |
 | Translation Decision Register | **`ACCEPTED after T7-C-R` — unchanged, byte-identical** |
 | Visual sources (`T7-K`) | **`SOURCE COMPLETE — ACCEPTED`** — eighteen files |
-| Presentation assembly (`T7-L`) | **`NOT STARTED`** |
+| Presentation assembly (`T7-L`) | **`PENDING CHATGPT GOVERNANCE REVIEW`** — seven files; **not accepted** |
 | PowerPoint production (`T7-M`) | **`NOT STARTED`** |
 | Presentation review | **`NOT PERFORMED`** |
 | Rendered assets | **`NONE`** |
@@ -1497,6 +1497,8 @@ PowerPoint and no PDF exists for Module 7.
 | Publication automation | **`PAUSED`** |
 | `T7-J0` — acceptance propagation | **ACCEPTED** |
 | `T7-K` — visual-source package | **ACCEPTED** |
-| Presentation assembly (`T7-L`) | **`NOT STARTED`** — may begin only after `T7-K0` governance review |
-| Next gate | **ChatGPT governance review of `T7-K0`** |
+| `T7-K0` — acceptance propagation | **ACCEPTED** |
+| Presentation assembly (`T7-L`) | **`PENDING CHATGPT GOVERNANCE REVIEW`** |
+| PowerPoint production (`T7-M`) | **`NOT STARTED`** — may begin only after `T7-L` governance review |
+| Next gate | **ChatGPT governance review of `T7-L`** |
 

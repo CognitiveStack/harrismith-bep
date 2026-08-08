@@ -258,8 +258,11 @@ visual concepts `M7V-01`–`M7V-14` and visual-production STOPs
 cover teaching content and the visual specification only.** The **`T7-K`
 visual-source package** — eighteen files in
 [`assets/module-07/`](assets/module-07/), `M07-S01`–`M07-S14` — is
-**`ACCEPTED`**, covering the source definitions only; presentation assembly and
-production remain **`NOT STARTED`**, and
+**`ACCEPTED`**, covering the source definitions only. The **`T7-L` presentation
+assembly package** — seven files in
+[`module-07-harrismith-to-triviron-bep-translation/presentation/`](module-07-harrismith-to-triviron-bep-translation/presentation/)
+— is **`PENDING CHATGPT GOVERNANCE REVIEW` and is not accepted**; PowerPoint
+production remains **`NOT STARTED`**, and
 rehearsal and measured timing remain **`NOT PERFORMED`**. **Module 8 is the
 current module: `T8-A — ACCEPTED` and the architecture baseline is `ACCEPTED
 after T8-B`** in
